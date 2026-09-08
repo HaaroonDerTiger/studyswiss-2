@@ -21,7 +21,7 @@ Solothurn, Appenzell Ausserrhoden, Glarus, Graubünden und Schwyz. Ein Kanton
 ist dabei **reine Datenlage** — es gibt keinen Codepfad, der Kantone
 aufzählt. Wie einer dazukommt, steht in Abschnitt 11.
 
-Stand dieser Datei: 3. September 2026.
+Stand dieser Datei: 8. September 2026.
 
 ---
 
@@ -1787,25 +1787,65 @@ Diese Punkte sind bewusst nicht entschieden und im Code mit `// OFFEN:` markiert
   durchsehen, bevor etwas auf `live` geht. Das ist der einzige Schritt, den
   keine Prüfung dieses Repos ersetzen kann.
 
-- **Das Gerüst fehlt noch, nicht nur der Build.** Drei Dinge, die keine
-  Prüfung dieses Repos ersetzt und die vor allem anderen kommen:
+- **Das Gerüst steht.** Die drei Lücken, die hier jahrelang standen, sind
+  geschlossen — und die letzte hat beim Schliessen gezeigt, warum sie zählte:
 
-  1. **Das Flutter-Projekt hat keine Plattformordner.** `frontend/ios/` und
-     `frontend/android/` enthalten Notizen und Icons, aber kein Xcode-Projekt,
-     kein `Info.plist`, kein `AndroidManifest.xml`, keine Gradle-Dateien.
-     `flutter create . --platforms=ios,android --org ch.studyswiss` erzeugt
-     sie; danach die beiden `*.ergaenzungen.md` einarbeiten.
-  2. **Der Gradle-Wrapper fehlt.** `./gradlew` steht in dieser Datei, in der
-     Checkliste und im `Dockerfile` — die Datei gibt es nicht, und das
-     Docker-Bild scheitert schon beim Kopieren.
-  3. **Das Repo ist kein Git-Repo.** Ein `.gitignore` liegt da, ein `.git`
-     nicht.
+  1. **Die Plattformordner sind da.** `frontend/ios/` trägt das
+     Xcode-Projekt (Bundle-ID `at.horizonapps.study-swiss`, Team
+     `MP66YWAZ26`), `frontend/android/` das Gradle-Projekt. `flutter
+     analyze` läuft ohne einen einzigen Befund, und ein IPA ist gebaut
+     worden.
+  2. **Der Gradle-Wrapper liegt in `app/backend/`** (Gradle 8.10). Das
+     `Dockerfile` kopiert ihn; ohne ihn scheiterte das Bild beim `COPY`.
+  3. **Das Repo ist ein Git-Repo.** Die `.gitignore` hält Bauergebnisse,
+     Pods, Geheimnisse und die 2,0 GB unter `kantone/` draussen — letztere
+     sind laut §1 Referenz, kein Build-Input. **Sie sind damit nicht
+     gesichert und gehören in eine eigene Sicherung.**
 
-- **Der erste echte Build.** Auf dem Entwicklungsrechner gibt es weder einen
-  Kotlin- noch einen Flutter-Compiler; abgesichert wird über die sieben
-  Prüfungen aus Abschnitt 8. Der erste `./gradlew build` und `flutter run`
-  werden trotzdem Meldungen bringen. Das ist erwartet und schnell behoben —
-  aber es ist der eine Punkt, den man nicht vorwegnehmen kann.
+- **Der erste echte Build hat stattgefunden.** Er brachte, was §10 erwartet
+  hatte, und mehr: **81 Übersetzungsfehler in 10 Dateien.** Sie sind behoben;
+  `./gradlew test` ist grün, `buildFatJar` liefert das Jar, der Server
+  antwortet auf `/gesundheit` mit 439 Vorlagen und 405 Blöcken, und
+  Gastanmeldung, Katalog, Übung, Bewertung und Fehlerarchiv sind über die
+  echte API durchgespielt.
+
+  **Der Befund dahinter ist wichtiger als die Zahl.** Solange nichts
+  übersetzte, lief auch `engine/Validator.kt` und `engine/TextValidator.kt`
+  nie — die Kotlin-Tore waren gegenüber `pruefung/tore.py` auseinander-
+  gelaufen, ohne dass es auffallen konnte. Sie verlangten Lösung, Gegenprobe
+  und Fehlermuster am Template, wo `mehrfeld` sie je Feld und
+  `tabelle_auswahl` sie je Zeile trägt; sie kannten den Status `importiert`
+  nicht, obwohl §4.5.1 ihn führt; sie lasen «Euro» als Teilzeichenkette und
+  lehnten damit «Europas» ab; sie sahen in den Koeffizienten einer Gleichung
+  einen Verrat der Lösung; und sie lasen den Satz einer Markieren-Aufgabe aus
+  dem Stamm statt aus `woerter`. Zusammen ergab das über 3'000 Fehlalarme —
+  genug, um jeden echten Befund darunter zu begraben.
+
+  **Ein echter Fund steckte darunter, und zwar der aus §8:**
+  `AufgabenService.set()` verwarf eine Aufgabe, deren **Stamm** schon gezogen
+  war. Beim Markieren und bei Kommas ist der Stamm nur die Arbeitsanweisung
+  («Markiere alle verbalen Teile.»); der Satz steht in `woerter`. Ein Block
+  mit zwölf Aufgaben lieferte darum **zwei** — dieselbe stille Sackgasse, die
+  §8 für `tabelle_auswahl` beschreibt, nur an einer zweiten Stelle. Verglichen
+  wird jetzt alles Sichtbare (`sichtbarerSchluessel` in `engine/Spec.kt`):
+  Stamm, Wörter, Zeilen, Feldbeschriftungen, Paare, Elemente, Gitter, Raster
+  und Bauplan.
+
+  **Zwei Prüfer schlugen falschen Alarm und wurden zuerst repariert** (§8):
+  Die Reichweitenprüfung zog fest 500-mal und sah bei einem Block mit 312
+  Aufgaben rund 249 — nicht weil eine unerreichbar wäre, sondern weil
+  zufällige Ziehungen so streuen (Sammelbilderproblem). Und zwei
+  Katalog-Tests schrieben die Zürcher Listen wortwörtlich fest
+  (`bereicheVon("mathematik") == ["mathematik"]`, 74 Aufsatzthemen) — ein
+  Test, der Kantone aufzählt, ist derselbe Fehler wie ein Screen, der es tut
+  (§9).
+
+  **Ein echter inhaltlicher Befund kam aus dem einzigen Tor, das die
+  Kotlin-Fassung strenger führt als die Python-Fassung:** `tg-begegnung`
+  ergab Lösungen wie 36.923077 bei `zahlformat: dezimal2`. §2.2 verlangt, dass
+  alles im Kopf erreichbar ist; die Bedingung `s % (v1+v2) == 0` erzwingt das
+  jetzt. `tore.py` prüft Nachkommastellen nur bei `ganz` — dort fehlt die
+  Regel noch.
 
 - **Das Schema wird erzeugt, nicht migriert.** §4.1 nennt Flyway;
   `Application.kt` ruft `SchemaUtils.create`. Der Unterschied fällt erst nach
