@@ -1,0 +1,56 @@
+# Nach .env kopieren und ausfüllen. Diese Datei gehört NICHT ins Repository.
+#
+#   cp start/umgebung.beispiel .env
+
+DOMAIN=api.ihre-domain.ch
+
+# openssl rand -base64 32
+DB_PASSWORT=
+
+# openssl rand -base64 48
+JWT_GEHEIMNIS=
+JWT_ISSUER=studyswiss
+JWT_AUDIENCE=studyswiss-app
+
+# Müssen mit den Ladeneinträgen übereinstimmen — sonst schlägt jede
+# Anmeldung und jede Quittungsprüfung fehl.
+APPLE_BUNDLE_ID=ch.studyswiss.app
+ANDROID_PAKET=ch.studyswiss.app
+GOOGLE_CLIENT_ID=
+
+# Ohne diese beiden lehnt der Server in Produktion JEDEN Kauf ab.
+# Das ist Absicht: lieber kein Plus als eines, das sich jeder selbst ausstellt.
+APPLE_SERVER_TOKEN=
+GOOGLE_SERVER_TOKEN=
+
+# Nur für die Aufsatzkorrektur. Bleibt er leer, ist sie abgeschaltet und
+# der Rest der App läuft unverändert weiter.
+ANTHROPIC_API_KEY=
+
+STUDYSWISS_VERSION=2.0.0
+
+
+# ---- Website und Schulverkauf --------------------------------------
+# Ohne diese Kennungen weist der Server jede Anmeldung aus dem Browser ab.
+# Im Web hat Apple eine SERVICE-ID (nicht die Bundle-ID) und Google eine
+# eigene Web-Client-ID.
+APPLE_SERVICE_ID=
+GOOGLE_WEB_CLIENT_ID=
+# Woher der Browser kommen darf. Fehlt eine Adresse, blockiert der Browser
+# sie stumm — kein Fehler im Protokoll, nur eine leere Seite.
+WEB_HERKUNFT=studyswiss.ch,www.studyswiss.ch,app.studyswiss.ch
+
+# Absender der Offerten und Rechnungen. Solange sie fehlen, stehen auf den
+# Belegen sichtbare Platzhalter — das ist Absicht.
+RECHNUNG_ABSENDER=StudySwiss
+RECHNUNG_ZUSATZ=
+RECHNUNG_STRASSE=
+RECHNUNG_PLZ=
+RECHNUNG_ORT=
+RECHNUNG_UID=
+RECHNUNG_EMAIL=rechnungen@studyswiss.ch
+# Eine QR-IBAN, nicht die gewoehnliche. Ohne sie wird bewusst kein Zahlteil
+# erzeugt: Ein QR-Code ohne gueltiges Konto sieht aus wie einer mit.
+RECHNUNG_IBAN=
+MWST_SATZ=8.1
+ZAHLUNGSFRIST_TAGE=30

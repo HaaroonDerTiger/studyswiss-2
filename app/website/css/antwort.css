@@ -1,0 +1,121 @@
+/* StudySwiss — die Eingabeflächen
+   ==================================================================
+   Die Bauteile aus `bausteine.css` bleiben, was sie sind; hier steht
+   nur, was eine Aufgabe zusätzlich braucht. Alles ist antippbar
+   dimensioniert — 44 px ist die kleinste Fläche, die ein Daumen
+   zuverlässig trifft, und ein Kind, das die Aufgabe lösen kann, soll
+   nicht an der Bedienung scheitern.                                  */
+
+/* --- Auswahl --------------------------------------------------------- */
+.wahlliste{display:flex;flex-direction:column;gap:10px}
+.wahl{display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  min-height:56px;padding:14px 16px;border:1.5px solid var(--line);
+  border-radius:var(--r-karte);background:var(--card);color:var(--ink);
+  font:600 15px/1.4 'Bitter',Georgia,serif;cursor:pointer;
+  transition:border-color .12s,background .12s}
+.wahl:hover{border-color:var(--tan3);background:var(--tan1)}
+.wahl.an{border-color:var(--ink);background:var(--tan1)}
+.wahl.klein{min-height:46px;padding:10px 14px;font-size:14px}
+.wahl.vergeben{opacity:.42}
+.wahl .kaestchen{width:20px;height:20px;border:1.5px solid var(--ink3);border-radius:5px;
+  flex:none;display:flex;align-items:center;justify-content:center;color:var(--cream)}
+.wahl.an .kaestchen{background:var(--ink);border-color:var(--ink)}
+.wahl .platz{width:22px;height:22px;border-radius:11px;background:var(--ink);
+  color:var(--cream);font:700 12px 'Nunito Sans';display:flex;align-items:center;
+  justify-content:center;flex:none}
+.wahl em{font-style:normal;background:var(--gelb1);padding:0 3px;border-radius:4px}
+
+/* --- Das Antwortfeld -------------------------------------------------- */
+.antwortfeld input{font:600 20px 'Bitter',Georgia,serif;height:56px;text-align:center}
+.einheit{font:600 15px 'Nunito Sans';color:var(--ink5);flex:none}
+.feldreihe{display:grid;gap:0 16px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.feldreihe input{font:600 17px 'Bitter',Georgia,serif;text-align:center}
+
+/* --- Wörter antippen -------------------------------------------------- */
+.satz{display:flex;flex-wrap:wrap;align-items:center;gap:6px 3px}
+.wort{border:1px solid var(--tan3);background:transparent;color:var(--ink);
+  border-radius:9px;padding:11px 10px;cursor:pointer;
+  font:500 15px 'Bitter',Georgia,serif}
+.wort:hover{border-color:var(--tan)}
+.wort.an{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.satzzeichen,.wortfest{font:500 15px 'Bitter',Georgia,serif}
+.kommasatz{row-gap:10px;gap:0}
+.wortfest{padding:0 1px}
+.luecke{width:34px;height:44px;margin:0 1px;border-radius:8px;cursor:pointer;
+  border:1px dashed var(--tan3);background:transparent;color:var(--ink);
+  font:700 17px 'Bitter',Georgia,serif;line-height:1}
+.luecke:hover{border-color:var(--tan);background:var(--tan1)}
+.luecke.an{background:var(--ink);color:var(--cream);border:1px solid var(--ink)}
+
+/* --- Zeilen mit Auswahl ----------------------------------------------- */
+.zeilenwahl{display:flex;flex-direction:column;gap:12px}
+.zeilenwahl .zeile{border:1px solid var(--line);border-radius:14px;padding:14px 16px;
+  background:var(--card)}
+.zeilentext{font:500 15px/1.45 'Bitter',Georgia,serif;margin-bottom:10px}
+.zeilenoptionen{display:flex;flex-wrap:wrap;gap:8px}
+.zeilenoptionen .chip{cursor:pointer;height:36px;padding:0 14px}
+.zeilenoptionen .chip:hover{border-color:var(--tan3);background:var(--tan1)}
+
+/* --- Zuordnen --------------------------------------------------------- */
+.zuordnung{display:grid;gap:22px;grid-template-columns:1fr 1fr;align-items:start}
+.wahl.ziel{justify-content:space-between}
+.zielname{color:var(--ink5);font-weight:400;font-family:'Nunito Sans'}
+.zielwert{font:600 15px 'Bitter',Georgia,serif}
+
+/* --- Gitter ----------------------------------------------------------- */
+.gitterrahmen{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:10px}
+.gitter{display:block;width:100%;height:auto;max-height:56vh;cursor:crosshair;
+  touch-action:manipulation}
+
+/* --- Raster einfärben -------------------------------------------------- */
+.faerbraster{display:grid;gap:4px;max-width:320px}
+.rasterfeld{aspect-ratio:1;border:1.5px solid var(--tan3);border-radius:7px;
+  background:var(--card);cursor:pointer;min-height:44px}
+.rasterfeld:hover{border-color:var(--tan)}
+.rasterfeld.an{background:var(--ink);border-color:var(--ink)}
+
+/* --- Wertetabelle ------------------------------------------------------
+   Als Raster, nicht als Flexzeile: Ein Flex-Kind schrumpft nicht unter
+   die Breite seines Inhalts, und dadurch lief die Tabelle auf dem
+   Telefon aus dem Bild. `minmax(0,1fr)` erlaubt genau dieses Schrumpfen. */
+.wtabelle{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:10px 12px 12px;overflow:hidden}
+.wt-kopf,.wt-zeile{display:grid;grid-template-columns:22px minmax(0,1fr) minmax(0,1fr);
+  gap:8px;align-items:center}
+.wt-kopf{padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.wt-kopf>div:not(.wt-nr){font:700 11px/1.25 'Nunito Sans';letter-spacing:.06em;
+  color:var(--tan6);text-transform:uppercase;overflow-wrap:anywhere}
+.wt-zeile+.wt-zeile{margin-top:8px}
+.wt-nr{font:400 12px/1 'Nunito Sans';color:var(--ink3);text-align:right}
+.wt-feld{width:100%;min-width:0;height:46px;border:1.5px solid var(--tan3);
+  border-radius:12px;background:var(--paper);padding:0 12px;color:var(--ink);
+  font:600 16px 'Bitter',Georgia,serif;text-align:center}
+.wt-feld:focus{outline:none;border-color:var(--tan);background:var(--card)}
+
+/* --- Die Rückmeldung ---------------------------------------------------
+   In der App fährt sie als Blatt von unten herein; das ist die Geste
+   eines Telefons. Am Laptop steht sie unter der Aufgabe — dort, wo der
+   Blick ohnehin hinwandert, wenn man auf «Prüfen» getippt hat. */
+.rueckmeldung{border-radius:var(--r-karte);padding:20px;margin-top:22px;
+  border:1.5px solid}
+.rueckmeldung.richtig{background:var(--green1);border-color:var(--green);color:#2c5a37}
+.rueckmeldung.falsch{background:var(--red1);border-color:var(--red);color:#8d1912}
+.rueckmeldung h3{color:inherit}
+.rueckmeldung p{color:inherit;margin:8px 0 0;font:400 15px/1.55 'Nunito Sans'}
+.rueckmeldung .weg{margin-top:14px;padding-top:14px;border-top:1px solid rgba(0,0,0,.10)}
+.rueckmeldung .weg ol{margin:6px 0 0;padding-left:20px}
+.rueckmeldung .weg li{margin-bottom:5px}
+
+/* --- Aufgabenkopf ------------------------------------------------------- */
+.aufgabenkopf{display:flex;justify-content:space-between;align-items:center;
+  gap:16px;margin-bottom:14px}
+.aufgabenstamm{font:600 21px/1.4 'Bitter',Georgia,serif;white-space:pre-wrap;
+  margin:0 0 22px}
+.aufgabenstamm em{font-style:normal;background:var(--gelb1);padding:0 4px;border-radius:4px}
+
+@media (max-width:900px){
+  .zuordnung{grid-template-columns:1fr}
+  .aufgabenstamm{font-size:18px}
+  .antwortfeld input{font-size:18px}
+}

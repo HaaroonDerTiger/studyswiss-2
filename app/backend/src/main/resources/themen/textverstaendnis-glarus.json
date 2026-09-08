@@ -1,0 +1,77 @@
+{
+ "fach": "textverstaendnis-gl",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Glarus",
+ "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026",
+ "punkteTotal": 17,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Inhalt und Figuren",
+   "punkte": 10,
+   "anteil": 59,
+   "beschreibung": "Teil A der Sprachkunde. Die Fragen beziehen sich auf einen beigelegten literarischen Text.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Inhalt und Handlungsverlauf erfassen",
+     "lernzielId": "DTGL.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "DTGL.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Figuren und ihre Beweggründe verstehen",
+     "lernzielId": "DTGL.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Gefühle und Absichten belegen",
+     "lernzielId": "DTGL.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Deuten und Sprache im Text",
+   "punkte": 7,
+   "anteil": 41,
+   "beschreibung": "Wortbedeutungen im Zusammenhang, Erzählweise und die Aussage des ganzen Textes.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortbedeutung aus dem Zusammenhang erschliessen",
+     "lernzielId": "DTGL.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Bildhafte Ausdrücke deuten",
+     "lernzielId": "DTGL.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Erzählperspektive und Erzählweise",
+     "lernzielId": "DTGL.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Aussage und Titel des Textes",
+     "lernzielId": "DTGL.2.04",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

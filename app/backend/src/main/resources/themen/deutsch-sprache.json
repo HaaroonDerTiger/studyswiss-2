@@ -1,0 +1,541 @@
+{
+ "fach": "sprachbetrachtung",
+ "name": "Deutsch Sprachbetrachtung",
+ "pruefung": "ZAP 2",
+ "quelle": "Pruefungsanforderungen ZAP2/ZAP3 IMS, August 2022, Kapitel 3",
+ "punkteTotal": 52,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "3.1",
+   "name": "Wortschatz",
+   "punkte": 10,
+   "anteil": 19,
+   "beschreibung": "Wortfamilien, Wortfelder, Synonyme und Antonyme, Ober- und Unterbegriffe, Redewendungen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wortfamilie: Nomen, Verb, Adjektiv ableiten",
+     "lernzielId": "D2.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Wortfamilie: passendes Wort einsetzen",
+     "lernzielId": "D2.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Wortfeld: das gesuchte Wort finden",
+     "lernzielId": "D2.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Synonyme",
+     "lernzielId": "D2.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Antonyme",
+     "lernzielId": "D2.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Das unpassende Ersatzwort streichen",
+     "lernzielId": "D2.1.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    },
+    {
+     "code": "1.07",
+     "name": "Ober- und Unterbegriffe",
+     "lernzielId": "D2.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Redewendungen und Sprichwörter",
+     "lernzielId": "D2.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Bedeutungsnuancen unterscheiden",
+     "lernzielId": "D2.1.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "3.2.1",
+   "name": "Wortarten bestimmen",
+   "punkte": 6,
+   "anteil": 12,
+   "beschreibung": "Verb, Nomen, Adjektiv, Pronomen, Konjunktion, Präposition, übrige Partikeln, im Satzzusammenhang.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortart im Satz bestimmen",
+     "lernzielId": "D2.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Konjunktion oder Präposition?",
+     "lernzielId": "D2.2.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Übrige Partikeln herausschreiben",
+     "lernzielId": "D2.2.03",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "Pronomen erkennen",
+     "lernzielId": "D2.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Aussagen über Wortformen prüfen",
+     "lernzielId": "D2.2.05",
+     "pflichtset": 13,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3.2.1",
+   "name": "Verb. Zeitformen",
+   "punkte": 4,
+   "anteil": 8,
+   "beschreibung": "Präsens, Präteritum, Perfekt, Plusquamperfekt, Futur I bilden, bestimmen und umformen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Zeitform bestimmen",
+     "lernzielId": "D2.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "In die verlangte Zeitform setzen",
+     "lernzielId": "D2.3.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Nächstfolgende Zeitform bilden",
+     "lernzielId": "D2.3.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Personalform wechseln",
+     "lernzielId": "D2.3.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Hilfsverb: sein oder haben?",
+     "lernzielId": "D2.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Starke Verbformen sicher bilden",
+     "lernzielId": "D2.3.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "3.2.1",
+   "name": "Verb. Modus",
+   "punkte": 6,
+   "anteil": 11,
+   "beschreibung": "Indikativ, Konjunktiv I, Konjunktiv II und Imperativ bestimmen, bilden und in ihrer Funktion deuten.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Modus bestimmen",
+     "lernzielId": "D2.4.01",
+     "pflichtset": 13
+    },
+    {
+     "code": "4.02",
+     "name": "Was drückt die Modalform aus?",
+     "lernzielId": "D2.4.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Konjunktiv I bilden",
+     "lernzielId": "D2.4.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Konjunktiv II bilden",
+     "lernzielId": "D2.4.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.05",
+     "name": "Imperativ bilden",
+     "lernzielId": "D2.4.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.06",
+     "name": "Direkte in indirekte Rede umformen",
+     "lernzielId": "D2.4.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.03"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "3.2.1",
+   "name": "Verb. Aktiv, Passiv, Modalverben",
+   "punkte": 3,
+   "anteil": 6,
+   "beschreibung": "Aktiv- und Passivformen erkennen und umformen; Modalverben und ihre Bedeutung.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Aktiv oder Passiv bestimmen",
+     "lernzielId": "D2.5.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.02",
+     "name": "Aktiv ins Passiv umformen",
+     "lernzielId": "D2.5.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Passiv ins Aktiv umformen",
+     "lernzielId": "D2.5.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.04",
+     "name": "Modalverb einsetzen",
+     "lernzielId": "D2.5.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.05",
+     "name": "Bedeutung des Modalverbs",
+     "lernzielId": "D2.5.05",
+     "pflichtset": 16,
+     "voraussetzungen": [
+      "5.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "3.2.1",
+   "name": "Nomen, Artikel, Pronomen",
+   "punkte": 6,
+   "anteil": 11,
+   "beschreibung": "Genus, Numerus und Kasus: Wortgruppen deklinieren, Fälle bestimmen, Fallfehler finden.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Kasus bestimmen",
+     "lernzielId": "D2.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Wortgruppe in den richtigen Fall setzen",
+     "lernzielId": "D2.6.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Fallendungen ergänzen",
+     "lernzielId": "D2.6.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.04",
+     "name": "Fallfehler finden und korrigieren",
+     "lernzielId": "D2.6.04",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "6.02"
+     ]
+    },
+    {
+     "code": "6.05",
+     "name": "Genus und Plural",
+     "lernzielId": "D2.6.05",
+     "pflichtset": 18
+    },
+    {
+     "code": "6.06",
+     "name": "Relativpronomen einsetzen",
+     "lernzielId": "D2.6.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.07",
+     "name": "Deklinationstabelle vervollständigen",
+     "lernzielId": "D2.6.07",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "6.03"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "3.2.1",
+   "name": "Adjektiv",
+   "punkte": 2,
+   "anteil": 4,
+   "beschreibung": "Vergleichsformen und Deklination des Adjektivs.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Vergleichsformen bilden",
+     "lernzielId": "D2.7.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.02",
+     "name": "Vergleichsform bestimmen",
+     "lernzielId": "D2.7.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.03",
+     "name": "Adjektivdeklination",
+     "lernzielId": "D2.7.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.03"
+     ]
+    },
+    {
+     "code": "7.04",
+     "name": "Adjektiv, Partizip oder Adverb?",
+     "lernzielId": "D2.7.04",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "katalog": "3.2.2",
+   "name": "Satzglieder und verbale Teile",
+   "punkte": 5,
+   "anteil": 10,
+   "beschreibung": "Subjekt und Objekte markieren und bestimmen; Personalform, Infinitiv, Partizip II, Verbzusatz.",
+   "unterthemen": [
+    {
+     "code": "8.01",
+     "name": "Objekt markieren und Fall bestimmen",
+     "lernzielId": "D2.8.01",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "8.02",
+     "name": "Subjekt markieren",
+     "lernzielId": "D2.8.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "8.03",
+     "name": "Subjekt oder Objekt unterscheiden",
+     "lernzielId": "D2.8.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.01",
+      "8.02"
+     ]
+    },
+    {
+     "code": "8.04",
+     "name": "Zwei Objekte in einem Satz",
+     "lernzielId": "D2.8.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.01"
+     ]
+    },
+    {
+     "code": "8.05",
+     "name": "Verbale Teile markieren",
+     "lernzielId": "D2.8.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "8.06",
+     "name": "Verbale Teile bestimmen",
+     "lernzielId": "D2.8.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.05"
+     ]
+    },
+    {
+     "code": "8.07",
+     "name": "Verbale Klammer erkennen",
+     "lernzielId": "D2.8.07",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "8.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "katalog": "3.2.2",
+   "name": "Satzbau und Satzzeichen",
+   "punkte": 10,
+   "anteil": 19,
+   "beschreibung": "Sätze mit Konjunktionen verbinden, Satzglieder in Nebensätze umformen, Kommas setzen, Fehler korrigieren.",
+   "unterthemen": [
+    {
+     "code": "9.01",
+     "name": "Zwei Sätze mit einer Konjunktion verbinden",
+     "lernzielId": "D2.9.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "9.02",
+     "name": "Passende Konjunktion einsetzen",
+     "lernzielId": "D2.9.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "9.01"
+     ]
+    },
+    {
+     "code": "9.03",
+     "name": "Satzglied in einen Nebensatz umformen",
+     "lernzielId": "D2.9.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.03"
+     ]
+    },
+    {
+     "code": "9.04",
+     "name": "Nebensatz in ein Satzglied umformen",
+     "lernzielId": "D2.9.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "9.03"
+     ]
+    },
+    {
+     "code": "9.05",
+     "name": "Relativsatz bilden",
+     "lernzielId": "D2.9.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.06"
+     ]
+    },
+    {
+     "code": "9.06",
+     "name": "Fehlende Kommas setzen",
+     "lernzielId": "D2.9.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "9.01"
+     ]
+    },
+    {
+     "code": "9.07",
+     "name": "Hauptsatz und Nebensatz unterscheiden",
+     "lernzielId": "D2.9.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "9.08",
+     "name": "Formale Fehler korrigieren",
+     "lernzielId": "D2.9.08",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "9.06"
+     ]
+    }
+   ]
+  }
+ ]
+}

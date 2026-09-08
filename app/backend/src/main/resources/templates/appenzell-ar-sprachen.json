@@ -1,0 +1,5078 @@
+[
+ {
+  "templateId": "ar-fr-lesen",
+  "lernzielId": "FAR.1.01",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text, ohne jedes Wort zu verstehen.",
+   "Zahlen und Uhrzeiten sind meist der Schlüssel zu den Fragen.",
+   "Was im Text nicht steht, kann nicht die Antwort sein."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen.",
+   "Ein Stichwort im Text suchen.",
+   "Die Stelle darum herum lesen.",
+   "Alle vier Möglichkeiten prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Quel âge a Nils ?",
+    "optionen": [
+     "neuf ans",
+     "treize ans",
+     "six ans",
+     "dix ans"
+    ],
+    "loesung": [
+     "neuf ans"
+    ],
+    "erklaerung": "«Théo a treize ans et il partage sa chambre avec son frère Nils, qui a neuf ans.»",
+    "fehler": [
+     {
+      "antwort": "treize ans",
+      "diagnoseId": "bruder",
+      "feedback": "Treize ans, c'est l'âge de Théo, le frère aîné."
+     },
+     {
+      "antwort": "six ans",
+      "diagnoseId": "uhrzeit",
+      "feedback": "Six heures et demie, c'est l'heure du lever — pas un âge."
+     },
+     {
+      "antwort": "dix ans",
+      "diagnoseId": "uhrzeit_zwei",
+      "feedback": "Dix heures, c'est l'heure à laquelle Théo éteint la lumière."
+     }
+    ]
+   },
+   {
+    "stamm": "Qu'est-ce qui dérange Théo le matin ?",
+    "optionen": [
+     "Nils se lève tôt et chante",
+     "la chambre est trop petite",
+     "Nils laisse la lumière allumée",
+     "la mère crie"
+    ],
+    "loesung": [
+     "Nils se lève tôt et chante"
+    ],
+    "erklaerung": "«Le problème, c'est que Nils se lève à six heures et demie et qu'il chante.»",
+    "fehler": [
+     {
+      "antwort": "la chambre est trop petite",
+      "diagnoseId": "platz",
+      "feedback": "Théo dit justement le contraire: «ce n'est pas la place»."
+     },
+     {
+      "antwort": "Nils laisse la lumière allumée",
+      "diagnoseId": "abend",
+      "feedback": "C'est Théo qui éteint la lumière le soir, selon l'accord."
+     },
+     {
+      "antwort": "la mère crie",
+      "diagnoseId": "mutter",
+      "feedback": "La mère criait quand elle était jeune — pas maintenant."
+     }
+    ]
+   },
+   {
+    "stamm": "Depuis quand les frères ont-ils un accord ?",
+    "optionen": [
+     "depuis septembre",
+     "depuis la semaine dernière",
+     "depuis samedi",
+     "depuis un an"
+    ],
+    "loesung": [
+     "depuis septembre"
+    ],
+    "erklaerung": "«Depuis septembre, les deux frères ont un accord.»",
+    "fehler": [
+     {
+      "antwort": "depuis la semaine dernière",
+      "diagnoseId": "vergessen",
+      "feedback": "La semaine dernière, Nils a oublié l'accord — il existait déjà."
+     },
+     {
+      "antwort": "depuis samedi",
+      "diagnoseId": "aufraeumen",
+      "feedback": "Le samedi, c'est le jour du rangement pour celui qui oublie."
+     },
+     {
+      "antwort": "depuis un an",
+      "diagnoseId": "zeit",
+      "feedback": "Le texte parle de septembre, pas d'une année entière."
+     }
+    ]
+   },
+   {
+    "stamm": "Que fait Nils selon l'accord ?",
+    "optionen": [
+     "il reste au lit jusqu'à sept heures",
+     "il range la chambre chaque jour",
+     "il éteint la lumière",
+     "il dort dans une autre chambre"
+    ],
+    "loesung": [
+     "il reste au lit jusqu'à sept heures"
+    ],
+    "erklaerung": "«Le matin, Nils reste au lit jusqu'à sept heures.»",
+    "fehler": [
+     {
+      "antwort": "il range la chambre chaque jour",
+      "diagnoseId": "strafe",
+      "feedback": "Ranger la chambre, c'est la conséquence pour celui qui oublie — et seulement le samedi."
+     },
+     {
+      "antwort": "il éteint la lumière",
+      "diagnoseId": "theo",
+      "feedback": "C'est Théo qui éteint la lumière le soir, selon l'accord."
+     },
+     {
+      "antwort": "il dort dans une autre chambre",
+      "diagnoseId": "erfunden",
+      "feedback": "Les deux frères partagent la même chambre."
+     }
+    ]
+   },
+   {
+    "stamm": "Où ont-ils mis les règles ?",
+    "optionen": [
+     "sur la porte",
+     "sous le lit",
+     "dans l'armoire",
+     "sur le bureau"
+    ],
+    "loesung": [
+     "sur la porte"
+    ],
+    "erklaerung": "«Ils ont écrit les règles sur une feuille et l'ont accrochée à la porte.»",
+    "fehler": [
+     {
+      "antwort": "sous le lit",
+      "diagnoseId": "erfunden",
+      "feedback": "Le texte ne parle pas de ce qui se trouve sous le lit."
+     },
+     {
+      "antwort": "dans l'armoire",
+      "diagnoseId": "moebel",
+      "feedback": "L'armoire est mentionnée, mais pas comme endroit pour la feuille."
+     },
+     {
+      "antwort": "sur le bureau",
+      "diagnoseId": "moebel_zwei",
+      "feedback": "Les bureaux sont mentionnés au début, sans la feuille."
+     }
+    ]
+   },
+   {
+    "stamm": "Combien de fois Nils a-t-il oublié l'accord la semaine dernière ?",
+    "optionen": [
+     "trois fois",
+     "une fois",
+     "deux fois",
+     "sept fois"
+    ],
+    "loesung": [
+     "trois fois"
+    ],
+    "erklaerung": "«La semaine dernière, Nils a oublié l'accord trois fois.»",
+    "fehler": [
+     {
+      "antwort": "une fois",
+      "diagnoseId": "zahl",
+      "feedback": "Le texte dit trois fois, pas une seule — relis la phrase."
+     },
+     {
+      "antwort": "deux fois",
+      "diagnoseId": "zahl_zwei",
+      "feedback": "Deux, c'est le nombre de lits et de bureaux dans la chambre."
+     },
+     {
+      "antwort": "sept fois",
+      "diagnoseId": "uhrzeit",
+      "feedback": "Sept heures, c'est l'heure du lever selon l'accord."
+     }
+    ]
+   },
+   {
+    "stamm": "Comment Théo a-t-il réagi ?",
+    "optionen": [
+     "il a ajouté une règle",
+     "il a crié",
+     "il a appelé sa mère",
+     "il a déchiré la feuille"
+    ],
+    "loesung": [
+     "il a ajouté une règle"
+    ],
+    "erklaerung": "«Théo n'a rien dit; il a seulement ajouté une ligne à la feuille.»",
+    "fehler": [
+     {
+      "antwort": "il a crié",
+      "diagnoseId": "mutter",
+      "feedback": "Crier, c'est ce que faisait leur mère à leur âge."
+     },
+     {
+      "antwort": "il a appelé sa mère",
+      "diagnoseId": "erfunden",
+      "feedback": "Théo règle la chose lui-même, sans sa mère."
+     },
+     {
+      "antwort": "il a déchiré la feuille",
+      "diagnoseId": "gegenteil",
+      "feedback": "Il a écrit dessus, il ne l'a pas détruite."
+     }
+    ]
+   },
+   {
+    "stamm": "Que pense la mère de l'accord ?",
+    "optionen": [
+     "elle le trouve amusant",
+     "elle le trouve inutile",
+     "elle veut le changer",
+     "elle ne le connaît pas"
+    ],
+    "loesung": [
+     "elle le trouve amusant"
+    ],
+    "erklaerung": "«Leur mère trouve l'accord amusant.»",
+    "fehler": [
+     {
+      "antwort": "elle le trouve inutile",
+      "diagnoseId": "gegenteil",
+      "feedback": "Elle en parle avec sympathie, pas avec critique."
+     },
+     {
+      "antwort": "elle veut le changer",
+      "diagnoseId": "erfunden",
+      "feedback": "Elle ne change rien; elle commente seulement l'idée des fils."
+     },
+     {
+      "antwort": "elle ne le connaît pas",
+      "diagnoseId": "gegenteil_zwei",
+      "feedback": "Elle le connaît: elle le compare à sa propre jeunesse."
+     }
+    ]
+   },
+   {
+    "stamm": "Dans le texte, «un accord» est …",
+    "optionen": [
+     "une entente entre deux personnes",
+     "un instrument de musique",
+     "une punition",
+     "une chambre"
+    ],
+    "loesung": [
+     "une entente entre deux personnes"
+    ],
+    "erklaerung": "Les deux frères sont d'accord sur des règles — c'est le sens du mot ici.",
+    "fehler": [
+     {
+      "antwort": "un instrument de musique",
+      "diagnoseId": "homonym",
+      "feedback": "Le mot existe aussi en musique, mais pas dans ce texte."
+     },
+     {
+      "antwort": "une punition",
+      "diagnoseId": "folge",
+      "feedback": "La punition, c'est ranger la chambre le samedi."
+     },
+     {
+      "antwort": "une chambre",
+      "diagnoseId": "ort",
+      "feedback": "La chambre est le lieu de l'histoire, pas l'entente elle-même."
+     }
+    ]
+   },
+   {
+    "stamm": "Dans le texte, «éteindre la lumière» veut dire …",
+    "optionen": [
+     "faire le noir",
+     "allumer une lampe",
+     "ouvrir la fenêtre",
+     "fermer la porte"
+    ],
+    "loesung": [
+     "faire le noir"
+    ],
+    "erklaerung": "«Éteindre» est le contraire d'«allumer»: la lumière s'arrête.",
+    "fehler": [
+     {
+      "antwort": "allumer une lampe",
+      "diagnoseId": "gegenteil",
+      "feedback": "C'est exactement le contraire du verbe «éteindre»."
+     },
+     {
+      "antwort": "ouvrir la fenêtre",
+      "diagnoseId": "erfunden",
+      "feedback": "La fenêtre n'apparaît pas dans le texte; il s'agit de la lumière."
+     },
+     {
+      "antwort": "fermer la porte",
+      "diagnoseId": "tuer",
+      "feedback": "La porte sert à accrocher la feuille, rien de plus."
+     }
+    ]
+   },
+   {
+    "stamm": "Comment dit-on «Er teilt sein Zimmer» en français ?",
+    "optionen": [
+     "Il partage sa chambre",
+     "Il partage son chambre",
+     "Il partage sa salle",
+     "Il divise sa chambre"
+    ],
+    "loesung": [
+     "Il partage sa chambre"
+    ],
+    "erklaerung": "«La chambre» est féminin, donc «sa chambre»; «partager» est le verbe juste.",
+    "fehler": [
+     {
+      "antwort": "Il partage son chambre",
+      "diagnoseId": "genus",
+      "feedback": "«Chambre» est féminin: sa chambre, pas son chambre."
+     },
+     {
+      "antwort": "Il partage sa salle",
+      "diagnoseId": "wort",
+      "feedback": "«Une salle» est une grande pièce, par exemple une salle de classe."
+     },
+     {
+      "antwort": "Il divise sa chambre",
+      "diagnoseId": "verb",
+      "feedback": "«Diviser» veut dire couper en parties; ici il s'agit de partager avec quelqu'un."
+     }
+    ]
+   },
+   {
+    "stamm": "Comment dit-on «um halb sieben» en français ?",
+    "optionen": [
+     "à six heures et demie",
+     "à sept heures et demie",
+     "à demie sept",
+     "à six heures trente-demi"
+    ],
+    "loesung": [
+     "à six heures et demie"
+    ],
+    "erklaerung": "Auf Französisch wird von der VOLLEN Stunde aus gezählt: «six heures et demie» ist halb sieben.",
+    "fehler": [
+     {
+      "antwort": "à sept heures et demie",
+      "diagnoseId": "deutsch_uebertragen",
+      "feedback": "«Sept heures et demie» wäre halb acht — im Französischen zählt die vergangene Stunde."
+     },
+     {
+      "antwort": "à demie sept",
+      "diagnoseId": "wortstellung",
+      "feedback": "Diese Wortstellung gibt es im Französischen nicht."
+     },
+     {
+      "antwort": "à six heures trente-demi",
+      "diagnoseId": "doppelt",
+      "feedback": "Entweder «six heures trente» oder «six heures et demie» — nicht beides."
+     }
+    ]
+   }
+  ],
+  "text": "La chambre de Théo\n\nThéo a treize ans et il partage sa chambre avec son frère Nils, qui a neuf\nans. La chambre n'est pas grande: deux lits, deux bureaux, une armoire.\n\n«Le problème, ce n'est pas la place», dit Théo. «Le problème, c'est que Nils\nse lève à six heures et demie et qu'il chante.»\n\nDepuis septembre, les deux frères ont un accord. Le matin, Nils reste au lit\njusqu'à sept heures. Le soir, Théo éteint la lumière avant dix heures. Ils ont\nécrit les règles sur une feuille et l'ont accrochée à la porte.\n\nÇa ne marche pas toujours. La semaine dernière, Nils a oublié l'accord trois\nfois. Théo n'a rien dit; il a seulement ajouté une ligne à la feuille: «Qui\noublie, range la chambre le samedi.»\n\nLeur mère trouve l'accord amusant. «Moi, à leur âge, je criais», dit-elle.\n«Eux, ils écrivent.»",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Compréhension et vocabulaire",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-fr-wortschatz",
+  "lernzielId": "FAR.1.04",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Setze das Wort probeweise in einen Satz ein, den du kennst.",
+   "Achte auf falsche Freunde — «la monnaie» ist nicht das Portemonnaie.",
+   "Viele Wörter erschliessen sich aus dem Deutschen oder Englischen."
+  ],
+  "loesungsweg": [
+   "Das gesuchte Wort im Zusammenhang lesen.",
+   "Die Möglichkeiten der Reihe nach einsetzen.",
+   "Die passende Bedeutung wählen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was heisst «une trousse»?",
+    "optionen": [
+     "ein Etui",
+     "eine Hose",
+     "eine Truhe",
+     "ein Trost"
+    ],
+    "loesung": [
+     "ein Etui"
+    ],
+    "erklaerung": "«une trousse» ist das Etui, in dem die Stifte stecken.",
+    "fehler": [
+     {
+      "antwort": "eine Hose",
+      "diagnoseId": "wortschatz",
+      "feedback": "Eine Hose heisst «un pantalon». Richtig ist «ein Etui»."
+     },
+     {
+      "antwort": "eine Truhe",
+      "diagnoseId": "klang",
+      "feedback": "«Truhe» klingt ähnlich, hat aber nichts damit zu tun."
+     },
+     {
+      "antwort": "ein Trost",
+      "diagnoseId": "klang",
+      "feedback": "Auch «Trost» klingt nur ähnlich. Richtig ist «ein Etui»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «la récréation»?",
+    "optionen": [
+     "die Pause",
+     "die Freizeit",
+     "die Erholung im Ferienlager",
+     "die Wiederholung"
+    ],
+    "loesung": [
+     "die Pause"
+    ],
+    "erklaerung": "«la récréation» ist die Pause auf dem Schulhof.",
+    "fehler": [
+     {
+      "antwort": "die Freizeit",
+      "diagnoseId": "wortschatz",
+      "feedback": "Die Freizeit heisst «le temps libre». Richtig ist «die Pause»."
+     },
+     {
+      "antwort": "die Erholung im Ferienlager",
+      "diagnoseId": "zu_weit",
+      "feedback": "Das Wort meint die Schulpause, nichts Grösseres."
+     },
+     {
+      "antwort": "die Wiederholung",
+      "diagnoseId": "klang",
+      "feedback": "Die Wiederholung hiesse «la répétition»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nLe matin, je prends mon ______ à sept heures.",
+    "optionen": [
+     "petit déjeuner",
+     "déjeuner",
+     "dîner",
+     "goûter"
+    ],
+    "loesung": [
+     "petit déjeuner"
+    ],
+    "erklaerung": "«le petit déjeuner» ist das Frühstück.",
+    "fehler": [
+     {
+      "antwort": "déjeuner",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le déjeuner» ist das Mittagessen. Richtig ist «petit déjeuner»."
+     },
+     {
+      "antwort": "dîner",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le dîner» ist das Abendessen. Richtig ist «petit déjeuner»."
+     },
+     {
+      "antwort": "goûter",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le goûter» ist der Zvieri am Nachmittag."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «faire les courses»?",
+    "optionen": [
+     "einkaufen gehen",
+     "rennen",
+     "einen Kurs besuchen",
+     "kochen"
+    ],
+    "loesung": [
+     "einkaufen gehen"
+    ],
+    "erklaerung": "«faire les courses» heisst einkaufen — trotz «course» für Lauf.",
+    "fehler": [
+     {
+      "antwort": "rennen",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«une course» kann ein Lauf sein; in dieser festen Wendung heisst es einkaufen."
+     },
+     {
+      "antwort": "einen Kurs besuchen",
+      "diagnoseId": "falscher_freund",
+      "feedback": "Ein Kurs hiesse «un cours» mit s am Ende."
+     },
+     {
+      "antwort": "kochen",
+      "diagnoseId": "wortschatz",
+      "feedback": "Kochen hiesse «faire la cuisine». Richtig ist «einkaufen gehen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nÀ la boulangerie, on achète du ______ .",
+    "optionen": [
+     "pain",
+     "poisson",
+     "fromage",
+     "papier"
+    ],
+    "loesung": [
+     "pain"
+    ],
+    "erklaerung": "In der Bäckerei kauft man Brot: du pain.",
+    "fehler": [
+     {
+      "antwort": "poisson",
+      "diagnoseId": "wortschatz",
+      "feedback": "Fisch kauft man in der «poissonnerie». Richtig ist «pain»."
+     },
+     {
+      "antwort": "fromage",
+      "diagnoseId": "wortschatz",
+      "feedback": "Käse gibt es in der «fromagerie». Richtig ist «pain»."
+     },
+     {
+      "antwort": "papier",
+      "diagnoseId": "wortschatz",
+      "feedback": "Papier hat mit der Bäckerei nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «un immeuble»?",
+    "optionen": [
+     "ein Mehrfamilienhaus",
+     "ein Möbelstück",
+     "ein Grundstück",
+     "ein Denkmal"
+    ],
+    "loesung": [
+     "ein Mehrfamilienhaus"
+    ],
+    "erklaerung": "«un immeuble» ist ein grösseres Wohnhaus mit mehreren Wohnungen.",
+    "fehler": [
+     {
+      "antwort": "ein Möbelstück",
+      "diagnoseId": "klang",
+      "feedback": "Ein Möbelstück heisst «un meuble» — ohne das erste i."
+     },
+     {
+      "antwort": "ein Grundstück",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Grundstück heisst «un terrain». Richtig ist «ein Mehrfamilienhaus»."
+     },
+     {
+      "antwort": "ein Denkmal",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Denkmal heisst «un monument». Richtig ist «ein Mehrfamilienhaus»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nJe cherche la clé de l'______ .",
+    "optionen": [
+     "appartement",
+     "apparence",
+     "appareil",
+     "appétit"
+    ],
+    "loesung": [
+     "appartement"
+    ],
+    "erklaerung": "«un appartement» ist die Wohnung.",
+    "fehler": [
+     {
+      "antwort": "apparence",
+      "diagnoseId": "wortschatz",
+      "feedback": "«l'apparence» ist das Aussehen. Richtig ist «appartement»."
+     },
+     {
+      "antwort": "appareil",
+      "diagnoseId": "wortschatz",
+      "feedback": "«un appareil» ist ein Gerät. Richtig ist «appartement»."
+     },
+     {
+      "antwort": "appétit",
+      "diagnoseId": "wortschatz",
+      "feedback": "«l'appétit» ist der Appetit. Richtig ist «appartement»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «à pied»?",
+    "optionen": [
+     "zu Fuss",
+     "mit dem Velo",
+     "auf dem Berg",
+     "am Ufer"
+    ],
+    "loesung": [
+     "zu Fuss"
+    ],
+    "erklaerung": "«à pied» heisst zu Fuss; «le pied» ist der Fuss.",
+    "fehler": [
+     {
+      "antwort": "mit dem Velo",
+      "diagnoseId": "wortschatz",
+      "feedback": "Mit dem Velo hiesse «à vélo». Richtig ist «zu Fuss»."
+     },
+     {
+      "antwort": "auf dem Berg",
+      "diagnoseId": "wortschatz",
+      "feedback": "Auf dem Berg hiesse «à la montagne». Richtig ist «zu Fuss»."
+     },
+     {
+      "antwort": "am Ufer",
+      "diagnoseId": "wortschatz",
+      "feedback": "Am Ufer hiesse «au bord de l'eau». Richtig ist «zu Fuss»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nPour aller à Saint-Gall, je prends le ______ .",
+    "optionen": [
+     "train",
+     "trajet",
+     "voyageur",
+     "quai"
+    ],
+    "loesung": [
+     "train"
+    ],
+    "erklaerung": "«le train» ist der Zug; «le trajet» wäre die Fahrt, «le quai» das Perron.",
+    "fehler": [
+     {
+      "antwort": "trajet",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le trajet» ist die Strecke oder Fahrt, nicht das Fahrzeug."
+     },
+     {
+      "antwort": "voyageur",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le voyageur» ist der Reisende. Richtig ist «train»."
+     },
+     {
+      "antwort": "quai",
+      "diagnoseId": "wortschatz",
+      "feedback": "«le quai» ist das Perron. Richtig ist «train»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «un aller-retour»?",
+    "optionen": [
+     "ein Retourbillett",
+     "eine Umleitung",
+     "ein Umweg",
+     "eine Verspätung"
+    ],
+    "loesung": [
+     "ein Retourbillett"
+    ],
+    "erklaerung": "«un aller-retour» ist die Fahrkarte für Hin- und Rückweg.",
+    "fehler": [
+     {
+      "antwort": "eine Umleitung",
+      "diagnoseId": "wortschatz",
+      "feedback": "Eine Umleitung heisst «une déviation». Richtig ist «ein Retourbillett»."
+     },
+     {
+      "antwort": "ein Umweg",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Umweg heisst «un détour». Richtig ist «ein Retourbillett»."
+     },
+     {
+      "antwort": "eine Verspätung",
+      "diagnoseId": "wortschatz",
+      "feedback": "Eine Verspätung heisst «un retard». Richtig ist «ein Retourbillett»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nCet été, nous partons en ______ en Bretagne.",
+    "optionen": [
+     "vacances",
+     "vacance",
+     "travail",
+     "semaine"
+    ],
+    "loesung": [
+     "vacances"
+    ],
+    "erklaerung": "«partir en vacances» heisst in die Ferien fahren; das Wort steht immer in der Mehrzahl.",
+    "fehler": [
+     {
+      "antwort": "vacance",
+      "diagnoseId": "zahl",
+      "feedback": "«vacances» steht in dieser Bedeutung immer in der Mehrzahl."
+     },
+     {
+      "antwort": "travail",
+      "diagnoseId": "bedeutung",
+      "feedback": "«le travail» ist die Arbeit. Richtig ist «vacances»."
+     },
+     {
+      "antwort": "semaine",
+      "diagnoseId": "bedeutung",
+      "feedback": "«la semaine» ist die Woche. Richtig ist «vacances»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «se dépêcher»?",
+    "optionen": [
+     "sich beeilen",
+     "sich verabschieden",
+     "sich ausruhen",
+     "sich verirren"
+    ],
+    "loesung": [
+     "sich beeilen"
+    ],
+    "erklaerung": "«se dépêcher» heisst sich beeilen — «Dépêche-toi !» heisst Beeil dich!",
+    "fehler": [
+     {
+      "antwort": "sich verabschieden",
+      "diagnoseId": "wortschatz",
+      "feedback": "Sich verabschieden heisst «dire au revoir»."
+     },
+     {
+      "antwort": "sich ausruhen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sich ausruhen heisst «se reposer» — das Gegenteil."
+     },
+     {
+      "antwort": "sich verirren",
+      "diagnoseId": "wortschatz",
+      "feedback": "Sich verirren heisst «se perdre». Richtig ist «sich beeilen»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortschatz: Alltag, Essen und unterwegs",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-fr-verben",
+  "lernzielId": "FAR.2.01",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Prüfe zuerst die Person: je, tu, il, nous, vous, ils.",
+   "Im passé composé steht zuerst das Hilfsverb, dann das Partizip.",
+   "avoir, être, faire und aller sind unregelmässig — ihre Formen musst du auswendig können."
+  ],
+  "loesungsweg": [
+   "Das Subjekt bestimmen.",
+   "Die Zeitform am Signalwort erkennen.",
+   "Die passende Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Présent:\n\nNous ______ (parler) français à la maison.",
+    "optionen": [
+     "parlons",
+     "parlez",
+     "parlent",
+     "parle"
+    ],
+    "loesung": [
+     "parlons"
+    ],
+    "erklaerung": "Nach «nous» steht bei den Verben auf -er die Endung «-ons».",
+    "fehler": [
+     {
+      "antwort": "parlez",
+      "diagnoseId": "person",
+      "feedback": "«parlez» gehört zu «vous»; «nous» verlangt die Endung -ons."
+     },
+     {
+      "antwort": "parlent",
+      "diagnoseId": "person",
+      "feedback": "«parlent» gehört zu «ils» oder «elles». Richtig ist «parlons»."
+     },
+     {
+      "antwort": "parle",
+      "diagnoseId": "person",
+      "feedback": "«parle» gehört zu je, tu oder il. Richtig ist «parlons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Présent:\n\nTu ______ (chercher) tes clés.",
+    "optionen": [
+     "cherches",
+     "cherche",
+     "cherchons",
+     "cherchez"
+    ],
+    "loesung": [
+     "cherches"
+    ],
+    "erklaerung": "Nach «tu» steht bei den Verben auf -er die Endung «-es».",
+    "fehler": [
+     {
+      "antwort": "cherche",
+      "diagnoseId": "person",
+      "feedback": "«cherche» gehört zu je, il oder elle. Richtig ist «cherches»."
+     },
+     {
+      "antwort": "cherchons",
+      "diagnoseId": "person",
+      "feedback": "«cherchons» gehört zu «nous». Richtig ist «cherches»."
+     },
+     {
+      "antwort": "cherchez",
+      "diagnoseId": "person",
+      "feedback": "«cherchez» gehört zu «vous». Richtig ist «cherches»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Présent:\n\nLes voisins ______ (regarder) le match.",
+    "optionen": [
+     "regardent",
+     "regarde",
+     "regardons",
+     "regardez"
+    ],
+    "loesung": [
+     "regardent"
+    ],
+    "erklaerung": "«Les voisins» ist dritte Person Mehrzahl; die Endung lautet «-ent».",
+    "fehler": [
+     {
+      "antwort": "regarde",
+      "diagnoseId": "zahl",
+      "feedback": "«regarde» steht in der Einzahl; hier sind es mehrere Personen."
+     },
+     {
+      "antwort": "regardons",
+      "diagnoseId": "person",
+      "feedback": "«regardons» gehört zu «nous». Richtig ist «regardent»."
+     },
+     {
+      "antwort": "regardez",
+      "diagnoseId": "person",
+      "feedback": "«regardez» gehört zu «vous». Richtig ist «regardent»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nJ'______ (manger) une pomme.",
+    "optionen": [
+     "ai mangé",
+     "suis mangé",
+     "as mangé",
+     "ai manger"
+    ],
+    "loesung": [
+     "ai mangé"
+    ],
+    "erklaerung": "Verben auf -er bilden das passé composé mit «avoir»; das Partizip endet auf -é.",
+    "fehler": [
+     {
+      "antwort": "suis mangé",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«manger» nimmt «avoir», nicht «être»; es ist kein Bewegungsverb."
+     },
+     {
+      "antwort": "as mangé",
+      "diagnoseId": "person",
+      "feedback": "«as» gehört zu «tu»; nach «je» steht «ai»."
+     },
+     {
+      "antwort": "ai manger",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «ai» steht das Partizip «mangé», nicht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nNous ______ (travailler) tout le week-end.",
+    "optionen": [
+     "avons travaillé",
+     "sommes travaillés",
+     "avons travailler",
+     "avez travaillé"
+    ],
+    "loesung": [
+     "avons travaillé"
+    ],
+    "erklaerung": "«travailler» bildet das passé composé mit «avoir»; nach «nous» steht «avons».",
+    "fehler": [
+     {
+      "antwort": "sommes travaillés",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«travailler» nimmt «avoir»; mit «être» stünde ausserdem eine Angleichung."
+     },
+     {
+      "antwort": "avons travailler",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «avons» steht das Partizip «travaillé»."
+     },
+     {
+      "antwort": "avez travaillé",
+      "diagnoseId": "person",
+      "feedback": "«avez» gehört zu «vous»; «nous» verlangt «avons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nElles ______ (écouter) la radio.",
+    "optionen": [
+     "ont écouté",
+     "a écouté",
+     "sont écoutées",
+     "ont écouter"
+    ],
+    "loesung": [
+     "ont écouté"
+    ],
+    "erklaerung": "«ont» ist die dritte Person Mehrzahl von «avoir»; das Partizip lautet «écouté».",
+    "fehler": [
+     {
+      "antwort": "a écouté",
+      "diagnoseId": "zahl",
+      "feedback": "«a» steht in der Einzahl; «elles» verlangt «ont»."
+     },
+     {
+      "antwort": "sont écoutées",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«écouter» nimmt «avoir», nicht «être». Richtig ist «ont écouté»."
+     },
+     {
+      "antwort": "ont écouter",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «ont» steht das Partizip, nicht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe ______ quinze ans.",
+    "optionen": [
+     "ai",
+     "suis",
+     "fais",
+     "vais"
+    ],
+    "loesung": [
+     "ai"
+    ],
+    "erklaerung": "Das Alter wird im Französischen mit «avoir» ausgedrückt: j'ai quinze ans.",
+    "fehler": [
+     {
+      "antwort": "suis",
+      "diagnoseId": "wendung",
+      "feedback": "Im Deutschen ist man alt, im Französischen hat man Jahre."
+     },
+     {
+      "antwort": "fais",
+      "diagnoseId": "wendung",
+      "feedback": "«faire» heisst machen und passt nicht zum Alter."
+     },
+     {
+      "antwort": "vais",
+      "diagnoseId": "wendung",
+      "feedback": "«aller» heisst gehen und passt hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nVous ______ en retard aujourd'hui.",
+    "optionen": [
+     "êtes",
+     "avez",
+     "faites",
+     "allez"
+    ],
+    "loesung": [
+     "êtes"
+    ],
+    "erklaerung": "«être en retard» heisst zu spät sein; nach «vous» steht «êtes».",
+    "fehler": [
+     {
+      "antwort": "avez",
+      "diagnoseId": "wendung",
+      "feedback": "«avoir» hiesse haben; zu spät ist man, man hat es nicht."
+     },
+     {
+      "antwort": "faites",
+      "diagnoseId": "wendung",
+      "feedback": "«faire» heisst machen. Richtig ist «êtes»."
+     },
+     {
+      "antwort": "allez",
+      "diagnoseId": "wendung",
+      "feedback": "«aller» heisst gehen. Richtig ist «êtes»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ______ ses devoirs après le repas.",
+    "optionen": [
+     "fait",
+     "fais",
+     "font",
+     "faisons"
+    ],
+    "loesung": [
+     "fait"
+    ],
+    "erklaerung": "«faire» in der dritten Person Einzahl lautet «fait».",
+    "fehler": [
+     {
+      "antwort": "fais",
+      "diagnoseId": "person",
+      "feedback": "«fais» gehört zu «je» oder «tu». Richtig ist «fait»."
+     },
+     {
+      "antwort": "font",
+      "diagnoseId": "zahl",
+      "feedback": "«font» steht in der Mehrzahl. Richtig ist «fait»."
+     },
+     {
+      "antwort": "faisons",
+      "diagnoseId": "person",
+      "feedback": "«faisons» gehört zu «nous». Richtig ist «fait»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous ______ au cinéma ce soir.",
+    "optionen": [
+     "allons",
+     "allez",
+     "vont",
+     "va"
+    ],
+    "loesung": [
+     "allons"
+    ],
+    "erklaerung": "«aller» nach «nous» lautet «allons».",
+    "fehler": [
+     {
+      "antwort": "allez",
+      "diagnoseId": "person",
+      "feedback": "«allez» gehört zu «vous». Richtig ist «allons»."
+     },
+     {
+      "antwort": "vont",
+      "diagnoseId": "person",
+      "feedback": "«vont» gehört zu «ils» oder «elles». Richtig ist «allons»."
+     },
+     {
+      "antwort": "va",
+      "diagnoseId": "zahl",
+      "feedback": "«va» steht in der Einzahl. Richtig ist «allons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nIl ______ (avoir) de la chance.",
+    "optionen": [
+     "a eu",
+     "est eu",
+     "a avoir",
+     "a été"
+    ],
+    "loesung": [
+     "a eu"
+    ],
+    "erklaerung": "Das Partizip von «avoir» lautet «eu»; das Hilfsverb ist ebenfalls «avoir».",
+    "fehler": [
+     {
+      "antwort": "est eu",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«avoir» bildet das passé composé mit sich selbst, nicht mit «être»."
+     },
+     {
+      "antwort": "a avoir",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «a» steht das Partizip «eu», nicht die Grundform."
+     },
+     {
+      "antwort": "a été",
+      "diagnoseId": "verb",
+      "feedback": "«a été» ist das passé composé von «être», nicht von «avoir»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nNous ______ (être) très contents.",
+    "optionen": [
+     "avons été",
+     "sommes été",
+     "avons eu",
+     "étions"
+    ],
+    "loesung": [
+     "avons été"
+    ],
+    "erklaerung": "Auch «être» bildet das passé composé mit «avoir»; das Partizip lautet «été».",
+    "fehler": [
+     {
+      "antwort": "sommes été",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«être» nimmt im passé composé «avoir», nicht sich selbst."
+     },
+     {
+      "antwort": "avons eu",
+      "diagnoseId": "verb",
+      "feedback": "«eu» ist das Partizip von «avoir», nicht von «être»."
+     },
+     {
+      "antwort": "étions",
+      "diagnoseId": "zeit",
+      "feedback": "«étions» ist das imparfait und beschreibt einen Zustand."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Regelmässige Verben und die vier häufigsten",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-fr-verben-2",
+  "lernzielId": "FAR.2.05",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bewegungsverben wie aller, venir, partir und sortir bilden das passé composé mit «être».",
+   "Beim Hilfsverb «être» richtet sich das Partizip nach dem Subjekt.",
+   "prendre, mettre, pouvoir, devoir, vouloir und savoir sind unregelmässig — ihre Formen musst du kennen."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob es ein Bewegungsverb ist.",
+   "Das passende Hilfsverb wählen.",
+   "Das Partizip anhängen und bei «être» angleichen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Passé composé:\n\nIl ______ (partir) sans rien dire.",
+    "optionen": [
+     "est parti",
+     "a parti",
+     "est partir",
+     "a été parti"
+    ],
+    "loesung": [
+     "est parti"
+    ],
+    "erklaerung": "«partir» ist ein Bewegungsverb und bildet das passé composé mit «être».",
+    "fehler": [
+     {
+      "antwort": "a parti",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Bewegungsverben wie «partir» nehmen «être», nicht «avoir»."
+     },
+     {
+      "antwort": "est partir",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «est» steht das Partizip «parti». Richtig ist «est parti»."
+     },
+     {
+      "antwort": "a été parti",
+      "diagnoseId": "form",
+      "feedback": "Diese Verbindung gibt es nicht; «est parti» genügt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nElles ______ (venir) à pied.",
+    "optionen": [
+     "sont venues",
+     "sont venu",
+     "ont venu",
+     "sont venir"
+    ],
+    "loesung": [
+     "sont venues"
+    ],
+    "erklaerung": "«venir» nimmt «être»; mit «elles» bekommt das Partizip die Endung «-es».",
+    "fehler": [
+     {
+      "antwort": "sont venu",
+      "diagnoseId": "angleichung",
+      "feedback": "Bei «être» richtet sich das Partizip nach dem Subjekt: elles sont venues."
+     },
+     {
+      "antwort": "ont venu",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«venir» ist ein Bewegungsverb und nimmt «être»."
+     },
+     {
+      "antwort": "sont venir",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «sont» steht das Partizip «venues»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nNous ______ (rester) à la maison.",
+    "optionen": [
+     "sommes restés",
+     "avons resté",
+     "sommes rester",
+     "sommes resté"
+    ],
+    "loesung": [
+     "sommes restés"
+    ],
+    "erklaerung": "«rester» gehört zu den Verben mit «être»; das Partizip gleicht sich an.",
+    "fehler": [
+     {
+      "antwort": "avons resté",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«rester» nimmt «être», obwohl niemand sich bewegt — es gehört zur festen Liste."
+     },
+     {
+      "antwort": "sommes rester",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «sommes» steht das Partizip, nicht die Grundform."
+     },
+     {
+      "antwort": "sommes resté",
+      "diagnoseId": "angleichung",
+      "feedback": "Bei «nous» bekommt das Partizip ein «-s»: restés."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe ______ le train de sept heures.",
+    "optionen": [
+     "prends",
+     "prend",
+     "prenons",
+     "prenez"
+    ],
+    "loesung": [
+     "prends"
+    ],
+    "erklaerung": "«prendre» in der ersten Person Einzahl lautet «prends».",
+    "fehler": [
+     {
+      "antwort": "prend",
+      "diagnoseId": "person",
+      "feedback": "«prend» gehört zu «il» oder «elle». Richtig ist «prends»."
+     },
+     {
+      "antwort": "prenons",
+      "diagnoseId": "person",
+      "feedback": "«prenons» gehört zu «nous». Richtig ist «prends»."
+     },
+     {
+      "antwort": "prenez",
+      "diagnoseId": "person",
+      "feedback": "«prenez» gehört zu «vous». Richtig ist «prends»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ______ son manteau avant de sortir.",
+    "optionen": [
+     "met",
+     "mets",
+     "mettons",
+     "mettent"
+    ],
+    "loesung": [
+     "met"
+    ],
+    "erklaerung": "«mettre» in der dritten Person Einzahl lautet «met».",
+    "fehler": [
+     {
+      "antwort": "mets",
+      "diagnoseId": "person",
+      "feedback": "«mets» gehört zu «je» oder «tu». Richtig ist «met»."
+     },
+     {
+      "antwort": "mettons",
+      "diagnoseId": "person",
+      "feedback": "«mettons» gehört zu «nous». Richtig ist «met»."
+     },
+     {
+      "antwort": "mettent",
+      "diagnoseId": "zahl",
+      "feedback": "«mettent» steht in der Mehrzahl. Richtig ist «met»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous ______ un roman en classe.",
+    "optionen": [
+     "lisons",
+     "lisez",
+     "lit",
+     "lisent"
+    ],
+    "loesung": [
+     "lisons"
+    ],
+    "erklaerung": "«lire» nach «nous» lautet «lisons».",
+    "fehler": [
+     {
+      "antwort": "lisez",
+      "diagnoseId": "person",
+      "feedback": "«lisez» gehört zu «vous». Richtig ist «lisons»."
+     },
+     {
+      "antwort": "lit",
+      "diagnoseId": "zahl",
+      "feedback": "«lit» steht in der Einzahl. Richtig ist «lisons»."
+     },
+     {
+      "antwort": "lisent",
+      "diagnoseId": "person",
+      "feedback": "«lisent» gehört zu «ils» oder «elles». Richtig ist «lisons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nEst-ce que tu ______ m'aider ?",
+    "optionen": [
+     "peux",
+     "peut",
+     "pouvons",
+     "pouvez"
+    ],
+    "loesung": [
+     "peux"
+    ],
+    "erklaerung": "«pouvoir» in der zweiten Person Einzahl lautet «peux».",
+    "fehler": [
+     {
+      "antwort": "peut",
+      "diagnoseId": "person",
+      "feedback": "«peut» gehört zu «il» oder «elle». Richtig ist «peux»."
+     },
+     {
+      "antwort": "pouvons",
+      "diagnoseId": "person",
+      "feedback": "«pouvons» gehört zu «nous». Richtig ist «peux»."
+     },
+     {
+      "antwort": "pouvez",
+      "diagnoseId": "person",
+      "feedback": "«pouvez» gehört zu «vous». Richtig ist «peux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous ______ rentrer avant minuit.",
+    "optionen": [
+     "devons",
+     "devez",
+     "doit",
+     "doivent"
+    ],
+    "loesung": [
+     "devons"
+    ],
+    "erklaerung": "«devoir» nach «nous» lautet «devons».",
+    "fehler": [
+     {
+      "antwort": "devez",
+      "diagnoseId": "person",
+      "feedback": "«devez» gehört zu «vous». Richtig ist «devons»."
+     },
+     {
+      "antwort": "doit",
+      "diagnoseId": "zahl",
+      "feedback": "«doit» steht in der Einzahl. Richtig ist «devons»."
+     },
+     {
+      "antwort": "doivent",
+      "diagnoseId": "person",
+      "feedback": "«doivent» gehört zu «ils» oder «elles». Richtig ist «devons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIls ______ partir tout de suite.",
+    "optionen": [
+     "veulent",
+     "veut",
+     "voulons",
+     "voulez"
+    ],
+    "loesung": [
+     "veulent"
+    ],
+    "erklaerung": "«vouloir» in der dritten Person Mehrzahl lautet «veulent».",
+    "fehler": [
+     {
+      "antwort": "veut",
+      "diagnoseId": "zahl",
+      "feedback": "«veut» steht in der Einzahl. Richtig ist «veulent»."
+     },
+     {
+      "antwort": "voulons",
+      "diagnoseId": "person",
+      "feedback": "«voulons» gehört zu «nous». Richtig ist «veulent»."
+     },
+     {
+      "antwort": "voulez",
+      "diagnoseId": "person",
+      "feedback": "«voulez» gehört zu «vous». Richtig ist «veulent»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe ne ______ pas où il habite.",
+    "optionen": [
+     "sais",
+     "sait",
+     "savons",
+     "savez"
+    ],
+    "loesung": [
+     "sais"
+    ],
+    "erklaerung": "«savoir» in der ersten Person Einzahl lautet «sais».",
+    "fehler": [
+     {
+      "antwort": "sait",
+      "diagnoseId": "person",
+      "feedback": "«sait» gehört zu «il» oder «elle». Richtig ist «sais»."
+     },
+     {
+      "antwort": "savons",
+      "diagnoseId": "person",
+      "feedback": "«savons» gehört zu «nous». Richtig ist «sais»."
+     },
+     {
+      "antwort": "savez",
+      "diagnoseId": "person",
+      "feedback": "«savez» gehört zu «vous». Richtig ist «sais»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nVous ______ le film hier soir ?",
+    "optionen": [
+     "avez vu",
+     "êtes vus",
+     "avez voir",
+     "avez vus"
+    ],
+    "loesung": [
+     "avez vu"
+    ],
+    "erklaerung": "«voir» bildet das passé composé mit «avoir»; das Partizip lautet «vu».",
+    "fehler": [
+     {
+      "antwort": "êtes vus",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«voir» nimmt «avoir», nicht «être». Richtig ist «avez vu»."
+     },
+     {
+      "antwort": "avez voir",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «avez» steht das Partizip «vu». Richtig ist «avez vu»."
+     },
+     {
+      "antwort": "avez vus",
+      "diagnoseId": "angleichung",
+      "feedback": "Bei «avoir» gleicht sich das Partizip nicht ans Subjekt an."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ______ toujours la vérité.",
+    "optionen": [
+     "dit",
+     "dis",
+     "disons",
+     "disent"
+    ],
+    "loesung": [
+     "dit"
+    ],
+    "erklaerung": "«dire» in der dritten Person Einzahl lautet «dit».",
+    "fehler": [
+     {
+      "antwort": "dis",
+      "diagnoseId": "person",
+      "feedback": "«dis» gehört zu «je» oder «tu». Richtig ist «dit»."
+     },
+     {
+      "antwort": "disons",
+      "diagnoseId": "person",
+      "feedback": "«disons» gehört zu «nous». Richtig ist «dit»."
+     },
+     {
+      "antwort": "disent",
+      "diagnoseId": "zahl",
+      "feedback": "«disent» steht in der Mehrzahl. Richtig ist «dit»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Verben mit être und weitere unregelmässige Verben",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-fr-artikel",
+  "lernzielId": "FAR.3.01",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Der Artikel richtet sich nach Geschlecht und Zahl des Nomens.",
+   "Nach einer Verneinung wird aus «du», «de la» und «des» ein blosses «de».",
+   "Eine Frage lässt sich mit «est-ce que», mit der Intonation oder mit der Inversion bilden."
+  ],
+  "loesungsweg": [
+   "Das Nomen und sein Geschlecht bestimmen.",
+   "Prüfen, ob eine Menge oder eine Verneinung im Spiel ist.",
+   "Die passende Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welcher Artikel passt?\n\nJ'ai acheté ______ livre intéressant.",
+    "optionen": [
+     "un",
+     "une",
+     "des",
+     "du"
+    ],
+    "loesung": [
+     "un"
+    ],
+    "erklaerung": "«livre» ist männlich und steht in der Einzahl: un livre.",
+    "fehler": [
+     {
+      "antwort": "une",
+      "diagnoseId": "geschlecht",
+      "feedback": "«une» steht vor weiblichen Nomen; «livre» ist männlich."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "zahl",
+      "feedback": "«des» steht in der Mehrzahl. Richtig ist «un»."
+     },
+     {
+      "antwort": "du",
+      "diagnoseId": "form",
+      "feedback": "«du» ist ein Teilungsartikel und passt nicht vor ein zählbares Einzelstück."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Artikel passt?\n\n______ élèves de ma classe sont sympas.",
+    "optionen": [
+     "Les",
+     "Le",
+     "La",
+     "Un"
+    ],
+    "loesung": [
+     "Les"
+    ],
+    "erklaerung": "«élèves» steht in der Mehrzahl; der bestimmte Artikel lautet «les».",
+    "fehler": [
+     {
+      "antwort": "Le",
+      "diagnoseId": "zahl",
+      "feedback": "«Le» steht vor einem männlichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "La",
+      "diagnoseId": "zahl",
+      "feedback": "«La» steht vor einem weiblichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "Un",
+      "diagnoseId": "form",
+      "feedback": "«Un» ist unbestimmt und stünde in der Einzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe voudrais ______ eau, s'il vous plaît.",
+    "optionen": [
+     "de l'",
+     "du",
+     "de la",
+     "des"
+    ],
+    "loesung": [
+     "de l'"
+    ],
+    "erklaerung": "«eau» ist weiblich und beginnt mit einem Vokal; der Teilungsartikel lautet «de l'».",
+    "fehler": [
+     {
+      "antwort": "du",
+      "diagnoseId": "geschlecht",
+      "feedback": "«du» steht vor männlichen Nomen. Richtig ist «de l'»."
+     },
+     {
+      "antwort": "de la",
+      "diagnoseId": "form",
+      "feedback": "Vor einem Vokal wird «de la» zu «de l'»."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "zahl",
+      "feedback": "«des» steht in der Mehrzahl. Richtig ist «de l'»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle a acheté un kilo ______ pommes.",
+    "optionen": [
+     "de",
+     "des",
+     "du",
+     "de la"
+    ],
+    "loesung": [
+     "de"
+    ],
+    "erklaerung": "Nach einer Mengenangabe steht ein blosses «de»: un kilo de pommes.",
+    "fehler": [
+     {
+      "antwort": "des",
+      "diagnoseId": "mengenangabe",
+      "feedback": "Nach «un kilo», «beaucoup» oder «un peu» steht immer nur «de»."
+     },
+     {
+      "antwort": "du",
+      "diagnoseId": "mengenangabe",
+      "feedback": "Auch «du» fällt nach einer Mengenangabe weg."
+     },
+     {
+      "antwort": "de la",
+      "diagnoseId": "mengenangabe",
+      "feedback": "Nach einer Mengenangabe bleibt nur «de» übrig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe n'ai pas ______ frères.",
+    "optionen": [
+     "de",
+     "des",
+     "les",
+     "du"
+    ],
+    "loesung": [
+     "de"
+    ],
+    "erklaerung": "Nach einer Verneinung wird aus «des» ein blosses «de».",
+    "fehler": [
+     {
+      "antwort": "des",
+      "diagnoseId": "verneinung",
+      "feedback": "Nach «ne … pas» wird «des» zu «de». Richtig ist «de»."
+     },
+     {
+      "antwort": "les",
+      "diagnoseId": "form",
+      "feedback": "Der bestimmte Artikel passt hier nicht; es geht um eine unbestimmte Menge."
+     },
+     {
+      "antwort": "du",
+      "diagnoseId": "geschlecht",
+      "feedback": "«du» stünde vor einem männlichen Nomen in der Einzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Verneinung?\n\nElle regarde la télévision.",
+    "optionen": [
+     "Elle ne regarde pas la télévision.",
+     "Elle regarde ne pas la télévision.",
+     "Elle pas regarde la télévision.",
+     "Elle ne pas regarde la télévision."
+    ],
+    "loesung": [
+     "Elle ne regarde pas la télévision."
+    ],
+    "erklaerung": "«ne» steht vor dem gebeugten Verb, «pas» dahinter.",
+    "fehler": [
+     {
+      "antwort": "Elle regarde ne pas la télévision.",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die beiden Teile der Verneinung klammern das Verb ein."
+     },
+     {
+      "antwort": "Elle pas regarde la télévision.",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das «ne» fehlt; die Verneinung hat zwei Teile."
+     },
+     {
+      "antwort": "Elle ne pas regarde la télévision.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«pas» gehört hinter das Verb, nicht davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Verneinung im Passé composé?\n\nIl a compris.",
+    "optionen": [
+     "Il n'a pas compris.",
+     "Il a ne pas compris.",
+     "Il n'a compris pas.",
+     "Il ne pas a compris."
+    ],
+    "loesung": [
+     "Il n'a pas compris."
+    ],
+    "erklaerung": "Im passé composé klammern «ne» und «pas» das Hilfsverb ein, nicht das Partizip.",
+    "fehler": [
+     {
+      "antwort": "Il a ne pas compris.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«ne» steht vor dem Hilfsverb, nicht dahinter."
+     },
+     {
+      "antwort": "Il n'a compris pas.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«pas» steht vor dem Partizip, direkt nach dem Hilfsverb."
+     },
+     {
+      "antwort": "Il ne pas a compris.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«pas» gehört hinter das Hilfsverb. Richtig ist «Il n'a pas compris.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage mit «est-ce que»?\n\nVous habitez à Trogen.",
+    "optionen": [
+     "Est-ce que vous habitez à Trogen ?",
+     "Est-ce vous habitez à Trogen ?",
+     "Vous est-ce que habitez à Trogen ?",
+     "Que est-ce vous habitez ?"
+    ],
+    "loesung": [
+     "Est-ce que vous habitez à Trogen ?"
+    ],
+    "erklaerung": "«Est-ce que» steht vor dem ganzen Aussagesatz; der Rest bleibt unverändert.",
+    "fehler": [
+     {
+      "antwort": "Est-ce vous habitez à Trogen ?",
+      "diagnoseId": "form",
+      "feedback": "Das «que» darf nicht fehlen; die Wendung ist fest."
+     },
+     {
+      "antwort": "Vous est-ce que habitez à Trogen ?",
+      "diagnoseId": "wortstellung",
+      "feedback": "«Est-ce que» steht am Satzanfang, nicht in der Mitte."
+     },
+     {
+      "antwort": "Que est-ce vous habitez ?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die Wörter stehen in der falschen Reihenfolge."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage mit Inversion?\n\nTu viens avec nous.",
+    "optionen": [
+     "Viens-tu avec nous ?",
+     "Tu viens-tu avec nous ?",
+     "Viens tu-avec nous ?",
+     "Est-ce viens-tu avec nous ?"
+    ],
+    "loesung": [
+     "Viens-tu avec nous ?"
+    ],
+    "erklaerung": "Bei der Inversion tauschen Verb und Pronomen die Plätze, verbunden mit einem Bindestrich.",
+    "fehler": [
+     {
+      "antwort": "Tu viens-tu avec nous ?",
+      "diagnoseId": "doppelt",
+      "feedback": "Das Pronomen steht doppelt im Satz. Richtig ist «Viens-tu avec nous ?»."
+     },
+     {
+      "antwort": "Viens tu-avec nous ?",
+      "diagnoseId": "bindestrich",
+      "feedback": "Der Bindestrich verbindet Verb und Pronomen."
+     },
+     {
+      "antwort": "Est-ce viens-tu avec nous ?",
+      "diagnoseId": "gemischt",
+      "feedback": "Hier sind zwei Fragearten vermischt. Richtig ist «Viens-tu avec nous ?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Frage passt zur Antwort «À Herisau.»?",
+    "optionen": [
+     "Où est-ce que tu habites ?",
+     "Quand est-ce que tu habites ?",
+     "Comment est-ce que tu habites ?",
+     "Combien est-ce que tu habites ?"
+    ],
+    "loesung": [
+     "Où est-ce que tu habites ?"
+    ],
+    "erklaerung": "Die Antwort nennt einen Ort; gefragt wird mit «où».",
+    "fehler": [
+     {
+      "antwort": "Quand est-ce que tu habites ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«quand» fragt nach der Zeit. Richtig ist «Où est-ce que tu habites ?»."
+     },
+     {
+      "antwort": "Comment est-ce que tu habites ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«comment» fragt nach der Art und Weise. Richtig ist «Où est-ce que tu habites ?»."
+     },
+     {
+      "antwort": "Combien est-ce que tu habites ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«combien» fragt nach einer Menge. Richtig ist «Où est-ce que tu habites ?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl y a ______ neige sur les champs.",
+    "optionen": [
+     "de la",
+     "du",
+     "des",
+     "une"
+    ],
+    "loesung": [
+     "de la"
+    ],
+    "erklaerung": "«neige» ist weiblich; der Teilungsartikel lautet «de la».",
+    "fehler": [
+     {
+      "antwort": "du",
+      "diagnoseId": "geschlecht",
+      "feedback": "«du» steht vor männlichen Nomen. Richtig ist «de la»."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "zahl",
+      "feedback": "«des» steht in der Mehrzahl. Richtig ist «de la»."
+     },
+     {
+      "antwort": "une",
+      "diagnoseId": "form",
+      "feedback": "Schnee lässt sich nicht zählen; darum steht der Teilungsartikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ne mange jamais ______ viande.",
+    "optionen": [
+     "de",
+     "de la",
+     "des",
+     "la"
+    ],
+    "loesung": [
+     "de"
+    ],
+    "erklaerung": "Nach «ne … jamais» wird aus dem Teilungsartikel ein blosses «de».",
+    "fehler": [
+     {
+      "antwort": "de la",
+      "diagnoseId": "verneinung",
+      "feedback": "Nach einer Verneinung fällt der Teilungsartikel auf «de» zusammen."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "verneinung",
+      "feedback": "Auch «des» wird nach einer Verneinung zu «de»."
+     },
+     {
+      "antwort": "la",
+      "diagnoseId": "form",
+      "feedback": "Der bestimmte Artikel änderte den Sinn: Es geht um Fleisch im Allgemeinen als Menge."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Artikel, Mengen, Verneinung und Fragen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-fr-adjektiv-pronomen",
+  "lernzielId": "FAR.3.05",
+  "fach": "franzoesisch-ar",
+  "unterthemen": [
+   "3.05",
+   "3.06",
+   "3.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Adjektiv richtet sich nach Geschlecht und Zahl des Nomens.",
+   "Der Possessivbegleiter richtet sich nach dem Nomen, das folgt, nicht nach dem Besitzer.",
+   "Das Objektpronomen steht vor dem gebeugten Verb."
+  ],
+  "loesungsweg": [
+   "Das Nomen und seine Merkmale bestimmen.",
+   "Die passende Form des Begleiters oder Adjektivs wählen.",
+   "Beim Pronomen die Stellung prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nC'est une ______ idée.",
+    "optionen": [
+     "bonne",
+     "bon",
+     "bons",
+     "bonnes"
+    ],
+    "loesung": [
+     "bonne"
+    ],
+    "erklaerung": "«idée» ist weiblich und steht in der Einzahl: une bonne idée.",
+    "fehler": [
+     {
+      "antwort": "bon",
+      "diagnoseId": "geschlecht",
+      "feedback": "«bon» ist die männliche Form. Richtig ist «bonne»."
+     },
+     {
+      "antwort": "bons",
+      "diagnoseId": "zahl",
+      "feedback": "«bons» steht in der männlichen Mehrzahl."
+     },
+     {
+      "antwort": "bonnes",
+      "diagnoseId": "zahl",
+      "feedback": "«bonnes» steht in der weiblichen Mehrzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nEllen a les cheveux ______ .",
+    "optionen": [
+     "noirs",
+     "noir",
+     "noire",
+     "noires"
+    ],
+    "loesung": [
+     "noirs"
+    ],
+    "erklaerung": "«cheveux» ist männlich und steht in der Mehrzahl; das Adjektiv bekommt ein «-s».",
+    "fehler": [
+     {
+      "antwort": "noir",
+      "diagnoseId": "zahl",
+      "feedback": "«cheveux» steht in der Mehrzahl; das Adjektiv gleicht sich an."
+     },
+     {
+      "antwort": "noire",
+      "diagnoseId": "geschlecht",
+      "feedback": "«noire» ist die weibliche Einzahl. Richtig ist «noirs»."
+     },
+     {
+      "antwort": "noires",
+      "diagnoseId": "geschlecht",
+      "feedback": "«noires» ist die weibliche Mehrzahl; «cheveux» ist männlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht das Adjektiv?\n\nC'est une voiture ______ .",
+    "optionen": [
+     "rouge",
+     "rouge voiture",
+     "une rouge",
+     "rouges"
+    ],
+    "loesung": [
+     "rouge"
+    ],
+    "erklaerung": "Farbadjektive stehen im Französischen nach dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "rouge voiture",
+      "diagnoseId": "wortstellung",
+      "feedback": "Farbadjektive stehen nach dem Nomen, nicht davor."
+     },
+     {
+      "antwort": "une rouge",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel steht schon im Satz; er darf nicht doppelt vorkommen."
+     },
+     {
+      "antwort": "rouges",
+      "diagnoseId": "zahl",
+      "feedback": "«voiture» steht in der Einzahl. Richtig ist «rouge»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Adjektiv steht vor dem Nomen?",
+    "optionen": [
+     "petit",
+     "intéressant",
+     "difficile",
+     "content"
+    ],
+    "loesung": [
+     "petit"
+    ],
+    "erklaerung": "Kurze, häufige Adjektive wie petit, grand, bon, jeune und beau stehen vor dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "intéressant",
+      "diagnoseId": "stellung",
+      "feedback": "Längere Adjektive stehen nach dem Nomen: un livre intéressant."
+     },
+     {
+      "antwort": "difficile",
+      "diagnoseId": "stellung",
+      "feedback": "«difficile» steht nach dem Nomen. Richtig ist «petit»."
+     },
+     {
+      "antwort": "content",
+      "diagnoseId": "stellung",
+      "feedback": "«content» steht nach dem Nomen oder nach «être»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ sœur s'appelle Lea.",
+    "optionen": [
+     "Ma",
+     "Mon",
+     "Mes",
+     "Ta"
+    ],
+    "loesung": [
+     "Ma"
+    ],
+    "erklaerung": "«sœur» ist weiblich und steht in der Einzahl: ma sœur.",
+    "fehler": [
+     {
+      "antwort": "Mon",
+      "diagnoseId": "geschlecht",
+      "feedback": "«Mon» steht vor männlichen Nomen — ausser vor einem Vokal."
+     },
+     {
+      "antwort": "Mes",
+      "diagnoseId": "zahl",
+      "feedback": "«Mes» steht vor einem Nomen in der Mehrzahl."
+     },
+     {
+      "antwort": "Ta",
+      "diagnoseId": "person",
+      "feedback": "«Ta» hiesse deine; hier spricht jemand von sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl range ______ affaires dans le sac.",
+    "optionen": [
+     "ses",
+     "son",
+     "sa",
+     "leur"
+    ],
+    "loesung": [
+     "ses"
+    ],
+    "erklaerung": "«affaires» steht in der Mehrzahl; der Possessivbegleiter lautet «ses».",
+    "fehler": [
+     {
+      "antwort": "son",
+      "diagnoseId": "zahl",
+      "feedback": "«son» steht vor einem Nomen in der Einzahl."
+     },
+     {
+      "antwort": "sa",
+      "diagnoseId": "zahl",
+      "feedback": "«sa» steht vor einem weiblichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "leur",
+      "diagnoseId": "person",
+      "feedback": "«leur» gehört zu mehreren Besitzenden; hier handelt einer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nLes voisins ont vendu ______ maison.",
+    "optionen": [
+     "leur",
+     "leurs",
+     "son",
+     "sa"
+    ],
+    "loesung": [
+     "leur"
+    ],
+    "erklaerung": "Mehrere Besitzende, aber ein Haus: «leur maison».",
+    "fehler": [
+     {
+      "antwort": "leurs",
+      "diagnoseId": "zahl",
+      "feedback": "«leurs» stünde vor einem Nomen in der Mehrzahl; es ist ein Haus."
+     },
+     {
+      "antwort": "son",
+      "diagnoseId": "person",
+      "feedback": "«son» gehört zu einem einzelnen Besitzer."
+     },
+     {
+      "antwort": "sa",
+      "diagnoseId": "person",
+      "feedback": "«sa» gehört ebenfalls zu einem einzelnen Besitzer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ amie s'appelle Nadia.",
+    "optionen": [
+     "Mon",
+     "Ma",
+     "Mes",
+     "Mon amie's"
+    ],
+    "loesung": [
+     "Mon"
+    ],
+    "erklaerung": "Vor einem Vokal steht auch bei weiblichen Nomen «mon»: mon amie.",
+    "fehler": [
+     {
+      "antwort": "Ma",
+      "diagnoseId": "vokal",
+      "feedback": "Vor einem Vokal wird «ma» zu «mon», damit es sich leichter spricht."
+     },
+     {
+      "antwort": "Mes",
+      "diagnoseId": "zahl",
+      "feedback": "«Mes» stünde vor einem Nomen in der Mehrzahl."
+     },
+     {
+      "antwort": "Mon amie's",
+      "diagnoseId": "form",
+      "feedback": "Ein Apostroph-s gibt es im Französischen nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJe vois Marc. → Je ______ vois.",
+    "optionen": [
+     "le",
+     "lui",
+     "les",
+     "y"
+    ],
+    "loesung": [
+     "le"
+    ],
+    "erklaerung": "«Marc» ist ein direktes Objekt in der Einzahl; das Pronomen lautet «le».",
+    "fehler": [
+     {
+      "antwort": "lui",
+      "diagnoseId": "form",
+      "feedback": "«lui» ersetzt ein indirektes Objekt mit «à»."
+     },
+     {
+      "antwort": "les",
+      "diagnoseId": "zahl",
+      "feedback": "«les» steht in der Mehrzahl. Richtig ist «le»."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt eine Ortsangabe. Richtig ist «le»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJ'écris à mes cousins. → Je ______ écris.",
+    "optionen": [
+     "leur",
+     "les",
+     "lui",
+     "y"
+    ],
+    "loesung": [
+     "leur"
+    ],
+    "erklaerung": "«écrire à quelqu'un» verlangt ein indirektes Objekt; in der Mehrzahl steht «leur».",
+    "fehler": [
+     {
+      "antwort": "les",
+      "diagnoseId": "form",
+      "feedback": "«les» ersetzt ein direktes Objekt ohne «à»."
+     },
+     {
+      "antwort": "lui",
+      "diagnoseId": "zahl",
+      "feedback": "«lui» steht für eine einzelne Person. Richtig ist «leur»."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt Orte oder Sachen, nicht Personen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht das Pronomen?\n\nJe ne ______ connais pas.",
+    "optionen": [
+     "la",
+     "lui",
+     "le la",
+     "elle"
+    ],
+    "loesung": [
+     "la"
+    ],
+    "erklaerung": "Das Objektpronomen steht zwischen «ne» und dem gebeugten Verb.",
+    "fehler": [
+     {
+      "antwort": "lui",
+      "diagnoseId": "form",
+      "feedback": "«connaître» verlangt ein direktes Objekt; «lui» wäre indirekt."
+     },
+     {
+      "antwort": "le la",
+      "diagnoseId": "form",
+      "feedback": "Zwei Pronomen für dasselbe Objekt gibt es nicht."
+     },
+     {
+      "antwort": "elle",
+      "diagnoseId": "form",
+      "feedback": "«elle» ist ein betontes Pronomen und stünde nach einer Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nTu ______ téléphones ce soir ?",
+    "optionen": [
+     "me",
+     "moi",
+     "je",
+     "mon"
+    ],
+    "loesung": [
+     "me"
+    ],
+    "erklaerung": "Vor dem Verb steht die unbetonte Form «me».",
+    "fehler": [
+     {
+      "antwort": "moi",
+      "diagnoseId": "form",
+      "feedback": "«moi» ist die betonte Form und stünde nach einer Präposition oder allein."
+     },
+     {
+      "antwort": "je",
+      "diagnoseId": "form",
+      "feedback": "«je» ist das Subjektpronomen. Richtig ist «me»."
+     },
+     {
+      "antwort": "mon",
+      "diagnoseId": "form",
+      "feedback": "«mon» ist ein Possessivbegleiter und bräuchte ein Nomen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Adjektive, Possessivbegleiter und Objektpronomen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-reading",
+  "lernzielId": "EAR.1.01",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Read the whole text once before you answer.",
+   "Find the sentence that answers the question.",
+   "«Not given» means the text says neither yes nor no."
+  ],
+  "loesungsweg": [
+   "Read the question carefully.",
+   "Look for a keyword in the text.",
+   "Read around it.",
+   "Check every option against the text."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "How long had the bench been outside the shop?",
+    "optionen": [
+     "twenty-two years",
+     "two weeks",
+     "seventy-nine years",
+     "three years"
+    ],
+    "loesung": [
+     "twenty-two years"
+    ],
+    "erklaerung": "«For twenty-two years, there was a wooden bench outside Hofmann's grocery.»",
+    "fehler": [
+     {
+      "antwort": "two weeks",
+      "diagnoseId": "spaeter",
+      "feedback": "Two weeks is how long it took until somebody painted the bench."
+     },
+     {
+      "antwort": "seventy-nine years",
+      "diagnoseId": "alter",
+      "feedback": "Seventy-nine is Ruth Bänziger's age, not a number of years for the bench."
+     },
+     {
+      "antwort": "three years",
+      "diagnoseId": "erfunden",
+      "feedback": "Three or four is the number of people sitting on the bench."
+     }
+    ]
+   },
+   {
+    "stamm": "What happened to the shop in March?",
+    "optionen": [
+     "It closed.",
+     "It was painted.",
+     "It moved to another street.",
+     "It was sold to Ruth Bänziger."
+    ],
+    "loesung": [
+     "It closed."
+    ],
+    "erklaerung": "«When the shop closed in March, the bench stayed.»",
+    "fehler": [
+     {
+      "antwort": "It was painted.",
+      "diagnoseId": "bank",
+      "feedback": "It was the bench that was painted, not the shop."
+     },
+     {
+      "antwort": "It moved to another street.",
+      "diagnoseId": "erfunden",
+      "feedback": "The text says nothing about moving to another place."
+     },
+     {
+      "antwort": "It was sold to Ruth Bänziger.",
+      "diagnoseId": "person",
+      "feedback": "Ruth Bänziger sits on the bench; she does not buy anything."
+     }
+    ]
+   },
+   {
+    "stamm": "What did the new owner say about the bench at first?",
+    "optionen": [
+     "that it looks terrible and nobody needs it",
+     "that he would paint it himself",
+     "that he liked it",
+     "that he would sell it"
+    ],
+    "loesung": [
+     "that it looks terrible and nobody needs it"
+    ],
+    "erklaerung": "«It looks terrible», he told the local paper. «And nobody needs a bench in front of an empty shop.»",
+    "fehler": [
+     {
+      "antwort": "that he would paint it himself",
+      "diagnoseId": "farbe",
+      "feedback": "Somebody painted it, but nobody knows who — the text says so clearly."
+     },
+     {
+      "antwort": "that he liked it",
+      "diagnoseId": "gegenteil",
+      "feedback": "He said the opposite at first; only later does he change his mind."
+     },
+     {
+      "antwort": "that he would sell it",
+      "diagnoseId": "erfunden",
+      "feedback": "Selling the bench is never mentioned in the text."
+     }
+    ]
+   },
+   {
+    "stamm": "What colour is the bench now?",
+    "optionen": [
+     "dark green",
+     "white",
+     "brown",
+     "it is still unpainted"
+    ],
+    "loesung": [
+     "dark green"
+    ],
+    "erklaerung": "«Two weeks later, someone had painted the bench dark green.»",
+    "fehler": [
+     {
+      "antwort": "white",
+      "diagnoseId": "erfunden",
+      "feedback": "White is not mentioned anywhere in the text."
+     },
+     {
+      "antwort": "brown",
+      "diagnoseId": "holz",
+      "feedback": "The bench was wooden, but the text does not call it brown."
+     },
+     {
+      "antwort": "it is still unpainted",
+      "diagnoseId": "frueher",
+      "feedback": "It was unpainted for twenty-two years — until somebody painted it."
+     }
+    ]
+   },
+   {
+    "stamm": "What did the small sign say?",
+    "optionen": [
+     "«Please sit down.»",
+     "«For sale»",
+     "«Do not sit here»",
+     "«Shop closed»"
+    ],
+    "loesung": [
+     "«Please sit down.»"
+    ],
+    "erklaerung": "«The following week, a small sign appeared: ‹Please sit down.› It was written by hand.»",
+    "fehler": [
+     {
+      "antwort": "«For sale»",
+      "diagnoseId": "verkauf",
+      "feedback": "Nothing in the text is for sale; the shop is empty."
+     },
+     {
+      "antwort": "«Do not sit here»",
+      "diagnoseId": "gegenteil",
+      "feedback": "The sign invites people to sit, it does not forbid it."
+     },
+     {
+      "antwort": "«Shop closed»",
+      "diagnoseId": "laden",
+      "feedback": "The shop did close, but that is not what the sign said."
+     }
+    ]
+   },
+   {
+    "stamm": "Why does Ruth Bänziger come to the bench?",
+    "optionen": [
+     "because Frau Koller comes",
+     "because the bench is comfortable",
+     "because she works in the shop",
+     "because she painted it"
+    ],
+    "loesung": [
+     "because Frau Koller comes"
+    ],
+    "erklaerung": "«I come because Frau Koller comes, and she comes because I come.»",
+    "fehler": [
+     {
+      "antwort": "because the bench is comfortable",
+      "diagnoseId": "bequem",
+      "feedback": "The text says the bench is not comfortable."
+     },
+     {
+      "antwort": "because she works in the shop",
+      "diagnoseId": "arbeit",
+      "feedback": "The shop is closed since March, and she is 79 years old."
+     },
+     {
+      "antwort": "because she painted it",
+      "diagnoseId": "farbe",
+      "feedback": "Nobody knows who painted the bench — the text says so."
+     }
+    ]
+   },
+   {
+    "stamm": "Have the two women arranged to meet?",
+    "optionen": [
+     "No, they never arranged it.",
+     "Yes, every Monday.",
+     "Yes, since March.",
+     "Yes, by telephone."
+    ],
+    "loesung": [
+     "No, they never arranged it."
+    ],
+    "erklaerung": "«We have never arranged anything.»",
+    "fehler": [
+     {
+      "antwort": "Yes, every Monday.",
+      "diagnoseId": "erfunden",
+      "feedback": "No day of the week is mentioned in the text."
+     },
+     {
+      "antwort": "Yes, since March.",
+      "diagnoseId": "laden",
+      "feedback": "March is when the shop closed, not when they arranged anything."
+     },
+     {
+      "antwort": "Yes, by telephone.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "A telephone does not appear in the text."
+     }
+    ]
+   },
+   {
+    "stamm": "Why has the owner decided to keep the bench?",
+    "optionen": [
+     "because people who sit down stay longer",
+     "because the paper asked him to",
+     "because Ruth Bänziger paid him",
+     "because he now likes the colour"
+    ],
+    "loesung": [
+     "because people who sit down stay longer"
+    ],
+    "erklaerung": "«He says it was a business decision: people who sit down stay longer, and the new shop opens in autumn.»",
+    "fehler": [
+     {
+      "antwort": "because the paper asked him to",
+      "diagnoseId": "zeitung",
+      "feedback": "The paper only reported what he said; it asked for nothing."
+     },
+     {
+      "antwort": "because Ruth Bänziger paid him",
+      "diagnoseId": "geld",
+      "feedback": "No money changes hands anywhere in this text."
+     },
+     {
+      "antwort": "because he now likes the colour",
+      "diagnoseId": "geschmack",
+      "feedback": "He calls it a business decision, not a matter of taste."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «a business decision» means …",
+    "optionen": [
+     "a decision made for the sake of profit",
+     "a decision made by a group",
+     "a quick decision",
+     "a decision that cannot be changed"
+    ],
+    "loesung": [
+     "a decision made for the sake of profit"
+    ],
+    "erklaerung": "The owner explains it himself: people who sit stay longer, and a new shop is opening.",
+    "fehler": [
+     {
+      "antwort": "a decision made by a group",
+      "diagnoseId": "gruppe",
+      "feedback": "He decides alone; no group is mentioned."
+     },
+     {
+      "antwort": "a quick decision",
+      "diagnoseId": "tempo",
+      "feedback": "It took him several weeks to change his mind."
+     },
+     {
+      "antwort": "a decision that cannot be changed",
+      "diagnoseId": "endgueltig",
+      "feedback": "He already changed his mind once, so it can be changed."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «still» in «Still, three or four people sat on it» means …",
+    "optionen": [
+     "nevertheless",
+     "quietly",
+     "not moving",
+     "always"
+    ],
+    "loesung": [
+     "nevertheless"
+    ],
+    "erklaerung": "«Still» joins two opposing facts: the bench was ugly, and yet people sat on it.",
+    "fehler": [
+     {
+      "antwort": "quietly",
+      "diagnoseId": "adjektiv",
+      "feedback": "«Still» can mean quiet in German, but not in this English sentence."
+     },
+     {
+      "antwort": "not moving",
+      "diagnoseId": "falscher_freund",
+      "feedback": "That is another English meaning of «still», but it does not fit here."
+     },
+     {
+      "antwort": "always",
+      "diagnoseId": "haeufigkeit",
+      "feedback": "«Always» would be a different word: the sentence contrasts, it does not count."
+     }
+    ]
+   },
+   {
+    "stamm": "Which heading fits the third paragraph best?",
+    "optionen": [
+     "An unknown painter and a sign",
+     "The shop closes",
+     "Two women on a bench",
+     "A business decision"
+    ],
+    "loesung": [
+     "An unknown painter and a sign"
+    ],
+    "erklaerung": "The third paragraph is about the green paint and the handwritten sign.",
+    "fehler": [
+     {
+      "antwort": "The shop closes",
+      "diagnoseId": "absatz_zwei",
+      "feedback": "That is the second paragraph, about the closing shop."
+     },
+     {
+      "antwort": "Two women on a bench",
+      "diagnoseId": "absatz_vier",
+      "feedback": "Ruth Bänziger and Frau Koller appear in the fourth paragraph."
+     },
+     {
+      "antwort": "A business decision",
+      "diagnoseId": "absatz_fuenf",
+      "feedback": "The decision comes in the last paragraph."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the main idea of the text?",
+    "optionen": [
+     "A simple bench holds a small community together.",
+     "Old furniture should always be kept.",
+     "Shops in small towns are closing.",
+     "Painting furniture increases its value."
+    ],
+    "loesung": [
+     "A simple bench holds a small community together."
+    ],
+    "erklaerung": "The two women, the sign and the owner's change of mind all point in the same direction.",
+    "fehler": [
+     {
+      "antwort": "Old furniture should always be kept.",
+      "diagnoseId": "regel",
+      "feedback": "The text does not give advice; it tells one story."
+     },
+     {
+      "antwort": "Shops in small towns are closing.",
+      "diagnoseId": "teilaspekt",
+      "feedback": "The shop closes, but a new one opens in autumn."
+     },
+     {
+      "antwort": "Painting furniture increases its value.",
+      "diagnoseId": "geld",
+      "feedback": "The paint is not about value; nobody even knows who applied it."
+     }
+    ]
+   }
+  ],
+  "text": "The bench outside the shop\n\nFor twenty-two years, there was a wooden bench outside Hofmann's grocery in\nHerisau. It was not comfortable, and nobody had ever painted it. Still, on\nmost afternoons, three or four people sat on it.\n\nWhen the shop closed in March, the bench stayed. The new owner of the building\ndid not want it. «It looks terrible», he told the local paper. «And nobody\nneeds a bench in front of an empty shop.»\n\nTwo weeks later, someone had painted the bench dark green. Nobody knew who.\nThe following week, a small sign appeared: «Please sit down.» It was written\nby hand.\n\nRuth Bänziger, 79, sits there almost every day. «I do not come for the bench»,\nshe says. «I come because Frau Koller comes, and she comes because I come. We\nhave never arranged anything.»\n\nThe owner has now decided to keep the bench. He says it was a business\ndecision: people who sit down stay longer, and the new shop opens in autumn.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Reading",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-tenses",
+  "lernzielId": "EAR.2.01",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Signalwörter helfen: every day und usually stehen für das present simple.",
+   "Right now, at the moment und look! verlangen die Verlaufsform.",
+   "Bei unregelmässigen Verben hilft kein -ed; die drei Formen musst du kennen."
+  ],
+  "loesungsweg": [
+   "Das Signalwort im Satz suchen.",
+   "Die passende Zeit bestimmen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ to the market every Saturday.",
+    "optionen": [
+     "goes",
+     "is going",
+     "went",
+     "go"
+    ],
+    "loesung": [
+     "goes"
+    ],
+    "erklaerung": "«every Saturday» steht für eine Gewohnheit — present simple, dritte Person mit -es.",
+    "fehler": [
+     {
+      "antwort": "is going",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt, was gerade jetzt geschieht, nicht eine Gewohnheit."
+     },
+     {
+      "antwort": "went",
+      "diagnoseId": "zeit",
+      "feedback": "«went» liegt in der Vergangenheit; der Satz spricht von jedem Samstag."
+     },
+     {
+      "antwort": "go",
+      "diagnoseId": "endung",
+      "feedback": "In der dritten Person Einzahl braucht das Verb ein -es."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nLook! The bus ______ round the corner.",
+    "optionen": [
+     "is coming",
+     "comes",
+     "came",
+     "has come"
+    ],
+    "loesung": [
+     "is coming"
+    ],
+    "erklaerung": "«Look!» zeigt an, dass etwas gerade jetzt geschieht — present continuous.",
+    "fehler": [
+     {
+      "antwort": "comes",
+      "diagnoseId": "zeit",
+      "feedback": "Das present simple beschreibt Gewohnheiten, nicht diesen Augenblick."
+     },
+     {
+      "antwort": "came",
+      "diagnoseId": "zeit",
+      "feedback": "«came» liegt in der Vergangenheit. Richtig ist «is coming»."
+     },
+     {
+      "antwort": "has come",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect blickt auf ein Ergebnis zurück, nicht auf den Augenblick."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWe ______ the museum last Friday.",
+    "optionen": [
+     "visited",
+     "have visited",
+     "visit",
+     "are visiting"
+    ],
+    "loesung": [
+     "visited"
+    ],
+    "erklaerung": "«last Friday» verlangt das simple past.",
+    "fehler": [
+     {
+      "antwort": "have visited",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verträgt keine abgeschlossene Zeitangabe wie «last Friday»."
+     },
+     {
+      "antwort": "visit",
+      "diagnoseId": "zeit",
+      "feedback": "«visit» steht im Präsens. Richtig ist «visited»."
+     },
+     {
+      "antwort": "are visiting",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt den Augenblick des Sprechens."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWhile she ______ , the lights went out.",
+    "optionen": [
+     "was reading",
+     "read",
+     "reads",
+     "has read"
+    ],
+    "loesung": [
+     "was reading"
+    ],
+    "erklaerung": "Eine laufende Handlung, die von einer anderen unterbrochen wird, steht im past continuous.",
+    "fehler": [
+     {
+      "antwort": "read",
+      "diagnoseId": "zeit",
+      "feedback": "Das simple past nennte eine abgeschlossene Handlung; hier läuft sie noch."
+     },
+     {
+      "antwort": "reads",
+      "diagnoseId": "zeit",
+      "feedback": "«reads» steht im Präsens. Richtig ist «was reading»."
+     },
+     {
+      "antwort": "has read",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verbindet mit der Gegenwart."
+     }
+    ]
+   },
+   {
+    "stamm": "What are the three forms of «write»?",
+    "optionen": [
+     "write – wrote – written",
+     "write – writed – writed",
+     "write – wrote – wroten",
+     "write – written – wrote"
+    ],
+    "loesung": [
+     "write – wrote – written"
+    ],
+    "erklaerung": "«write» ist unregelmässig: write, wrote, written.",
+    "fehler": [
+     {
+      "antwort": "write – writed – writed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«write» bildet die Formen nicht mit -ed."
+     },
+     {
+      "antwort": "write – wrote – wroten",
+      "diagnoseId": "form",
+      "feedback": "Das past participle lautet «written», nicht «wroten»."
+     },
+     {
+      "antwort": "write – written – wrote",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Die zweite Form ist «wrote», die dritte «written»."
+     }
+    ]
+   },
+   {
+    "stamm": "What are the three forms of «bring»?",
+    "optionen": [
+     "bring – brought – brought",
+     "bring – bringed – bringed",
+     "bring – brang – brung",
+     "bring – brought – bringen"
+    ],
+    "loesung": [
+     "bring – brought – brought"
+    ],
+    "erklaerung": "«bring» hat in der zweiten und dritten Form dieselbe Gestalt: brought.",
+    "fehler": [
+     {
+      "antwort": "bring – bringed – bringed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«bring» ist unregelmässig; -ed kommt nicht dazu."
+     },
+     {
+      "antwort": "bring – brang – brung",
+      "diagnoseId": "form",
+      "feedback": "Diese Formen gibt es nicht. Richtig ist «bring – brought – brought»."
+     },
+     {
+      "antwort": "bring – brought – bringen",
+      "diagnoseId": "form",
+      "feedback": "«bringen» ist deutsch, nicht englisch. Richtig ist «bring – brought – brought»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nI have never ______ such a long queue.",
+    "optionen": [
+     "seen",
+     "saw",
+     "see",
+     "seed"
+    ],
+    "loesung": [
+     "seen"
+    ],
+    "erklaerung": "Nach «have» steht die dritte Form: see – saw – seen.",
+    "fehler": [
+     {
+      "antwort": "saw",
+      "diagnoseId": "form",
+      "feedback": "«saw» ist die zweite Form; nach «have» braucht es «seen»."
+     },
+     {
+      "antwort": "see",
+      "diagnoseId": "form",
+      "feedback": "Nach «have» steht das past participle, nicht die Grundform."
+     },
+     {
+      "antwort": "seed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«see» ist unregelmässig und bildet keine Form mit -ed."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThey ______ the bench two years ago.",
+    "optionen": [
+     "built",
+     "builded",
+     "have built",
+     "build"
+    ],
+    "loesung": [
+     "built"
+    ],
+    "erklaerung": "«build» ist unregelmässig: build – built – built; «ago» verlangt das simple past.",
+    "fehler": [
+     {
+      "antwort": "builded",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«build» ist unregelmässig; die Form lautet «built»."
+     },
+     {
+      "antwort": "have built",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verträgt kein «ago»."
+     },
+     {
+      "antwort": "build",
+      "diagnoseId": "zeit",
+      "feedback": "«build» steht im Präsens. Richtig ist «built»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nI think it ______ tomorrow.",
+    "optionen": [
+     "will rain",
+     "rains",
+     "rained",
+     "is raining"
+    ],
+    "loesung": [
+     "will rain"
+    ],
+    "erklaerung": "Eine Vermutung über die Zukunft steht im will-future.",
+    "fehler": [
+     {
+      "antwort": "rains",
+      "diagnoseId": "zeit",
+      "feedback": "Das present simple beschreibt Gewohnheiten."
+     },
+     {
+      "antwort": "rained",
+      "diagnoseId": "zeit",
+      "feedback": "«rained» liegt in der Vergangenheit; «tomorrow» blickt nach vorn."
+     },
+     {
+      "antwort": "is raining",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt diesen Augenblick."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nDon't worry, I ______ you at the station.",
+    "optionen": [
+     "will meet",
+     "meet",
+     "met",
+     "am meeting you tomorrow"
+    ],
+    "loesung": [
+     "will meet"
+    ],
+    "erklaerung": "Ein spontanes Versprechen steht im will-future.",
+    "fehler": [
+     {
+      "antwort": "meet",
+      "diagnoseId": "zeit",
+      "feedback": "Ohne «will» fehlt der Bezug auf die Zukunft."
+     },
+     {
+      "antwort": "met",
+      "diagnoseId": "zeit",
+      "feedback": "«met» liegt in der Vergangenheit. Richtig ist «will meet»."
+     },
+     {
+      "antwort": "am meeting you tomorrow",
+      "diagnoseId": "form",
+      "feedback": "Das Objekt steht schon im Satz; es darf nicht doppelt vorkommen."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWhat ______ you doing when I called?",
+    "optionen": [
+     "were",
+     "are",
+     "did",
+     "have"
+    ],
+    "loesung": [
+     "were"
+    ],
+    "erklaerung": "Das past continuous braucht «was» oder «were»; nach «you» steht «were».",
+    "fehler": [
+     {
+      "antwort": "are",
+      "diagnoseId": "zeit",
+      "feedback": "«are» steht im Präsens; der Satz spielt in der Vergangenheit."
+     },
+     {
+      "antwort": "did",
+      "diagnoseId": "form",
+      "feedback": "Nach «did» stünde die Grundform, nicht die ing-Form."
+     },
+     {
+      "antwort": "have",
+      "diagnoseId": "form",
+      "feedback": "Nach «have» stünde ein past participle. Richtig ist «were»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ her homework before dinner yesterday.",
+    "optionen": [
+     "did",
+     "done",
+     "does",
+     "has done"
+    ],
+    "loesung": [
+     "did"
+    ],
+    "erklaerung": "«yesterday» verlangt das simple past; die zweite Form von «do» lautet «did».",
+    "fehler": [
+     {
+      "antwort": "done",
+      "diagnoseId": "form",
+      "feedback": "«done» ist die dritte Form und braucht ein Hilfsverb."
+     },
+     {
+      "antwort": "does",
+      "diagnoseId": "zeit",
+      "feedback": "«does» steht im Präsens. Richtig ist «did»."
+     },
+     {
+      "antwort": "has done",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verträgt kein «yesterday»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitformen: present, past und will-future",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-modals",
+  "lernzielId": "EAR.2.05",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.13"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "«used to» beschreibt, was früher üblich war und heute nicht mehr gilt.",
+   "Nach einem Modalverb steht immer die Grundform, nie ein «to».",
+   "In Kurzformen steht der Apostroph für die weggelassenen Buchstaben."
+  ],
+  "loesungsweg": [
+   "Die Bedeutung des Satzes prüfen.",
+   "Das passende Modalverb wählen.",
+   "Die Grundform anhängen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Choose the correct form:\n\nThere ______ be a bakery on this corner.",
+    "optionen": [
+     "used to",
+     "use to",
+     "is used to",
+     "used"
+    ],
+    "loesung": [
+     "used to"
+    ],
+    "erklaerung": "«used to» beschreibt einen früheren Zustand, der heute nicht mehr gilt.",
+    "fehler": [
+     {
+      "antwort": "use to",
+      "diagnoseId": "form",
+      "feedback": "In der Aussage heisst es immer «used to», mit d."
+     },
+     {
+      "antwort": "is used to",
+      "diagnoseId": "bedeutung",
+      "feedback": "«be used to» heisst gewohnt sein an etwas — das ist etwas anderes."
+     },
+     {
+      "antwort": "used",
+      "diagnoseId": "form",
+      "feedback": "Das «to» gehört dazu: used to be. Richtig ist «used to»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nI ______ walk to school, but now I take the bus.",
+    "optionen": [
+     "used to",
+     "am used to",
+     "use to",
+     "would used to"
+    ],
+    "loesung": [
+     "used to"
+    ],
+    "erklaerung": "Früher zu Fuss, heute mit dem Bus — genau dafür steht «used to».",
+    "fehler": [
+     {
+      "antwort": "am used to",
+      "diagnoseId": "bedeutung",
+      "feedback": "«be used to» heisst gewohnt sein; danach stünde eine ing-Form."
+     },
+     {
+      "antwort": "use to",
+      "diagnoseId": "form",
+      "feedback": "In der Aussage steht «used to», mit d. Richtig ist «used to»."
+     },
+     {
+      "antwort": "would used to",
+      "diagnoseId": "form",
+      "feedback": "«would» und «used to» stehen nie zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nYou ______ ask before you borrow it.",
+    "optionen": [
+     "should",
+     "should to",
+     "shoulded",
+     "are should"
+    ],
+    "loesung": [
+     "should"
+    ],
+    "erklaerung": "Nach einem Modalverb steht die Grundform ohne «to».",
+    "fehler": [
+     {
+      "antwort": "should to",
+      "diagnoseId": "form",
+      "feedback": "Nach «should» steht nie ein «to». Richtig ist «should»."
+     },
+     {
+      "antwort": "shoulded",
+      "diagnoseId": "form",
+      "feedback": "Modalverben werden nicht mit -ed gebeugt."
+     },
+     {
+      "antwort": "are should",
+      "diagnoseId": "form",
+      "feedback": "Modalverben brauchen kein Hilfsverb. Richtig ist «should»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nIt ______ rain later — take an umbrella.",
+    "optionen": [
+     "might",
+     "must",
+     "should have",
+     "might to"
+    ],
+    "loesung": [
+     "might"
+    ],
+    "erklaerung": "«might» drückt aus, dass etwas möglich ist, aber nicht sicher.",
+    "fehler": [
+     {
+      "antwort": "must",
+      "diagnoseId": "bedeutung",
+      "feedback": "«must» hiesse, dass es ganz sicher regnet."
+     },
+     {
+      "antwort": "should have",
+      "diagnoseId": "zeit",
+      "feedback": "«should have» blickt zurück auf etwas, das nicht geschehen ist."
+     },
+     {
+      "antwort": "might to",
+      "diagnoseId": "form",
+      "feedback": "Nach «might» steht nie ein «to». Richtig ist «might»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ be at home — her bike is outside.",
+    "optionen": [
+     "must",
+     "can't",
+     "might not",
+     "must to"
+    ],
+    "loesung": [
+     "must"
+    ],
+    "erklaerung": "«must» drückt hier eine sichere Vermutung aus: Das Velo beweist es fast.",
+    "fehler": [
+     {
+      "antwort": "can't",
+      "diagnoseId": "bedeutung",
+      "feedback": "«can't» hiesse, sie sei bestimmt nicht da — das Velo sagt das Gegenteil."
+     },
+     {
+      "antwort": "might not",
+      "diagnoseId": "bedeutung",
+      "feedback": "«might not» wäre unsicher; der Hinweis ist aber deutlich."
+     },
+     {
+      "antwort": "must to",
+      "diagnoseId": "form",
+      "feedback": "Nach «must» steht nie ein «to». Richtig ist «must»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWe ______ to use our phones during the test.",
+    "optionen": [
+     "are not allowed",
+     "must not to",
+     "can not to",
+     "are not allow"
+    ],
+    "loesung": [
+     "are not allowed"
+    ],
+    "erklaerung": "«be allowed to» ist die Umschreibung für die Erlaubnis; verneint heisst sie «are not allowed to».",
+    "fehler": [
+     {
+      "antwort": "must not to",
+      "diagnoseId": "form",
+      "feedback": "Nach «must not» steht die Grundform ohne «to»."
+     },
+     {
+      "antwort": "can not to",
+      "diagnoseId": "form",
+      "feedback": "Auch nach «cannot» steht kein «to». Richtig ist «are not allowed»."
+     },
+     {
+      "antwort": "are not allow",
+      "diagnoseId": "form",
+      "feedback": "Nach «are» steht das Partizip «allowed»."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the long form of «she's been»?",
+    "optionen": [
+     "she has been",
+     "she is been",
+     "she was been",
+     "she does been"
+    ],
+    "loesung": [
+     "she has been"
+    ],
+    "erklaerung": "Vor einem past participle steht «has»: she has been.",
+    "fehler": [
+     {
+      "antwort": "she is been",
+      "diagnoseId": "form",
+      "feedback": "«is been» gibt es nicht; vor «been» steht «has»."
+     },
+     {
+      "antwort": "she was been",
+      "diagnoseId": "form",
+      "feedback": "Auch «was been» gibt es nicht. Richtig ist «she has been»."
+     },
+     {
+      "antwort": "she does been",
+      "diagnoseId": "form",
+      "feedback": "«does» steht nie vor einem past participle."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the long form of «they'd like»?",
+    "optionen": [
+     "they would like",
+     "they had like",
+     "they did like",
+     "they should like"
+    ],
+    "loesung": [
+     "they would like"
+    ],
+    "erklaerung": "Vor der Grundform steht «would»: they would like.",
+    "fehler": [
+     {
+      "antwort": "they had like",
+      "diagnoseId": "form",
+      "feedback": "Nach «had» stünde ein past participle, nicht die Grundform."
+     },
+     {
+      "antwort": "they did like",
+      "diagnoseId": "bedeutung",
+      "feedback": "«did like» wäre Vergangenheit; «'d like» ist ein höflicher Wunsch."
+     },
+     {
+      "antwort": "they should like",
+      "diagnoseId": "bedeutung",
+      "feedback": "«should» hiesse sollten, nicht möchten. Richtig ist «they would like»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "He isn't coming tonight.",
+     "He is'nt coming tonight.",
+     "He isnt coming tonight.",
+     "He is not'coming tonight."
+    ],
+    "loesung": [
+     "He isn't coming tonight."
+    ],
+    "erklaerung": "Der Apostroph steht dort, wo der Buchstabe fehlt: is not wird zu isn't.",
+    "fehler": [
+     {
+      "antwort": "He is'nt coming tonight.",
+      "diagnoseId": "apostroph",
+      "feedback": "Der Apostroph steht für das weggelassene o, also isn't."
+     },
+     {
+      "antwort": "He isnt coming tonight.",
+      "diagnoseId": "apostroph",
+      "feedback": "Ohne Apostroph fehlt das Zeichen für den ausgelassenen Buchstaben."
+     },
+     {
+      "antwort": "He is not'coming tonight.",
+      "diagnoseId": "apostroph",
+      "feedback": "Der Apostroph gehört in die Kurzform, nicht vor das nächste Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the short form of «we will not»?",
+    "optionen": [
+     "we won't",
+     "we willn't",
+     "we will'nt",
+     "we wo'nt"
+    ],
+    "loesung": [
+     "we won't"
+    ],
+    "erklaerung": "«will not» wird unregelmässig zu «won't».",
+    "fehler": [
+     {
+      "antwort": "we willn't",
+      "diagnoseId": "form",
+      "feedback": "Diese Kurzform gibt es nicht; sie lautet «won't»."
+     },
+     {
+      "antwort": "we will'nt",
+      "diagnoseId": "apostroph",
+      "feedback": "Der Apostroph steht falsch, und die Form ist ohnehin «won't»."
+     },
+     {
+      "antwort": "we wo'nt",
+      "diagnoseId": "apostroph",
+      "feedback": "Der Apostroph steht vor dem t: won't. Richtig ist «we won't»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nI ______ swim when I was six.",
+    "optionen": [
+     "could",
+     "can",
+     "could to",
+     "was can"
+    ],
+    "loesung": [
+     "could"
+    ],
+    "erklaerung": "«could» ist die Vergangenheitsform von «can».",
+    "fehler": [
+     {
+      "antwort": "can",
+      "diagnoseId": "zeit",
+      "feedback": "«can» steht im Präsens; der Satz spricht von damals."
+     },
+     {
+      "antwort": "could to",
+      "diagnoseId": "form",
+      "feedback": "Nach «could» steht nie ein «to». Richtig ist «could»."
+     },
+     {
+      "antwort": "was can",
+      "diagnoseId": "form",
+      "feedback": "Modalverben brauchen kein Hilfsverb. Richtig ist «could»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ speak three languages.",
+    "optionen": [
+     "can",
+     "cans",
+     "can to",
+     "is can"
+    ],
+    "loesung": [
+     "can"
+    ],
+    "erklaerung": "Modalverben bekommen in der dritten Person kein -s.",
+    "fehler": [
+     {
+      "antwort": "cans",
+      "diagnoseId": "endung",
+      "feedback": "Modalverben bekommen nie ein -s in der dritten Person."
+     },
+     {
+      "antwort": "can to",
+      "diagnoseId": "form",
+      "feedback": "Nach «can» steht die Grundform ohne «to»."
+     },
+     {
+      "antwort": "is can",
+      "diagnoseId": "form",
+      "feedback": "Modalverben brauchen kein Hilfsverb. Richtig ist «can»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "used to, Modalverben und Kurzformen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-fragen",
+  "lernzielId": "EAR.2.07",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "2.07",
+   "2.08",
+   "2.12"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "In der Frage übernimmt do, does oder did die Zeit; das Vollverb bleibt in der Grundform.",
+   "Fragt man nach dem Subjekt, entfällt das Hilfsverb: Who broke the window?",
+   "Häufigkeitsangaben stehen vor dem Vollverb, aber nach einer Form von «be»."
+  ],
+  "loesungsweg": [
+   "Prüfen, wonach gefragt wird: Subjekt oder Objekt?",
+   "Das Hilfsverb wählen oder weglassen.",
+   "Die Wortstellung prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which question is correct?\n\n(Sie spielt jeden Tag Klavier.)",
+    "optionen": [
+     "Does she play the piano every day?",
+     "Do she plays the piano every day?",
+     "Plays she the piano every day?",
+     "Is she play the piano every day?"
+    ],
+    "loesung": [
+     "Does she play the piano every day?"
+    ],
+    "erklaerung": "Im present simple bildet «does» die Frage; das Vollverb steht danach in der Grundform.",
+    "fehler": [
+     {
+      "antwort": "Do she plays the piano every day?",
+      "diagnoseId": "person",
+      "feedback": "«she» verlangt «does», und danach steht «play» ohne -s."
+     },
+     {
+      "antwort": "Plays she the piano every day?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Im Englischen wird die Frage nicht durch Umstellen des Vollverbs gebildet."
+     },
+     {
+      "antwort": "Is she play the piano every day?",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«is» passt nur zur Verlaufsform: Is she playing?"
+     }
+    ]
+   },
+   {
+    "stamm": "Which question is correct?\n\n(Ihr habt gestern das Museum besucht.)",
+    "optionen": [
+     "Did you visit the museum yesterday?",
+     "Did you visited the museum yesterday?",
+     "Do you visited the museum yesterday?",
+     "Visited you the museum yesterday?"
+    ],
+    "loesung": [
+     "Did you visit the museum yesterday?"
+    ],
+    "erklaerung": "«did» trägt die Vergangenheit; das Vollverb kehrt zur Grundform zurück.",
+    "fehler": [
+     {
+      "antwort": "Did you visited the museum yesterday?",
+      "diagnoseId": "doppelte_zeit",
+      "feedback": "Die Vergangenheit steckt schon in «did»."
+     },
+     {
+      "antwort": "Do you visited the museum yesterday?",
+      "diagnoseId": "zeit",
+      "feedback": "«do» steht im Präsens und passt nicht zu «yesterday»."
+     },
+     {
+      "antwort": "Visited you the museum yesterday?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Ohne Hilfsverb wird im Englischen keine Frage gebildet."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question asks for the subject?",
+    "optionen": [
+     "Who called you yesterday?",
+     "Who did you call yesterday?",
+     "Whom did you call?",
+     "Who did call you?"
+    ],
+    "loesung": [
+     "Who called you yesterday?"
+    ],
+    "erklaerung": "Wird nach dem Subjekt gefragt, entfällt das Hilfsverb: Who called …?",
+    "fehler": [
+     {
+      "antwort": "Who did you call yesterday?",
+      "diagnoseId": "objekt",
+      "feedback": "Hier wird nach dem Objekt gefragt: Wen hast du angerufen?"
+     },
+     {
+      "antwort": "Whom did you call?",
+      "diagnoseId": "objekt",
+      "feedback": "Auch das fragt nach dem Objekt. Richtig ist «Who called you yesterday?»."
+     },
+     {
+      "antwort": "Who did call you?",
+      "diagnoseId": "form",
+      "feedback": "Mit «did» klingt es nach Betonung; die normale Subjektfrage kommt ohne aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question asks for the object?",
+    "optionen": [
+     "What did she buy?",
+     "What happened next?",
+     "Who lives here?",
+     "Which bus goes to Trogen?"
+    ],
+    "loesung": [
+     "What did she buy?"
+    ],
+    "erklaerung": "Nach dem Objekt wird mit Hilfsverb gefragt: What did she buy?",
+    "fehler": [
+     {
+      "antwort": "What happened next?",
+      "diagnoseId": "subjekt",
+      "feedback": "Das fragt nach dem Subjekt; darum fehlt das Hilfsverb."
+     },
+     {
+      "antwort": "Who lives here?",
+      "diagnoseId": "subjekt",
+      "feedback": "Auch das ist eine Subjektfrage. Richtig ist «What did she buy?»."
+     },
+     {
+      "antwort": "Which bus goes to Trogen?",
+      "diagnoseId": "subjekt",
+      "feedback": "«Which bus» ist das Subjekt des Satzes. Richtig ist «What did she buy?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "She often goes to the library.",
+     "She goes often to the library.",
+     "Often she goes to the library every week.",
+     "She goes to often the library."
+    ],
+    "loesung": [
+     "She often goes to the library."
+    ],
+    "erklaerung": "Häufigkeitsangaben stehen vor dem Vollverb.",
+    "fehler": [
+     {
+      "antwort": "She goes often to the library.",
+      "diagnoseId": "stellung",
+      "feedback": "«often» steht vor dem Vollverb, nicht dahinter."
+     },
+     {
+      "antwort": "Often she goes to the library every week.",
+      "diagnoseId": "doppelt",
+      "feedback": "Zwei Häufigkeitsangaben im selben Satz sind eine zu viel."
+     },
+     {
+      "antwort": "She goes to often the library.",
+      "diagnoseId": "stellung",
+      "feedback": "Zwischen Präposition und Nomen steht keine Häufigkeitsangabe."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about the position of «always».",
+    "optionen": [
+     "He is always late.",
+     "He always is late.",
+     "He is late always.",
+     "Always he is late."
+    ],
+    "loesung": [
+     "He is always late."
+    ],
+    "erklaerung": "Nach einer Form von «be» steht die Häufigkeitsangabe dahinter, nicht davor.",
+    "fehler": [
+     {
+      "antwort": "He always is late.",
+      "diagnoseId": "stellung",
+      "feedback": "Nach «be» steht die Häufigkeitsangabe hinter dem Verb."
+     },
+     {
+      "antwort": "He is late always.",
+      "diagnoseId": "stellung",
+      "feedback": "«always» gehört direkt hinter «is». Richtig ist «He is always late.»."
+     },
+     {
+      "antwort": "Always he is late.",
+      "diagnoseId": "stellung",
+      "feedback": "Am Satzanfang wirkt «always» im Englischen ungewöhnlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\n______ time does the train leave?",
+    "optionen": [
+     "What",
+     "Which",
+     "How",
+     "When"
+    ],
+    "loesung": [
+     "What"
+    ],
+    "erklaerung": "«What time» ist die feste Wendung für die Uhrzeit.",
+    "fehler": [
+     {
+      "antwort": "Which",
+      "diagnoseId": "wendung",
+      "feedback": "«Which time» ist ungebräuchlich; üblich ist «What time»."
+     },
+     {
+      "antwort": "How",
+      "diagnoseId": "form",
+      "feedback": "«How time» ergibt keinen Satz. Richtig ist «What»."
+     },
+     {
+      "antwort": "When",
+      "diagnoseId": "form",
+      "feedback": "«When» ginge allein, aber nicht vor «time»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\n______ do you get to school?",
+    "optionen": [
+     "How",
+     "What",
+     "Which",
+     "Who"
+    ],
+    "loesung": [
+     "How"
+    ],
+    "erklaerung": "«How» fragt nach der Art und Weise: zu Fuss, mit dem Bus, mit dem Velo.",
+    "fehler": [
+     {
+      "antwort": "What",
+      "diagnoseId": "fragewort",
+      "feedback": "«What» fragt nach einer Sache. Richtig ist «How»."
+     },
+     {
+      "antwort": "Which",
+      "diagnoseId": "fragewort",
+      "feedback": "«Which» fragt nach einer Auswahl und bräuchte ein Nomen."
+     },
+     {
+      "antwort": "Who",
+      "diagnoseId": "fragewort",
+      "feedback": "«Who» fragt nach einer Person. Richtig ist «How»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about «much» and «many».",
+    "optionen": [
+     "How much time do we have?",
+     "How many time do we have?",
+     "How much times do we have?",
+     "How many times do we have left?"
+    ],
+    "loesung": [
+     "How much time do we have?"
+    ],
+    "erklaerung": "«time» im Sinn von Zeit ist nicht zählbar; darum «how much».",
+    "fehler": [
+     {
+      "antwort": "How many time do we have?",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«how many» steht nur bei zählbaren Dingen."
+     },
+     {
+      "antwort": "How much times do we have?",
+      "diagnoseId": "zahl",
+      "feedback": "«times» im Plural hiesse Male; dann bräuchte es «how many»."
+     },
+     {
+      "antwort": "How many times do we have left?",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das fragte nach der Anzahl Male, nicht nach der Zeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ eats meat.",
+    "optionen": [
+     "hardly ever",
+     "hardly never",
+     "not ever hardly",
+     "ever hardly"
+    ],
+    "loesung": [
+     "hardly ever"
+    ],
+    "erklaerung": "«hardly ever» heisst fast nie und steht vor dem Vollverb.",
+    "fehler": [
+     {
+      "antwort": "hardly never",
+      "diagnoseId": "doppelt",
+      "feedback": "«hardly» ist schon fast eine Verneinung; mit «never» wären es zwei."
+     },
+     {
+      "antwort": "not ever hardly",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die Wörter stehen in keiner gültigen Reihenfolge."
+     },
+     {
+      "antwort": "ever hardly",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die feste Wendung lautet «hardly ever». Richtig ist «hardly ever»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question is correct?\n\n(Wer hat das Fenster zerbrochen?)",
+    "optionen": [
+     "Who broke the window?",
+     "Who did break the window?",
+     "Who has break the window?",
+     "Whom broke the window?"
+    ],
+    "loesung": [
+     "Who broke the window?"
+    ],
+    "erklaerung": "Die Subjektfrage kommt ohne Hilfsverb aus; das Verb steht in der Vergangenheitsform.",
+    "fehler": [
+     {
+      "antwort": "Who did break the window?",
+      "diagnoseId": "form",
+      "feedback": "Mit «did» klingt es betont; die normale Frage kommt ohne aus."
+     },
+     {
+      "antwort": "Who has break the window?",
+      "diagnoseId": "form",
+      "feedback": "Nach «has» stünde «broken», nicht die Grundform."
+     },
+     {
+      "antwort": "Whom broke the window?",
+      "diagnoseId": "form",
+      "feedback": "«Whom» fragt nach dem Objekt, nicht nach dem Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\n______ you ever been to Scotland?",
+    "optionen": [
+     "Have",
+     "Did",
+     "Do",
+     "Are"
+    ],
+    "loesung": [
+     "Have"
+    ],
+    "erklaerung": "«ever been» gehört zum present perfect; die Frage beginnt mit «Have».",
+    "fehler": [
+     {
+      "antwort": "Did",
+      "diagnoseId": "zeit",
+      "feedback": "«Did» stünde im simple past und vertrüge kein «been»."
+     },
+     {
+      "antwort": "Do",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«Do» bildet Fragen im present simple, nicht mit «been»."
+     },
+     {
+      "antwort": "Are",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«Are» passt zu einer Verlaufsform: Are you going?"
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Fragen, subject questions und Häufigkeitsangaben",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-pronomen",
+  "lernzielId": "EAR.2.09",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "2.09",
+   "2.10",
+   "2.11"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Vor einem Nomen steht das Possessivbegleitwort, allein die alleinstehende Form.",
+   "Der s-genitive steht bei Personen: my sister's bike.",
+   "which steht bei Dingen, who bei Personen, where bei Orten."
+  ],
+  "loesungsweg": [
+   "Die Wortart der Lücke bestimmen.",
+   "Prüfen, ob ein Nomen folgt.",
+   "Die passende Form wählen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Choose the correct form:\n\nThis is my brother. ______ name is Timo.",
+    "optionen": [
+     "His",
+     "He",
+     "Him",
+     "He's"
+    ],
+    "loesung": [
+     "His"
+    ],
+    "erklaerung": "Vor einem Nomen steht das Possessivbegleitwort «his».",
+    "fehler": [
+     {
+      "antwort": "He",
+      "diagnoseId": "form",
+      "feedback": "«He» ist das Subjektpronomen und stünde vor einem Verb."
+     },
+     {
+      "antwort": "Him",
+      "diagnoseId": "form",
+      "feedback": "«Him» ist die Objektform. Richtig ist «His»."
+     },
+     {
+      "antwort": "He's",
+      "diagnoseId": "verwechslung",
+      "feedback": "«He's» ist die Kurzform von «he is» oder «he has»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThat bag is ______ , not mine.",
+    "optionen": [
+     "hers",
+     "her",
+     "she",
+     "her's"
+    ],
+    "loesung": [
+     "hers"
+    ],
+    "erklaerung": "Ohne Nomen dahinter steht die alleinstehende Form «hers».",
+    "fehler": [
+     {
+      "antwort": "her",
+      "diagnoseId": "form",
+      "feedback": "«her» braucht ein Nomen hinter sich: her bag."
+     },
+     {
+      "antwort": "she",
+      "diagnoseId": "form",
+      "feedback": "«she» ist das Subjektpronomen. Richtig ist «hers»."
+     },
+     {
+      "antwort": "her's",
+      "diagnoseId": "apostroph",
+      "feedback": "Bei Possessivpronomen steht nie ein Apostroph."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe made the cake ______ .",
+    "optionen": [
+     "herself",
+     "she",
+     "her",
+     "hers"
+    ],
+    "loesung": [
+     "herself"
+    ],
+    "erklaerung": "Das Reflexivpronomen betont, dass sie es selbst getan hat.",
+    "fehler": [
+     {
+      "antwort": "she",
+      "diagnoseId": "form",
+      "feedback": "«she» ist das Subjektpronomen und stünde vor dem Verb."
+     },
+     {
+      "antwort": "her",
+      "diagnoseId": "form",
+      "feedback": "«her» ist die Objektform; hier braucht es die Selbstform."
+     },
+     {
+      "antwort": "hers",
+      "diagnoseId": "form",
+      "feedback": "«hers» zeigt Besitz an. Richtig ist «herself»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWe painted the room ______ .",
+    "optionen": [
+     "ourselves",
+     "ourself",
+     "us",
+     "our"
+    ],
+    "loesung": [
+     "ourselves"
+    ],
+    "erklaerung": "Die Selbstform in der Mehrzahl lautet «ourselves».",
+    "fehler": [
+     {
+      "antwort": "ourself",
+      "diagnoseId": "zahl",
+      "feedback": "«ourself» gibt es im Standardenglischen nicht; die Mehrzahl heisst «ourselves»."
+     },
+     {
+      "antwort": "us",
+      "diagnoseId": "form",
+      "feedback": "«us» ist die Objektform. Richtig ist «ourselves»."
+     },
+     {
+      "antwort": "our",
+      "diagnoseId": "form",
+      "feedback": "«our» braucht ein Nomen hinter sich. Richtig ist «ourselves»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about the s-genitive in the singular.",
+    "optionen": [
+     "This is my sister's bike.",
+     "This is my sisters bike.",
+     "This is the bike of my sister.",
+     "This is my sister bike."
+    ],
+    "loesung": [
+     "This is my sister's bike."
+    ],
+    "erklaerung": "Bei Personen steht der s-genitive mit Apostroph: my sister's bike.",
+    "fehler": [
+     {
+      "antwort": "This is my sisters bike.",
+      "diagnoseId": "apostroph",
+      "feedback": "Ohne Apostroph liest man eine Mehrzahl. Richtig ist «This is my sister's bike.»."
+     },
+     {
+      "antwort": "This is the bike of my sister.",
+      "diagnoseId": "stil",
+      "feedback": "Verständlich, aber bei Personen ist der s-genitive üblich."
+     },
+     {
+      "antwort": "This is my sister bike.",
+      "diagnoseId": "form",
+      "feedback": "Ohne Apostroph-s fehlt die Verbindung. Richtig ist «This is my sister's bike.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about the s-genitive in the plural.",
+    "optionen": [
+     "These are my parents' names.",
+     "These are my parents's names.",
+     "These are my parent's names.",
+     "These are my parents names."
+    ],
+    "loesung": [
+     "These are my parents' names."
+    ],
+    "erklaerung": "Endet die Mehrzahl auf -s, steht nur der Apostroph dahinter.",
+    "fehler": [
+     {
+      "antwort": "These are my parents's names.",
+      "diagnoseId": "form",
+      "feedback": "Nach einem Mehrzahl-s kommt kein zweites s dazu."
+     },
+     {
+      "antwort": "These are my parent's names.",
+      "diagnoseId": "zahl",
+      "feedback": "Das hiesse: nur ein Elternteil. Richtig ist «These are my parents' names.»."
+     },
+     {
+      "antwort": "These are my parents names.",
+      "diagnoseId": "apostroph",
+      "feedback": "Der Apostroph fehlt. Richtig ist «These are my parents' names.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThe bench ______ stood outside is gone.",
+    "optionen": [
+     "which",
+     "who",
+     "whose",
+     "when"
+    ],
+    "loesung": [
+     "which"
+    ],
+    "erklaerung": "«which» bezieht sich auf Dinge.",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht bei Personen. Richtig ist «which»."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bezug",
+      "feedback": "«whose» zeigt Besitz an und bräuchte ein Nomen."
+     },
+     {
+      "antwort": "when",
+      "diagnoseId": "bezug",
+      "feedback": "«when» bezieht sich auf einen Zeitpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThe woman ______ sold it lives next door.",
+    "optionen": [
+     "who",
+     "which",
+     "whose",
+     "where"
+    ],
+    "loesung": [
+     "who"
+    ],
+    "erklaerung": "«who» bezieht sich auf Personen.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» steht bei Dingen. Richtig ist «who»."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bezug",
+      "feedback": "«whose» zeigt Besitz an. Richtig ist «who»."
+     },
+     {
+      "antwort": "where",
+      "diagnoseId": "bezug",
+      "feedback": "«where» bezieht sich auf einen Ort. Richtig ist «who»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThat is the shop ______ I bought it.",
+    "optionen": [
+     "where",
+     "which",
+     "who",
+     "what"
+    ],
+    "loesung": [
+     "where"
+    ],
+    "erklaerung": "«where» bezieht sich auf einen Ort, an dem etwas geschieht.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» ginge nur mit einer Präposition: the shop in which …"
+     },
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht bei Personen. Richtig ist «where»."
+     },
+     {
+      "antwort": "what",
+      "diagnoseId": "bezug",
+      "feedback": "«what» leitet keinen Relativsatz ein, der sich auf ein Nomen bezieht."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThe man ______ car is blue works here.",
+    "optionen": [
+     "whose",
+     "who's",
+     "which",
+     "who"
+    ],
+    "loesung": [
+     "whose"
+    ],
+    "erklaerung": "«whose» zeigt Besitz an und steht direkt vor dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "who's",
+      "diagnoseId": "verwechslung",
+      "feedback": "«who's» ist die Kurzform von «who is». Richtig ist «whose»."
+     },
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» stünde bei Dingen und brauchte kein Nomen dahinter."
+     },
+     {
+      "antwort": "who",
+      "diagnoseId": "form",
+      "feedback": "Nach «who» folgt ein Verb, kein Nomen. Richtig ist «whose»."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nCan you help ______ with this box?",
+    "optionen": [
+     "me",
+     "I",
+     "my",
+     "mine"
+    ],
+    "loesung": [
+     "me"
+    ],
+    "erklaerung": "Nach einem Verb steht die Objektform «me».",
+    "fehler": [
+     {
+      "antwort": "I",
+      "diagnoseId": "form",
+      "feedback": "«I» ist die Subjektform und stünde vor dem Verb."
+     },
+     {
+      "antwort": "my",
+      "diagnoseId": "form",
+      "feedback": "«my» braucht ein Nomen hinter sich. Richtig ist «me»."
+     },
+     {
+      "antwort": "mine",
+      "diagnoseId": "form",
+      "feedback": "«mine» steht allein und zeigt Besitz an."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nMy bag is heavy, but ______ is even heavier.",
+    "optionen": [
+     "theirs",
+     "their",
+     "them",
+     "their's"
+    ],
+    "loesung": [
+     "theirs"
+    ],
+    "erklaerung": "Ohne Nomen dahinter steht die alleinstehende Form «theirs».",
+    "fehler": [
+     {
+      "antwort": "their",
+      "diagnoseId": "form",
+      "feedback": "«their» braucht ein Nomen hinter sich. Richtig ist «theirs»."
+     },
+     {
+      "antwort": "them",
+      "diagnoseId": "form",
+      "feedback": "«them» ist die Objektform. Richtig ist «theirs»."
+     },
+     {
+      "antwort": "their's",
+      "diagnoseId": "apostroph",
+      "feedback": "Bei Possessivpronomen steht nie ein Apostroph."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Pronomen, s-genitive und Relativsätze",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-vocabulary",
+  "lernzielId": "EAR.3.01",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Read the whole sentence — the gap alone tells you too little.",
+   "Watch out for false friends between German and English.",
+   "Linking words show how two sentences belong together."
+  ],
+  "loesungsweg": [
+   "Decide which topic the sentence belongs to.",
+   "Cross out words from other topics.",
+   "Try each option in the sentence.",
+   "Check the grammar as well."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Family and everyday life: Which word fits?\n\nMy ______ is my father's brother.",
+    "optionen": [
+     "uncle",
+     "cousin",
+     "nephew",
+     "grandfather"
+    ],
+    "loesung": [
+     "uncle"
+    ],
+    "erklaerung": "The brother of your father is your uncle.",
+    "fehler": [
+     {
+      "antwort": "cousin",
+      "diagnoseId": "verwandtschaft",
+      "feedback": "A cousin is the child of your uncle or aunt."
+     },
+     {
+      "antwort": "nephew",
+      "diagnoseId": "verwandtschaft_zwei",
+      "feedback": "A nephew is the son of your brother or sister."
+     },
+     {
+      "antwort": "grandfather",
+      "diagnoseId": "verwandtschaft_drei",
+      "feedback": "A grandfather is the father of your father or mother."
+     }
+    ]
+   },
+   {
+    "stamm": "School and work: What do you do at a job interview?",
+    "optionen": [
+     "You answer questions about yourself.",
+     "You write a test.",
+     "You buy something.",
+     "You repair a machine."
+    ],
+    "loesung": [
+     "You answer questions about yourself."
+    ],
+    "erklaerung": "An interview is a conversation in which you are asked about your experience.",
+    "fehler": [
+     {
+      "antwort": "You write a test.",
+      "diagnoseId": "pruefung",
+      "feedback": "A written test is something else; an interview is spoken."
+     },
+     {
+      "antwort": "You buy something.",
+      "diagnoseId": "kauf",
+      "feedback": "Nothing is bought at an interview; it is a conversation."
+     },
+     {
+      "antwort": "You repair a machine.",
+      "diagnoseId": "arbeit",
+      "feedback": "That might be the job, but not the interview."
+     }
+    ]
+   },
+   {
+    "stamm": "Travel: What is «a return ticket»?",
+    "optionen": [
+     "a ticket there and back",
+     "a ticket you can give back",
+     "a free ticket",
+     "a ticket for one way"
+    ],
+    "loesung": [
+     "a ticket there and back"
+    ],
+    "erklaerung": "A return ticket takes you to a place and home again.",
+    "fehler": [
+     {
+      "antwort": "a ticket you can give back",
+      "diagnoseId": "rueckgabe",
+      "feedback": "«Return» here means the journey back, not giving the ticket back."
+     },
+     {
+      "antwort": "a free ticket",
+      "diagnoseId": "gratis",
+      "feedback": "The price is not part of the word «return»."
+     },
+     {
+      "antwort": "a ticket for one way",
+      "diagnoseId": "einfach",
+      "feedback": "That is a single or one-way ticket, not a return."
+     }
+    ]
+   },
+   {
+    "stamm": "Environment: What does «to recycle» mean?",
+    "optionen": [
+     "to use material again",
+     "to throw away",
+     "to buy new things",
+     "to clean a street"
+    ],
+    "loesung": [
+     "to use material again"
+    ],
+    "erklaerung": "Recycling turns used material into something new.",
+    "fehler": [
+     {
+      "antwort": "to throw away",
+      "diagnoseId": "wegwerfen",
+      "feedback": "Throwing away is the opposite of recycling."
+     },
+     {
+      "antwort": "to buy new things",
+      "diagnoseId": "kauf",
+      "feedback": "Buying new things does not reuse anything."
+     },
+     {
+      "antwort": "to clean a street",
+      "diagnoseId": "reinigung",
+      "feedback": "Cleaning is a different action and does not reuse material."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nThe bench was ugly. ______ , people liked it.",
+    "optionen": [
+     "However",
+     "Therefore",
+     "Because",
+     "Moreover"
+    ],
+    "loesung": [
+     "However"
+    ],
+    "erklaerung": "The two sentences stand in contrast, and «however» marks exactly that.",
+    "fehler": [
+     {
+      "antwort": "Therefore",
+      "diagnoseId": "folge",
+      "feedback": "«Therefore» introduces a consequence, but liking an ugly bench is not one."
+     },
+     {
+      "antwort": "Because",
+      "diagnoseId": "grund",
+      "feedback": "«Because» needs a cause and cannot start this sentence on its own."
+     },
+     {
+      "antwort": "Moreover",
+      "diagnoseId": "ergaenzung",
+      "feedback": "«Moreover» adds a further point instead of marking a contrast."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nHe changed his mind ______ he saw the sign.",
+    "optionen": [
+     "when",
+     "however",
+     "although",
+     "instead"
+    ],
+    "loesung": [
+     "when"
+    ],
+    "erklaerung": "«When» introduces the moment at which something happened.",
+    "fehler": [
+     {
+      "antwort": "however",
+      "diagnoseId": "gegensatz",
+      "feedback": "«However» marks a contrast and does not link a time."
+     },
+     {
+      "antwort": "although",
+      "diagnoseId": "gegensatz_zwei",
+      "feedback": "«Although» would mean he changed his mind DESPITE the sign."
+     },
+     {
+      "antwort": "instead",
+      "diagnoseId": "ersatz",
+      "feedback": "«Instead» replaces one thing with another."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word is a false friend?",
+    "optionen": [
+     "become",
+     "bench",
+     "shop",
+     "sign"
+    ],
+    "loesung": [
+     "become"
+    ],
+    "erklaerung": "«Become» means «werden», not «bekommen» — the classic false friend.",
+    "fehler": [
+     {
+      "antwort": "bench",
+      "diagnoseId": "gleich",
+      "feedback": "«Bench» simply means Bank as a seat; there is no trap."
+     },
+     {
+      "antwort": "shop",
+      "diagnoseId": "gleich_zwei",
+      "feedback": "«Shop» means what it looks like and is no false friend."
+     },
+     {
+      "antwort": "sign",
+      "diagnoseId": "aehnlich",
+      "feedback": "«Sign» is close to «Schild» and causes no confusion."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "I have lived here since 2019.",
+     "I live here since 2019.",
+     "I am living here since 2019.",
+     "I lived here since 2019."
+    ],
+    "loesung": [
+     "I have lived here since 2019."
+    ],
+    "erklaerung": "«Since» plus a starting point needs the present perfect.",
+    "fehler": [
+     {
+      "antwort": "I live here since 2019.",
+      "diagnoseId": "deutsch",
+      "feedback": "German uses the present here, English does not."
+     },
+     {
+      "antwort": "I am living here since 2019.",
+      "diagnoseId": "continuous",
+      "feedback": "The present continuous describes this moment, not a period."
+     },
+     {
+      "antwort": "I lived here since 2019.",
+      "diagnoseId": "past",
+      "feedback": "The past simple would mean you do not live here any more."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word completes the sentence?\n\nThe shop is ______ the church.",
+    "optionen": [
+     "opposite",
+     "against",
+     "in front",
+     "before"
+    ],
+    "loesung": [
+     "opposite"
+    ],
+    "erklaerung": "«Opposite» means on the other side of the street, facing something.",
+    "fehler": [
+     {
+      "antwort": "against",
+      "diagnoseId": "richtung",
+      "feedback": "«Against» means leaning on something or being opposed to it."
+     },
+     {
+      "antwort": "in front",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "«In front» needs «of»: in front of the church."
+     },
+     {
+      "antwort": "before",
+      "diagnoseId": "zeit",
+      "feedback": "«Before» is about time, not place: before six o'clock."
+     }
+    ]
+   },
+   {
+    "stamm": "How do you begin a polite email to a person you do not know?",
+    "optionen": [
+     "Dear Sir or Madam,",
+     "Hi there,",
+     "Hello you,",
+     "Good day Mister,"
+    ],
+    "loesung": [
+     "Dear Sir or Madam,"
+    ],
+    "erklaerung": "«Dear Sir or Madam» is the standard opening when the name is unknown.",
+    "fehler": [
+     {
+      "antwort": "Hi there,",
+      "diagnoseId": "informell",
+      "feedback": "«Hi there» is friendly but far too informal for a stranger."
+     },
+     {
+      "antwort": "Hello you,",
+      "diagnoseId": "informell_zwei",
+      "feedback": "This sounds like a message to a friend, not to a stranger."
+     },
+     {
+      "antwort": "Good day Mister,",
+      "diagnoseId": "form",
+      "feedback": "«Mister» needs a name after it, and «good day» is unusual in writing."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is best for the end of a short text?",
+    "optionen": [
+     "All in all, the bench is more than a place to sit.",
+     "And then, and then, and then.",
+     "The bench. Green. Old.",
+     "I do not know what to write."
+    ],
+    "loesung": [
+     "All in all, the bench is more than a place to sit."
+    ],
+    "erklaerung": "A closing sentence sums up. «All in all» signals exactly that.",
+    "fehler": [
+     {
+      "antwort": "And then, and then, and then.",
+      "diagnoseId": "reihung",
+      "feedback": "Repeating «and then» adds nothing and shows no structure."
+     },
+     {
+      "antwort": "The bench. Green. Old.",
+      "diagnoseId": "fragmente",
+      "feedback": "These are fragments, not a sentence, and they close nothing."
+     },
+     {
+      "antwort": "I do not know what to write.",
+      "diagnoseId": "inhalt",
+      "feedback": "This tells the reader nothing about the topic."
+     }
+    ]
+   },
+   {
+    "stamm": "Which adverb of frequency means «almost never»?",
+    "optionen": [
+     "hardly ever",
+     "usually",
+     "normally",
+     "often"
+    ],
+    "loesung": [
+     "hardly ever"
+    ],
+    "erklaerung": "«Hardly ever» is at the bottom of the scale: nearly never.",
+    "fehler": [
+     {
+      "antwort": "usually",
+      "diagnoseId": "haeufig",
+      "feedback": "«Usually» means most of the time — nearly the opposite."
+     },
+     {
+      "antwort": "normally",
+      "diagnoseId": "haeufig_zwei",
+      "feedback": "«Normally» is close to «usually» and means most of the time."
+     },
+     {
+      "antwort": "often",
+      "diagnoseId": "haeufig_drei",
+      "feedback": "«Often» means many times and sits high on the scale."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Vocabulary and writing",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-en-writing",
+  "lernzielId": "EAR.3.04",
+  "fach": "englisch-ar",
+  "unterthemen": [
+   "3.04",
+   "3.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein englischer Aussagesatz hält die Reihenfolge Subjekt – Verb – Objekt ein.",
+   "Linking words zeigen, wie zwei Gedanken zusammenhängen: Grund, Gegensatz, Folge.",
+   "Ein Text braucht einen Anfang, einen Mittelteil und einen Schluss — auch auf einer halben Seite."
+  ],
+  "loesungsweg": [
+   "Die Reihenfolge Subjekt – Verb – Objekt prüfen.",
+   "Den Zusammenhang der Gedanken bestimmen.",
+   "Das passende Bindewort wählen.",
+   "Den Text laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which sentence has the correct word order? Two objects and a time.",
+    "optionen": [
+     "She gave her friend a present yesterday.",
+     "She gave yesterday her friend a present.",
+     "Yesterday gave she her friend a present.",
+     "She her friend gave a present yesterday."
+    ],
+    "loesung": [
+     "She gave her friend a present yesterday."
+    ],
+    "erklaerung": "Erst Subjekt und Verb, dann die Objekte, dann die Zeitangabe.",
+    "fehler": [
+     {
+      "antwort": "She gave yesterday her friend a present.",
+      "diagnoseId": "stellung",
+      "feedback": "Die Zeitangabe steht am Satzende, nicht zwischen Verb und Objekt."
+     },
+     {
+      "antwort": "Yesterday gave she her friend a present.",
+      "diagnoseId": "stellung",
+      "feedback": "Im Englischen bleibt das Subjekt vor dem Verb, auch nach einer Zeitangabe."
+     },
+     {
+      "antwort": "She her friend gave a present yesterday.",
+      "diagnoseId": "stellung",
+      "feedback": "Das Verb gehört direkt hinter das Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence has the correct word order? An adverb of frequency, a place and a time.",
+    "optionen": [
+     "I often meet my friends in town on Saturdays.",
+     "I meet often my friends on Saturdays in town.",
+     "I often meet on Saturdays my friends in town.",
+     "In town I often my friends meet on Saturdays."
+    ],
+    "loesung": [
+     "I often meet my friends in town on Saturdays."
+    ],
+    "erklaerung": "Häufigkeitsangabe vor dem Vollverb, dann Ort, dann Zeit.",
+    "fehler": [
+     {
+      "antwort": "I meet often my friends on Saturdays in town.",
+      "diagnoseId": "stellung",
+      "feedback": "«often» steht vor dem Vollverb, und der Ort kommt vor der Zeit."
+     },
+     {
+      "antwort": "I often meet on Saturdays my friends in town.",
+      "diagnoseId": "stellung",
+      "feedback": "Das Objekt steht direkt nach dem Verb. Richtig ist «I often meet my friends in town on Saturdays.»."
+     },
+     {
+      "antwort": "In town I often my friends meet on Saturdays.",
+      "diagnoseId": "stellung",
+      "feedback": "Das Verb gehört hinter die Häufigkeitsangabe, nicht ans Ende."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nI stayed at home ______ it was raining.",
+    "optionen": [
+     "because",
+     "although",
+     "so",
+     "but"
+    ],
+    "loesung": [
+     "because"
+    ],
+    "erklaerung": "«because» nennt den Grund.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "bedeutung",
+      "feedback": "«although» stellte einen Gegensatz her; Regen ist hier aber der Grund."
+     },
+     {
+      "antwort": "so",
+      "diagnoseId": "bedeutung",
+      "feedback": "«so» nennt die Folge; die Reihenfolge wäre umgekehrt."
+     },
+     {
+      "antwort": "but",
+      "diagnoseId": "bedeutung",
+      "feedback": "«but» stellt einen Gegensatz her. Richtig ist «because»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nIt was raining, ______ we went out anyway.",
+    "optionen": [
+     "but",
+     "because",
+     "so",
+     "therefore"
+    ],
+    "loesung": [
+     "but"
+    ],
+    "erklaerung": "«but» stellt den Gegensatz her: Regen — und trotzdem hinaus.",
+    "fehler": [
+     {
+      "antwort": "because",
+      "diagnoseId": "bedeutung",
+      "feedback": "«because» nennte einen Grund; hier steht ein Gegensatz."
+     },
+     {
+      "antwort": "so",
+      "diagnoseId": "bedeutung",
+      "feedback": "«so» nennte die Folge; dann wären sie drinnen geblieben."
+     },
+     {
+      "antwort": "therefore",
+      "diagnoseId": "bedeutung",
+      "feedback": "«therefore» nennt ebenfalls eine Folge. Richtig ist «but»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nThe bus was late, ______ I missed the film.",
+    "optionen": [
+     "so",
+     "although",
+     "because",
+     "however"
+    ],
+    "loesung": [
+     "so"
+    ],
+    "erklaerung": "«so» nennt die Folge: Bus zu spät, darum Film verpasst.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "bedeutung",
+      "feedback": "«although» stellte einen Gegensatz her. Richtig ist «so»."
+     },
+     {
+      "antwort": "because",
+      "diagnoseId": "bedeutung",
+      "feedback": "«because» nennte den Grund; der steht schon im ersten Satzteil."
+     },
+     {
+      "antwort": "however",
+      "diagnoseId": "form",
+      "feedback": "«however» steht meist am Satzanfang und mit Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\n______ the long journey, we arrived on time.",
+    "optionen": [
+     "Despite",
+     "Although",
+     "Because",
+     "However"
+    ],
+    "loesung": [
+     "Despite"
+    ],
+    "erklaerung": "«despite» steht vor einer Wortgruppe, «although» vor einem ganzen Satz.",
+    "fehler": [
+     {
+      "antwort": "Although",
+      "diagnoseId": "form",
+      "feedback": "Nach «although» müsste ein ganzer Satz mit Verb folgen."
+     },
+     {
+      "antwort": "Because",
+      "diagnoseId": "bedeutung",
+      "feedback": "«because» nennte einen Grund; hier steht ein Gegensatz."
+     },
+     {
+      "antwort": "However",
+      "diagnoseId": "form",
+      "feedback": "«However» stünde als eigenes Satzglied mit Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence starts a text best?",
+    "optionen": [
+     "In this text I would like to tell you about my school.",
+     "And then we went home.",
+     "So that is my opinion.",
+     "Finally, I would say yes."
+    ],
+    "loesung": [
+     "In this text I would like to tell you about my school."
+    ],
+    "erklaerung": "Ein Text beginnt damit, worum es geht — nicht mitten im Ablauf und nicht mit dem Schluss.",
+    "fehler": [
+     {
+      "antwort": "And then we went home.",
+      "diagnoseId": "stelle",
+      "feedback": "Das gehört in den Mittelteil, nicht an den Anfang."
+     },
+     {
+      "antwort": "So that is my opinion.",
+      "diagnoseId": "stelle",
+      "feedback": "Das ist ein Schlusssatz. Richtig ist «In this text I would like to tell you about my school.»."
+     },
+     {
+      "antwort": "Finally, I would say yes.",
+      "diagnoseId": "stelle",
+      "feedback": "«Finally» kündigt den Schluss an. Richtig ist «In this text I would like to tell you about my school.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence ends a text best?",
+    "optionen": [
+     "All in all, I think the trip was worth it.",
+     "First of all, let me explain.",
+     "One day last summer, we left early.",
+     "There are two reasons for this."
+    ],
+    "loesung": [
+     "All in all, I think the trip was worth it."
+    ],
+    "erklaerung": "Ein Schlusssatz fasst zusammen und wertet.",
+    "fehler": [
+     {
+      "antwort": "First of all, let me explain.",
+      "diagnoseId": "stelle",
+      "feedback": "«First of all» kündigt den Anfang an. Richtig ist «All in all, I think the trip was worth it.»."
+     },
+     {
+      "antwort": "One day last summer, we left early.",
+      "diagnoseId": "stelle",
+      "feedback": "Das ist ein Erzählanfang. Richtig ist «All in all, I think the trip was worth it.»."
+     },
+     {
+      "antwort": "There are two reasons for this.",
+      "diagnoseId": "stelle",
+      "feedback": "Damit beginnt ein Mittelteil. Richtig ist «All in all, I think the trip was worth it.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which order makes a good short text?",
+    "optionen": [
+     "introduction – main part – conclusion",
+     "main part – introduction – conclusion",
+     "conclusion – introduction – main part",
+     "introduction – conclusion – main part"
+    ],
+    "loesung": [
+     "introduction – main part – conclusion"
+    ],
+    "erklaerung": "Auch ein kurzer Text hat drei Teile in dieser Reihenfolge.",
+    "fehler": [
+     {
+      "antwort": "main part – introduction – conclusion",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Die Einleitung sagt, worum es geht — sie kommt zuerst."
+     },
+     {
+      "antwort": "conclusion – introduction – main part",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Der Schluss steht am Schluss. Richtig ist «introduction – main part – conclusion»."
+     },
+     {
+      "antwort": "introduction – conclusion – main part",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Nach dem Schluss folgt nichts mehr. Richtig ist «introduction – main part – conclusion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about «there is» and «there are».",
+    "optionen": [
+     "There are many reasons for this.",
+     "It are many reasons for this.",
+     "There is many reasons for this.",
+     "There have many reasons for this."
+    ],
+    "loesung": [
+     "There are many reasons for this."
+    ],
+    "erklaerung": "«There are» stellt fest, dass mehrere Dinge vorhanden sind.",
+    "fehler": [
+     {
+      "antwort": "It are many reasons for this.",
+      "diagnoseId": "form",
+      "feedback": "«It» steht in der Einzahl und passt nicht zu «are»."
+     },
+     {
+      "antwort": "There is many reasons for this.",
+      "diagnoseId": "zahl",
+      "feedback": "«reasons» steht in der Mehrzahl; darum «are»."
+     },
+     {
+      "antwort": "There have many reasons for this.",
+      "diagnoseId": "form",
+      "feedback": "«have» steht hier nicht; die Wendung lautet «there are»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about «look forward to».",
+    "optionen": [
+     "I am looking forward to hearing from you.",
+     "I am looking forward to hear from you.",
+     "I look forward hearing from you.",
+     "I am looking forward hear from you."
+    ],
+    "loesung": [
+     "I am looking forward to hearing from you."
+    ],
+    "erklaerung": "Nach «look forward to» steht die ing-Form; das «to» gehört zur Wendung.",
+    "fehler": [
+     {
+      "antwort": "I am looking forward to hear from you.",
+      "diagnoseId": "form",
+      "feedback": "Nach diesem «to» steht die ing-Form, nicht die Grundform."
+     },
+     {
+      "antwort": "I look forward hearing from you.",
+      "diagnoseId": "form",
+      "feedback": "Das «to» der festen Wendung fehlt. Richtig ist «I am looking forward to hearing from you.»."
+     },
+     {
+      "antwort": "I am looking forward hear from you.",
+      "diagnoseId": "form",
+      "feedback": "Es fehlen «to» und die ing-Form. Richtig ist «I am looking forward to hearing from you.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct? It is about the subordinate clause.",
+    "optionen": [
+     "My favourite subject is English because it is useful.",
+     "My favourite subject is English because is useful.",
+     "My favourite subject English is because it useful is.",
+     "My favourite subject is English, because useful."
+    ],
+    "loesung": [
+     "My favourite subject is English because it is useful."
+    ],
+    "erklaerung": "Auch der Nebensatz braucht ein Subjekt und ein Verb.",
+    "fehler": [
+     {
+      "antwort": "My favourite subject is English because is useful.",
+      "diagnoseId": "subjekt",
+      "feedback": "Im Nebensatz fehlt das Subjekt «it». Richtig ist «My favourite subject is English because it is useful.»."
+     },
+     {
+      "antwort": "My favourite subject English is because it useful is.",
+      "diagnoseId": "stellung",
+      "feedback": "Im Englischen steht das Verb nie am Satzende."
+     },
+     {
+      "antwort": "My favourite subject is English, because useful.",
+      "diagnoseId": "form",
+      "feedback": "Dem Nebensatz fehlen Subjekt und Verb. Richtig ist «My favourite subject is English because it is useful.»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Satzbau, linking words und einen Text gliedern",
+  "status": "review"
+ }
+]

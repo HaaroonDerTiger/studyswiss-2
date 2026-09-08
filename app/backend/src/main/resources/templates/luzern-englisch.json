@@ -1,0 +1,1174 @@
+[
+ {
+  "templateId": "lu-en-cloze",
+  "lernzielId": "ELU.1.01",
+  "fach": "englisch-lu",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Satz, bevor du dich für ein Wort entscheidest.",
+   "Oft passt nur eines der vier Wörter zu der festen Verbindung im Satz.",
+   "Prüfe zum Schluss, ob die Zeitform zum Rest des Textes passt."
+  ],
+  "loesungsweg": [
+   "Den ganzen Satz lesen.",
+   "Die vier Wörter der Reihe nach einsetzen.",
+   "Prüfen, welches zur festen Verbindung passt.",
+   "Die Zeitform kontrollieren."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort passt?\n\nThe family had ______ eleven years in the flat.",
+    "optionen": [
+     "spent",
+     "left",
+     "taken",
+     "attended"
+    ],
+    "loesung": [
+     "spent"
+    ],
+    "erklaerung": "«spend time somewhere» ist die feste Verbindung für Zeit, die man an einem Ort verbringt.",
+    "fehler": [
+     {
+      "antwort": "left",
+      "diagnoseId": "bedeutung",
+      "feedback": "«leave» heisst verlassen; mit einer Zeitangabe ergibt das keinen Sinn."
+     },
+     {
+      "antwort": "taken",
+      "diagnoseId": "verbindung",
+      "feedback": "«take» braucht ein Objekt wie «a bus» oder «a photo», nicht eine Wohndauer."
+     },
+     {
+      "antwort": "attended",
+      "diagnoseId": "bedeutung",
+      "feedback": "«attend» heisst besuchen im Sinn von teilnehmen, etwa an einer Schule."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nYara ______ down on the floor of her empty room.",
+    "optionen": [
+     "sat",
+     "set",
+     "seated",
+     "sit"
+    ],
+    "loesung": [
+     "sat"
+    ],
+    "erklaerung": "«sit down» heisst sich hinsetzen; die Vergangenheitsform lautet «sat».",
+    "fehler": [
+     {
+      "antwort": "set",
+      "diagnoseId": "verwechselt",
+      "feedback": "«set» heisst stellen oder legen und braucht ein Objekt."
+     },
+     {
+      "antwort": "seated",
+      "diagnoseId": "form",
+      "feedback": "«seated» ist ein Partizip und stünde mit «was»."
+     },
+     {
+      "antwort": "sit",
+      "diagnoseId": "zeit",
+      "feedback": "Der Text steht in der Vergangenheit; die Form lautet «sat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nOnly one box was ______ .",
+    "optionen": [
+     "left",
+     "stayed",
+     "remained over",
+     "rested"
+    ],
+    "loesung": [
+     "left"
+    ],
+    "erklaerung": "«be left» heisst übrig sein — die feste Wendung für das, was bleibt.",
+    "fehler": [
+     {
+      "antwort": "stayed",
+      "diagnoseId": "verbindung",
+      "feedback": "«stay» braucht ein Subjekt, das selbst bleibt, meist eine Person."
+     },
+     {
+      "antwort": "remained over",
+      "diagnoseId": "verbindung",
+      "feedback": "«remain over» gibt es nicht; «remain» steht allein."
+     },
+     {
+      "antwort": "rested",
+      "diagnoseId": "bedeutung",
+      "feedback": "«rest» heisst sich ausruhen; für das, was übrig bleibt, steht «be left»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nHer mother was talking ______ the neighbours.",
+    "optionen": [
+     "to",
+     "with about",
+     "by",
+     "for"
+    ],
+    "loesung": [
+     "to"
+    ],
+    "erklaerung": "«talk to somebody» ist die übliche Verbindung.",
+    "fehler": [
+     {
+      "antwort": "with about",
+      "diagnoseId": "form",
+      "feedback": "Zwei Präpositionen nacheinander gehen nicht; man sagt «talk to» oder «talk about»."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "praeposition",
+      "feedback": "«by» heisst neben oder durch und passt nicht zu «talk»."
+     },
+     {
+      "antwort": "for",
+      "diagnoseId": "praeposition",
+      "feedback": "«talk for somebody» hiesse, an seiner Stelle sprechen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nIn three hours they ______ two hundred kilometres away.",
+    "optionen": [
+     "would be",
+     "are",
+     "have been",
+     "were being"
+    ],
+    "loesung": [
+     "would be"
+    ],
+    "erklaerung": "Der Text steht in der Vergangenheit; die Zukunft aus dieser Sicht heisst «would be».",
+    "fehler": [
+     {
+      "antwort": "are",
+      "diagnoseId": "zeit",
+      "feedback": "«are» steht im Präsens und passt nicht in einen Text in der Vergangenheit."
+     },
+     {
+      "antwort": "have been",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect blickt zurück, hier geht es nach vorn."
+     },
+     {
+      "antwort": "were being",
+      "diagnoseId": "form",
+      "feedback": "Diese Verlaufsform passt nicht zu einer Zustandsangabe wie «away»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nInside were things nobody had wanted ______ .",
+    "optionen": [
+     "to pack",
+     "packing",
+     "packed",
+     "pack"
+    ],
+    "loesung": [
+     "to pack"
+    ],
+    "erklaerung": "Nach «want» steht die Grundform mit «to».",
+    "fehler": [
+     {
+      "antwort": "packing",
+      "diagnoseId": "form",
+      "feedback": "«want» verlangt «to» plus Grundform, keine ing-Form."
+     },
+     {
+      "antwort": "packed",
+      "diagnoseId": "form",
+      "feedback": "«packed» wäre das Partizip und stünde nach «have»."
+     },
+     {
+      "antwort": "pack",
+      "diagnoseId": "form",
+      "feedback": "Das «to» darf nach «want» nicht fehlen: want to pack, nicht want pack."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThree keys ______ fitted no door any more.",
+    "optionen": [
+     "which",
+     "who",
+     "whose",
+     "what"
+    ],
+    "loesung": [
+     "which"
+    ],
+    "erklaerung": "«which» bezieht sich auf Dinge; «who» steht bei Personen.",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht nur bei Personen; hier geht es um Schlüssel."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bezug",
+      "feedback": "«whose» zeigt Besitz an: der Schlüssel, dessen …"
+     },
+     {
+      "antwort": "what",
+      "diagnoseId": "bezug",
+      "feedback": "«what» leitet keinen Relativsatz ein, der sich auf ein Nomen bezieht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nShe looked at the photograph ______ a long time.",
+    "optionen": [
+     "for",
+     "since",
+     "during",
+     "from"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«for» nennt die Dauer: for a long time.",
+    "fehler": [
+     {
+      "antwort": "since",
+      "diagnoseId": "zeit",
+      "feedback": "«since» nennt einen Anfangszeitpunkt: since April."
+     },
+     {
+      "antwort": "during",
+      "diagnoseId": "form",
+      "feedback": "«during» steht vor einem Nomen wie «during the lesson», nicht vor einer Zeitdauer."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "praeposition",
+      "feedback": "«from» nennt einen Ausgangspunkt; für eine Dauer steht «for a long time»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThen she put it ______ her jacket pocket.",
+    "optionen": [
+     "into",
+     "onto",
+     "at",
+     "of"
+    ],
+    "loesung": [
+     "into"
+    ],
+    "erklaerung": "«put something into» beschreibt die Bewegung nach innen.",
+    "fehler": [
+     {
+      "antwort": "onto",
+      "diagnoseId": "richtung",
+      "feedback": "«onto» hiesse auf etwas darauf, nicht hinein."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "praeposition",
+      "feedback": "«at» nennt einen Punkt, keine Bewegung nach innen."
+     },
+     {
+      "antwort": "of",
+      "diagnoseId": "praeposition",
+      "feedback": "«of» zeigt Zugehörigkeit an und passt nicht zu «put»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nSomebody called her name ______ the stairs.",
+    "optionen": [
+     "from",
+     "out",
+     "off",
+     "away"
+    ],
+    "loesung": [
+     "from"
+    ],
+    "erklaerung": "«from the stairs» nennt die Herkunft des Rufs.",
+    "fehler": [
+     {
+      "antwort": "out",
+      "diagnoseId": "praeposition",
+      "feedback": "«out» bräuchte ein «of»: out of the room."
+     },
+     {
+      "antwort": "off",
+      "diagnoseId": "praeposition",
+      "feedback": "«off» heisst herunter von und passt hier nicht."
+     },
+     {
+      "antwort": "away",
+      "diagnoseId": "praeposition",
+      "feedback": "«away» heisst weg und steht nicht vor einem Ort."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nShe looked around the room one last ______ .",
+    "optionen": [
+     "time",
+     "hour",
+     "moment",
+     "occasion"
+    ],
+    "loesung": [
+     "time"
+    ],
+    "erklaerung": "«one last time» ist die feste Wendung für ein letztes Mal.",
+    "fehler": [
+     {
+      "antwort": "hour",
+      "diagnoseId": "wortschatz",
+      "feedback": "«hour» ist eine Zeiteinheit von sechzig Minuten, nicht ein Mal."
+     },
+     {
+      "antwort": "moment",
+      "diagnoseId": "wendung",
+      "feedback": "«one last moment» ist keine gebräuchliche Wendung."
+     },
+     {
+      "antwort": "occasion",
+      "diagnoseId": "wendung",
+      "feedback": "«occasion» heisst Anlass und passt nicht zu «one last»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nShe switched off the light, ______ it was still bright outside.",
+    "optionen": [
+     "although",
+     "because",
+     "so",
+     "unless"
+    ],
+    "loesung": [
+     "although"
+    ],
+    "erklaerung": "«although» heisst obwohl und stellt den Gegensatz her: hell draussen, Licht trotzdem aus.",
+    "fehler": [
+     {
+      "antwort": "because",
+      "diagnoseId": "bedeutung",
+      "feedback": "«because» nennt einen Grund; helles Licht draussen ist kein Grund, drinnen auszuschalten — der Satz meint einen Gegensatz."
+     },
+     {
+      "antwort": "so",
+      "diagnoseId": "bedeutung",
+      "feedback": "«so» nennt eine Folge; hier steht ein Gegensatz."
+     },
+     {
+      "antwort": "unless",
+      "diagnoseId": "bedeutung",
+      "feedback": "«unless» heisst es sei denn und passt nicht zu einem abgeschlossenen Ereignis."
+     }
+    ]
+   }
+  ],
+  "text": "The Last Box\n\nOn a grey Saturday in April, Yara sat down on the floor of her empty room. The furniture was gone, the walls were bare, and only one box was left. Her mother was downstairs, talking to the neighbours who had come to say goodbye.\n\nThe family had lived in the flat for eleven years. Yara had learned to walk in the corridor and had done her homework at the kitchen table every afternoon. Now a lorry stood in front of the house, and in three hours they would be two hundred kilometres away.\n\nShe opened the last box. Inside were things nobody had wanted to pack: a broken clock, three keys that fitted no door any more, a school photograph from year four. She looked at the photograph for a long time and then put it in her jacket pocket.\n\nSomebody called her name from the stairs. Yara closed the box, stood up and looked around the room one last time. Then she switched off the light, although it was still bright outside.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Englisch, Use of English; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Use of English: Wortwahl im Text",
+  "status": "review"
+ },
+ {
+  "templateId": "lu-en-grammatik-lu",
+  "lernzielId": "ELU.1.03",
+  "fach": "englisch-lu",
+  "unterthemen": [
+   "1.03",
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Zeitangaben gilt: at für die Uhrzeit, on für den Tag, in für Monat und Jahr.",
+   "which steht bei Dingen, who bei Personen, where bei Orten.",
+   "many und few zählen Stücke, much und little stehen bei Mengen, die man nicht zählt."
+  ],
+  "loesungsweg": [
+   "Die Wortart der Lücke bestimmen.",
+   "Die passende Regel wählen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Präposition passt?\n\nThe lorry arrived ______ eight o'clock.",
+    "optionen": [
+     "at",
+     "on",
+     "in",
+     "by"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "Bei einer genauen Uhrzeit steht «at».",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "zeit",
+      "feedback": "«on» steht bei Tagen und Daten: on Saturday."
+     },
+     {
+      "antwort": "in",
+      "diagnoseId": "zeit",
+      "feedback": "«in» steht bei Monaten, Jahreszeiten und Jahren."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "zeit",
+      "feedback": "«by» nennt eine Frist: by eight o'clock heisst spätestens um acht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThey moved house ______ April.",
+    "optionen": [
+     "in",
+     "on",
+     "at",
+     "for"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "Bei Monaten, Jahreszeiten und Jahren steht «in»: in April, in winter, in 2027.",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "zeit",
+      "feedback": "«on» gehört zu einzelnen Tagen und Daten: on Saturday, on 3 April."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "zeit",
+      "feedback": "«at» gehört zu Uhrzeiten und zu «at night»."
+     },
+     {
+      "antwort": "for",
+      "diagnoseId": "zeit",
+      "feedback": "«for» nennt eine Dauer, nicht einen Zeitpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThe box stood ______ Saturday morning in the corridor.",
+    "optionen": [
+     "on",
+     "in",
+     "at",
+     "since"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "Bei einem bestimmten Tag oder Morgen steht «on»: on Saturday morning.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "zeit",
+      "feedback": "«in the morning» geht, aber mit dem Wochentag davor braucht es «on»."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "zeit",
+      "feedback": "«at» steht bei Uhrzeiten und bei «at night», nicht bei einem Wochentag."
+     },
+     {
+      "antwort": "since",
+      "diagnoseId": "zeit",
+      "feedback": "«since» nennt einen Anfangspunkt und braucht das present perfect."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nThe flat ______ they had lived in was small.",
+    "optionen": [
+     "which",
+     "who",
+     "whose",
+     "when"
+    ],
+    "loesung": [
+     "which"
+    ],
+    "erklaerung": "«which» bezieht sich auf Dinge, hier auf die Wohnung.",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht bei Personen; hier geht es um eine Sache."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bezug",
+      "feedback": "«whose» zeigt Besitz an: the family whose flat …"
+     },
+     {
+      "antwort": "when",
+      "diagnoseId": "bezug",
+      "feedback": "«when» bezieht sich auf einen Zeitpunkt, nicht auf einen Ort oder ein Ding."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nThe neighbours ______ came to say goodbye lived upstairs.",
+    "optionen": [
+     "who",
+     "which",
+     "whose",
+     "where"
+    ],
+    "loesung": [
+     "who"
+    ],
+    "erklaerung": "«who» bezieht sich auf Personen.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» steht bei Dingen, nicht bei Menschen."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bezug",
+      "feedback": "«whose» zeigt Besitz an und bräuchte ein Nomen dahinter."
+     },
+     {
+      "antwort": "where",
+      "diagnoseId": "bezug",
+      "feedback": "«where» bezieht sich auf einen Ort, an dem etwas geschieht, nicht auf Personen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nThat is the school ______ she learned English.",
+    "optionen": [
+     "where",
+     "which",
+     "who",
+     "what"
+    ],
+    "loesung": [
+     "where"
+    ],
+    "erklaerung": "«where» bezieht sich auf einen Ort, an dem etwas geschieht.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» ginge nur mit einer Präposition: the school at which …"
+     },
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht bei Personen; hier geht es um eine Sache."
+     },
+     {
+      "antwort": "what",
+      "diagnoseId": "bezug",
+      "feedback": "«what» leitet keinen Relativsatz ein, der sich auf ein Nomen bezieht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThere wasn't ______ furniture left in the room.",
+    "optionen": [
+     "much",
+     "many",
+     "a few",
+     "several"
+    ],
+    "loesung": [
+     "much"
+    ],
+    "erklaerung": "«furniture» ist nicht zählbar; darum steht «much».",
+    "fehler": [
+     {
+      "antwort": "many",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«many» steht nur bei zählbaren Dingen wie chairs oder tables."
+     },
+     {
+      "antwort": "a few",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«a few» zählt einzelne Stücke; Möbel als Ganzes lassen sich im Englischen nicht zählen."
+     },
+     {
+      "antwort": "several",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«several» zählt ebenfalls einzelne Stücke."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nOnly ______ boxes were still standing in the corridor.",
+    "optionen": [
+     "a few",
+     "a little",
+     "much",
+     "less"
+    ],
+    "loesung": [
+     "a few"
+    ],
+    "erklaerung": "«boxes» sind zählbar; für eine kleine Anzahl steht «a few».",
+    "fehler": [
+     {
+      "antwort": "a little",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«a little» steht bei Mengen, die man nicht zählt, etwa water."
+     },
+     {
+      "antwort": "much",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«much» steht ebenfalls bei nicht zählbaren Mengen."
+     },
+     {
+      "antwort": "less",
+      "diagnoseId": "form",
+      "feedback": "«less» steht bei nicht zählbaren Mengen; bei zählbaren heisst es «fewer»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nShe took ______ photographs than her brother.",
+    "optionen": [
+     "fewer",
+     "less",
+     "little",
+     "few"
+    ],
+    "loesung": [
+     "fewer"
+    ],
+    "erklaerung": "Bei zählbaren Dingen heisst der Vergleich «fewer».",
+    "fehler": [
+     {
+      "antwort": "less",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«less» gehört zu nicht zählbaren Mengen: less time, less water."
+     },
+     {
+      "antwort": "little",
+      "diagnoseId": "form",
+      "feedback": "«little» ist keine Vergleichsform; sie lautet «less» und gilt für nicht zählbare Mengen."
+     },
+     {
+      "antwort": "few",
+      "diagnoseId": "form",
+      "feedback": "«few» ist die Grundform; für den Vergleich braucht es «fewer»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThe lorry stood ______ of the house.",
+    "optionen": [
+     "in front",
+     "before",
+     "in face",
+     "at front"
+    ],
+    "loesung": [
+     "in front"
+    ],
+    "erklaerung": "«in front of» heisst vor, im räumlichen Sinn.",
+    "fehler": [
+     {
+      "antwort": "before",
+      "diagnoseId": "raum",
+      "feedback": "«before» heisst zeitlich vor, nicht räumlich."
+     },
+     {
+      "antwort": "in face",
+      "diagnoseId": "wendung",
+      "feedback": "«in face of» gibt es in dieser Bedeutung nicht."
+     },
+     {
+      "antwort": "at front",
+      "diagnoseId": "wendung",
+      "feedback": "Die feste Wendung lautet «in front of»; andere Formen gibt es dafür nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nShe put the photograph ______ her pocket and left.",
+    "optionen": [
+     "in",
+     "on",
+     "at",
+     "by"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "«in her pocket» beschreibt, wo das Bild danach steckt.",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "raum",
+      "feedback": "«on» hiesse auf der Tasche, nicht darin."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "raum",
+      "feedback": "«at» nennt einen Punkt, nicht einen Innenraum."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "raum",
+      "feedback": "«by» hiesse neben der Tasche; hineingelegt wird mit «in» oder «into»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThey will live two hundred kilometres ______ from here.",
+    "optionen": [
+     "away",
+     "far",
+     "apart",
+     "off"
+    ],
+    "loesung": [
+     "away"
+    ],
+    "erklaerung": "«away from» nennt die Entfernung von einem Ort.",
+    "fehler": [
+     {
+      "antwort": "far",
+      "diagnoseId": "form",
+      "feedback": "«far from here» ginge ohne Zahl; mit einer genauen Angabe steht «away»."
+     },
+     {
+      "antwort": "apart",
+      "diagnoseId": "bedeutung",
+      "feedback": "«apart» beschreibt den Abstand zwischen zwei Dingen, nicht zu einem Ausgangsort."
+     },
+     {
+      "antwort": "off",
+      "diagnoseId": "praeposition",
+      "feedback": "«off» heisst herunter von und passt hier nicht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Englisch, Use of English; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Präpositionen, Relativpronomen und Mengenwörter",
+  "status": "review"
+ },
+ {
+  "templateId": "lu-en-wortschatz-lu",
+  "lernzielId": "ELU.2.01",
+  "fach": "englisch-lu",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Setze das Wort probeweise in den Satz ein und lies ihn ganz.",
+   "Viele Wörter sehen sich ähnlich und lassen sich trotzdem nicht ersetzen.",
+   "Bei festen Wendungen hilft nur, sie als Ganzes zu lernen."
+  ],
+  "loesungsweg": [
+   "Den Satz vollständig lesen.",
+   "Die Bedeutung jedes Wortes prüfen.",
+   "Das passende einsetzen.",
+   "Den Satz noch einmal lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort passt?\n\nCould you ______ me your pen for a minute?",
+    "optionen": [
+     "lend",
+     "borrow",
+     "give away",
+     "rent"
+    ],
+    "loesung": [
+     "lend"
+    ],
+    "erklaerung": "«lend» heisst jemandem etwas leihen; «borrow» heisst sich etwas ausleihen.",
+    "fehler": [
+     {
+      "antwort": "borrow",
+      "diagnoseId": "richtung",
+      "feedback": "«borrow» geht in die andere Richtung: Ich leihe mir etwas von dir."
+     },
+     {
+      "antwort": "give away",
+      "diagnoseId": "bedeutung",
+      "feedback": "«give away» heisst verschenken; der Stift kommt aber zurück."
+     },
+     {
+      "antwort": "rent",
+      "diagnoseId": "bedeutung",
+      "feedback": "«rent» heisst mieten oder vermieten und kostet Geld; ein Stift wird nur geliehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nCan I ______ your bike this afternoon?",
+    "optionen": [
+     "borrow",
+     "lend",
+     "hire out",
+     "offer"
+    ],
+    "loesung": [
+     "borrow"
+    ],
+    "erklaerung": "Wer sich etwas ausleiht, sagt «borrow».",
+    "fehler": [
+     {
+      "antwort": "lend",
+      "diagnoseId": "richtung",
+      "feedback": "«lend» sagt die Person, die etwas hergibt."
+     },
+     {
+      "antwort": "hire out",
+      "diagnoseId": "bedeutung",
+      "feedback": "«hire out» heisst vermieten und passt nicht zu einem kurzen Ausleihen unter Freunden."
+     },
+     {
+      "antwort": "offer",
+      "diagnoseId": "bedeutung",
+      "feedback": "«offer» heisst anbieten; hier fragt jemand selbst nach dem Velo."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThe removal ______ arrived at nine.",
+    "optionen": [
+     "van",
+     "bus",
+     "car park",
+     "garage"
+    ],
+    "loesung": [
+     "van"
+    ],
+    "erklaerung": "Ein «removal van» ist ein Zügelwagen.",
+    "fehler": [
+     {
+      "antwort": "bus",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Bus fährt Leute, keine Möbel; für den Umzug braucht es einen «van»."
+     },
+     {
+      "antwort": "car park",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein «car park» ist ein Parkplatz, kein Fahrzeug für den Umzug."
+     },
+     {
+      "antwort": "garage",
+      "diagnoseId": "wortschatz",
+      "feedback": "Eine «garage» ist eine Garage oder Werkstatt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nWe are moving to a new ______ next month.",
+    "optionen": [
+     "flat",
+     "floor",
+     "ground",
+     "stair"
+    ],
+    "loesung": [
+     "flat"
+    ],
+    "erklaerung": "«flat» ist die Wohnung; im amerikanischen Englisch sagt man «apartment».",
+    "fehler": [
+     {
+      "antwort": "floor",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«floor» heisst Boden oder Stockwerk, nicht Wohnung."
+     },
+     {
+      "antwort": "ground",
+      "diagnoseId": "wortschatz",
+      "feedback": "«ground» heisst Boden im Sinn von Erde; eine Wohnung ist «a flat»."
+     },
+     {
+      "antwort": "stair",
+      "diagnoseId": "wortschatz",
+      "feedback": "«stair» ist eine einzelne Treppenstufe; die Wohnung heisst «flat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nShe ______ the light before she left.",
+    "optionen": [
+     "switched off",
+     "switched",
+     "shut",
+     "closed"
+    ],
+    "loesung": [
+     "switched off"
+    ],
+    "erklaerung": "«switch off» heisst ausschalten; die Partikel gehört dazu.",
+    "fehler": [
+     {
+      "antwort": "switched",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Ohne «off» fehlt die Richtung: an oder aus?"
+     },
+     {
+      "antwort": "shut",
+      "diagnoseId": "bedeutung",
+      "feedback": "«shut» heisst schliessen und passt zu Türen, nicht zu Licht."
+     },
+     {
+      "antwort": "closed",
+      "diagnoseId": "bedeutung",
+      "feedback": "«close» heisst ebenfalls schliessen und passt zu Türen und Fenstern, nicht zum Licht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nI am really ______ forward to the summer.",
+    "optionen": [
+     "looking",
+     "seeing",
+     "watching",
+     "waiting"
+    ],
+    "loesung": [
+     "looking"
+    ],
+    "erklaerung": "«look forward to» ist eine feste Wendung: sich auf etwas freuen.",
+    "fehler": [
+     {
+      "antwort": "seeing",
+      "diagnoseId": "wendung",
+      "feedback": "«see forward» gibt es nicht; die feste Wendung lautet «look forward to»."
+     },
+     {
+      "antwort": "watching",
+      "diagnoseId": "wendung",
+      "feedback": "«watch» heisst zuschauen und passt nicht in diese Wendung."
+     },
+     {
+      "antwort": "waiting",
+      "diagnoseId": "wendung",
+      "feedback": "«wait for» heisst warten auf und drückt keine Vorfreude aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThe photograph ______ her of her old school.",
+    "optionen": [
+     "reminded",
+     "remembered",
+     "remained",
+     "reminded of"
+    ],
+    "loesung": [
+     "reminded"
+    ],
+    "erklaerung": "«remind somebody of something» heisst jemanden an etwas erinnern.",
+    "fehler": [
+     {
+      "antwort": "remembered",
+      "diagnoseId": "richtung",
+      "feedback": "«remember» heisst sich selbst erinnern und braucht keine zweite Person."
+     },
+     {
+      "antwort": "remained",
+      "diagnoseId": "bedeutung",
+      "feedback": "«remain» heisst bleiben und sagt nichts über das Erinnern."
+     },
+     {
+      "antwort": "reminded of",
+      "diagnoseId": "form",
+      "feedback": "Das «of» steht schon im Satz; es darf nicht doppelt vorkommen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nHer brother is two years ______ than she is.",
+    "optionen": [
+     "older",
+     "elder",
+     "more old",
+     "oldest"
+    ],
+    "loesung": [
+     "older"
+    ],
+    "erklaerung": "Beim Vergleich mit «than» steht «older».",
+    "fehler": [
+     {
+      "antwort": "elder",
+      "diagnoseId": "form",
+      "feedback": "«elder» steht nur direkt vor einem Nomen: my elder brother."
+     },
+     {
+      "antwort": "more old",
+      "diagnoseId": "steigerung",
+      "feedback": "Kurze Adjektive steigern mit -er, nicht mit «more»."
+     },
+     {
+      "antwort": "oldest",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die höchste Stufe und passt nicht zu «than»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nWe had to ______ a decision quickly.",
+    "optionen": [
+     "make",
+     "do",
+     "take",
+     "have"
+    ],
+    "loesung": [
+     "make"
+    ],
+    "erklaerung": "«make a decision» ist die feste Verbindung.",
+    "fehler": [
+     {
+      "antwort": "do",
+      "diagnoseId": "verbindung",
+      "feedback": "«do» steht bei Tätigkeiten wie «do the homework»."
+     },
+     {
+      "antwort": "take",
+      "diagnoseId": "verbindung",
+      "feedback": "«take a decision» ist im britischen Englisch selten und gilt als weniger üblich als «make»."
+     },
+     {
+      "antwort": "have",
+      "diagnoseId": "verbindung",
+      "feedback": "«have» passt zu «have a look» oder «have a break»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nShe ______ her homework at the kitchen table.",
+    "optionen": [
+     "did",
+     "made",
+     "took",
+     "built"
+    ],
+    "loesung": [
+     "did"
+    ],
+    "erklaerung": "«do homework» ist die feste Verbindung.",
+    "fehler": [
+     {
+      "antwort": "made",
+      "diagnoseId": "verbindung",
+      "feedback": "«make» steht bei Dingen, die entstehen: make a cake."
+     },
+     {
+      "antwort": "took",
+      "diagnoseId": "verbindung",
+      "feedback": "«take» passt zu «take a photo» oder «take a bus»."
+     },
+     {
+      "antwort": "built",
+      "diagnoseId": "bedeutung",
+      "feedback": "«build» heisst bauen; Hausaufgaben werden mit «do» gemacht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThey said ______ to the neighbours.",
+    "optionen": [
+     "goodbye",
+     "good bye to",
+     "farewell to them",
+     "bye to say"
+    ],
+    "loesung": [
+     "goodbye"
+    ],
+    "erklaerung": "«say goodbye to somebody» ist die feste Wendung; das «to» steht schon im Satz.",
+    "fehler": [
+     {
+      "antwort": "good bye to",
+      "diagnoseId": "form",
+      "feedback": "Das «to» steht bereits im Satz; ein zweites wäre falsch."
+     },
+     {
+      "antwort": "farewell to them",
+      "diagnoseId": "form",
+      "feedback": "Auch hier stünde die Präposition doppelt."
+     },
+     {
+      "antwort": "bye to say",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die Wörter stehen in der falschen Reihenfolge."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nThe corridor was ______ ; all the furniture had gone.",
+    "optionen": [
+     "empty",
+     "free",
+     "open",
+     "clear of"
+    ],
+    "loesung": [
+     "empty"
+    ],
+    "erklaerung": "«empty» heisst leer im Sinn von nichts darin.",
+    "fehler": [
+     {
+      "antwort": "free",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«free» heisst frei oder gratis, nicht leer."
+     },
+     {
+      "antwort": "open",
+      "diagnoseId": "bedeutung",
+      "feedback": "«open» heisst offen und sagt nichts über den Inhalt."
+     },
+     {
+      "antwort": "clear of",
+      "diagnoseId": "form",
+      "feedback": "«clear of» bräuchte eine Ergänzung: clear of furniture."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Englisch, Use of English; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortschatz: ähnliche Wörter und feste Wendungen",
+  "status": "review"
+ }
+]

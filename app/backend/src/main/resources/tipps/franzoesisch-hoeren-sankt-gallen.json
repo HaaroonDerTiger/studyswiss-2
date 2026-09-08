@@ -1,0 +1,190 @@
+{
+ "bereich": "franzoesisch-hoeren-sg",
+ "titel": "Hören und Sehen",
+ "eyebrow": "Teil A der Französischprüfung",
+ "einleitung": "Du siehst eine Videosequenz dreimal und beantwortest Fragen dazu, meist auf Deutsch, manchmal auf Französisch. Das Video kann dir diese App nicht zeigen. Was sie dir geben kann, ist das Verfahren: was du beim ersten, zweiten und dritten Durchgang tust. Wer ohne Plan zuhört, verliert Punkte an Zahlen und an Ankreuzfragen, nicht am Französisch.",
+ "grundlage": "Aufnahmeprüfung Französisch des Kantons St. Gallen, Teil A «Hören und Sehen»: 15 von 75 Punkten an der Einheitsaufnahmeprüfung, 20 von 100 am Gymnasium.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Fragen lesen",
+   "dauer": "vor dem ersten Durchgang",
+   "text": "Lies alle Fragen, bevor das Video startet. Sie stehen in der Reihenfolge, in der die Antworten kommen, damit hast du einen Fahrplan."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "",
+   "text": "Nur zuhören und zuschauen. Schreib nichts auf ausser Zahlen und Namen. Wer beim ersten Mal schreibt, verpasst den nächsten Satz."
+  },
+  {
+   "nr": 3,
+   "titel": "Zweiter Durchgang",
+   "dauer": "",
+   "text": "Jetzt Stichworte zu jeder Frage. Auf Deutsch, in einzelnen Wörtern. Vollständige Sätze kosten Zeit, die du nicht hast."
+  },
+  {
+   "nr": 4,
+   "titel": "Dritter Durchgang",
+   "dauer": "",
+   "text": "Lücken schliessen und prüfen. Achte besonders auf die Fragen, bei denen du beim zweiten Mal nichts geschrieben hast."
+  },
+  {
+   "nr": 5,
+   "titel": "Nach dem letzten Durchgang",
+   "dauer": "",
+   "text": "Stichworte zu Antworten ausformulieren und jede Frage noch einmal lesen: Ist wirklich beantwortet, was gefragt war?"
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Fragen sind dein Fahrplan",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Warum» verlangt einen Grund, «wie viele» eine Zahl. Wer das vorher weiss, hört gezielt auf eine Sorte Antwort."
+    },
+    {
+     "regel": "Bei Ankreuzfragen alle Möglichkeiten vorher lesen.",
+     "warum": "Im Video fallen oft alle drei Wörter. Nur eines im richtigen Zusammenhang. Wer die Auswahl kennt, merkt den Unterschied."
+    },
+    {
+     "regel": "Steht «Nenne zwei Elemente», dann schreib auch zwei.",
+     "warum": "Eines gibt in der Regel keinen Punkt. Die Zahl in der Frage ist keine Empfehlung."
+    }
+   ]
+  },
+  {
+   "titel": "Zahlen sind die häufigste Falle",
+   "tipps": [
+    {
+     "regel": "Schreib Zahlen sofort als Ziffern mit, nicht als Wort.",
+     "warum": "«Quatre-vingt-dix-sept» ist im Kopf schon halb vergessen, «97» nicht."
+    },
+    {
+     "regel": "Übe 70 bis 99, bis es sitzt.",
+     "warum": "Soixante-dix, quatre-vingts, quatre-vingt-dix. Die drei sind der Grund, warum Preise und Alter am häufigsten falsch notiert werden."
+    },
+    {
+     "regel": "Achte bei Preisen auf die Währung und die Einheit.",
+     "warum": "«Douze euros par personne» ist etwas anderes als «douze euros par heure». Die Präposition entscheidet über den Punkt."
+    },
+    {
+     "regel": "Uhrzeiten hörst du an «et quart», «et demie», «moins le quart».",
+     "warum": "Diese drei Wendungen kommen fast immer vor und lassen sich in fünf Minuten lernen."
+    }
+   ]
+  },
+  {
+   "titel": "Antworten auf Deutsch",
+   "tipps": [
+    {
+     "regel": "Stichworte genügen. Der Text muss nicht schön sein.",
+     "warum": "Die Aufgabe sagt es ausdrücklich: in Stichworten oder in ganzen Sätzen. Bewertet wird der Inhalt."
+    },
+    {
+     "regel": "Schreib die Antwort dorthin, wo die Frage steht.",
+     "warum": "Wer Stichworte auf ein Notizblatt streut, ordnet sie am Schluss nicht mehr richtig zu."
+    },
+    {
+     "regel": "Antworte nie mit einem französischen Satz, den du nicht verstehst.",
+     "warum": "Abgeschriebenes ohne Verständnis fällt sofort auf. Gefragt ist, was du verstanden hast."
+    }
+   ]
+  },
+  {
+   "titel": "Wenn du etwas nicht verstehst",
+   "tipps": [
+    {
+     "regel": "Lass die Frage offen und geh weiter.",
+     "warum": "Wer an einer Frage hängen bleibt, verliert die drei danach. Beim nächsten Durchgang kommst du zurück."
+    },
+    {
+     "regel": "Achte auf das Bild, nicht nur auf den Ton.",
+     "warum": "Es heisst «Hören und Sehen». Ort, Kleidung, Handlung und eingeblendete Schrift beantworten oft eine Frage ganz ohne Wortverständnis."
+    },
+    {
+     "regel": "Rate am Schluss, statt leer zu lassen.",
+     "warum": "Für eine leere Zeile gibt es sicher null Punkte. Für eine falsche Antwort auch, für eine geratene manchmal nicht."
+    }
+   ]
+  },
+  {
+   "titel": "Was du vorher üben kannst",
+   "tipps": [
+    {
+     "regel": "Hör auf Französisch, was dich ohnehin interessiert.",
+     "warum": "Zehn Minuten am Tag mit Untertiteln auf Französisch bringen mehr als eine Stunde am Wochenende."
+    },
+    {
+     "regel": "Sprich Zahlen laut mit, wenn du sie liest.",
+     "warum": "Du erkennst beim Hören nur, was dein Mund schon gebildet hat."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Fragewörter, an denen du die Antwortsorte erkennst",
+   "saetze": [
+    "Qui ? Eine Person",
+    "Où ? Ein Ort",
+    "Quand ? Eine Zeit",
+    "Combien ? Eine Zahl",
+    "Pourquoi ? Ein Grund",
+    "Comment ? Eine Art und Weise"
+   ]
+  },
+  {
+   "zweck": "Zahlen, die man verwechselt",
+   "saetze": [
+    "soixante. 60 · soixante-dix. 70",
+    "quatre-vingts. 80 · quatre-vingt-dix. 90",
+    "quatre-vingt-treize. 93 · quatre-vingt-treize, nicht 83",
+    "deux cents. 200 · deux cent trois. 203",
+    "mille, 1000 · un million, eine Million"
+   ]
+  },
+  {
+   "zweck": "Uhrzeit",
+   "saetze": [
+    "huit heures et quart. Viertel nach acht",
+    "huit heures et demie. Halb neun",
+    "neuf heures moins le quart. Viertel vor neun",
+    "midi. 12 Uhr mittags · minuit. Mitternacht"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-sg",
+   "unterthema": "2.08",
+   "name": "Die Uhrzeit",
+   "warum": "Uhrzeiten kommen in fast jeder Videosequenz vor, und sie sind eine der wenigen Hörhürden, die sich schriftlich vollständig üben lassen."
+  },
+  {
+   "bereich": "franzoesisch-sg",
+   "unterthema": "2.01",
+   "name": "Mengen und Verpackungen",
+   "warum": "Zahlen mit Einheit: «deux kilos», «un verre de». Beim Hören entscheidet die Einheit über den Punkt."
+  },
+  {
+   "bereich": "franzoesisch-sg",
+   "unterthema": "1.02",
+   "name": "Richtig, falsch oder nicht erwähnt",
+   "warum": "Dieselbe Denkfalle wie beim Ankreuzen im Hörteil: Was plausibel klingt, muss noch lange nicht gesagt worden sein."
+  },
+  {
+   "bereich": "franzoesisch-sg",
+   "unterthema": "3.10",
+   "name": "Fragen stellen: est-ce que, Intonation, Inversion",
+   "warum": "Wer die Fragen im Video versteht, weiss, worauf die Antwort zielt."
+  },
+  {
+   "bereich": "franzoesisch-sg",
+   "unterthema": "2.05",
+   "name": "Beim Arzt: Körper, Beschwerden, Ratschläge",
+   "warum": "Ein Wortfeld, das in Videosequenzen oft vorkommt und dessen Wörter man beim Hören sofort erkennen muss."
+  }
+ ]
+}

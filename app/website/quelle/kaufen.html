@@ -1,0 +1,93 @@
+<!--
+  Kauf auf der Website (privat).
+
+  Warum es diesen Weg überhaupt gibt: Der Zahler ist fast immer ein
+  Elternteil, und ein Elternteil sitzt am Laptop, nicht am Telefon des
+  Kindes. Ein Kauf, der nur in der App möglich ist, zwingt die Mutter,
+  sich das Gerät der Tochter zu holen — und dort mit dem Konto der
+  Tochter zu bezahlen.
+
+  Der Kauf ergibt einen **Code**, kein direktes Freischalten. Das ist
+  nicht Bequemlichkeit, sondern der saubere Weg: Der Elternteil braucht
+  kein Konto im Namen des Kindes, und das Kind löst den Code dort ein,
+  wo es ohnehin lernt. Derselbe Mechanismus wie beim Familien-Pass.
+-->
+<section class="band schmal">
+  <div class="innen mittel">
+
+    <nav class="schritte" id="kaufSchritte" aria-label="Fortschritt des Kaufs">
+      <div class="schritt" data-fuer="produkt"><span class="kugel">1</span><span>Produkt</span></div>
+      <div class="schritt" data-fuer="angaben"><span class="kugel">2</span><span>Angaben</span></div>
+      <div class="schritt" data-fuer="zahlung"><span class="kugel">3</span><span>Zahlung</span></div>
+      <div class="schritt" data-fuer="fertig"><span class="kugel">4</span><span>Fertig</span></div>
+    </nav>
+
+    <div id="kaufMeldung"></div>
+
+    <!-- 1 · Produkt -->
+    <section data-kauf="produkt" hidden>
+      <p class="eyebrow">Schritt 1 von 4</p>
+      <h1>Welches Produkt?</h1>
+      <div class="raster" id="kaufProdukte" style="margin-top:26px"></div>
+    </section>
+
+    <!-- 2 · Angaben -->
+    <section data-kauf="angaben" hidden>
+      <p class="eyebrow">Schritt 2 von 4</p>
+      <h1>Ihre Angaben</h1>
+      <p class="bd" style="margin-top:10px;max-width:58ch">
+        Wir brauchen nur eine E-Mail-Adresse — dorthin geht die Quittung und
+        der Code. Keine Adresse, kein Konto, kein Name des Kindes.
+      </p>
+      <form id="formKauf" class="karte" style="margin-top:24px" novalidate>
+        <label class="feld"><span>E-Mail für Quittung und Code</span>
+          <input name="email" type="email" required autocomplete="email"></label>
+        <label class="feld"><span>Ihr Name (freiwillig)</span>
+          <span class="hilfe">Erscheint auf der Quittung, sonst nirgends.</span>
+          <input name="name" autocomplete="name"></label>
+        <div id="kaufUebersicht" style="margin:20px 0"></div>
+        <label class="haken">
+          <input type="checkbox" name="agb" required>
+          <span>Ich habe die <a href="recht.html#agb" target="_blank">AGB</a> und den
+            <a href="recht.html#datenschutz" target="_blank">Datenschutz</a> gelesen.</span></label>
+        <label class="haken">
+          <input type="checkbox" name="volljaehrig" required>
+          <span>Ich bin volljährig oder kaufe mit Einverständnis der Eltern.</span></label>
+        <button class="btn bp voll" type="submit" style="margin-top:8px">Weiter zur Zahlung</button>
+      </form>
+    </section>
+
+    <!-- 3 · Zahlung -->
+    <section data-kauf="zahlung" hidden>
+      <p class="eyebrow">Schritt 3 von 4</p>
+      <h1>Zahlung</h1>
+      <p class="bd" style="margin-top:10px;max-width:58ch">
+        Die Zahlung läuft über unseren Zahlungsanbieter. <b class="stark">Wir
+        sehen keine Kartennummer</b> — weder jetzt noch später. Bei uns
+        landet nur die Bestätigung, dass bezahlt wurde.
+      </p>
+      <div class="karte" style="margin-top:24px">
+        <div id="zahlungsarten" class="stapel"></div>
+        <div id="zahlungUebersicht" style="margin-top:20px"></div>
+        <button class="btn bp voll" id="jetztZahlen" style="margin-top:18px">
+          {{icon:schloss}} Zahlungspflichtig bestellen</button>
+        <p class="sm" style="margin-top:12px">
+          Sie werden zum Zahlungsanbieter weitergeleitet und kommen danach
+          hierher zurück.</p>
+      </div>
+      <div class="knopfreihe">
+        <a class="btn bt" href="#" id="zurueckAngaben">Angaben ändern</a>
+      </div>
+    </section>
+
+    <!-- 4 · Fertig -->
+    <section data-kauf="fertig" hidden>
+      <div class="hinweis gut" style="margin-bottom:24px">{{icon:haken}}
+        <div><b>Zahlung eingegangen.</b> Die Quittung ist unterwegs.</div></div>
+      <p class="eyebrow">Schritt 4 von 4</p>
+      <h1>Ihr Code</h1>
+      <div id="kaufFertig" style="margin-top:24px"></div>
+    </section>
+
+  </div>
+</section>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><style>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+:root{
+ --ink:#3A1D0A; --ink7:#5C3A1E; --ink5:#7C5836; --ink3:#A98B66;
+ --tan6:#B0834F; --tan:#C99A66; --tan3:#E4CBA9; --tan1:#F2E4CF;
+ --paper:#FBF5EA; --card:#FFFDF8; --line:#EADCC6;
+ --red:#E2231A; --red1:#FBE3E1; --green:#3F7A4D; --green1:#E3F0E4;
+ --gelb:#D99A2B; --gelb1:#FAEED6; --cream:#FFF7EA;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--tan6);text-decoration:none} a:hover{color:var(--ink)}
+.phone{width:390px;height:844px;position:relative;overflow:hidden;background:var(--paper);
+ background-image:linear-gradient(rgba(176,131,79,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(176,131,79,.10) 1px,transparent 1px);
+ background-size:24px 24px}
+.wash{display:none}
+.safe{height:58px}
+.wrap{position:relative;padding:0 24px}
+.appbar{position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 22px;height:44px}
+.appbar h2{margin:0;font:600 18px/1.3 'Bitter',Georgia,serif;position:absolute;left:0;right:0;text-align:center;pointer-events:none}
+.eyebrow{font:700 10px/1.2 'Nunito Sans';letter-spacing:.11em;color:var(--tan6);text-transform:uppercase}
+.h1{margin:6px 0 0;font:600 27px/1.18 'Bitter',Georgia,serif;letter-spacing:-.015em}
+.h2{margin:0;font:600 18px/1.32 'Bitter',Georgia,serif}
+.h3{margin:0;font:600 17px/1.32 'Bitter',Georgia,serif}
+.h4{margin:0;font:600 15px/1.35 'Bitter',Georgia,serif}
+.num{font:600 44px/1 'Bitter',Georgia,serif;letter-spacing:-.025em}
+.bd{font:400 14px/1.5 'Nunito Sans';color:var(--ink5)}
+.sm{font:400 12px/1.45 'Nunito Sans';color:var(--ink3)}
+.lb{font:700 13px/1.3 'Nunito Sans'}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:none}
+.dark{background:var(--ink);color:var(--cream);border:none;border-radius:18px;position:relative;overflow:hidden;box-shadow:none}
+.row{display:flex;align-items:center;gap:14px}
+.col{display:flex;flex-direction:column}
+.btn{height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:8px;font:700 15px 'Nunito Sans';cursor:default}
+.bp{background:var(--ink);color:var(--cream)}
+.bs{background:transparent;color:var(--ink);border:1px solid var(--tan3)}
+.bg-{background:transparent;color:var(--tan6)}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 11px;border-radius:9px;background:var(--card);border:1px solid var(--line);font:600 12px 'Nunito Sans'}
+.ic{width:44px;height:44px;border-radius:12px;background:var(--tan1);display:flex;align-items:center;justify-content:center;flex:none}
+.bar{height:5px;border-radius:0;background:var(--tan1);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tan)}
+.tabbar{position:absolute;left:0;right:0;bottom:0;height:86px;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);box-shadow:none}
+.tab{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:14px;font:600 9.5px 'Nunito Sans';color:var(--ink3)}
+.tab .pl{width:24px;height:24px;display:flex;align-items:center;justify-content:center}
+.tab.on{color:var(--ink);font-weight:700}
+.tab.on .pl{background:transparent}
+.bottombar{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 32px;background:var(--card);border-top:1px solid var(--line)}
+.divider{height:1px;background:var(--line)}
+.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--card);border-radius:20px 20px 0 0;border-top:1px solid var(--line);box-shadow:0 -12px 24px rgba(58,29,10,.07);padding:16px 24px 28px}
+.handle{width:48px;height:5px;border-radius:3px;background:var(--tan3);margin:0 auto 14px}
+.badge{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+</style></helmet>
+<div class="phone"><div class="safe"></div>
+<div class="appbar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3A1D0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg><h2>Eltern-Report</h2><span style="width:24px"></span></div>
+<div class="wrap" style="padding-top:8px">
+ <div class="dark" style="padding:18px 20px">
+  <div class="eyebrow" style="color:var(--tan3)">Wochenbericht &middot; KW 43</div>
+  <div class="h2" style="color:var(--cream);margin-top:6px;font-size:17px">Lena hat diese Woche<br>an 4 von 5 Tagen geübt.</div>
+  <div class="sm" style="color:var(--tan3);margin-top:9px">Geht jeden Sonntag per E-Mail an dich. Alle Zahlen: Woche 43, 20.–26. Oktober.</div>
+ </div>
+ <div class="card" style="margin-top:16px;padding:4px 18px 6px">
+  <div class="row" style="justify-content:space-between;padding:11px 0;gap:12px"><div style="flex:1"><div class="bd" style="font-size:13.5px;color:var(--ink5)">Lernzeit</div><div class="sm" style="font-size:10.5px;margin-top:1px">Mo–So, KW 43</div></div><span style="font:600 14px 'Bitter',Georgia,serif;color:var(--ink);white-space:nowrap">2 Std. 40 Min.</span></div><div class="row" style="border-top:1px solid var(--line);justify-content:space-between;padding:11px 0;gap:12px"><div style="flex:1"><div class="bd" style="font-size:13.5px;color:var(--ink5)">Bearbeitete Aufgaben</div><div class="sm" style="font-size:10.5px;margin-top:1px">Mo–So, KW 43 &middot; alle Fächer</div></div><span style="font:600 14px 'Bitter',Georgia,serif;color:var(--ink);white-space:nowrap">86</span></div><div class="row" style="border-top:1px solid var(--line);justify-content:space-between;padding:11px 0;gap:12px"><div style="flex:1"><div class="bd" style="font-size:13.5px;color:var(--ink5)">Korrekte Antworten</div><div class="sm" style="font-size:10.5px;margin-top:1px">Mo–So, KW 43 &middot; alle Fächer</div></div><span style="font:600 14px 'Bitter',Georgia,serif;color:var(--green);white-space:nowrap">71 %</span></div><div class="row" style="border-top:1px solid var(--line);justify-content:space-between;padding:11px 0;gap:12px"><div style="flex:1"><div class="bd" style="font-size:13.5px;color:var(--ink5)">Serie</div><div class="sm" style="font-size:10.5px;margin-top:1px">Tage in Folge mit mindestens einer Übung</div></div><span style="font:600 14px 'Bitter',Georgia,serif;color:var(--ink);white-space:nowrap">12 Tage</span></div>
+ </div>
+ <div style="margin-top:14px;padding:14px 16px;background:var(--green1);border-radius:14px">
+  <div class="eyebrow" style="color:var(--green)">Das lief gut</div>
+  <div class="sm" style="margin-top:6px;color:var(--ink5);line-height:1.5">Brüche: 78 % korrekte Antworten, zwei Wochen zuvor waren es 54 %.</div>
+ </div>
+ <div style="margin-top:11px;padding:14px 16px;background:var(--gelb1);border-radius:14px">
+  <div class="eyebrow" style="color:#A9761D">Das kann noch besser werden</div>
+  <div class="sm" style="margin-top:6px;color:var(--ink5);line-height:1.5">Textaufgaben: 38 % korrekte Antworten. Dieses Thema hat in der Aufnahmeprüfung viel Gewicht.</div>
+ </div>
+</div>
+<div class="bottombar"><div class="btn bs"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#B0834F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg> Bericht teilen</div></div></div>
+</x-dc>
+</body>
+</html>

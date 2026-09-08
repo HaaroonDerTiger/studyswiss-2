@@ -1,0 +1,168 @@
+{
+ "bereich": "franzoesisch-hoeren-lu",
+ "titel": "Compréhension orale",
+ "eyebrow": "Erster Teil der Französischprüfung",
+ "einleitung": "Du hörst zwei Aufnahmen: ein Gespräch unter Freunden und eine Nachricht auf dem Telefon. Jede läuft zweimal, dazwischen hast du eine Minute Zeit. Geantwortet wird auf Deutsch oder mit einem Kreuz, beim zweiten Dokument auf Französisch. Die Tonaufnahmen kann dir diese App nicht vorspielen. Was sie dir geben kann, ist das Verfahren — und genau daran gehen die Punkte verloren, nicht am Französisch.",
+ "grundlage": "Musterprüfung Französisch der zentralen Aufnahmeprüfung des Kantons Luzern, Teil «Compréhension orale»: 15 von 30 Punkten der Französischprüfung.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Fragen lesen",
+   "dauer": "eine Minute",
+   "text": "Vor der ersten Aufnahme hast du eine Minute, um die Fragen zu lesen. Sie stehen in der Reihenfolge, in der die Antworten kommen — damit hast du einen Fahrplan."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "",
+   "text": "Nur zuhören. Notiere ausschliesslich Zahlen, Uhrzeiten und Namen. Wer beim ersten Mal ganze Antworten schreibt, verpasst den nächsten Satz."
+  },
+  {
+   "nr": 3,
+   "titel": "Eine Minute dazwischen",
+   "dauer": "eine Minute",
+   "text": "Jetzt aufschreiben, was sicher ist, und die offenen Fragen markieren. Auf diese hörst du beim zweiten Mal gezielt."
+  },
+  {
+   "nr": 4,
+   "titel": "Zweiter Durchgang",
+   "dauer": "",
+   "text": "Die markierten Lücken schliessen. Was du schon hast, nicht noch einmal prüfen — dafür fehlt die Zeit."
+  },
+  {
+   "nr": 5,
+   "titel": "Danach",
+   "dauer": "",
+   "text": "Stichworte zu Antworten ausformulieren. Bei den Richtig-falsch-Fragen prüfen, ob wirklich ein Kreuz gesetzt ist: Ein leeres Feld gibt nie einen Punkt."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Fragen sind der Fahrplan",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Wann» verlangt eine Zeit, «wer» eine Person, «welche zwei» genau zwei Angaben. Wer das vorher weiss, hört auf eine bestimmte Sorte Antwort statt auf alles."
+    },
+    {
+     "regel": "Steht in der Frage eine Zahl, liefere auch so viele Angaben.",
+     "warum": "«Was musst du mitbringen? (2 Dinge)» gibt zwei Punkte. Eine einzige Angabe gibt in der Regel keinen."
+    },
+    {
+     "regel": "Lies bei Ankreuzfragen alle Möglichkeiten, bevor die Aufnahme startet.",
+     "warum": "In der Aufnahme fallen oft alle drei Wörter. Nur eines steht im richtigen Zusammenhang, und den erkennt nur, wer die Auswahl kennt."
+    }
+   ]
+  },
+  {
+   "titel": "Zahlen und Uhrzeiten kosten die meisten Punkte",
+   "tipps": [
+    {
+     "regel": "Schreib Zahlen sofort als Ziffern, nie als Wort.",
+     "warum": "«Quatre-vingt-dix-sept» ist im Kopf schon halb verloren, «97» nicht."
+    },
+    {
+     "regel": "Übe 70 bis 99, bis es ohne Nachdenken geht.",
+     "warum": "Soixante-dix, quatre-vingts, quatre-vingt-dix — an diesen drei Zahlen scheitern Preise und Altersangaben am häufigsten."
+    },
+    {
+     "regel": "Bei Uhrzeiten auf «et quart», «et demie» und «moins le quart» achten.",
+     "warum": "«Sept heures moins le quart» ist Viertel vor sieben, nicht Viertel nach. Ein Wort entscheidet über den Punkt."
+    }
+   ]
+  },
+  {
+   "titel": "Richtig, falsch — oder gar nicht gesagt",
+   "tipps": [
+    {
+     "regel": "Kreuze nur an, was du wirklich gehört hast.",
+     "warum": "Was plausibel klingt, muss nicht gesagt worden sein. Die Aufgaben sind genau auf diese Falle gebaut."
+    },
+    {
+     "regel": "Achte auf Verneinungen.",
+     "warum": "«Je ne vais pas au collège» und «je vais au collège» unterscheiden sich durch zwei kurze Wörter, die man leicht überhört."
+    },
+    {
+     "regel": "Antworte, auch wenn du unsicher bist.",
+     "warum": "Für eine falsche Antwort gibt es keinen Abzug, für ein leeres Feld sicher keinen Punkt."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Fragewörter — sie sagen dir, welche Sorte Antwort kommt",
+   "saetze": [
+    "Qui ? Eine Person",
+    "Où ? Ein Ort",
+    "Quand ? Eine Zeit",
+    "Combien ? Eine Zahl",
+    "Pourquoi ? Ein Grund",
+    "Comment ? Eine Art und Weise",
+    "Qu'est-ce que ? Eine Sache"
+   ]
+  },
+  {
+   "zweck": "Zahlen, die man verwechselt",
+   "saetze": [
+    "soixante. 60 · soixante-dix. 70",
+    "quatre-vingts. 80 · quatre-vingt-dix. 90",
+    "quatre-vingt-treize. 93, nicht 83",
+    "deux cents. 200 · deux cent trois. 203",
+    "mille. 1000"
+   ]
+  },
+  {
+   "zweck": "Uhrzeit und Verabredung",
+   "saetze": [
+    "à sept heures et quart. um Viertel nach sieben",
+    "à sept heures et demie. um halb acht",
+    "à huit heures moins le quart. um Viertel vor acht",
+    "on se retrouve … wir treffen uns …",
+    "rendez-vous devant … Treffpunkt vor …"
+   ]
+  },
+  {
+   "zweck": "Wörter, an denen du die Verneinung erkennst",
+   "saetze": [
+    "ne … pas. nicht",
+    "ne … jamais. nie",
+    "ne … plus. nicht mehr",
+    "ne … rien. nichts",
+    "personne ne … niemand"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-lu",
+   "unterthema": "2.05",
+   "name": "Zeitadverbien: déjà, encore, toujours",
+   "warum": "Genau diese Wörter entscheiden in der Aufnahme darüber, ob etwas schon geschehen ist oder noch bevorsteht."
+  },
+  {
+   "bereich": "franzoesisch-lu",
+   "unterthema": "2.06",
+   "name": "Unpersönliche Wendungen: il fait, il y a, il faut",
+   "warum": "Wetter, Vorhandensein und Notwendigkeit — drei Wendungen, die in jedem Gespräch vorkommen und gleich klingen."
+  },
+  {
+   "bereich": "franzoesisch-lu",
+   "unterthema": "2.07",
+   "name": "Wortschatz: Schule, Freizeit, Familie",
+   "warum": "Die Aufnahmen spielen im Alltag Jugendlicher. Wer den Grundwortschatz sicher hat, versteht auch bei schnellem Sprechen genug."
+  },
+  {
+   "bereich": "franzoesisch-lu",
+   "unterthema": "1.01",
+   "name": "Kurze Mitteilungen verstehen",
+   "warum": "Das zweite Hördokument ist eine Nachricht auf dem Telefon — dieselbe Textsorte, nur geschrieben."
+  },
+  {
+   "bereich": "franzoesisch-lu",
+   "unterthema": "2.03",
+   "name": "Passé composé mit avoir und être",
+   "warum": "In den Aufnahmen wird erzählt, was geschehen ist. Wer die Vergangenheitsformen erkennt, ordnet die Ereignisse richtig ein."
+  }
+ ]
+}

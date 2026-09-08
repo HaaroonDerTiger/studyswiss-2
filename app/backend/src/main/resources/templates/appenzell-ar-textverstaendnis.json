@@ -1,0 +1,1567 @@
+[
+ {
+  "templateId": "ar-tv-kaese-sachtext",
+  "lernzielId": "DTAR.1.01",
+  "fach": "textverstaendnis-ar",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Zahlen im Text gehören zusammen — achte darauf, was womit verglichen wird.",
+   "Suche zu jeder Frage die Stelle, die sie beantwortet.",
+   "Unbekannte Wörter erschliessen sich oft aus dem Satz daneben."
+  ],
+  "loesungsweg": [
+   "Den Text einmal ganz lesen.",
+   "Die Frage genau lesen: Wonach wird gefragt?",
+   "Ein Stichwort im Text suchen.",
+   "Die Antwort am Text prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie lange reift ein Laib mindestens?",
+    "optionen": [
+     "drei Monate",
+     "vierzig Minuten",
+     "einen Tag",
+     "ein Jahr"
+    ],
+    "loesung": [
+     "drei Monate"
+    ],
+    "erklaerung": "«Ein Laib Appenzeller Käse braucht mindestens drei Monate, bis er verkauft wird.»",
+    "fehler": [
+     {
+      "antwort": "vierzig Minuten",
+      "diagnoseId": "gerinnung",
+      "feedback": "Vierzig Minuten dauert es, bis die Milch dick genug ist zum Schneiden."
+     },
+     {
+      "antwort": "einen Tag",
+      "diagnoseId": "salzbad",
+      "feedback": "Einen Tag liegt der Laib im Salzbad — das ist erst der Anfang der Reifung."
+     },
+     {
+      "antwort": "ein Jahr",
+      "diagnoseId": "maximum",
+      "feedback": "Ein Jahr reifen MANCHE Laibe. Gefragt ist die Mindestzeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Liter Milch braucht es für einen Laib von sechs Kilogramm?",
+    "optionen": [
+     "etwa siebzig",
+     "etwa dreissig",
+     "etwa vierzehn",
+     "etwa 5000"
+    ],
+    "loesung": [
+     "etwa siebzig"
+    ],
+    "erklaerung": "«Für einen Laib von rund sechs Kilogramm braucht es etwa siebzig Liter.»",
+    "fehler": [
+     {
+      "antwort": "etwa dreissig",
+      "diagnoseId": "temperatur",
+      "feedback": "Dreissig Grad ist die Temperatur, auf die die Milch erwärmt wird."
+     },
+     {
+      "antwort": "etwa vierzehn",
+      "diagnoseId": "keller",
+      "feedback": "Vierzehn Grad herrschen im Reifekeller, das ist eine Temperatur."
+     },
+     {
+      "antwort": "etwa 5000",
+      "diagnoseId": "betrieb",
+      "feedback": "5000 Liter verarbeitet ein ganzer Betrieb an einem Tag."
+     }
+    ]
+   },
+   {
+    "stamm": "Wozu dient das Salzbad?",
+    "optionen": [
+     "Es zieht Wasser heraus und bildet die Rinde.",
+     "Es lässt die Milch dick werden.",
+     "Es kühlt den Laib ab.",
+     "Es gibt dem Käse die Löcher."
+    ],
+    "loesung": [
+     "Es zieht Wasser heraus und bildet die Rinde."
+    ],
+    "erklaerung": "«Das Salz zieht Wasser heraus und bildet die Rinde.»",
+    "fehler": [
+     {
+      "antwort": "Es lässt die Milch dick werden.",
+      "diagnoseId": "lab",
+      "feedback": "Das tut das Lab, ein Enzym — und zwar vor dem Salzbad."
+     },
+     {
+      "antwort": "Es kühlt den Laib ab.",
+      "diagnoseId": "temperatur",
+      "feedback": "Von einer Kühlung ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "Es gibt dem Käse die Löcher.",
+      "diagnoseId": "erfunden",
+      "feedback": "Löcher werden im Text nirgends erwähnt; das Salz bildet die Rinde."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie oft wird ein Laib gewendet?",
+    "optionen": [
+     "zweimal pro Woche",
+     "täglich",
+     "einmal im Monat",
+     "zweimal pro Tag"
+    ],
+    "loesung": [
+     "zweimal pro Woche"
+    ],
+    "erklaerung": "«Zweimal pro Woche wird jeder Laib gewendet und mit einer Kräutersulz eingerieben.»",
+    "fehler": [
+     {
+      "antwort": "täglich",
+      "diagnoseId": "haeufiger",
+      "feedback": "Täglich beginnt die Arbeit im Betrieb, aber gewendet wird zweimal pro Woche."
+     },
+     {
+      "antwort": "einmal im Monat",
+      "diagnoseId": "seltener",
+      "feedback": "Das wäre viel zu selten für die Reifung, wie sie im Text beschrieben ist."
+     },
+     {
+      "antwort": "zweimal pro Tag",
+      "diagnoseId": "verwechselt",
+      "feedback": "Im Text stehen zwei Mal pro WOCHE, nicht pro Tag — das ist ein grosser Unterschied."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist das «bestgehütete Geheimnis der Branche»?",
+    "optionen": [
+     "die Zusammensetzung der Kräutersulz",
+     "die Temperatur im Keller",
+     "die Herkunft der Milch",
+     "der Verkaufspreis"
+    ],
+    "loesung": [
+     "die Zusammensetzung der Kräutersulz"
+    ],
+    "erklaerung": "«Die Zusammensetzung dieser Sulz ist das bestgehütete Geheimnis der Branche.»",
+    "fehler": [
+     {
+      "antwort": "die Temperatur im Keller",
+      "diagnoseId": "offen",
+      "feedback": "Die vierzehn Grad stehen offen im Text und sind kein Geheimnis."
+     },
+     {
+      "antwort": "die Herkunft der Milch",
+      "diagnoseId": "erfunden",
+      "feedback": "Über die Herkunft der Milch sagt der Text nichts."
+     },
+     {
+      "antwort": "der Verkaufspreis",
+      "diagnoseId": "preis",
+      "feedback": "Der Preis wird nur im ersten Abschnitt kurz erwähnt."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum beginnt die Arbeit um vier Uhr morgens?",
+    "optionen": [
+     "weil die Milch vom Vorabend nicht länger warten darf",
+     "weil der Keller morgens am kühlsten ist",
+     "weil die Laibe dann gewendet werden",
+     "weil die Kundschaft früh kommt"
+    ],
+    "loesung": [
+     "weil die Milch vom Vorabend nicht länger warten darf"
+    ],
+    "erklaerung": "«Die Arbeit beginnt um vier Uhr morgens, weil die Milch vom Vorabend nicht länger warten darf.»",
+    "fehler": [
+     {
+      "antwort": "weil der Keller morgens am kühlsten ist",
+      "diagnoseId": "keller",
+      "feedback": "Der Keller hat konstant etwa vierzehn Grad."
+     },
+     {
+      "antwort": "weil die Laibe dann gewendet werden",
+      "diagnoseId": "wenden",
+      "feedback": "Das Wenden geschieht zweimal pro Woche, nicht täglich um vier."
+     },
+     {
+      "antwort": "weil die Kundschaft früh kommt",
+      "diagnoseId": "verkauf",
+      "feedback": "Vom Verkauf am Morgen ist nirgends die Rede."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Laibe stellt ein mittlerer Betrieb pro Tag her?",
+    "optionen": [
+     "etwa 70",
+     "etwa 80",
+     "etwa 5000",
+     "etwa 40"
+    ],
+    "loesung": [
+     "etwa 70"
+    ],
+    "erklaerung": "«Ein Betrieb mittlerer Grösse verarbeitet täglich rund 5000 Liter Milch und stellt daraus etwa 70 Laibe her.»",
+    "fehler": [
+     {
+      "antwort": "etwa 80",
+      "diagnoseId": "kaesereien",
+      "feedback": "Über achtzig war 1990 die Zahl der Käsereien im Kanton."
+     },
+     {
+      "antwort": "etwa 5000",
+      "diagnoseId": "liter",
+      "feedback": "5000 ist die Zahl der Liter Milch, nicht der Laibe."
+     },
+     {
+      "antwort": "etwa 40",
+      "diagnoseId": "gerinnung",
+      "feedback": "Vierzig Minuten dauert das Dickwerden der Milch."
+     }
+    ]
+   },
+   {
+    "stamm": "Was sagt der Text über die Zahl der Käsereien?",
+    "optionen": [
+     "Sie ist seit 1990 auf weniger als die Hälfte gesunken.",
+     "Sie ist seit 1990 gewachsen.",
+     "Sie ist gleich geblieben.",
+     "Sie liegt heute bei achtzig."
+    ],
+    "loesung": [
+     "Sie ist seit 1990 auf weniger als die Hälfte gesunken."
+    ],
+    "erklaerung": "«1990 gab es im Kanton über achtzig Käsereien, heute sind es weniger als die Hälfte.»",
+    "fehler": [
+     {
+      "antwort": "Sie ist seit 1990 gewachsen.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt das Gegenteil: Die Zahl sinkt."
+     },
+     {
+      "antwort": "Sie ist gleich geblieben.",
+      "diagnoseId": "gegenteil_zwei",
+      "feedback": "Der letzte Satz beschreibt gerade eine Veränderung."
+     },
+     {
+      "antwort": "Sie liegt heute bei achtzig.",
+      "diagnoseId": "zeitpunkt",
+      "feedback": "Über achtzig waren es 1990, nicht heute."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Lab» im Text?",
+    "optionen": [
+     "ein Enzym, das die Milch dick werden lässt",
+     "ein Salzbad",
+     "ein Kräutergemisch",
+     "ein Reifekeller"
+    ],
+    "loesung": [
+     "ein Enzym, das die Milch dick werden lässt"
+    ],
+    "erklaerung": "Der Text erklärt es selbst: «dann kommt Lab dazu, ein Enzym, das sie dick werden lässt».",
+    "fehler": [
+     {
+      "antwort": "ein Salzbad",
+      "diagnoseId": "spaeter",
+      "feedback": "Das Salzbad kommt später, nach dem Schneiden der Masse."
+     },
+     {
+      "antwort": "ein Kräutergemisch",
+      "diagnoseId": "sulz",
+      "feedback": "Das Kräutergemisch ist die Sulz für die Reifung."
+     },
+     {
+      "antwort": "ein Reifekeller",
+      "diagnoseId": "ort",
+      "feedback": "Der Keller ist ein Ort, kein Zusatz zur Milch."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «der Absatz ist stabil»?",
+    "optionen": [
+     "Es wird gleich viel verkauft wie bisher.",
+     "Der Preis bleibt gleich.",
+     "Die Qualität schwankt nicht.",
+     "Es gibt immer gleich viele Betriebe."
+    ],
+    "loesung": [
+     "Es wird gleich viel verkauft wie bisher."
+    ],
+    "erklaerung": "«Absatz» meint hier die verkaufte Menge; «stabil» heisst: sie verändert sich kaum.",
+    "fehler": [
+     {
+      "antwort": "Der Preis bleibt gleich.",
+      "diagnoseId": "preis",
+      "feedback": "Über den Preis sagt der Satz nichts; «Absatz» meint die Menge."
+     },
+     {
+      "antwort": "Die Qualität schwankt nicht.",
+      "diagnoseId": "qualitaet",
+      "feedback": "Die Qualität ist nicht gemeint; «Absatz» ist ein Begriff aus dem Verkauf."
+     },
+     {
+      "antwort": "Es gibt immer gleich viele Betriebe.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt im selben Satz, dass die Zahl der Betriebe sinkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Reihenfolge stimmt?",
+    "optionen": [
+     "Milch erwärmen – Lab zugeben – schneiden – Salzbad – Reifung",
+     "Lab zugeben – Milch erwärmen – Salzbad – schneiden – Reifung",
+     "Salzbad – Milch erwärmen – Lab zugeben – Reifung – schneiden",
+     "Schneiden – Lab zugeben – Milch erwärmen – Reifung – Salzbad"
+    ],
+    "loesung": [
+     "Milch erwärmen – Lab zugeben – schneiden – Salzbad – Reifung"
+    ],
+    "erklaerung": "Der zweite und dritte Abschnitt beschreiben den Ablauf genau in dieser Reihenfolge.",
+    "fehler": [
+     {
+      "antwort": "Lab zugeben – Milch erwärmen – Salzbad – schneiden – Reifung",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zuerst wird die Milch erwärmt, dann kommt das Lab dazu."
+     },
+     {
+      "antwort": "Salzbad – Milch erwärmen – Lab zugeben – Reifung – schneiden",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Das Salzbad kommt erst, wenn der Laib schon geformt ist."
+     },
+     {
+      "antwort": "Schneiden – Lab zugeben – Milch erwärmen – Reifung – Salzbad",
+      "diagnoseId": "umgekehrt_zwei",
+      "feedback": "Geschnitten wird die dicke Masse, also nach dem Lab."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zum vierten Abschnitt?",
+    "optionen": [
+     "Pflege im Keller",
+     "Von der Milch zur Masse",
+     "Zahlen eines Betriebs",
+     "Der Rückgang der Käsereien"
+    ],
+    "loesung": [
+     "Pflege im Keller"
+    ],
+    "erklaerung": "Der vierte Abschnitt handelt vom Wenden, vom Einreiben und von der geheimen Sulz.",
+    "fehler": [
+     {
+      "antwort": "Von der Milch zur Masse",
+      "diagnoseId": "absatz_zwei",
+      "feedback": "Das ist der zweite Abschnitt, in dem die Milch verarbeitet wird."
+     },
+     {
+      "antwort": "Zahlen eines Betriebs",
+      "diagnoseId": "absatz_fuenf",
+      "feedback": "Die Zahlen zum Betrieb stehen im fünften Abschnitt."
+     },
+     {
+      "antwort": "Der Rückgang der Käsereien",
+      "diagnoseId": "absatz_sechs",
+      "feedback": "Das ist der letzte Abschnitt, über die Zahl der Betriebe."
+     }
+    ]
+   }
+  ],
+  "text": "Der lange Weg des Käses\n\nEin Laib Appenzeller Käse braucht mindestens drei Monate, bis er verkauft\nwird. Manche reifen ein ganzes Jahr. Was in dieser Zeit geschieht, entscheidet\nüber den Geschmack — und über den Preis.\n\nAlles beginnt mit der Milch. Für einen Laib von rund sechs Kilogramm braucht\nes etwa siebzig Liter. Die Milch wird auf gut dreissig Grad erwärmt, dann\nkommt Lab dazu, ein Enzym, das sie dick werden lässt. Nach vierzig Minuten\nschneidet der Käser die Masse in kleine Körner.\n\nDanach kommt der Laib in ein Salzbad, für einen Tag. Das Salz zieht Wasser\nheraus und bildet die Rinde. Erst jetzt beginnt die Reifung im Keller, bei\netwa vierzehn Grad und hoher Luftfeuchtigkeit.\n\nZweimal pro Woche wird jeder Laib gewendet und mit einer Kräutersulz\neingerieben. Die Zusammensetzung dieser Sulz ist das bestgehütete Geheimnis\nder Branche; angeblich kennen sie nur zwei Personen. Ob das stimmt, weiss\nniemand ausserhalb.\n\nEin Betrieb mittlerer Grösse verarbeitet täglich rund 5000 Liter Milch und\nstellt daraus etwa 70 Laibe her. Die Arbeit beginnt um vier Uhr morgens, weil\ndie Milch vom Vorabend nicht länger warten darf.\n\nDer Absatz ist stabil, aber die Zahl der Betriebe sinkt. 1990 gab es im Kanton\nüber achtzig Käsereien, heute sind es weniger als die Hälfte.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sachtexte verstehen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-tv-rucksack",
+  "lernzielId": "DTAR.2.01",
+  "fach": "textverstaendnis-ar",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Achte auf das, was die Figuren TUN — der Text sagt vieles nicht direkt.",
+   "Wörter aus verschiedenen Sprachregistern verraten viel über die Figuren.",
+   "Belege jede Deutung mit einer Textstelle."
+  ],
+  "loesungsweg": [
+   "Den Text zweimal lesen.",
+   "Die Frage lesen und die Stelle suchen.",
+   "Fragen: Was wird gezeigt, was nur angedeutet?",
+   "Antworten ausschliessen, die dem Text widersprechen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Seit wann steht der Rucksack im Gang?",
+    "optionen": [
+     "seit April",
+     "seit Juni",
+     "seit August",
+     "seit dem Sommer"
+    ],
+    "loesung": [
+     "seit April"
+    ],
+    "erklaerung": "«Das war im April gewesen» — der Bruder stellte ihn an einem Mittwoch im Frühling ab.",
+    "fehler": [
+     {
+      "antwort": "seit Juni",
+      "diagnoseId": "spaeter",
+      "feedback": "Im Juni stellt Timo seine Frage — da steht der Rucksack schon lange."
+     },
+     {
+      "antwort": "seit August",
+      "diagnoseId": "ende",
+      "feedback": "Im August wird der Rucksack geholt; da steht er längst im Gang."
+     },
+     {
+      "antwort": "seit dem Sommer",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Der Text sagt Frühling und nennt den Monat: April."
+     }
+    ]
+   },
+   {
+    "stamm": "Was tut Timo jedes Mal, wenn er am Rucksack vorbeigeht?",
+    "optionen": [
+     "Er wird etwas schneller.",
+     "Er schaut hinein.",
+     "Er stellt ihn zur Seite.",
+     "Er fragt seine Mutter."
+    ],
+    "loesung": [
+     "Er wird etwas schneller."
+    ],
+    "erklaerung": "«… jedes Mal, wenn Timo an ihm vorbeikam, wurde er etwas schneller.»",
+    "fehler": [
+     {
+      "antwort": "Er schaut hinein.",
+      "diagnoseId": "erfunden",
+      "feedback": "Niemand öffnet den Rucksack im ganzen Text."
+     },
+     {
+      "antwort": "Er stellt ihn zur Seite.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Rucksack bleibt genau dort stehen, wo er steht."
+     },
+     {
+      "antwort": "Er fragt seine Mutter.",
+      "diagnoseId": "einmal",
+      "feedback": "Er fragt genau einmal, im Juni — sonst geht er nur vorbei."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie verhält sich die Mutter beim Aufräumen?",
+    "optionen": [
+     "Sie räumt alles auf, nur den Rucksack rührt sie nicht an.",
+     "Sie stellt den Rucksack jedes Mal um.",
+     "Sie räumt den Gang nicht mehr auf.",
+     "Sie bringt den Rucksack in den Keller."
+    ],
+    "loesung": [
+     "Sie räumt alles auf, nur den Rucksack rührt sie nicht an."
+    ],
+    "erklaerung": "«Sie stellte die Schuhe gerade, hängte die Jacken auf, wischte den Boden — und liess den Rucksack stehen.»",
+    "fehler": [
+     {
+      "antwort": "Sie stellt den Rucksack jedes Mal um.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie fährt sogar mit dem Lappen um ihn herum, um ihn nicht zu bewegen."
+     },
+     {
+      "antwort": "Sie räumt den Gang nicht mehr auf.",
+      "diagnoseId": "gegenteil_zwei",
+      "feedback": "Sie räumt jeden Samstag auf, sorgfältiger als sonst."
+     },
+     {
+      "antwort": "Sie bringt den Rucksack in den Keller.",
+      "diagnoseId": "abgelehnt",
+      "feedback": "Genau das lehnt sie ab, als Timo es vorschlägt."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum will die Mutter den Rucksack nicht in den Keller stellen?",
+    "optionen": [
+     "Weil er im Gang bedeutet, dass der Bruder zurückkommt.",
+     "Weil der Keller feucht ist.",
+     "Weil der Rucksack zu schwer ist.",
+     "Weil Timo ihn dort brauchen könnte."
+    ],
+    "loesung": [
+     "Weil er im Gang bedeutet, dass der Bruder zurückkommt."
+    ],
+    "erklaerung": "Timo versteht es selbst: «Solange der Rucksack im Gang stand, war es nur eine Frage der Zeit.»",
+    "fehler": [
+     {
+      "antwort": "Weil der Keller feucht ist.",
+      "diagnoseId": "praktisch",
+      "feedback": "Über den Keller sagt der Text nichts weiter."
+     },
+     {
+      "antwort": "Weil der Rucksack zu schwer ist.",
+      "diagnoseId": "gewicht",
+      "feedback": "Der Bruder trägt ihn am Ende mühelos hinaus."
+     },
+     {
+      "antwort": "Weil Timo ihn dort brauchen könnte.",
+      "diagnoseId": "erfunden",
+      "feedback": "Timo braucht den Rucksack nirgends im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Was zeigt der Satz «als wäre er zerbrechlich»?",
+    "optionen": [
+     "dass der Rucksack für die Mutter mehr bedeutet als ein Gegenstand",
+     "dass der Rucksack aus Glas ist",
+     "dass die Mutter ungeschickt ist",
+     "dass der Rucksack alt und kaputt ist"
+    ],
+    "loesung": [
+     "dass der Rucksack für die Mutter mehr bedeutet als ein Gegenstand"
+    ],
+    "erklaerung": "Ein Rucksack ist nicht zerbrechlich — der Vergleich sagt etwas über die Mutter, nicht über den Gegenstand.",
+    "fehler": [
+     {
+      "antwort": "dass der Rucksack aus Glas ist",
+      "diagnoseId": "woertlich",
+      "feedback": "Der Vergleich ist bildhaft: «als wäre» kündigt ein Bild an."
+     },
+     {
+      "antwort": "dass die Mutter ungeschickt ist",
+      "diagnoseId": "figur",
+      "feedback": "Sie ist im Gegenteil sehr sorgfältig und fährt um ihn herum."
+     },
+     {
+      "antwort": "dass der Rucksack alt und kaputt ist",
+      "diagnoseId": "zustand",
+      "feedback": "Über den Zustand des Rucksacks steht nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie reagiert der Bruder auf den Rucksack?",
+    "optionen": [
+     "Er lacht und sagt, er habe ihn vergessen.",
+     "Er entschuldigt sich bei der Mutter.",
+     "Er lässt ihn stehen.",
+     "Er ärgert sich über die Mutter."
+    ],
+    "loesung": [
+     "Er lacht und sagt, er habe ihn vergessen."
+    ],
+    "erklaerung": "«Er sah den Rucksack, lachte und sagte: ‹Den habe ich ja ganz vergessen.›»",
+    "fehler": [
+     {
+      "antwort": "Er entschuldigt sich bei der Mutter.",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine Entschuldigung steht nicht im Text."
+     },
+     {
+      "antwort": "Er lässt ihn stehen.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Er trägt ihn hinaus zum Auto, gleich nachdem er ihn sieht."
+     },
+     {
+      "antwort": "Er ärgert sich über die Mutter.",
+      "diagnoseId": "gefuehl",
+      "feedback": "Von Ärger ist nirgends die Rede; er lacht sogar."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der letzte Satz?",
+    "optionen": [
+     "Der Mutter fehlt jetzt das Zeichen, dass der Sohn zurückkommt.",
+     "Die Mutter ärgert sich über die Unordnung.",
+     "Die Mutter sucht etwas im Gang.",
+     "Die Mutter will den Gang neu einrichten."
+    ],
+    "loesung": [
+     "Der Mutter fehlt jetzt das Zeichen, dass der Sohn zurückkommt."
+    ],
+    "erklaerung": "Sie steht «lange» und schaut auf die «leere Stelle» — der Rucksack war das, was blieb.",
+    "fehler": [
+     {
+      "antwort": "Die Mutter ärgert sich über die Unordnung.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Jetzt ist der Gang gerade aufgeräumt — der Rucksack ist weg."
+     },
+     {
+      "antwort": "Die Mutter sucht etwas im Gang.",
+      "diagnoseId": "handlung",
+      "feedback": "Sie sucht nichts; sie schaut auf die leere Stelle."
+     },
+     {
+      "antwort": "Die Mutter will den Gang neu einrichten.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Neueinrichtung steht nichts im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Sprachregister braucht der Bruder in seinem Satz «Den habe ich ja ganz vergessen»?",
+    "optionen": [
+     "Umgangssprache",
+     "gehobene Hochsprache",
+     "Dialekt",
+     "Fachsprache"
+    ],
+    "loesung": [
+     "Umgangssprache"
+    ],
+    "erklaerung": "«Ja ganz vergessen» ist gesprochene Alltagssprache — im Text steht sie in wörtlicher Rede, nicht in der Erzählung.",
+    "fehler": [
+     {
+      "antwort": "gehobene Hochsprache",
+      "diagnoseId": "register",
+      "feedback": "Gehoben wäre etwa «den hatte ich vollständig aus den Augen verloren»."
+     },
+     {
+      "antwort": "Dialekt",
+      "diagnoseId": "mundart",
+      "feedback": "Der Satz ist hochdeutsch geschrieben, wenn auch umgangssprachlich."
+     },
+     {
+      "antwort": "Fachsprache",
+      "diagnoseId": "fach",
+      "feedback": "Fachwörter kommen im ganzen Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über den Text stimmt?",
+    "optionen": [
+     "Die wichtigsten Gefühle werden nicht ausgesprochen.",
+     "Die Figuren erklären einander ihre Gefühle.",
+     "Der Text urteilt über die Mutter.",
+     "Der Text erzählt aus der Sicht des Bruders."
+    ],
+    "loesung": [
+     "Die wichtigsten Gefühle werden nicht ausgesprochen."
+    ],
+    "erklaerung": "Niemand spricht darüber — der Text zeigt alles über Handlungen: das Herumwischen, das Schnellerwerden, das lange Stehen am Schluss.",
+    "fehler": [
+     {
+      "antwort": "Die Figuren erklären einander ihre Gefühle.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Mutter sagt genau ein Wort: «Nein» — und erklärt es nie."
+     },
+     {
+      "antwort": "Der Text urteilt über die Mutter.",
+      "diagnoseId": "wertung",
+      "feedback": "Der Text wertet nirgends; er beschreibt."
+     },
+     {
+      "antwort": "Der Text erzählt aus der Sicht des Bruders.",
+      "diagnoseId": "perspektive",
+      "feedback": "Wir erfahren Timos Gedanken, nicht die des Bruders."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «es war nur eine Frage der Zeit»?",
+    "optionen": [
+     "dass etwas sicher noch geschehen wird",
+     "dass jemand nach der Uhrzeit fragt",
+     "dass etwas zu lange dauert",
+     "dass die Zeit knapp wird"
+    ],
+    "loesung": [
+     "dass etwas sicher noch geschehen wird"
+    ],
+    "erklaerung": "Die Wendung heisst: Es steht noch aus, wird aber kommen — hier die Rückkehr des Bruders.",
+    "fehler": [
+     {
+      "antwort": "dass jemand nach der Uhrzeit fragt",
+      "diagnoseId": "woertlich",
+      "feedback": "Die Wendung ist bildhaft; niemand fragt nach der Uhr."
+     },
+     {
+      "antwort": "dass etwas zu lange dauert",
+      "diagnoseId": "dauer",
+      "feedback": "Nicht die Länge ist gemeint, sondern die Gewissheit."
+     },
+     {
+      "antwort": "dass die Zeit knapp wird",
+      "diagnoseId": "druck",
+      "feedback": "Von Zeitdruck ist im Text nichts zu spüren."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz belegt am besten, dass der Rucksack für Timo unangenehm ist?",
+    "optionen": [
+     "«… wurde er etwas schneller.»",
+     "«Der Rucksack stand seit dem Frühling im Gang.»",
+     "«Im August kam sein Bruder zurück.»",
+     "«Mehr sagte sie nicht.»"
+    ],
+    "loesung": [
+     "«… wurde er etwas schneller.»"
+    ],
+    "erklaerung": "Das Schnellerwerden ist die einzige Stelle, die Timos eigene Reaktion auf den Rucksack zeigt.",
+    "fehler": [
+     {
+      "antwort": "«Der Rucksack stand seit dem Frühling im Gang.»",
+      "diagnoseId": "feststellung",
+      "feedback": "Dieser Satz nennt nur die Tatsache, kein Gefühl."
+     },
+     {
+      "antwort": "«Im August kam sein Bruder zurück.»",
+      "diagnoseId": "handlung",
+      "feedback": "Das ist eine Handlung des Bruders und sagt nichts über Timo."
+     },
+     {
+      "antwort": "«Mehr sagte sie nicht.»",
+      "diagnoseId": "mutter",
+      "feedback": "Dieser Satz gehört zur Mutter, nicht zu Timo."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Kerngedanke passt zum ganzen Text?",
+    "optionen": [
+     "Ein Gegenstand kann eine Hoffnung festhalten.",
+     "Ordnung ist wichtiger als Gefühle.",
+     "Geschwister streiten sich oft.",
+     "Wer geht, kommt nie zurück."
+    ],
+    "loesung": [
+     "Ein Gegenstand kann eine Hoffnung festhalten."
+    ],
+    "erklaerung": "Der Rucksack steht für die offene Rückkehr — und als er weg ist, bleibt eine leere Stelle.",
+    "fehler": [
+     {
+      "antwort": "Ordnung ist wichtiger als Gefühle.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Mutter räumt gerade um den Rucksack herum — die Gefühle wiegen schwerer."
+     },
+     {
+      "antwort": "Geschwister streiten sich oft.",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Streit kommt im Text nicht vor; es wird kaum gesprochen."
+     },
+     {
+      "antwort": "Wer geht, kommt nie zurück.",
+      "diagnoseId": "gegenteil_zwei",
+      "feedback": "Der Bruder kommt im August zurück, wenn auch nur für zwei Tage."
+     }
+    ]
+   }
+  ],
+  "text": "Der Rucksack\n\nDer Rucksack stand seit dem Frühling im Gang. Niemand sprach darüber, aber\nalle gingen jeden Tag daran vorbei, und jedes Mal, wenn Timo an ihm\nvorbeikam, wurde er etwas schneller.\n\nSein Bruder hatte ihn dort abgestellt, an einem Mittwoch, zwischen zwei\nSätzen. «Ich hole ihn nächste Woche», hatte er gesagt und die Tür hinter sich\nzugezogen. Das war im April gewesen.\n\nTimos Mutter räumte den Gang jeden Samstag auf. Sie stellte die Schuhe\ngerade, hängte die Jacken auf, wischte den Boden — und liess den Rucksack\nstehen, genau dort, wo er stand. Einmal sah Timo, wie sie mit dem Lappen um\nihn herumfuhr, sorgfältig, als wäre er zerbrechlich.\n\nIm Juni fragte Timo: «Sollen wir ihn nicht in den Keller stellen?»\n\n«Nein», sagte seine Mutter, ohne aufzuschauen.\n\nMehr sagte sie nicht, und Timo fragte nicht weiter. Er verstand es auch so:\nSolange der Rucksack im Gang stand, war es nur eine Frage der Zeit. Sobald er\nim Keller stünde, wäre es etwas anderes.\n\nIm August kam sein Bruder zurück, für zwei Tage. Er sah den Rucksack, lachte\nund sagte: «Den habe ich ja ganz vergessen.» Dann trug er ihn hinaus zum\nAuto.\n\nAm Abend stand Timos Mutter lange im Gang und schaute auf die leere Stelle.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Implizite Informationen, Absichten und Innensicht",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-tv-rucksack-2",
+  "lernzielId": "DTAR.2.04",
+  "fach": "textverstaendnis-ar",
+  "unterthemen": [
+   "2.04",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Reihenfolge erkennst du an Zeitangaben und an dem, was vorausgesetzt wird.",
+   "Ein Beleg ist eine Stelle, die genau das sagt, was du behauptest.",
+   "Was nur plausibel klingt, ist noch kein Beleg."
+  ],
+  "loesungsweg": [
+   "Die Zeitangaben im Text suchen.",
+   "Die Ereignisse ordnen.",
+   "Für jede Behauptung eine Stelle suchen.",
+   "Prüfen, ob die Stelle wirklich das sagt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was geschah zuerst?",
+    "optionen": [
+     "Der Bruder stellte den Rucksack ab",
+     "Timo fragte nach dem Keller",
+     "Der Bruder kam zurück",
+     "Die Mutter stand im Gang"
+    ],
+    "loesung": [
+     "Der Bruder stellte den Rucksack ab"
+    ],
+    "erklaerung": "Das war im April, alles andere kommt später.",
+    "fehler": [
+     {
+      "antwort": "Timo fragte nach dem Keller",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das war im Juni. Richtig ist «Der Bruder stellte den Rucksack ab»."
+     },
+     {
+      "antwort": "Der Bruder kam zurück",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das war im August. Richtig ist «Der Bruder stellte den Rucksack ab»."
+     },
+     {
+      "antwort": "Die Mutter stand im Gang",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das ist der Schluss des Textes. Richtig ist «Der Bruder stellte den Rucksack ab»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was geschah zuletzt?",
+    "optionen": [
+     "Die Mutter schaute auf die leere Stelle",
+     "Der Bruder trug den Rucksack hinaus",
+     "Timo fragte nach dem Keller",
+     "Die Mutter wischte um den Rucksack herum"
+    ],
+    "loesung": [
+     "Die Mutter schaute auf die leere Stelle"
+    ],
+    "erklaerung": "Der letzte Satz des Textes beschreibt genau das.",
+    "fehler": [
+     {
+      "antwort": "Der Bruder trug den Rucksack hinaus",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das geschieht kurz davor. Richtig ist «Die Mutter schaute auf die leere Stelle»."
+     },
+     {
+      "antwort": "Timo fragte nach dem Keller",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das war im Juni. Richtig ist «Die Mutter schaute auf die leere Stelle»."
+     },
+     {
+      "antwort": "Die Mutter wischte um den Rucksack herum",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Das geschah in den Monaten dazwischen. Richtig ist «Die Mutter schaute auf die leere Stelle»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Reihenfolge stehen die Monate im Text?",
+    "optionen": [
+     "April, Juni, August",
+     "April, August, Juni",
+     "Juni, April, August",
+     "August, April, Juni"
+    ],
+    "loesung": [
+     "April, Juni, August"
+    ],
+    "erklaerung": "Der Text folgt der Zeit: April, Juni, August.",
+    "fehler": [
+     {
+      "antwort": "April, August, Juni",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Der Juni kommt vor dem August. Richtig ist «April, Juni, August»."
+     },
+     {
+      "antwort": "Juni, April, August",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Der April steht am Anfang. Richtig ist «April, Juni, August»."
+     },
+     {
+      "antwort": "August, April, Juni",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Der August ist der letzte genannte Monat."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stelle belegt, dass die Mutter den Rucksack absichtlich stehen liess?",
+    "optionen": [
+     "«liess den Rucksack stehen, genau dort, wo er stand»",
+     "«Sie stellte die Schuhe gerade»",
+     "«Im Juni fragte Timo»",
+     "«Dann trug er ihn hinaus zum Auto»"
+    ],
+    "loesung": [
+     "«liess den Rucksack stehen, genau dort, wo er stand»"
+    ],
+    "erklaerung": "«genau dort, wo er stand» zeigt, dass es keine Nachlässigkeit war.",
+    "fehler": [
+     {
+      "antwort": "«Sie stellte die Schuhe gerade»",
+      "diagnoseId": "beleg",
+      "feedback": "Das sagt etwas über die Schuhe, nicht über den Rucksack."
+     },
+     {
+      "antwort": "«Im Juni fragte Timo»",
+      "diagnoseId": "beleg",
+      "feedback": "Das ist Timos Frage, nicht ihr Verhalten."
+     },
+     {
+      "antwort": "«Dann trug er ihn hinaus zum Auto»",
+      "diagnoseId": "beleg",
+      "feedback": "Das ist der Bruder am Schluss. Richtig ist ««liess den Rucksack stehen, genau dort, wo er stand»»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stelle belegt, dass Timo den Rucksack unangenehm findet?",
+    "optionen": [
+     "«jedes Mal … wurde er etwas schneller»",
+     "«Der Rucksack stand seit dem Frühling im Gang»",
+     "«Niemand sprach darüber»",
+     "«Im August kam sein Bruder zurück»"
+    ],
+    "loesung": [
+     "«jedes Mal … wurde er etwas schneller»"
+    ],
+    "erklaerung": "Wer schneller geht, will an etwas vorbei — das zeigt sein Unbehagen.",
+    "fehler": [
+     {
+      "antwort": "«Der Rucksack stand seit dem Frühling im Gang»",
+      "diagnoseId": "beleg",
+      "feedback": "Das sagt nur, wo und seit wann er steht."
+     },
+     {
+      "antwort": "«Niemand sprach darüber»",
+      "diagnoseId": "beleg",
+      "feedback": "Das gilt für alle, nicht nur für Timo. Richtig ist ««jedes Mal … wurde er etwas schneller»»."
+     },
+     {
+      "antwort": "«Im August kam sein Bruder zurück»",
+      "diagnoseId": "beleg",
+      "feedback": "Das sagt nichts über Timos Gefühl. Richtig ist ««jedes Mal … wurde er etwas schneller»»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stelle belegt, dass die Mutter den Rucksack behutsam behandelt?",
+    "optionen": [
+     "«als wäre er zerbrechlich»",
+     "«hängte die Jacken auf»",
+     "«ohne aufzuschauen»",
+     "«wischte den Boden»"
+    ],
+    "loesung": [
+     "«als wäre er zerbrechlich»"
+    ],
+    "erklaerung": "Der Vergleich beschreibt genau, wie sie mit dem Lappen um ihn herumfährt.",
+    "fehler": [
+     {
+      "antwort": "«hängte die Jacken auf»",
+      "diagnoseId": "beleg",
+      "feedback": "Das betrifft die Jacken. Richtig ist ««als wäre er zerbrechlich»»."
+     },
+     {
+      "antwort": "«ohne aufzuschauen»",
+      "diagnoseId": "beleg",
+      "feedback": "Das zeigt ihre Knappheit, nicht ihre Behutsamkeit."
+     },
+     {
+      "antwort": "«wischte den Boden»",
+      "diagnoseId": "beleg",
+      "feedback": "Das ist eine gewöhnliche Tätigkeit. Richtig ist ««als wäre er zerbrechlich»»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Behauptung lässt sich NICHT belegen?",
+    "optionen": [
+     "Der Bruder ist im Streit weggegangen",
+     "Der Bruder hat den Rucksack im April abgestellt",
+     "Die Mutter räumt jeden Samstag auf",
+     "Timo fragte im Juni nach dem Keller"
+    ],
+    "loesung": [
+     "Der Bruder ist im Streit weggegangen"
+    ],
+    "erklaerung": "Von einem Streit steht nichts im Text — nur, dass er zwischen zwei Sätzen ging.",
+    "fehler": [
+     {
+      "antwort": "Der Bruder hat den Rucksack im April abgestellt",
+      "diagnoseId": "beleg",
+      "feedback": "Das steht im zweiten Abschnitt. Richtig ist «Der Bruder ist im Streit weggegangen»."
+     },
+     {
+      "antwort": "Die Mutter räumt jeden Samstag auf",
+      "diagnoseId": "beleg",
+      "feedback": "Das steht im dritten Abschnitt. Richtig ist «Der Bruder ist im Streit weggegangen»."
+     },
+     {
+      "antwort": "Timo fragte im Juni nach dem Keller",
+      "diagnoseId": "beleg",
+      "feedback": "Das steht wörtlich im Text. Richtig ist «Der Bruder ist im Streit weggegangen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was setzt der Satz «Den habe ich ja ganz vergessen» voraus?",
+    "optionen": [
+     "Dass der Bruder nicht mehr an den Rucksack gedacht hat",
+     "Dass der Rucksack leer ist",
+     "Dass die Mutter ihn versteckt hat",
+     "Dass Timo ihn weggeräumt hat"
+    ],
+    "loesung": [
+     "Dass der Bruder nicht mehr an den Rucksack gedacht hat"
+    ],
+    "erklaerung": "Er hatte gesagt, er hole ihn nächste Woche — und dachte seither nicht mehr daran.",
+    "fehler": [
+     {
+      "antwort": "Dass der Rucksack leer ist",
+      "diagnoseId": "beleg",
+      "feedback": "Über den Inhalt sagt der Text nichts. Richtig ist «Dass der Bruder nicht mehr an den Rucksack gedacht hat»."
+     },
+     {
+      "antwort": "Dass die Mutter ihn versteckt hat",
+      "diagnoseId": "handlung",
+      "feedback": "Sie liess ihn gerade sichtbar stehen. Richtig ist «Dass der Bruder nicht mehr an den Rucksack gedacht hat»."
+     },
+     {
+      "antwort": "Dass Timo ihn weggeräumt hat",
+      "diagnoseId": "handlung",
+      "feedback": "Timos Vorschlag wurde abgelehnt. Richtig ist «Dass der Bruder nicht mehr an den Rucksack gedacht hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stelle belegt, dass für die Mutter mehr davon abhängt als vom Rucksack?",
+    "optionen": [
+     "«stand lange im Gang und schaute auf die leere Stelle»",
+     "«Nein», sagte seine Mutter",
+     "«Timos Mutter räumte den Gang jeden Samstag auf»",
+     "«Sie stellte die Schuhe gerade»"
+    ],
+    "loesung": [
+     "«stand lange im Gang und schaute auf die leere Stelle»"
+    ],
+    "erklaerung": "Nach dem Abholen bleibt sie stehen und schaut — der Rucksack war ein Zeichen, nicht ein Gegenstand.",
+    "fehler": [
+     {
+      "antwort": "«Nein», sagte seine Mutter",
+      "diagnoseId": "beleg",
+      "feedback": "Das zeigt ihren Entscheid, nicht die Wirkung des Endes."
+     },
+     {
+      "antwort": "«Timos Mutter räumte den Gang jeden Samstag auf»",
+      "diagnoseId": "beleg",
+      "feedback": "Das beschreibt eine Gewohnheit. Richtig ist ««stand lange im Gang und schaute auf die leere Stelle»»."
+     },
+     {
+      "antwort": "«Sie stellte die Schuhe gerade»",
+      "diagnoseId": "beleg",
+      "feedback": "Das gehört zum Aufräumen. Richtig ist ««stand lange im Gang und schaute auf die leere Stelle»»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage ordnet die Ereignisse richtig?",
+    "optionen": [
+     "Erst die Frage im Juni, dann die Rückkehr im August",
+     "Erst die Rückkehr, dann die Frage",
+     "Beides geschah am selben Tag",
+     "Die Frage kam nach dem Abholen"
+    ],
+    "loesung": [
+     "Erst die Frage im Juni, dann die Rückkehr im August"
+    ],
+    "erklaerung": "Der Text folgt den Monaten: April, Juni, August.",
+    "fehler": [
+     {
+      "antwort": "Erst die Rückkehr, dann die Frage",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Der August kommt nach dem Juni. Richtig ist «Erst die Frage im Juni, dann die Rückkehr im August»."
+     },
+     {
+      "antwort": "Beides geschah am selben Tag",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Zwischen Juni und August liegen Wochen. Richtig ist «Erst die Frage im Juni, dann die Rückkehr im August»."
+     },
+     {
+      "antwort": "Die Frage kam nach dem Abholen",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Die Frage steht im Juni, das Abholen im August."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht der Satz «Das war im April gewesen» am Schluss des Abschnitts?",
+    "optionen": [
+     "Er zeigt, wie lange das Versprechen schon zurückliegt",
+     "Er nennt den Beginn des Frühlings",
+     "Er erklärt, warum der Bruder ging",
+     "Er sagt, wann Timo fragte"
+    ],
+    "loesung": [
+     "Er zeigt, wie lange das Versprechen schon zurückliegt"
+    ],
+    "erklaerung": "«nächste Woche» steht unmittelbar davor — der Satz stellt die Zeit daneben.",
+    "fehler": [
+     {
+      "antwort": "Er nennt den Beginn des Frühlings",
+      "diagnoseId": "funktion",
+      "feedback": "Der Frühling steht schon im ersten Satz."
+     },
+     {
+      "antwort": "Er erklärt, warum der Bruder ging",
+      "diagnoseId": "funktion",
+      "feedback": "Einen Grund nennt der Text nirgends. Richtig ist «Er zeigt, wie lange das Versprechen schon zurückliegt»."
+     },
+     {
+      "antwort": "Er sagt, wann Timo fragte",
+      "diagnoseId": "funktion",
+      "feedback": "Timos Frage steht im Juni. Richtig ist «Er zeigt, wie lange das Versprechen schon zurückliegt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stelle zeigt, dass im Haus nicht über die Sache gesprochen wird?",
+    "optionen": [
+     "«Mehr sagte sie nicht, und Timo fragte nicht weiter»",
+     "«Im Juni fragte Timo»",
+     "«Er sah den Rucksack, lachte»",
+     "«Timos Mutter räumte den Gang jeden Samstag auf»"
+    ],
+    "loesung": [
+     "«Mehr sagte sie nicht, und Timo fragte nicht weiter»"
+    ],
+    "erklaerung": "Der Satz hält beides fest: ihr Schweigen und sein Nachgeben.",
+    "fehler": [
+     {
+      "antwort": "«Im Juni fragte Timo»",
+      "diagnoseId": "beleg",
+      "feedback": "Das ist gerade der eine Versuch, darüber zu reden."
+     },
+     {
+      "antwort": "«Er sah den Rucksack, lachte»",
+      "diagnoseId": "beleg",
+      "feedback": "Das betrifft den Bruder am Schluss. Richtig ist ««Mehr sagte sie nicht, und Timo fragte nicht weiter»»."
+     },
+     {
+      "antwort": "«Timos Mutter räumte den Gang jeden Samstag auf»",
+      "diagnoseId": "beleg",
+      "feedback": "Das beschreibt eine Gewohnheit. Richtig ist ««Mehr sagte sie nicht, und Timo fragte nicht weiter»»."
+     }
+    ]
+   }
+  ],
+  "text": "Der Rucksack\n\nDer Rucksack stand seit dem Frühling im Gang. Niemand sprach darüber, aber\nalle gingen jeden Tag daran vorbei, und jedes Mal, wenn Timo an ihm\nvorbeikam, wurde er etwas schneller.\n\nSein Bruder hatte ihn dort abgestellt, an einem Mittwoch, zwischen zwei\nSätzen. «Ich hole ihn nächste Woche», hatte er gesagt und die Tür hinter sich\nzugezogen. Das war im April gewesen.\n\nTimos Mutter räumte den Gang jeden Samstag auf. Sie stellte die Schuhe\ngerade, hängte die Jacken auf, wischte den Boden — und liess den Rucksack\nstehen, genau dort, wo er stand. Einmal sah Timo, wie sie mit dem Lappen um\nihn herumfuhr, sorgfältig, als wäre er zerbrechlich.\n\nIm Juni fragte Timo: «Sollen wir ihn nicht in den Keller stellen?»\n\n«Nein», sagte seine Mutter, ohne aufzuschauen.\n\nMehr sagte sie nicht, und Timo fragte nicht weiter. Er verstand es auch so:\nSolange der Rucksack im Gang stand, war es nur eine Frage der Zeit. Sobald er\nim Keller stünde, wäre es etwas anderes.\n\nIm August kam sein Bruder zurück, für zwei Tage. Er sah den Rucksack, lachte\nund sagte: «Den habe ich ja ganz vergessen.» Dann trug er ihn hinaus zum\nAuto.\n\nAm Abend stand Timos Mutter lange im Gang und schaute auf die leere Stelle.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Abfolge ordnen und mit Textstellen belegen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-tv-rucksack-3",
+  "lernzielId": "DTAR.3.01",
+  "fach": "textverstaendnis-ar",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Sprachregister ist die Stilebene: gehoben, normal, umgangssprachlich.",
+   "Ein Wort kann eigentlich oder übertragen gemeint sein.",
+   "Ein Bezug zur eigenen Lebenswelt muss trotzdem am Text hängen."
+  ],
+  "loesungsweg": [
+   "Das Wort im Satz lesen.",
+   "Die Stilebene bestimmen.",
+   "Prüfen, ob die Bedeutung wörtlich oder übertragen ist.",
+   "Den eigenen Bezug am Text festmachen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welchem Sprachregister gehört «zugezogen» in «die Tür hinter sich zugezogen» an?",
+    "optionen": [
+     "der normalen Alltagssprache",
+     "der gehobenen Sprache",
+     "der Umgangssprache",
+     "der Fachsprache"
+    ],
+    "loesung": [
+     "der normalen Alltagssprache"
+    ],
+    "erklaerung": "«die Tür zuziehen» ist ein gewöhnlicher, neutraler Ausdruck.",
+    "fehler": [
+     {
+      "antwort": "der gehobenen Sprache",
+      "diagnoseId": "register",
+      "feedback": "Gehoben wäre etwa «verschloss die Pforte»."
+     },
+     {
+      "antwort": "der Umgangssprache",
+      "diagnoseId": "register",
+      "feedback": "Umgangssprachlich wäre «die Tür zugeknallt»."
+     },
+     {
+      "antwort": "der Fachsprache",
+      "diagnoseId": "register",
+      "feedback": "Ein Fachwort gehörte einem Berufsfeld an."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Ausdruck wäre umgangssprachlich?",
+    "optionen": [
+     "Er hat den Rucksack einfach hingeschmissen",
+     "Er stellte den Rucksack ab",
+     "Er deponierte den Rucksack",
+     "Er liess den Rucksack zurück"
+    ],
+    "loesung": [
+     "Er hat den Rucksack einfach hingeschmissen"
+    ],
+    "erklaerung": "«hinschmeissen» gehört zur lockeren gesprochenen Sprache.",
+    "fehler": [
+     {
+      "antwort": "Er stellte den Rucksack ab",
+      "diagnoseId": "register",
+      "feedback": "Das ist neutral. Richtig ist «Er hat den Rucksack einfach hingeschmissen»."
+     },
+     {
+      "antwort": "Er deponierte den Rucksack",
+      "diagnoseId": "register",
+      "feedback": "«deponieren» ist gehoben oder amtlich. Richtig ist «Er hat den Rucksack einfach hingeschmissen»."
+     },
+     {
+      "antwort": "Er liess den Rucksack zurück",
+      "diagnoseId": "register",
+      "feedback": "Auch das ist neutral. Richtig ist «Er hat den Rucksack einfach hingeschmissen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Ausdruck wäre gehoben?",
+    "optionen": [
+     "Er entfernte sich, ohne ein weiteres Wort",
+     "Er ging einfach",
+     "Er machte sich vom Acker",
+     "Er zog die Tür zu"
+    ],
+    "loesung": [
+     "Er entfernte sich, ohne ein weiteres Wort"
+    ],
+    "erklaerung": "«sich entfernen» ist gehobener als «gehen».",
+    "fehler": [
+     {
+      "antwort": "Er ging einfach",
+      "diagnoseId": "register",
+      "feedback": "Das ist neutral bis umgangssprachlich. Richtig ist «Er entfernte sich, ohne ein weiteres Wort»."
+     },
+     {
+      "antwort": "Er machte sich vom Acker",
+      "diagnoseId": "register",
+      "feedback": "Das ist deutlich umgangssprachlich. Richtig ist «Er entfernte sich, ohne ein weiteres Wort»."
+     },
+     {
+      "antwort": "Er zog die Tür zu",
+      "diagnoseId": "register",
+      "feedback": "Das ist neutral. Richtig ist «Er entfernte sich, ohne ein weiteres Wort»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist «zwischen zwei Sätzen» eigentlich oder übertragen gemeint?",
+    "optionen": [
+     "übertragen: er ging mitten im Gespräch",
+     "eigentlich: er sass zwischen zwei Sätzen",
+     "eigentlich: er las zwei Sätze",
+     "übertragen: er war unentschlossen"
+    ],
+    "loesung": [
+     "übertragen: er ging mitten im Gespräch"
+    ],
+    "erklaerung": "Der Ausdruck beschreibt die Beiläufigkeit seines Aufbruchs.",
+    "fehler": [
+     {
+      "antwort": "eigentlich: er sass zwischen zwei Sätzen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Zwischen Sätzen kann man nicht sitzen. Richtig ist «übertragen: er ging mitten im Gespräch»."
+     },
+     {
+      "antwort": "eigentlich: er las zwei Sätze",
+      "diagnoseId": "bedeutung",
+      "feedback": "Vom Lesen ist nicht die Rede. Richtig ist «übertragen: er ging mitten im Gespräch»."
+     },
+     {
+      "antwort": "übertragen: er war unentschlossen",
+      "diagnoseId": "deutung",
+      "feedback": "Unentschlossenheit zeigt der Ausdruck gerade nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist «eine Frage der Zeit» eigentlich oder übertragen gemeint?",
+    "optionen": [
+     "übertragen: es geschieht sicher, nur weiss man nicht wann",
+     "eigentlich: jemand stellt eine Frage",
+     "eigentlich: die Uhr geht falsch",
+     "übertragen: es wird nie geschehen"
+    ],
+    "loesung": [
+     "übertragen: es geschieht sicher, nur weiss man nicht wann"
+    ],
+    "erklaerung": "Die Wendung meint eine Gewissheit ohne Termin.",
+    "fehler": [
+     {
+      "antwort": "eigentlich: jemand stellt eine Frage",
+      "diagnoseId": "bedeutung",
+      "feedback": "Gefragt wird an dieser Stelle niemand. Richtig ist «übertragen: es geschieht sicher, nur weiss man nicht wann»."
+     },
+     {
+      "antwort": "eigentlich: die Uhr geht falsch",
+      "diagnoseId": "bedeutung",
+      "feedback": "Von einer Uhr ist nicht die Rede. Richtig ist «übertragen: es geschieht sicher, nur weiss man nicht wann»."
+     },
+     {
+      "antwort": "übertragen: es wird nie geschehen",
+      "diagnoseId": "deutung",
+      "feedback": "Die Wendung sagt das Gegenteil. Richtig ist «übertragen: es geschieht sicher, nur weiss man nicht wann»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «wäre es etwas anderes» am Schluss des Abschnitts?",
+    "optionen": [
+     "Dann wäre die Rückkehr des Bruders aufgegeben",
+     "Dann wäre der Keller voll",
+     "Dann wäre der Rucksack kaputt",
+     "Dann würde Timo umziehen"
+    ],
+    "loesung": [
+     "Dann wäre die Rückkehr des Bruders aufgegeben"
+    ],
+    "erklaerung": "Der Rucksack im Gang hält die Erwartung offen; im Keller wäre sie beendet.",
+    "fehler": [
+     {
+      "antwort": "Dann wäre der Keller voll",
+      "diagnoseId": "woertlich",
+      "feedback": "Vom Platz im Keller ist nicht die Rede. Richtig ist «Dann wäre die Rückkehr des Bruders aufgegeben»."
+     },
+     {
+      "antwort": "Dann wäre der Rucksack kaputt",
+      "diagnoseId": "bedeutung",
+      "feedback": "Über den Zustand des Rucksacks sagt der Text nichts."
+     },
+     {
+      "antwort": "Dann würde Timo umziehen",
+      "diagnoseId": "handlung",
+      "feedback": "Von einem Umzug steht nichts im Text. Richtig ist «Dann wäre die Rückkehr des Bruders aufgegeben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Bedeutung hat «leer» im letzten Satz?",
+    "optionen": [
+     "Der Platz ist frei — und etwas fehlt",
+     "Der Rucksack war nicht gefüllt",
+     "Der Gang ist unbeleuchtet",
+     "Die Wohnung ist unbewohnt"
+    ],
+    "loesung": [
+     "Der Platz ist frei — und etwas fehlt"
+    ],
+    "erklaerung": "«die leere Stelle» meint den Ort und zugleich das, was dort nicht mehr steht.",
+    "fehler": [
+     {
+      "antwort": "Der Rucksack war nicht gefüllt",
+      "diagnoseId": "bezug",
+      "feedback": "«leer» bezieht sich auf die Stelle, nicht auf den Rucksack."
+     },
+     {
+      "antwort": "Der Gang ist unbeleuchtet",
+      "diagnoseId": "bedeutung",
+      "feedback": "Von Licht ist nicht die Rede. Richtig ist «Der Platz ist frei — und etwas fehlt»."
+     },
+     {
+      "antwort": "Die Wohnung ist unbewohnt",
+      "diagnoseId": "bedeutung",
+      "feedback": "Die Familie wohnt dort weiterhin. Richtig ist «Der Platz ist frei — und etwas fehlt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Gedanke lässt sich mit dem eigenen Alltag verbinden?",
+    "optionen": [
+     "Manche Gegenstände stehen für einen Menschen, der fehlt",
+     "Man soll den Gang regelmässig aufräumen",
+     "Rucksäcke gehören in den Keller",
+     "Geschwister streiten oft"
+    ],
+    "loesung": [
+     "Manche Gegenstände stehen für einen Menschen, der fehlt"
+    ],
+    "erklaerung": "Genau das führt der Text an einem einzigen Gegenstand vor.",
+    "fehler": [
+     {
+      "antwort": "Man soll den Gang regelmässig aufräumen",
+      "diagnoseId": "bezug",
+      "feedback": "Das ist eine Alltagsregel, nicht der Gedanke des Textes."
+     },
+     {
+      "antwort": "Rucksäcke gehören in den Keller",
+      "diagnoseId": "bezug",
+      "feedback": "Das ist gerade der Vorschlag, den die Mutter ablehnt."
+     },
+     {
+      "antwort": "Geschwister streiten oft",
+      "diagnoseId": "bezug",
+      "feedback": "Von Streit steht nichts im Text. Richtig ist «Manche Gegenstände stehen für einen Menschen, der fehlt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Erfahrung passt zum Verhalten der Mutter?",
+    "optionen": [
+     "Etwas unverändert lassen, weil eine Veränderung endgültig wirkte",
+     "Ordnung halten, damit man Dinge findet",
+     "Sachen aufheben, weil sie teuer waren",
+     "Aufräumen, um sich abzulenken"
+    ],
+    "loesung": [
+     "Etwas unverändert lassen, weil eine Veränderung endgültig wirkte"
+    ],
+    "erklaerung": "Sie räumt alles auf und lässt genau dieses eine stehen.",
+    "fehler": [
+     {
+      "antwort": "Ordnung halten, damit man Dinge findet",
+      "diagnoseId": "bezug",
+      "feedback": "Um das Finden geht es nicht. Richtig ist «Etwas unverändert lassen, weil eine Veränderung endgültig wirkte»."
+     },
+     {
+      "antwort": "Sachen aufheben, weil sie teuer waren",
+      "diagnoseId": "bezug",
+      "feedback": "Vom Wert des Rucksacks ist nicht die Rede."
+     },
+     {
+      "antwort": "Aufräumen, um sich abzulenken",
+      "diagnoseId": "bezug",
+      "feedback": "Das Aufräumen ist eine Gewohnheit, keine Flucht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Frage führt am ehesten zum Kern des Textes?",
+    "optionen": [
+     "Warum darf der Rucksack nicht in den Keller?",
+     "Was ist im Rucksack drin?",
+     "Wie schwer ist der Rucksack?",
+     "Wann fährt der Bruder wieder weg?"
+    ],
+    "loesung": [
+     "Warum darf der Rucksack nicht in den Keller?"
+    ],
+    "erklaerung": "An dieser Frage hängt alles: Der Ort des Rucksacks ist eine Aussage über das Warten.",
+    "fehler": [
+     {
+      "antwort": "Was ist im Rucksack drin?",
+      "diagnoseId": "kern",
+      "feedback": "Der Inhalt spielt im Text keine Rolle. Richtig ist «Warum darf der Rucksack nicht in den Keller?»."
+     },
+     {
+      "antwort": "Wie schwer ist der Rucksack?",
+      "diagnoseId": "kern",
+      "feedback": "Das Gewicht kommt nicht vor. Richtig ist «Warum darf der Rucksack nicht in den Keller?»."
+     },
+     {
+      "antwort": "Wann fährt der Bruder wieder weg?",
+      "diagnoseId": "kern",
+      "feedback": "Das steht ausserhalb des Textes. Richtig ist «Warum darf der Rucksack nicht in den Keller?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Ausdruck aus dem Text ist bildlich zu verstehen?",
+    "optionen": [
+     "«nur eine Frage der Zeit»",
+     "«im Gang»",
+     "«am Samstag»",
+     "«zum Auto»"
+    ],
+    "loesung": [
+     "«nur eine Frage der Zeit»"
+    ],
+    "erklaerung": "Die anderen drei Angaben sind wörtlich gemeint.",
+    "fehler": [
+     {
+      "antwort": "«im Gang»",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das ist eine wörtliche Ortsangabe. Richtig ist ««nur eine Frage der Zeit»»."
+     },
+     {
+      "antwort": "«am Samstag»",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das ist eine wörtliche Zeitangabe. Richtig ist ««nur eine Frage der Zeit»»."
+     },
+     {
+      "antwort": "«zum Auto»",
+      "diagnoseId": "bedeutung",
+      "feedback": "Auch das ist wörtlich gemeint. Richtig ist ««nur eine Frage der Zeit»»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz beschreibt die Stilebene des ganzen Textes am besten?",
+    "optionen": [
+     "nüchtern und knapp, ohne grosse Wörter",
+     "feierlich und gehoben",
+     "salopp und umgangssprachlich",
+     "fachlich und erklärend"
+    ],
+    "loesung": [
+     "nüchtern und knapp, ohne grosse Wörter"
+    ],
+    "erklaerung": "Kurze Sätze, gewöhnliche Wörter — die Wirkung entsteht aus dem, was nicht gesagt wird.",
+    "fehler": [
+     {
+      "antwort": "feierlich und gehoben",
+      "diagnoseId": "register",
+      "feedback": "Gehobene Wörter kommen im Text nicht vor."
+     },
+     {
+      "antwort": "salopp und umgangssprachlich",
+      "diagnoseId": "register",
+      "feedback": "Saloppe Ausdrücke fehlen ebenfalls. Richtig ist «nüchtern und knapp, ohne grosse Wörter»."
+     },
+     {
+      "antwort": "fachlich und erklärend",
+      "diagnoseId": "register",
+      "feedback": "Der Text erklärt nichts, er erzählt. Richtig ist «nüchtern und knapp, ohne grosse Wörter»."
+     }
+    ]
+   }
+  ],
+  "text": "Der Rucksack\n\nDer Rucksack stand seit dem Frühling im Gang. Niemand sprach darüber, aber\nalle gingen jeden Tag daran vorbei, und jedes Mal, wenn Timo an ihm\nvorbeikam, wurde er etwas schneller.\n\nSein Bruder hatte ihn dort abgestellt, an einem Mittwoch, zwischen zwei\nSätzen. «Ich hole ihn nächste Woche», hatte er gesagt und die Tür hinter sich\nzugezogen. Das war im April gewesen.\n\nTimos Mutter räumte den Gang jeden Samstag auf. Sie stellte die Schuhe\ngerade, hängte die Jacken auf, wischte den Boden — und liess den Rucksack\nstehen, genau dort, wo er stand. Einmal sah Timo, wie sie mit dem Lappen um\nihn herumfuhr, sorgfältig, als wäre er zerbrechlich.\n\nIm Juni fragte Timo: «Sollen wir ihn nicht in den Keller stellen?»\n\n«Nein», sagte seine Mutter, ohne aufzuschauen.\n\nMehr sagte sie nicht, und Timo fragte nicht weiter. Er verstand es auch so:\nSolange der Rucksack im Gang stand, war es nur eine Frage der Zeit. Sobald er\nim Keller stünde, wäre es etwas anderes.\n\nIm August kam sein Bruder zurück, für zwei Tage. Er sah den Rucksack, lachte\nund sagte: «Den habe ich ja ganz vergessen.» Dann trug er ihn hinaus zum\nAuto.\n\nAm Abend stand Timos Mutter lange im Gang und schaute auf die leere Stelle.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sprachregister, übertragene Bedeutung und eigener Bezug",
+  "status": "review"
+ }
+]

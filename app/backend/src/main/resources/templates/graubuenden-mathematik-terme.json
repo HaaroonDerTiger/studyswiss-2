@@ -1,0 +1,843 @@
+[
+ {
+  "templateId": "gr-terme-aufstellen",
+  "lernzielId": "MGR.3.01",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "3.01",
+   "3.02"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Frage dich zuerst, welche Grösse unbekannt ist — sie bekommt den Buchstaben.",
+   "Lies den Satz Schritt für Schritt und übersetze jedes Stück einzeln.",
+   "Achte darauf, ob zuerst multipliziert oder zuerst addiert wird; Klammern zeigen es an."
+  ],
+  "loesungsweg": [
+   "Die unbekannte Grösse benennen.",
+   "Jeden Teil des Satzes in Rechenzeichen übersetzen.",
+   "Klammern setzen, wo eine ganze Summe betroffen ist.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Schreibe als Term.\n\nEine Zahl x wird um 7 vergrössert und das Ergebnis verdoppelt.",
+    "loesung": [
+     "2(x + 7)",
+     "2*(x+7)",
+     "2(x+7)"
+    ],
+    "erklaerung": "Zuerst die Summe, dann die Verdopplung — die Klammer hält die Reihenfolge fest.",
+    "fehler": [
+     {
+      "antwort": "2x + 7",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Ohne Klammer wird nur die Zahl x verdoppelt; verdoppelt werden soll aber die ganze Summe."
+     },
+     {
+      "antwort": "2x + 14",
+      "diagnoseId": "zu_frueh_ausmultipliziert",
+      "feedback": "Das ist zwar der ausmultiplizierte Term, gefragt war aber die Schreibweise mit Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEine Zahl y wird verdreifacht und davon 5 abgezogen.",
+    "loesung": [
+     "3y - 5",
+     "3*y-5",
+     "3y-5"
+    ],
+    "erklaerung": "Zuerst das Verdreifachen, dann das Abziehen — hier braucht es keine Klammer.",
+    "fehler": [
+     {
+      "antwort": "3(y - 5)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "Mit Klammer würde erst abgezogen und dann verdreifacht; der Satz nennt die andere Reihenfolge."
+     },
+     {
+      "antwort": "5 - 3y",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Abgezogen wird 5 vom Dreifachen, nicht umgekehrt."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nDas Dreifache der Summe aus a und 4.",
+    "loesung": [
+     "3(a + 4)",
+     "3*(a+4)",
+     "3(a+4)"
+    ],
+    "erklaerung": "«Die Summe aus a und 4» ist eine Einheit und gehört in eine Klammer.",
+    "fehler": [
+     {
+      "antwort": "3a + 4",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "So wird nur a verdreifacht; verdreifacht werden soll die ganze Summe."
+     },
+     {
+      "antwort": "a + 12",
+      "diagnoseId": "falsch_verteilt",
+      "feedback": "Hier ist nur die 4 verdreifacht worden; der Faktor gilt für beide Summanden."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze x = 6 ein und berechne.\n\n4x - 9",
+    "loesung": [
+     "15"
+    ],
+    "erklaerung": "4 · 6 ergibt 24, minus 9 bleiben 15.",
+    "fehler": [
+     {
+      "antwort": "21",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Zuerst wird multipliziert, dann subtrahiert: 4 · 6 − 9, nicht 4 · (6 − 9) und auch nicht 6 · 4 − 9 mit anderem Zwischenwert."
+     },
+     {
+      "antwort": "-12",
+      "diagnoseId": "falsche_reihenfolge",
+      "feedback": "So ist zuerst 6 − 9 gerechnet und dann mit 4 multipliziert worden; Punkt geht vor Strich."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze a = 5 ein und berechne.\n\n3(a + 2)",
+    "loesung": [
+     "21"
+    ],
+    "erklaerung": "In der Klammer stehen 7, mal 3 ergibt das 21.",
+    "fehler": [
+     {
+      "antwort": "17",
+      "diagnoseId": "klammer_uebersehen",
+      "feedback": "Hier ist nur a verdreifacht und dann 2 addiert worden; die Klammer gilt für die ganze Summe."
+     },
+     {
+      "antwort": "15",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "Die 2 in der Klammer ist untergegangen: 3 · (5 + 2), nicht 3 · 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEin Heft kostet h Franken. Wie viel kosten 5 Hefte und ein Etui zu 12 Franken?",
+    "loesung": [
+     "5h + 12",
+     "5*h+12",
+     "5h+12"
+    ],
+    "erklaerung": "Fünf Hefte kosten 5h, dazu kommen die 12 Franken für das Etui.",
+    "fehler": [
+     {
+      "antwort": "5(h + 12)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "So würde das Etui fünfmal gezahlt; es wird nur einmal gekauft."
+     },
+     {
+      "antwort": "5h + 12h",
+      "diagnoseId": "einheit_verwechselt",
+      "feedback": "Die 12 Franken sind ein fester Betrag, kein Vielfaches von h."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEine Zahl n wird halbiert und dann um 3 vergrössert.",
+    "loesung": [
+     "n/2 + 3",
+     "n:2+3",
+     "n/2+3"
+    ],
+    "erklaerung": "Halbieren heisst durch 2 teilen; danach wird 3 addiert.",
+    "fehler": [
+     {
+      "antwort": "(n + 3)/2",
+      "diagnoseId": "reihenfolge",
+      "feedback": "So würde zuerst addiert und dann halbiert; der Satz nennt die umgekehrte Reihenfolge."
+     },
+     {
+      "antwort": "2n + 3",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Halbieren heisst teilen, nicht verdoppeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze y = -4 ein und berechne.\n\n2y + 11",
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "2 · (−4) ergibt −8, plus 11 bleiben 3.",
+    "fehler": [
+     {
+      "antwort": "19",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das Minuszeichen gehört mitgerechnet: 2 · (−4) ist −8, nicht +8."
+     },
+     {
+      "antwort": "7",
+      "diagnoseId": "nur_addiert",
+      "feedback": "Hier ist der Faktor 2 vergessen worden: gerechnet wurde −4 + 11."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nDie Länge eines Rechtecks ist um 3 cm grösser als die Breite b. Wie lang ist der Umfang?",
+    "loesung": [
+     "2(b + b + 3)",
+     "2b + 2(b + 3)",
+     "4b + 6",
+     "2*(2b+3)"
+    ],
+    "erklaerung": "Die Länge ist b + 3; der Umfang ist zweimal Länge plus zweimal Breite, zusammengefasst 4b + 6.",
+    "fehler": [
+     {
+      "antwort": "2b + 3",
+      "diagnoseId": "haelfte",
+      "feedback": "Das ist erst die halbe Runde: Der Umfang zählt jede Seite zweimal."
+     },
+     {
+      "antwort": "b(b + 3)",
+      "diagnoseId": "flaeche",
+      "feedback": "Das wäre die Fläche; der Umfang wird addiert, nicht multipliziert."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze x = 3 und y = 2 ein.\n\n5x - 2y",
+    "loesung": [
+     "11"
+    ],
+    "erklaerung": "5 · 3 ergibt 15, 2 · 2 ergibt 4; die Differenz ist 11.",
+    "fehler": [
+     {
+      "antwort": "19",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Der zweite Teil wird abgezogen, nicht addiert."
+     },
+     {
+      "antwort": "13",
+      "diagnoseId": "faktor_vergessen",
+      "feedback": "Beim zweiten Glied ist der Faktor 2 untergegangen: 2 · 2 sind 4, nicht 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEine Strecke von 240 m wird in gleich lange Abschnitte von je s Metern geteilt. Wie viele Abschnitte sind es?",
+    "loesung": [
+     "240/s",
+     "240:s"
+    ],
+    "erklaerung": "Die Gesamtlänge wird durch die Länge eines Abschnitts geteilt.",
+    "fehler": [
+     {
+      "antwort": "s/240",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Geteilt wird die ganze Strecke durch einen Abschnitt, nicht umgekehrt."
+     },
+     {
+      "antwort": "240s",
+      "diagnoseId": "malgenommen",
+      "feedback": "Mehr Abschnitte entstehen durch Teilen, nicht durch Multiplizieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze n = 7 ein und berechne.\n\nn(n - 4)",
+    "loesung": [
+     "21"
+    ],
+    "erklaerung": "In der Klammer stehen 3; 7 mal 3 ergibt 21.",
+    "fehler": [
+     {
+      "antwort": "49",
+      "diagnoseId": "klammer_ignoriert",
+      "feedback": "Hier ist n mit sich selbst multipliziert und die Klammer übergangen worden."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "faktor_vergessen",
+      "feedback": "Nur die Klammer ist ausgerechnet worden; das n davor gehört dazu."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme aufstellen und einsetzen",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-ausklammern",
+  "lernzielId": "MGR.3.03",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "3.03",
+   "3.04"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Suche zuerst die grösste Zahl, die in allen Gliedern steckt.",
+   "Prüfe danach, ob auch ein Buchstabe in jedem Glied vorkommt.",
+   "Multipliziere zur Probe wieder aus — dann muss der Ausgangsterm dastehen."
+  ],
+  "loesungsweg": [
+   "Den gemeinsamen Faktor der Zahlen suchen.",
+   "Den gemeinsamen Buchstaben dazunehmen.",
+   "Beide vor die Klammer ziehen.",
+   "Die Probe durch Ausmultiplizieren machen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n6x + 9",
+    "loesung": [
+     "3(2x + 3)",
+     "3*(2x+3)",
+     "3(2x+3)"
+    ],
+    "erklaerung": "In 6 und 9 steckt die 3; übrig bleiben 2x und 3.",
+    "fehler": [
+     {
+      "antwort": "3(2x + 9)",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Das zweite Glied muss ebenfalls durch 3 geteilt werden: aus 9 wird 3."
+     },
+     {
+      "antwort": "2(3x + 4.5)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Mit 2 gehen die Zahlen nicht auf; der gemeinsame Faktor von 6 und 9 ist 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n12a - 8",
+    "loesung": [
+     "4(3a - 2)",
+     "4*(3a-2)",
+     "4(3a-2)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 12 und 8 ist 4.",
+    "fehler": [
+     {
+      "antwort": "2(6a - 4)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das geht, ist aber nicht zu Ende gedacht: In 6 und 4 steckt noch eine 2."
+     },
+     {
+      "antwort": "4(3a - 8)",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Auch die 8 wird durch 4 geteilt; übrig bleibt 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n5x² + 15x",
+    "loesung": [
+     "5x(x + 3)",
+     "5*x*(x+3)",
+     "5x(x+3)"
+    ],
+    "erklaerung": "Beide Glieder enthalten 5 und x; vor die Klammer kommt 5x.",
+    "fehler": [
+     {
+      "antwort": "5(x² + 3x)",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Die Zahl ist ausgeklammert, das x aber noch nicht — es steckt in beiden Gliedern."
+     },
+     {
+      "antwort": "x(5x + 15)",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "Der Buchstabe ist draussen, die 5 noch nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n14y + 21",
+    "loesung": [
+     "7(2y + 3)",
+     "7*(2y+3)",
+     "7(2y+3)"
+    ],
+    "erklaerung": "In 14 und 21 steckt die 7.",
+    "fehler": [
+     {
+      "antwort": "7(2y + 21)",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Die 21 wird ebenfalls durch 7 geteilt: übrig bleibt 3."
+     },
+     {
+      "antwort": "3(4y + 7)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Mit 3 geht 14 nicht auf; der gemeinsame Faktor ist 7."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n4(2x - 5)",
+    "loesung": [
+     "8x - 20",
+     "8x-20"
+    ],
+    "erklaerung": "Der Faktor 4 wird auf beide Glieder verteilt.",
+    "fehler": [
+     {
+      "antwort": "8x - 5",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Der Faktor gilt für beide Glieder in der Klammer, auch für die 5."
+     },
+     {
+      "antwort": "8x + 20",
+      "diagnoseId": "vorzeichen",
+      "feedback": "In der Klammer steht ein Minus; beim Ausmultiplizieren bleibt es erhalten."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n-3(a + 6)",
+    "loesung": [
+     "-3a - 18",
+     "-3a-18"
+    ],
+    "erklaerung": "Ein negativer Faktor kehrt beide Vorzeichen in der Klammer um.",
+    "fehler": [
+     {
+      "antwort": "-3a + 18",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Auch die 6 wird mit −3 multipliziert; daraus wird −18."
+     },
+     {
+      "antwort": "-3a + 6",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Der Faktor gilt für beide Glieder, nicht nur für a."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n9b² - 6b",
+    "loesung": [
+     "3b(3b - 2)",
+     "3*b*(3b-2)",
+     "3b(3b-2)"
+    ],
+    "erklaerung": "Beide Glieder enthalten 3 und b.",
+    "fehler": [
+     {
+      "antwort": "3(3b² - 2b)",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Das b steckt in beiden Gliedern und gehört ebenfalls vor die Klammer."
+     },
+     {
+      "antwort": "b(9b - 6)",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "In 9 und 6 steckt noch die 3; vollständig ausgeklammert lautet der Term 3b(3b − 2)."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus und fasse zusammen.\n\n2(x + 3) + 3(x - 1)",
+    "loesung": [
+     "5x + 3",
+     "5x+3"
+    ],
+    "erklaerung": "2x + 6 plus 3x − 3 ergibt zusammengefasst 5x + 3.",
+    "fehler": [
+     {
+      "antwort": "5x + 9",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Aus der zweiten Klammer kommt −3, nicht +3."
+     },
+     {
+      "antwort": "5x + 2",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "6 − 3 ergibt 3, nicht 2. Rechne die Zahlen der beiden Klammern getrennt zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n10m + 25",
+    "loesung": [
+     "5(2m + 5)",
+     "5*(2m+5)",
+     "5(2m+5)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 10 und 25 ist 5.",
+    "fehler": [
+     {
+      "antwort": "5(2m + 25)",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Auch die 25 wird durch 5 geteilt: übrig bleibt 5."
+     },
+     {
+      "antwort": "10(m + 2.5)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Mit 10 geht die 25 nicht auf; ausgeklammert wird die 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\nx(x + 7)",
+    "loesung": [
+     "x² + 7x",
+     "x^2+7x",
+     "x2+7x",
+     "x² + 7 x"
+    ],
+    "erklaerung": "x mal x ergibt x², x mal 7 ergibt 7x.",
+    "fehler": [
+     {
+      "antwort": "x + 7x",
+      "diagnoseId": "quadrat_vergessen",
+      "feedback": "x mal x ergibt x², nicht x. Beim Multiplizieren zweier gleicher Buchstaben entsteht eine Hochzahl."
+     },
+     {
+      "antwort": "x² + 7",
+      "diagnoseId": "zweites_glied",
+      "feedback": "Auch die 7 wird mit x multipliziert; daraus wird 7x."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n8p - 12q",
+    "loesung": [
+     "4(2p - 3q)",
+     "4*(2p-3q)",
+     "4(2p-3q)"
+    ],
+    "erklaerung": "In 8 und 12 steckt die 4; p und q sind verschieden und lassen sich nicht ausklammern.",
+    "fehler": [
+     {
+      "antwort": "2(4p - 6q)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das geht, ist aber nicht fertig: In 4 und 6 steckt noch eine 2."
+     },
+     {
+      "antwort": "4p(2 - 3q)",
+      "diagnoseId": "falscher_buchstabe",
+      "feedback": "Das p kommt nur im ersten Glied vor und darf nicht ausgeklammert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n5(2a - 3b + 1)",
+    "loesung": [
+     "10a - 15b + 5",
+     "10a-15b+5"
+    ],
+    "erklaerung": "Der Faktor 5 wird auf alle drei Glieder verteilt.",
+    "fehler": [
+     {
+      "antwort": "10a - 15b + 1",
+      "diagnoseId": "letztes_glied",
+      "feedback": "Auch die 1 wird mit 5 multipliziert; daraus wird 5."
+     },
+     {
+      "antwort": "10a - 3b + 1",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Der Faktor gilt für jedes Glied in der Klammer."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausklammern und Ausmultiplizieren",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-formeln-umstellen",
+  "lernzielId": "MGR.3.06",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "3.06",
+   "3.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Frage dich, welche Grösse allein stehen soll.",
+   "Alles, was daneben steht, wird auf beiden Seiten weggerechnet — mit der Gegenoperation.",
+   "Aus mal wird geteilt, aus plus wird minus."
+  ],
+  "loesungsweg": [
+   "Die gesuchte Grösse bestimmen.",
+   "Die Gegenoperation auf beiden Seiten anwenden.",
+   "So lange umformen, bis die Grösse allein steht.",
+   "Zur Probe Zahlen einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Stelle nach b um.\n\nA = l · b",
+    "loesung": [
+     "b = A/l",
+     "b=A:l",
+     "b = A : l",
+     "b=A/l"
+    ],
+    "erklaerung": "Beide Seiten werden durch die Länge l geteilt; dann steht die Breite b allein.",
+    "fehler": [
+     {
+      "antwort": "b = A · l",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Aus einer Multiplikation wird beim Umstellen eine Division: l wandert als Divisor auf die andere Seite."
+     },
+     {
+      "antwort": "b = l/A",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Geteilt wird die Fläche durch die Länge, nicht die Länge durch die Fläche."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach h um.\n\nA = g · h / 2",
+    "loesung": [
+     "h = 2A/g",
+     "h=2A:g",
+     "h = 2 · A / g",
+     "h=2*A/g"
+    ],
+    "erklaerung": "Zuerst mit 2 multiplizieren, dann durch g teilen.",
+    "fehler": [
+     {
+      "antwort": "h = A/(2g)",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Die 2 steht im Nenner der Formel; beim Umstellen wandert sie in den Zähler."
+     },
+     {
+      "antwort": "h = 2A · g",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Aus dem Faktor g wird beim Umstellen ein Divisor."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach t um.\n\ns = v · t",
+    "loesung": [
+     "t = s/v",
+     "t=s:v",
+     "t = s : v",
+     "t=s/v"
+    ],
+    "erklaerung": "Beide Seiten durch v teilen.",
+    "fehler": [
+     {
+      "antwort": "t = v/s",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Geteilt wird der Weg durch die Geschwindigkeit."
+     },
+     {
+      "antwort": "t = s · v",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Aus mal wird beim Umstellen geteilt: Was auf der einen Seite als Faktor steht, wird auf der anderen zum Divisor."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach a um.\n\nU = 2(a + b)",
+    "loesung": [
+     "a = U/2 - b",
+     "a=U:2-b",
+     "a = U/2 − b",
+     "a=U/2-b"
+    ],
+    "erklaerung": "Zuerst durch 2 teilen, dann b auf beiden Seiten abziehen.",
+    "fehler": [
+     {
+      "antwort": "a = U - 2b",
+      "diagnoseId": "haelfte_vergessen",
+      "feedback": "Zuerst muss die ganze Gleichung durch 2 geteilt werden, auch das U."
+     },
+     {
+      "antwort": "a = U/2 + b",
+      "diagnoseId": "vorzeichen",
+      "feedback": "b steht auf der anderen Seite in einer Summe; beim Verschieben wird es abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach r um.\n\nU = 2 · π · r",
+    "loesung": [
+     "r = U/(2π)",
+     "r=U:(2π)",
+     "r = U / (2 · π)",
+     "r=U/(2*pi)"
+    ],
+    "erklaerung": "Beide Seiten durch 2π teilen.",
+    "fehler": [
+     {
+      "antwort": "r = 2πU",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Der Faktor 2π wird beim Umstellen zum Divisor."
+     },
+     {
+      "antwort": "r = U/2 - π",
+      "diagnoseId": "falsche_operation",
+      "feedback": "π steht als Faktor, nicht als Summand; es wird geteilt, nicht abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach c um.\n\nP = a + b + c",
+    "loesung": [
+     "c = P - a - b",
+     "c=P-a-b",
+     "c = P − a − b"
+    ],
+    "erklaerung": "a und b werden auf beiden Seiten abgezogen.",
+    "fehler": [
+     {
+      "antwort": "c = P - a + b",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Beide Summanden werden abgezogen, auch b."
+     },
+     {
+      "antwort": "c = P/(a + b)",
+      "diagnoseId": "falsche_operation",
+      "feedback": "a und b sind Summanden; sie werden subtrahiert, nicht als Divisor genommen."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach x um.\n\ny = m · x + q",
+    "loesung": [
+     "x = (y - q)/m",
+     "x=(y-q):m",
+     "x = (y − q) / m",
+     "x=(y-q)/m"
+    ],
+    "erklaerung": "Zuerst q abziehen, dann durch m teilen.",
+    "fehler": [
+     {
+      "antwort": "x = y/m - q",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Erst nach dem Abziehen von q darf durch m geteilt werden; das gilt für die ganze Differenz."
+     },
+     {
+      "antwort": "x = (y + q)/m",
+      "diagnoseId": "vorzeichen",
+      "feedback": "q steht auf der anderen Seite als Summand und wird darum abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach m um.\n\nV = m/d",
+    "loesung": [
+     "m = V · d",
+     "m=V*d",
+     "m = V d",
+     "m=Vd"
+    ],
+    "erklaerung": "Beide Seiten mit d multiplizieren.",
+    "fehler": [
+     {
+      "antwort": "m = V/d",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Aus geteilt wird beim Umstellen mal: Der Nenner d wandert als Faktor auf die andere Seite."
+     },
+     {
+      "antwort": "m = d/V",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Multipliziert wird V mit d; ein Bruch entsteht dabei nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach h um.\n\nV = G · h",
+    "loesung": [
+     "h = V/G",
+     "h=V:G",
+     "h = V : G",
+     "h=V/G"
+    ],
+    "erklaerung": "Beide Seiten durch die Grundfläche teilen.",
+    "fehler": [
+     {
+      "antwort": "h = G/V",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Geteilt wird das Volumen durch die Grundfläche."
+     },
+     {
+      "antwort": "h = V · G",
+      "diagnoseId": "falsche_operation",
+      "feedback": "Aus mal wird beim Umstellen geteilt: Was auf der einen Seite als Faktor steht, wird auf der anderen zum Divisor."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach c um.\n\nA = (a + c) · h / 2",
+    "loesung": [
+     "c = 2A/h - a",
+     "c=2A:h-a",
+     "c = 2A / h − a",
+     "c=2A/h-a"
+    ],
+    "erklaerung": "Mit 2 multiplizieren, durch h teilen, dann a abziehen — c und a stehen gleichberechtigt in der Klammer.",
+    "fehler": [
+     {
+      "antwort": "c = 2A/h + a",
+      "diagnoseId": "vorzeichen",
+      "feedback": "a steht in der Klammer als Summand; beim Verschieben auf die andere Seite wird es abgezogen."
+     },
+     {
+      "antwort": "c = 2A - a/h",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Erst wird die ganze Seite durch h geteilt, dann a abgezogen; die Reihenfolge ist hier vertauscht."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach a um.\n\nA = (a + c) · h / 2",
+    "loesung": [
+     "a = 2A/h - c",
+     "a=2A:h-c",
+     "a = 2A / h − c",
+     "a=2A/h-c"
+    ],
+    "erklaerung": "Mit 2 multiplizieren, durch h teilen, dann c abziehen.",
+    "fehler": [
+     {
+      "antwort": "a = 2A/h + c",
+      "diagnoseId": "vorzeichen",
+      "feedback": "c steht in der Klammer als Summand und wird darum abgezogen."
+     },
+     {
+      "antwort": "a = A/(2h) - c",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Die 2 steht im Nenner der Formel und wandert beim Umstellen in den Zähler."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle nach t um.\n\nZ = k · p · t / 100",
+    "loesung": [
+     "t = 100Z/(k·p)",
+     "t=100Z:(k*p)",
+     "t = 100 · Z / (k · p)",
+     "t=100Z/(kp)"
+    ],
+    "erklaerung": "Mit 100 multiplizieren und durch k · p teilen.",
+    "fehler": [
+     {
+      "antwort": "t = Z/(100kp)",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Die 100 steht im Nenner der Formel; beim Umstellen kommt sie in den Zähler."
+     },
+     {
+      "antwort": "t = 100Z - kp",
+      "diagnoseId": "falsche_operation",
+      "feedback": "k und p sind Faktoren; sie werden zu Divisoren, nicht zu Subtrahenden."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Formeln umstellen",
+  "status": "review"
+ }
+]

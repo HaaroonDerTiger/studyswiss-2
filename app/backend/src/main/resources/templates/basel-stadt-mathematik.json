@@ -1,0 +1,6124 @@
+[
+ {
+  "templateId": "bs-brueche-addieren",
+  "lernzielId": "MBS.1.01",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "1.01",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   },
+   {
+    "name": "zaehler",
+    "typ": "formel",
+    "ausdruck": "p*b+q*a"
+   },
+   {
+    "name": "nenner",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "((p*b+q*a)%(a*b))!=0",
+   "a*b<=63",
+   "p/a!=q/b",
+   "summe<2",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1"
+  ],
+  "stamm": "Berechne und kürze so weit wie möglich.\n\n{p:hoch}⁄{a:tief}  +  {q:hoch}⁄{b:tief}",
+  "loesung": "p/a+q/b",
+  "gegenprobe": "(p*b+q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "zaehler_und_nenner_addiert",
+    "ausdruck": "(p+q)/(a+b)",
+    "feedback": "Du hast Zähler zu Zähler und Nenner zu Nenner gerechnet. So funktioniert das Addieren von Brüchen nicht. Sonst wäre ein Halbes plus ein Halbes zwei Viertel, also weniger als vorher."
+   },
+   {
+    "diagnoseId": "nenner_behalten",
+    "ausdruck": "(p+q)/a",
+    "feedback": "Die beiden Nenner sind verschieden. Bevor du die Zähler zusammenzählst, musst du beide Brüche auf denselben Nenner bringen."
+   },
+   {
+    "diagnoseId": "nur_ersten_erweitert",
+    "ausdruck": "(p*b+q)/(a*b)",
+    "feedback": "Du hast nur den ersten Bruch erweitert. Beim Gleichnamigmachen wird jeder Bruch erweitert: der erste mit {b}, der zweite mit {a}."
+   },
+   {
+    "diagnoseId": "subtrahiert",
+    "ausdruck": "p/a-q/b",
+    "feedback": "Zwischen den Brüchen steht ein Plus. Du hast den zweiten Bruch abgezogen statt dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl ist der kleinste gemeinsame Nenner von {a} und {b}?",
+   "Erweitere beide Brüche auf den Nenner {nenner}. Dann darfst du die Zähler zusammenzählen.",
+   "Zähle die Zähler zusammen, den Nenner lässt du stehen. Prüfe am Schluss, ob sich der Bruch noch kürzen lässt."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b} = {nenner}.",
+   "Erster Bruch erweitert: {p} · {b} = ergibt den einen Zähler.",
+   "Zweiter Bruch erweitert: {q} · {a} = ergibt den anderen.",
+   "Zähler zusammenzählen: {zaehler}, Nenner bleibt {nenner}.",
+   "Gekürzt ergibt das {summe:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-brueche-mal-geteilt",
+  "lernzielId": "MBS.1.02",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "1.02",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "prod",
+    "typ": "formel",
+    "ausdruck": "p*q/(a*b)"
+   },
+   {
+    "name": "quot",
+    "typ": "formel",
+    "ausdruck": "p*b/(a*q)"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "p!=q",
+   "a*b<=63",
+   "((p*q)%(a*b))!=0",
+   "((p*b)%(a*q))!=0",
+   "prod!=quot",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1"
+  ],
+  "stamm": "Gegeben sind die Brüche {p:hoch}⁄{a:tief} und {q:hoch}⁄{b:tief}. Berechne beides und kürze so weit wie möglich.",
+  "felder": [
+   {
+    "name": "prod",
+    "label": "{p:hoch}⁄{a:tief} · {q:hoch}⁄{b:tief}",
+    "ausdruck": "p*q/(a*b)",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "kreuzweise",
+      "ausdruck": "p*b/(a*q)",
+      "feedback": "Das ist die Division. Beim Multiplizieren wird Zähler mal Zähler und Nenner mal Nenner gerechnet. Nichts wird gestürzt."
+     },
+     {
+      "diagnoseId": "nur_zaehler",
+      "ausdruck": "p*q/a",
+      "feedback": "Der Nenner wird ebenfalls multipliziert. Du hast {a} stehen lassen, statt {a} · {b} zu rechnen."
+     },
+     {
+      "diagnoseId": "gleichnamig_gemacht",
+      "ausdruck": "(p*b+q*a)/(a*b)",
+      "feedback": "Gleichnamig machen brauchst du nur beim Addieren. Beim Multiplizieren rechnest du direkt Zähler mal Zähler und Nenner mal Nenner."
+     }
+    ]
+   },
+   {
+    "name": "quot",
+    "label": "{p:hoch}⁄{a:tief} : {q:hoch}⁄{b:tief}",
+    "ausdruck": "p*b/(a*q)",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gestuerzt",
+      "ausdruck": "p*q/(a*b)",
+      "feedback": "Beim Dividieren wird der zweite Bruch gestürzt: Aus {q:hoch}⁄{b:tief} wird {b:hoch}⁄{q:tief}, dann wird multipliziert."
+     },
+     {
+      "diagnoseId": "ersten_gestuerzt",
+      "ausdruck": "a*q/(p*b)",
+      "feedback": "Gestürzt wird der Bruch, durch den geteilt wird, also der zweite. Der erste bleibt, wie er ist."
+     },
+     {
+      "diagnoseId": "nur_durch_zaehler",
+      "ausdruck": "p/(a*q)",
+      "feedback": "Geteilt wird durch den ganzen Bruch, nicht nur durch seinen Zähler. Der Nenner {b} rutscht beim Stürzen nach oben und muss mit dem Zähler {p} multipliziert werden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zähler mal Zähler, Nenner mal Nenner, und beim Teilen?",
+   "Geteilt durch einen Bruch heisst: mal seinem Kehrwert. Der Kehrwert von {q:hoch}⁄{b:tief} ist {b:hoch}⁄{q:tief}.",
+   "Kürze am besten schon vor dem Ausrechnen. Dann bleiben die Zahlen klein."
+  ],
+  "loesungsweg": [
+   "Produkt: {p} · {q} über {a} · {b}.",
+   "Quotient: den zweiten Bruch stürzen, dann {p} · {b} über {a} · {q}.",
+   "Beide Ergebnisse so weit kürzen, wie es geht: {prod:bruch} und {quot:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-bruchterm-klammern",
+  "lernzielId": "MBS.1.03",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "1.03",
+   "1.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "(p/a+q/b)*(r/c)"
+   },
+   {
+    "name": "klammer",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "r<c",
+   "a!=b",
+   "a*b*c<=180",
+   "klammer<=2",
+   "wert>0",
+   "((p*b+q*a)*r%(a*b*c))!=0",
+   "wert!=klammer",
+   "p/a!=q/b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "ggt(r,c)==1"
+  ],
+  "stamm": "Berechne und gib das Ergebnis als gekürzten Bruch an.\n\n( {p:hoch}⁄{a:tief}  +  {q:hoch}⁄{b:tief} )  ·  {r:hoch}⁄{c:tief}",
+  "loesung": "(p/a+q/b)*(r/c)",
+  "gegenprobe": "(p*b+q*a)*r/(a*b*c)",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_ignoriert",
+    "ausdruck": "p/a+q/b*(r/c)",
+    "feedback": "Die Klammer kommt zuerst. Du hast nur den zweiten Bruch mit {r:hoch}⁄{c:tief} multipliziert. Das Mal gilt aber für die ganze Summe."
+   },
+   {
+    "diagnoseId": "klammer_falsch_addiert",
+    "ausdruck": "(p+q)/(a+b)*(r/c)",
+    "feedback": "In der Klammer wurden Zähler und Nenner einzeln addiert. Die beiden Brüche müssen zuerst gleichnamig gemacht werden."
+   },
+   {
+    "diagnoseId": "statt_mal_geteilt",
+    "ausdruck": "(p/a+q/b)/(r/c)",
+    "feedback": "Nach der Klammer steht ein Malpunkt, kein Doppelpunkt. Du hast den zweiten Bruch gestürzt, obwohl multipliziert wird."
+   },
+   {
+    "diagnoseId": "nur_zaehler_mal",
+    "ausdruck": "(p/a+q/b)*r",
+    "feedback": "Der Nenner {c} ist verloren gegangen. Multipliziert wird mit dem ganzen Bruch {r:hoch}⁄{c:tief}, nicht nur mit seinem Zähler."
+   }
+  ],
+  "hinweise": [
+   "Was rechnest du zuerst. Die Klammer oder das Mal?",
+   "Bring in der Klammer beide Brüche auf den Nenner {a} · {b}.",
+   "Erst dann multiplizierst du das Ergebnis mit {r:hoch}⁄{c:tief}: Zähler mal Zähler, Nenner mal Nenner."
+  ],
+  "loesungsweg": [
+   "Klammer zuerst: {p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} = {klammer:bruch}.",
+   "Dann mit {r:hoch}⁄{c:tief} multiplizieren: Zähler mal Zähler, Nenner mal Nenner.",
+   "Gekürzt ergibt das {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-bruch-kuerzen",
+  "lernzielId": "MBS.1.04",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "z",
+    "typ": "formel",
+    "ausdruck": "p*f"
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "q*f"
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "p*q/ggt(p,q)*ggt(p,q)"
+   }
+  ],
+  "bedingungen": [
+   "ggt(p,q)==1",
+   "p<q",
+   "z<=99",
+   "n<=99",
+   "f>=2",
+   "p!=f",
+   "q!=f"
+  ],
+  "stamm": "Kürze den Bruch {z:hoch}⁄{n:tief} so weit wie möglich und trage Zähler und Nenner einzeln ein.",
+  "felder": [
+   {
+    "name": "zaehler",
+    "label": "Zähler des gekürzten Bruchs",
+    "ausdruck": "p",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nur_halbiert",
+      "ausdruck": "z/2",
+      "feedback": "Durch 2 lässt sich hier nicht bis zum Schluss kürzen. Suche die grösste Zahl, durch die {z} und {n} beide teilbar sind."
+     },
+     {
+      "diagnoseId": "nicht_gekuerzt",
+      "ausdruck": "z",
+      "feedback": "Das ist der Zähler vor dem Kürzen. {z} und {n} haben einen gemeinsamen Teiler. Teile beide durch ihn."
+     },
+     {
+      "diagnoseId": "nenner_eingetragen",
+      "ausdruck": "q",
+      "feedback": "Du hast den Nenner in das Zähler-Feld geschrieben. Der Zähler steht oben, über dem Bruchstrich."
+     }
+    ]
+   },
+   {
+    "name": "nenner",
+    "label": "Nenner des gekürzten Bruchs",
+    "ausdruck": "q",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nur_halbiert",
+      "ausdruck": "n/2",
+      "feedback": "Durch 2 allein bist du noch nicht am Ende. Es gibt einen grösseren gemeinsamen Teiler von {z} und {n}."
+     },
+     {
+      "diagnoseId": "nicht_gekuerzt",
+      "ausdruck": "n",
+      "feedback": "Das ist der Nenner vor dem Kürzen. Teile ihn durch denselben Teiler wie den Zähler."
+     },
+     {
+      "diagnoseId": "zaehler_eingetragen",
+      "ausdruck": "p",
+      "feedback": "Du hast den Zähler in das Nenner-Feld geschrieben. Der Nenner steht unten, unter dem Bruchstrich."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Durch welche Zahl sind {z} und {n} beide teilbar?",
+   "Suche nicht irgendeinen gemeinsamen Teiler, sondern den grössten. Sonst musst du zweimal kürzen.",
+   "Zerlege beide Zahlen in Primfaktoren, dann siehst du sofort, was sich wegkürzt."
+  ],
+  "loesungsweg": [
+   "{z} und {n} haben den grössten gemeinsamen Teiler {f}.",
+   "Zähler: {z} : {f} = {p}.",
+   "Nenner: {n} : {f} = {q}.",
+   "Der gekürzte Bruch ist {p:hoch}⁄{q:tief}. Weiter geht es nicht."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-bruch-dezimal-prozent",
+  "lernzielId": "MBS.1.06",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "1.06",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "in der Klasse 3a"
+     ],
+     [
+      "im Turnverein"
+     ],
+     [
+      "in der Nachbarschaft"
+     ],
+     [
+      "im Quartier"
+     ],
+     [
+      "auf dem Pausenplatz"
+     ],
+     [
+      "im Jugendtreff"
+     ],
+     [
+      "in der Bibliothek"
+     ],
+     [
+      "im Schwimmbad"
+     ],
+     [
+      "an der Bushaltestelle"
+     ],
+     [
+      "im Schulchor"
+     ]
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "dez",
+    "typ": "formel",
+    "ausdruck": "p/q"
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "p*100/q"
+   }
+  ],
+  "bedingungen": [
+   "p<q",
+   "ggt(p,q)==1",
+   "dez<1",
+   "(proz*10%10)==0 || (proz*100%100)==0"
+  ],
+  "stamm": "Bei einer Umfrage {sache} antwortete der Anteil {p:hoch}⁄{q:tief} mit Ja. Schreibe diesen Anteil als Dezimalbruch und als Prozentsatz.",
+  "felder": [
+   {
+    "name": "dez",
+    "label": "als Dezimalbruch",
+    "ausdruck": "p/q",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "q/p",
+      "feedback": "Du hast Nenner durch Zähler gerechnet. Der Bruchstrich heisst «geteilt durch»: {p} : {q}, also Zähler durch Nenner."
+     },
+     {
+      "diagnoseId": "prozent_eingetragen",
+      "ausdruck": "p*100/q",
+      "feedback": "Das ist der Prozentsatz. Der Dezimalbruch ist hundertmal kleiner. {proz} % sind {dez}."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "(q-p)/q",
+      "feedback": "Du hast den Rest zum Ganzen ausgerechnet. Gefragt ist der Bruch selbst, nicht der Teil, der zu 1 fehlt."
+     }
+    ]
+   },
+   {
+    "name": "proz",
+    "label": "als Prozentsatz (nur die Zahl)",
+    "ausdruck": "p*100/q",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "dezimal_eingetragen",
+      "ausdruck": "p/q",
+      "feedback": "Das ist der Dezimalbruch. Für den Prozentsatz nimmst du ihn mal 100. «Prozent» heisst «von hundert»."
+     },
+     {
+      "diagnoseId": "zaehler_als_prozent",
+      "ausdruck": "p",
+      "feedback": "Der Zähler allein ist noch kein Prozentsatz. {p} von {q} sind erst dann Prozente, wenn der Nenner 100 wäre."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "q*100/p",
+      "feedback": "Zähler und Nenner sind vertauscht. Gerechnet wird {p} : {q} · 100."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Der Bruchstrich ist ein Divisionszeichen: {p} geteilt durch {q}.",
+   "Erweitere den Bruch im Kopf auf den Nenner 100. Dann steht der Prozentsatz oben.",
+   "Vom Dezimalbruch zum Prozentsatz: Komma um zwei Stellen nach rechts."
+  ],
+  "loesungsweg": [
+   "{p} : {q} = {dez}.",
+   "Mal 100 ergibt den Prozentsatz: {proz} %.",
+   "Probe: {proz} % von 1 ist {dez}. Dieselbe Zahl."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-prozent-sache",
+  "lernzielId": "MBS.6.01",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Velohelm",
+      "Der Velohelm"
+     ],
+     [
+      "eine Regenjacke",
+      "Die Regenjacke"
+     ],
+     [
+      "ein Rucksack",
+      "Der Rucksack"
+     ],
+     [
+      "ein Paar Turnschuhe",
+      "Das Paar Turnschuhe"
+     ],
+     [
+      "eine Kopfhörergarnitur",
+      "Die Kopfhörergarnitur"
+     ],
+     [
+      "ein Sportball",
+      "Der Sportball"
+     ],
+     [
+      "eine Tischlampe",
+      "Die Tischlampe"
+     ],
+     [
+      "ein Kochtopf",
+      "Der Kochtopf"
+     ]
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 240,
+    "schritt": 5
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "rabatt",
+    "typ": "formel",
+    "ausdruck": "preis*satz/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "preis-preis*satz/100"
+   }
+  ],
+  "bedingungen": [
+   "(preis*satz%100)==0",
+   "rabatt>=5",
+   "neu!=preis",
+   "neu!=rabatt",
+   "neu!=satz",
+   "preis!=satz"
+  ],
+  "stamm": "Im Laden kostet {ware} Fr. {preis}.–. An der Aktion wird der Preis um {satz} % gesenkt. Wie viel bezahlt {name} jetzt?",
+  "loesung": "preis-preis*satz/100",
+  "gegenprobe": "preis*(100-satz)/100",
+  "fehler": [
+   {
+    "diagnoseId": "rabatt_statt_preis",
+    "ausdruck": "preis*satz/100",
+    "feedback": "Du hast den Rabatt ausgerechnet, nicht den neuen Preis. Der Rabatt von Fr. {rabatt}.– muss noch vom alten Preis abgezogen werden."
+   },
+   {
+    "diagnoseId": "satz_abgezogen",
+    "ausdruck": "preis-satz",
+    "feedback": "Die {satz} sind Prozente, keine Franken. Rechne zuerst aus, wie viel {satz} % von Fr. {preis}.– sind."
+   },
+   {
+    "diagnoseId": "dazugezaehlt",
+    "ausdruck": "preis+preis*satz/100",
+    "feedback": "Der Preis wird gesenkt, nicht erhöht. Der neue Preis muss kleiner sein als Fr. {preis}.–."
+   },
+   {
+    "diagnoseId": "prozent_vom_neuen",
+    "ausdruck": "preis-preis*satz/(100+satz)",
+    "feedback": "Der Rabatt bezieht sich auf den alten Preis. Das ist der Grundwert, also 100 %. Rechne {satz} % von Fr. {preis}.–."
+   }
+  ],
+  "hinweise": [
+   "Auf welchen der beiden Preise bezieht sich der Rabatt?",
+   "Rechne zuerst {satz} % von Fr. {preis}.– aus. Das ist der Rabatt.",
+   "Ziehe den Rabatt vom alten Preis ab, oder rechne gleich {satz} % weniger, also (100 − {satz}) % von Fr. {preis}.–."
+  ],
+  "loesungsweg": [
+   "Fr. {preis}.– sind 100 %.",
+   "{satz} % davon: {preis} · {satz} : 100 = Fr. {rabatt}.–.",
+   "Neuer Preis: {preis} − {rabatt} = Fr. {neu}.–.",
+   "Kürzer geht es so: (100 − {satz}) % von {preis} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-grundwert-bs",
+  "lernzielId": "MBS.6.02",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "6.02",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein gebrauchtes Trottinett"
+     ],
+     [
+      "eine Konzertkarte"
+     ],
+     [
+      "ein Occasionsvelo"
+     ],
+     [
+      "eine Jahreskarte fürs Hallenbad"
+     ],
+     [
+      "ein Zeichentablett"
+     ],
+     [
+      "ein Paar Wanderschuhe"
+     ],
+     [
+      "einen Gitarrenverstärker"
+     ],
+     [
+      "ein Zelt"
+     ]
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "ganzzahl",
+    "von": 60,
+    "bis": 400,
+    "schritt": 10
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     20,
+     25,
+     40,
+     50,
+     60,
+     75
+    ]
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "grund*(100+satz)/100"
+   },
+   {
+    "name": "aufschlag",
+    "typ": "formel",
+    "ausdruck": "grund*satz/100"
+   }
+  ],
+  "bedingungen": [
+   "(grund*satz%100)==0",
+   "aufschlag>=10",
+   "neu<=700",
+   "grund!=satz",
+   "neu!=grund",
+   "aufschlag!=grund"
+  ],
+  "stamm": "{name} verkauft {sache} weiter. Der Verkaufspreis liegt {satz} % über dem Einkaufspreis und beträgt Fr. {neu}.–. Wie viel hat {name} beim Einkauf bezahlt?",
+  "loesung": "grund",
+  "gegenprobe": "neu*100/(100+satz)",
+  "fehler": [
+   {
+    "diagnoseId": "prozent_vom_verkaufspreis",
+    "ausdruck": "neu-neu*satz/100",
+    "feedback": "Du hast {satz} % vom Verkaufspreis abgezogen. Der Aufschlag bezieht sich aber auf den Einkaufspreis. Der ist der Grundwert, also 100 %, und der Verkaufspreis sind {satz} % mehr."
+   },
+   {
+    "diagnoseId": "satz_abgezogen",
+    "ausdruck": "neu-satz",
+    "feedback": "Die {satz} sind Prozente, keine Franken. Sie müssen zuerst in einen Betrag umgerechnet werden."
+   },
+   {
+    "diagnoseId": "aufschlag_statt_grundwert",
+    "ausdruck": "neu-grund",
+    "feedback": "Das ist der Aufschlag, nicht der Einkaufspreis. Gefragt ist, was {name} vorher bezahlt hat."
+   },
+   {
+    "diagnoseId": "dazugezaehlt",
+    "ausdruck": "neu*(100+satz)/100",
+    "feedback": "Du hast noch einmal aufgeschlagen. Der Verkaufspreis ist schon der grössere Betrag. Gesucht ist der kleinere davor."
+   }
+  ],
+  "hinweise": [
+   "Welcher der beiden Preise ist der Grundwert?",
+   "Der Verkaufspreis entspricht (100 + {satz}) % des Einkaufspreises.",
+   "Teile Fr. {neu}.– durch {satz} plus 100 Hundertstel, oder rechne über 1 %."
+  ],
+  "loesungsweg": [
+   "Der Einkaufspreis ist der Grundwert: 100 %.",
+   "Fr. {neu}.– entsprechen (100 + {satz}) % = {satz} % mehr.",
+   "1 % sind {neu} : (100 + {satz}).",
+   "100 % sind Fr. {grund}.–. Das ist der Einkaufspreis."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-verbrauch-ersparnis",
+  "lernzielId": "MBS.6.03",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "6.03",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "anlage",
+    "typ": "text",
+    "texte": [
+     [
+      "die alte Ölheizung",
+      "Die alte Ölheizung"
+     ],
+     [
+      "der alte Holzofen",
+      "Der alte Holzofen"
+     ],
+     [
+      "die alte Gastherme",
+      "Die alte Gastherme"
+     ],
+     [
+      "der alte Heizkessel",
+      "Der alte Heizkessel"
+     ]
+    ]
+   },
+   {
+    "name": "stoff",
+    "typ": "text",
+    "texte": [
+     [
+      "Liter Heizöl",
+      "Liter",
+      "Ein Liter"
+     ],
+     [
+      "Kilogramm Pellets",
+      "Kilogramm",
+      "Ein Kilogramm"
+     ],
+     [
+      "Kubikmeter Gas",
+      "Kubikmeter",
+      "Ein Kubikmeter"
+     ],
+     [
+      "Liter Diesel",
+      "Liter",
+      "Ein Liter"
+     ]
+    ]
+   },
+   {
+    "name": "menge",
+    "typ": "ganzzahl",
+    "von": 200,
+    "bis": 900,
+    "schritt": 50
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "rappen",
+    "typ": "auswahl",
+    "werte": [
+     40,
+     50,
+     60,
+     80,
+     120,
+     150
+    ]
+   },
+   {
+    "name": "gespart",
+    "typ": "formel",
+    "ausdruck": "menge*satz/100"
+   },
+   {
+    "name": "franken",
+    "typ": "formel",
+    "ausdruck": "menge*satz/100*rappen/100"
+   }
+  ],
+  "bedingungen": [
+   "(menge*satz%100)==0",
+   "gespart>=40",
+   "franken>=25",
+   "franken<=600",
+   "(menge*satz*rappen%10000)==0",
+   "franken!=gespart",
+   "franken!=menge",
+   "franken!=satz",
+   "franken!=rappen",
+   "gespart!=satz",
+   "gespart!=rappen"
+  ],
+  "stamm": "{anlage.1} bei {name} zu Hause brauchte im Jahr {menge} {stoff}. Das neue Gerät kommt mit {satz} % weniger aus. {stoff.2} kostet {rappen} Rappen. Wie viel Franken spart die Familie in einem Jahr?",
+  "loesung": "menge*satz/100*rappen/100",
+  "gegenprobe": "menge*rappen/100-menge*(100-satz)/100*rappen/100",
+  "fehler": [
+   {
+    "diagnoseId": "menge_statt_franken",
+    "ausdruck": "menge*satz/100",
+    "feedback": "Das ist die gesparte Menge, nicht das gesparte Geld. Die {gespart} {stoff.1} müssen noch mit dem Preis multipliziert werden."
+   },
+   {
+    "diagnoseId": "ganze_menge_bezahlt",
+    "ausdruck": "menge*rappen/100",
+    "feedback": "Du hast die Kosten für den ganzen Jahresverbrauch gerechnet. Gespart wird nur der Anteil von {satz} %."
+   },
+   {
+    "diagnoseId": "neuer_verbrauch",
+    "ausdruck": "menge*(100-satz)/100*rappen/100",
+    "feedback": "Das sind die Kosten nach dem Wechsel. Die Ersparnis ist die Differenz zu vorher, nicht der neue Betrag selbst."
+   },
+   {
+    "diagnoseId": "satz_als_menge",
+    "ausdruck": "satz*rappen/100",
+    "feedback": "Die {satz} sind Prozente, keine {stoff.1}. Rechne zuerst aus, wie viel {satz} % von {menge} sind."
+   }
+  ],
+  "hinweise": [
+   "Wie viele {stoff.1} werden überhaupt gespart?",
+   "{satz} % von {menge} ergeben die gesparte Menge.",
+   "Erst danach kommt der Preis ins Spiel: gesparte Menge mal Preis je Einheit."
+  ],
+  "loesungsweg": [
+   "Gesparte Menge: {satz} % von {menge} = {gespart} {stoff.1}.",
+   "{stoff.2} kostet {rappen} Rappen, also {rappen} : 100 Franken.",
+   "Ersparnis: {gespart} mal diesen Preis = Fr. {franken}.–.",
+   "Gegenprobe: alte Kosten minus neue Kosten ergeben denselben Betrag."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-mehrschritt-sache",
+  "lernzielId": "MBS.6.04",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "6.04",
+   "6.01",
+   "6.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "fahrt",
+    "typ": "text",
+    "texte": [
+     [
+      "nach Delémont"
+     ],
+     [
+      "nach Olten"
+     ],
+     [
+      "nach Liestal und zurück"
+     ],
+     [
+      "zur Grossmutter ins Baselbiet"
+     ],
+     [
+      "ins Trainingslager"
+     ]
+    ]
+   },
+   {
+    "name": "km",
+    "typ": "ganzzahl",
+    "von": 240,
+    "bis": 900,
+    "schritt": 20
+   },
+   {
+    "name": "liter100",
+    "typ": "auswahl",
+    "werte": [
+     45,
+     50,
+     60,
+     70,
+     75,
+     80
+    ]
+   },
+   {
+    "name": "rappen",
+    "typ": "auswahl",
+    "werte": [
+     150,
+     160,
+     170,
+     180,
+     190
+    ]
+   },
+   {
+    "name": "verbrauch100",
+    "typ": "formel",
+    "ausdruck": "liter100/10"
+   },
+   {
+    "name": "literpreis",
+    "typ": "formel",
+    "ausdruck": "rappen/100"
+   },
+   {
+    "name": "liter",
+    "typ": "formel",
+    "ausdruck": "km*liter100/1000"
+   },
+   {
+    "name": "kosten",
+    "typ": "formel",
+    "ausdruck": "km*liter100/1000*rappen/100"
+   }
+  ],
+  "bedingungen": [
+   "(km*liter100%1000)==0",
+   "(km*liter100*rappen%100000)==0",
+   "liter>=12",
+   "kosten>=25",
+   "kosten<=190",
+   "liter!=kosten",
+   "km!=liter"
+  ],
+  "stamm": "{name} fährt im Jahr {km} km {fahrt}. Das Auto braucht {verbrauch100:dezimal1} Liter Benzin auf 100 km, ein Liter kostet {literpreis:franken}.",
+  "felder": [
+   {
+    "name": "liter",
+    "label": "Verbrauch in Litern",
+    "ausdruck": "km*liter100/1000",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_durch_hundert",
+      "ausdruck": "km*liter100/10",
+      "feedback": "Der Verbrauch gilt pro 100 km, nicht pro Kilometer. Teile die Strecke zuerst durch 100. {km} km sind {km} : 100 Hundertkilometer."
+     },
+     {
+      "diagnoseId": "geteilt_statt_mal",
+      "ausdruck": "verbrauch100/(km/100)",
+      "feedback": "Die beiden Zahlen werden multipliziert: so viele Hundertkilometer mal so viele Liter je hundert Kilometer. Geteilt käme viel zu wenig heraus."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "km/100+verbrauch100",
+      "feedback": "Die beiden Zahlen werden multipliziert, nicht addiert: so viele Hundertkilometer mal so viele Liter je hundert Kilometer."
+     }
+    ]
+   },
+   {
+    "name": "kosten",
+    "label": "Benzinkosten in Franken",
+    "ausdruck": "km*liter100/1000*rappen/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "rappen_als_franken",
+      "ausdruck": "km*liter100/1000*rappen",
+      "feedback": "{rappen} sind Rappen, nicht Franken. Hundert Rappen sind ein Franken. Teile durch 100."
+     },
+     {
+      "diagnoseId": "km_mal_preis",
+      "ausdruck": "km*rappen/100",
+      "feedback": "Bezahlt wird pro Liter, nicht pro Kilometer. Nimm den Verbrauch von {liter:dezimal2} Litern mal den Literpreis."
+     },
+     {
+      "diagnoseId": "preis_pro_hundert",
+      "ausdruck": "verbrauch100*literpreis",
+      "feedback": "Das sind die Kosten für nur 100 km. Gefragt ist die ganze Jahresstrecke von {km} km."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Hundertkilometer sind {km} km?",
+   "Verbrauch: Hundertkilometer mal {verbrauch100:dezimal1} Liter.",
+   "Kosten: Liter mal Literpreis, und Rappen am Schluss in Franken umrechnen."
+  ],
+  "loesungsweg": [
+   "{km} km sind {km} : 100 Hundertkilometer.",
+   "Verbrauch: das mal {verbrauch100:dezimal1} Liter = {liter:dezimal2} Liter.",
+   "Ein Liter kostet {literpreis:franken}.",
+   "Kosten: {liter:dezimal2} mal diesen Preis = Fr. {kosten:dezimal2}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-winkel-dreieck",
+  "lernzielId": "MBS.3.01",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 25,
+    "bis": 75,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 30,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "alpha+beta"
+   },
+   {
+    "name": "neben",
+    "typ": "formel",
+    "ausdruck": "180-alpha"
+   }
+  ],
+  "bedingungen": [
+   "gamma>=25",
+   "gamma<=110",
+   "alpha!=beta",
+   "beta!=gamma",
+   "alpha!=gamma",
+   "aussen!=gamma",
+   "neben!=aussen",
+   "neben!=gamma"
+  ],
+  "stamm": "Im Dreieck ABC sind zwei Winkel bekannt: α = {alpha}° und β = {beta}°. Die Seite AB wird über B hinaus verlängert.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "Winkel γ",
+    "ausdruck": "180-alpha-beta",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "summe_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck ist 180°, nicht 360°. Die 360° gelten für das Viereck oder für eine volle Drehung."
+     },
+     {
+      "diagnoseId": "nur_einen_abgezogen",
+      "ausdruck": "180-alpha",
+      "feedback": "Beide bekannten Winkel müssen weg. Ziehe von 180° zuerst α und dann auch β ab."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "alpha-beta",
+      "feedback": "Die beiden gegebenen Winkel werden nicht voneinander abgezogen. Zusammen mit γ ergeben sie 180°."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel bei C",
+    "ausdruck": "alpha+beta",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "innenwinkel",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der Innenwinkel γ. Der Aussenwinkel ergänzt ihn zu 180°. Er ist so gross wie die beiden nicht anliegenden Innenwinkel zusammen."
+     },
+     {
+      "diagnoseId": "ergaenzung_zu_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Prüfe die Grössenordnung: Ein Aussenwinkel am Dreieck ist immer kleiner als 180°."
+     },
+     {
+      "diagnoseId": "nur_alpha",
+      "ausdruck": "alpha",
+      "feedback": "Ein einzelner Innenwinkel genügt nicht. Der Aussenwinkel bei C ist die Summe von α und β."
+     }
+    ]
+   },
+   {
+    "name": "neben",
+    "label": "Nebenwinkel von α",
+    "ausdruck": "180-alpha",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "scheitelwinkel",
+      "ausdruck": "alpha",
+      "feedback": "Das ist der Scheitelwinkel. Er ist gleich gross wie α. Der Nebenwinkel liegt daneben und ergänzt α zu 180°."
+     },
+     {
+      "diagnoseId": "zu_90",
+      "ausdruck": "90-alpha",
+      "feedback": "Zu 90° ergänzt der Komplementwinkel. Der Nebenwinkel ergänzt zu 180°, weil er auf derselben Geraden liegt."
+     },
+     {
+      "diagnoseId": "beide_abgezogen",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Für den Nebenwinkel zählt nur α. β liegt an einer anderen Ecke und spielt hier keine Rolle."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme in einem Dreieck?",
+   "γ findest du mit 180° − α − β.",
+   "Ein Nebenwinkel ergänzt zu 180°, ein Aussenwinkel ist so gross wie die beiden nicht anliegenden Innenwinkel zusammen."
+  ],
+  "loesungsweg": [
+   "Winkelsumme im Dreieck: α + β + γ = 180°.",
+   "γ = 180° − {alpha}° − {beta}° = {gamma}°.",
+   "Aussenwinkel bei C: {alpha}° + {beta}° = {aussen}°. Dasselbe wie 180° − γ.",
+   "Nebenwinkel von α: 180° − {alpha}° = {neben}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-thales-winkel",
+  "lernzielId": "MBS.3.02",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.02",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 68,
+    "schritt": 1
+   },
+   {
+    "name": "bau",
+    "typ": "text",
+    "texte": [
+     [
+      "einem Brückenbogen"
+     ],
+     [
+      "einem Zeltdach"
+     ],
+     [
+      "einem Rundfenster"
+     ],
+     [
+      "einer Tunneleinfahrt"
+     ],
+     [
+      "einem Torbogen"
+     ],
+     [
+      "einem Karussell"
+     ]
+    ]
+   },
+   {
+    "name": "beta",
+    "typ": "formel",
+    "ausdruck": "90-alpha"
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "180-2*alpha"
+   },
+   {
+    "name": "basis",
+    "typ": "formel",
+    "ausdruck": "alpha"
+   }
+  ],
+  "bedingungen": [
+   "alpha!=45",
+   "beta!=alpha",
+   "mittel>=25",
+   "mittel!=alpha",
+   "mittel!=beta"
+  ],
+  "stamm": "An {bau} ist AB der Durchmesser eines Halbkreises mit Mittelpunkt M. Der Punkt C liegt auf dem Halbkreis. Im Dreieck ABC ist der Winkel bei A gleich {alpha}°.",
+  "felder": [
+   {
+    "name": "gammaC",
+    "label": "Winkel bei C",
+    "ausdruck": "90",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "winkelsumme_gerechnet",
+      "ausdruck": "180-alpha",
+      "feedback": "Hier musst du nicht rechnen: Nach dem Satz des Thales ist der Winkel am Halbkreis über dem Durchmesser immer ein rechter."
+     },
+     {
+      "diagnoseId": "gleich_alpha",
+      "ausdruck": "alpha",
+      "feedback": "Der Winkel bei C hängt nicht von α ab. Liegt C auf dem Halbkreis über dem Durchmesser AB, ist er immer 90°."
+     },
+     {
+      "diagnoseId": "ergaenzung",
+      "ausdruck": "90-alpha",
+      "feedback": "Das ist der dritte Winkel des Dreiecks, bei B. Der Winkel bei C liegt auf dem Halbkreis und ist nach Thales rechtwinklig."
+     }
+    ]
+   },
+   {
+    "name": "beta",
+    "label": "Winkel bei B",
+    "ausdruck": "90-alpha",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "zu_180",
+      "ausdruck": "180-alpha",
+      "feedback": "Im Dreieck ABC ist ein Winkel schon mit 90° vergeben. Für die beiden übrigen bleiben zusammen nur 90°."
+     },
+     {
+      "diagnoseId": "gleich_alpha",
+      "ausdruck": "alpha",
+      "feedback": "Das Dreieck ist nicht gleichschenklig. Nur wenn α genau 45° wäre, wären die beiden Winkel gleich gross."
+     },
+     {
+      "diagnoseId": "doppelt",
+      "ausdruck": "2*alpha",
+      "feedback": "Prüfe mit der Winkelsumme nach: {alpha}° plus dein Ergebnis plus 90° müssen zusammen 180° geben."
+     }
+    ]
+   },
+   {
+    "name": "mittel",
+    "label": "Winkel AMC beim Mittelpunkt",
+    "ausdruck": "180-2*alpha",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "zentriwinkel_verdoppelt",
+      "ausdruck": "2*alpha",
+      "feedback": "Du hast den Winkel bei A verdoppelt. Das Dreieck AMC ist gleichschenklig. MA und MC sind beide Radien, also sind die beiden Basiswinkel gleich {alpha}° und der Winkel bei M ist der Rest."
+     },
+     {
+      "diagnoseId": "gleich_alpha",
+      "ausdruck": "alpha",
+      "feedback": "Bei M liegt der Winkel zwischen den beiden Radien, nicht der Basiswinkel. Die Basiswinkel bei A und C sind je {alpha}°."
+     },
+     {
+      "diagnoseId": "zu_90_ergaenzt",
+      "ausdruck": "90-alpha",
+      "feedback": "Im Dreieck AMC gilt die volle Winkelsumme von 180°, nicht 90°. Zwei Winkel sind je {alpha}° gross."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was sagt der Satz des Thales über einen Punkt auf dem Halbkreis?",
+   "Der Winkel bei C ist rechtwinklig, damit sind für A und B zusammen noch 90° übrig.",
+   "MA und MC sind beide Radien, das Dreieck AMC ist also gleichschenklig mit zwei Winkeln von je {alpha}°."
+  ],
+  "loesungsweg": [
+   "Satz des Thales: Der Winkel bei C beträgt 90°.",
+   "Winkelsumme: {alpha}° + 90° + Winkel bei B = 180°, also {beta}° bei B.",
+   "Im gleichschenkligen Dreieck AMC sind die Basiswinkel je {alpha}°.",
+   "Winkel AMC = 180° − 2 · {alpha}° = {mittel}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-flaeche-umfang",
+  "lernzielId": "MBS.3.03",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Gemüsebeet"
+     ],
+     [
+      "eine Terrasse"
+     ],
+     [
+      "einen Sandkasten"
+     ],
+     [
+      "einen Vorplatz"
+     ],
+     [
+      "ein Hühnergehege"
+     ],
+     [
+      "eine Werkbankfläche"
+     ],
+     [
+      "einen Balkonboden"
+     ]
+    ]
+   },
+   {
+    "name": "laenge",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "breite",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "gh",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "laenge*breite"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*(laenge+breite)"
+   },
+   {
+    "name": "dreieck",
+    "typ": "formel",
+    "ausdruck": "laenge*gh/2"
+   }
+  ],
+  "bedingungen": [
+   "laenge>breite",
+   "(laenge*gh%2)==0",
+   "flaeche<=300",
+   "umfang!=flaeche",
+   "dreieck!=flaeche",
+   "dreieck!=umfang",
+   "gh!=breite",
+   "dreieck>=12"
+  ],
+  "stamm": "{name} plant {ort}. Der rechteckige Teil ist {laenge} m lang und {breite} m breit. Daran schliesst ein dreieckiges Stück an: Es hat dieselbe Grundlinie von {laenge} m und ist {gh} m hoch.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche des Rechtecks in m²",
+    "ausdruck": "laenge*breite",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_gerechnet",
+      "ausdruck": "2*(laenge+breite)",
+      "feedback": "Das ist der Umfang, also die Länge rundherum. Für die Fläche werden Länge und Breite multipliziert."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "laenge*breite/2",
+      "feedback": "Halbiert wird nur beim Dreieck. Ein Rechteck ist Länge mal Breite, ohne Halbieren."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "laenge+breite",
+      "feedback": "Länge und Breite werden multipliziert, nicht addiert. Sonst käme bei jedem Rechteck eine viel zu kleine Fläche heraus."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang des Rechtecks in m",
+    "ausdruck": "2*(laenge+breite)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_einmal",
+      "ausdruck": "laenge+breite",
+      "feedback": "Ein Rechteck hat vier Seiten: zweimal die Länge und zweimal die Breite. Du hast jede nur einmal gezählt."
+     },
+     {
+      "diagnoseId": "flaeche_gerechnet",
+      "ausdruck": "laenge*breite",
+      "feedback": "Das ist die Fläche. Der Umfang ist die Strecke rundherum, also eine Summe von Längen."
+     },
+     {
+      "diagnoseId": "mal_vier",
+      "ausdruck": "4*laenge",
+      "feedback": "Mal vier gilt nur beim Quadrat. Hier sind Länge und Breite verschieden."
+     }
+    ]
+   },
+   {
+    "name": "dreieck",
+    "label": "Fläche des Dreiecks in m²",
+    "ausdruck": "laenge*gh/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "laenge*gh",
+      "feedback": "Beim Dreieck kommt die Hälfte: Grundlinie mal Höhe, geteilt durch 2. Ohne das Halbieren hättest du ein Rechteck ausgerechnet."
+     },
+     {
+      "diagnoseId": "breite_statt_hoehe",
+      "ausdruck": "laenge*breite/2",
+      "feedback": "Du hast mit der Breite des Rechtecks gerechnet. Das Dreieck hat eine eigene Höhe von {gh} m."
+     },
+     {
+      "diagnoseId": "umfang_gerechnet",
+      "ausdruck": "laenge+gh",
+      "feedback": "Grundlinie und Höhe werden multipliziert und dann halbiert, nicht addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Fläche und Umfang sind zwei verschiedene Dinge. Welches ist eine Länge, welches eine Fläche?",
+   "Rechteck: Länge mal Breite für die Fläche, zweimal Länge plus zweimal Breite für den Umfang.",
+   "Dreieck: Grundlinie mal Höhe, geteilt durch 2."
+  ],
+  "loesungsweg": [
+   "Rechteckfläche: {laenge} · {breite} = {flaeche} m².",
+   "Umfang: 2 · ({laenge} + {breite}) = {umfang} m.",
+   "Dreiecksfläche: {laenge} · {gh} : 2 = {dreieck} m².",
+   "Die Höhe des Dreiecks ist nicht die Breite des Rechtecks. Sie steht senkrecht auf der Grundlinie."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-trapez-drachen",
+  "lernzielId": "MBS.3.04",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.04",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 26,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "trapez",
+    "typ": "formel",
+    "ausdruck": "(a+c)*h/2"
+   },
+   {
+    "name": "drachen",
+    "typ": "formel",
+    "ausdruck": "e*f/2"
+   },
+   {
+    "name": "para",
+    "typ": "formel",
+    "ausdruck": "a*h"
+   }
+  ],
+  "bedingungen": [
+   "a>c",
+   "((a+c)*h%2)==0",
+   "(e*f%2)==0",
+   "trapez<=260",
+   "para<=300",
+   "trapez!=drachen",
+   "trapez!=para",
+   "drachen!=para",
+   "drachen>=20",
+   "e!=a",
+   "f!=h"
+  ],
+  "stamm": "Drei Figuren sollen berechnet werden.\nEin Trapez hat die parallelen Seiten a = {a} cm und c = {c} cm und die Höhe h = {h} cm.\nEin Drachenviereck hat die Diagonalen e = {e} cm und f = {f} cm.\nEin Parallelogramm hat die Grundseite a = {a} cm und die Höhe h = {h} cm.",
+  "felder": [
+   {
+    "name": "trapez",
+    "label": "Fläche des Trapezes in cm²",
+    "ausdruck": "(a+c)*h/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "(a+c)*h",
+      "feedback": "Die Summe der beiden parallelen Seiten wird halbiert. Sie ist ja doppelt gezählt. Die Formel lautet (a + c) · h : 2."
+     },
+     {
+      "diagnoseId": "nur_a",
+      "ausdruck": "a*h",
+      "feedback": "Das ist das Parallelogramm. Beim Trapez zählen beide parallelen Seiten, {a} cm und {c} cm."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "(a-c)*h/2",
+      "feedback": "Die beiden parallelen Seiten werden addiert, nicht subtrahiert. Sonst käme bei gleich langen Seiten null heraus."
+     }
+    ]
+   },
+   {
+    "name": "drachen",
+    "label": "Fläche des Drachens in cm²",
+    "ausdruck": "e*f/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "e*f",
+      "feedback": "Das Produkt der Diagonalen ergibt das umschriebene Rechteck. Der Drachen ist genau halb so gross."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "(e+f)/2",
+      "feedback": "Die Diagonalen werden multipliziert, nicht addiert. Der Mittelwert zweier Längen ist keine Fläche."
+     },
+     {
+      "diagnoseId": "seiten_verwechselt",
+      "ausdruck": "(e+f)*h/2",
+      "feedback": "Beim Drachen braucht es keine Höhe. Es zählen nur die beiden Diagonalen e und f."
+     }
+    ]
+   },
+   {
+    "name": "para",
+    "label": "Fläche des Parallelogramms in cm²",
+    "ausdruck": "a*h",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*h/2",
+      "feedback": "Halbiert wird beim Dreieck und beim Trapez. Ein Parallelogramm ist Grundseite mal Höhe. Es lässt sich zu einem Rechteck umlegen."
+     },
+     {
+      "diagnoseId": "mit_c",
+      "ausdruck": "c*h",
+      "feedback": "Die Grundseite des Parallelogramms ist {a} cm. Die Länge {c} cm gehört zum Trapez."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "2*(a+h)",
+      "feedback": "Grundseite und Höhe werden multipliziert. Was du gerechnet hast, wäre ein Umfang, und die Höhe ist ohnehin keine Seite."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Formel gehört zu welcher Figur?",
+   "Trapez: die beiden parallelen Seiten zusammenzählen, mal Höhe, durch 2.",
+   "Drachen: die beiden Diagonalen mal einander, durch 2. Parallelogramm: Grundseite mal Höhe, ohne Halbieren."
+  ],
+  "loesungsweg": [
+   "Trapez: ({a} + {c}) · {h} : 2 = {trapez} cm².",
+   "Drachen: {e} · {f} : 2 = {drachen} cm².",
+   "Parallelogramm: {a} · {h} = {para} cm².",
+   "Merke dir, wo halbiert wird: beim Trapez und beim Drachen ja, beim Parallelogramm nein."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-kreis-sektor-bs",
+  "lernzielId": "MBS.3.05",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.05",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "winkel",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     45,
+     60,
+     72,
+     90,
+     120,
+     135,
+     180,
+     240
+    ]
+   },
+   {
+    "name": "scheibe",
+    "typ": "text",
+    "texte": [
+     [
+      "Eine Tortenplatte"
+     ],
+     [
+      "Ein Verkehrsschild"
+     ],
+     [
+      "Eine Holzscheibe"
+     ],
+     [
+      "Ein Sonnensegel"
+     ],
+     [
+      "Eine Blechronde"
+     ],
+     [
+      "Ein Filzuntersetzer"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "sektor",
+    "typ": "formel",
+    "ausdruck": "r*r*winkel/360"
+   }
+  ],
+  "bedingungen": [
+   "flaeche!=umfang",
+   "sektor!=flaeche",
+   "sektor!=umfang",
+   "(r*r*winkel*100%360)==0",
+   "sektor>=2"
+  ],
+  "stamm": "{scheibe} ist kreisrund und hat den Radius r = {r} cm. Daraus wird ein Sektor mit dem Mittelpunktswinkel {winkel}° geschnitten. Gib alle Ergebnisse als Vielfaches von π an. Trage also nur die Zahl vor dem π ein.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche des ganzen Kreises, Vielfaches von π",
+    "ausdruck": "r*r",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "umfangsformel",
+      "ausdruck": "2*r",
+      "feedback": "Das ist der Umfang. Die Kreisfläche ist r · r · π, der Umfang 2 · r · π. Die Fläche wächst mit dem Quadrat des Radius."
+     },
+     {
+      "diagnoseId": "durchmesser_quadriert",
+      "ausdruck": "4*r*r",
+      "feedback": "Du hast mit dem Durchmesser gerechnet. In der Flächenformel steht der Radius {r} cm, nicht der Durchmesser."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*r*r",
+      "feedback": "Der Radius wird quadriert, nicht verdoppelt. r² heisst {r} · {r}."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang des ganzen Kreises, Vielfaches von π",
+    "ausdruck": "2*r",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "flaechenformel",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Fläche. Der Umfang ist 2 · r · π und wächst nur proportional zum Radius."
+     },
+     {
+      "diagnoseId": "nur_radius",
+      "ausdruck": "r",
+      "feedback": "Der halbe Umfang wäre r · π. Der ganze Umfang ist doppelt so lang: 2 · r · π."
+     },
+     {
+      "diagnoseId": "mal_vier",
+      "ausdruck": "4*r",
+      "feedback": "Mal vier gehört zum Quadrat, nicht zum Kreis. Der Kreisumfang ist 2 · r · π."
+     }
+    ]
+   },
+   {
+    "name": "sektor",
+    "label": "Fläche des Sektors, Vielfaches von π",
+    "ausdruck": "r*r*winkel/360",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_kreis",
+      "ausdruck": "r*r",
+      "feedback": "Das ist der ganze Kreis. Der Sektor ist nur der Anteil {winkel}° von 360° davon."
+     },
+     {
+      "diagnoseId": "bogenlaenge",
+      "ausdruck": "2*r*winkel/360",
+      "feedback": "Das ist die Länge des Bogens. Gefragt ist die Fläche des Sektors, also der Anteil der Kreisfläche."
+     },
+     {
+      "diagnoseId": "winkel_halbiert",
+      "ausdruck": "r*r*winkel/720",
+      "feedback": "Beim Sektor wird nichts halbiert. Der Anteil ist {winkel} von 360, also {winkel} : 360 der ganzen Kreisfläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher Anteil des ganzen Kreises sind {winkel}°?",
+   "Kreisfläche r · r · π, Kreisumfang 2 · r · π. Die eine wächst quadratisch, der andere nicht.",
+   "Der Sektor ist die Kreisfläche mal {winkel} : 360."
+  ],
+  "loesungsweg": [
+   "Kreisfläche: {r} · {r} = {flaeche}, also {flaeche}π cm².",
+   "Kreisumfang: 2 · {r} = {umfang}, also {umfang}π cm.",
+   "Anteil des Sektors: {winkel} von 360.",
+   "Sektorfläche: {flaeche} · {winkel} : 360 = {sektor}, also {sektor}π cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-pythagoras-bs",
+  "lernzielId": "MBS.3.06",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Leiter an der Hauswand",
+      "Die Leiter"
+     ],
+     [
+      "ein Kabel quer über den Platz",
+      "Das Kabel"
+     ],
+     [
+      "eine Stützstrebe am Gerüst",
+      "Die Strebe"
+     ],
+     [
+      "ein Seil vom Mast zum Boden",
+      "Das Seil"
+     ],
+     [
+      "ein Zeltmast mit Abspannung",
+      "Die Abspannung"
+     ],
+     [
+      "eine Rampe zum Kellereingang",
+      "Die Rampe"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "2*m*n*k"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   }
+  ],
+  "bedingungen": [
+   "m>n",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "a>0",
+   "c<=200",
+   "a!=b",
+   "b!=c",
+   "a>=6",
+   "b>=6"
+  ],
+  "stamm": "{ding.1} bildet mit dem Boden ein rechtwinkliges Dreieck. Die eine Kathete misst {a} cm, die andere {b} cm. Wie lang ist die Hypotenuse?",
+  "loesung": "(m*m+n*n)*k",
+  "gegenprobe": "sqrt(a*a+b*b)",
+  "fehler": [
+   {
+    "diagnoseId": "addiert_statt_quadriert",
+    "ausdruck": "a+b",
+    "feedback": "Die Seiten selbst werden nicht addiert. Erst werden beide Katheten quadriert, dann addiert, und erst am Schluss wird die Wurzel gezogen."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "sqrt(max(b*b-a*a,0))",
+    "feedback": "Subtrahiert wird nur, wenn die Hypotenuse schon bekannt ist und eine Kathete gesucht. Hier sind beide Katheten gegeben. Die Hypotenuse ist länger als jede von ihnen."
+   },
+   {
+    "diagnoseId": "keine_wurzel",
+    "ausdruck": "a*a+b*b",
+    "feedback": "Du hast bei a² + b² aufgehört. Das ist erst c², die Wurzel daraus fehlt noch."
+   },
+   {
+    "diagnoseId": "laengere_kathete",
+    "ausdruck": "b",
+    "feedback": "Die Hypotenuse ist die längste Seite im rechtwinkligen Dreieck. Sie muss länger sein als beide Katheten."
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber?",
+   "Der Satz des Pythagoras lautet a² + b² = c². Gesucht ist c.",
+   "Quadriere beide Katheten, zähle sie zusammen und ziehe die Wurzel."
+  ],
+  "loesungsweg": [
+   "{a}² = {a} · {a} und {b}² = {b} · {b}.",
+   "Beide zusammenzählen ergibt c².",
+   "Die Wurzel daraus ist die Hypotenuse: {c} cm.",
+   "Probe: Die Hypotenuse ist länger als {a} cm und länger als {b} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-hoehensatz",
+  "lernzielId": "MBS.3.07",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.07",
+   "3.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "pp",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "qq",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "pp+qq"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "sqrt(pp*qq)"
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "sqrt(qq*(pp+qq))"
+   }
+  ],
+  "bedingungen": [
+   "pp>qq",
+   "c<=64",
+   "h>=3",
+   "h!=pp",
+   "h!=qq",
+   "a!=c",
+   "a!=h",
+   "a!=pp",
+   "a!=qq"
+  ],
+  "stamm": "Im rechtwinkligen Dreieck ABC teilt die Höhe h die Hypotenuse in die beiden Abschnitte p = {pp} cm und q = {qq} cm.",
+  "felder": [
+   {
+    "name": "h",
+    "label": "Höhe h in cm, auf zwei Stellen gerundet",
+    "ausdruck": "sqrt(pp*qq)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "summe_halbiert",
+      "ausdruck": "(pp+qq)/2",
+      "feedback": "Der Höhensatz lautet h² = p · q, nicht h = (p + q) : 2. Die Höhe ist das geometrische Mittel der beiden Abschnitte, nicht das arithmetische."
+     },
+     {
+      "diagnoseId": "ohne_wurzel",
+      "ausdruck": "pp*qq",
+      "feedback": "Du hast bei p · q aufgehört. Das ist erst h², die Wurzel fehlt noch."
+     },
+     {
+      "diagnoseId": "mit_hypotenuse",
+      "ausdruck": "sqrt(qq*(pp+qq))",
+      "feedback": "Das ist die Kathete a. Für die Höhe werden die beiden Hypotenusenabschnitte multipliziert: h² = {pp} · {qq}."
+     }
+    ]
+   },
+   {
+    "name": "a",
+    "label": "Kathete a in cm, auf zwei Stellen gerundet",
+    "ausdruck": "sqrt(qq*(pp+qq))",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "mit_falschem_abschnitt",
+      "ausdruck": "sqrt(pp*(pp+qq))",
+      "feedback": "Der Kathetensatz nimmt den Abschnitt, der an dieser Kathete anliegt. Zu a gehört q = {qq} cm, nicht p."
+     },
+     {
+      "diagnoseId": "hoehensatz_verwendet",
+      "ausdruck": "sqrt(pp*qq)",
+      "feedback": "Das ist die Höhe. Der Kathetensatz lautet a² = q · c. Er nimmt die ganze Hypotenuse, nicht den anderen Abschnitt."
+     },
+     {
+      "diagnoseId": "ohne_wurzel",
+      "ausdruck": "qq*(pp+qq)",
+      "feedback": "Das ist a². Für die Länge der Kathete musst du noch die Wurzel ziehen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie lang ist die ganze Hypotenuse?",
+   "Höhensatz: h² = p · q. Kathetensatz: a² = q · c.",
+   "Die Hypotenuse ist {pp} + {qq} = {c} cm, damit rechnest du den Kathetensatz."
+  ],
+  "loesungsweg": [
+   "Hypotenuse: c = {pp} + {qq} = {c} cm.",
+   "Höhensatz: h² = {pp} · {qq}. Die Wurzel daraus ist {h:dezimal2} cm.",
+   "Kathetensatz: a² = {qq} · {c}. Die Wurzel daraus ist {a:dezimal2} cm.",
+   "Merke: Der Höhensatz nimmt die beiden Abschnitte, der Kathetensatz einen Abschnitt und die ganze Hypotenuse."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-quader-prisma",
+  "lernzielId": "MBS.3.08",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "kiste",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Werkzeugkiste"
+     ],
+     [
+      "ein Aquarium ohne Deckel"
+     ],
+     [
+      "einen Blumenkasten"
+     ],
+     [
+      "einen Versandkarton"
+     ],
+     [
+      "eine Transportbox"
+     ],
+     [
+      "einen Sandbehälter"
+     ]
+    ]
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "l*b*h"
+   },
+   {
+    "name": "ober",
+    "typ": "formel",
+    "ausdruck": "2*(l*b+l*h+b*h)"
+   },
+   {
+    "name": "wuerfelkante",
+    "typ": "formel",
+    "ausdruck": "l"
+   },
+   {
+    "name": "wuerfelvol",
+    "typ": "formel",
+    "ausdruck": "l*l*l"
+   }
+  ],
+  "bedingungen": [
+   "l>b",
+   "b>h",
+   "vol<=2600",
+   "ober!=vol",
+   "wuerfelvol!=vol",
+   "wuerfelvol<=8000",
+   "wuerfelvol!=ober"
+  ],
+  "stamm": "{name} baut {kiste} in Form eines Quaders: {l} cm lang, {b} cm breit und {h} cm hoch. Daneben steht ein Würfel mit der Kantenlänge {l} cm.",
+  "felder": [
+   {
+    "name": "vol",
+    "label": "Volumen des Quaders in cm³",
+    "ausdruck": "l*b*h",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(l*b+l*h+b*h)",
+      "feedback": "Das ist die Oberfläche. Das Volumen ist Länge mal Breite mal Höhe und wird in Kubikzentimetern gemessen."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "l*b",
+      "feedback": "Das ist erst die Grundfläche. Sie muss noch mit der Höhe von {h} cm multipliziert werden."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "l+b+h",
+      "feedback": "Die drei Kantenlängen werden multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "ober",
+    "label": "Oberfläche des Quaders in cm²",
+    "ausdruck": "2*(l*b+l*h+b*h)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_drei_flaechen",
+      "ausdruck": "l*b+l*h+b*h",
+      "feedback": "Ein Quader hat sechs Flächen, immer zwei gleiche. Du hast je eine von drei Paaren gezählt. Verdopple die Summe."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "l*b*h",
+      "feedback": "Das ist das Volumen. Die Oberfläche ist die Summe der sechs Seitenflächen und wird in Quadratzentimetern gemessen."
+     },
+     {
+      "diagnoseId": "mal_sechs",
+      "ausdruck": "6*l*b",
+      "feedback": "Mal sechs gilt nur beim Würfel, wo alle Flächen gleich sind. Hier gibt es drei verschiedene Flächenpaare."
+     }
+    ]
+   },
+   {
+    "name": "wuerfelvol",
+    "label": "Volumen des Würfels in cm³",
+    "ausdruck": "l*l*l",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "quadriert",
+      "ausdruck": "l*l",
+      "feedback": "Das ist eine Würfelfläche. Für das Volumen wird die Kante dreimal genommen: {l} · {l} · {l}."
+     },
+     {
+      "diagnoseId": "mal_drei",
+      "ausdruck": "3*l",
+      "feedback": "Die Kante wird nicht mal drei gerechnet, sondern dreimal mit sich selbst multipliziert."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "6*l*l",
+      "feedback": "Das ist die Oberfläche des Würfels. Sechs gleiche Quadrate. Gefragt ist das Volumen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Volumen oder Oberfläche. Was wird in cm³ gemessen, was in cm²?",
+   "Quader: Volumen ist l · b · h.",
+   "Oberfläche: Ein Quader hat drei Flächenpaare, also 2 · (l·b + l·h + b·h)."
+  ],
+  "loesungsweg": [
+   "Volumen des Quaders: {l} · {b} · {h} = {vol} cm³.",
+   "Oberfläche: 2 · ({l}·{b} + {l}·{h} + {b}·{h}) = {ober} cm².",
+   "Würfel mit Kante {l} cm: {l} · {l} · {l} = {wuerfelvol} cm³.",
+   "Achte auf die Einheit: cm³ beim Volumen, cm² bei der Oberfläche."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-zylinder-pyramide",
+  "lernzielId": "MBS.3.09",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.09",
+   "3.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "hz",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "gs",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "hp",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     6,
+     9,
+     12,
+     15,
+     18
+    ]
+   },
+   {
+    "name": "zylvol",
+    "typ": "formel",
+    "ausdruck": "r*r*hz"
+   },
+   {
+    "name": "mantel",
+    "typ": "formel",
+    "ausdruck": "2*r*hz"
+   },
+   {
+    "name": "pyrvol",
+    "typ": "formel",
+    "ausdruck": "gs*gs*hp/3"
+   }
+  ],
+  "bedingungen": [
+   "zylvol!=mantel",
+   "(gs*gs*hp%3)==0",
+   "pyrvol<=1600",
+   "zylvol<=1800",
+   "pyrvol!=zylvol",
+   "pyrvol!=mantel",
+   "r!=gs",
+   "hz!=hp"
+  ],
+  "stamm": "Ein Zylinder hat den Radius r = {r} cm und die Höhe h = {hz} cm. Daneben steht eine Pyramide mit quadratischer Grundfläche von {gs} cm Seitenlänge und der Höhe {hp} cm. Gib die Zylinderwerte als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "zylvol",
+    "label": "Volumen des Zylinders, Vielfaches von π",
+    "ausdruck": "r*r*hz",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gedrittelt",
+      "ausdruck": "r*r*hz/3",
+      "feedback": "Gedrittelt wird bei Kegel und Pyramide, nicht beim Zylinder. Der Zylinder ist Grundfläche mal Höhe, ganz ohne Bruch."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "r*hz",
+      "feedback": "In der Grundfläche steht r², also {r} · {r}. Du hast den Radius nur einmal genommen."
+     },
+     {
+      "diagnoseId": "mantel",
+      "ausdruck": "2*r*hz",
+      "feedback": "Das ist die Mantelfläche. Das Volumen ist die Grundfläche r² · π mal die Höhe."
+     }
+    ]
+   },
+   {
+    "name": "mantel",
+    "label": "Mantelfläche des Zylinders, Vielfaches von π",
+    "ausdruck": "2*r*hz",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "r*r*hz",
+      "feedback": "Das ist das Volumen. Der Mantel ist das aufgerollte Rechteck: Kreisumfang mal Höhe, also 2 · r · π · h."
+     },
+     {
+      "diagnoseId": "ohne_zwei",
+      "ausdruck": "r*hz",
+      "feedback": "Der Mantel ist so breit wie der Kreisumfang, und der ist 2 · r · π. Die 2 fehlt."
+     },
+     {
+      "diagnoseId": "mit_grundflaechen",
+      "ausdruck": "2*r*hz+2*r*r",
+      "feedback": "Das wäre die ganze Oberfläche mit Deckel und Boden. Gefragt ist nur der Mantel."
+     }
+    ]
+   },
+   {
+    "name": "pyrvol",
+    "label": "Volumen der Pyramide in cm³",
+    "ausdruck": "gs*gs*hp/3",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gedrittelt",
+      "ausdruck": "gs*gs*hp",
+      "feedback": "Die Pyramide füllt nur ein Drittel des Prismas mit gleicher Grundfläche und Höhe. Teile durch 3."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "gs*gs*hp/2",
+      "feedback": "Halbiert wird beim Dreieck. Bei Pyramide und Kegel wird gedrittelt."
+     },
+     {
+      "diagnoseId": "kante_nicht_quadriert",
+      "ausdruck": "gs*hp/3",
+      "feedback": "Die Grundfläche ist ein Quadrat: {gs} · {gs}. Du hast die Seitenlänge nur einmal genommen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wo wird gedrittelt und wo nicht?",
+   "Zylinder: Grundfläche r² · π mal Höhe, ohne Drittel.",
+   "Pyramide und Kegel: Grundfläche mal Höhe, geteilt durch 3."
+  ],
+  "loesungsweg": [
+   "Zylindervolumen: {r} · {r} · {hz} = {zylvol}, also {zylvol}π cm³.",
+   "Mantelfläche: 2 · {r} · {hz} = {mantel}, also {mantel}π cm².",
+   "Pyramidenvolumen: {gs} · {gs} · {hp} : 3 = {pyrvol} cm³.",
+   "Der Zylinder wird nicht gedrittelt, die Pyramide schon."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-kegel-zusammengesetzt",
+  "lernzielId": "MBS.3.10",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "3.10",
+   "3.09",
+   "3.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "form",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Sandhaufen"
+     ],
+     [
+      "Ein Papierhütchen"
+     ],
+     [
+      "Ein Trichter"
+     ],
+     [
+      "Ein Zeltdach"
+     ],
+     [
+      "Ein Eiswaffelkegel"
+     ],
+     [
+      "Eine Schutthalde"
+     ],
+     [
+      "Ein Blechhut"
+     ],
+     [
+      "Ein Streusalzkegel"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "hk",
+    "typ": "formel",
+    "ausdruck": "2*m*n*k"
+   },
+   {
+    "name": "s",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   },
+   {
+    "name": "kegelvol",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k*(m*m-n*n)*k*(2*m*n*k)/3"
+   },
+   {
+    "name": "mantelk",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k*(m*m+n*n)*k"
+   },
+   {
+    "name": "zylvol",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k*(m*m-n*n)*k*(2*m*n*k)"
+   }
+  ],
+  "bedingungen": [
+   "m>n",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "r>=3",
+   "hk>=4",
+   "istGanz((m*m-n*n)*k*(m*m-n*n)*k*(2*m*n*k)/3)==1",
+   "kegelvol<=1600",
+   "mantelk!=kegelvol",
+   "zylvol!=kegelvol",
+   "zylvol<=4800"
+  ],
+  "stamm": "{form} hat die Form eines Kegels mit dem Radius r = {r} cm und der Höhe h = {hk} cm. Die Mantellinie misst s = {s} cm. Daneben steht ein Zylinder mit demselben Radius und derselben Höhe. Gib alles als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "kegelvol",
+    "label": "Volumen des Kegels, Vielfaches von π",
+    "ausdruck": "r*r*hk/3",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gedrittelt",
+      "ausdruck": "r*r*hk",
+      "feedback": "Das ist der Zylinder. Der Kegel füllt davon nur ein Drittel. Teile durch 3."
+     },
+     {
+      "diagnoseId": "mantellinie_statt_hoehe",
+      "ausdruck": "r*r*s/3",
+      "feedback": "Im Volumen steht die Höhe {hk} cm, nicht die Mantellinie {s} cm. Die Mantellinie brauchst du erst für den Mantel."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "r*r*hk/2",
+      "feedback": "Bei Kegel und Pyramide wird durch 3 geteilt, nicht durch 2."
+     }
+    ]
+   },
+   {
+    "name": "mantelk",
+    "label": "Mantelfläche des Kegels, Vielfaches von π",
+    "ausdruck": "r*s",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "hoehe_statt_mantellinie",
+      "ausdruck": "r*hk",
+      "feedback": "Für den Mantel zählt die Mantellinie s = {s} cm, nicht die Höhe. Die Formel lautet r · s · π."
+     },
+     {
+      "diagnoseId": "wie_zylinder",
+      "ausdruck": "2*r*s",
+      "feedback": "Die 2 gehört zum Zylindermantel. Beim Kegel ist der Mantel r · s · π. Ein Kreissektor, kein Rechteck."
+     },
+     {
+      "diagnoseId": "grundflaeche",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Grundfläche des Kegels. Der Mantel ist die krumme Fläche aussen herum."
+     }
+    ]
+   },
+   {
+    "name": "zylvol",
+    "label": "Volumen des Zylinders, Vielfaches von π",
+    "ausdruck": "r*r*hk",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gedrittelt",
+      "ausdruck": "r*r*hk/3",
+      "feedback": "Das ist der Kegel. Der Zylinder mit gleicher Grundfläche und Höhe ist dreimal so gross."
+     },
+     {
+      "diagnoseId": "mantellinie",
+      "ausdruck": "r*r*s",
+      "feedback": "Der Zylinder ist so hoch wie der Kegel, also {hk} cm. Die Mantellinie gehört zum Kegel."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "r*hk",
+      "feedback": "Die Grundfläche ist r² · π. Der Radius wird quadriert: {r} · {r}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Länge steht im Volumen, welche im Mantel?",
+   "Kegelvolumen: r² · π · h : 3. Kegelmantel: r · s · π.",
+   "Der Zylinder mit derselben Grundfläche und Höhe ist genau dreimal so gross wie der Kegel."
+  ],
+  "loesungsweg": [
+   "Kegelvolumen: {r} · {r} · {hk} : 3 = {kegelvol}, also {kegelvol}π cm³.",
+   "Kegelmantel: {r} · {s} = {mantelk}, also {mantelk}π cm².",
+   "Zylindervolumen: {r} · {r} · {hk} = {zylvol}, also {zylvol}π cm³.",
+   "Probe: Der Zylinder ist dreimal so gross wie der Kegel."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-einheiten-tabelle",
+  "lernzielId": "MBS.5.01",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 98,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 15,
+    "bis": 95,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 89,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 13,
+    "bis": 97,
+    "schritt": 1
+   },
+   {
+    "name": "mm",
+    "typ": "formel",
+    "ausdruck": "a*10"
+   },
+   {
+    "name": "kg",
+    "typ": "formel",
+    "ausdruck": "b/1000"
+   },
+   {
+    "name": "cl",
+    "typ": "formel",
+    "ausdruck": "c*10"
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "d*1000"
+   }
+  ],
+  "bedingungen": [
+   "a%10!=0",
+   "b%10!=0",
+   "c%10!=0",
+   "d%10!=0",
+   "a!=b",
+   "c!=d",
+   "b!=c"
+  ],
+  "stamm": "Rechne in die verlangte Einheit um und trage die Zahl ein.",
+  "felder": [
+   {
+    "name": "mm",
+    "label": "{a} cm in mm",
+    "ausdruck": "a*10",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "a/10",
+      "feedback": "Millimeter sind kleiner als Zentimeter. Wenn die Einheit kleiner wird, wird die Zahl grösser. Hier mal 10."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "a*100",
+      "feedback": "Zwischen Zentimeter und Millimeter liegt der Faktor 10, nicht 100. Ein Zentimeter hat zehn Millimeter."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "a",
+      "feedback": "Die Zahl bleibt nicht gleich, wenn die Einheit wechselt. Ein Zentimeter sind zehn Millimeter."
+     }
+    ]
+   },
+   {
+    "name": "kg",
+    "label": "{b} g in kg",
+    "ausdruck": "b/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "b*1000",
+      "feedback": "Kilogramm sind grösser als Gramm. Wenn die Einheit grösser wird, wird die Zahl kleiner. Hier durch 1000."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "b/100",
+      "feedback": "Zwischen Gramm und Kilogramm liegt der Faktor 1000. Der Faktor 100 gehört zwischen Gramm und Hektogramm."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "b",
+      "feedback": "Ein Kilogramm sind tausend Gramm. Die Zahl muss also deutlich kleiner werden."
+     }
+    ]
+   },
+   {
+    "name": "cl",
+    "label": "{c} dl in cl",
+    "ausdruck": "c*10",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "c/10",
+      "feedback": "Zentiliter sind kleiner als Deziliter, die Zahl wird also grösser. Ein Deziliter sind zehn Zentiliter."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "c*100",
+      "feedback": "Von Deziliter zu Zentiliter ist es nur ein Schritt, also Faktor 10. Mal 100 käme man zum Milliliter."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "c",
+      "feedback": "Deziliter und Zentiliter sind nicht dasselbe: Ein Deziliter sind zehn Zentiliter."
+     }
+    ]
+   },
+   {
+    "name": "g",
+    "label": "{d} kg in g",
+    "ausdruck": "d*1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "d/1000",
+      "feedback": "Gramm sind kleiner als Kilogramm, die Zahl wird also grösser. Hier mal 1000."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "d*100",
+      "feedback": "Zwischen Kilogramm und Gramm liegt der Faktor 1000, nicht 100."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "d",
+      "feedback": "Ein Kilogramm sind tausend Gramm. Die Zahl kann nicht gleich bleiben."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wird die Einheit kleiner oder grösser? Danach richtet sich, ob die Zahl wächst oder schrumpft.",
+   "Kleinere Einheit heisst grössere Zahl. Von cm zu mm also mal 10.",
+   "Prüfe jeden Faktor einzeln: cm → mm ist 10, g → kg ist 1000, dl → cl ist 10."
+  ],
+  "loesungsweg": [
+   "{a} cm · 10 = {mm} mm.",
+   "{b} g : 1000 = {kg} kg.",
+   "{c} dl · 10 = {cl} cl.",
+   "{d} kg · 1000 = {g} g.",
+   "Die Regel dahinter: kleinere Einheit, grössere Zahl."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-zehnerpotenzen",
+  "lernzielId": "MBS.5.02",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.02",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 98,
+    "schritt": 1
+   },
+   {
+    "name": "e1",
+    "typ": "auswahl",
+    "werte": [
+     -3,
+     -2,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "e2",
+    "typ": "auswahl",
+    "werte": [
+     -4,
+     -2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "wert1",
+    "typ": "formel",
+    "ausdruck": "z*pow(10,e1)"
+   },
+   {
+    "name": "wert2",
+    "typ": "formel",
+    "ausdruck": "z*pow(10,e2)"
+   }
+  ],
+  "bedingungen": [
+   "z%10!=0",
+   "e1!=e2",
+   "wert1!=wert2",
+   "wert1>0.0001",
+   "wert2>0.0001",
+   "wert1<100000",
+   "wert2<100000"
+  ],
+  "stamm": "Schreibe die Zehnerpotenzen als gewöhnliche Zahlen.\n\nZahl A ist {z} · 10{e1:hoch}, Zahl B ist {z} · 10{e2:hoch}.",
+  "felder": [
+   {
+    "name": "wert1",
+    "label": "Zahl A als gewöhnliche Zahl",
+    "ausdruck": "z*pow(10,e1)",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "ausdruck": "z*pow(10,0-e1)",
+      "feedback": "Das Vorzeichen der Hochzahl ist gekippt. Eine negative Hochzahl macht die Zahl kleiner, eine positive grösser."
+     },
+     {
+      "diagnoseId": "mal_der_hochzahl",
+      "ausdruck": "z*e1",
+      "feedback": "Die Hochzahl sagt, wie oft mit 10 multipliziert wird. Sie ist selbst kein Faktor. 10{e1:hoch} ist eine eigene Zahl."
+     },
+     {
+      "diagnoseId": "eine_stelle_daneben",
+      "ausdruck": "z*pow(10,e1)*10",
+      "feedback": "Es ist genau eine Stelle daneben. Zähle die Nullen beziehungsweise die Stellen hinter dem Komma noch einmal nach."
+     }
+    ]
+   },
+   {
+    "name": "wert2",
+    "label": "Zahl B als gewöhnliche Zahl",
+    "ausdruck": "z*pow(10,e2)",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "ausdruck": "z*pow(10,0-e2)",
+      "feedback": "Das Vorzeichen der Hochzahl ist gekippt. 10⁻³ ist ein Tausendstel, 10³ ist tausend."
+     },
+     {
+      "diagnoseId": "mal_der_hochzahl",
+      "ausdruck": "z*e2",
+      "feedback": "Die Hochzahl ist kein Faktor. Sie sagt, wie oft mit 10 multipliziert wird. 10{e2:hoch} ist eine eigene Zahl."
+     },
+     {
+      "diagnoseId": "wie_zahl_a",
+      "ausdruck": "z*pow(10,e1)",
+      "feedback": "Das ist Zahl A. Zahl B hat die Hochzahl {e2}, nicht {e1}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet eine negative Hochzahl bei der 10?",
+   "10³ sind tausend, 10⁻³ sind ein Tausendstel. Die Hochzahl zählt die Stellen.",
+   "Verschiebe das Komma um so viele Stellen, wie die Hochzahl angibt, nach rechts bei positiver, nach links bei negativer Hochzahl."
+  ],
+  "loesungsweg": [
+   "10{e1:hoch} verschiebt das Komma um {e1} Stellen.",
+   "Zahl A: {z} · 10{e1:hoch} = {wert1:dezimal4}.",
+   "10{e2:hoch} verschiebt es um {e2} Stellen.",
+   "Zahl B: {z} · 10{e2:hoch} = {wert2:dezimal4}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-geschwindigkeit",
+  "lernzielId": "MBS.5.03",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.03",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "auf dem Velo zur Schule"
+     ],
+     [
+      "mit dem Trottinett zum Training"
+     ],
+     [
+      "im Dauerlauf über den Hügel"
+     ],
+     [
+      "auf den Rollschuhen dem Fluss entlang"
+     ],
+     [
+      "auf der Laufbahn"
+     ],
+     [
+      "im Ruderboot über den See"
+     ]
+    ]
+   },
+   {
+    "name": "ms",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "name": "sek",
+    "typ": "ganzzahl",
+    "von": 30,
+    "bis": 600,
+    "schritt": 30
+   },
+   {
+    "name": "kmh",
+    "typ": "formel",
+    "ausdruck": "ms*36/10"
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "ms*sek"
+   },
+   {
+    "name": "minuten",
+    "typ": "formel",
+    "ausdruck": "sek/60"
+   }
+  ],
+  "bedingungen": [
+   "meter<=4800",
+   "meter>=200",
+   "kmh!=ms",
+   "meter!=sek",
+   "kmh!=minuten",
+   "meter!=kmh"
+  ],
+  "stamm": "{name} bewegt sich {weg} mit {ms} Metern pro Sekunde und hält dieses Tempo {sek} Sekunden lang durch.",
+  "felder": [
+   {
+    "name": "kmh",
+    "label": "Tempo in km/h, auf zwei Stellen gerundet",
+    "ausdruck": "ms*36/10",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "mal_sechzig",
+      "ausdruck": "ms*60",
+      "feedback": "Mal 60 kommst du von Metern je Sekunde auf Meter je Minute. Bis zu Kilometern je Stunde fehlt noch der Schritt von Metern zu Kilometern."
+     },
+     {
+      "diagnoseId": "geteilt_durch_36",
+      "ausdruck": "ms*10/36",
+      "feedback": "Die Richtung stimmt nicht: Kilometer je Stunde sind eine grössere Zahl als Meter je Sekunde. Multipliziere mit 3.6."
+     },
+     {
+      "diagnoseId": "mal_1000",
+      "ausdruck": "ms*1000",
+      "feedback": "Du hast nur Meter in Kilometer umgerechnet und die Zeit vergessen. In einer Stunde stecken 3600 Sekunden."
+     }
+    ]
+   },
+   {
+    "name": "meter",
+    "label": "zurückgelegter Weg in Metern",
+    "ausdruck": "ms*sek",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "sek/ms",
+      "feedback": "Weg ist Tempo mal Zeit. Geteilt hättest du gerechnet, wenn die Zeit gesucht wäre."
+     },
+     {
+      "diagnoseId": "mit_kmh",
+      "ausdruck": "ms*36/10*sek",
+      "feedback": "Du hast das Tempo in km/h mit einer Zeit in Sekunden multipliziert. Die Einheiten müssen zusammenpassen: Meter je Sekunde mal Sekunden."
+     },
+     {
+      "diagnoseId": "durch_sechzig",
+      "ausdruck": "ms*sek/60",
+      "feedback": "Durch 60 geteilt hast du das Ergebnis unnötig verkleinert. {ms} Meter je Sekunde mal {sek} Sekunden ergibt direkt Meter."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Von Metern je Sekunde zu Kilometern je Stunde. Welcher Faktor steckt dahinter?",
+   "In einer Stunde sind 3600 Sekunden, in einem Kilometer 1000 Meter. 3600 : 1000 ergibt 3.6.",
+   "Der Weg ist Tempo mal Zeit, in zusammenpassenden Einheiten."
+  ],
+  "loesungsweg": [
+   "Von m/s zu km/h: mal 3.6, weil 3600 Sekunden auf 1000 Meter kommen.",
+   "{ms} · 3.6 = {kmh:dezimal2} km/h.",
+   "Weg: {ms} m/s · {sek} s = {meter} m.",
+   "Das sind {minuten} Minuten unterwegs."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-dichte-hohlmass",
+  "lernzielId": "MBS.5.04",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.04",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "stueck",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Sockel"
+     ],
+     [
+      "Ein Gegengewicht"
+     ],
+     [
+      "Ein Prüfkörper"
+     ],
+     [
+      "Ein Barren"
+     ],
+     [
+      "Ein Bauklotz"
+     ],
+     [
+      "Ein Stellklotz"
+     ]
+    ]
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "dichte10",
+    "typ": "auswahl",
+    "werte": [
+     8,
+     12,
+     15,
+     24,
+     27,
+     30,
+     45
+    ]
+   },
+   {
+    "name": "dichte",
+    "typ": "formel",
+    "ausdruck": "dichte10/10"
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "l*b*h"
+   },
+   {
+    "name": "liter",
+    "typ": "formel",
+    "ausdruck": "l*b*h/1000"
+   },
+   {
+    "name": "gramm",
+    "typ": "formel",
+    "ausdruck": "l*b*h*dichte10/10"
+   }
+  ],
+  "bedingungen": [
+   "l>b",
+   "b>h",
+   "vol<=2400",
+   "vol>=120",
+   "gramm<=8000",
+   "(vol*dichte10%10)==0",
+   "gramm!=vol",
+   "liter!=vol"
+  ],
+  "stamm": "{stueck} hat die Form eines Quaders: {l} cm lang, {b} cm breit und {h} cm hoch. Ein Kubikzentimeter des Werkstoffs wiegt {dichte:dezimal1} Gramm.",
+  "felder": [
+   {
+    "name": "liter",
+    "label": "Volumen in Litern",
+    "ausdruck": "l*b*h/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "l*b*h",
+      "feedback": "Das ist das Volumen in Kubikzentimetern. Ein Liter sind 1000 cm³. Teile also noch durch 1000."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "l*b*h/100",
+      "feedback": "Zwischen Kubikzentimeter und Liter liegt der Faktor 1000, nicht 100. Ein Liter ist ein Würfel mit 10 cm Kante, also 10 · 10 · 10 cm³."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "l*b/1000",
+      "feedback": "Die Höhe von {h} cm fehlt. Ein Volumen braucht alle drei Kanten."
+     }
+    ]
+   },
+   {
+    "name": "gramm",
+    "label": "Masse in Gramm",
+    "ausdruck": "l*b*h*dichte10/10",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "dichte_nicht_geteilt",
+      "ausdruck": "l*b*h*dichte10",
+      "feedback": "Du hast mit {dichte10} statt mit {dichte:dezimal1} gerechnet. Das Komma ist verrutscht. Ein Kubikzentimeter wiegt {dichte:dezimal1} Gramm."
+     },
+     {
+      "diagnoseId": "mit_liter_gerechnet",
+      "ausdruck": "l*b*h/1000*dichte10/10",
+      "feedback": "Das Gewicht hängt am Volumen in Kubikzentimetern, nicht am Volumen in Litern. Ein Kubikzentimeter wiegt das angegebene Gewicht."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "l*b*h+dichte",
+      "feedback": "Volumen und Gewicht je Kubikzentimeter werden multipliziert. Addieren ergäbe keine sinnvolle Grösse."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kubikzentimeter hat der Quader?",
+   "Ein Liter sind 1000 Kubikzentimeter.",
+   "Das Gewicht ist Volumen in cm³ mal Gewicht je cm³."
+  ],
+  "loesungsweg": [
+   "Volumen: {l} · {b} · {h} = {vol} cm³.",
+   "In Litern: {vol} : 1000 = {liter} Liter.",
+   "Gewicht: {vol} cm³ mal {dichte:dezimal1} Gramm je cm³.",
+   "Das ergibt {gramm} Gramm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-gerecht-aufteilen",
+  "lernzielId": "MBS.5.05",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.05",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "anlass",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Schulteam gewinnt an einem Turnier ein Preisgeld"
+     ],
+     [
+      "Eine Klasse putzt am Samstag Velos und nimmt Geld ein"
+     ],
+     [
+      "Drei Jugendliche verkaufen am Flohmarkt und teilen den Erlös"
+     ],
+     [
+      "Ein Quartierverein sammelt Altpapier und bekommt eine Entschädigung"
+     ],
+     [
+      "Eine Gruppe backt Kuchen für das Schulfest und teilt den Gewinn"
+     ]
+    ]
+   },
+   {
+    "name": "s1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "s2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "s3",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "proAnteil",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 40,
+    "schritt": 2
+   },
+   {
+    "name": "teile",
+    "typ": "formel",
+    "ausdruck": "s1+s2+s3"
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "(s1+s2+s3)*proAnteil"
+   },
+   {
+    "name": "a1",
+    "typ": "formel",
+    "ausdruck": "s1*proAnteil"
+   },
+   {
+    "name": "a2",
+    "typ": "formel",
+    "ausdruck": "s2*proAnteil"
+   },
+   {
+    "name": "a3",
+    "typ": "formel",
+    "ausdruck": "s3*proAnteil"
+   }
+  ],
+  "bedingungen": [
+   "s1!=s2",
+   "s2!=s3",
+   "s1!=s3",
+   "total<=1200",
+   "total>=100",
+   "a1!=a2",
+   "a2!=a3",
+   "a1!=a3",
+   "a1!=total",
+   "proAnteil!=teile"
+  ],
+  "stamm": "{anlass} von Fr. {total}.–. Verteilt wird nach geleisteten Stunden: die erste Person {s1} Stunden, die zweite {s2} Stunden, die dritte {s3} Stunden. Wie viel bekommt jede?",
+  "felder": [
+   {
+    "name": "a1",
+    "label": "erste Person in Franken",
+    "ausdruck": "s1*proAnteil",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gleichmaessig",
+      "ausdruck": "total/3",
+      "feedback": "Gleichmässig geteilt wird hier nicht. Verteilt wird nach Stunden. Wer länger gearbeitet hat, bekommt mehr."
+     },
+     {
+      "diagnoseId": "stunden_als_franken",
+      "ausdruck": "s1",
+      "feedback": "Das sind die Stunden, nicht die Franken. Rechne zuerst aus, wie viel eine einzige Stunde wert ist."
+     },
+     {
+      "diagnoseId": "durch_eigene_stunden",
+      "ausdruck": "total/s1",
+      "feedback": "Der Gesamtbetrag wird durch ALLE Stunden geteilt, nicht nur durch die eigenen. Zusammen sind es {teile} Stunden."
+     }
+    ]
+   },
+   {
+    "name": "a2",
+    "label": "zweite Person in Franken",
+    "ausdruck": "s2*proAnteil",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gleichmaessig",
+      "ausdruck": "total/3",
+      "feedback": "Der Betrag wird nach Stunden verteilt, nicht zu gleichen Teilen. Die drei haben verschieden lange gearbeitet."
+     },
+     {
+      "diagnoseId": "stunden_als_franken",
+      "ausdruck": "s2",
+      "feedback": "Das ist die Stundenzahl. Multipliziere sie mit dem Betrag, den eine Stunde wert ist."
+     },
+     {
+      "diagnoseId": "anteil_der_ersten",
+      "ausdruck": "s1*proAnteil",
+      "feedback": "Das ist der Anteil der ersten Person. Die zweite hat {s2} Stunden gearbeitet, nicht {s1}."
+     }
+    ]
+   },
+   {
+    "name": "a3",
+    "label": "dritte Person in Franken",
+    "ausdruck": "s3*proAnteil",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gleichmaessig",
+      "ausdruck": "total/3",
+      "feedback": "Verteilt wird nach Stunden. Nur wenn alle drei gleich lang gearbeitet hätten, käme dreimal derselbe Betrag heraus."
+     },
+     {
+      "diagnoseId": "rest_falsch",
+      "ausdruck": "total-s1*proAnteil",
+      "feedback": "Du hast nur den Anteil einer Person abgezogen. Es sind drei Personen. Der Rest gehört noch geteilt."
+     },
+     {
+      "diagnoseId": "stunden_als_franken",
+      "ausdruck": "s3",
+      "feedback": "Das ist die Stundenzahl. Eine Stunde ist Fr. {proAnteil}.– wert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Stunden wurden insgesamt geleistet?",
+   "Teile den Gesamtbetrag durch die Summe aller Stunden. Das ergibt den Wert einer Stunde.",
+   "Dann bekommt jede Person ihre Stundenzahl mal diesen Betrag."
+  ],
+  "loesungsweg": [
+   "Stunden zusammen: {s1} + {s2} + {s3} = {teile}.",
+   "Eine Stunde ist Fr. {total}.– : {teile} = Fr. {proAnteil}.– wert.",
+   "Erste Person: {s1} · {proAnteil} = Fr. {a1}.–.",
+   "Zweite: Fr. {a2}.–, dritte: Fr. {a3}.–.",
+   "Probe: Die drei Beträge ergeben zusammen wieder Fr. {total}.–."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-indirekt-proportional",
+  "lernzielId": "MBS.5.06",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.06",
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "arbeit",
+    "typ": "text",
+    "texte": [
+     [
+      "den Schulhof aufzuräumen"
+     ],
+     [
+      "die Turnhalle zu putzen"
+     ],
+     [
+      "das Lager abzubauen"
+     ],
+     [
+      "die Bühne aufzustellen"
+     ],
+     [
+      "den Estrich zu räumen"
+     ],
+     [
+      "die Velos zu waschen"
+     ]
+    ]
+   },
+   {
+    "name": "konstante",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     36,
+     48,
+     60,
+     72,
+     84,
+     96,
+     108,
+     120,
+     144
+    ]
+   },
+   {
+    "name": "halbe",
+    "typ": "formel",
+    "ausdruck": "konstante/2"
+   }
+  ],
+  "bedingungen": [
+   "konstante>=24"
+  ],
+  "stamm": "{name} rechnet aus, wie lange es dauert, {arbeit}. Zwei Personen brauchen zusammen {halbe} Minuten. Doppelt so viele Personen brauchen halb so lang. Trage in die Tabelle ein, wie lange {name} für jede Anzahl Personen rechnen muss.",
+  "fehler": [
+   {
+    "diagnoseId": "proportional_gerechnet",
+    "kurz": "proportional statt indirekt",
+    "feedback": "Du hast die Zeit mit der Anzahl Personen wachsen lassen. Hier ist es umgekehrt: Je mehr Personen mithelfen, desto kürzer dauert es. Das Produkt aus Anzahl und Zeit bleibt gleich."
+   },
+   {
+    "diagnoseId": "konstante_differenz",
+    "kurz": "immer dasselbe abgezogen",
+    "feedback": "Von einer Anzahl zur nächsten wird nicht immer derselbe Betrag abgezogen. Bei indirekter Proportionalität wird geteilt: doppelt so viele Personen, halb so lange Zeit."
+   },
+   {
+    "diagnoseId": "produkt_falsch",
+    "kurz": "falsches Produkt",
+    "feedback": "Multipliziere Anzahl mal Zeit, bei jeder Zeile muss dasselbe herauskommen, nämlich {konstante}."
+   }
+  ],
+  "hinweise": [
+   "Was passiert mit der Zeit, wenn doppelt so viele Personen mithelfen?",
+   "Bei indirekter Proportionalität bleibt das Produkt aus beiden Grössen gleich.",
+   "Rechne aus zwei Personen und {halbe} Minuten das Produkt aus. Das ist bei jeder Zeile dasselbe."
+  ],
+  "loesungsweg": [
+   "Zwei Personen mal {halbe} Minuten ergeben {konstante}.",
+   "Dieses Produkt bleibt bei jeder Zeile gleich.",
+   "Für jede Anzahl Personen gilt also: Zeit = {konstante} geteilt durch die Anzahl.",
+   "Doppelt so viele Personen brauchen halb so lang, nicht doppelt so lang."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "n",
+     "kopf": "Personen",
+     "von": "1",
+     "bis": "4"
+    },
+    {
+     "name": "t",
+     "kopf": "Minuten",
+     "von": "1",
+     "bis": "konstante"
+    }
+   ],
+   "bedingung": "n * t == konstante"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-wertetabelle-gerade-bs",
+  "lernzielId": "MBS.5.07",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -4,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "qbetrag",
+    "typ": "formel",
+    "ausdruck": "abs(q)"
+   },
+   {
+    "name": "was",
+    "typ": "text",
+    "texte": [
+     [
+      "für die Physikstunde"
+     ],
+     [
+      "für das Werkheft"
+     ],
+     [
+      "für die Projektarbeit"
+     ],
+     [
+      "für den Mathematikordner"
+     ],
+     [
+      "fürs Repetieren"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "q!=0",
+   "m!=q",
+   "m!=1",
+   "m!=-1"
+  ],
+  "stamm": "{name} zeichnet {was} den Graphen der linearen Funktion f mit f(x) = {m}x + ({q}). Trage die Wertepaare (x | f(x)) für x von −4 bis 4 in die Tabelle ein.",
+  "fehler": [
+   {
+    "diagnoseId": "steigung_und_abschnitt_vertauscht",
+    "kurz": "m und q vertauscht",
+    "feedback": "Du hast {q} als Steigung und {m} als Achsenabschnitt genommen. Die Steigung ist die Zahl VOR dem x, hier {m}."
+   },
+   {
+    "diagnoseId": "vorzeichen_bei_negativem_x",
+    "kurz": "Vorzeichen bei negativem x",
+    "feedback": "Bei negativen x-Werten dreht sich das Vorzeichen des Glieds {m}x um. Rechne {m} mal den x-Wert einzeln aus, bevor du {q} dazuzählst."
+   },
+   {
+    "diagnoseId": "abschnitt_vergessen",
+    "kurz": "q vergessen",
+    "feedback": "Das Glied {q} gehört zu jedem einzelnen Funktionswert dazu. Es verschiebt die ganze Gerade nach oben oder unten."
+   }
+  ],
+  "hinweise": [
+   "Setze jeden x-Wert einzeln in f(x) = {m}x + ({q}) ein.",
+   "Rechne zuerst {m} mal x, dann zähle {q} dazu.",
+   "Von einem x zum nächsten ändert sich der Funktionswert immer um {m}. Das ist die Steigung."
+  ],
+  "loesungsweg": [
+   "Setze der Reihe nach x = −4, −3, … , 4 ein.",
+   "Beispiel x = −2: {m} · (−2) und dann + {q}.",
+   "Von Zeile zu Zeile ändert sich der Wert stets um {m}.",
+   "Der Graph schneidet die y-Achse bei {q}."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "x",
+     "von": "-4",
+     "bis": "4"
+    },
+    {
+     "name": "y",
+     "kopf": "f(x)",
+     "von": "min(m*(-4)+q, m*4+q)-1",
+     "bis": "max(m*(-4)+q, m*4+q)+1"
+    }
+   ],
+   "bedingung": "y == m*x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-gerade-zwei-punkte-bs",
+  "lernzielId": "MBS.5.08",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.08",
+   "5.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x1",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "x2",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m*x1+q"
+   },
+   {
+    "name": "y2",
+    "typ": "formel",
+    "ausdruck": "m*x2+q"
+   },
+   {
+    "name": "dy",
+    "typ": "formel",
+    "ausdruck": "m*x2+q-(m*x1+q)"
+   },
+   {
+    "name": "dx",
+    "typ": "formel",
+    "ausdruck": "x2-x1"
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "q!=0",
+   "x1!=x2",
+   "x2>x1",
+   "m!=q",
+   "x1!=0",
+   "x2!=0",
+   "y1<=50",
+   "y1>=-50",
+   "y2<=50",
+   "y2>=-50",
+   "y1!=y2",
+   "m!=dx"
+  ],
+  "stamm": "Die Gerade g geht durch die Punkte A({x1} | {y1}) und B({x2} | {y2}). Bestimme ihre Steigung und ihren y-Achsenabschnitt.",
+  "felder": [
+   {
+    "name": "m",
+    "label": "Steigung m",
+    "ausdruck": "m",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "kehrwert",
+      "ausdruck": "(x2-x1)/(m*x2-m*x1)",
+      "feedback": "Du hast Δx durch Δy geteilt. Die Steigung sagt, um wie viel y wächst, wenn x um 1 wächst, also Δy geteilt durch Δx."
+     },
+     {
+      "diagnoseId": "nur_differenz",
+      "ausdruck": "m*x2-m*x1",
+      "feedback": "Das ist der Höhenunterschied zwischen A und B. Er verteilt sich auf {dx} Schritte in x-Richtung. Du musst noch teilen."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-m",
+      "feedback": "Der Betrag stimmt, das Vorzeichen nicht. Steigt y, wenn x wächst, ist die Steigung positiv, sonst negativ."
+     }
+    ]
+   },
+   {
+    "name": "q",
+    "label": "y-Achsenabschnitt q",
+    "ausdruck": "q",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "y_von_a",
+      "ausdruck": "m*x1+q",
+      "feedback": "Das ist der y-Wert von A. Der Achsenabschnitt ist der Funktionswert an der Stelle x = 0. Dort liegt A nur, wenn seine x-Koordinate null wäre."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-q",
+      "feedback": "Beim Einsetzen wechselt das Glied m · x die Seite und damit sein Vorzeichen. Setze A ein und löse sorgfältig nach q auf."
+     },
+     {
+      "diagnoseId": "steigung_eingetragen",
+      "ausdruck": "m",
+      "feedback": "Das ist die Steigung. Der Achsenabschnitt ist die Zahl ohne x."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie stark ändert sich y, wenn x von {x1} auf {x2} wächst?",
+   "Steigung: Δy geteilt durch Δx, also ({y2} − {y1}) : ({x2} − {x1}).",
+   "Setze danach einen der beiden Punkte in y = mx + q ein und löse nach q auf."
+  ],
+  "loesungsweg": [
+   "Δy = {y2} − {y1} und Δx = {x2} − {x1} = {dx}.",
+   "Steigung: m = {dy} : {dx} = {m}.",
+   "Punkt A einsetzen: {y1} = {m} · {x1} + q.",
+   "Aufgelöst ergibt das q = {q}.",
+   "Probe mit B: {m} · {x2} + {q} = {y2}. Es stimmt."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-steigung-deuten",
+  "lernzielId": "MBS.5.09",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.09",
+   "5.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "tarif",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Veloverleih",
+      "Grundgebühr",
+      "je Stunde"
+     ],
+     [
+      "Ein Bastelraum",
+      "Eintritt",
+      "je Stunde"
+     ],
+     [
+      "Ein Musikproberaum",
+      "Anmeldegebühr",
+      "je Stunde"
+     ],
+     [
+      "Ein Bootsverleih",
+      "Grundgebühr",
+      "je Stunde"
+     ],
+     [
+      "Ein Kletterturm",
+      "Eintritt",
+      "je Stunde"
+     ]
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 45,
+    "schritt": 1
+   },
+   {
+    "name": "proStunde",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "stunden",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "kosten",
+    "typ": "formel",
+    "ausdruck": "grund+proStunde*stunden"
+   },
+   {
+    "name": "beiNull",
+    "typ": "formel",
+    "ausdruck": "grund"
+   },
+   {
+    "name": "nachEiner",
+    "typ": "formel",
+    "ausdruck": "grund+proStunde"
+   }
+  ],
+  "bedingungen": [
+   "kosten<=180",
+   "grund!=proStunde",
+   "kosten!=grund",
+   "kosten!=stunden",
+   "nachEiner!=kosten",
+   "grund!=stunden",
+   "proStunde!=stunden"
+  ],
+  "stamm": "{tarif} rechnet so ab: Fr. {grund}.– {tarif.1} und dazu Fr. {proStunde}.– {tarif.2}. Die Kosten lassen sich als Gerade y = mx + q darstellen, wobei x die Stunden zählt.",
+  "felder": [
+   {
+    "name": "m",
+    "label": "Steigung m der Geraden",
+    "ausdruck": "proStunde",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "grundgebuehr",
+      "ausdruck": "grund",
+      "feedback": "Das ist die Grundgebühr. Sie fällt einmal an und ändert sich nicht mit der Zeit. Die Steigung sagt, wie stark die Kosten je Stunde wachsen."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "grund+proStunde",
+      "feedback": "Das sind die Kosten für die erste Stunde inklusive Grundgebühr. Die Steigung ist nur der Betrag, der je weitere Stunde dazukommt."
+     },
+     {
+      "diagnoseId": "gesamtkosten",
+      "ausdruck": "grund+proStunde*stunden",
+      "feedback": "Das sind die Gesamtkosten für {stunden} Stunden. Die Steigung ist der Preis einer einzelnen Stunde."
+     }
+    ]
+   },
+   {
+    "name": "q",
+    "label": "y-Achsenabschnitt q der Geraden",
+    "ausdruck": "grund",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "stundensatz",
+      "ausdruck": "proStunde",
+      "feedback": "Das ist der Stundenpreis, also die Steigung. Der Achsenabschnitt ist der Betrag bei null Stunden."
+     },
+     {
+      "diagnoseId": "null",
+      "ausdruck": "0",
+      "feedback": "Bei null Stunden zahlt man nicht nichts: Die Grundgebühr von Fr. {grund}.– fällt auch dann an. Die Gerade beginnt nicht im Ursprung."
+     },
+     {
+      "diagnoseId": "gesamtkosten",
+      "ausdruck": "grund+proStunde*stunden",
+      "feedback": "Das sind die Gesamtkosten nach {stunden} Stunden. Der Achsenabschnitt gehört zur Stelle x = 0."
+     }
+    ]
+   },
+   {
+    "name": "kosten",
+    "label": "Kosten für {stunden} Stunden in Franken",
+    "ausdruck": "grund+proStunde*stunden",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "grund_vergessen",
+      "ausdruck": "proStunde*stunden",
+      "feedback": "Die Grundgebühr von Fr. {grund}.– fehlt. Sie kommt einmal dazu, unabhängig von der Dauer."
+     },
+     {
+      "diagnoseId": "grund_pro_stunde",
+      "ausdruck": "(grund+proStunde)*stunden",
+      "feedback": "Die Grundgebühr fällt nur einmal an, nicht in jeder Stunde. Nur der Stundenpreis wird mit {stunden} multipliziert."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "grund+proStunde+stunden",
+      "feedback": "Die Stundenzahl wird mit dem Stundenpreis multipliziert, nicht dazugezählt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher Betrag fällt einmal an, welcher immer wieder?",
+   "Der einmalige Betrag ist der y-Achsenabschnitt, der wiederkehrende die Steigung.",
+   "Kosten = Grundgebühr + Stundenpreis · Stunden."
+  ],
+  "loesungsweg": [
+   "Die Grundgebühr Fr. {grund}.– fällt bei null Stunden an. Das ist q.",
+   "Je Stunde kommen Fr. {proStunde}.– dazu. Das ist m.",
+   "Die Gerade lautet y = {proStunde}x + {grund}.",
+   "Für {stunden} Stunden: {grund} + {proStunde} · {stunden} = Fr. {kosten}.–."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-schnittpunkt-geraden",
+  "lernzielId": "MBS.5.10",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.10",
+   "5.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "sx",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "sy",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q1",
+    "typ": "formel",
+    "ausdruck": "sy-m1*sx"
+   },
+   {
+    "name": "q2",
+    "typ": "formel",
+    "ausdruck": "sy-m2*sx"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "m1!=0",
+   "m2!=0",
+   "m1!=1",
+   "m1!=-1",
+   "m2!=1",
+   "m2!=-1",
+   "q1!=0",
+   "q2!=0",
+   "sx!=0",
+   "sy!=0",
+   "q1!=q2",
+   "q1<=40",
+   "q1>=-40",
+   "q2<=40",
+   "q2>=-40",
+   "sx!=sy",
+   "m1!=q1",
+   "m2!=q2"
+  ],
+  "stamm": "Gegeben sind die Geraden f mit y = {m1}x + ({q1}) und h mit y = {m2}x + ({q2}). Bestimme den Schnittpunkt.",
+  "felder": [
+   {
+    "name": "sx",
+    "label": "x-Koordinate des Schnittpunkts",
+    "ausdruck": "sx",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "differenz_falsch_herum",
+      "ausdruck": "(q1-q2)/(m2-m1)*(-1)",
+      "feedback": "Beim Gleichsetzen kommen die x-Glieder auf die eine Seite und die Zahlen auf die andere. Prüfe, welche Differenz oben und welche unten steht."
+     },
+     {
+      "diagnoseId": "summe_statt_differenz",
+      "ausdruck": "(q1+q2)/(m1+m2)",
+      "feedback": "Beim Gleichsetzen wird subtrahiert, nicht addiert: {m1}x + {q1} = {m2}x + {q2} führt auf ({m1} − {m2})x = {q2} − {q1}."
+     },
+     {
+      "diagnoseId": "y_koordinate",
+      "ausdruck": "sy",
+      "feedback": "Das ist die y-Koordinate. Gefragt ist zuerst das x, bei dem beide Geraden denselben Wert haben."
+     }
+    ]
+   },
+   {
+    "name": "sy",
+    "label": "y-Koordinate des Schnittpunkts",
+    "ausdruck": "sy",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "x_koordinate",
+      "ausdruck": "sx",
+      "feedback": "Das ist die x-Koordinate. Setze sie in eine der beiden Gleichungen ein, um das y zu bekommen."
+     },
+     {
+      "diagnoseId": "nur_abschnitt",
+      "ausdruck": "q1",
+      "feedback": "Das ist der y-Achsenabschnitt von f, also der Wert bei x = 0. Der Schnittpunkt liegt bei x = {sx}."
+     },
+     {
+      "diagnoseId": "falsche_gerade",
+      "ausdruck": "m2*sx+q1",
+      "feedback": "Du hast die Steigung der einen Geraden mit dem Achsenabschnitt der anderen kombiniert. Setze x = {sx} sauber in eine einzige Gleichung ein."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was gilt im Schnittpunkt für die beiden y-Werte?",
+   "Setze die beiden Terme gleich: {m1}x + ({q1}) = {m2}x + ({q2}).",
+   "Löse nach x auf und setze das Ergebnis in eine der beiden Gleichungen ein."
+  ],
+  "loesungsweg": [
+   "Gleichsetzen: {m1}x + ({q1}) = {m2}x + ({q2}).",
+   "x-Glieder nach links, Zahlen nach rechts.",
+   "Das ergibt x = {sx}.",
+   "Einsetzen in f: {m1} · {sx} + {q1} = {sy}.",
+   "Probe mit h: {m2} · {sx} + {q2} = {sy}. Derselbe Wert."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-wahrscheinlichkeit-bs",
+  "lernzielId": "MBS.5.12",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "5.12",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "beutel",
+    "typ": "text",
+    "texte": [
+     [
+      "einer Schachtel",
+      "rote Kugeln",
+      "blaue Kugeln"
+     ],
+     [
+      "einem Sack",
+      "grüne Murmeln",
+      "gelbe Murmeln"
+     ],
+     [
+      "einer Dose",
+      "weisse Knöpfe",
+      "schwarze Knöpfe"
+     ],
+     [
+      "einer Kiste",
+      "orange Bausteine",
+      "violette Bausteine"
+     ],
+     [
+      "einem Etui",
+      "braune Stifte",
+      "türkise Stifte"
+     ]
+    ]
+   },
+   {
+    "name": "rot",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "blau",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "rot+blau"
+   },
+   {
+    "name": "prot",
+    "typ": "formel",
+    "ausdruck": "rot/(rot+blau)"
+   },
+   {
+    "name": "pblau",
+    "typ": "formel",
+    "ausdruck": "blau/(rot+blau)"
+   }
+  ],
+  "bedingungen": [
+   "rot!=blau",
+   "total<=24",
+   "total>=6",
+   "ggt(rot,total)==1",
+   "ggt(blau,total)==1",
+   "prot!=pblau"
+  ],
+  "stamm": "In {beutel} liegen {rot} {beutel.1} und {blau} {beutel.2}. {name} zieht ohne hinzusehen ein Stück heraus. Gib die Wahrscheinlichkeiten als gekürzte Brüche an.",
+  "felder": [
+   {
+    "name": "prot",
+    "label": "Wahrscheinlichkeit für {beutel.1}",
+    "ausdruck": "rot/(rot+blau)",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "gegen_die_andere_farbe",
+      "ausdruck": "rot/blau",
+      "feedback": "Im Nenner steht die Gesamtzahl aller Stücke, nicht die Anzahl der anderen Farbe. Zusammen sind es {total} Stück."
+     },
+     {
+      "diagnoseId": "gegenwahrscheinlichkeit",
+      "ausdruck": "blau/(rot+blau)",
+      "feedback": "Das ist die Wahrscheinlichkeit für die andere Farbe. Gefragt ist die für {beutel.1}, und davon sind es {rot} Stück."
+     },
+     {
+      "diagnoseId": "nur_anzahl",
+      "ausdruck": "rot",
+      "feedback": "Eine Wahrscheinlichkeit ist ein Anteil zwischen 0 und 1, keine Stückzahl. Teile die günstigen durch alle Fälle."
+     }
+    ]
+   },
+   {
+    "name": "pblau",
+    "label": "Wahrscheinlichkeit für {beutel.2}",
+    "ausdruck": "blau/(rot+blau)",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "gegen_die_andere_farbe",
+      "ausdruck": "blau/rot",
+      "feedback": "Im Nenner steht die Gesamtzahl {total}, nicht die Anzahl der anderen Farbe."
+     },
+     {
+      "diagnoseId": "gegenwahrscheinlichkeit",
+      "ausdruck": "rot/(rot+blau)",
+      "feedback": "Das ist die Wahrscheinlichkeit für die andere Farbe. Von {beutel.2} sind {blau} Stück da."
+     },
+     {
+      "diagnoseId": "nur_anzahl",
+      "ausdruck": "blau",
+      "feedback": "Gefragt ist ein Anteil, keine Anzahl. Teile {blau} durch {total}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Stücke liegen insgesamt darin?",
+   "Eine Wahrscheinlichkeit ist die Zahl der günstigen Fälle geteilt durch die Zahl aller Fälle.",
+   "Zähle zuerst {rot} + {blau} zusammen. Das ist der Nenner beider Brüche."
+  ],
+  "loesungsweg": [
+   "Insgesamt sind es {rot} + {blau} = {total} Stück.",
+   "Für {beutel.1}: {rot} von {total}, also {prot:bruch}.",
+   "Für {beutel.2}: {blau} von {total}, also {pblau:bruch}.",
+   "Probe: Die beiden Brüche ergeben zusammen 1. Mehr als alle Fälle gibt es nicht."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-gleichung-linear",
+  "lernzielId": "MBS.2.10",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "links",
+    "typ": "formel",
+    "ausdruck": "a*x+c"
+   },
+   {
+    "name": "rechts",
+    "typ": "formel",
+    "ausdruck": "links-b*x"
+   },
+   {
+    "name": "diff",
+    "typ": "formel",
+    "ausdruck": "a-b"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "x!=0",
+   "c!=0",
+   "a>b",
+   "rechts!=x",
+   "links!=x",
+   "c!=x",
+   "rechts<=120",
+   "rechts>=-120",
+   "a!=c",
+   "b!=c"
+  ],
+  "stamm": "Löse die Gleichung nach x auf.\n\n{a}x + ({c}) = {b}x + ({rechts})",
+  "loesung": "x",
+  "gegenprobe": "(rechts-c)/(a-b)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_zahlen_getauscht",
+    "ausdruck": "(rechts+c)/(a-b)",
+    "feedback": "Beim Wechsel auf die andere Seite kehrt sich das Vorzeichen um. Aus «+ {c}» links wird «− {c}» rechts, nicht «+ {c}»."
+   },
+   {
+    "diagnoseId": "koeffizienten_addiert",
+    "ausdruck": "(rechts-c)/(a+b)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen, nicht zusammengezählt. {a}x − {b}x ergibt {diff}x."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "rechts-c",
+    "feedback": "Du bist bei {diff}x = einer Zahl stehen geblieben. Teile am Schluss noch durch {diff}, um x allein zu bekommen."
+   },
+   {
+    "diagnoseId": "vorzeichen_am_schluss",
+    "ausdruck": "(c-rechts)/(a-b)",
+    "feedback": "Prüfe die Richtung der Subtraktion: Die Zahl der rechten Seite kommt zuerst, die der linken wird abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Auf welche Seite bringst du die x-Glieder, auf welche die Zahlen?",
+   "Ziehe auf beiden Seiten {b}x ab. Links bleibt {diff}x, rechts verschwindet das x.",
+   "Dann bringe die Zahl auf die andere Seite und teile durch {diff}."
+  ],
+  "loesungsweg": [
+   "{b}x auf beiden Seiten abziehen: {diff}x + {c} = {rechts}.",
+   "{c} auf beiden Seiten abziehen. Das Vorzeichen kehrt sich um.",
+   "Übrig bleibt {diff}x = {rechts} − {c}.",
+   "Durch {diff} teilen ergibt x = {x}.",
+   "Probe: {a} · {x} + {c} und {b} · {x} + {rechts} geben beide {links}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-gleichung-klammern-bs",
+  "lernzielId": "MBS.2.11",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.11",
+   "2.10",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "links",
+    "typ": "formel",
+    "ausdruck": "a*(x+b)"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "a*(x+b)-c*x"
+   },
+   {
+    "name": "diff",
+    "typ": "formel",
+    "ausdruck": "a-c"
+   }
+  ],
+  "bedingungen": [
+   "a!=c",
+   "a>c",
+   "x!=0",
+   "b!=d",
+   "rest!=x",
+   "x!=b",
+   "x!=d",
+   "rest<=150",
+   "rest>=-150",
+   "a!=b",
+   "c!=d"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Löse zuerst die Klammern auf.\n\n{a} · (x + {b}) = {c}x + ({rest})",
+  "loesung": "x",
+  "gegenprobe": "(rest-a*b)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_nicht_verteilt",
+    "ausdruck": "(rest-b)/(a-c)",
+    "feedback": "Der Faktor {a} gilt für BEIDE Glieder in der Klammer: {a} · x und {a} · {b}. Du hast die {b} unverändert stehen lassen."
+   },
+   {
+    "diagnoseId": "nur_zweites_glied",
+    "ausdruck": "(rest-a*b)/(1-c)",
+    "feedback": "Der Faktor {a} gehört auch vor das x. Aus {a} · (x + {b}) wird {a}x + {a} · {b}."
+   },
+   {
+    "diagnoseId": "vorzeichen_beim_umstellen",
+    "ausdruck": "(rest+a*b)/(a-c)",
+    "feedback": "Beim Wechsel auf die andere Seite kehrt sich das Vorzeichen um. Das Glied {a} · {b} wird abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "koeffizienten_addiert",
+    "ausdruck": "(rest-a*b)/(a+c)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen: {a}x − {c}x ergibt {diff}x."
+   }
+  ],
+  "hinweise": [
+   "Was passiert mit der Klammer, wenn eine Zahl davorsteht?",
+   "{a} · (x + {b}) heisst {a}x + {a} · {b}. Der Faktor gilt für beide Glieder.",
+   "Danach x-Glieder auf die eine Seite, Zahlen auf die andere, und am Schluss durch {diff} teilen."
+  ],
+  "loesungsweg": [
+   "Klammer auflösen: {a}x + {a} · {b} = {c}x + {rest}.",
+   "{c}x abziehen: {diff}x + {a} · {b} = {rest}.",
+   "Die Zahl auf die andere Seite bringen. Vorzeichen kehrt um.",
+   "Durch {diff} teilen ergibt x = {x}.",
+   "Probe: {a} · ({x} + {b}) = {links}, und {c} · {x} + {rest} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-bruchgleichung-bs",
+  "lernzielId": "MBS.2.12",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.12",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "t",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "p+n1*t"
+   },
+   {
+    "name": "q",
+    "typ": "formel",
+    "ausdruck": "(n2-n1)*t-p"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "n2>n1",
+   "x!=0",
+   "q!=0",
+   "p!=q",
+   "x<=90",
+   "q<=90",
+   "q>=-90",
+   "x!=p",
+   "x!=q",
+   "x!=t"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Beide Seiten sind Brüche.\n\n(x − {p}) : {n1}  =  (x + ({q})) : {n2}",
+  "loesung": "p+n1*t",
+  "gegenprobe": "(n2*p+n1*q)/(n2-n1)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_einen_nenner",
+    "ausdruck": "(p+q)/(n2-n1)",
+    "feedback": "Beim Überkreuzmultiplizieren wird jede Seite mit dem Nenner der ANDEREN multipliziert. Beide Nenner müssen verschwinden, nicht nur einer."
+   },
+   {
+    "diagnoseId": "vorzeichen_in_der_klammer",
+    "ausdruck": "p+n1*t-2*p",
+    "feedback": "Achte auf die Vorzeichen in den Klammern: links steht «x − {p}», rechts «x + {q}». Beim Ausmultiplizieren bleiben sie erhalten."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(n2*p+n1*q)/(n1+n2)",
+    "feedback": "Die Nenner werden voneinander abgezogen, nicht zusammengezählt: Aus {n2}x − {n1}x wird die Differenz."
+   },
+   {
+    "diagnoseId": "nenner_ignoriert",
+    "ausdruck": "p-q",
+    "feedback": "Die Nenner {n1} und {n2} dürfen nicht einfach wegfallen. Multipliziere beide Seiten damit, bevor du weiterrechnest."
+   }
+  ],
+  "hinweise": [
+   "Wie wirst du die beiden Nenner los?",
+   "Multipliziere über Kreuz: die linke Seite mal {n2}, die rechte mal {n1}.",
+   "Danach steht eine gewöhnliche lineare Gleichung da. X-Glieder auf eine Seite, Zahlen auf die andere."
+  ],
+  "loesungsweg": [
+   "Über Kreuz multiplizieren: {n2} · (x − {p}) = {n1} · (x + ({q})).",
+   "Klammern auflösen: {n2}x − {n2} · {p} = {n1}x + {n1} · {q}.",
+   "x-Glieder links, Zahlen rechts sammeln.",
+   "Aufgelöst ergibt das x = {x}.",
+   "Probe: Beide Seiten ergeben mit x = {x} den Wert {t}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-formel-einsetzen",
+  "lernzielId": "MBS.2.14",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.14",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert1",
+    "typ": "formel",
+    "ausdruck": "a*b*b-2*c"
+   },
+   {
+    "name": "wert2",
+    "typ": "formel",
+    "ausdruck": "(a+c)*(b-c)"
+   },
+   {
+    "name": "wert3",
+    "typ": "formel",
+    "ausdruck": "a*a-b*c"
+   }
+  ],
+  "bedingungen": [
+   "c!=0",
+   "a!=b",
+   "a!=c",
+   "b!=c",
+   "wert1!=wert2",
+   "wert2!=wert3",
+   "wert1!=wert3",
+   "wert1<=400",
+   "wert1>=-200",
+   "wert2<=200",
+   "wert2>=-200",
+   "wert3<=200",
+   "wert3>=-200"
+  ],
+  "stamm": "Berechne den Wert der drei Formeln für a = {a}, b = {b} und c = {c}. Setze jede Zahl in Klammern ein, dann geht kein Vorzeichen verloren.",
+  "felder": [
+   {
+    "name": "wert1",
+    "label": "a · b² − 2c",
+    "ausdruck": "a*b*b-2*c",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "quadrat_auf_produkt",
+      "ausdruck": "a*a*b*b-2*c",
+      "feedback": "Quadriert wird nur b, nicht das Produkt a · b. Rechne zuerst b · b und multipliziere dann mit a."
+     },
+     {
+      "diagnoseId": "faktor_zwei_vergessen",
+      "ausdruck": "a*b*b-c",
+      "feedback": "Vor dem c steht eine 2. Abgezogen wird 2c, also {c} zweimal."
+     },
+     {
+      "diagnoseId": "minus_uebersehen",
+      "ausdruck": "a*b*b+2*c",
+      "feedback": "Zwischen den beiden Gliedern steht ein Minus. Bei negativem c wird daraus zwar ein Plus, aber erst nach dem Einsetzen."
+     }
+    ]
+   },
+   {
+    "name": "wert2",
+    "label": "(a + c) · (b − c)",
+    "ausdruck": "(a+c)*(b-c)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "klammern_addiert",
+      "ausdruck": "(a+c)+(b-c)",
+      "feedback": "Zwischen den beiden Klammern steht ein Malpunkt. Rechne jede Klammer aus und multipliziere die Ergebnisse."
+     },
+     {
+      "diagnoseId": "vorzeichen_in_klammer",
+      "ausdruck": "(a+c)*(b+c)",
+      "feedback": "In der zweiten Klammer steht ein Minus: b − c. Bei negativem c wird das zu einer Addition, aber das Vorzeichen der Formel bleibt."
+     },
+     {
+      "diagnoseId": "nur_erste_glieder",
+      "ausdruck": "a*b",
+      "feedback": "Beide Klammern müssen vollständig ausgerechnet werden. Du hast nur a mal b genommen und c beide Male weggelassen."
+     }
+    ]
+   },
+   {
+    "name": "wert3",
+    "label": "a² − b · c",
+    "ausdruck": "a*a-b*c",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "mal_zwei_statt_quadrat",
+      "ausdruck": "2*a-b*c",
+      "feedback": "a² heisst a · a, nicht 2 · a. Bei a = {a} sind das {a} mal {a}."
+     },
+     {
+      "diagnoseId": "produkt_vorzeichen",
+      "ausdruck": "a*a+b*c",
+      "feedback": "Vor dem Produkt b · c steht ein Minus. Bei negativem c ergibt b · c eine negative Zahl. Die wird abgezogen, das Ergebnis wächst also."
+     },
+     {
+      "diagnoseId": "addiert_statt_multipliziert",
+      "ausdruck": "a*a-b-c",
+      "feedback": "Zwischen b und c steht ein Malpunkt, kein Minus."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Setze jede Zahl in Klammern ein. Dann geht kein Vorzeichen verloren.",
+   "Potenzen zuerst, dann Punkt vor Strich.",
+   "Achte darauf, was quadriert wird: nur der Buchstabe direkt vor der Hochzahl."
+  ],
+  "loesungsweg": [
+   "Einsetzen: a = ({a}), b = ({b}), c = ({c}).",
+   "Erste Formel: {a} · {b}² − 2 · ({c}) = {wert1}.",
+   "Zweite Formel: ({a} + ({c})) · ({b} − ({c})) = {wert2}.",
+   "Dritte Formel: {a}² − {b} · ({c}) = {wert3}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-textgleichung",
+  "lernzielId": "MBS.2.15",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.15",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Elin"
+     ],
+     [
+      "Nuri"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Béla"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Yannis"
+     ],
+     [
+      "Delia"
+     ],
+     [
+      "Ruben"
+     ],
+     [
+      "Noor"
+     ],
+     [
+      "Kian"
+     ]
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Sammelkarten",
+      "Karten"
+     ],
+     [
+      "Bücher",
+      "Bücher"
+     ],
+     [
+      "Sticker",
+      "Sticker"
+     ],
+     [
+      "Schrauben",
+      "Schrauben"
+     ],
+     [
+      "Perlen",
+      "Perlen"
+     ],
+     [
+      "Notenblätter",
+      "Blätter"
+     ],
+     [
+      "Setzlinge",
+      "Setzlinge"
+     ],
+     [
+      "Kastanien",
+      "Kastanien"
+     ]
+    ]
+   },
+   {
+    "name": "zweit",
+    "typ": "text",
+    "texte": [
+     [
+      "Cousin"
+     ],
+     [
+      "Nachbar"
+     ],
+     [
+      "Bruder"
+     ],
+     [
+      "Trainingskollege"
+     ],
+     [
+      "Banknachbar"
+     ]
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "faktor",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "andere",
+    "typ": "formel",
+    "ausdruck": "faktor*x-d"
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "x+faktor*x-d"
+   }
+  ],
+  "bedingungen": [
+   "andere>0",
+   "total<=260",
+   "x!=d",
+   "x!=total",
+   "x!=andere",
+   "andere!=total",
+   "d!=andere",
+   "x!=faktor",
+   "d!=faktor"
+  ],
+  "stamm": "{name} und der {zweit} zählen zusammen {total} {ding}. Der {zweit} hat {faktor}-mal so viele wie {name}, aber {d} weniger als das. Wie viele {ding.1} hat {name}?",
+  "loesung": "x",
+  "gegenprobe": "(total+d)/(1+faktor)",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_dazugezaehlt",
+    "ausdruck": "(total-d)/(1+faktor)",
+    "feedback": "Die {d} werden vom {faktor}-fachen ABGEZOGEN. Wenn du die Gleichung aufstellst, steht auf der einen Seite x + {faktor}x − {d}."
+   },
+   {
+    "diagnoseId": "faktor_nicht_gezaehlt",
+    "ausdruck": "(total+d)/faktor",
+    "feedback": "Beide Anteile gehören in die Summe: der von {name} und der des anderen. Zusammen sind es x + {faktor}x, also {faktor} plus eins mal x."
+   },
+   {
+    "diagnoseId": "haelfte",
+    "ausdruck": "total/2",
+    "feedback": "Die beiden haben nicht gleich viele. Der andere hat rund {faktor}-mal so viele wie {name}."
+   },
+   {
+    "diagnoseId": "anteil_des_anderen",
+    "ausdruck": "faktor*x-d",
+    "feedback": "Das ist die Anzahl des anderen. Gefragt ist, wie viele {name} hat."
+   }
+  ],
+  "hinweise": [
+   "Nenne die gesuchte Anzahl x. Wie schreibst du damit die Anzahl des anderen auf?",
+   "Der andere hat {faktor}x − {d} Stück.",
+   "Beide zusammen ergeben {total}: x + {faktor}x − {d} = {total}."
+  ],
+  "loesungsweg": [
+   "Gesucht ist x, die Anzahl von {name}.",
+   "Der andere hat {faktor}x − {d}.",
+   "Zusammen: x + {faktor}x − {d} = {total}.",
+   "Zusammengefasst: {faktor} plus eins mal x = {total} + {d}.",
+   "Aufgelöst ergibt das x = {x}. Der andere hat {andere}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-gleichungssystem",
+  "lernzielId": "MBS.2.16",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.16",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "a2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "y",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c1",
+    "typ": "formel",
+    "ausdruck": "a1*x+b1*y"
+   },
+   {
+    "name": "c2",
+    "typ": "formel",
+    "ausdruck": "a2*x-b2*y"
+   },
+   {
+    "name": "det",
+    "typ": "formel",
+    "ausdruck": "a1*b2+a2*b1"
+   }
+  ],
+  "bedingungen": [
+   "x!=0",
+   "y!=0",
+   "x!=y",
+   "a1!=a2",
+   "b1!=b2",
+   "det!=0",
+   "c1<=110",
+   "c1>=-110",
+   "c2<=110",
+   "c2>=-110",
+   "c1!=c2",
+   "a1!=b1",
+   "a2!=b2",
+   "x!=c1",
+   "y!=c2"
+  ],
+  "stamm": "Bestimme x und y aus dem Gleichungssystem.\n\nI.   {a1}x + {b1}y = {c1}\nII.  {a2}x − {b2}y = {c2}",
+  "felder": [
+   {
+    "name": "x",
+    "label": "x",
+    "ausdruck": "x",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "y_eingetragen",
+      "ausdruck": "y",
+      "feedback": "Du hast den Wert von y in das x-Feld geschrieben. Prüfe, welche Variable du zuletzt ausgerechnet hast."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-x",
+      "feedback": "Der Betrag stimmt, das Vorzeichen nicht. Achte beim Additionsverfahren darauf, dass in Gleichung II ein Minus vor dem y-Glied steht."
+     },
+     {
+      "diagnoseId": "nenner_falsch",
+      "ausdruck": "(c1*b2+c2*b1)/(a1*b2-a2*b1)",
+      "feedback": "Im Nenner steht die Summe {a1} · {b2} + {a2} · {b1}, weil das eine y-Glied positiv und das andere negativ ist. Eine Differenz käme nur bei gleichen Vorzeichen heraus."
+     }
+    ]
+   },
+   {
+    "name": "y",
+    "label": "y",
+    "ausdruck": "y",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "x_eingetragen",
+      "ausdruck": "x",
+      "feedback": "Das ist der Wert von x. Setze ihn in eine der beiden Gleichungen ein, um y zu bekommen."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-y",
+      "feedback": "Das Vorzeichen ist gekippt. In Gleichung II steht «− {b2}y», beim Umstellen kehrt sich das Vorzeichen noch einmal um."
+     },
+     {
+      "diagnoseId": "falscher_nenner",
+      "ausdruck": "(a2*x-c2)/b1",
+      "feedback": "Geteilt wird durch den Koeffizienten aus derselben Gleichung. In Gleichung II steht {b2} vor dem y, nicht {b1}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welches Verfahren passt hier am besten. Einsetzen, Gleichsetzen oder Addieren?",
+   "Multipliziere Gleichung I mit {b2} und Gleichung II mit {b1}, dann heben sich die y-Glieder beim Addieren auf.",
+   "Hast du x, setzt du es in eine der beiden Gleichungen ein und löst nach y auf."
+  ],
+  "loesungsweg": [
+   "Gleichung I mal {b2}, Gleichung II mal {b1}.",
+   "Die y-Glieder sind dann {b1} · {b2}y und −{b1} · {b2}y, beim Addieren fallen sie weg.",
+   "Übrig bleibt ({a1} · {b2} + {a2} · {b1}) · x = {det} · x.",
+   "Das ergibt x = {x}.",
+   "Einsetzen in I: {a1} · {x} + {b1}y = {c1}, also y = {y}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "bs-figurenfolge-bs",
+  "lernzielId": "MBS.2.17",
+  "fach": "mathematik-bs",
+  "unterthemen": [
+   "2.17",
+   "2.14"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "schritt",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "nr",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "material",
+    "typ": "text",
+    "texte": [
+     [
+      "Streichhölzern"
+     ],
+     [
+      "Zahnstochern"
+     ],
+     [
+      "Bauklötzen"
+     ],
+     [
+      "Plättchen"
+     ],
+     [
+      "Magnetstäben"
+     ],
+     [
+      "Klebepunkten"
+     ]
+    ]
+   },
+   {
+    "name": "f1",
+    "typ": "formel",
+    "ausdruck": "start"
+   },
+   {
+    "name": "f2",
+    "typ": "formel",
+    "ausdruck": "start+schritt"
+   },
+   {
+    "name": "f3",
+    "typ": "formel",
+    "ausdruck": "start+2*schritt"
+   },
+   {
+    "name": "gesucht",
+    "typ": "formel",
+    "ausdruck": "start+(nr-1)*schritt"
+   },
+   {
+    "name": "konstante",
+    "typ": "formel",
+    "ausdruck": "start-schritt"
+   }
+  ],
+  "bedingungen": [
+   "start!=schritt",
+   "gesucht<=180",
+   "f3!=nr",
+   "gesucht!=nr",
+   "konstante!=0",
+   "f1!=schritt",
+   "f2!=nr",
+   "konstante!=schritt"
+  ],
+  "stamm": "Aus {material} werden Figuren gelegt. Figur 1 braucht {f1} Stück, Figur 2 braucht {f2}, Figur 3 braucht {f3}. So geht es weiter.",
+  "felder": [
+   {
+    "name": "gesucht",
+    "label": "Stückzahl für Figur {nr}",
+    "ausdruck": "start+(nr-1)*schritt",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "start_mitgezaehlt",
+      "ausdruck": "start+nr*schritt",
+      "feedback": "Von Figur 1 zu Figur {nr} sind es {nr} minus eins Schritte, nicht {nr}. Figur 1 hat noch keinen Schritt hinter sich."
+     },
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "start*nr",
+      "feedback": "Die Zahl wächst nicht um ein Vielfaches, sondern immer um denselben Betrag: von Figur zu Figur kommen {schritt} Stück dazu."
+     },
+     {
+      "diagnoseId": "nur_der_schritt",
+      "ausdruck": "nr*schritt",
+      "feedback": "Der Startwert fehlt. Figur 1 hat schon {f1} Stück, bevor überhaupt ein Schritt dazukommt."
+     }
+    ]
+   },
+   {
+    "name": "schritt",
+    "label": "Wie viele Stück kommen von Figur zu Figur dazu?",
+    "ausdruck": "schritt",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "startwert",
+      "ausdruck": "start",
+      "feedback": "Das ist die Stückzahl von Figur 1. Gefragt ist, wie viele bei jedem Schritt DAZUKOMMEN, also die Differenz zweier Figuren."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "start+schritt",
+      "feedback": "Das ist die Stückzahl von Figur 2. Der Zuwachs ist die Differenz zwischen Figur 2 und Figur 1."
+     },
+     {
+      "diagnoseId": "verhaeltnis",
+      "ausdruck": "f2/f1",
+      "feedback": "Die Folge wächst nicht um einen Faktor, sondern um einen festen Betrag. Rechne {f2} − {f1}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Stück kommen von einer Figur zur nächsten dazu?",
+   "Von {f1} auf {f2} sind es {schritt} Stück, und weiter immer dieselben {schritt}.",
+   "Für Figur n gilt: Startwert plus (n − 1) mal der Zuwachs."
+  ],
+  "loesungsweg": [
+   "Der Zuwachs ist {f2} − {f1} = {schritt}.",
+   "Von Figur 1 bis Figur {nr} sind es {nr} − 1 Schritte.",
+   "Also {f1} + ({nr} − 1) · {schritt} = {gesucht} Stück.",
+   "Als Term für die allgemeine Figur n: {schritt}n + {konstante}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen März 2021 und März 2022 sowie die Prüfungsanforderungen Mathematik 2026; Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

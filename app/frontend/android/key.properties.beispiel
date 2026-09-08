@@ -1,0 +1,13 @@
+# Nach `android/key.properties` kopieren und ausfuellen. Diese Datei und der
+# Schluessel gehoeren NICHT ins Repository.
+#
+# Schluessel erzeugen (einmalig, und dann sicher aufbewahren — ohne ihn
+# laesst sich die App im Play Store nie wieder aktualisieren):
+#
+#   keytool -genkey -v -keystore ~/studyswiss-upload.jks \
+#           -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+storeFile=/absoluter/pfad/zu/studyswiss-upload.jks
+storePassword=
+keyAlias=upload
+keyPassword=

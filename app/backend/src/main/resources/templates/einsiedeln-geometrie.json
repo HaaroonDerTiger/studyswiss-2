@@ -1,0 +1,381 @@
+[
+ {
+  "templateId": "ein-figuren-koerper",
+  "lernzielId": "GEI.1.01",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.01",
+   "1.06",
+   "1.09",
+   "1.10"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zähle bei einem Körper zuerst die Flächen, dann die Kanten und Ecken.",
+   "Ein Netz muss sich ohne Überlappung zum Körper falten lassen.",
+   "Parallele Linien haben überall denselben Abstand; senkrechte treffen sich im rechten Winkel."
+  ],
+  "loesungsweg": [
+   "Den Körper oder die Figur benennen.",
+   "Flächen, Kanten und Ecken zählen.",
+   "Beim Netz prüfen, ob die Anzahl stimmt.",
+   "Zur Probe im Kopf falten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie heisst ein Körper mit sechs gleich grossen quadratischen Flächen?",
+    "optionen": [
+     "Würfel",
+     "Quader",
+     "Pyramide",
+     "Zylinder"
+    ],
+    "loesung": [
+     "Würfel"
+    ],
+    "erklaerung": "Beim Würfel sind alle sechs Flächen Quadrate von gleicher Grösse.",
+    "fehler": [
+     {
+      "antwort": "Quader",
+      "diagnoseId": "koerper",
+      "feedback": "Beim Quader sind die Flächen Rechtecke und meist verschieden gross."
+     },
+     {
+      "antwort": "Pyramide",
+      "diagnoseId": "koerper",
+      "feedback": "Eine Pyramide hat Dreiecke als Seitenflächen und läuft in einer Spitze zusammen."
+     },
+     {
+      "antwort": "Zylinder",
+      "diagnoseId": "koerper",
+      "feedback": "Ein Zylinder hat zwei runde Flächen und keine Ecken."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Körper hat zwei kreisförmige Flächen?",
+    "optionen": [
+     "Zylinder",
+     "Kugel",
+     "Würfel",
+     "Pyramide"
+    ],
+    "loesung": [
+     "Zylinder"
+    ],
+    "erklaerung": "Der Zylinder hat oben und unten je einen Kreis und dazwischen eine gebogene Fläche.",
+    "fehler": [
+     {
+      "antwort": "Kugel",
+      "diagnoseId": "koerper",
+      "feedback": "Die Kugel hat gar keine ebene Fläche und darum auch keine Kreisflächen."
+     },
+     {
+      "antwort": "Würfel",
+      "diagnoseId": "koerper",
+      "feedback": "Der Würfel hat sechs quadratische Flächen."
+     },
+     {
+      "antwort": "Pyramide",
+      "diagnoseId": "koerper",
+      "feedback": "Die Pyramide hat eine ebene Grundfläche und Dreiecke ringsum."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Kanten hat ein Quader?",
+    "optionen": [
+     "12",
+     "8",
+     "6",
+     "4"
+    ],
+    "loesung": [
+     "12"
+    ],
+    "erklaerung": "Ein Quader hat zwölf Kanten: je vier in drei Richtungen.",
+    "fehler": [
+     {
+      "antwort": "8",
+      "diagnoseId": "ecken",
+      "feedback": "Acht ist die Anzahl der Ecken eines Quaders."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechen",
+      "feedback": "Sechs ist die Anzahl der Flächen eines Quaders."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Vier Kanten hat allein die Grundfläche; oben und an den Seiten kommen weitere dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Aus wie vielen Quadraten besteht das Netz eines Würfels?",
+    "optionen": [
+     "6",
+     "4",
+     "8",
+     "12"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Der Würfel hat sechs Flächen; abgewickelt ergibt das sechs Quadrate.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "mantel",
+      "feedback": "Vier Quadrate ergeben nur den Mantel; Grund- und Deckfläche fehlen."
+     },
+     {
+      "antwort": "8",
+      "diagnoseId": "ecken",
+      "feedback": "Acht ist die Anzahl der Ecken des Würfels."
+     },
+     {
+      "antwort": "12",
+      "diagnoseId": "kanten",
+      "feedback": "Zwölf ist die Anzahl der Kanten eines Würfels, nicht die der Flächen."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus sechs Quadraten in einer geraden Reihe. Lässt es sich falten?",
+    "optionen": [
+     "Nein",
+     "Ja"
+    ],
+    "loesung": [
+     "Nein"
+    ],
+    "erklaerung": "In einer Reihe entsteht beim Falten ein Ring; Grund- und Deckfläche fehlen, zwei Quadrate liegen doppelt.",
+    "fehler": [
+     {
+      "antwort": "Ja",
+      "diagnoseId": "zaehlung",
+      "feedback": "Die Anzahl stimmt zwar, die Anordnung aber nicht: In einer Reihe schliesst sich der Würfel nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie nennt man einen Winkel von genau 90°?",
+    "optionen": [
+     "rechter Winkel",
+     "spitzer Winkel",
+     "stumpfer Winkel",
+     "gestreckter Winkel"
+    ],
+    "loesung": [
+     "rechter Winkel"
+    ],
+    "erklaerung": "Ein Winkel von 90° heisst rechter Winkel und wird mit einem kleinen Quadrat gekennzeichnet.",
+    "fehler": [
+     {
+      "antwort": "spitzer Winkel",
+      "diagnoseId": "winkel",
+      "feedback": "Ein spitzer Winkel ist kleiner als 90° und heisst darum nicht rechter Winkel."
+     },
+     {
+      "antwort": "stumpfer Winkel",
+      "diagnoseId": "winkel",
+      "feedback": "Ein stumpfer Winkel liegt zwischen 90° und 180°."
+     },
+     {
+      "antwort": "gestreckter Winkel",
+      "diagnoseId": "winkel",
+      "feedback": "Ein gestreckter Winkel misst 180° und bildet eine gerade Linie."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie gross ist ein gestreckter Winkel?",
+    "optionen": [
+     "180°",
+     "90°",
+     "360°",
+     "45°"
+    ],
+    "loesung": [
+     "180°"
+    ],
+    "erklaerung": "Ein gestreckter Winkel bildet eine gerade Linie und misst 180°.",
+    "fehler": [
+     {
+      "antwort": "90°",
+      "diagnoseId": "winkel",
+      "feedback": "90° ist der rechte Winkel; der gestreckte Winkel ist doppelt so gross."
+     },
+     {
+      "antwort": "360°",
+      "diagnoseId": "winkel",
+      "feedback": "360° ist die volle Drehung; der gestreckte Winkel ist die halbe Drehung."
+     },
+     {
+      "antwort": "45°",
+      "diagnoseId": "winkel",
+      "feedback": "45° ist die Hälfte eines rechten Winkels."
+     }
+    ]
+   },
+   {
+    "stamm": "Zwei Linien haben überall denselben Abstand. Wie heissen sie?",
+    "optionen": [
+     "parallel",
+     "senkrecht",
+     "schräg",
+     "gekrümmt"
+    ],
+    "loesung": [
+     "parallel"
+    ],
+    "erklaerung": "Parallele Linien treffen sich nie und haben überall denselben Abstand.",
+    "fehler": [
+     {
+      "antwort": "senkrecht",
+      "diagnoseId": "begriff",
+      "feedback": "Senkrechte Linien treffen sich im rechten Winkel."
+     },
+     {
+      "antwort": "schräg",
+      "diagnoseId": "begriff",
+      "feedback": "Schräge Linien laufen aufeinander zu und treffen sich irgendwo."
+     },
+     {
+      "antwort": "gekrümmt",
+      "diagnoseId": "begriff",
+      "feedback": "Gekrümmte Linien sind keine Geraden; von einem gleichen Abstand lässt sich da nicht reden."
+     }
+    ]
+   },
+   {
+    "stamm": "Womit misst man einen Winkel?",
+    "optionen": [
+     "mit dem Geodreieck",
+     "mit dem Zirkel",
+     "mit dem Massband",
+     "mit der Waage"
+    ],
+    "loesung": [
+     "mit dem Geodreieck"
+    ],
+    "erklaerung": "Das Geodreieck trägt die Gradeinteilung, mit der sich Winkel messen lassen.",
+    "fehler": [
+     {
+      "antwort": "mit dem Zirkel",
+      "diagnoseId": "werkzeug",
+      "feedback": "Der Zirkel überträgt Abstände und zeichnet Kreise, er misst keine Grad."
+     },
+     {
+      "antwort": "mit dem Massband",
+      "diagnoseId": "werkzeug",
+      "feedback": "Ein Massband misst Längen, keine Winkel."
+     },
+     {
+      "antwort": "mit der Waage",
+      "diagnoseId": "werkzeug",
+      "feedback": "Eine Waage misst die Masse in Gramm, nicht Winkel in Grad."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Ecken hat ein Würfel?",
+    "optionen": [
+     "8",
+     "6",
+     "12",
+     "4"
+    ],
+    "loesung": [
+     "8"
+    ],
+    "erklaerung": "Ein Würfel hat acht Ecken, vier unten und vier oben.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechen",
+      "feedback": "Sechs ist die Anzahl der Flächen des Würfels."
+     },
+     {
+      "antwort": "12",
+      "diagnoseId": "kanten",
+      "feedback": "Zwölf ist die Anzahl der Kanten eines Würfels, nicht die der Flächen."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Vier Ecken hat allein die Grundfläche; oben kommen noch einmal vier dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Figur hat vier gleich lange Seiten und vier rechte Winkel?",
+    "optionen": [
+     "Quadrat",
+     "Rechteck",
+     "Rhombus",
+     "Trapez"
+    ],
+    "loesung": [
+     "Quadrat"
+    ],
+    "erklaerung": "Beim Quadrat sind alle Seiten gleich lang und alle Winkel rechte.",
+    "fehler": [
+     {
+      "antwort": "Rechteck",
+      "diagnoseId": "figur",
+      "feedback": "Das Rechteck hat vier rechte Winkel, aber nur die gegenüberliegenden Seiten sind gleich lang."
+     },
+     {
+      "antwort": "Rhombus",
+      "diagnoseId": "figur",
+      "feedback": "Der Rhombus hat vier gleich lange Seiten, aber nicht unbedingt rechte Winkel."
+     },
+     {
+      "antwort": "Trapez",
+      "diagnoseId": "figur",
+      "feedback": "Beim Trapez sind nur zwei Seiten parallel."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Symmetrieachsen hat ein Quadrat?",
+    "optionen": [
+     "vier",
+     "zwei",
+     "eine",
+     "acht"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "Zwei Achsen durch die Seitenmitten und zwei durch die Ecken — zusammen vier.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Zwei Achsen hat das Rechteck; beim Quadrat kommen die beiden Diagonalen dazu."
+     },
+     {
+      "antwort": "eine",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Eine einzige Achse hat zum Beispiel ein gleichschenkliges Dreieck."
+     },
+     {
+      "antwort": "acht",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Acht Achsen gibt es beim regelmässigen Achteck, nicht beim Quadrat."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Figuren, Körper, Netze und Linien",
+  "status": "review"
+ }
+]

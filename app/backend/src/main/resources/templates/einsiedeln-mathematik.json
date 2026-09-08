@@ -1,0 +1,3348 @@
+[
+ {
+  "templateId": "ein-punkt-vor-strich",
+  "lernzielId": "MEI.1.01",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a+(b-c)*d"
+   }
+  ],
+  "bedingungen": [
+   "b>c",
+   "wert<220",
+   "wert!=a",
+   "wert!=b",
+   "wert!=c",
+   "wert!=d",
+   "(b-c)*d!=a",
+   "b-c!=d",
+   "b-c>1"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\n{a} + ({b} − {c}) · {d} =",
+  "loesung": "a+(b-c)*d",
+  "gegenprobe": "a+(b*d-c*d)",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a+b-c)*d",
+    "feedback": "Die Klammer wird zuerst ausgerechnet und danach mit {d} multipliziert. Die {a} gehört nicht in die Klammer."
+   },
+   {
+    "diagnoseId": "ohne_klammer",
+    "ausdruck": "a+b-c*d",
+    "feedback": "Ohne Klammer würde nur {c} mit {d} multipliziert. Die Klammer fasst beide Zahlen zu einem Faktor zusammen."
+   },
+   {
+    "diagnoseId": "subtrahiert",
+    "ausdruck": "a-(b-c)*d",
+    "feedback": "Vor dem Produkt steht ein Pluszeichen; das Ergebnis wird dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechnung kommt zuerst dran?",
+   "Zuerst die Klammer, dann die Multiplikation.",
+   "Ganz zum Schluss wird {a} dazugezählt."
+  ],
+  "loesungsweg": [
+   "Klammer: {b} − {c}.",
+   "Das Ergebnis mit {d} multiplizieren.",
+   "Dazu {a} addieren.",
+   "Es ergibt sich {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-teiler",
+  "lernzielId": "MEI.1.03",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "loesungsmenge",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     8,
+     9,
+     10,
+     12,
+     14,
+     15,
+     16,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*p"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*q"
+   }
+  ],
+  "bedingungen": [
+   "ggt(p,q)==1",
+   "ggt(g,p)==1",
+   "ggt(g,q)==1",
+   "a<=160",
+   "b<=160",
+   "a!=b",
+   "p!=q"
+  ],
+  "stamm": "{name} sucht alle Zahlen von 1 bis 20, durch die sowohl {a} als auch {b} ohne Rest teilbar sind.\n\nWähle alle aus.",
+  "fehler": [
+   {
+    "diagnoseId": "nur_erste_zahl",
+    "feedback": "Du hast Teiler von {a} gewählt, die {b} nicht teilen. Gefragt sind nur die Zahlen, die in beiden aufgehen — probiere jede an beiden aus.",
+    "kurz": "nur Teiler von {a}",
+    "bedingung": "a % k == 0"
+   },
+   {
+    "diagnoseId": "nur_zweite_zahl",
+    "feedback": "Du hast Teiler von {b} gewählt, die {a} nicht teilen. Ein gemeinsamer Teiler muss in beiden Zahlen ohne Rest aufgehen.",
+    "kurz": "nur Teiler von {b}",
+    "bedingung": "b % k == 0"
+   },
+   {
+    "diagnoseId": "nur_primzahlen",
+    "feedback": "Du hast nur die Primzahlen darunter gewählt. Auch zusammengesetzte Zahlen wie 4, 6 oder 12 können gemeinsame Teiler sein, und die 1 teilt jede Zahl.",
+    "kurz": "Primteiler allein",
+    "bedingung": "a % k == 0 && b % k == 0 && (k==2||k==3||k==5||k==7||k==11||k==13||k==17||k==19)"
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl teilt jede der beiden Zahlen bestimmt?",
+   "Die 1 gehört immer dazu. Prüfe danach 2, 3, 4 und so weiter.",
+   "Eine Zahl gehört nur dann dazu, wenn sie in beiden ohne Rest aufgeht."
+  ],
+  "loesungsweg": [
+   "Zuerst alle Teiler von {a} bis 20 aufschreiben.",
+   "Dann prüfen, welche davon auch {b} teilen.",
+   "Die 1 nicht vergessen.",
+   "Übrig bleiben die gemeinsamen Teiler."
+  ],
+  "loesungsmenge": {
+   "kandidatenVariable": "k",
+   "von": "1",
+   "bis": "20",
+   "bedingung": "a % k == 0 && b % k == 0"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-brueche-addieren",
+  "lernzielId": "MEI.1.05",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.05",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=60",
+   "((p*b+q*a)%(a*b))!=0",
+   "wert<2",
+   "p/a!=q/b"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner. Berechne und kürze so weit wie möglich.\n\n{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} =",
+  "loesung": "p/a+q/b",
+  "gegenprobe": "(p*b+q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "ueber_kreuz",
+    "ausdruck": "(p+q)/(a+b)",
+    "feedback": "Zähler zu Zähler und Nenner zu Nenner ergibt einen falschen Wert: Sonst wäre ein Halbes plus ein Halbes zwei Viertel."
+   },
+   {
+    "diagnoseId": "nenner_beibehalten",
+    "ausdruck": "(p+q)/a",
+    "feedback": "Die Nenner sind verschieden; erst nach dem Erweitern dürfen die Zähler addiert werden."
+   },
+   {
+    "diagnoseId": "multipliziert",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Das wäre das Produkt der beiden Brüche; zwischen ihnen steht ein Plus."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie addiert?",
+   "Denselben Nenner.",
+   "Erweitere beide auf {a} · {b} und addiere dann nur die Zähler."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern.",
+   "Zähler addieren.",
+   "Kürzen ergibt {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-bruch-mal-ganz",
+  "lernzielId": "MEI.1.06",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.06",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "einer Torte"
+     ],
+     [
+      "einer Tafel Schokolade"
+     ],
+     [
+      "eines Kuchens"
+     ],
+     [
+      "einer Pizza"
+     ],
+     [
+      "eines Blechs"
+     ],
+     [
+      "eines Kartons"
+     ],
+     [
+      "einer Packung"
+     ],
+     [
+      "eines Bogens"
+     ],
+     [
+      "einer Rolle"
+     ],
+     [
+      "einer Tafel"
+     ],
+     [
+      "eines Rahmens"
+     ],
+     [
+      "einer Platte"
+     ]
+    ]
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "z*m/n"
+   }
+  ],
+  "bedingungen": [
+   "z<n",
+   "ggt(z,n)==1",
+   "wert>1",
+   "wert<9",
+   "(z*m)%n!=0",
+   "m!=n",
+   "z!=m"
+  ],
+  "stamm": "{name} nimmt {m}-mal {z:hoch}⁄{n:tief} {sache}.\n\nWie viel ist das zusammen? Kürze so weit wie möglich.",
+  "loesung": "z*m/n",
+  "gegenprobe": "(z/n)*m",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_mal",
+    "ausdruck": "z/(n*m)",
+    "feedback": "Multipliziert wird nur der Zähler. Der Nenner sagt, in wie viele Teile das Ganze zerlegt ist, und daran ändert sich nichts."
+   },
+   {
+    "diagnoseId": "beide_mal",
+    "ausdruck": "z*m/(n*m)",
+    "feedback": "Wer Zähler und Nenner mit derselben Zahl multipliziert, erweitert nur — der Wert bleibt gleich."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(z+m)/n",
+    "feedback": "Aus «{m}-mal» wird eine Multiplikation, keine Addition im Zähler."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet «{m}-mal ein Bruchteil»?",
+   "Der Bruch wird {m}-mal genommen.",
+   "Nur der Zähler wird mit {m} multipliziert."
+  ],
+  "loesungsweg": [
+   "{z} mal {m} ergibt den neuen Zähler.",
+   "Der Nenner bleibt {n}.",
+   "Kürzen, falls möglich.",
+   "Es ergibt sich {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-dezimal-rechnen",
+  "lernzielId": "MEI.1.07",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.07",
+   "1.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 980,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 15,
+    "bis": 95,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "az",
+    "typ": "formel",
+    "ausdruck": "a/10"
+   },
+   {
+    "name": "bz",
+    "typ": "formel",
+    "ausdruck": "b/10"
+   },
+   {
+    "name": "ah",
+    "typ": "formel",
+    "ausdruck": "a/100"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "(a+b)/10"
+   },
+   {
+    "name": "produkt",
+    "typ": "formel",
+    "ausdruck": "a*c/100"
+   }
+  ],
+  "bedingungen": [
+   "a%10!=0",
+   "b%10!=0",
+   "summe!=produkt",
+   "produkt>3",
+   "produkt<90",
+   "a!=b",
+   "c!=b"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner mit den Zahlen {az:dezimal1} und {bz:dezimal1}.\n\nBerechne die Summe der beiden Zahlen und das Produkt aus {ah:dezimal2} und {c}.",
+  "felder": [
+   {
+    "name": "summe",
+    "label": "Summe",
+    "ausdruck": "(a+b)/10",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "komma_ignoriert",
+      "ausdruck": "a+b",
+      "feedback": "Beim Addieren stehen die Kommas untereinander. Hier ist mit ganzen Zahlen gerechnet worden."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "(a-b)/10",
+      "feedback": "Gefragt ist die Summe, also das Ergebnis einer Addition."
+     },
+     {
+      "diagnoseId": "falsche_stelle",
+      "ausdruck": "(a+b)/100",
+      "feedback": "Das Komma steht eine Stelle zu weit links; vergleiche mit den Ausgangszahlen."
+     }
+    ]
+   },
+   {
+    "name": "produkt",
+    "label": "Produkt",
+    "ausdruck": "a*c/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_komma",
+      "ausdruck": "a*c",
+      "feedback": "Nach dem Multiplizieren wird das Komma gesetzt: So viele Stellen wie in beiden Faktoren zusammen."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "(a/100)+c",
+      "feedback": "Gefragt ist das Produkt, also eine Multiplikation."
+     },
+     {
+      "diagnoseId": "eine_stelle",
+      "ausdruck": "a*c/10",
+      "feedback": "Der erste Faktor hat zwei Stellen nach dem Komma; das Ergebnis ebenfalls."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie stehen die Zahlen beim schriftlichen Addieren untereinander?",
+   "Komma unter Komma.",
+   "Beim Multiplizieren wird zuerst ohne Komma gerechnet und erst am Schluss gesetzt."
+  ],
+  "loesungsweg": [
+   "Die beiden Zahlen mit dem Komma untereinander addieren.",
+   "Das ergibt {summe:dezimal2}.",
+   "Für das Produkt zuerst ohne Komma rechnen.",
+   "Dann so viele Stellen abtrennen wie in beiden Faktoren zusammen: {produkt:dezimal2}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-runden",
+  "lernzielId": "MEI.1.10",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.10",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 980,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "geraet",
+    "typ": "text",
+    "texte": [
+     [
+      "der Schrittzähler"
+     ],
+     [
+      "der Kilometerzähler"
+     ],
+     [
+      "der Besucherzähler"
+     ],
+     [
+      "der Stromzähler"
+     ],
+     [
+      "der Wasserzähler"
+     ],
+     [
+      "die Anzeige an der Kasse"
+     ],
+     [
+      "der Zähler an der Tür"
+     ],
+     [
+      "das Zählwerk"
+     ],
+     [
+      "die Anzeige der Waage in Gramm"
+     ],
+     [
+      "der Zähler der Druckmaschine"
+     ],
+     [
+      "die Anzeige am Automaten"
+     ],
+     [
+      "der Rundenzähler"
+     ]
+    ]
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "h*10+d"
+   },
+   {
+    "name": "zehner",
+    "typ": "formel",
+    "ausdruck": "(h+(d>=5 ? 1 : 0))*10"
+   },
+   {
+    "name": "hundert",
+    "typ": "formel",
+    "ausdruck": "floor((h*10+d+50)/100)*100"
+   }
+  ],
+  "bedingungen": [
+   "h%10!=0",
+   "zehner!=hundert",
+   "zehner!=wert",
+   "hundert!=wert",
+   "d!=5",
+   "hundert>0"
+  ],
+  "stamm": "{name} liest ab: {geraet} zeigt den Wert {wert}.\n\nRunde diesen Wert auf Zehner und auf Hunderter.",
+  "felder": [
+   {
+    "name": "zehner",
+    "label": "auf Zehner gerundet",
+    "ausdruck": "(h+(d>=5 ? 1 : 0))*10",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "h*10",
+      "feedback": "Beim Runden entscheidet die Einerziffer: Ab 5 wird aufgerundet, sonst abgerundet. Einfach abschneiden genügt nicht."
+     },
+     {
+      "diagnoseId": "immer_auf",
+      "ausdruck": "(h+1)*10",
+      "feedback": "Aufgerundet wird nur, wenn die Einerziffer 5 oder grösser ist."
+     },
+     {
+      "diagnoseId": "auf_hunderter",
+      "ausdruck": "floor((h*10+d+50)/100)*100",
+      "feedback": "Das ist auf Hunderter gerundet. Beim Runden auf Zehner bleibt die Zehnerstelle erhalten."
+     }
+    ]
+   },
+   {
+    "name": "hundert",
+    "label": "auf Hunderter gerundet",
+    "ausdruck": "floor((h*10+d+50)/100)*100",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "floor((h*10+d)/100)*100",
+      "feedback": "Beim Runden auf Hunderter entscheidet die Zehnerziffer: Ab 5 wird aufgerundet."
+     },
+     {
+      "diagnoseId": "auf_zehner",
+      "ausdruck": "(h+(d>=5 ? 1 : 0))*10",
+      "feedback": "Das ist auf Zehner gerundet; verlangt ist die nächstgrössere Stufe."
+     },
+     {
+      "diagnoseId": "immer_auf",
+      "ausdruck": "floor((h*10+d)/100)*100+100",
+      "feedback": "Aufgerundet wird nur, wenn die Zehnerziffer 5 oder grösser ist."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Ziffer entscheidet beim Runden auf Zehner?",
+   "Die Einerziffer: ab 5 aufwärts.",
+   "Beim Runden auf Hunderter entscheidet die Zehnerziffer."
+  ],
+  "loesungsweg": [
+   "Für die Zehner die Einerziffer anschauen.",
+   "Ab 5 aufrunden, sonst abrunden: {zehner}.",
+   "Für die Hunderter die Zehnerziffer anschauen.",
+   "Das ergibt {hundert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-groessen",
+  "lernzielId": "MEI.2.01",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 125,
+    "bis": 9750,
+    "schritt": 25
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 250,
+    "bis": 9500,
+    "schritt": 25
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wanderweg"
+     ],
+     [
+      "ein Waldweg"
+     ],
+     [
+      "eine Laufstrecke"
+     ],
+     [
+      "ein Uferweg"
+     ],
+     [
+      "ein Schulweg"
+     ],
+     [
+      "ein Rundweg"
+     ],
+     [
+      "ein Feldweg"
+     ],
+     [
+      "ein Panoramaweg"
+     ],
+     [
+      "eine Zufahrt"
+     ],
+     [
+      "ein Radweg"
+     ],
+     [
+      "ein Verbindungsweg"
+     ],
+     [
+      "ein Höhenweg"
+     ]
+    ]
+   },
+   {
+    "name": "km",
+    "typ": "formel",
+    "ausdruck": "m/1000"
+   },
+   {
+    "name": "kg",
+    "typ": "formel",
+    "ausdruck": "g/1000"
+   }
+  ],
+  "bedingungen": [
+   "m%1000!=0",
+   "g%1000!=0",
+   "m!=g",
+   "km!=kg"
+  ],
+  "stamm": "Auf einem Plan steht, dass {weg} {m} m lang ist und dass unterwegs {g} g Salz gestreut werden.\n\nSchreibe beide Angaben in der grösseren Einheit: die Länge in Kilometern, die Masse in Kilogramm.",
+  "felder": [
+   {
+    "name": "km",
+    "label": "Länge in km",
+    "ausdruck": "m/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "m/100",
+      "feedback": "Ein Kilometer sind 1000 Meter, nicht 100. Das Komma wandert um drei Stellen."
+     },
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "m*1000",
+      "feedback": "Von der kleineren zur grösseren Einheit wird geteilt; die Zahl muss kleiner werden."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "m/10",
+      "feedback": "Das Komma ist nur um eine Stelle gewandert. Von Metern zu Kilometern sind es drei."
+     }
+    ]
+   },
+   {
+    "name": "kg",
+    "label": "Masse in kg",
+    "ausdruck": "g/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "g/100",
+      "feedback": "Ein Kilogramm sind 1000 Gramm. Geteilt wird durch 1000."
+     },
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "g*1000",
+      "feedback": "Beim Wechsel zur grösseren Einheit wird die Zahl kleiner, nicht grösser."
+     },
+     {
+      "diagnoseId": "wie_meter",
+      "ausdruck": "g/10",
+      "feedback": "Auch bei der Masse sind es drei Stellen: 1000 g ergeben 1 kg."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Meter sind ein Kilometer?",
+   "1000 — beim Wechsel wandert das Komma um drei Stellen.",
+   "Bei Gramm und Kilogramm gilt dieselbe Zahl."
+  ],
+  "loesungsweg": [
+   "{m} m durch 1000 teilen.",
+   "Das ergibt {km} km.",
+   "{g} g durch 1000 teilen.",
+   "Das ergibt {kg} kg."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-zeit-geld",
+  "lernzielId": "MEI.2.02",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.02",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "h1",
+    "typ": "ganzzahl",
+    "von": 7,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "m1",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     35,
+     40,
+     45,
+     50,
+     55
+    ]
+   },
+   {
+    "name": "dh",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     35,
+     40,
+     45,
+     50,
+     55
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "anzahl",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ins Klosterdorf"
+     ],
+     [
+      "an den See"
+     ],
+     [
+      "zur Alp"
+     ],
+     [
+      "ins Nachbardorf"
+     ],
+     [
+      "auf den Hügel"
+     ],
+     [
+      "zur Waldhütte"
+     ],
+     [
+      "zum Bahnhof"
+     ],
+     [
+      "in die Stadt"
+     ],
+     [
+      "zum Aussichtspunkt"
+     ],
+     [
+      "zur Kapelle"
+     ],
+     [
+      "ans Ufer"
+     ],
+     [
+      "zum Sportplatz"
+     ]
+    ]
+   },
+   {
+    "name": "h2",
+    "typ": "formel",
+    "ausdruck": "h1+dh"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "(h1+dh)*60+m2-(h1*60+m1)"
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "preis*anzahl"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "dauer>45",
+   "dauer<230",
+   "h2<15",
+   "dauer!=m1",
+   "dauer!=m2",
+   "total<90",
+   "total!=dauer",
+   "preis!=anzahl"
+  ],
+  "stamm": "Eine Wandergruppe geht {ort}. Sie startet um {h1}:{m1} Uhr und kommt um {h2}:{m2} Uhr an. Unterwegs kauft jede der {anzahl} Personen ein Getränk zu {preis} Fr.\n\nWie lange dauert die Wanderung in Minuten, und wie viel kosten die Getränke zusammen?",
+  "felder": [
+   {
+    "name": "dauer",
+    "label": "Dauer in Minuten",
+    "ausdruck": "(h1+dh)*60+m2-(h1*60+m1)",
+    "fehler": [
+     {
+      "diagnoseId": "minuten_falsch",
+      "ausdruck": "dh*60+abs(m2-m1)",
+      "feedback": "Wenn die Ankunftsminuten kleiner sind als die Startminuten, darf man nicht einfach die kleinere von der grösseren abziehen — dann fehlt der Übertrag aus der Stunde."
+     },
+     {
+      "diagnoseId": "nur_stunden",
+      "ausdruck": "dh*60",
+      "feedback": "Die vollen Stunden allein genügen nicht; die Minuten gehören dazu."
+     },
+     {
+      "diagnoseId": "vermischt",
+      "ausdruck": "dh+m2-m1",
+      "feedback": "Hier sind Stunden und Minuten vermischt worden. Rechne alles in Minuten um, bevor du subtrahierst."
+     }
+    ]
+   },
+   {
+    "name": "total",
+    "label": "Kosten in Fr.",
+    "ausdruck": "preis*anzahl",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "preis+anzahl",
+      "feedback": "Jede Person zahlt {preis} Fr.; die Beträge werden multipliziert, nicht addiert."
+     },
+     {
+      "diagnoseId": "eine_person",
+      "ausdruck": "preis",
+      "feedback": "Das ist der Preis für ein einziges Getränk; es sind {anzahl} Personen."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "anzahl/preis",
+      "feedback": "Geteilt wird hier nichts; jede Person zahlt denselben Betrag."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Minuten hat eine Stunde?",
+   "Rechne beide Zeiten in Minuten seit Mitternacht um.",
+   "Die Kosten sind Preis mal Anzahl Personen."
+  ],
+  "loesungsweg": [
+   "Start in Minuten: {h1} · 60 + {m1}.",
+   "Ankunft in Minuten: {h2} · 60 + {m2}.",
+   "Die Differenz ergibt {dauer} Minuten.",
+   "Getränke: {preis} Fr. · {anzahl} = {total} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-proportional",
+  "lernzielId": "MEI.2.03",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.03",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "einzel",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 9,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Hefte"
+     ],
+     [
+      "Postkarten"
+     ],
+     [
+      "Kerzen"
+     ],
+     [
+      "Klebestifte"
+     ],
+     [
+      "Filzstifte"
+     ],
+     [
+      "Notizblöcke"
+     ],
+     [
+      "Schnellhefter"
+     ],
+     [
+      "Malstifte"
+     ],
+     [
+      "Zeichenblöcke"
+     ],
+     [
+      "Etuis"
+     ],
+     [
+      "Wandkalender"
+     ],
+     [
+      "Karabinerhaken"
+     ]
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "formel",
+    "ausdruck": "einzel*k"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "einzel*m"
+   }
+  ],
+  "bedingungen": [
+   "m>k",
+   "gesamt<100",
+   "preis!=gesamt",
+   "gesamt!=m",
+   "gesamt!=k",
+   "preis!=m",
+   "einzel!=m",
+   "einzel!=k"
+  ],
+  "stamm": "{k} {ware} kosten {preis} Fr.\n\nWie viel kosten {m} {ware} zum gleichen Preis?",
+  "loesung": "preis*m/k",
+  "gegenprobe": "einzel*m",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_teilen",
+    "ausdruck": "preis*m",
+    "feedback": "Hier ist der Gesamtpreis mit {m} multipliziert worden. Zuerst muss der Preis für ein einziges Stück berechnet werden."
+   },
+   {
+    "diagnoseId": "umgekehrt",
+    "ausdruck": "preis*k/m",
+    "feedback": "Multiplikator und Divisor sind vertauscht: geteilt wird durch die gegebene Anzahl {k}, multipliziert mit der gesuchten Anzahl {m}."
+   },
+   {
+    "diagnoseId": "additiv",
+    "ausdruck": "preis+(m-k)",
+    "feedback": "Der Preis wächst nicht um so viele Franken, wie Stücke dazukommen. Jedes zusätzliche Stück kostet den Einzelpreis."
+   }
+  ],
+  "hinweise": [
+   "Was kostet ein einziges Stück?",
+   "Den Gesamtpreis durch {k} teilen.",
+   "Dann mit {m} multiplizieren."
+  ],
+  "loesungsweg": [
+   "{preis} Fr. geteilt durch {k} ergibt {einzel} Fr.",
+   "Das ist der Preis für ein Stück.",
+   "Mal {m} gerechnet.",
+   "Zusammen {gesamt} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-wertetabelle",
+  "lernzielId": "MEI.2.04",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.04",
+   "2.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "tempo",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "wer",
+    "typ": "text",
+    "texte": [
+     [
+      "Eine Wandergruppe"
+     ],
+     [
+      "Eine Velofahrerin"
+     ],
+     [
+      "Ein Läufer"
+     ],
+     [
+      "Eine Klasse"
+     ],
+     [
+      "Ein Postbote"
+     ],
+     [
+      "Eine Joggerin"
+     ],
+     [
+      "Ein Wanderer"
+     ],
+     [
+      "Eine Gruppe"
+     ],
+     [
+      "Ein Velokurier"
+     ],
+     [
+      "Eine Schulklasse"
+     ],
+     [
+      "Ein Spaziergänger"
+     ],
+     [
+      "Eine Sportlerin"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "tempo>2"
+  ],
+  "stamm": "{wer} legt jede Stunde gleich viele Kilometer zurück, nämlich {tempo} km.\n\nTrage alle Paare aus Stunden und Kilometern ein, die dazu passen. Stunden von 1 bis 9.",
+  "fehler": [
+   {
+    "diagnoseId": "umgekehrt",
+    "feedback": "Hier sind Stunden und Kilometer vertauscht worden. In der ersten Spalte stehen die Stunden, in der zweiten die zurückgelegten Kilometer.",
+    "kurz": "Spalten vertauscht"
+   },
+   {
+    "diagnoseId": "summe_konstant",
+    "feedback": "Hier ist die Summe aus Stunden und Kilometern gleich gehalten worden. Bei einer direkten Proportionalität wächst die zweite Grösse mit derselben Zahl mit.",
+    "kurz": "Summe statt Vielfaches"
+   },
+   {
+    "diagnoseId": "paare_vergessen",
+    "feedback": "Es fehlen Paare. Zu jeder Stundenzahl von 1 bis 9 gehört genau ein Wert in Kilometern.",
+    "kurz": "Paare übersehen"
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kilometer sind es nach einer Stunde?",
+   "{tempo} km. Nach zwei Stunden doppelt so viele.",
+   "Zu jeder Stundenzahl gehört genau ein Wert."
+  ],
+  "loesungsweg": [
+   "Nach einer Stunde: {tempo} km.",
+   "Jede weitere Stunde bringt dieselbe Strecke dazu.",
+   "So entstehen die Paare (1 | {tempo}), (2 | …) und so weiter.",
+   "Bis neun Stunden alle eintragen."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "h",
+     "kopf": "Stunden",
+     "von": "1",
+     "bis": "9"
+    },
+    {
+     "name": "km",
+     "kopf": "Kilometer",
+     "von": "1",
+     "bis": "120"
+    }
+   ],
+   "bedingung": "km == h * tempo"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-mittelwert",
+  "lernzielId": "MEI.2.05",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.05",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "gesammelte Kastanien"
+     ],
+     [
+      "gezählte Vögel"
+     ],
+     [
+      "verkaufte Lose"
+     ],
+     [
+      "gelesene Seiten"
+     ],
+     [
+      "gefundene Steine"
+     ],
+     [
+      "gesammelte Flaschen"
+     ],
+     [
+      "geschriebene Karten"
+     ],
+     [
+      "gezählte Autos"
+     ],
+     [
+      "gepflückte Äpfel"
+     ],
+     [
+      "gebastelte Sterne"
+     ],
+     [
+      "gelaufene Runden"
+     ],
+     [
+      "gezählte Schritte in Zehnern"
+     ]
+    ]
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "a+b+c+d"
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d)/4"
+   }
+  ],
+  "bedingungen": [
+   "(a+b+c+d)%4==0",
+   "a!=b",
+   "b!=c",
+   "c!=d",
+   "a!=c",
+   "b!=d",
+   "a!=d",
+   "mittel!=a",
+   "mittel!=b",
+   "mittel!=c",
+   "mittel!=d"
+  ],
+  "stamm": "{name} zählt an vier Tagen {sache}: {a}, {b}, {c} und {d}.\n\nWie gross ist der Mittelwert?",
+  "loesung": "(a+b+c+d)/4",
+  "gegenprobe": "a/4+b/4+c/4+d/4",
+  "fehler": [
+   {
+    "diagnoseId": "durch_drei",
+    "ausdruck": "(a+b+c+d)/3",
+    "feedback": "Geteilt wird durch die Anzahl der Werte, und das sind vier."
+   },
+   {
+    "diagnoseId": "nur_summe",
+    "ausdruck": "a+b+c+d",
+    "feedback": "Das ist die Summe. Der Mittelwert ist die Summe geteilt durch die Anzahl."
+   },
+   {
+    "diagnoseId": "mitte_der_spanne",
+    "ausdruck": "(a+d)/2",
+    "feedback": "Der Mittelwert ist nicht die Mitte zwischen dem ersten und dem letzten Wert; alle vier Zahlen zählen mit."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Zahlen sind es?",
+   "Vier. Zuerst alle addieren.",
+   "Dann die Summe durch vier teilen."
+  ],
+  "loesungsweg": [
+   "Alle vier Zahlen addieren: {summe}.",
+   "Durch die Anzahl teilen.",
+   "{summe} : 4.",
+   "Der Mittelwert ist {mittel}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-kombinationen",
+  "lernzielId": "MEI.2.07",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "2.07",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Farben",
+      "Formen",
+      "Grössen"
+     ],
+     [
+      "Oberteile",
+      "Hosen",
+      "Mützen"
+     ],
+     [
+      "Brotsorten",
+      "Beläge",
+      "Getränke"
+     ],
+     [
+      "Wege",
+      "Fahrzeuge",
+      "Startzeiten"
+     ],
+     [
+      "Papiere",
+      "Bänder",
+      "Aufkleber"
+     ],
+     [
+      "Vorspeisen",
+      "Hauptgänge",
+      "Nachspeisen"
+     ],
+     [
+      "Stifte",
+      "Hefte",
+      "Etuis"
+     ],
+     [
+      "Sockenpaare",
+      "Schuhe",
+      "Jacken"
+     ],
+     [
+      "Deckel",
+      "Dosen",
+      "Etiketten"
+     ],
+     [
+      "Motive",
+      "Rahmen",
+      "Passepartouts"
+     ],
+     [
+      "Themen",
+      "Titel",
+      "Bilder"
+     ],
+     [
+      "Melodien",
+      "Instrumente",
+      "Tempi"
+     ]
+    ]
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   }
+  ],
+  "bedingungen": [
+   "wert<100",
+   "a!=b",
+   "b!=c",
+   "wert!=a",
+   "wert!=b",
+   "wert!=c",
+   "a*b!=wert",
+   "wert>7"
+  ],
+  "stamm": "{name} kann {a} {sache}, {b} {sache.1} und {c} {sache.2} frei kombinieren.\n\nWie viele verschiedene Zusammenstellungen sind möglich?",
+  "loesung": "a*b*c",
+  "gegenprobe": "(a*b)*c",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "a+b+c",
+    "feedback": "Zu jeder Wahl in der ersten Gruppe passt jede Wahl in der zweiten. Darum werden die Zahlen multipliziert, nicht addiert."
+   },
+   {
+    "diagnoseId": "nur_zwei",
+    "ausdruck": "a*b",
+    "feedback": "Die dritte Gruppe fehlt. Jede der bisherigen Kombinationen lässt sich noch einmal mit {c} Möglichkeiten verbinden."
+   },
+   {
+    "diagnoseId": "groesste",
+    "ausdruck": "a*c",
+    "feedback": "Alle drei Gruppen zählen mit; eine davon ist hier übersprungen worden."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Möglichkeiten gibt es, wenn nur die ersten beiden Gruppen zählen?",
+   "{a} mal {b}.",
+   "Jede dieser Kombinationen lässt sich noch mit {c} Möglichkeiten verbinden."
+  ],
+  "loesungsweg": [
+   "Erste und zweite Gruppe: {a} · {b}.",
+   "Jede dieser Möglichkeiten mit {c} verbinden.",
+   "Also {a} · {b} · {c}.",
+   "Das ergibt {wert} Zusammenstellungen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-umfang-vieleck",
+  "lernzielId": "GEI.1.02",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.02",
+   "1.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Gartenbeet"
+     ],
+     [
+      "einen Bilderrahmen"
+     ],
+     [
+      "einen Teppich"
+     ],
+     [
+      "eine Tischplatte"
+     ],
+     [
+      "einen Sandkasten"
+     ],
+     [
+      "einen Pausenhof"
+     ],
+     [
+      "einen Schulzimmerboden"
+     ],
+     [
+      "ein Blechschild"
+     ],
+     [
+      "eine Kartonplatte"
+     ],
+     [
+      "ein Filzstück"
+     ],
+     [
+      "einen Papierbogen"
+     ],
+     [
+      "ein Holzbrett"
+     ]
+    ]
+   },
+   {
+    "name": "u_rechteck",
+    "typ": "formel",
+    "ausdruck": "2*(a+b)"
+   },
+   {
+    "name": "u_lang",
+    "typ": "formel",
+    "ausdruck": "2*(a+c+b)"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "b>c",
+   "u_rechteck<80",
+   "c>2",
+   "a!=c",
+   "u_rechteck!=u_lang"
+  ],
+  "stamm": "{name} misst {ding}. Es ist ein Rechteck mit den Seiten {a} cm und {b} cm.\n\nBerechne den Umfang. Wie gross wäre der Umfang, wenn die längere Seite um {c} cm verlängert würde?",
+  "felder": [
+   {
+    "name": "u_rechteck",
+    "label": "Umfang des Rechtecks in cm",
+    "ausdruck": "2*(a+b)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_einmal",
+      "ausdruck": "a+b",
+      "feedback": "Ein Rechteck hat vier Seiten: Jede Länge kommt zweimal vor."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "a*b",
+      "feedback": "Das ist der Flächeninhalt in cm². Der Umfang läuft einmal ganz herum."
+     },
+     {
+      "diagnoseId": "vier_mal_lang",
+      "ausdruck": "4*a",
+      "feedback": "Nur beim Quadrat sind alle vier Seiten gleich lang."
+     }
+    ]
+   },
+   {
+    "name": "u_lang",
+    "label": "Umfang nach der Verlängerung in cm",
+    "ausdruck": "2*(a+c+b)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_einmal",
+      "ausdruck": "2*(a+b)+c",
+      "feedback": "Die verlängerte Seite kommt zweimal vor: Auch die gegenüberliegende Seite wird länger, sonst wäre es kein Rechteck mehr."
+     },
+     {
+      "diagnoseId": "abgezogen",
+      "ausdruck": "2*(a+b)-2*c",
+      "feedback": "Verlängert heisst länger; der Umfang wird grösser, nicht kleiner."
+     },
+     {
+      "diagnoseId": "nur_anbau",
+      "ausdruck": "2*c",
+      "feedback": "Das ist nur der Zuwachs; der bisherige Umfang gehört dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Seiten hat ein Rechteck?",
+   "Vier — je zwei gleich lange.",
+   "Wird eine Seite länger, wächst auch die gegenüberliegende mit."
+  ],
+  "loesungsweg": [
+   "Umfang: 2 · ({a} + {b}).",
+   "Das ergibt {u_rechteck} cm.",
+   "Nach der Verlängerung misst die längere Seite {a} + {c} cm.",
+   "Umfang: 2 · ({a} + {c} + {b}) = {u_lang} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-flaeche-rechteck",
+  "lernzielId": "GEI.1.03",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.03",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Gartenbeet"
+     ],
+     [
+      "einen Teppich"
+     ],
+     [
+      "eine Tischplatte"
+     ],
+     [
+      "einen Sandkasten"
+     ],
+     [
+      "ein Blechschild"
+     ],
+     [
+      "einen Papierbogen"
+     ],
+     [
+      "ein Holzbrett"
+     ],
+     [
+      "eine Bodenfliese"
+     ],
+     [
+      "ein Filzstück"
+     ],
+     [
+      "eine Fensterscheibe"
+     ],
+     [
+      "ein Plakat"
+     ],
+     [
+      "eine Kartonplatte"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "fl_quadrat",
+    "typ": "formel",
+    "ausdruck": "a*a"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "fl<380",
+   "fl!=a",
+   "fl!=b",
+   "fl_quadrat<500",
+   "a!=b"
+  ],
+  "stamm": "{name} misst {ding}: ein Rechteck mit {a} cm Länge und {b} cm Breite.\n\nBerechne den Flächeninhalt. Wie gross wäre die Fläche eines Quadrats mit der Seitenlänge {a} cm?",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche des Rechtecks in cm²",
+    "ausdruck": "a*b",
+    "fehler": [
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "2*(a+b)",
+      "feedback": "Das ist der Umfang in cm. Der Flächeninhalt entsteht durch Multiplizieren der beiden Seiten."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Für die Fläche werden Länge und Breite multipliziert, nicht addiert."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*b/2",
+      "feedback": "Halbiert wird beim Dreieck; das Rechteck ist doppelt so gross."
+     }
+    ]
+   },
+   {
+    "name": "fl_quadrat",
+    "label": "Fläche des Quadrats in cm²",
+    "ausdruck": "a*a",
+    "fehler": [
+     {
+      "diagnoseId": "mit_breite",
+      "ausdruck": "a*b",
+      "feedback": "Beim Quadrat sind alle Seiten gleich lang; die Breite {b} kommt hier nicht vor."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "4*a",
+      "feedback": "Das ist der Umfang des Quadrats in cm, nicht seine Fläche."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*a",
+      "feedback": "Verdoppelt wird nichts; die Seite wird mit sich selbst multipliziert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie berechnet man die Fläche eines Rechtecks?",
+   "Länge mal Breite.",
+   "Beim Quadrat sind Länge und Breite gleich."
+  ],
+  "loesungsweg": [
+   "Fläche des Rechtecks: {a} · {b} = {fl} cm².",
+   "Beim Quadrat ist jede Seite {a} cm lang.",
+   "{a} · {a}.",
+   "Das ergibt {fl_quadrat} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-zusammengesetzte-flaeche",
+  "lernzielId": "GEI.1.04",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.04",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm²",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Bodenplan"
+     ],
+     [
+      "einen Grundriss"
+     ],
+     [
+      "einen Kartonzuschnitt"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "ein Papierstück"
+     ],
+     [
+      "ein Filzteil"
+     ],
+     [
+      "eine Holzplatte"
+     ],
+     [
+      "einen Plakatrand"
+     ],
+     [
+      "eine Terrassenplatte"
+     ],
+     [
+      "ein Rasenstück"
+     ],
+     [
+      "ein Fliesenmuster"
+     ],
+     [
+      "ein Klebeschild"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "a*b-c*d"
+   }
+  ],
+  "bedingungen": [
+   "c<a",
+   "d<b",
+   "fl>40",
+   "fl<420",
+   "c*d>5",
+   "a!=b",
+   "c!=d",
+   "fl!=a*b",
+   "fl!=a",
+   "fl!=b"
+  ],
+  "stamm": "{name} zeichnet {ding} ins Raster: ein Rechteck mit {a} cm und {b} cm, aus dem in einer Ecke ein Rechteck mit {c} cm und {d} cm herausgeschnitten ist.\n\nWie gross ist die verbleibende Fläche?",
+  "loesung": "a*b-c*d",
+  "gegenprobe": "(a-c)*b+c*(b-d)",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "a*b+c*d",
+    "feedback": "Das ausgeschnittene Stück wird abgezogen, nicht dazugezählt — sonst wäre die Fläche grösser als das ganze Rechteck."
+   },
+   {
+    "diagnoseId": "nur_gross",
+    "ausdruck": "a*b",
+    "feedback": "Das ist die Fläche des ganzen Rechtecks. Der Ausschnitt fehlt noch."
+   },
+   {
+    "diagnoseId": "umfangsartig",
+    "ausdruck": "(a+b)*2-(c+d)*2",
+    "feedback": "Hier sind Umfänge gerechnet worden. Für eine Fläche werden Länge und Breite multipliziert."
+   }
+  ],
+  "hinweise": [
+   "Aus welchen zwei Rechtecken besteht die Figur?",
+   "Aus dem grossen Rechteck und dem ausgeschnittenen kleinen.",
+   "Ziehe die kleinere Fläche von der grösseren ab."
+  ],
+  "loesungsweg": [
+   "Grosses Rechteck: {a} · {b}.",
+   "Ausschnitt: {c} · {d}.",
+   "Die kleinere Fläche abziehen.",
+   "Es bleiben {fl} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-wuerfel-bauen",
+  "lernzielId": "GEI.1.05",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.05",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "br",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "ho",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Turm"
+     ],
+     [
+      "ein Podest"
+     ],
+     [
+      "eine Mauer"
+     ],
+     [
+      "ein Modellhaus"
+     ],
+     [
+      "einen Sockel"
+     ],
+     [
+      "eine Stufe"
+     ],
+     [
+      "einen Block"
+     ],
+     [
+      "ein Bauwerk"
+     ],
+     [
+      "eine Treppe"
+     ],
+     [
+      "eine Kiste"
+     ],
+     [
+      "einen Riegel"
+     ],
+     [
+      "ein Fundament"
+     ]
+    ]
+   },
+   {
+    "name": "anzahl",
+    "typ": "formel",
+    "ausdruck": "l*br*ho"
+   },
+   {
+    "name": "grund",
+    "typ": "formel",
+    "ausdruck": "l*br"
+   }
+  ],
+  "bedingungen": [
+   "l>br",
+   "br>=ho",
+   "anzahl<80",
+   "anzahl!=grund",
+   "l!=ho",
+   "anzahl>7"
+  ],
+  "stamm": "{name} baut {ding} aus gleichen Würfeln mit 1 cm Kantenlänge. Der Körper ist {l} Würfel lang, {br} Würfel breit und {ho} Würfel hoch.\n\nWie viele Würfel braucht es, und wie viele Würfel liegen in der untersten Schicht?",
+  "felder": [
+   {
+    "name": "anzahl",
+    "label": "Anzahl Würfel insgesamt",
+    "ausdruck": "l*br*ho",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "l+br+ho",
+      "feedback": "Addiert ergibt sich die Summe der Kantenzahlen, nicht die Anzahl der Würfel."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "l*br",
+      "feedback": "Das ist nur die unterste Schicht; darüber liegen weitere."
+     },
+     {
+      "diagnoseId": "zwei_kanten",
+      "ausdruck": "l*ho",
+      "feedback": "Alle drei Richtungen zählen: Länge, Breite und Höhe."
+     }
+    ]
+   },
+   {
+    "name": "grund",
+    "label": "Würfel in der untersten Schicht",
+    "ausdruck": "l*br",
+    "fehler": [
+     {
+      "diagnoseId": "alle",
+      "ausdruck": "l*br*ho",
+      "feedback": "Das sind alle Würfel des Körpers. Die unterste Schicht ist nur eine davon."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "l+br",
+      "feedback": "Die Schicht ist ein Rechteck: Länge mal Breite, nicht Länge plus Breite."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "br*ho",
+      "feedback": "Die unterste Schicht liegt flach; ihre Höhe beträgt einen Würfel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Würfel liegen in einer einzigen Schicht?",
+   "{l} mal {br}.",
+   "Der Körper ist {ho} Schichten hoch."
+  ],
+  "loesungsweg": [
+   "Unterste Schicht: {l} · {br} = {grund} Würfel.",
+   "Der Körper hat {ho} solche Schichten.",
+   "{grund} · {ho}.",
+   "Zusammen {anzahl} Würfel."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-spiegelung",
+  "lernzielId": "GEI.1.07",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.07",
+   "1.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "xa!=xb",
+   "ya!=yb",
+   "xa!=0",
+   "xb!=0"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) an der y-Achse.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "0-xa",
+  "gegenprobe": "(0-1)*xa",
+  "fehler": [
+   {
+    "diagnoseId": "an_x_achse",
+    "ausdruck": "xa",
+    "feedback": "Bei der Spiegelung an der y-Achse wechselt der x-Wert das Vorzeichen, der y-Wert bleibt stehen. Hier ist es umgekehrt gemacht worden."
+   },
+   {
+    "diagnoseId": "beide_gewechselt",
+    "ausdruck": "0-xa",
+    "feedback": "Beide Koordinaten wechseln nur bei der Spiegelung am Nullpunkt. An der y-Achse ändert sich allein der x-Wert."
+   },
+   {
+    "diagnoseId": "nicht_gespiegelt",
+    "ausdruck": "xa*1",
+    "feedback": "So bleibt der Punkt an seiner Stelle. Beim Spiegeln wandert er auf die andere Seite der Achse, gleich weit entfernt."
+   }
+  ],
+  "hinweise": [
+   "Welche Koordinate ändert sich bei der Spiegelung an der y-Achse?",
+   "Nur der x-Wert wechselt das Vorzeichen.",
+   "Der Abstand zur Achse bleibt gleich."
+  ],
+  "loesungsweg": [
+   "A liegt {xa} Einheiten neben der y-Achse.",
+   "Der Bildpunkt liegt gleich weit auf der anderen Seite.",
+   "Der y-Wert bleibt unverändert.",
+   "Ebenso für B."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "0-xa",
+      "ya"
+     ],
+     [
+      "0-xb",
+      "yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ein-verschiebung",
+  "lernzielId": "GEI.1.08",
+  "fach": "geometrie-einsiedeln",
+  "unterthemen": [
+   "1.08",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "dx",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "dy",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "xa+dx<=9",
+   "ya+dy<=9",
+   "dx!=dy"
+  ],
+  "stamm": "{name} verschiebt den Punkt A({xa}|{ya}) um {dx} Einheiten nach rechts und um {dy} Einheiten nach oben.\n\nSetze den Bildpunkt A′ ins Gitter.",
+  "loesung": "xa+dx",
+  "gegenprobe": "dx+xa",
+  "fehler": [
+   {
+    "diagnoseId": "nach_links",
+    "ausdruck": "xa-dx",
+    "feedback": "Nach rechts heisst, dass der x-Wert grösser wird; nach links würde er kleiner."
+   },
+   {
+    "diagnoseId": "vertauscht",
+    "ausdruck": "xa+dy",
+    "feedback": "Die Verschiebung nach rechts benutzt {dx}, die nach oben {dy}. Hier sind die beiden Werte vertauscht."
+   },
+   {
+    "diagnoseId": "nicht_verschoben",
+    "ausdruck": "xa*1",
+    "feedback": "So bleibt der Punkt an seiner Stelle; die Verschiebung fehlt."
+   }
+  ],
+  "hinweise": [
+   "Welche Koordinate ändert sich beim Verschieben nach rechts?",
+   "Der x-Wert wird um {dx} grösser.",
+   "Nach oben wird der y-Wert um {dy} grösser."
+  ],
+  "loesungsweg": [
+   "Nach rechts: {xa} + {dx}.",
+   "Nach oben: {ya} + {dy}.",
+   "Beide Werte zusammen ergeben den Bildpunkt.",
+   "Die Figur behält dabei Form und Grösse."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa+dx",
+      "ya+dy"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

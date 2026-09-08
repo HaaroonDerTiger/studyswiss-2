@@ -1,0 +1,80 @@
+{
+ "fach": "textverstaendnis-gr",
+ "name": "Erstsprache: Lesen",
+ "pruefung": "Aufnahmeprüfungen der Bündner Mittelschulen",
+ "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "L1",
+   "name": "Textverständnis",
+   "punkte": 13,
+   "anteil": 65,
+   "beschreibung": "Der Lehrplan 21 nennt Lesen als eigenen Kompetenzbereich; geprüft werden Sachtexte und Erzählungen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Informationen im Text finden",
+     "lernzielId": "DTGR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Handlung und Reihenfolge verstehen",
+     "lernzielId": "DTGR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Figuren und ihre Absichten",
+     "lernzielId": "DTGR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Aussagen aus dem Text erschliessen",
+     "lernzielId": "DTGR.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Textsorte erkennen",
+     "lernzielId": "DTGR.1.05",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "L2",
+   "name": "Wortschatz im Text",
+   "punkte": 7,
+   "anteil": 35,
+   "beschreibung": "Wortschatz wird ausdrücklich zusammen mit dem Textverständnis geprüft.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortbedeutung aus dem Zusammenhang",
+     "lernzielId": "DTGR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Synonyme und Gegenwörter",
+     "lernzielId": "DTGR.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Redewendungen und bildhafte Sprache",
+     "lernzielId": "DTGR.2.03",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

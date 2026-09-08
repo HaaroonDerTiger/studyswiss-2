@@ -1,0 +1,158 @@
+{
+ "bereich": "englisch-hoeren-sz",
+ "titel": "Listening Comprehension",
+ "eyebrow": "Erster Teil der Englischprüfung",
+ "einleitung": "Du hörst ein Gespräch und kreuzt zu jeder Frage die passende Antwort an. Die Aufnahme läuft zweimal. Sechzehn von hundert Punkten hängen daran — mehr als am Leseverstehen. Die Aufnahme kann dir diese App nicht vorspielen; was sie dir geben kann, ist das Verfahren und der Wortschatz, an dem die Punkte hängen.",
+ "grundlage": "Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen, Prüfungsteil «Listening Comprehension»: 16 von 100 Punkten.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Fragen lesen",
+   "dauer": "vor dem ersten Durchgang",
+   "text": "Lies alle acht Fragen samt Antwortmöglichkeiten, bevor die Aufnahme startet. Sie stehen in der Reihenfolge, in der die Antworten kommen."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "",
+   "text": "Nur zuhören und die Antworten leicht markieren, bei denen du sicher bist. Nichts ausformulieren."
+  },
+  {
+   "nr": 3,
+   "titel": "Zwischenzeit",
+   "dauer": "",
+   "text": "Die offenen Fragen anstreichen. Auf diese hörst du beim zweiten Mal gezielt."
+  },
+  {
+   "nr": 4,
+   "titel": "Zweiter Durchgang",
+   "dauer": "",
+   "text": "Die Lücken schliessen. Was schon steht, nicht mehr anzweifeln — dafür fehlt die Zeit."
+  },
+  {
+   "nr": 5,
+   "titel": "Danach",
+   "dauer": "",
+   "text": "Jede Frage prüfen: Ist wirklich ein Kreuz gesetzt? Ein leeres Feld gibt nie einen Punkt."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Fragen sind der Fahrplan",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Who», «what» und «why» verlangen verschiedene Sorten Antwort. Wer das vorher weiss, hört gezielt."
+    },
+    {
+     "regel": "Achte auf Fragen mit «not».",
+     "warum": "«Which advantage was not mentioned?» dreht die Aufgabe um: Gesucht ist, was gerade nicht vorkam."
+    },
+    {
+     "regel": "Lies alle drei Antwortmöglichkeiten vorher.",
+     "warum": "In der Aufnahme fallen oft alle drei Wörter. Nur eines steht im richtigen Zusammenhang."
+    }
+   ]
+  },
+  {
+   "titel": "Worauf du beim Zuhören achtest",
+   "tipps": [
+    {
+     "regel": "Merke dir, wer was sagt.",
+     "warum": "Bei zwei Sprechenden fragt die Prüfung oft: «Who would like to …?» Dann zählt nicht der Inhalt, sondern die Person."
+    },
+    {
+     "regel": "Achte auf Verneinungen und auf «but».",
+     "warum": "«I would like that, but …» kehrt die Aussage um. Ein einziges Wort entscheidet über den Punkt."
+    },
+    {
+     "regel": "Notiere Zahlen und Namen sofort als Ziffern.",
+     "warum": "Sie sind im Kopf am schnellsten wieder weg und lassen sich nicht erschliessen."
+    }
+   ]
+  },
+  {
+   "titel": "Was sich üben lässt",
+   "tipps": [
+    {
+     "regel": "Übe den Wortschatz aus dem Lehrmittel laut.",
+     "warum": "Wer ein Wort nur gelesen hat, erkennt es beim Hören nicht. Der Klang muss dazukommen."
+    },
+    {
+     "regel": "Höre kurze englische Beiträge mit Untertiteln, dann ohne.",
+     "warum": "So verbindest du Schriftbild und Klang, und der Sprung zum reinen Hören wird kleiner."
+    },
+    {
+     "regel": "Achte auf Kurzformen wie «I'd», «he'll», «wouldn't».",
+     "warum": "Gesprochen verschmelzen sie; wer sie nicht erwartet, verliert den Satzanfang."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Fragewörter und was sie verlangen",
+   "saetze": [
+    "Who? Eine Person",
+    "What? Eine Sache",
+    "Where? Ein Ort",
+    "When? Eine Zeit",
+    "Why? Ein Grund",
+    "How many? Eine Zahl",
+    "Which? Eine Auswahl"
+   ]
+  },
+  {
+   "zweck": "Wörter, die eine Aussage umkehren",
+   "saetze": [
+    "but. aber",
+    "however. jedoch",
+    "instead. stattdessen",
+    "although. obwohl",
+    "neither of them. keiner von beiden"
+   ]
+  },
+  {
+   "zweck": "Zustimmung und Ablehnung heraushören",
+   "saetze": [
+    "I'd love to. Sehr gern",
+    "That sounds great. Das klingt gut",
+    "I'm not so sure. Ich bin nicht sicher",
+    "Not really. Eigentlich nicht",
+    "I'd rather … Ich würde lieber …"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "1.04",
+   "name": "Wortbedeutung aus dem Zusammenhang",
+   "warum": "Beim Hören bleibt keine Zeit zum Nachschlagen; erschliessen ist dieselbe Fertigkeit wie beim Lesen."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.04",
+   "name": "Tenses: present, past, present perfect",
+   "warum": "Ob etwas geschehen ist oder noch bevorsteht, entscheidet in der Aufnahme oft über die richtige Antwort."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.08",
+   "name": "Präpositionen und feste Wendungen",
+   "warum": "Feste Wendungen werden schnell gesprochen und verschmelzen; wer sie kennt, hört sie als Ganzes."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "1.02",
+   "name": "Einzelheiten im Text finden",
+   "warum": "Dieselbe Aufgabe wie im Hörteil, nur schriftlich: die eine Stelle finden, die zur Frage passt."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "1.03",
+   "name": "Aussagen der Autorin oder des Autors deuten",
+   "warum": "Auch im Hörteil wird gefragt, was jemand meint, nicht nur, was er sagt."
+  }
+ ]
+}

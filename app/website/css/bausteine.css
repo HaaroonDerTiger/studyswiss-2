@@ -1,0 +1,110 @@
+/* StudySwiss — Bausteine
+   ==================================================================
+   Dieselben Bauteile wie in der App und in der Vorschau: Karte, Knopf,
+   Chip, Icon-Fläche, Balken. Sie sehen im Browser aus wie auf dem
+   Telefon — nur der Platz drumherum ist anders. Wer hier etwas ändert,
+   ändert es in `widgets/` und in der Vorschau mit.                    */
+
+/* --- Karten ------------------------------------------------------- */
+.karte{background:var(--card);border:1px solid var(--line);
+  border-radius:var(--r-karte);padding:20px}
+.karte.eng{padding:14px 16px}
+.dunkel{background:var(--ink);color:var(--cream);
+  border-radius:var(--r-dunkel);padding:22px}
+.dunkel .eyebrow,.dunkel .sm{color:var(--tan3)}
+.dunkel .bd,.dunkel .bd14{color:var(--tan1)}
+.dunkel a{color:var(--tan3)}
+/* Eine antippbare Karte muss zeigen, dass sie angetippt wurde. */
+a.karte,button.karte{display:block;width:100%;text-align:left;cursor:pointer;
+  transition:border-color .12s,background .12s}
+a.karte:hover,button.karte:hover{border-color:var(--tan3);background:var(--tan1);
+  text-decoration:none}
+
+/* --- Knöpfe -------------------------------------------------------
+   Höhe 54 wie in der App. Auf der Website darf ein Knopf so breit sein
+   wie sein Text — auf dem Telefon füllt er die Zeile. */
+.btn{height:54px;padding:0 24px;border-radius:var(--r-knopf);border:none;
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  font:700 15px 'Nunito Sans';cursor:pointer;transition:opacity .12s;
+  text-decoration:none;white-space:nowrap}
+.btn:hover{text-decoration:none;opacity:.9}
+.btn:active{opacity:.75}
+.btn[disabled],.btn[aria-disabled=true]{opacity:.35;cursor:not-allowed}
+.btn.voll{width:100%}
+.btn.klein{height:42px;padding:0 16px;font-size:14px;border-radius:11px}
+.bp{background:var(--ink);color:var(--cream)}
+.bs{background:transparent;color:var(--ink);border:1px solid var(--tan3)}
+.bt{background:transparent;color:var(--tan6);padding:0 8px}
+.bapple{background:#000;color:#fff}
+.bgoogle{background:#fff;color:var(--ink);border:1px solid var(--tan3)}
+
+/* --- Chip, Icon, Balken ------------------------------------------- */
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 11px;
+  border-radius:var(--r-chip);background:var(--card);border:1px solid var(--line);
+  font:600 12px 'Nunito Sans';white-space:nowrap;color:var(--ink)}
+.chip.an{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.chip.gruen{background:var(--green1);border-color:var(--green1);color:var(--green)}
+.chip.rot{background:var(--red1);border-color:var(--red1);color:var(--red)}
+.chip.gelb{background:var(--gelb1);border-color:var(--gelb1);color:#8a6316}
+.ic{width:44px;height:44px;border-radius:12px;background:var(--tan1);
+  display:flex;align-items:center;justify-content:center;flex:none;color:var(--tan6)}
+.ic.gross{width:56px;height:56px;border-radius:15px}
+.bar{height:5px;border-radius:3px;background:var(--tan1);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tan);border-radius:3px}
+.reihe{display:flex;align-items:center;gap:14px;min-width:0}
+.reihe>*{min-width:0}
+
+/* --- Formulare -----------------------------------------------------
+   Eine Schule füllt hier eine Bestellung aus, und zwar am Laptop mit
+   der Tastatur. Darum echte Beschriftungen über dem Feld statt
+   Platzhaltertext: Ein Platzhalter verschwindet beim Tippen, und dann
+   weiss niemand mehr, was in das Feld gehörte. */
+.feld{display:block;margin-bottom:16px}
+.feld>span{display:block;font:700 13px/1.3 'Nunito Sans';margin-bottom:6px}
+.feld .hilfe{display:block;font:400 12px/1.4 'Nunito Sans';color:var(--ink3);
+  margin:-2px 0 6px;font-weight:400}
+.feld input,.feld select,.feld textarea{
+  width:100%;height:48px;padding:0 14px;border:1.5px solid var(--tan3);
+  border-radius:12px;background:var(--card);color:var(--ink);
+  font:400 15px 'Nunito Sans'}
+.feld textarea{height:auto;min-height:96px;padding:12px 14px;line-height:1.5;resize:vertical}
+.feld select{cursor:pointer;appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23B0834F' stroke-width='1.8' stroke-linecap='round'><path d='M4 6l4 4 4-4'/></svg>");
+  background-repeat:no-repeat;background-position:right 14px center}
+.feld input:focus,.feld select:focus,.feld textarea:focus{
+  outline:none;border-color:var(--tan);background:var(--card)}
+.feld input[aria-invalid=true],.feld textarea[aria-invalid=true]{border-color:var(--red)}
+.feld .fehler{display:block;font:600 12px/1.4 'Nunito Sans';color:var(--red);margin-top:5px}
+.feldpaar{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.feldpaar.schmal-breit{grid-template-columns:120px 1fr}
+.haken{display:flex;gap:11px;align-items:flex-start;margin-bottom:14px;cursor:pointer}
+.haken input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--ink);flex:none}
+.haken span{font:400 14px/1.45 'Nunito Sans';color:var(--ink5)}
+
+/* --- Tabellen ------------------------------------------------------
+   Für Positionen, Codes und Rechnungen. Auf dem Telefon rollt eine
+   breite Tabelle waagrecht in ihrem eigenen Kasten, statt die ganze
+   Seite mitzunehmen. */
+.tabellenrahmen{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.t{width:100%;border-collapse:collapse;font:400 14px/1.45 'Nunito Sans'}
+table.t th{text-align:left;font:700 11px/1.25 'Nunito Sans';letter-spacing:.06em;
+  color:var(--tan6);text-transform:uppercase;padding:0 12px 10px 0;
+  border-bottom:1px solid var(--line);white-space:nowrap}
+table.t td{padding:12px 12px 12px 0;border-bottom:1px solid var(--line);
+  color:var(--ink5);vertical-align:top}
+table.t td.stark,table.t th.rechts,table.t td.rechts{color:var(--ink)}
+table.t th.rechts,table.t td.rechts{text-align:right;padding-right:0}
+table.t tr:last-child td{border-bottom:none}
+table.t tfoot td{border-bottom:none;border-top:1px solid var(--line);
+  padding-top:12px;color:var(--ink)}
+table.t tfoot tr.total td{font:700 17px/1.3 'Bitter',Georgia,serif;
+  border-top:2px solid var(--ink)}
+
+/* --- Meldungen ----------------------------------------------------- */
+.hinweis{display:flex;gap:12px;padding:14px 16px;border-radius:12px;
+  background:var(--gelb1);color:#6b4c11;font:400 14px/1.5 'Nunito Sans'}
+.hinweis.gut{background:var(--green1);color:#2c5a37}
+.hinweis.wichtig{background:var(--red1);color:#8d1912}
+.hinweis.ruhig{background:var(--tan1);color:var(--ink5)}
+.hinweis svg{flex:none;margin-top:1px}
+.hinweis b{color:inherit}

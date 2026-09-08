@@ -1,0 +1,80 @@
+/* StudySwiss — Marke und Grundlagen
+   ==================================================================
+   Die Werte stammen aus «gestaltung/design frontend/03_Screens_HTML/
+   DesignSystem.dc.html» und sind identisch mit `core/theme/farben.dart`
+   und der Vorschau. Sie werden hier nicht neu erfunden und nirgends als
+   Literal in eine Seite geschrieben — wer eine Farbe braucht, nimmt das
+   Token.                                                              */
+
+:root{
+  /* --- Farben ---------------------------------------------------- */
+  --ink:#3A1D0A;  --ink7:#5C3A1E; --ink5:#7C5836; --ink3:#A98B66;
+  --tan6:#B0834F; --tan:#C99A66;  --tan3:#E4CBA9; --tan1:#F2E4CF;
+  --paper:#FBF5EA; --card:#FFFDF8; --line:#EADCC6; --cream:#FFF7EA;
+  --red:#E2231A;  --red1:#FBE3E1;
+  --green:#3F7A4D; --green1:#E3F0E4;
+  --gelb:#D99A2B; --gelb1:#FAEED6;
+
+  /* --- Masse ------------------------------------------------------
+     Seitenrand 24, Knopfhöhe 54, Eckenradius 16/18/14/9 — dieselben
+     Zahlen wie in der App. Die Website ergänzt nur die Breiten, die es
+     auf einem Telefon nicht gibt. */
+  --rand:24px;
+  --spalte:1160px;      /* breiteste Inhaltsspalte */
+  --lesespalte:680px;   /* Fliesstext, damit die Zeile lesbar bleibt */
+  --r-karte:16px; --r-dunkel:18px; --r-knopf:14px; --r-chip:9px;
+  --umbruch:900px;      /* darunter Telefon-Ansicht, darüber Website */
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink); background:var(--paper);
+  font:400 15px/1.5 'Nunito Sans',system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  /* Das 24-px-Karoraster liegt auf jedem Screen und ist Teil der Marke
+     (§5.3). Auf dem Papier, nicht auf den Karten. */
+  background-image:
+    linear-gradient(to right, rgba(176,131,79,.10) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(176,131,79,.10) 1px, transparent 1px);
+  background-size:24px 24px;
+}
+img,svg{max-width:100%}
+a{color:var(--tan6);text-decoration:none}
+a:hover{text-decoration:underline}
+hr{border:none;border-top:1px solid var(--line);margin:28px 0}
+
+/* --- Schrift ------------------------------------------------------
+   Zwei Schriften, mehr nicht: Bitter für Überschriften und alle Zahlen,
+   Nunito Sans für Fliesstext und Bedienung. */
+h1,h2,h3,h4,.num,.num2{font-family:'Bitter',Georgia,serif;font-weight:600;
+  letter-spacing:-.3px;margin:0}
+h1{font-size:34px;line-height:1.1;font-weight:700;letter-spacing:-.9px}
+h2{font-size:27px;line-height:1.18;letter-spacing:-.4px}
+h3{font-size:20px;line-height:1.28}
+h4{font-size:17px;line-height:1.32}
+.num{font-size:44px;line-height:1;letter-spacing:-1.1px}
+.num2{font-size:30px;line-height:1;font-weight:700}
+
+.eyebrow{font:700 11px/1.2 'Nunito Sans';letter-spacing:.11em;
+  color:var(--tan6);text-transform:uppercase;margin:0 0 8px}
+.bd{font:400 15px/1.6 'Nunito Sans';color:var(--ink5)}
+.bd14{font:400 14px/1.5 'Nunito Sans';color:var(--ink5)}
+.sm{font:400 12px/1.45 'Nunito Sans';color:var(--ink3)}
+.lb{font:700 13px/1.3 'Nunito Sans';color:var(--ink)}
+.stark{color:var(--ink);font-weight:700}
+
+/* Eine Zahl ist eine Zahl: tabellarische Ziffern, damit Beträge in einer
+   Spalte untereinander stehen und nicht zappeln. */
+.zahl{font-family:'Bitter',Georgia,serif;font-variant-numeric:tabular-nums}
+
+/* --- Zugänglichkeit ------------------------------------------------
+   Wer mit der Tastatur bedient, muss sehen, wo er steht. Das ist auf
+   einer Website wichtiger als in der App: Dort tippt man, hier läuft
+   man mit der Tabulatortaste durch Formulare. */
+:focus-visible{outline:3px solid var(--tan);outline-offset:2px;border-radius:6px}
+.nur-vorleser{position:absolute;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap}
+.spring{position:absolute;left:-9999px;top:8px;background:var(--ink);
+  color:var(--cream);padding:10px 16px;border-radius:10px;z-index:100}
+.spring:focus{left:8px}

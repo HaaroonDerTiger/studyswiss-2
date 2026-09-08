@@ -1,0 +1,509 @@
+{
+ "fach": "mathematik-bs",
+ "name": "Mathematik",
+ "pruefung": "Freiwillige Aufnahmeprüfung in die Sekundarstufe II, Kanton Basel-Stadt",
+ "quelle": "Prüfungsanforderungen Mathematik 2026 (Anhang zu den Richtlinien vom 12. August 2024) sowie die Musterprüfungen März 2021 und März 2022",
+ "punkteTotal": 69,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Bruchrechnen",
+   "punkte": 7,
+   "anteil": 10,
+   "beschreibung": "Teil A des Aufgabenhefts. Hier ist der Taschenrechner ausdrücklich erlaubt. Trotzdem verliert man Punkte, wenn man am Schluss nicht kürzt.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Brüche addieren und subtrahieren",
+     "lernzielId": "MBS.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Brüche multiplizieren und dividieren",
+     "lernzielId": "MBS.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Mehrstufige Bruchterme mit Klammern",
+     "lernzielId": "MBS.1.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.01",
+      "1.02"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "Brüche kürzen und gleichnamig machen",
+     "lernzielId": "MBS.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Dezimalbrüche als gekürzte Brüche schreiben",
+     "lernzielId": "MBS.1.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    },
+    {
+     "code": "1.06",
+     "name": "Zwischen Bruch, Dezimalbruch und Prozent wechseln",
+     "lernzielId": "MBS.1.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    },
+    {
+     "code": "1.07",
+     "name": "Zahlen in Primfaktoren zerlegen",
+     "lernzielId": "MBS.1.07",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Algebra und Anwendungen",
+   "punkte": 32,
+   "anteil": 46,
+   "beschreibung": "Teil B ist mit Abstand der grösste Teil der Prüfung. Fast die Hälfte aller Punkte. Der Lösungsweg zählt hier mit, das Resultat allein genügt nicht.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme zusammenfassen und Klammern auflösen",
+     "lernzielId": "MBS.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Terme ausmultiplizieren",
+     "lernzielId": "MBS.2.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Terme faktorisieren durch Ausklammern",
+     "lernzielId": "MBS.2.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "Binomische Formeln ausmultiplizieren",
+     "lernzielId": "MBS.2.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Mit binomischen Formeln faktorisieren",
+     "lernzielId": "MBS.2.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Potenzgesetze mit ganzzahligen Exponenten (Zusatz Gymnasium)",
+     "lernzielId": "MBS.2.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.07",
+     "name": "Bruchterme kürzen",
+     "lernzielId": "MBS.2.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.08",
+     "name": "Bruchterme addieren und subtrahieren",
+     "lernzielId": "MBS.2.08",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.07"
+     ]
+    },
+    {
+     "code": "2.09",
+     "name": "Bruchterme multiplizieren und dividieren",
+     "lernzielId": "MBS.2.09",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.07"
+     ]
+    },
+    {
+     "code": "2.10",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MBS.2.10",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.11",
+     "name": "Gleichungen mit Klammern auf beiden Seiten",
+     "lernzielId": "MBS.2.11",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.12",
+     "name": "Bruchgleichungen lösen",
+     "lernzielId": "MBS.2.12",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.13",
+     "name": "Formeln nach einer Variablen umstellen",
+     "lernzielId": "MBS.2.13",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.14",
+     "name": "Werte in eine Formel einsetzen",
+     "lernzielId": "MBS.2.14",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.15",
+     "name": "Textaufgaben in Gleichungen übersetzen",
+     "lernzielId": "MBS.2.15",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.16",
+     "name": "Gleichungssysteme mit zwei Variablen (Zusatz Gymnasium)",
+     "lernzielId": "MBS.2.16",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.17",
+     "name": "Muster und Folgen mit einem Term beschreiben",
+     "lernzielId": "MBS.2.17",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.18",
+     "name": "Mit Quadratwurzeln rechnen (Zusatz Gymnasium)",
+     "lernzielId": "MBS.2.18",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Geometrie",
+   "punkte": 11,
+   "anteil": 16,
+   "beschreibung": "Teil C. Die Skizzen sind nie massstäblich. Wer misst statt rechnet, bekommt keine Punkte.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Winkel an Geraden und im Dreieck berechnen",
+     "lernzielId": "MBS.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Winkel am Kreis und Satz des Thales",
+     "lernzielId": "MBS.3.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Flächeninhalt und Umfang von Dreieck und Rechteck",
+     "lernzielId": "MBS.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Parallelogramm, Trapez und Drachen",
+     "lernzielId": "MBS.3.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Kreis, Kreissektor und zusammengesetzte Flächen",
+     "lernzielId": "MBS.3.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MBS.3.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.07",
+     "name": "Höhen- und Kathetensatz (Zusatz Gymnasium)",
+     "lernzielId": "MBS.3.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.06"
+     ]
+    },
+    {
+     "code": "3.08",
+     "name": "Volumen und Oberfläche von Würfel, Quader und Prisma",
+     "lernzielId": "MBS.3.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.09",
+     "name": "Volumen und Oberfläche von Zylinder und Pyramide",
+     "lernzielId": "MBS.3.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.08"
+     ]
+    },
+    {
+     "code": "3.10",
+     "name": "Kegel und zusammengesetzte Körper (Zusatz Gymnasium)",
+     "lernzielId": "MBS.3.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.09"
+     ]
+    },
+    {
+     "code": "3.11",
+     "name": "Abwicklungen und Netze erkennen",
+     "lernzielId": "MBS.3.11",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Konstruktionen",
+   "punkte": 5,
+   "anteil": 7,
+   "beschreibung": "Teil D wird auf Papier mit Zirkel und Geodreieck gelöst. Hier üben wir das, was man auch ohne Zirkel üben kann: die Reihenfolge der Schritte, das richtige Werkzeug und die Frage, wie viele Lösungen es gibt.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Mittelsenkrechte, Winkelhalbierende und Höhe",
+     "lernzielId": "MBS.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Inkreis und Umkreis eines Dreiecks",
+     "lernzielId": "MBS.4.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Ein Dreieck aus gegebenen Stücken konstruieren",
+     "lernzielId": "MBS.4.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Wie viele Lösungen hat die Konstruktion?",
+     "lernzielId": "MBS.4.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.03"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "5",
+   "name": "Grössen, Funktionen und Daten",
+   "punkte": 12,
+   "anteil": 18,
+   "beschreibung": "Teil E. Masseinheiten, Verhältnisse und die Gerade im Koordinatensystem. Der Teil, in dem am meisten geschenkte Punkte liegen bleiben.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Masseinheiten umrechnen",
+     "lernzielId": "MBS.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Zehnerpotenzen und wissenschaftliche Schreibweise",
+     "lernzielId": "MBS.5.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Geschwindigkeit, Weg und Zeit",
+     "lernzielId": "MBS.5.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.04",
+     "name": "Dichte, Masse und Hohlmasse",
+     "lernzielId": "MBS.5.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.05",
+     "name": "Verhältnisse und gerechtes Aufteilen",
+     "lernzielId": "MBS.5.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.06",
+     "name": "Proportional und indirekt proportional",
+     "lernzielId": "MBS.5.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.05"
+     ]
+    },
+    {
+     "code": "5.07",
+     "name": "Wertetabelle und Graph einer linearen Funktion",
+     "lernzielId": "MBS.5.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.08",
+     "name": "Geradengleichung aus zwei Punkten",
+     "lernzielId": "MBS.5.08",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.07"
+     ]
+    },
+    {
+     "code": "5.09",
+     "name": "Steigung und y-Achsenabschnitt deuten",
+     "lernzielId": "MBS.5.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.07"
+     ]
+    },
+    {
+     "code": "5.10",
+     "name": "Schnittpunkt zweier Geraden (Zusatz Gymnasium)",
+     "lernzielId": "MBS.5.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.08"
+     ]
+    },
+    {
+     "code": "5.11",
+     "name": "Diagramme lesen und auswerten",
+     "lernzielId": "MBS.5.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.12",
+     "name": "Einfache Wahrscheinlichkeiten",
+     "lernzielId": "MBS.5.12",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "6",
+   "name": "Sachrechnen und Textaufgaben",
+   "punkte": 2,
+   "anteil": 3,
+   "beschreibung": "Teil F ist kurz, aber er entscheidet oft: eine mehrschrittige Sachaufgabe mit Prozenten, ganz am Schluss der 90 Minuten.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Prozentrechnen im Sachzusammenhang",
+     "lernzielId": "MBS.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Vermehrter und verminderter Grundwert",
+     "lernzielId": "MBS.6.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Verbrauch, Preis und Ersparnis",
+     "lernzielId": "MBS.6.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.04",
+     "name": "Mehrschrittige Sachaufgaben",
+     "lernzielId": "MBS.6.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.02",
+      "6.03"
+     ]
+    }
+   ]
+  }
+ ]
+}

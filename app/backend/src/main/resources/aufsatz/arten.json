@@ -1,0 +1,545 @@
+[
+ {
+  "id": "erzaehlung",
+  "name": "Erzählung",
+  "sorte": "Erzählung",
+  "untertitel": "Eine Geschichte mit Spannungsbogen",
+  "beschreibung": "Du erzählst ein Geschehen so, dass die Lesenden mitgehen. Wichtig sind ein klarer Höhepunkt und ein Schluss, der nicht einfach abbricht.",
+  "aufbau": [
+   "Einleitung: Ort, Zeit und Hauptfigur einführen. Kurz halten.",
+   "Steigerung: Schritt für Schritt zuspitzen, mindestens zwei Stufen.",
+   "Höhepunkt: die eine Stelle, auf die alles zuläuft. Hier langsam erzählen.",
+   "Wendung: Was ändert sich für die Figur?",
+   "Schluss: nachklingen lassen, nicht «und dann wachte ich auf»."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einstieg",
+    "saetze": [
+     "Als ich an jenem Morgen …",
+     "Es begann an einem Tag, an dem …",
+     "Niemand hätte gedacht, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Steigerung und Höhepunkt",
+    "saetze": [
+     "Zuerst schien alles wie immer, doch dann …",
+     "Einen Augenblick lang wusste sie nicht, …",
+     "Und plötzlich ging alles sehr schnell: …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss",
+    "saetze": [
+     "Erst später begriff er, dass …",
+     "Was blieb, war …",
+     "Seither weiss ich, …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "argumentation",
+  "name": "Argumentation",
+  "sorte": "Argumentation",
+  "untertitel": "Vor- und Nachteile abwägen, eigene Meinung begründen",
+  "beschreibung": "Du wägst ab und beziehst am Schluss Stellung. Jedes Argument braucht eine Begründung und am besten ein Beispiel.",
+  "aufbau": [
+   "Einleitung: zum Thema hinführen und die Streitfrage nennen.",
+   "Hauptteil 1: Argumente dafür, je Abschnitt ein Argument mit Begründung und Beispiel.",
+   "Hauptteil 2: Argumente dagegen, gleich aufgebaut.",
+   "Abwägung: Welches Argument wiegt schwerer, und warum?",
+   "Schluss: eigene Meinung, begründet, nicht bloss wiederholt."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einleitung",
+    "saetze": [
+     "In letzter Zeit wird häufig darüber gestritten, ob …",
+     "Seit einiger Zeit fragt man sich, ob …",
+     "Die Frage beschäftigt gerade viele: …"
+    ]
+   },
+   {
+    "abschnitt": "Hauptteil",
+    "saetze": [
+     "Ein erstes Argument dafür ist, dass …",
+     "Dagegen spricht allerdings, dass …",
+     "Ein Beispiel aus meinem Alltag zeigt, …",
+     "Hinzu kommt, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss",
+    "saetze": [
+     "Wägt man beides ab, so überzeugt mich …",
+     "Aus all dem folgt für mich: …",
+     "Darum halte ich es für richtig, …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "beschreibung",
+  "name": "Beschreibung",
+  "sorte": "Beschreibung",
+  "untertitel": "Genau und geordnet schildern",
+  "beschreibung": "Du machst etwas mit Worten sichtbar. Entscheidend sind eine feste Reihenfolge und genaue Wörter statt «schön» und «cool».",
+  "aufbau": [
+   "Einleitung: Was wird beschrieben, und warum lohnt es sich?",
+   "Ordnung wählen: von aussen nach innen, von oben nach unten oder von vorn nach hinten.",
+   "Hauptteil: der Reihe nach. Jeder Abschnitt ein Bereich.",
+   "Genau bleiben: Farbe, Form, Grösse, Geräusch, Geruch statt allgemeiner Wörter.",
+   "Schluss: der Gesamteindruck in zwei, drei Sätzen."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einleitung",
+    "saetze": [
+     "Betritt man den Raum, so fällt zuerst … auf.",
+     "Wer hier steht, sieht als Erstes …",
+     "Der Ort lässt sich am besten von … her beschreiben."
+    ]
+   },
+   {
+    "abschnitt": "Hauptteil",
+    "saetze": [
+     "Gleich daneben steht …",
+     "Besonders auffällig ist …",
+     "Im Hintergrund hört man …",
+     "Etwas weiter hinten …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss",
+    "saetze": [
+     "Insgesamt wirkt der Ort …",
+     "Was bleibt, ist der Eindruck von …",
+     "Zusammengenommen ergibt das …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bericht",
+  "name": "Bericht",
+  "sorte": "Bericht",
+  "untertitel": "Sachlich, in der richtigen Reihenfolge",
+  "beschreibung": "Du hältst fest, was geschehen ist. Sachlich, im Präteritum und ohne eigene Meinung. Die sechs W-Fragen sind dein Gerüst.",
+  "aufbau": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz.",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge, ohne Ausschmückung.",
+   "Ursachen und Folgen: Warum kam es dazu, was geschah danach?",
+   "Sachlich bleiben: kein «Ich fand», keine Ausrufe, Präteritum.",
+   "Schluss: die Folgen oder das Ergebnis in zwei Sätzen."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einstieg mit den W-Fragen",
+    "saetze": [
+     "Am Mittwochabend kam es in … zu …",
+     "Wie die Gemeinde mitteilt, ereignete sich am …",
+     "Am vergangenen Samstag fand in … statt: …"
+    ]
+   },
+   {
+    "abschnitt": "Hergang",
+    "saetze": [
+     "Nach Angaben der Beteiligten …",
+     "Kurz darauf …",
+     "Als Ursache gilt …",
+     "Im Verlauf des Nachmittags …"
+    ]
+   },
+   {
+    "abschnitt": "Abschluss",
+    "saetze": [
+     "Verletzt wurde niemand; der Schaden beträgt …",
+     "Die Arbeiten dauern voraussichtlich bis …",
+     "Weitere Angaben liegen noch nicht vor."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "schreibauftrag",
+  "name": "Schreibauftrag",
+  "sorte": "Schreibauftrag",
+  "untertitel": "Einleitung, Hauptteil, Schluss nach Vorgabe",
+  "beschreibung": "Der Auftrag gibt dir die Teile und ungefähr ihre Länge vor. Wer eine Vorgabe überspringt, verliert Punkte, auch wenn der Text sonst gut ist. Halte dich zuerst an die Liste.",
+  "aufbau": [
+   "Einleitung: persönlich ans Thema heranführen, eine konkrete Situation nennen.",
+   "Hauptteil: genau das tun, was der Auftrag verlangt, meist zwei bis drei Punkte.",
+   "Eine der Möglichkeiten auswählen und begründen, warum gerade diese.",
+   "Schluss: den Text abrunden, nicht einfach abbrechen.",
+   "Den vorgegebenen Titel übernehmen, wenn einer genannt ist."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Erster Teil",
+    "saetze": [
+     "Ich erinnere mich an einen Nachmittag, an dem …",
+     "Vor einiger Zeit ist mir aufgefallen, dass …",
+     "Am deutlichsten wurde mir das, als …"
+    ]
+   },
+   {
+    "abschnitt": "Zweiter Teil",
+    "saetze": [
+     "Am ehesten hätte ich wohl gesagt: …",
+     "Eine zweite Möglichkeit wäre gewesen, …",
+     "Dagegen liesse sich einwenden, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Dritter Teil",
+    "saetze": [
+     "Für mich wäre das die beste Antwort, weil …",
+     "Wenn ich heute daran denke, …",
+     "Rückblickend würde ich es so sagen: …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bildimpuls",
+  "name": "Bildbeschreibung und Vertiefung",
+  "sorte": "Bildimpuls",
+  "untertitel": "Zuerst beschreiben, dann deuten und Stellung nehmen",
+  "beschreibung": "Zwei Teile, und der zweite ist der längere. Zuerst beschreibst du das Bild so, dass jemand es vor sich sieht, ohne es zu kennen. Danach sagst du, worauf es hinauswill, und nimmst begründet Stellung.",
+  "aufbau": [
+   "Beschreibung: was ist zu sehen. Personen, Ort, Handlung, Beschriftung.",
+   "Vom Auffälligsten zum Nebensächlichen, nicht kreuz und quer.",
+   "Deutung: welche Problematik spricht das Bild an?",
+   "Stellungnahme: eigene Meinung, begründet.",
+   "Lösungsmöglichkeiten aufzeigen.",
+   "Einen passenden Titel setzen."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Bildbeschreibung",
+    "saetze": [
+     "Im Vordergrund erkennt man …",
+     "Am linken Bildrand …",
+     "Der Blick wird zuerst auf … gelenkt."
+    ]
+   },
+   {
+    "abschnitt": "Deutung",
+    "saetze": [
+     "Auffällig ist vor allem, dass …",
+     "Das Bild spielt darauf an, dass …",
+     "Damit ist wohl gemeint, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Stellungnahme",
+    "saetze": [
+     "Ich teile diese Sicht, allerdings …",
+     "Ein möglicher Weg aus dieser Lage wäre …",
+     "Für mich zeigt das Bild vor allem …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "brief",
+  "name": "Brief oder E-Mail",
+  "sorte": "Brief",
+  "untertitel": "An eine bestimmte Person, mit einem Anliegen",
+  "beschreibung": "Hier zählt die Textsorte mit: Anrede, Anlass, Anliegen, Gruss. Du schreibst an eine bestimmte Person und in einem Ton, der zu ihr passt.",
+  "aufbau": [
+   "Anrede, die zur Person passt.",
+   "Anlass: warum schreibst du gerade jetzt?",
+   "Erster Teil: auf die Lage der Person eingehen.",
+   "Zweiter Teil: das, was der Auftrag zusätzlich verlangt, meist konkrete Tipps.",
+   "Schluss und Gruss."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Anrede und Anlass",
+    "saetze": [
+     "Liebe … / Lieber …",
+     "Ich habe gestern erfahren, dass …",
+     "Ich schreibe dir, weil …"
+    ]
+   },
+   {
+    "abschnitt": "Hauptteil",
+    "saetze": [
+     "Was mir am meisten fehlen wird, ist …",
+     "Vielleicht hilft dir Folgendes: …",
+     "Mir ging es damals ganz ähnlich, als …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss und Gruss",
+    "saetze": [
+     "Melde dich, wenn …",
+     "Ich hoffe sehr, dass …",
+     "Herzliche Grüsse, …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eroerterung",
+  "name": "Erörterung",
+  "sorte": "Erörterung",
+  "untertitel": "Eine Frage von mehreren Seiten durchdenken",
+  "beschreibung": "Anders als bei der Argumentation geht es nicht darum, möglichst überzeugend für eine Seite zu schreiben, sondern eine Frage ehrlich abzuwägen, und erst danach Stellung zu beziehen.",
+  "aufbau": [
+   "Einleitung: an Thema und Fragestellung heranführen.",
+   "Klären, wie du die Frage oder das Zitat verstehst.",
+   "Argumente der einen Seite, je mit Begründung und Beispiel.",
+   "Argumente der Gegenseite, ebenso ernst genommen.",
+   "Begründete Stellungnahme.",
+   "Schluss: ein Fazit aus dem Erörterten ziehen.",
+   "Einen prägnanten Titel formulieren."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einleitung",
+    "saetze": [
+     "Die Frage stellt sich, seit …",
+     "Verstehen lässt sich das Zitat so: …",
+     "Zunächst ist zu klären, was mit … gemeint ist."
+    ]
+   },
+   {
+    "abschnitt": "Abwägung",
+    "saetze": [
+     "Dafür spricht zunächst, dass …",
+     "Dagegen lässt sich einwenden, dass …",
+     "Ein gewichtiges Gegenargument ist …",
+     "Beide Seiten haben insofern recht, als …"
+    ]
+   },
+   {
+    "abschnitt": "Stellungnahme und Schluss",
+    "saetze": [
+     "Wägt man beides gegeneinander ab, …",
+     "Mich überzeugt am Ende …",
+     "Als Fazit bleibt: …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "interpretation",
+  "name": "Interpretation",
+  "sorte": "Interpretation",
+  "untertitel": "Einen Erzähltext deuten und belegen",
+  "beschreibung": "Du zeigst zuerst, dass du den Text verstanden hast, und belegst das mit kurzen Zitaten. Danach untersuchst du, was dir aufgefallen ist. Schreibe für jemanden, der den Text nicht kennt.",
+  "aufbau": [
+   "Einleitung: kurz in Text und Verfasserin oder Verfasser einführen.",
+   "Textverständnis darlegen, mit Kurzzitaten und eigenen Worten belegt.",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau.",
+   "Deutung: worauf läuft der Text hinaus?",
+   "Schluss, der die Deutung zusammenfasst.",
+   "Einen prägnanten Titel formulieren."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Einleitung",
+    "saetze": [
+     "Der Text schildert …",
+     "Der vorliegende Text handelt von …",
+     "Schon der Titel deutet darauf hin, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Hauptteil mit Belegen",
+    "saetze": [
+     "Bereits im ersten Satz fällt auf, dass …",
+     "Die Erzählerin beschreibt es als «…».",
+     "Auffällig ist die wiederkehrende Vorstellung von …",
+     "Das zeigt sich auch daran, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Deutung und Schluss",
+    "saetze": [
+     "So gelesen handelt der Text weniger von … als von …",
+     "Damit lässt sich der Text so verstehen: …",
+     "Am Ende bleibt der Eindruck, dass …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "votum",
+  "name": "Votum",
+  "sorte": "Votum",
+  "untertitel": "Klar Stellung nehmen und andere überzeugen",
+  "beschreibung": "Ein Votum richtet sich an jemanden. Du nimmst zu einer Sache klar Stellung, begründest sie und schliesst mit einem Fazit oder einem Appell. Anders als in der Argumentation zählt hier auch, dass man die Angesprochenen wirklich anspricht.",
+  "aufbau": [
+   "Anrede: Wen sprichst du an. Die Klasse, die Gemeinde, die Leserschaft?",
+   "Einstieg: den Sachverhalt nennen, um den es geht.",
+   "Behauptung: deine Position in einem Satz, unmissverständlich.",
+   "Begründung und Erläuterung: je ein Abschnitt, mit Beispiel.",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen.",
+   "Fazit oder Appell, und ein Abschluss, der nicht abbricht."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Anrede und Einstieg",
+    "saetze": [
+     "Liebe Mitschülerinnen und Mitschüler, …",
+     "Ich stehe heute hier, weil …",
+     "Ihr alle kennt die Situation: …"
+    ]
+   },
+   {
+    "abschnitt": "Begründung",
+    "saetze": [
+     "Meiner Ansicht nach spricht vor allem eines dafür: …",
+     "Wer einwendet, dass …, übersieht dabei …",
+     "Ein Beispiel macht das deutlich: …"
+    ]
+   },
+   {
+    "abschnitt": "Appell",
+    "saetze": [
+     "Darum bitte ich euch: …",
+     "Lasst uns darum …",
+     "Ich schlage darum vor, dass wir …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "weitererzaehlen",
+  "name": "Erzählung weiterführen",
+  "sorte": "Erzählung weiterführen",
+  "untertitel": "Einen begonnenen Text zu Ende bringen",
+  "beschreibung": "Der Anfang steht schon da. Figuren, Ort, Ton und ein angefangener Handlungsstrang. Deine Aufgabe ist nicht, eine eigene Geschichte zu erfinden, sondern diese hier geschickt weiterzuführen: in derselben Erzählzeit, aus derselben Perspektive, mit denselben Figuren. Wer neu anfängt, hat die Aufgabe verfehlt.",
+  "aufbau": [
+   "Den Anfang zweimal lesen und festhalten: Wer erzählt? In welcher Zeit? Wo?",
+   "Die offenen Fäden notieren. Was ist angekündigt, aber noch nicht eingelöst?",
+   "Mindestens einen dieser Fäden aufnehmen und weiterspinnen.",
+   "Eine Wendung oder Zuspitzung einbauen, die aus dem Anfang folgt.",
+   "Zu einem Schluss kommen, der nicht einfach abbricht.",
+   "Zum Schluss prüfen: Erzählzeit und Perspektive durchgehalten?"
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Anschluss an den Anfang",
+    "saetze": [
+     "Kaum hatte …, da …",
+     "Er zögerte, dann …",
+     "Im selben Moment …"
+    ]
+   },
+   {
+    "abschnitt": "Weiterführung und Wendung",
+    "saetze": [
+     "Erst jetzt fiel ihr auf, dass …",
+     "Was sie in diesem Moment noch nicht wusste: …",
+     "Und dann kam alles ganz anders: …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss",
+    "saetze": [
+     "Später sollte sie sagen, es sei genau dieser Augenblick gewesen, in dem …",
+     "Und so blieb am Ende nur …",
+     "Erst auf dem Heimweg begriff er, …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "textbezogen",
+  "name": "Schreibaufgabe zum Text",
+  "sorte": "Textbezogenes Schreiben",
+  "untertitel": "Erst lesen, dann schreiben",
+  "beschreibung": "Du bekommst einen Text — einen Sachtext oder eine Erzählung — und dazu vier Aufträge. Du wählst einen. Der Text ist dabei nicht Dekoration: Dein eigener Text muss sich inhaltlich auf ihn beziehen. Wer nur zum Thema schreibt und den Text nicht aufnimmt, hat die Aufgabe verfehlt, so schön der Aufsatz sonst sein mag. Welche Textsorte verlangt ist — Brief, Gesuch, Kommentar, Tagebucheintrag, Erlebnisbericht —, steht im Auftrag; wichtiger als ihre Form ist, was sie tun soll.",
+  "aufbau": [
+   "Den vorgelegten Text zweimal lesen und die Hauptaussagen unterstreichen.",
+   "Die vier Aufträge durchlesen und einen wählen — den, zu dem dir am meisten einfällt.",
+   "Herausschreiben, worauf du dich aus dem Text beziehen willst: zwei bis drei Stellen.",
+   "Prüfen, an wen der Text gerichtet ist: eine Schulleitung, eine Person aus dem Text, die Leserschaft einer Zeitung.",
+   "Einleitung: das Thema aufnehmen, ohne den Text nachzuerzählen.",
+   "Hauptteil: den Auftrag erfüllen, mit eigenen Beispielen und Erfahrungen.",
+   "Schluss: einen Gedanken abrunden, nicht bloss zusammenfassen.",
+   "Zum Schluss die Zeichensetzung durchgehen — sie wird mitbewertet."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Bezug auf den Text",
+    "saetze": [
+     "Im Text wird beschrieben, wie …",
+     "Besonders aufgefallen ist mir die Stelle, an der …",
+     "Der Text zeigt an einem Beispiel, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Eigene Sicht und Erfahrung",
+    "saetze": [
+     "Ich kenne das aus meinem eigenen Alltag: …",
+     "Was im Text nur angedeutet wird, halte ich für entscheidend: …",
+     "Aus meiner Sicht spricht vor allem dafür, dass …"
+    ]
+   },
+   {
+    "abschnitt": "Adressatin ansprechen",
+    "saetze": [
+     "Sehr geehrte Frau …, ich wende mich an Sie, weil …",
+     "Vielleicht fragen Sie sich, weshalb ausgerechnet ich …",
+     "Ich bitte Sie deshalb, …"
+    ]
+   },
+   {
+    "abschnitt": "Schluss",
+    "saetze": [
+     "Am Ende bleibt für mich die Frage, …",
+     "Wenn ich alles gegeneinander abwäge, …",
+     "Genau darum halte ich es für richtig, dass …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kurzgeschichte",
+  "name": "Kurzgeschichte",
+  "sorte": "Kurzgeschichte",
+  "untertitel": "Ein kurzer Text mit fünf festen Merkmalen",
+  "beschreibung": "Eine Kurzgeschichte ist keine kurze Erzählung. Sie hat fünf Merkmale, und an der Prüfung wird jedes einzeln bewertet: Sie beginnt mitten in der Handlung, sie hat einen Höhepunkt, sie endet offen, ihre Figuren sind alltägliche Menschen, und die Hauptfigur steckt in einer persönlichen Krise. Der Umfang ist knapp — meist 150 bis 200 Wörter. Genau das macht sie schwierig: Für eine Einleitung ist kein Platz.",
+  "aufbau": [
+   "Erster Satz: mitten hinein. Keine Vorgeschichte, kein «Es war einmal».",
+   "Die Krise sichtbar machen — an dem, was die Figur tut, nicht an einer Erklärung.",
+   "Zuspitzen: eine einzige Szene genügt, mehr Platz gibt es nicht.",
+   "Höhepunkt: der eine Moment, auf den alles zuläuft.",
+   "Offener Schluss: abbrechen, wo die Leserin selbst weiterdenken muss.",
+   "Titel setzen und am Schluss die Wörter zählen."
+  ],
+  "satzstarter": [
+   {
+    "abschnitt": "Erster Satz, mitten hinein",
+    "saetze": [
+     "Die Tür fiel zu, und danach war es still.",
+     "Sie hatte den Brief seit drei Tagen in der Jackentasche.",
+     "Er zählte die Stufen, wie jeden Morgen."
+    ]
+   },
+   {
+    "abschnitt": "Zuspitzung",
+    "saetze": [
+     "Irgendetwas an diesem Morgen war anders, und …",
+     "Zum ersten Mal, seit …",
+     "Er wusste, dass er jetzt etwas sagen musste, und …"
+    ]
+   },
+   {
+    "abschnitt": "Offener Schluss",
+    "saetze": [
+     "Dann drehte sie sich um.",
+     "Draussen begann es zu regnen.",
+     "Er liess die Hand sinken."
+    ]
+   }
+  ]
+ }
+]

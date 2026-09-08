@@ -1,0 +1,264 @@
+{
+ "fach": "textverstaendnis",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "ZAP 2",
+ "quelle": "StudySwiss, abgeleitet aus den Prüfungsanforderungen Deutsch ZAP2/ZAP3, Kapitel Textverständnis",
+ "punkteTotal": 30,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "4.1",
+   "name": "Informationen entnehmen",
+   "punkte": 7,
+   "anteil": 23,
+   "beschreibung": "Einzelne Angaben im Text finden, Aussagen prüfen, Reihenfolge und Zahlen richtig lesen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Angaben im Text finden",
+     "lernzielId": "DT.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Stimmt die Aussage zum Text?",
+     "lernzielId": "DT.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Zahlen und Mengen im Text lesen",
+     "lernzielId": "DT.1.03",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "Reihenfolge der Ereignisse",
+     "lernzielId": "DT.1.04",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.05",
+     "name": "Mehrere Stellen zusammenziehen",
+     "lernzielId": "DT.1.05",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "4.2",
+   "name": "Wortschatz im Text",
+   "punkte": 5,
+   "anteil": 17,
+   "beschreibung": "Wortbedeutung aus dem Zusammenhang erschliessen, Fachwörter und Redewendungen deuten.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortbedeutung aus dem Zusammenhang",
+     "lernzielId": "DT.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Fachwort im Text erklären",
+     "lernzielId": "DT.2.02",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Redewendung im Text deuten",
+     "lernzielId": "DT.2.03",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "Passendes Ersatzwort wählen",
+     "lernzielId": "DT.2.04",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "4.3",
+   "name": "Bezüge und Verweise",
+   "punkte": 4,
+   "anteil": 13,
+   "beschreibung": "Worauf sich ein Pronomen bezieht, wie Sätze verknüpft sind, welche Verbindung ein Bindewort stiftet.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Worauf bezieht sich das Pronomen?",
+     "lernzielId": "DT.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Verknüpfung zweier Sätze erkennen",
+     "lernzielId": "DT.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Wiederaufnahme durch ein anderes Wort",
+     "lernzielId": "DT.3.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4.4",
+   "name": "Aufbau und Textsorte",
+   "punkte": 5,
+   "anteil": 17,
+   "beschreibung": "Abschnitte gliedern und überschreiben, Textsorte und Absicht bestimmen, Einleitung und Schluss erkennen.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Abschnitt überschreiben",
+     "lernzielId": "DT.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Textsorte bestimmen",
+     "lernzielId": "DT.4.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "4.03",
+     "name": "Absicht des Textes erkennen",
+     "lernzielId": "DT.4.03",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Einleitung, Hauptteil, Schluss zuordnen",
+     "lernzielId": "DT.4.04",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "4.5",
+   "name": "Aussage und Deutung",
+   "punkte": 6,
+   "anteil": 20,
+   "beschreibung": "Kernaussage benennen, Ungesagtes erschliessen, Haltung und Absicht einer Figur deuten.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Kernaussage des Textes",
+     "lernzielId": "DT.5.01",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "5.02",
+     "name": "Aus dem Text schliessen",
+     "lernzielId": "DT.5.02",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Haltung einer Figur deuten",
+     "lernzielId": "DT.5.03",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "5.02"
+     ]
+    },
+    {
+     "code": "5.04",
+     "name": "Meinung und Tatsache unterscheiden",
+     "lernzielId": "DT.5.04",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.05",
+     "name": "Titel für den ganzen Text wählen",
+     "lernzielId": "DT.5.05",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "4.6",
+   "name": "Sprachliche Mittel",
+   "punkte": 3,
+   "anteil": 10,
+   "beschreibung": "Vergleich, Bild und Wiederholung erkennen und ihre Wirkung benennen.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Sprachliches Mittel benennen",
+     "lernzielId": "DT.6.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.02",
+     "name": "Wirkung eines Bildes beschreiben",
+     "lernzielId": "DT.6.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Wortwahl und Ton erkennen",
+     "lernzielId": "DT.6.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    }
+   ]
+  }
+ ]
+}

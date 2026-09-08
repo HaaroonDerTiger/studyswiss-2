@@ -1,0 +1,3557 @@
+[
+ {
+  "templateId": "so-en-lesen",
+  "lernzielId": "ESO.1.01",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text einmal durch, ohne jedes Wort zu verstehen.",
+   "Suche danach zu jeder Frage die eine Stelle im Text, die sie beantwortet.",
+   "Antworten, die im Text gar nicht vorkommen, kannst du sofort streichen."
+  ],
+  "loesungsweg": [
+   "Die Frage genau lesen: Was wird gefragt?",
+   "Ein Stichwort aus der Frage im Text suchen.",
+   "Die Stelle darum herum lesen — die Antwort steht selten im gleichen Wort.",
+   "Alle vier Möglichkeiten am Text prüfen, nicht nur die erste passende."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "What is the text mainly about?",
+    "optionen": [
+     "A school class that grows vegetables on a roof",
+     "A boy who wants to become a gardener",
+     "A school building that is too hot in summer",
+     "A family that keeps bees at home"
+    ],
+    "loesung": [
+     "A school class that grows vegetables on a roof"
+    ],
+    "erklaerung": "The text follows one class and its roof garden from the first idea to the soup with the parents.",
+    "fehler": [
+     {
+      "antwort": "A boy who wants to become a gardener",
+      "diagnoseId": "beruf_erfunden",
+      "feedback": "The text never says anything about Milo's future job. It is about what his class does at school."
+     },
+     {
+      "antwort": "A school building that is too hot in summer",
+      "diagnoseId": "nebensache",
+      "feedback": "The heat on the roof is mentioned once, in the last sentence. That is a detail, not the main idea."
+     },
+     {
+      "antwort": "A family that keeps bees at home",
+      "diagnoseId": "ort_verwechselt",
+      "feedback": "The bee hotel stands on the school roof, not at home, and it belongs to the class, not to Milo's family."
+     }
+    ]
+   },
+   {
+    "stamm": "Where does Milo go to school?",
+    "optionen": [
+     "in Olten",
+     "in Zurich",
+     "in Solothurn",
+     "in Bern"
+    ],
+    "loesung": [
+     "in Olten"
+    ],
+    "erklaerung": "The first sentence says: «Milo is fifteen and goes to school in Olten.»",
+    "fehler": [
+     {
+      "antwort": "in Zurich",
+      "diagnoseId": "ort_der_schwester",
+      "feedback": "Zurich is where his sister saw a similar garden. Milo does not go to school there."
+     },
+     {
+      "antwort": "in Solothurn",
+      "diagnoseId": "erfunden",
+      "feedback": "Solothurn does not appear anywhere in the text. Be careful with places that only sound likely."
+     },
+     {
+      "antwort": "in Bern",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Bern is not mentioned in the text either. Only Olten and Zurich are."
+     }
+    ]
+   },
+   {
+    "stamm": "Who gave the class the idea for the garden?",
+    "optionen": [
+     "Milo's sister",
+     "the caretaker",
+     "the teachers",
+     "Milo's parents"
+    ],
+    "loesung": [
+     "Milo's sister"
+    ],
+    "erklaerung": "«The idea came from Milo's sister, who had seen something similar in Zurich.»",
+    "fehler": [
+     {
+      "antwort": "the caretaker",
+      "diagnoseId": "gegenteil",
+      "feedback": "The caretaker was against the plan at first: «The roof is not a playground.»"
+     },
+     {
+      "antwort": "the teachers",
+      "diagnoseId": "zweifel_verwechselt",
+      "feedback": "The teachers «were not sure» at the beginning. They did not have the idea."
+     },
+     {
+      "antwort": "Milo's parents",
+      "diagnoseId": "eltern",
+      "feedback": "The parents only appear at the end, when they are invited to eat the soup."
+     }
+    ]
+   },
+   {
+    "stamm": "How many wooden boxes did the pupils build?",
+    "optionen": [
+     "eighteen",
+     "eleven",
+     "twenty",
+     "four"
+    ],
+    "loesung": [
+     "eighteen"
+    ],
+    "erklaerung": "«The pupils built eighteen wooden boxes and filled them with soil.»",
+    "fehler": [
+     {
+      "antwort": "eleven",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Eleven is the number of kilos of vegetables the garden produced this year, not the number of boxes."
+     },
+     {
+      "antwort": "twenty",
+      "diagnoseId": "flaeche_verwechselt",
+      "feedback": "Twenty is the size of the corner in square metres, not a number of boxes."
+     },
+     {
+      "antwort": "four",
+      "diagnoseId": "tage_verwechselt",
+      "feedback": "Four is the number of days it took until the bees arrived."
+     }
+    ]
+   },
+   {
+    "stamm": "What happened to the tomatoes in July?",
+    "optionen": [
+     "Half of them died.",
+     "They were eaten by bees.",
+     "The class sold them.",
+     "They were harvested too early."
+    ],
+    "loesung": [
+     "Half of them died."
+    ],
+    "erklaerung": "«In July nobody watered the plants for two weeks, and half of the tomatoes died.»",
+    "fehler": [
+     {
+      "antwort": "They were eaten by bees.",
+      "diagnoseId": "bienen",
+      "feedback": "The bees live in the bee hotel and are not described as a problem anywhere in the text."
+     },
+     {
+      "antwort": "The class sold them.",
+      "diagnoseId": "verkauf_erfunden",
+      "feedback": "Nothing in the text is sold. The vegetables end up in a soup for the parents."
+     },
+     {
+      "antwort": "They were harvested too early.",
+      "diagnoseId": "ernte",
+      "feedback": "The text names the reason: for two weeks nobody watered the plants."
+     }
+    ]
+   },
+   {
+    "stamm": "Why does the class keep a notebook now?",
+    "optionen": [
+     "To record who looked after the plants and what they did",
+     "To write down how much everything costs",
+     "To count the bees every week",
+     "To collect recipes for the soup"
+    ],
+    "loesung": [
+     "To record who looked after the plants and what they did"
+    ],
+    "erklaerung": "After the dry July the class made a plan: two pupils per week are responsible «and they write in a notebook what they did».",
+    "fehler": [
+     {
+      "antwort": "To write down how much everything costs",
+      "diagnoseId": "kosten",
+      "feedback": "Money is never mentioned in the text. The notebook is about the work on the plants."
+     },
+     {
+      "antwort": "To count the bees every week",
+      "diagnoseId": "bienen_zaehlen",
+      "feedback": "Milo filmed the bees once, right at the beginning. Counting them is not part of the plan."
+     },
+     {
+      "antwort": "To collect recipes for the soup",
+      "diagnoseId": "rezepte",
+      "feedback": "The soup is cooked once, at the end of the year. The notebook is older than the soup."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «the caretaker» is the person who …",
+    "optionen": [
+     "looks after the school building",
+     "teaches the class biology",
+     "sells plants to the school",
+     "leads the parents' evening"
+    ],
+    "loesung": [
+     "looks after the school building"
+    ],
+    "erklaerung": "A caretaker is the Hauswart: he or she keeps the building in order. In the text this person decides about the roof and knows how hot it gets.",
+    "fehler": [
+     {
+      "antwort": "teaches the class biology",
+      "diagnoseId": "lehrer",
+      "feedback": "The teachers appear separately in the text: «At first the teachers were not sure.» The caretaker is somebody else."
+     },
+     {
+      "antwort": "sells plants to the school",
+      "diagnoseId": "verkaeufer",
+      "feedback": "Nobody in the text sells anything. The caretaker speaks about the roof, not about plants."
+     },
+     {
+      "antwort": "leads the parents' evening",
+      "diagnoseId": "eltern_abend",
+      "feedback": "The parents are only invited to eat the soup, and nobody is said to lead an evening."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «soil» means …",
+    "optionen": [
+     "Erde",
+     "Wasser",
+     "Samen",
+     "Dünger"
+    ],
+    "loesung": [
+     "Erde"
+    ],
+    "erklaerung": "The boxes are «filled with soil» before anything is planted — that is the Erde in the box.",
+    "fehler": [
+     {
+      "antwort": "Wasser",
+      "diagnoseId": "wasser",
+      "feedback": "Water appears in the text as the verb «watered». Boxes are not filled with water before planting."
+     },
+     {
+      "antwort": "Samen",
+      "diagnoseId": "samen",
+      "feedback": "Seeds would be planted INTO the soil. The text says the boxes were filled with it first."
+     },
+     {
+      "antwort": "Dünger",
+      "diagnoseId": "duenger",
+      "feedback": "Fertiliser is never mentioned. «Soil» is the ordinary earth in the box."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «hollow stems» are used for the bee hotel because they …",
+    "optionen": [
+     "are empty inside",
+     "are very heavy",
+     "smell of flowers",
+     "are made of metal"
+    ],
+    "loesung": [
+     "are empty inside"
+    ],
+    "erklaerung": "«Hollow» means empty inside — that is exactly what a bee needs to crawl into. The bricks in the bee hotel have holes for the same reason.",
+    "fehler": [
+     {
+      "antwort": "are very heavy",
+      "diagnoseId": "gewicht",
+      "feedback": "Weight would not help a bee at all, and the text says nothing about it."
+     },
+     {
+      "antwort": "smell of flowers",
+      "diagnoseId": "geruch",
+      "feedback": "The text does not mention any smell. «Hollow» describes the shape, not the scent."
+     },
+     {
+      "antwort": "are made of metal",
+      "diagnoseId": "material",
+      "feedback": "Stems come from plants. The old bricks are the second material in the bee hotel."
+     }
+    ]
+   },
+   {
+    "stamm": "Which heading fits the fourth paragraph («The first summer was hard …») best?",
+    "optionen": [
+     "A mistake and a new plan",
+     "The first bees arrive",
+     "Permission from the school",
+     "Cooking with the parents"
+    ],
+    "loesung": [
+     "A mistake and a new plan"
+    ],
+    "erklaerung": "The paragraph tells what went wrong in July and how the class organised itself afterwards.",
+    "fehler": [
+     {
+      "antwort": "The first bees arrive",
+      "diagnoseId": "absatz_drei",
+      "feedback": "The bees arrive in the third paragraph, together with the boxes and the bee hotel."
+     },
+     {
+      "antwort": "Permission from the school",
+      "diagnoseId": "absatz_zwei",
+      "feedback": "That is the second paragraph, where the caretaker and the teachers have their doubts."
+     },
+     {
+      "antwort": "Cooking with the parents",
+      "diagnoseId": "absatz_fuenf",
+      "feedback": "The soup and the parents come in the last paragraph."
+     }
+    ]
+   },
+   {
+    "stamm": "Which heading fits the second paragraph («At first the teachers were not sure …») best?",
+    "optionen": [
+     "Doubts and a small corner",
+     "Eleven kilos of vegetables",
+     "An idea from Zurich",
+     "Two pupils every week"
+    ],
+    "loesung": [
+     "Doubts and a small corner"
+    ],
+    "erklaerung": "The paragraph is about the resistance at the school and about the twenty square metres the class finally gets.",
+    "fehler": [
+     {
+      "antwort": "Eleven kilos of vegetables",
+      "diagnoseId": "ernte_absatz",
+      "feedback": "The harvest is the subject of the last paragraph, not of the second."
+     },
+     {
+      "antwort": "An idea from Zurich",
+      "diagnoseId": "absatz_eins",
+      "feedback": "The idea from Zurich belongs to the first paragraph."
+     },
+     {
+      "antwort": "Two pupils every week",
+      "diagnoseId": "absatz_vier",
+      "feedback": "The weekly plan with two pupils comes in the fourth paragraph."
+     }
+    ]
+   },
+   {
+    "stamm": "What would Milo like to do next year?",
+    "optionen": [
+     "grow strawberries",
+     "build a second bee hotel",
+     "cook a soup for the parents",
+     "start a garden in Zurich"
+    ],
+    "loesung": [
+     "grow strawberries"
+    ],
+    "erklaerung": "«Milo would like to grow strawberries next, but the caretaker says the roof gets too hot in June.»",
+    "fehler": [
+     {
+      "antwort": "build a second bee hotel",
+      "diagnoseId": "bienenhotel",
+      "feedback": "There is one bee hotel and the text does not say anything about another one."
+     },
+     {
+      "antwort": "cook a soup for the parents",
+      "diagnoseId": "schon_geschehen",
+      "feedback": "The soup has already been cooked this year. The question asks about his plan for next time."
+     },
+     {
+      "antwort": "start a garden in Zurich",
+      "diagnoseId": "zuerich",
+      "feedback": "Zurich is where his sister saw a garden. Milo's garden stays on the school roof in Olten."
+     }
+    ]
+   }
+  ],
+  "text": "Milo's roof garden\n\nMilo is fifteen and goes to school in Olten. Last September his class started a\nsmall garden on the flat roof of the school building. The idea came from Milo's\nsister, who had seen something similar in Zurich.\n\nAt first the teachers were not sure. «The roof is not a playground», said the\ncaretaker. But after three weeks of planning, the class was allowed to use one\ncorner, about twenty square metres.\n\nThe pupils built eighteen wooden boxes and filled them with soil. They planted\ntomatoes, beans and herbs. In the middle they put a bee hotel made of old bricks\nand hollow stems. «The bees came after four days», Milo says. «Nobody believed\nme, so I filmed them.»\n\nThe first summer was hard. In July nobody watered the plants for two weeks, and\nhalf of the tomatoes died. Now the class has a plan: every week two pupils are\nresponsible, and they write in a notebook what they did.\n\nThis year the garden produced eleven kilos of vegetables. The class cooked a\nsoup with them and invited the parents. Milo would like to grow strawberries\nnext, but the caretaker says the roof gets too hot in June.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Reading comprehension",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-true-false",
+  "lernzielId": "ESO.1.03",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "1.02",
+   "1.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "«Not given» heisst: Der Text sagt dazu weder Ja noch Nein.",
+   "«False» heisst: Im Text steht etwas anderes — du kannst die Stelle zeigen.",
+   "Wenn du eine Stelle findest, die widerspricht, ist es «false», nicht «not given»."
+  ],
+  "loesungsweg": [
+   "Die Aussage lesen und ein Stichwort daraus im Text suchen.",
+   "Gibt es die Stelle? Dann vergleichen: Steht dort dasselbe oder das Gegenteil?",
+   "Gibt es die Stelle nicht, ist die Antwort «not given».",
+   "Nie aus dem eigenen Weltwissen ergänzen — nur der Text zählt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "True, false or not given?  (Milo and his school)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The text names Milo's age and his school town, but says nothing about how he gets there.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Milo is fifteen years old.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "Milo goes to school in Zurich.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "Milo goes to school by bike.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The garden is on a flat roof.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (The idea and the permission)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The idea came from the sister; the caretaker was against it at first. How old the sister is remains open.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The idea for the garden came from Milo's sister.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The caretaker liked the plan from the beginning.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "Milo's sister is older than Milo.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The class had to wait about three weeks.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (Boxes, soil and plants)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The number of boxes and what grows in them is in the third paragraph. The price of the wood is not.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The pupils built eighteen boxes.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The boxes were filled with sand.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The wood for the boxes was expensive.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "Tomatoes, beans and herbs were planted.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (The bee hotel)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Bricks, hollow stems, four days and a film — all of that is in the text. How many bees came is not.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The bee hotel is made of old bricks and hollow stems.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The bees came after four weeks.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "More than a hundred bees moved in.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "Milo filmed the bees.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (The difficult summer)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The text explains why half of the tomatoes died and what the class changed afterwards.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nobody watered the plants for two weeks in July.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "All the tomatoes died.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The class was on holiday in July.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "Two pupils are responsible every week now.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (The harvest and the soup)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Eleven kilos, a soup and the parents are named. Whether the soup tasted good is not.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The garden produced eleven kilos of vegetables.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The class sold the vegetables at the market.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The parents said the soup was delicious.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The parents were invited.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (Plans for next year)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Milo's wish and the caretaker's objection are both in the last paragraph. The decision itself is open.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Milo would like to grow strawberries.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The caretaker thinks the roof is too cold.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The class has already decided against strawberries.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "June is mentioned as a hot month on the roof.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (Numbers in the text)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Four numbers are given in the text: fifteen, three, twenty and eighteen. A number of teachers is not.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The class may use about twenty square metres.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The class may use the whole roof.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "Six teachers were against the garden.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The planning took about three weeks.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (Who does what)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Every person in the text has one role: the sister has the idea, the caretaker decides about the roof, the pupils build.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The pupils built the boxes themselves.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The caretaker built the bee hotel.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "A gardener helped the class.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The teachers were unsure at the beginning.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (Time in the text)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The garden started last September; July and June are named as months. A closing time is not.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The garden started last September.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The garden started in June.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The roof is open after school.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "July was a dry period for the plants.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (The place)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The garden takes up one corner of the school roof in Olten. Whether other schools do the same is not said.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The garden is in one corner of the roof.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The garden is behind the school building.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "Other schools in Olten have roof gardens too.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "Milo's sister saw a similar garden in Zurich.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?  (What the class learnt)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "The plan with the notebook is the class's answer to the dry July. What the pupils think about it is not in the text.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "The class wrote down what they did in a notebook.",
+      "loesung": [
+       "true"
+      ]
+     },
+     {
+      "text": "The class gave up after the first summer.",
+      "loesung": [
+       "false"
+      ]
+     },
+     {
+      "text": "The pupils find the plan boring.",
+      "loesung": [
+       "not given"
+      ]
+     },
+     {
+      "text": "The first summer was difficult.",
+      "loesung": [
+       "true"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "true",
+   "false",
+   "not given"
+  ],
+  "text": "Milo's roof garden\n\nMilo is fifteen and goes to school in Olten. Last September his class started a\nsmall garden on the flat roof of the school building. The idea came from Milo's\nsister, who had seen something similar in Zurich.\n\nAt first the teachers were not sure. «The roof is not a playground», said the\ncaretaker. But after three weeks of planning, the class was allowed to use one\ncorner, about twenty square metres.\n\nThe pupils built eighteen wooden boxes and filled them with soil. They planted\ntomatoes, beans and herbs. In the middle they put a bee hotel made of old bricks\nand hollow stems. «The bees came after four days», Milo says. «Nobody believed\nme, so I filmed them.»\n\nThe first summer was hard. In July nobody watered the plants for two weeks, and\nhalf of the tomatoes died. Now the class has a plan: every week two pupils are\nresponsible, and they write in a notebook what they did.\n\nThis year the garden produced eleven kilos of vegetables. The class cooked a\nsoup with them and invited the parents. Milo would like to grow strawberries\nnext, but the caretaker says the roof gets too hot in June.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "True, false or not given",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-wortschatz",
+  "lernzielId": "ESO.2.01",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies den ganzen Satz — die Lücke allein verrät zu wenig.",
+   "Frage dich: Um welche Situation geht es? Essen, Reisen, Einkaufen, Wetter?",
+   "Setze jede Möglichkeit ein und lies den Satz leise mit."
+  ],
+  "loesungsweg": [
+   "Das Wortfeld des Satzes bestimmen.",
+   "Die Wörter aussortieren, die in ein anderes Wortfeld gehören.",
+   "Bei den übrigen prüfen, welches grammatisch passt.",
+   "Den fertigen Satz noch einmal ganz lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Free time: Which sentence is about a hobby?",
+    "optionen": [
+     "She plays the guitar every Tuesday.",
+     "She misses the bus every day.",
+     "She has a cold this week.",
+     "She lives in a small flat."
+    ],
+    "loesung": [
+     "She plays the guitar every Tuesday."
+    ],
+    "erklaerung": "A hobby is something you do regularly in your free time — «plays the guitar every Tuesday» is exactly that.",
+    "fehler": [
+     {
+      "antwort": "She misses the bus every day.",
+      "diagnoseId": "verkehr",
+      "feedback": "This sentence is about transport and about being late. Missing a bus is not a hobby."
+     },
+     {
+      "antwort": "She has a cold this week.",
+      "diagnoseId": "gesundheit",
+      "feedback": "This sentence belongs to the word field health. It says how she feels, not what she does for fun."
+     },
+     {
+      "antwort": "She lives in a small flat.",
+      "diagnoseId": "wohnen",
+      "feedback": "This sentence is about housing. It tells you where she lives, not what she does in her free time."
+     }
+    ]
+   },
+   {
+    "stamm": "Food and drink: What do you use to eat soup?",
+    "optionen": [
+     "a spoon",
+     "a knife",
+     "a plate",
+     "a napkin"
+    ],
+    "loesung": [
+     "a spoon"
+    ],
+    "erklaerung": "«A spoon» is the Löffel. A knife cuts, a plate holds the food and a napkin is for your hands and mouth.",
+    "fehler": [
+     {
+      "antwort": "a knife",
+      "diagnoseId": "messer",
+      "feedback": "A knife is for cutting. You cannot lift soup with it."
+     },
+     {
+      "antwort": "a plate",
+      "diagnoseId": "teller",
+      "feedback": "A plate is the flat dish under the food. Soup is usually served in a bowl, and neither is a tool for eating."
+     },
+     {
+      "antwort": "a napkin",
+      "diagnoseId": "serviette",
+      "feedback": "A napkin is the Serviette. You clean your hands with it after eating."
+     }
+    ]
+   },
+   {
+    "stamm": "House and rooms: Where do you usually keep your clothes?",
+    "optionen": [
+     "in a wardrobe",
+     "in a fridge",
+     "in a sink",
+     "in an oven"
+    ],
+    "loesung": [
+     "in a wardrobe"
+    ],
+    "erklaerung": "«A wardrobe» is the Kleiderschrank. The other three words belong to the kitchen or the bathroom.",
+    "fehler": [
+     {
+      "antwort": "in a fridge",
+      "diagnoseId": "kuehlschrank",
+      "feedback": "A fridge is the Kühlschrank and keeps food cold, not clothes."
+     },
+     {
+      "antwort": "in a sink",
+      "diagnoseId": "waschbecken",
+      "feedback": "A sink is the Waschbecken, where you wash your hands or the dishes."
+     },
+     {
+      "antwort": "in an oven",
+      "diagnoseId": "backofen",
+      "feedback": "An oven is the Backofen. Clothes have no business there."
+     }
+    ]
+   },
+   {
+    "stamm": "Travel: You are at the station and the train is late. What do you look at?",
+    "optionen": [
+     "the departure board",
+     "the menu",
+     "the receipt",
+     "the timetable of the swimming pool"
+    ],
+    "loesung": [
+     "the departure board"
+    ],
+    "erklaerung": "«The departure board» is the Anzeigetafel with the departures — that is where a delay appears.",
+    "fehler": [
+     {
+      "antwort": "the menu",
+      "diagnoseId": "speisekarte",
+      "feedback": "A menu lists food in a restaurant. It says nothing about trains."
+     },
+     {
+      "antwort": "the receipt",
+      "diagnoseId": "quittung",
+      "feedback": "A receipt is the Quittung you get after paying. It does not show delays."
+     },
+     {
+      "antwort": "the timetable of the swimming pool",
+      "diagnoseId": "falscher_fahrplan",
+      "feedback": "That timetable shows the opening hours of a pool. You need the one for the trains."
+     }
+    ]
+   },
+   {
+    "stamm": "Directions: «Turn left at the traffic lights» tells you …",
+    "optionen": [
+     "which way to go",
+     "how much something costs",
+     "what the weather is like",
+     "when the shop opens"
+    ],
+    "loesung": [
+     "which way to go"
+    ],
+    "erklaerung": "«Turn left» and «traffic lights» belong to giving directions: they say which way to go.",
+    "fehler": [
+     {
+      "antwort": "how much something costs",
+      "diagnoseId": "preis",
+      "feedback": "A price would be given with a number and a currency, not with «turn left»."
+     },
+     {
+      "antwort": "what the weather is like",
+      "diagnoseId": "wetter",
+      "feedback": "Weather words are «sunny», «rainy» or «cold». None of them appears here."
+     },
+     {
+      "antwort": "when the shop opens",
+      "diagnoseId": "zeit",
+      "feedback": "An opening time would be a clock time, for example «at nine o'clock»."
+     }
+    ]
+   },
+   {
+    "stamm": "Shopping: The shop assistant says: «That will be twelve francs fifty.» What does she mean?",
+    "optionen": [
+     "the price you have to pay",
+     "the size of the jacket",
+     "the number of items left",
+     "the time the shop closes"
+    ],
+    "loesung": [
+     "the price you have to pay"
+    ],
+    "erklaerung": "«That will be …» plus an amount of money is the usual way to name the price at the till.",
+    "fehler": [
+     {
+      "antwort": "the size of the jacket",
+      "diagnoseId": "groesse",
+      "feedback": "A size would be a letter or a number like «M» or «38», without a currency."
+     },
+     {
+      "antwort": "the number of items left",
+      "diagnoseId": "anzahl",
+      "feedback": "The word «francs» shows that this is money, not a quantity of goods."
+     },
+     {
+      "antwort": "the time the shop closes",
+      "diagnoseId": "schliesszeit",
+      "feedback": "A closing time would be «at half past six», not an amount in francs."
+     }
+    ]
+   },
+   {
+    "stamm": "Quantities: Which word fits?\n\nHow ______ milk do we need?",
+    "optionen": [
+     "much",
+     "many",
+     "long",
+     "old"
+    ],
+    "loesung": [
+     "much"
+    ],
+    "erklaerung": "«Milk» cannot be counted, so it takes «much». Countable nouns take «many»: how many bottles?",
+    "fehler": [
+     {
+      "antwort": "many",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«Many» is for things you can count: how many apples. Milk is not counted in pieces."
+     },
+     {
+      "antwort": "long",
+      "diagnoseId": "dauer",
+      "feedback": "«How long» asks about time or length, not about an amount of milk."
+     },
+     {
+      "antwort": "old",
+      "diagnoseId": "alter",
+      "feedback": "«How old» asks about age. That does not fit a bottle of milk in this sentence."
+     }
+    ]
+   },
+   {
+    "stamm": "School and jobs: Who works in a school?",
+    "optionen": [
+     "a teacher",
+     "a nurse",
+     "a waiter",
+     "a mechanic"
+    ],
+    "loesung": [
+     "a teacher"
+    ],
+    "erklaerung": "«A teacher» is the Lehrperson. The other three work in a hospital, a restaurant and a garage.",
+    "fehler": [
+     {
+      "antwort": "a nurse",
+      "diagnoseId": "spital",
+      "feedback": "A nurse works in a hospital and looks after patients."
+     },
+     {
+      "antwort": "a waiter",
+      "diagnoseId": "restaurant",
+      "feedback": "A waiter serves food and drink in a restaurant."
+     },
+     {
+      "antwort": "a mechanic",
+      "diagnoseId": "garage",
+      "feedback": "A mechanic repairs cars and machines in a garage."
+     }
+    ]
+   },
+   {
+    "stamm": "Feelings: Your friend has lost her cat. How does she probably feel?",
+    "optionen": [
+     "sad",
+     "proud",
+     "hungry",
+     "surprised in a good way"
+    ],
+    "loesung": [
+     "sad"
+    ],
+    "erklaerung": "Losing an animal you love makes you sad. «Sad» is the ordinary word for that feeling.",
+    "fehler": [
+     {
+      "antwort": "proud",
+      "diagnoseId": "stolz",
+      "feedback": "«Proud» is what you feel after doing something well, not after losing something."
+     },
+     {
+      "antwort": "hungry",
+      "diagnoseId": "hunger",
+      "feedback": "«Hungry» describes your stomach, not your mood about a lost cat."
+     },
+     {
+      "antwort": "surprised in a good way",
+      "diagnoseId": "freude",
+      "feedback": "A pleasant surprise is the opposite of what happens here."
+     }
+    ]
+   },
+   {
+    "stamm": "Time and dates: Which one is a date?",
+    "optionen": [
+     "the third of May",
+     "half past three",
+     "three hours",
+     "three times a week"
+    ],
+    "loesung": [
+     "the third of May"
+    ],
+    "erklaerung": "A date names a day in the year. «Half past three» is a clock time, «three hours» a length of time.",
+    "fehler": [
+     {
+      "antwort": "half past three",
+      "diagnoseId": "uhrzeit",
+      "feedback": "That is a time of day. A date needs a day and a month."
+     },
+     {
+      "antwort": "three hours",
+      "diagnoseId": "dauer",
+      "feedback": "That is how long something lasts, not on which day it happens."
+     },
+     {
+      "antwort": "three times a week",
+      "diagnoseId": "haeufigkeit",
+      "feedback": "That says how often something happens, not when exactly."
+     }
+    ]
+   },
+   {
+    "stamm": "Numbers: How do you say 1987 in English?",
+    "optionen": [
+     "nineteen eighty-seven",
+     "one thousand nine hundred eighty-seven and a half",
+     "nineteen hundred and eight seven",
+     "one nine eight seven years"
+    ],
+    "loesung": [
+     "nineteen eighty-seven"
+    ],
+    "erklaerung": "Years are usually read in two pairs: 19 | 87 becomes «nineteen eighty-seven».",
+    "fehler": [
+     {
+      "antwort": "one thousand nine hundred eighty-seven and a half",
+      "diagnoseId": "halb",
+      "feedback": "The half is invented, and years are not read out as full thousands in everyday English."
+     },
+     {
+      "antwort": "nineteen hundred and eight seven",
+      "diagnoseId": "zerlegt",
+      "feedback": "The second pair is «eighty-seven», one number, not «eight seven»."
+     },
+     {
+      "antwort": "one nine eight seven years",
+      "diagnoseId": "ziffern",
+      "feedback": "Reading the single digits is how you say a telephone number, not a year."
+     }
+    ]
+   },
+   {
+    "stamm": "Weather and nature: It is grey and water is falling from the sky. What do you say?",
+    "optionen": [
+     "It's raining.",
+     "It's snowing.",
+     "It's freezing.",
+     "It's boiling."
+    ],
+    "loesung": [
+     "It's raining."
+    ],
+    "erklaerung": "Water falling from the sky is rain: «It's raining.»",
+    "fehler": [
+     {
+      "antwort": "It's snowing.",
+      "diagnoseId": "schnee",
+      "feedback": "Snow is frozen and white. The sentence says water is falling."
+     },
+     {
+      "antwort": "It's freezing.",
+      "diagnoseId": "frost",
+      "feedback": "«Freezing» means it is very cold, below zero. Then the water would not fall as rain."
+     },
+     {
+      "antwort": "It's boiling.",
+      "diagnoseId": "hitze",
+      "feedback": "«Boiling» is used for very hot weather, which does not fit a grey sky with rain."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Word fields: free time, food, house and travel",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-wortschatz-2",
+  "lernzielId": "ESO.2.05",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Mengenangaben brauchen bei nicht zählbaren Wörtern ein Mengenwort.",
+   "Bei Berufen steht im Englischen ein Artikel: she is a teacher.",
+   "Gefühle stehen oft mit «be» plus Adjektiv, nicht mit «have»."
+  ],
+  "loesungsweg": [
+   "Das Wortfeld bestimmen.",
+   "Prüfen, ob das Wort zählbar ist.",
+   "Die passende Wendung wählen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which word fits?\n\nHow ______ does this jacket cost?",
+    "optionen": [
+     "much",
+     "many",
+     "long",
+     "far"
+    ],
+    "loesung": [
+     "much"
+    ],
+    "erklaerung": "Beim Preis fragt man «how much».",
+    "fehler": [
+     {
+      "antwort": "many",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«how many» fragt nach einer Anzahl, nicht nach einem Preis."
+     },
+     {
+      "antwort": "long",
+      "diagnoseId": "bedeutung",
+      "feedback": "«how long» fragt nach der Dauer. Richtig ist «much»."
+     },
+     {
+      "antwort": "far",
+      "diagnoseId": "bedeutung",
+      "feedback": "«how far» fragt nach der Entfernung. Richtig ist «much»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nI'd like two ______ of bread, please.",
+    "optionen": [
+     "loaves",
+     "loafs",
+     "breads",
+     "pieces of loaf"
+    ],
+    "loesung": [
+     "loaves"
+    ],
+    "erklaerung": "«a loaf of bread» ist ein Laib; der Plural lautet «loaves».",
+    "fehler": [
+     {
+      "antwort": "loafs",
+      "diagnoseId": "form",
+      "feedback": "Der Plural von «loaf» lautet «loaves». Richtig ist «loaves»."
+     },
+     {
+      "antwort": "breads",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«bread» ist nicht zählbar und bekommt kein «-s»."
+     },
+     {
+      "antwort": "pieces of loaf",
+      "diagnoseId": "wendung",
+      "feedback": "Üblich ist «loaves of bread». Richtig ist «loaves»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nCan I pay ______ card?",
+    "optionen": [
+     "by",
+     "with",
+     "in",
+     "on"
+    ],
+    "loesung": [
+     "by"
+    ],
+    "erklaerung": "«pay by card» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "with",
+      "diagnoseId": "wendung",
+      "feedback": "«with» steht bei «pay with cash» eher selten; üblich ist «by card»."
+     },
+     {
+      "antwort": "in",
+      "diagnoseId": "wendung",
+      "feedback": "«in cash» ist möglich, «in card» nicht. Richtig ist «by»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "wendung",
+      "feedback": "«on» passt hier nicht. Richtig ist «by»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThe jacket was ______ , so I bought it.",
+    "optionen": [
+     "on sale",
+     "in sale",
+     "by sale",
+     "at sale"
+    ],
+    "loesung": [
+     "on sale"
+    ],
+    "erklaerung": "«on sale» heisst im Angebot.",
+    "fehler": [
+     {
+      "antwort": "in sale",
+      "diagnoseId": "wendung",
+      "feedback": "Die Wendung lautet «on sale». Richtig ist «on sale»."
+     },
+     {
+      "antwort": "by sale",
+      "diagnoseId": "wendung",
+      "feedback": "«by sale» gibt es nicht. Richtig ist «on sale»."
+     },
+     {
+      "antwort": "at sale",
+      "diagnoseId": "wendung",
+      "feedback": "«at» passt hier nicht. Richtig ist «on sale»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nMy sister is ______ engineer.",
+    "optionen": [
+     "an",
+     "a",
+     "the",
+     "—"
+    ],
+    "loesung": [
+     "an"
+    ],
+    "erklaerung": "Vor einem Vokal steht «an»; bei Berufen darf der Artikel nicht fehlen.",
+    "fehler": [
+     {
+      "antwort": "a",
+      "diagnoseId": "lautung",
+      "feedback": "Vor einem Vokal steht «an». Richtig ist «an»."
+     },
+     {
+      "antwort": "the",
+      "diagnoseId": "artikel",
+      "feedback": "Der bestimmte Artikel meinte eine bestimmte Person."
+     },
+     {
+      "antwort": "—",
+      "diagnoseId": "artikel",
+      "feedback": "Anders als im Französischen braucht der Beruf im Englischen einen Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nWe have five ______ a week: maths, English, French, biology and sport.",
+    "optionen": [
+     "subjects",
+     "themes",
+     "matters",
+     "topics"
+    ],
+    "loesung": [
+     "subjects"
+    ],
+    "erklaerung": "«subject» ist das Schulfach.",
+    "fehler": [
+     {
+      "antwort": "themes",
+      "diagnoseId": "bedeutung",
+      "feedback": "«theme» ist ein Thema, kein Schulfach. Richtig ist «subjects»."
+     },
+     {
+      "antwort": "matters",
+      "diagnoseId": "bedeutung",
+      "feedback": "«matter» heisst Angelegenheit. Richtig ist «subjects»."
+     },
+     {
+      "antwort": "topics",
+      "diagnoseId": "bedeutung",
+      "feedback": "«topic» ist ein Thema innerhalb eines Fachs."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nShe wants to ______ an apprenticeship after school.",
+    "optionen": [
+     "do",
+     "make",
+     "take part",
+     "build"
+    ],
+    "loesung": [
+     "do"
+    ],
+    "erklaerung": "«do an apprenticeship» heisst eine Lehre machen.",
+    "fehler": [
+     {
+      "antwort": "make",
+      "diagnoseId": "wendung",
+      "feedback": "«make» steht bei Dingen, die entstehen. Richtig ist «do»."
+     },
+     {
+      "antwort": "take part",
+      "diagnoseId": "wendung",
+      "feedback": "«take part» heisst teilnehmen und braucht «in»."
+     },
+     {
+      "antwort": "build",
+      "diagnoseId": "bedeutung",
+      "feedback": "«build» heisst bauen und passt nicht zu einer Lehre."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nI'm ______ of spiders.",
+    "optionen": [
+     "afraid",
+     "fear",
+     "scare",
+     "fright"
+    ],
+    "loesung": [
+     "afraid"
+    ],
+    "erklaerung": "«be afraid of» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "fear",
+      "diagnoseId": "wortart",
+      "feedback": "«fear» ist ein Nomen oder Verb, kein Adjektiv nach «be»."
+     },
+     {
+      "antwort": "scare",
+      "diagnoseId": "wortart",
+      "feedback": "«scared» wäre möglich, «scare» nicht. Richtig ist «afraid»."
+     },
+     {
+      "antwort": "fright",
+      "diagnoseId": "wortart",
+      "feedback": "«fright» ist ein Nomen. Richtig ist «afraid»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nHe was ______ when he heard the news — he had hoped for more.",
+    "optionen": [
+     "disappointed",
+     "disappointing",
+     "disappoint",
+     "disappointment"
+    ],
+    "loesung": [
+     "disappointed"
+    ],
+    "erklaerung": "Wer etwas fühlt, ist «disappointed»; «disappointing» wäre die Sache selbst.",
+    "fehler": [
+     {
+      "antwort": "disappointing",
+      "diagnoseId": "form",
+      "feedback": "«disappointing» beschreibt die Nachricht, nicht die Person."
+     },
+     {
+      "antwort": "disappoint",
+      "diagnoseId": "wortart",
+      "feedback": "«disappoint» ist das Verb. Richtig ist «disappointed»."
+     },
+     {
+      "antwort": "disappointment",
+      "diagnoseId": "wortart",
+      "feedback": "«disappointment» ist ein Nomen. Richtig ist «disappointed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nIn my ______ , the film was too long.",
+    "optionen": [
+     "opinion",
+     "meaning",
+     "mind",
+     "sense"
+    ],
+    "loesung": [
+     "opinion"
+    ],
+    "erklaerung": "«in my opinion» heisst meiner Meinung nach.",
+    "fehler": [
+     {
+      "antwort": "meaning",
+      "diagnoseId": "bedeutung",
+      "feedback": "«meaning» ist die Bedeutung eines Worts."
+     },
+     {
+      "antwort": "mind",
+      "diagnoseId": "wendung",
+      "feedback": "«to my mind» wäre möglich, «in my mind» heisst etwas anderes."
+     },
+     {
+      "antwort": "sense",
+      "diagnoseId": "bedeutung",
+      "feedback": "«sense» heisst Sinn. Richtig ist «opinion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nShe felt ______ after the exam because she had studied a lot.",
+    "optionen": [
+     "relieved",
+     "relief",
+     "relieving",
+     "relieve"
+    ],
+    "loesung": [
+     "relieved"
+    ],
+    "erklaerung": "«relieved» beschreibt, wie sich die Person fühlt.",
+    "fehler": [
+     {
+      "antwort": "relief",
+      "diagnoseId": "wortart",
+      "feedback": "«relief» ist ein Nomen. Richtig ist «relieved»."
+     },
+     {
+      "antwort": "relieving",
+      "diagnoseId": "form",
+      "feedback": "«relieving» beschriebe die Sache, nicht die Person."
+     },
+     {
+      "antwort": "relieve",
+      "diagnoseId": "wortart",
+      "feedback": "«relieve» ist das Verb. Richtig ist «relieved»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nHow ______ people were there at the concert?",
+    "optionen": [
+     "many",
+     "much",
+     "lot",
+     "far"
+    ],
+    "loesung": [
+     "many"
+    ],
+    "erklaerung": "«people» ist zählbar; darum «how many».",
+    "fehler": [
+     {
+      "antwort": "much",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«how much» steht bei nicht zählbaren Wörtern."
+     },
+     {
+      "antwort": "lot",
+      "diagnoseId": "form",
+      "feedback": "«a lot of» ist keine Frageform. Richtig ist «many»."
+     },
+     {
+      "antwort": "far",
+      "diagnoseId": "bedeutung",
+      "feedback": "«how far» fragt nach der Entfernung. Richtig ist «many»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Shopping, school and feelings",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-wortschatz-3",
+  "lernzielId": "ESO.2.08",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "2.08",
+   "2.09"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Datumsangaben steht im Englischen die Ordnungszahl.",
+   "«in» steht bei Monaten und Jahren, «on» bei Tagen, «at» bei Uhrzeiten.",
+   "Wetterangaben stehen oft mit «it is» plus Adjektiv."
+  ],
+  "loesungsweg": [
+   "Bestimmen, ob Zeit, Datum oder Wetter gemeint ist.",
+   "Die passende Präposition wählen.",
+   "Bei Zahlen die Ordnungsform prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which preposition fits?\n\nThe course starts ______ Monday.",
+    "optionen": [
+     "on",
+     "in",
+     "at",
+     "by"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "Bei Wochentagen steht «on».",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "praeposition",
+      "feedback": "«in» steht bei Monaten, Jahreszeiten und Jahren."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "praeposition",
+      "feedback": "«at» steht bei Uhrzeiten. Richtig ist «on»."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "bedeutung",
+      "feedback": "«by Monday» hiesse bis spätestens Montag."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nMy birthday is ______ July.",
+    "optionen": [
+     "in",
+     "on",
+     "at",
+     "from"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "Vor einem Monatsnamen ohne Tagesangabe steht «in»: in July.",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "praeposition",
+      "feedback": "«on» steht bei Tagen und Daten. Richtig ist «in»."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "praeposition",
+      "feedback": "«at» steht bei Uhrzeiten und Festen wie «at Christmas»."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "bedeutung",
+      "feedback": "«from» nennte einen Anfangspunkt. Richtig ist «in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe train leaves ______ half past six.",
+    "optionen": [
+     "at",
+     "in",
+     "on",
+     "by"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "Vor einer Uhrzeit steht «at»: at half past six.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "praeposition",
+      "feedback": "«in» steht bei Monaten und Jahren. Richtig ist «at»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "praeposition",
+      "feedback": "«on» steht bei Tagen und Daten, nicht bei einer Uhrzeit."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "bedeutung",
+      "feedback": "«by» hiesse bis spätestens. Richtig ist «at»."
+     }
+    ]
+   },
+   {
+    "stamm": "How do you say 3 May?",
+    "optionen": [
+     "the third of May",
+     "the three of May",
+     "the third May",
+     "three May"
+    ],
+    "loesung": [
+     "the third of May"
+    ],
+    "erklaerung": "Beim Datum steht die Ordnungszahl mit Artikel und «of».",
+    "fehler": [
+     {
+      "antwort": "the three of May",
+      "diagnoseId": "form",
+      "feedback": "Beim Datum steht die Ordnungszahl: third."
+     },
+     {
+      "antwort": "the third May",
+      "diagnoseId": "form",
+      "feedback": "Zwischen Zahl und Monat steht «of». Richtig ist «the third of May»."
+     },
+     {
+      "antwort": "three May",
+      "diagnoseId": "form",
+      "feedback": "Artikel und Ordnungszahl fehlen. Richtig ist «the third of May»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nIt's very ______ today — take your umbrella.",
+    "optionen": [
+     "wet",
+     "wetly",
+     "water",
+     "watery"
+    ],
+    "loesung": [
+     "wet"
+    ],
+    "erklaerung": "Nach «it's» steht ein Adjektiv.",
+    "fehler": [
+     {
+      "antwort": "wetly",
+      "diagnoseId": "wortart",
+      "feedback": "«wetly» wäre ein Adverb. Richtig ist «wet»."
+     },
+     {
+      "antwort": "water",
+      "diagnoseId": "wortart",
+      "feedback": "«water» ist ein Nomen. Richtig ist «wet»."
+     },
+     {
+      "antwort": "watery",
+      "diagnoseId": "bedeutung",
+      "feedback": "«watery» heisst wässrig und passt nicht zum Wetter."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThere was thick ______ this morning; you could hardly see the road.",
+    "optionen": [
+     "fog",
+     "cloud",
+     "smoke",
+     "steam"
+    ],
+    "loesung": [
+     "fog"
+    ],
+    "erklaerung": "«fog» ist der Nebel, der die Sicht nimmt.",
+    "fehler": [
+     {
+      "antwort": "cloud",
+      "diagnoseId": "bedeutung",
+      "feedback": "Wolken stehen am Himmel, nicht auf der Strasse."
+     },
+     {
+      "antwort": "smoke",
+      "diagnoseId": "bedeutung",
+      "feedback": "«smoke» entsteht bei einem Feuer. Richtig ist «fog»."
+     },
+     {
+      "antwort": "steam",
+      "diagnoseId": "bedeutung",
+      "feedback": "«steam» ist Wasserdampf, etwa über einem Topf."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThe ______ was so strong that it blew the bins over.",
+    "optionen": [
+     "wind",
+     "weather",
+     "storm cloud",
+     "air"
+    ],
+    "loesung": [
+     "wind"
+    ],
+    "erklaerung": "«wind» ist der Wind, der etwas umwirft.",
+    "fehler": [
+     {
+      "antwort": "weather",
+      "diagnoseId": "bedeutung",
+      "feedback": "«weather» ist das Wetter allgemein, nicht die Kraft."
+     },
+     {
+      "antwort": "storm cloud",
+      "diagnoseId": "bedeutung",
+      "feedback": "Eine Wolke wirft nichts um. Richtig ist «wind»."
+     },
+     {
+      "antwort": "air",
+      "diagnoseId": "bedeutung",
+      "feedback": "«air» ist die Luft, ohne Bewegung. Richtig ist «wind»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThe ______ of the mountain was covered in snow.",
+    "optionen": [
+     "top",
+     "head",
+     "roof",
+     "peak of top"
+    ],
+    "loesung": [
+     "top"
+    ],
+    "erklaerung": "«the top of the mountain» ist der Gipfel.",
+    "fehler": [
+     {
+      "antwort": "head",
+      "diagnoseId": "bedeutung",
+      "feedback": "«head» ist der Kopf eines Menschen. Richtig ist «top»."
+     },
+     {
+      "antwort": "roof",
+      "diagnoseId": "bedeutung",
+      "feedback": "«roof» ist das Dach eines Gebäudes. Richtig ist «top»."
+     },
+     {
+      "antwort": "peak of top",
+      "diagnoseId": "form",
+      "feedback": "Diese Doppelung gibt es nicht. Richtig ist «top»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThey walked along the ______ of the lake.",
+    "optionen": [
+     "shore",
+     "coast",
+     "bank note",
+     "side of sea"
+    ],
+    "loesung": [
+     "shore"
+    ],
+    "erklaerung": "«shore» ist das Ufer eines Sees.",
+    "fehler": [
+     {
+      "antwort": "coast",
+      "diagnoseId": "bedeutung",
+      "feedback": "«coast» ist die Meeresküste. Richtig ist «shore»."
+     },
+     {
+      "antwort": "bank note",
+      "diagnoseId": "bedeutung",
+      "feedback": "«bank note» ist eine Banknote; das Ufer wäre «bank»."
+     },
+     {
+      "antwort": "side of sea",
+      "diagnoseId": "form",
+      "feedback": "Diese Wendung gibt es nicht. Richtig ist «shore»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nIt has been raining ______ two hours.",
+    "optionen": [
+     "for",
+     "since",
+     "during",
+     "from"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«for» steht bei einer Zeitspanne.",
+    "fehler": [
+     {
+      "antwort": "since",
+      "diagnoseId": "zeitpunkt",
+      "feedback": "«since» steht bei einem Zeitpunkt: since two o'clock."
+     },
+     {
+      "antwort": "during",
+      "diagnoseId": "form",
+      "feedback": "«during» steht vor einem Ereignis, nicht vor einer Dauer."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "form",
+      "feedback": "«from» braucht ein «to» dazu. Richtig ist «for»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nWe have lived here ______ 2019.",
+    "optionen": [
+     "since",
+     "for",
+     "from",
+     "by"
+    ],
+    "loesung": [
+     "since"
+    ],
+    "erklaerung": "«since» steht bei einem Zeitpunkt.",
+    "fehler": [
+     {
+      "antwort": "for",
+      "diagnoseId": "zeitspanne",
+      "feedback": "«for» steht bei einer Dauer: for five years."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "form",
+      "feedback": "«from 2019 to 2022» wäre möglich, allein aber nicht."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "bedeutung",
+      "feedback": "«by 2019» hiesse bis spätestens 2019. Richtig ist «since»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "The meeting is on 12 June at ten o'clock.",
+     "The meeting is in 12 June on ten o'clock.",
+     "The meeting is at 12 June in ten o'clock.",
+     "The meeting is on 12 June in ten o'clock."
+    ],
+    "loesung": [
+     "The meeting is on 12 June at ten o'clock."
+    ],
+    "erklaerung": "«on» beim Datum, «at» bei der Uhrzeit.",
+    "fehler": [
+     {
+      "antwort": "The meeting is in 12 June on ten o'clock.",
+      "diagnoseId": "praeposition",
+      "feedback": "Beim Datum steht «on», bei der Uhrzeit «at»."
+     },
+     {
+      "antwort": "The meeting is at 12 June in ten o'clock.",
+      "diagnoseId": "praeposition",
+      "feedback": "«at» steht bei Uhrzeiten, nicht bei Daten."
+     },
+     {
+      "antwort": "The meeting is on 12 June in ten o'clock.",
+      "diagnoseId": "praeposition",
+      "feedback": "Bei der Uhrzeit steht «at». Richtig ist «The meeting is on 12 June at ten o'clock.»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Time, dates, weather and nature",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-zeiten",
+  "lernzielId": "ESO.3.01",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche im Satz das Signalwort: «every day», «yesterday», «since», «tomorrow».",
+   "Das Signalwort bestimmt die Zeitform, nicht dein Gefühl.",
+   "Bei Fragen und Verneinungen im present und past simple steht «do», «does» oder «did»."
+  ],
+  "loesungsweg": [
+   "Das Subjekt bestimmen: Einzahl oder Mehrzahl?",
+   "Das Signalwort suchen und die Zeitform daraus ableiten.",
+   "Die Form bilden — bei he, she, it im present simple ein «-s».",
+   "Den Satz ganz durchlesen und prüfen, ob er stimmt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Present simple or present continuous?\n\nLook out of the window! It ______ again.",
+    "optionen": [
+     "is raining",
+     "rains",
+     "rained",
+     "has rained"
+    ],
+    "loesung": [
+     "is raining"
+    ],
+    "erklaerung": "«Look out of the window!» zeigt: Es geschieht gerade jetzt. Dafür steht das present continuous.",
+    "fehler": [
+     {
+      "antwort": "rains",
+      "diagnoseId": "gewohnheit",
+      "feedback": "Das present simple nennt Gewohnheiten: «It often rains in April». Hier geht es um diesen Augenblick."
+     },
+     {
+      "antwort": "rained",
+      "diagnoseId": "vergangenheit",
+      "feedback": "«Rained» ist das past simple und liegt in der Vergangenheit."
+     },
+     {
+      "antwort": "has rained",
+      "diagnoseId": "present_perfect",
+      "feedback": "Das present perfect blickt auf ein Ergebnis zurück. Gefragt ist, was gerade passiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Present simple: Which form is correct?\n\nMy brother ______ tennis every Saturday.",
+    "optionen": [
+     "plays",
+     "play",
+     "is playing",
+     "played"
+    ],
+    "loesung": [
+     "plays"
+    ],
+    "erklaerung": "«Every Saturday» ist eine Gewohnheit, also present simple. Nach «my brother» steht ein «-s».",
+    "fehler": [
+     {
+      "antwort": "play",
+      "diagnoseId": "kein_s",
+      "feedback": "Bei he, she oder it bekommt das Verb im present simple ein «-s»: he plays."
+     },
+     {
+      "antwort": "is playing",
+      "diagnoseId": "verlaufsform",
+      "feedback": "Das present continuous beschreibt den Augenblick. «Every Saturday» verlangt die einfache Form."
+     },
+     {
+      "antwort": "played",
+      "diagnoseId": "vergangenheit",
+      "feedback": "«Played» ist die Vergangenheit. Der Satz spricht von jeder Woche."
+     }
+    ]
+   },
+   {
+    "stamm": "Past simple or past continuous?\n\nWhile I ______ my homework, the lights went out.",
+    "optionen": [
+     "was doing",
+     "did",
+     "have done",
+     "do"
+    ],
+    "loesung": [
+     "was doing"
+    ],
+    "erklaerung": "Der längere Vorgang im Hintergrund steht im past continuous; das kurze Ereignis unterbricht ihn im past simple.",
+    "fehler": [
+     {
+      "antwort": "did",
+      "diagnoseId": "past_simple",
+      "feedback": "«While» kündigt den laufenden Vorgang an. Zwei past simple nebeneinander würden zwei kurze Ereignisse bedeuten."
+     },
+     {
+      "antwort": "have done",
+      "diagnoseId": "present_perfect",
+      "feedback": "Das present perfect passt nicht zu einem abgeschlossenen Moment in der Vergangenheit."
+     },
+     {
+      "antwort": "do",
+      "diagnoseId": "gegenwart",
+      "feedback": "«Do» ist die Gegenwart. Der zweite Satzteil steht in der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Past simple: Which form is correct?\n\nWe ______ to Ticino last summer.",
+    "optionen": [
+     "went",
+     "goed",
+     "have gone",
+     "were going"
+    ],
+    "loesung": [
+     "went"
+    ],
+    "erklaerung": "«Go» ist unregelmässig: go — went — gone. «Last summer» verlangt das past simple.",
+    "fehler": [
+     {
+      "antwort": "goed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«Goed» gibt es nicht. «Go» ist unregelmässig und heisst in der Vergangenheit «went»."
+     },
+     {
+      "antwort": "have gone",
+      "diagnoseId": "present_perfect",
+      "feedback": "Mit einer festen Zeitangabe wie «last summer» steht kein present perfect."
+     },
+     {
+      "antwort": "were going",
+      "diagnoseId": "verlaufsform",
+      "feedback": "Das past continuous beschreibt einen laufenden Vorgang. Hier geht es um eine abgeschlossene Reise."
+     }
+    ]
+   },
+   {
+    "stamm": "Present perfect: Which sentence is correct?",
+    "optionen": [
+     "I have known her since 2023.",
+     "I know her since 2023.",
+     "I have known her in 2023.",
+     "I knew her since 2023."
+    ],
+    "loesung": [
+     "I have known her since 2023."
+    ],
+    "erklaerung": "«Since» nennt den Anfangspunkt eines Zustands, der bis heute dauert — dafür steht das present perfect.",
+    "fehler": [
+     {
+      "antwort": "I know her since 2023.",
+      "diagnoseId": "deutsch_uebertragen",
+      "feedback": "Im Deutschen sagt man «Ich kenne sie seit 2023» in der Gegenwart. Im Englischen braucht es das present perfect."
+     },
+     {
+      "antwort": "I have known her in 2023.",
+      "diagnoseId": "in_statt_since",
+      "feedback": "«In 2023» ist ein abgeschlossener Zeitraum und verlangt das past simple."
+     },
+     {
+      "antwort": "I knew her since 2023.",
+      "diagnoseId": "past_simple",
+      "feedback": "Das past simple würde bedeuten, dass die Bekanntschaft vorbei ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Future: Which form fits best?\n\nLook at those clouds! It ______ rain.",
+    "optionen": [
+     "is going to",
+     "will probably not",
+     "would",
+     "used to"
+    ],
+    "loesung": [
+     "is going to"
+    ],
+    "erklaerung": "«Going to» steht, wenn man ein Anzeichen sieht — hier die Wolken.",
+    "fehler": [
+     {
+      "antwort": "will probably not",
+      "diagnoseId": "verneint",
+      "feedback": "Der Satz sagt das Gegenteil: Die Wolken sprechen dafür, dass es regnet."
+     },
+     {
+      "antwort": "would",
+      "diagnoseId": "konditional",
+      "feedback": "«Would» gehört in Bedingungssätze, nicht zu einer Vorhersage aus einem Anzeichen."
+     },
+     {
+      "antwort": "used to",
+      "diagnoseId": "vergangenheit",
+      "feedback": "«Used to» beschreibt eine Gewohnheit in der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Future: Which sentence talks about a fixed arrangement?",
+    "optionen": [
+     "I'm meeting Sara at six.",
+     "I'll meet Sara one day.",
+     "I met Sara at six.",
+     "I would meet Sara at six."
+    ],
+    "loesung": [
+     "I'm meeting Sara at six."
+    ],
+    "erklaerung": "Für feste Verabredungen benutzt man das present continuous — Zeit und Person stehen schon fest.",
+    "fehler": [
+     {
+      "antwort": "I'll meet Sara one day.",
+      "diagnoseId": "spontan",
+      "feedback": "«I'll» plus «one day» ist eine vage Absicht, keine Verabredung."
+     },
+     {
+      "antwort": "I met Sara at six.",
+      "diagnoseId": "vergangenheit",
+      "feedback": "Das ist das past simple: Das Treffen war bereits."
+     },
+     {
+      "antwort": "I would meet Sara at six.",
+      "diagnoseId": "konditional",
+      "feedback": "«Would» braucht eine Bedingung und beschreibt keine feste Abmachung."
+     }
+    ]
+   },
+   {
+    "stamm": "Modal verbs: Which one fits?\n\nYou ______ wear a helmet when you ride a bike.",
+    "optionen": [
+     "should",
+     "shouldn't",
+     "can't",
+     "needn't"
+    ],
+    "loesung": [
+     "should"
+    ],
+    "erklaerung": "«Should» gibt einen Rat: Es ist vernünftig, einen Helm zu tragen.",
+    "fehler": [
+     {
+      "antwort": "shouldn't",
+      "diagnoseId": "verneint",
+      "feedback": "«Shouldn't» rät davon ab. Beim Velofahren ist ein Helm aber gerade empfohlen."
+     },
+     {
+      "antwort": "can't",
+      "diagnoseId": "verbot",
+      "feedback": "«Can't» sagt, dass etwas unmöglich oder verboten ist."
+     },
+     {
+      "antwort": "needn't",
+      "diagnoseId": "nicht_noetig",
+      "feedback": "«Needn't» heisst, dass etwas nicht nötig ist — das Gegenteil eines Rats."
+     }
+    ]
+   },
+   {
+    "stamm": "Modal verbs: What does «You must not take photos here» mean?",
+    "optionen": [
+     "Taking photos is forbidden.",
+     "You do not have to take photos.",
+     "You are able to take photos.",
+     "You forgot to take photos."
+    ],
+    "loesung": [
+     "Taking photos is forbidden."
+    ],
+    "erklaerung": "«Must not» ist ein Verbot. «Not have to» wäre dagegen: Es ist nicht nötig.",
+    "fehler": [
+     {
+      "antwort": "You do not have to take photos.",
+      "diagnoseId": "nicht_noetig",
+      "feedback": "Das ist die Bedeutung von «don't have to». «Must not» ist strenger: Es ist verboten."
+     },
+     {
+      "antwort": "You are able to take photos.",
+      "diagnoseId": "koennen",
+      "feedback": "Das wäre «can». «Must not» sagt nichts über deine Fähigkeit."
+     },
+     {
+      "antwort": "You forgot to take photos.",
+      "diagnoseId": "vergessen",
+      "feedback": "Vergessen hat mit dem Modalverb «must» nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Questions: Which question is correct?",
+    "optionen": [
+     "Where does she live?",
+     "Where she lives?",
+     "Where does she lives?",
+     "Where lives she?"
+    ],
+    "loesung": [
+     "Where does she live?"
+    ],
+    "erklaerung": "Im present simple bildet «do» oder «does» die Frage, und das Hauptverb bleibt im Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "Where she lives?",
+      "diagnoseId": "kein_hilfsverb",
+      "feedback": "Ohne «does» ist es keine Frage, sondern ein Nebensatz."
+     },
+     {
+      "antwort": "Where does she lives?",
+      "diagnoseId": "doppeltes_s",
+      "feedback": "Das «-s» steckt schon in «does». Das Hauptverb bleibt «live»."
+     },
+     {
+      "antwort": "Where lives she?",
+      "diagnoseId": "deutsche_stellung",
+      "feedback": "Diese Umstellung gibt es im Deutschen, im Englischen aber nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Short answers: «Have you finished?» — Which answer is correct?",
+    "optionen": [
+     "Yes, I have.",
+     "Yes, I do.",
+     "Yes, I am.",
+     "Yes, I finished."
+    ],
+    "loesung": [
+     "Yes, I have."
+    ],
+    "erklaerung": "Die Kurzantwort wiederholt das Hilfsverb der Frage. Hier ist es «have».",
+    "fehler": [
+     {
+      "antwort": "Yes, I do.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«Do» gehört zu Fragen im present simple, nicht zum present perfect."
+     },
+     {
+      "antwort": "Yes, I am.",
+      "diagnoseId": "sein",
+      "feedback": "«Am» gehört zu Fragen mit «are you». Die Frage begann mit «have»."
+     },
+     {
+      "antwort": "Yes, I finished.",
+      "diagnoseId": "vollverb",
+      "feedback": "Eine Kurzantwort besteht aus Subjekt und Hilfsverb, nicht aus dem Vollverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Comparison: Which sentence is correct?",
+    "optionen": [
+     "This exercise is more difficult than the last one.",
+     "This exercise is difficulter than the last one.",
+     "This exercise is the most difficult than the last one.",
+     "This exercise is more difficult as the last one."
+    ],
+    "loesung": [
+     "This exercise is more difficult than the last one."
+    ],
+    "erklaerung": "Lange Adjektive werden mit «more» gesteigert, und der Vergleich läuft mit «than».",
+    "fehler": [
+     {
+      "antwort": "This exercise is difficulter than the last one.",
+      "diagnoseId": "endung",
+      "feedback": "«-er» hängt man nur an kurze Adjektive: bigger, faster. «Difficult» ist zu lang."
+     },
+     {
+      "antwort": "This exercise is the most difficult than the last one.",
+      "diagnoseId": "superlativ",
+      "feedback": "«The most» ist der Superlativ und verträgt kein «than»."
+     },
+     {
+      "antwort": "This exercise is more difficult as the last one.",
+      "diagnoseId": "as_statt_than",
+      "feedback": "Beim Vergleich steht «than». «As» gehört zu «as difficult as»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Present, past and present perfect",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-zukunft-modal",
+  "lernzielId": "ESO.3.04",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "3.04",
+   "3.05",
+   "3.06",
+   "3.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "«will» für Entschlüsse im Moment, «going to» für Pläne und Anzeichen.",
+   "Modalverben stehen ohne «to» und ohne «-s».",
+   "Kurze Adjektive steigert man mit «-er/-est», lange mit «more/most»."
+  ],
+  "loesungsweg": [
+   "Die Zeitstufe oder die Bedeutung bestimmen.",
+   "Die passende Form wählen.",
+   "Die Wortstellung prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which form fits?\n\nLook at those clouds — it ______ rain.",
+    "optionen": [
+     "is going to",
+     "will",
+     "would",
+     "shall"
+    ],
+    "loesung": [
+     "is going to"
+    ],
+    "erklaerung": "Ein sichtbares Anzeichen verlangt «going to».",
+    "fehler": [
+     {
+      "antwort": "will",
+      "diagnoseId": "bedeutung",
+      "feedback": "«will» steht bei einem Entschluss oder einer Vermutung ohne Anzeichen."
+     },
+     {
+      "antwort": "would",
+      "diagnoseId": "zeit",
+      "feedback": "«would» ist die Vergangenheitsform und passt nicht."
+     },
+     {
+      "antwort": "shall",
+      "diagnoseId": "gebrauch",
+      "feedback": "«shall» steht heute vor allem in Angeboten und Vorschlägen."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nThe phone is ringing. — I ______ answer it.",
+    "optionen": [
+     "'ll",
+     "'m going to",
+     "was going to",
+     "would"
+    ],
+    "loesung": [
+     "'ll"
+    ],
+    "erklaerung": "Ein Entschluss im Moment des Sprechens steht mit «will».",
+    "fehler": [
+     {
+      "antwort": "'m going to",
+      "diagnoseId": "bedeutung",
+      "feedback": "«going to» setzt einen Plan voraus, den es hier noch nicht gab."
+     },
+     {
+      "antwort": "was going to",
+      "diagnoseId": "zeit",
+      "feedback": "Das steht in der Vergangenheit. Richtig ist «'ll»."
+     },
+     {
+      "antwort": "would",
+      "diagnoseId": "zeit",
+      "feedback": "«would» passt nicht zu einem Entschluss jetzt."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nWe ______ to Ticino next summer; we booked the hotel last week.",
+    "optionen": [
+     "are going",
+     "will go",
+     "go",
+     "would go"
+    ],
+    "loesung": [
+     "are going"
+    ],
+    "erklaerung": "Ein fester Plan mit Buchung steht in der Verlaufsform der Gegenwart.",
+    "fehler": [
+     {
+      "antwort": "will go",
+      "diagnoseId": "bedeutung",
+      "feedback": "«will» klänge nach einem spontanen Entschluss."
+     },
+     {
+      "antwort": "go",
+      "diagnoseId": "zeit",
+      "feedback": "Die einfache Gegenwart beschriebe eine Gewohnheit."
+     },
+     {
+      "antwort": "would go",
+      "diagnoseId": "zeit",
+      "feedback": "«would» passt nicht zu einem festen Plan."
+     }
+    ]
+   },
+   {
+    "stamm": "Which modal fits?\n\nYou ______ wear a helmet when you cycle — it's the rule here.",
+    "optionen": [
+     "must",
+     "can",
+     "might",
+     "could"
+    ],
+    "loesung": [
+     "must"
+    ],
+    "erklaerung": "«must» drückt eine Pflicht aus.",
+    "fehler": [
+     {
+      "antwort": "can",
+      "diagnoseId": "bedeutung",
+      "feedback": "«can» drückt eine Möglichkeit aus, keine Pflicht."
+     },
+     {
+      "antwort": "might",
+      "diagnoseId": "bedeutung",
+      "feedback": "«might» drückt eine Vermutung aus. Richtig ist «must»."
+     },
+     {
+      "antwort": "could",
+      "diagnoseId": "bedeutung",
+      "feedback": "«could» wäre ein höflicher Vorschlag. Richtig ist «must»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which modal fits?\n\nShe ______ speak three languages.",
+    "optionen": [
+     "can",
+     "must",
+     "should",
+     "may not"
+    ],
+    "loesung": [
+     "can"
+    ],
+    "erklaerung": "«can» drückt eine Fähigkeit aus.",
+    "fehler": [
+     {
+      "antwort": "must",
+      "diagnoseId": "bedeutung",
+      "feedback": "«must» wäre eine Pflicht. Richtig ist «can»."
+     },
+     {
+      "antwort": "should",
+      "diagnoseId": "bedeutung",
+      "feedback": "«should» wäre ein Rat. Richtig ist «can»."
+     },
+     {
+      "antwort": "may not",
+      "diagnoseId": "bedeutung",
+      "feedback": "«may not» wäre ein Verbot. Richtig ist «can»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?",
+    "optionen": [
+     "He can swim.",
+     "He cans swim.",
+     "He can to swim.",
+     "He can swims."
+    ],
+    "loesung": [
+     "He can swim."
+    ],
+    "erklaerung": "Modalverben stehen ohne «-s» und ohne «to».",
+    "fehler": [
+     {
+      "antwort": "He cans swim.",
+      "diagnoseId": "form",
+      "feedback": "Modalverben bekommen kein «-s». Richtig ist «He can swim.»."
+     },
+     {
+      "antwort": "He can to swim.",
+      "diagnoseId": "form",
+      "feedback": "Nach einem Modalverb steht kein «to». Richtig ist «He can swim.»."
+     },
+     {
+      "antwort": "He can swims.",
+      "diagnoseId": "form",
+      "feedback": "Nach einem Modalverb steht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question is correct?\n\nShe has finished her project.",
+    "optionen": [
+     "Has she finished her project?",
+     "Does she have finished her project?",
+     "She has finished her project?",
+     "Has she finish her project?"
+    ],
+    "loesung": [
+     "Has she finished her project?"
+    ],
+    "erklaerung": "Beim Present perfect steht das Hilfsverb voran.",
+    "fehler": [
+     {
+      "antwort": "Does she have finished her project?",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Beim Present perfect braucht es kein «do»."
+     },
+     {
+      "antwort": "She has finished her project?",
+      "diagnoseId": "wortstellung",
+      "feedback": "In der Schriftsprache wird umgestellt. Richtig ist «Has she finished her project?»."
+     },
+     {
+      "antwort": "Has she finish her project?",
+      "diagnoseId": "form",
+      "feedback": "Nach «has» steht das dritte Verb: finished."
+     }
+    ]
+   },
+   {
+    "stamm": "Which short answer fits?\n\nDid you see the film? — ______",
+    "optionen": [
+     "Yes, I did.",
+     "Yes, I saw.",
+     "Yes, I do.",
+     "Yes, I have."
+    ],
+    "loesung": [
+     "Yes, I did."
+    ],
+    "erklaerung": "Die Kurzantwort wiederholt das Hilfsverb der Frage.",
+    "fehler": [
+     {
+      "antwort": "Yes, I saw.",
+      "diagnoseId": "form",
+      "feedback": "Die Kurzantwort nimmt das Hilfsverb auf, nicht das Vollverb."
+     },
+     {
+      "antwort": "Yes, I do.",
+      "diagnoseId": "zeit",
+      "feedback": "«do» steht in der Gegenwart; gefragt wurde nach der Vergangenheit."
+     },
+     {
+      "antwort": "Yes, I have.",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«have» gehörte zu einer Frage mit «Have you …»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question tag fits?\n\nHe hasn't been here before, ______ ?",
+    "optionen": [
+     "has he",
+     "hasn't he",
+     "is he",
+     "does he"
+    ],
+    "loesung": [
+     "has he"
+    ],
+    "erklaerung": "Ein verneinter Satz bekommt ein bejahtes Anhängsel mit demselben Hilfsverb.",
+    "fehler": [
+     {
+      "antwort": "hasn't he",
+      "diagnoseId": "form",
+      "feedback": "Nach einem verneinten Satz steht das bejahte Anhängsel."
+     },
+     {
+      "antwort": "is he",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Hilfsverb des Satzes ist «has». Richtig ist «has he»."
+     },
+     {
+      "antwort": "does he",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«do» kommt im Satz nicht vor. Richtig ist «has he»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nThis is the ______ book I have ever read.",
+    "optionen": [
+     "most interesting",
+     "interestingest",
+     "more interesting",
+     "most interestingest"
+    ],
+    "loesung": [
+     "most interesting"
+    ],
+    "erklaerung": "Lange Adjektive bilden die höchste Stufe mit «most».",
+    "fehler": [
+     {
+      "antwort": "interestingest",
+      "diagnoseId": "form",
+      "feedback": "«interesting» ist zu lang für die Endung «-est»."
+     },
+     {
+      "antwort": "more interesting",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die Vergleichsstufe, hier ist die höchste gemeint."
+     },
+     {
+      "antwort": "most interestingest",
+      "diagnoseId": "doppelt",
+      "feedback": "Hier ist doppelt gesteigert. Richtig ist «most interesting»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nToday the queue is ______ than yesterday.",
+    "optionen": [
+     "longer",
+     "more long",
+     "longest",
+     "more longer"
+    ],
+    "loesung": [
+     "longer"
+    ],
+    "erklaerung": "Kurze Adjektive steigert man mit «-er».",
+    "fehler": [
+     {
+      "antwort": "more long",
+      "diagnoseId": "form",
+      "feedback": "«long» ist kurz und bekommt «-er». Richtig ist «longer»."
+     },
+     {
+      "antwort": "longest",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die höchste Stufe und passt nicht zu «than»."
+     },
+     {
+      "antwort": "more longer",
+      "diagnoseId": "doppelt",
+      "feedback": "Hier ist doppelt gesteigert. Richtig ist «longer»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nHer results were ______ than mine.",
+    "optionen": [
+     "worse",
+     "badder",
+     "worst",
+     "more bad"
+    ],
+    "loesung": [
+     "worse"
+    ],
+    "erklaerung": "«bad» steigert unregelmässig: bad, worse, worst.",
+    "fehler": [
+     {
+      "antwort": "badder",
+      "diagnoseId": "form",
+      "feedback": "«bad» steigert unregelmässig zu «worse»."
+     },
+     {
+      "antwort": "worst",
+      "diagnoseId": "stufe",
+      "feedback": "«worst» ist die höchste Stufe und passt nicht zu «than»."
+     },
+     {
+      "antwort": "more bad",
+      "diagnoseId": "form",
+      "feedback": "Auch mit «more» wird «bad» nicht gesteigert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Future, modals, questions and comparison",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-satzbau",
+  "lernzielId": "ESO.3.08",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "3.08",
+   "3.09",
+   "3.10"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage dich, welche Rolle das Wort im Satz spielt: Wer tut etwas, wem geschieht etwas?",
+   "Bei Präpositionen der Zeit hilft die Faustregel: at für die Uhrzeit, on für den Tag, in für Monat und Jahr.",
+   "Bindewörter zeigen die Beziehung: «because» einen Grund, «but» einen Gegensatz."
+  ],
+  "loesungsweg": [
+   "Das Satzglied bestimmen, um das es geht.",
+   "Bei Pronomen prüfen: Subjekt oder Objekt?",
+   "Bei Präpositionen die Faustregel anwenden.",
+   "Den fertigen Satz ganz lesen und auf die Wortstellung achten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Adverbs of frequency: Where does «always» go?\n\nShe ______ takes ______ the bus ______ to school.",
+    "optionen": [
+     "in the first gap",
+     "in the second gap",
+     "in the third gap",
+     "at the very end"
+    ],
+    "loesung": [
+     "in the first gap"
+    ],
+    "erklaerung": "Häufigkeitsadverbien stehen vor dem Vollverb: She always takes the bus to school.",
+    "fehler": [
+     {
+      "antwort": "in the second gap",
+      "diagnoseId": "nach_verb",
+      "feedback": "Nach dem Verb entstünde «takes always the bus» — das ist die deutsche Stellung, nicht die englische."
+     },
+     {
+      "antwort": "in the third gap",
+      "diagnoseId": "mitten_im_objekt",
+      "feedback": "Zwischen «the bus» und «to school» zerreisst das Adverb die Angabe."
+     },
+     {
+      "antwort": "at the very end",
+      "diagnoseId": "satzende",
+      "feedback": "Am Ende stehen Adverbien der Art und Weise, nicht die der Häufigkeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Adverbs: Which form is correct?\n\nHe drives very ______.",
+    "optionen": [
+     "carefully",
+     "careful",
+     "carefuly",
+     "more careful"
+    ],
+    "loesung": [
+     "carefully"
+    ],
+    "erklaerung": "Wie jemand etwas tut, sagt das Adverb: careful wird zu carefully.",
+    "fehler": [
+     {
+      "antwort": "careful",
+      "diagnoseId": "adjektiv",
+      "feedback": "«Careful» ist das Adjektiv und beschreibt eine Person oder Sache, nicht eine Handlung."
+     },
+     {
+      "antwort": "carefuly",
+      "diagnoseId": "schreibung",
+      "feedback": "Vor «-ly» bleibt das «l» stehen: careful plus ly ergibt carefully."
+     },
+     {
+      "antwort": "more careful",
+      "diagnoseId": "steigerung",
+      "feedback": "Das ist eine Steigerung des Adjektivs, aber gefragt war das Adverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Pronouns: Which word fits?\n\nCan you help ______? I don't understand this task.",
+    "optionen": [
+     "me",
+     "I",
+     "my",
+     "mine"
+    ],
+    "loesung": [
+     "me"
+    ],
+    "erklaerung": "Nach «help» steht das Objekt, und das Objektpronomen zu «I» ist «me».",
+    "fehler": [
+     {
+      "antwort": "I",
+      "diagnoseId": "subjekt",
+      "feedback": "«I» ist das Subjektpronomen und steht vor dem Verb, nicht danach."
+     },
+     {
+      "antwort": "my",
+      "diagnoseId": "begleiter",
+      "feedback": "«My» ist ein Begleiter und braucht ein Nomen dahinter: my book."
+     },
+     {
+      "antwort": "mine",
+      "diagnoseId": "besitz",
+      "feedback": "«Mine» steht allein und heisst «meiner»: This book is mine."
+     }
+    ]
+   },
+   {
+    "stamm": "Pronouns: Which sentence is correct?",
+    "optionen": [
+     "Between you and me, it was boring.",
+     "Between you and I, it was boring.",
+     "Between yours and mine, it was boring.",
+     "Between us and we, it was boring."
+    ],
+    "loesung": [
+     "Between you and me, it was boring."
+    ],
+    "erklaerung": "Nach einer Präposition wie «between» steht immer das Objektpronomen: me, him, us.",
+    "fehler": [
+     {
+      "antwort": "Between you and I, it was boring.",
+      "diagnoseId": "subjektpronomen",
+      "feedback": "«I» ist das Subjektpronomen. Nach «between» braucht es «me»."
+     },
+     {
+      "antwort": "Between yours and mine, it was boring.",
+      "diagnoseId": "besitzform",
+      "feedback": "«Yours» und «mine» bezeichnen Besitz, hier sind aber Personen gemeint."
+     },
+     {
+      "antwort": "Between us and we, it was boring.",
+      "diagnoseId": "gemischt",
+      "feedback": "«We» ist wieder das Subjektpronomen. Richtig wäre «between us and them»."
+     }
+    ]
+   },
+   {
+    "stamm": "Possessives: Which word fits?\n\nThat's not my jacket, it's ______.",
+    "optionen": [
+     "hers",
+     "her",
+     "she's",
+     "her's"
+    ],
+    "loesung": [
+     "hers"
+    ],
+    "erklaerung": "Am Satzende steht die selbständige Form: hers, his, ours, theirs — ohne Nomen und ohne Apostroph.",
+    "fehler": [
+     {
+      "antwort": "her",
+      "diagnoseId": "begleiter",
+      "feedback": "«Her» braucht ein Nomen dahinter: her jacket."
+     },
+     {
+      "antwort": "she's",
+      "diagnoseId": "kurzform",
+      "feedback": "«She's» ist die Kurzform von «she is» und passt hier gar nicht."
+     },
+     {
+      "antwort": "her's",
+      "diagnoseId": "apostroph",
+      "feedback": "Besitzanzeigende Pronomen tragen nie einen Apostroph."
+     }
+    ]
+   },
+   {
+    "stamm": "Demonstratives: Which word fits?\n\n______ shoes over there are too big.",
+    "optionen": [
+     "Those",
+     "This",
+     "That",
+     "These"
+    ],
+    "loesung": [
+     "Those"
+    ],
+    "erklaerung": "«Over there» heisst weit weg, «shoes» ist Mehrzahl — also «those».",
+    "fehler": [
+     {
+      "antwort": "This",
+      "diagnoseId": "nah_einzahl",
+      "feedback": "«This» ist nah und Einzahl. Hier stehen mehrere Schuhe, und zwar weiter weg."
+     },
+     {
+      "antwort": "That",
+      "diagnoseId": "weit_einzahl",
+      "feedback": "«That» ist zwar weit weg, aber Einzahl. Zu «shoes» gehört eine Mehrzahlform."
+     },
+     {
+      "antwort": "These",
+      "diagnoseId": "nah_mehrzahl",
+      "feedback": "«These» ist Mehrzahl, aber nah. «Over there» verlangt «those»."
+     }
+    ]
+   },
+   {
+    "stamm": "Relative pronouns: Which word fits?\n\nThe man ______ lives next door is a baker.",
+    "optionen": [
+     "who",
+     "which",
+     "what",
+     "whose"
+    ],
+    "loesung": [
+     "who"
+    ],
+    "erklaerung": "Für Personen steht «who», für Sachen «which».",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "sache",
+      "feedback": "«Which» steht für Dinge und Tiere, nicht für einen Mann."
+     },
+     {
+      "antwort": "what",
+      "diagnoseId": "kein_relativpronomen",
+      "feedback": "«What» leitet keinen Relativsatz nach einem Nomen ein."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "besitz",
+      "feedback": "«Whose» zeigt Besitz an: the man whose car is red."
+     }
+    ]
+   },
+   {
+    "stamm": "Relative pronouns: Which word fits?\n\nThat's the book ______ I told you about.",
+    "optionen": [
+     "which",
+     "who",
+     "whose",
+     "where"
+    ],
+    "loesung": [
+     "which"
+    ],
+    "erklaerung": "«Book» ist eine Sache, also «which» — oder «that».",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "person",
+      "feedback": "«Who» steht nur für Personen. Ein Buch ist eine Sache."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "besitz",
+      "feedback": "«Whose» zeigt an, wem etwas gehört. Hier geht es um das Buch selbst."
+     },
+     {
+      "antwort": "where",
+      "diagnoseId": "ort",
+      "feedback": "«Where» steht für einen Ort: the shop where I bought it."
+     }
+    ]
+   },
+   {
+    "stamm": "Some or any?\n\nI'm sorry, we haven't got ______ milk left.",
+    "optionen": [
+     "any",
+     "some",
+     "no any",
+     "much of"
+    ],
+    "loesung": [
+     "any"
+    ],
+    "erklaerung": "In verneinten Sätzen steht «any»: We haven't got any milk.",
+    "fehler": [
+     {
+      "antwort": "some",
+      "diagnoseId": "aussagesatz",
+      "feedback": "«Some» steht in bejahten Aussagesätzen und in Angeboten."
+     },
+     {
+      "antwort": "no any",
+      "diagnoseId": "doppelt",
+      "feedback": "«No» und «any» zusammen wäre eine doppelte Verneinung. Eine genügt."
+     },
+     {
+      "antwort": "much of",
+      "diagnoseId": "teilform",
+      "feedback": "«Much of» braucht einen bestimmten Begleiter dahinter: much of the milk."
+     }
+    ]
+   },
+   {
+    "stamm": "Prepositions of place: Which one fits?\n\nThe keys are ______ the table.",
+    "optionen": [
+     "on",
+     "in",
+     "at",
+     "into"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "«On» heisst auf einer Fläche. «In» wäre in einer Schublade, «at» an einem Punkt.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "innen",
+      "feedback": "«In» hiesse im Tisch, also in einer Schublade oder im Holz."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "punkt",
+      "feedback": "«At the table» heisst am Tisch sitzen, nicht auf der Platte liegen."
+     },
+     {
+      "antwort": "into",
+      "diagnoseId": "bewegung",
+      "feedback": "«Into» beschreibt eine Bewegung hinein. Die Schlüssel liegen bereits."
+     }
+    ]
+   },
+   {
+    "stamm": "Prepositions of time: Which one fits?\n\nThe exam starts ______ eight o'clock.",
+    "optionen": [
+     "at",
+     "on",
+     "in",
+     "since"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "Faustregel: at für die Uhrzeit, on für den Tag, in für Monat und Jahr.",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "tag",
+      "feedback": "«On» steht vor Wochentagen und Daten: on Monday, on 5 May."
+     },
+     {
+      "antwort": "in",
+      "diagnoseId": "monat",
+      "feedback": "«In» steht vor Monaten, Jahreszeiten und Jahren: in May, in 2026."
+     },
+     {
+      "antwort": "since",
+      "diagnoseId": "seit",
+      "feedback": "«Since» nennt den Anfangspunkt eines Zeitraums, nicht eine Startuhrzeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Linking words: Which one fits?\n\nWe stayed at home ______ it was snowing.",
+    "optionen": [
+     "because",
+     "although",
+     "so",
+     "but"
+    ],
+    "loesung": [
+     "because"
+    ],
+    "erklaerung": "«Because» nennt den Grund: Der Schnee ist der Grund fürs Zuhausebleiben.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "gegensatz",
+      "feedback": "«Although» würde einen Gegensatz aufmachen: obwohl es schneite, gingen wir hinaus."
+     },
+     {
+      "antwort": "so",
+      "diagnoseId": "folge",
+      "feedback": "«So» nennt die Folge und stünde vor dem Zuhausebleiben, nicht vor dem Grund."
+     },
+     {
+      "antwort": "but",
+      "diagnoseId": "aber",
+      "feedback": "«But» verbindet zwei Gegensätze und nennt keinen Grund."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Adverbs and pronouns",
+  "status": "review"
+ },
+ {
+  "templateId": "so-en-pronomen-praep",
+  "lernzielId": "ESO.3.11",
+  "fach": "englisch-so",
+  "unterthemen": [
+   "3.11",
+   "3.12",
+   "3.13",
+   "3.14"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "«who» steht bei Menschen, «which» bei Dingen, «that» bei beidem.",
+   "«some» steht in bejahten Sätzen, «any» in Fragen und Verneinungen.",
+   "Ein Bindewort sagt, in welchem Verhältnis zwei Aussagen stehen."
+  ],
+  "loesungsweg": [
+   "Bestimmen, worauf sich das Wort bezieht.",
+   "Bei Mengenwörtern auf Frage oder Verneinung achten.",
+   "Bei Präpositionen die feste Wendung prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which relative pronoun fits?\n\nThe woman ______ lives next door is a nurse.",
+    "optionen": [
+     "who",
+     "which",
+     "whose",
+     "where"
+    ],
+    "loesung": [
+     "who"
+    ],
+    "erklaerung": "«who» bezieht sich auf Menschen.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» steht bei Dingen und Tieren. Richtig ist «who»."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bedeutung",
+      "feedback": "«whose» drückt einen Besitz aus. Richtig ist «who»."
+     },
+     {
+      "antwort": "where",
+      "diagnoseId": "bedeutung",
+      "feedback": "«where» bezieht sich auf einen Ort. Richtig ist «who»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which relative pronoun fits?\n\nThe book ______ I borrowed was very old.",
+    "optionen": [
+     "which",
+     "who",
+     "whose",
+     "when"
+    ],
+    "loesung": [
+     "which"
+    ],
+    "erklaerung": "«which» bezieht sich auf ein Ding, hier auf das Buch.",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "bezug",
+      "feedback": "«who» steht bei Menschen. Richtig ist «which»."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "bedeutung",
+      "feedback": "«whose» drückt einen Besitz aus. Richtig ist «which»."
+     },
+     {
+      "antwort": "when",
+      "diagnoseId": "bedeutung",
+      "feedback": "«when» bezieht sich auf eine Zeit. Richtig ist «which»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which relative pronoun fits?\n\nThat's the boy ______ bike was stolen.",
+    "optionen": [
+     "whose",
+     "who",
+     "which",
+     "who's"
+    ],
+    "loesung": [
+     "whose"
+    ],
+    "erklaerung": "«whose» drückt aus, wem etwas gehört.",
+    "fehler": [
+     {
+      "antwort": "who",
+      "diagnoseId": "bedeutung",
+      "feedback": "«who» ersetzt das Subjekt, nicht den Besitzer."
+     },
+     {
+      "antwort": "which",
+      "diagnoseId": "bezug",
+      "feedback": "«which» steht bei Dingen. Richtig ist «whose»."
+     },
+     {
+      "antwort": "who's",
+      "diagnoseId": "schreibung",
+      "feedback": "«who's» ist die Kurzform von «who is». Richtig ist «whose»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nIs there ______ milk left?",
+    "optionen": [
+     "any",
+     "some",
+     "a",
+     "much of"
+    ],
+    "loesung": [
+     "any"
+    ],
+    "erklaerung": "In Fragen steht «any», auch bei nicht zählbaren Wörtern wie «milk».",
+    "fehler": [
+     {
+      "antwort": "some",
+      "diagnoseId": "gebrauch",
+      "feedback": "«some» steht in bejahten Aussagen; in Fragen meist «any»."
+     },
+     {
+      "antwort": "a",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«milk» ist nicht zählbar und nimmt keinen unbestimmten Artikel."
+     },
+     {
+      "antwort": "much of",
+      "diagnoseId": "form",
+      "feedback": "«much of» braucht eine bestimmte Menge dahinter."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nI don't have ______ questions.",
+    "optionen": [
+     "any",
+     "some",
+     "no any",
+     "much"
+    ],
+    "loesung": [
+     "any"
+    ],
+    "erklaerung": "In Verneinungen steht «any».",
+    "fehler": [
+     {
+      "antwort": "some",
+      "diagnoseId": "gebrauch",
+      "feedback": "In verneinten Sätzen steht «any». Richtig ist «any»."
+     },
+     {
+      "antwort": "no any",
+      "diagnoseId": "doppelt",
+      "feedback": "«no» und «any» stehen nie zusammen. Richtig ist «any»."
+     },
+     {
+      "antwort": "much",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«questions» ist zählbar; dazu passt «many»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThere is ______ bread in the cupboard, so we don't need to buy any.",
+    "optionen": [
+     "some",
+     "any",
+     "a few",
+     "many"
+    ],
+    "loesung": [
+     "some"
+    ],
+    "erklaerung": "In einer bejahten Aussage steht «some».",
+    "fehler": [
+     {
+      "antwort": "any",
+      "diagnoseId": "gebrauch",
+      "feedback": "«any» steht in Fragen und Verneinungen. Richtig ist «some»."
+     },
+     {
+      "antwort": "a few",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«a few» steht bei zählbaren Wörtern. Richtig ist «some»."
+     },
+     {
+      "antwort": "many",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«bread» ist nicht zählbar. Richtig ist «some»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThere were ______ people at the market — it was almost empty.",
+    "optionen": [
+     "few",
+     "a few",
+     "little",
+     "much"
+    ],
+    "loesung": [
+     "few"
+    ],
+    "erklaerung": "«few» ohne Artikel betont, dass es kaum welche waren.",
+    "fehler": [
+     {
+      "antwort": "a few",
+      "diagnoseId": "bedeutung",
+      "feedback": "«a few» hiesse einige, das passt nicht zu «almost empty»."
+     },
+     {
+      "antwort": "little",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«little» steht bei nicht zählbaren Wörtern."
+     },
+     {
+      "antwort": "much",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«much» steht bei nicht zählbaren Wörtern."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nWe arrived ______ Zurich late in the evening.",
+    "optionen": [
+     "in",
+     "at",
+     "to",
+     "on"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "Bei Städten und Ländern steht «arrive in».",
+    "fehler": [
+     {
+      "antwort": "at",
+      "diagnoseId": "ort",
+      "feedback": "«arrive at» steht bei Gebäuden und Haltestellen."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "wendung",
+      "feedback": "«to» gehört zu «go to», nicht zu «arrive»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "ort",
+      "feedback": "«on» passt zu Flächen und Tagen. Richtig ist «in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe keys are ______ the drawer.",
+    "optionen": [
+     "in",
+     "on",
+     "at",
+     "by"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "In einer Schublade liegt etwas «in».",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "ort",
+      "feedback": "«on» hiesse auf der Schublade. Richtig ist «in»."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "ort",
+      "feedback": "«at» nennt einen Punkt, nicht einen Innenraum."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "ort",
+      "feedback": "«by» hiesse neben der Schublade. Richtig ist «in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nShe is good ______ drawing.",
+    "optionen": [
+     "at",
+     "in",
+     "on",
+     "with"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "«good at» ist eine feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "wendung",
+      "feedback": "«in» steht bei «interested in». Richtig ist «at»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "wendung",
+      "feedback": "«on» steht bei «depend on». Richtig ist «at»."
+     },
+     {
+      "antwort": "with",
+      "diagnoseId": "wendung",
+      "feedback": "«with» steht bei «happy with». Richtig ist «at»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nThe road was closed; ______ , we had to take the bus.",
+    "optionen": [
+     "therefore",
+     "although",
+     "because",
+     "whereas"
+    ],
+    "loesung": [
+     "therefore"
+    ],
+    "erklaerung": "«therefore» nennt die Folge.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«although» nennte einen Gegensatz. Richtig ist «therefore»."
+     },
+     {
+      "antwort": "because",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«because» nennte den Grund und stünde vor der Ursache."
+     },
+     {
+      "antwort": "whereas",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«whereas» stellt zwei Dinge gegenüber. Richtig ist «therefore»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\n______ the rain, the match went ahead.",
+    "optionen": [
+     "Despite",
+     "Although",
+     "Because of",
+     "However"
+    ],
+    "loesung": [
+     "Despite"
+    ],
+    "erklaerung": "«despite» steht vor einem Nomen und nennt einen Gegensatz.",
+    "fehler": [
+     {
+      "antwort": "Although",
+      "diagnoseId": "form",
+      "feedback": "«Although» steht vor einem ganzen Satz, nicht vor einem Nomen."
+     },
+     {
+      "antwort": "Because of",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Because of» nennte einen Grund; der Regen spricht aber dagegen."
+     },
+     {
+      "antwort": "However",
+      "diagnoseId": "form",
+      "feedback": "«However» verbindet zwei Hauptsätze und steht mit Komma."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Englischprüfungen 2022-2024 sowie die Prüfungseckwerte Englisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Relative pronouns, quantifiers, prepositions and linking",
+  "status": "review"
+ }
+]

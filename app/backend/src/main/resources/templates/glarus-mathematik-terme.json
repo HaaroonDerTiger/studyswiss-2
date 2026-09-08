@@ -1,0 +1,1174 @@
+[
+ {
+  "templateId": "gl-algebra",
+  "lernzielId": "MGL.3.01",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Gleichartige Glieder haben dieselbe Variable in derselben Potenz.",
+   "Ein Minus vor der Klammer dreht alle Vorzeichen darin um.",
+   "Beim Auflösen einer Formel behandelt man die gesuchte Grösse wie das x einer Gleichung."
+  ],
+  "loesungsweg": [
+   "Die Struktur erkennen: Klammern, Brüche, Gleichung?",
+   "Klammern auflösen oder mit dem Nenner multiplizieren.",
+   "Gleichartige Glieder zusammenfassen.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze a = 3 und b = −2 ein:\n\n2a² − 3b",
+    "optionen": [
+     "24",
+     "12",
+     "0",
+     "6"
+    ],
+    "loesung": [
+     "24"
+    ],
+    "erklaerung": "2 · 3² = 18; −3 · (−2) = +6; zusammen 24.",
+    "fehler": [
+     {
+      "antwort": "12",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−3 · (−2) ergibt +6, nicht −6. Minus mal Minus gibt Plus."
+     },
+     {
+      "antwort": "0",
+      "diagnoseId": "quadrat_falsch",
+      "feedback": "2a² heisst 2 · a², also 2 · 9 = 18 — nicht (2a)²."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "erstes_glied_vergessen",
+      "feedback": "Das Glied 2a² gehört dazu; es allein ergibt schon 18."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n4x + 3y − 2x + y",
+    "optionen": [
+     "2x + 4y",
+     "6x + 4y",
+     "2x + 3y",
+     "5xy"
+    ],
+    "loesung": [
+     "2x + 4y"
+    ],
+    "erklaerung": "Gleichartig sind 4x und −2x sowie 3y und y.",
+    "fehler": [
+     {
+      "antwort": "6x + 4y",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Vor 2x steht ein Minus: 4x − 2x ergibt 2x."
+     },
+     {
+      "antwort": "2x + 3y",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das einzelne y am Schluss zählt als 1y: 3y + y = 4y."
+     },
+     {
+      "antwort": "5xy",
+      "diagnoseId": "alles_zusammen",
+      "feedback": "x und y sind nicht gleichartig und lassen sich nicht zusammenfassen."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Klammer auf:\n\n5 − (2x − 3)",
+    "optionen": [
+     "8 − 2x",
+     "2 − 2x",
+     "8 + 2x",
+     "2 + 2x"
+    ],
+    "loesung": [
+     "8 − 2x"
+    ],
+    "erklaerung": "Das Minus vor der Klammer dreht beide Vorzeichen: −2x + 3.",
+    "fehler": [
+     {
+      "antwort": "2 − 2x",
+      "diagnoseId": "vorzeichen_zahl",
+      "feedback": "Aus −(−3) wird +3, also ergibt 5 + 3 den Wert 8."
+     },
+     {
+      "antwort": "8 + 2x",
+      "diagnoseId": "vorzeichen_x",
+      "feedback": "Aus −(2x) wird −2x; das Vorzeichen dreht sich um."
+     },
+     {
+      "antwort": "2 + 2x",
+      "diagnoseId": "beide_falsch",
+      "feedback": "Beide Vorzeichen sind falsch übernommen worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n6a + 9",
+    "optionen": [
+     "3(2a + 3)",
+     "3(2a + 9)",
+     "6(a + 1.5)",
+     "9(a + 1)"
+    ],
+    "loesung": [
+     "3(2a + 3)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor von 6 und 9 ist 3.",
+    "fehler": [
+     {
+      "antwort": "3(2a + 9)",
+      "diagnoseId": "rest_falsch",
+      "feedback": "9 : 3 ergibt 3, nicht 9 — auch der zweite Summand wird geteilt."
+     },
+     {
+      "antwort": "6(a + 1.5)",
+      "diagnoseId": "kein_ganzzahliger_rest",
+      "feedback": "Beim Ausklammern soll in der Klammer eine ganze Zahl stehen; darum nimmt man 3."
+     },
+     {
+      "antwort": "9(a + 1)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "6a : 9 geht nicht auf; 9 ist kein Teiler von 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Gleichung:\n\n3x + 7 = 22",
+    "optionen": [
+     "x = 5",
+     "x = 15",
+     "x = 29",
+     "x = 9"
+    ],
+    "loesung": [
+     "x = 5"
+    ],
+    "erklaerung": "7 abziehen ergibt 3x = 15, dann durch 3 teilen.",
+    "fehler": [
+     {
+      "antwort": "x = 15",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Nach dem Abziehen steht 3x = 15; jetzt fehlt noch das Teilen durch 3."
+     },
+     {
+      "antwort": "x = 29",
+      "diagnoseId": "addiert",
+      "feedback": "Die 7 steht links und wird beim Verschieben abgezogen."
+     },
+     {
+      "antwort": "x = 9",
+      "diagnoseId": "falsch_gerechnet",
+      "feedback": "Probe: 3 · 9 + 7 ergibt 34, nicht 22 — die Zahl ist zu gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Gleichung:\n\nˣ⁄₃ + 2 = 6",
+    "optionen": [
+     "x = 12",
+     "x = 4",
+     "x = 24",
+     "x = 18"
+    ],
+    "loesung": [
+     "x = 12"
+    ],
+    "erklaerung": "2 abziehen ergibt x⁄3 = 4, dann mit 3 multiplizieren.",
+    "fehler": [
+     {
+      "antwort": "x = 4",
+      "diagnoseId": "nicht_multipliziert",
+      "feedback": "Nach dem Abziehen steht x⁄3 = 4. Jetzt wird mit 3 multipliziert."
+     },
+     {
+      "antwort": "x = 24",
+      "diagnoseId": "zweimal_gerechnet",
+      "feedback": "Probe: 24 : 3 + 2 ergibt 10, nicht 6 — hier wurde zweimal multipliziert."
+     },
+     {
+      "antwort": "x = 18",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "Die +2 gehört mitverrechnet: 18 : 3 + 2 ergibt 8."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gleichung passt zum Satz?\n\n«Eine Zahl, um 4 vergrössert, ergibt das Dreifache der Zahl.»",
+    "optionen": [
+     "x + 4 = 3x",
+     "x + 4 = x + 3",
+     "4x = 3x",
+     "x − 4 = 3x"
+    ],
+    "loesung": [
+     "x + 4 = 3x"
+    ],
+    "erklaerung": "«Um 4 vergrössert» ist x + 4; «das Dreifache» ist 3x.",
+    "fehler": [
+     {
+      "antwort": "x + 4 = x + 3",
+      "diagnoseId": "dreifach_falsch",
+      "feedback": "«Das Dreifache» heisst mal drei, nicht plus drei."
+     },
+     {
+      "antwort": "4x = 3x",
+      "diagnoseId": "vergroessert_falsch",
+      "feedback": "«Um 4 vergrössert» heisst plus 4, nicht mal 4."
+     },
+     {
+      "antwort": "x − 4 = 3x",
+      "diagnoseId": "richtung",
+      "feedback": "«Vergrössert» heisst plus, nicht minus; die Zahl wird grösser."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach h auf:\n\nA = ᵍ·♩⁄₂",
+    "optionen": [
+     "h = ²ᴬ⁄₉",
+     "h = ᴬ⁄₂₉",
+     "h = A − g",
+     "h = ²ᵍ⁄ᴬ"
+    ],
+    "loesung": [
+     "h = ²ᴬ⁄₉"
+    ],
+    "erklaerung": "Mit 2 multiplizieren, dann durch g teilen.",
+    "fehler": [
+     {
+      "antwort": "h = ᴬ⁄₂₉",
+      "diagnoseId": "richtung",
+      "feedback": "Die 2 steht in der Formel im Nenner und wird beim Auflösen zum Faktor."
+     },
+     {
+      "antwort": "h = A − g",
+      "diagnoseId": "subtrahiert",
+      "feedback": "g ist ein Faktor und wird weggeteilt, nicht abgezogen."
+     },
+     {
+      "antwort": "h = ²ᵍ⁄ᴬ",
+      "diagnoseId": "gestuerzt",
+      "feedback": "A bleibt im Zähler: Mehr Fläche bedeutet bei gleicher Grundlinie mehr Höhe."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n3(a + 2) − 2(a + 1)",
+    "optionen": [
+     "a + 4",
+     "a + 8",
+     "5a + 4",
+     "a + 5"
+    ],
+    "loesung": [
+     "a + 4"
+    ],
+    "erklaerung": "Ausmultipliziert: 3a + 6 − 2a − 2. Gleichartiges zusammenfassen ergibt a + 4.",
+    "fehler": [
+     {
+      "antwort": "a + 8",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−2 · 1 ergibt −2, also 6 − 2 = 4 und nicht 6 + 2."
+     },
+     {
+      "antwort": "5a + 4",
+      "diagnoseId": "addiert",
+      "feedback": "Vor der zweiten Klammer steht ein Minus: 3a − 2a = a."
+     },
+     {
+      "antwort": "a + 5",
+      "diagnoseId": "rechenfehler",
+      "feedback": "6 − 2 ergibt 4, nicht 5. Rechne die Zahlen sorgfältig nach."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl löst die Gleichung?\n\n2(x − 3) = x + 1",
+    "optionen": [
+     "x = 7",
+     "x = 4",
+     "x = 2",
+     "x = 5"
+    ],
+    "loesung": [
+     "x = 7"
+    ],
+    "erklaerung": "2x − 6 = x + 1, also x = 7.",
+    "fehler": [
+     {
+      "antwort": "x = 4",
+      "diagnoseId": "klammer_falsch",
+      "feedback": "Der Faktor 2 gehört zu beiden Gliedern der Klammer: 2x − 6."
+     },
+     {
+      "antwort": "x = 2",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Probe: 2 · (2 − 3) ergibt −2, aber 2 + 1 ergibt 3."
+     },
+     {
+      "antwort": "x = 5",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Probe: 2 · (5 − 3) ergibt 4, aber 5 + 1 ergibt 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach b auf:\n\nU = 2(a + b)",
+    "optionen": [
+     "b = ᵁ⁄₂ − a",
+     "b = U − 2 − a",
+     "b = ᵁ⁻ᵃ⁄₂",
+     "b = 2U − a"
+    ],
+    "loesung": [
+     "b = ᵁ⁄₂ − a"
+    ],
+    "erklaerung": "Erst durch 2 teilen, dann a abziehen.",
+    "fehler": [
+     {
+      "antwort": "b = U − 2 − a",
+      "diagnoseId": "faktor_subtrahiert",
+      "feedback": "Die 2 ist ein Faktor vor der Klammer und wird weggeteilt."
+     },
+     {
+      "antwort": "b = ᵁ⁻ᵃ⁄₂",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Zuerst wird die ganze Seite durch 2 geteilt, erst danach a abgezogen."
+     },
+     {
+      "antwort": "b = 2U − a",
+      "diagnoseId": "richtung",
+      "feedback": "Die 2 steht links als Faktor; rechts wird deshalb geteilt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term beschreibt: «Die Summe aus einer Zahl und ihrem Doppelten»?",
+    "optionen": [
+     "x + 2x",
+     "x · 2x",
+     "x + 2",
+     "2(x + x)"
+    ],
+    "loesung": [
+     "x + 2x"
+    ],
+    "erklaerung": "Das Doppelte einer Zahl ist 2x; die Summe daraus ist x + 2x.",
+    "fehler": [
+     {
+      "antwort": "x · 2x",
+      "diagnoseId": "produkt",
+      "feedback": "«Summe» heisst addieren, nicht multiplizieren."
+     },
+     {
+      "antwort": "x + 2",
+      "diagnoseId": "feste_zahl",
+      "feedback": "«Ihr Doppeltes» heisst mal zwei, nicht plus zwei."
+     },
+     {
+      "antwort": "2(x + x)",
+      "diagnoseId": "zu_viel",
+      "feedback": "Das wäre das Doppelte der Summe, also 4x."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme aufstellen, zusammenfassen und Klammern auflösen",
+  "status": "review"
+ },
+ {
+  "templateId": "gl-gleichungen",
+  "lernzielId": "MGL.3.05",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "3.04",
+   "3.06",
+   "3.07",
+   "3.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Ausklammern suchst du den grössten gemeinsamen Faktor.",
+   "Eine Gleichung mit Brüchen wird mit dem Hauptnenner durchmultipliziert.",
+   "Beim Umstellen einer Formel machst du auf beiden Seiten dasselbe."
+  ],
+  "loesungsweg": [
+   "Die Struktur der Aufgabe erkennen.",
+   "Den gemeinsamen Faktor oder den Hauptnenner suchen.",
+   "Die Gleichung Schritt für Schritt lösen.",
+   "Die Lösung durch Einsetzen prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Klammere aus: 8x + 12",
+    "optionen": [
+     "4(2x + 3)",
+     "2(4x + 6)",
+     "4(2x + 12)",
+     "8(x + 4)"
+    ],
+    "loesung": [
+     "4(2x + 3)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor von 8 und 12 ist 4.",
+    "fehler": [
+     {
+      "antwort": "2(4x + 6)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "2 ist ein gemeinsamer Faktor, aber nicht der grösste."
+     },
+     {
+      "antwort": "4(2x + 12)",
+      "diagnoseId": "teilweise",
+      "feedback": "Auch 12 muss durch 4 geteilt werden: 12 ÷ 4 = 3."
+     },
+     {
+      "antwort": "8(x + 4)",
+      "diagnoseId": "rechenfehler",
+      "feedback": "12 ÷ 8 ergibt keine ganze Zahl. Richtig ist «4(2x + 3)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus: 6a² − 9a",
+    "optionen": [
+     "3a(2a − 3)",
+     "3(2a² − 3a)",
+     "a(6a − 9)",
+     "3a(2a − 9)"
+    ],
+    "loesung": [
+     "3a(2a − 3)"
+    ],
+    "erklaerung": "3 und a stehen in beiden Gliedern.",
+    "fehler": [
+     {
+      "antwort": "3(2a² − 3a)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das a lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "a(6a − 9)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die 3 lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "3a(2a − 9)",
+      "diagnoseId": "rechenfehler",
+      "feedback": "9a ÷ 3a ergibt 3, nicht 9. Richtig ist «3a(2a − 3)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\nx⁄₃ + x⁄₆ = 3",
+    "optionen": [
+     "x = 6",
+     "x = 3",
+     "x = 9",
+     "x = 18"
+    ],
+    "loesung": [
+     "x = 6"
+    ],
+    "erklaerung": "Hauptnenner 6: 2x + x = 18, also 3x = 18 und x = 6.",
+    "fehler": [
+     {
+      "antwort": "x = 3",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Setze zur Probe ein: 3⁄3 + 3⁄6 ergibt 1.5, nicht 3."
+     },
+     {
+      "antwort": "x = 9",
+      "diagnoseId": "rechenfehler",
+      "feedback": "9⁄3 + 9⁄6 ergibt 4.5, nicht 3. Richtig ist «x = 6»."
+     },
+     {
+      "antwort": "x = 18",
+      "diagnoseId": "hauptnenner",
+      "feedback": "18 ist das Zwischenergebnis 3x, nicht x selbst."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\nx + ¹⁄₂ = x⁄₃ + 1",
+    "optionen": [
+     "x = 3",
+     "x = 1",
+     "x = 6",
+     "x = 9"
+    ],
+    "loesung": [
+     "x = 3"
+    ],
+    "erklaerung": "Mit 6 durchmultiplizieren: 3(x + 1) = 2x + 6, also 3x + 3 = 2x + 6 und x = 3.",
+    "fehler": [
+     {
+      "antwort": "x = 1",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Setze ein: (1+1)⁄2 = 1, aber 1⁄3 + 1 ist grösser."
+     },
+     {
+      "antwort": "x = 6",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Setze ein: 7⁄2 = 3.5, aber 6⁄3 + 1 = 3. Richtig ist «x = 3»."
+     },
+     {
+      "antwort": "x = 9",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Setze ein: 10⁄2 = 5, aber 9⁄3 + 1 = 4. Richtig ist «x = 3»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\n¹⁵⁄x = 5",
+    "optionen": [
+     "x = 3",
+     "x = 75",
+     "x = 10",
+     "x = 20"
+    ],
+    "loesung": [
+     "x = 3"
+    ],
+    "erklaerung": "Mit x durchmultiplizieren ergibt 15 = 5x, also x = 3.",
+    "fehler": [
+     {
+      "antwort": "x = 75",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist multipliziert statt dividiert worden."
+     },
+     {
+      "antwort": "x = 10",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist 15 − 5 gerechnet worden. Richtig ist «x = 3»."
+     },
+     {
+      "antwort": "x = 20",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist 15 + 5 gerechnet worden. Richtig ist «x = 3»."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle die Gleichung auf.\n\nEine Zahl, um 7 vergrössert, ergibt das Dreifache der Zahl.",
+    "optionen": [
+     "x + 7 = 3x",
+     "3x + 7 = x",
+     "x + 7 = x + 3",
+     "7x = 3x"
+    ],
+    "loesung": [
+     "x + 7 = 3x"
+    ],
+    "erklaerung": "«um 7 vergrössert» heisst x + 7, «das Dreifache» heisst 3x.",
+    "fehler": [
+     {
+      "antwort": "3x + 7 = x",
+      "diagnoseId": "seiten",
+      "feedback": "Die beiden Seiten sind vertauscht. Richtig ist «x + 7 = 3x»."
+     },
+     {
+      "antwort": "x + 7 = x + 3",
+      "diagnoseId": "dreifach",
+      "feedback": "«das Dreifache» heisst mal drei, nicht plus drei."
+     },
+     {
+      "antwort": "7x = 3x",
+      "diagnoseId": "vergroessert",
+      "feedback": "«um 7 vergrössert» heisst plus sieben, nicht mal sieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Textaufgabe.\n\nEine Zahl, um 7 vergrössert, ergibt das Dreifache der Zahl. Wie heisst die Zahl?",
+    "optionen": [
+     "3.5",
+     "7",
+     "2",
+     "14"
+    ],
+    "loesung": [
+     "3.5"
+    ],
+    "erklaerung": "x + 7 = 3x ergibt 7 = 2x, also x = 3.5.",
+    "fehler": [
+     {
+      "antwort": "7",
+      "diagnoseId": "probe",
+      "feedback": "Setze ein: 7 + 7 = 14, aber das Dreifache von 7 ist 21."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "probe",
+      "feedback": "Setze ein: 2 + 7 = 9, aber das Dreifache von 2 ist 6."
+     },
+     {
+      "antwort": "14",
+      "diagnoseId": "probe",
+      "feedback": "Setze ein: 14 + 7 = 21, aber das Dreifache von 14 ist 42."
+     }
+    ]
+   },
+   {
+    "stamm": "Stelle die Gleichung auf.\n\nDrei aufeinanderfolgende ganze Zahlen ergeben zusammen 48.",
+    "optionen": [
+     "x + (x + 1) + (x + 2) = 48",
+     "3x = 48",
+     "x + x + x = 48 + 3",
+     "x · (x + 1) · (x + 2) = 48"
+    ],
+    "loesung": [
+     "x + (x + 1) + (x + 2) = 48"
+    ],
+    "erklaerung": "Aufeinanderfolgende Zahlen unterscheiden sich je um eins.",
+    "fehler": [
+     {
+      "antwort": "3x = 48",
+      "diagnoseId": "abstand",
+      "feedback": "Das setzte drei gleiche Zahlen voraus. Richtig ist «x + (x + 1) + (x + 2) = 48»."
+     },
+     {
+      "antwort": "x + x + x = 48 + 3",
+      "diagnoseId": "seiten",
+      "feedback": "Die drei Summanden unterscheiden sich; die 3 gehört nicht auf die rechte Seite."
+     },
+     {
+      "antwort": "x · (x + 1) · (x + 2) = 48",
+      "diagnoseId": "operation",
+      "feedback": "«zusammen» heisst addieren, nicht multiplizieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Textaufgabe.\n\nDrei aufeinanderfolgende ganze Zahlen ergeben zusammen 48. Wie heisst die kleinste?",
+    "optionen": [
+     "15",
+     "16",
+     "14",
+     "12"
+    ],
+    "loesung": [
+     "15"
+    ],
+    "erklaerung": "3x + 3 = 48 ergibt x = 15; die Zahlen sind 15, 16 und 17.",
+    "fehler": [
+     {
+      "antwort": "16",
+      "diagnoseId": "probe",
+      "feedback": "16 + 17 + 18 ergibt 51, nicht 48. Richtig ist «15»."
+     },
+     {
+      "antwort": "14",
+      "diagnoseId": "probe",
+      "feedback": "14 + 15 + 16 ergibt 45, nicht 48. Richtig ist «15»."
+     },
+     {
+      "antwort": "12",
+      "diagnoseId": "probe",
+      "feedback": "12 + 13 + 14 ergibt 39, nicht 48. Richtig ist «15»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach b auf:\n\nA = a · b⁄₂",
+    "optionen": [
+     "b = ²A⁄a",
+     "b = A⁄₂a",
+     "b = 2A · a",
+     "b = a⁄₂A"
+    ],
+    "loesung": [
+     "b = ²A⁄a"
+    ],
+    "erklaerung": "Erst mit 2 multiplizieren, dann durch a teilen.",
+    "fehler": [
+     {
+      "antwort": "b = A⁄₂a",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist mit 2 multipliziert worden, wo geteilt werden müsste."
+     },
+     {
+      "antwort": "b = 2A · a",
+      "diagnoseId": "operation",
+      "feedback": "Durch a muss geteilt, nicht multipliziert werden."
+     },
+     {
+      "antwort": "b = a⁄₂A",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «b = ²A⁄a»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach h auf:\n\nV = G · h",
+    "optionen": [
+     "h = V⁄G",
+     "h = V · G",
+     "h = G⁄V",
+     "h = V − G"
+    ],
+    "loesung": [
+     "h = V⁄G"
+    ],
+    "erklaerung": "Durch G teilen; G steht als Faktor.",
+    "fehler": [
+     {
+      "antwort": "h = V · G",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist multipliziert statt geteilt worden."
+     },
+     {
+      "antwort": "h = G⁄V",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «h = V⁄G»."
+     },
+     {
+      "antwort": "h = V − G",
+      "diagnoseId": "operation",
+      "feedback": "G steht als Faktor, nicht als Summand. Richtig ist «h = V⁄G»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach r auf:\n\nA = πr²",
+    "optionen": [
+     "r = √(A⁄π)",
+     "r = A⁄π",
+     "r = A⁄π²",
+     "r = √(Aπ)"
+    ],
+    "loesung": [
+     "r = √(A⁄π)"
+    ],
+    "erklaerung": "Erst durch π teilen, dann die Wurzel ziehen.",
+    "fehler": [
+     {
+      "antwort": "r = A⁄π",
+      "diagnoseId": "wurzel",
+      "feedback": "Die Wurzel fehlt; r steht im Quadrat. Richtig ist «r = √(A⁄π)»."
+     },
+     {
+      "antwort": "r = A⁄π²",
+      "diagnoseId": "operation",
+      "feedback": "Geteilt wird durch π, nicht durch π². Richtig ist «r = √(A⁄π)»."
+     },
+     {
+      "antwort": "r = √(Aπ)",
+      "diagnoseId": "operation",
+      "feedback": "Durch π muss geteilt, nicht multipliziert werden."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausklammern, Bruchgleichungen, Textaufgaben und Formeln",
+  "status": "review"
+ },
+ {
+  "templateId": "gl-konstruktionen-pythagoras",
+  "lernzielId": "MGL.4.07",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.07",
+   "4.08",
+   "4.02",
+   "4.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Geodreieck und Zirkel sind an der Prüfung erlaubt — geübt wird hier, was man dabei wissen muss.",
+   "Der Satz des Pythagoras gilt nur im rechtwinkligen Dreieck.",
+   "Die längste Seite liegt immer dem rechten Winkel gegenüber."
+  ],
+  "loesungsweg": [
+   "Eine Skizze vor dem inneren Auge zeichnen.",
+   "Prüfen, welche Angaben gegeben sind.",
+   "Die passende Ortslinie oder Formel wählen.",
+   "Das Ergebnis auf Plausibilität prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Seiten passen zu einem rechtwinkligen Dreieck?",
+    "optionen": [
+     "3 cm, 4 cm, 5 cm",
+     "3 cm, 4 cm, 6 cm",
+     "2 cm, 3 cm, 4 cm",
+     "4 cm, 5 cm, 6 cm"
+    ],
+    "loesung": [
+     "3 cm, 4 cm, 5 cm"
+    ],
+    "erklaerung": "3² + 4² = 9 + 16 = 25 = 5². Nach der Umkehrung des Satzes von Pythagoras ist das Dreieck rechtwinklig.",
+    "fehler": [
+     {
+      "antwort": "3 cm, 4 cm, 6 cm",
+      "diagnoseId": "knapp_daneben",
+      "feedback": "9 + 16 ergibt 25, aber 6² ist 36. Das Dreieck ist stumpfwinklig."
+     },
+     {
+      "antwort": "2 cm, 3 cm, 4 cm",
+      "diagnoseId": "nicht_rechtwinklig",
+      "feedback": "4 + 9 ergibt 13, aber 4² ist 16 — das Dreieck ist nicht rechtwinklig."
+     },
+     {
+      "antwort": "4 cm, 5 cm, 6 cm",
+      "diagnoseId": "nicht_rechtwinklig_zwei",
+      "feedback": "16 + 25 ergibt 41, aber 6² ist 36; die Bedingung ist nicht erfüllt."
+     }
+    ]
+   },
+   {
+    "stamm": "In einem rechtwinkligen Dreieck sind die Katheten 6 cm und 8 cm lang. Wie lang ist die Hypotenuse?",
+    "optionen": [
+     "10 cm",
+     "14 cm",
+     "√14 cm",
+     "2 cm"
+    ],
+    "loesung": [
+     "10 cm"
+    ],
+    "erklaerung": "6² + 8² = 36 + 64 = 100; die Wurzel daraus ist 10.",
+    "fehler": [
+     {
+      "antwort": "14 cm",
+      "diagnoseId": "addiert",
+      "feedback": "Die Hypotenuse ist kürzer als die Summe der Katheten."
+     },
+     {
+      "antwort": "√14 cm",
+      "diagnoseId": "wurzel_falsch",
+      "feedback": "Addiert werden die QUADRATE: 36 + 64, nicht 6 + 8."
+     },
+     {
+      "antwort": "2 cm",
+      "diagnoseId": "subtrahiert",
+      "feedback": "Subtrahiert wird nur, wenn die Hypotenuse gegeben und eine Kathete gesucht ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Hypotenuse misst 13 cm, eine Kathete 5 cm. Wie lang ist die andere Kathete?",
+    "optionen": [
+     "12 cm",
+     "8 cm",
+     "18 cm",
+     "√8 cm"
+    ],
+    "loesung": [
+     "12 cm"
+    ],
+    "erklaerung": "13² − 5² = 169 − 25 = 144; die Wurzel daraus ist 12.",
+    "fehler": [
+     {
+      "antwort": "8 cm",
+      "diagnoseId": "subtrahiert",
+      "feedback": "Subtrahiert werden die QUADRATE, nicht die Seitenlängen."
+     },
+     {
+      "antwort": "18 cm",
+      "diagnoseId": "addiert",
+      "feedback": "Eine Kathete ist immer kürzer als die Hypotenuse, hier also unter 13 cm."
+     },
+     {
+      "antwort": "√8 cm",
+      "diagnoseId": "wurzel_falsch",
+      "feedback": "Erst die Quadrate voneinander abziehen, dann die Wurzel ziehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was konstruiert man mit zwei Kreisbögen gleichen Radius um die Endpunkte einer Strecke?",
+    "optionen": [
+     "die Mittelsenkrechte",
+     "die Winkelhalbierende",
+     "eine Parallele",
+     "den Thaleskreis"
+    ],
+    "loesung": [
+     "die Mittelsenkrechte"
+    ],
+    "erklaerung": "Die beiden Schnittpunkte der Bögen liegen beide auf der Mittelsenkrechten.",
+    "fehler": [
+     {
+      "antwort": "die Winkelhalbierende",
+      "diagnoseId": "winkel",
+      "feedback": "Die Winkelhalbierende gehört zu einem Winkel, nicht zu einer Strecke."
+     },
+     {
+      "antwort": "eine Parallele",
+      "diagnoseId": "parallele",
+      "feedback": "Eine Parallele entsteht durch zweimaliges Fällen des Lotes."
+     },
+     {
+      "antwort": "den Thaleskreis",
+      "diagnoseId": "kreis",
+      "feedback": "Der Thaleskreis wird über der Strecke als Durchmesser gezeichnet."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man einen rechten Winkel ohne Geodreieck?",
+    "optionen": [
+     "mit einer Mittelsenkrechten",
+     "mit einer Winkelhalbierenden",
+     "mit einem beliebigen Kreis",
+     "mit einer Parallelen"
+    ],
+    "loesung": [
+     "mit einer Mittelsenkrechten"
+    ],
+    "erklaerung": "Die Mittelsenkrechte steht senkrecht auf der Strecke — das ist der rechte Winkel.",
+    "fehler": [
+     {
+      "antwort": "mit einer Winkelhalbierenden",
+      "diagnoseId": "halbierung",
+      "feedback": "Sie halbiert einen Winkel; nur bei 180° ergibt das zufällig 90°."
+     },
+     {
+      "antwort": "mit einem beliebigen Kreis",
+      "diagnoseId": "kreis",
+      "feedback": "Ein einzelner Kreis liefert keinen bestimmten Winkel."
+     },
+     {
+      "antwort": "mit einer Parallelen",
+      "diagnoseId": "parallele",
+      "feedback": "Eine Parallele verläuft im gleichen Abstand, nicht im rechten Winkel."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck hat die Winkel 40° und 60°. Wie gross ist der dritte?",
+    "optionen": [
+     "80°",
+     "100°",
+     "60°",
+     "260°"
+    ],
+    "loesung": [
+     "80°"
+    ],
+    "erklaerung": "Die Winkelsumme beträgt 180°: 180 − 40 − 60 = 80.",
+    "fehler": [
+     {
+      "antwort": "100°",
+      "diagnoseId": "summe_falsch",
+      "feedback": "180 − 40 − 60 ergibt 80, nicht 100. Rechne die Summe nach."
+     },
+     {
+      "antwort": "60°",
+      "diagnoseId": "gleich",
+      "feedback": "Nur im gleichseitigen Dreieck sind alle Winkel 60° gross."
+     },
+     {
+      "antwort": "260°",
+      "diagnoseId": "mit_360",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°, nicht 360°."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Figur hat genau zwei Symmetrieachsen?",
+    "optionen": [
+     "das Rechteck",
+     "das Quadrat",
+     "das gleichseitige Dreieck",
+     "der Kreis"
+    ],
+    "loesung": [
+     "das Rechteck"
+    ],
+    "erklaerung": "Beim Rechteck sind es die beiden Mittelparallelen; die Diagonalen sind keine Symmetrieachsen.",
+    "fehler": [
+     {
+      "antwort": "das Quadrat",
+      "diagnoseId": "vier",
+      "feedback": "Das Quadrat hat vier Achsen: zwei Mittelparallelen und zwei Diagonalen."
+     },
+     {
+      "antwort": "das gleichseitige Dreieck",
+      "diagnoseId": "drei",
+      "feedback": "Es hat drei Achsen, je eine durch eine Ecke."
+     },
+     {
+      "antwort": "der Kreis",
+      "diagnoseId": "unendlich",
+      "feedback": "Jede Gerade durch den Mittelpunkt ist eine Symmetrieachse."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man den Mittelpunkt einer Strecke?",
+    "optionen": [
+     "mit der Mittelsenkrechten",
+     "mit dem Geodreieck allein",
+     "mit einer Winkelhalbierenden",
+     "mit zwei Parallelen"
+    ],
+    "loesung": [
+     "mit der Mittelsenkrechten"
+    ],
+    "erklaerung": "Die Mittelsenkrechte schneidet die Strecke genau in ihrer Mitte.",
+    "fehler": [
+     {
+      "antwort": "mit dem Geodreieck allein",
+      "diagnoseId": "messen",
+      "feedback": "Messen und Halbieren ist möglich, aber keine Konstruktion mit Zirkel und Lineal."
+     },
+     {
+      "antwort": "mit einer Winkelhalbierenden",
+      "diagnoseId": "winkel",
+      "feedback": "Die Winkelhalbierende gehört zu einem Winkel."
+     },
+     {
+      "antwort": "mit zwei Parallelen",
+      "diagnoseId": "parallele",
+      "feedback": "Parallelen allein bestimmen keinen Mittelpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Dreieck liegt der Höhenschnittpunkt ausserhalb?",
+    "optionen": [
+     "im stumpfwinkligen",
+     "im rechtwinkligen",
+     "im spitzwinkligen",
+     "im gleichseitigen"
+    ],
+    "loesung": [
+     "im stumpfwinkligen"
+    ],
+    "erklaerung": "Beim stumpfwinkligen Dreieck fallen zwei Höhen auf die Verlängerungen der Seiten; ihr Schnittpunkt liegt darum ausserhalb.",
+    "fehler": [
+     {
+      "antwort": "im rechtwinkligen",
+      "diagnoseId": "ecke",
+      "feedback": "Dort liegt der Höhenschnittpunkt genau in der Ecke mit dem rechten Winkel."
+     },
+     {
+      "antwort": "im spitzwinkligen",
+      "diagnoseId": "innen",
+      "feedback": "Dort liegt er im Innern des Dreiecks, nicht ausserhalb."
+     },
+     {
+      "antwort": "im gleichseitigen",
+      "diagnoseId": "mitte",
+      "feedback": "Dort fällt er mit dem Mittelpunkt zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Eine Leiter von 5 m Länge steht 3 m von der Wand entfernt. Wie hoch reicht sie?",
+    "optionen": [
+     "4 m",
+     "8 m",
+     "2 m",
+     "√34 m"
+    ],
+    "loesung": [
+     "4 m"
+    ],
+    "erklaerung": "5² − 3² = 25 − 9 = 16; die Wurzel daraus ist 4.",
+    "fehler": [
+     {
+      "antwort": "8 m",
+      "diagnoseId": "addiert",
+      "feedback": "Die Leiter ist die Hypotenuse; sie ist länger als die Höhe."
+     },
+     {
+      "antwort": "2 m",
+      "diagnoseId": "subtrahiert",
+      "feedback": "Subtrahiert werden die Quadrate, nicht die Längen."
+     },
+     {
+      "antwort": "√34 m",
+      "diagnoseId": "addiert_quadrate",
+      "feedback": "Addiert würde man nur, wenn die Hypotenuse gesucht wäre."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über den Thaleskreis stimmt?",
+    "optionen": [
+     "Über dem Durchmesser sieht man ihn von jedem Kreispunkt unter 90°.",
+     "Er halbiert jeden Winkel.",
+     "Er verläuft durch den Schwerpunkt.",
+     "Er ist immer gleich gross wie der Umkreis."
+    ],
+    "loesung": [
+     "Über dem Durchmesser sieht man ihn von jedem Kreispunkt unter 90°."
+    ],
+    "erklaerung": "Das ist der Satz von Thales; er hilft überall dort, wo ein rechter Winkel konstruiert werden muss.",
+    "fehler": [
+     {
+      "antwort": "Er halbiert jeden Winkel.",
+      "diagnoseId": "winkelhalbierende",
+      "feedback": "Das tut die Winkelhalbierende, nicht der Thaleskreis."
+     },
+     {
+      "antwort": "Er verläuft durch den Schwerpunkt.",
+      "diagnoseId": "schwerpunkt",
+      "feedback": "Der Schwerpunkt hat mit dem Thaleskreis nichts zu tun."
+     },
+     {
+      "antwort": "Er ist immer gleich gross wie der Umkreis.",
+      "diagnoseId": "umkreis",
+      "feedback": "Beim rechtwinkligen Dreieck stimmt das zufällig — sonst nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Quadrat hat die Diagonale 10 cm. Wie lang ist die Seite ungefähr?",
+    "optionen": [
+     "etwa 7 cm",
+     "etwa 5 cm",
+     "etwa 10 cm",
+     "etwa 14 cm"
+    ],
+    "loesung": [
+     "etwa 7 cm"
+    ],
+    "erklaerung": "Zwei gleiche Seiten und die Diagonale bilden ein rechtwinkliges Dreieck: 2a² = 100, also a² = 50 und a ≈ 7.07.",
+    "fehler": [
+     {
+      "antwort": "etwa 5 cm",
+      "diagnoseId": "haelfte",
+      "feedback": "Die Hälfte der Diagonale ist nicht die Seite."
+     },
+     {
+      "antwort": "etwa 10 cm",
+      "diagnoseId": "gleich",
+      "feedback": "Die Diagonale ist immer länger als die Seite eines Quadrats."
+     },
+     {
+      "antwort": "etwa 14 cm",
+      "diagnoseId": "verdoppelt",
+      "feedback": "Die Seite ist kürzer als die Diagonale, nicht länger."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Konstruktionen und der Satz des Pythagoras",
+  "status": "review"
+ }
+]

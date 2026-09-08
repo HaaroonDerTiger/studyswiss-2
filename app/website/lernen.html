@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lernen — StudySwiss</title>
+<meta name="description" content="Die Lern-App im Browser. Derselbe Fortschritt wie auf dem Telefon, weil es dasselbe Konto ist.">
+<meta name="theme-color" content="#FBF5EA">
+<link rel="icon" href="bilder/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/marke.css">
+<link rel="stylesheet" href="css/bausteine.css">
+<link rel="stylesheet" href="css/seite.css">
+<link rel="stylesheet" href="css/antwort.css">
+<link rel="stylesheet" href="css/beleg.css">
+</head>
+<body>
+<a class="spring" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <div class="kopf-innen">
+    <a class="logo" href="index.html" aria-label="StudySwiss, zur Startseite">
+      <svg viewBox="0 0 520 351" width="39" height="26" aria-hidden="true"><path fill="#C99A66" fill-rule="evenodd" clip-rule="evenodd" d="M402 233L399 235L395 242L387 253L384 268L387 288L388 312L385 334L383 345L382 347L382 349L383 349L386 348L388 346L391 345L393 343L396 341L399 337L403 320L407 297L408 276L407 256L404 238Z M116 237L113 248L112 263L112 284L113 298L114 304L116 315L119 331L123 341L126 343L128 345L132 346L135 347L137 350L138 349L136 339L134 330L134 324L132 317L132 298L134 278L137 264L136 259L130 250L123 241L119 234L117 234Z M305 173L304 174L304 176L307 177L310 181L313 187L312 194L311 197L308 199L305 200L298 201L294 200L290 197L286 193L285 192L284 194L284 199L285 208L288 215L294 221L300 225L307 227L316 227L325 223L331 219L335 214L338 207L339 200L338 192L334 184L328 177L324 174L316 173L307 172Z M201 173L201 174L201 176L204 178L207 181L209 186L209 192L207 197L204 200L199 201L191 200L187 196L183 193L182 193L180 195L180 201L182 209L185 216L190 221L198 225L207 227L215 226L221 224L228 219L233 212L235 204L235 195L233 187L228 181L221 175L214 172L206 172Z M119 193L119 207L123 222L127 233L135 244L148 257L163 266L176 271L190 273L205 272L213 271L224 266L232 264L235 268L241 279L245 284L248 289L251 294L254 297L255 299L257 301L260 303L264 299L279 278L290 265L295 266L304 270L312 272L325 273L340 272L352 269L363 264L372 258L380 251L389 240L395 227L399 214L401 200L400 187L399 180L396 171L390 159L381 148L373 140L364 134L353 129L338 125L323 124L309 126L298 129L289 134L282 139L275 145L267 153L262 160L258 161L256 159L253 154L245 145L238 139L230 134L219 129L206 125L186 125L166 129L151 137L140 146L133 153L128 163L122 175L120 185Z M260 236L264 239L272 250L274 255L273 260L269 266L263 275L258 276L252 268L246 256L246 250L249 247L253 242L259 236Z M321 141L337 141L353 146L363 153L370 159L376 167L383 181L385 190L385 200L383 214L377 229L366 241L353 250L337 256L319 256L306 253L297 249L292 246L289 244L284 239L277 230L271 218L268 206L268 197L269 187L271 178L274 173L275 170L278 165L284 158L291 151L300 146L308 142L317 141Z M186 140L193 139L202 140L215 144L225 149L231 154L239 163L247 177L251 188L252 196L250 212L243 228L234 241L222 249L207 255L192 257L181 256L172 254L162 248L154 243L149 238L145 232L140 224L137 215L135 208L134 200L135 187L139 175L144 165L150 158L157 152L166 147L175 143L183 140Z"/><path fill="#3A1D0A" fill-rule="evenodd" clip-rule="evenodd" d="M517 94L510 91L499 87L489 83L482 81L476 79L461 73L453 70L450 69L446 67L435 64L416 56L402 51L396 49L384 45L374 41L368 39L363 37L351 33L334 26L323 22L321 22L318 20L310 18L301 14L291 10L277 5L271 3L268 1L262 0L256 0L254 1L248 4L240 6L233 9L192 24L162 35L156 38L151 39L145 42L132 46L118 51L114 53L108 55L90 61L68 70L63 71L59 73L56 74L50 76L42 80L24 86L9 91L1 95L0 97L2 99L23 107L54 118L58 127L59 174L58 209L56 216L56 221L57 223L58 225L57 230L51 240L49 251L48 260L46 264L44 266L44 269L44 272L46 274L48 275L50 281L51 285L57 286L70 285L80 282L84 279L84 274L81 268L80 263L82 260L83 255L81 243L76 233L73 227L74 225L76 222L76 216L76 211L74 194L74 144L76 128L80 128L86 129L90 131L93 132L103 136L118 142L123 142L128 138L135 133L144 127L147 123L154 119L164 115L179 112L199 111L218 115L235 121L248 129L257 136L261 138L264 136L268 132L270 131L271 129L274 127L282 122L297 116L309 112L323 111L337 111L343 112L349 113L358 116L370 121L375 125L378 128L382 132L388 135L394 140L399 142L411 138L426 132L431 131L434 130L440 127L448 125L450 123L453 123L456 122L461 120L469 117L475 114L480 112L486 111L495 107L510 102L519 97L518 95Z"/></svg><b>Study<i>swiss</i></b>
+    </a>
+    <button class="menuknopf" aria-label="Menü" aria-expanded="false" aria-controls="hauptnav">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="1.9" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="hauptnav" id="hauptnav" aria-label="Hauptnavigation">
+      <a href="schulen.html">Für Schulen</a>
+      <a href="kantone.html">Kantone</a>
+      <a href="preise.html">Preise</a>
+      <a href="lernen.html">Lernen</a>
+      <a href="verwaltung.html">Schulverwaltung</a>
+    </nav>
+    <a class="btn klein bp" href="konto.html" data-konto>Anmelden</a>
+  </div>
+</header>
+
+<main id="inhalt">
+<!--
+  Der Lernbereich.
+
+  Hier ist die Website wirklich «dieselbe App, nur Website-Ansicht»:
+  dieselben Screens, dieselben Bausteine, dasselbe Backend. Anders ist
+  nur der Platz — die fünf Tabs der App liegen am Telefon unten beim
+  Daumen, am Laptop gehören sie an den Rand.
+
+  Die Aufgaben kommen aus `/v1`, samt Auswertung. Die Lösung reist nie
+  mit (§4.10): Was hier ankommt, ist `aufgabeRef`, Stamm und Optionen.
+-->
+<div class="werkflaeche">
+  <aside class="seitenleiste">
+    <nav aria-label="Lernbereich">
+      <a href="#uebersicht" data-lern="uebersicht"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg><span>Lernen</span></a>
+      <a href="#pfad"       data-lern="pfad"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M2 12h20"/></svg><span>Lernpfad</span></a>
+      <a href="#standort"   data-lern="standort"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5zM6 12v5c3 3 9 3 12 0v-5"/></svg><span>Standortbestimmung</span></a>
+      <a href="#selbsttest" data-lern="selbsttest"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg><span>Selbsttest</span></a>
+      <a href="#aufsatz"    data-lern="aufsatz"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg><span>Aufsatz</span></a>
+      <a href="#fortschritt" data-lern="fortschritt"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18M7 16v-5M12 16V8M17 16v-3"/></svg><span>Fortschritt</span></a>
+      <a href="#fehler"     data-lern="fehler"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4M12 17h.01"/></svg><span>Fehlerarchiv</span></a>
+      <a href="#einstellungen" data-lern="einstellungen"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15a3 3 0 100-6 3 3 0 000 6zM19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 008 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.6 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06A1.65 1.65 0 009 4.6h.09A1.65 1.65 0 0010 3.09V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06A1.65 1.65 0 0019.4 9v.09a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg><span>Einstellungen</span></a>
+    </nav>
+  </aside>
+
+  <div class="arbeitsflaeche">
+    <div id="lernMeldung"></div>
+
+    <!-- ---- Nicht angemeldet ---- -->
+    <section data-lern="anmelden" hidden>
+      <p class="eyebrow">Lernen</p>
+      <h1>Zuerst anmelden</h1>
+      <p class="bd" style="margin-top:10px;max-width:56ch">
+        Der Fortschritt hängt am Konto. Melde dich an — oder lern ohne Konto
+        weiter, dann bleibt er auf diesem Gerät.
+      </p>
+      <div class="knopfreihe"><a class="btn bp" href="konto.html">Zur Anmeldung</a></div>
+    </section>
+
+    <!-- ---- Übersicht ---- -->
+    <section data-lern="uebersicht" hidden>
+      <div class="dunkel" id="terminKarte"></div>
+      <div id="zuerstDran" style="margin-top:22px"></div>
+      <h2 style="margin-top:34px">Deine Fächer</h2>
+      <div class="raster" id="faecher" style="margin-top:18px"></div>
+    </section>
+
+    <!-- ---- Die Bereiche eines Fachs ----
+         Screen 11b. Nur für Fächer mit mehr als einem Bereich, also für
+         Deutsch: Sprachbetrachtung, Textverständnis, Aufsatz. Mathematik
+         überspringt diesen Schirm, dort fallen Fach und Bereich zusammen. -->
+    <section data-lern="bereiche" hidden>
+      <button class="btn bt klein" id="zurueckVonBereichen"
+              style="padding-left:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> Zurück</button>
+      <h1 id="bereicheTitel" style="margin-top:10px">Fach</h1>
+      <p class="bd" style="margin-top:8px;max-width:56ch">
+        An der Prüfung besteht dieses Fach aus mehreren Teilen. Wähle den,
+        den du üben möchtest.</p>
+      <div class="stapel" id="bereicheInhalt" style="margin-top:22px"></div>
+    </section>
+
+    <!-- ---- Ein Bereich mit seinen Themen ---- -->
+    <section data-lern="fach" hidden>
+      <button class="btn bt klein" id="zurueckUebersicht"
+              style="padding-left:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> Zurück</button>
+      <h1 id="fachTitel" style="margin-top:10px">Fach</h1>
+      <p class="bd" id="fachZeile" style="margin-top:8px"></p>
+      <div id="themenbaum" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Übung ---- -->
+    <section data-lern="uebung" hidden>
+      <div class="reihe" style="justify-content:space-between;margin-bottom:18px">
+        <button class="btn bt klein" id="uebungSchliessen" style="padding-left:0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> Abbrechen</button>
+        <span class="sm" id="uebungTitel" style="font-weight:700;color:var(--ink5)"></span>
+        <span class="sm" id="uebungStand"></span>
+      </div>
+      <div class="bar" style="margin-bottom:24px"><i id="uebungBalken" style="width:0"></i></div>
+      <div id="uebungInhalt"></div>
+    </section>
+
+    <!-- ---- Fortschritt ---- -->
+    <section data-lern="fortschritt" hidden>
+      <p class="eyebrow">Fortschritt</p>
+      <h1>Wo du stehst</h1>
+      <div id="fortschrittInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Fehlerarchiv ---- -->
+    <section data-lern="fehler" hidden>
+      <p class="eyebrow">Fehlerarchiv</p>
+      <h1>Meine Fehler</h1>
+      <p class="bd" style="margin-top:8px;max-width:58ch">
+        Nach Denkfehler geordnet. «Nochmal» erzeugt genau dieselbe Aufgabe —
+        mit denselben Zahlen, auch Wochen später und auf jedem Gerät.
+      </p>
+      <div id="fehlerInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Lernpfad ---- -->
+    <section data-lern="pfad" hidden>
+      <p class="eyebrow">Lernpfad</p>
+      <h1>Von heute bis zur Prüfung</h1>
+      <div id="pfadInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Selbsttest ---- -->
+    <section data-lern="selbsttest" hidden>
+      <p class="eyebrow">Selbsttest</p>
+      <h1>Wie an der Prüfung</h1>
+      <p class="bd" style="margin-top:8px;max-width:58ch">
+        Uhr läuft, keine Hinweise, kein Feedback zwischendurch — aber du
+        darfst zurückblättern, und die Uhr hält an, wenn du das Fenster
+        wechselst. Bewertet wird erst bei der Abgabe.
+      </p>
+      <div id="selbsttestInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Standortbestimmung ----
+         Sie heisst überall «Standortbestimmung», nie «Test»: «Test» weckt
+         genau die Erwartung, die der Ergebnis-Schirm gleich darauf
+         verneinen muss. -->
+    <section data-lern="standort" hidden>
+      <p class="eyebrow">Wo stehst du?</p>
+      <h1>Standortbestimmung</h1>
+      <div id="standortInhalt" style="margin-top:20px"></div>
+    </section>
+
+    <!-- ---- Aufsatz ---- -->
+    <section data-lern="aufsatz" hidden>
+      <p class="eyebrow">Wähle eine Aufsatzart aus, die du üben möchtest</p>
+      <h1>Aufsatz</h1>
+      <div id="aufsatzInhalt" style="margin-top:20px"></div>
+    </section>
+
+    <!-- ---- Tipps ----
+         Für einen Bereich mit `art: "tipps"` — Hörverstehen, mündliche
+         Prüfung. Der Schirm verspricht keine Aufgaben und sagt darum auch
+         nie «Aufgaben folgen». -->
+    <section data-lern="tipps" hidden>
+      <button class="btn bt klein" id="zurueckVonTipps"
+              style="padding-left:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> Zurück</button>
+      <div id="tippsInhalt" style="margin-top:14px"></div>
+    </section>
+
+    <!-- ---- Einstellungen ---- -->
+    <section data-lern="einstellungen" hidden>
+      <p class="eyebrow">Einstellungen</p>
+      <h1>Prüfung und Konto</h1>
+      <div id="einstellungenInhalt" style="margin-top:24px"></div>
+    </section>
+  </div>
+</div>
+
+</main>
+
+<footer class="fuss">
+  <div class="innen">
+    <div>
+      <div class="logo" style="margin-bottom:12px"><svg viewBox="0 0 520 351" width="39" height="26" aria-hidden="true"><path fill="#C99A66" fill-rule="evenodd" clip-rule="evenodd" d="M402 233L399 235L395 242L387 253L384 268L387 288L388 312L385 334L383 345L382 347L382 349L383 349L386 348L388 346L391 345L393 343L396 341L399 337L403 320L407 297L408 276L407 256L404 238Z M116 237L113 248L112 263L112 284L113 298L114 304L116 315L119 331L123 341L126 343L128 345L132 346L135 347L137 350L138 349L136 339L134 330L134 324L132 317L132 298L134 278L137 264L136 259L130 250L123 241L119 234L117 234Z M305 173L304 174L304 176L307 177L310 181L313 187L312 194L311 197L308 199L305 200L298 201L294 200L290 197L286 193L285 192L284 194L284 199L285 208L288 215L294 221L300 225L307 227L316 227L325 223L331 219L335 214L338 207L339 200L338 192L334 184L328 177L324 174L316 173L307 172Z M201 173L201 174L201 176L204 178L207 181L209 186L209 192L207 197L204 200L199 201L191 200L187 196L183 193L182 193L180 195L180 201L182 209L185 216L190 221L198 225L207 227L215 226L221 224L228 219L233 212L235 204L235 195L233 187L228 181L221 175L214 172L206 172Z M119 193L119 207L123 222L127 233L135 244L148 257L163 266L176 271L190 273L205 272L213 271L224 266L232 264L235 268L241 279L245 284L248 289L251 294L254 297L255 299L257 301L260 303L264 299L279 278L290 265L295 266L304 270L312 272L325 273L340 272L352 269L363 264L372 258L380 251L389 240L395 227L399 214L401 200L400 187L399 180L396 171L390 159L381 148L373 140L364 134L353 129L338 125L323 124L309 126L298 129L289 134L282 139L275 145L267 153L262 160L258 161L256 159L253 154L245 145L238 139L230 134L219 129L206 125L186 125L166 129L151 137L140 146L133 153L128 163L122 175L120 185Z M260 236L264 239L272 250L274 255L273 260L269 266L263 275L258 276L252 268L246 256L246 250L249 247L253 242L259 236Z M321 141L337 141L353 146L363 153L370 159L376 167L383 181L385 190L385 200L383 214L377 229L366 241L353 250L337 256L319 256L306 253L297 249L292 246L289 244L284 239L277 230L271 218L268 206L268 197L269 187L271 178L274 173L275 170L278 165L284 158L291 151L300 146L308 142L317 141Z M186 140L193 139L202 140L215 144L225 149L231 154L239 163L247 177L251 188L252 196L250 212L243 228L234 241L222 249L207 255L192 257L181 256L172 254L162 248L154 243L149 238L145 232L140 224L137 215L135 208L134 200L135 187L139 175L144 165L150 158L157 152L166 147L175 143L183 140Z"/><path fill="#3A1D0A" fill-rule="evenodd" clip-rule="evenodd" d="M517 94L510 91L499 87L489 83L482 81L476 79L461 73L453 70L450 69L446 67L435 64L416 56L402 51L396 49L384 45L374 41L368 39L363 37L351 33L334 26L323 22L321 22L318 20L310 18L301 14L291 10L277 5L271 3L268 1L262 0L256 0L254 1L248 4L240 6L233 9L192 24L162 35L156 38L151 39L145 42L132 46L118 51L114 53L108 55L90 61L68 70L63 71L59 73L56 74L50 76L42 80L24 86L9 91L1 95L0 97L2 99L23 107L54 118L58 127L59 174L58 209L56 216L56 221L57 223L58 225L57 230L51 240L49 251L48 260L46 264L44 266L44 269L44 272L46 274L48 275L50 281L51 285L57 286L70 285L80 282L84 279L84 274L81 268L80 263L82 260L83 255L81 243L76 233L73 227L74 225L76 222L76 216L76 211L74 194L74 144L76 128L80 128L86 129L90 131L93 132L103 136L118 142L123 142L128 138L135 133L144 127L147 123L154 119L164 115L179 112L199 111L218 115L235 121L248 129L257 136L261 138L264 136L268 132L270 131L271 129L274 127L282 122L297 116L309 112L323 111L337 111L343 112L349 113L358 116L370 121L375 125L378 128L382 132L388 135L394 140L399 142L411 138L426 132L431 131L434 130L440 127L448 125L450 123L453 123L456 122L461 120L469 117L475 114L480 112L486 111L495 107L510 102L519 97L518 95Z"/></svg><b style="color:#FFF7EA">Study<i>swiss</i></b></div>
+      <p class="bd14" style="color:#E4CBA9;max-width:34ch">
+        Vorbereitung auf die Aufnahmeprüfung an eine Schweizer Mittelschule.
+        Zwölf Kantone, Mathematik, Deutsch und die Fremdsprachen.
+      </p>
+    </div>
+    <div>
+      <h4>Lernen</h4>
+      <a href="kantone.html">Kantone und Prüfungen</a>
+      <a href="lernen.html">Zur Lern-App</a>
+      <a href="preise.html">Preise</a>
+    </div>
+    <div>
+      <h4>Schulen</h4>
+      <a href="schulen.html">Für Schulen</a>
+      <a href="bestellen.html">Offerte und Bestellung</a>
+      <a href="verwaltung.html">Lizenzen verwalten</a>
+    </div>
+    <div>
+      <h4>Rechtliches</h4>
+      <a href="recht.html#agb">AGB</a>
+      <a href="recht.html#datenschutz">Datenschutz</a>
+      <a href="recht.html#impressum">Impressum</a>
+    </div>
+    <div class="schluss">
+      <span>© <span data-jahr>2026</span> StudySwiss · Server in der Schweiz</span>
+      <span>Keine Noten. Keine Serie. Kein Druck.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/hilfen.js"></script>
+<script src="js/zustand.js"></script>
+<script src="js/preise.js"></script>
+<script src="js/api.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/seite.js"></script>
+<script src="js/antwort.js"></script>
+<script src="js/uebung.js"></script>
+<script src="js/selbsttest.js"></script>
+<script src="js/standort.js"></script>
+<script src="js/aufsatz.js"></script>
+<script src="js/lernen.js"></script>
+</body>
+</html>

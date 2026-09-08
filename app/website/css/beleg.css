@@ -1,0 +1,111 @@
+/* StudySwiss — Offerte, Rechnung und Zahlteil
+   ==================================================================
+   Eine Schule kauft nicht mit der Kreditkarte. Sie holt eine Offerte,
+   legt sie der Schulleitung oder der Gemeinde vor, bestellt mit einer
+   Bestellnummer und bezahlt die Rechnung auf 30 Tage. Beide Papiere
+   werden ausgedruckt — darum sind sie hier echte Dokumente in A4 und
+   nicht nur Bildschirmseiten.
+
+   Der Zahlteil folgt den «Schweizer Implementation Guidelines QR-
+   Rechnung»: 210 × 105 mm am Blattfuss, Empfangsschein 62 mm links,
+   Zahlteil 148 mm rechts, QR-Feld 46 × 46 mm. Die Masse sind in
+   Millimetern angegeben, weil eine Bank den Ausdruck vermisst.        */
+
+/* --- Blatt ---------------------------------------------------------- */
+.beleg{background:#fff;color:#111;max-width:210mm;margin:0 auto;
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  font:400 13px/1.5 'Nunito Sans',Helvetica,Arial,sans-serif}
+.beleg-innen{padding:22mm 18mm 12mm}
+.beleg h1{font:700 24px/1.2 'Bitter',Georgia,serif;color:#111;margin:0}
+.beleg h2{font:600 15px/1.3 'Bitter',Georgia,serif;color:#111;margin:0 0 8px}
+.beleg .grau{color:#666}
+
+.beleg-kopf{display:flex;justify-content:space-between;gap:24px;
+  align-items:flex-start;margin-bottom:26mm}
+.beleg-kopf .absender{font-size:12px;line-height:1.5;color:#444}
+.beleg-kopf .absender .firma{font:700 15px 'Bitter',Georgia,serif;color:#111;
+  display:block;margin-bottom:3px}
+.beleg-adressfeld{margin-bottom:14mm;font-size:13px;line-height:1.55}
+.beleg-meta{display:grid;grid-template-columns:auto auto;gap:3px 18px;
+  justify-content:start;font-size:12.5px;margin-bottom:10mm}
+.beleg-meta dt{color:#666}
+.beleg-meta dd{margin:0;font-variant-numeric:tabular-nums}
+
+.beleg table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4mm}
+.beleg table th{text-align:left;font:700 10px/1.3 'Nunito Sans';
+  letter-spacing:.05em;text-transform:uppercase;color:#666;
+  padding:0 8px 7px 0;border-bottom:1px solid #ddd}
+.beleg table td{padding:9px 8px 9px 0;border-bottom:1px solid #eee;
+  vertical-align:top;color:#333}
+.beleg table th.r,.beleg table td.r{text-align:right;padding-right:0}
+.beleg table tfoot td{border-bottom:none;padding-top:8px;color:#111}
+.beleg table tfoot tr.total td{border-top:2px solid #111;
+  font:700 15px/1.3 'Bitter',Georgia,serif;padding-top:10px}
+.beleg .bedingungen{margin-top:12mm;font-size:11.5px;line-height:1.6;color:#555}
+.beleg .bedingungen b{color:#111}
+
+/* --- Zahlteil nach den Schweizer Guidelines --------------------------
+   Innerhalb dieses Blocks gilt Helvetica in Punkt, wie vorgeschrieben —
+   die Marke tritt hier bewusst zurück, denn das Papier gehört der Bank
+   und nicht uns. */
+.zahlteil{display:flex;width:210mm;height:105mm;border-top:1px dashed #767676;
+  background:#fff;font-family:Helvetica,Arial,sans-serif;color:#000;
+  page-break-inside:avoid;break-inside:avoid}
+.zahlteil .schere{position:absolute;margin-top:-8px;margin-left:6px;font-size:11px;
+  color:#767676}
+.zt-empfang{width:62mm;padding:5mm;border-right:1px dashed #767676;
+  display:flex;flex-direction:column}
+.zt-zahl{width:148mm;padding:5mm;display:flex;gap:5mm}
+.zt-titel{font-weight:700;font-size:11pt;line-height:1.2;margin-bottom:3mm}
+.zt-ueber{font-weight:700;font-size:6pt;line-height:1.35;margin-top:2.5mm}
+.zt-wert{font-size:8pt;line-height:1.35;white-space:pre-line}
+.zt-zahl .zt-ueber{font-size:8pt}
+.zt-zahl .zt-wert{font-size:10pt}
+.zt-links{width:51mm;display:flex;flex-direction:column}
+.zt-rechts{flex:1;display:flex;flex-direction:column}
+.zt-qr{width:46mm;height:46mm;margin:5mm 0 5mm;position:relative;
+  background:#fff}
+.zt-qr img,.zt-qr svg{width:46mm;height:46mm;display:block}
+/* Das Schweizerkreuz sitzt 7 × 7 mm in der Mitte des Codes. */
+.zt-kreuz{position:absolute;left:50%;top:50%;width:7mm;height:7mm;
+  transform:translate(-50%,-50%);background:#000;
+  display:flex;align-items:center;justify-content:center}
+.zt-kreuz i{display:block;width:4.3mm;height:1.2mm;background:#fff;position:absolute}
+.zt-kreuz i:last-child{width:1.2mm;height:4.3mm}
+.zt-betrag{display:flex;gap:8mm;margin-top:auto}
+.zt-annahme{font-weight:700;font-size:6pt;text-align:right;margin-top:auto;
+  padding-top:5mm}
+/* Ein Muster darf nie versehentlich bezahlt werden. */
+.zt-muster{position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;background:rgba(255,255,255,.86);text-align:center;
+  font:700 9pt/1.4 Helvetica,Arial,sans-serif;color:#b00;padding:4mm}
+
+/* --- Bildschirm gegen Papier ----------------------------------------- */
+.nur-druck{display:none}
+.belegleiste{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+
+@media print{
+  /* Beim Drucken bleibt das Dokument übrig, sonst nichts. */
+  body{background:#fff;background-image:none}
+  .kopf,.fuss,.belegleiste,.schritte,.hauptnav,.seitenleiste,
+  .nicht-drucken{display:none !important}
+  .band,.arbeitsflaeche{padding:0 !important}
+  .beleg{border:none;border-radius:0;max-width:none;margin:0}
+  .beleg-innen{padding:16mm 15mm 8mm}
+  .nur-druck{display:block}
+  .nur-bildschirm{display:none !important}
+  .zahlteil{width:auto;position:fixed;bottom:0;left:0;right:0}
+  @page{size:A4;margin:0}
+}
+
+@media (max-width:900px){
+  /* Der Zahlteil hat feste Millimeter — auf einem schmalen Bildschirm
+     wird er als Ganzes verkleinert, statt umzubrechen. Umbrechen würde
+     ihn ungültig machen. */
+  .zahlteil{transform:scale(.62);transform-origin:top left;
+    margin-bottom:calc(-105mm * .38)}
+  .zahlteilrahmen{overflow:hidden}
+  .beleg-innen{padding:24px 20px}
+  .beleg-kopf{margin-bottom:28px;flex-direction:column;gap:16px}
+  .beleg-adressfeld{margin-bottom:24px}
+}

@@ -1,0 +1,164 @@
+{
+ "bereich": "franzoesisch-muendlich-tg",
+ "titel": "Französisch mündlich",
+ "eyebrow": "Dreimal fünf Minuten, wenn es knapp wurde",
+ "einleitung": "Diese Prüfung schreibt nicht jede und jeder: Sie kommt, wenn die schriftliche Prüfung nicht gereicht hat und der Schnitt mindestens 3.5 beträgt. Dann zählt sie die Hälfte der Endnote — sie kann also alles noch drehen. Nachspielen kann die App sie nicht, dafür braucht es ein Gegenüber. Was hier steht, ist der Ablauf, die Vorbereitung und die Sätze, die du vorher können solltest. Zwei der drei Teile kennst du im Voraus: Das Thema der Präsentation steht fest, und den Gegenstand bringst du selbst mit.",
+ "grundlage": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Prüfungsfach Französisch: 15 Minuten Vorbereitung, 15 Minuten Prüfung in drei gleich gewichteten Teilen; Prüfungsteam aus einer Französisch- und einer weiteren Mittelschullehrperson.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Vorbereitung",
+   "dauer": "15 Minuten",
+   "text": "Du bekommst ein Bild oder mehrere Bilder zum Thema «les vacances» und eine Rollenspielsituation aus dem Bereich «l'école, la vie à l'école, l'amitié». In dieser Viertelstunde erstellst du zu beidem ein Mindmap. Beide Mindmaps darfst du in der Prüfung benutzen — das ist der einzige Zettel, den du haben wirst."
+  },
+  {
+   "nr": 2,
+   "titel": "Teil 1: Deine Präsentation",
+   "dauer": "5 Minuten",
+   "text": "«Mon loisir préféré» beziehungsweise «mes loisirs». Du hast das zu Hause vorbereitet und bringst einen Gegenstand mit, der zum Hobby gehört. Drei Minuten sprichst du allein, danach geht es in ein Gespräch über. Der Gegenstand ist das einzige Hilfsmittel."
+  },
+  {
+   "nr": 3,
+   "titel": "Teil 2: Das Bild",
+   "dauer": "5 Minuten",
+   "text": "Du beschreibst das Bild aus der Vorbereitung und führst eigene Gedanken oder Erfahrungen dazu aus. Auch dieser Teil geht vom Monolog in ein Gespräch über. Die Sprachrichtigkeit zählt hier weniger als das Verstehen und Reagieren — aber sie zählt."
+  },
+  {
+   "nr": 4,
+   "titel": "Teil 3: Das Rollenspiel",
+   "dauer": "5 Minuten",
+   "text": "Du spielst mit der prüfenden Lehrperson eine Szene aus Schule, Schulalltag oder Freundschaft. Erwartet wird ein Dialog: Du musst auf das eingehen, was dein Gegenüber sagt, und deine Rolle mit eigenen Ideen füllen."
+  },
+  {
+   "nr": 5,
+   "titel": "Nach der Prüfung",
+   "dauer": "—",
+   "text": "Die mündliche und die schriftliche Prüfung zählen je zur Hälfte. Wer zusammen einen ungerundeten Schnitt von 4.0 erreicht, hat bestanden."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Präsentation, die du zu Hause vorbereitest",
+   "tipps": [
+    {
+     "regel": "Wähle ein Hobby, über das du fünf Sätze auf Französisch sagen kannst — nicht das interessanteste.",
+     "warum": "Geprüft wird dein Französisch, nicht dein Hobby. Wer Bogenschiessen wählt und die Wörter nicht hat, verliert Zeit mit Suchen statt mit Sprechen."
+    },
+    {
+     "regel": "Bring einen Gegenstand mit, der etwas zu erzählen hat.",
+     "warum": "Der Gegenstand ist im Reglement vorgeschrieben und dein einziges Hilfsmittel. Ein Ball, an dem eine Geschichte hängt, trägt drei Sätze; ein Ball allein trägt einen."
+    },
+    {
+     "regel": "Lerne den Anfang auswendig, den Rest nur in Stichworten.",
+     "warum": "Die ersten zwanzig Sekunden sind die schwersten. Sind sie sicher, läuft der Rest — und ein ganz auswendig gelernter Vortrag klingt beim ersten Zwischenruf gleich aufgeschmissen."
+    },
+    {
+     "regel": "Übe das Ganze einmal laut mit einer Uhr.",
+     "warum": "Drei Minuten sind länger, als sie im Kopf wirken. Wer das nie laut gesagt hat, ist nach neunzig Sekunden fertig."
+    },
+    {
+     "regel": "Schau die prüfenden Personen an, statt auf den Gegenstand.",
+     "warum": "Die Auftrittskompetenz — freies Sprechen, Blickkontakt — steht ausdrücklich in den Anforderungen."
+    }
+   ]
+  },
+  {
+   "titel": "Die fünfzehn Minuten Vorbereitung",
+   "tipps": [
+    {
+     "regel": "Teile die Viertelstunde: acht Minuten für das Bild, sieben für das Rollenspiel.",
+     "warum": "Beide Teile zählen gleich viel. Wer sich am Bild festbeisst, geht ins Rollenspiel ohne einen einzigen Satz."
+    },
+    {
+     "regel": "Schreibe ins Mindmap Wörter, keine ganzen Sätze.",
+     "warum": "Ganze Sätze liest man ab, und Ablesen hört man sofort. Ein Wort erinnert dich an den Satz, ohne ihn zu ersetzen."
+    },
+    {
+     "regel": "Notiere zu jedem Bild drei Nomen, drei Verben und ein Gefühl.",
+     "warum": "Damit hast du Beschreibung und eigene Stellungnahme abgedeckt — genau das verlangt der zweite Teil."
+    },
+    {
+     "regel": "Überlege dir für das Rollenspiel, was deine Rolle WILL.",
+     "warum": "Ein Dialog kommt nur in Gang, wenn eine Seite etwas möchte. Wer nur antwortet, redet zwei Minuten und schweigt drei."
+    }
+   ]
+  },
+  {
+   "titel": "Während der Prüfung",
+   "tipps": [
+    {
+     "regel": "Sprich in kurzen, ganzen Sätzen mit konjugiertem Verb.",
+     "warum": "Die Anforderungen nennen «ganze Sätze mit konjugierten Verben» ausdrücklich. Ein einfacher Satz, der stimmt, zählt mehr als ein langer, der auseinanderfällt."
+    },
+    {
+     "regel": "Wenn du ein Wort nicht kennst, umschreibe es auf Französisch.",
+     "warum": "«C'est une chose pour …» hält das Gespräch in Gang. Ein deutsches Wort mitten im Satz beendet es."
+    },
+    {
+     "regel": "Frag nach, wenn du die Frage nicht verstanden hast.",
+     "warum": "Im Reglement steht ausdrücklich, dass du im Bedarfsfall Unterstützung erfragen sollst, damit das Gespräch weiterläuft. Nachfragen ist erlaubt und erwünscht — Schweigen ist es nicht."
+    },
+    {
+     "regel": "Bleib in deiner Rolle, auch wenn sie dir fremd ist.",
+     "warum": "Bewertet wird, ob du dich in die Rolle versetzt und sie mit eigenen Ideen füllst, nicht ob du der Meinung der Rolle bist."
+    },
+    {
+     "regel": "Nimm nach einem Fehler nicht den ganzen Satz zurück.",
+     "warum": "Selbstkorrektur ist gut, aber ein dreimal neu begonnener Satz kostet mehr, als der Fehler gekostet hätte."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Die Präsentation beginnen",
+   "saetze": [
+    "Aujourd'hui, je vous présente mon loisir préféré : …",
+    "J'ai apporté un objet : c'est …",
+    "Je fais ça depuis … ans, deux fois par semaine.",
+    "Ce qui me plaît le plus, c'est que …"
+   ]
+  },
+  {
+   "zweck": "Ein Bild beschreiben",
+   "saetze": [
+    "Sur cette photo, on voit …",
+    "Au premier plan, il y a … ; à l'arrière-plan, …",
+    "À gauche … , à droite … , au milieu …",
+    "Les personnes ont l'air … , je pense qu'elles …",
+    "Cette image me fait penser à …"
+   ]
+  },
+  {
+   "zweck": "Eine Meinung sagen und begründen",
+   "saetze": [
+    "À mon avis, …",
+    "Je trouve que …, parce que …",
+    "Pour moi, le plus important, c'est …",
+    "Je suis d'accord avec vous, mais …",
+    "Moi, j'ai déjà vécu quelque chose de semblable : …"
+   ]
+  },
+  {
+   "zweck": "Im Rollenspiel reagieren",
+   "saetze": [
+    "Est-ce que je peux te demander quelque chose ?",
+    "Je comprends, mais est-ce qu'on pourrait … ?",
+    "D'accord, alors on fait comme ça.",
+    "Franchement, ça ne me plaît pas beaucoup.",
+    "Et toi, qu'est-ce que tu en penses ?"
+   ]
+  },
+  {
+   "zweck": "Zeit gewinnen und nachfragen",
+   "saetze": [
+    "Attendez, je réfléchis.",
+    "Excusez-moi, pouvez-vous répéter, s'il vous plaît ?",
+    "Comment dire … ?",
+    "Je ne connais pas le mot, mais c'est quand on …",
+    "Qu'est-ce que ça veut dire, « … » ?"
+   ]
+  }
+ ],
+ "uebungen": []
+}

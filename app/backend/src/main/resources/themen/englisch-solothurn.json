@@ -1,0 +1,222 @@
+{
+ "fach": "englisch-so",
+ "name": "Englisch",
+ "pruefung": "Aufnahmeprüfung BM, FMS und Gymnasium, Kanton Solothurn",
+ "quelle": "Prüfungseckwerte Englisch ab 2026 (Wortfelder und Grammatikliste) sowie die Prüfungsserien 2022-2024",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Reading comprehension",
+   "punkte": 20,
+   "anteil": 50,
+   "beschreibung": "Ein Sachtext, dazu Fragen, Richtig-falsch-Aufgaben und Zuordnungen. Der Fokus liegt auf Verstehen, nicht auf Sprachwissen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "ESO.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "ESO.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "True, false or not given",
+     "lernzielId": "ESO.1.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.02"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "ESO.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Überschriften und Abschnitte zuordnen",
+     "lernzielId": "ESO.1.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Vocabulary",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Die Eckwerte zählen dieselben Wortfelder auf wie im Französisch. Geprüft wird, ob der Wortschatz im Satz zur Verfügung steht.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Free time, sports and hobbies",
+     "lernzielId": "ESO.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Food, drink and restaurant",
+     "lernzielId": "ESO.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "House, rooms and living",
+     "lernzielId": "ESO.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Travel, transport and directions",
+     "lernzielId": "ESO.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Shopping, money and quantities",
+     "lernzielId": "ESO.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "School, jobs and everyday life",
+     "lernzielId": "ESO.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Body, feelings and opinions",
+     "lernzielId": "ESO.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Time, dates and numbers",
+     "lernzielId": "ESO.2.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.09",
+     "name": "Weather, geography and nature",
+     "lernzielId": "ESO.2.09",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Grammar",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Die Grammatikliste der Eckwerte, Punkt für Punkt: Zeiten, Modalverben, Pronomen, Adjektive und Satzbau.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Present simple und present continuous",
+     "lernzielId": "ESO.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Past simple und past continuous",
+     "lernzielId": "ESO.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Present perfect simple",
+     "lernzielId": "ESO.3.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Zukunft: will, going to, present forms",
+     "lernzielId": "ESO.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Modalverben in der Gegenwart",
+     "lernzielId": "ESO.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Fragen, Kurzantworten und question tags",
+     "lernzielId": "ESO.3.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Adjektive: comparative und superlative",
+     "lernzielId": "ESO.3.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.08",
+     "name": "Adverbien: Häufigkeit, Art und Grad",
+     "lernzielId": "ESO.3.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.09",
+     "name": "Personalpronomen in Subjekt- und Objektstellung",
+     "lernzielId": "ESO.3.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.10",
+     "name": "Demonstrativ- und Possessivpronomen",
+     "lernzielId": "ESO.3.10",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.09"
+     ]
+    },
+    {
+     "code": "3.11",
+     "name": "Relativpronomen",
+     "lernzielId": "ESO.3.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.12",
+     "name": "Unbestimmte Begleiter und Pronomen",
+     "lernzielId": "ESO.3.12",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.13",
+     "name": "Präpositionen: Ort und Zeit",
+     "lernzielId": "ESO.3.13",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.14",
+     "name": "Satzbau und linking devices",
+     "lernzielId": "ESO.3.14",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

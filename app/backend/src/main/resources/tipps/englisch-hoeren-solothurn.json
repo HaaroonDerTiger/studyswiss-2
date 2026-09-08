@@ -1,0 +1,182 @@
+{
+ "bereich": "englisch-hoeren-so",
+ "titel": "Listening comprehension",
+ "eyebrow": "Teil 1 der Englischprüfung",
+ "einleitung": "Fünfzehn von 55 Punkten. Du hörst einen Text zweimal und beantwortest dazu Aufgaben in vier Formen: Wörter notieren, true/false, Lücken füllen und Multiple Choice, bei dem manchmal mehr als eine Antwort stimmt. Die Aufnahme kann dir diese App nicht vorspielen. Das Verfahren dagegen schon, und daran hängen mehr Punkte als am Wortschatz.",
+ "grundlage": "Aufnahmeprüfung Englisch BM/FMS/Gym des Kantons Solothurn, Teil 1 «Listening comprehension»: 15 von 55 Punkten. Aufgabenformen und Punkteschlüssel aus der Serie 2024.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Aufgaben lesen",
+   "dauer": "vor dem ersten Durchgang",
+   "text": "Lies alle vier Teilaufgaben durch, bevor die Aufnahme startet. Sie folgen der Reihenfolge des Textes, damit weisst du immer, wo du bist."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "1. Mal hören",
+   "text": "Beim ersten Mal geht es um das Gerüst: Worum geht es, wie ist der Text gegliedert, welche Antworten sind sofort klar? Setze nur, was du sicher hörst."
+  },
+  {
+   "nr": 3,
+   "titel": "Zweiter Durchgang",
+   "dauer": "2. Mal hören",
+   "text": "Jetzt gezielt auf die offenen Lücken hören. Du weisst inzwischen, an welcher Stelle des Textes sie kommen."
+  },
+  {
+   "nr": 4,
+   "titel": "Schreibweise prüfen",
+   "dauer": "am Schluss",
+   "text": "Falsch geschriebene Wörter kosten einen halben Punkt. Auch wenn du richtig gehört hast. Geh die notierten Wörter am Schluss noch einmal durch."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die vier Aufgabenformen kennen",
+   "tipps": [
+    {
+     "regel": "«Note the five words in the order they are mentioned» heisst: Reihenfolge zählt.",
+     "warum": "Wer die richtigen Wörter in der falschen Reihenfolge notiert, verliert Punkte, obwohl er alles verstanden hat. Schreib sie in dem Moment auf, in dem sie fallen."
+    },
+    {
+     "regel": "Bei Multiple Choice steht oft «sometimes more than one option may be correct».",
+     "warum": "Wer nach dem ersten Kreuz aufhört, lässt Punkte liegen. Prüfe jede Möglichkeit einzeln gegen das Gehörte."
+    },
+    {
+     "regel": "Bei Lückentexten kann die Lösung mehr als ein Wort sein.",
+     "warum": "Das Aufgabenheft sagt es ausdrücklich: «The correct solution may contain one word or more.» Ein zu kurz geratenes Stichwort zählt nicht."
+    }
+   ]
+  },
+  {
+   "titel": "Schreibweise",
+   "tipps": [
+    {
+     "regel": "Übe die Schreibweise der Wörter, die du sicher hören wirst.",
+     "warum": "Bei dieser Prüfung gibt falsche Schreibweise einen halben Punkt Abzug pro Wort. Das ist der billigste Punktverlust der ganzen Prüfung, und der am leichtesten vermeidbare."
+    },
+    {
+     "regel": "Achte auf Doppelkonsonanten und auf stumme Buchstaben.",
+     "warum": "«Recycling», «rubbish», «environment», «receipt» Die Wörter hört man richtig und schreibt sie trotzdem falsch."
+    },
+    {
+     "regel": "Notiere im ersten Durchgang lieber lautlich, im zweiten sauber.",
+     "warum": "Wer beim ersten Mal um die Rechtschreibung ringt, verpasst den nächsten Satz. Die Korrektur hat im zweiten Durchgang Platz."
+    }
+   ]
+  },
+  {
+   "titel": "True or false",
+   "tipps": [
+    {
+     "regel": "Achte auf «not», «never», «only» und «all» in der Aussage.",
+     "warum": "Ein einziges Wörtchen dreht die Aussage um. «Zero waste is not against consumerism» ist etwas ganz anderes als ohne das «not»."
+    },
+    {
+     "regel": "Eine Aussage ist erst falsch, wenn der Text ihr widerspricht.",
+     "warum": "Was der Text schlicht nicht sagt, macht eine Aussage nicht automatisch falsch. Achte darauf, ob der Text wirklich das Gegenteil behauptet."
+    },
+    {
+     "regel": "Beantworte jede Zeile.",
+     "warum": "In diesem Teil gibt es keinen Abzug für falsche Kreuze. Ein leeres Kästchen bringt sicher nichts."
+    }
+   ]
+  },
+  {
+   "titel": "Wenn du den Faden verlierst",
+   "tipps": [
+    {
+     "regel": "Spring zur nächsten Aufgabe, statt zurückzudenken.",
+     "warum": "Die Aufnahme läuft weiter. Wer über die verpasste Antwort nachdenkt, verliert auch die nächsten zwei."
+    },
+    {
+     "regel": "Nutze Signalwörter, um dich neu zu orientieren.",
+     "warum": "«First», «then», «finally», «for example» sagen dir, an welcher Stelle des Textes du gerade bist. Auch wenn du den Inhalt kurz verloren hast."
+    },
+    {
+     "regel": "Der zweite Durchgang ist für die Lücken da, nicht zum Nochmal-alles-Hören.",
+     "warum": "Wer beim zweiten Mal wieder von vorn anfängt, hat am Ende dieselben Lücken. Konzentriere dich auf die drei, vier offenen Stellen."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Signalwörter für Reihenfolge und Aufzählung",
+   "saetze": [
+    "first / first of all. Zuerst",
+    "then / after that. Dann",
+    "next, als Nächstes",
+    "finally / in the end. Schliesslich",
+    "for example / such as, zum Beispiel",
+    "also / in addition. Ausserdem"
+   ]
+  },
+  {
+   "zweck": "Signalwörter für Gegensatz und Einschränkung",
+   "saetze": [
+    "but / however, aber",
+    "although / even though, obwohl",
+    "on the other hand. Andererseits",
+    "instead of, statt",
+    "except for, ausser",
+    "only. Nur"
+   ]
+  },
+  {
+   "zweck": "Wörter, die eine Zahl oder Menge ankündigen",
+   "saetze": [
+    "about / around. Ungefähr",
+    "up to, bis zu",
+    "at least, mindestens",
+    "more than. Mehr als",
+    "a third / a quarter. Ein Drittel / ein Viertel",
+    "twice / three times. Zweimal / dreimal"
+   ]
+  },
+  {
+   "zweck": "Fragewörter und was sie verlangen",
+   "saetze": [
+    "Who? Eine Person",
+    "Where? Ein Ort",
+    "When? Eine Zeit",
+    "How many? Eine Zahl",
+    "Why? Ein Grund",
+    "How? Eine Art und Weise",
+    "What kind of? Eine Sorte"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "englisch-so",
+   "unterthema": "1.03",
+   "name": "True, false or not given",
+   "warum": "Genau dieselbe Entscheidung wie beim Hören. Nur mit der Zeit, sie in Ruhe zu treffen. Wer sie schriftlich beherrscht, macht sie auch im Kopfhörer richtig."
+  },
+  {
+   "bereich": "englisch-so",
+   "unterthema": "2.08",
+   "name": "Time, dates and numbers",
+   "warum": "Zahlen und Zeitangaben sind die häufigste Lückenfüllung, und der Ort, an dem Punkte an der Schreibweise verloren gehen."
+  },
+  {
+   "bereich": "englisch-so",
+   "unterthema": "3.14",
+   "name": "Satzbau und linking devices",
+   "warum": "Die Signalwörter, an denen du dich in der Aufnahme orientierst, sind dieselben, die du hier schriftlich übst."
+  },
+  {
+   "bereich": "englisch-so",
+   "unterthema": "2.09",
+   "name": "Weather, geography and nature",
+   "warum": "Das Wortfeld der Serie 2024 handelte von Abfall und Umwelt. Wer diese Wörter kennt, versteht die Aufnahme beim ersten Durchgang."
+  },
+  {
+   "bereich": "englisch-so",
+   "unterthema": "1.04",
+   "name": "Wörter aus dem Zusammenhang erschliessen",
+   "warum": "Beim Hören kannst du nicht nachschlagen. Erschliessen ist die einzige Technik, die dann noch bleibt, und sie lässt sich üben."
+  }
+ ]
+}

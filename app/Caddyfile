@@ -1,0 +1,59 @@
+# TLS, Weiterleitung und ein paar Kopfzeilen, die man sonst vergisst.
+#
+# Zwei Dinge liegen hier: die Website als Dateien und das Backend unter
+# `/v1`. Beide unter derselben Adresse — das ist kein Zufall, sondern
+# der Grund, warum die Anmeldung im Browser sicher sein kann: Das Cookie
+# mit dem Refresh-Token ist dann kein Drittanbieter-Cookie, und die
+# Browser, die solche inzwischen blockieren, lassen es durch.
+{$DOMAIN} {
+	encode gzip zstd
+
+	# Alles unter /v1 gehört dem Backend.
+	handle /v1/* {
+		reverse_proxy backend:8080
+	}
+	handle /gesundheit {
+		reverse_proxy backend:8080
+	}
+
+	# Alles andere ist die Website.
+	handle {
+		root * /srv/website
+		# `try_files` mit .html: `studyswiss.ch/schulen` findet
+		# `schulen.html`. Ohne das müssten alle Verknüpfungen die Endung
+		# tragen, und eine Adresse mit `.html` sieht aus wie 2004.
+		try_files {path} {path}.html {path}/index.html
+		file_server
+	}
+
+	header {
+		# HSTS: Ein Browser, der die Seite einmal über HTTPS gesehen hat,
+		# versucht es nie wieder ohne.
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options    "nosniff"
+		X-Frame-Options           "DENY"
+		Referrer-Policy           "strict-origin-when-cross-origin"
+		# Die Server-Kennung sagt Angreifern, welche Lücken sich lohnen.
+		-Server
+	}
+
+	# Die Website lädt nur die eigenen Dateien und zwei Schriftquellen.
+	# Ohne diese Zeile könnte ein eingeschleustes Skript Daten an eine
+	# fremde Adresse schicken, und niemand sähe es.
+	header /* Content-Security-Policy "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+
+	# Dateien mit Inhalt, der sich ändert, dürfen nicht ewig im Zwischen-
+	# speicher liegen — sonst sieht eine Schule nach dem Preisupdate noch
+	# tagelang die alten Zahlen.
+	@statisch path *.css *.js *.svg *.woff2
+	header @statisch Cache-Control "public, max-age=3600"
+	@seiten path *.html /
+	header @seiten Cache-Control "public, max-age=300"
+
+	log {
+		output file /data/zugriff.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+	}
+}

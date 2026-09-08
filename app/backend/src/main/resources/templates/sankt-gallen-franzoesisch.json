@@ -1,0 +1,2831 @@
+[
+ {
+  "templateId": "sg-fr-lesen",
+  "lernzielId": "FS.1.02",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "1.02",
+   "1.01",
+   "1.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "«nicht erwähnt» ist die Falle: Eine Aussage kann stimmen und trotzdem nicht im Text stehen.",
+   "Suche zu jeder Aussage die Stelle. Findest du keine, ist die Antwort «nicht erwähnt».",
+   "Achte auf Zahlen und Zeitangaben. Sie werden am häufigsten vertauscht."
+  ],
+  "loesungsweg": [
+   "Aussage lesen und das Schlüsselwort markieren.",
+   "Im französischen Text nach diesem Wort suchen.",
+   "Den ganzen Satz lesen, nicht nur das Wort.",
+   "Steht nichts dazu im Text, «nicht erwähnt» ankreuzen. Auch wenn es plausibel klingt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 1)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Camille wohnt in Neuchâtel.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Mit dem Bus braucht sie zehn Minuten.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Ihr Vater hat ihr das erste Velo geschenkt.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Camille hat einen Bruder.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie hat eine Schwester.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Sie arbeitet sonntags in einer Bäckerei.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "Der Bus braucht zwanzig Minuten, das Velo zehn. Das Velo war ein Geschenk des Grossvaters. Sie arbeitet «du samedi», also samstags. Von einer Schwester steht nichts."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 2)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Das erste Velo wurde vor dem Bahnhof gestohlen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Camille fuhr danach drei Monate mit dem Bus.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie hat das neue Velo neu gekauft.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Das neue Velo ist gelb.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Es hat einen Korb.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Camille findet den Bus am Morgen zu voll.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "«un vélo d'occasion» heisst gebraucht. Von einem Korb ist nirgends die Rede."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 3)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Camille hat mit drei Mitschülerinnen einen Brief geschrieben.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die Antwort der Stadt kam nach zwei Wochen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Die Stadt hat die Velowege sofort verbreitert.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Camille will nächstes Jahr um den See fahren.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie will das in drei Tagen tun.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Ihr Bruder ist älter als sie.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ],
+    "erklaerung": "Die Antwort kam nach sechs Wochen und lautete «On étudie le problème» Man prüfe das Problem. Die Rundfahrt soll zwei Tage dauern."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 4)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Der Markt findet jeden Mittwoch statt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die Lastwagen kommen um sieben Uhr.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Monsieur Perret verkauft Äpfel.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Er steht um halb sechs auf.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Er hat zwei Kinder.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Im Winter ist die Arbeit für ihn schwieriger.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Die Lastwagen kommen um sechs, um sieben ist alles bereit. Er steht «à quatre heures et demie» auf, also um halb fünf. Über seine Familie steht nichts."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 5)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Monsieur Perret verkauft seit achtzehn Jahren auf dem Markt.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Madame Blanc kauft immer rote Äpfel.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie kauft auch drei Birnen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die junge Frau verkauft Ziegenkäse.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Es ist ihre erste Saison.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Sie kommt aus Frankreich.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ],
+    "erklaerung": "«depuis vingt-huit ans» sind achtundzwanzig Jahre. Für die junge Frau ist es «sa deuxième saison»."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 6)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Die Schülerinnen und Schüler kommen gegen elf Uhr.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie kaufen manchmal Blumen für ihre Mutter.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Monsieur Perret findet sie unhöflich.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Um ein Uhr fahren die Lastwagen weg.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Markt findet auch am Samstag statt.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Am Mittwoch schaut Monsieur Perret nie auf die Uhr.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Er sagt ausdrücklich «ils sont polis». Von einem Markt am Samstag steht nichts im Text."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 7)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Camille ist fünfzehn Jahre alt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie fährt jeden Morgen mit dem Velo zur Schule.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Das gestohlene Velo war gelb.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Sie hat das neue Velo selbst angemalt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Das neue Velo ist leicht.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Sie hat einen Velohelm.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ],
+    "erklaerung": "Gelb ist das NEUE Velo. Sie hat es selbst gestrichen. Der Text nennt es «un peu lourd», also eher schwer."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 8)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Auf dem Markt gibt es Gemüse, Käse, Brot und Blumen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die junge Frau hatte am Anfang Angst vor den Fragen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie findet die Leute ungeduldig.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Platz liegt vor der Schule.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Markt findet bei jedem Wetter statt.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Monsieur Perret kennt seine Kundschaft mit Namen.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Sie sagt «Les gens sont patients» Die Leute sind geduldig. Über das Wetter am Markttag sagt der Text nichts."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 9)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Camille findet den Weg zwischen Autos und Bussen unangenehm.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Es gibt genug Platz für Velos.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Camille will schweigen und abwarten.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Sie hat den Brief allein geschrieben.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der See heisst im Text mit Namen.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Camilles Grossvater lebt noch.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ],
+    "erklaerung": "«on ne va pas se taire» heisst: Wir werden nicht schweigen. Den Namen des Sees nennt der Text nicht."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 10)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Um sechs Uhr ist der Markt schon fertig aufgebaut.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Monsieur Perret steht früher auf als um fünf Uhr.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Im Sommer fällt ihm das Aufstehen leichter.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die junge Frau verkauft auch Brot.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Nach dem Markt ist der Platz wieder ein gewöhnlicher Platz.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Markt dauert bis am Abend.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "Um sechs kommen erst die Lastwagen, fertig ist es um sieben. Um ein Uhr fahren sie wieder weg."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 11)",
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère.",
+    "zeilen": [
+     {
+      "text": "Camille arbeitet, um das Velo zu bezahlen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie hat das Velo geschenkt bekommen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Ihre Klasse hat den Brief unterschrieben.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Camille glaubt, dass niemand das gelbe Velo stiehlt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie fährt auch am Wochenende zur Schule.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Weg zur Schule führt am See vorbei.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ],
+    "erklaerung": "Den Brief schrieb sie «avec trois camarades de sa classe», mit drei Mitschülerinnen, nicht mit der ganzen Klasse."
+   },
+   {
+    "stamm": "Kreuze für jede Aussage an: richtig, falsch oder nicht erwähnt.  (Aussagegruppe 12)",
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »",
+    "zeilen": [
+     {
+      "text": "Monsieur Perret verkauft seit fast dreissig Jahren.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Madame Blanc kommt seit fünfzehn Jahren zu ihm.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die junge Frau steht neben Monsieur Perret.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Sie verkauft Kuhmilchkäse.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Monsieur Perret arbeitet auch an anderen Tagen.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Am Mittwoch vergeht die Zeit für ihn langsam.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "«fromage de chèvre» ist Ziegenkäse. Und er sagt «Le mercredi passe vite» Der Mittwoch vergeht schnell."
+   }
+  ],
+  "optionen": [
+   "richtig",
+   "falsch",
+   "nicht erwähnt"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Leseverstehen: richtig, falsch, nicht erwähnt",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-lesen-verbinden",
+  "lernzielId": "FS.1.04",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Manche Fragen lassen sich nur beantworten, wenn man zwei Stellen im Text zusammennimmt.",
+   "Ein unbekanntes Wort muss man nicht nachschlagen: Der Satz drumherum sagt oft genug.",
+   "Achte auf Wörter, die dem Deutschen ähneln, aber prüfe sie am Zusammenhang."
+  ],
+  "loesungsweg": [
+   "Frage lesen und bestimmen, welche Angaben nötig sind.",
+   "Jede Angabe einzeln im Text suchen.",
+   "Erst dann verbinden oder rechnen.",
+   "Bei unbekannten Wörtern den ganzen Satz lesen und aus dem Sinn erschliessen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viel Zeit spart Camille jeden Morgen mit dem Velo gegenüber dem Bus?",
+    "optionen": [
+     "Zehn Minuten",
+     "Zwanzig Minuten",
+     "Dreissig Minuten",
+     "Fünf Minuten"
+    ],
+    "loesung": [
+     "Zehn Minuten"
+    ],
+    "erklaerung": "Der Bus braucht zwanzig Minuten, das Velo zehn. Die Differenz ist zehn Minuten. Beide Zahlen stehen im ersten Abschnitt.",
+    "fehler": [
+     {
+      "antwort": "Zwanzig Minuten",
+      "diagnoseId": "nur_eine_angabe",
+      "feedback": "Zwanzig Minuten ist die Fahrzeit des Busses. Gefragt ist der Unterschied zur Velofahrt."
+     },
+     {
+      "antwort": "Dreissig Minuten",
+      "diagnoseId": "angaben_addiert",
+      "feedback": "Du hast beide Zeiten zusammengezählt. Gefragt ist, wie viel sie SPART."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Was bedeutet «un vélo d'occasion» im Text?",
+    "optionen": [
+     "Ein gebrauchtes Velo",
+     "Ein teures Velo",
+     "Ein neues Velo",
+     "Ein geliehenes Velo"
+    ],
+    "loesung": [
+     "Ein gebrauchtes Velo"
+    ],
+    "erklaerung": "Sie kauft es mit dem Geld aus ihrem Samstagsjob, und es ist «vieux et un peu lourd» Alt und etwas schwer.",
+    "fehler": [
+     {
+      "antwort": "Ein neues Velo",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "Der Text nennt es «vieux», also alt. Ein neues Velo wäre nicht alt."
+     },
+     {
+      "antwort": "Ein geliehenes Velo",
+      "diagnoseId": "bedeutung_geraten",
+      "feedback": "Sie hat es gekauft. «a acheté» steht im Text."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Wie lange dauert der Markt vom Aufbau bis zur Abfahrt der Lastwagen?",
+    "optionen": [
+     "Sieben Stunden",
+     "Fünf Stunden",
+     "Sechs Stunden",
+     "Vier Stunden"
+    ],
+    "loesung": [
+     "Sieben Stunden"
+    ],
+    "erklaerung": "Die Lastwagen kommen um sechs Uhr und fahren um ein Uhr wieder weg. Das sind sieben Stunden.",
+    "fehler": [
+     {
+      "antwort": "Sechs Stunden",
+      "diagnoseId": "startzeit_verwechselt",
+      "feedback": "Um sieben Uhr ist alles bereit; die Lastwagen kommen aber schon um sechs."
+     },
+     {
+      "antwort": "Fünf Stunden",
+      "diagnoseId": "zeit_falsch_gerechnet",
+      "feedback": "Von sechs Uhr bis dreizehn Uhr sind es sieben Stunden."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   },
+   {
+    "stamm": "Was bedeutet «Il se lève à quatre heures et demie»?",
+    "optionen": [
+     "Er steht um halb fünf auf",
+     "Er steht um vier Uhr auf",
+     "Er steht um halb vier auf",
+     "Er arbeitet vier Stunden"
+    ],
+    "loesung": [
+     "Er steht um halb fünf auf"
+    ],
+    "erklaerung": "«et demie» heisst «und eine halbe Stunde», also halb fünf, nicht halb vier.",
+    "fehler": [
+     {
+      "antwort": "Er steht um halb vier auf",
+      "diagnoseId": "uhrzeit_verschoben",
+      "feedback": "Im Französischen zählt die Stunde, die schon vergangen ist: «quatre heures et demie» ist halb fünf."
+     },
+     {
+      "antwort": "Er steht um vier Uhr auf",
+      "diagnoseId": "zusatz_uebersehen",
+      "feedback": "«et demie» fügt eine halbe Stunde hinzu."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   },
+   {
+    "stamm": "Wie lange war Camille insgesamt ohne eigenes Velo?",
+    "optionen": [
+     "Drei Monate",
+     "Zwei Jahre",
+     "Sechs Wochen",
+     "Ein Jahr"
+    ],
+    "loesung": [
+     "Drei Monate"
+    ],
+    "erklaerung": "Das Velo wurde vor zwei Jahren gestohlen, und danach fuhr sie drei Monate mit dem Bus, bis sie das neue kaufte.",
+    "fehler": [
+     {
+      "antwort": "Zwei Jahre",
+      "diagnoseId": "angabe_verwechselt",
+      "feedback": "Vor zwei Jahren wurde es gestohlen. Ohne Velo war sie drei Monate."
+     },
+     {
+      "antwort": "Sechs Wochen",
+      "diagnoseId": "andere_angabe",
+      "feedback": "Sechs Wochen dauerte die Antwort der Stadt."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Was bedeutet «Les gens sont patients»?",
+    "optionen": [
+     "Die Leute sind geduldig",
+     "Die Leute sind Patienten",
+     "Die Leute sind ungeduldig",
+     "Die Leute sind freundlich"
+    ],
+    "loesung": [
+     "Die Leute sind geduldig"
+    ],
+    "erklaerung": "Sie sagt es, weil sie am Anfang Angst hatte, nicht auf alle Fragen antworten zu können.",
+    "fehler": [
+     {
+      "antwort": "Die Leute sind Patienten",
+      "diagnoseId": "aehnlicher_klang",
+      "feedback": "«patient» klingt wie das deutsche Wort, heisst hier aber «geduldig». Der Zusammenhang zeigt es."
+     },
+     {
+      "antwort": "Die Leute sind ungeduldig",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "Dann wäre ihre Angst geblieben. Sie sagt aber «Maintenant, ça va»."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   },
+   {
+    "stamm": "Wie viele Personen haben den Brief an die Stadt geschrieben?",
+    "optionen": [
+     "Vier",
+     "Drei",
+     "Eine",
+     "Die ganze Klasse"
+    ],
+    "loesung": [
+     "Vier"
+    ],
+    "erklaerung": "Camille «avec trois camarades» Sie selbst und drei weitere ergeben vier.",
+    "fehler": [
+     {
+      "antwort": "Drei",
+      "diagnoseId": "sich_selbst_vergessen",
+      "feedback": "Drei sind die Mitschülerinnen. Camille gehört dazu, also vier."
+     },
+     {
+      "antwort": "Die ganze Klasse",
+      "diagnoseId": "zu_weit_gefasst",
+      "feedback": "Der Text nennt drei Kameradinnen aus ihrer Klasse, nicht die ganze Klasse."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Was bedeutet «La place redevient une place»?",
+    "optionen": [
+     "Der Platz ist wieder ein gewöhnlicher Platz",
+     "Der Platz wird neu gebaut",
+     "Der Platz wird geputzt",
+     "Der Platz bleibt ein Markt"
+    ],
+    "loesung": [
+     "Der Platz ist wieder ein gewöhnlicher Platz"
+    ],
+    "erklaerung": "«redevenir» heisst «wieder werden». Nach dem Markt ist der Platz wieder das, was er sonst ist.",
+    "fehler": [
+     {
+      "antwort": "Der Platz wird neu gebaut",
+      "diagnoseId": "wortteil_gedeutet",
+      "feedback": "Die Vorsilbe «re-» heisst «wieder», nicht «neu bauen»."
+     },
+     {
+      "antwort": "Der Platz bleibt ein Markt",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "Genau das Gegenteil sagt der Satz: Der Markt ist vorbei."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   },
+   {
+    "stamm": "Wie alt war Camille, als ihr Velo gestohlen wurde?",
+    "optionen": [
+     "Dreizehn",
+     "Fünfzehn",
+     "Zwölf",
+     "Vierzehn"
+    ],
+    "loesung": [
+     "Dreizehn"
+    ],
+    "erklaerung": "Sie ist heute fünfzehn, und der Diebstahl war vor zwei Jahren.",
+    "fehler": [
+     {
+      "antwort": "Fünfzehn",
+      "diagnoseId": "heutiges_alter",
+      "feedback": "Fünfzehn ist ihr Alter heute. Der Diebstahl liegt zwei Jahre zurück."
+     },
+     {
+      "antwort": "Zwölf",
+      "diagnoseId": "falsch_gerechnet",
+      "feedback": "Fünfzehn minus zwei ergibt dreizehn, nicht zwölf. Rechne die beiden Angaben noch einmal nach."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Was bedeutet «Il connaît ses clients par leur nom»?",
+    "optionen": [
+     "Er kennt seine Kundschaft mit Namen",
+     "Er ruft seine Kundschaft an",
+     "Er schreibt die Namen auf",
+     "Er kennt nur wenige Kundinnen"
+    ],
+    "loesung": [
+     "Er kennt seine Kundschaft mit Namen"
+    ],
+    "erklaerung": "Das Beispiel danach zeigt es: Madame Blanc kauft seit fünfzehn Jahren dasselbe.",
+    "fehler": [
+     {
+      "antwort": "Er schreibt die Namen auf",
+      "diagnoseId": "handlung_erfunden",
+      "feedback": "Vom Aufschreiben steht nichts. «connaître» heisst kennen."
+     },
+     {
+      "antwort": "Er kennt nur wenige Kundinnen",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "Der Satz sagt, dass er sie kennt, nicht, wie viele es sind."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   },
+   {
+    "stamm": "Wie lange dauerte es von Camilles Brief bis zur Antwort, und was stand darin?",
+    "optionen": [
+     "Sechs Wochen; man prüfe das Problem",
+     "Sechs Wochen; man baue neue Velowege",
+     "Zwei Jahre; man prüfe das Problem",
+     "Drei Monate; man lehne ab"
+    ],
+    "loesung": [
+     "Sechs Wochen; man prüfe das Problem"
+    ],
+    "erklaerung": "Beide Angaben stehen im vierten Abschnitt: «après six semaines» und «On étudie le problème».",
+    "fehler": [
+     {
+      "antwort": "Sechs Wochen; man baue neue Velowege",
+      "diagnoseId": "antwort_ueberdehnt",
+      "feedback": "Zugesagt wurde nichts. Nur, dass man das Problem prüfe."
+     },
+     {
+      "antwort": "Zwei Jahre; man prüfe das Problem",
+      "diagnoseId": "angabe_verwechselt",
+      "feedback": "Zwei Jahre liegt der Diebstahl zurück, nicht die Antwort."
+     }
+    ],
+    "text": "Le vélo de Camille\n\nCamille a quinze ans et habite à Neuchâtel. Chaque matin, elle va au collège à vélo. « Le bus met vingt minutes, mon vélo dix », dit-elle. « Et je n'attends jamais. »\n\nIl y a deux ans, son vélo a été volé devant la gare. « J'étais très triste. Ce vélo, c'était un cadeau de mon grand-père. » Pendant trois mois, elle a pris le bus. « Je détestais ça. Le matin, il y a trop de monde, et on ne peut pas ouvrir les fenêtres. »\n\nAvec l'argent de son job du samedi. Elle travaille dans une boulangerie. Camille a acheté un vélo d'occasion. Il est vieux et un peu lourd, mais il roule bien. Elle l'a peint en jaune. « Comme ça, tout le monde le reconnaît. Personne ne va le voler deux fois. »\n\nCamille voudrait des pistes cyclables plus larges. « Entre les voitures garées et les bus, il n'y a pas de place. Ce n'est pas agréable. » Elle a écrit une lettre à la ville avec trois camarades de sa classe. La réponse est arrivée après six semaines : « On étudie le problème. »\n\n« On va attendre, dit Camille, mais on ne va pas se taire. » L'année prochaine, elle veut faire le tour du lac en deux jours avec son frère."
+   },
+   {
+    "stamm": "Was bedeutet «C'est sa deuxième saison»?",
+    "optionen": [
+     "Sie verkauft im zweiten Jahr",
+     "Sie verkauft seit zwei Monaten",
+     "Es ist ihre letzte Saison",
+     "Sie hat zwei Stände"
+    ],
+    "loesung": [
+     "Sie verkauft im zweiten Jahr"
+    ],
+    "erklaerung": "«saison» meint hier die Marktsaison; es ist ihre zweite, im Gegensatz zu Monsieur Perrets achtundzwanzig.",
+    "fehler": [
+     {
+      "antwort": "Es ist ihre letzte Saison",
+      "diagnoseId": "bedeutung_geraten",
+      "feedback": "«deuxième» heisst zweite. Vom Aufhören steht nichts."
+     },
+     {
+      "antwort": "Sie hat zwei Stände",
+      "diagnoseId": "wortbezug_falsch",
+      "feedback": "Die Zahl bezieht sich auf die Saison, nicht auf die Stände."
+     }
+    ],
+    "text": "Le marché du mercredi\n\nChaque mercredi matin, la place devant l'école se transforme. À six heures, les camions arrivent. À sept heures, tout est prêt : les légumes, le fromage, le pain, les fleurs.\n\nMonsieur Perret vend des pommes depuis vingt-huit ans. Il se lève à quatre heures et demie. « Ce n'est pas difficile en été. En hiver, c'est autre chose. » Il connaît ses clients par leur nom. « Madame Blanc prend toujours un kilo de pommes rouges et trois poires. Depuis quinze ans. »\n\nÀ côté de lui, une jeune femme vend du fromage de chèvre. C'est sa deuxième saison. « Au début, j'avais peur de ne pas savoir répondre aux questions. Maintenant, ça va. Les gens sont patients. »\n\nVers onze heures, les élèves sortent de l'école. Ils achètent du pain, des fruits, parfois des fleurs pour leur mère. « Ils n'ont pas beaucoup d'argent, dit Monsieur Perret, mais ils sont polis. »\n\nÀ une heure, les camions repartent. La place redevient une place. « Le mercredi passe vite, dit Monsieur Perret. C'est le seul jour où je ne regarde jamais l'heure. »"
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Leseverstehen: verbinden und erschliessen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-wortschatz",
+  "lernzielId": "FS.2.01",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Lies zuerst den ganzen Satz. Er sagt, aus welchem Wortfeld die Lücke stammt.",
+   "Bei Mengenangaben folgt fast immer «de»: un kilo DE pommes, un verre D'eau.",
+   "Bei Ländern und Städten entscheidet das Geschlecht: à Paris, en France, au Portugal, aux États-Unis."
+  ],
+  "loesungsweg": [
+   "Wortfeld bestimmen: Schule, Tagesablauf, Ferien, Körper, Kleidung, Uhrzeit.",
+   "Passendes Wort wählen.",
+   "Form anpassen: Geschlecht, Zahl, Verbform.",
+   "Ganzen Satz noch einmal lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nJ'ai mangé trop de chocolat. Maintenant, j'ai mal au ______________.",
+    "loesung": [
+     "ventre"
+    ],
+    "erklaerung": "«avoir mal au ventre» heisst Bauchweh haben. Die Folge von zu viel Schokolade.",
+    "fehler": [
+     {
+      "antwort": "tête",
+      "diagnoseId": "koerperteil_falsch",
+      "feedback": "«avoir mal à la tête» wäre Kopfweh. Nach zu viel Schokolade tut der Bauch weh."
+     },
+     {
+      "antwort": "ventres",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Man hat nur einen Bauch. Der Singular genügt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nJ'achète deux ______________ de pommes pour faire une tarte.",
+    "loesung": [
+     "kilos"
+    ],
+    "erklaerung": "Nach einer Zahl steht die Mengeneinheit im Plural, danach folgt «de».",
+    "fehler": [
+     {
+      "antwort": "kilo",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «deux» steht der Plural: deux kilos."
+     },
+     {
+      "antwort": "verre",
+      "diagnoseId": "mengenwort_falsch",
+      "feedback": "Äpfel misst man in Kilo, nicht in Gläsern."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nDans la sauce à salade, on met de l'huile, du vinaigre et un peu de ______________.",
+    "loesung": [
+     "sel"
+    ],
+    "erklaerung": "«un peu de sel» Eine Prise Salz gehört in die Salatsauce.",
+    "fehler": [
+     {
+      "antwort": "sucre",
+      "diagnoseId": "wortfeld_falsch",
+      "feedback": "Zucker gehört nicht in eine Salatsauce. Gesucht ist das Gegenstück."
+     },
+     {
+      "antwort": "sels",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«sel» ist hier eine nicht zählbare Menge und bleibt im Singular."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nJe te prépare un ______________ de sirop.",
+    "loesung": [
+     "verre"
+    ],
+    "erklaerung": "Sirup wird in einem Glas serviert: «un verre de sirop».",
+    "fehler": [
+     {
+      "antwort": "kilo",
+      "diagnoseId": "mengenwort_falsch",
+      "feedback": "Kilo misst Gewicht. Ein Getränk gibt man in einem Glas aus."
+     },
+     {
+      "antwort": "morceau",
+      "diagnoseId": "mengenwort_falsch",
+      "feedback": "«un morceau» ist ein Stück. Das passt zu Brot oder Kuchen, nicht zu Sirup."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nTu me passes un ______________ de baguette ? Merci.",
+    "loesung": [
+     "morceau"
+    ],
+    "erklaerung": "«un morceau de baguette» ist ein Stück Brot.",
+    "fehler": [
+     {
+      "antwort": "verre",
+      "diagnoseId": "mengenwort_falsch",
+      "feedback": "Ein Glas passt zu Getränken, nicht zu Brot."
+     },
+     {
+      "antwort": "kilo",
+      "diagnoseId": "mengenwort_falsch",
+      "feedback": "Ein Kilo Baguette wäre sehr viel. Gesucht ist ein einzelnes Stück."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nLe matin, je me lève à sept heures et je prends mon ______________.",
+    "loesung": [
+     "petit déjeuner",
+     "petit-déjeuner"
+    ],
+    "erklaerung": "«le petit déjeuner» ist das Frühstück. Es gehört zur Morgenroutine.",
+    "fehler": [
+     {
+      "antwort": "déjeuner",
+      "diagnoseId": "mahlzeit_falsch",
+      "feedback": "«le déjeuner» ist das Mittagessen. Am Morgen isst man «le petit déjeuner»."
+     },
+     {
+      "antwort": "dîner",
+      "diagnoseId": "mahlzeit_falsch",
+      "feedback": "«le dîner» ist das Abendessen. Der Satz spielt am Morgen. «le matin, je me lève à sept heures»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nIl est huit heures et ______________ : il est 8 h 15.",
+    "loesung": [
+     "quart"
+    ],
+    "erklaerung": "«et quart» heisst Viertel nach.",
+    "fehler": [
+     {
+      "antwort": "demie",
+      "diagnoseId": "uhrzeit_falsch",
+      "feedback": "«et demie» wäre halb, also 8 h 30. Im Satz steht aber ausdrücklich 8 h 15."
+     },
+     {
+      "antwort": "moins",
+      "diagnoseId": "uhrzeit_falsch",
+      "feedback": "«moins le quart» wäre Viertel vor, also 7 h 45. Gesucht ist Viertel nach acht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nElle habite ______________ Portugal depuis deux ans.",
+    "loesung": [
+     "au"
+    ],
+    "erklaerung": "Bei männlichen Ländern steht «au»: au Portugal, au Danemark.",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«en» steht bei weiblichen Ländern: en France, en Suisse. «le Portugal» ist männlich."
+     },
+     {
+      "antwort": "à",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«à» steht bei Städten: à Lisbonne. Bei Ländern braucht es «au» oder «en»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nNous partons ______________ vacances la semaine prochaine.",
+    "loesung": [
+     "en"
+    ],
+    "erklaerung": "«partir en vacances» ist eine feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "à",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "Die feste Wendung lautet «partir en vacances»."
+     },
+     {
+      "antwort": "dans",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«dans les vacances» sagt man nicht. Die Wendung heisst «en vacances»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nIl fait froid : mets ton ______________ avant de sortir.",
+    "loesung": [
+     "manteau"
+    ],
+    "erklaerung": "«le manteau» ist der Mantel. Das passende Kleidungsstück bei Kälte.",
+    "fehler": [
+     {
+      "antwort": "short",
+      "diagnoseId": "kleidung_falsch",
+      "feedback": "Kurze Hosen passen nicht zu «il fait froid»."
+     },
+     {
+      "antwort": "manteaux",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«ton» verlangt den Singular: ton manteau."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nLe contraire de «grand», c'est ______________.",
+    "loesung": [
+     "petit"
+    ],
+    "erklaerung": "«petit» ist das Gegenteil von «grand».",
+    "fehler": [
+     {
+      "antwort": "gros",
+      "diagnoseId": "gegenteil_falsch",
+      "feedback": "«gros» heisst dick und ist nicht das Gegenteil von gross."
+     },
+     {
+      "antwort": "long",
+      "diagnoseId": "gegenteil_falsch",
+      "feedback": "«long» heisst lang. Das Gegenteil davon wäre «court»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nLe médecin dit : « Prenez ces ______________ trois fois par jour. »",
+    "loesung": [
+     "médicaments"
+    ],
+    "erklaerung": "«les médicaments» sind die Medikamente. Das Wortfeld «beim Arzt».",
+    "fehler": [
+     {
+      "antwort": "médicament",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«ces» verlangt den Plural: ces médicaments."
+     },
+     {
+      "antwort": "devoirs",
+      "diagnoseId": "wortfeld_falsch",
+      "feedback": "«les devoirs» sind die Hausaufgaben. Beim Arzt geht es um Medikamente."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nUn synonyme de «content», c'est ______________.",
+    "loesung": [
+     "heureux"
+    ],
+    "erklaerung": "«heureux» und «content» meinen beide zufrieden oder glücklich.",
+    "fehler": [
+     {
+      "antwort": "triste",
+      "diagnoseId": "gegenteil_statt_synonym",
+      "feedback": "«triste» ist das Gegenteil. Gesucht ist ein Wort mit gleicher Bedeutung."
+     },
+     {
+      "antwort": "fatigué",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«fatigué» heisst müde und hat mit «content» nichts zu tun. Gesucht ist ein Wort mit derselben Bedeutung."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das Nomen aus derselben Wortfamilie wie das Verb «voyager».\n\nCet été, nous faisons un long ______________ en train.",
+    "loesung": [
+     "voyage"
+    ],
+    "erklaerung": "Zum Verb «voyager» gehört das Nomen «le voyage» Die Reise.",
+    "fehler": [
+     {
+      "antwort": "voyageur",
+      "diagnoseId": "person_statt_sache",
+      "feedback": "«un voyageur» ist die reisende Person. Gesucht ist die Reise selbst."
+     },
+     {
+      "antwort": "travail",
+      "diagnoseId": "wortfamilie_falsch",
+      "feedback": "«le travail» gehört zu «travailler». Hier ist die Familie von «voyager» gefragt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Wortschatz: Mengen, Schule und Tagesablauf",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-wortschatz-2",
+  "lernzielId": "FS.2.04",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "2.04",
+   "2.05",
+   "2.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Bei Körperteilen steht «avoir mal à» mit dem Artikel: au, à la, aux.",
+   "Kleidungsstücke tragen ihr eigenes Geschlecht — lerne den Artikel mit.",
+   "Bei Freizeitangaben heisst es «jouer à» beim Spiel und «jouer de» beim Instrument."
+  ],
+  "loesungsweg": [
+   "Das gesuchte Wortfeld bestimmen.",
+   "Auf Artikel und Geschlecht achten.",
+   "Die Zahl anpassen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nEn hiver, nous allons souvent à la ______________ pour skier.",
+    "loesung": [
+     "montagne"
+    ],
+    "erklaerung": "«aller à la montagne» heisst in die Berge gehen — der Ort zum Skifahren.",
+    "fehler": [
+     {
+      "antwort": "plage",
+      "diagnoseId": "ort_falsch",
+      "feedback": "Am Strand kann man nicht Ski fahren; gesucht ist der Berg."
+     },
+     {
+      "antwort": "montagnes",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «à la» steht die Einzahl: à la montagne."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nPendant les vacances, Léa ______________ du piano tous les jours.",
+    "loesung": [
+     "joue"
+    ],
+    "erklaerung": "«jouer du piano» heisst Klavier spielen; bei Instrumenten steht «de» mit Artikel.",
+    "fehler": [
+     {
+      "antwort": "jouent",
+      "diagnoseId": "person_falsch",
+      "feedback": "«Léa» ist eine einzelne Person; die Form lautet «joue»."
+     },
+     {
+      "antwort": "fait",
+      "diagnoseId": "verb_falsch",
+      "feedback": "Bei Instrumenten steht «jouer de», nicht «faire»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nLe samedi, les garçons ______________ au foot avec leurs copains.",
+    "loesung": [
+     "jouent"
+    ],
+    "erklaerung": "«jouer à» steht bei Spielen und Sportarten; «les garçons» verlangt die Mehrzahl.",
+    "fehler": [
+     {
+      "antwort": "joue",
+      "diagnoseId": "person_falsch",
+      "feedback": "«les garçons» ist Mehrzahl; die Form lautet «jouent»."
+     },
+     {
+      "antwort": "jouons",
+      "diagnoseId": "person_falsch",
+      "feedback": "«jouons» gehört zu «nous»; im Satz steht «les garçons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nJ'ai couru trop vite. Maintenant, j'ai mal aux ______________.",
+    "loesung": [
+     "jambes"
+    ],
+    "erklaerung": "Nach vielem Laufen schmerzen die Beine; «aux» verlangt die Mehrzahl.",
+    "fehler": [
+     {
+      "antwort": "jambe",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «aux» steht die Mehrzahl: aux jambes."
+     },
+     {
+      "antwort": "dents",
+      "diagnoseId": "koerperteil_falsch",
+      "feedback": "Zähne schmerzen nicht vom Laufen; gemeint sind die Beine."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nLe médecin dit : « Vous devez rester au ______________ pendant deux jours. »",
+    "loesung": [
+     "lit"
+    ],
+    "erklaerung": "«rester au lit» heisst im Bett bleiben — der übliche Rat bei Fieber.",
+    "fehler": [
+     {
+      "antwort": "lits",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «au» steht die Einzahl: au lit. Richtig ist «lit»."
+     },
+     {
+      "antwort": "bureau",
+      "diagnoseId": "ort_falsch",
+      "feedback": "Wer krank ist, bleibt nicht im Büro. Richtig ist «lit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nElle tousse et elle a de la ______________ depuis hier soir.",
+    "loesung": [
+     "fièvre"
+    ],
+    "erklaerung": "«avoir de la fièvre» heisst Fieber haben; das Wort ist weiblich.",
+    "fehler": [
+     {
+      "antwort": "fièvres",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«de la fièvre» steht in der Einzahl. Richtig ist «fièvre»."
+     },
+     {
+      "antwort": "faim",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«avoir faim» heisst Hunger haben und passt nicht zum Husten."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nIl fait froid : mets ton ______________ avant de sortir.",
+    "loesung": [
+     "manteau"
+    ],
+    "erklaerung": "«le manteau» ist der Mantel; bei Kälte zieht man ihn an.",
+    "fehler": [
+     {
+      "antwort": "manteaux",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «ton» steht die Einzahl: ton manteau."
+     },
+     {
+      "antwort": "short",
+      "diagnoseId": "kleidung_falsch",
+      "feedback": "Kurze Hosen wärmen nicht; gemeint ist der Mantel."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Adjektiv in Klammern in die richtige Form.\n\nElle porte des chaussures ______________ (noir).",
+    "loesung": [
+     "noires"
+    ],
+    "erklaerung": "«des chaussures» ist weiblich und Mehrzahl; das Adjektiv bekommt «-es».",
+    "fehler": [
+     {
+      "antwort": "noir",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "«chaussures» ist weiblich und Mehrzahl: noires."
+     },
+     {
+      "antwort": "noirs",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«chaussures» ist weiblich; die Endung lautet «-es»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Adjektiv in Klammern in die richtige Form.\n\nMon frère a les cheveux ______________ (long).",
+    "loesung": [
+     "longs"
+    ],
+    "erklaerung": "«les cheveux» ist männlich und Mehrzahl; das Adjektiv bekommt «-s».",
+    "fehler": [
+     {
+      "antwort": "long",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«les cheveux» steht in der Mehrzahl: longs."
+     },
+     {
+      "antwort": "longues",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«cheveux» ist männlich; die weibliche Form passt nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nAvant de partir en vacances, on prépare la ______________.",
+    "loesung": [
+     "valise"
+    ],
+    "erklaerung": "«préparer la valise» heisst den Koffer packen.",
+    "fehler": [
+     {
+      "antwort": "valises",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «la» steht die Einzahl: la valise. Richtig ist «valise»."
+     },
+     {
+      "antwort": "cuisine",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "Die Küche bereitet man nicht für die Ferien vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nEn été, je préfère porter des ______________ courtes.",
+    "loesung": [
+     "jupes"
+    ],
+    "erklaerung": "«une jupe» ist der Rock; «courtes» zeigt, dass ein weibliches Wort in der Mehrzahl gesucht ist.",
+    "fehler": [
+     {
+      "antwort": "jupe",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«des» verlangt die Mehrzahl: des jupes. Richtig ist «jupes»."
+     },
+     {
+      "antwort": "pulls",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«pull» ist männlich; «courtes» verlangt ein weibliches Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke. Passe es an, wenn nötig.\n\nQuand on est malade, on prend rendez-vous chez le ______________.",
+    "loesung": [
+     "médecin"
+    ],
+    "erklaerung": "«prendre rendez-vous chez le médecin» heisst einen Arzttermin abmachen.",
+    "fehler": [
+     {
+      "antwort": "médecins",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Nach «le» steht die Einzahl: le médecin."
+     },
+     {
+      "antwort": "boulanger",
+      "diagnoseId": "beruf_falsch",
+      "feedback": "Beim Bäcker holt man Brot, nicht einen Termin bei Krankheit."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Freizeit, Gesundheit und Kleidung",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-wortschatz-3",
+  "lernzielId": "FS.2.07",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "2.07",
+   "2.08",
+   "2.09",
+   "2.10"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Vor weiblichen Ländern steht «en», vor männlichen «au», vor Städten «à».",
+   "Die Uhrzeit wird mit «heures» angegeben, halb mit «et demie».",
+   "Wortfamilien teilen den Stamm: travail — travailler — travailleur."
+  ],
+  "loesungsweg": [
+   "Bestimmen, wonach gefragt ist.",
+   "Bei Ländern das Geschlecht prüfen.",
+   "Bei der Uhrzeit auf «et demie» und «moins le quart» achten.",
+   "Bei Wortfamilien die verlangte Wortart bestimmen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nCet été, nous allons ______________ Italie.",
+    "loesung": [
+     "en"
+    ],
+    "erklaerung": "Vor weiblichen Ländernamen wie «l'Italie» steht «en».",
+    "fehler": [
+     {
+      "antwort": "au",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«au» steht vor männlichen Ländern; «l'Italie» ist weiblich."
+     },
+     {
+      "antwort": "à",
+      "diagnoseId": "land_stadt",
+      "feedback": "«à» steht vor Städtenamen, nicht vor Ländern."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nMon oncle travaille ______________ Canada depuis cinq ans.",
+    "loesung": [
+     "au"
+    ],
+    "erklaerung": "Vor männlichen Ländernamen wie «le Canada» steht «au».",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«le Canada» ist männlich; darum «au Canada»."
+     },
+     {
+      "antwort": "à",
+      "diagnoseId": "land_stadt",
+      "feedback": "«à» steht vor Städten, nicht vor Ländern."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nElle habite ______________ Lausanne depuis l'automne.",
+    "loesung": [
+     "à"
+    ],
+    "erklaerung": "Vor Städtenamen steht «à».",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "land_stadt",
+      "feedback": "«en» steht vor weiblichen Ländern, nicht vor Städten."
+     },
+     {
+      "antwort": "au",
+      "diagnoseId": "land_stadt",
+      "feedback": "«au» steht vor männlichen Ländern. Richtig ist «à»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nIls rêvent d'un voyage ______________ Afrique.",
+    "loesung": [
+     "en"
+    ],
+    "erklaerung": "Vor Kontinenten steht «en», weil sie alle weiblich sind.",
+    "fehler": [
+     {
+      "antwort": "au",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "Kontinente sind weiblich; darum «en Afrique»."
+     },
+     {
+      "antwort": "à",
+      "diagnoseId": "land_stadt",
+      "feedback": "«à» steht vor Städtenamen. Richtig ist «en»."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe die Uhrzeit aus.\n\nIl est 7 h 30. → Il est sept heures ______________.",
+    "loesung": [
+     "et demie"
+    ],
+    "erklaerung": "Eine halbe Stunde nach der vollen Stunde heisst «et demie».",
+    "fehler": [
+     {
+      "antwort": "et demi",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "Nach «heures» steht die weibliche Form: et demie."
+     },
+     {
+      "antwort": "trente minutes",
+      "diagnoseId": "form_falsch",
+      "feedback": "Üblich ist «et demie», nicht die Angabe in Minuten."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe die Uhrzeit aus.\n\nIl est 8 h 45. → Il est neuf heures ______________.",
+    "loesung": [
+     "moins le quart"
+    ],
+    "erklaerung": "Eine Viertelstunde vor neun heisst «neuf heures moins le quart».",
+    "fehler": [
+     {
+      "antwort": "et quart",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "«et quart» wäre eine Viertelstunde nach der vollen Stunde."
+     },
+     {
+      "antwort": "moins quinze",
+      "diagnoseId": "form_falsch",
+      "feedback": "Üblich ist «moins le quart». Richtig ist «moins le quart»."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe die Uhrzeit aus.\n\nIl est 12 h 00, on mange. → Il est ______________.",
+    "loesung": [
+     "midi"
+    ],
+    "erklaerung": "Zwölf Uhr mittags heisst schlicht «midi», ohne das Wort «heures» daneben.",
+    "fehler": [
+     {
+      "antwort": "douze heures",
+      "diagnoseId": "form_falsch",
+      "feedback": "Um zwölf Uhr mittags sagt man «midi». Richtig ist «midi»."
+     },
+     {
+      "antwort": "minuit",
+      "diagnoseId": "tageszeit_falsch",
+      "feedback": "«minuit» ist Mitternacht, nicht Mittag. Richtig ist «midi»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Gegenteil ein.\n\nLe contraire de « facile » est ______________.",
+    "loesung": [
+     "difficile"
+    ],
+    "erklaerung": "«facile» heisst leicht; das Gegenteil ist «difficile».",
+    "fehler": [
+     {
+      "antwort": "faible",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«faible» heisst schwach, nicht schwierig."
+     },
+     {
+      "antwort": "difficiles",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Gefragt ist die Grundform in der Einzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Gegenteil ein.\n\nLe contraire de « toujours » est ______________.",
+    "loesung": [
+     "jamais"
+    ],
+    "erklaerung": "«toujours» heisst immer; das Gegenteil ist «jamais».",
+    "fehler": [
+     {
+      "antwort": "souvent",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«souvent» heisst oft und ist kein Gegenteil."
+     },
+     {
+      "antwort": "parfois",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«parfois» heisst manchmal und liegt dazwischen."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ein Synonym ein.\n\n« Content » a le même sens que ______________.",
+    "loesung": [
+     "heureux"
+    ],
+    "erklaerung": "«content» und «heureux» heissen beide zufrieden oder glücklich.",
+    "fehler": [
+     {
+      "antwort": "triste",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«triste» heisst traurig und ist das Gegenteil."
+     },
+     {
+      "antwort": "fatigué",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«fatigué» heisst müde und meint etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie.\n\ntravail — travailler — le ______________ (die Person, die arbeitet)",
+    "loesung": [
+     "travailleur"
+    ],
+    "erklaerung": "Die Person, die arbeitet, heisst «le travailleur».",
+    "fehler": [
+     {
+      "antwort": "travaillant",
+      "diagnoseId": "wortart_falsch",
+      "feedback": "Das ist die Partizipform, nicht die Person."
+     },
+     {
+      "antwort": "travaille",
+      "diagnoseId": "wortart_falsch",
+      "feedback": "«travaille» ist eine Verbform, keine Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie.\n\ndanser — la danse — le ______________ (die Person, die tanzt)",
+    "loesung": [
+     "danseur"
+    ],
+    "erklaerung": "Die Person, die tanzt, heisst «le danseur».",
+    "fehler": [
+     {
+      "antwort": "dansant",
+      "diagnoseId": "wortart_falsch",
+      "feedback": "Das ist die Partizipform, nicht die Person."
+     },
+     {
+      "antwort": "danse",
+      "diagnoseId": "wortart_falsch",
+      "feedback": "«danse» ist das Nomen für die Tätigkeit."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Länder, Uhrzeit, Gegenteile und Wortfamilien",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-verben",
+  "lernzielId": "FS.3.01",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Im Präsens enden regelmässige Verben auf -er so: -e, -es, -e, -ons, -ez, -ent.",
+   "Das passé composé braucht «avoir» oder «être» plus Partizip. Mit «être» richtet sich das Partizip nach dem Subjekt.",
+   "Das futur proche besteht aus «aller» in der Personalform und der Grundform: je vais partir."
+  ],
+  "loesungsweg": [
+   "Person und Zahl bestimmen: Wer handelt?",
+   "Zeit bestimmen: Gegenwart, Vergangenheit oder Zukunft?",
+   "Beim passé composé zuerst das Hilfsverb wählen.",
+   "Form bilden und laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Verb in Klammern ins Präsens.\n\nNous ______________ (habiter) à Saint-Gall depuis trois ans.",
+    "loesung": [
+     "habitons"
+    ],
+    "erklaerung": "Regelmässiges Verb auf -er: In der ersten Person Plural endet es auf -ons.",
+    "fehler": [
+     {
+      "antwort": "habitez",
+      "diagnoseId": "person_falsch",
+      "feedback": "«-ez» gehört zu «vous». Bei «nous» endet das Verb auf -ons."
+     },
+     {
+      "antwort": "habite",
+      "diagnoseId": "person_falsch",
+      "feedback": "«habite» gehört zu «je», «tu» oder «il». Bei «nous» heisst es «habitons»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Präsens.\n\nVous ______________ (faire) vos devoirs tous les soirs ?",
+    "loesung": [
+     "faites"
+    ],
+    "erklaerung": "«faire» ist unregelmässig: je fais, tu fais, il fait, nous faisons, vous faites, ils font.",
+    "fehler": [
+     {
+      "antwort": "faisez",
+      "diagnoseId": "regelmaessig_gebildet",
+      "feedback": "«faire» ist unregelmässig. Die Form für «vous» lautet «faites»."
+     },
+     {
+      "antwort": "faisons",
+      "diagnoseId": "person_falsch",
+      "feedback": "«faisons» gehört zu «nous». Im Satz steht «vous» Dazu gehört die Form «faites»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Reflexivverb in Klammern ins Präsens.\n\nElle ______________ (se réveiller) très tard le matin.",
+    "loesung": [
+     "se réveille"
+    ],
+    "erklaerung": "Bei Reflexivverben steht das Pronomen vor dem Verb: se réveille.",
+    "fehler": [
+     {
+      "antwort": "réveille",
+      "diagnoseId": "pronomen_fehlt",
+      "feedback": "Das rückbezügliche «se» gehört dazu: elle SE réveille."
+     },
+     {
+      "antwort": "se réveilles",
+      "diagnoseId": "person_falsch",
+      "feedback": "Die Endung -es gehört zu «tu». Bei «elle» heisst es «se réveille»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Reflexivverb in Klammern ins Präsens.\n\nNous ______________ (s'amuser) beaucoup pendant le cours de sport.",
+    "loesung": [
+     "nous amusons"
+    ],
+    "erklaerung": "Das rückbezügliche Pronomen passt sich der Person an: nous nous amusons.",
+    "fehler": [
+     {
+      "antwort": "s'amusons",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Bei «nous» heisst das Pronomen ebenfalls «nous»: nous nous amusons."
+     },
+     {
+      "antwort": "nous amusez",
+      "diagnoseId": "person_falsch",
+      "feedback": "Die Endung -ez gehört zu «vous». Bei «nous» endet das Verb auf -ons: nous amusons."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins passé composé.\n\nHier, j'______________ (manger) une glace au chocolat.",
+    "loesung": [
+     "ai mangé"
+    ],
+    "erklaerung": "«manger» bildet das passé composé mit «avoir»: j'ai mangé.",
+    "fehler": [
+     {
+      "antwort": "suis mangé",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«manger» bildet das passé composé mit «avoir», nicht mit «être». Mit «être» stehen vor allem Bewegungsverben."
+     },
+     {
+      "antwort": "ai mangée",
+      "diagnoseId": "angleichung_falsch",
+      "feedback": "Mit «avoir» bleibt das Partizip unverändert, wenn kein Objekt davorsteht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins passé composé.\n\nElle ______________ (aller) au marché samedi dernier.",
+    "loesung": [
+     "est allée"
+    ],
+    "erklaerung": "«aller» ist ein Bewegungsverb und nimmt «être». Das Partizip richtet sich nach dem Subjekt: elle est allée.",
+    "fehler": [
+     {
+      "antwort": "a allé",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Bewegungsverben wie aller, venir, partir nehmen «être»."
+     },
+     {
+      "antwort": "est allé",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "Mit «être» richtet sich das Partizip nach dem Subjekt. «Elle» ist weiblich: allée."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins passé composé.\n\nNous ______________ (partir) à six heures du matin.",
+    "loesung": [
+     "sommes partis"
+    ],
+    "erklaerung": "«partir» nimmt «être», und das Partizip bekommt bei «nous» ein -s.",
+    "fehler": [
+     {
+      "antwort": "avons parti",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«partir» ist ein Bewegungsverb und nimmt «être»."
+     },
+     {
+      "antwort": "sommes parti",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "Bei «nous» steht das Partizip im Plural: partis."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins futur proche.\n\nDemain, je ______________ (visiter) le musée avec ma classe.",
+    "loesung": [
+     "vais visiter"
+    ],
+    "erklaerung": "Das futur proche besteht aus «aller» in der Personalform und der Grundform.",
+    "fehler": [
+     {
+      "antwort": "visiterai",
+      "diagnoseId": "falsche_zukunftsform",
+      "feedback": "Das ist das futur simple. Gefragt ist das futur proche mit «aller»."
+     },
+     {
+      "antwort": "vais visité",
+      "diagnoseId": "partizip_statt_grundform",
+      "feedback": "Nach «aller» steht die Grundform: vais visiter."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins futur proche.\n\nIls ______________ (prendre) le train de sept heures.",
+    "loesung": [
+     "vont prendre"
+    ],
+    "erklaerung": "«aller» in der dritten Person Plural lautet «vont», danach die Grundform.",
+    "fehler": [
+     {
+      "antwort": "va prendre",
+      "diagnoseId": "person_falsch",
+      "feedback": "«va» gehört zu «il» oder «elle». Bei «ils» heisst es «vont»."
+     },
+     {
+      "antwort": "vont pris",
+      "diagnoseId": "partizip_statt_grundform",
+      "feedback": "Nach «aller» steht die Grundform «prendre»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Präsens.\n\nTu ______________ (avoir) un frère et deux sœurs ?",
+    "loesung": [
+     "as"
+    ],
+    "erklaerung": "«avoir» ist unregelmässig: j'ai, tu as, il a, nous avons, vous avez, ils ont.",
+    "fehler": [
+     {
+      "antwort": "a",
+      "diagnoseId": "person_falsch",
+      "feedback": "«a» gehört zu «il» oder «elle». Bei «tu» heisst es «as»."
+     },
+     {
+      "antwort": "es",
+      "diagnoseId": "verb_verwechselt",
+      "feedback": "«es» gehört zu «être». Hier ist «avoir» gefragt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins passé composé.\n\nTu ______________ (finir) tes devoirs avant le repas ?",
+    "loesung": [
+     "as fini"
+    ],
+    "erklaerung": "«finir» bildet das Partizip auf -i und nimmt «avoir».",
+    "fehler": [
+     {
+      "antwort": "as finis",
+      "diagnoseId": "angleichung_falsch",
+      "feedback": "Mit «avoir» bleibt das Partizip unverändert."
+     },
+     {
+      "antwort": "es fini",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«finir» bildet das passé composé mit «avoir». Ausserdem gehört «es» zu «être», nicht zu «avoir»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Reflexivverb in Klammern ins Präsens.\n\nMes frères ______________ (se disputer) tous les jours.",
+    "loesung": [
+     "se disputent"
+    ],
+    "erklaerung": "Dritte Person Plural: se disputent, mit der Endung -ent.",
+    "fehler": [
+     {
+      "antwort": "se dispute",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«mes frères» ist Plural. Das Verb endet auf -ent."
+     },
+     {
+      "antwort": "disputent",
+      "diagnoseId": "pronomen_fehlt",
+      "feedback": "Das rückbezügliche «se» gehört dazu: ils se disputent. Ohne das Pronomen ist es kein Reflexivverb mehr."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins passé composé.\n\nVous ______________ (rester) à la maison hier soir ?",
+    "loesung": [
+     "êtes restés",
+     "êtes resté",
+     "êtes restées"
+    ],
+    "erklaerung": "«rester» nimmt «être», und das Partizip richtet sich nach dem Subjekt.",
+    "fehler": [
+     {
+      "antwort": "avez resté",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«rester» gehört zu den Verben mit «être»."
+     },
+     {
+      "antwort": "êtes rester",
+      "diagnoseId": "grundform_statt_partizip",
+      "feedback": "Nach «être» steht das Partizip «resté», nicht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Präsens.\n\nJe ______________ (être) contente de te voir.",
+    "loesung": [
+     "suis"
+    ],
+    "erklaerung": "«être» ist unregelmässig: je suis, tu es, il est, nous sommes, vous êtes, ils sont.",
+    "fehler": [
+     {
+      "antwort": "es",
+      "diagnoseId": "person_falsch",
+      "feedback": "«es» gehört zu «tu». Bei «je» heisst es «suis»."
+     },
+     {
+      "antwort": "ai",
+      "diagnoseId": "verb_verwechselt",
+      "feedback": "«ai» gehört zu «avoir». Hier ist «être» gefragt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Verben im Präsens",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-verben-2",
+  "lernzielId": "FS.3.04",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "3.04",
+   "3.05",
+   "3.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Die meisten Verben bilden das Passé composé mit «avoir».",
+   "Eine feste Gruppe von Bewegungsverben und alle Reflexivverben nehmen «être»; dann gleicht sich das Partizip an.",
+   "Das Futur proche besteht aus «aller» im Präsens und der Grundform."
+  ],
+  "loesungsweg": [
+   "Das Hilfsverb bestimmen.",
+   "Das Partizip bilden.",
+   "Bei «être» die Angleichung prüfen.",
+   "Beim Futur proche «aller» beugen und die Grundform anhängen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nHier, nous ______________ (manger) au restaurant.",
+    "loesung": [
+     "avons mangé"
+    ],
+    "erklaerung": "«manger» bildet das Passé composé mit «avoir»: nous avons mangé.",
+    "fehler": [
+     {
+      "antwort": "sommes mangés",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«manger» nimmt «avoir», nicht «être». Richtig ist «avons mangé»."
+     },
+     {
+      "antwort": "avons mangés",
+      "diagnoseId": "angleichung_falsch",
+      "feedback": "Mit «avoir» gleicht sich das Partizip hier nicht an."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nElle ______________ (finir) ses devoirs avant le repas.",
+    "loesung": [
+     "a fini"
+    ],
+    "erklaerung": "Verben auf -ir bilden das Partizip auf -i: fini, mit «avoir».",
+    "fehler": [
+     {
+      "antwort": "a finit",
+      "diagnoseId": "partizip_falsch",
+      "feedback": "Das Partizip lautet «fini», nicht «finit»."
+     },
+     {
+      "antwort": "est finie",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«finir» nimmt «avoir», nicht «être». Richtig ist «a fini»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nJ' ______________ (prendre) le train de sept heures.",
+    "loesung": [
+     "ai pris"
+    ],
+    "erklaerung": "«prendre» ist unregelmässig; das Partizip lautet «pris».",
+    "fehler": [
+     {
+      "antwort": "ai prendu",
+      "diagnoseId": "partizip_falsch",
+      "feedback": "«prendre» ist unregelmässig: das Partizip lautet «pris»."
+     },
+     {
+      "antwort": "suis pris",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«prendre» nimmt «avoir». Richtig ist «ai pris»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nMes cousines ______________ (arriver) à midi.",
+    "loesung": [
+     "sont arrivées"
+    ],
+    "erklaerung": "«arriver» nimmt «être»; das Partizip gleicht sich an: weiblich und Mehrzahl.",
+    "fehler": [
+     {
+      "antwort": "ont arrivé",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«arriver» ist ein Bewegungsverb und nimmt «être»."
+     },
+     {
+      "antwort": "sont arrivé",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "Mit «être» gleicht sich das Partizip an: arrivées."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nIl ______________ (aller) chez le dentiste ce matin.",
+    "loesung": [
+     "est allé"
+    ],
+    "erklaerung": "«aller» nimmt «être»; bei einem männlichen Subjekt in der Einzahl bleibt das Partizip unverändert.",
+    "fehler": [
+     {
+      "antwort": "a allé",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«aller» nimmt «être», nicht «avoir». Richtig ist «est allé»."
+     },
+     {
+      "antwort": "est allée",
+      "diagnoseId": "angleichung_falsch",
+      "feedback": "«Il» ist männlich; die Endung «-e» steht nur bei weiblichen Subjekten."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nNous ______________ (se lever) très tôt.",
+    "loesung": [
+     "nous sommes levés"
+    ],
+    "erklaerung": "Reflexivverben nehmen «être»; das Reflexivpronomen steht vor dem Hilfsverb.",
+    "fehler": [
+     {
+      "antwort": "avons levé",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "Reflexivverben nehmen «être» und behalten das Pronomen."
+     },
+     {
+      "antwort": "nous sommes levé",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "Bei «nous» gleicht sich das Partizip an: levés."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nElles ______________ (rester) à la maison tout le week-end.",
+    "loesung": [
+     "sont restées"
+    ],
+    "erklaerung": "«rester» gehört zur Gruppe mit «être»; das Partizip gleicht sich an.",
+    "fehler": [
+     {
+      "antwort": "ont resté",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«rester» nimmt «être». Richtig ist «sont restées»."
+     },
+     {
+      "antwort": "sont resté",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "«Elles» verlangt die Endung «-ées». Richtig ist «sont restées»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Futur proche.\n\nDemain, je ______________ (visiter) le musée.",
+    "loesung": [
+     "vais visiter"
+    ],
+    "erklaerung": "Das Futur proche besteht aus «aller» im Präsens und der Grundform.",
+    "fehler": [
+     {
+      "antwort": "vais visité",
+      "diagnoseId": "form_falsch",
+      "feedback": "Nach «aller» steht die Grundform, nicht das Partizip."
+     },
+     {
+      "antwort": "visiterai",
+      "diagnoseId": "zeit_falsch",
+      "feedback": "Das ist das einfache Futur; verlangt ist das Futur proche."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Futur proche.\n\nNous ______________ (partir) dans dix minutes.",
+    "loesung": [
+     "allons partir"
+    ],
+    "erklaerung": "Bei «nous» lautet die Form von «aller» «allons».",
+    "fehler": [
+     {
+      "antwort": "vas partir",
+      "diagnoseId": "person_falsch",
+      "feedback": "«vas» gehört zu «tu»; bei «nous» heisst es «allons»."
+     },
+     {
+      "antwort": "allons partis",
+      "diagnoseId": "form_falsch",
+      "feedback": "Nach «aller» steht die Grundform «partir»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Futur proche.\n\nIls ______________ (faire) un gâteau pour la fête.",
+    "loesung": [
+     "vont faire"
+    ],
+    "erklaerung": "Bei «ils» lautet die Form von «aller» «vont».",
+    "fehler": [
+     {
+      "antwort": "va faire",
+      "diagnoseId": "person_falsch",
+      "feedback": "«va» gehört zu «il»; bei «ils» heisst es «vont»."
+     },
+     {
+      "antwort": "vont fait",
+      "diagnoseId": "form_falsch",
+      "feedback": "Nach «aller» steht die Grundform «faire»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nElle ______________ (naître) en deux mille onze.",
+    "loesung": [
+     "est née"
+    ],
+    "erklaerung": "«naître» nimmt «être»; das Partizip lautet «né» und gleicht sich an.",
+    "fehler": [
+     {
+      "antwort": "a né",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«naître» nimmt «être». Richtig ist «est née»."
+     },
+     {
+      "antwort": "est né",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "«Elle» ist weiblich; darum «née». Richtig ist «est née»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in Klammern ins Passé composé.\n\nVous ______________ (voir) le nouveau film ?",
+    "loesung": [
+     "avez vu"
+    ],
+    "erklaerung": "«voir» ist unregelmässig; das Partizip lautet «vu», mit «avoir».",
+    "fehler": [
+     {
+      "antwort": "avez voyé",
+      "diagnoseId": "partizip_falsch",
+      "feedback": "Das Partizip von «voir» lautet «vu». Richtig ist «avez vu»."
+     },
+     {
+      "antwort": "êtes vus",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«voir» nimmt «avoir». Richtig ist «avez vu»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Passé composé und Futur proche",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-strukturen",
+  "lernzielId": "FS.3.07",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "3.07",
+   "3.08",
+   "3.09"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Adjektive richten sich nach dem Nomen: weiblich meist mit -e, Plural mit -s.",
+   "Die Verneinung umschliesst das Verb: ne … pas, ne … jamais, ne … rien.",
+   "Der Possessivbegleiter richtet sich nach dem Ding, nicht nach der besitzenden Person: sa mère heisst «seine» oder «ihre» Mutter."
+  ],
+  "loesungsweg": [
+   "Bestimme zuerst das Nomen: Geschlecht und Zahl.",
+   "Passe Adjektiv oder Begleiter daran an.",
+   "Bei Fragen entscheide zwischen est-ce que, Intonation und Inversion.",
+   "Bei der Verneinung beide Teile setzen. Ne vor dem Verb, pas dahinter."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Adjektiv in Klammern in die richtige Form.\n\nMa sœur porte une veste ______________ (vert).",
+    "loesung": [
+     "verte"
+    ],
+    "erklaerung": "«veste» ist weiblich, darum bekommt das Adjektiv ein -e.",
+    "fehler": [
+     {
+      "antwort": "vert",
+      "diagnoseId": "angleichung_fehlt",
+      "feedback": "«une veste» ist weiblich, darum bekommt das Adjektiv ein -e: verte."
+     },
+     {
+      "antwort": "verts",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Es geht um eine einzige Jacke. Das -s steht nur im Plural."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Adjektiv in Klammern in die richtige Form.\n\nCe sont des exercices très ______________ (difficile).",
+    "loesung": [
+     "difficiles"
+    ],
+    "erklaerung": "«des exercices» ist Plural, das Adjektiv bekommt ein -s.",
+    "fehler": [
+     {
+      "antwort": "difficile",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«des exercices» steht im Plural. Das Adjektiv bekommt darum ein -s: difficiles."
+     },
+     {
+      "antwort": "difficilles",
+      "diagnoseId": "schreibung_falsch",
+      "feedback": "Das Wort hat nur ein l: difficiles. Die Verdoppelung gibt es im Französischen hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde den Komparativ.\n\nLe train est ______________ rapide ______________ le bus. (schneller als)",
+    "loesung": [
+     "plus … que",
+     "plus que",
+     "plus, que"
+    ],
+    "erklaerung": "Der Komparativ lautet «plus … que»: plus rapide que le bus.",
+    "fehler": [
+     {
+      "antwort": "moins que",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "«moins … que» heisst weniger als. Gefragt ist «schneller»."
+     },
+     {
+      "antwort": "aussi que",
+      "diagnoseId": "vergleich_falsch",
+      "feedback": "«aussi … que» heisst gleich schnell wie."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nNous allons ______________ Italie cet été.",
+    "loesung": [
+     "en"
+    ],
+    "erklaerung": "Bei weiblichen Ländern steht «en»: en Italie, en France, en Suisse.",
+    "fehler": [
+     {
+      "antwort": "au",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«au» steht bei männlichen Ländern: au Portugal."
+     },
+     {
+      "antwort": "à",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«à» steht bei Städten, etwa à Rome. Bei Ländern braucht es «en», «au» oder «aux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Präposition ein.\n\nMon oncle habite ______________ États-Unis.",
+    "loesung": [
+     "aux"
+    ],
+    "erklaerung": "Bei Ländern im Plural steht «aux»: aux États-Unis, aux Pays-Bas.",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "«en» steht bei weiblichen Ländern im Singular."
+     },
+     {
+      "antwort": "au",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«les États-Unis» ist Plural: darum «aux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde eine Frage mit «est-ce que».\n\nTu viens demain. → ______________ tu viens demain ?",
+    "loesung": [
+     "Est-ce que"
+    ],
+    "erklaerung": "«Est-ce que» steht am Satzanfang, der Rest bleibt unverändert.",
+    "fehler": [
+     {
+      "antwort": "Qu'est-ce que",
+      "diagnoseId": "fragewort_falsch",
+      "feedback": "«Qu'est-ce que» fragt nach einer Sache. Hier ist eine Ja-Nein-Frage gefragt."
+     },
+     {
+      "antwort": "Est-ce qui",
+      "diagnoseId": "form_falsch",
+      "feedback": "«est-ce qui» gibt es nur in Verbindung mit einem Fragewort."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde eine Frage mit Inversion.\n\nVous avez faim. → ______________ faim ?",
+    "loesung": [
+     "Avez-vous"
+    ],
+    "erklaerung": "Bei der Inversion tauschen Verb und Pronomen den Platz, verbunden durch einen Bindestrich.",
+    "fehler": [
+     {
+      "antwort": "Vous avez",
+      "diagnoseId": "inversion_fehlt",
+      "feedback": "Bei der Inversion steht das Verb zuerst: Avez-vous."
+     },
+     {
+      "antwort": "Avez vous",
+      "diagnoseId": "bindestrich_fehlt",
+      "feedback": "Zwischen Verb und Pronomen steht ein Bindestrich."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneine den Satz.\n\nJe mange de la viande. → Je ______________ de viande.",
+    "loesung": [
+     "ne mange pas"
+    ],
+    "erklaerung": "Die Verneinung umschliesst das Verb: ne mange pas. Nach der Verneinung wird aus «de la» ein einfaches «de».",
+    "fehler": [
+     {
+      "antwort": "mange pas",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "Der erste Teil «ne» gehört dazu: je NE mange PAS."
+     },
+     {
+      "antwort": "ne mange",
+      "diagnoseId": "pas_fehlt",
+      "feedback": "Der zweite Teil der Verneinung fehlt. Sie besteht immer aus zwei Wörtern: ne … pas."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneine den Satz mit «nie».\n\nElle regarde la télévision. → Elle ______________ la télévision.",
+    "loesung": [
+     "ne regarde jamais"
+    ],
+    "erklaerung": "«ne … jamais» heisst nie und ersetzt «pas».",
+    "fehler": [
+     {
+      "antwort": "ne regarde pas",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«ne … pas» heisst nicht. Für «nie» braucht es «ne … jamais»."
+     },
+     {
+      "antwort": "regarde jamais",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "Auch bei «jamais» gehört das «ne» vor das Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die Befehlsform für «tu».\n\n______________ (écouter) bien !",
+    "loesung": [
+     "Écoute",
+     "Ecoute"
+    ],
+    "erklaerung": "Bei -er-Verben fällt im Imperativ für «tu» das -s weg: écoute.",
+    "fehler": [
+     {
+      "antwort": "Écoutes",
+      "diagnoseId": "s_zu_viel",
+      "feedback": "Bei -er-Verben verliert die Du-Form im Imperativ das -s."
+     },
+     {
+      "antwort": "Écouter",
+      "diagnoseId": "grundform_statt_imperativ",
+      "feedback": "Das ist die Grundform. Der Imperativ lautet «écoute»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die verneinte Befehlsform für «nous».\n\n______________ (ne pas oublier) les billets !",
+    "loesung": [
+     "N'oublions pas"
+    ],
+    "erklaerung": "Die Verneinung umschliesst auch den Imperativ: N'oublions pas.",
+    "fehler": [
+     {
+      "antwort": "Oublions pas",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "Das «ne» gehört an den Anfang: N'oublions pas."
+     },
+     {
+      "antwort": "Ne oublions pas",
+      "diagnoseId": "elision_fehlt",
+      "feedback": "Vor einem Vokal wird aus «ne» ein «n'»: N'oublions."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze den passenden Possessivbegleiter ein.\n\nMarc cherche ______________ clés. Il ne les trouve pas.",
+    "loesung": [
+     "ses"
+    ],
+    "erklaerung": "«les clés» ist Plural, darum «ses» Unabhängig davon, dass Marc männlich ist.",
+    "fehler": [
+     {
+      "antwort": "sa",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«sa» steht vor einem weiblichen Wort im Singular. «les clés» ist Plural: ses."
+     },
+     {
+      "antwort": "son",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«son» steht im Singular. Hier braucht es den Plural «ses»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze den passenden Possessivbegleiter ein.\n\nSophie parle avec ______________ frère au téléphone.",
+    "loesung": [
+     "son"
+    ],
+    "erklaerung": "«le frère» ist männlich, darum «son» Auch wenn Sophie weiblich ist.",
+    "fehler": [
+     {
+      "antwort": "sa",
+      "diagnoseId": "genus_der_person_genommen",
+      "feedback": "Der Begleiter richtet sich nach dem Nomen, nicht nach der besitzenden Person. «frère» ist männlich."
+     },
+     {
+      "antwort": "ses",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«ses» steht im Plural. Es geht um einen Bruder."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde den Superlativ.\n\nC'est ______________ élève ______________ classe. (die beste Schülerin der Klasse)",
+    "loesung": [
+     "la meilleure … de la",
+     "la meilleure de la"
+    ],
+    "erklaerung": "«bon» wird im Superlativ zu «le/la meilleur(e)»; danach folgt «de».",
+    "fehler": [
+     {
+      "antwort": "la plus bonne de la",
+      "diagnoseId": "unregelmaessige_steigerung",
+      "feedback": "«bon» steigert unregelmässig: meilleur, le meilleur. «plus bon» gibt es nicht."
+     },
+     {
+      "antwort": "la meilleure … dans la",
+      "diagnoseId": "praeposition_falsch",
+      "feedback": "Nach dem Superlativ steht «de»: la meilleure élève DE LA classe."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Adjektive, Steigerung und Präpositionen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-fr-strukturen-2",
+  "lernzielId": "FS.3.10",
+  "fach": "franzoesisch-sg",
+  "unterthemen": [
+   "3.10",
+   "3.11",
+   "3.12",
+   "3.13"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Eine Frage lässt sich mit «est-ce que», mit der Stimme oder mit der Umstellung bilden.",
+   "Die Verneinung klammert das gebeugte Verb mit «ne … pas» ein.",
+   "Der Possessivbegleiter richtet sich nach dem Ding, nicht nach der Person."
+  ],
+  "loesungsweg": [
+   "Die Struktur bestimmen.",
+   "Die Wortstellung prüfen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bilde die Frage mit «est-ce que».\n\nTu prends le bus. → ______________ tu prends le bus ?",
+    "loesung": [
+     "Est-ce que",
+     "est-ce que"
+    ],
+    "erklaerung": "«Est-ce que» stellt sich vor den unveränderten Aussagesatz.",
+    "fehler": [
+     {
+      "antwort": "Est-ce",
+      "diagnoseId": "form_falsch",
+      "feedback": "Das «que» darf nicht fehlen: Est-ce que."
+     },
+     {
+      "antwort": "Qu'est-ce que",
+      "diagnoseId": "form_falsch",
+      "feedback": "«Qu'est-ce que» fragt nach einer Sache, nicht nach Ja oder Nein."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die Frage mit Umstellung.\n\nVous habitez ici. → ______________ ici ?",
+    "loesung": [
+     "Habitez-vous",
+     "habitez-vous"
+    ],
+    "erklaerung": "Bei der Umstellung tauschen Verb und Pronomen die Plätze, verbunden mit einem Bindestrich.",
+    "fehler": [
+     {
+      "antwort": "Vous habitez",
+      "diagnoseId": "form_falsch",
+      "feedback": "Bei der Umstellung steht das Verb voran: Habitez-vous."
+     },
+     {
+      "antwort": "Habitez vous",
+      "diagnoseId": "bindestrich_fehlt",
+      "feedback": "Der Bindestrich gehört dazu: Habitez-vous."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die Frage mit Umstellung.\n\nElle chante bien. → ______________ bien ?",
+    "loesung": [
+     "Chante-t-elle",
+     "chante-t-elle"
+    ],
+    "erklaerung": "Zwischen zwei Vokalen wird ein «-t-» eingeschoben.",
+    "fehler": [
+     {
+      "antwort": "Chante-elle",
+      "diagnoseId": "bindelaut_fehlt",
+      "feedback": "Zwischen «chante» und «elle» braucht es ein «-t-»."
+     },
+     {
+      "antwort": "Elle chante",
+      "diagnoseId": "form_falsch",
+      "feedback": "Bei der Umstellung steht das Verb voran."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneine den Satz.\n\nIl regarde la télévision. → Il ______________ la télévision.",
+    "loesung": [
+     "ne regarde pas"
+    ],
+    "erklaerung": "«ne» und «pas» klammern das gebeugte Verb ein.",
+    "fehler": [
+     {
+      "antwort": "regarde pas",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "In der Schriftsprache gehört «ne» dazu. Richtig ist «ne regarde pas»."
+     },
+     {
+      "antwort": "ne pas regarde",
+      "diagnoseId": "wortstellung_falsch",
+      "feedback": "«pas» steht hinter dem Verb. Richtig ist «ne regarde pas»."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneine den Satz im Passé composé.\n\nElle a compris. → Elle ______________ .",
+    "loesung": [
+     "n'a pas compris"
+    ],
+    "erklaerung": "«ne» und «pas» klammern das Hilfsverb ein, nicht das Partizip.",
+    "fehler": [
+     {
+      "antwort": "a ne pas compris",
+      "diagnoseId": "wortstellung_falsch",
+      "feedback": "«ne» steht vor dem Hilfsverb. Richtig ist «n'a pas compris»."
+     },
+     {
+      "antwort": "n'a compris pas",
+      "diagnoseId": "wortstellung_falsch",
+      "feedback": "«pas» steht direkt nach dem Hilfsverb. Richtig ist «n'a pas compris»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die passende Verneinung ein. Er hat noch nie Fleisch gegessen.\n\nIl ______________ de viande, il est végétarien.",
+    "loesung": [
+     "ne mange jamais",
+     "n'a jamais mangé"
+    ],
+    "erklaerung": "Wer noch nie Fleisch gegessen hat, sagt «ne … jamais»; «ne … plus» hiesse, dass er früher welches ass.",
+    "fehler": [
+     {
+      "antwort": "ne mange plus",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«ne … plus» sagt nur, dass es aufgehört hat, nicht dass es nie war."
+     },
+     {
+      "antwort": "ne mange rien",
+      "diagnoseId": "bedeutung_falsch",
+      "feedback": "«rien» heisst nichts und passt nicht vor eine Angabe mit «de viande»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die Befehlsform für «tu».\n\n(prendre) ______________ ton parapluie !",
+    "loesung": [
+     "Prends",
+     "prends"
+    ],
+    "erklaerung": "Die Befehlsform für «tu» entspricht der Präsensform ohne das Pronomen.",
+    "fehler": [
+     {
+      "antwort": "Prend",
+      "diagnoseId": "form_falsch",
+      "feedback": "Bei «prendre» endet die Form für «tu» auf «-s»: Prends."
+     },
+     {
+      "antwort": "Prenez",
+      "diagnoseId": "person_falsch",
+      "feedback": "«Prenez» richtet sich an «vous». Richtig ist «Prends»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die Befehlsform für «vous».\n\n(faire) ______________ attention à la marche !",
+    "loesung": [
+     "Faites",
+     "faites"
+    ],
+    "erklaerung": "Die Befehlsform für «vous» entspricht der Präsensform; «faire» ist unregelmässig.",
+    "fehler": [
+     {
+      "antwort": "Faisez",
+      "diagnoseId": "form_falsch",
+      "feedback": "«faire» ist unregelmässig: Faites. Richtig ist «Faites»."
+     },
+     {
+      "antwort": "Fais",
+      "diagnoseId": "person_falsch",
+      "feedback": "«Fais» richtet sich an «tu». Richtig ist «Faites»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde die verneinte Befehlsform für «tu».\n\n(oublier) ______________ ton billet !",
+    "loesung": [
+     "N'oublie pas",
+     "n'oublie pas"
+    ],
+    "erklaerung": "Auch im Befehl klammern «ne» und «pas» das Verb ein.",
+    "fehler": [
+     {
+      "antwort": "Oublie pas",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "In der Schriftsprache gehört «ne» dazu. Richtig ist «N'oublie pas»."
+     },
+     {
+      "antwort": "Ne oublie pas",
+      "diagnoseId": "elision_fehlt",
+      "feedback": "Vor einem Vokal wird «ne» zu «n'». Richtig ist «N'oublie pas»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze den passenden Begleiter ein.\n\nC'est ______________ sœur ? Oui, elle s'appelle Chloé. (die Schwester von dir)",
+    "loesung": [
+     "ta"
+    ],
+    "erklaerung": "«sœur» ist weiblich; der Begleiter richtet sich nach dem Ding, nicht nach der Person.",
+    "fehler": [
+     {
+      "antwort": "ton",
+      "diagnoseId": "geschlecht_falsch",
+      "feedback": "«sœur» ist weiblich; darum «ta sœur». Richtig ist «ta»."
+     },
+     {
+      "antwort": "tes",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«tes» steht in der Mehrzahl. Richtig ist «ta»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze den passenden Begleiter ein.\n\nNous cherchons ______________ clés depuis une heure. (die Schlüssel von uns)",
+    "loesung": [
+     "nos"
+    ],
+    "erklaerung": "«clés» steht in der Mehrzahl; bei «nous» lautet der Begleiter «nos».",
+    "fehler": [
+     {
+      "antwort": "notre",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«notre» steht in der Einzahl; hier braucht es «nos»."
+     },
+     {
+      "antwort": "nôtres",
+      "diagnoseId": "form_falsch",
+      "feedback": "«nôtres» ist das selbständige Fürwort, kein Begleiter."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze den passenden Begleiter ein.\n\nIl a oublié ______________ écharpe dans le train. (der Schal von ihm)",
+    "loesung": [
+     "son"
+    ],
+    "erklaerung": "«écharpe» ist weiblich, beginnt aber mit einem Vokal; darum steht «son» statt «sa».",
+    "fehler": [
+     {
+      "antwort": "sa",
+      "diagnoseId": "lautung",
+      "feedback": "Vor einem Vokal steht «son», auch bei einem weiblichen Wort."
+     },
+     {
+      "antwort": "ses",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "«ses» steht in der Mehrzahl. Richtig ist «son»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfung Französisch 2022-2026 (Dis donc! 7 und 8); Texte, Sätze und Fragen eigenentwickelt"
+  },
+  "thema": "Fragen, Verneinung, Befehlsform und Begleiter",
+  "status": "review"
+ }
+]

@@ -1,0 +1,217 @@
+{
+ "fach": "textverstaendnis-sg",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Sprachprüfung Teil A, Kanton St. Gallen",
+ "quelle": "Prüfungsanforderungen und Prüfungsserien der St. Galler Aufnahmeprüfungen 2022-2026, Teil A «Fragen zum Textverständnis»",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A1",
+   "name": "Aussagen zum Text prüfen",
+   "punkte": 3,
+   "anteil": 15,
+   "beschreibung": "Sechs Aussagen, je richtig oder falsch. Wer nur ungefähr liest, verliert hier am schnellsten Punkte.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Richtig oder falsch entscheiden",
+     "lernzielId": "DST.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Stellen im Text belegen",
+     "lernzielId": "DST.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Angaben unterscheiden, die nur ähnlich klingen",
+     "lernzielId": "DST.1.03",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "A2",
+   "name": "Wortbedeutung im Text",
+   "punkte": 3,
+   "anteil": 15,
+   "beschreibung": "Zu jedem Wort stehen drei Bedeutungen bereit. Entscheidend ist die Stelle, an der das Wort steht.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Die passende von drei Bedeutungen wählen",
+     "lernzielId": "DST.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Bedeutung aus dem Zusammenhang erschliessen",
+     "lernzielId": "DST.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Wörter unterscheiden, die sich nahestehen",
+     "lernzielId": "DST.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Bildlich gebrauchte Wörter deuten",
+     "lernzielId": "DST.2.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "A3",
+   "name": "Stilmittel erkennen und deuten",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Personifikation, Vergleich, Metapher: erst die Stelle wörtlich zitieren, dann sagen, was sie bewirkt.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Eine Personifikation im Text finden",
+     "lernzielId": "DST.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Die Absicht hinter einem Stilmittel benennen",
+     "lernzielId": "DST.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Einen Vergleich auflösen: Was wird womit verglichen?",
+     "lernzielId": "DST.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Begründen, warum ein Vergleich passt",
+     "lernzielId": "DST.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Eine Metapher im Text deuten",
+     "lernzielId": "DST.3.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "A4",
+   "name": "Figuren und ihre Beweggründe",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Warum tut eine Figur, was sie tut, und warum wirkt es anders, als sie es meint?",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Die Absicht einer Figur benennen",
+     "lernzielId": "DST.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Wirkung und Absicht auseinanderhalten",
+     "lernzielId": "DST.4.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Einen Grund für ein Verhalten angeben",
+     "lernzielId": "DST.4.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.04",
+     "name": "Eine Anspielung im Text erklären",
+     "lernzielId": "DST.4.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.05",
+     "name": "Gefühle aus dem Verhalten erschliessen",
+     "lernzielId": "DST.4.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "A5",
+   "name": "Aussagen deuten und beurteilen",
+   "punkte": 2,
+   "anteil": 10,
+   "beschreibung": "Eine Figur wertet oder rät. Gefragt ist, was daran einleuchtet, mit einem Aspekt, nicht mit einer Meinung.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Eine Wertung im Text erklären",
+     "lernzielId": "DST.5.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.02",
+     "name": "Einen Ratschlag begründen",
+     "lernzielId": "DST.5.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.03",
+     "name": "Meinung und Tatsache unterscheiden",
+     "lernzielId": "DST.5.03",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "A6",
+   "name": "Den ganzen Text überblicken",
+   "punkte": 2,
+   "anteil": 10,
+   "beschreibung": "Zum Schluss eine Frage, die den ganzen Text braucht: eine Tabelle füllen oder den Titel erklären.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Zum Titel passende Stellen sammeln",
+     "lernzielId": "DST.6.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.02",
+     "name": "Figuren und ihre Anliegen ordnen",
+     "lernzielId": "DST.6.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.03",
+     "name": "Den roten Faden benennen",
+     "lernzielId": "DST.6.03",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ],
+ "bemerkung": "Teil A zählt an der Einheitsaufnahmeprüfung 20 Punkte, am Gymnasium 27. Die Gewichtung der Oberthemen ist in beiden Prüfungen dieselbe; der Baum führt die Zahlen der Einheitsaufnahmeprüfung."
+}

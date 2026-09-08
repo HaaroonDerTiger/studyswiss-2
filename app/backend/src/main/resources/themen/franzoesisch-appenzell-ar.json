@@ -1,0 +1,171 @@
+{
+ "fach": "franzoesisch-ar",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfung Gymnasium Kantonsschule Trogen",
+ "quelle": "Angaben zum Prüfungsstoff Französisch der Kantonsschule Trogen 2026/27: dis donc! 7, Unités 1-6, dis donc! 8, Unité 1, sowie die dort abgedruckte Verbenliste",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Compréhension et vocabulaire",
+   "punkte": 16,
+   "anteil": 40,
+   "beschreibung": "Leseverstehen und die Wortschatzübung zu den Unités des Lehrmittels.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "FAR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "FAR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "FAR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Wortschatz: Alltag, Schule und Freizeit",
+     "lernzielId": "FAR.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Wortschatz: Essen, Einkaufen und Wohnen",
+     "lernzielId": "FAR.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Wortschatz: Ferien, Wege und Verkehr",
+     "lernzielId": "FAR.1.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Verbes",
+   "punkte": 14,
+   "anteil": 35,
+   "beschreibung": "Die Verbenliste des Prüfungsstoffs: regelmässige Verben auf -er und rund zwanzig unregelmässige, je im Präsens und im passé composé.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Regelmässige Verben auf -er im Présent",
+     "lernzielId": "FAR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Regelmässige Verben auf -er im Passé composé",
+     "lernzielId": "FAR.2.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "avoir, être, faire und aller im Présent",
+     "lernzielId": "FAR.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "avoir, être, faire und aller im Passé composé",
+     "lernzielId": "FAR.2.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Verben mit être im Passé composé",
+     "lernzielId": "FAR.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "prendre, mettre und lire",
+     "lernzielId": "FAR.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "pouvoir, devoir und vouloir",
+     "lernzielId": "FAR.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "venir, dire, voir und savoir",
+     "lernzielId": "FAR.2.08",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Grammaire",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Die Strukturen aus dis donc! 7 und 8: Artikel, Verneinung, Fragen, Adjektive und Pronomen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Bestimmte und unbestimmte Artikel",
+     "lernzielId": "FAR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Teilungsartikel und Mengenangaben",
+     "lernzielId": "FAR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Verneinung mit ne … pas",
+     "lernzielId": "FAR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Fragen bilden",
+     "lernzielId": "FAR.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Adjektive: Angleichung und Stellung",
+     "lernzielId": "FAR.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Possessivbegleiter",
+     "lernzielId": "FAR.3.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.07",
+     "name": "Personalpronomen als Objekt",
+     "lernzielId": "FAR.3.07",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

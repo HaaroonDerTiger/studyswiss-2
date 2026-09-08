@@ -1,0 +1,4463 @@
+[
+ {
+  "templateId": "lu-grundoperationen",
+  "lernzielId": "MLU.1.01",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a-b*(c-d)"
+   }
+  ],
+  "bedingungen": [
+   "c>d",
+   "abs(wert)<200",
+   "wert!=0",
+   "wert!=a",
+   "wert!=b",
+   "wert!=c",
+   "wert!=d",
+   "b*(c-d)!=a"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\n{a} − {b} · ({c} − {d}) =",
+  "loesung": "a-b*(c-d)",
+  "gegenprobe": "a-(b*c-b*d)",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a-b)*(c-d)",
+    "feedback": "Punkt geht vor Strich: Zuerst wird die Klammer ausgerechnet und mit {b} multipliziert, erst danach von {a} abgezogen."
+   },
+   {
+    "diagnoseId": "klammer_ignoriert",
+    "ausdruck": "a-b*c-d",
+    "feedback": "Die Klammer gilt für beide Zahlen. Wer sie weglässt, zieht {d} ein zweites Mal ab, statt es innerhalb der Klammer zu verrechnen."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "a+b*(c-d)",
+    "feedback": "Vor dem Produkt steht ein Minuszeichen; das ganze Produkt wird abgezogen, nicht addiert."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechnung kommt zuerst dran?",
+   "Zuerst die Klammer, dann die Multiplikation.",
+   "Ganz zum Schluss wird von {a} abgezogen."
+  ],
+  "loesungsweg": [
+   "Klammer: {c} − {d}.",
+   "Mal {b} gerechnet.",
+   "Das Ergebnis von {a} abziehen.",
+   "Es bleibt {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-potenz-wurzel",
+  "lernzielId": "MLU.1.02",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "1.02",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "pot",
+    "typ": "formel",
+    "ausdruck": "pow(b,n)"
+   },
+   {
+    "name": "radikand",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   },
+   {
+    "name": "neg",
+    "typ": "formel",
+    "ausdruck": "1/pow(b,n)"
+   }
+  ],
+  "bedingungen": [
+   "pot<=1296",
+   "r!=b",
+   "radikand!=pot",
+   "pot!=r"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\nBerechne {b}{n:hoch} und die Quadratwurzel aus {radikand}.",
+  "felder": [
+   {
+    "name": "pot",
+    "label": "{b}{n:hoch}",
+    "ausdruck": "pow(b,n)",
+    "fehler": [
+     {
+      "diagnoseId": "mal_exponent",
+      "ausdruck": "b*n",
+      "feedback": "Eine Hochzahl bedeutet nicht mal: {b}{n:hoch} heisst, {b} genau {n}-mal mit sich selbst zu multiplizieren."
+     },
+     {
+      "diagnoseId": "ein_faktor_zu_wenig",
+      "ausdruck": "pow(b,n-1)",
+      "feedback": "Hier wurde ein Faktor zu wenig gerechnet. Die Hochzahl {n} sagt, wie viele Faktoren es sind."
+     },
+     {
+      "diagnoseId": "basis_und_exponent_vertauscht",
+      "ausdruck": "pow(n,b)",
+      "feedback": "Basis und Hochzahl sind vertauscht. Unten steht {b}, oben {n}."
+     }
+    ]
+   },
+   {
+    "name": "wurzel",
+    "label": "Quadratwurzel aus {radikand}",
+    "ausdruck": "r",
+    "fehler": [
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "radikand/2",
+      "feedback": "Die Wurzel ist nicht die Hälfte. Gesucht ist die Zahl, die mit sich selbst multipliziert {radikand} ergibt."
+     },
+     {
+      "diagnoseId": "quadriert",
+      "ausdruck": "radikand*radikand",
+      "feedback": "Das ist das Quadrat statt der Wurzel; die Rechnung läuft in die falsche Richtung."
+     },
+     {
+      "diagnoseId": "zehntel",
+      "ausdruck": "radikand/10",
+      "feedback": "Ein Zehntel hat mit der Wurzel nichts zu tun. Probiere Zahlen aus: Welche ergibt mit sich selbst {radikand}?"
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was sagt die kleine Zahl oben rechts?",
+   "Wie viele gleiche Faktoren multipliziert werden.",
+   "Die Wurzel geht den umgekehrten Weg des Quadrierens."
+  ],
+  "loesungsweg": [
+   "{b}{n:hoch} bedeutet {b} mal {b}, und das {n}-mal.",
+   "Das ergibt {pot}.",
+   "Für die Wurzel die Zahl suchen, deren Quadrat {radikand} ist.",
+   "Das ist {r}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-gleichung-lu",
+  "lernzielId": "MLU.1.11",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "1.11",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "a*x+b-c*x"
+   }
+  ],
+  "bedingungen": [
+   "a!=c",
+   "x!=0",
+   "d>0",
+   "abs(a-c)>1",
+   "abs(d)<160",
+   "x!=b",
+   "x!=d",
+   "x!=a",
+   "x!=c",
+   "d!=b"
+  ],
+  "stamm": "{name} löst die Gleichung nach x auf und macht die Probe.\n\n{a}x + {b} = {c}x + {d}",
+  "loesung": "x",
+  "gegenprobe": "(d-b)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_eine_seite",
+    "ausdruck": "(d-b)/a",
+    "feedback": "Auf beiden Seiten steht ein x. Zuerst werden sie zusammengefasst: Aus {a}x und {c}x wird ({a} − {c})x."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "(b-d)/(a-c)",
+    "feedback": "Beim Verschieben über das Gleichheitszeichen wechselt das Vorzeichen. Hier ist die Differenz verkehrt herum gebildet worden."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(d-b)/(a+c)",
+    "feedback": "Die x-Glieder stehen auf verschiedenen Seiten und werden darum voneinander abgezogen, nicht addiert."
+   }
+  ],
+  "hinweise": [
+   "Auf welcher Seite soll das x am Schluss stehen?",
+   "Ziehe {c}x auf beiden Seiten ab.",
+   "Danach die Zahlen auf die andere Seite und durch den Faktor teilen."
+  ],
+  "loesungsweg": [
+   "x-Glieder zusammenfassen: ({a} − {c})x.",
+   "Zahlen auf die andere Seite bringen.",
+   "Durch den Faktor teilen.",
+   "Probe: Beide Seiten ergeben denselben Wert bei x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-gleichung-bruch",
+  "lernzielId": "MLU.1.12",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "1.12",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -18,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "rechts",
+    "typ": "formel",
+    "ausdruck": "x/n+x/m+k"
+   }
+  ],
+  "bedingungen": [
+   "n!=m",
+   "x%(n*m)==0",
+   "x!=0",
+   "abs(rechts)<60",
+   "x!=k",
+   "x!=n",
+   "x!=m",
+   "rechts!=x",
+   "rechts!=k"
+  ],
+  "stamm": "{name} löst die Gleichung nach x auf.\n\n¹⁄{n:tief}x + ¹⁄{m:tief}x + {k} = {rechts}",
+  "loesung": "x",
+  "gegenprobe": "(rechts-k)*(n*m)/(m+n)",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(rechts-k)*(n+m)",
+    "feedback": "Zwei Brüche mit verschiedenen Nennern werden nicht addiert, indem man die Nenner zusammenzählt. Bringe beide zuerst auf denselben Nenner."
+   },
+   {
+    "diagnoseId": "konstante_vergessen",
+    "ausdruck": "rechts*(n*m)/(m+n)",
+    "feedback": "Die Zahl {k} steht auf derselben Seite wie die Brüche und muss zuerst abgezogen werden."
+   },
+   {
+    "diagnoseId": "nur_ein_bruch",
+    "ausdruck": "(rechts-k)*n",
+    "feedback": "Es sind zwei Bruchglieder, nicht eines. Zusammen ergeben sie einen grösseren Anteil von x."
+   }
+  ],
+  "hinweise": [
+   "Was macht die Gleichung einfacher, bevor du rechnest?",
+   "Beide Brüche auf den gemeinsamen Nenner {n} · {m} bringen.",
+   "Danach die Zahl {k} auf die andere Seite und durch den Faktor teilen."
+  ],
+  "loesungsweg": [
+   "{k} auf beiden Seiten abziehen.",
+   "Die Bruchglieder auf den gemeinsamen Nenner bringen.",
+   "Zusammenfassen und nach x auflösen.",
+   "Es ergibt sich x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-figurenfolge",
+  "lernzielId": "MLU.1.13",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "1.13",
+   "1.14"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "a1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "bau",
+    "typ": "text",
+    "texte": [
+     [
+      "Streichhölzern"
+     ],
+     [
+      "Plättchen"
+     ],
+     [
+      "Klötzchen"
+     ],
+     [
+      "Steinen"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Würfeln"
+     ],
+     [
+      "Stäbchen"
+     ],
+     [
+      "Quadraten"
+     ],
+     [
+      "Chips"
+     ],
+     [
+      "Perlen"
+     ],
+     [
+      "Zahnstochern"
+     ],
+     [
+      "Bausteinen"
+     ]
+    ]
+   },
+   {
+    "name": "g2",
+    "typ": "formel",
+    "ausdruck": "a1+d"
+   },
+   {
+    "name": "g3",
+    "typ": "formel",
+    "ausdruck": "a1+2*d"
+   },
+   {
+    "name": "g4",
+    "typ": "formel",
+    "ausdruck": "a1+3*d"
+   },
+   {
+    "name": "g5",
+    "typ": "formel",
+    "ausdruck": "a1+4*d"
+   },
+   {
+    "name": "g100",
+    "typ": "formel",
+    "ausdruck": "a1+99*d"
+   }
+  ],
+  "bedingungen": [
+   "a1!=d",
+   "g100<1200",
+   "g5!=g100",
+   "a1!=g5",
+   "d!=g5",
+   "g5!=100",
+   "g100!=1000"
+  ],
+  "stamm": "{name} legt eine Folge von Figuren aus {bau}. Die ersten vier Figuren brauchen {a1}, {g2}, {g3} und {g4} Stück.\n\nWie viele Stück braucht die fünfte, wie viele die hundertste Figur?",
+  "felder": [
+   {
+    "name": "g5",
+    "label": "fünfte Figur",
+    "ausdruck": "a1+4*d",
+    "fehler": [
+     {
+      "diagnoseId": "ein_schritt_zu_wenig",
+      "ausdruck": "a1+3*d",
+      "feedback": "Das ist die vierte Figur — sie steht schon in der Aufgabe. Ein Schritt fehlt noch."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "(a1+3*d)*2",
+      "feedback": "Die Folge wächst um einen festen Betrag, nicht auf das Doppelte. Vergleiche die Abstände der ersten vier Zahlen."
+     },
+     {
+      "diagnoseId": "falsche_schrittweite",
+      "ausdruck": "a1+4*(d+1)",
+      "feedback": "Die Schrittweite stimmt nicht. Bilde sie als Differenz zweier benachbarter Figuren."
+     }
+    ]
+   },
+   {
+    "name": "g100",
+    "label": "hundertste Figur",
+    "ausdruck": "a1+99*d",
+    "fehler": [
+     {
+      "diagnoseId": "hundert_schritte",
+      "ausdruck": "a1+100*d",
+      "feedback": "Von der ersten zur hundertsten Figur sind es 99 Schritte, nicht 100 — die erste ist schon da."
+     },
+     {
+      "diagnoseId": "mal_hundert",
+      "ausdruck": "a1*100",
+      "feedback": "Vervielfacht wird die Schrittweite, nicht die erste Figur."
+     },
+     {
+      "diagnoseId": "nur_schritte",
+      "ausdruck": "99*d",
+      "feedback": "Der Startwert {a1} gehört dazu; die Folge beginnt nicht bei null."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Um wie viel wächst die Folge von Figur zu Figur?",
+   "Bilde die Differenz {g2} − {a1}.",
+   "Der Term lautet {a1} + (n − 1) · {d}."
+  ],
+  "loesungsweg": [
+   "Schrittweite: {g2} − {a1} = {d}.",
+   "Fünfte Figur: {a1} + 4 · {d}.",
+   "Hundertste Figur: {a1} + 99 · {d}.",
+   "Das ergibt {g5} und {g100}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-winkel",
+  "lernzielId": "MLU.2.01",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 22,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 22,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "neben",
+    "typ": "formel",
+    "ausdruck": "180-alpha"
+   }
+  ],
+  "bedingungen": [
+   "gamma>20",
+   "gamma<130",
+   "alpha!=beta",
+   "gamma!=alpha",
+   "gamma!=beta",
+   "neben!=gamma",
+   "neben!=beta",
+   "alpha!=90",
+   "beta!=90"
+  ],
+  "stamm": "In einem Dreieck misst {name} die Winkel {alpha}° und {beta}°.\n\nBerechne den dritten Innenwinkel und den Nebenwinkel des Winkels von {alpha}°.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "dritter Innenwinkel in Grad",
+    "ausdruck": "180-alpha-beta",
+    "fehler": [
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°. Die 360° gelten im Viereck oder für eine volle Drehung."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "alpha+beta",
+      "feedback": "Das ist die Summe der beiden gemessenen Winkel. Der dritte ist das, was bis 180° fehlt."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "abs(alpha-beta)",
+      "feedback": "Die beiden Winkel werden von 180° abgezogen, nicht voneinander."
+     }
+    ]
+   },
+   {
+    "name": "neben",
+    "label": "Nebenwinkel in Grad",
+    "ausdruck": "180-alpha",
+    "fehler": [
+     {
+      "diagnoseId": "gegenwinkel",
+      "ausdruck": "alpha",
+      "feedback": "Der Scheitelwinkel ist gleich gross, der Nebenwinkel ergänzt auf 180°."
+     },
+     {
+      "diagnoseId": "mit_90",
+      "ausdruck": "90-alpha",
+      "feedback": "Auf 90° ergänzt der Komplementwinkel. Der Nebenwinkel ergänzt auf 180°."
+     },
+     {
+      "diagnoseId": "dritter_winkel",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der dritte Innenwinkel. Der Nebenwinkel gehört zum Winkel von {alpha}° und liegt ausserhalb des Dreiecks."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Dreieck?",
+   "180°. Der dritte Winkel ist der Rest.",
+   "Ein Nebenwinkel ergänzt seinen Winkel auf 180°."
+  ],
+  "loesungsweg": [
+   "Dritter Winkel: 180° − {alpha}° − {beta}° = {gamma}°.",
+   "Der Nebenwinkel gehört zum Winkel von {alpha}°.",
+   "180° − {alpha}° = {neben}°.",
+   "Zusammen mit {alpha}° ergibt er eine gestreckte Linie."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-dreieck",
+  "lernzielId": "MLU.2.02",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.02",
+   "2.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Verkehrsschild"
+     ],
+     [
+      "ein Segel"
+     ],
+     [
+      "ein Tuch"
+     ],
+     [
+      "eine Blechplatte"
+     ],
+     [
+      "ein Holzkeil"
+     ],
+     [
+      "eine Fahne"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "eine Filzform"
+     ],
+     [
+      "ein Papierdreieck"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "eine Glasscheibe"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*k"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "g>4",
+   "h>4",
+   "c<=70",
+   "g!=h",
+   "fl!=u",
+   "fl<600"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines rechtwinkligen Dreiecks. Die beiden Katheten messen {g} cm und {h} cm, die längste Seite {c} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbieren",
+      "ausdruck": "(m*m-n*n)*k*(2*m*n)*k",
+      "feedback": "Das ist die Fläche des Rechtecks mit denselben Katheten. Ein rechtwinkliges Dreieck füllt davon genau die Hälfte."
+     },
+     {
+      "diagnoseId": "mit_hypotenuse",
+      "ausdruck": "(m*m-n*n)*k*(m*m+n*n)*k/2",
+      "feedback": "In die Formel gehören die beiden Katheten, nicht die längste Seite. Sie liegt dem rechten Winkel gegenüber."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "((m*m-n*n)*k+(2*m*n)*k)/2",
+      "feedback": "Für die Fläche werden die Katheten multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "(m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k",
+    "fehler": [
+     {
+      "diagnoseId": "nur_katheten",
+      "ausdruck": "(m*m-n*n)*k+(2*m*n)*k",
+      "feedback": "Die längste Seite fehlt: Ein Dreieck hat drei Seiten, und der Umfang läuft einmal ganz herum."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*((m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k)",
+      "feedback": "Verdoppelt wird beim Umfang nichts; jede Seite kommt genau einmal vor."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2",
+      "feedback": "Das ist die Fläche in cm². Der Umfang ist die Summe der drei Seiten."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche beiden Seiten schliessen den rechten Winkel ein?",
+   "Die Katheten {g} cm und {h} cm — sie gehören in die Flächenformel.",
+   "Für den Umfang zählen alle drei Seiten."
+  ],
+  "loesungsweg": [
+   "Fläche: die beiden Katheten multiplizieren und halbieren.",
+   "{g} · {h} : 2 ergibt {fl} cm².",
+   "Umfang: alle drei Seiten addieren.",
+   "{g} + {h} + {c} = {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-trapez",
+  "lernzielId": "MLU.2.03",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.03",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Gartenbeet"
+     ],
+     [
+      "eine Blechtafel"
+     ],
+     [
+      "ein Fensterglas"
+     ],
+     [
+      "eine Holzplatte"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "eine Zeltbahn"
+     ],
+     [
+      "ein Stoffstück"
+     ],
+     [
+      "eine Bodenfliese"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "eine Kartonform"
+     ],
+     [
+      "ein Schaumstoffteil"
+     ],
+     [
+      "eine Rasenfläche"
+     ]
+    ]
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*k"
+   },
+   {
+    "name": "s",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "c+2*(m*m-n*n)*k"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "(c+c+2*(m*m-n*n)*k)*((2*m*n)*k)/2"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "c+c+2*(m*m-n*n)*k+2*((m*m+n*n)*k)"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "d>1",
+   "h>2",
+   "s<30",
+   "a<45",
+   "fl<600",
+   "fl!=u",
+   "c!=h",
+   "a!=s"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines gleichschenkligen Trapezes. Die längere parallele Seite misst {a} cm, die kürzere {c} cm, die Höhe {h} cm und jeder Schenkel {s} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "(c+c+2*(m*m-n*n)*k)*((2*m*n)*k)/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbieren",
+      "ausdruck": "(c+c+2*(m*m-n*n)*k)*((2*m*n)*k)",
+      "feedback": "Beim Trapez wird die Summe der parallelen Seiten halbiert — sonst rechnest du mit der doppelten Mittellinie."
+     },
+     {
+      "diagnoseId": "nur_lange_seite",
+      "ausdruck": "(c+2*(m*m-n*n)*k)*((2*m*n)*k)",
+      "feedback": "Beide parallelen Seiten zählen. Mit nur einer ergäbe sich ein Parallelogramm, nicht das Trapez."
+     },
+     {
+      "diagnoseId": "mit_schenkel",
+      "ausdruck": "(c+c+2*(m*m-n*n)*k)*((m*m+n*n)*k)/2",
+      "feedback": "In die Formel gehört die Höhe, nicht der Schenkel. Die Höhe steht senkrecht auf den parallelen Seiten."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "c+c+2*(m*m-n*n)*k+2*((m*m+n*n)*k)",
+    "fehler": [
+     {
+      "diagnoseId": "schenkel_einmal",
+      "ausdruck": "c+c+2*(m*m-n*n)*k+(m*m+n*n)*k",
+      "feedback": "Ein gleichschenkliges Trapez hat zwei gleich lange Schenkel; beide gehören zum Umfang."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "c+c+2*(m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k",
+      "feedback": "Die Höhe liegt innerhalb der Figur und ist keine Seite."
+     },
+     {
+      "diagnoseId": "nur_parallele",
+      "ausdruck": "c+c+2*(m*m-n*n)*k",
+      "feedback": "Die beiden Schenkel fehlen; der Umfang läuft einmal ganz um die Figur."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche zwei Seiten sind beim Trapez parallel?",
+   "Die Seiten mit {a} cm und {c} cm. Ihre Summe wird halbiert.",
+   "Zum Umfang gehören beide Schenkel, die Höhe aber nicht."
+  ],
+  "loesungsweg": [
+   "Fläche: ({a} + {c}) · {h} : 2.",
+   "Das ergibt {fl} cm².",
+   "Umfang: {a} + {c} + 2 · {s}.",
+   "Das ergibt {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-rhombus",
+  "lernzielId": "MLU.2.04",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.04",
+   "2.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Verkehrsschild"
+     ],
+     [
+      "eine Bodenplatte"
+     ],
+     [
+      "eine Wandkachel"
+     ],
+     [
+      "eine Fliese"
+     ],
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "eine Filzform"
+     ],
+     [
+      "ein Kartonstück"
+     ],
+     [
+      "ein Fensterglas"
+     ],
+     [
+      "eine Schmuckplatte"
+     ],
+     [
+      "ein Pflasterstein"
+     ],
+     [
+      "ein Anhänger"
+     ]
+    ]
+   },
+   {
+    "name": "e",
+    "typ": "formel",
+    "ausdruck": "2*(m*m-n*n)*k"
+   },
+   {
+    "name": "f",
+    "typ": "formel",
+    "ausdruck": "2*(2*m*n)*k"
+   },
+   {
+    "name": "seite",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "e*f/2"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "4*(m*m+n*n)*k"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "seite<60",
+   "e>6",
+   "f>6",
+   "e!=f",
+   "e*5>f*2",
+   "f*5>e*2",
+   "fl<3000",
+   "fl!=u"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines Rhombus mit den Diagonalen {e} cm und {f} cm.\n\nBerechne die Fläche und den Umfang. Die Seitenlänge findest du mit dem Satz des Pythagoras aus den halben Diagonalen.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "e*f/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbieren",
+      "ausdruck": "e*f",
+      "feedback": "Beim Rhombus wird das Produkt der Diagonalen halbiert; die beiden Diagonalen zerlegen ihn in vier rechtwinklige Dreiecke."
+     },
+     {
+      "diagnoseId": "mit_seite",
+      "ausdruck": "seite*seite",
+      "feedback": "Ein Rhombus ist kein Quadrat: Seite mal Seite ergibt hier zu viel, weil die Ecken schief stehen."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "(e+f)/2",
+      "feedback": "Die Diagonalen werden multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "4*(m*m+n*n)*k",
+    "fehler": [
+     {
+      "diagnoseId": "diagonalen",
+      "ausdruck": "2*(e+f)",
+      "feedback": "Der Umfang läuft über die vier Seiten, nicht über die Diagonalen."
+     },
+     {
+      "diagnoseId": "nur_eine_seite",
+      "ausdruck": "(m*m+n*n)*k",
+      "feedback": "Das ist eine einzige Seite. Ein Rhombus hat vier gleich lange."
+     },
+     {
+      "diagnoseId": "halbe_diagonalen",
+      "ausdruck": "2*(e/2+f/2)",
+      "feedback": "Die halben Diagonalen sind die Katheten; die Seite ist ihre Hypotenuse und darum länger."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "In welche Teile zerlegen die beiden Diagonalen den Rhombus?",
+   "In vier rechtwinklige Dreiecke mit den halben Diagonalen als Katheten.",
+   "Die Seite ist deren Hypotenuse; der Umfang ist ihr Vierfaches."
+  ],
+  "loesungsweg": [
+   "Fläche: {e} · {f} : 2 = {fl} cm².",
+   "Halbe Diagonalen: {e} : 2 und {f} : 2.",
+   "Seite über den Satz des Pythagoras: {seite} cm.",
+   "Umfang: 4 · {seite} = {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-kreis-lu",
+  "lernzielId": "MLU.2.06",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Brunnenrand"
+     ],
+     [
+      "ein Rundbeet"
+     ],
+     [
+      "eine Zielscheibe"
+     ],
+     [
+      "einen Deckel"
+     ],
+     [
+      "eine Sitzplatte"
+     ],
+     [
+      "ein Rondell"
+     ],
+     [
+      "einen Käselaib"
+     ],
+     [
+      "eine Trommelfläche"
+     ],
+     [
+      "ein Zifferblatt"
+     ],
+     [
+      "eine Herdplatte"
+     ],
+     [
+      "einen Springbrunnen"
+     ],
+     [
+      "ein rundes Tischblatt"
+     ]
+    ]
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   }
+  ],
+  "bedingungen": [
+   "r!=2",
+   "fl!=u",
+   "fl!=r",
+   "u!=r"
+  ],
+  "stamm": "{name} zeichnet {ding} als Kreis mit dem Radius {r} cm.\n\nGib Umfang und Fläche als Vielfaches von π an — trage also nur die Zahl vor dem π ein.",
+  "felder": [
+   {
+    "name": "u",
+    "label": "Umfang: Zahl vor π (in cm)",
+    "ausdruck": "2*r",
+    "fehler": [
+     {
+      "diagnoseId": "flaeche_statt_umfang",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Zahl für die Fläche. Der Umfang ist 2 · π · r, also das Doppelte des Radius vor dem π."
+     },
+     {
+      "diagnoseId": "nur_radius",
+      "ausdruck": "r",
+      "feedback": "Der Radius allein reicht nicht: Im Umfang steckt der Durchmesser, und der ist doppelt so lang."
+     },
+     {
+      "diagnoseId": "durchmesser_verdoppelt",
+      "ausdruck": "4*r",
+      "feedback": "Hier ist der Durchmesser noch einmal verdoppelt worden. Der Umfang ist π mal Durchmesser, also π · 2r."
+     }
+    ]
+   },
+   {
+    "name": "fl",
+    "label": "Fläche: Zahl vor π (in cm²)",
+    "ausdruck": "r*r",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*r",
+      "feedback": "Das ist die Zahl für den Umfang. In der Fläche steht r², also der Radius mit sich selbst multipliziert."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*r*r",
+      "feedback": "Beim Quadrieren wird nicht verdoppelt: r² heisst r mal r."
+     },
+     {
+      "diagnoseId": "mit_durchmesser",
+      "ausdruck": "(2*r)*(2*r)",
+      "feedback": "Hier ist mit dem Durchmesser statt mit dem Radius gerechnet worden — das ergibt die vierfache Fläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche beiden Formeln stehen für den Kreis auf dem Formelblatt?",
+   "Umfang 2 · r · π und Fläche r² · π.",
+   "Gefragt ist nur die Zahl, die vor dem π steht."
+  ],
+  "loesungsweg": [
+   "Umfang: 2 · π · {r} cm.",
+   "Vor dem π steht {u}.",
+   "Fläche: π · {r}² cm².",
+   "Vor dem π steht {fl}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-kreissektor",
+  "lernzielId": "MLU.2.07",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.07",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     9,
+     12,
+     15,
+     18,
+     24,
+     30,
+     36
+    ]
+   },
+   {
+    "name": "w",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     45,
+     60,
+     90,
+     120,
+     135,
+     150,
+     180
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Tortenstück"
+     ],
+     [
+      "ein Kuchenstück"
+     ],
+     [
+      "ein Fächer"
+     ],
+     [
+      "ein Segment eines Rondells"
+     ],
+     [
+      "ein Wegweiserfeld"
+     ],
+     [
+      "ein Stück Pizza"
+     ],
+     [
+      "ein Sektor der Zielscheibe"
+     ],
+     [
+      "ein Feld des Glücksrads"
+     ],
+     [
+      "ein Ausschnitt der Platte"
+     ],
+     [
+      "ein Blechsegment"
+     ],
+     [
+      "ein Stück Filz"
+     ],
+     [
+      "ein Papierfächer"
+     ]
+    ]
+   },
+   {
+    "name": "bogen",
+    "typ": "formel",
+    "ausdruck": "2*r*w/360"
+   },
+   {
+    "name": "flsekt",
+    "typ": "formel",
+    "ausdruck": "r*r*w/360"
+   }
+  ],
+  "bedingungen": [
+   "(2*r*w)%360==0",
+   "(r*r*w)%360==0",
+   "bogen!=flsekt",
+   "bogen>1",
+   "flsekt>1",
+   "r!=w"
+  ],
+  "stamm": "{name} schneidet aus einem Kreis mit dem Radius {r} cm einen Sektor mit dem Mittelpunktswinkel {w}°. So entsteht {ding}.\n\nGib die Bogenlänge und die Sektorfläche als Vielfaches von π an.",
+  "felder": [
+   {
+    "name": "bogen",
+    "label": "Bogenlänge: Zahl vor π (in cm)",
+    "ausdruck": "2*r*w/360",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_umfang",
+      "ausdruck": "2*r",
+      "feedback": "Das ist der ganze Kreisumfang. Der Bogen ist nur der Anteil {w}° von 360°."
+     },
+     {
+      "diagnoseId": "mit_flaechenformel",
+      "ausdruck": "r*r*w/360",
+      "feedback": "Das ist die Sektorfläche. Für den Bogen gilt der Umfang mal dem Winkelanteil."
+     },
+     {
+      "diagnoseId": "halber_anteil",
+      "ausdruck": "r*w/360",
+      "feedback": "Im Umfang steckt der Durchmesser, also 2 · r. Hier fehlt der Faktor 2."
+     }
+    ]
+   },
+   {
+    "name": "flsekt",
+    "label": "Sektorfläche: Zahl vor π (in cm²)",
+    "ausdruck": "r*r*w/360",
+    "fehler": [
+     {
+      "diagnoseId": "ganze_flaeche",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Fläche des ganzen Kreises. Der Sektor ist davon der Anteil {w}° von 360°."
+     },
+     {
+      "diagnoseId": "mit_bogenformel",
+      "ausdruck": "2*r*w/360",
+      "feedback": "Das ist die Bogenlänge. Für die Fläche gilt r² mal dem Winkelanteil."
+     },
+     {
+      "diagnoseId": "halber_kreis",
+      "ausdruck": "r*r/2",
+      "feedback": "Halbiert wird nur bei 180°. Der Anteil ergibt sich aus {w}° geteilt durch 360°."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welchen Anteil am ganzen Kreis macht {w}° aus?",
+   "{w}° von 360° — kürze diesen Bruch zuerst.",
+   "Bogen und Sektorfläche sind derselbe Anteil von Umfang und Kreisfläche."
+  ],
+  "loesungsweg": [
+   "Anteil: {w}° geteilt durch 360°.",
+   "Bogen: dieser Anteil vom Umfang 2 · π · {r}.",
+   "Fläche: derselbe Anteil von π · {r}².",
+   "Vor dem π stehen {bogen} und {flsekt}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-pythagoras-lu",
+  "lernzielId": "MLU.2.08",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.08",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "s",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Leiter an der Wand"
+     ],
+     [
+      "eine Rampe"
+     ],
+     [
+      "ein Spannseil"
+     ],
+     [
+      "ein Dachsparren"
+     ],
+     [
+      "eine Strebe am Modell"
+     ],
+     [
+      "ein Drahtseil"
+     ],
+     [
+      "eine Diagonale im Rechteck"
+     ],
+     [
+      "eine Schrägstütze"
+     ],
+     [
+      "ein Zeltseil"
+     ],
+     [
+      "eine Verstrebung"
+     ],
+     [
+      "ein schräges Brett"
+     ],
+     [
+      "eine Zugstange"
+     ]
+    ]
+   },
+   {
+    "name": "kat1",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*s"
+   },
+   {
+    "name": "kat2",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*s"
+   },
+   {
+    "name": "hyp",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*s"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "hyp<=150",
+   "kat1>5",
+   "kat2>5",
+   "kat1!=kat2",
+   "hyp!=kat1+kat2",
+   "hyp!=m",
+   "hyp!=n"
+  ],
+  "stamm": "In einem rechtwinkligen Dreieck bildet {ding} die Hypotenuse. Die beiden Katheten messen {kat1} cm und {kat2} cm.\n\nWie lang ist die Hypotenuse?",
+  "loesung": "(m*m+n*n)*s",
+  "gegenprobe": "sqrt(((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s))",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(m*m-n*n)*s+(2*m*n)*s",
+    "feedback": "Die Katheten werden nicht addiert. Erst werden ihre Quadrate addiert, und aus der Summe wird die Wurzel gezogen."
+   },
+   {
+    "diagnoseId": "ohne_wurzel",
+    "ausdruck": "((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s)",
+    "feedback": "Das ist c², also die Summe der Quadrate. Die Länge selbst ist die Wurzel daraus."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "sqrt(abs(((2*m*n)*s)*((2*m*n)*s)-((m*m-n*n)*s)*((m*m-n*n)*s)))",
+    "feedback": "Subtrahiert wird nur, wenn eine Kathete gesucht ist. Bei der Hypotenuse werden die Quadrate addiert."
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber?",
+   "Die Hypotenuse — sie ist die längste Seite.",
+   "Es gilt a² + b² = c²; ziehe zum Schluss die Wurzel."
+  ],
+  "loesungsweg": [
+   "{kat1}² und {kat2}² berechnen.",
+   "Die Quadrate addieren.",
+   "Aus der Summe die Wurzel ziehen.",
+   "Die Hypotenuse misst {hyp} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-quader",
+  "lernzielId": "MLU.2.09",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.09",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Zügelkiste"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "ein Werkzeugkasten"
+     ],
+     [
+      "ein Blumenkasten"
+     ],
+     [
+      "ein Paket"
+     ],
+     [
+      "eine Truhe"
+     ],
+     [
+      "ein Schuhkarton"
+     ],
+     [
+      "ein Wasserbecken"
+     ],
+     [
+      "ein Sandkasten"
+     ],
+     [
+      "ein Vorratsbehälter"
+     ],
+     [
+      "ein Holzkasten"
+     ],
+     [
+      "ein Transportbehälter"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*(a*b+a*c+b*c)"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "b>c",
+   "v<2000",
+   "v!=o",
+   "a!=c",
+   "o<1200"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "a*b*c",
+    "fehler": [
+     {
+      "diagnoseId": "nur_zwei_kanten",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche. Für das Volumen werden alle drei Kanten multipliziert."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+c",
+      "feedback": "Addiert ergibt sich die Kantensumme, nicht das Volumen."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(a*b+a*c+b*c)",
+      "feedback": "Das ist die Oberfläche in cm², nicht der Rauminhalt in cm³."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*(a*b+a*c+b*c)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_drei_flaechen",
+      "ausdruck": "a*b+a*c+b*c",
+      "feedback": "Ein Quader hat sechs Flächen, je zwei gleiche. Die Summe der drei verschiedenen wird darum verdoppelt."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "a*b*c",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche zählt die sechs Seitenflächen zusammen."
+     },
+     {
+      "diagnoseId": "mantel",
+      "ausdruck": "2*(a*c+b*c)",
+      "feedback": "Das ist nur der Mantel. Grund- und Deckfläche fehlen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Quader?",
+   "Sechs, je zwei gleich grosse gegenüber.",
+   "Das Volumen dagegen ist das Produkt der drei Kanten."
+  ],
+  "loesungsweg": [
+   "Volumen: {a} · {b} · {c} = {v} cm³.",
+   "Die drei verschiedenen Flächen: {a}·{b}, {a}·{c} und {b}·{c}.",
+   "Ihre Summe verdoppeln.",
+   "Oberfläche: {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-koordinaten",
+  "lernzielId": "MLU.2.11",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.11",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 2,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 2,
+    "schritt": 1
+   },
+   {
+    "name": "br",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "ho",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "formel",
+    "ausdruck": "xa+br"
+   },
+   {
+    "name": "yc",
+    "typ": "formel",
+    "ausdruck": "ya+ho"
+   }
+  ],
+  "bedingungen": [
+   "xa+br<=9",
+   "ya+ho<=9",
+   "br!=ho"
+  ],
+  "stamm": "{name} zeichnet ein Rechteck. Drei Ecken sind gegeben: A({xa}|{ya}), B({xb}|{ya}) und C({xb}|{yc}).\n\nSetze die vierte Ecke D ins Gitter.",
+  "loesung": "ya+ho",
+  "gegenprobe": "ya+(ya+ho-ya)",
+  "fehler": [
+   {
+    "diagnoseId": "gegenueber",
+    "ausdruck": "ya",
+    "feedback": "Auf dieser Höhe liegt A. Die vierte Ecke liegt gegenüber von B, also auf der Höhe von C."
+   },
+   {
+    "diagnoseId": "verschoben",
+    "ausdruck": "ya+ho+1",
+    "feedback": "Die Seiten eines Rechtecks sind paarweise gleich lang. D muss genau auf der Höhe von C liegen."
+   },
+   {
+    "diagnoseId": "gespiegelt",
+    "ausdruck": "ya-ho",
+    "feedback": "Hier ist die Höhe nach unten statt nach oben abgetragen worden."
+   }
+  ],
+  "hinweise": [
+   "Welche Eigenschaft hat ein Rechteck bei den gegenüberliegenden Seiten?",
+   "Sie sind gleich lang und parallel.",
+   "D liegt über A und links von C."
+  ],
+  "loesungsweg": [
+   "A und B liegen auf derselben Höhe.",
+   "C liegt {ho} Einheiten über B.",
+   "D muss ebenso weit über A liegen.",
+   "Also D({xa}|{yc})."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "D",
+     "label": "D"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa",
+      "yc"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "ya",
+     "text": "B"
+    },
+    {
+     "x": "xb",
+     "y": "yc",
+     "text": "C"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-punktspiegelung",
+  "lernzielId": "MLU.2.12",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "2.12",
+   "2.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": -1,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "xa!=xb",
+   "ya!=yb",
+   "abs(xa)!=abs(xb)",
+   "abs(ya)!=abs(yb)"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) am Nullpunkt.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "0-xa",
+  "gegenprobe": "(0-1)*xa",
+  "fehler": [
+   {
+    "diagnoseId": "nur_x",
+    "ausdruck": "0-xa",
+    "feedback": "Bei der Punktspiegelung am Nullpunkt wechseln beide Koordinaten das Vorzeichen, nicht nur der x-Wert."
+   },
+   {
+    "diagnoseId": "an_x_achse",
+    "ausdruck": "xa",
+    "feedback": "So ist an der x-Achse gespiegelt worden: Dort bleibt der x-Wert stehen. Am Nullpunkt wechseln beide."
+   },
+   {
+    "diagnoseId": "nicht_gespiegelt",
+    "ausdruck": "xa*1",
+    "feedback": "So bleibt der Punkt, wo er ist. Beim Spiegeln am Nullpunkt landet er genau gegenüber, gleich weit entfernt."
+   }
+  ],
+  "hinweise": [
+   "Was geschieht bei der Spiegelung am Nullpunkt mit den Koordinaten?",
+   "Beide wechseln das Vorzeichen.",
+   "Der Bildpunkt liegt auf der Geraden durch den Punkt und den Nullpunkt."
+  ],
+  "loesungsweg": [
+   "A liegt bei ({xa}|{ya}).",
+   "Beide Koordinaten wechseln das Vorzeichen.",
+   "Der Nullpunkt liegt genau in der Mitte zwischen A und A′.",
+   "Ebenso für B."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "0-xa",
+      "0-ya"
+     ],
+     [
+      "0-xb",
+      "0-yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-groessen",
+  "lernzielId": "MLU.3.01",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 125,
+    "bis": 9800,
+    "schritt": 25
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 250,
+    "bis": 9500,
+    "schritt": 25
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wanderweg"
+     ],
+     [
+      "eine Skipiste"
+     ],
+     [
+      "ein Uferweg"
+     ],
+     [
+      "ein Waldweg"
+     ],
+     [
+      "eine Rennstrecke"
+     ],
+     [
+      "ein Radweg"
+     ],
+     [
+      "ein Rundkurs"
+     ],
+     [
+      "ein Zubringer"
+     ],
+     [
+      "ein Feldweg"
+     ],
+     [
+      "ein Panoramaweg"
+     ],
+     [
+      "eine Zufahrt"
+     ],
+     [
+      "ein Verbindungsweg"
+     ]
+    ]
+   },
+   {
+    "name": "km",
+    "typ": "formel",
+    "ausdruck": "m/1000"
+   },
+   {
+    "name": "kg",
+    "typ": "formel",
+    "ausdruck": "g/1000"
+   }
+  ],
+  "bedingungen": [
+   "m%25==0",
+   "g%25==0",
+   "m!=g",
+   "m%1000!=0",
+   "g%1000!=0",
+   "km!=kg"
+  ],
+  "stamm": "Auf einem Plan steht, dass {weg} {m} m lang ist und dass unterwegs {g} g Material verteilt werden.\n\nSchreibe beide Angaben in der grösseren Einheit: die Länge in Kilometern, die Masse in Kilogramm.",
+  "felder": [
+   {
+    "name": "km",
+    "label": "Länge in km",
+    "ausdruck": "m/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "m/100",
+      "feedback": "Ein Kilometer sind 1000 Meter, nicht 100. Das Komma wandert um drei Stellen, nicht um zwei."
+     },
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "m*1000",
+      "feedback": "Von der kleineren zur grösseren Einheit wird geteilt, nicht multipliziert — die Zahl muss kleiner werden."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "m/10",
+      "feedback": "Das Komma ist nur um eine Stelle gewandert. Von Metern zu Kilometern sind es drei."
+     }
+    ]
+   },
+   {
+    "name": "kg",
+    "label": "Masse in kg",
+    "ausdruck": "g/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "g/100",
+      "feedback": "Ein Kilogramm sind 1000 Gramm. Geteilt wird durch 1000."
+     },
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "g*1000",
+      "feedback": "Beim Wechsel zur grösseren Einheit wird die Zahl kleiner, nicht grösser."
+     },
+     {
+      "diagnoseId": "wie_meter",
+      "ausdruck": "g/10",
+      "feedback": "Auch bei der Masse sind es drei Stellen: 1000 g ergeben 1 kg."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Meter sind ein Kilometer?",
+   "1000 — beim Wechsel wandert das Komma um drei Stellen.",
+   "Bei Gramm und Kilogramm gilt dieselbe Zahl."
+  ],
+  "loesungsweg": [
+   "{m} m durch 1000 teilen.",
+   "Das ergibt {km} km.",
+   "{g} g durch 1000 teilen.",
+   "Das ergibt {kg} kg."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-proportional",
+  "lernzielId": "MLU.3.02",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "einzel",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 9,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Kilogramm Äpfel"
+     ],
+     [
+      "Kilogramm Kirschen"
+     ],
+     [
+      "Meter Schnur"
+     ],
+     [
+      "Liter Farbe"
+     ],
+     [
+      "Packungen Schrauben"
+     ],
+     [
+      "Meter Kabel"
+     ],
+     [
+      "Kilogramm Reis"
+     ],
+     [
+      "Rollen Klebeband"
+     ],
+     [
+      "Meter Stoff"
+     ],
+     [
+      "Kilogramm Mehl"
+     ],
+     [
+      "Flaschen Most"
+     ],
+     [
+      "Bündel Karotten"
+     ]
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "formel",
+    "ausdruck": "einzel*k"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "einzel*m"
+   }
+  ],
+  "bedingungen": [
+   "m>k",
+   "gesamt<190",
+   "preis!=gesamt",
+   "gesamt!=m",
+   "gesamt!=k",
+   "preis!=m",
+   "einzel!=m",
+   "einzel!=k"
+  ],
+  "stamm": "{k} {ware} kosten {preis} Fr.\n\nWie viel kosten {m} {ware} zum gleichen Preis?",
+  "loesung": "preis*m/k",
+  "gegenprobe": "einzel*m",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_teilen",
+    "ausdruck": "preis*m",
+    "feedback": "Hier ist der Gesamtpreis mit {m} multipliziert worden. Zuerst muss der Preis für eine einzige Einheit berechnet werden."
+   },
+   {
+    "diagnoseId": "umgekehrt",
+    "ausdruck": "preis*k/m",
+    "feedback": "Multiplikator und Divisor sind vertauscht: geteilt wird durch die gegebene Anzahl {k}, multipliziert mit der gesuchten Anzahl {m}."
+   },
+   {
+    "diagnoseId": "additiv",
+    "ausdruck": "preis+(m-k)",
+    "feedback": "Der Preis wächst nicht um so viele Franken, wie Einheiten dazukommen. Jede zusätzliche Einheit kostet den Einzelpreis."
+   }
+  ],
+  "hinweise": [
+   "Was kostet eine einzige Einheit?",
+   "Den Gesamtpreis durch {k} teilen.",
+   "Dann mit {m} multiplizieren."
+  ],
+  "loesungsweg": [
+   "{preis} Fr. geteilt durch {k} ergibt {einzel} Fr.",
+   "Das ist der Preis für eine Einheit.",
+   "Mal {m} gerechnet.",
+   "Zusammen {gesamt} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-umgekehrt-lu",
+  "lernzielId": "MLU.3.03",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.03",
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "h",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "werk",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     36,
+     48,
+     60,
+     72,
+     96,
+     120,
+     144
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Mitarbeitende"
+     ],
+     [
+      "Helferinnen"
+     ],
+     [
+      "Maschinen"
+     ],
+     [
+      "Pumpen"
+     ],
+     [
+      "Bagger"
+     ],
+     [
+      "Drucker"
+     ],
+     [
+      "Nähmaschinen"
+     ],
+     [
+      "Öfen"
+     ],
+     [
+      "Freiwillige"
+     ],
+     [
+      "Mähdrescher"
+     ],
+     [
+      "Packroboter"
+     ],
+     [
+      "Kopiergeräte"
+     ]
+    ]
+   },
+   {
+    "name": "t1",
+    "typ": "formel",
+    "ausdruck": "werk/n1"
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "werk/n2"
+   }
+  ],
+  "bedingungen": [
+   "werk%n1==0",
+   "werk%n2==0",
+   "n1!=n2",
+   "t1!=t2",
+   "t2<50",
+   "t1<50",
+   "t2!=n2",
+   "t2!=n1",
+   "t2!=werk"
+  ],
+  "stamm": "{n1} {sache} brauchen für einen Auftrag {t1} Stunden.\n\nWie lange brauchen {n2} {sache} bei gleicher Leistung?",
+  "loesung": "werk/n2",
+  "gegenprobe": "t1*n1/n2",
+  "fehler": [
+   {
+    "diagnoseId": "proportional",
+    "ausdruck": "t1*n2/n1",
+    "feedback": "Mehr {sache} bedeuten weniger Zeit, nicht mehr. Bei umgekehrter Proportionalität bleibt das Produkt aus Anzahl und Dauer gleich."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "t1-(n2-n1)",
+    "feedback": "Die Zeit sinkt nicht um so viele Stunden, wie Einheiten dazukommen — sie wird im selben Verhältnis kleiner."
+   },
+   {
+    "diagnoseId": "gleich",
+    "ausdruck": "t1",
+    "feedback": "Die Dauer ändert sich; sonst wäre es gleichgültig, wie viele mitarbeiten."
+   }
+  ],
+  "hinweise": [
+   "Was bleibt gleich, wenn mehr Einheiten mitarbeiten?",
+   "Die gesamte Arbeit: Anzahl mal Dauer.",
+   "Rechne zuerst aus, wie lange eine einzige Einheit brauchte."
+  ],
+  "loesungsweg": [
+   "Gesamtarbeit: {n1} · {t1} = {werk} Stunden für eine Einheit.",
+   "Diese Zahl bleibt gleich.",
+   "Durch {n2} teilen.",
+   "Es bleiben {t2} Stunden."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-prozent-lu",
+  "lernzielId": "MLU.3.04",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "voll",
+    "typ": "auswahl",
+    "werte": [
+     120,
+     140,
+     160,
+     180,
+     200,
+     240,
+     280,
+     320,
+     360,
+     400,
+     480,
+     600
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     40
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Velohelm"
+     ],
+     [
+      "einen Rucksack"
+     ],
+     [
+      "einen Drucker"
+     ],
+     [
+      "ein Zelt"
+     ],
+     [
+      "ein Paar Schuhe"
+     ],
+     [
+      "ein Occasionsvelo"
+     ],
+     [
+      "einen Kopfhörer"
+     ],
+     [
+      "ein Wanderstock-Set"
+     ],
+     [
+      "eine Jacke"
+     ],
+     [
+      "einen Schlafsack"
+     ],
+     [
+      "ein Tablet"
+     ],
+     [
+      "eine Uhr"
+     ]
+    ]
+   },
+   {
+    "name": "rabatt",
+    "typ": "formel",
+    "ausdruck": "voll*p/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "voll-voll*p/100"
+   }
+  ],
+  "bedingungen": [
+   "(voll*p)%100==0",
+   "rabatt>5",
+   "neu!=voll",
+   "rabatt!=p",
+   "neu!=p",
+   "rabatt!=neu",
+   "voll!=p"
+  ],
+  "stamm": "{name} kauft {ware}. Der Laden gibt {p} % Rabatt auf den Preis von {voll} Fr.\n\nWie hoch ist der Rabatt, und wie viel ist zu bezahlen?",
+  "felder": [
+   {
+    "name": "rabatt",
+    "label": "Rabatt in Fr.",
+    "ausdruck": "voll*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "Der Prozentsatz ist keine Zahl in Franken. Erst {p} % von {voll} Fr. ergeben den Betrag."
+     },
+     {
+      "diagnoseId": "rest",
+      "ausdruck": "voll-voll*p/100",
+      "feedback": "Das ist der Betrag, der zu bezahlen bleibt, nicht der Rabatt."
+     },
+     {
+      "diagnoseId": "durch_prozent",
+      "ausdruck": "voll/p",
+      "feedback": "Geteilt wird durch 100, nicht durch den Prozentsatz. Ein Prozent ist der hundertste Teil."
+     }
+    ]
+   },
+   {
+    "name": "neu",
+    "label": "zu bezahlen in Fr.",
+    "ausdruck": "voll-voll*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "rabatt_statt_preis",
+      "ausdruck": "voll*p/100",
+      "feedback": "Das ist der Rabatt. Zu bezahlen ist der ursprüngliche Preis minus dieser Betrag."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "voll+voll*p/100",
+      "feedback": "Ein Rabatt macht den Preis kleiner, nicht grösser."
+     },
+     {
+      "diagnoseId": "voller_preis",
+      "ausdruck": "voll",
+      "feedback": "Das ist der Preis ohne Rabatt; der Abzug fehlt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl entspricht 100 %?",
+   "Der Preis von {voll} Fr.",
+   "Ein Prozent ist der hundertste Teil davon."
+  ],
+  "loesungsweg": [
+   "Ein Prozent: {voll} Fr. geteilt durch 100.",
+   "Mal {p} ergibt den Rabatt {rabatt} Fr.",
+   "Vom Preis abziehen.",
+   "Zu bezahlen sind {neu} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-zins",
+  "lernzielId": "MLU.3.05",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.05",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     4000,
+     5000,
+     6000,
+     8000,
+     10000,
+     12000,
+     15000,
+     20000,
+     24000,
+     30000
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "mon",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     6,
+     8,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "zweck",
+    "typ": "text",
+    "texte": [
+     [
+      "für eine Ausbildung"
+     ],
+     [
+      "für einen Umbau"
+     ],
+     [
+      "für ein Occasionsauto"
+     ],
+     [
+      "für eine Werkstatt"
+     ],
+     [
+      "für eine Küche"
+     ],
+     [
+      "für eine Reise"
+     ],
+     [
+      "für einen Anhänger"
+     ],
+     [
+      "für eine Solaranlage"
+     ],
+     [
+      "für ein Instrument"
+     ],
+     [
+      "für eine Wärmepumpe"
+     ],
+     [
+      "für einen Laden"
+     ],
+     [
+      "für eine Ausrüstung"
+     ]
+    ]
+   },
+   {
+    "name": "jahr",
+    "typ": "formel",
+    "ausdruck": "k*p/100"
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "k*p*mon/(100*12)"
+   }
+  ],
+  "bedingungen": [
+   "(k*p)%100==0",
+   "(k*p*mon)%1200==0",
+   "jahr!=teil",
+   "mon!=12",
+   "teil>20",
+   "jahr!=p",
+   "teil!=p",
+   "teil!=mon"
+  ],
+  "stamm": "{name} nimmt {zweck} einen Kredit von {k} Fr. auf. Der Zinssatz beträgt {p} %.\n\nWie hoch ist der Zins für ein ganzes Jahr, und wie hoch ist er für {mon} Monate?",
+  "felder": [
+   {
+    "name": "jahr",
+    "label": "Jahreszins in Fr.",
+    "ausdruck": "k*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "durch_prozent",
+      "ausdruck": "k/p",
+      "feedback": "Geteilt wird durch 100, nicht durch den Zinssatz: Der Zins ist {p} Hundertstel des Kapitals."
+     },
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "Der Zinssatz ist eine Prozentzahl, kein Betrag in Franken."
+     },
+     {
+      "diagnoseId": "kapital_plus_zins",
+      "ausdruck": "k+k*p/100",
+      "feedback": "Das ist das Kapital samt Zins. Gefragt ist nur der Zins."
+     }
+    ]
+   },
+   {
+    "name": "teil",
+    "label": "Zins für {mon} Monate in Fr.",
+    "ausdruck": "k*p*mon/(100*12)",
+    "fehler": [
+     {
+      "diagnoseId": "jahreszins",
+      "ausdruck": "k*p/100",
+      "feedback": "Das ist der Zins für zwölf Monate. Für {mon} Monate ist es nur der entsprechende Anteil."
+     },
+     {
+      "diagnoseId": "durch_monate",
+      "ausdruck": "k*p/(100*mon)",
+      "feedback": "Der Jahreszins wird durch 12 geteilt und mit {mon} multipliziert, nicht einfach durch {mon} geteilt."
+     },
+     {
+      "diagnoseId": "mal_monate",
+      "ausdruck": "k*p*mon/100",
+      "feedback": "Hier fehlt die Division durch 12. Der Zins für {mon} Monate ist kleiner als der Jahreszins."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet ein Zinssatz von {p} %?",
+   "Auf 100 Fr. Kapital fallen {p} Fr. Zins im Jahr an.",
+   "Für {mon} Monate ist es der Anteil {mon} von 12."
+  ],
+  "loesungsweg": [
+   "Jahreszins: {k} · {p} : 100 = {jahr} Fr.",
+   "Ein Monat ist ein Zwölftel davon.",
+   "Mal {mon} gerechnet.",
+   "Der Zins für {mon} Monate beträgt {teil} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-lineare-funktion",
+  "lernzielId": "MLU.3.06",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.06",
+   "3.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "start",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     18,
+     20,
+     24,
+     25,
+     30,
+     36
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "tmin",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Eine Kerze"
+     ],
+     [
+      "Ein Teelicht"
+     ],
+     [
+      "Eine Wachssäule"
+     ],
+     [
+      "Eine Stumpenkerze"
+     ],
+     [
+      "Eine Altarkerze"
+     ],
+     [
+      "Eine Wachsfackel"
+     ],
+     [
+      "Eine Bienenwachskerze"
+     ],
+     [
+      "Eine Tafelkerze"
+     ],
+     [
+      "Eine Duftkerze"
+     ],
+     [
+      "Eine Stundenkerze"
+     ],
+     [
+      "Eine Gartenfackel"
+     ],
+     [
+      "Eine Wachsrolle"
+     ]
+    ]
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "start-v*tmin"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "start/v"
+   }
+  ],
+  "bedingungen": [
+   "start%v==0",
+   "rest>2",
+   "dauer<40",
+   "dauer!=rest",
+   "tmin!=v",
+   "rest!=start",
+   "dauer!=start",
+   "rest!=tmin",
+   "dauer!=tmin"
+  ],
+  "stamm": "{ding} ist zu Beginn {start} cm hoch und brennt gleichmässig um {v} cm pro Minute ab.\n\nWie hoch ist sie nach {tmin} Minuten, und nach wie vielen Minuten ist sie ganz abgebrannt?",
+  "felder": [
+   {
+    "name": "rest",
+    "label": "Höhe nach {tmin} Minuten in cm",
+    "ausdruck": "start-v*tmin",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "start+v*tmin",
+      "feedback": "Die Kerze wird kürzer, nicht länger. Der Abbrand wird abgezogen."
+     },
+     {
+      "diagnoseId": "nur_abbrand",
+      "ausdruck": "v*tmin",
+      "feedback": "Das ist, was abgebrannt ist. Gefragt ist, was übrig bleibt."
+     },
+     {
+      "diagnoseId": "ohne_geschwindigkeit",
+      "ausdruck": "start-tmin",
+      "feedback": "Pro Minute brennt die Kerze {v} cm ab, nicht einen Zentimeter."
+     }
+    ]
+   },
+   {
+    "name": "dauer",
+    "label": "Brenndauer in Minuten",
+    "ausdruck": "start/v",
+    "fehler": [
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "start*v",
+      "feedback": "Geteilt wird die Höhe durch die Abbrandgeschwindigkeit; multipliziert ergäbe sich eine viel zu grosse Zahl."
+     },
+     {
+      "diagnoseId": "umgekehrt",
+      "ausdruck": "v/start",
+      "feedback": "Der Bruch steht auf dem Kopf: Wie oft passt {v} cm in {start} cm?"
+     },
+     {
+      "diagnoseId": "minus",
+      "ausdruck": "start-v",
+      "feedback": "Zentimeter minus Zentimeter pro Minute ergibt keine Zeit. Hier wird geteilt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viel ist nach einer Minute abgebrannt?",
+   "{v} cm. Nach {tmin} Minuten entsprechend mehr.",
+   "Ganz abgebrannt ist sie, wenn die ganzen {start} cm weg sind."
+  ],
+  "loesungsweg": [
+   "Abbrand in {tmin} Minuten: {v} · {tmin}.",
+   "Von {start} cm abziehen: {rest} cm.",
+   "Für die Brenndauer {start} durch {v} teilen.",
+   "Nach {dauer} Minuten ist die Kerze weg."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-mittelwert",
+  "lernzielId": "MLU.3.07",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.07",
+   "3.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "z",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     24,
+     25,
+     28,
+     30,
+     32,
+     35,
+     36,
+     40
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "verkaufte Billette"
+     ],
+     [
+      "gezählte Velos"
+     ],
+     [
+      "ausgeliehene Bücher"
+     ],
+     [
+      "gemeldete Anmeldungen"
+     ],
+     [
+      "verkaufte Kuchenstücke"
+     ],
+     [
+      "gezählte Vögel"
+     ],
+     [
+      "belegte Plätze"
+     ],
+     [
+      "abgegebene Zettel"
+     ],
+     [
+      "gesammelte Flaschen"
+     ],
+     [
+      "gemessene Regentage"
+     ],
+     [
+      "gezählte Fahrgäste"
+     ],
+     [
+      "gelöste Aufgaben"
+     ]
+    ]
+   },
+   {
+    "name": "fuenfter",
+    "typ": "formel",
+    "ausdruck": "5*z-(a+b+c+d)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "c!=d",
+   "a!=c",
+   "b!=d",
+   "a!=d",
+   "fuenfter>8",
+   "fuenfter<60",
+   "fuenfter!=a",
+   "fuenfter!=b",
+   "fuenfter!=c",
+   "fuenfter!=d",
+   "fuenfter!=z",
+   "(a+b+c+d)%4!=0"
+  ],
+  "stamm": "{name} zählt an vier Tagen {sache}: {a}, {b}, {c} und {d}.\n\nWie viele müssen es am fünften Tag sein, damit der Durchschnitt aller fünf Tage genau {z} beträgt?",
+  "loesung": "5*z-(a+b+c+d)",
+  "gegenprobe": "(z-a)+(z-b)+(z-c)+(z-d)+z",
+  "fehler": [
+   {
+    "diagnoseId": "faktor_vier",
+    "ausdruck": "4*z-(a+b+c+d)",
+    "feedback": "Der Durchschnitt wird über fünf Tage gebildet. Die Gesamtzahl muss darum fünfmal {z} betragen."
+   },
+   {
+    "diagnoseId": "mittel_der_vier",
+    "ausdruck": "(a+b+c+d)/4",
+    "feedback": "Das ist der Durchschnitt der ersten vier Tage. Gefragt ist, was der fünfte beitragen muss."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "z-(a+b+c+d)/4",
+    "feedback": "Hier ist nur der Abstand zwischen bisherigem und gewünschtem Durchschnitt gerechnet. Der fünfte Tag muss diesen Abstand für alle fünf Tage ausgleichen."
+   }
+  ],
+  "hinweise": [
+   "Wie gross muss die Summe aller fünf Tage sein?",
+   "Fünfmal der gewünschte Durchschnitt.",
+   "Davon die vier bekannten Zahlen abziehen."
+  ],
+  "loesungsweg": [
+   "Gesamtzahl für den Durchschnitt {z}: 5 · {z}.",
+   "Die vier bekannten Zahlen addieren.",
+   "Die Summe von der Gesamtzahl abziehen.",
+   "Am fünften Tag müssen es {fuenfter} sein."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lu-wahrscheinlichkeit",
+  "lernzielId": "MLU.3.08",
+  "fach": "mathematik-lu",
+  "unterthemen": [
+   "3.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Jan"
+     ],
+     [
+      "Sarina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Simon"
+     ],
+     [
+      "Ramona"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "rot",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "blau",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "gruen",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "behaelter",
+    "typ": "text",
+    "texte": [
+     [
+      "einer Schachtel"
+     ],
+     [
+      "einem Beutel"
+     ],
+     [
+      "einer Dose"
+     ],
+     [
+      "einem Sack"
+     ],
+     [
+      "einer Kiste"
+     ],
+     [
+      "einem Korb"
+     ],
+     [
+      "einer Trommel"
+     ],
+     [
+      "einem Glas"
+     ],
+     [
+      "einer Urne"
+     ],
+     [
+      "einem Etui"
+     ],
+     [
+      "einer Truhe"
+     ],
+     [
+      "einem Becher"
+     ]
+    ]
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "rot+blau+gruen"
+   },
+   {
+    "name": "p",
+    "typ": "formel",
+    "ausdruck": "rot/(rot+blau+gruen)"
+   }
+  ],
+  "bedingungen": [
+   "rot!=blau",
+   "blau!=gruen",
+   "rot!=gruen",
+   "total<25",
+   "total>8",
+   "p<0.5",
+   "rot!=total",
+   "ggt(rot,total)==1"
+  ],
+  "stamm": "In {behaelter} liegen {rot} rote, {blau} blaue und {gruen} grüne Kugeln. {name} zieht eine Kugel, ohne hinzuschauen.\n\nWie gross ist die Wahrscheinlichkeit, eine rote zu ziehen? Gib sie als gekürzten Bruch an.",
+  "loesung": "rot/(rot+blau+gruen)",
+  "gegenprobe": "1-(blau+gruen)/(rot+blau+gruen)",
+  "fehler": [
+   {
+    "diagnoseId": "gegen_rest",
+    "ausdruck": "rot/(blau+gruen)",
+    "feedback": "Im Nenner stehen alle Kugeln, auch die roten. Sonst vergleichst du rot mit dem Rest statt mit dem Ganzen."
+   },
+   {
+    "diagnoseId": "umgekehrt",
+    "ausdruck": "(blau+gruen)/(rot+blau+gruen)",
+    "feedback": "Das ist die Wahrscheinlichkeit, keine rote zu ziehen. Zusammen ergeben die beiden Werte 1."
+   },
+   {
+    "diagnoseId": "nur_farben",
+    "ausdruck": "1/3",
+    "feedback": "Es gibt zwar drei Farben, aber nicht gleich viele Kugeln je Farbe. Gezählt werden die Kugeln, nicht die Farben."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kugeln liegen insgesamt im Behälter?",
+   "{total}. Das ist der Nenner.",
+   "Im Zähler steht die Anzahl der günstigen Fälle."
+  ],
+  "loesungsweg": [
+   "Insgesamt {total} Kugeln.",
+   "Davon sind {rot} rot.",
+   "Wahrscheinlichkeit: {rot} von {total}.",
+   "Gekürzt ergibt das {p:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

@@ -1,0 +1,27 @@
+# Statische Analyse. Was hier steht, ist der Ersatz fuer die Regeln, die
+# `dart_pruefen.py` ohne Analyzer nur naeherungsweise nachbildet — sobald ein
+# Flutter-SDK da ist, faengt `flutter analyze` mehr davon ab.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # Fehlende Uebersetzungen und ungenutzte Importe sollen den Bau anhalten,
+    # nicht nur eine Zeile ins Protokoll schreiben.
+    unused_import: error
+    unused_local_variable: error
+    dead_code: error
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+
+linter:
+  rules:
+    # Die Modelle sind von Hand geschrieben (kein Codegen, siehe §5.1).
+    # `const` und `final` halten sie unveraenderlich, ohne dass jemand
+    # daran denken muss.
+    prefer_const_constructors: true
+    prefer_final_locals: true
+    # Kein `print` in der App: Was ein Kind sieht, steht auf dem Screen;
+    # was das Team sieht, gehoert ins Backend-Protokoll.
+    avoid_print: true

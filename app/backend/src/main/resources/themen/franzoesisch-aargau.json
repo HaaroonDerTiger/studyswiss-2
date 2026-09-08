@@ -1,0 +1,131 @@
+{
+ "fach": "franzoesisch-ag",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfung an das Gymnasium Aargau",
+ "quelle": "Merkblatt «Aufnahmeprüfung an das Gymnasium Aargau» sowie die Französischprüfungen der Mittelschulen Aargau 2023 und 2024",
+ "punkteTotal": 54,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Compréhension de texte",
+   "punkte": 18,
+   "anteil": 33,
+   "beschreibung": "Fragen zu einem Lesetext von 400 bis 600 Wörtern, beantwortet auf Französisch.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "FAG.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "FAG.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Fragen zum Text in der Zielsprache beantworten",
+     "lernzielId": "FAG.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Unbekannte Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "FAG.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Aussagen als richtig, falsch oder nicht genannt einordnen",
+     "lernzielId": "FAG.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Vocabulaire et grammaire",
+   "punkte": 36,
+   "anteil": 67,
+   "beschreibung": "Der grösste Teil der Prüfung: Wortschatz und Grammatik, angewendet in Sätzen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Zeitformen der Gegenwart",
+     "lernzielId": "FAG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Zeitformen der Vergangenheit",
+     "lernzielId": "FAG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Zukunft ausdrücken",
+     "lernzielId": "FAG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Fragen und Verneinung bilden",
+     "lernzielId": "FAG.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Pronomen richtig einsetzen",
+     "lernzielId": "FAG.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Adjektive und Adverbien, Steigerung",
+     "lernzielId": "FAG.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Präpositionen und feste Wendungen",
+     "lernzielId": "FAG.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Satzbau und Bindewörter",
+     "lernzielId": "FAG.2.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.09",
+     "name": "Wortschatz: Alltag und Freizeit",
+     "lernzielId": "FAG.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Wortschatz: Schule, Beruf und Zukunft",
+     "lernzielId": "FAG.2.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.11",
+     "name": "Wortschatz: Umwelt, Medien und Gesellschaft",
+     "lernzielId": "FAG.2.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.12",
+     "name": "Wortbildung und Wortfamilien",
+     "lernzielId": "FAG.2.12",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

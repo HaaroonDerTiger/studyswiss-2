@@ -1,0 +1,605 @@
+[
+ {
+  "templateId": "wortfamilie-einsetzen",
+  "lernzielId": "D2.1.01",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "1.01",
+   "1.02"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Welche Wortart wird gesucht. Ein Nomen, ein Verb oder ein Adjektiv? Der Satz verrät es.",
+   "Alle gesuchten Wörter gehören zur selben Wortfamilie: Sie haben denselben Wortstamm.",
+   "Probiere Vorsilben durch: be-, ver-, ent-, er-, zer-. Eine davon passt."
+  ],
+  "loesungsweg": [
+   "Wörter einer Wortfamilie teilen den Wortstamm.",
+   "Bestimme zuerst, welche Wortart in die Lücke gehört.",
+   "Prüfe dann, welche Vor- oder Nachsilbe den passenden Sinn ergibt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wortfamilie «binden»\n\nDie Sanitäterin musste den verletzten Arm ___.",
+    "loesung": [
+     "verbinden"
+    ],
+    "erklaerung": "Das Verb «verbinden» meint hier das Anlegen eines Verbands. Dieselbe Wortfamilie, andere Vorsilbe.",
+    "fehler": [
+     {
+      "antwort": "binden",
+      "diagnoseId": "vorsilbe_fehlt",
+      "feedback": "«Binden» allein passt nicht zum Verletzten. Die Vorsilbe «ver-» macht daraus die Handlung am Menschen: einen Verband anlegen."
+     },
+     {
+      "antwort": "anbinden",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«Anbinden» heisst «an etwas festmachen» Das tut man mit einem Hund, nicht mit einem Arm. Prüfe bei jeder Vorsilbe, ob der Sinn stimmt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «binden»\n\nDie beiden Länder gingen ein ___ ein.",
+    "loesung": [
+     "Bündnis"
+    ],
+    "erklaerung": "Das Nomen «Bündnis» gehört zur Wortfamilie: Wer sich verbündet, bindet sich aneinander.",
+    "fehler": [
+     {
+      "antwort": "Bindung",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Bindung» gibt es, passt hier aber nicht: Man geht kein «Bindung» ein. Zur festen Wendung «ein … eingehen» gehört das Wort «Bündnis»."
+     },
+     {
+      "antwort": "Verbindung",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Eine Verbindung eingehen» sagt man von Personen oder Stoffen. Zwischen Ländern heisst es «ein Bündnis eingehen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «fahren»\n\nDie ___ dauerte drei Stunden.",
+    "loesung": [
+     "Fahrt"
+    ],
+    "erklaerung": "Das Nomen «Fahrt» beschreibt den Vorgang des Fahrens.",
+    "fehler": [
+     {
+      "antwort": "Fahrer",
+      "diagnoseId": "person_statt_vorgang",
+      "feedback": "«Fahrer» ist die Person. Der Satz sagt «Die ___ dauerte» Gesucht ist der Vorgang, nicht wer ihn macht."
+     },
+     {
+      "antwort": "Fahrzeug",
+      "diagnoseId": "person_statt_vorgang",
+      "feedback": "Ein Fahrzeug dauert nicht. Gesucht ist etwas, das eine Zeit lang dauern kann, also der Vorgang."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «sprechen»\n\nNach dem Streit suchten sie das ___ miteinander.",
+    "loesung": [
+     "Gespräch"
+    ],
+    "erklaerung": "Das Nomen «Gespräch» gehört zur Wortfamilie «sprechen», mit Umlaut und der Vorsilbe «Ge-».",
+    "fehler": [
+     {
+      "antwort": "Sprache",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Sprache» ist das System, in dem man spricht. Deutsch, Französisch. Gesucht ist das, was zwei Menschen miteinander führen."
+     },
+     {
+      "antwort": "Spruch",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "Ein «Spruch» ist ein einzelner Satz. Nach einem Streit sucht man den Austausch, also das Gespräch."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «lesen»\n\nDas Buch war gut ___.",
+    "loesung": [
+     "lesbar"
+    ],
+    "erklaerung": "Die Nachsilbe «-bar» macht aus dem Verb ein Adjektiv: etwas, das sich lesen lässt.",
+    "fehler": [
+     {
+      "antwort": "gelesen",
+      "diagnoseId": "partizip_statt_adjektiv",
+      "feedback": "«Gut gelesen» hiesse, jemand hat es vorgetragen. Gesucht ist eine Eigenschaft des Buches. Dafür braucht es die Nachsilbe «-bar»."
+     },
+     {
+      "antwort": "leserlich",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Leserlich» beschreibt die Schrift, nicht den Text. Ein Buch ist gedruckt und daher immer leserlich; gemeint ist, dass man es gut lesen kann."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «ziehen»\n\nDer Umzug in die neue Wohnung war ein grosser ___.",
+    "loesung": [
+     "Aufwand"
+    ],
+    "erklaerung": "Achtung: «Aufwand» gehört nicht zur Wortfamilie «ziehen». Die Wortfamilie hilft beim Suchen, aber am Ende muss der Satz stimmen, nicht jede Lücke lässt sich aus ihr füllen.",
+    "fehler": [
+     {
+      "antwort": "Zug",
+      "diagnoseId": "wortfamilie_erzwungen",
+      "feedback": "«Ein grosser Zug» heisst etwas anderes. Ein Schluck oder ein Eisenbahnzug. Prüfe immer, ob dein Wort im Satz natürlich klingt."
+     },
+     {
+      "antwort": "Auszug",
+      "diagnoseId": "wortfamilie_erzwungen",
+      "feedback": "«Auszug» gehört zur Wortfamilie, meint aber das Verlassen einer Wohnung. Der Satz spricht vom Ganzen, und dafür passt kein Wort aus dieser Familie."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «trinken»\n\nAn der Feier gab es reichlich ___.",
+    "loesung": [
+     "Getränke",
+     "Getränk"
+    ],
+    "erklaerung": "Das Nomen «Getränk» wird mit der Vorsilbe «Ge-» aus dem Verb gebildet.",
+    "fehler": [
+     {
+      "antwort": "Trinker",
+      "diagnoseId": "person_statt_vorgang",
+      "feedback": "«Trinker» sind Personen. «Es gab reichlich Trinker» sagt etwas ganz anderes als gemeint."
+     },
+     {
+      "antwort": "Trunk",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Trunk» gibt es, wirkt aber altertümlich und steht meist im Singular. Das übliche Wort ist «Getränke»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «arbeiten»\n\nSie ist seit einem Jahr ___.",
+    "loesung": [
+     "arbeitslos"
+    ],
+    "erklaerung": "Die Nachsilbe «-los» heisst «ohne»: ohne Arbeit.",
+    "fehler": [
+     {
+      "antwort": "arbeitsam",
+      "diagnoseId": "nachsilbe_verwechselt",
+      "feedback": "«Arbeitsam» heisst «fleissig» Fast das Gegenteil. Die Nachsilbe «-sam» und «-los» ziehen in verschiedene Richtungen."
+     },
+     {
+      "antwort": "unarbeitend",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "Dieses Wort gibt es nicht. Für «ohne etwas» nimmt das Deutsche die Nachsilbe «-los», nicht die Vorsilbe «un-» am Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «zählen»\n\nDie ___ der Stimmen dauerte bis Mitternacht.",
+    "loesung": [
+     "Auszählung",
+     "Zählung"
+    ],
+    "erklaerung": "Aus dem Verb wird mit der Nachsilbe «-ung» ein Nomen für den Vorgang.",
+    "fehler": [
+     {
+      "antwort": "Zahl",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Zahl» ist das Ergebnis, nicht der Vorgang. Der Satz sagt «dauerte», also ist der Vorgang gemeint."
+     },
+     {
+      "antwort": "Erzählung",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«Erzählung» klingt ähnlich, gehört aber zu «erzählen» und meint eine Geschichte. Die Vorsilbe verändert die Bedeutung völlig."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «schliessen»\n\nAm ___ des Aufsatzes steht deine eigene Meinung.",
+    "loesung": [
+     "Schluss"
+    ],
+    "erklaerung": "Das Nomen «Schluss» gehört zu «schliessen», mit verändertem Stammvokal.",
+    "fehler": [
+     {
+      "antwort": "Schliessung",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Schliessung» meint das Zumachen eines Betriebs oder Gebäudes. Der letzte Teil eines Textes heisst «Schluss»."
+     },
+     {
+      "antwort": "Abschluss",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«Abschluss» gibt es, aber im Aufsatz heisst der letzte Teil «Schlussteil» oder kurz «Schluss» Das ist der Fachbegriff der Prüfung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «hoch»\n\nDie ___ des Turms beträgt zweiundvierzig Meter.",
+    "loesung": [
+     "Höhe"
+    ],
+    "erklaerung": "Aus dem Adjektiv «hoch» wird mit Umlaut das Nomen «Höhe».",
+    "fehler": [
+     {
+      "antwort": "Hochheit",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "Dieses Wort gibt es nicht. Bei Adjektiven wie hoch, tief, breit wird das Nomen mit Umlaut gebildet: Höhe, Tiefe, Breite."
+     },
+     {
+      "antwort": "Erhöhung",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«Erhöhung» meint das Höhermachen, nicht das Mass. Gefragt ist, wie hoch der Turm ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «denken»\n\nSie schenkte ihm ein Foto als ___.",
+    "loesung": [
+     "Andenken"
+    ],
+    "erklaerung": "«Andenken» ist ein Nomen aus «denken» mit der Vorsilbe «an-»: etwas, das an jemanden erinnert.",
+    "fehler": [
+     {
+      "antwort": "Gedanke",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "Ein «Gedanke» ist etwas im Kopf. Man kann ihn nicht schenken. Gesucht ist ein Gegenstand zum Erinnern."
+     },
+     {
+      "antwort": "Bedenken",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«Bedenken» sind Zweifel. Die Vorsilbe entscheidet: «an-» erinnert, «be-» zweifelt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wortfamilie «fliegen»\n\nDer ___ nach Zürich dauert eine Stunde.",
+    "loesung": [
+     "Flug"
+    ],
+    "erklaerung": "Das Nomen «Flug» wird aus «fliegen» mit verändertem Stammvokal gebildet.",
+    "fehler": [
+     {
+      "antwort": "Flieger",
+      "diagnoseId": "person_statt_vorgang",
+      "feedback": "Ein «Flieger» ist das Flugzeug oder die Pilotin. Der Satz sagt «dauert» Gesucht ist der Vorgang."
+     },
+     {
+      "antwort": "Flügel",
+      "diagnoseId": "falsche_ableitung",
+      "feedback": "«Flügel» gehört zur selben Wortfamilie, ist aber ein Körperteil oder Bauteil und kann nicht dauern."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "oberbegriff-finden",
+  "lernzielId": "D2.1.07",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "1.07",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Welches Wort steht über allen anderen. Was haben sie gemeinsam?",
+   "Der Oberbegriff muss auf jedes einzelne Wort passen, nicht nur auf die meisten.",
+   "Ist ein Wort dabei, das nicht zur Gruppe gehört? Dann prüfe die Gruppe nochmals."
+  ],
+  "loesungsweg": [
+   "Ein Oberbegriff fasst mehrere Wörter zusammen.",
+   "Setze die Probe an: «Ein Stuhl ist ein Möbelstück» muss für jedes Wort stimmen.",
+   "Zu eng ist genauso falsch wie zu weit."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nStuhl · Tisch · Schrank · Kommode",
+    "optionen": [
+     "Möbel",
+     "Holz",
+     "Einrichtung",
+     "Zimmer"
+    ],
+    "loesung": [
+     "Möbel"
+    ],
+    "erklaerung": "Alle vier sind Möbelstücke. Der Oberbegriff passt auf jedes einzelne Wort.",
+    "fehler": [
+     {
+      "antwort": "Holz",
+      "diagnoseId": "material_statt_art",
+      "feedback": "Holz ist das Material, aus dem sie gemacht sein können, aber ein Schrank aus Metall bleibt ein Möbelstück. Der Oberbegriff sagt, was etwas ist, nicht woraus."
+     },
+     {
+      "antwort": "Zimmer",
+      "diagnoseId": "ort_statt_art",
+      "feedback": "Ein Zimmer ist der Ort, an dem die Möbel stehen. Ein Stuhl ist kein Zimmer. Die Probe «Ein Stuhl ist ein Zimmer» scheitert."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nZange · Hammer · Schraubenzieher · Säge",
+    "optionen": [
+     "Werkzeug",
+     "Metall",
+     "Werkstatt",
+     "Schraube"
+    ],
+    "loesung": [
+     "Werkzeug"
+    ],
+    "erklaerung": "Alle vier sind Werkzeuge: Gegenstände, mit denen man arbeitet.",
+    "fehler": [
+     {
+      "antwort": "Werkstatt",
+      "diagnoseId": "ort_statt_art",
+      "feedback": "Die Werkstatt ist der Ort. Ein Hammer ist kein Ort, sondern ein Gegenstand."
+     },
+     {
+      "antwort": "Schraube",
+      "diagnoseId": "nebenglied_statt_oberbegriff",
+      "feedback": "Eine Schraube gehört in dieselbe Umgebung, ist aber selbst kein Oberbegriff. Sie ist ein weiteres Ding auf derselben Ebene."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nTrauer · Wut · Scham · Neid",
+    "optionen": [
+     "Gefühl",
+     "Gedanke",
+     "Charakter",
+     "Streit"
+    ],
+    "loesung": [
+     "Gefühl"
+    ],
+    "erklaerung": "Alle vier sind Gefühle. Etwas, das man empfindet und nicht denkt.",
+    "fehler": [
+     {
+      "antwort": "Gedanke",
+      "diagnoseId": "nachbarbegriff",
+      "feedback": "Gedanken denkt man, Gefühle empfindet man. Wut ist kein Gedanke, auch wenn beides im Kopf stattfindet."
+     },
+     {
+      "antwort": "Charakter",
+      "diagnoseId": "zu_weit",
+      "feedback": "Der Charakter ist die dauerhafte Art eines Menschen. Wut ist vorübergehend. Das ist ein Gefühl, keine Charaktereigenschaft."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nGeige · Kontrabass · Cello · Bratsche",
+    "optionen": [
+     "Streichinstrumente",
+     "Musikinstrumente",
+     "Orchester",
+     "Musik"
+    ],
+    "loesung": [
+     "Streichinstrumente"
+    ],
+    "erklaerung": "Alle vier werden mit einem Bogen gestrichen. «Musikinstrumente» wäre zwar auch richtig, aber zu weit. Es schlösse Trompete und Klavier mit ein.",
+    "fehler": [
+     {
+      "antwort": "Musikinstrumente",
+      "diagnoseId": "zu_weit",
+      "feedback": "Das stimmt zwar, ist aber zu weit gefasst: Auch ein Klavier wäre eines. Gesucht ist der engste Oberbegriff, der genau diese vier zusammenfasst."
+     },
+     {
+      "antwort": "Orchester",
+      "diagnoseId": "ganzes_statt_oberbegriff",
+      "feedback": "Ein Orchester besteht aus Instrumenten, ist aber selbst keines. Das ist eine Teil-Ganzes-Beziehung, kein Oberbegriff."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nBuche · Eiche · Ahorn · Birke",
+    "optionen": [
+     "Laubbäume",
+     "Pflanzen",
+     "Wald",
+     "Blätter"
+    ],
+    "loesung": [
+     "Laubbäume"
+    ],
+    "erklaerung": "Alle vier sind Laubbäume. Das ist der engste Oberbegriff, der genau diese vier zusammenfasst.",
+    "fehler": [
+     {
+      "antwort": "Pflanzen",
+      "diagnoseId": "zu_weit",
+      "feedback": "Auch Gras und Moos sind Pflanzen. Suche den engsten Oberbegriff, der genau diese vier zusammenfasst."
+     },
+     {
+      "antwort": "Blätter",
+      "diagnoseId": "teil_statt_ganzes",
+      "feedback": "Blätter sind ein Teil des Baumes. Eine Buche ist kein Blatt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nVelo · Trottinett · Auto · Zug",
+    "optionen": [
+     "Verkehrsmittel",
+     "Strasse",
+     "Räder",
+     "Motor"
+    ],
+    "loesung": [
+     "Verkehrsmittel"
+    ],
+    "erklaerung": "Alle vier bringen Menschen von einem Ort zum anderen. Das ist ihr gemeinsamer Zweck.",
+    "fehler": [
+     {
+      "antwort": "Strasse",
+      "diagnoseId": "ort_statt_art",
+      "feedback": "Die Strasse ist der Weg, nicht das Mittel. Ein Zug fährt zudem auf Schienen."
+     },
+     {
+      "antwort": "Räder",
+      "diagnoseId": "teil_statt_ganzes",
+      "feedback": "Räder sind ein Teil. Ausserdem hat nicht jedes Verkehrsmittel welche."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nKrimi · Roman · Novelle · Märchen",
+    "optionen": [
+     "Textsorten",
+     "Bücher",
+     "Bibliothek",
+     "Geschichten"
+    ],
+    "loesung": [
+     "Textsorten"
+    ],
+    "erklaerung": "Alle vier bezeichnen Arten von Texten. Genau das prüft die Sprachprüfung.",
+    "fehler": [
+     {
+      "antwort": "Bücher",
+      "diagnoseId": "traeger_statt_art",
+      "feedback": "Ein Buch ist der Gegenstand, in dem ein Text steht. Ein Märchen kann auch mündlich erzählt werden und bleibt eine Textsorte."
+     },
+     {
+      "antwort": "Bibliothek",
+      "diagnoseId": "ort_statt_art",
+      "feedback": "Die Bibliothek ist der Ort, an dem Bücher stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nWut · Freude · Angst · Hoffnung",
+    "optionen": [
+     "Empfindungen",
+     "Gedanken",
+     "Wörter",
+     "Reaktionen"
+    ],
+    "loesung": [
+     "Empfindungen"
+    ],
+    "erklaerung": "Alle vier sind Empfindungen, also dasselbe wie Gefühle. Etwas, das man in sich spürt.",
+    "fehler": [
+     {
+      "antwort": "Wörter",
+      "diagnoseId": "zeichen_statt_sache",
+      "feedback": "«Wut» ist ein Wort, ja, aber gesucht ist, was die vier bezeichnen, nicht dass sie Wörter sind. Diese Falle steckt in jeder Oberbegriffsaufgabe."
+     },
+     {
+      "antwort": "Reaktionen",
+      "diagnoseId": "zu_weit",
+      "feedback": "Auch ein Niesen ist eine Reaktion. Der Oberbegriff soll genau diese vier zusammenfassen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nHagel · Nebel · Schnee · Regen",
+    "optionen": [
+     "Niederschlag",
+     "Wetter",
+     "Wasser",
+     "Winter"
+    ],
+    "loesung": [
+     "Niederschlag"
+    ],
+    "erklaerung": "Alle vier sind Formen von Niederschlag: Wasser, das aus der Luft zu Boden kommt.",
+    "fehler": [
+     {
+      "antwort": "Wetter",
+      "diagnoseId": "zu_weit",
+      "feedback": "Auch Sonnenschein und Wind sind Wetter. «Niederschlag» fasst genau diese vier zusammen."
+     },
+     {
+      "antwort": "Wasser",
+      "diagnoseId": "material_statt_art",
+      "feedback": "Alle vier bestehen aus Wasser, aber Wasser ist der Stoff, nicht die Art der Erscheinung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nSchreiner · Bäckerin · Pflegefachmann · Lehrerin",
+    "optionen": [
+     "Berufe",
+     "Menschen",
+     "Ausbildung",
+     "Arbeit"
+    ],
+    "loesung": [
+     "Berufe"
+    ],
+    "erklaerung": "Alle vier bezeichnen Berufe.",
+    "fehler": [
+     {
+      "antwort": "Menschen",
+      "diagnoseId": "zu_weit",
+      "feedback": "Jeder Mensch ist ein Mensch, auch ohne Beruf. Der Oberbegriff soll genau das Gemeinsame benennen."
+     },
+     {
+      "antwort": "Arbeit",
+      "diagnoseId": "taetigkeit_statt_art",
+      "feedback": "«Arbeit» ist, was man tut. Eine Bäckerin ist keine Arbeit, sondern eine Person mit einem Beruf."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nGenitiv · Dativ · Akkusativ · Nominativ",
+    "optionen": [
+     "Fälle",
+     "Wortarten",
+     "Grammatik",
+     "Endungen"
+    ],
+    "loesung": [
+     "Fälle"
+    ],
+    "erklaerung": "Die vier heissen zusammen die vier Fälle oder Kasus.",
+    "fehler": [
+     {
+      "antwort": "Wortarten",
+      "diagnoseId": "nachbarbegriff",
+      "feedback": "Wortarten sind Verb, Nomen, Adjektiv und so weiter. Die vier hier sind Fälle. Das ist eine andere Ebene der Grammatik."
+     },
+     {
+      "antwort": "Grammatik",
+      "diagnoseId": "zu_weit",
+      "feedback": "Grammatik umfasst alles, auch Zeitformen und Satzbau. Gesucht ist der engste Oberbegriff."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Oberbegriff zu:\n\nFlöte · Trompete · Klarinette · Posaune",
+    "optionen": [
+     "Blasinstrumente",
+     "Instrumente",
+     "Blech",
+     "Töne"
+    ],
+    "loesung": [
+     "Blasinstrumente"
+    ],
+    "erklaerung": "Alle vier werden mit Luft gespielt, gleichgültig ob aus Holz oder aus Metall.",
+    "fehler": [
+     {
+      "antwort": "Blech",
+      "diagnoseId": "material_statt_art",
+      "feedback": "Die Flöte und die Klarinette sind oft aus Holz. Das Material trennt die Gruppe, statt sie zusammenzufassen."
+     },
+     {
+      "antwort": "Instrumente",
+      "diagnoseId": "zu_weit",
+      "feedback": "Auch eine Geige ist ein Instrument. Gesucht ist der engste Oberbegriff für genau diese vier."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

@@ -1,0 +1,380 @@
+{
+ "fach": "mathematik-sg",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfung Mathematik I und II, Kanton St. Gallen",
+ "quelle": "Prüfungsanforderungen Gymnasium und Einheitsaufnahmeprüfung WMS/IMS/FMS des Kantons St. Gallen sowie die Prüfungsserien 2022-2026",
+ "punkteTotal": 82,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Zahl und Rechnen ohne Rechner",
+   "punkte": 10,
+   "anteil": 12,
+   "beschreibung": "Mathematik I beginnt mit Brüchen und mit dem Vergleich von Zahlen. Ein Taschenrechner ist nicht erlaubt. Hier zählt der Kopf.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Brüche addieren und subtrahieren",
+     "lernzielId": "MS.1.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.02",
+     "name": "Brüche multiplizieren und dividieren",
+     "lernzielId": "MS.1.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.03",
+     "name": "Vollständig kürzen und erweitern",
+     "lernzielId": "MS.1.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.04",
+     "name": "Wurzeln abschätzen und vergleichen",
+     "lernzielId": "MS.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Potenzen und Zehnerpotenzen vergleichen",
+     "lernzielId": "MS.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Negative Zahlen ordnen",
+     "lernzielId": "MS.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Grosse Zahlen und ihre Namen",
+     "lernzielId": "MS.1.07",
+     "pflichtset": 15
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Terme und Gleichungen",
+   "punkte": 15,
+   "anteil": 18,
+   "beschreibung": "Der grösste Block. Gleichungen mit Klammern und Brüchen, dazu die binomischen Formeln. Vorwärts wie rückwärts.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Gleichungen mit Klammern lösen",
+     "lernzielId": "MS.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Gleichungen mit Brüchen lösen",
+     "lernzielId": "MS.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Terme zusammenfassen",
+     "lernzielId": "MS.2.03",
+     "pflichtset": 15
+    },
+    {
+     "code": "2.04",
+     "name": "Binomische Formeln anwenden",
+     "lernzielId": "MS.2.04",
+     "pflichtset": 15
+    },
+    {
+     "code": "2.05",
+     "name": "Binomische Formeln rückwärts: Lücken ergänzen",
+     "lernzielId": "MS.2.05",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Terme mit gegebenen Werten auswerten",
+     "lernzielId": "MS.2.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.07",
+     "name": "Gleichungen ohne Lösung und mit unendlich vielen",
+     "lernzielId": "MS.2.07",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Grössen und Einheiten",
+   "punkte": 6,
+   "anteil": 7,
+   "beschreibung": "Umwandeln in einer Tabelle, wie es die Prüfung verlangt: Länge, Fläche, Volumen und Hohlmasse.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Längen umwandeln",
+     "lernzielId": "MS.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Flächen umwandeln",
+     "lernzielId": "MS.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Volumen und Hohlmasse umwandeln",
+     "lernzielId": "MS.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Gemischte Einheiten zusammenrechnen",
+     "lernzielId": "MS.3.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01",
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Sinnvoll runden und angeben",
+     "lernzielId": "MS.3.05",
+     "pflichtset": 15
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Sachrechnen, Anteile und Prozente",
+   "punkte": 12,
+   "anteil": 15,
+   "beschreibung": "Rezepte hochrechnen, Anteile einer Fläche bestimmen, mit Zeit und mit negativen Zahlen rechnen.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Negative Zahlen im Sachzusammenhang",
+     "lernzielId": "MS.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Anteile einer Fläche in Prozent",
+     "lernzielId": "MS.4.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.03",
+     "name": "Grundwert, Prozentwert und Prozentsatz",
+     "lernzielId": "MS.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Proportionales Rechnen mit dem Dreisatz",
+     "lernzielId": "MS.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Umgekehrt proportionales Rechnen",
+     "lernzielId": "MS.4.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.04"
+     ]
+    },
+    {
+     "code": "4.06",
+     "name": "Mit Zeitangaben rechnen",
+     "lernzielId": "MS.4.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "5",
+   "name": "Funktionen, Muster und Wachstum",
+   "punkte": 13,
+   "anteil": 16,
+   "beschreibung": "Formeln anwenden und umstellen, Figurenfolgen verallgemeinern, exponentielles Wachstum berechnen.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Formeln anwenden",
+     "lernzielId": "MS.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Formeln nach einer Grösse umstellen",
+     "lernzielId": "MS.5.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Figurenfolgen fortsetzen",
+     "lernzielId": "MS.5.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.04",
+     "name": "Term für die n-te Figur finden",
+     "lernzielId": "MS.5.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.03"
+     ]
+    },
+    {
+     "code": "5.05",
+     "name": "Exponentielles Wachstum berechnen",
+     "lernzielId": "MS.5.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.06",
+     "name": "Wissenschaftliche Schreibweise",
+     "lernzielId": "MS.5.06",
+     "pflichtset": 13
+    },
+    {
+     "code": "5.07",
+     "name": "Wertetabelle und Graph",
+     "lernzielId": "MS.5.07",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "6",
+   "name": "Geometrie in der Ebene",
+   "punkte": 18,
+   "anteil": 22,
+   "beschreibung": "Der zweitgrösste Block: Winkel, Pythagoras, Kreis und Kreisring. Dazu Konstruktionen mit Zirkel und Geodreieck.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Winkel an Geraden und im Dreieck",
+     "lernzielId": "MS.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Innenwinkelsumme im Vieleck",
+     "lernzielId": "MS.6.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.03",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MS.6.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.04",
+     "name": "Flächen von Dreieck, Rechteck und Trapez",
+     "lernzielId": "MS.6.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.05",
+     "name": "Kreis: Umfang und Fläche",
+     "lernzielId": "MS.6.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.06",
+     "name": "Kreisring und Kreissektor",
+     "lernzielId": "MS.6.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.05"
+     ]
+    },
+    {
+     "code": "6.07",
+     "name": "Zusammengesetzte Flächen zerlegen",
+     "lernzielId": "MS.6.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.04"
+     ]
+    },
+    {
+     "code": "6.08",
+     "name": "Konstruktionen mit Zirkel und Geodreieck",
+     "lernzielId": "MS.6.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.09",
+     "name": "Ortslinien: Mittelsenkrechte, Winkelhalbierende, Abstand",
+     "lernzielId": "MS.6.09",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "7",
+   "name": "Geometrie im Raum",
+   "punkte": 8,
+   "anteil": 10,
+   "beschreibung": "Würfelnetze aus Ansichten und das Prisma. Volumen, Grundfläche, Höhe.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Würfelnetze erkennen und ergänzen",
+     "lernzielId": "MS.7.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "7.02",
+     "name": "Ansichten eines Körpers zuordnen",
+     "lernzielId": "MS.7.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "7.03",
+     "name": "Volumen des Prismas",
+     "lernzielId": "MS.7.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.04",
+     "name": "Aus dem Volumen auf die Grundfläche schliessen",
+     "lernzielId": "MS.7.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.03"
+     ]
+    },
+    {
+     "code": "7.05",
+     "name": "Oberfläche des Prismas",
+     "lernzielId": "MS.7.05",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

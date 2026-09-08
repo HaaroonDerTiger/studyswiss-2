@@ -1,0 +1,202 @@
+{
+ "bereich": "franzoesisch-bildimpuls-be",
+ "titel": "Französisch mündlich: Bild und Gespräch",
+ "eyebrow": "Fünf Minuten Vorbereitung, dann zu dritt",
+ "einleitung": "Du bekommst ein Bild und fünf Minuten Zeit, dich vorzubereiten, mit Wörterbuch, Blatt und Bleistift. Danach beschreibst du dein Bild den beiden anderen, hörst ihnen zu und vergleichst. Diese Prüfung kannst du in der App nicht nachspielen, aber du kannst sie vorbereiten: Die Fragen zum Bild sind jedes Mal dieselben drei.",
+ "grundlage": "Aufnahmeprüfung Französisch mündlich, Kanton Bern, Übertritt aus dem 8. und 9. Schuljahr: Vorbereitungszeit 5 Minuten, Hilfsmittel Wörterbuch, Blatt und Bleistift; Gespräch in der Dreiergruppe.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Vorbereitung",
+   "dauer": "5 Minuten",
+   "text": "Du erhältst ein Bild und drei Fragen dazu. Das Wörterbuch darfst du benutzen, aber nur hier, nachher nicht mehr."
+  },
+  {
+   "nr": 2,
+   "titel": "Die drei Fragen beantworten",
+   "dauer": "",
+   "text": "Es sind fast immer dieselben: Was siehst du? Wo befindet sich die Person? Was denkt sie? Die dritte ist die einzige, bei der du erfinden musst."
+  },
+  {
+   "nr": 3,
+   "titel": "Das Bild vorstellen",
+   "dauer": "",
+   "text": "Du präsentierst dein Bild den beiden anderen. Sie haben es nicht gesehen. Was du nicht sagst, wissen sie nicht."
+  },
+  {
+   "nr": 4,
+   "titel": "Zuhören und vergleichen",
+   "dauer": "",
+   "text": "Die anderen stellen ihre Bilder vor. Danach vergleicht ihr zu dritt: Was ist gleich, was ist anders?"
+  },
+  {
+   "nr": 5,
+   "titel": "Gemeinsam diskutieren",
+   "dauer": "",
+   "text": "Zum Schluss ein Gespräch über die drei Bilder zusammen. Hier zählt, dass du dich einbringst, nicht dass du recht hast."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die fünf Minuten Vorbereitung",
+   "tipps": [
+    {
+     "regel": "Schreib Wörter auf, keine Sätze.",
+     "warum": "Wer Sätze vorbereitet, liest sie ab und klingt auswendig gelernt. Zehn Wörter tragen dich weiter als drei Sätze."
+    },
+    {
+     "regel": "Schlag höchstens drei Wörter nach.",
+     "warum": "Das Wörterbuch frisst die Vorbereitungszeit. Für alles andere gibt es eine Umschreibung."
+    },
+    {
+     "regel": "Ordne das Bild in drei Zonen: vorne, in der Mitte, im Hintergrund.",
+     "warum": "Damit hast du automatisch eine Reihenfolge, und Reihenfolge ist die halbe Beschreibung."
+    },
+    {
+     "regel": "Denk dir zur dritten Frage zwei Möglichkeiten aus.",
+     "warum": "«Was denkt die Person?» hat keine richtige Antwort. Wer zwei hat, kann vergleichen, und das ist genau das, was die Gruppe danach tut."
+    }
+   ]
+  },
+  {
+   "titel": "Das Bild beschreiben",
+   "tipps": [
+    {
+     "regel": "Beginne mit einem Satz zum Ganzen, dann geh ins Einzelne.",
+     "warum": "«Sur cette image, on voit …» ordnet alles, was danach kommt."
+    },
+    {
+     "regel": "Benutze Ortsangaben: à gauche, à droite, au centre, derrière, devant.",
+     "warum": "Sechs Wörter, die aus einer Aufzählung eine Beschreibung machen. Sie kommen in jeder Prüfung vor."
+    },
+    {
+     "regel": "Sag auch, was du nicht genau weisst.",
+     "warum": "«Je pense que c'est …» ist eine vollständige Antwort. Schweigen wegen Unsicherheit ist keine."
+    },
+    {
+     "regel": "Bleib beim Präsens.",
+     "warum": "Ein Bild zeigt einen Moment. Das passé composé brauchst du hier nicht, und musst darum auch nicht darüber nachdenken."
+    }
+   ]
+  },
+  {
+   "titel": "Wenn ein Wort fehlt",
+   "tipps": [
+    {
+     "regel": "Umschreibe, statt auf Deutsch auszuweichen.",
+     "warum": "«C'est une chose pour …», «c'est comme un/une …» Beides zeigt Sprachkompetenz. Ein deutsches Wort zeigt eine Lücke."
+    },
+    {
+     "regel": "Zeig auf das Bild und sag «ça».",
+     "warum": "«Et ça, là, à gauche» hält das Gespräch am Laufen, während dir das Wort einfällt."
+    }
+   ]
+  },
+  {
+   "titel": "Zuhören und vergleichen",
+   "tipps": [
+    {
+     "regel": "Notiere während der anderen zwei Stichworte pro Bild.",
+     "warum": "Ohne Notiz hast du beim Vergleichen nichts zu sagen, und das Vergleichen ist ein eigener Teil der Aufgabe."
+    },
+    {
+     "regel": "Such eine Gemeinsamkeit UND einen Unterschied.",
+     "warum": "«Dans mon image aussi …, mais chez toi …» ist die Satzform, die hier verlangt wird."
+    },
+    {
+     "regel": "Stell den anderen eine Frage.",
+     "warum": "Ein Gespräch zu dritt lebt von Fragen. Eine einzige genügt, um zu zeigen, dass du zuhörst."
+    }
+   ]
+  },
+  {
+   "titel": "Was du vorher üben kannst",
+   "tipps": [
+    {
+     "regel": "Beschreib zu Hause ein beliebiges Foto in zwei Minuten laut.",
+     "warum": "Genau das ist die Prüfung. Zwei Minuten pro Tag reichen; das Handy hat genug Bilder."
+    },
+    {
+     "regel": "Lerne die zwölf Ortsangaben und die zehn häufigsten Farben auswendig.",
+     "warum": "Sie kommen bei jedem Bild vor. Was man auswendig kann, kostet im Gespräch keine Denkzeit."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Das Bild als Ganzes",
+   "saetze": [
+    "Sur cette image, on voit …",
+    "C'est une photo de …",
+    "L'image montre …",
+    "Au premier plan, il y a …. À l'arrière-plan, on voit …"
+   ]
+  },
+  {
+   "zweck": "Wo etwas ist",
+   "saetze": [
+    "à gauche, links · à droite, rechts",
+    "au centre, in der Mitte",
+    "devant, vorne · derrière, hinten",
+    "en haut, oben · en bas, unten",
+    "à côté de …. Neben …",
+    "entre … et …. Zwischen … und …"
+   ]
+  },
+  {
+   "zweck": "Was die Person denkt oder fühlt",
+   "saetze": [
+    "Je pense qu'elle est … (contente, fatiguée, surprise)",
+    "Peut-être qu'il veut …",
+    "Il a l'air …. Er sieht … aus",
+    "Elle se demande si …",
+    "À mon avis, elle pense à …"
+   ]
+  },
+  {
+   "zweck": "Vergleichen",
+   "saetze": [
+    "Dans mon image aussi, il y a …",
+    "Chez toi, c'est différent : …",
+    "Nos images se ressemblent, parce que …",
+    "La différence, c'est que …"
+   ]
+  },
+  {
+   "zweck": "Wenn ein Wort fehlt",
+   "saetze": [
+    "C'est une chose pour …",
+    "C'est comme un/une … mais plus grand/petit.",
+    "Je ne connais pas le mot en français.",
+    "Comment est-ce qu'on dit … ?"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "3.04",
+   "name": "Wortfelder: Zeit, Ort, Menge",
+   "warum": "Die Ortsangaben sind das Gerüst jeder Bildbeschreibung, ohne sie wird aus der Beschreibung eine Aufzählung."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "4.04",
+   "name": "Adjektive angleichen",
+   "warum": "Beim Beschreiben steht in fast jedem Satz ein Adjektiv. Die Angleichung hört die Prüferin sofort."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "4.01",
+   "name": "Verben im Präsens konjugieren",
+   "warum": "Ein Bild beschreibt man im Präsens. Wer die Formen sicher hat, kann sich auf den Inhalt konzentrieren."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "3.02",
+   "name": "Alltagswortschatz: Schule, Freizeit, Familie",
+   "warum": "Die Bilder zeigen Alltagsszenen. Genau dieser Wortschatz wird gebraucht."
+  }
+ ]
+}

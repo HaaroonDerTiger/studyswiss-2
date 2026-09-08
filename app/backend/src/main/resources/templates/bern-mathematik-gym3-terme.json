@@ -1,0 +1,1258 @@
+[
+ {
+  "templateId": "be3-wissenschaftliche-schreibweise",
+  "lernzielId": "MG.1.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "1.01",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "In der wissenschaftlichen Schreibweise steht vorne immer eine Zahl von 1 bis unter 10, dahinter eine Zehnerpotenz.",
+   "Die Hochzahl sagt, um wie viele Stellen das Komma verschoben wird: nach rechts bei einer positiven, nach links bei einer negativen Hochzahl.",
+   "Beim Multiplizieren von Zehnerpotenzen werden die Hochzahlen addiert, beim Dividieren subtrahiert."
+  ],
+  "loesungsweg": [
+   "Verschiebe das Komma so, dass vorne genau eine Ziffer ungleich null steht.",
+   "Zähle, um wie viele Stellen du verschoben hast. Das ist der Betrag der Hochzahl.",
+   "Wurde die Zahl beim Verschieben kleiner, ist die Hochzahl positiv; wurde sie grösser, negativ.",
+   "Prüfe zum Schluss: Steht vorne wirklich eine Zahl zwischen 1 und 10?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Schreibe in wissenschaftlicher Schreibweise:\n\n0.00047",
+    "optionen": [
+     "4.7·10⁻⁴",
+     "4.7·10⁻³",
+     "47·10⁻⁵",
+     "4.7·10⁴"
+    ],
+    "loesung": [
+     "4.7·10⁻⁴"
+    ],
+    "erklaerung": "Das Komma wandert um vier Stellen nach rechts, bis vorne die 4 steht. Weil die Zahl dabei grösser wird, ist die Hochzahl negativ.",
+    "fehler": [
+     {
+      "antwort": "4.7·10⁻³",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Da fehlt eine Stelle. Zähle von der ursprünglichen Kommastelle bis hinter die erste Ziffer ungleich null. Das sind vier Stellen, nicht drei."
+     },
+     {
+      "antwort": "47·10⁻⁵",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "Vor der Zehnerpotenz muss eine Zahl von 1 bis unter 10 stehen. 47 ist zu gross; verschiebe das Komma um eine Stelle weniger."
+     },
+     {
+      "antwort": "4.7·10⁴",
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "feedback": "Das Vorzeichen stimmt nicht. 0.00047 ist eine sehr KLEINE Zahl. Eine positive Hochzahl macht sie riesig."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe in wissenschaftlicher Schreibweise:\n\n8'300'000",
+    "optionen": [
+     "8.3·10⁶",
+     "8.3·10⁷",
+     "83·10⁵",
+     "8.3·10⁻⁶"
+    ],
+    "loesung": [
+     "8.3·10⁶"
+    ],
+    "erklaerung": "Von 8.3 bis 8'300'000 wandert das Komma um sechs Stellen nach rechts, also 8.3·10⁶.",
+    "fehler": [
+     {
+      "antwort": "8.3·10⁷",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Zähle die Nullen genau: 8'300'000 hat nach der 3 fünf Nullen, das Komma wandert insgesamt sechs Stellen."
+     },
+     {
+      "antwort": "83·10⁵",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "83 ist grösser als 10. Vor der Zehnerpotenz steht immer eine Zahl von 1 bis unter 10."
+     },
+     {
+      "antwort": "8.3·10⁻⁶",
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "feedback": "Eine negative Hochzahl steht für sehr kleine Zahlen. 8'300'000 ist gross, die Hochzahl ist darum positiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als gewöhnliche Dezimalzahl:\n\n6.02·10⁵",
+    "optionen": [
+     "602'000",
+     "60'200",
+     "6'020'000",
+     "0.0000602"
+    ],
+    "loesung": [
+     "602'000"
+    ],
+    "erklaerung": "Die Hochzahl 5 verschiebt das Komma um fünf Stellen nach rechts; die fehlenden Stellen werden mit Nullen aufgefüllt.",
+    "fehler": [
+     {
+      "antwort": "60'200",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Da fehlt eine Stelle. Nach der Verschiebung um fünf Stellen stehen hinter der 6 fünf weitere Ziffern."
+     },
+     {
+      "antwort": "6'020'000",
+      "diagnoseId": "zu_weit_verschoben",
+      "feedback": "Eine Stelle zu viel. Die Hochzahl ist 5, nicht 6."
+     },
+     {
+      "antwort": "0.0000602",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "Du hast nach links verschoben. Bei einer positiven Hochzahl wird die Zahl grösser, das Komma wandert also nach rechts."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als gewöhnliche Dezimalzahl:\n\n3.5·10⁻³",
+    "optionen": [
+     "0.0035",
+     "0.035",
+     "0.00035",
+     "3'500"
+    ],
+    "loesung": [
+     "0.0035"
+    ],
+    "erklaerung": "Die Hochzahl −3 verschiebt das Komma um drei Stellen nach links: aus 3.5 wird 0.0035.",
+    "fehler": [
+     {
+      "antwort": "0.035",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Das sind nur zwei Stellen nach links. Die Hochzahl −3 verlangt drei."
+     },
+     {
+      "antwort": "0.00035",
+      "diagnoseId": "zu_weit_verschoben",
+      "feedback": "Eine Stelle zu viel nach links. Zähle ab dem ursprünglichen Komma genau drei Stellen."
+     },
+     {
+      "antwort": "3'500",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "Du hast nach rechts verschoben. Ein Minus in der Hochzahl macht die Zahl kleiner, nicht grösser."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis in wissenschaftlicher Schreibweise an:\n\n(3·10⁴) · (5·10³)",
+    "optionen": [
+     "1.5·10⁸",
+     "15·10⁷",
+     "1.5·10⁷",
+     "8·10⁷"
+    ],
+    "loesung": [
+     "1.5·10⁸"
+    ],
+    "erklaerung": "3·5 ergibt 15, und 10⁴·10³ ergibt 10⁷. Aus 15·10⁷ wird 1.5·10⁸, weil vorne nur eine Ziffer stehen darf.",
+    "fehler": [
+     {
+      "antwort": "15·10⁷",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "Der Wert stimmt, die Form nicht. 15 ist zu gross. Verschiebe das Komma um eine Stelle nach links und erhöhe die Hochzahl um 1."
+     },
+     {
+      "antwort": "1.5·10⁷",
+      "diagnoseId": "uebertrag_vergessen",
+      "feedback": "Die Hochzahlen ergeben zusammen 7, aber das Produkt 15 ist zweistellig. Beim Verkleinern auf 1.5 kommt eine Zehnerpotenz dazu."
+     },
+     {
+      "antwort": "8·10⁷",
+      "diagnoseId": "hochzahlen_und_zahlen_verwechselt",
+      "feedback": "Du hast 3 und 5 addiert. Die Zahlen vor den Potenzen werden multipliziert, addiert werden nur die Hochzahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis in wissenschaftlicher Schreibweise an:\n\n(8·10⁻²) : (2·10³)",
+    "optionen": [
+     "4·10⁻⁵",
+     "4·10¹",
+     "4·10⁵",
+     "6·10⁻⁵"
+    ],
+    "loesung": [
+     "4·10⁻⁵"
+    ],
+    "erklaerung": "8:2 ergibt 4, und bei den Hochzahlen wird subtrahiert: −2 minus 3 ergibt −5.",
+    "fehler": [
+     {
+      "antwort": "4·10¹",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Dividieren werden die Hochzahlen subtrahiert, nicht addiert: −2 − 3 = −5."
+     },
+     {
+      "antwort": "4·10⁵",
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "feedback": "Das Vorzeichen ist gekippt. −2 minus 3 ergibt −5, nicht +5."
+     },
+     {
+      "antwort": "6·10⁻⁵",
+      "diagnoseId": "zahlen_subtrahiert",
+      "feedback": "Du hast 8 − 2 gerechnet. Die Zahlen vor den Potenzen werden dividiert, subtrahiert werden nur die Hochzahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis in wissenschaftlicher Schreibweise an:\n\n(2·10³)²",
+    "optionen": [
+     "4·10⁶",
+     "4·10⁵",
+     "2·10⁶",
+     "4·10⁹"
+    ],
+    "loesung": [
+     "4·10⁶"
+    ],
+    "erklaerung": "Beim Quadrieren wird jeder Faktor quadriert: 2² ergibt 4, und (10³)² ergibt 10⁶, weil die Hochzahlen multipliziert werden.",
+    "fehler": [
+     {
+      "antwort": "4·10⁵",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Bei einer Potenz von einer Potenz werden die Hochzahlen MULTIPLIZIERT, nicht addiert: 3·2 = 6."
+     },
+     {
+      "antwort": "2·10⁶",
+      "diagnoseId": "vorfaktor_nicht_quadriert",
+      "feedback": "Die 2 gehört mit in die Klammer und wird darum ebenfalls quadriert: 2² = 4."
+     },
+     {
+      "antwort": "4·10⁹",
+      "diagnoseId": "hochzahl_falsch",
+      "feedback": "(10³)² ist 10⁶. Die 9 käme heraus, wenn du 3² als Hochzahl nähmst."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis in wissenschaftlicher Schreibweise an:\n\n6·10⁵ + 4·10⁵",
+    "optionen": [
+     "1·10⁶",
+     "10·10¹⁰",
+     "24·10¹⁰",
+     "1·10¹⁰"
+    ],
+    "loesung": [
+     "1·10⁶"
+    ],
+    "erklaerung": "Beide Zahlen haben dieselbe Zehnerpotenz, darum lassen sie sich direkt addieren: 6 + 4 ergibt 10, und 10·10⁵ ist 1·10⁶.",
+    "fehler": [
+     {
+      "antwort": "10·10¹⁰",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Addiert wird hier, nicht multipliziert. Die Hochzahlen bleiben stehen, wenn sie schon gleich sind."
+     },
+     {
+      "antwort": "24·10¹⁰",
+      "diagnoseId": "operation_verwechselt",
+      "feedback": "Du hast multipliziert statt addiert. Zwischen den beiden Termen steht ein Plus."
+     },
+     {
+      "antwort": "1·10¹⁰",
+      "diagnoseId": "hochzahlen_addiert_beim_plus",
+      "feedback": "Beim Addieren gleicher Zehnerpotenzen bleibt die Hochzahl gleich; nur weil 6 + 4 gerade 10 ergibt, steigt sie am Schluss um genau eins."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe in wissenschaftlicher Schreibweise:\n\nzwei Milliarden",
+    "optionen": [
+     "2·10⁹",
+     "2·10⁶",
+     "2·10¹²",
+     "2·10⁸"
+    ],
+    "loesung": [
+     "2·10⁹"
+    ],
+    "erklaerung": "Eine Milliarde ist eine Eins mit neun Nullen, also 10⁹. Zwei Milliarden sind darum 2·10⁹.",
+    "fehler": [
+     {
+      "antwort": "2·10⁶",
+      "diagnoseId": "million_statt_milliarde",
+      "feedback": "10⁶ ist eine Million. Eine Milliarde ist tausendmal grösser, also 10⁹."
+     },
+     {
+      "antwort": "2·10¹²",
+      "diagnoseId": "billion_statt_milliarde",
+      "feedback": "10¹² ist eine Billion. Zwischen Milliarde und Billion liegt noch einmal der Faktor tausend."
+     },
+     {
+      "antwort": "2·10⁸",
+      "diagnoseId": "nullen_verzaehlt",
+      "feedback": "Zähle die Nullen einer Milliarde: es sind neun, nicht acht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Meter sind 500 nm? Ein Nanometer ist 10⁻⁹ m.",
+    "optionen": [
+     "5·10⁻⁷ m",
+     "5·10⁻⁶ m",
+     "500·10⁻⁹ m",
+     "5·10⁻¹⁰ m"
+    ],
+    "loesung": [
+     "5·10⁻⁷ m"
+    ],
+    "erklaerung": "500·10⁻⁹ m ist der richtige Wert, aber noch nicht die richtige Form: Aus 500 wird 5, und die Hochzahl steigt dabei um 2 auf −7.",
+    "fehler": [
+     {
+      "antwort": "5·10⁻⁶ m",
+      "diagnoseId": "hochzahl_verzaehlt",
+      "feedback": "Aus 500 wird 5, indem das Komma um zwei Stellen wandert. Die Hochzahl steigt darum um 2, von −9 auf −7."
+     },
+     {
+      "antwort": "500·10⁻⁹ m",
+      "diagnoseId": "form_nicht_fertig",
+      "feedback": "Der Wert stimmt, die Form nicht. Vor der Zehnerpotenz muss eine Zahl von 1 bis unter 10 stehen."
+     },
+     {
+      "antwort": "5·10⁻¹⁰ m",
+      "diagnoseId": "richtung_der_anpassung",
+      "feedback": "Die Hochzahl geht in die falsche Richtung. Wird die Zahl vorne kleiner, muss die Hochzahl grösser werden. Sonst ändert sich der Wert."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Sekunden sind 12 µs? Eine Mikrosekunde ist 10⁻⁶ s.",
+    "optionen": [
+     "1.2·10⁻⁵ s",
+     "1.2·10⁻⁶ s",
+     "12·10⁻⁶ s",
+     "1.2·10⁻⁷ s"
+    ],
+    "loesung": [
+     "1.2·10⁻⁵ s"
+    ],
+    "erklaerung": "12·10⁻⁶ s ist der Wert; aus 12 wird 1.2, und die Hochzahl steigt dabei um 1 auf −5.",
+    "fehler": [
+     {
+      "antwort": "1.2·10⁻⁶ s",
+      "diagnoseId": "hochzahl_nicht_angepasst",
+      "feedback": "Wenn aus 12 die Zahl 1.2 wird, ist der Vorfaktor zehnmal kleiner. Das muss die Hochzahl ausgleichen: von −6 auf −5."
+     },
+     {
+      "antwort": "12·10⁻⁶ s",
+      "diagnoseId": "form_nicht_fertig",
+      "feedback": "Der Wert stimmt, aber 12 ist grösser als 10. Die wissenschaftliche Schreibweise verlangt eine Ziffer vor dem Komma."
+     },
+     {
+      "antwort": "1.2·10⁻⁷ s",
+      "diagnoseId": "richtung_der_anpassung",
+      "feedback": "Die Hochzahl ist in die falsche Richtung gewandert. Kleinerer Vorfaktor bedeutet grössere Hochzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Vorsilbe des Einheitensystems steht für den Faktor 10⁶?",
+    "optionen": [
+     "Mega",
+     "Kilo",
+     "Giga",
+     "Milli"
+    ],
+    "loesung": [
+     "Mega"
+    ],
+    "erklaerung": "Kilo ist 10³, Mega 10⁶, Giga 10⁹. Von einer Stufe zur nächsten liegt jeweils der Faktor tausend.",
+    "fehler": [
+     {
+      "antwort": "Kilo",
+      "diagnoseId": "eine_stufe_zu_tief",
+      "feedback": "Kilo steht für 10³, also für tausend. Mega ist die nächste Stufe darüber."
+     },
+     {
+      "antwort": "Giga",
+      "diagnoseId": "eine_stufe_zu_hoch",
+      "feedback": "Giga steht für 10⁹, also für eine Milliarde. Das ist tausendmal mehr als gesucht."
+     },
+     {
+      "antwort": "Milli",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "Milli steht für 10⁻³ und macht eine Grösse kleiner. Gesucht ist eine Vorsilbe, die vergrössert."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche der vier Zahlen ist die grösste?",
+    "optionen": [
+     "3·10⁻²",
+     "1.5·10⁻²",
+     "9·10⁻³",
+     "25·10⁻⁴"
+    ],
+    "loesung": [
+     "3·10⁻²"
+    ],
+    "erklaerung": "Auf dieselbe Zehnerpotenz gebracht: 3·10⁻² = 30·10⁻³, 1.5·10⁻² = 15·10⁻³, 9·10⁻³ und 2.5·10⁻³. Die erste ist die grösste.",
+    "fehler": [
+     {
+      "antwort": "9·10⁻³",
+      "diagnoseId": "grosser_vorfaktor_gewaehlt",
+      "feedback": "Die 9 ist zwar die grösste Zahl vorne, aber die Hochzahl entscheidet zuerst: 10⁻³ ist zehnmal kleiner als 10⁻²."
+     },
+     {
+      "antwort": "25·10⁻⁴",
+      "diagnoseId": "vorfaktor_verglichen",
+      "feedback": "25 ist der grösste Vorfaktor, doch 10⁻⁴ ist die kleinste Potenz. Bring alle Zahlen zuerst auf dieselbe Zehnerpotenz."
+     },
+     {
+      "antwort": "1.5·10⁻²",
+      "diagnoseId": "zu_frueh_entschieden",
+      "feedback": "Die Hochzahl ist dieselbe wie bei der richtigen Antwort. Dann entscheidet der Vorfaktor, und 3 ist grösser als 1.5."
+     }
+    ]
+   },
+   {
+    "stamm": "Runde 3'847'000 auf zwei geltende Ziffern und schreibe das Ergebnis in wissenschaftlicher Schreibweise.",
+    "optionen": [
+     "3.8·10⁶",
+     "3.9·10⁶",
+     "38·10⁵",
+     "3.85·10⁶"
+    ],
+    "loesung": [
+     "3.8·10⁶"
+    ],
+    "erklaerung": "Zwei geltende Ziffern heisst 3.8; die dritte Ziffer ist eine 4 und rundet ab. Die Zahl hat sechs Stellen nach der ersten Ziffer.",
+    "fehler": [
+     {
+      "antwort": "3.9·10⁶",
+      "diagnoseId": "falsch_gerundet",
+      "feedback": "Die nächste Ziffer ist eine 4, und ab 5 wird aufgerundet. Hier wird also abgerundet."
+     },
+     {
+      "antwort": "38·10⁵",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "Der Wert stimmt, die Form nicht: Vor der Zehnerpotenz darf nur eine Ziffer stehen."
+     },
+     {
+      "antwort": "3.85·10⁶",
+      "diagnoseId": "zu_viele_ziffern",
+      "feedback": "Das sind drei geltende Ziffern. Gefragt sind zwei, also eine Ziffer vor und eine nach dem Komma."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Zehnerpotenzen",
+  "status": "review"
+ },
+ {
+  "templateId": "be3-potenzgesetze",
+  "lernzielId": "MG.2.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Multiplizieren gleicher Basen werden die Hochzahlen addiert, beim Dividieren subtrahiert.",
+   "Steht eine Potenz in einer Potenz, werden die Hochzahlen multipliziert.",
+   "Eine Zahl vor der Klammer wird beim Potenzieren mitgenommen. Sie gehört zur Basis."
+  ],
+  "loesungsweg": [
+   "Schau zuerst, welche Rechenart zwischen den Potenzen steht.",
+   "xᵐ · xⁿ = xᵐ⁺ⁿ, xᵐ : xⁿ = xᵐ⁻ⁿ, (xᵐ)ⁿ = xᵐ·ⁿ.",
+   "Zahlen und Buchstaben werden getrennt behandelt: Zahlen ausrechnen, bei den Buchstaben die Hochzahlen verrechnen.",
+   "Addieren und Subtrahieren geht nur bei völlig gleichen Potenzen. Dort ändert sich die Hochzahl nicht."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Vereinfache:\n\nx⁵ · x³",
+    "optionen": [
+     "x⁸",
+     "x¹⁵",
+     "x²",
+     "2x⁸"
+    ],
+    "loesung": [
+     "x⁸"
+    ],
+    "erklaerung": "Gleiche Basis, Malzeichen dazwischen: Die Hochzahlen werden addiert, 5 + 3 = 8.",
+    "fehler": [
+     {
+      "antwort": "x¹⁵",
+      "diagnoseId": "hochzahlen_multipliziert",
+      "feedback": "Multipliziert werden die Hochzahlen nur bei einer Potenz in einer Potenz. Hier stehen zwei Potenzen nebeneinander. Da wird addiert."
+     },
+     {
+      "antwort": "x²",
+      "diagnoseId": "hochzahlen_subtrahiert",
+      "feedback": "Subtrahiert wird beim Dividieren. Zwischen den beiden Potenzen steht ein Malzeichen."
+     },
+     {
+      "antwort": "2x⁸",
+      "diagnoseId": "basis_verdoppelt",
+      "feedback": "Die Hochzahl stimmt, aber die 2 gehört nicht dorthin. x⁵·x³ ist ein Produkt, keine Summe von zwei gleichen Termen."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\na⁷ : a³",
+    "optionen": [
+     "a⁴",
+     "a¹⁰",
+     "a²¹",
+     "a³"
+    ],
+    "loesung": [
+     "a⁴"
+    ],
+    "erklaerung": "Gleiche Basis, Divisionszeichen dazwischen: Die Hochzahlen werden subtrahiert, 7 − 3 = 4.",
+    "fehler": [
+     {
+      "antwort": "a¹⁰",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Addiert wird beim Multiplizieren. Beim Dividieren wird die untere Hochzahl abgezogen."
+     },
+     {
+      "antwort": "a²¹",
+      "diagnoseId": "hochzahlen_multipliziert",
+      "feedback": "Multipliziert werden die Hochzahlen nur bei (aᵐ)ⁿ. Hier steht eine Division."
+     },
+     {
+      "antwort": "a³",
+      "diagnoseId": "hochzahl_uebernommen",
+      "feedback": "Du hast die Hochzahl des Nenners übernommen. Gerechnet wird 7 − 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(y³)⁴",
+    "optionen": [
+     "y¹²",
+     "y⁷",
+     "y³",
+     "y⁸¹"
+    ],
+    "loesung": [
+     "y¹²"
+    ],
+    "erklaerung": "Eine Potenz in einer Potenz: Die Hochzahlen werden multipliziert, 3·4 = 12.",
+    "fehler": [
+     {
+      "antwort": "y⁷",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Addiert wird, wenn zwei Potenzen nebeneinander stehen. Steht eine IN der anderen, wird multipliziert."
+     },
+     {
+      "antwort": "y³",
+      "diagnoseId": "aeussere_hochzahl_vergessen",
+      "feedback": "Die äussere Hochzahl 4 ist verlorengegangen. Sie sagt, wie oft y³ als Faktor auftritt."
+     },
+     {
+      "antwort": "y⁸¹",
+      "diagnoseId": "basis_und_hochzahl_verwechselt",
+      "feedback": "81 ist 3⁴. Du hast mit den Hochzahlen selbst potenziert. Sie werden aber nur multipliziert."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(2a³)⁴",
+    "optionen": [
+     "16a¹²",
+     "8a¹²",
+     "16a⁷",
+     "2a¹²"
+    ],
+    "loesung": [
+     "16a¹²"
+    ],
+    "erklaerung": "Beide Faktoren in der Klammer werden potenziert: 2⁴ ergibt 16, und (a³)⁴ ergibt a¹².",
+    "fehler": [
+     {
+      "antwort": "8a¹²",
+      "diagnoseId": "zahl_falsch_potenziert",
+      "feedback": "2⁴ ist 16, nicht 8. Die 8 wäre 2³. Die Hochzahl der Klammer ist aber 4."
+     },
+     {
+      "antwort": "16a⁷",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Bei (a³)⁴ werden die Hochzahlen multipliziert, nicht addiert."
+     },
+     {
+      "antwort": "2a¹²",
+      "diagnoseId": "zahl_nicht_potenziert",
+      "feedback": "Die 2 steht mit in der Klammer und wird darum ebenfalls hoch 4 genommen."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(3x²y) · (4x³y⁵)",
+    "optionen": [
+     "12x⁵y⁶",
+     "12x⁶y⁵",
+     "7x⁵y⁶",
+     "12x⁶y⁶"
+    ],
+    "loesung": [
+     "12x⁵y⁶"
+    ],
+    "erklaerung": "Zahlen multiplizieren: 3·4 = 12. Bei x die Hochzahlen 2 + 3 = 5, bei y die Hochzahlen 1 + 5 = 6.",
+    "fehler": [
+     {
+      "antwort": "12x⁶y⁵",
+      "diagnoseId": "hochzahlen_vertauscht",
+      "feedback": "Die beiden Hochzahlen sind vertauscht. Bei x steht 2 + 3, bei y steht 1 + 5."
+     },
+     {
+      "antwort": "7x⁵y⁶",
+      "diagnoseId": "zahlen_addiert",
+      "feedback": "Die Zahlen vor den Buchstaben werden multipliziert, nicht addiert: 3·4 = 12."
+     },
+     {
+      "antwort": "12x⁶y⁶",
+      "diagnoseId": "hochzahl_bei_x_falsch",
+      "feedback": "Bei x sind es 2 + 3 = 5. Die 6 gehört zu y, wo 1 + 5 zusammenkommt."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n15a⁵b³ : (5a²b)",
+    "optionen": [
+     "3a³b²",
+     "3a⁷b⁴",
+     "10a³b²",
+     "3a³b³"
+    ],
+    "loesung": [
+     "3a³b²"
+    ],
+    "erklaerung": "15:5 ergibt 3. Bei a wird 5 − 2 = 3 gerechnet, bei b ist die Hochzahl unten eine 1, also 3 − 1 = 2.",
+    "fehler": [
+     {
+      "antwort": "3a⁷b⁴",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Dividieren werden die Hochzahlen subtrahiert, nicht addiert."
+     },
+     {
+      "antwort": "10a³b²",
+      "diagnoseId": "zahlen_subtrahiert",
+      "feedback": "Die Zahlen vor den Buchstaben werden dividiert: 15 : 5 = 3. Subtrahiert werden nur die Hochzahlen."
+     },
+     {
+      "antwort": "3a³b³",
+      "diagnoseId": "hochzahl_eins_uebersehen",
+      "feedback": "Ein einzelnes b trägt die unsichtbare Hochzahl 1. Sie wird abgezogen: 3 − 1 = 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe ohne negative Hochzahl:\n\nx⁻³",
+    "optionen": [
+     "1 : x³",
+     "−x³",
+     "x³",
+     "−1 : x³"
+    ],
+    "loesung": [
+     "1 : x³"
+    ],
+    "erklaerung": "Eine negative Hochzahl bedeutet den Kehrwert: x⁻³ ist dasselbe wie 1 geteilt durch x³.",
+    "fehler": [
+     {
+      "antwort": "−x³",
+      "diagnoseId": "minus_als_vorzeichen",
+      "feedback": "Das Minus in der Hochzahl macht die Potenz nicht negativ, sondern kehrt sie um. Für x = 2 wäre x⁻³ ein Achtel, also positiv."
+     },
+     {
+      "antwort": "x³",
+      "diagnoseId": "hochzahl_einfach_gestrichen",
+      "feedback": "Das Minus verschwindet nicht einfach. Es sagt, dass die Potenz in den Nenner gehört."
+     },
+     {
+      "antwort": "−1 : x³",
+      "diagnoseId": "minus_mitgenommen",
+      "feedback": "Der Kehrwert stimmt, das Minus gehört nicht dazu. Es ist bereits durch den Bruchstrich ausgedrückt."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(a²b³)³",
+    "optionen": [
+     "a⁶b⁹",
+     "a⁵b⁶",
+     "a⁶b⁶",
+     "a⁸b²⁷"
+    ],
+    "loesung": [
+     "a⁶b⁹"
+    ],
+    "erklaerung": "Jeder Faktor in der Klammer wird potenziert: aus a² wird a⁶, aus b³ wird b⁹.",
+    "fehler": [
+     {
+      "antwort": "a⁵b⁶",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Bei einer Potenz in einer Potenz werden die Hochzahlen multipliziert: 2·3 und 3·3."
+     },
+     {
+      "antwort": "a⁶b⁶",
+      "diagnoseId": "zweiter_faktor_vergessen",
+      "feedback": "Bei a hast du richtig gerechnet, bei b nicht: 3·3 ergibt 9, nicht 6."
+     },
+     {
+      "antwort": "a⁸b²⁷",
+      "diagnoseId": "hochzahlen_potenziert",
+      "feedback": "Du hast die Hochzahlen potenziert statt multipliziert. Richtig ist 2·3 = 6 und 3·3 = 9."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\nx⁴ + x⁴",
+    "optionen": [
+     "2x⁴",
+     "x⁸",
+     "2x⁸",
+     "x¹⁶"
+    ],
+    "loesung": [
+     "2x⁴"
+    ],
+    "erklaerung": "Hier steht ein Plus. Zwei gleiche Terme ergeben zusammen den doppelten Term; die Hochzahl bleibt unverändert.",
+    "fehler": [
+     {
+      "antwort": "x⁸",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Addiert werden die Hochzahlen nur beim Multiplizieren. Hier steht ein Plus. Da bleibt die Hochzahl stehen."
+     },
+     {
+      "antwort": "2x⁸",
+      "diagnoseId": "beides_gemacht",
+      "feedback": "Entweder oder: Beim Addieren gleicher Terme wird die Anzahl gezählt, die Hochzahl bleibt gleich."
+     },
+     {
+      "antwort": "x¹⁶",
+      "diagnoseId": "hochzahlen_multipliziert",
+      "feedback": "Multipliziert werden die Hochzahlen nur bei einer Potenz in einer Potenz."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(a + b)²",
+    "optionen": [
+     "a² + 2ab + b²",
+     "a² + b²",
+     "a² − 2ab + b²",
+     "2a + 2b"
+    ],
+    "loesung": [
+     "a² + 2ab + b²"
+    ],
+    "erklaerung": "(a + b)² heisst (a + b)·(a + b). Jeder Summand wird mit jedem multipliziert; das mittlere Glied entsteht zweimal.",
+    "fehler": [
+     {
+      "antwort": "a² + b²",
+      "diagnoseId": "binom_zu_einfach",
+      "feedback": "So einfach ist es nicht: (a + b)² ist nicht a² + b². Setze a = 1 und b = 1 ein. Links steht 4, rechts 2."
+     },
+     {
+      "antwort": "a² − 2ab + b²",
+      "diagnoseId": "falsches_vorzeichen",
+      "feedback": "Das Minus gehört zu (a − b)². Bei einem Pluszeichen in der Klammer ist auch das mittlere Glied positiv."
+     },
+     {
+      "antwort": "2a + 2b",
+      "diagnoseId": "quadrat_als_faktor_zwei",
+      "feedback": "Quadrieren heisst mit sich selbst multiplizieren, nicht verdoppeln. Verdoppeln wäre 2·(a + b)."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n6x³y² : (2xy²)",
+    "optionen": [
+     "3x²",
+     "3x²y",
+     "4x²",
+     "3x⁴y⁴"
+    ],
+    "loesung": [
+     "3x²"
+    ],
+    "erklaerung": "6:2 ergibt 3, bei x bleibt 3 − 1 = 2, und bei y hebt sich 2 − 2 = 0 auf. Y⁰ ist 1 und verschwindet.",
+    "fehler": [
+     {
+      "antwort": "3x²y",
+      "diagnoseId": "y_nicht_ganz_gekuerzt",
+      "feedback": "Bei y stehen oben und unten dieselbe Hochzahl: 2 − 2 = 0. Damit verschwindet y ganz."
+     },
+     {
+      "antwort": "4x²",
+      "diagnoseId": "zahlen_subtrahiert",
+      "feedback": "Die Zahlen werden dividiert: 6 : 2 = 3. Subtrahiert werden nur die Hochzahlen."
+     },
+     {
+      "antwort": "3x⁴y⁴",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Dividieren werden die Hochzahlen subtrahiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(5x)² − (3x)²",
+    "optionen": [
+     "16x²",
+     "2x²",
+     "4x²",
+     "16x⁴"
+    ],
+    "loesung": [
+     "16x²"
+    ],
+    "erklaerung": "(5x)² ist 25x², (3x)² ist 9x². Die Differenz ist 16x².",
+    "fehler": [
+     {
+      "antwort": "2x²",
+      "diagnoseId": "klammern_zu_frueh_verrechnet",
+      "feedback": "Du hast 5 − 3 gerechnet und dann quadriert. Erst wird jede Klammer für sich quadriert, dann wird subtrahiert."
+     },
+     {
+      "antwort": "4x²",
+      "diagnoseId": "zahlen_falsch_quadriert",
+      "feedback": "25 − 9 ergibt 16, nicht 4. Die 4 käme heraus, wenn man (5 − 3)² rechnete. Das ist etwas anderes."
+     },
+     {
+      "antwort": "16x⁴",
+      "diagnoseId": "hochzahl_verdoppelt",
+      "feedback": "Beide Terme tragen x², und beim Subtrahieren bleibt die Hochzahl stehen: 25x² − 9x² = 16x²."
+     }
+    ]
+   },
+   {
+    "stamm": "Welchen Wert hat a⁰ für jede Zahl a ausser null?",
+    "optionen": [
+     "1",
+     "0",
+     "a",
+     "unbestimmt"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "aⁿ : aⁿ ergibt einerseits 1, andererseits a⁰. Beides muss zusammenpassen, darum ist a⁰ gleich 1.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "hochzahl_als_wert",
+      "feedback": "Die Hochzahl null bedeutet nicht, dass der Wert null ist. Rechne a³ : a³. Das ergibt 1 und zugleich a⁰."
+     },
+     {
+      "antwort": "a",
+      "diagnoseId": "hochzahl_ignoriert",
+      "feedback": "Das wäre a¹. Die Hochzahl 0 macht daraus etwas anderes."
+     },
+     {
+      "antwort": "unbestimmt",
+      "diagnoseId": "regel_nicht_gesehen",
+      "feedback": "Unbestimmt ist nur 0⁰. Für jede andere Zahl folgt der Wert 1 zwingend aus dem Divisionsgesetz."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Potenzgesetze",
+  "status": "review"
+ },
+ {
+  "templateId": "be3-terme-faktorisieren",
+  "lernzielId": "MG.2.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.01",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche zuerst den grössten Faktor, der in jedem Summanden steckt. Zahl und Buchstaben getrennt.",
+   "Bleibt nach dem Ausklammern in der Klammer noch ein gemeinsamer Faktor, war er nicht der grösste.",
+   "Bei zwei Quadraten mit einem Minus dazwischen hilft die dritte binomische Formel: a² − b² = (a + b)(a − b)."
+  ],
+  "loesungsweg": [
+   "Zerlege jeden Summanden in seine Faktoren.",
+   "Nimm bei den Zahlen den grössten gemeinsamen Teiler, bei den Buchstaben die kleinste vorkommende Hochzahl.",
+   "Schreibe diesen Faktor vor die Klammer und teile jeden Summanden durch ihn.",
+   "Multipliziere zur Probe wieder aus. Es muss der Ausgangsterm herauskommen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Schreibe als Produkt, indem du den grösstmöglichen Faktor ausklammerst:\n\n4a²b + 8ab² + 2a²b²",
+    "optionen": [
+     "2ab(2a + 4b + ab)",
+     "ab(4a + 8b + 2ab)",
+     "2ab(2a + 4b + a²b²)",
+     "2a(2ab + 4b² + ab²)"
+    ],
+    "loesung": [
+     "2ab(2a + 4b + ab)"
+    ],
+    "erklaerung": "Bei den Zahlen ist 2 der grösste gemeinsame Teiler, bei a und b je die Hochzahl 1. Ausgeklammert wird darum 2ab.",
+    "fehler": [
+     {
+      "antwort": "ab(4a + 8b + 2ab)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "Richtig ausmultipliziert, aber nicht vollständig: In der Klammer steckt noch der gemeinsame Faktor 2."
+     },
+     {
+      "antwort": "2ab(2a + 4b + a²b²)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "Der letzte Summand ist 2a²b²; geteilt durch 2ab bleibt ab, nicht a²b²."
+     },
+     {
+      "antwort": "2a(2ab + 4b² + ab²)",
+      "diagnoseId": "b_nicht_ausgeklammert",
+      "feedback": "Das b steckt in jedem der drei Summanden und gehört darum ebenfalls vor die Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Produkt, indem du den grösstmöglichen Faktor ausklammerst:\n\n12x³ − 18x²",
+    "optionen": [
+     "6x²(2x − 3)",
+     "6x(2x² − 3x)",
+     "2x²(6x − 9)",
+     "6x²(2x − 3x)"
+    ],
+    "loesung": [
+     "6x²(2x − 3)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 12 und 18 ist 6, und x² steckt in beiden Summanden.",
+    "fehler": [
+     {
+      "antwort": "6x(2x² − 3x)",
+      "diagnoseId": "x_nicht_ganz_ausgeklammert",
+      "feedback": "In der Klammer steckt noch ein x. Ausgeklammert wird die kleinste vorkommende Hochzahl, hier x²."
+     },
+     {
+      "antwort": "2x²(6x − 9)",
+      "diagnoseId": "zahl_nicht_ganz_ausgeklammert",
+      "feedback": "6 und 9 haben noch den Teiler 3 gemeinsam. Der grösste gemeinsame Teiler von 12 und 18 ist 6."
+     },
+     {
+      "antwort": "6x²(2x − 3x)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "18x² geteilt durch 6x² ergibt 3, nicht 3x. Multipliziere zur Probe wieder aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\nx² − 49",
+    "optionen": [
+     "(x + 7)(x − 7)",
+     "(x − 7)²",
+     "(x + 7)²",
+     "x(x − 49)"
+    ],
+    "loesung": [
+     "(x + 7)(x − 7)"
+    ],
+    "erklaerung": "Zwei Quadrate mit einem Minus dazwischen: die dritte binomische Formel. 49 ist 7².",
+    "fehler": [
+     {
+      "antwort": "(x − 7)²",
+      "diagnoseId": "falsche_binomische_formel",
+      "feedback": "(x − 7)² ergäbe ausmultipliziert x² − 14x + 49. Im Ausgangsterm gibt es aber kein mittleres Glied."
+     },
+     {
+      "antwort": "(x + 7)²",
+      "diagnoseId": "falsche_binomische_formel",
+      "feedback": "(x + 7)² ergäbe x² + 14x + 49. Ein mittleres Glied steht im Ausgangsterm nicht."
+     },
+     {
+      "antwort": "x(x − 49)",
+      "diagnoseId": "x_ausgeklammert",
+      "feedback": "Im zweiten Summanden steckt kein x. 49 lässt sich nicht durch x teilen. Ausmultipliziert ergäbe das x² − 49x."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\nx² + 10x + 25",
+    "optionen": [
+     "(x + 5)²",
+     "(x − 5)²",
+     "(x + 5)(x − 5)",
+     "(x + 10)(x + 25)"
+    ],
+    "loesung": [
+     "(x + 5)²"
+    ],
+    "erklaerung": "25 ist 5², und das mittlere Glied 10x ist 2·x·5. Das passt genau auf die erste binomische Formel.",
+    "fehler": [
+     {
+      "antwort": "(x − 5)²",
+      "diagnoseId": "falsches_vorzeichen",
+      "feedback": "Mit dem Minus ergäbe sich x² − 10x + 25. Das mittlere Glied ist hier aber positiv."
+     },
+     {
+      "antwort": "(x + 5)(x − 5)",
+      "diagnoseId": "dritte_statt_erste_formel",
+      "feedback": "Das ergäbe x² − 25, ohne mittleres Glied. Die dritte binomische Formel passt nur bei einer Differenz zweier Quadrate."
+     },
+     {
+      "antwort": "(x + 10)(x + 25)",
+      "diagnoseId": "zahlen_uebernommen",
+      "feedback": "Du hast die Zahlen aus dem Term direkt in die Klammern geschrieben. Gesucht sind zwei Zahlen mit der Summe 10 und dem Produkt 25."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\n9a² − 24a + 16",
+    "optionen": [
+     "(3a − 4)²",
+     "(3a + 4)²",
+     "(3a − 4)(3a + 4)",
+     "(9a − 16)²"
+    ],
+    "loesung": [
+     "(3a − 4)²"
+    ],
+    "erklaerung": "9a² ist (3a)², 16 ist 4², und das mittlere Glied 24a ist 2·3a·4. Das Minus verlangt die zweite binomische Formel.",
+    "fehler": [
+     {
+      "antwort": "(3a + 4)²",
+      "diagnoseId": "falsches_vorzeichen",
+      "feedback": "Mit dem Plus käme +24a heraus. Im Term steht aber −24a."
+     },
+     {
+      "antwort": "(3a − 4)(3a + 4)",
+      "diagnoseId": "dritte_statt_zweite_formel",
+      "feedback": "Das ergäbe 9a² − 16, ohne mittleres Glied."
+     },
+     {
+      "antwort": "(9a − 16)²",
+      "diagnoseId": "wurzeln_nicht_gezogen",
+      "feedback": "In die Klammer gehören die Wurzeln der beiden Quadrate: 3a und 4, nicht 9a und 16."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Produkt:\n\n5ab − 5ac",
+    "optionen": [
+     "5a(b − c)",
+     "5(ab − ac)",
+     "a(5b − 5c)",
+     "5a(b + c)"
+    ],
+    "loesung": [
+     "5a(b − c)"
+    ],
+    "erklaerung": "In beiden Summanden stecken die 5 und das a. Übrig bleibt b − c.",
+    "fehler": [
+     {
+      "antwort": "5(ab − ac)",
+      "diagnoseId": "a_nicht_ausgeklammert",
+      "feedback": "Das a steht in beiden Summanden und gehört darum ebenfalls vor die Klammer."
+     },
+     {
+      "antwort": "a(5b − 5c)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "Die 5 steckt in beiden Summanden und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "5a(b + c)",
+      "diagnoseId": "vorzeichen_verloren",
+      "feedback": "Zwischen den beiden Summanden steht ein Minus. Es bleibt beim Ausklammern erhalten."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Produkt:\n\n2x² + 8x",
+    "optionen": [
+     "2x(x + 4)",
+     "2(x² + 4x)",
+     "x(2x + 8)",
+     "2x(x + 8)"
+    ],
+    "loesung": [
+     "2x(x + 4)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor ist 2x. Geteilt ergibt das x und 4.",
+    "fehler": [
+     {
+      "antwort": "2(x² + 4x)",
+      "diagnoseId": "x_nicht_ausgeklammert",
+      "feedback": "In der Klammer steckt noch ein x. Beide Summanden enthalten es."
+     },
+     {
+      "antwort": "x(2x + 8)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "2 und 8 haben den Teiler 2 gemeinsam; er gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "2x(x + 8)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "8x geteilt durch 2x ergibt 4, nicht 8. Multipliziere zur Probe wieder aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere so weit wie möglich:\n\na³ − a",
+    "optionen": [
+     "a(a + 1)(a − 1)",
+     "a(a² − 1)",
+     "a(a − 1)²",
+     "(a − 1)(a² + a)"
+    ],
+    "loesung": [
+     "a(a + 1)(a − 1)"
+    ],
+    "erklaerung": "Zuerst a ausklammern, dann bleibt a² − 1, und das ist eine Differenz zweier Quadrate.",
+    "fehler": [
+     {
+      "antwort": "a(a² − 1)",
+      "diagnoseId": "nicht_zu_ende_faktorisiert",
+      "feedback": "Ein richtiger Zwischenschritt, aber noch nicht das Ende: a² − 1 lässt sich nach der dritten binomischen Formel weiter zerlegen."
+     },
+     {
+      "antwort": "a(a − 1)²",
+      "diagnoseId": "falsche_binomische_formel",
+      "feedback": "(a − 1)² ergäbe a² − 2a + 1. Bei einer Differenz zweier Quadrate gehören ein Plus und ein Minus in die Klammern."
+     },
+     {
+      "antwort": "(a − 1)(a² + a)",
+      "diagnoseId": "nicht_zu_ende_faktorisiert",
+      "feedback": "Der Wert stimmt, aber in der zweiten Klammer steckt noch ein a, das ausgeklammert werden kann."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\n16y² − 81",
+    "optionen": [
+     "(4y + 9)(4y − 9)",
+     "(4y − 9)²",
+     "(16y + 81)(16y − 81)",
+     "(4y + 9)²"
+    ],
+    "loesung": [
+     "(4y + 9)(4y − 9)"
+    ],
+    "erklaerung": "16y² ist (4y)² und 81 ist 9². Eine Differenz zweier Quadrate zerfällt in Summe mal Differenz.",
+    "fehler": [
+     {
+      "antwort": "(4y − 9)²",
+      "diagnoseId": "falsche_binomische_formel",
+      "feedback": "Das ergäbe 16y² − 72y + 81. Ein mittleres Glied steht im Ausgangsterm nicht."
+     },
+     {
+      "antwort": "(16y + 81)(16y − 81)",
+      "diagnoseId": "wurzeln_nicht_gezogen",
+      "feedback": "In die Klammern gehören die Wurzeln: 4y und 9, nicht 16y und 81."
+     },
+     {
+      "antwort": "(4y + 9)²",
+      "diagnoseId": "falsche_binomische_formel",
+      "feedback": "Das ergäbe 16y² + 72y + 81. Bei der dritten binomischen Formel steht in der einen Klammer ein Plus, in der anderen ein Minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Produkt, indem du den grösstmöglichen Faktor ausklammerst:\n\n3x²y + 6xy² − 9xy",
+    "optionen": [
+     "3xy(x + 2y − 3)",
+     "xy(3x + 6y − 9)",
+     "3xy(x + 2y − 3xy)",
+     "3x(xy + 2y² − 3y)"
+    ],
+    "loesung": [
+     "3xy(x + 2y − 3)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler der Zahlen ist 3, und x wie y stecken je einmal in allen drei Summanden.",
+    "fehler": [
+     {
+      "antwort": "xy(3x + 6y − 9)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "3, 6 und 9 haben den Teiler 3 gemeinsam. Er gehört vor die Klammer."
+     },
+     {
+      "antwort": "3xy(x + 2y − 3xy)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "9xy geteilt durch 3xy ergibt 3, nicht 3xy. Multipliziere zur Probe wieder aus."
+     },
+     {
+      "antwort": "3x(xy + 2y² − 3y)",
+      "diagnoseId": "y_nicht_ausgeklammert",
+      "feedback": "Das y steckt in jedem der drei Summanden und gehört ebenfalls vor die Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(x + 3)² − (x − 3)²",
+    "optionen": [
+     "12x",
+     "0",
+     "18",
+     "2x² + 18"
+    ],
+    "loesung": [
+     "12x"
+    ],
+    "erklaerung": "Ausmultipliziert: x² + 6x + 9 minus x² − 6x + 9. Die Quadrate und die 9 heben sich auf, die beiden mittleren Glieder addieren sich zu 12x.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "klammern_gleichgesetzt",
+      "feedback": "Die beiden Klammern sind nicht gleich, in der einen steht ein Plus, in der anderen ein Minus. Ihre Quadrate unterscheiden sich."
+     },
+     {
+      "antwort": "18",
+      "diagnoseId": "mittlere_glieder_uebersehen",
+      "feedback": "Die 9 kommt zweimal vor und hebt sich gerade auf. Übrig bleiben die beiden mittleren Glieder."
+     },
+     {
+      "antwort": "2x² + 18",
+      "diagnoseId": "minuszeichen_nicht_verteilt",
+      "feedback": "Das Minus vor der zweiten Klammer gilt für ALLE ihre Glieder. Dadurch heben sich x² und 9 auf, statt sich zu verdoppeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Produkt:\n\nx² − 5x",
+    "optionen": [
+     "x(x − 5)",
+     "x(x + 5)",
+     "(x − 5)²",
+     "x²(1 − 5)"
+    ],
+    "loesung": [
+     "x(x − 5)"
+    ],
+    "erklaerung": "In beiden Summanden steckt ein x. Übrig bleibt x − 5.",
+    "fehler": [
+     {
+      "antwort": "x(x + 5)",
+      "diagnoseId": "vorzeichen_verloren",
+      "feedback": "Zwischen den Summanden steht ein Minus; es bleibt beim Ausklammern erhalten."
+     },
+     {
+      "antwort": "(x − 5)²",
+      "diagnoseId": "quadrat_erfunden",
+      "feedback": "Ausmultipliziert ergäbe das x² − 10x + 25. Im Ausgangsterm steht weder eine 25 noch −10x."
+     },
+     {
+      "antwort": "x²(1 − 5)",
+      "diagnoseId": "zu_viel_ausgeklammert",
+      "feedback": "x² lässt sich nicht ausklammern: Der zweite Summand 5x enthält nur ein x, nicht zwei."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Ausklammern und binomische Formeln",
+  "status": "review"
+ }
+]

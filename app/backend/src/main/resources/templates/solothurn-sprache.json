@@ -1,0 +1,1837 @@
+[
+ {
+  "templateId": "so-kommas",
+  "lernzielId": "SSO.1.01",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Suche zuerst die Verben: Wo ein zweites gebeugtes Verb steht, beginnt ein neuer Teilsatz.",
+   "Vor «dass», «weil», «wenn», «obwohl», «der», «die», «das» als Anschluss steht ein Komma.",
+   "Bei Infinitivgruppen mit «zu» steht ein Komma, wenn ein Ankündigungswort da ist oder die Gruppe erweitert ist."
+  ],
+  "loesungsweg": [
+   "Alle gebeugten Verben unterstreichen.",
+   "Die Teilsätze abgrenzen. Zwischen zwei Teilsätzen steht ein Komma.",
+   "Einschübe und Appositionen mit zwei Kommas einschliessen.",
+   "Zum Schluss laut lesen: Wo man Luft holt, steht meistens ein Komma, aber nur meistens."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Gemeinde teilt mit dass die Ausleihe im Frühling öffnet.",
+    "loesung": [
+     "Die Gemeinde teilt mit, dass die Ausleihe im Frühling öffnet."
+    ],
+    "erklaerung": "Vor «dass» beginnt ein Nebensatz, und davor steht immer ein Komma. Das gebeugte Verb «öffnet» rutscht darin ans Ende."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie leiht das Gerät aus weil sie es nur einmal braucht.",
+    "loesung": [
+     "Sie leiht das Gerät aus, weil sie es nur einmal braucht."
+    ],
+    "erklaerung": "«weil» leitet einen Nebensatz ein; davor steht ein Komma. Das Verb «braucht» steht am Ende des Nebensatzes."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Nähmaschine die sie ausleiht steht seit Wochen bereit.",
+    "loesung": [
+     "Die Nähmaschine, die sie ausleiht, steht seit Wochen bereit."
+    ],
+    "erklaerung": "Der eingeschobene Relativsatz mit «die» wird von ZWEI Kommas eingeschlossen. Eines davor, eines danach."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr bringt das Werkzeug zurück wenn er damit fertig ist.",
+    "loesung": [
+     "Er bringt das Werkzeug zurück, wenn er damit fertig ist."
+    ],
+    "erklaerung": "«wenn» leitet einen Nebensatz ein. Vor der Konjunktion steht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nRuth Aebi eine Fachfrau für Ausleihen kennt das Problem.",
+    "loesung": [
+     "Ruth Aebi, eine Fachfrau für Ausleihen, kennt das Problem."
+    ],
+    "erklaerung": "Die Apposition «eine Fachfrau für Ausleihen» erklärt den Namen näher und steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie leihen Bohrmaschinen Anhänger Dörrapparate und Zelte aus.",
+    "loesung": [
+     "Sie leihen Bohrmaschinen, Anhänger, Dörrapparate und Zelte aus."
+    ],
+    "erklaerung": "In einer Aufzählung stehen Kommas zwischen den Gliedern, vor dem abschliessenden «und» aber nicht."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie hat sich entschlossen die Maschine selbst zu reparieren.",
+    "loesung": [
+     "Sie hat sich entschlossen, die Maschine selbst zu reparieren."
+    ],
+    "erklaerung": "Die erweiterte Infinitivgruppe mit «zu» wird durch ein Komma abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr sagt dass er komme sobald er Zeit hat.",
+    "loesung": [
+     "Er sagt, dass er komme, sobald er Zeit hat."
+    ],
+    "erklaerung": "Zwei Nebensätze hintereinander: Vor jedem steht ein Komma. Zähle die gebeugten Verben. Es sind drei."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nWenn der Anhänger frei ist holt sie ihn am Samstag.",
+    "loesung": [
+     "Wenn der Anhänger frei ist, holt sie ihn am Samstag."
+    ],
+    "erklaerung": "Steht der Nebensatz vorn, kommt das Komma nach ihm. Dort, wo der Hauptsatz beginnt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDas Gerät funktioniert noch obwohl es alt ist.",
+    "loesung": [
+     "Das Gerät funktioniert noch, obwohl es alt ist."
+    ],
+    "erklaerung": "«obwohl» ist eine unterordnende Konjunktion. Vor ihr steht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Idee funktioniert wie sie sagt seit über zwei Jahren.",
+    "loesung": [
+     "Die Idee funktioniert, wie sie sagt, seit über zwei Jahren."
+    ],
+    "erklaerung": "Der Einschub «wie sie sagt» wird von zwei Kommas eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie sucht das Werkzeug das im Regal ganz oben liegt.",
+    "loesung": [
+     "Sie sucht das Werkzeug, das im Regal ganz oben liegt."
+    ],
+    "erklaerung": "Ein Relativsatz beginnt immer mit einem Komma, auch wenn er am Satzende steht."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Kommas bei Nebensätzen, Relativsätzen und Infinitivgruppen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-kommas-2",
+  "lernzielId": "SSO.1.04",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "1.04",
+   "1.05"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Zwischen den Gliedern einer Aufzählung steht ein Komma, vor «und» keines.",
+   "Eine Apposition wird beidseitig eingeschlossen.",
+   "Auch eine Partizipialgruppe wird durch Kommas abgetrennt."
+  ],
+  "loesungsweg": [
+   "Die Aufzählung abgrenzen.",
+   "Prüfen, ob ein Einschub vorliegt.",
+   "Den Einschub vorne und hinten schliessen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie kaufte Äpfel Birnen Nüsse und Honig.",
+    "loesung": [
+     "Sie kaufte Äpfel, Birnen, Nüsse und Honig."
+    ],
+    "erklaerung": "Aufzählung von Einzelwörtern: Komma dazwischen, keines vor «und»."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Verein sucht Helferinnen Helfer und einen Kassier.",
+    "loesung": [
+     "Der Verein sucht Helferinnen, Helfer und einen Kassier."
+    ],
+    "erklaerung": "Zwischen den Gliedern steht ein Komma; vor «und» steht keines."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nIm Keller lagen Werkzeug alte Bilder ein Velo und zwei Kisten.",
+    "loesung": [
+     "Im Keller lagen Werkzeug, alte Bilder, ein Velo und zwei Kisten."
+    ],
+    "erklaerung": "Vier Glieder, drei Trennstellen — und vor «und» kein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nHerr Bieri unser Nachbar hat den Zaun gestrichen.",
+    "loesung": [
+     "Herr Bieri, unser Nachbar, hat den Zaun gestrichen."
+    ],
+    "erklaerung": "«unser Nachbar» ist eine Apposition und steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nOlten die Stadt am Fluss hat einen grossen Bahnhof.",
+    "loesung": [
+     "Olten, die Stadt am Fluss, hat einen grossen Bahnhof."
+    ],
+    "erklaerung": "Die Apposition wird vorne und hinten mit einem Komma eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nMeine Schwester eine Lehrerin aus Grenchen hilft beim Umzug.",
+    "loesung": [
+     "Meine Schwester, eine Lehrerin aus Grenchen, hilft beim Umzug."
+    ],
+    "erklaerung": "Der eingeschobene Zusatz braucht auf beiden Seiten ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nVom Regen durchnässt kamen die Kinder nach Hause.",
+    "loesung": [
+     "Vom Regen durchnässt, kamen die Kinder nach Hause."
+    ],
+    "erklaerung": "Die Partizipialgruppe am Satzanfang wird durch ein Komma abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Wanderer müde von der langen Etappe machten Rast.",
+    "loesung": [
+     "Die Wanderer, müde von der langen Etappe, machten Rast."
+    ],
+    "erklaerung": "Die eingeschobene Partizipialgruppe steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie räumte ohne ein Wort zu sagen den Tisch ab.",
+    "loesung": [
+     "Sie räumte, ohne ein Wort zu sagen, den Tisch ab."
+    ],
+    "erklaerung": "Der eingeschobene Infinitivausdruck wird beidseitig eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Marktstand verkauft Käse Brot Eier und Konfitüre.",
+    "loesung": [
+     "Der Marktstand verkauft Käse, Brot, Eier und Konfitüre."
+    ],
+    "erklaerung": "Vier Glieder in der Aufzählung, kein Komma vor «und»."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nFrau Zeller die Leiterin der Bibliothek führte durch das Haus.",
+    "loesung": [
+     "Frau Zeller, die Leiterin der Bibliothek, führte durch das Haus."
+    ],
+    "erklaerung": "Die Apposition wird vorne und hinten mit einem Komma eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nAuf dem Tisch standen Teller Gläser Besteck und eine Kerze.",
+    "loesung": [
+     "Auf dem Tisch standen Teller, Gläser, Besteck und eine Kerze."
+    ],
+    "erklaerung": "Zwischen den Gliedern der Aufzählung steht je ein Komma."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Kommas bei Aufzählungen, Appositionen und Einschüben",
+  "status": "review"
+ },
+ {
+  "templateId": "so-rechtschreibung",
+  "lernzielId": "SSO.2.01",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Prüfe zuerst die Gross- und Kleinschreibung: Steht ein Artikel davor, ist es ein Nomen.",
+   "«das» oder «dass»? Ersetze es durch «dieses» Geht das, schreibt man «das».",
+   "Achte auf die Endungen: sie zeigen den Fall und müssen zum Artikel passen."
+  ],
+  "loesungsweg": [
+   "Satz für Satz lesen, nicht überfliegen.",
+   "Bei jedem grossgeschriebenen Wort prüfen, ob es wirklich ein Nomen ist.",
+   "Bei «das/dass» die Ersatzprobe machen.",
+   "Bei jedem Wort mit Doppelkonsonant den vorangehenden Vokal prüfen: kurz oder lang?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Zeitangaben)",
+    "optionen": [
+     "Um fit zu sein für die Welt von morgen, braucht es Übung.",
+     "Um fitt zu sein für die Welt von Morgen, braucht es Übung.",
+     "Um fit zu sein für die Welt von Morgen, braucht es Übung.",
+     "Um fitt zu sein für die Welt von morgen, braucht es Übung."
+    ],
+    "loesung": [
+     "Um fit zu sein für die Welt von morgen, braucht es Übung."
+    ],
+    "erklaerung": "«fit» hat ein t, und «morgen» ist hier ein Zeitadverb und wird kleingeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Um fitt zu sein für die Welt von Morgen, braucht es Übung.",
+      "diagnoseId": "zwei_fehler",
+      "feedback": "Zwei Fehler: «fit» schreibt man mit einem t, und «morgen» ist hier ein Adverb und wird kleingeschrieben."
+     },
+     {
+      "antwort": "Um fit zu sein für die Welt von Morgen, braucht es Übung.",
+      "diagnoseId": "morgen_gross",
+      "feedback": "«morgen» ist hier eine Zeitangabe, also ein Adverb. Es wird kleingeschrieben. Gross wäre «der Morgen» als Tageszeit."
+     },
+     {
+      "antwort": "Um fitt zu sein für die Welt von morgen, braucht es Übung.",
+      "diagnoseId": "fitt",
+      "feedback": "«fit» kommt aus dem Englischen und behält das eine t."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (das oder dass)",
+    "optionen": [
+     "Ihr Ziel ist es, dass alle mitmachen können.",
+     "Ihr Ziel ist es, das alle mitmachen können.",
+     "Ihr Ziel ist es dass alle mitmachen können.",
+     "Ihr ziel ist es, dass alle mitmachen können."
+    ],
+    "loesung": [
+     "Ihr Ziel ist es, dass alle mitmachen können."
+    ],
+    "erklaerung": "Hier leitet «dass» einen Nebensatz ein. Die Ersatzprobe mit «dieses» geht nicht. Vor «dass» steht ein Komma.",
+    "fehler": [
+     {
+      "antwort": "Ihr Ziel ist es, das alle mitmachen können.",
+      "diagnoseId": "das_statt_dass",
+      "feedback": "Machen Sie die Ersatzprobe: «dieses alle mitmachen können» ergibt keinen Sinn. Also «dass» mit Doppel-s."
+     },
+     {
+      "antwort": "Ihr Ziel ist es dass alle mitmachen können.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Vor «dass» beginnt ein Nebensatz, und davor steht ein Komma."
+     },
+     {
+      "antwort": "Ihr ziel ist es, dass alle mitmachen können.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Ziel» ist ein Nomen. Der Artikel «ihr» steht davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Fremdwörter)",
+    "optionen": [
+     "Das Programm ist für Jugendliche zwischen zwölf und achtzehn Jahren.",
+     "Das Program ist für Jugendliche zwischen zwölf und achtzehn Jahre.",
+     "Das Programm ist für jugendliche zwischen zwölf und achtzehn Jahren.",
+     "Das Program ist für Jugendliche zwischen zwölf und achtzehn Jahren."
+    ],
+    "loesung": [
+     "Das Programm ist für Jugendliche zwischen zwölf und achtzehn Jahren."
+    ],
+    "erklaerung": "«Programm» hat zwei m, «Jugendliche» ist hier ein Nomen, und nach «zwischen» steht der Dativ: Jahren.",
+    "fehler": [
+     {
+      "antwort": "Das Program ist für Jugendliche zwischen zwölf und achtzehn Jahre.",
+      "diagnoseId": "zwei_fehler",
+      "feedback": "Zwei Fehler: «Programm» schreibt man mit zwei m, und nach «zwischen» steht hier der Dativ «Jahren»."
+     },
+     {
+      "antwort": "Das Programm ist für jugendliche zwischen zwölf und achtzehn Jahren.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Jugendliche» ist hier ein Nomen. Es steht für die Personen selbst."
+     },
+     {
+      "antwort": "Das Program ist für Jugendliche zwischen zwölf und achtzehn Jahren.",
+      "diagnoseId": "program",
+      "feedback": "«Programm» schreibt man im Deutschen mit zwei m."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (feste Wendungen)",
+    "optionen": [
+     "Sie kann die Welt ein bisschen besser machen.",
+     "Sie kann die Welt ein Bisschen besser machen.",
+     "Sie kann die Welt ein bischen besser machen.",
+     "Sie kann die welt ein bisschen besser machen."
+    ],
+    "loesung": [
+     "Sie kann die Welt ein bisschen besser machen."
+    ],
+    "erklaerung": "«ein bisschen» ist eine feste Wendung und wird kleingeschrieben; «bisschen» hat ein Doppel-s.",
+    "fehler": [
+     {
+      "antwort": "Sie kann die Welt ein Bisschen besser machen.",
+      "diagnoseId": "bisschen_gross",
+      "feedback": "«ein bisschen» heisst «etwas» und ist keine Mengenangabe als Nomen. Es wird kleingeschrieben."
+     },
+     {
+      "antwort": "Sie kann die Welt ein bischen besser machen.",
+      "diagnoseId": "bischen",
+      "feedback": "«bisschen» hat ein Doppel-s: bis-schen. Das i davor wird kurz gesprochen."
+     },
+     {
+      "antwort": "Sie kann die welt ein bisschen besser machen.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Welt» ist ein Nomen und wird grossgeschrieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Adjektiv und Nomen)",
+    "optionen": [
+     "Sie beklagt sich über die ausserschulische Initiative.",
+     "Sie beklagt sich über die ausserschulische Inizative.",
+     "Sie beklagt sich über die Ausserschulische Initiative.",
+     "Sie beklagt sich über die ausserschulische initiative."
+    ],
+    "loesung": [
+     "Sie beklagt sich über die ausserschulische Initiative."
+    ],
+    "erklaerung": "«Initiative» wird mit t geschrieben, das Adjektiv klein, das Nomen gross.",
+    "fehler": [
+     {
+      "antwort": "Sie beklagt sich über die ausserschulische Inizative.",
+      "diagnoseId": "inizative",
+      "feedback": "«Initiative» schreibt man mit ti, nicht mit zi."
+     },
+     {
+      "antwort": "Sie beklagt sich über die Ausserschulische Initiative.",
+      "diagnoseId": "adjektiv_gross",
+      "feedback": "«ausserschulisch» ist ein Adjektiv und wird kleingeschrieben."
+     },
+     {
+      "antwort": "Sie beklagt sich über die ausserschulische initiative.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Initiative» ist ein Nomen. Der Artikel «die» steht davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Wortfamilien)",
+    "optionen": [
+     "Was uns antreibt, ist der Gedanke an Veränderung.",
+     "Was uns antreibt, ist der Gedanke an Verenderung.",
+     "Was uns antreibt ist der Gedanke an Veränderung.",
+     "Was uns antreibt, ist der gedanke an Veränderung."
+    ],
+    "loesung": [
+     "Was uns antreibt, ist der Gedanke an Veränderung."
+    ],
+    "erklaerung": "«Veränderung» kommt von «ändern» und behält das ä. Der vorangestellte Nebensatz wird mit einem Komma abgetrennt.",
+    "fehler": [
+     {
+      "antwort": "Was uns antreibt, ist der Gedanke an Verenderung.",
+      "diagnoseId": "verenderung",
+      "feedback": "«Veränderung» gehört zur Wortfamilie «ändern» Daher das ä."
+     },
+     {
+      "antwort": "Was uns antreibt ist der Gedanke an Veränderung.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Der vorangestellte Nebensatz «Was uns antreibt» wird durch ein Komma abgetrennt."
+     },
+     {
+      "antwort": "Was uns antreibt, ist der gedanke an Veränderung.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Gedanke» ist ein Nomen. Der Artikel «der» steht davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Relativsatz)",
+    "optionen": [
+     "Es gibt Fachleute, die noch nie von Ethik gehört haben.",
+     "Es gibt Fachleute die noch nie von Ethik gehört haben.",
+     "Es gibt Fachleute, die noch nie von ethik gehört haben.",
+     "Es gibt fachleute, die noch nie von Ethik gehört haben."
+    ],
+    "loesung": [
+     "Es gibt Fachleute, die noch nie von Ethik gehört haben."
+    ],
+    "erklaerung": "Vor dem Relativsatz mit «die» steht ein Komma; «Fachleute» und «Ethik» sind Nomen.",
+    "fehler": [
+     {
+      "antwort": "Es gibt Fachleute die noch nie von Ethik gehört haben.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Ein Relativsatz beginnt mit einem Komma."
+     },
+     {
+      "antwort": "Es gibt Fachleute, die noch nie von ethik gehört haben.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Ethik» ist ein Nomen und wird grossgeschrieben."
+     },
+     {
+      "antwort": "Es gibt fachleute, die noch nie von Ethik gehört haben.",
+      "diagnoseId": "nomen_klein_zwei",
+      "feedback": "«Fachleute» ist ein Nomen und wird grossgeschrieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Steigerungsformen)",
+    "optionen": [
+     "Am besten hilft es, das Gerät vorher auszuprobieren.",
+     "Am Besten hilft es, das Gerät vorher auszuprobieren.",
+     "Am besten hilft es, dass Gerät vorher auszuprobieren.",
+     "Am besten hilft es das Gerät vorher auszuprobieren."
+    ],
+    "loesung": [
+     "Am besten hilft es, das Gerät vorher auszuprobieren."
+    ],
+    "erklaerung": "«am besten» ist die Steigerungsform eines Adjektivs und wird kleingeschrieben. Vor «das Gerät» steht der Artikel, also «das».",
+    "fehler": [
+     {
+      "antwort": "Am Besten hilft es, das Gerät vorher auszuprobieren.",
+      "diagnoseId": "besten_gross",
+      "feedback": "«am besten» ist eine Steigerungsform und wird kleingeschrieben. Man kann «wie?» fragen."
+     },
+     {
+      "antwort": "Am besten hilft es, dass Gerät vorher auszuprobieren.",
+      "diagnoseId": "dass_statt_das",
+      "feedback": "Hier steht «das» als Artikel vor «Gerät». Die Ersatzprobe mit «dieses» geht auf."
+     },
+     {
+      "antwort": "Am besten hilft es das Gerät vorher auszuprobieren.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Die erweiterte Infinitivgruppe mit «zu» wird nach dem Ankündigungswort «es» durch ein Komma abgetrennt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (trennbare Verben)",
+    "optionen": [
+     "Der Kurs findet statt, sofern genügend Leute kommen.",
+     "Der Kurs findet Statt, sofern genügend Leute kommen.",
+     "Der Kurs findet statt sofern genügend Leute kommen.",
+     "Der Kurs findet statt, sofern genügend leute kommen."
+    ],
+    "loesung": [
+     "Der Kurs findet statt, sofern genügend Leute kommen."
+    ],
+    "erklaerung": "«stattfinden» ist ein Verb; das «statt» darin wird kleingeschrieben. Vor «sofern» steht ein Komma.",
+    "fehler": [
+     {
+      "antwort": "Der Kurs findet Statt, sofern genügend Leute kommen.",
+      "diagnoseId": "verbteil_gross",
+      "feedback": "Das «statt» gehört zum Verb «stattfinden» und wird kleingeschrieben."
+     },
+     {
+      "antwort": "Der Kurs findet statt sofern genügend Leute kommen.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "«sofern» leitet einen Nebensatz ein. Davor steht ein Komma."
+     },
+     {
+      "antwort": "Der Kurs findet statt, sofern genügend leute kommen.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Leute» ist ein Nomen und wird grossgeschrieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Infinitiv mit zu)",
+    "optionen": [
+     "Sie hat ihm geraten, sich beim Fachmann zu erkundigen.",
+     "Sie hat ihm geraten, sich beim Fachmann zuerkundigen.",
+     "Sie hat Ihm geraten, sich beim Fachmann zu erkundigen.",
+     "Sie hat ihm geraten sich beim Fachmann zu erkundigen."
+    ],
+    "loesung": [
+     "Sie hat ihm geraten, sich beim Fachmann zu erkundigen."
+    ],
+    "erklaerung": "«zu erkundigen» wird getrennt geschrieben, das Pronomen «ihm» klein, und die Infinitivgruppe braucht ein Komma.",
+    "fehler": [
+     {
+      "antwort": "Sie hat ihm geraten, sich beim Fachmann zuerkundigen.",
+      "diagnoseId": "zusammen",
+      "feedback": "Das «zu» beim Infinitiv steht als eigenes Wort, wenn das Verb kein trennbares Präfix hat."
+     },
+     {
+      "antwort": "Sie hat Ihm geraten, sich beim Fachmann zu erkundigen.",
+      "diagnoseId": "pronomen_gross",
+      "feedback": "Persönliche Anredepronomen werden nur in Briefen grossgeschrieben, und «ihm» ist hier keine Anrede."
+     },
+     {
+      "antwort": "Sie hat ihm geraten sich beim Fachmann zu erkundigen.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Die erweiterte Infinitivgruppe wird durch ein Komma abgetrennt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (um … zu)",
+    "optionen": [
+     "Wir nutzen das Wissen der Gemeinschaft, um besser zu werden.",
+     "Wir nutzen das wissen der Gemeinschaft, um besser zu werden.",
+     "Wir nutzen das Wissen der Gemeinschaft um besser zu werden.",
+     "Wir nutzen dass Wissen der Gemeinschaft, um besser zu werden."
+    ],
+    "loesung": [
+     "Wir nutzen das Wissen der Gemeinschaft, um besser zu werden."
+    ],
+    "erklaerung": "«Wissen» ist hier ein Nomen (Artikel «das» davor). Die Infinitivgruppe mit «um … zu» wird immer durch ein Komma abgetrennt.",
+    "fehler": [
+     {
+      "antwort": "Wir nutzen das wissen der Gemeinschaft, um besser zu werden.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Wissen» ist hier ein Nomen. Der Artikel «das» steht davor."
+     },
+     {
+      "antwort": "Wir nutzen das Wissen der Gemeinschaft um besser zu werden.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Vor «um … zu» steht immer ein Komma, auch wenn die Gruppe kurz ist."
+     },
+     {
+      "antwort": "Wir nutzen dass Wissen der Gemeinschaft, um besser zu werden.",
+      "diagnoseId": "dass_statt_das",
+      "feedback": "Hier steht «das» als Artikel. Die Ersatzprobe mit «dieses» geht auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (Doppelkonsonanten)",
+    "optionen": [
+     "Sicherheit sei ein Prozess, kein Zustand.",
+     "Sicherheit sei ein Prozes, kein Zustand.",
+     "Sicherheit sei ein Prozess kein Zustand.",
+     "sicherheit sei ein Prozess, kein Zustand."
+    ],
+    "loesung": [
+     "Sicherheit sei ein Prozess, kein Zustand."
+    ],
+    "erklaerung": "«Prozess» hat ein Doppel-s. Die nachgestellte Gegenüberstellung wird durch ein Komma abgetrennt.",
+    "fehler": [
+     {
+      "antwort": "Sicherheit sei ein Prozes, kein Zustand.",
+      "diagnoseId": "prozes",
+      "feedback": "«Prozess» schreibt man mit Doppel-s, weil das e davor kurz gesprochen wird."
+     },
+     {
+      "antwort": "Sicherheit sei ein Prozess kein Zustand.",
+      "diagnoseId": "komma_fehlt",
+      "feedback": "Die Gegenüberstellung «kein Zustand» ist eine Apposition und wird durch ein Komma abgetrennt."
+     },
+     {
+      "antwort": "sicherheit sei ein Prozess, kein Zustand.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Sicherheit» ist ein Nomen und wird grossgeschrieben."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Gross- und Kleinschreibung, das/dass, Dehnung und Schärfung",
+  "status": "review"
+ },
+ {
+  "templateId": "so-korrigieren",
+  "lernzielId": "SSO.2.04",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "2.04",
+   "2.05",
+   "2.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ist die Verbindung zu einem neuen Begriff geworden, wird zusammengeschrieben.",
+   "Nach einer Präposition steht der Fall, den sie verlangt.",
+   "Starke Verben ändern im Präteritum und im Partizip den Stammvokal."
+  ],
+  "loesungsweg": [
+   "Die fragliche Stelle bestimmen.",
+   "Die Regel nennen, die dort gilt.",
+   "Die Form berichtigen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Schreibung ist richtig? Es geht um «ernst nehmen».",
+    "optionen": [
+     "Wir müssen das Problem ernst nehmen.",
+     "Wir müssen das Problem ernstnehmen.",
+     "Wir müssen das Problem Ernst nehmen.",
+     "Wir müssen das Problem ernstNehmen."
+    ],
+    "loesung": [
+     "Wir müssen das Problem ernst nehmen."
+    ],
+    "erklaerung": "«ernst nehmen» bleibt getrennt, weil «ernst» ein steigerbares Adjektiv ist.",
+    "fehler": [
+     {
+      "antwort": "Wir müssen das Problem ernstnehmen.",
+      "diagnoseId": "zusammen",
+      "feedback": "Adjektiv und Verb bleiben hier getrennt."
+     },
+     {
+      "antwort": "Wir müssen das Problem Ernst nehmen.",
+      "diagnoseId": "gross_klein",
+      "feedback": "«ernst» ist hier ein Adjektiv und bleibt klein."
+     },
+     {
+      "antwort": "Wir müssen das Problem ernstNehmen.",
+      "diagnoseId": "form",
+      "feedback": "Diese Schreibung gibt es nicht. Richtig ist «Wir müssen das Problem ernst nehmen.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibung ist richtig? Es geht um «richtigstellen».",
+    "optionen": [
+     "Er will die Sache richtigstellen.",
+     "Er will die Sache richtig stellen.",
+     "Er will die Sache Richtig stellen.",
+     "Er will die Sache richtig-stellen."
+    ],
+    "loesung": [
+     "Er will die Sache richtigstellen."
+    ],
+    "erklaerung": "«richtigstellen» im Sinn von berichtigen ist ein eigener Begriff und wird zusammengeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Er will die Sache richtig stellen.",
+      "diagnoseId": "getrennt",
+      "feedback": "Getrennt hiesse es, etwas an den richtigen Ort zu stellen."
+     },
+     {
+      "antwort": "Er will die Sache Richtig stellen.",
+      "diagnoseId": "gross_klein",
+      "feedback": "«richtig» ist ein Adjektiv und bleibt klein."
+     },
+     {
+      "antwort": "Er will die Sache richtig-stellen.",
+      "diagnoseId": "bindestrich",
+      "feedback": "Ein Bindestrich steht hier nicht. Richtig ist «Er will die Sache richtigstellen.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibung ist richtig? Es geht um «heute Abend» und «zu Hause».",
+    "optionen": [
+     "Sie ist heute Abend zu Hause geblieben.",
+     "Sie ist heute abend zuhause geblieben.",
+     "Sie ist Heute Abend zu Hause geblieben.",
+     "Sie ist heute Abend zuHause geblieben."
+    ],
+    "loesung": [
+     "Sie ist heute Abend zu Hause geblieben."
+    ],
+    "erklaerung": "Nach «heute» steht die Tageszeit gross; «zu Hause» wird getrennt geschrieben.",
+    "fehler": [
+     {
+      "antwort": "Sie ist heute abend zuhause geblieben.",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «heute» steht «Abend» gross. Richtig ist «Sie ist heute Abend zu Hause geblieben.»."
+     },
+     {
+      "antwort": "Sie ist Heute Abend zu Hause geblieben.",
+      "diagnoseId": "gross_klein",
+      "feedback": "«heute» ist ein Adverb und bleibt klein."
+     },
+     {
+      "antwort": "Sie ist heute Abend zuHause geblieben.",
+      "diagnoseId": "form",
+      "feedback": "Diese Schreibung gibt es nicht. Richtig ist «Sie ist heute Abend zu Hause geblieben.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nTrotz ______ fuhr der Bus pünktlich.",
+    "optionen": [
+     "des dichten Nebels",
+     "dem dichten Nebel",
+     "den dichten Nebel",
+     "der dichte Nebel"
+    ],
+    "loesung": [
+     "des dichten Nebels"
+    ],
+    "erklaerung": "«trotz» verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "dem dichten Nebel",
+      "diagnoseId": "fall",
+      "feedback": "«trotz» steht mit dem Genitiv, nicht mit dem Dativ."
+     },
+     {
+      "antwort": "den dichten Nebel",
+      "diagnoseId": "fall",
+      "feedback": "Der Akkusativ passt hier nicht. Richtig ist «des dichten Nebels»."
+     },
+     {
+      "antwort": "der dichte Nebel",
+      "diagnoseId": "fall",
+      "feedback": "Der Nominativ passt nicht nach einer Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nWährend ______ blieb die Tür geschlossen.",
+    "optionen": [
+     "der ganzen Sitzung",
+     "die ganze Sitzung",
+     "der ganze Sitzung",
+     "dem ganzen Sitzung"
+    ],
+    "loesung": [
+     "der ganzen Sitzung"
+    ],
+    "erklaerung": "«während» verlangt den Genitiv: der ganzen Sitzung.",
+    "fehler": [
+     {
+      "antwort": "die ganze Sitzung",
+      "diagnoseId": "fall",
+      "feedback": "«während» steht mit dem Genitiv. Richtig ist «der ganzen Sitzung»."
+     },
+     {
+      "antwort": "der ganze Sitzung",
+      "diagnoseId": "endung",
+      "feedback": "Im Genitiv lautet die Endung «-en»: der ganzen Sitzung."
+     },
+     {
+      "antwort": "dem ganzen Sitzung",
+      "diagnoseId": "geschlecht",
+      "feedback": "«Sitzung» ist weiblich; «dem» passt nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nSie half ______ beim Tragen.",
+    "optionen": [
+     "dem Nachbarn",
+     "den Nachbarn",
+     "der Nachbar",
+     "des Nachbarn"
+    ],
+    "loesung": [
+     "dem Nachbarn"
+    ],
+    "erklaerung": "«helfen» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "den Nachbarn",
+      "diagnoseId": "fall",
+      "feedback": "«helfen» steht mit dem Dativ, nicht mit dem Akkusativ."
+     },
+     {
+      "antwort": "der Nachbar",
+      "diagnoseId": "fall",
+      "feedback": "Der Nominativ passt nicht als Objekt. Richtig ist «dem Nachbarn»."
+     },
+     {
+      "antwort": "des Nachbarn",
+      "diagnoseId": "fall",
+      "feedback": "Der Genitiv passt hier nicht. Richtig ist «dem Nachbarn»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nDas Buch ______ Schülers lag auf dem Pult.",
+    "optionen": [
+     "des",
+     "dem",
+     "den",
+     "der"
+    ],
+    "loesung": [
+     "des"
+    ],
+    "erklaerung": "Der Besitz steht im Genitiv: des Schülers.",
+    "fehler": [
+     {
+      "antwort": "dem",
+      "diagnoseId": "fall",
+      "feedback": "Der Dativ passt nicht zum Besitzverhältnis."
+     },
+     {
+      "antwort": "den",
+      "diagnoseId": "fall",
+      "feedback": "Der Akkusativ passt hier nicht. Richtig ist «des»."
+     },
+     {
+      "antwort": "der",
+      "diagnoseId": "geschlecht",
+      "feedback": "«Schüler» ist männlich; «der» wäre der Nominativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verbform ist richtig?\n\nGestern ______ er den Brief.",
+    "optionen": [
+     "schrieb",
+     "schreibte",
+     "schriebte",
+     "geschrieben"
+    ],
+    "loesung": [
+     "schrieb"
+    ],
+    "erklaerung": "«schreiben» ist ein starkes Verb: schreiben, schrieb, geschrieben.",
+    "fehler": [
+     {
+      "antwort": "schreibte",
+      "diagnoseId": "form",
+      "feedback": "«schreiben» ist stark und bildet das Präteritum ohne «-te»."
+     },
+     {
+      "antwort": "schriebte",
+      "diagnoseId": "form",
+      "feedback": "Diese Mischform gibt es nicht. Richtig ist «schrieb»."
+     },
+     {
+      "antwort": "geschrieben",
+      "diagnoseId": "form",
+      "feedback": "Das Partizip braucht ein Hilfsverb. Richtig ist «schrieb»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verbform ist richtig?\n\nSie hat den Schlüssel ______ .",
+    "optionen": [
+     "gefunden",
+     "gefindet",
+     "fand",
+     "findete"
+    ],
+    "loesung": [
+     "gefunden"
+    ],
+    "erklaerung": "«finden» ist stark: finden, fand, gefunden.",
+    "fehler": [
+     {
+      "antwort": "gefindet",
+      "diagnoseId": "form",
+      "feedback": "Das Partizip lautet «gefunden». Richtig ist «gefunden»."
+     },
+     {
+      "antwort": "fand",
+      "diagnoseId": "form",
+      "feedback": "Nach «hat» steht das Partizip, nicht das Präteritum."
+     },
+     {
+      "antwort": "findete",
+      "diagnoseId": "form",
+      "feedback": "«finden» ist stark und bildet kein «-te»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verbform ist richtig?\n\nDer Zug ______ vor zehn Minuten abgefahren.",
+    "optionen": [
+     "ist",
+     "hat",
+     "wird",
+     "wäre"
+    ],
+    "loesung": [
+     "ist"
+    ],
+    "erklaerung": "Bewegungsverben bilden das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "hat",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«abfahren» ist ein Bewegungsverb und nimmt «sein»."
+     },
+     {
+      "antwort": "wird",
+      "diagnoseId": "zeit",
+      "feedback": "«wird» ergäbe eine Zukunftsform oder ein Passiv."
+     },
+     {
+      "antwort": "wäre",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv passt nicht zu einer Feststellung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verbform ist richtig?\n\nWir ______ gestern lange gewartet.",
+    "optionen": [
+     "haben",
+     "sind",
+     "werden",
+     "hätten"
+    ],
+    "loesung": [
+     "haben"
+    ],
+    "erklaerung": "«warten» bildet das Perfekt mit «haben».",
+    "fehler": [
+     {
+      "antwort": "sind",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«warten» ist kein Bewegungsverb und nimmt «haben»."
+     },
+     {
+      "antwort": "werden",
+      "diagnoseId": "zeit",
+      "feedback": "«werden» ergäbe eine Zukunftsform. Richtig ist «haben»."
+     },
+     {
+      "antwort": "hätten",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv passt nicht zu einer Feststellung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verbform ist richtig?\n\nBevor sie kam, ______ wir schon gegessen.",
+    "optionen": [
+     "hatten",
+     "haben",
+     "hätten",
+     "waren"
+    ],
+    "loesung": [
+     "hatten"
+    ],
+    "erklaerung": "Was vor einer Vergangenheit liegt, steht im Plusquamperfekt: hatten gegessen.",
+    "fehler": [
+     {
+      "antwort": "haben",
+      "diagnoseId": "zeit",
+      "feedback": "Das Perfekt zeigt die Vorzeitigkeit nicht an."
+     },
+     {
+      "antwort": "hätten",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv passt nicht zu einer Feststellung."
+     },
+     {
+      "antwort": "waren",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«essen» bildet die zusammengesetzten Zeiten mit «haben»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Getrennt- und Zusammenschreibung, Fälle und Verbformen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-wortarten-satzglieder",
+  "lernzielId": "SSO.3.01",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Fragen Sie sich: Lässt sich das Wort beugen? Kann ein Artikel davorstehen?",
+   "Ein Adjektiv lässt sich steigern und beschreibt ein Nomen; ein Adverb bleibt unverändert.",
+   "Konjunktionen verbinden, Präpositionen fordern einen Fall."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob ein Artikel davorpasst. Dann ist es ein Nomen.",
+   "Prüfen, ob sich das Wort konjugieren lässt. Dann ist es ein Verb.",
+   "Prüfen, ob es steigerbar ist und ein Nomen näher bestimmt. Dann ist es ein Adjektiv.",
+   "Sonst nach der Funktion fragen: verbindet es, ersetzt es, fordert es einen Fall?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 1)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Bibliothek» trägt einen Artikel, «leiht» lässt sich konjugieren, «neue» steht vor einem Nomen und ist steigerbar, «in» fordert einen Fall.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Die _Bibliothek_ öffnet am Montag.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "Sie _leiht_ eine Nähmaschine aus.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Er kauft eine _neue_ Bohrmaschine.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Das Gerät steht _in_ der Ecke.",
+      "loesung": [
+       "Präposition"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 2)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«weil» verbindet zwei Teilsätze, «sie» ersetzt ein Nomen, «schnell» bestimmt hier das Verb näher, «der» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Sie geht hin, _weil_ sie das Gerät braucht.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "_Sie_ bringt es am Abend zurück.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Er arbeitet _schnell_.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "_Der_ Anhänger ist ausgeliehen.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 3)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Werkzeug» trägt einen Artikel, «reparieren» ist ein Infinitiv, «alt» ist steigerbar, «und» verbindet.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Das _Werkzeug_ liegt im Regal.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "Sie will es selbst _reparieren_.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Die Maschine ist schon _alt_.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Sie holt den Anhänger _und_ den Hänger.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 4)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«mit» fordert den Dativ, «gestern» sagt wann, «wir» ersetzt Personen, «ein» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Sie fährt _mit_ dem Velo hin.",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "_Gestern_ war die Ausleihe geschlossen.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "_Wir_ haben das Zelt zurückgebracht.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Er sucht _ein_ Werkzeug.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 5)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Gespräch» trägt einen Artikel, «entsteht» lässt sich konjugieren, «freundlich» ist steigerbar, «obwohl» verbindet zwei Teilsätze.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Ein _Gespräch_ kommt oft von selbst.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "So _entsteht_ ein Kontakt.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Die Frau am Schalter ist _freundlich_.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Er kommt, _obwohl_ es regnet.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 6)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«ihm» ersetzt eine Person im Dativ, «heute» sagt wann, «für» fordert den Akkusativ, «die» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Sie gibt _ihm_ den Schlüssel.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "_Heute_ ist die Werkstatt offen.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "Das Gerät ist _für_ die Klasse gedacht.",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "_Die_ Ausleihe beginnt um neun.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 7)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Frühling» trägt einen Artikel, «warten» ist ein Infinitiv, «lang» ist steigerbar, «dass» leitet einen Nebensatz ein.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Im _Frühling_ sind alle Anhänger weg.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "Man muss oft lange _warten_.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Die Warteliste ist _lang_.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Sie sagt, _dass_ es sich lohnt.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 8)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«nach» fordert den Dativ, «immer» sagt wie oft, «man» ersetzt eine unbestimmte Person, «das» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "_Nach_ dem Gebrauch wird gereinigt.",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Er meldet Schäden _immer_.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "_Man_ zahlt einen Jahresbeitrag.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "_Das_ Zelt ist im Sommer gefragt.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 9)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Platz» trägt einen Artikel, «fehlt» lässt sich konjugieren, «klein» ist steigerbar, «aber» verbindet zwei Hauptsätze.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Der _Platz_ in der Wohnung ist knapp.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "Ein Estrich _fehlt_ dort.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Die Wohnung ist _klein_.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Sie leiht aus, _aber_ sie kauft nichts.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 10)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«uns» ersetzt Personen, «selten» sagt wie oft, «ohne» fordert den Akkusativ, «eine» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Das hilft _uns_ allen.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Er braucht das Gerät _selten_.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "Sie kam _ohne_ Anmeldung.",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Er sucht _eine_ Leiter.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 11)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Idee» trägt einen Artikel, «funktioniert» lässt sich konjugieren, «gut» ist steigerbar, «wenn» leitet einen Nebensatz ein.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Die _Idee_ stammt aus der Stadt.",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "Sie _funktioniert_ seit zwei Jahren.",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "Das Ergebnis ist _gut_.",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Er kommt, _wenn_ er Zeit hat.",
+      "loesung": [
+       "Konjunktion"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortart der hervorgehobenen Wörter.  (Satzgruppe 12)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«während» fordert hier einen Fall, «morgen» sagt wann, «ihn» ersetzt ein Nomen, «dem» steht vor einem Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "_Während_ der Ferien bleibt es zu.",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "_Morgen_ öffnet die Ausleihe wieder.",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "Sie holt _ihn_ am Samstag.",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Er gibt es _dem_ Nachbarn.",
+      "loesung": [
+       "Artikel"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "Nomen",
+   "Verb",
+   "Adjektiv",
+   "Pronomen",
+   "Präposition",
+   "Konjunktion",
+   "Adverb",
+   "Artikel"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortarten bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-wortfamilien-rede",
+  "lernzielId": "SSO.4.01",
+  "fach": "sprache-so",
+  "unterthemen": [
+   "4.01",
+   "4.02",
+   "4.03",
+   "4.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Wortfamilien: Suche den gemeinsamen Wortstamm und hänge die passende Endung an.",
+   "In der indirekten Rede steht der Konjunktiv I: «er sagt, er habe» statt «er hat».",
+   "Auch die Pronomen wechseln: Aus «ich» wird «er» oder «sie»."
+  ],
+  "loesungsweg": [
+   "Bei Wortfamilien: den Stamm freilegen und Nomen, Verb und Adjektiv bilden.",
+   "Bei der indirekten Rede zuerst die Person umstellen.",
+   "Dann das Verb in den Konjunktiv I setzen.",
+   "Wenn der Konjunktiv I wie der Indikativ aussieht, den Konjunktiv II nehmen. «würde» ist an der Prüfung nicht erlaubt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ergänze die Wortfamilie: Substantiv «der Schmutz», Verb «verschmutzen». Wie lautet das Adjektiv?",
+    "optionen": [
+     "schmutzig",
+     "verschmutzt",
+     "das Schmutzige",
+     "schmutzhaft"
+    ],
+    "loesung": [
+     "schmutzig"
+    ],
+    "erklaerung": "Das Adjektiv der Wortfamilie ist «schmutzig». Partizipien wie «verschmutzt» zählen nicht als eigenes Adjektiv.",
+    "fehler": [
+     {
+      "antwort": "verschmutzt",
+      "diagnoseId": "partizip",
+      "feedback": "Das ist ein Partizip des Verbs, kein eigenständiges Adjektiv der Wortfamilie."
+     },
+     {
+      "antwort": "das Schmutzige",
+      "diagnoseId": "nomen_statt_adjektiv",
+      "feedback": "Das ist ein substantiviertes Adjektiv, also wieder ein Nomen. Gefragt ist die Adjektivform."
+     },
+     {
+      "antwort": "schmutzhaft",
+      "diagnoseId": "erfundene_endung",
+      "feedback": "Diese Endung gibt es bei diesem Stamm nicht. Das Adjektiv lautet «schmutzig»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie: Verb «experimentieren». Wie lautet das Substantiv mit Artikel?",
+    "optionen": [
+     "das Experiment",
+     "der Experiment",
+     "das Experimentieren",
+     "die Experimentierung"
+    ],
+    "loesung": [
+     "das Experiment"
+    ],
+    "erklaerung": "Das Nomen der Wortfamilie ist «das Experiment». Substantivierte Verben zählen nicht.",
+    "fehler": [
+     {
+      "antwort": "der Experiment",
+      "diagnoseId": "falscher_artikel",
+      "feedback": "«Experiment» ist sächlich: das Experiment."
+     },
+     {
+      "antwort": "das Experimentieren",
+      "diagnoseId": "substantiviertes_verb",
+      "feedback": "Ein grossgeschriebenes Verb zählt nicht als eigenes Nomen der Wortfamilie."
+     },
+     {
+      "antwort": "die Experimentierung",
+      "diagnoseId": "erfundene_endung",
+      "feedback": "Dieses Wort gibt es nicht. Das Nomen lautet «das Experiment»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie: Adjektiv «kritisch». Wie lautet das Verb?",
+    "optionen": [
+     "kritisieren",
+     "kritisch sein",
+     "die Kritik",
+     "kritiken"
+    ],
+    "loesung": [
+     "kritisieren"
+    ],
+    "erklaerung": "Das Verb der Wortfamilie ist «kritisieren». «Die Kritik» wäre das Nomen.",
+    "fehler": [
+     {
+      "antwort": "kritisch sein",
+      "diagnoseId": "umschreibung",
+      "feedback": "Eine Umschreibung mit «sein» ist kein eigenes Verb der Wortfamilie."
+     },
+     {
+      "antwort": "die Kritik",
+      "diagnoseId": "nomen_statt_verb",
+      "feedback": "Das ist das Nomen. Gefragt ist das Verb."
+     },
+     {
+      "antwort": "kritiken",
+      "diagnoseId": "erfundene_form",
+      "feedback": "Diese Form gibt es nicht. Das Verb lautet «kritisieren»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie: Substantiv «das Risiko». Wie lautet das Adjektiv?",
+    "optionen": [
+     "riskant",
+     "risikoreich",
+     "riskieren",
+     "risikohaft"
+    ],
+    "loesung": [
+     "riskant"
+    ],
+    "erklaerung": "Das Adjektiv der Wortfamilie ist «riskant». «Riskieren» wäre das Verb.",
+    "fehler": [
+     {
+      "antwort": "risikoreich",
+      "diagnoseId": "zusammensetzung",
+      "feedback": "Das ist ein zusammengesetztes Wort. Gefragt ist das einfache Adjektiv der Wortfamilie."
+     },
+     {
+      "antwort": "riskieren",
+      "diagnoseId": "verb_statt_adjektiv",
+      "feedback": "Das ist das Verb. Gefragt ist das Adjektiv."
+     },
+     {
+      "antwort": "risikohaft",
+      "diagnoseId": "erfundene_endung",
+      "feedback": "Diese Endung gibt es bei diesem Stamm nicht. Das Adjektiv lautet «riskant»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Wortfamilie: Adjektiv «verwundbar». Wie lautet das Substantiv mit Artikel?",
+    "optionen": [
+     "die Wunde",
+     "der Wunde",
+     "das Verwundbare",
+     "die Verwundbarkeit"
+    ],
+    "loesung": [
+     "die Wunde"
+    ],
+    "erklaerung": "Der Stamm der Wortfamilie ist «Wunde». «Verwundbarkeit» wäre eine Ableitung vom Adjektiv, nicht das Grundnomen.",
+    "fehler": [
+     {
+      "antwort": "der Wunde",
+      "diagnoseId": "falscher_artikel",
+      "feedback": "«Wunde» ist weiblich: die Wunde. Der Artikel gehört bei dieser Aufgabe ausdrücklich dazu."
+     },
+     {
+      "antwort": "das Verwundbare",
+      "diagnoseId": "substantiviertes_adjektiv",
+      "feedback": "Ein grossgeschriebenes Adjektiv zählt nicht als eigenes Nomen der Wortfamilie."
+     },
+     {
+      "antwort": "die Verwundbarkeit",
+      "diagnoseId": "ableitung_vom_adjektiv",
+      "feedback": "Das ist vom Adjektiv abgeleitet. Das Grundnomen der Familie ist «die Wunde»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nEr sagt: «Ich arbeite von zu Hause aus.»",
+    "optionen": [
+     "Er sagt, er arbeite von zu Hause aus.",
+     "Er sagt, er arbeitet von zu Hause aus.",
+     "Er sagt, ich arbeite von zu Hause aus.",
+     "Er sagt, er würde von zu Hause aus arbeiten."
+    ],
+    "loesung": [
+     "Er sagt, er arbeite von zu Hause aus."
+    ],
+    "erklaerung": "In der indirekten Rede steht der Konjunktiv I: «arbeite». Das Pronomen wechselt von «ich» zu «er».",
+    "fehler": [
+     {
+      "antwort": "Er sagt, er arbeitet von zu Hause aus.",
+      "diagnoseId": "indikativ",
+      "feedback": "«arbeitet» ist der Indikativ. Die indirekte Rede verlangt den Konjunktiv I: «arbeite»."
+     },
+     {
+      "antwort": "Er sagt, ich arbeite von zu Hause aus.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Das Pronomen muss mitwechseln: Aus «ich» wird «er»."
+     },
+     {
+      "antwort": "Er sagt, er würde von zu Hause aus arbeiten.",
+      "diagnoseId": "wuerde_form",
+      "feedback": "Formen mit «würde» sind an dieser Prüfung ausdrücklich nicht erlaubt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nSie sagt: «Ich habe kein garantiertes Einkommen.»",
+    "optionen": [
+     "Sie sagt, sie habe kein garantiertes Einkommen.",
+     "Sie sagt, sie hat kein garantiertes Einkommen.",
+     "Sie sagt, ich habe kein garantiertes Einkommen.",
+     "Sie sagt, sie hätte kein garantiertes Einkommen."
+    ],
+    "loesung": [
+     "Sie sagt, sie habe kein garantiertes Einkommen."
+    ],
+    "erklaerung": "Der Konjunktiv I von «haben» lautet «habe» und unterscheidet sich hier klar vom Indikativ «hat».",
+    "fehler": [
+     {
+      "antwort": "Sie sagt, sie hat kein garantiertes Einkommen.",
+      "diagnoseId": "indikativ",
+      "feedback": "«hat» ist der Indikativ. Die indirekte Rede verlangt «habe»."
+     },
+     {
+      "antwort": "Sie sagt, ich habe kein garantiertes Einkommen.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Aus «ich» wird «sie», weil eine dritte Person berichtet."
+     },
+     {
+      "antwort": "Sie sagt, sie hätte kein garantiertes Einkommen.",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "Der Konjunktiv II «hätte» kommt erst zum Zug, wenn der Konjunktiv I wie der Indikativ aussieht. Hier ist «habe» eindeutig."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nSie sagen: «Wir bringen die Geräte zurück.»",
+    "optionen": [
+     "Sie sagen, sie brächten die Geräte zurück.",
+     "Sie sagen, sie bringen die Geräte zurück.",
+     "Sie sagen, wir bringen die Geräte zurück.",
+     "Sie sagen, sie würden die Geräte zurückbringen."
+    ],
+    "loesung": [
+     "Sie sagen, sie brächten die Geräte zurück."
+    ],
+    "erklaerung": "Der Konjunktiv I lautete «bringen» und wäre vom Indikativ nicht zu unterscheiden. Darum weicht man auf den Konjunktiv II «brächten» aus.",
+    "fehler": [
+     {
+      "antwort": "Sie sagen, sie bringen die Geräte zurück.",
+      "diagnoseId": "nicht_unterscheidbar",
+      "feedback": "Der Konjunktiv I «bringen» sieht genau wie der Indikativ aus. In diesem Fall nimmt man den Konjunktiv II: «brächten»."
+     },
+     {
+      "antwort": "Sie sagen, wir bringen die Geräte zurück.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Aus «wir» wird «sie», weil von aussen berichtet wird."
+     },
+     {
+      "antwort": "Sie sagen, sie würden die Geräte zurückbringen.",
+      "diagnoseId": "wuerde_form",
+      "feedback": "Formen mit «würde» sind an dieser Prüfung nicht erlaubt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nEr erklärt: «Meine Arbeit bringt mir grosse Befriedigung.»",
+    "optionen": [
+     "Er erklärt, seine Arbeit bringe ihm grosse Befriedigung.",
+     "Er erklärt, meine Arbeit bringe mir grosse Befriedigung.",
+     "Er erklärt, seine Arbeit bringt ihm grosse Befriedigung.",
+     "Er erklärt, seine Arbeit würde ihm grosse Befriedigung bringen."
+    ],
+    "loesung": [
+     "Er erklärt, seine Arbeit bringe ihm grosse Befriedigung."
+    ],
+    "erklaerung": "Neben dem Verb wechseln auch die Possessiv- und Personalpronomen: aus «meine» wird «seine», aus «mir» wird «ihm».",
+    "fehler": [
+     {
+      "antwort": "Er erklärt, meine Arbeit bringe mir grosse Befriedigung.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Die Pronomen müssen mitwechseln: «seine» und «ihm»."
+     },
+     {
+      "antwort": "Er erklärt, seine Arbeit bringt ihm grosse Befriedigung.",
+      "diagnoseId": "indikativ",
+      "feedback": "«bringt» ist der Indikativ. Der Konjunktiv I lautet «bringe»."
+     },
+     {
+      "antwort": "Er erklärt, seine Arbeit würde ihm grosse Befriedigung bringen.",
+      "diagnoseId": "wuerde_form",
+      "feedback": "Formen mit «würde» sind an dieser Prüfung nicht erlaubt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nSie erzählt: «Ich bin seit drei Jahren dabei.»",
+    "optionen": [
+     "Sie erzählt, sie sei seit drei Jahren dabei.",
+     "Sie erzählt, sie ist seit drei Jahren dabei.",
+     "Sie erzählt, ich sei seit drei Jahren dabei.",
+     "Sie erzählt, sie wäre seit drei Jahren dabei."
+    ],
+    "loesung": [
+     "Sie erzählt, sie sei seit drei Jahren dabei."
+    ],
+    "erklaerung": "Der Konjunktiv I von «sein» lautet «sei» Eine der wenigen Formen, die man sich einprägen muss.",
+    "fehler": [
+     {
+      "antwort": "Sie erzählt, sie ist seit drei Jahren dabei.",
+      "diagnoseId": "indikativ",
+      "feedback": "«ist» ist der Indikativ. Der Konjunktiv I lautet «sei»."
+     },
+     {
+      "antwort": "Sie erzählt, ich sei seit drei Jahren dabei.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Aus «ich» wird «sie», weil eine dritte Person über sie berichtet."
+     },
+     {
+      "antwort": "Sie erzählt, sie wäre seit drei Jahren dabei.",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "«sei» ist eindeutig vom Indikativ unterscheidbar. Der Konjunktiv II ist hier nicht nötig."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Satz in indirekter Rede?\n\nDer Sprecher sagt: «Wir übernehmen die Haftung.»",
+    "optionen": [
+     "Der Sprecher sagt, sie übernähmen die Haftung.",
+     "Der Sprecher sagt, sie übernehmen die Haftung.",
+     "Der Sprecher sagt, wir übernehmen die Haftung.",
+     "Der Sprecher sagt, sie würden die Haftung übernehmen."
+    ],
+    "loesung": [
+     "Der Sprecher sagt, sie übernähmen die Haftung."
+    ],
+    "erklaerung": "Der Konjunktiv I «übernehmen» wäre nicht vom Indikativ zu unterscheiden. Darum der Konjunktiv II «übernähmen».",
+    "fehler": [
+     {
+      "antwort": "Der Sprecher sagt, sie übernehmen die Haftung.",
+      "diagnoseId": "nicht_unterscheidbar",
+      "feedback": "Diese Form ist mit dem Indikativ identisch. Weichen Sie auf den Konjunktiv II aus."
+     },
+     {
+      "antwort": "Der Sprecher sagt, wir übernehmen die Haftung.",
+      "diagnoseId": "pronomen_nicht_angepasst",
+      "feedback": "Aus «wir» wird «sie», weil von aussen berichtet wird."
+     },
+     {
+      "antwort": "Der Sprecher sagt, sie würden die Haftung übernehmen.",
+      "diagnoseId": "wuerde_form",
+      "feedback": "Formen mit «würde» sind an dieser Prüfung nicht erlaubt."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht in der indirekten Rede manchmal der Konjunktiv II statt des Konjunktivs I?",
+    "optionen": [
+     "Weil der Konjunktiv I dort gleich aussieht wie der Indikativ",
+     "Weil der Konjunktiv II höflicher klingt",
+     "Weil der Konjunktiv I nur in der Vergangenheit gilt",
+     "Weil man beide beliebig verwenden darf"
+    ],
+    "loesung": [
+     "Weil der Konjunktiv I dort gleich aussieht wie der Indikativ"
+    ],
+    "erklaerung": "Wäre die Form nicht unterscheidbar, erkennt niemand die indirekte Rede. Dann weicht man auf den Konjunktiv II aus.",
+    "fehler": [
+     {
+      "antwort": "Weil der Konjunktiv II höflicher klingt",
+      "diagnoseId": "hoeflichkeit",
+      "feedback": "Höflichkeit spielt hier keine Rolle. Es geht um die Unterscheidbarkeit der Form."
+     },
+     {
+      "antwort": "Weil der Konjunktiv I nur in der Vergangenheit gilt",
+      "diagnoseId": "zeitform",
+      "feedback": "Der Konjunktiv I ist nicht auf eine Zeitform beschränkt."
+     },
+     {
+      "antwort": "Weil man beide beliebig verwenden darf",
+      "diagnoseId": "beliebig",
+      "feedback": "Es gibt eine klare Regel: Konjunktiv I, ausser er ist nicht unterscheidbar."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 2, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortfamilien und indirekte Rede",
+  "status": "review"
+ }
+]

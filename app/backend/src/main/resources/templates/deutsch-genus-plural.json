@@ -1,0 +1,379 @@
+[
+ {
+  "templateId": "genus-plural",
+  "lernzielId": "D2.6.05",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "6.05"
+  ],
+  "thema": "Genus und Plural",
+  "format": "mehrfeld",
+  "hinweise": [
+   "Beim Geschlecht helfen die Endungen: -heit, -keit, -ung, -schaft, -ei und -ion sind immer weiblich; -chen und -lein immer sächlich.",
+   "Bei der Mehrzahl achte auf den Umlaut: Viele einsilbige Nomen setzen einen (die Bank → die Bänke), viele Fremdwörter dagegen nicht.",
+   "Fremdwörter auf -um, -us und -a folgen oft dem Lateinischen: Museum → Museen, Kaktus → Kakteen, Thema → Themen. Diese Formen musst du lernen, ableiten lassen sie sich nicht."
+  ],
+  "loesungsweg": [
+   "Prüfe zuerst die Endung. Sie verrät bei vielen Nomen das Geschlecht.",
+   "Setze den Artikel probeweise davor und lies laut: «der Ergebnis» klingt falsch.",
+   "Bilde dann die Mehrzahl und prüfe, ob ein Umlaut dazukommt.",
+   "Bei Fremdwörtern: Kommt die Endung aus dem Lateinischen oder Griechischen?"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review",
+  "aufgaben": [
+   {
+    "stamm": "Gegeben ist das Nomen _Wort_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Wörter",
+       "Wörter"
+      ]
+     }
+    ],
+    "erklaerung": "Das Wort hat zwei Mehrzahlformen mit verschiedener Bedeutung: «die Wörter» sind einzelne Wörter einer Liste, «die Worte» sind zusammenhängende Äusserungen. Gefragt ist hier die Zählform."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Bank_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "die"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Bänke",
+       "Bänke"
+      ]
+     }
+    ],
+    "erklaerung": "«Die Bank» hat zwei Mehrzahlformen: «die Bänke» zum Sitzen, «die Banken» als Geldhäuser. Der Umlaut unterscheidet sie."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Museum_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Museen",
+       "Museen"
+      ]
+     }
+    ],
+    "erklaerung": "Fremdwörter auf -um bilden die Mehrzahl auf -en und verlieren dabei die Endung: Museum → Museen, Zentrum → Zentren, Datum → Daten."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Praktikum_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Praktika",
+       "Praktika"
+      ]
+     }
+    ],
+    "erklaerung": "Einige lateinische Fremdwörter auf -um behalten die lateinische Mehrzahl auf -a: Praktikum → Praktika, Visum → Visa. Wörterbuch fragen lohnt sich hier."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Atlas_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Atlanten",
+       "Atlanten"
+      ]
+     }
+    ],
+    "erklaerung": "Der Atlas ist männlich und bildet die Mehrzahl unregelmässig: die Atlanten. Solche Fremdwörter muss man einzeln lernen."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Thema_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Themen",
+       "Themen"
+      ]
+     }
+    ],
+    "erklaerung": "Fremdwörter auf -a aus dem Griechischen bilden die Mehrzahl auf -en: Thema → Themen, Komma → Kommas oder Kommata, Drama → Dramen."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Konto_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Konten",
+       "Konti",
+       "Kontos"
+      ]
+     }
+    ],
+    "erklaerung": "In der Schweiz sind «die Konten» und «die Konti» beide gebräuchlich. Bei Fremdwörtern auf -o schwankt die Mehrzahl oft."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Balkon_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Balkone",
+       "Balkone",
+       "die Balkons",
+       "Balkons"
+      ]
+     }
+    ],
+    "erklaerung": "Bei französischen Lehnwörtern sind beide Mehrzahlformen zulässig: die Balkone und die Balkons."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Kaktus_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Kakteen",
+       "Kakteen",
+       "die Kaktusse",
+       "Kaktusse"
+      ]
+     }
+    ],
+    "erklaerung": "Der Kaktus ist männlich. Die Mehrzahl «die Kakteen» folgt dem Lateinischen; «die Kaktusse» ist umgangssprachlich ebenfalls verbreitet."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Mädchen_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Mädchen",
+       "Mädchen"
+      ]
+     }
+    ],
+    "erklaerung": "Alle Nomen auf -chen und -lein sind sächlich. Auch wenn sie ein Mädchen bezeichnen. Die Verkleinerungssilbe bestimmt das Geschlecht, nicht die Bedeutung. In der Mehrzahl ändert sich nichts."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Freiheit_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "die"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Freiheiten",
+       "Freiheiten"
+      ]
+     }
+    ],
+    "erklaerung": "Alle Nomen auf -heit, -keit, -ung, -schaft, -ei und -ion sind weiblich. Die Mehrzahl bilden sie auf -en. Diese Endungsregel gilt ohne Ausnahme."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Reichtum_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Reichtümer",
+       "Reichtümer"
+      ]
+     }
+    ],
+    "erklaerung": "Die meisten Nomen auf -tum sind sächlich (das Eigentum), aber «der Reichtum» und «der Irrtum» sind männlich. Die Mehrzahl bekommt Umlaut und -er."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Ergebnis_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Ergebnisse",
+       "Ergebnisse"
+      ]
+     }
+    ],
+    "erklaerung": "Nomen auf -nis sind meist sächlich. In der Mehrzahl verdoppelt sich das s: Ergebnis → Ergebnisse, Erlebnis → Erlebnisse."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Zeugnis_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Zeugnisse",
+       "Zeugnisse"
+      ]
+     }
+    ],
+    "erklaerung": "Wie bei allen Nomen auf -nis verdoppelt sich in der Mehrzahl das s. Das Geschlecht ist sächlich."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _See_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der",
+       "die"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Seen",
+       "Seen"
+      ]
+     }
+    ],
+    "erklaerung": "Beides gibt es, mit verschiedener Bedeutung: «der See» ist das Gewässer im Binnenland, «die See» das Meer. Die Mehrzahl lautet in beiden Fällen «die Seen»."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Verdienst_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "der",
+       "das"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Verdienste",
+       "Verdienste"
+      ]
+     }
+    ],
+    "erklaerung": "«Der Verdienst» ist der Lohn, «das Verdienst» die anerkennenswerte Leistung. Die Mehrzahl ist bei beiden «die Verdienste»."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Kenntnis_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "die"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Kenntnisse",
+       "Kenntnisse"
+      ]
+     }
+    ],
+    "erklaerung": "Eine Ausnahme zur -nis-Regel: «die Kenntnis» ist weiblich, obwohl die meisten Nomen auf -nis sächlich sind. Die Mehrzahl verdoppelt wie üblich das s."
+   },
+   {
+    "stamm": "Gegeben ist das Nomen _Virus_. Gib den bestimmten Artikel im Singular und die Mehrzahlform an.",
+    "felder": [
+     {
+      "label": "bestimmter Artikel (Singular)",
+      "loesung": [
+       "das",
+       "der"
+      ]
+     },
+     {
+      "label": "Mehrzahl (mit Artikel «die»)",
+      "loesung": [
+       "die Viren",
+       "Viren"
+      ]
+     }
+    ],
+    "erklaerung": "Fachsprachlich heisst es «das Virus», umgangssprachlich auch «der Virus». Die Mehrzahl ist in beiden Fällen «die Viren»."
+   }
+  ]
+ }
+]

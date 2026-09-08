@@ -1,0 +1,227 @@
+<!--
+  Die Bestellstrecke einer Schule: Angaben → Offerte → Bestellung →
+  Bestätigung → Rechnung.
+
+  Alles auf einer Seite, aber jeder Schritt mit eigener Adresse
+  (`?schritt=…`). Das ist der Unterschied zwischen einem Formular und
+  einem Vorgang: Eine Schulsekretärin füllt die Bestellung aus, muss
+  bei der Bestellnummer nachfragen, schliesst den Laptop — und findet
+  am nächsten Tag über den Link im Verlauf denselben Stand wieder.
+  Ausserdem lässt sich eine Offerte so an die Schulleitung schicken.
+-->
+<section class="band schmal">
+  <div class="innen mittel">
+
+    <nav class="schritte" id="schritte" aria-label="Fortschritt der Bestellung">
+      <div class="schritt" data-fuer="daten">
+        <span class="kugel">1</span><span>Angaben</span></div>
+      <div class="schritt" data-fuer="offerte">
+        <span class="kugel">2</span><span>Offerte</span></div>
+      <div class="schritt" data-fuer="bestellung">
+        <span class="kugel">3</span><span>Bestellung</span></div>
+      <div class="schritt" data-fuer="bestaetigung">
+        <span class="kugel">4</span><span>Bestätigung</span></div>
+      <div class="schritt" data-fuer="rechnung">
+        <span class="kugel">5</span><span>Rechnung</span></div>
+    </nav>
+
+    <div id="meldung"></div>
+
+    <!-- ============ 1 · Angaben ============ -->
+    <section data-schritt="daten" hidden>
+      <p class="eyebrow">Schritt 1 von 5</p>
+      <h1>Angaben zur Schule</h1>
+      <p class="bd" style="margin-top:10px;max-width:60ch">
+        Daraus entsteht die Offerte. Sie brauchen dafür kein Konto, und es
+        entsteht noch keine Bestellung — verbindlich wird es erst in
+        Schritt 3.
+      </p>
+
+      <form id="formDaten" novalidate style="margin-top:28px">
+        <div class="karte">
+          <h3 style="margin-bottom:18px">Schule</h3>
+          <label class="feld"><span>Name der Schule</span>
+            <input name="schulname" required autocomplete="organization"
+                   placeholder=""></label>
+          <label class="feld"><span>Strasse und Nummer</span>
+            <input name="strasse" required autocomplete="street-address"></label>
+          <div class="feldpaar schmal-breit">
+            <label class="feld"><span>PLZ</span>
+              <input name="plz" required inputmode="numeric" pattern="[0-9]{4}"
+                     maxlength="4" autocomplete="postal-code"></label>
+            <label class="feld"><span>Ort</span>
+              <input name="ort" required autocomplete="address-level2"></label>
+          </div>
+          <label class="feld"><span>Kanton</span>
+            <select name="kanton" id="kantonWahl" required></select></label>
+        </div>
+
+        <div class="karte" style="margin-top:20px">
+          <h3 style="margin-bottom:18px">Kontaktperson</h3>
+          <div class="feldpaar">
+            <label class="feld"><span>Vorname</span>
+              <input name="vorname" required autocomplete="given-name"></label>
+            <label class="feld"><span>Name</span>
+              <input name="nachname" required autocomplete="family-name"></label>
+          </div>
+          <label class="feld"><span>Funktion</span>
+            <span class="hilfe">Zum Beispiel Schulleitung, Klassenlehrperson,
+              Sekretariat. Steht auf der Offerte.</span>
+            <input name="funktion" autocomplete="organization-title"></label>
+          <div class="feldpaar">
+            <label class="feld"><span>E-Mail</span>
+              <input name="email" type="email" required autocomplete="email"></label>
+            <label class="feld"><span>Telefon</span>
+              <input name="telefon" type="tel" autocomplete="tel"></label>
+          </div>
+        </div>
+
+        <div class="karte" style="margin-top:20px">
+          <h3 style="margin-bottom:18px">Umfang</h3>
+          <div class="feldpaar">
+            <label class="feld"><span>Anzahl Lizenzen</span>
+              <input name="anzahl" id="anzahlDaten" type="number" min="1" max="2000"
+                     required inputmode="numeric" value="24"></label>
+            <label class="feld"><span>Gewünschter Beginn</span>
+              <input name="start" id="startDaten" type="date" required></label>
+          </div>
+          <label class="feld"><span>Bemerkung (freiwillig)</span>
+            <span class="hilfe">Etwa: nur Mathematik, oder Beginn nach den
+              Sportferien, oder eine Referenz für die Buchhaltung.</span>
+            <textarea name="bemerkung" rows="3"></textarea></label>
+          <dl class="summe" id="summeDaten" style="margin-top:6px"></dl>
+        </div>
+
+        <div class="knopfreihe">
+          <button class="btn bp" type="submit">Offerte erstellen</button>
+          <a class="btn bt" href="schulen.html#rechner">Zurück zum Rechner</a>
+        </div>
+      </form>
+    </section>
+
+    <!-- ============ 2 · Offerte ============ -->
+    <section data-schritt="offerte" hidden>
+      <p class="eyebrow">Schritt 2 von 5</p>
+      <h1>Ihre Offerte</h1>
+      <p class="bd" style="margin-top:10px;max-width:60ch" id="offerteEinleitung"></p>
+
+      <div class="belegleiste nicht-drucken" style="margin-top:22px">
+        <button class="btn bs klein" onclick="window.print()">
+          {{icon:druck}} Drucken oder als PDF sichern</button>
+        <button class="btn bs klein" id="offerteLink">
+          {{icon:beleg}} Link zum Weitergeben kopieren</button>
+      </div>
+
+      <div id="offertePapier"></div>
+
+      <div class="knopfreihe nicht-drucken">
+        <button class="btn bp" id="zurBestellung">Jetzt verbindlich bestellen</button>
+        <a class="btn bt" href="bestellen.html">Angaben ändern</a>
+      </div>
+    </section>
+
+    <!-- ============ 3 · Bestellung ============ -->
+    <section data-schritt="bestellung" hidden>
+      <p class="eyebrow">Schritt 3 von 5</p>
+      <h1>Bestellung</h1>
+      <p class="bd" style="margin-top:10px;max-width:60ch">
+        Jetzt wird es verbindlich. Die Lizenzen sind sofort gültig — Sie
+        müssen nicht warten, bis die Rechnung bezahlt ist.
+      </p>
+
+      <form id="formBestellung" novalidate style="margin-top:28px">
+        <div class="karte">
+          <h3 style="margin-bottom:6px">Rechnungsadresse</h3>
+          <p class="sm" style="margin-bottom:16px">
+            Oft zahlt die Gemeinde und nicht die Schule. Dann gehört hier die
+            Adresse der Kreditorenbuchhaltung hin.</p>
+          <label class="haken">
+            <input type="checkbox" id="gleicheAdresse" checked>
+            <span>Rechnung geht an dieselbe Adresse wie oben</span></label>
+          <div id="abweichend" hidden style="margin-top:14px">
+            <label class="feld"><span>Empfänger</span>
+              <input name="reName" autocomplete="organization"></label>
+            <label class="feld"><span>Zusatz (Abteilung, Kostenstelle)</span>
+              <input name="reZusatz"></label>
+            <label class="feld"><span>Strasse und Nummer</span>
+              <input name="reStrasse" autocomplete="street-address"></label>
+            <div class="feldpaar schmal-breit">
+              <label class="feld"><span>PLZ</span>
+                <input name="rePlz" inputmode="numeric" maxlength="4"></label>
+              <label class="feld"><span>Ort</span>
+                <input name="reOrt"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="karte" style="margin-top:20px">
+          <h3 style="margin-bottom:18px">Angaben der Buchhaltung</h3>
+          <div class="feldpaar">
+            <label class="feld"><span>Ihre Bestellnummer (freiwillig)</span>
+              <span class="hilfe">Steht auf der Rechnung. Ohne sie bleibt eine
+                Rechnung in mancher Verwaltung liegen.</span>
+              <input name="bestellnummer"></label>
+            <label class="feld"><span>Rechnung per</span>
+              <select name="versandart">
+                <option value="email">E-Mail als PDF</option>
+                <option value="post">Post</option>
+                <option value="erechnung">E-Rechnung</option>
+              </select></label>
+          </div>
+          <label class="feld"><span>E-Mail für die Rechnung</span>
+            <span class="hilfe">Leer lassen, wenn sie an die Kontaktperson gehen soll.</span>
+            <input name="reEmail" type="email"></label>
+        </div>
+
+        <div class="karte" style="margin-top:20px">
+          <h3 style="margin-bottom:14px">Zusammenfassung</h3>
+          <div class="tabellenrahmen"><div id="bestellUebersicht"></div></div>
+          <hr>
+          <label class="haken">
+            <input type="checkbox" name="agb" required>
+            <span>Ich habe die <a href="recht.html#agb" target="_blank">AGB</a> und den
+              <a href="recht.html#datenschutz" target="_blank">Datenschutz</a> gelesen
+              und bestelle für die genannte Schule.</span></label>
+          <label class="haken">
+            <input type="checkbox" name="berechtigt" required>
+            <span>Ich bin berechtigt, für diese Schule zu bestellen.</span></label>
+        </div>
+
+        <div class="knopfreihe">
+          <button class="btn bp" type="submit">Kostenpflichtig bestellen</button>
+          <a class="btn bt" href="#" id="zurueckOfferte">Zurück zur Offerte</a>
+        </div>
+        <p class="sm" style="margin-top:10px">
+          Zahlung auf Rechnung, 30 Tage netto. Keine Vorauszahlung, keine
+          Kreditkarte, keine stille Verlängerung.</p>
+      </form>
+    </section>
+
+    <!-- ============ 4 · Bestätigung ============ -->
+    <section data-schritt="bestaetigung" hidden>
+      <div class="hinweis gut" style="margin-bottom:24px">{{icon:haken}}
+        <div><b>Bestellung eingegangen.</b> Die Lizenzen sind ab sofort gültig.</div></div>
+      <p class="eyebrow">Schritt 4 von 5</p>
+      <h1>Alles bereit</h1>
+      <div id="bestaetigung" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ============ 5 · Rechnung ============ -->
+    <section data-schritt="rechnung" hidden>
+      <p class="eyebrow">Schritt 5 von 5</p>
+      <h1>Rechnung</h1>
+      <p class="bd" style="margin-top:10px;max-width:60ch">
+        Mit Schweizer QR-Zahlteil. Sie finden dieselbe Rechnung jederzeit
+        wieder unter <a href="verwaltung.html">Schulverwaltung</a>.
+      </p>
+      <div class="belegleiste nicht-drucken" style="margin-top:22px">
+        <button class="btn bs klein" onclick="window.print()">
+          {{icon:druck}} Drucken oder als PDF sichern</button>
+        <a class="btn bs klein" href="verwaltung.html">
+          {{icon:leute}} Lizenzen jetzt verteilen</a>
+      </div>
+      <div id="rechnungPapier"></div>
+    </section>
+
+  </div>
+</section>

@@ -1,0 +1,101 @@
+{
+ "fach": "englisch-sz",
+ "name": "Englisch",
+ "pruefung": "Aufnahmeprüfungen der Schwyzer Mittelschulen",
+ "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen",
+ "punkteTotal": 56,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Reading Comprehension",
+   "punkte": 13,
+   "anteil": 23,
+   "beschreibung": "13 Punkte am Gymnasium, 14 an der FMS: ein längerer Text mit Auswahlfragen und ein zweiter Teil mit Zuordnungen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Sachtextes",
+     "lernzielId": "ESZ.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "ESZ.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Aussagen der Autorin oder des Autors deuten",
+     "lernzielId": "ESZ.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Wortbedeutung aus dem Zusammenhang",
+     "lernzielId": "ESZ.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Grammar and Vocabulary",
+   "punkte": 43,
+   "anteil": 77,
+   "beschreibung": "Der grösste Teil der Prüfung: Sentence Transformation, Word Formation, Text Completion, Tenses und Gap Text.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Sentence transformation",
+     "lernzielId": "ESZ.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Word formation: Nomen, Adjektiv, Adverb",
+     "lernzielId": "ESZ.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Text completion: das passende Wort",
+     "lernzielId": "ESZ.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Tenses: present, past, present perfect",
+     "lernzielId": "ESZ.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Verb forms: Infinitiv, ing-Form, Partizip",
+     "lernzielId": "ESZ.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Konditionalsätze",
+     "lernzielId": "ESZ.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Passive",
+     "lernzielId": "ESZ.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Präpositionen und feste Wendungen",
+     "lernzielId": "ESZ.2.08",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

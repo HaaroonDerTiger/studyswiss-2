@@ -1,0 +1,2339 @@
+[
+ {
+  "templateId": "ar-bruchterme",
+  "lernzielId": "MAR.2.06",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.06",
+   "2.14"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei einem Klammerterm gilt zuerst die Klammer, dann Punkt vor Strich.",
+   "Brüche werden auf den Hauptnenner gebracht, bevor man addiert.",
+   "Bei einer Folge suchst du die Regel, nicht die nächste Zahl."
+  ],
+  "loesungsweg": [
+   "Die Klammer zuerst rechnen.",
+   "Den Hauptnenner suchen.",
+   "Bei einer Folge den Schritt von Glied zu Glied bestimmen.",
+   "Die Regel an zwei Schritten prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Berechne: ¹⁄₂ + ¹⁄₃",
+    "optionen": [
+     "⁵⁄₆",
+     "²⁄₅",
+     "¹⁄₅",
+     "²⁄₆"
+    ],
+    "loesung": [
+     "⁵⁄₆"
+    ],
+    "erklaerung": "Hauptnenner 6: 3⁄6 + 2⁄6 = 5⁄6.",
+    "fehler": [
+     {
+      "antwort": "²⁄₅",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Zähler und Nenner dürfen nicht einzeln addiert werden."
+     },
+     {
+      "antwort": "¹⁄₅",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Hier sind die Nenner addiert worden. Richtig ist «⁵⁄₆»."
+     },
+     {
+      "antwort": "²⁄₆",
+      "diagnoseId": "hauptnenner",
+      "feedback": "Der Hauptnenner stimmt, die Zähler sind falsch umgerechnet."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: ³⁄₄ − ¹⁄₆",
+    "optionen": [
+     "⁷⁄₁₂",
+     "²⁄₂",
+     "¹⁄₂",
+     "²⁄₁₂"
+    ],
+    "loesung": [
+     "⁷⁄₁₂"
+    ],
+    "erklaerung": "Hauptnenner 12: 9⁄12 − 2⁄12 = 7⁄12.",
+    "fehler": [
+     {
+      "antwort": "²⁄₂",
+      "diagnoseId": "nenner_subtrahiert",
+      "feedback": "Zähler und Nenner dürfen nicht einzeln subtrahiert werden."
+     },
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Rechne noch einmal: 9⁄12 − 2⁄12. Richtig ist «⁷⁄₁₂»."
+     },
+     {
+      "antwort": "²⁄₁₂",
+      "diagnoseId": "zaehler",
+      "feedback": "Der Zähler ergibt 9 − 2 = 7. Richtig ist «⁷⁄₁₂»."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: (¹⁄₂ + ¹⁄₄) · 4",
+    "optionen": [
+     "3",
+     "³⁄₄",
+     "2",
+     "6"
+    ],
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Zuerst die Klammer: 2⁄4 + 1⁄4 = 3⁄4; dann 3⁄4 · 4 = 3.",
+    "fehler": [
+     {
+      "antwort": "³⁄₄",
+      "diagnoseId": "klammer",
+      "feedback": "Die Multiplikation mit 4 fehlt noch. Richtig ist «3»."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Hier ist nur ein Summand mit 4 multipliziert worden."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Rechne die Klammer noch einmal. Richtig ist «3»."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: 2 · (²⁄₃ − ¹⁄₆)",
+    "optionen": [
+     "1",
+     "¹⁄₂",
+     "2",
+     "¹⁄₆"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Klammer: 4⁄6 − 1⁄6 = 3⁄6 = 1⁄2; dann 2 · 1⁄2 = 1.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "klammer",
+      "feedback": "Die Multiplikation mit 2 fehlt noch. Richtig ist «1»."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Rechne die Klammer noch einmal. Richtig ist «1»."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "hauptnenner",
+      "feedback": "Der Hauptnenner ist 6; 2⁄3 ergibt 4⁄6. Richtig ist «1»."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: ²⁄₃ · ³⁄₈",
+    "optionen": [
+     "¹⁄₄",
+     "⁶⁄₁₁",
+     "⁵⁄₁₁",
+     "⁶⁄₂₄ ungekürzt"
+    ],
+    "loesung": [
+     "¹⁄₄"
+    ],
+    "erklaerung": "2 · 3 = 6, 3 · 8 = 24, gekürzt 1⁄4.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₁₁",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Bei der Multiplikation werden Zähler mal Zähler und Nenner mal Nenner gerechnet."
+     },
+     {
+      "antwort": "⁵⁄₁₁",
+      "diagnoseId": "addiert",
+      "feedback": "Hier ist addiert statt multipliziert worden."
+     },
+     {
+      "antwort": "⁶⁄₂₄ ungekürzt",
+      "diagnoseId": "kuerzen",
+      "feedback": "Das Ergebnis stimmt, ist aber noch nicht gekürzt."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: ³⁄₄ ÷ ¹⁄₂",
+    "optionen": [
+     "³⁄₂",
+     "³⁄₈",
+     "⁴⁄₃",
+     "¹⁄₂"
+    ],
+    "loesung": [
+     "³⁄₂"
+    ],
+    "erklaerung": "Geteilt durch einen Bruch heisst mal Kehrwert: 3⁄4 · 2⁄1 = 6⁄4 = 3⁄2.",
+    "fehler": [
+     {
+      "antwort": "³⁄₈",
+      "diagnoseId": "kehrwert",
+      "feedback": "Hier ist multipliziert statt mit dem Kehrwert gerechnet worden."
+     },
+     {
+      "antwort": "⁴⁄₃",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «³⁄₂»."
+     },
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist der zweite Bruch einfach übernommen worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie geht die Folge weiter?\n\n¹⁄₂, ¹⁄₄, ¹⁄₈, …",
+    "optionen": [
+     "¹⁄₁₆",
+     "¹⁄₁₀",
+     "¹⁄₁₂",
+     "¹⁄₆"
+    ],
+    "loesung": [
+     "¹⁄₁₆"
+    ],
+    "erklaerung": "Jedes Glied ist die Hälfte des vorigen; der Nenner verdoppelt sich.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₁₀",
+      "diagnoseId": "regel",
+      "feedback": "Der Nenner verdoppelt sich, er wächst nicht um zwei."
+     },
+     {
+      "antwort": "¹⁄₁₂",
+      "diagnoseId": "regel",
+      "feedback": "Der Nenner wächst nicht um vier, er verdoppelt sich."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "regel",
+      "feedback": "Der Nenner wird nicht um zwei erhöht. Richtig ist «¹⁄₁₆»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie geht die Folge weiter?\n\n¹⁄₃, ²⁄₃, 1, ⁴⁄₃, …",
+    "optionen": [
+     "⁵⁄₃",
+     "⁴⁄₃",
+     "2",
+     "⁵⁄₆"
+    ],
+    "loesung": [
+     "⁵⁄₃"
+    ],
+    "erklaerung": "Jedes Glied wächst um 1⁄3.",
+    "fehler": [
+     {
+      "antwort": "⁴⁄₃",
+      "diagnoseId": "wiederholung",
+      "feedback": "Das ist das vorige Glied. Richtig ist «⁵⁄₃»."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "regel",
+      "feedback": "Der Schritt beträgt 1⁄3; 4⁄3 + 1⁄3 ergibt 5⁄3."
+     },
+     {
+      "antwort": "⁵⁄₆",
+      "diagnoseId": "nenner",
+      "feedback": "Der Nenner bleibt bei dieser Folge immer 3; nur der Zähler wächst."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie geht die Folge weiter?\n\n¹⁄₂, ²⁄₃, ³⁄₄, ⁴⁄₅, …",
+    "optionen": [
+     "⁵⁄₆",
+     "⁶⁄₇",
+     "⁵⁄₇",
+     "1"
+    ],
+    "loesung": [
+     "⁵⁄₆"
+    ],
+    "erklaerung": "Zähler und Nenner wachsen beide um eins.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₇",
+      "diagnoseId": "schritt",
+      "feedback": "Hier ist ein Glied übersprungen worden. Richtig ist «⁵⁄₆»."
+     },
+     {
+      "antwort": "⁵⁄₇",
+      "diagnoseId": "nenner",
+      "feedback": "Der Nenner wächst nur um eins: 5 wird zu 6."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "regel",
+      "feedback": "Die Folge nähert sich der 1, erreicht sie aber nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Regel dieser Folge?\n\n¹⁄₂, ¹⁄₆, ¹⁄₁₈, …",
+    "optionen": [
+     "Der Nenner wird verdreifacht",
+     "Der Nenner wird verdoppelt",
+     "Der Nenner wächst um vier",
+     "Der Zähler wächst um eins"
+    ],
+    "loesung": [
+     "Der Nenner wird verdreifacht"
+    ],
+    "erklaerung": "2, 6, 18 — jeder Nenner ist das Dreifache des vorigen.",
+    "fehler": [
+     {
+      "antwort": "Der Nenner wird verdoppelt",
+      "diagnoseId": "regel",
+      "feedback": "Aus 2 würde dann 4, nicht 6. Richtig ist «Der Nenner wird verdreifacht»."
+     },
+     {
+      "antwort": "Der Nenner wächst um vier",
+      "diagnoseId": "regel",
+      "feedback": "Von 6 auf 18 sind es zwölf, nicht vier. Richtig ist «Der Nenner wird verdreifacht»."
+     },
+     {
+      "antwort": "Der Zähler wächst um eins",
+      "diagnoseId": "regel",
+      "feedback": "Der Zähler bleibt bei 1. Richtig ist «Der Nenner wird verdreifacht»."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: (1 − ¹⁄₄) · ²⁄₃",
+    "optionen": [
+     "¹⁄₂",
+     "³⁄₄",
+     "²⁄₃",
+     "¹⁄₄"
+    ],
+    "loesung": [
+     "¹⁄₂"
+    ],
+    "erklaerung": "Klammer: 1 − 1⁄4 = 3⁄4; dann 3⁄4 · 2⁄3 = 6⁄12 = 1⁄2.",
+    "fehler": [
+     {
+      "antwort": "³⁄₄",
+      "diagnoseId": "klammer",
+      "feedback": "Die Multiplikation fehlt noch. Richtig ist «¹⁄₂»."
+     },
+     {
+      "antwort": "²⁄₃",
+      "diagnoseId": "klammer",
+      "feedback": "Die Klammer ist nicht berücksichtigt worden."
+     },
+     {
+      "antwort": "¹⁄₄",
+      "diagnoseId": "klammer",
+      "feedback": "1 − 1⁄4 ergibt 3⁄4, nicht 1⁄4. Richtig ist «¹⁄₂»."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne: ⁵⁄₆ − (¹⁄₃ + ¹⁄₆)",
+    "optionen": [
+     "¹⁄₃",
+     "¹⁄₂",
+     "¹⁄₆",
+     "²⁄₃"
+    ],
+    "loesung": [
+     "¹⁄₃"
+    ],
+    "erklaerung": "Klammer: 2⁄6 + 1⁄6 = 3⁄6 = 1⁄2; dann 5⁄6 − 3⁄6 = 2⁄6 = 1⁄3.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "klammer",
+      "feedback": "Das ist der Wert der Klammer, nicht das Ergebnis."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Rechne noch einmal: 5⁄6 − 3⁄6. Richtig ist «¹⁄₃»."
+     },
+     {
+      "antwort": "²⁄₃",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die Klammer wird abgezogen, nicht addiert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Klammerterme mit Brüchen und Zahlenfolgen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-terme",
+  "lernzielId": "MAR.3.01",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "«Vom Text zum Term» heisst: Jedes Wort der Aufgabe hat seine Entsprechung im Term.",
+   "Gleichwertige Terme erkennt man, indem man beide ausmultipliziert.",
+   "Beim Ausklammern nimmt man den GRÖSSTEN gemeinsamen Faktor."
+  ],
+  "loesungsweg": [
+   "Die Struktur des Terms bestimmen.",
+   "Klammern öffnen oder ausklammern.",
+   "Gleichartige Glieder zusammenfassen.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welcher Term passt zum Satz?\n\n«Das Dreifache einer Zahl, vermindert um fünf»",
+    "optionen": [
+     "3x − 5",
+     "3(x − 5)",
+     "x³ − 5",
+     "5 − 3x"
+    ],
+    "loesung": [
+     "3x − 5"
+    ],
+    "erklaerung": "«Das Dreifache» ist 3x; «vermindert um fünf» heisst minus 5.",
+    "fehler": [
+     {
+      "antwort": "3(x − 5)",
+      "diagnoseId": "klammer",
+      "feedback": "Hier würde zuerst 5 abgezogen und dann verdreifacht — das ist eine andere Reihenfolge."
+     },
+     {
+      "antwort": "x³ − 5",
+      "diagnoseId": "potenz",
+      "feedback": "«Das Dreifache» heisst mal drei, nicht hoch drei."
+     },
+     {
+      "antwort": "5 − 3x",
+      "diagnoseId": "richtung",
+      "feedback": "«Vermindert um fünf» heisst: von der Zahl wird fünf abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt zum Satz?\n\n«Die Summe zweier Zahlen, verdoppelt»",
+    "optionen": [
+     "2(a + b)",
+     "2a + b",
+     "a + 2b",
+     "2ab"
+    ],
+    "loesung": [
+     "2(a + b)"
+    ],
+    "erklaerung": "Zuerst die Summe, dann das Ganze verdoppeln — dafür steht die Klammer.",
+    "fehler": [
+     {
+      "antwort": "2a + b",
+      "diagnoseId": "nur_erste",
+      "feedback": "So wird nur die erste Zahl verdoppelt, nicht die ganze Summe."
+     },
+     {
+      "antwort": "a + 2b",
+      "diagnoseId": "nur_zweite",
+      "feedback": "So wird nur die zweite Zahl verdoppelt, nicht die ganze Summe."
+     },
+     {
+      "antwort": "2ab",
+      "diagnoseId": "produkt",
+      "feedback": "Das ist das doppelte Produkt, nicht die doppelte Summe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Terme sind gleichwertig?",
+    "optionen": [
+     "3(x + 2) und 3x + 6",
+     "3(x + 2) und 3x + 2",
+     "(x + 3)² und x² + 9",
+     "2(x − 1) und 2x − 1"
+    ],
+    "loesung": [
+     "3(x + 2) und 3x + 6"
+    ],
+    "erklaerung": "Ausmultipliziert ergibt 3(x + 2) genau 3x + 6.",
+    "fehler": [
+     {
+      "antwort": "3(x + 2) und 3x + 2",
+      "diagnoseId": "teilweise",
+      "feedback": "Der Faktor 3 gehört zu BEIDEN Gliedern: 3 · 2 = 6."
+     },
+     {
+      "antwort": "(x + 3)² und x² + 9",
+      "diagnoseId": "binom",
+      "feedback": "Beim Quadrieren einer Summe entsteht ein mittleres Glied: 6x."
+     },
+     {
+      "antwort": "2(x − 1) und 2x − 1",
+      "diagnoseId": "teilweise_zwei",
+      "feedback": "2 · (−1) ergibt −2, nicht −1: Der Faktor gilt für beide Glieder."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus:\n\n12a + 18b",
+    "optionen": [
+     "6(2a + 3b)",
+     "2(6a + 9b)",
+     "3(4a + 6b)",
+     "6(2a + 18b)"
+    ],
+    "loesung": [
+     "6(2a + 3b)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor von 12 und 18 ist 6.",
+    "fehler": [
+     {
+      "antwort": "2(6a + 9b)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "6 und 9 haben noch den gemeinsamen Faktor 3; es geht mehr."
+     },
+     {
+      "antwort": "3(4a + 6b)",
+      "diagnoseId": "nicht_groesster_zwei",
+      "feedback": "4 und 6 lassen sich beide durch 2 teilen; es geht mehr."
+     },
+     {
+      "antwort": "6(2a + 18b)",
+      "diagnoseId": "rest_falsch",
+      "feedback": "18b : 6 ergibt 3b, nicht 18b — auch der zweite Summand wird geteilt."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n5(a + 2) − 3(a − 1)",
+    "optionen": [
+     "2a + 13",
+     "2a + 7",
+     "8a + 13",
+     "2a − 7"
+    ],
+    "loesung": [
+     "2a + 13"
+    ],
+    "erklaerung": "5a + 10 − 3a + 3 = 2a + 13.",
+    "fehler": [
+     {
+      "antwort": "2a + 7",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−3 · (−1) ergibt +3, nicht −3. Damit sind es 10 + 3 = 13."
+     },
+     {
+      "antwort": "8a + 13",
+      "diagnoseId": "addiert",
+      "feedback": "Vor der zweiten Klammer steht ein Minus: 5a − 3a = 2a."
+     },
+     {
+      "antwort": "2a − 7",
+      "diagnoseId": "vorzeichen_zwei",
+      "feedback": "Beide Zahlen sind am Ende positiv: 10 und 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term beschreibt den Umfang eines Rechtecks mit den Seiten a und a + 3?",
+    "optionen": [
+     "4a + 6",
+     "2a + 3",
+     "a² + 3a",
+     "4a + 3"
+    ],
+    "loesung": [
+     "4a + 6"
+    ],
+    "erklaerung": "Umfang = 2 · a + 2 · (a + 3) = 2a + 2a + 6.",
+    "fehler": [
+     {
+      "antwort": "2a + 3",
+      "diagnoseId": "nur_eine_seite",
+      "feedback": "Jede Seite kommt zweimal vor; der Umfang zählt vier Seiten."
+     },
+     {
+      "antwort": "a² + 3a",
+      "diagnoseId": "flaeche",
+      "feedback": "Das ist die Fläche: a · (a + 3), gemessen in Quadrateinheiten."
+     },
+     {
+      "antwort": "4a + 3",
+      "diagnoseId": "klammer",
+      "feedback": "Der Faktor 2 gilt für die ganze Klammer: 2 · 3 = 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x + 5)(x − 2)",
+    "optionen": [
+     "x² + 3x − 10",
+     "x² − 3x − 10",
+     "x² + 3x + 10",
+     "x² − 10"
+    ],
+    "loesung": [
+     "x² + 3x − 10"
+    ],
+    "erklaerung": "x² − 2x + 5x − 10 = x² + 3x − 10.",
+    "fehler": [
+     {
+      "antwort": "x² − 3x − 10",
+      "diagnoseId": "vorzeichen",
+      "feedback": "+5x und −2x ergeben zusammen +3x, nicht −3x."
+     },
+     {
+      "antwort": "x² + 3x + 10",
+      "diagnoseId": "letztes_glied",
+      "feedback": "5 · (−2) ergibt −10; das Vorzeichen bleibt negativ."
+     },
+     {
+      "antwort": "x² − 10",
+      "diagnoseId": "mittelglied_fehlt",
+      "feedback": "Die beiden mittleren Produkte heben sich nicht auf: +5x − 2x = 3x."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term ist gleichwertig zu (a + b)²?",
+    "optionen": [
+     "a² + 2ab + b²",
+     "a² + b²",
+     "a² + ab + b²",
+     "2a + 2b"
+    ],
+    "loesung": [
+     "a² + 2ab + b²"
+    ],
+    "erklaerung": "Die erste binomische Formel: (a + b)² = a² + 2ab + b².",
+    "fehler": [
+     {
+      "antwort": "a² + b²",
+      "diagnoseId": "mittelglied_fehlt",
+      "feedback": "Beim Quadrieren einer Summe entsteht immer das mittlere Glied 2ab."
+     },
+     {
+      "antwort": "a² + ab + b²",
+      "diagnoseId": "faktor_zwei",
+      "feedback": "Im mittleren Glied steht der Faktor 2: 2ab, nicht ab."
+     },
+     {
+      "antwort": "2a + 2b",
+      "diagnoseId": "verdoppelt",
+      "feedback": "Quadrieren ist nicht dasselbe wie Verdoppeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Folge fort:\n\n¹⁄₂ , ²⁄₃ , ³⁄₄ , ______",
+    "optionen": [
+     "⁴⁄₅",
+     "⁵⁄₆",
+     "⁴⁄₆",
+     "³⁄₅"
+    ],
+    "loesung": [
+     "⁴⁄₅"
+    ],
+    "erklaerung": "Zähler und Nenner wachsen je um eins: 4 über 5.",
+    "fehler": [
+     {
+      "antwort": "⁵⁄₆",
+      "diagnoseId": "zwei_schritte",
+      "feedback": "Das wäre das übernächste Glied; hier folgt zuerst vier Fünftel."
+     },
+     {
+      "antwort": "⁴⁄₆",
+      "diagnoseId": "nenner_falsch",
+      "feedback": "Der Nenner wächst um eins: nach 4 kommt 5, nicht 6."
+     },
+     {
+      "antwort": "³⁄₅",
+      "diagnoseId": "zaehler_falsch",
+      "feedback": "Auch der Zähler wächst: nach 3 kommt 4, nicht wieder 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n(¹⁄₂ + ¹⁄₃) · 6",
+    "optionen": [
+     "5",
+     "3",
+     "6",
+     "¹⁄₆"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "Ein Halbes plus ein Drittel sind fünf Sechstel; mal 6 ergibt 5.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "nur_erster",
+      "feedback": "So wurde nur ein Halbes mal 6 gerechnet."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "klammer_ignoriert",
+      "feedback": "Die Klammer wird zuerst ausgerechnet, und ihr Wert ist kleiner als eins."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Beim Addieren von Brüchen werden die Nenner nicht addiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term beschreibt: «Von einer Zahl wird ein Viertel abgezogen»?",
+    "optionen": [
+     "x − ˣ⁄₄",
+     "x − ¹⁄₄",
+     "ˣ⁄₄ − x",
+     "x : 4"
+    ],
+    "loesung": [
+     "x − ˣ⁄₄"
+    ],
+    "erklaerung": "Ein Viertel VON der Zahl ist x⁄4; dieses wird von x abgezogen.",
+    "fehler": [
+     {
+      "antwort": "x − ¹⁄₄",
+      "diagnoseId": "feste_zahl",
+      "feedback": "Abgezogen wird ein Viertel der Zahl, nicht die feste Zahl ein Viertel."
+     },
+     {
+      "antwort": "ˣ⁄₄ − x",
+      "diagnoseId": "richtung",
+      "feedback": "Abgezogen wird VON der Zahl, nicht umgekehrt."
+     },
+     {
+      "antwort": "x : 4",
+      "diagnoseId": "ganz",
+      "feedback": "Das ist nur ein Viertel der Zahl; der Rest fehlt."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(2x)² − 4x²",
+    "optionen": [
+     "0",
+     "4x²",
+     "−4x²",
+     "4x"
+    ],
+    "loesung": [
+     "0"
+    ],
+    "erklaerung": "(2x)² ist 4x²; davon 4x² abgezogen bleibt null.",
+    "fehler": [
+     {
+      "antwort": "4x²",
+      "diagnoseId": "nur_erstes",
+      "feedback": "Das zweite Glied wird abgezogen; beide sind gleich gross."
+     },
+     {
+      "antwort": "−4x²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "(2x)² ergibt +4x², nicht 0 — und beide Glieder heben sich auf."
+     },
+     {
+      "antwort": "4x",
+      "diagnoseId": "potenz",
+      "feedback": "(2x)² heisst 2x · 2x und ergibt 4x², nicht 4x — auch das x wird quadriert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme darstellen, vergleichen und Klammern öffnen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-terme-2",
+  "lernzielId": "MAR.3.04",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "3.04",
+   "3.05",
+   "3.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Ausklammern suchst du den grössten gemeinsamen Faktor.",
+   "Umfang heisst alle Seiten zusammen, Fläche heisst Länge mal Breite.",
+   "Die erste binomische Formel lautet (a + b)² = a² + 2ab + b²."
+  ],
+  "loesungsweg": [
+   "Die Struktur der Aufgabe erkennen.",
+   "Den gemeinsamen Faktor oder die passende Formel wählen.",
+   "Sorgfältig ausmultiplizieren oder ausklammern.",
+   "Zur Probe zurückrechnen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Klammere den grössten Faktor aus: 18x + 24",
+    "optionen": [
+     "6(3x + 4)",
+     "2(9x + 12)",
+     "3(6x + 8)",
+     "6(3x + 24)"
+    ],
+    "loesung": [
+     "6(3x + 4)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 18 und 24 ist 6.",
+    "fehler": [
+     {
+      "antwort": "2(9x + 12)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "2 teilt beide Zahlen, ist aber nicht der grösste Faktor."
+     },
+     {
+      "antwort": "3(6x + 8)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "3 teilt beide Zahlen, 6 aber auch. Richtig ist «6(3x + 4)»."
+     },
+     {
+      "antwort": "6(3x + 24)",
+      "diagnoseId": "teilweise",
+      "feedback": "Auch die 24 muss durch 6 geteilt werden: 24 ÷ 6 = 4."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere den grössten Faktor aus: 12a² − 20a",
+    "optionen": [
+     "4a(3a − 5)",
+     "2a(6a − 10)",
+     "4(3a² − 5a)",
+     "4a(3a − 20)"
+    ],
+    "loesung": [
+     "4a(3a − 5)"
+    ],
+    "erklaerung": "4 und a stehen in beiden Gliedern.",
+    "fehler": [
+     {
+      "antwort": "2a(6a − 10)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "2a teilt beide, 4a aber auch. Richtig ist «4a(3a − 5)»."
+     },
+     {
+      "antwort": "4(3a² − 5a)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das a lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "4a(3a − 20)",
+      "diagnoseId": "rechenfehler",
+      "feedback": "20a ÷ 4a ergibt 5, nicht 20. Richtig ist «4a(3a − 5)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus: 15xy + 25y",
+    "optionen": [
+     "5y(3x + 5)",
+     "5(3xy + 5y)",
+     "y(15x + 25)",
+     "5y(3x + 25)"
+    ],
+    "loesung": [
+     "5y(3x + 5)"
+    ],
+    "erklaerung": "5 und y stehen in beiden Gliedern.",
+    "fehler": [
+     {
+      "antwort": "5(3xy + 5y)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das y lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "y(15x + 25)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die 5 lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "5y(3x + 25)",
+      "diagnoseId": "rechenfehler",
+      "feedback": "25y ÷ 5y ergibt 5, nicht 25. Richtig ist «5y(3x + 5)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Umfang eines Rechtecks mit den Seiten a und b?",
+    "optionen": [
+     "2a + 2b",
+     "a · b",
+     "a + b",
+     "4a"
+    ],
+    "loesung": [
+     "2a + 2b"
+    ],
+    "erklaerung": "Ein Rechteck hat je zwei gleich lange Seiten.",
+    "fehler": [
+     {
+      "antwort": "a · b",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Fläche, nicht der Umfang. Richtig ist «2a + 2b»."
+     },
+     {
+      "antwort": "a + b",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "So ist erst die Hälfte des Umfangs erfasst."
+     },
+     {
+      "antwort": "4a",
+      "diagnoseId": "form",
+      "feedback": "Das gälte nur für ein Quadrat. Richtig ist «2a + 2b»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Rechteck ist x lang und um 3 kürzer breit. Wie lautet der Umfang?",
+    "optionen": [
+     "4x − 6",
+     "2x − 3",
+     "4x − 3",
+     "x² − 3x"
+    ],
+    "loesung": [
+     "4x − 6"
+    ],
+    "erklaerung": "Umfang = 2 · x + 2 · (x − 3) = 2x + 2x − 6 = 4x − 6.",
+    "fehler": [
+     {
+      "antwort": "2x − 3",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das ist erst die Hälfte des Umfangs. Richtig ist «4x − 6»."
+     },
+     {
+      "antwort": "4x − 3",
+      "diagnoseId": "klammer",
+      "feedback": "Die 3 wird ebenfalls verdoppelt: 2 · (x − 3) = 2x − 6."
+     },
+     {
+      "antwort": "x² − 3x",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Fläche, nicht der Umfang. Richtig ist «4x − 6»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Rechteck ist x lang und um 3 kürzer breit. Wie lautet die Fläche?",
+    "optionen": [
+     "x² − 3x",
+     "4x − 6",
+     "x² − 3",
+     "x² + 3x"
+    ],
+    "loesung": [
+     "x² − 3x"
+    ],
+    "erklaerung": "Fläche = x · (x − 3) = x² − 3x.",
+    "fehler": [
+     {
+      "antwort": "4x − 6",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist der Umfang, nicht die Fläche. Richtig ist «x² − 3x»."
+     },
+     {
+      "antwort": "x² − 3",
+      "diagnoseId": "klammer",
+      "feedback": "Das x muss auch mit der 3 multipliziert werden."
+     },
+     {
+      "antwort": "x² + 3x",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die Breite ist um 3 kleiner, also minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus: (x + 4)²",
+    "optionen": [
+     "x² + 8x + 16",
+     "x² + 16",
+     "x² + 4x + 16",
+     "x² + 8x + 8"
+    ],
+    "loesung": [
+     "x² + 8x + 16"
+    ],
+    "erklaerung": "Erste binomische Formel: x² + 2 · x · 4 + 4².",
+    "fehler": [
+     {
+      "antwort": "x² + 16",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied 2 · x · 4 fehlt. Richtig ist «x² + 8x + 16»."
+     },
+     {
+      "antwort": "x² + 4x + 16",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied lautet 2 · 4 · x = 8x."
+     },
+     {
+      "antwort": "x² + 8x + 8",
+      "diagnoseId": "quadrat",
+      "feedback": "Das letzte Glied ist 4², also 16. Richtig ist «x² + 8x + 16»."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus: (a − 5)²",
+    "optionen": [
+     "a² − 10a + 25",
+     "a² − 25",
+     "a² − 10a − 25",
+     "a² − 5a + 25"
+    ],
+    "loesung": [
+     "a² − 10a + 25"
+    ],
+    "erklaerung": "Zweite binomische Formel: a² − 2 · a · 5 + 5².",
+    "fehler": [
+     {
+      "antwort": "a² − 25",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied −2 · a · 5 fehlt. Richtig ist «a² − 10a + 25»."
+     },
+     {
+      "antwort": "a² − 10a − 25",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das Quadrat von −5 ist +25. Richtig ist «a² − 10a + 25»."
+     },
+     {
+      "antwort": "a² − 5a + 25",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied lautet −2 · 5 · a = −10a."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus: (x + 3)(x − 3)",
+    "optionen": [
+     "x² − 9",
+     "x² + 9",
+     "x² − 6x − 9",
+     "x² − 6x + 9"
+    ],
+    "loesung": [
+     "x² − 9"
+    ],
+    "erklaerung": "Dritte binomische Formel: Die mittleren Glieder heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "x² + 9",
+      "diagnoseId": "vorzeichen",
+      "feedback": "(−3) · (+3) ergibt −9. Richtig ist «x² − 9»."
+     },
+     {
+      "antwort": "x² − 6x − 9",
+      "diagnoseId": "mittelglied",
+      "feedback": "+3x und −3x heben sich auf. Richtig ist «x² − 9»."
+     },
+     {
+      "antwort": "x² − 6x + 9",
+      "diagnoseId": "formel",
+      "feedback": "Das wäre (x − 3)². Richtig ist «x² − 9»."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus: (2y + 1)²",
+    "optionen": [
+     "4y² + 4y + 1",
+     "2y² + 4y + 1",
+     "4y² + 2y + 1",
+     "4y² + 1"
+    ],
+    "loesung": [
+     "4y² + 4y + 1"
+    ],
+    "erklaerung": "(2y)² = 4y², dann 2 · 2y · 1 = 4y, dann 1² = 1.",
+    "fehler": [
+     {
+      "antwort": "2y² + 4y + 1",
+      "diagnoseId": "quadrat",
+      "feedback": "(2y)² ergibt 4y², nicht 2y². Richtig ist «4y² + 4y + 1»."
+     },
+     {
+      "antwort": "4y² + 2y + 1",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied lautet 2 · 2y · 1 = 4y."
+     },
+     {
+      "antwort": "4y² + 1",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied fehlt. Richtig ist «4y² + 4y + 1»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche binomische Formel passt zu a² − b²?",
+    "optionen": [
+     "die dritte: (a + b)(a − b)",
+     "die erste: (a + b)²",
+     "die zweite: (a − b)²",
+     "keine"
+    ],
+    "loesung": [
+     "die dritte: (a + b)(a − b)"
+    ],
+    "erklaerung": "Eine Differenz von Quadraten zerfällt in Summe mal Differenz.",
+    "fehler": [
+     {
+      "antwort": "die erste: (a + b)²",
+      "diagnoseId": "formel",
+      "feedback": "Die erste Formel hat drei Glieder. Richtig ist «die dritte: (a + b)(a − b)»."
+     },
+     {
+      "antwort": "die zweite: (a − b)²",
+      "diagnoseId": "formel",
+      "feedback": "Auch die zweite Formel hat drei Glieder."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "formel",
+      "feedback": "Die dritte Formel passt genau. Richtig ist «die dritte: (a + b)(a − b)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der grösste Faktor, den man aus 9x³ + 6x² herausziehen kann?",
+    "optionen": [
+     "3x²",
+     "3x",
+     "x²",
+     "9x²"
+    ],
+    "loesung": [
+     "3x²"
+    ],
+    "erklaerung": "3 teilt beide Zahlen, und x² steckt in beiden Gliedern.",
+    "fehler": [
+     {
+      "antwort": "3x",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "Auch das zweite x steckt in beiden Gliedern."
+     },
+     {
+      "antwort": "x²",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "Auch die 3 lässt sich herausziehen. Richtig ist «3x²»."
+     },
+     {
+      "antwort": "9x²",
+      "diagnoseId": "zu_gross",
+      "feedback": "Der Faktor muss beide Zahlen teilen; 9 teilt die 6 aus 6x² nicht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausklammern, Umfang mit Variablen und binomische Formeln",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-flaechen",
+  "lernzielId": "MAR.4.02",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "4.02",
+   "4.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Spiegelachse ist die Mittelsenkrechte jeder Strecke von Original zu Bild.",
+   "Die Mittelsenkrechte steht senkrecht auf einer Strecke und halbiert sie.",
+   "Die Winkelhalbierende teilt einen Winkel in zwei gleiche Teile."
+  ],
+  "loesungsweg": [
+   "Original und Bild verbinden.",
+   "Die Mittelsenkrechte dieser Strecke konstruieren.",
+   "Bei einer Grundkonstruktion die passende Ortslinie wählen.",
+   "Die Konstruktion an einem zweiten Punkt prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie findest du die Spiegelachse aus Original und Bild?",
+    "optionen": [
+     "als Mittelsenkrechte der Strecke von einem Punkt zu seinem Bildpunkt",
+     "als Verbindungsgerade der beiden Punkte",
+     "als Winkelhalbierende der Figur",
+     "als Parallele zur Grundseite"
+    ],
+    "loesung": [
+     "als Mittelsenkrechte der Strecke von einem Punkt zu seinem Bildpunkt"
+    ],
+    "erklaerung": "Original und Bild liegen gleich weit von der Achse entfernt, und die Verbindung steht senkrecht darauf.",
+    "fehler": [
+     {
+      "antwort": "als Verbindungsgerade der beiden Punkte",
+      "diagnoseId": "ortslinie",
+      "feedback": "Diese Gerade steht senkrecht zur Achse, ist aber nicht die Achse."
+     },
+     {
+      "antwort": "als Winkelhalbierende der Figur",
+      "diagnoseId": "ortslinie",
+      "feedback": "Die Winkelhalbierende hat mit der Spiegelung nichts zu tun."
+     },
+     {
+      "antwort": "als Parallele zur Grundseite",
+      "diagnoseId": "ortslinie",
+      "feedback": "Die Lage der Achse hängt nicht von der Grundseite ab."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Punktepaare brauchst du mindestens, um die Spiegelachse sicher zu bestimmen?",
+    "optionen": [
+     "eines",
+     "zwei",
+     "drei",
+     "vier"
+    ],
+    "loesung": [
+     "eines"
+    ],
+    "erklaerung": "Ein Paar genügt: Die Mittelsenkrechte dieser einen Strecke ist die Achse.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "anzahl",
+      "feedback": "Zwei Paare sind eine gute Kontrolle, aber nicht nötig."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "anzahl",
+      "feedback": "Drei Paare sind mehr, als die Konstruktion verlangt."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "anzahl",
+      "feedback": "Vier Paare braucht es keinesfalls. Richtig ist «eines»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Eigenschaft hat jeder Punkt auf der Mittelsenkrechten einer Strecke AB?",
+    "optionen": [
+     "Er ist von A und B gleich weit entfernt",
+     "Er liegt auf der Strecke AB",
+     "Er halbiert den Winkel bei A",
+     "Er ist der Mittelpunkt von AB"
+    ],
+    "loesung": [
+     "Er ist von A und B gleich weit entfernt"
+    ],
+    "erklaerung": "Genau das macht die Mittelsenkrechte aus.",
+    "fehler": [
+     {
+      "antwort": "Er liegt auf der Strecke AB",
+      "diagnoseId": "ortslinie",
+      "feedback": "Nur ein einziger Punkt der Mittelsenkrechten liegt auf AB."
+     },
+     {
+      "antwort": "Er halbiert den Winkel bei A",
+      "diagnoseId": "ortslinie",
+      "feedback": "Das leistet die Winkelhalbierende. Richtig ist «Er ist von A und B gleich weit entfernt»."
+     },
+     {
+      "antwort": "Er ist der Mittelpunkt von AB",
+      "diagnoseId": "ortslinie",
+      "feedback": "Das gilt nur für einen Punkt der Geraden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Eigenschaft hat jeder Punkt auf der Winkelhalbierenden?",
+    "optionen": [
+     "Er ist von beiden Schenkeln gleich weit entfernt",
+     "Er ist vom Scheitel gleich weit entfernt",
+     "Er liegt auf einem Schenkel",
+     "Er halbiert die Gegenseite"
+    ],
+    "loesung": [
+     "Er ist von beiden Schenkeln gleich weit entfernt"
+    ],
+    "erklaerung": "Der Abstand wird dabei senkrecht zu jedem Schenkel gemessen.",
+    "fehler": [
+     {
+      "antwort": "Er ist vom Scheitel gleich weit entfernt",
+      "diagnoseId": "ortslinie",
+      "feedback": "Das gälte für einen Kreis um den Scheitel."
+     },
+     {
+      "antwort": "Er liegt auf einem Schenkel",
+      "diagnoseId": "ortslinie",
+      "feedback": "Die Winkelhalbierende liegt zwischen den Schenkeln."
+     },
+     {
+      "antwort": "Er halbiert die Gegenseite",
+      "diagnoseId": "ortslinie",
+      "feedback": "Das leistet die Seitenhalbierende. Richtig ist «Er ist von beiden Schenkeln gleich weit entfernt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Ortslinie brauchst du, um alle Punkte im Abstand 3 cm von einer Geraden zu finden?",
+    "optionen": [
+     "zwei Parallelen im Abstand 3 cm",
+     "eine Parallele im Abstand 3 cm",
+     "einen Kreis mit Radius 3 cm",
+     "die Mittelsenkrechte"
+    ],
+    "loesung": [
+     "zwei Parallelen im Abstand 3 cm"
+    ],
+    "erklaerung": "Der Abstand kann auf beide Seiten gemessen werden — darum zwei Parallelen.",
+    "fehler": [
+     {
+      "antwort": "eine Parallele im Abstand 3 cm",
+      "diagnoseId": "vollstaendigkeit",
+      "feedback": "Die zweite Seite der Geraden fehlt. Richtig ist «zwei Parallelen im Abstand 3 cm»."
+     },
+     {
+      "antwort": "einen Kreis mit Radius 3 cm",
+      "diagnoseId": "ortslinie",
+      "feedback": "Ein Kreis gibt den Abstand von einem Punkt an."
+     },
+     {
+      "antwort": "die Mittelsenkrechte",
+      "diagnoseId": "ortslinie",
+      "feedback": "Die Mittelsenkrechte gehört zu einer Strecke, nicht zu einem Abstand."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Ortslinie brauchst du, um alle Punkte im Abstand 4 cm von einem Punkt M zu finden?",
+    "optionen": [
+     "einen Kreis um M mit Radius 4 cm",
+     "zwei Parallelen",
+     "die Mittelsenkrechte",
+     "die Winkelhalbierende"
+    ],
+    "loesung": [
+     "einen Kreis um M mit Radius 4 cm"
+    ],
+    "erklaerung": "Alle Punkte mit gleichem Abstand von einem Punkt bilden einen Kreis.",
+    "fehler": [
+     {
+      "antwort": "zwei Parallelen",
+      "diagnoseId": "ortslinie",
+      "feedback": "Parallelen gehören zum Abstand von einer Geraden."
+     },
+     {
+      "antwort": "die Mittelsenkrechte",
+      "diagnoseId": "ortslinie",
+      "feedback": "Sie gehört zum gleichen Abstand von zwei Punkten."
+     },
+     {
+      "antwort": "die Winkelhalbierende",
+      "diagnoseId": "ortslinie",
+      "feedback": "Sie gehört zum gleichen Abstand von zwei Geraden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruierst du die Mittelparallele zweier paralleler Geraden?",
+    "optionen": [
+     "als Mittelsenkrechte einer Strecke zwischen den beiden Geraden",
+     "als Winkelhalbierende",
+     "als Kreis um einen Punkt",
+     "als Verbindung zweier beliebiger Punkte"
+    ],
+    "loesung": [
+     "als Mittelsenkrechte einer Strecke zwischen den beiden Geraden"
+    ],
+    "erklaerung": "Eine senkrechte Strecke zwischen den Geraden, halbiert, ergibt einen Punkt der Mittelparallelen.",
+    "fehler": [
+     {
+      "antwort": "als Winkelhalbierende",
+      "diagnoseId": "ortslinie",
+      "feedback": "Parallelen bilden keinen Winkel. Richtig ist «als Mittelsenkrechte einer Strecke zwischen den beiden Geraden»."
+     },
+     {
+      "antwort": "als Kreis um einen Punkt",
+      "diagnoseId": "ortslinie",
+      "feedback": "Ein Kreis ist keine Gerade. Richtig ist «als Mittelsenkrechte einer Strecke zwischen den beiden Geraden»."
+     },
+     {
+      "antwort": "als Verbindung zweier beliebiger Punkte",
+      "diagnoseId": "ortslinie",
+      "feedback": "Beliebige Punkte liegen nicht in der Mitte."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Punkt P wird an einer Geraden g gespiegelt. Was gilt für P und P′?",
+    "optionen": [
+     "Ihre Verbindungsstrecke steht senkrecht auf g und wird von g halbiert",
+     "Sie liegen beide auf g",
+     "Ihre Verbindungsstrecke ist parallel zu g",
+     "Sie haben verschiedenen Abstand von g"
+    ],
+    "loesung": [
+     "Ihre Verbindungsstrecke steht senkrecht auf g und wird von g halbiert"
+    ],
+    "erklaerung": "Das ist die Definition der Achsenspiegelung.",
+    "fehler": [
+     {
+      "antwort": "Sie liegen beide auf g",
+      "diagnoseId": "spiegelung",
+      "feedback": "Dann fielen Punkt und Bild zusammen. Richtig ist «Ihre Verbindungsstrecke steht senkrecht auf g und wird von g halbiert»."
+     },
+     {
+      "antwort": "Ihre Verbindungsstrecke ist parallel zu g",
+      "diagnoseId": "spiegelung",
+      "feedback": "Sie steht senkrecht auf g. Richtig ist «Ihre Verbindungsstrecke steht senkrecht auf g und wird von g halbiert»."
+     },
+     {
+      "antwort": "Sie haben verschiedenen Abstand von g",
+      "diagnoseId": "spiegelung",
+      "feedback": "Der Abstand ist gleich. Richtig ist «Ihre Verbindungsstrecke steht senkrecht auf g und wird von g halbiert»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Punkt liegt auf der Spiegelachse. Wo liegt sein Bildpunkt?",
+    "optionen": [
+     "am selben Ort",
+     "doppelt so weit weg",
+     "senkrecht darüber",
+     "auf der anderen Seite"
+    ],
+    "loesung": [
+     "am selben Ort"
+    ],
+    "erklaerung": "Punkte auf der Achse bleiben bei der Spiegelung fest.",
+    "fehler": [
+     {
+      "antwort": "doppelt so weit weg",
+      "diagnoseId": "spiegelung",
+      "feedback": "Der Abstand zur Achse ist null. Richtig ist «am selben Ort»."
+     },
+     {
+      "antwort": "senkrecht darüber",
+      "diagnoseId": "spiegelung",
+      "feedback": "Es gibt keine Verschiebung. Richtig ist «am selben Ort»."
+     },
+     {
+      "antwort": "auf der anderen Seite",
+      "diagnoseId": "spiegelung",
+      "feedback": "Der Punkt liegt auf der Achse selbst. Richtig ist «am selben Ort»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Spiegelachsen hat ein Rechteck, das kein Quadrat ist?",
+    "optionen": [
+     "zwei",
+     "eine",
+     "vier",
+     "keine"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "Die beiden Mittelparallelen der Seitenpaare sind Spiegelachsen; die Diagonalen sind es nicht.",
+    "fehler": [
+     {
+      "antwort": "eine",
+      "diagnoseId": "symmetrie",
+      "feedback": "Es gibt zwei, waagrecht und senkrecht. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "symmetrie",
+      "feedback": "Vier Achsen hat nur das Quadrat. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "symmetrie",
+      "feedback": "Ein Rechteck ist achsensymmetrisch. Richtig ist «zwei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Spiegelachsen hat ein Quadrat?",
+    "optionen": [
+     "vier",
+     "zwei",
+     "eine",
+     "acht"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "Zwei Mittelparallelen und zwei Diagonalen.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "symmetrie",
+      "feedback": "Beim Quadrat sind auch die Diagonalen Achsen."
+     },
+     {
+      "antwort": "eine",
+      "diagnoseId": "symmetrie",
+      "feedback": "Das Quadrat hat mehrere Achsen. Richtig ist «vier»."
+     },
+     {
+      "antwort": "acht",
+      "diagnoseId": "symmetrie",
+      "feedback": "Acht Achsen hat kein Viereck. Richtig ist «vier»."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum genügt bei einer Spiegelung der Zirkel und das Lineal ohne Massstab?",
+    "optionen": [
+     "Weil Mittelsenkrechte und Senkrechte nur mit Kreisbögen konstruiert werden",
+     "Weil man Abstände schätzen darf",
+     "Weil das Bild frei gewählt werden kann",
+     "Weil eine Spiegelung keine Masse braucht"
+    ],
+    "loesung": [
+     "Weil Mittelsenkrechte und Senkrechte nur mit Kreisbögen konstruiert werden"
+    ],
+    "erklaerung": "Gleiche Abstände erzeugt der Zirkel; das Lineal verbindet nur die Schnittpunkte.",
+    "fehler": [
+     {
+      "antwort": "Weil man Abstände schätzen darf",
+      "diagnoseId": "konstruktion",
+      "feedback": "Geschätzt wird bei einer Konstruktion nichts."
+     },
+     {
+      "antwort": "Weil das Bild frei gewählt werden kann",
+      "diagnoseId": "konstruktion",
+      "feedback": "Das Bild liegt eindeutig fest. Richtig ist «Weil Mittelsenkrechte und Senkrechte nur mit Kreisbögen konstruiert werden»."
+     },
+     {
+      "antwort": "Weil eine Spiegelung keine Masse braucht",
+      "diagnoseId": "konstruktion",
+      "feedback": "Sie braucht Masse — der Zirkel überträgt sie."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Spiegelachse und Grundkonstruktionen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-koerper-diagramme",
+  "lernzielId": "MAR.5.01",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "5.01",
+   "5.02",
+   "5.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Würfelnetz gilt: Gegenüberliegende Flächen dürfen im Netz nie nebeneinanderliegen.",
+   "Die drei Ansichten sind «von vorne», «von rechts» und «von oben».",
+   "Ein Kreisdiagramm zeigt Anteile eines Ganzen, ein Säulendiagramm absolute Zahlen."
+  ],
+  "loesungsweg": [
+   "Den Körper vor dem inneren Auge drehen.",
+   "Bei Netzen prüfen, welche Flächen zusammenstossen.",
+   "Beim Diagramm zuerst die Achsen lesen.",
+   "Erst dann antworten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ein Würfelnetz besteht aus sechs Quadraten. Woran erkennt man ein FALSCHES Netz?",
+    "optionen": [
+     "wenn beim Falten zwei Flächen aufeinanderfallen",
+     "wenn es aus sechs Quadraten besteht",
+     "wenn die Quadrate gleich gross sind",
+     "wenn es in einer Reihe liegt"
+    ],
+    "loesung": [
+     "wenn beim Falten zwei Flächen aufeinanderfallen"
+    ],
+    "erklaerung": "Ein Netz ist genau dann falsch, wenn sich der Würfel nicht schliessen lässt — etwa weil zwei Flächen an dieselbe Stelle kämen.",
+    "fehler": [
+     {
+      "antwort": "wenn es aus sechs Quadraten besteht",
+      "diagnoseId": "richtig",
+      "feedback": "Sechs Quadrate braucht jedes Würfelnetz."
+     },
+     {
+      "antwort": "wenn die Quadrate gleich gross sind",
+      "diagnoseId": "richtig_zwei",
+      "feedback": "Beim Würfel sind alle Flächen gleich gross — das gehört dazu."
+     },
+     {
+      "antwort": "wenn es in einer Reihe liegt",
+      "diagnoseId": "sonderfall",
+      "feedback": "Sechs Quadrate in einer Reihe ergeben tatsächlich kein Netz — aber nicht wegen der Reihe, sondern weil sich zwei Flächen überschneiden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Flächen eines Würfels sieht man höchstens gleichzeitig?",
+    "optionen": [
+     "drei",
+     "zwei",
+     "vier",
+     "sechs"
+    ],
+    "loesung": [
+     "drei"
+    ],
+    "erklaerung": "Von einer Ecke aus sieht man drei Flächen; die drei anderen liegen dahinter.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Von einer Ecke aus sind es drei Flächen, nicht zwei."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "zu_viel",
+      "feedback": "Die vierte Fläche liegt bereits auf der Rückseite."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "alle",
+      "feedback": "Alle sechs gleichzeitig sieht man nur im Netz, nicht am Körper."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelkörper besteht aus drei Würfeln in einer Reihe. Wie sieht die Ansicht von oben aus?",
+    "optionen": [
+     "drei Quadrate nebeneinander",
+     "drei Quadrate übereinander",
+     "ein Quadrat",
+     "ein Rechteck aus neun Quadraten"
+    ],
+    "loesung": [
+     "drei Quadrate nebeneinander"
+    ],
+    "erklaerung": "Von oben sieht man die Grundfläche: drei nebeneinanderliegende Quadrate.",
+    "fehler": [
+     {
+      "antwort": "drei Quadrate übereinander",
+      "diagnoseId": "vorne",
+      "feedback": "Übereinander sähe man sie nur, wenn die Würfel gestapelt wären."
+     },
+     {
+      "antwort": "ein Quadrat",
+      "diagnoseId": "seite",
+      "feedback": "Ein einzelnes Quadrat sieht man von der schmalen Seite her."
+     },
+     {
+      "antwort": "ein Rechteck aus neun Quadraten",
+      "diagnoseId": "zu_viel",
+      "feedback": "Neun Quadrate hätte ein Körper aus neun Würfeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfel liegt mit der 1 oben und der 2 vorne. Gegenüberliegende Flächen ergeben zusammen 7. Was liegt unten?",
+    "optionen": [
+     "die 6",
+     "die 5",
+     "die 2",
+     "die 1"
+    ],
+    "loesung": [
+     "die 6"
+    ],
+    "erklaerung": "Gegenüber der 1 liegt die 6, denn 1 + 6 = 7.",
+    "fehler": [
+     {
+      "antwort": "die 5",
+      "diagnoseId": "gegenueber_von_zwei",
+      "feedback": "Die 5 liegt gegenüber der 2, also hinten."
+     },
+     {
+      "antwort": "die 2",
+      "diagnoseId": "vorne",
+      "feedback": "Die 2 liegt vorne, nicht unten; unten liegt die Gegenzahl der 1."
+     },
+     {
+      "antwort": "die 1",
+      "diagnoseId": "oben",
+      "feedback": "Die 1 liegt oben; unten liegt ihre Gegenzahl, also die 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Was zeigt ein Kreisdiagramm am besten?",
+    "optionen": [
+     "die Anteile an einem Ganzen",
+     "die Entwicklung über die Zeit",
+     "den Vergleich zweier Messreihen",
+     "die genauen Messwerte"
+    ],
+    "loesung": [
+     "die Anteile an einem Ganzen"
+    ],
+    "erklaerung": "Der ganze Kreis ist das Ganze; die Sektoren sind die Anteile daran.",
+    "fehler": [
+     {
+      "antwort": "die Entwicklung über die Zeit",
+      "diagnoseId": "linie",
+      "feedback": "Dafür eignet sich ein Liniendiagramm mit einer Zeitachse."
+     },
+     {
+      "antwort": "den Vergleich zweier Messreihen",
+      "diagnoseId": "saeule",
+      "feedback": "Dafür nimmt man ein Säulendiagramm mit zwei Säulenreihen."
+     },
+     {
+      "antwort": "die genauen Messwerte",
+      "diagnoseId": "tabelle",
+      "feedback": "Genaue Zahlen liest man in einer Tabelle ab, nicht am Kreis."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Kreissektor umfasst ein Viertel des Kreises. Wie gross ist sein Mittelpunktswinkel?",
+    "optionen": [
+     "90°",
+     "45°",
+     "120°",
+     "180°"
+    ],
+    "loesung": [
+     "90°"
+    ],
+    "erklaerung": "Der ganze Kreis hat 360°; ein Viertel davon sind 90°.",
+    "fehler": [
+     {
+      "antwort": "45°",
+      "diagnoseId": "achtel",
+      "feedback": "45° entsprechen einem Achtel des Kreises, nicht einem Viertel."
+     },
+     {
+      "antwort": "120°",
+      "diagnoseId": "drittel",
+      "feedback": "120° entsprechen einem Drittel des Kreises."
+     },
+     {
+      "antwort": "180°",
+      "diagnoseId": "haelfte",
+      "feedback": "180° sind die Hälfte des Kreises, also der doppelte Sektor."
+     }
+    ]
+   },
+   {
+    "stamm": "In einem Säulendiagramm reicht eine Säule von −3 bis 0. Was bedeutet das?",
+    "optionen": [
+     "Der Wert ist negativ.",
+     "Der Wert ist null.",
+     "Die Säule ist falsch gezeichnet.",
+     "Der Wert ist drei."
+    ],
+    "loesung": [
+     "Der Wert ist negativ."
+    ],
+    "erklaerung": "Säulen unter der Nulllinie stehen für negative Werte, etwa Temperaturen oder Verluste.",
+    "fehler": [
+     {
+      "antwort": "Der Wert ist null.",
+      "diagnoseId": "null",
+      "feedback": "Bei null wäre gar keine Säule zu sehen, nur ein Punkt auf der Linie."
+     },
+     {
+      "antwort": "Die Säule ist falsch gezeichnet.",
+      "diagnoseId": "fehler",
+      "feedback": "Negative Säulen sind zulässig und üblich."
+     },
+     {
+      "antwort": "Der Wert ist drei.",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Der Wert ist minus drei; das Vorzeichen gehört dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man die Spiegelachse aus Original und Bild?",
+    "optionen": [
+     "als Mittelsenkrechte einer Verbindungsstrecke",
+     "als Winkelhalbierende",
+     "als Parallele zur Grundlinie",
+     "als Kreis um den Mittelpunkt"
+    ],
+    "loesung": [
+     "als Mittelsenkrechte einer Verbindungsstrecke"
+    ],
+    "erklaerung": "Jeder Punkt und sein Bild sind gleich weit von der Achse entfernt — die Achse ist also die Mittelsenkrechte ihrer Verbindungsstrecke.",
+    "fehler": [
+     {
+      "antwort": "als Winkelhalbierende",
+      "diagnoseId": "winkel",
+      "feedback": "Die Winkelhalbierende gehört zu zwei Geraden, nicht zu Punkt und Bildpunkt."
+     },
+     {
+      "antwort": "als Parallele zur Grundlinie",
+      "diagnoseId": "parallele",
+      "feedback": "Eine Parallele hat mit der Spiegelung nichts zu tun."
+     },
+     {
+      "antwort": "als Kreis um den Mittelpunkt",
+      "diagnoseId": "kreis",
+      "feedback": "Ein Kreis beschreibt gleiche Abstände zu einem Punkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man die Mittelparallele zweier paralleler Geraden?",
+    "optionen": [
+     "als Menge aller Punkte mit gleichem Abstand zu beiden",
+     "als Senkrechte auf beiden Geraden",
+     "als Verbindung zweier beliebiger Punkte",
+     "als Kreis durch beide Geraden"
+    ],
+    "loesung": [
+     "als Menge aller Punkte mit gleichem Abstand zu beiden"
+    ],
+    "erklaerung": "Die Mittelparallele verläuft genau in der Mitte — jeder ihrer Punkte hat zu beiden Geraden denselben Abstand.",
+    "fehler": [
+     {
+      "antwort": "als Senkrechte auf beiden Geraden",
+      "diagnoseId": "senkrecht",
+      "feedback": "Eine Senkrechte schneidet beide Geraden, statt zwischen ihnen zu verlaufen."
+     },
+     {
+      "antwort": "als Verbindung zweier beliebiger Punkte",
+      "diagnoseId": "beliebig",
+      "feedback": "Beliebige Punkte ergeben keine bestimmte Gerade."
+     },
+     {
+      "antwort": "als Kreis durch beide Geraden",
+      "diagnoseId": "kreis",
+      "feedback": "Gesucht ist eine Gerade, kein Kreis — die Mittelparallele verläuft gerade."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Körper besteht aus vier Würfeln: drei in einer Reihe, einer oben auf dem mittleren. Wie viele Würfel sieht man von vorne?",
+    "optionen": [
+     "vier",
+     "drei",
+     "zwei",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "Von vorne sieht man alle vier Flächen: die drei nebeneinander und die eine darüber.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "obersten_vergessen",
+      "feedback": "Der obere Würfel ist von vorne ebenfalls zu sehen."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Die Reihe allein besteht schon aus drei Würfeln."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "zu_viel",
+      "feedback": "Der Körper hat nur vier Würfel; mehr kann man nicht sehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Grundkonstruktion braucht man für die Winkelhalbierende?",
+    "optionen": [
+     "zwei Kreisbögen mit gleichem Radius um die Schenkelpunkte",
+     "eine Parallele zu einem Schenkel",
+     "eine Senkrechte auf einem Schenkel",
+     "einen Kreis um den Scheitelpunkt allein"
+    ],
+    "loesung": [
+     "zwei Kreisbögen mit gleichem Radius um die Schenkelpunkte"
+    ],
+    "erklaerung": "Man trägt auf beiden Schenkeln gleiche Strecken ab und schneidet dann zwei gleich grosse Kreisbögen — deren Schnittpunkt liegt auf der Winkelhalbierenden.",
+    "fehler": [
+     {
+      "antwort": "eine Parallele zu einem Schenkel",
+      "diagnoseId": "parallele",
+      "feedback": "Eine Parallele halbiert keinen Winkel; sie verläuft daneben."
+     },
+     {
+      "antwort": "eine Senkrechte auf einem Schenkel",
+      "diagnoseId": "senkrechte",
+      "feedback": "Die Senkrechte steht im rechten Winkel, sie halbiert nicht."
+     },
+     {
+      "antwort": "einen Kreis um den Scheitelpunkt allein",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Ein einzelner Kreis genügt nicht; es braucht die beiden Bögen von den Schenkelpunkten aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Liniendiagramm zeigt die Temperatur über eine Woche. Was liest man daran ab?",
+    "optionen": [
+     "die Entwicklung über die Zeit",
+     "die Anteile an einem Ganzen",
+     "die Summe aller Werte",
+     "die Zahl der Messungen"
+    ],
+    "loesung": [
+     "die Entwicklung über die Zeit"
+    ],
+    "erklaerung": "Liniendiagramme zeigen Veränderungen: Die Linie steigt, fällt oder bleibt gleich.",
+    "fehler": [
+     {
+      "antwort": "die Anteile an einem Ganzen",
+      "diagnoseId": "kreis",
+      "feedback": "Anteile zeigt ein Kreisdiagramm, nicht eine Linie über die Zeit."
+     },
+     {
+      "antwort": "die Summe aller Werte",
+      "diagnoseId": "summe",
+      "feedback": "Die Summe müsste man ausrechnen; das Diagramm zeigt sie nicht."
+     },
+     {
+      "antwort": "die Zahl der Messungen",
+      "diagnoseId": "anzahl",
+      "feedback": "Die Zahl der Punkte sagt zwar etwas darüber, aber das ist nicht der Zweck des Diagramms."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Netze, Ansichten und Würfelkörper",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-diagramme",
+  "lernzielId": "MAR.6.01",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "6.01",
+   "6.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst die Achsenbeschriftung, dann den Wert.",
+   "Im Kreisdiagramm entspricht der ganze Kreis 100 % oder 360°.",
+   "Ein Prozentwert allein sagt nichts, solange der Grundwert fehlt."
+  ],
+  "loesungsweg": [
+   "Die Beschriftung lesen.",
+   "Den Wert an der Achse ablesen.",
+   "Beim Kreis den Anteil in Grad oder Prozent umrechnen.",
+   "Das Ergebnis auf Plausibilität prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ein Kreisdiagramm zeigt einen Sektor von 90°. Welchem Anteil entspricht er?",
+    "optionen": [
+     "25 %",
+     "90 %",
+     "45 %",
+     "33 %"
+    ],
+    "loesung": [
+     "25 %"
+    ],
+    "erklaerung": "90° von 360° sind ein Viertel, also 25 %.",
+    "fehler": [
+     {
+      "antwort": "90 %",
+      "diagnoseId": "verwechselt",
+      "feedback": "90 ist die Gradzahl, nicht der Prozentwert."
+     },
+     {
+      "antwort": "45 %",
+      "diagnoseId": "rechnen",
+      "feedback": "45 % entsprächen 162°. Richtig ist «25 %»."
+     },
+     {
+      "antwort": "33 %",
+      "diagnoseId": "rechnen",
+      "feedback": "33 % entsprächen rund 120°. Richtig ist «25 %»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Sektor entspricht 40 % des Kreises. Wie viele Grad sind das?",
+    "optionen": [
+     "144°",
+     "40°",
+     "90°",
+     "120°"
+    ],
+    "loesung": [
+     "144°"
+    ],
+    "erklaerung": "40 % von 360° sind 0.4 · 360 = 144°.",
+    "fehler": [
+     {
+      "antwort": "40°",
+      "diagnoseId": "verwechselt",
+      "feedback": "40 ist der Prozentwert, nicht die Gradzahl."
+     },
+     {
+      "antwort": "90°",
+      "diagnoseId": "rechnen",
+      "feedback": "90° entsprächen 25 %. Richtig ist «144°»."
+     },
+     {
+      "antwort": "120°",
+      "diagnoseId": "rechnen",
+      "feedback": "120° entsprächen rund 33 %. Richtig ist «144°»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Sektor misst 60°. Welchem Bruchteil entspricht er?",
+    "optionen": [
+     "¹⁄₆",
+     "¹⁄₆₀",
+     "¹⁄₄",
+     "¹⁄₃"
+    ],
+    "loesung": [
+     "¹⁄₆"
+    ],
+    "erklaerung": "60° von 360° sind ein Sechstel.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₆₀",
+      "diagnoseId": "nenner",
+      "feedback": "Der Nenner ist 360 geteilt durch 60, also 6."
+     },
+     {
+      "antwort": "¹⁄₄",
+      "diagnoseId": "rechnen",
+      "feedback": "Ein Viertel wären 90°. Richtig ist «¹⁄₆»."
+     },
+     {
+      "antwort": "¹⁄₃",
+      "diagnoseId": "rechnen",
+      "feedback": "Ein Drittel wären 120°. Richtig ist «¹⁄₆»."
+     }
+    ]
+   },
+   {
+    "stamm": "In einer Klasse von 24 Kindern entspricht ein Sektor 25 %. Wie viele Kinder sind das?",
+    "optionen": [
+     "6",
+     "25",
+     "12",
+     "4"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Ein Viertel von 24 ist 6: 24 geteilt durch 4 ergibt 6.",
+    "fehler": [
+     {
+      "antwort": "25",
+      "diagnoseId": "verwechselt",
+      "feedback": "25 ist der Prozentwert, nicht die Anzahl."
+     },
+     {
+      "antwort": "12",
+      "diagnoseId": "rechnen",
+      "feedback": "12 von 24 wären die Hälfte, also 50 Prozent."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "rechnen",
+      "feedback": "4 von 24 wären rund 17 %. Richtig ist «6»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Säulendiagramm zeigt: Mo 4, Di 7, Mi 3, Do 9, Fr 2. An welchem Tag war der Wert am höchsten?",
+    "optionen": [
+     "Donnerstag",
+     "Dienstag",
+     "Montag",
+     "Mittwoch"
+    ],
+    "loesung": [
+     "Donnerstag"
+    ],
+    "erklaerung": "9 am Donnerstag ist der grösste Wert.",
+    "fehler": [
+     {
+      "antwort": "Dienstag",
+      "diagnoseId": "ablesen",
+      "feedback": "Am Dienstag sind es 7. Richtig ist «Donnerstag»."
+     },
+     {
+      "antwort": "Montag",
+      "diagnoseId": "ablesen",
+      "feedback": "Am Montag sind es 4. Richtig ist «Donnerstag»."
+     },
+     {
+      "antwort": "Mittwoch",
+      "diagnoseId": "ablesen",
+      "feedback": "Am Mittwoch sind es 3. Richtig ist «Donnerstag»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Säulendiagramm zeigt: Mo 4, Di 7, Mi 3, Do 9, Fr 2. Wie gross ist die Spannweite?",
+    "optionen": [
+     "7",
+     "9",
+     "2",
+     "5"
+    ],
+    "loesung": [
+     "7"
+    ],
+    "erklaerung": "Grösster Wert 9 minus kleinster Wert 2 ergibt 7.",
+    "fehler": [
+     {
+      "antwort": "9",
+      "diagnoseId": "verwechselt",
+      "feedback": "9 ist der grösste Wert, nicht die Spannweite."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "verwechselt",
+      "feedback": "2 ist der kleinste Wert. Richtig ist «7»."
+     },
+     {
+      "antwort": "5",
+      "diagnoseId": "rechnen",
+      "feedback": "Die Spannweite ist die Differenz: 9 minus 2 ergibt 7."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Säulendiagramm zeigt: Mo 4, Di 7, Mi 3, Do 9, Fr 2. Wie gross ist der Mittelwert?",
+    "optionen": [
+     "5",
+     "4",
+     "7",
+     "25"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "4 + 7 + 3 + 9 + 2 = 25, geteilt durch 5 ergibt 5.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "rechnen",
+      "feedback": "4 ist der Wert vom Montag. Richtig ist «5»."
+     },
+     {
+      "antwort": "7",
+      "diagnoseId": "rechnen",
+      "feedback": "7 ist der Wert vom Dienstag. Richtig ist «5»."
+     },
+     {
+      "antwort": "25",
+      "diagnoseId": "teilen",
+      "feedback": "25 ist die Summe; sie muss noch durch 5 geteilt werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Liniendiagramm steigt von Januar bis März und fällt danach. Was heisst das?",
+    "optionen": [
+     "Der Wert nimmt zuerst zu und dann ab",
+     "Der Wert bleibt gleich",
+     "Der Wert nimmt immer zu",
+     "Der Wert ist im März am kleinsten"
+    ],
+    "loesung": [
+     "Der Wert nimmt zuerst zu und dann ab"
+    ],
+    "erklaerung": "Eine steigende Linie bedeutet Zunahme, eine fallende Abnahme.",
+    "fehler": [
+     {
+      "antwort": "Der Wert bleibt gleich",
+      "diagnoseId": "ablesen",
+      "feedback": "Dann verliefe die Linie waagrecht. Richtig ist «Der Wert nimmt zuerst zu und dann ab»."
+     },
+     {
+      "antwort": "Der Wert nimmt immer zu",
+      "diagnoseId": "ablesen",
+      "feedback": "Nach März fällt die Linie. Richtig ist «Der Wert nimmt zuerst zu und dann ab»."
+     },
+     {
+      "antwort": "Der Wert ist im März am kleinsten",
+      "diagnoseId": "ablesen",
+      "feedback": "Im März ist er am grössten. Richtig ist «Der Wert nimmt zuerst zu und dann ab»."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum sagt «30 % waren dagegen» ohne weitere Angabe wenig?",
+    "optionen": [
+     "Weil der Grundwert fehlt",
+     "Weil Prozente ungenau sind",
+     "Weil 30 % zu wenig sind",
+     "Weil man Prozente nicht vergleichen darf"
+    ],
+    "loesung": [
+     "Weil der Grundwert fehlt"
+    ],
+    "erklaerung": "30 % von 20 Personen sind 6, von 2000 sind es 600 — ohne Grundwert steht die Zahl allein.",
+    "fehler": [
+     {
+      "antwort": "Weil Prozente ungenau sind",
+      "diagnoseId": "irrtum",
+      "feedback": "Prozente sind genau, solange der Grundwert bekannt ist."
+     },
+     {
+      "antwort": "Weil 30 % zu wenig sind",
+      "diagnoseId": "irrtum",
+      "feedback": "Die Grösse des Anteils spielt hier keine Rolle."
+     },
+     {
+      "antwort": "Weil man Prozente nicht vergleichen darf",
+      "diagnoseId": "irrtum",
+      "feedback": "Vergleichen darf man sie, wenn der Grundwert dazusteht."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Kreisdiagramm hat drei Sektoren: 50 %, 30 % und einen dritten. Wie gross ist der dritte?",
+    "optionen": [
+     "20 %",
+     "30 %",
+     "80 %",
+     "10 %"
+    ],
+    "loesung": [
+     "20 %"
+    ],
+    "erklaerung": "Alle Sektoren zusammen ergeben 100 %: 100 − 50 − 30 = 20.",
+    "fehler": [
+     {
+      "antwort": "30 %",
+      "diagnoseId": "rechnen",
+      "feedback": "30 % ist der zweite Sektor. Richtig ist «20 %»."
+     },
+     {
+      "antwort": "80 %",
+      "diagnoseId": "rechnen",
+      "feedback": "80 % ist die Summe der beiden bekannten Sektoren."
+     },
+     {
+      "antwort": "10 %",
+      "diagnoseId": "rechnen",
+      "feedback": "Rechne 100 − 50 − 30. Richtig ist «20 %»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Darstellung eignet sich am besten für eine Entwicklung über zwölf Monate?",
+    "optionen": [
+     "ein Liniendiagramm",
+     "ein Kreisdiagramm",
+     "eine einzelne Säule",
+     "eine Tabelle ohne Zahlen"
+    ],
+    "loesung": [
+     "ein Liniendiagramm"
+    ],
+    "erklaerung": "Eine Linie zeigt Verläufe; ein Kreis zeigt Anteile an einem Ganzen.",
+    "fehler": [
+     {
+      "antwort": "ein Kreisdiagramm",
+      "diagnoseId": "darstellung",
+      "feedback": "Ein Kreis zeigt Anteile, nicht Verläufe."
+     },
+     {
+      "antwort": "eine einzelne Säule",
+      "diagnoseId": "darstellung",
+      "feedback": "Eine Säule zeigt nur einen Wert. Richtig ist «ein Liniendiagramm»."
+     },
+     {
+      "antwort": "eine Tabelle ohne Zahlen",
+      "diagnoseId": "darstellung",
+      "feedback": "Ohne Zahlen zeigt eine Tabelle gar nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Darstellung eignet sich am besten für die Anteile am Ganzen?",
+    "optionen": [
+     "ein Kreisdiagramm",
+     "ein Liniendiagramm",
+     "ein Zahlenstrahl",
+     "ein Koordinatensystem"
+    ],
+    "loesung": [
+     "ein Kreisdiagramm"
+    ],
+    "erklaerung": "Der Kreis zeigt auf einen Blick, wie sich ein Ganzes aufteilt.",
+    "fehler": [
+     {
+      "antwort": "ein Liniendiagramm",
+      "diagnoseId": "darstellung",
+      "feedback": "Eine Linie zeigt einen Verlauf über die Zeit."
+     },
+     {
+      "antwort": "ein Zahlenstrahl",
+      "diagnoseId": "darstellung",
+      "feedback": "Der Zahlenstrahl ordnet einzelne Zahlen."
+     },
+     {
+      "antwort": "ein Koordinatensystem",
+      "diagnoseId": "darstellung",
+      "feedback": "Dort trägt man Punktepaare ein. Richtig ist «ein Kreisdiagramm»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Säulen-, Linien- und Kreisdiagramme lesen",
+  "status": "review"
+ }
+]

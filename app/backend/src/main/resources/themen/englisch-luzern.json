@@ -1,0 +1,89 @@
+{
+ "fach": "englisch-lu",
+ "name": "Use of English",
+ "pruefung": "Zentrale Aufnahmeprüfung des Kantons Luzern",
+ "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026 sowie die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023",
+ "punkteTotal": 10,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Use of English",
+   "punkte": 6,
+   "anteil": 60,
+   "beschreibung": "Ein Text mit zehn Lücken, zu jeder Lücke vier Wörter zur Auswahl. Gefragt ist nicht Grammatikwissen allein, sondern welches Wort in diesen Satz passt.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wortwahl im Zusammenhang",
+     "lernzielId": "ELU.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Verben mit fester Ergänzung",
+     "lernzielId": "ELU.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Präpositionen",
+     "lernzielId": "ELU.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Relativpronomen: which, where, whose",
+     "lernzielId": "ELU.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Mengenwörter: many, much, several",
+     "lernzielId": "ELU.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Zeitformen im Text",
+     "lernzielId": "ELU.1.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Wortschatz",
+   "punkte": 4,
+   "anteil": 40,
+   "beschreibung": "Wörter, die einander ähneln und sich doch nicht ersetzen lassen — die häufigste Falle im Use-of-English-Teil.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wörter mit ähnlicher Bedeutung unterscheiden",
+     "lernzielId": "ELU.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Alltag und Wohnen",
+     "lernzielId": "ELU.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Reisen und Umzug",
+     "lernzielId": "ELU.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Feste Wendungen",
+     "lernzielId": "ELU.2.04",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

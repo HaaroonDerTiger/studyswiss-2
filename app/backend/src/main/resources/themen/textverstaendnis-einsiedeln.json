@@ -1,0 +1,55 @@
+{
+ "fach": "textverstaendnis-einsiedeln",
+ "name": "Deutsch: Textverständnis",
+ "pruefung": "Aufnahmeprüfung der Stiftsschule Einsiedeln",
+ "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Lesen und verstehen",
+   "punkte": 20,
+   "anteil": 100,
+   "beschreibung": "Die erste Hälfte der Deutschprüfung 2: einen kürzeren Text als Ganzes verstehen, Informationen entnehmen, sich in Figuren hineinversetzen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Informationen im Text finden",
+     "lernzielId": "DTEI.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Den Aufbau eines Textes erkennen",
+     "lernzielId": "DTEI.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Naheliegende Schlüsse ziehen",
+     "lernzielId": "DTEI.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Stimmungen wahrnehmen",
+     "lernzielId": "DTEI.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Figuren und ihre Absichten verstehen",
+     "lernzielId": "DTEI.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Angaben aus Tabellen und Grafiken lesen",
+     "lernzielId": "DTEI.1.06",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

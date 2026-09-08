@@ -1,0 +1,123 @@
+{
+ "fach": "sprache-lu",
+ "name": "Deutsch: Sprachreflexion",
+ "pruefung": "Zentrale Aufnahmeprüfung des Kantons Luzern",
+ "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026 sowie die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023",
+ "punkteTotal": 15,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Sprachliche Mittel",
+   "punkte": 4,
+   "anteil": 27,
+   "beschreibung": "Die Prüfung fragt nach Stilmitteln im gelesenen Text — in der Musterprüfung nach dem Oxymoron, also nach zwei Begriffen, die einander widersprechen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Oxymoron und Paradoxon",
+     "lernzielId": "DSLU.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Vergleich und Metapher",
+     "lernzielId": "DSLU.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Personifikation und Wiederholung",
+     "lernzielId": "DSLU.1.03",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Grammatik",
+   "punkte": 6,
+   "anteil": 40,
+   "beschreibung": "Grammatikbegriffe zur Analyse anwenden: Wortarten, Fälle, Zeitformen, indirekte Rede mit Konjunktiv I, Satzglieder.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortarten bestimmen",
+     "lernzielId": "DSLU.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Die vier Fälle",
+     "lernzielId": "DSLU.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Zeitformen bestimmen und bilden",
+     "lernzielId": "DSLU.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Indirekte Rede mit Konjunktiv I",
+     "lernzielId": "DSLU.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Aktiv und Passiv",
+     "lernzielId": "DSLU.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Satzglieder bestimmen",
+     "lernzielId": "DSLU.2.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Rechtschreibung und Kommas",
+   "punkte": 5,
+   "anteil": 33,
+   "beschreibung": "Orthografisches Regelwissen in konstruierten Übungen: Kommas setzen, falsch geschriebene Wörter finden. Jedes falsche Komma gibt einen Punkt Abzug.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Kommas bei Aufzählung und Nebensatz",
+     "lernzielId": "DSLU.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Kommas bei Relativsatz und Infinitivgruppe",
+     "lernzielId": "DSLU.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "DSLU.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "das oder dass",
+     "lernzielId": "DSLU.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Falsch geschriebene Wörter finden",
+     "lernzielId": "DSLU.3.05",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

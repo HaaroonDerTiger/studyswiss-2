@@ -1,0 +1,120 @@
+{
+ "fach": "textverstaendnis-bern",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Aufnahmeprüfung GYM 1 Bern",
+ "quelle": "Aufgaben 1 bis 3 der Deutschprüfungen Kanton Bern 2022-2026 (8. und 9. Schuljahr)",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "5.1",
+   "name": "Worterklärungen",
+   "punkte": 6,
+   "anteil": 30,
+   "beschreibung": "Was bedeutet das Wort an dieser Stelle? Vier Bedeutungen stehen zur Wahl, eine passt.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Bedeutung eines Wortes im Satzzusammenhang",
+     "lernzielId": "DBT.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Fremdwörter und Fachwörter deuten",
+     "lernzielId": "DBT.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Wendungen und Redensarten deuten",
+     "lernzielId": "DBT.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Nahe Bedeutungen unterscheiden",
+     "lernzielId": "DBT.1.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "5.2",
+   "name": "Gliederung und Grobverständnis",
+   "punkte": 6,
+   "anteil": 30,
+   "beschreibung": "Zu jedem Abschnitt gehört eine Überschrift, und eine Überschrift gehört zu keinem.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Überschrift zu einem Abschnitt finden",
+     "lernzielId": "DBT.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Die überzählige Überschrift erkennen",
+     "lernzielId": "DBT.2.02",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Kernaussage eines Abschnitts benennen",
+     "lernzielId": "DBT.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Aufbau und Reihenfolge des Textes",
+     "lernzielId": "DBT.2.04",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "5.3",
+   "name": "Aussagen zum Text",
+   "punkte": 8,
+   "anteil": 40,
+   "beschreibung": "Nur eine der vier Aussagen stimmt im Sinne des Textes. Die anderen klingen richtig.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Die zutreffende Aussage wählen",
+     "lernzielId": "DBT.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Belegstelle im Text finden",
+     "lernzielId": "DBT.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Aussage prüfen: stimmt sie oder nicht",
+     "lernzielId": "DBT.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Unzulässige Verallgemeinerung erkennen",
+     "lernzielId": "DBT.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    }
+   ]
+  }
+ ]
+}

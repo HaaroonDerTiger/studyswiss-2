@@ -1,0 +1,125 @@
+{
+ "fach": "sprache-sz",
+ "name": "Deutsch: Sprache im Fokus",
+ "pruefung": "Aufnahmeprüfungen der Schwyzer Mittelschulen",
+ "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Sprache als Ausdrucksmittel",
+   "punkte": 20,
+   "anteil": 50,
+   "beschreibung": "20 von 60 Punkten der Sprachprüfung: Wortschatz, Stil und die Frage, wie eine Formulierung wirkt.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wortbedeutung und Synonyme",
+     "lernzielId": "DSSZ.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Redewendungen und Sprichwörter",
+     "lernzielId": "DSSZ.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Sprachliche Bilder erkennen",
+     "lernzielId": "DSSZ.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Stilebenen unterscheiden",
+     "lernzielId": "DSSZ.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Treffende Wörter statt Allerweltswörter",
+     "lernzielId": "DSSZ.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Sätze umformulieren",
+     "lernzielId": "DSSZ.1.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Sprache im Fokus",
+   "punkte": 20,
+   "anteil": 50,
+   "beschreibung": "Die letzten 20 Punkte der Sprachprüfung: Wortarten, Fälle, Zeitformen, Satzglieder, Rechtschreibung und Zeichensetzung.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortarten bestimmen",
+     "lernzielId": "DSSZ.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Die vier Fälle",
+     "lernzielId": "DSSZ.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Zeitformen bestimmen und bilden",
+     "lernzielId": "DSSZ.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Aktiv und Passiv",
+     "lernzielId": "DSSZ.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Indirekte Rede mit Konjunktiv I",
+     "lernzielId": "DSSZ.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Satzglieder bestimmen",
+     "lernzielId": "DSSZ.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Haupt- und Nebensatz",
+     "lernzielId": "DSSZ.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Kommaregeln",
+     "lernzielId": "DSSZ.2.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.09",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "DSSZ.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Wortstamm, Vor- und Nachmorpheme",
+     "lernzielId": "DSSZ.2.10",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{titel}}</title>
+<meta name="description" content="{{beschreibung}}">
+<meta name="theme-color" content="#FBF5EA">
+<link rel="icon" href="bilder/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+{{stile}}
+</head>
+<body>
+<a class="spring" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <div class="kopf-innen">
+    <a class="logo" href="index.html" aria-label="StudySwiss, zur Startseite">
+      {{eule}}<b>Study<i>swiss</i></b>
+    </a>
+    <button class="menuknopf" aria-label="Menü" aria-expanded="false" aria-controls="hauptnav">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="1.9" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="hauptnav" id="hauptnav" aria-label="Hauptnavigation">
+      <a href="schulen.html">Für Schulen</a>
+      <a href="kantone.html">Kantone</a>
+      <a href="preise.html">Preise</a>
+      <a href="lernen.html">Lernen</a>
+      <a href="verwaltung.html">Schulverwaltung</a>
+    </nav>
+    <a class="btn klein bp" href="konto.html" data-konto>Anmelden</a>
+  </div>
+</header>
+
+<main id="inhalt">
+{{inhalt}}
+</main>
+
+<footer class="fuss">
+  <div class="innen">
+    <div>
+      <div class="logo" style="margin-bottom:12px">{{eule}}<b style="color:#FFF7EA">Study<i>swiss</i></b></div>
+      <p class="bd14" style="color:#E4CBA9;max-width:34ch">
+        Vorbereitung auf die Aufnahmeprüfung an eine Schweizer Mittelschule.
+        Zwölf Kantone, Mathematik, Deutsch und die Fremdsprachen.
+      </p>
+    </div>
+    <div>
+      <h4>Lernen</h4>
+      <a href="kantone.html">Kantone und Prüfungen</a>
+      <a href="lernen.html">Zur Lern-App</a>
+      <a href="preise.html">Preise</a>
+    </div>
+    <div>
+      <h4>Schulen</h4>
+      <a href="schulen.html">Für Schulen</a>
+      <a href="bestellen.html">Offerte und Bestellung</a>
+      <a href="verwaltung.html">Lizenzen verwalten</a>
+    </div>
+    <div>
+      <h4>Rechtliches</h4>
+      <a href="recht.html#agb">AGB</a>
+      <a href="recht.html#datenschutz">Datenschutz</a>
+      <a href="recht.html#impressum">Impressum</a>
+    </div>
+    <div class="schluss">
+      <span>© <span data-jahr>2026</span> StudySwiss · Server in der Schweiz</span>
+      <span>Keine Noten. Keine Serie. Kein Druck.</span>
+    </div>
+  </div>
+</footer>
+
+{{skripte}}
+</body>
+</html>

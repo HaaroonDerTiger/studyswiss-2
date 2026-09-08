@@ -1,0 +1,59 @@
+<!--
+  AGB, Datenschutz, Impressum.
+
+  Der Text steht NICHT hier, sondern in `app/start/agb.md` und
+  `app/start/datenschutz.md` — dieselben Dateien, die für die App und
+  den Store gelten. `website_bauen.py` setzt sie ein.
+
+  Zwei Fassungen desselben Rechtstextes wären der schlimmste Fall: Sie
+  laufen auseinander, und dann gilt vor Gericht die, an die niemand
+  gedacht hat.
+-->
+<section class="band schmal">
+  <div class="innen">
+    <p class="eyebrow">Rechtliches</p>
+    <h1 style="margin-bottom:18px">AGB, Datenschutz und Impressum</h1>
+    <nav class="unternav" style="margin:0 0 28px" aria-label="Rechtliches">
+      <a href="#agb">AGB</a>
+      <a href="#datenschutz">Datenschutz</a>
+      <a href="#impressum">Impressum</a>
+    </nav>
+  </div>
+
+  <div class="innen lese">
+    <article id="agb" class="rechtstext">
+      {{md:agb}}
+    </article>
+
+    <hr style="margin:56px 0">
+
+    <article id="datenschutz" class="rechtstext">
+      {{md:datenschutz}}
+    </article>
+
+    <hr style="margin:56px 0">
+
+    <article id="impressum" class="rechtstext">
+      <h2>Impressum</h2>
+      <p><b>Anbieterin</b><br>
+      StudySwiss<br>
+      [Firma und Rechtsform]<br>
+      [Strasse und Nummer]<br>
+      [PLZ Ort]<br>
+      Schweiz</p>
+      <p><b>Kontakt</b><br>
+      Allgemein: <a href="mailto:hallo@studyswiss.ch">hallo@studyswiss.ch</a><br>
+      Schulen: <a href="mailto:schulen@studyswiss.ch">schulen@studyswiss.ch</a><br>
+      Rechnungen: <a href="mailto:rechnungen@studyswiss.ch">rechnungen@studyswiss.ch</a><br>
+      Datenschutz: <a href="mailto:datenschutz@studyswiss.ch">datenschutz@studyswiss.ch</a></p>
+      <p><b>Handelsregister und Mehrwertsteuer</b><br>
+      [CHE-000.000.000]<br>
+      Mehrwertsteuernummer [CHE-000.000.000 MWST]</p>
+      <p class="sm">Die eckigen Klammern stehen dort, wo die Angaben vor der
+      Veröffentlichung eingesetzt werden müssen. Sie stehen bewusst sichtbar
+      da, statt durch erfundene Werte ersetzt zu sein — ein Impressum mit
+      falschen Angaben ist schlimmer als eines, dem man ansieht, dass es noch
+      nicht fertig ist.</p>
+    </article>
+  </div>
+</section>

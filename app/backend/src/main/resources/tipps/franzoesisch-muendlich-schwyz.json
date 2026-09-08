@@ -1,0 +1,165 @@
+{
+ "bereich": "franzoesisch-muendlich-sz",
+ "titel": "Französisch mündlich",
+ "eyebrow": "Mündliche Prüfung, zehn Minuten",
+ "einleitung": "Zehn Minuten Einzelprüfung, zehn Minuten Vorbereitung davor. Geprüft wird die Sprache, die du nicht schriftlich schreibst. Drei von vier Teilen kommen dran: eine Unterhaltung, ein Rollenspiel, eine Bildbeschreibung und ein Text mit Fragen. Ein Gegenüber hat diese App nicht. Was sie dir geben kann, ist der Ablauf, die Sätze, die du auswendig können solltest, und die Fehler, die am meisten kosten.",
+ "grundlage": "Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen, Prüfungsteil «Französisch mündlich»: zehn Minuten, bewertet werden sprachlicher Ausdruck und Verständnis.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Vorbereitung",
+   "dauer": "10 Minuten",
+   "text": "Du bekommst die Unterlagen und kannst dir Stichworte machen. Schreibe keine ganzen Sätze auf — vorgelesene Sätze klingen auswendig gelernt und bringen weniger."
+  },
+  {
+   "nr": 2,
+   "titel": "Unterhaltung",
+   "dauer": "etwa 3 Minuten",
+   "text": "Fragen zu dir: Schule, Familie, Freizeit, Ferien. Antworte in ganzen Sätzen und hänge immer einen Satz an, den niemand verlangt hat."
+  },
+  {
+   "nr": 3,
+   "titel": "Rollenspiel oder Bildbeschreibung",
+   "dauer": "etwa 4 Minuten",
+   "text": "Beim Rollenspiel übernimmst du eine Rolle in einer Alltagssituation. Bei der Bildbeschreibung sagst du zuerst, was du siehst, dann was du vermutest."
+  },
+  {
+   "nr": 4,
+   "titel": "Text mit Fragen",
+   "dauer": "etwa 3 Minuten",
+   "text": "Ein kurzer Text wird gelesen, danach folgen Fragen dazu. Antworte mit eigenen Worten, nicht mit abgelesenen Satzteilen."
+  },
+  {
+   "nr": 5,
+   "titel": "Abschluss",
+   "dauer": "",
+   "text": "Bedanke dich und verabschiede dich in der Fremdsprache. Der letzte Satz bleibt hängen."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Reden ist wichtiger als fehlerfrei reden",
+   "tipps": [
+    {
+     "regel": "Antworte nie nur mit einem Wort.",
+     "warum": "Bewertet werden sprachlicher Ausdruck und Verständnis. Wer «yes» sagt, zeigt beides nicht."
+    },
+    {
+     "regel": "Hänge an jede Antwort einen zusätzlichen Satz.",
+     "warum": "So steuerst du das Gespräch in den Wortschatz, den du beherrschst, statt darauf zu warten, was kommt."
+    },
+    {
+     "regel": "Sprich weiter, auch wenn ein Wort fehlt.",
+     "warum": "Ein Umweg zeigt Sprachvermögen; eine lange Pause zeigt nichts. Umschreiben ist erlaubt und wird positiv gewertet."
+    }
+   ]
+  },
+  {
+   "titel": "Die Bildbeschreibung hat eine feste Reihenfolge",
+   "tipps": [
+    {
+     "regel": "Zuerst der Überblick, dann die Einzelheiten, dann die Vermutung.",
+     "warum": "Diese drei Schritte füllen die Zeit von selbst und wirken geordnet."
+    },
+    {
+     "regel": "Beschreibe die Lage der Dinge mit Präpositionen.",
+     "warum": "Vorne, hinten, links, rechts, im Hintergrund — damit zeigst du Wortschatz, den man sonst nie braucht."
+    },
+    {
+     "regel": "Sag am Schluss, was du vermutest.",
+     "warum": "Eine Vermutung verlangt eine andere Verbform als eine Beschreibung; genau das will die Prüfung sehen."
+    }
+   ]
+  },
+  {
+   "titel": "Was am meisten kostet",
+   "tipps": [
+    {
+     "regel": "Zu leise sprechen.",
+     "warum": "Was nicht verstanden wird, kann nicht bewertet werden. Lieber langsam und laut als schnell und leise."
+    },
+    {
+     "regel": "Ganze Sätze aus der Vorbereitung ablesen.",
+     "warum": "Das Gespräch bricht ab, sobald eine Rückfrage kommt — und sie kommt."
+    },
+    {
+     "regel": "Auf Deutsch ausweichen.",
+     "warum": "Bewertet wird, was du in der Fremdsprache sagst. Ein deutscher Satz bringt null Punkte, ein einfacher fremdsprachiger einen."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Über sich selbst sprechen",
+   "saetze": [
+    "Je m'appelle … et j'habite à …",
+    "J'apprends le français depuis … ans.",
+    "Pendant mon temps libre, je …",
+    "Ce que j'aime à l'école, c'est …",
+    "L'été dernier, nous sommes allés à …"
+   ]
+  },
+  {
+   "zweck": "Ein Bild beschreiben",
+   "saetze": [
+    "Sur cette photo, je vois …",
+    "Au premier plan, il y a … et à l'arrière-plan …",
+    "À gauche … et à droite …",
+    "On dirait que …",
+    "Je pense que cette photo a été prise en …"
+   ]
+  },
+  {
+   "zweck": "Im Rollenspiel",
+   "saetze": [
+    "Excusez-moi, est-ce que vous pouvez me dire …?",
+    "Je voudrais …, s'il vous plaît.",
+    "Ça coûte combien ?",
+    "Pardon, je n'ai pas compris. Vous pouvez répéter ?",
+    "D'accord, très bien."
+   ]
+  },
+  {
+   "zweck": "Wenn ein Wort fehlt",
+   "saetze": [
+    "C'est une chose qu'on utilise pour …",
+    "C'est comme …",
+    "Je ne connais pas le mot, mais ça veut dire …",
+    "Comment est-ce qu'on dit … en français ?"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.01",
+   "name": "Verben im présent",
+   "warum": "Im Gespräch redest du meist über die Gegenwart; die Personalformen müssen sitzen."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.02",
+   "name": "Passé composé mit avoir und être",
+   "warum": "Über Ferien und Erlebnisse zu erzählen heisst, in der Vergangenheit zu erzählen."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.05",
+   "name": "Fragen mit est-ce que und Inversion",
+   "warum": "Im Rollenspiel musst du selbst fragen — das ist ein eigener Prüfungspunkt, den viele liegen lassen."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.08",
+   "name": "Wortschatz: Alltag, Schule, Freizeit",
+   "warum": "Genau diese Themen kommen in der Unterhaltung vor."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "1.04",
+   "name": "Wortschatz aus dem Zusammenhang",
+   "warum": "Im Textteil musst du unbekannte Wörter im Lauf des Lesens erschliessen."
+  }
+ ]
+}

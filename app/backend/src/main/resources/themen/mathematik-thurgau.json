@@ -1,0 +1,721 @@
+{
+ "fach": "mathematik-tg",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfung an die Thurgauer Mittelschulen",
+ "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Abschnitt Anforderungen und Prüfungsstoff, sowie die Prüfungsserien der Kantonsschule Frauenfeld 2017-2026",
+ "punkteTotal": 48,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Arithmetik: Grundoperationen und Zahlen",
+   "punkte": 8,
+   "anteil": 17,
+   "beschreibung": "Die Grundlage beider Prüfungsteile. Im ersten Teil ohne Taschenrechner zählt jede Klammer und jede Vorrangregel.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Verbindung der Grundoperationen und Klammerregeln",
+     "lernzielId": "MTG.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Rechnen mit Grössen, dezimal und nicht dezimal",
+     "lernzielId": "MTG.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Zehnerpotenzen und grosse Zahlen",
+     "lernzielId": "MTG.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Ordnung und Grundoperationen in den ganzen Zahlen",
+     "lernzielId": "MTG.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Teilbarkeitsregeln, Primzahlen, Teiler und Vielfache",
+     "lernzielId": "MTG.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Primfaktorzerlegung, kgV und ggT",
+     "lernzielId": "MTG.1.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.05"
+     ]
+    },
+    {
+     "code": "1.07",
+     "name": "Brüche erweitern, kürzen und ordnen",
+     "lernzielId": "MTG.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Addition und Subtraktion von Brüchen",
+     "lernzielId": "MTG.1.08",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.07"
+     ]
+    },
+    {
+     "code": "1.09",
+     "name": "Multiplikation und Division von Brüchen",
+     "lernzielId": "MTG.1.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.07"
+     ]
+    },
+    {
+     "code": "1.10",
+     "name": "Prozent-, Bruch- und Dezimalschreibweise ineinander umwandeln",
+     "lernzielId": "MTG.1.10",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.11",
+     "name": "Potenzen und Quadratzahlen berechnen und ordnen",
+     "lernzielId": "MTG.1.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.12",
+     "name": "Quadratwurzeln berechnen, umformen und vereinfachen",
+     "lernzielId": "MTG.1.12",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.13",
+     "name": "Dritte Potenzen und dritte Wurzeln",
+     "lernzielId": "MTG.1.13",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "1.14",
+     "name": "Wissenschaftliche Schreibweise und negative Exponenten",
+     "lernzielId": "MTG.1.14",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Algebra: Terme und Gleichungen",
+   "punkte": 12,
+   "anteil": 25,
+   "beschreibung": "Der Wegweiser sagt es ausdrücklich: Das Aufstellen und Lösen von Gleichungen wird an der Aufnahmeprüfung immer wieder verlangt.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme aufstellen und Werte einsetzen",
+     "lernzielId": "MTG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Termumformungen mit den Rechengesetzen",
+     "lernzielId": "MTG.2.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Klammern auflösen, auch verschachtelte",
+     "lernzielId": "MTG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Ausklammern und gemeinsame Faktoren",
+     "lernzielId": "MTG.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Bruchterme erweitern, kürzen und zusammenfassen",
+     "lernzielId": "MTG.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Bruchterme multiplizieren und dividieren",
+     "lernzielId": "MTG.2.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.05"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Gleichungen mit Äquivalenzumformungen lösen",
+     "lernzielId": "MTG.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Gleichungen mit Brüchen und Nennern lösen",
+     "lernzielId": "MTG.2.08",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.07"
+     ]
+    },
+    {
+     "code": "2.09",
+     "name": "Textaufgaben in eine Gleichung übersetzen",
+     "lernzielId": "MTG.2.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.07"
+     ]
+    },
+    {
+     "code": "2.10",
+     "name": "Formeln nach einer Variablen auflösen",
+     "lernzielId": "MTG.2.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.11",
+     "name": "Binome ausmultiplizieren und binomische Formeln",
+     "lernzielId": "MTG.2.11",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "2.12",
+     "name": "Trinome faktorisieren und Differenz zweier Quadrate",
+     "lernzielId": "MTG.2.12",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Grössen, Prozente und Sachrechnen",
+   "punkte": 8,
+   "anteil": 16,
+   "beschreibung": "Der Teil mit Taschenrechner lebt davon: Anteile, Preise, Geschwindigkeiten — immer eingebettet in eine Sachsituation.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Längen-, Hohl- und Gewichtsmasse umrechnen",
+     "lernzielId": "MTG.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Zeitangaben umrechnen, addieren und subtrahieren",
+     "lernzielId": "MTG.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Prozentuale Anteile von Grössen berechnen",
+     "lernzielId": "MTG.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Grundwert, Prozentwert und Prozentsatz auseinanderhalten",
+     "lernzielId": "MTG.3.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Bruttopreis, Nettopreis und Rabatt",
+     "lernzielId": "MTG.3.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Zweimalige Preisreduktion und Gesamtrabatt",
+     "lernzielId": "MTG.3.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "3.05"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Mehrwertsteuer hin und zurück rechnen",
+     "lernzielId": "MTG.3.07",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "3.08",
+     "name": "Währungen mit An- und Verkaufskurs umrechnen",
+     "lernzielId": "MTG.3.08",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "3.09",
+     "name": "Weg, Zeit und Geschwindigkeit",
+     "lernzielId": "MTG.3.09",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "3.10",
+     "name": "Bewegungsaufgaben: entgegen, hinterher, überholen",
+     "lernzielId": "MTG.3.10",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "3.09"
+     ]
+    },
+    {
+     "code": "3.11",
+     "name": "Steigung und Gefälle in Prozent",
+     "lernzielId": "MTG.3.11",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "3.12",
+     "name": "Jahreszins, Marchzins und Zinseszins",
+     "lernzielId": "MTG.3.12",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "D",
+   "name": "Zuordnungen und Funktionen",
+   "punkte": 6,
+   "anteil": 12,
+   "beschreibung": "Vom Grössenpaar zum Graphen. Ein wiederkehrender Aufgabentyp ist das Füllen eines Gefässes und die Frage, wie der Graph dazu aussieht.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Abhängige Grössenpaare im Koordinatensystem darstellen",
+     "lernzielId": "MTG.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Proportional oder umgekehrt proportional entscheiden",
+     "lernzielId": "MTG.4.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.03",
+     "name": "Verhältnisgleichungen und Produktegleichungen lösen",
+     "lernzielId": "MTG.4.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Wertetabelle, Graph und Sachverhalt aufeinander beziehen",
+     "lernzielId": "MTG.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Steigung und y-Achsenabschnitt einer Geraden",
+     "lernzielId": "MTG.4.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "4.06",
+     "name": "Geradengleichung aus Graph oder Punkten bestimmen",
+     "lernzielId": "MTG.4.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "4.05"
+     ]
+    },
+    {
+     "code": "4.07",
+     "name": "Lineares und exponentielles Wachstum unterscheiden",
+     "lernzielId": "MTG.4.07",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "4.08",
+     "name": "Wachstumsfaktor und Zuwachs in Prozent",
+     "lernzielId": "MTG.4.08",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "4.07"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "E",
+   "name": "Geometrie in der Ebene",
+   "punkte": 8,
+   "anteil": 17,
+   "beschreibung": "Symmetrien, Vierecke, Dreiecke und der Satz des Pythagoras. Was sich auf dem Telefon konstruieren lässt, wird geübt; das Übrige wird verstanden.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Achsen- und drehsymmetrische Figuren erkennen",
+     "lernzielId": "MTG.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Punkte und Figuren an einer Achse spiegeln",
+     "lernzielId": "MTG.5.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Punktspiegelung und ihr Zusammenhang zur Achsenspiegelung",
+     "lernzielId": "MTG.5.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.04",
+     "name": "Eigenschaften der Vierecke unterscheiden",
+     "lernzielId": "MTG.5.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.05",
+     "name": "Umfang und Flächeninhalt von Dreieck und Viereck",
+     "lernzielId": "MTG.5.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.06",
+     "name": "Flächen zusammengesetzter und unregelmässiger Figuren",
+     "lernzielId": "MTG.5.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.05"
+     ]
+    },
+    {
+     "code": "5.07",
+     "name": "Winkel im Dreieck berechnen",
+     "lernzielId": "MTG.5.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.08",
+     "name": "Besondere Linien im Dreieck: Höhen, Mittelsenkrechte, Schwerlinien",
+     "lernzielId": "MTG.5.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.09",
+     "name": "Satz des Pythagoras im rechtwinkligen Dreieck",
+     "lernzielId": "MTG.5.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.10",
+     "name": "Pythagoras in Figuren, Körpern und im Koordinatensystem",
+     "lernzielId": "MTG.5.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.09"
+     ]
+    },
+    {
+     "code": "5.11",
+     "name": "Thaleskreis und Höhen- und Kathetensatz",
+     "lernzielId": "MTG.5.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.12",
+     "name": "Kreisumfang und Kreisfläche",
+     "lernzielId": "MTG.5.12",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "5.13",
+     "name": "Kreissektor: Bogenlänge und Sektorfläche",
+     "lernzielId": "MTG.5.13",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "5.12"
+     ]
+    },
+    {
+     "code": "5.14",
+     "name": "Ähnliche Figuren und der Vergrösserungsfaktor",
+     "lernzielId": "MTG.5.14",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "5.15",
+     "name": "Streckung im Koordinatensystem und Massstab",
+     "lernzielId": "MTG.5.15",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "5.14"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "F",
+   "name": "Geometrie im Raum",
+   "punkte": 6,
+   "anteil": 13,
+   "beschreibung": "Würfel, Quader, Prisma — und die Frage, was man sieht, wenn man den Körper dreht oder kippt.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Netze und Schrägbilder von Würfel und Quader",
+     "lernzielId": "MTG.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Ansichten von vorne, von rechts und von oben",
+     "lernzielId": "MTG.6.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Körper drehen und kippen: räumliche Vorstellung",
+     "lernzielId": "MTG.6.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.04",
+     "name": "Volumen und Oberfläche von Würfel und Quader",
+     "lernzielId": "MTG.6.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.05",
+     "name": "Das gerade Prisma: Volumen und Oberfläche",
+     "lernzielId": "MTG.6.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.04"
+     ]
+    },
+    {
+     "code": "6.06",
+     "name": "Zusammengesetzte Körper und Hohlkörper",
+     "lernzielId": "MTG.6.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.05"
+     ]
+    },
+    {
+     "code": "6.07",
+     "name": "Niederschlagsmenge und Höhe der Wassersäule",
+     "lernzielId": "MTG.6.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.08",
+     "name": "Die Pyramide: Netz, Volumen und Oberfläche",
+     "lernzielId": "MTG.6.08",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "6.09",
+     "name": "Der Zylinder: Volumen und Oberfläche",
+     "lernzielId": "MTG.6.09",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "6.10",
+     "name": "Ähnliche Körper: Kanten, Flächen und Volumen",
+     "lernzielId": "MTG.6.10",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "G",
+   "name": "Stochastik: Daten und Wahrscheinlichkeit",
+   "punkte": 0,
+   "anteil": 0,
+   "beschreibung": "Kein eigener Aufgabenblock, aber in jeder Serie vertreten — 2026 stand die Tombola-Aufgabe im ersten Teil.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Daten in Tabellen und Diagrammen darstellen und lesen",
+     "lernzielId": "MTG.7.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.02",
+     "name": "Absolute und relative Häufigkeit",
+     "lernzielId": "MTG.7.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.03",
+     "name": "Wahrscheinlichkeiten bei Würfel, Münze und Glücksrad",
+     "lernzielId": "MTG.7.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.04",
+     "name": "Mehrstufige Zufallsversuche im Baumdiagramm",
+     "lernzielId": "MTG.7.04",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "7.05",
+     "name": "Additions- und Multiplikationsregel",
+     "lernzielId": "MTG.7.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "7.04"
+     ]
+    },
+    {
+     "code": "7.06",
+     "name": "Arithmetisches Mittel, Zentralwert und Spannweite",
+     "lernzielId": "MTG.7.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    },
+    {
+     "code": "7.07",
+     "name": "Ausreisser erkennen und beurteilen",
+     "lernzielId": "MTG.7.07",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ],
+     "voraussetzungen": [
+      "7.06"
+     ]
+    }
+   ]
+  }
+ ]
+}

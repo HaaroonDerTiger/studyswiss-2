@@ -1,0 +1,734 @@
+[
+ {
+  "templateId": "aktiv-oder-passiv",
+  "lernzielId": "D2.5.01",
+  "unterthemen": [
+   "5.01"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Aktiv",
+   "Passiv"
+  ],
+  "hinweise": [
+   "Steht im Satz «werden» plus ein Partizip II? Dann schau genauer hin.",
+   "Frag dich: Handelt das Subjekt selbst, oder geschieht mit ihm etwas?",
+   "Vorsicht: «werden» plus Infinitiv ist Futur, «werden» plus Partizip II ist Passiv."
+  ],
+  "loesungsweg": [
+   "Im Aktiv handelt das Subjekt. Im Passiv geschieht etwas mit ihm.",
+   "Das Passiv wird mit «werden» und dem Partizip II gebildet.",
+   "Prüfe, was am Satzende steht: ein Infinitiv ergibt Futur, ein Partizip II ergibt Passiv."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nIm Wirtshaus werden Getränke ausgeschenkt.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«werden» plus Partizip II «ausgeschenkt». Wer ausschenkt, wird nicht genannt.",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Das Subjekt «Getränke» schenkt nicht selbst aus, mit ihm geschieht etwas. Der Bau «werden» plus Partizip II ist das Kennzeichen des Passivs."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nWird der Käufer seine Anschaffung bereuen?",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "«wird» plus Infinitiv «bereuen» ist Futur I im Aktiv. Der Käufer handelt selbst.",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "werden_als_passiv",
+      "feedback": "«werden» allein macht noch kein Passiv. Am Ende steht der Infinitiv «bereuen», nicht das Partizip «bereut» Das ist Futur im Aktiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDer Brief wurde nie geöffnet.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«wurde» plus Partizip II «geöffnet». Der Brief öffnet sich nicht selbst.",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Frag dich, wer handelt. Der Brief ist nicht der Handelnde, sondern das, was behandelt wird, also Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDurch so eine Geschichte wird man schlauer.",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "Hier ist «werden» das Vollverb im Sinn von «sich verändern». Es folgt kein Partizip II.",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "werden_als_passiv",
+      "feedback": "«schlauer» ist ein Adjektiv, kein Partizip II. Ohne Partizip kein Passiv. Hier heisst «werden» einfach «sich verändern»."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDie Turnhalle wird jeden Freitag geputzt.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«wird» plus Partizip II «geputzt».",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Die Turnhalle putzt nicht. Wer putzt, steht nicht im Satz. Genau das ist typisch fürs Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nSie hat das Fenster geschlossen.",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "«haben» plus Partizip II ergibt das Perfekt im Aktiv, nicht das Passiv. Fürs Passiv bräuchte es «werden».",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Ein Partizip II allein macht noch kein Passiv. Entscheidend ist das Hilfsverb: «haben» ergibt Perfekt im Aktiv, «werden» ergibt Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDas Velo ist gestohlen worden.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«ist … worden» plus Partizip II «gestohlen» ist das Perfekt im Passiv. Das Wort «worden» ist das sichere Zeichen.",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "worden_uebersehen",
+      "feedback": "Das Wörtchen «worden» kommt nur im Passiv vor. Im Aktiv hiesse es «ist geworden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDer Wind hat das Dach abgedeckt.",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "Der Wind handelt selbst. «hat» plus Partizip ist Perfekt im Aktiv.",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Der Handelnde steht da: der Wind. Im Passiv hiesse es «Das Dach wurde vom Wind abgedeckt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDie Anmeldungen werden bis Ende Monat geprüft.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«werden» plus Partizip II «geprüft».",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Anmeldungen prüfen nichts. Sie sind das, was geprüft wird, also Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nEr wird morgen den Aufsatz abgeben.",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "«wird» plus Infinitiv «abgeben» ist Futur I im Aktiv.",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "werden_als_passiv",
+      "feedback": "Am Ende steht «abgeben», nicht «abgegeben». Ein Infinitiv nach «werden» ergibt Futur, ein Partizip ergibt Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDas Zeugnis wurde ihm gestern ausgehändigt.",
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«wurde» plus Partizip II «ausgehändigt». Wer aushändigt, bleibt ungenannt.",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "dativ_als_subjekt",
+      "feedback": "«ihm» steht im Dativ und ist nicht das Subjekt. Das Subjekt ist «das Zeugnis», und mit ihm geschieht etwas."
+     }
+    ]
+   },
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nMeine Grossmutter trug den Mantel jahrelang.",
+    "loesung": [
+     "Aktiv"
+    ],
+    "erklaerung": "Die Grossmutter handelt, «trug» steht im Präteritum Aktiv.",
+    "fehler": [
+     {
+      "antwort": "Passiv",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Es gibt weder «werden» noch ein Partizip II. Ohne diese beiden Teile kann kein Passiv vorliegen."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "kasus-bestimmen",
+  "lernzielId": "D2.6.01",
+  "unterthemen": [
+   "6.01"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Nominativ",
+   "Akkusativ",
+   "Dativ",
+   "Genitiv"
+  ],
+  "hinweise": [
+   "Stell die Frageprobe: «wer oder was?», «wen oder was?», «wem?», «wessen?» Welche passt auf die markierte Wortgruppe?",
+   "Suche zuerst die Personalform. Die Wortgruppe, die mit ihr übereinstimmt, steht im Nominativ.",
+   "Achtung bei Präpositionen: Sie fordern einen Fall. «wegen» und «während» fordern den Genitiv, «mit» und «bei» den Dativ."
+  ],
+  "loesungsweg": [
+   "Markiere die ganze Wortgruppe, also mit Artikel und Adjektiven.",
+   "Setze die vier Fragen an: wer/was, wen/was, wem, wessen.",
+   "Steht eine Präposition davor, entscheidet sie über den Fall."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nAuf den Dielen liegt _ein alter Vorleger_.",
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "«Wer oder was liegt auf den Dielen?» Ein alter Vorleger. Die Wortgruppe stimmt mit der Personalform «liegt» überein.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "nachgestelltes_subjekt",
+      "feedback": "Das Subjekt muss nicht am Satzanfang stehen. Mach die Probe: «Wer oder was liegt?» Das ergibt den Vorleger. Also Nominativ."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "praeposition_uebertragen",
+      "feedback": "Der Dativ steckt in «auf den Dielen». Die markierte Wortgruppe hat mit dieser Präposition nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nSie hat _ihrem kleinen Bruder_ die Geschichte erzählt.",
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«Wem hat sie die Geschichte erzählt?» Ihrem kleinen Bruder.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "zwei_objekte_verwechselt",
+      "feedback": "Im Satz stehen zwei Objekte. «Die Geschichte» ist der Akkusativ («wen oder was?»), «ihrem Bruder» der Dativ («wem?»). Stell beide Fragen getrennt."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Genitiv hiesse «ihres kleinen Bruders» mit -s am Ende. Die Endung «-em/-en» zeigt den Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nDie Stimme _einer alten Frau_ war zu hören.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«Wessen Stimme?» Einer alten Frau. Der Genitiv sagt, wem etwas gehört.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "«einer» sieht bei weiblichen Nomen im Dativ und im Genitiv gleich aus. Entscheidend ist die Frage: «wessen?» ergibt Genitiv, «wem?» ergibt Dativ. Hier gehört die Stimme jemandem."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Subjekt ist «die Stimme». Die markierte Gruppe sagt nur, wem diese Stimme gehört."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nEr hat _den letzten Zug_ verpasst.",
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«Wen oder was hat er verpasst?» Den letzten Zug.",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Subjekt ist «er». Die markierte Gruppe ist das, was verpasst wurde, also das Akkusativobjekt."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Dativ hiesse «dem letzten Zug». Die Endung «-en» beim männlichen Artikel zeigt den Akkusativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nWegen _des starken Regens_ blieb sie zu Hause.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "Die Präposition «wegen» fordert den Genitiv. Die Endung «-es» bestätigt es.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "In der gesprochenen Sprache hört man «wegen dem Regen». Geschrieben fordert «wegen» den Genitiv: «des Regens». Merk dir die Genitiv-Präpositionen: wegen, während, trotz, statt."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "Der Akkusativ hiesse «den starken Regen». Die Endung «-es» beim Nomen ist das sichere Zeichen für den Genitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nMit _dem alten Velo_ fährt er zur Schule.",
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Die Präposition «mit» fordert immer den Dativ.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "«mit» fordert immer den Dativ, egal ob eine Bewegung gemeint ist. Es gibt Präpositionen, die den Fall wechseln, «mit» gehört nicht dazu."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Genitiv hiesse «des alten Velos». «dem» ist die Dativform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\n_Konstantins Kehllappen_ ist eher grau als rosa.",
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "«Wer oder was ist grau?» Konstantins Kehllappen. Der Name im Genitiv gehört zur Wortgruppe, aber die ganze Gruppe ist das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "teil_statt_ganzes",
+      "feedback": "«Konstantins» steht zwar im Genitiv, ist aber nur ein Teil der Wortgruppe. Gefragt ist der Fall der ganzen Gruppe, und die ist das Subjekt."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Es gibt kein Objekt in diesem Satz: «sein» verlangt keinen Akkusativ, sondern eine Ergänzung im Nominativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nSie erinnerte sich _des Tages_ genau.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«sich erinnern» kann ein Genitivobjekt bei sich haben: «wessen erinnerte sie sich?»",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "objektfrage_falsch",
+      "feedback": "Die Akkusativfrage «wen oder was?» passt hier nicht. Die Endung «-es» und die Frage «wessen?» zeigen den Genitiv."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Dativ hiesse «dem Tag». «des Tages» ist Genitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nDer Lehrer gab _den Schülerinnen_ das Blatt zurück.",
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«Wem gab er das Blatt?» Den Schülerinnen. Die Endung «-n» im Plural zeigt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "zwei_objekte_verwechselt",
+      "feedback": "Das Akkusativobjekt ist «das Blatt» Das, was zurückgegeben wird. Die Personen, die es bekommen, stehen im Dativ."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Subjekt ist «der Lehrer». Im Plural sehen Nominativ und Akkusativ gleich aus, der Dativ bekommt aber ein zusätzliches «-n»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nTrotz _des Nebels_ startete das Flugzeug.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«trotz» fordert den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "Umgangssprachlich hört man «trotz dem Nebel». In der Schriftsprache fordert «trotz» den Genitiv."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Subjekt ist «das Flugzeug». Nach einer Präposition steht nie ein Nominativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nSie hat _ihn_ gestern gesehen.",
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«Wen hat sie gesehen?» Ihn. Bei Personalpronomen ist der Fall an der Form ablesbar: er, ihn, ihm.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "pronomenform_verwechselt",
+      "feedback": "Der Dativ hiesse «ihm». Präg dir die Reihe ein: er (Nominativ), ihn (Akkusativ), ihm (Dativ)."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Der Nominativ wäre «er». Das Subjekt ist hier «sie»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nWährend _der langen Fahrt_ schlief sie ein.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«während» als Präposition fordert den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Bei weiblichen Nomen sehen Dativ und Genitiv gleich aus: «der langen Fahrt». Entscheidend ist die Präposition, «während» fordert den Genitiv."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "Der Akkusativ hiesse «die lange Fahrt». Nach «während» steht nie der Akkusativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\n_Dem Nachbarn_ gehört der graue Wagen.",
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«gehören» fordert den Dativ: «Wem gehört der Wagen?»",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "nachgestelltes_subjekt",
+      "feedback": "Am Satzanfang steht nicht immer das Subjekt. Das Subjekt ist «der graue Wagen» «wer oder was gehört?»"
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "besitz_verwechselt",
+      "feedback": "Der Satz handelt von Besitz, aber der Fall ergibt sich aus dem Verb. «gehören» fordert immer den Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nEr schrieb _einen langen Brief_.",
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«Wen oder was schrieb er?» Einen langen Brief.",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Der Nominativ hiesse «ein langer Brief». Die Endung «-en» beim männlichen Artikel zeigt den Akkusativ."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Dativ hiesse «einem langen Brief». Die Endung entscheidet: «-en» beim männlichen Artikel zeigt den Akkusativ, «-em» den Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nDas Dach _des alten Hauses_ war undicht.",
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«Wessen Dach?» Des alten Hauses.",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Subjekt ist «das Dach». Die markierte Gruppe sagt nur, zu welchem Haus es gehört."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Der Dativ hiesse «dem alten Haus». Die Endung «-es» ist das Zeichen des Genitivs."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die markierte Wortgruppe?\n\nMorgen hilft _sie_ ihrer Schwester.",
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "«Wer hilft?» Sie. Auch wenn das Subjekt nicht vorne steht, bleibt es im Nominativ.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "nachgestelltes_subjekt",
+      "feedback": "«sie» sieht im Nominativ und im Akkusativ gleich aus. Die Frageprobe entscheidet: «Wer hilft?», also Nominativ."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "pronomenform_verwechselt",
+      "feedback": "Der Dativ wäre «ihr». Ausserdem steht «ihrer Schwester» schon im Dativ: «helfen» fordert ihn."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "hauptsatz-oder-nebensatz",
+  "lernzielId": "D2.9.07",
+  "unterthemen": [
+   "9.07"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Hauptsatz",
+   "Nebensatz"
+  ],
+  "hinweise": [
+   "Wo steht die Personalform, an zweiter Stelle oder ganz am Ende?",
+   "Ein Nebensatz beginnt fast immer mit einer Konjunktion oder einem Relativpronomen.",
+   "Ein Hauptsatz kann allein stehen. Lies den Teilsatz laut. Klingt er für sich vollständig?"
+  ],
+  "loesungsweg": [
+   "Im Hauptsatz steht die Personalform an zweiter Stelle.",
+   "Im Nebensatz rutscht sie ans Ende, und vorne steht ein Einleitewort.",
+   "Ein Nebensatz kann nie allein stehen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Weil der Zug Verspätung hatte_, kam sie zu spät.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«Weil» leitet ein, und die Personalform «hatte» steht am Ende. Beides sind Zeichen für einen Nebensatz.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "Ein Hauptsatz hätte die Personalform an zweiter Stelle: «Der Zug hatte Verspätung». Hier steht «hatte» ganz hinten."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nSie blieb zu Hause, _denn sie hatte Fieber_.",
+    "loesung": [
+     "Hauptsatz"
+    ],
+    "erklaerung": "«denn» verbindet zwei Hauptsätze. Die Personalform «hatte» steht an zweiter Stelle.",
+    "fehler": [
+     {
+      "antwort": "Nebensatz",
+      "diagnoseId": "komma_als_beweis",
+      "feedback": "Ein Komma allein macht noch keinen Nebensatz. Schau auf die Personalform: Sie steht an zweiter Stelle, also Hauptsatz. Mit «weil» statt «denn» wäre es einer."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nDer Mann, _der jede Nacht Velos repariert_, wohnt nebenan.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "Ein Relativsatz ist immer ein Nebensatz: Er beginnt mit «der» und hat die Personalform «repariert» am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "relativsatz_uebersehen",
+      "feedback": "Der Teilsatz kann nicht allein stehen. «der jede Nacht Velos repariert» ergibt für sich keinen Sinn. Relativsätze sind immer Nebensätze."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Nachdem er gegessen hatte_, ging er los.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«Nachdem» leitet ein, «hatte» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "Auch am Satzanfang kann ein Nebensatz stehen. Entscheidend ist die Personalform am Ende, nicht die Position im Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Sie packte hastig ihre Sachen_ und rannte los.",
+    "loesung": [
+     "Hauptsatz"
+    ],
+    "erklaerung": "Die Personalform «packte» steht an zweiter Stelle, und der Teilsatz kann allein stehen.",
+    "fehler": [
+     {
+      "antwort": "Nebensatz",
+      "diagnoseId": "komma_als_beweis",
+      "feedback": "«und» verbindet hier zwei gleichrangige Hauptsätze. Die Personalform steht an zweiter Stelle."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nEr wusste nicht, _ob sie noch kommen würde_.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«ob» leitet ein, «würde» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "«ob sie noch kommen würde» kann nicht allein stehen. Das Einleitewort und die Personalform am Ende zeigen den Nebensatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Trotz des Regens fuhr sie mit dem Velo_.",
+    "loesung": [
+     "Hauptsatz"
+    ],
+    "erklaerung": "«Trotz des Regens» ist nur eine Wortgruppe, kein Nebensatz. Die Personalform «fuhr» steht an zweiter Stelle.",
+    "fehler": [
+     {
+      "antwort": "Nebensatz",
+      "diagnoseId": "praeposition_als_konjunktion",
+      "feedback": "«Trotz» ist eine Präposition und leitet keinen Nebensatz ein. Ein Nebensatz bräuchte ein eigenes Verb: «Obwohl es regnete, …»"
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nSie fragte, _was er damit gemeint habe_.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«was» leitet ein, «habe» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "In der direkten Frage hiesse es «Was hat er damit gemeint?» Personalform an zweiter Stelle. Hier ist sie ans Ende gerutscht."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Morgen fahren wir nach Chur_, wenn das Wetter hält.",
+    "loesung": [
+     "Hauptsatz"
+    ],
+    "erklaerung": "«fahren» steht an zweiter Stelle, gleich nach der Zeitangabe.",
+    "fehler": [
+     {
+      "antwort": "Nebensatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "Auch wenn der Satz mit einer Zeitangabe beginnt, bleibt die Personalform an zweiter Stelle. Das ist ein Hauptsatz. Der Nebensatz beginnt erst mit «wenn»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nDas Buch, _das ich dir geliehen habe_, liegt noch bei dir.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "Relativsatz mit «das» als Relativpronomen und «habe» am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "relativsatz_uebersehen",
+      "feedback": "Der Teilsatz steht mitten im Satz und kann nicht allein stehen. Zwei Kommas rundherum sind ein starkes Zeichen für einen eingeschobenen Nebensatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\nEr hatte Hunger, _aber der Laden war schon zu_.",
+    "loesung": [
+     "Hauptsatz"
+    ],
+    "erklaerung": "«aber» verbindet zwei Hauptsätze. Die Personalform «war» steht an zweiter Stelle.",
+    "fehler": [
+     {
+      "antwort": "Nebensatz",
+      "diagnoseId": "komma_als_beweis",
+      "feedback": "«aber», «denn», «und», «oder» und «sondern» verbinden Hauptsätze und ändern die Wortstellung nicht. «obwohl» wäre eine Konjunktion, die einen Nebensatz einleitet."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der markierte Teilsatz ein Hauptsatz oder ein Nebensatz?\n\n_Damit niemand friert_, hat sie Decken mitgebracht.",
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«Damit» leitet ein, «friert» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "stellung_uebersehen",
+      "feedback": "«Damit niemand friert» kann nicht allein stehen. Es fehlt die Aussage, was deshalb geschieht."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

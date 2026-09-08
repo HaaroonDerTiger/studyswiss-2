@@ -1,0 +1,577 @@
+[
+ {
+  "templateId": "konjunktion-oder-praeposition",
+  "lernzielId": "D2.2.02",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "2.02"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Konjunktion",
+   "Präposition"
+  ],
+  "hinweise": [
+   "Schau, was nach dem markierten Wort kommt: ein ganzer Teilsatz mit eigenem Verb oder nur eine Nomengruppe?",
+   "Eine Konjunktion verbindet zwei Teilsätze. Danach steht die Personalform am Ende.",
+   "Eine Präposition steht vor einer Nomengruppe und fordert einen Fall. Prüfe die Endung."
+  ],
+  "loesungsweg": [
+   "Folgt ein Teilsatz mit eigener Personalform? Dann ist es eine Konjunktion.",
+   "Folgt eine Nomengruppe in einem bestimmten Fall? Dann ist es eine Präposition.",
+   "Manche Wörter können beides sein. Entscheidend ist immer, was folgt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Während_ des Konzerts blieb sie stehen.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "Nach «während» folgt die Nomengruppe «des Konzerts» im Genitiv: keine Personalform.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "gleiches_wort_andere_rolle",
+      "feedback": "«Während» kann beides sein. Als Konjunktion folgte ein Nebensatz mit eigenem Verb. Hier steht nur eine Nomengruppe, und der Genitiv «des Konzerts» kommt von diesem Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Während_ sie sprach, schwieg er.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "Nach «während» folgt ein Nebensatz mit der Personalform «sprach» am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "gleiches_wort_andere_rolle",
+      "feedback": "Dasselbe Wort, andere Rolle: Hier folgt ein ganzer Teilsatz mit eigenem Verb, keine Nomengruppe. Achte immer darauf, was folgt."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Trotz_ des Regens fuhr sie mit dem Velo.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«Trotz» steht vor der Nomengruppe «des Regens» und fordert den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Die Konjunktion mit derselben Bedeutung wäre «obwohl» Danach käme ein Nebensatz. Hier steht eine Nomengruppe im Genitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Obwohl_ es regnete, fuhr sie mit dem Velo.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«Obwohl» leitet einen Nebensatz ein; die Personalform «regnete» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Das Komma und die Personalform am Ende zeigen einen Nebensatz. Präpositionen leiten nie einen Satz ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\nSie wartete _bis_ zum Abend.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«bis zu» steht hier vor einer Nomengruppe im Dativ.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "gleiches_wort_andere_rolle",
+      "feedback": "«Bis» kann beides sein. Als Konjunktion hiesse es «bis er kam», mit eigenem Verb. Hier folgt nur eine Zeitangabe als Nomengruppe."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\nSie wartete, _bis_ er kam.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "Nach «bis» folgt ein Nebensatz mit der Personalform «kam» am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Nach einer Präposition folgt nie ein Verb. «er kam» ist ein eigener Teilsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Wegen_ der Verspätung kam sie zu spät.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«Wegen» fordert den Genitiv und steht vor einer Nomengruppe.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Die entsprechende Konjunktion wäre «weil». Frage dich: Warum steht «der Verspätung» im Genitiv? Weil dieses Wort ihn fordert, also eine Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\nSie blieb zu Hause, _weil_ sie Fieber hatte.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«Weil» verbindet Haupt- und Nebensatz; «hatte» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Nach «weil» folgt ein ganzer Satz. Die Präposition mit derselben Bedeutung wäre «wegen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Nach_ dem Essen ging er los.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«Nach» steht vor der Nomengruppe «dem Essen» im Dativ.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Die Konjunktion wäre «nachdem» Ein anderes Wort, mit eigenem Nebensatz. Hier folgt eine Nomengruppe im Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\n_Nachdem_ er gegessen hatte, ging er los.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«Nachdem» leitet einen Nebensatz ein; «hatte» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Ein Buchstabe Unterschied zu «nach», und die Wortart wechselt. Entscheidend ist, dass hier ein ganzer Satz folgt."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\nSie kaufte alles _ausser_ dem Brot.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«Ausser» steht vor der Nomengruppe «dem Brot» im Dativ.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Nach «ausser» folgt hier kein Verb. Der Dativ «dem Brot» kommt von diesem Wort, also eine Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist das markierte Wort eine Konjunktion oder eine Präposition?\n\nEr ging los, _sobald_ es hell wurde.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«Sobald» leitet einen Nebensatz ein; die Personalform «wurde» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Nach «sobald» folgt ein ganzer Teilsatz mit eigenem Verb. Präpositionen stehen nur vor Nomengruppen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "pronomen-erkennen",
+  "lernzielId": "D2.2.04",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "2.04"
+  ],
+  "format": "mehrfachauswahl",
+  "hinweise": [
+   "Ein Pronomen steht für ein Nomen oder begleitet es. Artikel wie «der» und «ein» zählen an der ZAP dazu.",
+   "Prüfe jedes Wort einzeln: Lässt es sich durch ein Nomen ersetzen oder steht es davor?",
+   "Auch «man», «etwas», «alles», «jeder» und «was» sind Pronomen."
+  ],
+  "loesungsweg": [
+   "An der ZAP zählen zu den Pronomen: Personalpronomen, Artikel, Possessiv-, Relativ- und Indefinitpronomen.",
+   "Gehe den Satz Wort für Wort durch.",
+   "Im Zweifel: Steht das Wort anstelle eines Nomens oder unmittelbar davor?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nIch habe etwas sagen wollen, doch nicht gewusst, was.",
+    "optionen": [
+     "Ich",
+     "habe",
+     "etwas",
+     "sagen",
+     "doch",
+     "nicht",
+     "was"
+    ],
+    "loesung": [
+     "Ich",
+     "etwas",
+     "was"
+    ],
+    "erklaerung": "«Ich» ist ein Personalpronomen, «etwas» und «was» sind Indefinit- bzw. Interrogativpronomen. «doch» und «nicht» gehören zu den übrigen Partikeln.",
+    "fehler": [
+     {
+      "antwort": "doch",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«Doch» steht für kein Nomen und begleitet keines. Es gehört zu den übrigen Partikeln. Der Wortart für alles, was sich nicht verändern lässt."
+     },
+     {
+      "antwort": "nicht",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«Nicht» verneint und ersetzt kein Nomen. Auch das ist eine übrige Partikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nDie Nachbarin hat mir den Schlüssel gegeben.",
+    "optionen": [
+     "Die",
+     "Nachbarin",
+     "hat",
+     "mir",
+     "den",
+     "Schlüssel",
+     "gegeben"
+    ],
+    "loesung": [
+     "Die",
+     "mir",
+     "den"
+    ],
+    "erklaerung": "«Die» und «den» sind Artikel und zählen an der ZAP zu den Pronomen. «Mir» ist ein Personalpronomen.",
+    "fehler": [
+     {
+      "antwort": "Nachbarin",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Nachbarin» ist das Nomen selbst. Das Pronomen davor ist «Die» Es begleitet das Nomen."
+     },
+     {
+      "antwort": "Schlüssel",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Schlüssel» ist ein Nomen. Sein Begleiter «den» ist das Pronomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nMan kann sie nicht für alles verantwortlich machen.",
+    "optionen": [
+     "Man",
+     "kann",
+     "sie",
+     "nicht",
+     "alles",
+     "verantwortlich",
+     "machen"
+    ],
+    "loesung": [
+     "Man",
+     "sie",
+     "alles"
+    ],
+    "erklaerung": "«Man», «sie» und «alles» stehen alle für Personen oder Dinge, ohne sie zu benennen.",
+    "fehler": [
+     {
+      "antwort": "verantwortlich",
+      "diagnoseId": "adjektiv_als_pronomen",
+      "feedback": "«Verantwortlich» beschreibt und lässt sich steigern. Das ist ein Adjektiv, kein Pronomen."
+     },
+     {
+      "antwort": "nicht",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«Nicht» ersetzt kein Nomen. Es gehört zu den übrigen Partikeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nEr weiss alles, bevor man es ihm erzählt.",
+    "optionen": [
+     "Er",
+     "weiss",
+     "alles",
+     "bevor",
+     "man",
+     "es",
+     "ihm"
+    ],
+    "loesung": [
+     "Er",
+     "alles",
+     "man",
+     "es",
+     "ihm"
+    ],
+    "erklaerung": "Fünf Pronomen: «Er», «alles», «man», «es» und «ihm». «Bevor» ist eine Konjunktion.",
+    "fehler": [
+     {
+      "antwort": "bevor",
+      "diagnoseId": "konjunktion_als_pronomen",
+      "feedback": "«Bevor» verbindet zwei Teilsätze. Das ist eine Konjunktion. Ein Pronomen stünde für ein Nomen."
+     },
+     {
+      "antwort": "weiss",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Weiss» ist die Personalform des Verbs «wissen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nJeder Schüler bekam sein eigenes Heft.",
+    "optionen": [
+     "Jeder",
+     "Schüler",
+     "bekam",
+     "sein",
+     "eigenes",
+     "Heft"
+    ],
+    "loesung": [
+     "Jeder",
+     "sein"
+    ],
+    "erklaerung": "«Jeder» ist ein Indefinitpronomen, «sein» ein Possessivpronomen. Beide begleiten ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "eigenes",
+      "diagnoseId": "adjektiv_als_pronomen",
+      "feedback": "«Eigen» lässt sich steigern und beschreibt das Heft. Das ist ein Adjektiv."
+     },
+     {
+      "antwort": "Heft",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Heft» ist das Nomen. Seine Begleiter «sein» und «eigenes» stehen davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nDie hätten mir nie was getan.",
+    "optionen": [
+     "Die",
+     "hätten",
+     "mir",
+     "nie",
+     "was",
+     "getan"
+    ],
+    "loesung": [
+     "Die",
+     "mir",
+     "was"
+    ],
+    "erklaerung": "«Die» steht hier für Personen, «mir» ist ein Personalpronomen, «was» meint umgangssprachlich «etwas».",
+    "fehler": [
+     {
+      "antwort": "nie",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«Nie» ist eine Zeitangabe, die sich nie verändert. Eine übrige Partikel."
+     },
+     {
+      "antwort": "getan",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Getan» ist das Partizip II und gehört zur Verbform «hätten … getan»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nEin Mann, der jede Nacht Velos repariert.",
+    "optionen": [
+     "Ein",
+     "Mann",
+     "der",
+     "jede",
+     "Nacht",
+     "Velos",
+     "repariert"
+    ],
+    "loesung": [
+     "Ein",
+     "der",
+     "jede"
+    ],
+    "erklaerung": "«Ein» ist ein Artikel, «der» ein Relativpronomen, «jede» ein Indefinitpronomen.",
+    "fehler": [
+     {
+      "antwort": "Nacht",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Nacht» ist ein Nomen. Ihr Begleiter «jede» ist das Pronomen."
+     },
+     {
+      "antwort": "Velos",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Velos» ist ein Nomen im Plural, hier ohne Begleiter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nSie hat ihm nichts davon erzählt.",
+    "optionen": [
+     "Sie",
+     "hat",
+     "ihm",
+     "nichts",
+     "davon",
+     "erzählt"
+    ],
+    "loesung": [
+     "Sie",
+     "ihm",
+     "nichts"
+    ],
+    "erklaerung": "«Sie» und «ihm» sind Personalpronomen, «nichts» ein Indefinitpronomen. «Davon» ist eine übrige Partikel.",
+    "fehler": [
+     {
+      "antwort": "davon",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«Davon» verweist zwar zurück, lässt sich aber nicht beugen. An der ZAP zählt es zu den übrigen Partikeln."
+     },
+     {
+      "antwort": "erzählt",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Erzählt» ist das Partizip II und Teil der Verbform."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nUnser Lehrer sagte, dass wir das Buch lesen sollen.",
+    "optionen": [
+     "Unser",
+     "Lehrer",
+     "dass",
+     "wir",
+     "das",
+     "Buch",
+     "sollen"
+    ],
+    "loesung": [
+     "Unser",
+     "wir",
+     "das"
+    ],
+    "erklaerung": "«Unser» ist ein Possessivpronomen, «wir» ein Personalpronomen, «das» ein Artikel.",
+    "fehler": [
+     {
+      "antwort": "dass",
+      "diagnoseId": "konjunktion_als_pronomen",
+      "feedback": "«Dass» mit zwei s leitet einen Nebensatz ein. Das ist eine Konjunktion. Mit einem s wäre «das» ein Pronomen."
+     },
+     {
+      "antwort": "sollen",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Sollen» ist ein Modalverb und gehört zur Verbform."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nNiemand wusste, wem das gehörte.",
+    "optionen": [
+     "Niemand",
+     "wusste",
+     "wem",
+     "das",
+     "gehörte"
+    ],
+    "loesung": [
+     "Niemand",
+     "wem",
+     "das"
+    ],
+    "erklaerung": "«Niemand» und «wem» stehen für Personen, «das» für eine Sache. Alle drei sind Pronomen.",
+    "fehler": [
+     {
+      "antwort": "gehörte",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Gehörte» ist die Personalform des Verbs «gehören»."
+     },
+     {
+      "antwort": "wusste",
+      "diagnoseId": "verb_als_pronomen",
+      "feedback": "«Wusste» ist die Personalform von «wissen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nZwei Korken dienten ihnen als Passagiere.",
+    "optionen": [
+     "Zwei",
+     "Korken",
+     "dienten",
+     "ihnen",
+     "als",
+     "Passagiere"
+    ],
+    "loesung": [
+     "Zwei",
+     "ihnen"
+    ],
+    "erklaerung": "Begleitende Zahlwörter zählen an der ZAP zu den Pronomen, ebenso das Personalpronomen «ihnen».",
+    "fehler": [
+     {
+      "antwort": "als",
+      "diagnoseId": "konjunktion_als_pronomen",
+      "feedback": "«Als» ist hier eine Konjunktion und ersetzt kein Nomen."
+     },
+     {
+      "antwort": "Passagiere",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Passagiere» ist ein Nomen im Plural und steht hier ohne Begleiter. Ein Pronomen wäre ein Wort, das für dieses Nomen einspringt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wörter sind Pronomen? Kreuze alle an.\n\nDieses Buch gehört meiner Schwester.",
+    "optionen": [
+     "Dieses",
+     "Buch",
+     "gehört",
+     "meiner",
+     "Schwester"
+    ],
+    "loesung": [
+     "Dieses",
+     "meiner"
+    ],
+    "erklaerung": "«Dieses» ist ein Demonstrativpronomen, «meiner» ein Possessivpronomen. Beide begleiten ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "Buch",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Buch» ist das Nomen; sein Begleiter «Dieses» ist das Pronomen."
+     },
+     {
+      "antwort": "Schwester",
+      "diagnoseId": "nomen_als_pronomen",
+      "feedback": "«Schwester» ist das Nomen; «meiner» ist das Pronomen davor."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

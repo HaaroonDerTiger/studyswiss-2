@@ -1,0 +1,1566 @@
+[
+ {
+  "templateId": "tg-tv-schicht-inhalt",
+  "lernzielId": "DTG.1.01",
+  "fach": "textverstaendnis-tg",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche zu jeder Frage die Stelle im Text, die sie beantwortet.",
+   "Achte auf Zeitangaben — der Text ist entlang eines Morgens gebaut.",
+   "Was nicht im Text steht, darfst du nicht ergänzen, auch wenn es naheliegt."
+  ],
+  "loesungsweg": [
+   "Die Frage genau lesen: Wonach wird gefragt?",
+   "Ein Stichwort aus der Frage im Text suchen.",
+   "Die Stelle darum herum lesen.",
+   "Alle vier Antworten am Text prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Um welche Zeit schliesst Marisa die Bäckerei auf?",
+    "optionen": [
+     "um Viertel vor sechs",
+     "um vier Uhr",
+     "um zwanzig nach acht",
+     "um halb neun"
+    ],
+    "loesung": [
+     "um Viertel vor sechs"
+    ],
+    "erklaerung": "Der erste Satz nennt die Zeit: «Um Viertel vor sechs war die Bäckerei noch dunkel.»",
+    "fehler": [
+     {
+      "antwort": "um vier Uhr",
+      "diagnoseId": "gwerder",
+      "feedback": "Um vier Uhr steht bereits Herr Gwerder in der Backstube. Marisa kommt später."
+     },
+     {
+      "antwort": "um zwanzig nach acht",
+      "diagnoseId": "ansturm",
+      "feedback": "Das ist die Zeit des ersten Ansturms, nicht die des Aufschliessens."
+     },
+     {
+      "antwort": "um halb neun",
+      "diagnoseId": "zitat",
+      "feedback": "Halb neun nennt Herr Gwerder in seinem Satz über die Sardinen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Reihenfolge erledigt Marisa ihre ersten Handgriffe?",
+    "optionen": [
+     "Ofen, Licht, Kasse",
+     "Licht, Ofen, Kasse",
+     "Kasse, Ofen, Licht",
+     "Licht, Kasse, Ofen"
+    ],
+    "loesung": [
+     "Ofen, Licht, Kasse"
+    ],
+    "erklaerung": "Im Text steht: «zuerst den Ofen, dann das Licht, dann die Kasse».",
+    "fehler": [
+     {
+      "antwort": "Licht, Ofen, Kasse",
+      "diagnoseId": "vertauscht",
+      "feedback": "Das Licht kommt an zweiter Stelle. Zuerst kümmert sie sich um den Ofen."
+     },
+     {
+      "antwort": "Kasse, Ofen, Licht",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Die Kasse ist das Letzte, was sie in Angriff nimmt."
+     },
+     {
+      "antwort": "Licht, Kasse, Ofen",
+      "diagnoseId": "erfunden",
+      "feedback": "Diese Reihenfolge steht so nicht im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lange hat Marisa gebraucht, um Herrn Gwerders Ton zu verstehen?",
+    "optionen": [
+     "drei Wochen",
+     "drei Tage",
+     "einen Sonntag",
+     "dreissig Jahre"
+    ],
+    "loesung": [
+     "drei Wochen"
+    ],
+    "erklaerung": "«Sie hatte drei Wochen gebraucht, um das zu lernen.»",
+    "fehler": [
+     {
+      "antwort": "drei Tage",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Im Text stehen Wochen, nicht Tage — drei Wochen sind gut zwanzigmal so lang."
+     },
+     {
+      "antwort": "einen Sonntag",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein einzelner Sonntag wird nicht genannt; es geht um eine längere Zeit."
+     },
+     {
+      "antwort": "dreissig Jahre",
+      "diagnoseId": "andere_person",
+      "feedback": "Die dreissig Jahre gehören zur Kundin: So lange kommt sie schon in die Bäckerei."
+     }
+    ]
+   },
+   {
+    "stamm": "Was verlangt die ältere Frau?",
+    "optionen": [
+     "ein Brot, das es nicht mehr gibt",
+     "ein Gipfeli",
+     "einen Kaffee",
+     "eine Nummer für die Schlange"
+    ],
+    "loesung": [
+     "ein Brot, das es nicht mehr gibt"
+    ],
+    "erklaerung": "Sie verlangt «zum dritten Mal an diesem Morgen ein Brot, das seit Wochen nicht mehr im Sortiment war».",
+    "fehler": [
+     {
+      "antwort": "ein Gipfeli",
+      "diagnoseId": "gwerder_zitat",
+      "feedback": "Die Gipfeli kommen in Herrn Gwerders Satz über den Andrang vor, nicht bei der Frau."
+     },
+     {
+      "antwort": "einen Kaffee",
+      "diagnoseId": "spaeter",
+      "feedback": "Kaffee gibt es erst um zwölf, und zwar für Marisa und Herrn Gwerder."
+     },
+     {
+      "antwort": "eine Nummer für die Schlange",
+      "diagnoseId": "nebensache",
+      "feedback": "Die Nummern ruft Marisa auf. Die Frau verlangt etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie reagiert Marisa auf den Satz aus der Schlange?",
+    "optionen": [
+     "Sie sagt nichts und arbeitet weiter.",
+     "Sie widerspricht laut.",
+     "Sie holt Herrn Gwerder zu Hilfe.",
+     "Sie verlässt den Laden."
+    ],
+    "loesung": [
+     "Sie sagt nichts und arbeitet weiter."
+    ],
+    "erklaerung": "«Marisa gab keine Antwort. Sie packte das Brot der Frau ein, wechselte das Geld und rief die nächste Nummer auf.»",
+    "fehler": [
+     {
+      "antwort": "Sie widerspricht laut.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie gibt gerade keine Antwort. Das ist im Text ausdrücklich gesagt."
+     },
+     {
+      "antwort": "Sie holt Herrn Gwerder zu Hilfe.",
+      "diagnoseId": "erfunden",
+      "feedback": "Herr Gwerder kommt erst um zwölf nach vorne, von sich aus."
+     },
+     {
+      "antwort": "Sie verlässt den Laden.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Sie bleibt und bedient weiter, bis der Vormittag vorbei ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Worüber ärgert sich Marisa am meisten?",
+    "optionen": [
+     "über ihre zitternden Hände",
+     "über den Satz aus der Schlange",
+     "über Herrn Gwerder",
+     "über die ältere Frau"
+    ],
+    "loesung": [
+     "über ihre zitternden Hände"
+    ],
+    "erklaerung": "«Ihre Hände zitterten ein wenig, und sie ärgerte sich darüber mehr als über den Satz.»",
+    "fehler": [
+     {
+      "antwort": "über den Satz aus der Schlange",
+      "diagnoseId": "fast_richtig",
+      "feedback": "Der Satz ärgert sie auch — aber über ihre eigenen Hände ärgert sie sich MEHR. Genau das steht da."
+     },
+     {
+      "antwort": "über Herrn Gwerder",
+      "diagnoseId": "falsche_person",
+      "feedback": "Über ihn ärgert sie sich nirgends. Sie hat seinen Ton verstanden."
+     },
+     {
+      "antwort": "über die ältere Frau",
+      "diagnoseId": "falsche_person_zwei",
+      "feedback": "Die Frau bedient sie freundlich, zum dritten Mal."
+     }
+    ]
+   },
+   {
+    "stamm": "Was erfährt Marisa um zwölf über die ältere Frau?",
+    "optionen": [
+     "dass ihr Mann im Februar gestorben ist",
+     "dass sie in der Bäckerei gearbeitet hat",
+     "dass sie sich beschwert hat",
+     "dass sie das Brot selbst gebacken hat"
+    ],
+    "loesung": [
+     "dass ihr Mann im Februar gestorben ist"
+    ],
+    "erklaerung": "Herr Gwerder sagt: «Die kommt seit dreissig Jahren. Ihr Mann ist im Februar gestorben.»",
+    "fehler": [
+     {
+      "antwort": "dass sie in der Bäckerei gearbeitet hat",
+      "diagnoseId": "erfunden",
+      "feedback": "Davon steht nichts. Sie ist Kundin, seit dreissig Jahren."
+     },
+     {
+      "antwort": "dass sie sich beschwert hat",
+      "diagnoseId": "verwechselt",
+      "feedback": "Beschwert hat sich jemand anderes in der Schlange."
+     },
+     {
+      "antwort": "dass sie das Brot selbst gebacken hat",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Gebacken wird in dieser Geschichte von Herrn Gwerder."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum erzählt Herr Gwerder Marisa von der Frau?",
+    "optionen": [
+     "damit sie versteht, warum die Frau so ist",
+     "damit sie freundlicher wird",
+     "damit sie sich entschuldigt",
+     "damit sie das Brot wieder ins Sortiment nimmt"
+    ],
+    "loesung": [
+     "damit sie versteht, warum die Frau so ist"
+    ],
+    "erklaerung": "Er sagt es selbst: «Ich sag das nicht, damit du netter bist. Du warst schon nett. Ich sag es, damit du weisst, warum.»",
+    "fehler": [
+     {
+      "antwort": "damit sie freundlicher wird",
+      "diagnoseId": "ausdruecklich_verneint",
+      "feedback": "Genau das schliesst er aus: «Ich sag das nicht, damit du netter bist.»"
+     },
+     {
+      "antwort": "damit sie sich entschuldigt",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Entschuldigung ist nirgends die Rede."
+     },
+     {
+      "antwort": "damit sie das Brot wieder ins Sortiment nimmt",
+      "diagnoseId": "sachfrage",
+      "feedback": "Über das Sortiment entscheidet Marisa nicht, und darum geht es hier auch nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Personen sprechen im Text?",
+    "optionen": [
+     "zwei — Marisa und Herr Gwerder",
+     "drei — Marisa, Herr Gwerder und die ältere Frau",
+     "eine — nur Herr Gwerder",
+     "vier — mit der Person aus der Schlange"
+    ],
+    "loesung": [
+     "zwei — Marisa und Herr Gwerder"
+    ],
+    "erklaerung": "Nur Marisa und Herr Gwerder sprechen in wörtlicher Rede. Was die Frau und die Person in der Schlange sagen, wird bloss berichtet.",
+    "fehler": [
+     {
+      "antwort": "drei — Marisa, Herr Gwerder und die ältere Frau",
+      "diagnoseId": "bericht",
+      "feedback": "Was die Frau verlangt, wird berichtet, nicht in wörtlicher Rede wiedergegeben."
+     },
+     {
+      "antwort": "eine — nur Herr Gwerder",
+      "diagnoseId": "uebersehen",
+      "feedback": "Auch Marisa spricht: «Ich mag es, wenn es noch ruhig ist.»"
+     },
+     {
+      "antwort": "vier — mit der Person aus der Schlange",
+      "diagnoseId": "halblaut",
+      "feedback": "Diese Person sagt «halblaut etwas» — der Wortlaut steht nicht da."
+     }
+    ]
+   },
+   {
+    "stamm": "Womit endet der Text?",
+    "optionen": [
+     "Marisa lässt ihren Bus fahren und bleibt sitzen.",
+     "Marisa steigt in den Bus.",
+     "Herr Gwerder geht zurück in die Backstube.",
+     "Die ältere Frau kommt zurück."
+    ],
+    "loesung": [
+     "Marisa lässt ihren Bus fahren und bleibt sitzen."
+    ],
+    "erklaerung": "«Draussen fuhr der Bus vorbei, den Marisa sonst nahm, und sie blieb sitzen.»",
+    "fehler": [
+     {
+      "antwort": "Marisa steigt in den Bus.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie bleibt gerade sitzen — das ist der Schlusspunkt der Geschichte."
+     },
+     {
+      "antwort": "Herr Gwerder geht zurück in die Backstube.",
+      "diagnoseId": "erfunden",
+      "feedback": "Er hat sich neben sie gesetzt; ein Aufbruch steht nicht da."
+     },
+     {
+      "antwort": "Die ältere Frau kommt zurück.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Nach dem Vormittag kommt sie im Text nicht mehr vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Zu welcher Tageszeit spielt der letzte Abschnitt?",
+    "optionen": [
+     "am Mittag",
+     "am frühen Morgen",
+     "am Abend",
+     "in der Nacht"
+    ],
+    "loesung": [
+     "am Mittag"
+    ],
+    "erklaerung": "«Um zwölf war es vorbei» — danach folgt die Szene mit dem Kaffee.",
+    "fehler": [
+     {
+      "antwort": "am frühen Morgen",
+      "diagnoseId": "anfang",
+      "feedback": "Der frühe Morgen ist der Anfang der Geschichte, um Viertel vor sechs."
+     },
+     {
+      "antwort": "am Abend",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Text endet um die Mittagszeit, mit dem Kaffee auf dem Tresen."
+     },
+     {
+      "antwort": "in der Nacht",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Nachts spielt keine Szene der Geschichte."
+     }
+    ]
+   },
+   {
+    "stamm": "Was tut Herr Gwerder, während er mit Marisa spricht?",
+    "optionen": [
+     "Er schiebt ein Blech in den Ofen.",
+     "Er bedient die Kasse.",
+     "Er räumt die Regale ein.",
+     "Er telefoniert."
+    ],
+    "loesung": [
+     "Er schiebt ein Blech in den Ofen."
+    ],
+    "erklaerung": "Beim Gespräch am Morgen heisst es: «wiederholte er und schob ein Blech in den Ofen».",
+    "fehler": [
+     {
+      "antwort": "Er bedient die Kasse.",
+      "diagnoseId": "marisa",
+      "feedback": "An der Kasse steht Marisa. Er arbeitet in der Backstube."
+     },
+     {
+      "antwort": "Er räumt die Regale ein.",
+      "diagnoseId": "erfunden",
+      "feedback": "Davon steht nichts im Text — und was nicht dasteht, darf man nicht ergänzen."
+     },
+     {
+      "antwort": "Er telefoniert.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Ein Telefon kommt in der Geschichte nicht vor."
+     }
+    ]
+   }
+  ],
+  "text": "Die Schicht am Sonntag\n\nUm Viertel vor sechs war die Bäckerei noch dunkel. Marisa schloss auf, hängte\ndie Jacke an den Haken und tat, was sie an jedem Sonntag tat: zuerst den Ofen,\ndann das Licht, dann die Kasse.\n\n«Du bist zu früh», sagte Herr Gwerder, der schon seit vier Uhr in der Backstube\nstand und dessen Stimme immer klang, als beschwerte er sich über etwas.\nMarisa wusste inzwischen, dass er es nicht so meinte. Sie hatte drei Wochen\ngebraucht, um das zu lernen.\n\n«Ich mag es, wenn es noch ruhig ist», sagte sie.\n\n«Ruhig», wiederholte er und schob ein Blech in den Ofen. «Um halb neun stehen\nsie hier drin wie die Sardinen und wollen alle gleichzeitig ein Gipfeli, das es\nnicht mehr gibt.»\n\nEr hatte recht. Um zwanzig nach acht kam der erste Ansturm, um neun der zweite.\nEine ältere Frau verlangte zum dritten Mal an diesem Morgen ein Brot, das seit\nWochen nicht mehr im Sortiment war. Marisa erklärte es ihr, freundlich, zum\ndritten Mal. Hinter ihr in der Schlange sagte jemand halblaut etwas über junge\nLeute, die nicht arbeiten wollten.\n\nMarisa gab keine Antwort. Sie packte das Brot der Frau ein, wechselte das Geld\nund rief die nächste Nummer auf. Ihre Hände zitterten ein wenig, und sie\närgerte sich darüber mehr als über den Satz.\n\nUm zwölf war es vorbei. Herr Gwerder kam nach vorne, stellte zwei Kaffee auf\nden Tresen und setzte sich, ohne zu fragen, auf den Hocker neben ihr.\n\n«Die mit dem Brot», sagte er. «Die kommt seit dreissig Jahren. Ihr Mann ist im\nFebruar gestorben.»\n\nMarisa sah auf ihre Hände.\n\n«Ich sag das nicht, damit du netter bist», sagte Herr Gwerder. «Du warst\nschon nett. Ich sag es, damit du weisst, warum.»\n\nSie tranken den Kaffee. Draussen fuhr der Bus vorbei, den Marisa sonst nahm,\nund sie blieb sitzen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Deutsch, Teil Sprachprüfung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Informationen aus dem Text entnehmen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-tv-schicht-woerter",
+  "lernzielId": "DTG.2.01",
+  "fach": "textverstaendnis-tg",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies immer den ganzen Satz, in dem das Wort steht.",
+   "Frage dich, was an dieser Stelle Sinn ergibt.",
+   "Bei Bildern: Was wird womit verglichen?"
+  ],
+  "loesungsweg": [
+   "Die Textstelle suchen und den Satz ganz lesen.",
+   "Das Wort versuchsweise durch die Antworten ersetzen.",
+   "Prüfen, welche Ersetzung den Sinn erhält.",
+   "Auf den Zusammenhang achten, nicht auf das Wörterbuch."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "«Um halb neun stehen sie hier drin wie die Sardinen.» Was ist gemeint?",
+    "optionen": [
+     "Es ist sehr eng im Laden.",
+     "Die Leute riechen nach Fisch.",
+     "Die Leute stehen ganz still.",
+     "Es sind genau so viele wie in einer Dose."
+    ],
+    "loesung": [
+     "Es ist sehr eng im Laden."
+    ],
+    "erklaerung": "Sardinen liegen in der Dose dicht an dicht. Der Vergleich meint die Enge, nicht den Fisch.",
+    "fehler": [
+     {
+      "antwort": "Die Leute riechen nach Fisch.",
+      "diagnoseId": "woertlich",
+      "feedback": "Der Vergleich ist bildhaft gemeint. Es geht um die Enge, nicht um den Geruch."
+     },
+     {
+      "antwort": "Die Leute stehen ganz still.",
+      "diagnoseId": "falsches_merkmal",
+      "feedback": "Nicht die Ruhe ist gemeint, sondern das dichte Gedränge."
+     },
+     {
+      "antwort": "Es sind genau so viele wie in einer Dose.",
+      "diagnoseId": "zahl",
+      "feedback": "Eine genaue Zahl steht nicht dahinter. Das Bild sagt nur: sehr eng."
+     }
+    ]
+   },
+   {
+    "stamm": "«Ein Brot, das seit Wochen nicht mehr im Sortiment war.» Was heisst «Sortiment»?",
+    "optionen": [
+     "die Auswahl an Waren, die ein Laden führt",
+     "das Lager im Keller",
+     "die Reihenfolge in der Schlange",
+     "der Preis einer Ware"
+    ],
+    "loesung": [
+     "die Auswahl an Waren, die ein Laden führt"
+    ],
+    "erklaerung": "Das Sortiment ist alles, was ein Geschäft anbietet. Wer etwas «aus dem Sortiment nimmt», verkauft es nicht mehr.",
+    "fehler": [
+     {
+      "antwort": "das Lager im Keller",
+      "diagnoseId": "lager",
+      "feedback": "Das Lager ist der Vorrat. Das Sortiment ist die Auswahl, die angeboten wird."
+     },
+     {
+      "antwort": "die Reihenfolge in der Schlange",
+      "diagnoseId": "schlange",
+      "feedback": "Damit hat das Wort nichts zu tun: Das Sortiment ist die Ware, nicht die Kundschaft."
+     },
+     {
+      "antwort": "der Preis einer Ware",
+      "diagnoseId": "preis",
+      "feedback": "Ein Preis wäre eine Zahl. Das Sortiment ist eine Auswahl."
+     }
+    ]
+   },
+   {
+    "stamm": "«dessen Stimme immer klang, als beschwerte er sich über etwas» — was sagt dieser Satz über Herrn Gwerder?",
+    "optionen": [
+     "Er klingt unzufrieden, ohne es zu sein.",
+     "Er beschwert sich ständig.",
+     "Er spricht sehr leise.",
+     "Er redet nur über die Arbeit."
+    ],
+    "loesung": [
+     "Er klingt unzufrieden, ohne es zu sein."
+    ],
+    "erklaerung": "Der Nebensatz sagt «als beschwerte er sich» — es klingt nur so. Marisa hat drei Wochen gebraucht, um das zu merken.",
+    "fehler": [
+     {
+      "antwort": "Er beschwert sich ständig.",
+      "diagnoseId": "woertlich",
+      "feedback": "«Als beschwerte er sich» heisst gerade: Es klingt so, ist aber nicht so gemeint."
+     },
+     {
+      "antwort": "Er spricht sehr leise.",
+      "diagnoseId": "lautstaerke",
+      "feedback": "Über die Lautstärke sagt der Satz nichts."
+     },
+     {
+      "antwort": "Er redet nur über die Arbeit.",
+      "diagnoseId": "erfunden",
+      "feedback": "Am Schluss spricht er über die Kundin und ihren Mann."
+     }
+    ]
+   },
+   {
+    "stamm": "«Der erste Ansturm» — was bedeutet das Wort hier?",
+    "optionen": [
+     "eine grosse Zahl Kundinnen und Kunden auf einmal",
+     "ein Streit im Laden",
+     "ein plötzliches Unwetter",
+     "der Beginn der Arbeitszeit"
+    ],
+    "loesung": [
+     "eine grosse Zahl Kundinnen und Kunden auf einmal"
+    ],
+    "erklaerung": "«Ansturm» beschreibt, dass viele Leute gleichzeitig kommen.",
+    "fehler": [
+     {
+      "antwort": "ein Streit im Laden",
+      "diagnoseId": "streit",
+      "feedback": "Ein Streit findet nicht statt; Marisa antwortet nicht einmal."
+     },
+     {
+      "antwort": "ein plötzliches Unwetter",
+      "diagnoseId": "woertlich",
+      "feedback": "Das Wort wird hier bildhaft gebraucht, nicht für das Wetter."
+     },
+     {
+      "antwort": "der Beginn der Arbeitszeit",
+      "diagnoseId": "zeit",
+      "feedback": "Die Arbeitszeit beginnt viel früher, um Viertel vor sechs."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Sie packte das Brot der Frau ein, wechselte das Geld»?",
+    "optionen": [
+     "Sie gab Rückgeld heraus.",
+     "Sie tauschte Franken in Euro.",
+     "Sie legte das Geld in eine andere Kasse.",
+     "Sie zählte die Tageseinnahmen."
+    ],
+    "loesung": [
+     "Sie gab Rückgeld heraus."
+    ],
+    "erklaerung": "«Geld wechseln» heisst hier: Sie nimmt das Geld entgegen und gibt den Rest zurück.",
+    "fehler": [
+     {
+      "antwort": "Sie tauschte Franken in Euro.",
+      "diagnoseId": "waehrung",
+      "feedback": "Von einer anderen Währung ist nirgends die Rede."
+     },
+     {
+      "antwort": "Sie legte das Geld in eine andere Kasse.",
+      "diagnoseId": "woertlich",
+      "feedback": "Der Ausdruck meint den Vorgang an der Kasse, nicht ein Umlagern."
+     },
+     {
+      "antwort": "Sie zählte die Tageseinnahmen.",
+      "diagnoseId": "abrechnung",
+      "feedback": "Das täte sie am Abend, nicht mitten im Verkauf."
+     }
+    ]
+   },
+   {
+    "stamm": "«Hinter ihr in der Schlange sagte jemand halblaut etwas über junge Leute.» Warum steht «halblaut»?",
+    "optionen": [
+     "Der Satz sollte gehört werden, ohne offen gesagt zu sein.",
+     "Die Person war heiser.",
+     "Im Laden war es sehr laut.",
+     "Die Person sprach mit sich selbst."
+    ],
+    "loesung": [
+     "Der Satz sollte gehört werden, ohne offen gesagt zu sein."
+    ],
+    "erklaerung": "«Halblaut» beschreibt genau diese Zwischenform: laut genug, dass Marisa es hört, leise genug, um nicht dazu zu stehen.",
+    "fehler": [
+     {
+      "antwort": "Die Person war heiser.",
+      "diagnoseId": "koerperlich",
+      "feedback": "Über die Stimme der Person sagt der Text nichts weiter."
+     },
+     {
+      "antwort": "Im Laden war es sehr laut.",
+      "diagnoseId": "umgebung",
+      "feedback": "Dann hätte niemand etwas verstanden — auch Marisa nicht."
+     },
+     {
+      "antwort": "Die Person sprach mit sich selbst.",
+      "diagnoseId": "selbstgespraech",
+      "feedback": "Der Satz ist an die Umgebung gerichtet; sonst müsste Marisa ihn nicht hören."
+     }
+    ]
+   },
+   {
+    "stamm": "Worauf bezieht sich «das» in «Sie hatte drei Wochen gebraucht, um das zu lernen»?",
+    "optionen": [
+     "dass Herr Gwerder seine Sätze nicht böse meint",
+     "wie man den Ofen bedient",
+     "wann der erste Ansturm kommt",
+     "wie man die Kasse abrechnet"
+    ],
+    "loesung": [
+     "dass Herr Gwerder seine Sätze nicht böse meint"
+    ],
+    "erklaerung": "Der Satz davor sagt: «Marisa wusste inzwischen, dass er es nicht so meinte.» Genau darauf zeigt das «das».",
+    "fehler": [
+     {
+      "antwort": "wie man den Ofen bedient",
+      "diagnoseId": "technik",
+      "feedback": "Vom Ofen ist an dieser Stelle nicht die Rede."
+     },
+     {
+      "antwort": "wann der erste Ansturm kommt",
+      "diagnoseId": "zeit",
+      "feedback": "Der Ansturm wird erst später erwähnt und hat mit dieser Stelle nichts zu tun."
+     },
+     {
+      "antwort": "wie man die Kasse abrechnet",
+      "diagnoseId": "kasse",
+      "feedback": "Die Kasse kommt im ersten Abschnitt vor, aber nicht in diesem Zusammenhang."
+     }
+    ]
+   },
+   {
+    "stamm": "«Ich sag das nicht, damit du netter bist.» Worauf bezieht sich «das»?",
+    "optionen": [
+     "auf die Auskunft über den verstorbenen Mann",
+     "auf den Kaffee",
+     "auf den Satz aus der Schlange",
+     "auf Marisas zitternde Hände"
+    ],
+    "loesung": [
+     "auf die Auskunft über den verstorbenen Mann"
+    ],
+    "erklaerung": "Herr Gwerder hat gerade gesagt, dass der Mann der Kundin im Februar gestorben ist. Darauf zeigt das «das».",
+    "fehler": [
+     {
+      "antwort": "auf den Kaffee",
+      "diagnoseId": "gegenstand",
+      "feedback": "Der Kaffee steht schon auf dem Tresen; er ist nicht das Gesagte."
+     },
+     {
+      "antwort": "auf den Satz aus der Schlange",
+      "diagnoseId": "frueher",
+      "feedback": "Diesen Satz hat nicht Herr Gwerder gesagt."
+     },
+     {
+      "antwort": "auf Marisas zitternde Hände",
+      "diagnoseId": "erlebnis",
+      "feedback": "Die Hände hat Marisa bemerkt, nicht er. Er spricht von der Kundin."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie ist das Wort «Backstube» gebaut?",
+    "optionen": [
+     "aus «backen» und «Stube»",
+     "aus «Back» und «Staub»",
+     "aus «Bäcker» und «Bube»",
+     "aus «backen» und «stumm»"
+    ],
+    "loesung": [
+     "aus «backen» und «Stube»"
+    ],
+    "erklaerung": "Zusammensetzungen lassen sich in ihre Teile zerlegen: die Stube, in der gebacken wird.",
+    "fehler": [
+     {
+      "antwort": "aus «Back» und «Staub»",
+      "diagnoseId": "aehnlichkeit",
+      "feedback": "«Staub» klingt ähnlich, steckt aber nicht im Wort."
+     },
+     {
+      "antwort": "aus «Bäcker» und «Bube»",
+      "diagnoseId": "falsch_zerlegt",
+      "feedback": "Der zweite Teil ist «Stube», ein Raum — und nicht «Bube»."
+     },
+     {
+      "antwort": "aus «backen» und «stumm»",
+      "diagnoseId": "falsch_zerlegt_zwei",
+      "feedback": "«Stumm» hat mit dem Wort nichts zu tun; gemeint ist die Stube, in der gebacken wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt am besten anstelle von «Ansturm»?",
+    "optionen": [
+     "Andrang",
+     "Angriff",
+     "Aufregung",
+     "Anfang"
+    ],
+    "loesung": [
+     "Andrang"
+    ],
+    "erklaerung": "«Andrang» meint dasselbe: viele Menschen wollen gleichzeitig etwas.",
+    "fehler": [
+     {
+      "antwort": "Angriff",
+      "diagnoseId": "zu_stark",
+      "feedback": "Ein Angriff wäre feindlich. Die Kundschaft will nur einkaufen."
+     },
+     {
+      "antwort": "Aufregung",
+      "diagnoseId": "gefuehl",
+      "feedback": "Aufregung ist ein Gefühl, kein Gedränge."
+     },
+     {
+      "antwort": "Anfang",
+      "diagnoseId": "zeit",
+      "feedback": "Der Anfang wäre ein Zeitpunkt, nicht eine Menschenmenge."
+     }
+    ]
+   },
+   {
+    "stamm": "«Sie blieb sitzen.» Was drückt dieser Schluss aus?",
+    "optionen": [
+     "Marisa entscheidet sich, noch zu bleiben.",
+     "Marisa ist zu müde zum Aufstehen.",
+     "Marisa hat den Bus nicht gesehen.",
+     "Marisa muss weiterarbeiten."
+    ],
+    "loesung": [
+     "Marisa entscheidet sich, noch zu bleiben."
+    ],
+    "erklaerung": "Der Bus, den sie «sonst nahm», fährt vorbei — und sie bleibt. Das ist eine Entscheidung, keine Zufälligkeit.",
+    "fehler": [
+     {
+      "antwort": "Marisa ist zu müde zum Aufstehen.",
+      "diagnoseId": "muedigkeit",
+      "feedback": "Von Müdigkeit steht nichts. Der Satz zeigt eine Wahl."
+     },
+     {
+      "antwort": "Marisa hat den Bus nicht gesehen.",
+      "diagnoseId": "zufall",
+      "feedback": "Der Text sagt ausdrücklich, dass der Bus vorbeifährt und sie ihn sonst nimmt."
+     },
+     {
+      "antwort": "Marisa muss weiterarbeiten.",
+      "diagnoseId": "pflicht",
+      "feedback": "Um zwölf war es vorbei. Sie bleibt freiwillig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Bedeutung hat «zum dritten Mal» im Text?",
+    "optionen": [
+     "Es zeigt, wie geduldig Marisa bleibt.",
+     "Es zeigt, dass Marisa sich verzählt hat.",
+     "Es zeigt, dass die Frau schwerhörig ist.",
+     "Es zeigt, dass das Brot doch noch da war."
+    ],
+    "loesung": [
+     "Es zeigt, wie geduldig Marisa bleibt."
+    ],
+    "erklaerung": "Die Wendung steht zweimal im selben Satzgefüge: dreimal fragt die Frau, dreimal erklärt Marisa es freundlich.",
+    "fehler": [
+     {
+      "antwort": "Es zeigt, dass Marisa sich verzählt hat.",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Der Text zählt genau mit; ein Fehler ist nicht gemeint."
+     },
+     {
+      "antwort": "Es zeigt, dass die Frau schwerhörig ist.",
+      "diagnoseId": "erfunden",
+      "feedback": "Über das Gehör der Frau steht nichts. Später erfahren wir einen anderen Grund."
+     },
+     {
+      "antwort": "Es zeigt, dass das Brot doch noch da war.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das Brot gibt es seit Wochen nicht mehr."
+     }
+    ]
+   }
+  ],
+  "text": "Die Schicht am Sonntag\n\nUm Viertel vor sechs war die Bäckerei noch dunkel. Marisa schloss auf, hängte\ndie Jacke an den Haken und tat, was sie an jedem Sonntag tat: zuerst den Ofen,\ndann das Licht, dann die Kasse.\n\n«Du bist zu früh», sagte Herr Gwerder, der schon seit vier Uhr in der Backstube\nstand und dessen Stimme immer klang, als beschwerte er sich über etwas.\nMarisa wusste inzwischen, dass er es nicht so meinte. Sie hatte drei Wochen\ngebraucht, um das zu lernen.\n\n«Ich mag es, wenn es noch ruhig ist», sagte sie.\n\n«Ruhig», wiederholte er und schob ein Blech in den Ofen. «Um halb neun stehen\nsie hier drin wie die Sardinen und wollen alle gleichzeitig ein Gipfeli, das es\nnicht mehr gibt.»\n\nEr hatte recht. Um zwanzig nach acht kam der erste Ansturm, um neun der zweite.\nEine ältere Frau verlangte zum dritten Mal an diesem Morgen ein Brot, das seit\nWochen nicht mehr im Sortiment war. Marisa erklärte es ihr, freundlich, zum\ndritten Mal. Hinter ihr in der Schlange sagte jemand halblaut etwas über junge\nLeute, die nicht arbeiten wollten.\n\nMarisa gab keine Antwort. Sie packte das Brot der Frau ein, wechselte das Geld\nund rief die nächste Nummer auf. Ihre Hände zitterten ein wenig, und sie\närgerte sich darüber mehr als über den Satz.\n\nUm zwölf war es vorbei. Herr Gwerder kam nach vorne, stellte zwei Kaffee auf\nden Tresen und setzte sich, ohne zu fragen, auf den Hocker neben ihr.\n\n«Die mit dem Brot», sagte er. «Die kommt seit dreissig Jahren. Ihr Mann ist im\nFebruar gestorben.»\n\nMarisa sah auf ihre Hände.\n\n«Ich sag das nicht, damit du netter bist», sagte Herr Gwerder. «Du warst\nschon nett. Ich sag es, damit du weisst, warum.»\n\nSie tranken den Kaffee. Draussen fuhr der Bus vorbei, den Marisa sonst nahm,\nund sie blieb sitzen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Deutsch, Teil Sprachprüfung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wörter und Wendungen im Text erklären",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-tv-schicht-deutung",
+  "lernzielId": "DTG.3.01",
+  "fach": "textverstaendnis-tg",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage dich bei jeder Antwort: Woran im Text sehe ich das?",
+   "Eine Deutung muss sich belegen lassen — sonst ist sie geraten.",
+   "Achte auf das, was die Figuren TUN, nicht nur auf das, was sie sagen."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und die Stelle im Text suchen.",
+   "Überlegen, was dort gezeigt, aber nicht ausgesprochen wird.",
+   "Die Antwort am Text prüfen: Gibt es einen Beleg?",
+   "Antworten ausschliessen, die dem Text widersprechen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Warum sagt Herr Gwerder «Du bist zu früh»?",
+    "optionen": [
+     "Er ist überrascht, dass sie so früh da ist.",
+     "Er will sie wegschicken.",
+     "Er hat den Dienstplan vergessen.",
+     "Er ärgert sich über ihre Arbeit."
+    ],
+    "loesung": [
+     "Er ist überrascht, dass sie so früh da ist."
+    ],
+    "erklaerung": "Der Text erklärt gleich danach, dass seine Stimme immer klingt, als beschwerte er sich, er es aber nicht so meint.",
+    "fehler": [
+     {
+      "antwort": "Er will sie wegschicken.",
+      "diagnoseId": "woertlich",
+      "feedback": "Er arbeitet mit ihr weiter und stellt ihr später Kaffee hin. Wegschicken will er sie nicht."
+     },
+     {
+      "antwort": "Er hat den Dienstplan vergessen.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Dienstplan ist nirgends die Rede."
+     },
+     {
+      "antwort": "Er ärgert sich über ihre Arbeit.",
+      "diagnoseId": "widerspruch",
+      "feedback": "Am Schluss sagt er ausdrücklich: «Du warst schon nett.»"
+     }
+    ]
+   },
+   {
+    "stamm": "Was zeigt der Satz «Ihre Hände zitterten ein wenig» über Marisa?",
+    "optionen": [
+     "Der Satz aus der Schlange hat sie getroffen.",
+     "Sie hat zu wenig gegessen.",
+     "Sie friert im Laden.",
+     "Sie ist ungeschickt."
+    ],
+    "loesung": [
+     "Der Satz aus der Schlange hat sie getroffen."
+    ],
+    "erklaerung": "Nach aussen bleibt sie ruhig; die Hände zeigen, dass sie es innerlich nicht ist. Genau darin liegt die Aussage.",
+    "fehler": [
+     {
+      "antwort": "Sie hat zu wenig gegessen.",
+      "diagnoseId": "koerperlich",
+      "feedback": "Eine solche Erklärung gibt der Text nicht. Der Zusammenhang ist der Satz aus der Schlange."
+     },
+     {
+      "antwort": "Sie friert im Laden.",
+      "diagnoseId": "umgebung",
+      "feedback": "Vom Frieren steht nichts; der Ofen läuft seit dem frühen Morgen."
+     },
+     {
+      "antwort": "Sie ist ungeschickt.",
+      "diagnoseId": "charakter",
+      "feedback": "Sie arbeitet die ganze Zeit sicher und freundlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Weshalb ärgert Marisa sich mehr über ihre Hände als über den Satz?",
+    "optionen": [
+     "Weil sie sich nicht anmerken lassen wollte, dass es sie trifft.",
+     "Weil ihre Hände die Arbeit stören.",
+     "Weil sie den Satz nicht verstanden hat.",
+     "Weil sie sich vor Herrn Gwerder schämt."
+    ],
+    "loesung": [
+     "Weil sie sich nicht anmerken lassen wollte, dass es sie trifft."
+    ],
+    "erklaerung": "Sie gibt bewusst keine Antwort — die Hände verraten sie trotzdem. Darum ärgert sie sich über sich selbst.",
+    "fehler": [
+     {
+      "antwort": "Weil ihre Hände die Arbeit stören.",
+      "diagnoseId": "praktisch",
+      "feedback": "Sie arbeitet weiter, ohne Fehler. Es geht nicht um die Arbeit."
+     },
+     {
+      "antwort": "Weil sie den Satz nicht verstanden hat.",
+      "diagnoseId": "verstaendnis",
+      "feedback": "Sie hat ihn sehr wohl verstanden; sonst träfe er sie nicht."
+     },
+     {
+      "antwort": "Weil sie sich vor Herrn Gwerder schämt.",
+      "diagnoseId": "person",
+      "feedback": "Herr Gwerder steht zu diesem Zeitpunkt in der Backstube."
+     }
+    ]
+   },
+   {
+    "stamm": "Aus wessen Sicht wird die Geschichte erzählt?",
+    "optionen": [
+     "aus Marisas Sicht",
+     "aus Herrn Gwerders Sicht",
+     "aus der Sicht der älteren Frau",
+     "aus der Sicht der Kundschaft"
+    ],
+    "loesung": [
+     "aus Marisas Sicht"
+    ],
+    "erklaerung": "Wir erfahren Marisas Gedanken und Gefühle — etwa dass sie sich über ihre Hände ärgert. Von den anderen Figuren erfahren wir nur, was sie sagen und tun.",
+    "fehler": [
+     {
+      "antwort": "aus Herrn Gwerders Sicht",
+      "diagnoseId": "nebenfigur",
+      "feedback": "Von ihm erfahren wir keine Gedanken, nur Sätze und Handlungen."
+     },
+     {
+      "antwort": "aus der Sicht der älteren Frau",
+      "diagnoseId": "nebenfigur_zwei",
+      "feedback": "Ihre Beweggründe erfahren wir erst durch Herrn Gwerder, nicht von ihr selbst."
+     },
+     {
+      "antwort": "aus der Sicht der Kundschaft",
+      "diagnoseId": "aussen",
+      "feedback": "Die Kundschaft bleibt eine Menge im Hintergrund."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt Herrn Gwerders Auskunft am Schluss?",
+    "optionen": [
+     "Marisa sieht das Verhalten der Frau in einem anderen Licht.",
+     "Marisa entschuldigt sich bei der Frau.",
+     "Marisa kündigt die Stelle.",
+     "Marisa nimmt das Brot wieder ins Sortiment."
+    ],
+    "loesung": [
+     "Marisa sieht das Verhalten der Frau in einem anderen Licht."
+    ],
+    "erklaerung": "Sie sagt nichts mehr, sieht auf ihre Hände und bleibt danach sitzen. Der Schluss zeigt: Etwas hat sich verschoben.",
+    "fehler": [
+     {
+      "antwort": "Marisa entschuldigt sich bei der Frau.",
+      "diagnoseId": "handlung",
+      "feedback": "Die Frau ist längst gegangen. Eine Entschuldigung steht nicht im Text."
+     },
+     {
+      "antwort": "Marisa kündigt die Stelle.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie bleibt sogar länger als nötig — sie lässt ihren Bus fahren."
+     },
+     {
+      "antwort": "Marisa nimmt das Brot wieder ins Sortiment.",
+      "diagnoseId": "zustaendigkeit",
+      "feedback": "Darüber entscheidet sie nicht, und darum geht es am Schluss auch nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lässt sich das Verhältnis der beiden Figuren am Ende beschreiben?",
+    "optionen": [
+     "Sie arbeiten nicht nur zusammen, sie verstehen einander.",
+     "Sie sind eng befreundet.",
+     "Sie gehen einander aus dem Weg.",
+     "Sie streiten sich regelmässig."
+    ],
+    "loesung": [
+     "Sie arbeiten nicht nur zusammen, sie verstehen einander."
+    ],
+    "erklaerung": "Er setzt sich unaufgefordert neben sie, erklärt etwas, ohne zu belehren — und sie bleibt sitzen. Mehr wird nicht gesagt, und mehr braucht es nicht.",
+    "fehler": [
+     {
+      "antwort": "Sie sind eng befreundet.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Dafür gibt der Text zu wenig her. Es bleibt bei einer knappen, verlässlichen Nähe."
+     },
+     {
+      "antwort": "Sie gehen einander aus dem Weg.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Er sucht sie ausdrücklich auf und setzt sich neben sie."
+     },
+     {
+      "antwort": "Sie streiten sich regelmässig.",
+      "diagnoseId": "ton_missverstanden",
+      "feedback": "Sein Ton klingt bloss so. Marisa hat das längst verstanden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Rolle spielt die Uhrzeit im Text?",
+    "optionen": [
+     "Sie gliedert den Arbeitstag und treibt die Handlung voran.",
+     "Sie zeigt, dass Marisa immer zu spät ist.",
+     "Sie ist reine Verzierung.",
+     "Sie beweist, dass die Bäckerei zu früh öffnet."
+    ],
+    "loesung": [
+     "Sie gliedert den Arbeitstag und treibt die Handlung voran."
+    ],
+    "erklaerung": "Viertel vor sechs, vier Uhr, halb neun, zwanzig nach acht, neun, zwölf: Der Text ist an den Zeiten entlang gebaut.",
+    "fehler": [
+     {
+      "antwort": "Sie zeigt, dass Marisa immer zu spät ist.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie ist sogar zu früh — das ist Herrn Gwerders erster Satz."
+     },
+     {
+      "antwort": "Sie ist reine Verzierung.",
+      "diagnoseId": "unterschaetzt",
+      "feedback": "Ohne die Zeitangaben verlöre die Geschichte ihren Ablauf."
+     },
+     {
+      "antwort": "Sie beweist, dass die Bäckerei zu früh öffnet.",
+      "diagnoseId": "sachfrage",
+      "feedback": "Über die Öffnungszeiten sagt der Text nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Textsorte liegt hier vor?",
+    "optionen": [
+     "eine erzählende Kurzgeschichte",
+     "ein Zeitungsbericht",
+     "eine Anleitung",
+     "ein Sachtext über Bäckereien"
+    ],
+    "loesung": [
+     "eine erzählende Kurzgeschichte"
+    ],
+    "erklaerung": "Es gibt Figuren, wörtliche Rede, einen Handlungsbogen und einen offenen Schluss — das sind Merkmale einer Erzählung.",
+    "fehler": [
+     {
+      "antwort": "ein Zeitungsbericht",
+      "diagnoseId": "sachlich",
+      "feedback": "Ein Bericht nennt Fakten und Quellen, nicht die Gedanken einer Figur."
+     },
+     {
+      "antwort": "eine Anleitung",
+      "diagnoseId": "form",
+      "feedback": "Eine Anleitung sagt, was man tun soll. Hier wird erzählt."
+     },
+     {
+      "antwort": "ein Sachtext über Bäckereien",
+      "diagnoseId": "thema",
+      "feedback": "Über das Backen erfährt man fast nichts. Es geht um zwei Menschen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort beschreibt Marisas Verhalten im Laden am besten?",
+    "optionen": [
+     "beherrscht",
+     "gleichgültig",
+     "schüchtern",
+     "trotzig"
+    ],
+    "loesung": [
+     "beherrscht"
+    ],
+    "erklaerung": "Sie ist innerlich getroffen, arbeitet aber ruhig weiter — genau das meint «beherrscht».",
+    "fehler": [
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "gegenteil",
+      "feedback": "Gleichgültig ist sie gerade nicht: Ihre Hände zittern."
+     },
+     {
+      "antwort": "schüchtern",
+      "diagnoseId": "falsches_merkmal",
+      "feedback": "Sie bedient, erklärt und ruft die nächste Nummer auf. Das ist nicht schüchtern."
+     },
+     {
+      "antwort": "trotzig",
+      "diagnoseId": "falsches_merkmal_zwei",
+      "feedback": "Trotz wäre eine Auflehnung. Sie bleibt freundlich und sachlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht am Schluss ausgerechnet der Bus?",
+    "optionen": [
+     "Weil er zeigt, dass Marisa etwas anderes wählt als sonst.",
+     "Weil der Fahrplan wichtig ist.",
+     "Weil sie den Bus verpasst hat.",
+     "Weil Herr Gwerder sie nach Hause fährt."
+    ],
+    "loesung": [
+     "Weil er zeigt, dass Marisa etwas anderes wählt als sonst."
+    ],
+    "erklaerung": "«Den Marisa sonst nahm» — das Wort «sonst» macht aus einem Bus eine Entscheidung.",
+    "fehler": [
+     {
+      "antwort": "Weil der Fahrplan wichtig ist.",
+      "diagnoseId": "sachlich",
+      "feedback": "Der Fahrplan spielt keine Rolle. Wichtig ist das Wort «sonst»."
+     },
+     {
+      "antwort": "Weil sie den Bus verpasst hat.",
+      "diagnoseId": "zufall",
+      "feedback": "Verpasst hat sie ihn nicht — sie bleibt sitzen, während er vorbeifährt."
+     },
+     {
+      "antwort": "Weil Herr Gwerder sie nach Hause fährt.",
+      "diagnoseId": "erfunden",
+      "feedback": "Davon steht nichts im Text — und was nicht dasteht, darf man nicht ergänzen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist die wichtigste Aussage des Textes?",
+    "optionen": [
+     "Hinter unfreundlichem Verhalten kann eine Geschichte stecken.",
+     "Am Sonntag arbeiten ist anstrengend.",
+     "Junge Leute werden zu Unrecht kritisiert.",
+     "In Bäckereien geht es früh los."
+    ],
+    "loesung": [
+     "Hinter unfreundlichem Verhalten kann eine Geschichte stecken."
+    ],
+    "erklaerung": "Herr Gwerders letzter Satz sagt es: nicht «sei netter», sondern «damit du weisst, warum».",
+    "fehler": [
+     {
+      "antwort": "Am Sonntag arbeiten ist anstrengend.",
+      "diagnoseId": "nebensache",
+      "feedback": "Das stimmt auch, ist aber nur der Rahmen der Geschichte."
+     },
+     {
+      "antwort": "Junge Leute werden zu Unrecht kritisiert.",
+      "diagnoseId": "teilaspekt",
+      "feedback": "Der Satz aus der Schlange ist ein Baustein, nicht der Kern."
+     },
+     {
+      "antwort": "In Bäckereien geht es früh los.",
+      "diagnoseId": "oberflaeche",
+      "feedback": "Das ist eine Beobachtung am Rand, keine Aussage des Textes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche sprachliche Besonderheit fällt an Herrn Gwerders Reden auf?",
+    "optionen": [
+     "Er sagt wenig und sehr direkt.",
+     "Er spricht in langen Sätzen.",
+     "Er benutzt viele Fremdwörter.",
+     "Er stellt viele Fragen."
+    ],
+    "loesung": [
+     "Er sagt wenig und sehr direkt."
+    ],
+    "erklaerung": "Seine Sätze sind kurz: «Du bist zu früh.» «Ruhig.» «Die mit dem Brot.» Er erklärt sich erst am Schluss, und auch dort knapp.",
+    "fehler": [
+     {
+      "antwort": "Er spricht in langen Sätzen.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Seine Sätze sind auffällig kurz — manchmal nur ein einziges Wort."
+     },
+     {
+      "antwort": "Er benutzt viele Fremdwörter.",
+      "diagnoseId": "wortschatz",
+      "feedback": "Er spricht in einfachen, alltäglichen Wörtern."
+     },
+     {
+      "antwort": "Er stellt viele Fragen.",
+      "diagnoseId": "form",
+      "feedback": "Er stellt im ganzen Text keine einzige Frage."
+     }
+    ]
+   }
+  ],
+  "text": "Die Schicht am Sonntag\n\nUm Viertel vor sechs war die Bäckerei noch dunkel. Marisa schloss auf, hängte\ndie Jacke an den Haken und tat, was sie an jedem Sonntag tat: zuerst den Ofen,\ndann das Licht, dann die Kasse.\n\n«Du bist zu früh», sagte Herr Gwerder, der schon seit vier Uhr in der Backstube\nstand und dessen Stimme immer klang, als beschwerte er sich über etwas.\nMarisa wusste inzwischen, dass er es nicht so meinte. Sie hatte drei Wochen\ngebraucht, um das zu lernen.\n\n«Ich mag es, wenn es noch ruhig ist», sagte sie.\n\n«Ruhig», wiederholte er und schob ein Blech in den Ofen. «Um halb neun stehen\nsie hier drin wie die Sardinen und wollen alle gleichzeitig ein Gipfeli, das es\nnicht mehr gibt.»\n\nEr hatte recht. Um zwanzig nach acht kam der erste Ansturm, um neun der zweite.\nEine ältere Frau verlangte zum dritten Mal an diesem Morgen ein Brot, das seit\nWochen nicht mehr im Sortiment war. Marisa erklärte es ihr, freundlich, zum\ndritten Mal. Hinter ihr in der Schlange sagte jemand halblaut etwas über junge\nLeute, die nicht arbeiten wollten.\n\nMarisa gab keine Antwort. Sie packte das Brot der Frau ein, wechselte das Geld\nund rief die nächste Nummer auf. Ihre Hände zitterten ein wenig, und sie\närgerte sich darüber mehr als über den Satz.\n\nUm zwölf war es vorbei. Herr Gwerder kam nach vorne, stellte zwei Kaffee auf\nden Tresen und setzte sich, ohne zu fragen, auf den Hocker neben ihr.\n\n«Die mit dem Brot», sagte er. «Die kommt seit dreissig Jahren. Ihr Mann ist im\nFebruar gestorben.»\n\nMarisa sah auf ihre Hände.\n\n«Ich sag das nicht, damit du netter bist», sagte Herr Gwerder. «Du warst\nschon nett. Ich sag es, damit du weisst, warum.»\n\nSie tranken den Kaffee. Draussen fuhr der Bus vorbei, den Marisa sonst nahm,\nund sie blieb sitzen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Deutsch, Teil Sprachprüfung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Gefühle, Verhalten und Erzählperspektive",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-tv-schicht-mittel",
+  "lernzielId": "DTG.3.04",
+  "fach": "textverstaendnis-tg",
+  "unterthemen": [
+   "3.04",
+   "3.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Vergleich mit «wie» erklärt etwas über etwas Bekanntes.",
+   "Wörtliche Rede zeigt eine Figur, statt sie zu beschreiben.",
+   "Fachwörter eines Berufs erkennst du daran, dass sie nur dort vorkommen."
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Das Mittel benennen.",
+   "Fragen, was es bewirkt.",
+   "Bei Fachwörtern prüfen, zu welchem Bereich sie gehören."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches sprachliche Mittel steht in «stehen sie hier drin wie die Sardinen»?",
+    "optionen": [
+     "ein Vergleich",
+     "eine Metapher",
+     "eine Personifikation",
+     "eine Ironie"
+    ],
+    "loesung": [
+     "ein Vergleich"
+    ],
+    "erklaerung": "«wie die Sardinen» vergleicht das Gedränge mit Fischen in der Dose.",
+    "fehler": [
+     {
+      "antwort": "eine Metapher",
+      "diagnoseId": "mittel",
+      "feedback": "Eine Metapher käme ohne «wie» aus. Richtig ist «ein Vergleich»."
+     },
+     {
+      "antwort": "eine Personifikation",
+      "diagnoseId": "mittel",
+      "feedback": "Personifikation gäbe einem Ding menschliche Züge."
+     },
+     {
+      "antwort": "eine Ironie",
+      "diagnoseId": "mittel",
+      "feedback": "Gemeint ist genau das, was das Bild sagt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt der Vergleich mit den Sardinen?",
+    "optionen": [
+     "Er macht die Enge im Laden anschaulich",
+     "Er zeigt, dass Fisch verkauft wird",
+     "Er kritisiert die Kundschaft",
+     "Er beschreibt den Geruch"
+    ],
+    "loesung": [
+     "Er macht die Enge im Laden anschaulich"
+    ],
+    "erklaerung": "Das Bild überträgt die Enge der Dose auf den Verkaufsraum.",
+    "fehler": [
+     {
+      "antwort": "Er zeigt, dass Fisch verkauft wird",
+      "diagnoseId": "woertlich",
+      "feedback": "Der Laden ist eine Bäckerei; das Bild ist übertragen."
+     },
+     {
+      "antwort": "Er kritisiert die Kundschaft",
+      "diagnoseId": "deutung",
+      "feedback": "Herr Gwerder beschreibt das Gedränge, ohne zu werten."
+     },
+     {
+      "antwort": "Er beschreibt den Geruch",
+      "diagnoseId": "deutung",
+      "feedback": "Vom Geruch ist nicht die Rede. Richtig ist «Er macht die Enge im Laden anschaulich»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat der Satz «Ihre Hände zitterten ein wenig»?",
+    "optionen": [
+     "Er zeigt Marisas Aufregung, ohne sie zu benennen",
+     "Er zeigt, dass ihr kalt ist",
+     "Er beschreibt eine Krankheit",
+     "Er kündigt einen Unfall an"
+    ],
+    "loesung": [
+     "Er zeigt Marisas Aufregung, ohne sie zu benennen"
+    ],
+    "erklaerung": "Der Text zeigt das Gefühl am Körper, statt es auszusprechen.",
+    "fehler": [
+     {
+      "antwort": "Er zeigt, dass ihr kalt ist",
+      "diagnoseId": "deutung",
+      "feedback": "Von Kälte ist an dieser Stelle nicht die Rede."
+     },
+     {
+      "antwort": "Er beschreibt eine Krankheit",
+      "diagnoseId": "deutung",
+      "feedback": "Der Satz steht unmittelbar nach der Bemerkung in der Schlange."
+     },
+     {
+      "antwort": "Er kündigt einen Unfall an",
+      "diagnoseId": "aufbau",
+      "feedback": "Ein Unfall kommt im Text nicht vor. Richtig ist «Er zeigt Marisas Aufregung, ohne sie zu benennen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wozu dient die wörtliche Rede von Herrn Gwerder?",
+    "optionen": [
+     "Sie zeigt seine Art zu sprechen und damit seinen Charakter",
+     "Sie erklärt den Ablauf des Backens",
+     "Sie nennt die Öffnungszeiten",
+     "Sie beschreibt den Laden"
+    ],
+    "loesung": [
+     "Sie zeigt seine Art zu sprechen und damit seinen Charakter"
+    ],
+    "erklaerung": "Der Text sagt, seine Stimme klinge, als beschwerte er sich — die Rede führt das vor.",
+    "fehler": [
+     {
+      "antwort": "Sie erklärt den Ablauf des Backens",
+      "diagnoseId": "funktion",
+      "feedback": "Vom Backen erfahren wir nur nebenbei. Richtig ist «Sie zeigt seine Art zu sprechen und damit seinen Charakter»."
+     },
+     {
+      "antwort": "Sie nennt die Öffnungszeiten",
+      "diagnoseId": "funktion",
+      "feedback": "Zeiten nennt der erzählende Text, nicht die Rede."
+     },
+     {
+      "antwort": "Sie beschreibt den Laden",
+      "diagnoseId": "funktion",
+      "feedback": "Der Laden wird nicht in der Rede beschrieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat die Aufzählung «zuerst den Ofen, dann das Licht, dann die Kasse»?",
+    "optionen": [
+     "Sie zeigt eine eingeübte Reihenfolge",
+     "Sie zeigt Marisas Unsicherheit",
+     "Sie beschleunigt die Handlung",
+     "Sie nennt die wichtigsten Geräte"
+    ],
+    "loesung": [
+     "Sie zeigt eine eingeübte Reihenfolge"
+    ],
+    "erklaerung": "«tat, was sie an jedem Sonntag tat» — die Aufzählung führt die Gewohnheit vor.",
+    "fehler": [
+     {
+      "antwort": "Sie zeigt Marisas Unsicherheit",
+      "diagnoseId": "deutung",
+      "feedback": "Gerade die feste Reihenfolge spricht gegen Unsicherheit."
+     },
+     {
+      "antwort": "Sie beschleunigt die Handlung",
+      "diagnoseId": "wirkung",
+      "feedback": "Die Aufzählung hält den Ablauf fest, statt ihn zu beschleunigen."
+     },
+     {
+      "antwort": "Sie nennt die wichtigsten Geräte",
+      "diagnoseId": "funktion",
+      "feedback": "Es geht um den Ablauf, nicht um eine Liste von Geräten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört zum Fachfeld der Bäckerei? Es geht um den Raum.",
+    "optionen": [
+     "Backstube",
+     "Haken",
+     "Hocker",
+     "Bus"
+    ],
+    "loesung": [
+     "Backstube"
+    ],
+    "erklaerung": "«Backstube» kommt nur in einer Bäckerei vor.",
+    "fehler": [
+     {
+      "antwort": "Haken",
+      "diagnoseId": "fachfeld",
+      "feedback": "Einen Haken für die Jacke gibt es überall."
+     },
+     {
+      "antwort": "Hocker",
+      "diagnoseId": "fachfeld",
+      "feedback": "Ein Hocker ist ein gewöhnliches Möbelstück."
+     },
+     {
+      "antwort": "Bus",
+      "diagnoseId": "fachfeld",
+      "feedback": "Der Bus gehört zum Weg, nicht zum Beruf."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört zum Fachfeld der Bäckerei? Es geht um ein Gerät.",
+    "optionen": [
+     "Blech",
+     "Jacke",
+     "Nummer",
+     "Kaffee"
+    ],
+    "loesung": [
+     "Blech"
+    ],
+    "erklaerung": "«Blech» meint hier das Backblech im Ofen.",
+    "fehler": [
+     {
+      "antwort": "Jacke",
+      "diagnoseId": "fachfeld",
+      "feedback": "Eine Jacke trägt man in jedem Beruf. Richtig ist «Blech»."
+     },
+     {
+      "antwort": "Nummer",
+      "diagnoseId": "fachfeld",
+      "feedback": "Nummern werden auch anderswo aufgerufen."
+     },
+     {
+      "antwort": "Kaffee",
+      "diagnoseId": "fachfeld",
+      "feedback": "Kaffee wird nicht in der Bäckerei hergestellt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört zum Fachfeld des Verkaufs? Es geht um das Angebot.",
+    "optionen": [
+     "Sortiment",
+     "Ofen",
+     "Februar",
+     "Wiese"
+    ],
+    "loesung": [
+     "Sortiment"
+    ],
+    "erklaerung": "«Sortiment» bezeichnet das Angebot eines Ladens.",
+    "fehler": [
+     {
+      "antwort": "Ofen",
+      "diagnoseId": "fachfeld",
+      "feedback": "Der Ofen gehört zur Herstellung, nicht zum Verkauf."
+     },
+     {
+      "antwort": "Februar",
+      "diagnoseId": "fachfeld",
+      "feedback": "Ein Monatsname gehört zu keinem Berufsfeld."
+     },
+     {
+      "antwort": "Wiese",
+      "diagnoseId": "fachfeld",
+      "feedback": "Eine Wiese kommt im Text gar nicht vor. Richtig ist «Sortiment»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört zum Fachfeld des Verkaufs? Es geht um das Bezahlen.",
+    "optionen": [
+     "Kasse",
+     "Schicht",
+     "Hocker",
+     "Stimme"
+    ],
+    "loesung": [
+     "Kasse"
+    ],
+    "erklaerung": "Die Kasse gehört unmittelbar zum Verkaufen.",
+    "fehler": [
+     {
+      "antwort": "Schicht",
+      "diagnoseId": "fachfeld",
+      "feedback": "«Schicht» gehört zur Arbeitszeit, nicht zum Verkauf im engeren Sinn."
+     },
+     {
+      "antwort": "Hocker",
+      "diagnoseId": "fachfeld",
+      "feedback": "Ein Hocker ist ein gewöhnliches Möbelstück."
+     },
+     {
+      "antwort": "Stimme",
+      "diagnoseId": "fachfeld",
+      "feedback": "Eine Stimme hat jeder Mensch. Richtig ist «Kasse»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat der Schlusssatz «und sie blieb sitzen»?",
+    "optionen": [
+     "Er zeigt, dass sich für Marisa etwas verändert hat",
+     "Er zeigt, dass sie den Bus verpasst hat",
+     "Er zeigt, dass sie müde ist",
+     "Er zeigt, dass die Schicht weitergeht"
+    ],
+    "loesung": [
+     "Er zeigt, dass sich für Marisa etwas verändert hat"
+    ],
+    "erklaerung": "Sie lässt den Bus fahren, den sie sonst nimmt — die kleine Abweichung ist die ganze Aussage.",
+    "fehler": [
+     {
+      "antwort": "Er zeigt, dass sie den Bus verpasst hat",
+      "diagnoseId": "deutung",
+      "feedback": "Sie sieht den Bus und bleibt trotzdem sitzen."
+     },
+     {
+      "antwort": "Er zeigt, dass sie müde ist",
+      "diagnoseId": "deutung",
+      "feedback": "Von Müdigkeit steht am Schluss nichts. Richtig ist «Er zeigt, dass sich für Marisa etwas verändert hat»."
+     },
+     {
+      "antwort": "Er zeigt, dass die Schicht weitergeht",
+      "diagnoseId": "handlung",
+      "feedback": "Um zwölf war die Schicht vorbei. Richtig ist «Er zeigt, dass sich für Marisa etwas verändert hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches sprachliche Mittel steckt in «dessen Stimme immer klang, als beschwerte er sich über etwas»?",
+    "optionen": [
+     "ein Vergleich mit «als»",
+     "eine Metapher",
+     "eine Übertreibung",
+     "eine Wiederholung"
+    ],
+    "loesung": [
+     "ein Vergleich mit «als»"
+    ],
+    "erklaerung": "«als beschwerte er sich» vergleicht seinen Tonfall mit einer Beschwerde, die es gar nicht ist.",
+    "fehler": [
+     {
+      "antwort": "eine Metapher",
+      "diagnoseId": "mittel",
+      "feedback": "Eine Metapher käme ohne Vergleichswort aus."
+     },
+     {
+      "antwort": "eine Übertreibung",
+      "diagnoseId": "mittel",
+      "feedback": "Der Text übertreibt nicht; er beschreibt einen Tonfall."
+     },
+     {
+      "antwort": "eine Wiederholung",
+      "diagnoseId": "mittel",
+      "feedback": "Wiederholt wird an dieser Stelle nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht «Ruhig» als einzelnes Wort in Anführungszeichen?",
+    "optionen": [
+     "Herr Gwerder greift Marisas Wort auf und stellt es infrage",
+     "Es ist ein Fachwort der Bäckerei",
+     "Es ist der Titel eines Abschnitts",
+     "Es ist ein Fehler im Text"
+    ],
+    "loesung": [
+     "Herr Gwerder greift Marisas Wort auf und stellt es infrage"
+    ],
+    "erklaerung": "Er wiederholt ihr Wort und setzt sein Bild von den Sardinen dagegen.",
+    "fehler": [
+     {
+      "antwort": "Es ist ein Fachwort der Bäckerei",
+      "diagnoseId": "funktion",
+      "feedback": "«ruhig» gehört zu keinem Berufsfeld. Richtig ist «Herr Gwerder greift Marisas Wort auf und stellt es infrage»."
+     },
+     {
+      "antwort": "Es ist der Titel eines Abschnitts",
+      "diagnoseId": "form",
+      "feedback": "Der Text hat keine Zwischentitel. Richtig ist «Herr Gwerder greift Marisas Wort auf und stellt es infrage»."
+     },
+     {
+      "antwort": "Es ist ein Fehler im Text",
+      "diagnoseId": "form",
+      "feedback": "Die Anführungszeichen kennzeichnen die wörtliche Rede."
+     }
+    ]
+   }
+  ],
+  "text": "Die Schicht am Sonntag\n\nUm Viertel vor sechs war die Bäckerei noch dunkel. Marisa schloss auf, hängte\ndie Jacke an den Haken und tat, was sie an jedem Sonntag tat: zuerst den Ofen,\ndann das Licht, dann die Kasse.\n\n«Du bist zu früh», sagte Herr Gwerder, der schon seit vier Uhr in der Backstube\nstand und dessen Stimme immer klang, als beschwerte er sich über etwas.\nMarisa wusste inzwischen, dass er es nicht so meinte. Sie hatte drei Wochen\ngebraucht, um das zu lernen.\n\n«Ich mag es, wenn es noch ruhig ist», sagte sie.\n\n«Ruhig», wiederholte er und schob ein Blech in den Ofen. «Um halb neun stehen\nsie hier drin wie die Sardinen und wollen alle gleichzeitig ein Gipfeli, das es\nnicht mehr gibt.»\n\nEr hatte recht. Um zwanzig nach acht kam der erste Ansturm, um neun der zweite.\nEine ältere Frau verlangte zum dritten Mal an diesem Morgen ein Brot, das seit\nWochen nicht mehr im Sortiment war. Marisa erklärte es ihr, freundlich, zum\ndritten Mal. Hinter ihr in der Schlange sagte jemand halblaut etwas über junge\nLeute, die nicht arbeiten wollten.\n\nMarisa gab keine Antwort. Sie packte das Brot der Frau ein, wechselte das Geld\nund rief die nächste Nummer auf. Ihre Hände zitterten ein wenig, und sie\närgerte sich darüber mehr als über den Satz.\n\nUm zwölf war es vorbei. Herr Gwerder kam nach vorne, stellte zwei Kaffee auf\nden Tresen und setzte sich, ohne zu fragen, auf den Hocker neben ihr.\n\n«Die mit dem Brot», sagte er. «Die kommt seit dreissig Jahren. Ihr Mann ist im\nFebruar gestorben.»\n\nMarisa sah auf ihre Hände.\n\n«Ich sag das nicht, damit du netter bist», sagte Herr Gwerder. «Du warst\nschon nett. Ich sag es, damit du weisst, warum.»\n\nSie tranken den Kaffee. Draussen fuhr der Bus vorbei, den Marisa sonst nahm,\nund sie blieb sitzen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Deutsch, Teil Sprachprüfung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sprachliche Mittel und Fachwörter im Text",
+  "status": "review"
+ }
+]

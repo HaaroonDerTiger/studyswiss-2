@@ -1,0 +1,217 @@
+<!--
+  Für Schulen.
+
+  Ton: Sie-Form. Hier liest eine Schulleitung, eine Lehrperson oder eine
+  Gemeindeverwaltung — und die entscheidet nicht aus Begeisterung,
+  sondern weil Stoff, Datenschutz und Beschaffung stimmen. Genau in
+  dieser Reihenfolge steht es darum auf der Seite.
+-->
+<section class="aufmacher">
+  <div class="innen">
+    <p class="eyebrow">Für Schulen und Gemeinden</p>
+    <h1>Prüfungsvorbereitung für die ganze Klasse</h1>
+    <p class="bd">
+      Ihre Schülerinnen und Schüler üben den Stoff ihres Kantons, Sie sehen,
+      woran die Klasse hängt. Offerte für die Schulleitung, Bestellung mit
+      Bestellnummer, Rechnung auf 30 Tage — das ganze Verfahren so, wie eine
+      Schule beschafft.
+    </p>
+    <div class="knopfreihe">
+      <a class="btn bp" href="#rechner">Lizenzen berechnen</a>
+      <a class="btn bs" href="bestellen.html">Offerte erstellen</a>
+    </div>
+    <div class="belege">
+      <div class="beleg"><div class="num2 zahl">45.–</div><div class="sm">ab Fr. je Lizenz und Schuljahr</div></div>
+      <div class="beleg"><div class="num2 zahl">30</div><div class="sm">Tage Zahlungsfrist</div></div>
+      <div class="beleg"><div class="num2 zahl">0</div><div class="sm">Installation, kein Konto nötig für Sie</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen">
+    <div class="raster">
+      <div class="karte">
+        <div class="ic">{{icon:buch}}</div>
+        <h3 style="margin-top:14px">Der Stoff Ihres Kantons</h3>
+        <p class="bd14" style="margin-top:8px">
+          Zwölf Kantone sind vollständig erfasst, abgeleitet aus den
+          Prüfungsserien und den Anforderungsprofilen — nie aus deren
+          Wortlaut. Wer in Frauenfeld aus der zweiten Sek antritt, bekommt
+          anderen Stoff als jemand aus der dritten in Kreuzlingen.
+        </p>
+      </div>
+      <div class="karte">
+        <div class="ic">{{icon:chart}}</div>
+        <h3 style="margin-top:14px">Sie sehen, was die Klasse braucht</h3>
+        <p class="bd14" style="margin-top:8px">
+          Der Schul-Bericht nennt die Themen mit der höchsten Fehlerquote in
+          Ihrer Gruppe. Das ist die Angabe, die den Unterricht wirklich
+          verändert — und sie ist zusammengefasst, nie personenbezogen.
+        </p>
+      </div>
+      <div class="karte">
+        <div class="ic">{{icon:schloss}}</div>
+        <h3 style="margin-top:14px">Datenschutz vor Funktion</h3>
+        <p class="bd14" style="margin-top:8px">
+          Die Nutzer sind minderjährig. Es braucht keinen Klarnamen, keine
+          Klassenliste und keine E-Mail-Adresse der Kinder. Die Schule sieht
+          nie den Stand einer einzelnen Schülerin und nie einen Aufsatztext.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band dunkelband">
+  <div class="innen mittel">
+    <p class="eyebrow">Der Punkt, an dem die meisten Werkzeuge scheitern</p>
+    <h2>Was die Schule sieht — und was nicht</h2>
+    <div class="raster zwei" style="margin-top:26px">
+      <div>
+        <h4 style="color:var(--cream)">Sie sehen</h4>
+        <ul class="bd14" style="margin-top:10px;padding-left:18px">
+          <li>wie viele Lizenzen eingelöst sind</li>
+          <li>wie viele in der laufenden Woche geübt haben</li>
+          <li>das mittlere Wochenpensum der Gruppe</li>
+          <li>die Themen mit der höchsten Fehlerquote in der Gruppe</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--cream)">Sie sehen nicht</h4>
+        <ul class="bd14" style="margin-top:10px;padding-left:18px">
+          <li>wer wie viel geübt hat</li>
+          <li>welche Aufgabe wer falsch hatte</li>
+          <li>Aufsatztexte oder deren Korrekturen</li>
+          <li>Namen zu einzelnen Ergebnissen</li>
+        </ul>
+      </div>
+    </div>
+    <div class="hinweis ruhig" style="margin-top:26px;background:rgba(228,203,169,.14);color:var(--tan1)">
+      {{icon:info}}
+      <div>Das ist kein fehlendes Merkmal, sondern der Grund, warum eine
+      Schule das Werkzeug einsetzen darf. Wer eine Namensliste mit
+      Trefferquoten hinstellt, macht aus einem Lernmittel ein
+      Überwachungswerkzeug — und braucht dafür eine Einwilligung, die
+      niemand geben will.</div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="rechner">
+  <div class="innen">
+    <p class="eyebrow">Lizenzrechner</p>
+    <h2>Was es für Ihre Klasse kostet</h2>
+    <p class="bd" style="margin-top:10px;max-width:62ch">
+      Eine Lizenz gilt für ein Schuljahr und für alle Fächer der Prüfung.
+      Der Preis je Lizenz sinkt mit der Menge — die Staffel steht offen da,
+      es gibt keinen Preis auf Anfrage.
+    </p>
+
+    <div class="rechner" style="margin-top:28px">
+      <div class="karte">
+        <label class="feld" for="anzahl">
+          <span>Anzahl Schülerinnen und Schüler</span>
+          <span class="hilfe">Sie können später jederzeit aufstocken; verrechnet
+            wird dann die Differenz zur nächsten Stufe.</span>
+          <input type="number" id="anzahl" min="1" max="2000" step="1" value="24"
+                 inputmode="numeric">
+        </label>
+        <input type="range" class="schieber" id="schieber" min="1" max="300" value="24"
+               aria-label="Anzahl Lizenzen grob einstellen">
+        <div class="staffel" id="staffel"></div>
+
+        <label class="feld" for="start" style="margin-top:22px">
+          <span>Gewünschter Beginn</span>
+          <input type="date" id="start">
+        </label>
+        <p class="sm" id="laufzeit"></p>
+      </div>
+
+      <div class="karte" style="position:sticky;top:88px">
+        <p class="eyebrow">Ihre Offerte</p>
+        <dl class="summe" id="summe"></dl>
+        <p class="sm" id="stufenhinweis" style="margin-top:12px"></p>
+        <a class="btn bp voll" id="zurOfferte" href="bestellen.html"
+           style="margin-top:18px">Offerte erstellen</a>
+        <a class="btn bt voll" id="direktBestellen" href="bestellen.html?schritt=bestellung"
+           style="margin-top:6px">Direkt bestellen</a>
+        <p class="sm" id="preisherkunft" style="margin-top:14px"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen">
+    <p class="eyebrow">Beschaffung</p>
+    <h2>Vier Schritte bis zur Rechnung</h2>
+    <div class="raster vier" style="margin-top:26px">
+      <div class="karte eng"><div class="chip an">1</div>
+        <h4 style="margin-top:12px">Offerte</h4>
+        <p class="bd14" style="margin-top:6px">Sofort erstellt, als PDF
+        druckbar, 30 Tage gültig. Für die Schulleitung oder die Gemeinde.</p></div>
+      <div class="karte eng"><div class="chip an">2</div>
+        <h4 style="margin-top:12px">Bestellung</h4>
+        <p class="bd14" style="margin-top:6px">Mit Ihrer Bestellnummer und
+        einer abweichenden Rechnungsadresse, wenn die Gemeinde zahlt.</p></div>
+      <div class="karte eng"><div class="chip an">3</div>
+        <h4 style="margin-top:12px">Zugang</h4>
+        <p class="bd14" style="margin-top:6px">Die Codes sind sofort gültig —
+        auch bevor die Rechnung bezahlt ist. Niemand wartet auf die Buchhaltung.</p></div>
+      <div class="karte eng"><div class="chip an">4</div>
+        <h4 style="margin-top:12px">Rechnung</h4>
+        <p class="bd14" style="margin-top:6px">Mit QR-Zahlteil, 30 Tage netto,
+        auf Wunsch als E-Rechnung. Bestellnummer steht drauf.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen mittel">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Was Schulen zuerst fragen</h2>
+    <div class="stapel weit" style="margin-top:24px">
+      <div><h4>Brauchen die Kinder eine E-Mail-Adresse?</h4>
+        <p class="bd14" style="margin-top:6px">Nein. Sie geben jedem Kind
+        einen Code von einem Blatt. Wer will, verknüpft später ein
+        Apple- oder Google-Konto, damit der Fortschritt auf einem neuen
+        Gerät wieder da ist — nötig ist es nicht.</p></div>
+      <div><h4>Was passiert am Ende des Schuljahrs?</h4>
+        <p class="bd14" style="margin-top:6px">Die Lizenz läuft am 31. Juli
+        aus, ohne Kündigung und ohne stille Verlängerung. Wer im Frühling
+        bestellt, bekommt das folgende Schuljahr dazu.</p></div>
+      <div><h4>Können wir zuerst mit einer Klasse anfangen?</h4>
+        <p class="bd14" style="margin-top:6px">Ja, es gibt keine
+        Mindestmenge. Aufstocken geht jederzeit; verrechnet wird die
+        Differenz, und der Stückpreis sinkt rückwirkend auf die neue Stufe.</p></div>
+      <div><h4>Wo stehen die Daten?</h4>
+        <p class="bd14" style="margin-top:6px">In der Schweiz. Verarbeitet
+        werden Vorname (freiwillig), Kanton, Schultyp, Prüfungstermin und der
+        Lernfortschritt. Keine Klassenlisten, keine Standortdaten, keine
+        Werbung. Einzelheiten stehen im
+        <a href="recht.html#datenschutz">Datenschutz</a>.</p></div>
+      <div><h4>Und die Aufsatzkorrektur?</h4>
+        <p class="bd14" style="margin-top:6px">Aufsätze werden zur Korrektur
+        an ein Sprachmodell übergeben und <b>nicht</b> zum Training
+        weitergegeben; der Vertrag mit dem Anbieter deckt das ab. Die Schule
+        sieht die Texte nie.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band dunkelband">
+  <div class="innen mittel" style="text-align:center">
+    <h2>Bereit für eine Offerte?</h2>
+    <p class="bd" style="margin-top:12px">
+      Sie brauchen dafür kein Konto. Ausfüllen, herunterladen, der
+      Schulleitung vorlegen.
+    </p>
+    <div class="knopfreihe" style="justify-content:center">
+      <a class="btn bp" href="bestellen.html" style="background:var(--cream);color:var(--ink)">
+        Offerte erstellen</a>
+      <a class="btn bs" href="verwaltung.html" style="border-color:var(--tan3);color:var(--cream)">
+        Bestehende Lizenzen verwalten</a>
+    </div>
+  </div>
+</section>

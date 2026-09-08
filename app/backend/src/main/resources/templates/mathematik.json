@@ -1,0 +1,2913 @@
+[
+ {
+  "templateId": "rabatt-rueckwaerts",
+  "lernzielId": "M2.4.06",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.06",
+   "4.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "einheit": "Fr.",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "alt",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 400,
+    "schritt": 4
+   },
+   {
+    "name": "rabatt",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "alt*(100-rabatt)/100"
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Occasions-Velo",
+      "das Velo"
+     ],
+     [
+      "ein Trottinett",
+      "das Trottinett"
+     ],
+     [
+      "eine Sporttasche",
+      "die Tasche"
+     ],
+     [
+      "ein Snowboard",
+      "das Board"
+     ],
+     [
+      "einen Tischtennistisch",
+      "der Tisch"
+     ],
+     [
+      "eine Skijacke",
+      "die Jacke"
+     ],
+     [
+      "einen Rucksack",
+      "der Rucksack"
+     ],
+     [
+      "ein Zelt",
+      "das Zelt"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nuria"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ]
+    ]
+   },
+   {
+    "name": "rabatt2",
+    "typ": "formel",
+    "ausdruck": "100-rabatt"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(neu)==1",
+   "neu>=20",
+   "alt!=neu",
+   "alt!=rabatt",
+   "alt!=neu+rabatt"
+  ],
+  "stamm": "{name} sieht im Ausverkauf {ware} für {neu:franken}. Das sind {rabatt} % weniger als vorher. Wie viel hat {ware.1} vor dem Ausverkauf gekostet?",
+  "loesung": "alt",
+  "gegenprobe": "neu+neu*rabatt/(100-rabatt)",
+  "fehler": [
+   {
+    "diagnoseId": "grundwert_verwechselt",
+    "ausdruck": "neu+neu*rabatt/100",
+    "feedback": "Du hast die {rabatt} % vom neuen Preis gerechnet. Der Rabatt bezieht sich aber immer auf den alten Preis. Das ist der Grundwert, also die 100 %. Der neue Preis ist nur noch {rabatt2} % davon. Suche zuerst, welche Zahl 100 % entspricht."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "neu*(100-rabatt)/100",
+    "feedback": "Du hast den Rabatt ein zweites Mal abgezogen. Der Preis {neu:franken} ist bereits der reduzierte. Von hier aus geht es zurück nach oben, nicht noch einmal nach unten."
+   },
+   {
+    "diagnoseId": "prozent_als_franken",
+    "ausdruck": "neu+rabatt",
+    "feedback": "Du hast {rabatt} einfach als Franken dazugezählt. {rabatt} % sind aber kein fixer Betrag, sondern ein Anteil, bei einem teuren Gerät viel mehr Franken als bei einem günstigen."
+   },
+   {
+    "diagnoseId": "anteil_statt_ganzes",
+    "ausdruck": "neu*100/rabatt",
+    "feedback": "Du hast durch {rabatt} statt durch {rabatt2} geteilt. Der Preis {neu:franken} entspricht {rabatt2} %, nicht {rabatt} %. Die {rabatt} % sind das, was weggefallen ist."
+   }
+  ],
+  "hinweise": [
+   "Welcher Preis ist hier der Grundwert, also die 100 %. Der alte oder der neue?",
+   "Wenn {rabatt} % weggefallen sind, dann entspricht der Preis von {neu:franken} noch {rabatt2} % des alten Preises.",
+   "Rechne zuerst, wie viel 1 % ist: {neu:franken} geteilt durch {rabatt2}. Dann mal 100."
+  ],
+  "loesungsweg": [
+   "Der alte Preis ist der Grundwert, also 100 %.",
+   "Nach {rabatt} % Rabatt bleiben {rabatt2} % übrig. Das sind die {neu:franken}.",
+   "1 % ist also {neu:franken} ÷ {rabatt2}.",
+   "Der alte Preis sind 100 %, das ergibt {alt:franken}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "rueckwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prozentaufgaben aus den Prüfungen 2019-2024, eigener Kontext und eigene Zahlen"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "prozentwert-berechnen",
+  "lernzielId": "M2.4.05",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "gesamt",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 900,
+    "schritt": 20
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     40,
+     60,
+     75
+    ]
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "gesamt*satz/100"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Sportverein",
+      "Mitglieder",
+      "haben den Beitrag schon bezahlt"
+     ],
+     [
+      "Eine Schule",
+      "Schülerinnen und Schüler",
+      "kommen mit dem Velo"
+     ],
+     [
+      "Ein Onlineshop",
+      "Bestellungen",
+      "wurden am Montag ausgeliefert"
+     ],
+     [
+      "Ein Waldstück",
+      "Bäume",
+      "sind Nadelbäume"
+     ],
+     [
+      "Ein Konzertsaal",
+      "Sitzplätze",
+      "sind schon reserviert"
+     ],
+     [
+      "Eine Bibliothek",
+      "Bücher",
+      "sind gerade ausgeliehen"
+     ],
+     [
+      "Ein Zeltlager",
+      "Anmeldungen",
+      "kommen aus dem eigenen Dorf"
+     ]
+    ]
+   },
+   {
+    "name": "einprozent",
+    "typ": "formel",
+    "ausdruck": "gesamt/100"
+   },
+   {
+    "name": "satz2",
+    "typ": "formel",
+    "ausdruck": "100-satz"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(teil)==1",
+   "teil>=10",
+   "teil!=gesamt",
+   "teil!=satz",
+   "teil!=gesamt-satz",
+   "teil!=100-satz",
+   "teil!=100"
+  ],
+  "stamm": "{sache} zählt {gesamt} {sache.1}. Genau {satz} % davon {sache.2}. Wie viele sind das?",
+  "loesung": "gesamt*satz/100",
+  "gegenprobe": "gesamt-gesamt*(100-satz)/100",
+  "fehler": [
+   {
+    "diagnoseId": "satz_abgeschrieben",
+    "ausdruck": "satz",
+    "feedback": "Du hast {satz} abgeschrieben. Das ist der Prozentsatz, nicht die Anzahl. Die {satz} % sagen nur, welcher Anteil gemeint ist. Gefragt ist, wie viele das bei {gesamt} tatsächlich sind."
+   },
+   {
+    "diagnoseId": "durch_hundert_vergessen",
+    "ausdruck": "gesamt*satz",
+    "feedback": "Du hast mit {satz} multipliziert, aber nicht durch 100 geteilt. {satz} % bedeutet «{satz} von hundert» Deshalb gehört das Teilen durch 100 immer dazu."
+   },
+   {
+    "diagnoseId": "rest_statt_anteil",
+    "ausdruck": "gesamt*(100-satz)/100",
+    "feedback": "Du hast den Rest ausgerechnet, also die {satz2} %, die übrig bleiben. Gefragt ist aber der Teil, der zu den {satz} % gehört."
+   },
+   {
+    "diagnoseId": "additiv_statt_anteil",
+    "ausdruck": "gesamt-satz",
+    "feedback": "Du hast {satz} als feste Anzahl abgezogen. {satz} % ist aber ein Anteil und hängt davon ab, wie gross das Ganze ist, bei {gesamt} sind {satz} % etwas ganz anderes als bei 100."
+   }
+  ],
+  "hinweise": [
+   "Was ist hier der Grundwert, also die 100 %. Welche der beiden Zahlen?",
+   "Rechne zuerst, wie viel 1 % ist: {gesamt} ÷ 100.",
+   "1 % sind {einprozent}. Multipliziere das mit {satz}."
+  ],
+  "loesungsweg": [
+   "Der Grundwert sind die {gesamt}, also 100 %.",
+   "1 % ist {gesamt} ÷ 100 = {einprozent}.",
+   "{satz} % sind {einprozent} · {satz} = {teil}."
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "lineare-gleichung-beidseitig",
+  "lernzielId": "M2.2.10",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.10",
+   "2.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 30
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "a*x+b-c*x"
+   },
+   {
+    "name": "ac",
+    "typ": "formel",
+    "ausdruck": "a-c"
+   },
+   {
+    "name": "db",
+    "typ": "formel",
+    "ausdruck": "d-b"
+   }
+  ],
+  "bedingungen": [
+   "x!=0",
+   "a!=c",
+   "d>0",
+   "d<200",
+   "x!=a",
+   "x!=b",
+   "x!=c",
+   "x!=d",
+   "abs(a-c)>=2",
+   "x!=a-c",
+   "x!=d-b",
+   "x!=(d-b)/(a+c)"
+  ],
+  "stamm": "Löse die Gleichung nach x auf:\n\n{a}x + {b} = {c}x + {d}",
+  "loesung": "x",
+  "gegenprobe": "(d-b)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "seiten_vertauscht",
+    "ausdruck": "(b-d)/(a-c)",
+    "feedback": "Du hast beim Zusammenfassen die Vorzeichen vertauscht. Wenn du {b} von beiden Seiten abziehst, steht rechts {d} − {b}, nicht {b} − {d}. Schreibe den Schritt einmal ganz aus."
+   },
+   {
+    "diagnoseId": "nur_zahlen",
+    "ausdruck": "d-b",
+    "feedback": "Du hast nur die Zahlen verrechnet und die x-Glieder stehen lassen. Erst wenn links genau ein x steht, darfst du ablesen. Teile am Schluss noch durch die Zahl vor dem x."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(d-b)/(a+c)",
+    "feedback": "Du hast die beiden x-Zahlen addiert statt subtrahiert. Du bringst {c}x auf die linke Seite, also ziehst du es ab: {a}x − {c}x."
+   },
+   {
+    "diagnoseId": "nur_x_glieder",
+    "ausdruck": "a-c",
+    "feedback": "Du hast nur die x-Glieder zusammengefasst. Das ist der erste Schritt, aber danach musst du die Zahlen auf die andere Seite bringen und durch die x-Zahl teilen."
+   }
+  ],
+  "hinweise": [
+   "Auf welche Seite bringst du die x, auf welche die Zahlen?",
+   "Ziehe auf beiden Seiten {c}x ab. Was steht dann links vor dem x?",
+   "Nach dem Zusammenfassen steht {ac}x = {db}. Teile jetzt durch {ac}."
+  ],
+  "loesungsweg": [
+   "{a}x + {b} = {c}x + {d}",
+   "Auf beiden Seiten {c}x abziehen: {ac}x + {b} = {d}",
+   "Auf beiden Seiten {b} abziehen: {ac}x = {db}",
+   "Durch {ac} teilen: x = {x}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "kgv-blinklicht",
+  "lernzielId": "M2.1.08",
+  "fach": "mathematik",
+  "unterthemen": [
+   "1.08",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Sekunden",
+  "variablen": [
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "u",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*u"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*v"
+   },
+   {
+    "name": "k",
+    "typ": "formel",
+    "ausdruck": "g*u*v"
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "Leuchttürme blinken im Takt: der eine",
+      "der andere"
+     ],
+     [
+      "Bojen im Hafen blinken: die eine",
+      "die andere"
+     ],
+     [
+      "Ampeln schalten auf Grün: die eine",
+      "die andere"
+     ],
+     [
+      "Sprinkler im Garten laufen an: der eine",
+      "der andere"
+     ],
+     [
+      "Signallichter am Bahnübergang blinken: das eine",
+      "das andere"
+     ],
+     [
+      "Wetterstationen senden ein Signal: die eine",
+      "die andere"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "ggt(u,v)==1",
+   "u<v",
+   "k<=400",
+   "k!=a",
+   "k!=b",
+   "k!=g",
+   "k!=a+b",
+   "k!=a*b"
+  ],
+  "stamm": "Zwei {ort} alle {a} Sekunden, {ort.1} alle {b} Sekunden. Um Mitternacht sind beide gleichzeitig dran. Nach wie vielen Sekunden ist das zum nächsten Mal so?",
+  "loesung": "k",
+  "gegenprobe": "a*b/g",
+  "fehler": [
+   {
+    "diagnoseId": "produkt_statt_kgv",
+    "ausdruck": "a*b",
+    "feedback": "Du hast {a} und {b} einfach multipliziert. Das ergibt zwar einen gemeinsamen Takt, aber nicht den ersten. Die beiden Zahlen haben den gemeinsamen Teiler {g}, durch den musst du noch teilen."
+   },
+   {
+    "diagnoseId": "summe_statt_kgv",
+    "ausdruck": "a+b",
+    "feedback": "Du hast die beiden Zeiten addiert. Beim gemeinsamen Blinken geht es aber um Vielfache: Der gesuchte Zeitpunkt muss sowohl durch {a} als auch durch {b} teilbar sein."
+   },
+   {
+    "diagnoseId": "ggt_statt_kgv",
+    "ausdruck": "g",
+    "feedback": "Du hast den grössten gemeinsamen Teiler gefunden. Gesucht ist aber das kleinste gemeinsame Vielfache. Eine Zahl, die grösser ist als {a} und {b}, nicht kleiner."
+   },
+   {
+    "diagnoseId": "groessere_verdoppelt",
+    "ausdruck": "b*2",
+    "feedback": "Du hast die grössere Zeit verdoppelt. Das ist ein Vielfaches von {b}, aber nicht unbedingt eines von {a}. Beide Bedingungen müssen gleichzeitig stimmen."
+   }
+  ],
+  "hinweise": [
+   "Muss der gesuchte Zeitpunkt ein Vielfaches von beiden Zahlen sein oder nur von einer?",
+   "Zerlege {a} und {b} in ihre Primfaktoren und schau, welche beide gemeinsam haben.",
+   "Beide enthalten den Faktor {g}. Rechne {a} · {b} und teile das Ergebnis durch {g}."
+  ],
+  "loesungsweg": [
+   "Gesucht ist das kleinste gemeinsame Vielfache von {a} und {b}.",
+   "Der grösste gemeinsame Teiler von {a} und {b} ist {g}.",
+   "kgV = ({a} · {b}) ÷ {g} = {k}.",
+   "Nach {k} Sekunden blinken beide wieder gleichzeitig."
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "quader-oberflaeche",
+  "lernzielId": "M2.8.05",
+  "fach": "mathematik",
+  "unterthemen": [
+   "8.05",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "einheitVerlangt": true,
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*(a*b+b*c+a*c)"
+   },
+   {
+    "name": "ab",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "bc",
+    "typ": "formel",
+    "ausdruck": "b*c"
+   },
+   {
+    "name": "ac",
+    "typ": "formel",
+    "ausdruck": "a*c"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Geschenkschachtel"
+     ],
+     [
+      "Holzkiste"
+     ],
+     [
+      "Vorratsdose"
+     ],
+     [
+      "Werkzeugkiste"
+     ],
+     [
+      "Setzkiste"
+     ],
+     [
+      "Transportbox"
+     ],
+     [
+      "Bastelschachtel"
+     ],
+     [
+      "Kartonschachtel"
+     ],
+     [
+      "Aufbewahrungsbox"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "b>c",
+   "o<=1600",
+   "o!=a",
+   "o!=b",
+   "o!=c",
+   "o!=a*b*c"
+  ],
+  "stamm": "Eine {ding} hat die Form eines Quaders: {a} cm lang, {b} cm breit und {c} cm hoch. Wie gross ist ihre Oberfläche?",
+  "loesung": "2*(a*b+b*c+a*c)",
+  "gegenprobe": "2*a*b+2*b*c+2*a*c",
+  "fehler": [
+   {
+    "diagnoseId": "faktor_zwei_vergessen",
+    "ausdruck": "a*b+b*c+a*c",
+    "feedback": "Du hast nur drei Flächen gerechnet. Ein Quader hat sechs Flächen, zu jeder gehört eine gleich grosse Gegenfläche. Deshalb kommt am Schluss noch mal 2 dazu."
+   },
+   {
+    "diagnoseId": "volumen_statt_oberflaeche",
+    "ausdruck": "a*b*c",
+    "feedback": "Du hast das Volumen ausgerechnet, also den Rauminhalt. Gefragt ist die Oberfläche. Das ist die Fläche aller sechs Seiten zusammen, gemessen in cm², nicht in cm³."
+   },
+   {
+    "diagnoseId": "flaechenpaar_vergessen",
+    "ausdruck": "2*(a*b+b*c)",
+    "feedback": "Du hast ein Flächenpaar vergessen. Es gibt drei verschiedene Rechtecke: {a}·{b}, {b}·{c} und {a}·{c}, und jedes davon kommt zweimal vor."
+   },
+   {
+    "diagnoseId": "kanten_statt_flaechen",
+    "ausdruck": "4*(a+b+c)",
+    "feedback": "Du hast die Kantenlängen zusammengezählt. Das ergibt, wie viel Draht du für das Gerüst brauchst, nicht wie viel Papier für die Aussenseite."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Quader, und wie viele davon sind gleich gross?",
+   "Es gibt drei verschiedene Rechtecke. Rechne jedes einmal aus.",
+   "Die drei Rechtecke sind {ab} cm², {bc} cm² und {ac} cm². Jedes kommt zweimal vor."
+  ],
+  "loesungsweg": [
+   "Ein Quader hat drei Paare gleich grosser Rechtecke.",
+   "Vorne und hinten: {a} · {c} = {ac} cm²",
+   "Oben und unten: {a} · {b} = {ab} cm²",
+   "Links und rechts: {b} · {c} = {bc} cm²",
+   "Alles doppelt: 2 · ({ab} + {bc} + {ac}) = {o} cm²"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Körperberechnungen aus den Prüfungen 2016-2023, eigener Kontext und eigene Zahlen"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "dreieck-flaeche",
+  "lernzielId": "M2.7.04",
+  "fach": "mathematik",
+  "unterthemen": [
+   "7.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "cm²",
+  "variablen": [
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 40,
+    "schritt": 2
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30
+   },
+   {
+    "name": "f",
+    "typ": "formel",
+    "ausdruck": "g*h/2"
+   },
+   {
+    "name": "gh",
+    "typ": "formel",
+    "ausdruck": "g*h"
+   }
+  ],
+  "bedingungen": [
+   "f!=g",
+   "f!=h",
+   "f!=g+h",
+   "f!=g*h",
+   "f>=20",
+   "g*h!=g+h",
+   "g*h!=2*(g+h)",
+   "g*h/4!=g+h",
+   "g*h/4!=2*(g+h)"
+  ],
+  "stamm": "Ein Dreieck hat die Grundseite {g} cm. Die Höhe auf diese Grundseite misst {h} cm. Wie gross ist die Fläche des Dreiecks?",
+  "loesung": "g*h/2",
+  "gegenprobe": "g*h-g*h/2",
+  "fehler": [
+   {
+    "diagnoseId": "halbieren_vergessen",
+    "ausdruck": "g*h",
+    "feedback": "Du hast die Fläche eines Rechtecks gerechnet. Ein Dreieck ist genau die Hälfte davon. Zeichne das Rechteck um dein Dreieck herum, dann siehst du es."
+   },
+   {
+    "diagnoseId": "addiert_statt_multipliziert",
+    "ausdruck": "g+h",
+    "feedback": "Du hast Grundseite und Höhe addiert. Bei einer Fläche werden zwei Längen immer multipliziert, sonst käme keine Fläche heraus, sondern wieder eine Länge."
+   },
+   {
+    "diagnoseId": "zweimal_halbiert",
+    "ausdruck": "g*h/4",
+    "feedback": "Du hast zweimal halbiert. Es kommt nur ein Halbieren dazu: einmal die Grundseite mal die Höhe, dann geteilt durch 2."
+   },
+   {
+    "diagnoseId": "umfang_gedacht",
+    "ausdruck": "2*(g+h)",
+    "feedback": "Du hast wie beim Umfang gerechnet. Der Umfang ist der Weg rundherum in cm, die Fläche ist der Platz darin in cm². Das sind zwei verschiedene Fragen."
+   }
+  ],
+  "hinweise": [
+   "Welches bekannte Viereck steckt in einem Dreieck mit derselben Grundseite und Höhe?",
+   "Ein Rechteck mit den Seiten {g} cm und {h} cm ist genau doppelt so gross wie dieses Dreieck.",
+   "Rechne {g} · {h} und teile das Ergebnis durch 2."
+  ],
+  "loesungsweg": [
+   "Fläche des Dreiecks = Grundseite · Höhe ÷ 2",
+   "{g} · {h} = {gh}",
+   "{gh} ÷ 2 = {f} cm²"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "pythagoras-hypotenuse",
+  "lernzielId": "M2.7.08",
+  "fach": "mathematik",
+  "unterthemen": [
+   "7.08",
+   "1.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "k*(m*m-n*n)"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "k*2*m*n"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "k*(m*m+n*n)"
+   },
+   {
+    "name": "aq",
+    "typ": "formel",
+    "ausdruck": "a*a"
+   },
+   {
+    "name": "bq",
+    "typ": "formel",
+    "ausdruck": "b*b"
+   },
+   {
+    "name": "cq",
+    "typ": "formel",
+    "ausdruck": "c*c"
+   },
+   {
+    "name": "fig",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Zeichendreieck"
+     ],
+     [
+      "Ein dreieckiges Sonnensegel"
+     ],
+     [
+      "Ein Blechwinkel"
+     ],
+     [
+      "Eine dreieckige Fahne"
+     ],
+     [
+      "Ein Holzkeil"
+     ],
+     [
+      "Ein dreieckiges Beet"
+     ],
+     [
+      "Ein Stück Karton"
+     ],
+     [
+      "Ein dreieckiges Verkehrsschild"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "m>n",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "c<=100",
+   "c!=a",
+   "c!=b",
+   "c!=a+b",
+   "c!=(a+b)/2"
+  ],
+  "stamm": "{fig} hat einen rechten Winkel. Die beiden Katheten messen {a} cm und {b} cm. Wie lang ist die Hypotenuse?",
+  "loesung": "c",
+  "gegenprobe": "sqrt(a*a+b*b)",
+  "fehler": [
+   {
+    "diagnoseId": "katheten_addiert",
+    "ausdruck": "a+b",
+    "feedback": "Du hast die beiden Katheten addiert. Dann wäre der Weg über die Ecke gleich lang wie der direkte. Der direkte Weg ist aber immer kürzer. Der Satz des Pythagoras rechnet mit den Quadraten."
+   },
+   {
+    "diagnoseId": "wurzel_vergessen",
+    "ausdruck": "a*a+b*b",
+    "feedback": "Du hast richtig {a}² + {b}² gerechnet, aber die Wurzel vergessen. Diese Summe ist c², nicht c. Am Schluss musst du noch die Quadratwurzel ziehen."
+   },
+   {
+    "diagnoseId": "haelfte_der_summe",
+    "ausdruck": "(a+b)/2",
+    "feedback": "Du hast den Mittelwert der beiden Katheten genommen. Die Hypotenuse ist aber länger als jede der beiden Katheten, nie ein Wert dazwischen."
+   },
+   {
+    "diagnoseId": "laengste_kathete",
+    "ausdruck": "max(a,b)",
+    "feedback": "Du hast die längere Kathete angegeben. Im rechtwinkligen Dreieck liegt die Hypotenuse dem rechten Winkel gegenüber und ist immer die längste Seite."
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber, und ist sie länger oder kürzer als die beiden anderen?",
+   "Der Satz des Pythagoras lautet a² + b² = c². Rechne zuerst die beiden Quadrate aus.",
+   "{a}² = {aq} und {b}² = {bq}. Addiere die beiden und ziehe aus der Summe die Wurzel."
+  ],
+  "loesungsweg": [
+   "Der Satz des Pythagoras: a² + b² = c²",
+   "{a}² = {aq}, {b}² = {bq}",
+   "{aq} + {bq} = {cq}",
+   "c = √{cq} = {c} cm"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Pythagoras-Aufgaben aus den Prüfungen 2017-2025, eigener Kontext und eigene Zahlen"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "massstab-karte",
+  "lernzielId": "M2.4.08",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.08",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "m",
+  "variablen": [
+   {
+    "name": "echt",
+    "typ": "ganzzahl",
+    "von": 100,
+    "bis": 4000,
+    "schritt": 50
+   },
+   {
+    "name": "ms",
+    "typ": "auswahl",
+    "werte": [
+     200,
+     500,
+     1000,
+     2500,
+     5000
+    ]
+   },
+   {
+    "name": "karte",
+    "typ": "formel",
+    "ausdruck": "echt*100/ms"
+   },
+   {
+    "name": "echtcm",
+    "typ": "formel",
+    "ausdruck": "echt*100"
+   },
+   {
+    "name": "ziel",
+    "typ": "text",
+    "texte": [
+     [
+      "die Bushaltestelle und der Aussichtsturm"
+     ],
+     [
+      "die Hütte und der Bergsee"
+     ],
+     [
+      "das Schulhaus und die Turnhalle"
+     ],
+     [
+      "der Bahnhof und das Hallenbad"
+     ],
+     [
+      "die Fähre und der Campingplatz"
+     ],
+     [
+      "der Parkplatz und die Feuerstelle"
+     ],
+     [
+      "die Kapelle und der Wasserfall"
+     ],
+     [
+      "das Gemeindehaus und der Sportplatz"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(karte*2)==1",
+   "karte>=2",
+   "karte<=40",
+   "echt!=karte",
+   "echt!=ms"
+  ],
+  "stamm": "Auf einer Wanderkarte im Massstab 1 : {ms} liegen {ziel} {karte} cm auseinander. Wie weit sind sie in Wirklichkeit voneinander entfernt? Gib die Antwort in Metern an.",
+  "loesung": "echt",
+  "gegenprobe": "karte*ms/100",
+  "fehler": [
+   {
+    "diagnoseId": "einheit_nicht_umgerechnet",
+    "ausdruck": "karte*ms",
+    "feedback": "Du hast richtig mit {ms} multipliziert, aber das Ergebnis ist in Zentimetern. Gefragt sind Meter. 100 cm sind 1 m, also musst du noch durch 100 teilen."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "karte/ms*100",
+    "feedback": "Du hast durch {ms} geteilt statt multipliziert. In der Wirklichkeit ist alles {ms}-mal grösser als auf der Karte, nicht kleiner. Die Karte ist ja die Verkleinerung."
+   },
+   {
+    "diagnoseId": "faktor_zehn",
+    "ausdruck": "karte*ms/10",
+    "feedback": "Du hast durch 10 statt durch 100 geteilt. Ein Meter hat 100 Zentimeter. Von Zentimetern zu Metern geht es immer in einem Schritt durch 100."
+   },
+   {
+    "diagnoseId": "kilometer_statt_meter",
+    "ausdruck": "karte*ms/100000",
+    "feedback": "Du hast bis zu den Kilometern weitergerechnet. Gefragt sind Meter, von Zentimetern zu Metern ist es nur durch 100, nicht durch 100'000."
+   }
+  ],
+  "hinweise": [
+   "Ist die Strecke in Wirklichkeit grösser oder kleiner als auf der Karte?",
+   "1 cm auf der Karte entspricht {ms} cm in der Wirklichkeit. Wie viele Zentimeter sind {karte} cm dann?",
+   "Du erhältst {echtcm} cm. Rechne diese Zentimeter jetzt in Meter um."
+  ],
+  "loesungsweg": [
+   "1 : {ms} heisst: 1 cm auf der Karte sind {ms} cm in der Wirklichkeit.",
+   "{karte} cm · {ms} = {echtcm} cm",
+   "{echtcm} cm ÷ 100 = {echt} m"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tempo-weg-zeit",
+  "lernzielId": "M2.4.12",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.12",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "km/h",
+  "variablen": [
+   {
+    "name": "v",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     6,
+     12,
+     16,
+     18,
+     24,
+     45,
+     60,
+     72,
+     80,
+     90
+    ]
+   },
+   {
+    "name": "std",
+    "typ": "auswahl",
+    "werte": [
+     0.25,
+     0.5,
+     0.75,
+     1.5,
+     2.5,
+     3
+    ]
+   },
+   {
+    "name": "s",
+    "typ": "formel",
+    "ausdruck": "v*std"
+   },
+   {
+    "name": "min",
+    "typ": "formel",
+    "ausdruck": "std*60"
+   },
+   {
+    "name": "wer",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Regionalzug"
+     ],
+     [
+      "Ein Postauto"
+     ],
+     [
+      "Eine Velofahrerin"
+     ],
+     [
+      "Ein Wanderer"
+     ],
+     [
+      "Ein Kanufahrer"
+     ],
+     [
+      "Eine Läuferin"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(s)==1",
+   "s>=2",
+   "v!=s",
+   "v!=min",
+   "v!=s+min",
+   "v!=s*min"
+  ],
+  "stamm": "{wer} legt {s} km in {min} Minuten zurück. Wie hoch ist die Durchschnittsgeschwindigkeit in Kilometern pro Stunde?",
+  "loesung": "v",
+  "gegenprobe": "s/std",
+  "fehler": [
+   {
+    "diagnoseId": "minuten_nicht_umgerechnet",
+    "ausdruck": "s/min",
+    "feedback": "Du hast durch die Minuten geteilt. Die Einheit km/h verlangt aber Stunden im Nenner. Rechne {min} Minuten zuerst in Stunden um: {min} ÷ 60."
+   },
+   {
+    "diagnoseId": "multipliziert_statt_geteilt",
+    "ausdruck": "s*std",
+    "feedback": "Du hast Weg und Zeit multipliziert. Geschwindigkeit ist Weg geteilt durch Zeit. Wer in weniger Zeit gleich weit kommt, ist schneller, also muss die Zeit im Nenner stehen."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "s+min",
+    "feedback": "Du hast Kilometer und Minuten addiert. Zwei verschiedene Grössen lassen sich nicht zusammenzählen. Km und Minuten geben zusammen keine Geschwindigkeit."
+   },
+   {
+    "diagnoseId": "kehrwert",
+    "ausdruck": "std/s*60",
+    "feedback": "Du hast Zeit durch Weg gerechnet. Das ergibt, wie lange man für einen Kilometer braucht. Eine sinnvolle Zahl, aber nicht die Geschwindigkeit in km/h."
+   }
+  ],
+  "hinweise": [
+   "Welche Einheit steht in km/h im Nenner, Minuten oder Stunden?",
+   "Rechne {min} Minuten zuerst in Stunden um. Wie viele Stunden sind das?",
+   "Das sind {std} Stunden. Teile jetzt {s} km durch diese Zahl."
+  ],
+  "loesungsweg": [
+   "km/h heisst: Kilometer geteilt durch Stunden.",
+   "{min} Minuten ÷ 60 = {std} Stunden",
+   "{s} km ÷ {std} h = {v} km/h"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "verhaeltnis-aufteilen",
+  "lernzielId": "M2.4.07",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "u",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 7
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "(u+v)*m"
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "u*m"
+   },
+   {
+    "name": "uv",
+    "typ": "formel",
+    "ausdruck": "u+v"
+   },
+   {
+    "name": "einteil",
+    "typ": "formel",
+    "ausdruck": "m"
+   }
+  ],
+  "bedingungen": [
+   "u<v",
+   "ggt(u,v)==1",
+   "gesamt<=400",
+   "gesamt>=30",
+   "teil!=gesamt",
+   "teil!=u",
+   "teil!=v",
+   "teil!=u+v",
+   "teil!=gesamt-u-v"
+  ],
+  "stamm": "Ein Turnverein hat {gesamt} Mitglieder. Kinder und Erwachsene stehen im Verhältnis {u} : {v}. Wie viele Kinder sind im Verein?",
+  "loesung": "gesamt*u/(u+v)",
+  "gegenprobe": "gesamt-gesamt*v/(u+v)",
+  "fehler": [
+   {
+    "diagnoseId": "verhaeltnis_vertauscht",
+    "ausdruck": "gesamt*v/(u+v)",
+    "feedback": "Du hast die Erwachsenen gerechnet. Im Verhältnis {u} : {v} steht die erste Zahl für die Kinder, und weil {u} kleiner ist als {v}, muss die Antwort die kleinere der beiden Gruppen sein."
+   },
+   {
+    "diagnoseId": "nur_geteilt",
+    "ausdruck": "gesamt/(u+v)",
+    "feedback": "Du hast einen einzelnen Anteil ausgerechnet. Das ist der richtige Zwischenschritt: So gross ist ein Teil. Die Kinder machen aber {u} solche Teile aus."
+   },
+   {
+    "diagnoseId": "verhaeltnis_als_anzahl",
+    "ausdruck": "gesamt-u-v",
+    "feedback": "Du hast {u} und {v} als Anzahl Personen abgezogen. Ein Verhältnis nennt keine Anzahlen, sondern sagt nur, wie sich die Gruppen zueinander verhalten."
+   },
+   {
+    "diagnoseId": "falsches_ganzes",
+    "ausdruck": "gesamt*u/v",
+    "feedback": "Du hast durch {v} statt durch {u} + {v} geteilt. Das Ganze besteht aus beiden Gruppen zusammen. Deshalb gehören alle Teile in den Nenner."
+   }
+  ],
+  "hinweise": [
+   "In wie viele gleich grosse Teile wird der Verein durch dieses Verhältnis aufgeteilt?",
+   "{u} + {v} ergibt die Anzahl Teile. Wie viele Mitglieder sind ein Teil?",
+   "Ein Teil sind {einteil} Mitglieder. Die Kinder machen {u} Teile aus."
+  ],
+  "loesungsweg": [
+   "Das Verhältnis {u} : {v} teilt den Verein in {uv} gleich grosse Teile.",
+   "Ein Teil: {gesamt} ÷ {uv} = {einteil} Mitglieder",
+   "Die Kinder sind {u} Teile: {einteil} · {u} = {teil}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "zins-jahreszins",
+  "lernzielId": "M2.4.11",
+  "fach": "mathematik",
+  "unterthemen": [
+   "4.11",
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "zins",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 400,
+    "schritt": 20
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     2.5,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "kapital",
+    "typ": "formel",
+    "ausdruck": "zins*100/satz"
+   },
+   {
+    "name": "einprozent",
+    "typ": "formel",
+    "ausdruck": "kapital/100"
+   },
+   {
+    "name": "konto",
+    "typ": "text",
+    "texte": [
+     [
+      "Sparkonto"
+     ],
+     [
+      "Jugendkonto"
+     ],
+     [
+      "Sparheft"
+     ],
+     [
+      "Vereinskonto"
+     ],
+     [
+      "Festgeldkonto"
+     ],
+     [
+      "Anlagekonto"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(kapital/100)==1",
+   "kapital<=40000",
+   "zins!=kapital",
+   "zins!=satz",
+   "zins!=kapital*satz"
+  ],
+  "stamm": "Auf einem {konto} liegen {kapital:franken}. Es wird mit {satz} % pro Jahr verzinst. Wie viel Zins bringt das Konto in einem Jahr?",
+  "loesung": "zins",
+  "gegenprobe": "kapital*satz/100",
+  "fehler": [
+   {
+    "diagnoseId": "durch_hundert_vergessen",
+    "ausdruck": "kapital*satz",
+    "feedback": "Du hast das Kapital mit {satz} multipliziert, aber nicht durch 100 geteilt. {satz} % heisst «{satz} von hundert», bei einem Zinssatz gehört das Teilen durch 100 immer dazu."
+   },
+   {
+    "diagnoseId": "kapital_plus_zins",
+    "ausdruck": "kapital+kapital*satz/100",
+    "feedback": "Du hast Kapital und Zins zusammengezählt, so viel liegt nach einem Jahr auf dem Konto. Gefragt ist aber nur der Zins, also allein der Zuwachs."
+   },
+   {
+    "diagnoseId": "promille_statt_prozent",
+    "ausdruck": "kapital*satz/1000",
+    "feedback": "Du hast durch 1000 geteilt statt durch 100. Durch 1000 teilt man bei Promille. Ein Prozent ist ein Hundertstel, nicht ein Tausendstel."
+   },
+   {
+    "diagnoseId": "halbes_jahr",
+    "ausdruck": "kapital*satz/200",
+    "feedback": "Du hast nur ein halbes Jahr gerechnet. Der Zinssatz von {satz} % gilt bereits für ein ganzes Jahr. Hier musst du nichts halbieren."
+   }
+  ],
+  "hinweise": [
+   "Von welchem Betrag werden die {satz} % gerechnet?",
+   "Rechne zuerst, wie viel 1 % des Kapitals ist: {kapital:franken} ÷ 100.",
+   "1 % sind {einprozent:franken}. Multipliziere das mit {satz}."
+  ],
+  "loesungsweg": [
+   "Der Grundwert ist das Kapital von {kapital:franken}, also 100 %.",
+   "1 % sind {kapital:franken} ÷ 100 = {einprozent:franken}.",
+   "{satz} % sind {einprozent:franken} · {satz} = {zins:franken}."
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Zinsaufgaben aus den Prüfungen 2018-2024, eigener Kontext und eigene Zahlen"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "wahrscheinlichkeit-einstufig",
+  "lernzielId": "M2.3.06",
+  "fach": "mathematik",
+  "unterthemen": [
+   "3.06",
+   "3.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "%",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40,
+     60,
+     75,
+     80
+    ]
+   },
+   {
+    "name": "gesamt",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     25,
+     40,
+     50,
+     60,
+     80
+    ]
+   },
+   {
+    "name": "gut",
+    "typ": "formel",
+    "ausdruck": "gesamt*p/100"
+   },
+   {
+    "name": "los",
+    "typ": "text",
+    "texte": [
+     [
+      "Lose",
+      "ein Los",
+      "gewinnt"
+     ],
+     [
+      "Kugeln",
+      "eine Kugel",
+      "ist rot"
+     ],
+     [
+      "Karten",
+      "eine Karte",
+      "zeigt ein Bild"
+     ],
+     [
+      "Bons",
+      "einen Bon",
+      "ist ein Gutschein"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(gut)==1",
+   "gut>=2",
+   "gut<gesamt",
+   "p!=gut",
+   "p!=gesamt",
+   "p!=gesamt-gut"
+  ],
+  "stamm": "In einer Trommel liegen {gesamt} {los}. Genau {gut} davon sind Treffer. Du ziehst {los.1} ohne hinzuschauen. Mit welcher Wahrscheinlichkeit ziehst du einen Treffer? Gib die Antwort in Prozent an.",
+  "loesung": "p",
+  "gegenprobe": "gut*100/gesamt",
+  "fehler": [
+   {
+    "diagnoseId": "gegenwahrscheinlichkeit",
+    "ausdruck": "100-p",
+    "feedback": "Du hast die Wahrscheinlichkeit für eine Niete gerechnet. Beide zusammen ergeben 100 %. Gefragt ist der Anteil der Treffer, nicht der Rest."
+   },
+   {
+    "diagnoseId": "anzahl_statt_prozent",
+    "ausdruck": "gut",
+    "feedback": "Du hast die Anzahl Treffer angegeben. Eine Wahrscheinlichkeit ist aber ein Anteil am Ganzen: {gut} von {gesamt}. Teile die beiden und rechne in Prozent um."
+   },
+   {
+    "diagnoseId": "nenner_vertauscht",
+    "ausdruck": "gesamt*100/gut",
+    "feedback": "Du hast {gesamt} durch {gut} geteilt. Eine Wahrscheinlichkeit ist nie grösser als 100 %, im Nenner steht immer die Gesamtzahl der Möglichkeiten."
+   },
+   {
+    "diagnoseId": "gegen_rest_gerechnet",
+    "ausdruck": "gut*100/(gesamt-gut)",
+    "feedback": "Du hast die Treffer mit den Nieten verglichen statt mit allen. Im Nenner gehören alle {gesamt} Lose, auch die Treffer selbst."
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl gehört in den Nenner: die Treffer oder alle Möglichkeiten zusammen?",
+   "Die Wahrscheinlichkeit ist {gut} geteilt durch {gesamt}. Wie machst du daraus Prozent?",
+   "Rechne {gut} ÷ {gesamt} und multipliziere das Ergebnis mit 100."
+  ],
+  "loesungsweg": [
+   "Günstige Fälle: {gut}. Mögliche Fälle: {gesamt}.",
+   "Wahrscheinlichkeit = {gut} ÷ {gesamt}",
+   "In Prozent: {gut} ÷ {gesamt} · 100 = {p} %"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "term-auswerten",
+  "lernzielId": "M2.2.02",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.02",
+   "1.01"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*b*b-c*b"
+   },
+   {
+    "name": "bb",
+    "typ": "formel",
+    "ausdruck": "b*b"
+   },
+   {
+    "name": "cb",
+    "typ": "formel",
+    "ausdruck": "c*b"
+   },
+   {
+    "name": "abb",
+    "typ": "formel",
+    "ausdruck": "a*b*b"
+   }
+  ],
+  "bedingungen": [
+   "wert>0",
+   "wert<=400",
+   "wert!=a",
+   "wert!=b",
+   "wert!=c",
+   "wert!=a*b",
+   "wert!=bb",
+   "wert!=cb",
+   "wert!=abb"
+  ],
+  "stamm": "Setze b = {b} in den Term ein und rechne aus:\n\n{a}b² − {c}b",
+  "loesung": "a*b*b-c*b",
+  "gegenprobe": "b*(a*b-c)",
+  "fehler": [
+   {
+    "diagnoseId": "potenz_als_faktor",
+    "ausdruck": "a*b*2-c*b",
+    "feedback": "Du hast b² als «b mal 2» gerechnet. b² heisst b mal b, hier also {b} · {b} = {bb}. Die Hochzahl sagt, wie oft der Wert als Faktor auftritt, nicht womit er multipliziert wird."
+   },
+   {
+    "diagnoseId": "zahl_vor_potenz",
+    "ausdruck": "(a*b)*(a*b)-c*b",
+    "feedback": "Du hast erst {a} · {b} gerechnet und das Ergebnis quadriert. Die Hochzahl gehört aber nur zum b, nicht zur {a}. Erst {b}² rechnen, dann mit {a} multiplizieren."
+   },
+   {
+    "diagnoseId": "minus_vergessen",
+    "ausdruck": "a*b*b+c*b",
+    "feedback": "Du hast addiert statt subtrahiert. Im Term steht ein Minuszeichen vor dem {c}b. Das bleibt beim Einsetzen erhalten."
+   },
+   {
+    "diagnoseId": "nur_erster_teil",
+    "ausdruck": "a*b*b",
+    "feedback": "Du hast nur den ersten Summanden gerechnet. Der Term hat zwei Teile; der zweite, {c}b = {cb}, muss noch abgezogen werden."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet die kleine 2 über dem b. Mal zwei oder b mal b?",
+   "Rechne zuerst {b}² aus, dann multipliziere mit {a}.",
+   "{b}² = {bb}, also {a} · {bb} = {abb}. Davon ziehst du {c} · {b} ab."
+  ],
+  "loesungsweg": [
+   "Für b setzt du überall {b} ein.",
+   "{a} · {b}² = {a} · {bb} = {abb}",
+   "{c} · {b} = {cb}",
+   "{abb} − {cb} = {wert}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gleichung-mit-bruechen",
+  "lernzielId": "M2.2.12",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.12",
+   "2.10"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 14
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "n*m/ggt(n,m)"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "kgv*k"
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "x/n"
+   },
+   {
+    "name": "s",
+    "typ": "formel",
+    "ausdruck": "x/m"
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "r-s"
+   },
+   {
+    "name": "nm",
+    "typ": "formel",
+    "ausdruck": "n*m"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "d>0",
+   "x<=400",
+   "x!=n",
+   "x!=m",
+   "x!=d",
+   "x!=r",
+   "x!=s",
+   "x!=nm",
+   "x!=kgv*2",
+   "d!=n",
+   "d!=m"
+  ],
+  "stamm": "Löse die Gleichung nach x auf:\n\nx/{n} − x/{m} = {d}",
+  "loesung": "x",
+  "gegenprobe": "d*n*m/(m-n)",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "d*(n+m)",
+    "feedback": "Du hast die beiden Nenner addiert. Beim Zusammenfassen von x/{n} und x/{m} brauchst du den gemeinsamen Nenner {nm}. Dort werden die Nenner multipliziert, nicht addiert."
+   },
+   {
+    "diagnoseId": "nur_ein_nenner",
+    "ausdruck": "d*n",
+    "feedback": "Du hast nur mit {n} multipliziert. Damit verschwindet der erste Bruch, der zweite aber nicht. Multipliziere die ganze Gleichung mit dem gemeinsamen Nenner {nm}."
+   },
+   {
+    "diagnoseId": "differenz_vertauscht",
+    "ausdruck": "d*n*m/(n-m)",
+    "feedback": "Du hast im Nenner {n} − {m} gerechnet. Da {n} kleiner ist als {m}, ergäbe das ein negatives x. Die Reihenfolge ist umgekehrt: {m} − {n}."
+   },
+   {
+    "diagnoseId": "nenner_multipliziert_ohne_rest",
+    "ausdruck": "d*n*m",
+    "feedback": "Du hast mit {nm} multipliziert, aber danach nicht mehr durch die Zahl vor dem x geteilt. Nach dem Multiplizieren steht dort nicht x allein."
+   }
+  ],
+  "hinweise": [
+   "Wie bekommst du die Brüche weg, ohne dass sich die Gleichung ändert?",
+   "Der gemeinsame Nenner von {n} und {m} ist {nm}. Multipliziere jede Seite damit.",
+   "Nach dem Multiplizieren steht {m}x − {n}x auf der linken Seite. Fasse zusammen und teile."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner von {n} und {m} ist {nm}.",
+   "Beide Seiten mal {nm}: {m}x − {n}x = {d} · {nm}",
+   "Links zusammenfassen und durch die Zahl vor dem x teilen.",
+   "x = {x}"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Gleichungsaufgaben der Prüfungen 2016-2024, eigene Zahlen"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "formel-nach-variable",
+  "lernzielId": "M2.2.14",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.14",
+   "4.02"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 2
+   },
+   {
+    "name": "f",
+    "typ": "formel",
+    "ausdruck": "g*h/2"
+   },
+   {
+    "name": "gh",
+    "typ": "formel",
+    "ausdruck": "g*h"
+   },
+   {
+    "name": "f2",
+    "typ": "formel",
+    "ausdruck": "2*f"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Segeltuch"
+     ],
+     [
+      "Blechschild"
+     ],
+     [
+      "Holzdreieck"
+     ],
+     [
+      "Stoffdreieck"
+     ],
+     [
+      "Papierdrachen"
+     ],
+     [
+      "Verkehrsschild"
+     ],
+     [
+      "Fensterdreieck"
+     ],
+     [
+      "Beet"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(f)==1",
+   "h!=g",
+   "h!=f",
+   "h!=f2",
+   "h!=gh",
+   "f>=20"
+  ],
+  "stamm": "Für die Fläche eines Dreiecks gilt A = g · h ÷ 2.\n\nEin dreieckiges {ding} hat die Fläche {f} cm² und die Grundseite {g} cm. Wie hoch ist es?",
+  "loesung": "h",
+  "gegenprobe": "2*f/g",
+  "fehler": [
+   {
+    "diagnoseId": "nicht_verdoppelt",
+    "ausdruck": "f/g",
+    "feedback": "Du hast nur durch {g} geteilt. In der Formel steht aber noch das Teilen durch 2, wenn du nach h auflöst, wird daraus ein Mal 2. Also zuerst die Fläche verdoppeln."
+   },
+   {
+    "diagnoseId": "halbiert_statt_verdoppelt",
+    "ausdruck": "f/(2*g)",
+    "feedback": "Du hast nochmals halbiert. Beim Auflösen kehrt sich jede Rechenart um: Aus «geteilt durch 2» in der Formel wird «mal 2» auf der anderen Seite."
+   },
+   {
+    "diagnoseId": "mal_statt_geteilt",
+    "ausdruck": "2*f*g",
+    "feedback": "Du hast mit {g} multipliziert statt geteilt. In der Formel steht g als Faktor, auf der anderen Seite wird daraus eine Division."
+   },
+   {
+    "diagnoseId": "formel_ignoriert",
+    "ausdruck": "f-g",
+    "feedback": "Du hast subtrahiert. In der Formel kommt nur Mal und Geteilt vor; beim Auflösen bleibt es dabei, nur umgekehrt."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechenart steht in der Formel zwischen h und dem Rest, und was wird daraus, wenn du sie auf die andere Seite bringst?",
+   "Multipliziere zuerst beide Seiten mit 2, damit der Bruch verschwindet.",
+   "Dann steht 2A = g · h. Teile jetzt durch {g}."
+  ],
+  "loesungsweg": [
+   "A = g · h ÷ 2",
+   "Beide Seiten mal 2: 2A = g · h, also {f2} = {g} · h",
+   "Durch {g} teilen: h = {f2} ÷ {g} = {h} cm"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "zahlenfolge-fortsetzen",
+  "lernzielId": "M2.2.15",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.15",
+   "2.16"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 30
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14
+   },
+   {
+    "name": "g1",
+    "typ": "formel",
+    "ausdruck": "start"
+   },
+   {
+    "name": "g2",
+    "typ": "formel",
+    "ausdruck": "start+d"
+   },
+   {
+    "name": "g3",
+    "typ": "formel",
+    "ausdruck": "start+2*d"
+   },
+   {
+    "name": "g4",
+    "typ": "formel",
+    "ausdruck": "start+3*d"
+   },
+   {
+    "name": "g5",
+    "typ": "formel",
+    "ausdruck": "start+4*d"
+   },
+   {
+    "name": "g6",
+    "typ": "formel",
+    "ausdruck": "start+5*d"
+   }
+  ],
+  "bedingungen": [
+   "g6!=start",
+   "g6!=d",
+   "g6!=g1",
+   "g6!=g2",
+   "g6!=g3",
+   "g6!=g4",
+   "g6!=g5",
+   "start!=d",
+   "d!=6",
+   "g5*2!=start+6*d",
+   "g5+6!=start+6*d",
+   "g5+6!=g5*2",
+   "start+5!=start+6*d",
+   "start+5!=g5*2",
+   "start+5!=g5+6"
+  ],
+  "stamm": "Setze die Zahlenfolge fort. Welche Zahl kommt an sechster Stelle?\n\n{g1}, {g2}, {g3}, {g4}, {g5}, …",
+  "loesung": "start+5*d",
+  "gegenprobe": "g5+d",
+  "fehler": [
+   {
+    "diagnoseId": "einen_schritt_zu_weit",
+    "ausdruck": "start+6*d",
+    "feedback": "Du bist einen Schritt zu weit. Die erste Zahl ist schon {g1}, von dort bis zur sechsten sind es fünf Schritte, nicht sechs."
+   },
+   {
+    "diagnoseId": "verdoppelt_statt_addiert",
+    "ausdruck": "g5*2",
+    "feedback": "Du hast die letzte Zahl verdoppelt. Diese Folge wächst nicht durch Multiplizieren, sondern indem jedes Mal derselbe Betrag {d} dazukommt."
+   },
+   {
+    "diagnoseId": "position_statt_schritt",
+    "ausdruck": "g5+6",
+    "feedback": "Du hast die Nummer der gesuchten Zahl addiert. Dazu kommt aber nicht die Position, sondern der Abstand zwischen zwei Nachbarzahlen: {d}."
+   },
+   {
+    "diagnoseId": "position_statt_abstand",
+    "ausdruck": "start+5",
+    "feedback": "Du hast fünf zur ersten Zahl addiert. Fünf ist die Anzahl der Schritte, nicht ihre Grösse. Jeder Schritt ist {d} gross."
+   }
+  ],
+  "hinweise": [
+   "Wie viel kommt von einer Zahl zur nächsten dazu? Rechne {g2} − {g1}.",
+   "Der Abstand ist immer gleich. Addiere ihn zur letzten gezeigten Zahl.",
+   "Der Abstand ist {d}. Rechne {g5} + {d}."
+  ],
+  "loesungsweg": [
+   "Zwischen zwei Nachbarzahlen liegen immer {d}.",
+   "Die fünfte Zahl ist {g5}.",
+   "{g5} + {d} = {g6}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "muster-nte-zahl",
+  "lernzielId": "M2.2.16",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.16",
+   "2.01"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     20,
+     25,
+     30,
+     40,
+     50,
+     100
+    ]
+   },
+   {
+    "name": "f1",
+    "typ": "formel",
+    "ausdruck": "a+b"
+   },
+   {
+    "name": "f2",
+    "typ": "formel",
+    "ausdruck": "2*a+b"
+   },
+   {
+    "name": "f3",
+    "typ": "formel",
+    "ausdruck": "3*a+b"
+   },
+   {
+    "name": "f4",
+    "typ": "formel",
+    "ausdruck": "4*a+b"
+   },
+   {
+    "name": "erg",
+    "typ": "formel",
+    "ausdruck": "a*n+b"
+   },
+   {
+    "name": "an",
+    "typ": "formel",
+    "ausdruck": "a*n"
+   }
+  ],
+  "bedingungen": [
+   "erg!=n",
+   "erg!=a",
+   "erg!=b",
+   "erg!=an",
+   "erg!=f4",
+   "f1!=a",
+   "f1!=b",
+   "a*n!=f1*n",
+   "a*n!=a+n+b",
+   "f1*n!=a+n+b",
+   "a+n+b!=a*n+b+a"
+  ],
+  "stamm": "Aus Streichhölzern werden Figuren gelegt. Für die Figuren 1 bis 4 braucht es {f1}, {f2}, {f3} und {f4} Hölzer.\n\nWie viele Hölzer braucht die Figur Nummer {n}?",
+  "loesung": "a*n+b",
+  "gegenprobe": "f4+a*(n-4)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_schritt_gerechnet",
+    "ausdruck": "a*n",
+    "feedback": "Du hast nur {a} · {n} gerechnet. Bei jeder Figur kommen zwar {a} Hölzer dazu, aber am Anfang liegen schon {b} da. Die musst du addieren."
+   },
+   {
+    "diagnoseId": "startwert_als_faktor",
+    "ausdruck": "f1*n",
+    "feedback": "Du hast die erste Figur mit {n} multipliziert. Die Folge wächst aber nicht um {f1} pro Schritt, sondern nur um {a}. Rechne {f2} − {f1}, um den Schritt zu finden."
+   },
+   {
+    "diagnoseId": "addiert_statt_multipliziert",
+    "ausdruck": "a+n+b",
+    "feedback": "Du hast alles addiert. Der Schritt {a} kommt {n}-mal vor, wird also multipliziert. Nur der feste Teil {b} kommt einmal dazu."
+   },
+   {
+    "diagnoseId": "einen_schritt_zu_viel",
+    "ausdruck": "a*n+b+a",
+    "feedback": "Du hast einen Schritt zu viel gerechnet. Mach die Probe an Figur 1: Deine Formel muss dort {f1} ergeben, nicht mehr."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Hölzer kommen von einer Figur zur nächsten dazu?",
+   "Es sind jedes Mal {a}. Was bleibt übrig, wenn du bei Figur 1 die {a} abziehst?",
+   "Die Formel lautet {a} · Nummer + {b}. Mach die Probe an Figur 1: {a} · 1 + {b} muss {f1} ergeben."
+  ],
+  "loesungsweg": [
+   "Von Figur zu Figur kommen {a} Hölzer dazu.",
+   "Bei Figur 1 sind es {f1}, also {a} · 1 + {b}.",
+   "Die Formel lautet {a} · Nummer + {b}.",
+   "Figur {n}: {a} · {n} + {b} = {erg}"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Musteraufgaben der Prüfungen 2018-2025, eigener Kontext"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "dreisatz-proportional",
+  "lernzielId": "M2.5.01",
+  "fach": "mathematik",
+  "unterthemen": [
+   "5.01",
+   "4.07"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "stueck1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12
+   },
+   {
+    "name": "stueck2",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 40
+   },
+   {
+    "name": "proStueck",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     2.5,
+     3,
+     4,
+     5,
+     6,
+     7.5,
+     8,
+     12
+    ]
+   },
+   {
+    "name": "preis1",
+    "typ": "formel",
+    "ausdruck": "stueck1*proStueck"
+   },
+   {
+    "name": "preis2",
+    "typ": "formel",
+    "ausdruck": "stueck2*proStueck"
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Notizhefte"
+     ],
+     [
+      "Setzlinge"
+     ],
+     [
+      "Baguettes"
+     ],
+     [
+      "Kerzen"
+     ],
+     [
+      "Pflastersteine"
+     ],
+     [
+      "Schrauben"
+     ],
+     [
+      "Postkarten"
+     ],
+     [
+      "Sitzkissen"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "stueck2>stueck1",
+   "istGanz(preis1*100)==1",
+   "istGanz(preis2*100)==1",
+   "preis2<=400",
+   "preis2!=stueck1",
+   "preis2!=stueck2",
+   "preis2!=preis1",
+   "preis2!=proStueck",
+   "preis1>=8"
+  ],
+  "stamm": "{stueck1} {ware} kosten Fr. {preis1:dezimal2}.\n\nWie viel kosten {stueck2} {ware} zum gleichen Preis?",
+  "loesung": "stueck2*proStueck",
+  "gegenprobe": "preis1/stueck1*stueck2",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_statt_verhaeltnis",
+    "ausdruck": "preis1+(stueck2-stueck1)",
+    "feedback": "Du hast die Stückzahl-Differenz als Franken dazugezählt. Beim Dreisatz geht es aber um das Verhältnis: Rechne zuerst aus, was ein Stück kostet."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "preis1*stueck2",
+    "feedback": "Du hast den Preis für {stueck1} Stück mit {stueck2} multipliziert. Damit rechnest du {stueck1} · {stueck2} Stück. Zuerst musst du auf ein Stück herunterrechnen."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "preis1*stueck1/stueck2",
+    "feedback": "Du hast geteilt statt multipliziert. {stueck2} ist mehr als {stueck1}. Mehr Stück kosten mehr, nicht weniger."
+   },
+   {
+    "diagnoseId": "nur_stueckpreis",
+    "ausdruck": "proStueck",
+    "feedback": "Das ist der Preis für ein einziges Stück. Das ist der richtige Zwischenschritt; jetzt fehlt noch die Multiplikation mit {stueck2}."
+   }
+  ],
+  "hinweise": [
+   "Was kostet ein einziges Stück?",
+   "Teile Fr. {preis1:dezimal2} durch {stueck1}, um den Preis für ein Stück zu bekommen.",
+   "Ein Stück kostet Fr. {proStueck:dezimal2}. Multipliziere das mit {stueck2}."
+  ],
+  "loesungsweg": [
+   "Ein Stück: Fr. {preis1:dezimal2} ÷ {stueck1} = Fr. {proStueck:dezimal2}",
+   "{stueck2} Stück: Fr. {proStueck:dezimal2} · {stueck2} = Fr. {preis2:dezimal2}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "umgekehrt-proportional",
+  "lernzielId": "M2.5.02",
+  "fach": "mathematik",
+  "unterthemen": [
+   "5.02"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "leute1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12
+   },
+   {
+    "name": "leute2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 24
+   },
+   {
+    "name": "tage1",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 36
+   },
+   {
+    "name": "arbeit",
+    "typ": "formel",
+    "ausdruck": "leute1*tage1"
+   },
+   {
+    "name": "tage2",
+    "typ": "formel",
+    "ausdruck": "arbeit/leute2"
+   },
+   {
+    "name": "was",
+    "typ": "text",
+    "texte": [
+     [
+      "Malerinnen",
+      "die Turnhalle streichen"
+     ],
+     [
+      "Gärtner",
+      "das Beet umgraben"
+     ],
+     [
+      "Helferinnen",
+      "die Kisten packen"
+     ],
+     [
+      "Bauarbeiter",
+      "die Mauer setzen"
+     ],
+     [
+      "Schülerinnen",
+      "den Schulhof aufräumen"
+     ],
+     [
+      "Näherinnen",
+      "die Kostüme fertigen"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "leute2!=leute1",
+   "istGanz(tage2*100)==1",
+   "tage2>=1",
+   "tage2<=60",
+   "tage2!=leute1",
+   "tage2!=leute2",
+   "tage2!=tage1",
+   "tage2!=arbeit"
+  ],
+  "stamm": "{leute1} {was} brauchen {tage1} Tage, um {was.1}.\n\nWie lange brauchen {leute2} {was} für dieselbe Arbeit? Alle arbeiten gleich schnell.",
+  "loesung": "arbeit/leute2",
+  "gegenprobe": "tage1*leute1/leute2",
+  "fehler": [
+   {
+    "diagnoseId": "proportional_gerechnet",
+    "ausdruck": "tage1*leute2/leute1",
+    "feedback": "Du hast wie beim normalen Dreisatz gerechnet. Hier ist es umgekehrt: Mehr Leute brauchen weniger Zeit, nicht mehr. Prüfe die Richtung, bevor du rechnest."
+   },
+   {
+    "diagnoseId": "differenz_gerechnet",
+    "ausdruck": "tage1-(leute2-leute1)",
+    "feedback": "Du hast die Differenz der Personen von den Tagen abgezogen. Es geht aber um das Verhältnis: Doppelt so viele Leute brauchen die halbe Zeit."
+   },
+   {
+    "diagnoseId": "arbeit_als_ergebnis",
+    "ausdruck": "arbeit",
+    "feedback": "Das ist die gesamte Arbeit in Personentagen. Der richtige Zwischenschritt. Jetzt musst du sie noch auf {leute2} Personen aufteilen."
+   },
+   {
+    "diagnoseId": "nur_geteilt",
+    "ausdruck": "tage1/leute2",
+    "feedback": "Du hast die Tage direkt durch {leute2} geteilt und die {leute1} Personen von vorher vergessen. Rechne zuerst aus, wie viele Personentage die Arbeit insgesamt kostet."
+   }
+  ],
+  "hinweise": [
+   "Brauchen mehr Leute mehr oder weniger Zeit?",
+   "Rechne zuerst die gesamte Arbeit in Personentagen: {leute1} · {tage1}.",
+   "Die Arbeit sind {arbeit} Personentage. Teile sie auf {leute2} Personen auf."
+  ],
+  "loesungsweg": [
+   "Gesamte Arbeit: {leute1} · {tage1} = {arbeit} Personentage",
+   "Auf {leute2} Personen verteilt: {arbeit} ÷ {leute2} = {tage2} Tage"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "steigung-zweipunkte",
+  "lernzielId": "M2.5.06",
+  "fach": "mathematik",
+  "unterthemen": [
+   "5.06",
+   "5.04"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     -3,
+     -2,
+     -1.5,
+     -1,
+     -0.5,
+     0.5,
+     1.5,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "x1",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6
+   },
+   {
+    "name": "dx",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6
+   },
+   {
+    "name": "y1",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8
+   },
+   {
+    "name": "x2",
+    "typ": "formel",
+    "ausdruck": "x1+dx"
+   },
+   {
+    "name": "y2",
+    "typ": "formel",
+    "ausdruck": "y1+m*dx"
+   },
+   {
+    "name": "dy",
+    "typ": "formel",
+    "ausdruck": "y2-y1"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(y2)==1",
+   "abs(y2)<=14",
+   "m!=x1",
+   "m!=x2",
+   "m!=y1",
+   "m!=y2",
+   "m!=dx",
+   "m!=dy"
+  ],
+  "stamm": "Eine Gerade geht durch die Punkte A({x1} | {y1}) und B({x2} | {y2}).\n\nWie gross ist ihre Steigung?",
+  "loesung": "m",
+  "gegenprobe": "(y2-y1)/(x2-x1)",
+  "fehler": [
+   {
+    "diagnoseId": "kehrwert",
+    "ausdruck": "(x2-x1)/(y2-y1)",
+    "feedback": "Du hast die Differenzen vertauscht. Die Steigung ist «wie viel hinauf pro wie viel nach rechts», also der Höhenunterschied geteilt durch den waagrechten Abstand, nicht umgekehrt."
+   },
+   {
+    "diagnoseId": "vorzeichen_vertauscht",
+    "ausdruck": "(y1-y2)/(x2-x1)",
+    "feedback": "Du hast oben und unten unterschiedlich herum gerechnet. Wenn du bei A anfängst, musst du das bei beiden Differenzen tun: y von B minus y von A, x von B minus x von A."
+   },
+   {
+    "diagnoseId": "summe_statt_differenz",
+    "ausdruck": "(y2+y1)/(x2+x1)",
+    "feedback": "Du hast addiert statt subtrahiert. Die Steigung beschreibt eine Veränderung. Dafür brauchst du immer die Differenz zwischen den beiden Punkten."
+   },
+   {
+    "diagnoseId": "nur_hoehenunterschied",
+    "ausdruck": "y2-y1",
+    "feedback": "Das ist nur der Höhenunterschied. Die Steigung sagt, wie viel Höhe auf einen Schritt nach rechts kommt. Dafür musst du noch durch {dx} teilen."
+   }
+  ],
+  "hinweise": [
+   "Wie viel geht es nach rechts, und wie viel nach oben oder unten?",
+   "Rechne beide Differenzen von A nach B: erst die y-Werte, dann die x-Werte.",
+   "Der Höhenunterschied ist {dy}, der waagrechte Abstand {dx}. Teile das eine durch das andere."
+  ],
+  "loesungsweg": [
+   "Von A nach B: waagrecht {dx}, senkrecht {dy}.",
+   "Steigung = senkrecht ÷ waagrecht",
+   "{dy} ÷ {dx} = {m}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "arithmetisches-mittel",
+  "lernzielId": "M2.3.04",
+  "fach": "mathematik",
+  "unterthemen": [
+   "3.04",
+   "3.03"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "w1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28
+   },
+   {
+    "name": "w2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28
+   },
+   {
+    "name": "w3",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28
+   },
+   {
+    "name": "w4",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28
+   },
+   {
+    "name": "w5",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "w1+w2+w3+w4+w5"
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "summe/5"
+   },
+   {
+    "name": "was",
+    "typ": "text",
+    "texte": [
+     [
+      "Tagen",
+      "Kilometer mit dem Velo"
+     ],
+     [
+      "Wochen",
+      "Bücher aus der Bibliothek"
+     ],
+     [
+      "Runden",
+      "Sekunden Vorsprung"
+     ],
+     [
+      "Spielen",
+      "Tore"
+     ],
+     [
+      "Monaten",
+      "Besuche im Hallenbad"
+     ],
+     [
+      "Proben",
+      "Fehler im Stück"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(mittel)==1",
+   "mittel!=w1",
+   "mittel!=w2",
+   "mittel!=w3",
+   "mittel!=w4",
+   "mittel!=w5",
+   "mittel!=summe/4",
+   "mittel!=summe/6",
+   "mittel!=(w1+w5)/2",
+   "mittel!=summe"
+  ],
+  "stamm": "An fünf {was} wurden diese Werte gemessen:\n\n{w1}, {w2}, {w3}, {w4}, {w5} {was.1}\n\nWie gross ist der Durchschnitt?",
+  "loesung": "summe/5",
+  "gegenprobe": "w1/5+w2/5+w3/5+w4/5+w5/5",
+  "fehler": [
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "summe",
+    "feedback": "Du hast nur addiert. Die Summe ist der richtige erste Schritt; danach teilst du sie durch die Anzahl der Werte, hier also durch 5."
+   },
+   {
+    "diagnoseId": "falsche_anzahl",
+    "ausdruck": "summe/4",
+    "feedback": "Du hast durch 4 geteilt. Zähle nach: Es sind fünf Werte, also wird auch durch 5 geteilt."
+   },
+   {
+    "diagnoseId": "nur_aussen",
+    "ausdruck": "(w1+w5)/2",
+    "feedback": "Du hast nur den ersten und den letzten Wert genommen. Beim Durchschnitt zählt jeder Wert gleich viel. Alle fünf müssen in die Summe."
+   },
+   {
+    "diagnoseId": "mitte_der_spanne",
+    "ausdruck": "(min(w1,w2,w3,w4,w5)+max(w1,w2,w3,w4,w5))/2",
+    "feedback": "Du hast die Mitte zwischen dem kleinsten und dem grössten Wert gerechnet. Das ist etwas anderes als der Durchschnitt: Beim Durchschnitt zählen auch die Werte dazwischen."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Werte sind es, und was machst du mit der Summe?",
+   "Addiere zuerst alle fünf Werte.",
+   "Die Summe ist {summe}. Teile sie durch die Anzahl der Werte."
+  ],
+  "loesungsweg": [
+   "Alle Werte addieren: {w1} + {w2} + {w3} + {w4} + {w5} = {summe}",
+   "Durch die Anzahl teilen: {summe} ÷ 5 = {mittel}"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "kreis-umfang-flaeche",
+  "lernzielId": "M2.7.07",
+  "fach": "mathematik",
+  "unterthemen": [
+   "7.07"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 24
+   },
+   {
+    "name": "rr",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Tischset"
+     ],
+     [
+      "Untersetzer"
+     ],
+     [
+      "Zifferblatt"
+     ],
+     [
+      "Deckel"
+     ],
+     [
+      "Trampolin"
+     ],
+     [
+      "Springbrunnen"
+     ],
+     [
+      "Zielscheibe"
+     ],
+     [
+      "Kuchenblech"
+     ],
+     [
+      "Sitzkissen"
+     ],
+     [
+      "Verkehrsschild"
+     ],
+     [
+      "Fenster"
+     ],
+     [
+      "Mosaik"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "rr!=r",
+   "rr!=d",
+   "rr!=2*d",
+   "r>=3",
+   "r!=4"
+  ],
+  "stamm": "Ein kreisrundes {ding} hat den Radius {r} cm.\n\nWie gross ist seine Fläche? Gib die Antwort als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "loesung": "r*r",
+  "gegenprobe": "d*d/4",
+  "fehler": [
+   {
+    "diagnoseId": "umfang_statt_flaeche",
+    "ausdruck": "2*r",
+    "feedback": "Du hast den Umfang gerechnet: U = 2πr. Die Fläche heisst A = πr². Dort wird der Radius mit sich selbst multipliziert, nicht mit 2."
+   },
+   {
+    "diagnoseId": "durchmesser_quadriert",
+    "ausdruck": "d*d",
+    "feedback": "Du hast den Durchmesser quadriert. In der Formel A = πr² steht der Radius, nicht der Durchmesser. Der Radius ist die Hälfte: {r} cm."
+   },
+   {
+    "diagnoseId": "faktor_zwei_zu_viel",
+    "ausdruck": "2*r*r",
+    "feedback": "Du hast noch mit 2 multipliziert. Die 2 gehört zum Umfang (2πr), nicht zur Fläche. A = πr², ohne zusätzlichen Faktor."
+   },
+   {
+    "diagnoseId": "halbiert_wie_dreieck",
+    "ausdruck": "r*r/2",
+    "feedback": "Du hast am Schluss halbiert. Das Halbieren gehört zur Dreiecksfläche, nicht zum Kreis. A = πr², ohne Teilen durch 2."
+   }
+  ],
+  "hinweise": [
+   "Wie heisst die Formel für die Kreisfläche, und was steht darin, r oder d?",
+   "A = πr². Setze den Radius ein und quadriere ihn.",
+   "{r}² bedeutet {r} · {r}."
+  ],
+  "loesungsweg": [
+   "Die Kreisfläche ist A = π · r².",
+   "r = {r} cm, also r² = {r} · {r} = {rr}.",
+   "A = {rr}π cm²"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Kreisaufgaben der Prüfungen 2019-2025, eigener Kontext"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "zylinder-volumen",
+  "lernzielId": "M2.8.08",
+  "fach": "mathematik",
+  "unterthemen": [
+   "8.08",
+   "8.05"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm³",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "rr",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "r*r*h"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Konservendose"
+     ],
+     [
+      "Regentonne"
+     ],
+     [
+      "Trinkglas"
+     ],
+     [
+      "Kerze"
+     ],
+     [
+      "Rohrstück"
+     ],
+     [
+      "Farbkübel"
+     ],
+     [
+      "Vase"
+     ],
+     [
+      "Blumentopf"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "v<=2000",
+   "v!=r",
+   "v!=h",
+   "v!=rr",
+   "v!=r*h",
+   "v!=2*rr*h",
+   "r>=3",
+   "v!=d*d*h",
+   "v!=r*r"
+  ],
+  "stamm": "Eine zylindrische {ding} hat den Radius {r} cm und die Höhe {h} cm.\n\nWie gross ist ihr Volumen? Gib die Antwort als Vielfaches von π an.",
+  "loesung": "r*r*h",
+  "gegenprobe": "d*d*h/4",
+  "fehler": [
+   {
+    "diagnoseId": "radius_nicht_quadriert",
+    "ausdruck": "r*h",
+    "feedback": "Du hast Radius mal Höhe gerechnet. Die Grundfläche des Zylinders ist ein Kreis: πr². Der Radius muss zuerst quadriert werden."
+   },
+   {
+    "diagnoseId": "durchmesser_statt_radius",
+    "ausdruck": "d*d*h",
+    "feedback": "Du hast mit dem Durchmesser gerechnet. In der Formel V = πr²h steht der Radius. Hier {r} cm, nicht {d} cm."
+   },
+   {
+    "diagnoseId": "nur_grundflaeche",
+    "ausdruck": "r*r",
+    "feedback": "Das ist die Grundfläche. Für das Volumen musst du sie noch mit der Höhe {h} multiplizieren, so wie beim Quader Grundfläche mal Höhe."
+   },
+   {
+    "diagnoseId": "wie_kegel_gedrittelt",
+    "ausdruck": "r*r*h/3",
+    "feedback": "Du hast durch 3 geteilt. Das Dritteln gehört zur Pyramide und zum Kegel. Ein Zylinder ist ein Prisma: Grundfläche mal Höhe, ohne Teilen."
+   }
+  ],
+  "hinweise": [
+   "Welche Form hat die Grundfläche eines Zylinders, und wie gross ist sie?",
+   "V = Grundfläche · Höhe. Die Grundfläche ist ein Kreis mit A = πr².",
+   "Die Grundfläche ist {rr}π cm². Multipliziere sie mit der Höhe {h}."
+  ],
+  "loesungsweg": [
+   "Der Zylinder ist ein Prisma: Volumen = Grundfläche · Höhe.",
+   "Grundfläche: π · {r}² = {rr}π cm²",
+   "Volumen: {rr}π · {h} = {v}π cm³"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Körperaufgaben der Prüfungen 2020-2025, eigener Kontext"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "winkelsumme-dreieck",
+  "lernzielId": "M2.7.03",
+  "fach": "mathematik",
+  "unterthemen": [
+   "7.03",
+   "7.01"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 110
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 110
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "180-a-b"
+   },
+   {
+    "name": "ab",
+    "typ": "formel",
+    "ausdruck": "a+b"
+   }
+  ],
+  "bedingungen": [
+   "c>=15",
+   "c<=140",
+   "a!=b",
+   "c!=a",
+   "c!=b",
+   "c!=ab",
+   "c!=180-ab-a",
+   "c!=a-b",
+   "c!=b-a"
+  ],
+  "stamm": "In einem Dreieck sind zwei Winkel bekannt: {a}° und {b}°.\n\nWie gross ist der dritte Winkel?",
+  "loesung": "180-a-b",
+  "gegenprobe": "180-(a+b)",
+  "fehler": [
+   {
+    "diagnoseId": "summe_360",
+    "ausdruck": "360-a-b",
+    "feedback": "Du hast mit 360° gerechnet. Das ist die Winkelsumme im Viereck. Im Dreieck sind es 180°."
+   },
+   {
+    "diagnoseId": "differenz_der_beiden",
+    "ausdruck": "a-b",
+    "feedback": "Du hast die beiden Winkel voneinander abgezogen. Die Regel lautet: Alle drei Winkel zusammen ergeben 180°. Ziehe also die Summe der beiden von 180° ab."
+   },
+   {
+    "diagnoseId": "summe_der_beiden",
+    "ausdruck": "a+b",
+    "feedback": "Das ist die Summe der beiden bekannten Winkel. Der richtige Zwischenschritt. Jetzt fehlt noch: 180° minus diese Summe."
+   },
+   {
+    "diagnoseId": "nur_einen_abgezogen",
+    "ausdruck": "180-a",
+    "feedback": "Du hast nur einen der beiden Winkel abgezogen. Beide bekannten Winkel gehören weg, bevor der dritte übrig bleibt."
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Summe aller drei Winkel in einem Dreieck?",
+   "Die Winkelsumme beträgt 180°. Addiere zuerst die beiden bekannten Winkel.",
+   "Zusammen sind sie {ab}°. Ziehe das von 180° ab."
+  ],
+  "loesungsweg": [
+   "Im Dreieck ergeben alle Winkel zusammen 180°.",
+   "{a}° + {b}° = {ab}°",
+   "180° − {ab}° = {c}°"
+  ],
+  "herkunft": {
+   "beziehung": "eigenentwicklung"
+  },
+  "status": "review"
+ }
+]

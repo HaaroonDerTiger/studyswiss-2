@@ -1,0 +1,4321 @@
+[
+ {
+  "templateId": "so-terme-zusammenfassen",
+  "lernzielId": "MSO.2.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Was passiert mit den Vorzeichen, wenn vor der Klammer ein Minus steht?",
+   "Ein Minus vor der Klammer dreht JEDES Vorzeichen darin um. Auch das zweite und dritte Glied.",
+   "Zähle nur zusammen, was denselben Buchstaben trägt."
+  ],
+  "loesungsweg": [
+   "Klammern von innen nach aussen auflösen.",
+   "Ein Plus vor der Klammer ändert nichts, ein Minus dreht alle Vorzeichen um.",
+   "Nach Buchstaben sortieren.",
+   "Nur gleichartige Glieder zusammenzählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n7a − (3a − 4b) − (2b − a)",
+    "optionen": [
+     "5a + 2b",
+     "3a + 2b",
+     "5a − 6b",
+     "5a − 2b"
+    ],
+    "loesung": [
+     "5a + 2b"
+    ],
+    "erklaerung": "7a − 3a + 4b − 2b + a: die a-Glieder ergeben 7 − 3 + 1 = 5, die b-Glieder 4 − 2 = 2.",
+    "fehler": [
+     {
+      "antwort": "3a + 2b",
+      "diagnoseId": "vorzeichen_beim_a",
+      "feedback": "Aus −(2b − a) wird −2b + a. Das a wird dazugezählt, nicht abgezogen."
+     },
+     {
+      "antwort": "5a − 6b",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −(3a − 4b) wird −3a + 4b. Minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "5a − 2b",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Die +4b aus der ersten Klammer fehlen in der Summe der b-Glieder."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n5x + (−(2x + y) + 3y) − (x − 2y)",
+    "optionen": [
+     "2x + 4y",
+     "2x − 2y",
+     "8x + 4y",
+     "2x + 6y"
+    ],
+    "loesung": [
+     "2x + 4y"
+    ],
+    "erklaerung": "5x − 2x − y + 3y − x + 2y: die x-Glieder ergeben 5 − 2 − 1 = 2, die y-Glieder −1 + 3 + 2 = 4.",
+    "fehler": [
+     {
+      "antwort": "2x − 2y",
+      "diagnoseId": "vorzeichen_der_inneren_klammer",
+      "feedback": "In der inneren Klammer steht −(2x + y). Das Minus dreht beide Vorzeichen um: −2x − y."
+     },
+     {
+      "antwort": "8x + 4y",
+      "diagnoseId": "vorzeichen_beim_x",
+      "feedback": "Vor der letzten Klammer steht ein Minus, also wird x abgezogen und nicht dazugezählt."
+     },
+     {
+      "antwort": "2x + 6y",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −(x − 2y) wird −x + 2y. Rechne die y-Glieder noch einmal durch: −y + 3y + 2y ergibt 4y."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n4(2m − n) − 3(m − 2n)",
+    "optionen": [
+     "5m + 2n",
+     "5m − 10n",
+     "11m + 2n",
+     "5m − 2n"
+    ],
+    "loesung": [
+     "5m + 2n"
+    ],
+    "erklaerung": "8m − 4n − 3m + 6n: die m-Glieder ergeben 8 − 3 = 5, die n-Glieder −4 + 6 = 2.",
+    "fehler": [
+     {
+      "antwort": "5m − 10n",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −3(m − 2n) wird −3m + 6n. Minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "11m + 2n",
+      "diagnoseId": "vorzeichen_beim_m",
+      "feedback": "Vor der zweiten Klammer steht ein Minus, also werden die 3m abgezogen."
+     },
+     {
+      "antwort": "5m − 2n",
+      "diagnoseId": "vorzeichen_beim_n",
+      "feedback": "−4n und +6n ergeben +2n, weil 6 grösser ist als 4."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n9p − (4p − 3q) − (5q − 2p)",
+    "optionen": [
+     "7p − 2q",
+     "3p − 2q",
+     "7p + 8q",
+     "7p − 8q"
+    ],
+    "loesung": [
+     "7p − 2q"
+    ],
+    "erklaerung": "9p − 4p + 3q − 5q + 2p: die p-Glieder ergeben 9 − 4 + 2 = 7, die q-Glieder 3 − 5 = −2.",
+    "fehler": [
+     {
+      "antwort": "3p − 2q",
+      "diagnoseId": "vorzeichen_beim_p",
+      "feedback": "Aus −(5q − 2p) wird −5q + 2p. Die 2p kommen dazu."
+     },
+     {
+      "antwort": "7p + 8q",
+      "diagnoseId": "vorzeichen_beim_q",
+      "feedback": "Aus −(5q − 2p) wird −5q + 2p. Die 5q werden abgezogen."
+     },
+     {
+      "antwort": "7p − 8q",
+      "diagnoseId": "erste_klammer_falsch",
+      "feedback": "Aus −(4p − 3q) wird −4p + 3q. Die 3q kommen also dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n−(3u − 5v) − (4v − 2u)",
+    "optionen": [
+     "−u + v",
+     "−5u + v",
+     "−u + 9v",
+     "−u − 9v"
+    ],
+    "loesung": [
+     "−u + v"
+    ],
+    "erklaerung": "−3u + 5v − 4v + 2u: die u-Glieder ergeben −3 + 2 = −1, die v-Glieder 5 − 4 = 1.",
+    "fehler": [
+     {
+      "antwort": "−5u + v",
+      "diagnoseId": "vorzeichen_beim_u",
+      "feedback": "Aus −(4v − 2u) wird −4v + 2u. Das u wird dazugezählt."
+     },
+     {
+      "antwort": "−u + 9v",
+      "diagnoseId": "vorzeichen_beim_v",
+      "feedback": "Aus −(4v − 2u) wird −4v + 2u. Die 4v werden abgezogen."
+     },
+     {
+      "antwort": "−u − 9v",
+      "diagnoseId": "beide_vorzeichen_falsch",
+      "feedback": "Beide Klammern haben ein Minus davor. Gehen Sie sie einzeln durch: jedes Vorzeichen dreht sich um."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n6r + 2(r − 3s) − (8r − s)",
+    "optionen": [
+     "−5s",
+     "7s",
+     "−5s + 16r",
+     "−7s"
+    ],
+    "loesung": [
+     "−5s"
+    ],
+    "erklaerung": "6r + 2r − 6s − 8r + s: die r-Glieder ergeben 6 + 2 − 8 = 0, die s-Glieder −6 + 1 = −5.",
+    "fehler": [
+     {
+      "antwort": "7s",
+      "diagnoseId": "vorzeichen_beim_s",
+      "feedback": "Aus −(8r − s) wird −8r + s. Zusammen mit −6s bleibt −5s."
+     },
+     {
+      "antwort": "−5s + 16r",
+      "diagnoseId": "vorzeichen_beim_r",
+      "feedback": "Vor der letzten Klammer steht ein Minus: die 8r werden abgezogen, und dann heben sich alle r auf."
+     },
+     {
+      "antwort": "−7s",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das +s aus der letzten Klammer fehlt. −6s plus s ergibt −5s."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n(5k + 2l) − (k + 5l) + 3l",
+    "optionen": [
+     "4k",
+     "4k + 10l",
+     "6k",
+     "4k − 10l"
+    ],
+    "loesung": [
+     "4k"
+    ],
+    "erklaerung": "5k + 2l − k − 5l + 3l: die k-Glieder ergeben 5 − 1 = 4, die l-Glieder 2 − 5 + 3 = 0.",
+    "fehler": [
+     {
+      "antwort": "4k + 10l",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −(k + 5l) wird −k − 5l. Die 5l werden abgezogen."
+     },
+     {
+      "antwort": "6k",
+      "diagnoseId": "vorzeichen_beim_k",
+      "feedback": "Aus −(k + 5l) wird −k. Das k wird abgezogen, nicht dazugezählt."
+     },
+     {
+      "antwort": "4k − 10l",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das +3l am Schluss steht ausserhalb der Klammern und gehört dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n8(y − 3) − 4(2y − 5)",
+    "optionen": [
+     "−4",
+     "−44",
+     "16y − 4",
+     "4"
+    ],
+    "loesung": [
+     "−4"
+    ],
+    "erklaerung": "8y − 24 − 8y + 20: die y-Glieder heben sich auf, übrig bleibt −24 + 20 = −4.",
+    "fehler": [
+     {
+      "antwort": "−44",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −4(2y − 5) wird −8y + 20. Minus mal minus ergibt plus, also +20 und nicht −20."
+     },
+     {
+      "antwort": "16y − 4",
+      "diagnoseId": "vorzeichen_beim_y",
+      "feedback": "Der Faktor vor der zweiten Klammer ist −4, also entsteht −8y. Zusammen mit 8y bleibt kein y übrig."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "zahlen_vertauscht",
+      "feedback": "−24 plus 20 ergibt −4. Prüfe, welche Zahl grösser ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n2(3c + d) + 4(c − 2d)",
+    "optionen": [
+     "10c − 6d",
+     "10c + 6d",
+     "7c − 6d",
+     "10c − 7d"
+    ],
+    "loesung": [
+     "10c − 6d"
+    ],
+    "erklaerung": "6c + 2d + 4c − 8d: die c-Glieder ergeben 6 + 4 = 10, die d-Glieder 2 − 8 = −6.",
+    "fehler": [
+     {
+      "antwort": "10c + 6d",
+      "diagnoseId": "vorzeichen_beim_d",
+      "feedback": "4 mal −2d ergibt −8d. Zusammen mit +2d bleibt −6d."
+     },
+     {
+      "antwort": "7c − 6d",
+      "diagnoseId": "faktor_nicht_verteilt",
+      "feedback": "Der Faktor 4 gilt auch für das c: 4 · c ergibt 4c, nicht c."
+     },
+     {
+      "antwort": "10c − 7d",
+      "diagnoseId": "faktor_vergessen",
+      "feedback": "Der Faktor 4 gilt für das ganze −2d: 4 · (−2d) ergibt −8d."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n7g − 3(2g − 5h) − 15h",
+    "optionen": [
+     "g",
+     "g − 30h",
+     "13g",
+     "g + 30h"
+    ],
+    "loesung": [
+     "g"
+    ],
+    "erklaerung": "7g − 6g + 15h − 15h: die g-Glieder ergeben 7 − 6 = 1, die h-Glieder heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "g − 30h",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −3(2g − 5h) wird −6g + 15h. Zusammen mit −15h heben sich die h-Glieder auf."
+     },
+     {
+      "antwort": "13g",
+      "diagnoseId": "vorzeichen_beim_g",
+      "feedback": "Vor der Klammer steht −3, also werden 6g abgezogen und nicht dazugezählt."
+     },
+     {
+      "antwort": "g + 30h",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das −15h am Schluss steht ausserhalb der Klammer und gehört trotzdem in die Rechnung."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n3(2s − t) − (6s − 4t)",
+    "optionen": [
+     "t",
+     "−t",
+     "12s + t",
+     "7t"
+    ],
+    "loesung": [
+     "t"
+    ],
+    "erklaerung": "6s − 3t − 6s + 4t: die s-Glieder heben sich auf, die t-Glieder ergeben −3 + 4 = 1.",
+    "fehler": [
+     {
+      "antwort": "−t",
+      "diagnoseId": "vorzeichen_beim_t",
+      "feedback": "Aus −(6s − 4t) wird −6s + 4t. Zusammen mit −3t bleibt +t."
+     },
+     {
+      "antwort": "12s + t",
+      "diagnoseId": "vorzeichen_beim_s",
+      "feedback": "Vor der Klammer steht ein Minus: die 6s werden abgezogen, und dann bleibt kein s übrig."
+     },
+     {
+      "antwort": "7t",
+      "diagnoseId": "zahlen_falsch",
+      "feedback": "−3t und +4t ergeben +1t, nicht 7t. Addiert werden die Koeffizienten mit ihren Vorzeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Fassen Sie so weit wie möglich zusammen:\n\n−2(4e − 3f) + 3(2e − f)",
+    "optionen": [
+     "−2e + 3f",
+     "−2e + 9f",
+     "14e + 3f",
+     "−2e − 3f"
+    ],
+    "loesung": [
+     "−2e + 3f"
+    ],
+    "erklaerung": "−8e + 6f + 6e − 3f: die e-Glieder ergeben −8 + 6 = −2, die f-Glieder 6 − 3 = 3.",
+    "fehler": [
+     {
+      "antwort": "−2e + 9f",
+      "diagnoseId": "vorzeichen_beim_f",
+      "feedback": "3 mal −f ergibt −3f. Zusammen mit +6f bleibt +3f."
+     },
+     {
+      "antwort": "14e + 3f",
+      "diagnoseId": "vorzeichen_beim_e",
+      "feedback": "Der Faktor vor der ersten Klammer ist −2, also entsteht −8e."
+     },
+     {
+      "antwort": "−2e − 3f",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "−2 mal −3f ergibt +6f. Minus mal minus ergibt plus."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Algebraische Summen zusammenfassen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-ausmultiplizieren",
+  "lernzielId": "MSO.2.02",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.02",
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Der Faktor vor der Klammer gilt für JEDES Glied darin.",
+   "Bei zwei Klammern wird jedes Glied der einen mit jedem Glied der anderen multipliziert. Vier Produkte.",
+   "Bestimme bei jedem Produkt zuerst das Vorzeichen."
+  ],
+  "loesungsweg": [
+   "Jedes Glied der Klammer mit dem Faktor davor multiplizieren.",
+   "Bei zwei Klammern entstehen vier Produkte.",
+   "Vorzeichen einzeln bestimmen: minus mal minus ergibt plus.",
+   "Am Schluss gleichartige Glieder zusammenfassen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n5(3x − 4)",
+    "optionen": [
+     "15x − 20",
+     "15x − 4",
+     "8x − 20",
+     "15x + 20"
+    ],
+    "loesung": [
+     "15x − 20"
+    ],
+    "erklaerung": "5 · 3x ergibt 15x, 5 · (−4) ergibt −20.",
+    "fehler": [
+     {
+      "antwort": "15x − 4",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Der Faktor 5 gilt auch für die −4: 5 · (−4) ergibt −20."
+     },
+     {
+      "antwort": "8x − 20",
+      "diagnoseId": "faktoren_addiert",
+      "feedback": "Der Faktor wird mit dem Koeffizienten multipliziert, nicht dazugezählt: 5 · 3 ergibt 15."
+     },
+     {
+      "antwort": "15x + 20",
+      "diagnoseId": "vorzeichen",
+      "feedback": "5 mal −4 ergibt −20. Plus mal minus ergibt minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n−3(4a + 5b)",
+    "optionen": [
+     "−12a − 15b",
+     "−12a + 15b",
+     "12a + 15b",
+     "−12a − 5b"
+    ],
+    "loesung": [
+     "−12a − 15b"
+    ],
+    "erklaerung": "−3 · 4a ergibt −12a, −3 · 5b ergibt −15b.",
+    "fehler": [
+     {
+      "antwort": "−12a + 15b",
+      "diagnoseId": "vorzeichen_beim_zweiten",
+      "feedback": "Auch das zweite Glied wird mit −3 multipliziert: −3 · 5b ergibt −15b."
+     },
+     {
+      "antwort": "12a + 15b",
+      "diagnoseId": "minus_vergessen",
+      "feedback": "Der Faktor ist −3, nicht 3. Beide Produkte werden negativ."
+     },
+     {
+      "antwort": "−12a − 5b",
+      "diagnoseId": "faktor_nicht_verteilt",
+      "feedback": "Der Faktor 3 fehlt beim zweiten Glied: −3 · 5b ergibt −15b."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n(x + 4)(x + 7)",
+    "optionen": [
+     "x² + 11x + 28",
+     "x² + 28",
+     "x² + 28x + 11",
+     "x² + 11x + 11"
+    ],
+    "loesung": [
+     "x² + 11x + 28"
+    ],
+    "erklaerung": "x · x = x², x · 7 = 7x, 4 · x = 4x, 4 · 7 = 28. Die x-Glieder ergeben zusammen 11x.",
+    "fehler": [
+     {
+      "antwort": "x² + 28",
+      "diagnoseId": "mittelglieder_vergessen",
+      "feedback": "Es entstehen vier Produkte, nicht zwei. Die gemischten Glieder 7x und 4x fehlen."
+     },
+     {
+      "antwort": "x² + 28x + 11",
+      "diagnoseId": "summe_und_produkt_vertauscht",
+      "feedback": "Für das mittlere Glied werden die Zahlen addiert (4 + 7 = 11), für das letzte multipliziert (4 · 7 = 28)."
+     },
+     {
+      "antwort": "x² + 11x + 11",
+      "diagnoseId": "letztes_glied_addiert",
+      "feedback": "Das letzte Glied ist das Produkt 4 · 7 = 28, nicht die Summe."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n(y − 3)(y + 8)",
+    "optionen": [
+     "y² + 5y − 24",
+     "y² − 5y − 24",
+     "y² + 11y − 24",
+     "y² + 5y + 24"
+    ],
+    "loesung": [
+     "y² + 5y − 24"
+    ],
+    "erklaerung": "y · y = y², y · 8 = 8y, −3 · y = −3y, −3 · 8 = −24. Die y-Glieder ergeben 8 − 3 = 5.",
+    "fehler": [
+     {
+      "antwort": "y² − 5y − 24",
+      "diagnoseId": "mittelglied_vorzeichen",
+      "feedback": "8y − 3y ergibt +5y. Prüfe, welches Glied grösser ist."
+     },
+     {
+      "antwort": "y² + 11y − 24",
+      "diagnoseId": "mittelglieder_addiert",
+      "feedback": "Die Zahlen werden mit ihren Vorzeichen zusammengezählt: −3 + 8 = 5, nicht 11."
+     },
+     {
+      "antwort": "y² + 5y + 24",
+      "diagnoseId": "letztes_vorzeichen",
+      "feedback": "−3 · 8 ergibt −24. Minus mal plus ergibt minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n3a(4a − 5)",
+    "optionen": [
+     "12a² − 15a",
+     "12a − 15a",
+     "12a² − 15",
+     "7a² − 15a"
+    ],
+    "loesung": [
+     "12a² − 15a"
+    ],
+    "erklaerung": "3a · 4a ergibt 12a², 3a · (−5) ergibt −15a.",
+    "fehler": [
+     {
+      "antwort": "12a − 15a",
+      "diagnoseId": "potenz_vergessen",
+      "feedback": "a mal a ergibt a², nicht a. Beim Multiplizieren gleicher Buchstaben werden die Hochzahlen addiert."
+     },
+     {
+      "antwort": "12a² − 15",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Auch das zweite Glied wird mit 3a multipliziert: 3a · (−5) ergibt −15a."
+     },
+     {
+      "antwort": "7a² − 15a",
+      "diagnoseId": "faktoren_addiert",
+      "feedback": "3 mal 4 ergibt 12, nicht 7. Der Faktor vor der Klammer wird mit dem Koeffizienten multipliziert, nicht dazugezählt."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n(3x + 2)(x − 5)",
+    "optionen": [
+     "3x² − 13x − 10",
+     "3x² + 13x − 10",
+     "3x² − 15x − 10",
+     "3x² − 13x + 10"
+    ],
+    "loesung": [
+     "3x² − 13x − 10"
+    ],
+    "erklaerung": "3x · x = 3x², 3x · (−5) = −15x, 2 · x = 2x, 2 · (−5) = −10. Die x-Glieder ergeben −15 + 2 = −13.",
+    "fehler": [
+     {
+      "antwort": "3x² + 13x − 10",
+      "diagnoseId": "mittelglied_vorzeichen",
+      "feedback": "−15x und +2x ergeben −13x. Das grössere Glied ist negativ."
+     },
+     {
+      "antwort": "3x² − 15x − 10",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das Produkt 2 · x fehlt. Es sind vier Produkte, nicht drei."
+     },
+     {
+      "antwort": "3x² − 13x + 10",
+      "diagnoseId": "letztes_vorzeichen",
+      "feedback": "2 · (−5) ergibt −10, nicht +10. Plus mal minus ergibt immer minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n−4x(3x − 2)",
+    "optionen": [
+     "−12x² + 8x",
+     "−12x² − 8x",
+     "12x² + 8x",
+     "−12x + 8x"
+    ],
+    "loesung": [
+     "−12x² + 8x"
+    ],
+    "erklaerung": "−4x · 3x ergibt −12x², −4x · (−2) ergibt +8x, weil minus mal minus plus ergibt.",
+    "fehler": [
+     {
+      "antwort": "−12x² − 8x",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Minus mal minus ergibt plus: −4x mal −2 ergibt +8x."
+     },
+     {
+      "antwort": "12x² + 8x",
+      "diagnoseId": "erstes_vorzeichen",
+      "feedback": "Der Faktor ist −4x. Mal 3x ergibt das −12x²."
+     },
+     {
+      "antwort": "−12x + 8x",
+      "diagnoseId": "potenz_vergessen",
+      "feedback": "x mal x ergibt x². Die Hochzahlen werden addiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n(2a + 3b)(a − b)",
+    "optionen": [
+     "2a² + ab − 3b²",
+     "2a² − 3b²",
+     "2a² + 5ab − 3b²",
+     "2a² + ab + 3b²"
+    ],
+    "loesung": [
+     "2a² + ab − 3b²"
+    ],
+    "erklaerung": "2a · a = 2a², 2a · (−b) = −2ab, 3b · a = 3ab, 3b · (−b) = −3b². Die gemischten Glieder ergeben −2ab + 3ab = ab.",
+    "fehler": [
+     {
+      "antwort": "2a² − 3b²",
+      "diagnoseId": "mittelglieder_vergessen",
+      "feedback": "Die gemischten Produkte fehlen. Es entstehen vier Produkte, nicht zwei."
+     },
+     {
+      "antwort": "2a² + 5ab − 3b²",
+      "diagnoseId": "mittelglieder_addiert",
+      "feedback": "−2ab und +3ab ergeben +ab, nicht 5ab. Achte auf die Vorzeichen."
+     },
+     {
+      "antwort": "2a² + ab + 3b²",
+      "diagnoseId": "letztes_vorzeichen",
+      "feedback": "3b · (−b) ergibt −3b². Plus mal minus ergibt minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n4(3m + 2) − 3(m − 5)",
+    "optionen": [
+     "9m + 23",
+     "9m − 7",
+     "15m + 23",
+     "9m + 8"
+    ],
+    "loesung": [
+     "9m + 23"
+    ],
+    "erklaerung": "12m + 8 − 3m + 15: die m-Glieder ergeben 12 − 3 = 9, die Zahlen 8 + 15 = 23.",
+    "fehler": [
+     {
+      "antwort": "9m − 7",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −3(m − 5) wird −3m + 15. Minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "15m + 23",
+      "diagnoseId": "vorzeichen_beim_m",
+      "feedback": "Vor der zweiten Klammer steht ein Minus: die 3m werden abgezogen."
+     },
+     {
+      "antwort": "9m + 8",
+      "diagnoseId": "glied_vergessen",
+      "feedback": "Das Produkt −3 · (−5) = +15 fehlt in der Summe der Zahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n2b(b + 4) − b(3b − 2)",
+    "optionen": [
+     "−b² + 10b",
+     "−b² + 6b",
+     "5b² + 10b",
+     "−b² + 10"
+    ],
+    "loesung": [
+     "−b² + 10b"
+    ],
+    "erklaerung": "2b² + 8b − 3b² + 2b: die b²-Glieder ergeben 2 − 3 = −1, die b-Glieder 8 + 2 = 10.",
+    "fehler": [
+     {
+      "antwort": "−b² + 6b",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −b(3b − 2) wird −3b² + 2b. Minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "5b² + 10b",
+      "diagnoseId": "vorzeichen_beim_quadrat",
+      "feedback": "Vor dem zweiten Ausdruck steht ein Minus: 2b² − 3b² = −b²."
+     },
+     {
+      "antwort": "−b² + 10",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Die gemischten Glieder tragen ein b: 8b und 2b ergeben 10b, nicht 10."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n(x − 6)(3x − 2)",
+    "optionen": [
+     "3x² − 20x + 12",
+     "3x² − 20x − 12",
+     "3x² − 16x + 12",
+     "3x² + 20x + 12"
+    ],
+    "loesung": [
+     "3x² − 20x + 12"
+    ],
+    "erklaerung": "3x² − 2x − 18x + 12: die x-Glieder ergeben −2 − 18 = −20, und −6 · (−2) ergibt +12.",
+    "fehler": [
+     {
+      "antwort": "3x² − 20x − 12",
+      "diagnoseId": "letztes_vorzeichen",
+      "feedback": "−6 mal −2 ergibt +12. Minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "3x² − 16x + 12",
+      "diagnoseId": "mittelglieder_falsch",
+      "feedback": "−2x und −18x ergeben zusammen −20x. Beide Glieder sind negativ."
+     },
+     {
+      "antwort": "3x² + 20x + 12",
+      "diagnoseId": "mittelglied_vorzeichen",
+      "feedback": "Beide gemischten Produkte sind negativ, ihre Summe also auch."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus und fassen Sie zusammen:\n\n−2(5n − 3) − (4 − n)",
+    "optionen": [
+     "−9n + 2",
+     "−9n + 10",
+     "−11n + 2",
+     "−9n − 2"
+    ],
+    "loesung": [
+     "−9n + 2"
+    ],
+    "erklaerung": "−10n + 6 − 4 + n: die n-Glieder ergeben −10 + 1 = −9, die Zahlen 6 − 4 = 2.",
+    "fehler": [
+     {
+      "antwort": "−9n + 10",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Aus −(4 − n) wird −4 + n. Die 4 wird abgezogen, nicht dazugezählt."
+     },
+     {
+      "antwort": "−11n + 2",
+      "diagnoseId": "vorzeichen_beim_n",
+      "feedback": "Aus −(4 − n) wird +n. Das n kommt dazu, also −10n + n = −9n."
+     },
+     {
+      "antwort": "−9n − 2",
+      "diagnoseId": "zahlen_falsch",
+      "feedback": "−2 mal −3 ergibt +6, und davon wird 4 abgezogen: 6 − 4 = 2."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme ausmultiplizieren",
+  "status": "review"
+ },
+ {
+  "templateId": "so-binome",
+  "lernzielId": "MSO.2.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.03",
+   "2.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Welche der drei binomischen Formeln passt hier?",
+   "(a + b)² ergibt a² + 2ab + b², (a − b)² ergibt a² − 2ab + b², (a + b)(a − b) ergibt a² − b².",
+   "Das mittlere Glied entsteht zweimal. Es wird verdoppelt."
+  ],
+  "loesungsweg": [
+   "Form erkennen: Quadrat oder Plus-mal-Minus-Paar?",
+   "Das erste Glied quadrieren, samt seiner Zahl.",
+   "Das doppelte Produkt der beiden Glieder bilden, mit dem richtigen Vorzeichen.",
+   "Das zweite Glied quadrieren; beim Quadrat ist es immer positiv."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(5x + 3y)²",
+    "optionen": [
+     "25x² + 30xy + 9y²",
+     "25x² + 9y²",
+     "25x² + 15xy + 9y²",
+     "5x² + 30xy + 3y²"
+    ],
+    "loesung": [
+     "25x² + 30xy + 9y²"
+    ],
+    "erklaerung": "(5x)² = 25x², das doppelte Produkt ist 2 · 5x · 3y = 30xy, und (3y)² = 9y².",
+    "fehler": [
+     {
+      "antwort": "25x² + 9y²",
+      "diagnoseId": "mittelglied_vergessen",
+      "feedback": "Beim Quadrieren einer Summe entsteht immer das doppelte Produkt der beiden Glieder."
+     },
+     {
+      "antwort": "25x² + 15xy + 9y²",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "5x · 3y ergibt 15xy, und das kommt zweimal vor: 30xy."
+     },
+     {
+      "antwort": "5x² + 30xy + 3y²",
+      "diagnoseId": "koeffizient_nicht_quadriert",
+      "feedback": "Quadriert wird der ganze Ausdruck 5x, also 5 · 5 · x · x = 25x²."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(4a − 7)²",
+    "optionen": [
+     "16a² − 56a + 49",
+     "16a² + 56a + 49",
+     "16a² − 28a + 49",
+     "16a² − 56a − 49"
+    ],
+    "loesung": [
+     "16a² − 56a + 49"
+    ],
+    "erklaerung": "(4a)² = 16a², das doppelte Produkt ist 2 · 4a · 7 = 56a und wird abgezogen, und 7² = 49.",
+    "fehler": [
+     {
+      "antwort": "16a² + 56a + 49",
+      "diagnoseId": "vorzeichen_mittelglied",
+      "feedback": "In der Klammer steht ein Minus, also wird das mittlere Glied abgezogen."
+     },
+     {
+      "antwort": "16a² − 28a + 49",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "4a · 7 ergibt 28a, und das kommt zweimal vor: 56a."
+     },
+     {
+      "antwort": "16a² − 56a − 49",
+      "diagnoseId": "letztes_glied_negativ",
+      "feedback": "(−7)² ergibt +49. Ein Quadrat ist nie negativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(3m + 8)(3m − 8)",
+    "optionen": [
+     "9m² − 64",
+     "9m² + 64",
+     "9m² − 48m − 64",
+     "3m² − 64"
+    ],
+    "loesung": [
+     "9m² − 64"
+    ],
+    "erklaerung": "Plus mal Minus: Die gemischten Glieder heben sich auf, übrig bleibt (3m)² − 8² = 9m² − 64.",
+    "fehler": [
+     {
+      "antwort": "9m² + 64",
+      "diagnoseId": "vorzeichen_am_schluss",
+      "feedback": "8 · (−8) ergibt −64. Bei der dritten binomischen Formel wird abgezogen."
+     },
+     {
+      "antwort": "9m² − 48m − 64",
+      "diagnoseId": "mittelglied_falsch",
+      "feedback": "+24m und −24m heben sich auf. Bei (a + b)(a − b) bleibt kein mittleres Glied übrig."
+     },
+     {
+      "antwort": "3m² − 64",
+      "diagnoseId": "koeffizient_nicht_quadriert",
+      "feedback": "3m mal 3m ergibt 9m². Die 3 wird mitquadriert."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(x + 9)²",
+    "optionen": [
+     "x² + 18x + 81",
+     "x² + 81",
+     "x² + 9x + 81",
+     "x² + 18x + 18"
+    ],
+    "loesung": [
+     "x² + 18x + 81"
+    ],
+    "erklaerung": "x² plus das doppelte Produkt 2 · x · 9 = 18x plus 9² = 81.",
+    "fehler": [
+     {
+      "antwort": "x² + 81",
+      "diagnoseId": "mittelglied_vergessen",
+      "feedback": "Beim Quadrieren einer Summe entsteht immer ein mittleres Glied: das doppelte Produkt."
+     },
+     {
+      "antwort": "x² + 9x + 81",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "Das Produkt x · 9 kommt zweimal vor, also 18x."
+     },
+     {
+      "antwort": "x² + 18x + 18",
+      "diagnoseId": "letztes_glied_verdoppelt",
+      "feedback": "Das letzte Glied wird quadriert, nicht verdoppelt: 9² = 81."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(2p − 5q)²",
+    "optionen": [
+     "4p² − 20pq + 25q²",
+     "4p² + 20pq + 25q²",
+     "4p² − 10pq + 25q²",
+     "4p² − 20pq − 25q²"
+    ],
+    "loesung": [
+     "4p² − 20pq + 25q²"
+    ],
+    "erklaerung": "(2p)² = 4p², das doppelte Produkt ist 2 · 2p · 5q = 20pq und wird abgezogen, und (5q)² = 25q².",
+    "fehler": [
+     {
+      "antwort": "4p² + 20pq + 25q²",
+      "diagnoseId": "vorzeichen_mittelglied",
+      "feedback": "In der Klammer steht ein Minus. Das mittlere Glied wird abgezogen."
+     },
+     {
+      "antwort": "4p² − 10pq + 25q²",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "2p · 5q ergibt 10pq, und das kommt zweimal vor: 20pq."
+     },
+     {
+      "antwort": "4p² − 20pq − 25q²",
+      "diagnoseId": "letztes_glied_negativ",
+      "feedback": "(−5q)² ergibt +25q². Minus mal minus ergibt plus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(6 + b)(6 − b)",
+    "optionen": [
+     "36 − b²",
+     "36 + b²",
+     "b² − 36",
+     "36 − 12b − b²"
+    ],
+    "loesung": [
+     "36 − b²"
+    ],
+    "erklaerung": "Dritte binomische Formel: 36 − b². Zuerst kommt das Glied mit gleichem Vorzeichen in beiden Klammern.",
+    "fehler": [
+     {
+      "antwort": "36 + b²",
+      "diagnoseId": "vorzeichen_am_schluss",
+      "feedback": "b · (−b) ergibt −b². Das zweite Quadrat wird abgezogen."
+     },
+     {
+      "antwort": "b² − 36",
+      "diagnoseId": "glieder_vertauscht",
+      "feedback": "Quadriert und vorangestellt wird das Glied, das in beiden Klammern dasselbe Vorzeichen hat. Hier die 6."
+     },
+     {
+      "antwort": "36 − 12b − b²",
+      "diagnoseId": "mittelglied_falsch",
+      "feedback": "+6b und −6b heben sich auf. Bei Plus mal Minus bleibt kein mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(7k − 1)²",
+    "optionen": [
+     "49k² − 14k + 1",
+     "49k² − 7k + 1",
+     "49k² − 14k − 1",
+     "7k² − 14k + 1"
+    ],
+    "loesung": [
+     "49k² − 14k + 1"
+    ],
+    "erklaerung": "(7k)² = 49k², das doppelte Produkt ist 2 · 7k · 1 = 14k und wird abgezogen, und 1² = 1.",
+    "fehler": [
+     {
+      "antwort": "49k² − 7k + 1",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "7k · 1 ergibt 7k, und das kommt zweimal vor: 14k."
+     },
+     {
+      "antwort": "49k² − 14k − 1",
+      "diagnoseId": "letztes_glied_negativ",
+      "feedback": "(−1)² ergibt +1. Ein Quadrat ist nie negativ."
+     },
+     {
+      "antwort": "7k² − 14k + 1",
+      "diagnoseId": "koeffizient_nicht_quadriert",
+      "feedback": "(7k)² ergibt 49k². Die 7 wird mitquadriert."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(2 + 5t)²",
+    "optionen": [
+     "4 + 20t + 25t²",
+     "4 + 10t + 25t²",
+     "4 + 25t²",
+     "4 + 20t + 5t²"
+    ],
+    "loesung": [
+     "4 + 20t + 25t²"
+    ],
+    "erklaerung": "2² = 4, das doppelte Produkt ist 2 · 2 · 5t = 20t, und (5t)² = 25t².",
+    "fehler": [
+     {
+      "antwort": "4 + 10t + 25t²",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "2 · 5t ergibt 10t, und das kommt zweimal vor: 20t."
+     },
+     {
+      "antwort": "4 + 25t²",
+      "diagnoseId": "mittelglied_vergessen",
+      "feedback": "Beim Quadrieren einer Summe fehlt das doppelte Produkt der beiden Glieder."
+     },
+     {
+      "antwort": "4 + 20t + 5t²",
+      "diagnoseId": "koeffizient_nicht_quadriert",
+      "feedback": "(5t)² ergibt 25t². Die 5 wird mitquadriert."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(5c + 2d)(5c − 2d)",
+    "optionen": [
+     "25c² − 4d²",
+     "25c² + 4d²",
+     "25c² − 20cd − 4d²",
+     "5c² − 2d²"
+    ],
+    "loesung": [
+     "25c² − 4d²"
+    ],
+    "erklaerung": "Dritte binomische Formel: (5c)² − (2d)² = 25c² − 4d².",
+    "fehler": [
+     {
+      "antwort": "25c² + 4d²",
+      "diagnoseId": "vorzeichen_am_schluss",
+      "feedback": "2d · (−2d) ergibt −4d². Das zweite Quadrat wird abgezogen."
+     },
+     {
+      "antwort": "25c² − 20cd − 4d²",
+      "diagnoseId": "mittelglied_falsch",
+      "feedback": "+10cd und −10cd heben sich auf. Bei Plus mal Minus bleibt kein mittleres Glied."
+     },
+     {
+      "antwort": "5c² − 2d²",
+      "diagnoseId": "nicht_quadriert",
+      "feedback": "Beide Ausdrücke werden ganz quadriert: (5c)² = 25c² und (2d)² = 4d²."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(y − 10)²",
+    "optionen": [
+     "y² − 20y + 100",
+     "y² − 10y + 100",
+     "y² + 20y + 100",
+     "y² − 20y − 100"
+    ],
+    "loesung": [
+     "y² − 20y + 100"
+    ],
+    "erklaerung": "y² minus das doppelte Produkt 2 · y · 10 = 20y plus 10² = 100.",
+    "fehler": [
+     {
+      "antwort": "y² − 10y + 100",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "Das Produkt y · 10 kommt zweimal vor, also 20y."
+     },
+     {
+      "antwort": "y² + 20y + 100",
+      "diagnoseId": "vorzeichen_mittelglied",
+      "feedback": "In der Klammer steht ein Minus. Das mittlere Glied wird abgezogen."
+     },
+     {
+      "antwort": "y² − 20y − 100",
+      "diagnoseId": "letztes_glied_negativ",
+      "feedback": "(−10)² ergibt +100. Ein Quadrat ist nie negativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(3a + 4b)²",
+    "optionen": [
+     "9a² + 24ab + 16b²",
+     "9a² + 12ab + 16b²",
+     "9a² + 16b²",
+     "3a² + 24ab + 4b²"
+    ],
+    "loesung": [
+     "9a² + 24ab + 16b²"
+    ],
+    "erklaerung": "(3a)² = 9a², das doppelte Produkt ist 2 · 3a · 4b = 24ab, und (4b)² = 16b².",
+    "fehler": [
+     {
+      "antwort": "9a² + 12ab + 16b²",
+      "diagnoseId": "nicht_verdoppelt",
+      "feedback": "3a · 4b ergibt 12ab, und das kommt zweimal vor: 24ab."
+     },
+     {
+      "antwort": "9a² + 16b²",
+      "diagnoseId": "mittelglied_vergessen",
+      "feedback": "Das doppelte Produkt der beiden Glieder fehlt."
+     },
+     {
+      "antwort": "3a² + 24ab + 4b²",
+      "diagnoseId": "koeffizienten_nicht_quadriert",
+      "feedback": "Beide Zahlen werden mitquadriert: 3² = 9 und 4² = 16."
+     }
+    ]
+   },
+   {
+    "stamm": "Multiplizieren Sie aus:\n\n(9 − n)(9 + n)",
+    "optionen": [
+     "81 − n²",
+     "81 + n²",
+     "n² − 81",
+     "81 − 18n − n²"
+    ],
+    "loesung": [
+     "81 − n²"
+    ],
+    "erklaerung": "Dritte binomische Formel: 81 − n². Die Reihenfolge der Klammern spielt keine Rolle.",
+    "fehler": [
+     {
+      "antwort": "81 + n²",
+      "diagnoseId": "vorzeichen_am_schluss",
+      "feedback": "−n · n ergibt −n². Das zweite Quadrat wird abgezogen."
+     },
+     {
+      "antwort": "n² − 81",
+      "diagnoseId": "glieder_vertauscht",
+      "feedback": "Vorangestellt wird das Glied, das in beiden Klammern dasselbe Vorzeichen hat. Hier die 9."
+     },
+     {
+      "antwort": "81 − 18n − n²",
+      "diagnoseId": "mittelglied_falsch",
+      "feedback": "+9n und −9n heben sich auf. Bei Plus mal Minus bleibt kein mittleres Glied."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Binomische Formeln ausmultiplizieren",
+  "status": "review"
+ },
+ {
+  "templateId": "so-terme-gleichwertig",
+  "lernzielId": "MSO.2.06",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.06",
+   "2.02",
+   "2.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Multiplizieren Sie den linken Term aus und vergleichen Sie Glied für Glied.",
+   "Zwei Terme sind gleichwertig, wenn sie für JEDE Zahl denselben Wert ergeben. Eine einzige Probe genügt zum Widerlegen.",
+   "Achte auf das Vorzeichen vor der Klammer und darauf, ob wirklich alle Glieder multipliziert wurden."
+  ],
+  "loesungsweg": [
+   "Den linken Term vollständig ausmultiplizieren.",
+   "Gleichartige Glieder zusammenfassen.",
+   "Mit dem rechten Term Glied für Glied vergleichen.",
+   "Im Zweifel eine Zahl einsetzen: Ergeben beide Terme dasselbe?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Quadrate und Vorzeichen)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Ein Quadrat einer Summe ist nie die Summe der Quadrate: (3x + 2y)² ergibt 9x² + 12xy + 4y². Ein Minus vor der Klammer dreht jedes Vorzeichen darin um.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "(3x + 2y)²  und  9x² + 4y²",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(3x + 2y)²  und  9x² + 12xy + 4y²",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(7a − 5b + c) · (−2)  und  −14a + 10b − 2c",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(7a − 5b + c) · (−2)  und  14a + 10b − 2c",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (zwei Klammern)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Bei zwei Klammern entstehen vier Produkte. Fehlt eines, stimmt der Term nicht mehr.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "(2 + a) · (3 − b)  und  6 − 2b + 3a − ab",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(2 + a) · (3 − b)  und  6 − 2b + 3a − 6ab",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(x − 4)(x + 4)  und  x² − 16",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(x − 4)(x + 4)  und  x² − 8x − 16",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Faktor vor der Klammer)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Faktor gilt für jedes Glied in der Klammer. Auch für das letzte.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "5(2m − 3)  und  10m − 15",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "5(2m − 3)  und  10m − 3",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "−3(x + 4)  und  −3x − 12",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "−3(x + 4)  und  −3x + 12",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Minus vor der Klammer)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Ein Minus vor der Klammer kehrt JEDES Vorzeichen darin um, nicht nur das erste.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "a − (b − c)  und  a − b + c",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "a − (b − c)  und  a − b − c",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "4 − (2x + 1)  und  3 − 2x",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "4 − (2x + 1)  und  5 − 2x",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Potenzen)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Beim Multiplizieren gleicher Basen werden die Hochzahlen addiert, beim Potenzieren einer Potenz multipliziert.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "x³ · x⁴  und  x⁷",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "x³ · x⁴  und  x¹²",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(y²)³  und  y⁶",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(y²)³  und  y⁵",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Ausklammern)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Die Probe beim Ausklammern ist das Ausmultiplizieren: Es muss der Ausgangsterm herauskommen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "6a + 9  und  3(2a + 3)",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "6a + 9  und  3(2a + 9)",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "4x² − 4x  und  4x(x − 1)",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "4x² − 4x  und  4x(x − 4)",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (zweite binomische Formel)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "(a − b)² ergibt a² − 2ab + b². Das letzte Glied ist positiv, weil minus mal minus plus ergibt.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "(x − 5)²  und  x² − 10x + 25",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(x − 5)²  und  x² − 25",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(x − 5)²  und  x² − 10x − 25",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(5 − x)²  und  (x − 5)²",
+      "loesung": [
+       "gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Brüche und Division)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Ein Bruchstrich wirkt wie eine Klammer: Er teilt den GANZEN Zähler, nicht nur dessen erstes Glied.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "(6x + 9) : 3  und  2x + 3",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(6x + 9) : 3  und  2x + 9",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(4a − 8) : 4  und  a − 2",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(4a − 8) : 4  und  a − 8",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Vorzeichen beim Umstellen)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Die Reihenfolge einer Summe darf man vertauschen, die Vorzeichen gehören aber zum jeweiligen Glied.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "3 − x  und  −x + 3",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "3 − x  und  x − 3",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "−a + b  und  b − a",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "−a + b  und  a − b",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (dritte binomische Formel)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "(a + b)(a − b) ergibt a² − b². Ein mittleres Glied entsteht dabei nicht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "(2m + 3)(2m − 3)  und  4m² − 9",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(2m + 3)(2m − 3)  und  4m² + 9",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "(2m + 3)(2m − 3)  und  (2m − 3)(2m + 3)",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(2m + 3)²  und  4m² − 9",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (gemischte Fälle)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Setze im Zweifel eine Zahl ein. Ein einziger Gegenwert genügt, um Gleichwertigkeit zu widerlegen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "2(x + 3) + 3(x − 1)  und  5x + 3",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "2(x + 3) + 3(x − 1)  und  5x + 9",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "a² · a  und  a³",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "a² + a  und  a³",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie für jede Zeile, ob die beiden Terme gleichwertig sind. (Quadrat und Faktor 2)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "x² heisst x mal x, nicht 2 mal x. Diese beiden stimmen nur zufällig für x = 0 und x = 2 überein.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "x²  und  2x",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     },
+     {
+      "text": "x · x  und  x²",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(2x)²  und  4x²",
+      "loesung": [
+       "gleichwertig"
+      ]
+     },
+     {
+      "text": "(2x)²  und  2x²",
+      "loesung": [
+       "nicht gleichwertig"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "gleichwertig",
+   "nicht gleichwertig"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sind zwei Terme gleichwertig?",
+  "status": "review"
+ },
+ {
+  "templateId": "so-faktorisieren",
+  "lernzielId": "MSO.2.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Was kommt in JEDEM Glied vor. Eine Zahl, ein Buchstabe oder beides?",
+   "Klammern Sie den grössten gemeinsamen Faktor aus, nicht irgendeinen.",
+   "Die Probe: Multiplizieren Sie wieder aus. Es muss der Ausgangsterm dastehen."
+  ],
+  "loesungsweg": [
+   "Den grössten gemeinsamen Teiler der Zahlen suchen.",
+   "Jeden Buchstaben suchen, der in jedem Glied vorkommt, mit der KLEINSTEN Hochzahl.",
+   "Beides vor die Klammer schreiben.",
+   "In die Klammer kommt, was nach dem Teilen übrig bleibt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n12r²s³t² − 18rt² + 24rs²t",
+    "optionen": [
+     "6rt(2rs³t − 3t + 4s²)",
+     "6r(2rs³t² − 3t² + 4s²t)",
+     "6rt(2rs³t − 3t + 4s²t)",
+     "3rt(4rs³t − 6t + 8s²)"
+    ],
+    "loesung": [
+     "6rt(2rs³t − 3t + 4s²)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 12, 18 und 24 ist 6. In jedem Glied steckt r, und t kommt überall mindestens einmal vor. S dagegen nicht im zweiten Glied.",
+    "fehler": [
+     {
+      "antwort": "6r(2rs³t² − 3t² + 4s²t)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das t kommt in allen drei Gliedern vor und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "6rt(2rs³t − 3t + 4s²t)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "24rs²t geteilt durch 6rt ergibt 4s², nicht 4s²t. Das t ist schon vor der Klammer."
+     },
+     {
+      "antwort": "3rt(4rs³t − 6t + 8s²)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "3 ist ein gemeinsamer Teiler, aber nicht der grösste. In der Klammer steckt noch eine 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n15x + 20",
+    "optionen": [
+     "5(3x + 4)",
+     "5(3x + 20)",
+     "5(15x + 4)",
+     "10(1.5x + 2)"
+    ],
+    "loesung": [
+     "5(3x + 4)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 15 und 20 ist 5. Übrig bleiben 3x und 4.",
+    "fehler": [
+     {
+      "antwort": "5(3x + 20)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "Auch die 20 wird durch 5 geteilt: 20 : 5 = 4."
+     },
+     {
+      "antwort": "5(15x + 4)",
+      "diagnoseId": "erstes_glied_nicht_geteilt",
+      "feedback": "15x geteilt durch 5 ergibt 3x, nicht 15x."
+     },
+     {
+      "antwort": "10(1.5x + 2)",
+      "diagnoseId": "kein_gemeinsamer_teiler",
+      "feedback": "10 teilt die 20, aber nicht die 15. Beim Faktorisieren bleiben ganze Zahlen stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n9a³ − 12a²",
+    "optionen": [
+     "3a²(3a − 4)",
+     "3a(3a² − 4a)",
+     "3a²(3a − 12)",
+     "a²(9a − 12)"
+    ],
+    "loesung": [
+     "3a²(3a − 4)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler der Zahlen ist 3, und a² ist die kleinste vorkommende Potenz.",
+    "fehler": [
+     {
+      "antwort": "3a(3a² − 4a)",
+      "diagnoseId": "potenz_nicht_ausgeschoepft",
+      "feedback": "In beiden Gliedern steckt a², nicht nur a. Klammern Sie die höhere gemeinsame Potenz aus."
+     },
+     {
+      "antwort": "3a²(3a − 12)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "−12a² geteilt durch 3a² ergibt −4, nicht −12."
+     },
+     {
+      "antwort": "a²(9a − 12)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "In der Klammer steckt noch der gemeinsame Faktor 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n14mn − 21n",
+    "optionen": [
+     "7n(2m − 3)",
+     "7(2mn − 3n)",
+     "7n(2m − 21)",
+     "n(14m − 21)"
+    ],
+    "loesung": [
+     "7n(2m − 3)"
+    ],
+    "erklaerung": "7 teilt beide Zahlen, und n kommt in beiden Gliedern vor.",
+    "fehler": [
+     {
+      "antwort": "7(2mn − 3n)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das n steht in beiden Gliedern und gehört vor die Klammer."
+     },
+     {
+      "antwort": "7n(2m − 21)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "−21n geteilt durch 7n ergibt −3, nicht −21."
+     },
+     {
+      "antwort": "n(14m − 21)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "In der Klammer steckt noch der gemeinsame Faktor 7."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n6x² + 6x",
+    "optionen": [
+     "6x(x + 1)",
+     "6x(x)",
+     "6(x² + x)",
+     "6x(x + 6)"
+    ],
+    "loesung": [
+     "6x(x + 1)"
+    ],
+    "erklaerung": "6 und x kommen in beiden Gliedern vor. 6x geteilt durch 6x ergibt 1. Die 1 muss stehen bleiben.",
+    "fehler": [
+     {
+      "antwort": "6x(x)",
+      "diagnoseId": "einer_verschwunden",
+      "feedback": "Das zweite Glied verschwindet nicht: 6x geteilt durch 6x ergibt 1, und diese 1 gehört in die Klammer."
+     },
+     {
+      "antwort": "6(x² + x)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das x kommt in beiden Gliedern vor und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "6x(x + 6)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "6x geteilt durch 6x ergibt 1, nicht 6. Machen Sie die Probe: 6x mal 6 wäre 36x."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n20p²q − 30pq²",
+    "optionen": [
+     "10pq(2p − 3q)",
+     "10pq(2p − 3)",
+     "5pq(4p − 6q)",
+     "10p(2pq − 3q²)"
+    ],
+    "loesung": [
+     "10pq(2p − 3q)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 20 und 30 ist 10, und p sowie q kommen in beiden Gliedern vor.",
+    "fehler": [
+     {
+      "antwort": "10pq(2p − 3)",
+      "diagnoseId": "buchstabe_verloren",
+      "feedback": "30pq² geteilt durch 10pq ergibt 3q, nicht 3. Ein q bleibt in der Klammer."
+     },
+     {
+      "antwort": "5pq(4p − 6q)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "5 ist ein gemeinsamer Teiler, aber nicht der grösste. In der Klammer steckt noch eine 2."
+     },
+     {
+      "antwort": "10p(2pq − 3q²)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das q kommt in beiden Gliedern vor und gehört mit vor die Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n8t³ − 12t",
+    "optionen": [
+     "4t(2t² − 3)",
+     "4t(2t² − 12)",
+     "4(2t³ − 3t)",
+     "4t²(2t − 3)"
+    ],
+    "loesung": [
+     "4t(2t² − 3)"
+    ],
+    "erklaerung": "4 teilt beide Zahlen, und t ist die kleinste gemeinsame Potenz.",
+    "fehler": [
+     {
+      "antwort": "4t(2t² − 12)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "−12t geteilt durch 4t ergibt −3, nicht −12."
+     },
+     {
+      "antwort": "4(2t³ − 3t)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das t kommt in beiden Gliedern vor und gehört vor die Klammer."
+     },
+     {
+      "antwort": "4t²(2t − 3)",
+      "diagnoseId": "zu_hohe_potenz",
+      "feedback": "t² steckt nicht im zweiten Glied. Die kleinste gemeinsame Potenz ist t."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n9uv + 9uw",
+    "optionen": [
+     "9u(v + w)",
+     "9(uv + uw)",
+     "9uv(1 + w)",
+     "9u(v + uw)"
+    ],
+    "loesung": [
+     "9u(v + w)"
+    ],
+    "erklaerung": "9 und u kommen in beiden Gliedern vor. Übrig bleiben v und w.",
+    "fehler": [
+     {
+      "antwort": "9(uv + uw)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das u steht in beiden Gliedern und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "9uv(1 + w)",
+      "diagnoseId": "zu_viel_ausgeklammert",
+      "feedback": "Das v kommt nur im ersten Glied vor. Ausgeklammert wird nur, was überall steckt."
+     },
+     {
+      "antwort": "9u(v + uw)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "9uw geteilt durch 9u ergibt w, nicht uw. Das u steht schon vor der Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n18c − 24c²",
+    "optionen": [
+     "6c(3 − 4c)",
+     "6c(3 − 24c)",
+     "3c(6 − 8c)",
+     "6(3c − 4c²)"
+    ],
+    "loesung": [
+     "6c(3 − 4c)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 18 und 24 ist 6, und c kommt in beiden Gliedern vor.",
+    "fehler": [
+     {
+      "antwort": "6c(3 − 24c)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "−24c² geteilt durch 6c ergibt −4c, nicht −24c."
+     },
+     {
+      "antwort": "3c(6 − 8c)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "3c ist gemeinsam, aber nicht der grösste Faktor. In der Klammer steckt noch eine 2."
+     },
+     {
+      "antwort": "6(3c − 4c²)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das c kommt in beiden Gliedern vor und gehört mit vor die Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n7z + 7",
+    "optionen": [
+     "7(z + 1)",
+     "7(z)",
+     "7z(1 + 1)",
+     "7(z + 7)"
+    ],
+    "loesung": [
+     "7(z + 1)"
+    ],
+    "erklaerung": "7 kommt in beiden Gliedern vor. 7 geteilt durch 7 ergibt 1. Diese 1 bleibt stehen.",
+    "fehler": [
+     {
+      "antwort": "7(z)",
+      "diagnoseId": "einer_verschwunden",
+      "feedback": "Die 1 darf nicht verschwinden: 7 geteilt durch 7 ergibt 1, und die gehört in die Klammer."
+     },
+     {
+      "antwort": "7z(1 + 1)",
+      "diagnoseId": "buchstabe_falsch_ausgeklammert",
+      "feedback": "Das z kommt nur im ersten Glied vor und darf darum nicht ausgeklammert werden."
+     },
+     {
+      "antwort": "7(z + 7)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "Auch die 7 wird durch 7 geteilt und ergibt 1."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n16d²e + 24de² − 8de",
+    "optionen": [
+     "8de(2d + 3e − 1)",
+     "8de(2d + 3e)",
+     "8d(2de + 3e² − e)",
+     "4de(4d + 6e − 2)"
+    ],
+    "loesung": [
+     "8de(2d + 3e − 1)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 16, 24 und 8 ist 8; d und e kommen in allen drei Gliedern vor. Das letzte Glied ergibt beim Teilen −1.",
+    "fehler": [
+     {
+      "antwort": "8de(2d + 3e)",
+      "diagnoseId": "einer_verschwunden",
+      "feedback": "−8de geteilt durch 8de ergibt −1. Diese −1 gehört in die Klammer."
+     },
+     {
+      "antwort": "8d(2de + 3e² − e)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das e kommt in allen drei Gliedern vor und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "4de(4d + 6e − 2)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "4 ist ein gemeinsamer Teiler, aber nicht der grösste. In der Klammer steckt noch eine 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisieren Sie so weit wie möglich:\n\n5a²b − 5ab²",
+    "optionen": [
+     "5ab(a − b)",
+     "5a(ab − b²)",
+     "5ab(a − b²)",
+     "ab(5a − 5b)"
+    ],
+    "loesung": [
+     "5ab(a − b)"
+    ],
+    "erklaerung": "5, a und b kommen in beiden Gliedern vor. Übrig bleiben a und −b.",
+    "fehler": [
+     {
+      "antwort": "5a(ab − b²)",
+      "diagnoseId": "buchstabe_nicht_ausgeklammert",
+      "feedback": "Das b kommt in beiden Gliedern vor und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "5ab(a − b²)",
+      "diagnoseId": "falsch_geteilt",
+      "feedback": "5ab² geteilt durch 5ab ergibt b, nicht b². Ein b steht schon vor der Klammer."
+     },
+     {
+      "antwort": "ab(5a − 5b)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "In der Klammer steckt noch der gemeinsame Faktor 5."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme durch Ausklammern faktorisieren",
+  "status": "review"
+ },
+ {
+  "templateId": "so-binome-zerlegen",
+  "lernzielId": "MSO.2.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.05",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Sind beide äusseren Glieder Quadratzahlen?",
+   "Zwei Glieder mit einem Minus dazwischen deuten auf a² − b² = (a + b)(a − b).",
+   "Bei drei Gliedern: Prüfe, ob das mittlere wirklich das doppelte Produkt der Wurzeln ist."
+  ],
+  "loesungsweg": [
+   "Von beiden äusseren Gliedern die Wurzel ziehen.",
+   "Zwei Glieder mit Minus: dritte binomische Formel.",
+   "Drei Glieder: prüfen, ob das mittlere das doppelte Produkt ist.",
+   "Probe durch Ausmultiplizieren."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n16p² − 81q²",
+    "optionen": [
+     "(4p + 9q)(4p − 9q)",
+     "(4p − 9q)²",
+     "(16p + 81q)(16p − 81q)",
+     "(4p + 9q)²"
+    ],
+    "loesung": [
+     "(4p + 9q)(4p − 9q)"
+    ],
+    "erklaerung": "16p² ist (4p)² und 81q² ist (9q)². Zwei Quadrate mit Minus dazwischen ergeben die dritte binomische Formel.",
+    "fehler": [
+     {
+      "antwort": "(4p − 9q)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe drei Glieder mit einem mittleren. Hier stehen nur zwei Glieder mit Minus."
+     },
+     {
+      "antwort": "(16p + 81q)(16p − 81q)",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Beim Ausmultiplizieren muss wieder 16p² herauskommen. Die Wurzel aus 16p² ist 4p."
+     },
+     {
+      "antwort": "(4p + 9q)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Für a² − b² braucht es eine Plus- und eine Minusklammer, nicht zweimal dasselbe Vorzeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\nx² + 14x + 49",
+    "optionen": [
+     "(x + 7)²",
+     "(x − 7)²",
+     "(x + 49)²",
+     "(x + 7)(x − 7)"
+    ],
+    "loesung": [
+     "(x + 7)²"
+    ],
+    "erklaerung": "x² und 49 sind Quadrate, und 2 · x · 7 = 14x ist genau das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "(x − 7)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist positiv, also steht in der Klammer ein Plus."
+     },
+     {
+      "antwort": "(x + 49)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "In die Klammer kommt die Wurzel aus 49, also 7, nicht die 49 selbst."
+     },
+     {
+      "antwort": "(x + 7)(x − 7)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben x² − 49, ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n9a² − 121",
+    "optionen": [
+     "(3a + 11)(3a − 11)",
+     "(3a − 11)²",
+     "(9a + 121)(9a − 121)",
+     "(3a + 11)²"
+    ],
+    "loesung": [
+     "(3a + 11)(3a − 11)"
+    ],
+    "erklaerung": "9a² ist (3a)² und 121 ist 11². Die dritte binomische Formel passt.",
+    "fehler": [
+     {
+      "antwort": "(3a − 11)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe drei Glieder. Hier stehen nur zwei."
+     },
+     {
+      "antwort": "(9a + 121)(9a − 121)",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Gefragt sind die Wurzeln: aus 9a² wird 3a, aus 121 wird 11."
+     },
+     {
+      "antwort": "(3a + 11)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Für eine Differenz zweier Quadrate braucht es eine Plus- und eine Minusklammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\ny² − 16y + 64",
+    "optionen": [
+     "(y − 8)²",
+     "(y + 8)²",
+     "(y − 16)²",
+     "(y − 8)(y + 8)"
+    ],
+    "loesung": [
+     "(y − 8)²"
+    ],
+    "erklaerung": "y² und 64 sind Quadrate, und 2 · y · 8 = 16y ist das mittlere Glied. Das Minus zeigt die zweite binomische Formel an.",
+    "fehler": [
+     {
+      "antwort": "(y + 8)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist negativ, also steht in der Klammer ein Minus."
+     },
+     {
+      "antwort": "(y − 16)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "In die Klammer kommt die Wurzel aus 64, also 8. Die 16 ist das doppelte Produkt."
+     },
+     {
+      "antwort": "(y − 8)(y + 8)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben y² − 64, ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n25m² + 40m + 16",
+    "optionen": [
+     "(5m + 4)²",
+     "(5m − 4)²",
+     "(25m + 16)²",
+     "(5m + 4)(5m − 4)"
+    ],
+    "loesung": [
+     "(5m + 4)²"
+    ],
+    "erklaerung": "25m² ist (5m)², 16 ist 4², und 2 · 5m · 4 = 40m ist das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "(5m − 4)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist positiv, also steht ein Plus in der Klammer."
+     },
+     {
+      "antwort": "(25m + 16)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "In die Klammer kommen die Wurzeln: 5m und 4."
+     },
+     {
+      "antwort": "(5m + 4)(5m − 4)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben 25m² − 16. Hier steht ein mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n4 − c²",
+    "optionen": [
+     "(2 + c)(2 − c)",
+     "(2 − c)²",
+     "(c + 2)(c − 2)",
+     "(2 + c)²"
+    ],
+    "loesung": [
+     "(2 + c)(2 − c)"
+    ],
+    "erklaerung": "4 ist 2² und c² ist ein Quadrat. Die dritte binomische Formel ergibt (2 + c)(2 − c).",
+    "fehler": [
+     {
+      "antwort": "(2 − c)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe 4 − 4c + c², also drei Glieder."
+     },
+     {
+      "antwort": "(c + 2)(c − 2)",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Das ergäbe c² − 4, also das umgekehrte Vorzeichen."
+     },
+     {
+      "antwort": "(2 + c)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Für eine Differenz braucht es eine Plus- und eine Minusklammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n36 − 60t + 25t²",
+    "optionen": [
+     "(6 − 5t)²",
+     "(6 + 5t)²",
+     "(36 − 25t)²",
+     "(6 − 5t)(6 + 5t)"
+    ],
+    "loesung": [
+     "(6 − 5t)²"
+    ],
+    "erklaerung": "36 ist 6², 25t² ist (5t)², und 2 · 6 · 5t = 60t ist das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "(6 + 5t)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist negativ, also steht ein Minus in der Klammer."
+     },
+     {
+      "antwort": "(36 − 25t)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "In die Klammer kommen die Wurzeln: 6 und 5t."
+     },
+     {
+      "antwort": "(6 − 5t)(6 + 5t)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben 36 − 25t², ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n49u² − 4v²",
+    "optionen": [
+     "(7u + 2v)(7u − 2v)",
+     "(7u − 2v)²",
+     "(49u + 4v)(49u − 4v)",
+     "(7u + 2v)²"
+    ],
+    "loesung": [
+     "(7u + 2v)(7u − 2v)"
+    ],
+    "erklaerung": "49u² ist (7u)² und 4v² ist (2v)². Die dritte binomische Formel passt.",
+    "fehler": [
+     {
+      "antwort": "(7u − 2v)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe drei Glieder mit einem mittleren."
+     },
+     {
+      "antwort": "(49u + 4v)(49u − 4v)",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Aus 49u² wird beim Wurzelziehen 7u, aus 4v² wird 2v."
+     },
+     {
+      "antwort": "(7u + 2v)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Für eine Differenz braucht es eine Plus- und eine Minusklammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n100 − k²",
+    "optionen": [
+     "(10 + k)(10 − k)",
+     "(10 − k)²",
+     "(100 + k)(100 − k)",
+     "(k + 10)(k − 10)"
+    ],
+    "loesung": [
+     "(10 + k)(10 − k)"
+    ],
+    "erklaerung": "100 ist 10² und k² ist ein Quadrat. Die dritte binomische Formel ergibt (10 + k)(10 − k).",
+    "fehler": [
+     {
+      "antwort": "(10 − k)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe 100 − 20k + k², also drei Glieder."
+     },
+     {
+      "antwort": "(100 + k)(100 − k)",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Die Wurzel aus 100 ist 10, nicht 100 selbst."
+     },
+     {
+      "antwort": "(k + 10)(k − 10)",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Das ergäbe k² − 100, also das umgekehrte Vorzeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n9n² − 30n + 25",
+    "optionen": [
+     "(3n − 5)²",
+     "(3n + 5)²",
+     "(9n − 25)²",
+     "(3n − 5)(3n + 5)"
+    ],
+    "loesung": [
+     "(3n − 5)²"
+    ],
+    "erklaerung": "9n² ist (3n)², 25 ist 5², und 2 · 3n · 5 = 30n ist das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "(3n + 5)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist negativ, also steht ein Minus in der Klammer."
+     },
+     {
+      "antwort": "(9n − 25)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "In die Klammer kommen die Wurzeln: 3n und 5."
+     },
+     {
+      "antwort": "(3n − 5)(3n + 5)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben 9n² − 25, ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\na² + 4ab + 4b²",
+    "optionen": [
+     "(a + 2b)²",
+     "(a − 2b)²",
+     "(a + 2b)(a − 2b)",
+     "(a + 4b)²"
+    ],
+    "loesung": [
+     "(a + 2b)²"
+    ],
+    "erklaerung": "a² und 4b² sind Quadrate, und 2 · a · 2b = 4ab ist das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "(a − 2b)²",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das mittlere Glied ist positiv, also steht ein Plus in der Klammer."
+     },
+     {
+      "antwort": "(a + 2b)(a − 2b)",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Diese Klammern ergäben a² − 4b², ohne mittleres Glied."
+     },
+     {
+      "antwort": "(a + 4b)²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Die Wurzel aus 4b² ist 2b, nicht 4b. Ausmultipliziert ergäbe (a + 4b)² den Term a² + 8ab + 16b²."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlegen Sie in Faktoren:\n\n144 − 25z²",
+    "optionen": [
+     "(12 + 5z)(12 − 5z)",
+     "(12 − 5z)²",
+     "(144 + 25z)(144 − 25z)",
+     "(5z + 12)(5z − 12)"
+    ],
+    "loesung": [
+     "(12 + 5z)(12 − 5z)"
+    ],
+    "erklaerung": "144 ist 12² und 25z² ist (5z)². Die dritte binomische Formel passt.",
+    "fehler": [
+     {
+      "antwort": "(12 − 5z)²",
+      "diagnoseId": "falsche_formel",
+      "feedback": "Ein Quadrat ergäbe ein mittleres Glied. Hier stehen nur zwei Glieder."
+     },
+     {
+      "antwort": "(144 + 25z)(144 − 25z)",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Gefragt sind die Wurzeln: aus 144 wird 12, aus 25z² wird 5z."
+     },
+     {
+      "antwort": "(5z + 12)(5z − 12)",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Das ergäbe 25z² − 144, also das umgekehrte Vorzeichen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme in binomische Formeln zerlegen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-bruchterme",
+  "lernzielId": "MSO.2.07",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "2.07",
+   "2.04",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Gekürzt wird nur, was als FAKTOR dasteht. Nie einzelne Summanden.",
+   "Zerlegen Sie Zähler und Nenner zuerst in Faktoren.",
+   "Steht oben oder unten eine Summe, muss sie zuerst faktorisiert werden."
+  ],
+  "loesungsweg": [
+   "Zähler und Nenner so weit wie möglich faktorisieren.",
+   "Faktoren suchen, die oben und unten gleich sind.",
+   "Nur ganze Faktoren streichen, nie Summanden.",
+   "Was übrig bleibt, ist der gekürzte Bruchterm."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(x² − 25) : (x + 5)",
+    "optionen": [
+     "x − 5",
+     "x − 25",
+     "x + 5",
+     "x² − 5"
+    ],
+    "loesung": [
+     "x − 5"
+    ],
+    "erklaerung": "x² − 25 ist (x + 5)(x − 5). Der Faktor (x + 5) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "x − 25",
+      "diagnoseId": "summand_gekuerzt",
+      "feedback": "Gekürzt werden nur ganze Faktoren. Das x² und das x sind Summanden und dürfen nicht einzeln gestrichen werden."
+     },
+     {
+      "antwort": "x + 5",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Weggekürzt wird der Faktor (x + 5). Übrig bleibt der andere: (x − 5)."
+     },
+     {
+      "antwort": "x² − 5",
+      "diagnoseId": "nur_zahl_gekuerzt",
+      "feedback": "Die 25 und die 5 sind Summanden, keine Faktoren. Zerlegen Sie zuerst mit der dritten binomischen Formel."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(8a) : (12a²)",
+    "optionen": [
+     "2 : (3a)",
+     "2 : 3",
+     "3a : 2",
+     "2a : 3"
+    ],
+    "loesung": [
+     "2 : (3a)"
+    ],
+    "erklaerung": "8 und 12 haben den Teiler 4, und ein a kürzt sich weg. Übrig bleiben 2 oben und 3a unten.",
+    "fehler": [
+     {
+      "antwort": "2 : 3",
+      "diagnoseId": "buchstabe_zu_viel_gekuerzt",
+      "feedback": "Unten steht a², oben nur a. Ein a bleibt im Nenner stehen."
+     },
+     {
+      "antwort": "3a : 2",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Zähler und Nenner sind vertauscht. Der Zähler 8a ist kleiner als der Nenner 12a²."
+     },
+     {
+      "antwort": "2a : 3",
+      "diagnoseId": "buchstabe_falsch_gekuerzt",
+      "feedback": "Das a kürzt sich aus dem Zähler heraus, nicht in ihn hinein."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(6x + 12) : (x + 2)",
+    "optionen": [
+     "6",
+     "6x",
+     "x + 6",
+     "6x + 12"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "6x + 12 ist 6(x + 2). Der Faktor (x + 2) kürzt sich weg, übrig bleibt 6.",
+    "fehler": [
+     {
+      "antwort": "6x",
+      "diagnoseId": "teilweise_gekuerzt",
+      "feedback": "Nach dem Ausklammern steht 6(x + 2) im Zähler. Der ganze Faktor (x + 2) fällt weg, auch das x darin."
+     },
+     {
+      "antwort": "x + 6",
+      "diagnoseId": "summanden_gekuerzt",
+      "feedback": "Die 6 ist ein Faktor vor der Klammer, kein Summand. Sie bleibt allein stehen."
+     },
+     {
+      "antwort": "6x + 12",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Der Nenner ist nicht 1. Klammern Sie im Zähler die 6 aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(a² + 6a + 9) : (a + 3)",
+    "optionen": [
+     "a + 3",
+     "a + 6",
+     "a² + 3",
+     "1"
+    ],
+    "loesung": [
+     "a + 3"
+    ],
+    "erklaerung": "a² + 6a + 9 ist (a + 3)². Ein Faktor (a + 3) kürzt sich weg, der andere bleibt.",
+    "fehler": [
+     {
+      "antwort": "a + 6",
+      "diagnoseId": "summanden_gekuerzt",
+      "feedback": "Gekürzt werden nur Faktoren. Zerlegen Sie den Zähler zuerst mit der ersten binomischen Formel."
+     },
+     {
+      "antwort": "a² + 3",
+      "diagnoseId": "einzeln_gestrichen",
+      "feedback": "Einzelne Summanden dürfen nicht gestrichen werden. Nur ganze Faktoren."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "zu_viel_gekuerzt",
+      "feedback": "Der Zähler enthält den Faktor (a + 3) zweimal, der Nenner nur einmal. Einer bleibt übrig."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(9b²) : (15b⁴)",
+    "optionen": [
+     "3 : (5b²)",
+     "3 : 5",
+     "b² : 5",
+     "5 : (3b²)"
+    ],
+    "loesung": [
+     "3 : (5b²)"
+    ],
+    "erklaerung": "9 und 15 haben den Teiler 3, und b² kürzt sich aus b⁴ heraus.",
+    "fehler": [
+     {
+      "antwort": "3 : 5",
+      "diagnoseId": "potenz_zu_viel_gekuerzt",
+      "feedback": "b² kürzt sich nur einmal weg. Von b⁴ bleibt b² im Nenner stehen."
+     },
+     {
+      "antwort": "b² : 5",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der Zähler ist kleiner als der Nenner, das Ergebnis muss also unter 1 liegen."
+     },
+     {
+      "antwort": "5 : (3b²)",
+      "diagnoseId": "zahlen_vertauscht",
+      "feedback": "9 : 3 ergibt 3 im Zähler, 15 : 3 ergibt 5 im Nenner."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(5m − 5n) : (m − n)",
+    "optionen": [
+     "5",
+     "5m",
+     "5 − 5n",
+     "1"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "5m − 5n ist 5(m − n). Der Faktor (m − n) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "5m",
+      "diagnoseId": "teilweise_gekuerzt",
+      "feedback": "Der ganze Faktor (m − n) fällt weg, also auch das m darin."
+     },
+     {
+      "antwort": "5 − 5n",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Ausgeklammert wird die 5 aus beiden Gliedern: 5(m − n)."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "faktor_verloren",
+      "feedback": "Die 5 bleibt stehen. Nur der Faktor (m − n) kürzt sich weg."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(x² − 9) : (x² + 6x + 9)",
+    "optionen": [
+     "(x − 3) : (x + 3)",
+     "(x + 3) : (x − 3)",
+     "−1",
+     "(x − 3) : (x + 6)"
+    ],
+    "loesung": [
+     "(x − 3) : (x + 3)"
+    ],
+    "erklaerung": "x² − 9 ist (x + 3)(x − 3), und x² + 6x + 9 ist (x + 3)². Der Faktor (x + 3) kürzt sich einmal weg.",
+    "fehler": [
+     {
+      "antwort": "(x + 3) : (x − 3)",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Weggekürzt wird der Faktor (x + 3). Oben bleibt (x − 3), unten das zweite (x + 3)."
+     },
+     {
+      "antwort": "−1",
+      "diagnoseId": "summanden_gekuerzt",
+      "feedback": "Die 9 im Zähler und die 9 im Nenner sind Summanden. Zerlegen Sie beide Terme zuerst in Faktoren."
+     },
+     {
+      "antwort": "(x − 3) : (x + 6)",
+      "diagnoseId": "nenner_falsch_zerlegt",
+      "feedback": "x² + 6x + 9 ist (x + 3)², nicht (x + 6). Prüfe das mittlere Glied: 2 · x · 3 = 6x."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(14c³) : (21c)",
+    "optionen": [
+     "(2c²) : 3",
+     "(2c³) : 3",
+     "(3c²) : 2",
+     "(2c²) : (3c)"
+    ],
+    "loesung": [
+     "(2c²) : 3"
+    ],
+    "erklaerung": "14 und 21 haben den Teiler 7, und ein c kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "(2c³) : 3",
+      "diagnoseId": "buchstabe_nicht_gekuerzt",
+      "feedback": "Ein c kürzt sich weg: von c³ bleibt c². Der Nenner enthält genau ein c."
+     },
+     {
+      "antwort": "(3c²) : 2",
+      "diagnoseId": "zahlen_vertauscht",
+      "feedback": "14 : 7 ergibt 2 und 21 : 7 ergibt 3. Der Zähler ist kleiner."
+     },
+     {
+      "antwort": "(2c²) : (3c)",
+      "diagnoseId": "zu_wenig_gekuerzt",
+      "feedback": "Unten steht nur ein c, und das kürzt sich vollständig weg."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(4p + 4q) : (p² − q²)",
+    "optionen": [
+     "4 : (p − q)",
+     "4 : (p + q)",
+     "4",
+     "(4p + 4q) : (p − q)"
+    ],
+    "loesung": [
+     "4 : (p − q)"
+    ],
+    "erklaerung": "4p + 4q ist 4(p + q), und p² − q² ist (p + q)(p − q). Der Faktor (p + q) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "4 : (p + q)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Weggekürzt wird (p + q). Übrig bleibt im Nenner der andere Faktor: (p − q)."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "zu_viel_gekuerzt",
+      "feedback": "Der Nenner enthält zwei Faktoren. Nur einer kürzt sich weg, (p − q) bleibt stehen."
+     },
+     {
+      "antwort": "(4p + 4q) : (p − q)",
+      "diagnoseId": "zaehler_nicht_gekuerzt",
+      "feedback": "Der Zähler enthält den Faktor (p + q) ebenfalls. Klammern Sie zuerst die 4 aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(3n + 15) : (n² + 5n)",
+    "optionen": [
+     "3 : n",
+     "3 : (n + 5)",
+     "3",
+     "(3n + 15) : n"
+    ],
+    "loesung": [
+     "3 : n"
+    ],
+    "erklaerung": "3n + 15 ist 3(n + 5), und n² + 5n ist n(n + 5). Der Faktor (n + 5) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "3 : (n + 5)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Weggekürzt wird (n + 5). Im Nenner bleibt das n stehen."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "nenner_zu_viel_gekuerzt",
+      "feedback": "Der Nenner enthält den Faktor n, und der kommt im Zähler nicht vor. Er bleibt stehen."
+     },
+     {
+      "antwort": "(3n + 15) : n",
+      "diagnoseId": "zaehler_nicht_gekuerzt",
+      "feedback": "Klammern Sie im Zähler die 3 aus, dann sehen Sie den gemeinsamen Faktor (n + 5)."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(k² − 36) : (6k − 36)",
+    "optionen": [
+     "(k + 6) : 6",
+     "(k − 6) : 6",
+     "k : 6",
+     "(k² − 6) : 6"
+    ],
+    "loesung": [
+     "(k + 6) : 6"
+    ],
+    "erklaerung": "k² − 36 ist (k + 6)(k − 6), und 6k − 36 ist 6(k − 6). Der Faktor (k − 6) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "(k − 6) : 6",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Weggekürzt wird (k − 6). Übrig bleibt oben der andere Faktor: (k + 6)."
+     },
+     {
+      "antwort": "k : 6",
+      "diagnoseId": "summand_gekuerzt",
+      "feedback": "Die 6 in (k + 6) ist ein Summand und darf nicht einzeln gestrichen werden."
+     },
+     {
+      "antwort": "(k² − 6) : 6",
+      "diagnoseId": "nicht_faktorisiert",
+      "feedback": "Zerlegen Sie zuerst: k² − 36 ist (k + 6)(k − 6). Erst dann lässt sich kürzen."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürzen Sie so weit wie möglich:\n\n(2y² − 8y) : (y − 4)",
+    "optionen": [
+     "2y",
+     "2",
+     "2y − 8",
+     "y"
+    ],
+    "loesung": [
+     "2y"
+    ],
+    "erklaerung": "2y² − 8y ist 2y(y − 4). Der Faktor (y − 4) kürzt sich weg, übrig bleibt 2y.",
+    "fehler": [
+     {
+      "antwort": "2",
+      "diagnoseId": "buchstabe_verloren",
+      "feedback": "Ausgeklammert wird 2y, nicht nur 2. Das y bleibt vor der Klammer stehen."
+     },
+     {
+      "antwort": "2y − 8",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Klammern Sie im Zähler 2y aus, dann sehen Sie den gemeinsamen Faktor (y − 4)."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "zahl_verloren",
+      "feedback": "Ausgeklammert wird 2y. Die 2 gehört mit zum Ergebnis."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Bruchterme kürzen und zusammenfassen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-formeln-umstellen",
+  "lernzielId": "MSO.3.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "3.04",
+   "3.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Was steht der gesuchten Variablen im Weg. Eine Summe, ein Faktor, ein Nenner?",
+   "Zuerst wegbringen, was ADDIERT wird, dann das, was MULTIPLIZIERT wird.",
+   "Jeder Schritt gilt auf beiden Seiten gleich."
+  ],
+  "loesungsweg": [
+   "Alle Glieder mit der gesuchten Variablen auf eine Seite bringen.",
+   "Klammern und Brüche auflösen.",
+   "Die gesuchte Variable ausklammern, wenn sie mehrfach vorkommt.",
+   "Zum Schluss durch den Faktor davor teilen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Löse die Formel nach h auf:\n\nV = G · h : 3",
+    "optionen": [
+     "h = 3V : G",
+     "h = V : (3G)",
+     "h = 3V · G",
+     "h = V : G"
+    ],
+    "loesung": [
+     "h = 3V : G"
+    ],
+    "erklaerung": "Mal 3 auf beiden Seiten ergibt 3V = G · h, dann durch G teilen.",
+    "fehler": [
+     {
+      "antwort": "h = V : (3G)",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Die 3 steht im Nenner der Ausgangsformel. Um sie loszuwerden, wird mit 3 multipliziert."
+     },
+     {
+      "antwort": "h = 3V · G",
+      "diagnoseId": "statt_geteilt_mal",
+      "feedback": "Das G steht als Faktor bei h. Um h allein zu bekommen, wird durch G geteilt."
+     },
+     {
+      "antwort": "h = V : G",
+      "diagnoseId": "faktor_drei_vergessen",
+      "feedback": "Die 3 aus dem Nenner muss auf die andere Seite: 3V : G."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach b auf:\n\nA = (a + b) · h : 2",
+    "optionen": [
+     "b = 2A : h − a",
+     "b = 2A : h + a",
+     "b = A : h − a",
+     "b = (2A − a) : h"
+    ],
+    "loesung": [
+     "b = 2A : h − a"
+    ],
+    "erklaerung": "Mal 2 und geteilt durch h ergibt 2A : h = a + b, dann a abziehen.",
+    "fehler": [
+     {
+      "antwort": "b = 2A : h + a",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das a wechselt die Seite und wird dabei abgezogen."
+     },
+     {
+      "antwort": "b = A : h − a",
+      "diagnoseId": "faktor_zwei_vergessen",
+      "feedback": "Die 2 aus dem Nenner muss auf die andere Seite: 2A."
+     },
+     {
+      "antwort": "b = (2A − a) : h",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Zuerst wird durch h geteilt, dann a abgezogen. Das a steht ausserhalb des Bruchs."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach r auf:\n\nU = 2 · π · r",
+    "optionen": [
+     "r = U : (2π)",
+     "r = 2π : U",
+     "r = U · 2π",
+     "r = U : 2 − π"
+    ],
+    "loesung": [
+     "r = U : (2π)"
+    ],
+    "erklaerung": "2 und π stehen als Faktoren bei r. Durch beide teilen macht r frei.",
+    "fehler": [
+     {
+      "antwort": "r = 2π : U",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der gesuchte Wert steht im Zähler: U geteilt durch 2π."
+     },
+     {
+      "antwort": "r = U · 2π",
+      "diagnoseId": "statt_geteilt_mal",
+      "feedback": "Faktoren werden durch Teilen weggeschafft, nicht durch Multiplizieren."
+     },
+     {
+      "antwort": "r = U : 2 − π",
+      "diagnoseId": "statt_geteilt_minus",
+      "feedback": "Das π ist ein Faktor, kein Summand. Es wird weggeteilt."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach x auf:\n\ny = m · x + q",
+    "optionen": [
+     "x = (y − q) : m",
+     "x = y : m − q",
+     "x = (y + q) : m",
+     "x = y − q : m"
+    ],
+    "loesung": [
+     "x = (y − q) : m"
+    ],
+    "erklaerung": "Erst q abziehen, dann durch m teilen, in dieser Reihenfolge.",
+    "fehler": [
+     {
+      "antwort": "x = y : m − q",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Zuerst wird q abgezogen, dann durch m geteilt. Sonst wird nur ein Teil geteilt."
+     },
+     {
+      "antwort": "x = (y + q) : m",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das q wechselt die Seite und wird dabei abgezogen."
+     },
+     {
+      "antwort": "x = y − q : m",
+      "diagnoseId": "klammer_vergessen",
+      "feedback": "Geteilt wird die ganze Differenz y − q, nicht nur das q."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach c auf:\n\na² + b² = c²",
+    "optionen": [
+     "c = √(a² + b²)",
+     "c = a + b",
+     "c = a² + b²",
+     "c = √a + √b"
+    ],
+    "loesung": [
+     "c = √(a² + b²)"
+    ],
+    "erklaerung": "Auf beiden Seiten die Wurzel ziehen. Die Wurzel aus einer Summe lässt sich nicht weiter vereinfachen.",
+    "fehler": [
+     {
+      "antwort": "c = a + b",
+      "diagnoseId": "wurzel_verteilt",
+      "feedback": "Die Wurzel aus einer Summe ist nicht die Summe der Wurzeln. Erst addieren, dann die Wurzel ziehen."
+     },
+     {
+      "antwort": "c = a² + b²",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Das ist c², nicht c. Die Wurzel fehlt noch."
+     },
+     {
+      "antwort": "c = √a + √b",
+      "diagnoseId": "wurzel_falsch_verteilt",
+      "feedback": "Die Quadrate verschwinden erst nach dem Addieren. Die Wurzel gilt für die ganze Summe."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach t auf:\n\ns = v · t",
+    "optionen": [
+     "t = s : v",
+     "t = v : s",
+     "t = s · v",
+     "t = s − v"
+    ],
+    "loesung": [
+     "t = s : v"
+    ],
+    "erklaerung": "Das v steht als Faktor bei t. Durch v teilen macht t frei.",
+    "fehler": [
+     {
+      "antwort": "t = v : s",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der gesuchte Wert steht im Zähler: s geteilt durch v."
+     },
+     {
+      "antwort": "t = s · v",
+      "diagnoseId": "statt_geteilt_mal",
+      "feedback": "Ein Faktor wird durch Teilen weggeschafft, nicht durch Multiplizieren."
+     },
+     {
+      "antwort": "t = s − v",
+      "diagnoseId": "statt_geteilt_minus",
+      "feedback": "Zwischen v und t steht ein Malpunkt. Abgezogen wird nur, was addiert dasteht."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach h auf:\n\nO = 2 · π · r² + 2 · π · r · h",
+    "optionen": [
+     "h = (O − 2πr²) : (2πr)",
+     "h = O : (2πr) − 2πr²",
+     "h = (O + 2πr²) : (2πr)",
+     "h = O : (2πr²)"
+    ],
+    "loesung": [
+     "h = (O − 2πr²) : (2πr)"
+    ],
+    "erklaerung": "Zuerst die Grundflächen abziehen, dann durch den Faktor 2πr teilen, der noch bei h steht.",
+    "fehler": [
+     {
+      "antwort": "h = O : (2πr) − 2πr²",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Zuerst wird 2πr² abgezogen, dann geteilt. Sonst wird nur ein Teil geteilt."
+     },
+     {
+      "antwort": "h = (O + 2πr²) : (2πr)",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das Glied 2πr² wechselt die Seite und wird dabei abgezogen."
+     },
+     {
+      "antwort": "h = O : (2πr²)",
+      "diagnoseId": "glied_ignoriert",
+      "feedback": "Die beiden Kreisflächen dürfen nicht einfach im Nenner verschwinden. Sie werden abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach a auf:\n\nP = a · b : c",
+    "optionen": [
+     "a = P · c : b",
+     "a = P : (b c)",
+     "a = b c : P",
+     "a = P · b : c"
+    ],
+    "loesung": [
+     "a = P · c : b"
+    ],
+    "erklaerung": "Mal c und geteilt durch b: aus P = a · b : c wird a = P · c : b.",
+    "fehler": [
+     {
+      "antwort": "a = P : (b c)",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Das c steht in der Ausgangsformel im Nenner. Um es loszuwerden, wird mit c multipliziert."
+     },
+     {
+      "antwort": "a = b c : P",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der gesuchte Wert steht im Zähler. P gehört nach oben, b nach unten."
+     },
+     {
+      "antwort": "a = P · b : c",
+      "diagnoseId": "b_und_c_vertauscht",
+      "feedback": "b ist der Faktor bei a, also wird durch b geteilt. Das c wird heraufmultipliziert."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach x auf:\n\na · x = b · x + d",
+    "optionen": [
+     "x = d : (a − b)",
+     "x = d : (a + b)",
+     "x = (a − b) : d",
+     "x = d : a − b"
+    ],
+    "loesung": [
+     "x = d : (a − b)"
+    ],
+    "erklaerung": "b · x auf die linke Seite bringen: (a − b) · x = d, dann durch (a − b) teilen.",
+    "fehler": [
+     {
+      "antwort": "x = d : (a + b)",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das Glied b · x wechselt die Seite und wird dabei abgezogen: a − b."
+     },
+     {
+      "antwort": "x = (a − b) : d",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der gesuchte Wert steht im Zähler: d geteilt durch (a − b)."
+     },
+     {
+      "antwort": "x = d : a − b",
+      "diagnoseId": "klammer_vergessen",
+      "feedback": "Geteilt wird durch die ganze Differenz (a − b). Die Klammer ist nötig."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach n auf:\n\nk = g + z · n",
+    "optionen": [
+     "n = (k − g) : z",
+     "n = k : z − g",
+     "n = (k + g) : z",
+     "n = k − g : z"
+    ],
+    "loesung": [
+     "n = (k − g) : z"
+    ],
+    "erklaerung": "Erst g abziehen, dann durch z teilen.",
+    "fehler": [
+     {
+      "antwort": "n = k : z − g",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Zuerst wird g abgezogen, dann durch z geteilt."
+     },
+     {
+      "antwort": "n = (k + g) : z",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das g wechselt die Seite und wird dabei abgezogen."
+     },
+     {
+      "antwort": "n = k − g : z",
+      "diagnoseId": "klammer_vergessen",
+      "feedback": "Geteilt wird die ganze Differenz k − g. Ohne Klammer würde nur g geteilt."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach v auf:\n\ns = v · t + s₀",
+    "optionen": [
+     "v = (s − s₀) : t",
+     "v = s : t − s₀",
+     "v = (s + s₀) : t",
+     "v = s − s₀ : t"
+    ],
+    "loesung": [
+     "v = (s − s₀) : t"
+    ],
+    "erklaerung": "Erst s₀ abziehen, dann durch t teilen.",
+    "fehler": [
+     {
+      "antwort": "v = s : t − s₀",
+      "diagnoseId": "reihenfolge_falsch",
+      "feedback": "Zuerst wird s₀ abgezogen, dann durch t geteilt."
+     },
+     {
+      "antwort": "v = (s + s₀) : t",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das s₀ wechselt die Seite und wird dabei abgezogen."
+     },
+     {
+      "antwort": "v = s − s₀ : t",
+      "diagnoseId": "klammer_vergessen",
+      "feedback": "Geteilt wird die ganze Differenz s − s₀."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Formel nach G auf:\n\nP = G · p : 100",
+    "optionen": [
+     "G = 100P : p",
+     "G = P · p : 100",
+     "G = p : (100P)",
+     "G = P : (100p)"
+    ],
+    "loesung": [
+     "G = 100P : p"
+    ],
+    "erklaerung": "Mal 100 und geteilt durch p: aus P = G · p : 100 wird G = 100P : p.",
+    "fehler": [
+     {
+      "antwort": "G = P · p : 100",
+      "diagnoseId": "nichts_umgestellt",
+      "feedback": "So steht die Formel schon da, nur mit vertauschten Buchstaben. Gesucht ist G allein."
+     },
+     {
+      "antwort": "G = p : (100P)",
+      "diagnoseId": "gestuerzt",
+      "feedback": "Der gesuchte Wert steht im Zähler: 100P gehört nach oben."
+     },
+     {
+      "antwort": "G = P : (100p)",
+      "diagnoseId": "falsche_richtung",
+      "feedback": "Die 100 steht in der Ausgangsformel im Nenner. Um sie loszuwerden, wird mit 100 multipliziert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Formeln nach einer Variablen umstellen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-dreieck-linien",
+  "lernzielId": "MSO.6.02",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "6.02",
+   "6.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Fragen Sie sich: Wovon soll der gesuchte Punkt gleich weit entfernt sein, von zwei Ecken oder von zwei Seiten?",
+   "Gleich weit von zwei PUNKTEN: Mittelsenkrechte. Gleich weit von zwei SEITEN: Winkelhalbierende.",
+   "Vier Linienarten, vier Schnittpunkte, und jeder hat einen eigenen Namen."
+  ],
+  "loesungsweg": [
+   "Klären, welche Eigenschaft der gesuchte Punkt haben soll.",
+   "Die passende Linienart wählen.",
+   "Zwei solche Linien genügen für den Schnittpunkt; die dritte ist die Probe.",
+   "Den Namen des Schnittpunkts merken: Umkreis-, Inkreis-, Höhen- oder Schwerpunkt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wo schneiden sich die drei Mittelsenkrechten eines Dreiecks?",
+    "optionen": [
+     "im Umkreismittelpunkt",
+     "im Inkreismittelpunkt",
+     "im Höhenschnittpunkt",
+     "im Schwerpunkt"
+    ],
+    "loesung": [
+     "im Umkreismittelpunkt"
+    ],
+    "erklaerung": "Die Mittelsenkrechte einer Seite enthält alle Punkte mit gleichem Abstand zu deren Endpunkten. Der gemeinsame Schnittpunkt ist darum von allen drei Ecken gleich weit entfernt. Der Mittelpunkt des Umkreises.",
+    "fehler": [
+     {
+      "antwort": "im Inkreismittelpunkt",
+      "diagnoseId": "winkelhalbierende_verwechselt",
+      "feedback": "Der Inkreismittelpunkt liegt auf den Winkelhalbierenden. Er hat gleichen Abstand zu den SEITEN, nicht zu den Ecken."
+     },
+     {
+      "antwort": "im Höhenschnittpunkt",
+      "diagnoseId": "hoehen_verwechselt",
+      "feedback": "Der Höhenschnittpunkt gehört zu den Höhen und hat mit gleichen Abständen nichts zu tun."
+     },
+     {
+      "antwort": "im Schwerpunkt",
+      "diagnoseId": "seitenhalbierende_verwechselt",
+      "feedback": "Der Schwerpunkt liegt auf den Seitenhalbierenden. Den Linien von einer Ecke zur gegenüberliegenden Seitenmitte."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo schneiden sich die drei Winkelhalbierenden eines Dreiecks?",
+    "optionen": [
+     "im Inkreismittelpunkt",
+     "im Umkreismittelpunkt",
+     "im Schwerpunkt",
+     "im Höhenschnittpunkt"
+    ],
+    "loesung": [
+     "im Inkreismittelpunkt"
+    ],
+    "erklaerung": "Die Winkelhalbierende enthält alle Punkte mit gleichem Abstand zu den beiden Schenkeln. Der Schnittpunkt ist von allen drei Seiten gleich weit entfernt. Der Mittelpunkt des Inkreises.",
+    "fehler": [
+     {
+      "antwort": "im Umkreismittelpunkt",
+      "diagnoseId": "mittelsenkrechte_verwechselt",
+      "feedback": "Der Umkreismittelpunkt liegt auf den Mittelsenkrechten und hat gleichen Abstand zu den ECKEN."
+     },
+     {
+      "antwort": "im Schwerpunkt",
+      "diagnoseId": "seitenhalbierende_verwechselt",
+      "feedback": "Der Schwerpunkt gehört zu den Seitenhalbierenden."
+     },
+     {
+      "antwort": "im Höhenschnittpunkt",
+      "diagnoseId": "hoehen_verwechselt",
+      "feedback": "Die Höhen stehen senkrecht auf den Seiten und sagen nichts über gleiche Abstände."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist eine Seitenhalbierende im Dreieck?",
+    "optionen": [
+     "die Strecke von einer Ecke zur Mitte der Gegenseite",
+     "die Senkrechte auf einer Seite durch deren Mitte",
+     "die Senkrechte von einer Ecke auf die Gegenseite",
+     "die Linie, die einen Winkel halbiert"
+    ],
+    "loesung": [
+     "die Strecke von einer Ecke zur Mitte der Gegenseite"
+    ],
+    "erklaerung": "Die Seitenhalbierende verbindet eine Ecke mit dem Mittelpunkt der gegenüberliegenden Seite. Alle drei schneiden sich im Schwerpunkt.",
+    "fehler": [
+     {
+      "antwort": "die Senkrechte auf einer Seite durch deren Mitte",
+      "diagnoseId": "mittelsenkrechte_verwechselt",
+      "feedback": "Das ist die Mittelsenkrechte. Sie geht nicht durch eine Ecke, sondern steht senkrecht auf der Seite."
+     },
+     {
+      "antwort": "die Senkrechte von einer Ecke auf die Gegenseite",
+      "diagnoseId": "hoehe_verwechselt",
+      "feedback": "Das ist die Höhe. Sie trifft die Gegenseite im rechten Winkel, nicht unbedingt in der Mitte."
+     },
+     {
+      "antwort": "die Linie, die einen Winkel halbiert",
+      "diagnoseId": "winkelhalbierende_verwechselt",
+      "feedback": "Das ist die Winkelhalbierende. Sie halbiert den Winkel, nicht die Seite."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Verhältnis teilt der Schwerpunkt eine Seitenhalbierende?",
+    "optionen": [
+     "2 : 1, von der Ecke aus gemessen",
+     "1 : 1, er liegt genau in der Mitte",
+     "1 : 2, von der Ecke aus gemessen",
+     "3 : 1, von der Ecke aus gemessen"
+    ],
+    "loesung": [
+     "2 : 1, von der Ecke aus gemessen"
+    ],
+    "erklaerung": "Vom Eckpunkt aus liegt der Schwerpunkt bei zwei Dritteln der Strecke. Das längere Stück liegt also zur Ecke hin.",
+    "fehler": [
+     {
+      "antwort": "1 : 1, er liegt genau in der Mitte",
+      "diagnoseId": "mitte_angenommen",
+      "feedback": "Der Schwerpunkt liegt nicht in der Mitte, sondern näher bei der Seite als bei der Ecke."
+     },
+     {
+      "antwort": "1 : 2, von der Ecke aus gemessen",
+      "diagnoseId": "verhaeltnis_gedreht",
+      "feedback": "Die Richtung stimmt nicht: Von der Ecke aus ist das erste Stück das längere."
+     },
+     {
+      "antwort": "3 : 1, von der Ecke aus gemessen",
+      "diagnoseId": "falsches_verhaeltnis",
+      "feedback": "Das Verhältnis ist 2 : 1. Der Schwerpunkt liegt bei zwei Dritteln der Strecke."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo liegt der Umkreismittelpunkt eines rechtwinkligen Dreiecks?",
+    "optionen": [
+     "in der Mitte der Hypotenuse",
+     "in der Ecke mit dem rechten Winkel",
+     "in der Mitte einer Kathete",
+     "im Schwerpunkt"
+    ],
+    "loesung": [
+     "in der Mitte der Hypotenuse"
+    ],
+    "erklaerung": "Nach dem Satz des Thales liegen alle drei Ecken auf einem Kreis, dessen Durchmesser die Hypotenuse ist. Sein Mittelpunkt ist darum deren Mitte.",
+    "fehler": [
+     {
+      "antwort": "in der Ecke mit dem rechten Winkel",
+      "diagnoseId": "ecke_angenommen",
+      "feedback": "Von dieser Ecke aus sind die beiden anderen verschieden weit entfernt. Sie kann der Mittelpunkt nicht sein."
+     },
+     {
+      "antwort": "in der Mitte einer Kathete",
+      "diagnoseId": "kathete_verwechselt",
+      "feedback": "Der Durchmesser des Umkreises ist die Hypotenuse, nicht eine Kathete."
+     },
+     {
+      "antwort": "im Schwerpunkt",
+      "diagnoseId": "schwerpunkt_verwechselt",
+      "feedback": "Der Schwerpunkt liegt im Innern und ist nicht von allen Ecken gleich weit entfernt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wann liegt der Höhenschnittpunkt ausserhalb des Dreiecks?",
+    "optionen": [
+     "wenn das Dreieck einen stumpfen Winkel hat",
+     "wenn das Dreieck rechtwinklig ist",
+     "wenn das Dreieck gleichseitig ist",
+     "nie"
+    ],
+    "loesung": [
+     "wenn das Dreieck einen stumpfen Winkel hat"
+    ],
+    "erklaerung": "Bei einem stumpfen Winkel treffen zwei Höhen die verlängerten Seiten, und ihr Schnittpunkt wandert aus dem Dreieck heraus.",
+    "fehler": [
+     {
+      "antwort": "wenn das Dreieck rechtwinklig ist",
+      "diagnoseId": "rechtwinklig_verwechselt",
+      "feedback": "Beim rechten Winkel liegt der Höhenschnittpunkt genau in dieser Ecke, nicht ausserhalb."
+     },
+     {
+      "antwort": "wenn das Dreieck gleichseitig ist",
+      "diagnoseId": "gleichseitig_verwechselt",
+      "feedback": "Im gleichseitigen Dreieck fallen alle vier besonderen Punkte in der Mitte zusammen."
+     },
+     {
+      "antwort": "nie",
+      "diagnoseId": "nie_angenommen",
+      "feedback": "Bei stumpfwinkligen Dreiecken liegt er tatsächlich draussen. Das ist kein Konstruktionsfehler."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche vier besonderen Punkte fallen im gleichseitigen Dreieck zusammen?",
+    "optionen": [
+     "Umkreismittelpunkt, Inkreismittelpunkt, Schwerpunkt und Höhenschnittpunkt",
+     "nur Umkreis- und Inkreismittelpunkt",
+     "nur Schwerpunkt und Höhenschnittpunkt",
+     "keine, sie liegen immer getrennt"
+    ],
+    "loesung": [
+     "Umkreismittelpunkt, Inkreismittelpunkt, Schwerpunkt und Höhenschnittpunkt"
+    ],
+    "erklaerung": "Im gleichseitigen Dreieck ist jede Höhe zugleich Mittelsenkrechte, Winkelhalbierende und Seitenhalbierende. Darum fällt alles zusammen.",
+    "fehler": [
+     {
+      "antwort": "nur Umkreis- und Inkreismittelpunkt",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Auch Schwerpunkt und Höhenschnittpunkt liegen dort. Jede Linie erfüllt alle vier Rollen zugleich."
+     },
+     {
+      "antwort": "nur Schwerpunkt und Höhenschnittpunkt",
+      "diagnoseId": "zu_wenig_zwei",
+      "feedback": "Ebenso fallen Umkreis- und Inkreismittelpunkt in diesen Punkt."
+     },
+     {
+      "antwort": "keine, sie liegen immer getrennt",
+      "diagnoseId": "getrennt_angenommen",
+      "feedback": "Das gilt für das allgemeine Dreieck. Im gleichseitigen fallen alle vier zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Eigenschaft hat jeder Punkt auf der Mittelsenkrechten der Strecke AB?",
+    "optionen": [
+     "Er ist von A und B gleich weit entfernt",
+     "Er liegt auf der Strecke AB",
+     "Er ist von A weiter entfernt als von B",
+     "Er halbiert jeden Winkel bei A"
+    ],
+    "loesung": [
+     "Er ist von A und B gleich weit entfernt"
+    ],
+    "erklaerung": "Die Mittelsenkrechte ist genau die Menge aller Punkte mit gleichem Abstand zu A und zu B.",
+    "fehler": [
+     {
+      "antwort": "Er liegt auf der Strecke AB",
+      "diagnoseId": "strecke_verwechselt",
+      "feedback": "Die Mittelsenkrechte steht senkrecht auf AB und schneidet sie nur in einem einzigen Punkt."
+     },
+     {
+      "antwort": "Er ist von A weiter entfernt als von B",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Die Abstände sind gleich. Das ist gerade die Eigenschaft der Mittelsenkrechten."
+     },
+     {
+      "antwort": "Er halbiert jeden Winkel bei A",
+      "diagnoseId": "winkelhalbierende_verwechselt",
+      "feedback": "Winkel halbiert die Winkelhalbierende, nicht die Mittelsenkrechte."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist die Höhe hₐ in einem Dreieck ABC?",
+    "optionen": [
+     "die Senkrechte von A auf die Seite a",
+     "die Strecke von A zur Mitte von a",
+     "die Winkelhalbierende bei A",
+     "die längste Seite des Dreiecks"
+    ],
+    "loesung": [
+     "die Senkrechte von A auf die Seite a"
+    ],
+    "erklaerung": "Die Höhe hₐ geht durch die Ecke A und steht senkrecht auf der gegenüberliegenden Seite a.",
+    "fehler": [
+     {
+      "antwort": "die Strecke von A zur Mitte von a",
+      "diagnoseId": "seitenhalbierende_verwechselt",
+      "feedback": "Das ist die Seitenhalbierende. Die Höhe trifft die Seite im rechten Winkel, nicht unbedingt in der Mitte."
+     },
+     {
+      "antwort": "die Winkelhalbierende bei A",
+      "diagnoseId": "winkelhalbierende_verwechselt",
+      "feedback": "Die Winkelhalbierende teilt den Winkel. Die Höhe steht senkrecht auf der Gegenseite."
+     },
+     {
+      "antwort": "die längste Seite des Dreiecks",
+      "diagnoseId": "seite_verwechselt",
+      "feedback": "Die Höhe ist keine Seite, sondern eine Hilfslinie im Dreieck."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Linien braucht es mindestens, um den Inkreismittelpunkt zu finden?",
+    "optionen": [
+     "zwei Winkelhalbierende",
+     "eine Winkelhalbierende",
+     "drei Winkelhalbierende",
+     "zwei Mittelsenkrechte"
+    ],
+    "loesung": [
+     "zwei Winkelhalbierende"
+    ],
+    "erklaerung": "Zwei Winkelhalbierende schneiden sich in einem Punkt. Die dritte geht automatisch durch denselben Punkt und dient nur als Probe.",
+    "fehler": [
+     {
+      "antwort": "eine Winkelhalbierende",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Eine einzelne Linie legt keinen Punkt fest. Es braucht einen Schnittpunkt, also zwei."
+     },
+     {
+      "antwort": "drei Winkelhalbierende",
+      "diagnoseId": "zu_viele",
+      "feedback": "Die dritte ist nur die Probe. Zwei genügen, um den Punkt zu bestimmen."
+     },
+     {
+      "antwort": "zwei Mittelsenkrechte",
+      "diagnoseId": "falsche_linienart",
+      "feedback": "Mittelsenkrechte führen zum Umkreismittelpunkt. Für den Inkreis braucht es Winkelhalbierende."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über den Inkreis stimmt?",
+    "optionen": [
+     "Er berührt alle drei Seiten des Dreiecks",
+     "Er geht durch alle drei Ecken des Dreiecks",
+     "Sein Mittelpunkt kann ausserhalb des Dreiecks liegen",
+     "Sein Radius ist halb so lang wie die längste Seite"
+    ],
+    "loesung": [
+     "Er berührt alle drei Seiten des Dreiecks"
+    ],
+    "erklaerung": "Der Inkreis liegt innen und berührt jede Seite genau einmal. Sein Radius ist der Abstand des Mittelpunkts zu einer Seite.",
+    "fehler": [
+     {
+      "antwort": "Er geht durch alle drei Ecken des Dreiecks",
+      "diagnoseId": "umkreis_verwechselt",
+      "feedback": "Das ist der Umkreis. Der Inkreis berührt die Seiten, statt durch die Ecken zu gehen."
+     },
+     {
+      "antwort": "Sein Mittelpunkt kann ausserhalb des Dreiecks liegen",
+      "diagnoseId": "aussen_angenommen",
+      "feedback": "Der Inkreismittelpunkt liegt immer im Innern. Er ist von allen Seiten gleich weit entfernt."
+     },
+     {
+      "antwort": "Sein Radius ist halb so lang wie die längste Seite",
+      "diagnoseId": "radius_erfunden",
+      "feedback": "Eine solche Regel gibt es nicht. Der Radius ist der Abstand zum nächsten Seitenpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck ist gleichschenklig mit der Basis AB. Was gilt für die Höhe auf AB?",
+    "optionen": [
+     "Sie ist zugleich Mittelsenkrechte, Winkelhalbierende und Seitenhalbierende",
+     "Sie ist nur eine Höhe und sonst nichts",
+     "Sie halbiert die beiden Basiswinkel",
+     "Sie steht nicht senkrecht auf AB"
+    ],
+    "loesung": [
+     "Sie ist zugleich Mittelsenkrechte, Winkelhalbierende und Seitenhalbierende"
+    ],
+    "erklaerung": "Im gleichschenkligen Dreieck fallen für die Basis alle drei Linienarten zusammen. Deshalb ist es so oft die einfachste Hilfslinie.",
+    "fehler": [
+     {
+      "antwort": "Sie ist nur eine Höhe und sonst nichts",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Wegen der Symmetrie trifft sie die Basis genau in der Mitte und halbiert den Winkel an der Spitze."
+     },
+     {
+      "antwort": "Sie halbiert die beiden Basiswinkel",
+      "diagnoseId": "falsche_winkel",
+      "feedback": "Halbiert wird der Winkel an der SPITZE, nicht die Basiswinkel."
+     },
+     {
+      "antwort": "Sie steht nicht senkrecht auf AB",
+      "diagnoseId": "senkrecht_verneint",
+      "feedback": "Eine Höhe steht immer senkrecht auf der Seite, zu der sie gehört."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Linien und Punkte im Dreieck",
+  "status": "review"
+ },
+ {
+  "templateId": "so-winkel-kreis",
+  "lernzielId": "MSO.8.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "8.03",
+   "6.01",
+   "8.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Liegt der Scheitel des Winkels im Mittelpunkt oder auf dem Kreisrand?",
+   "Der Mittelpunktswinkel ist doppelt so gross wie jeder Umfangswinkel über demselben Bogen.",
+   "Zwei Radien bilden immer ein gleichschenkliges Dreieck."
+  ],
+  "loesungsweg": [
+   "Zuerst klären, wo der Scheitel liegt: im Mittelpunkt oder auf dem Kreis.",
+   "Mittelpunktswinkel und Umfangswinkel über demselben Bogen stehen im Verhältnis 2 : 1.",
+   "Zwei Radien sind gleich lang. Das ergibt ein gleichschenkliges Dreieck.",
+   "Über dem Durchmesser ist der Umfangswinkel immer 90° (Thales)."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Der Mittelpunktswinkel über einem Bogen misst 80°. Wie gross ist der Umfangswinkel über demselben Bogen?",
+    "optionen": [
+     "40°",
+     "80°",
+     "160°",
+     "100°"
+    ],
+    "loesung": [
+     "40°"
+    ],
+    "erklaerung": "Der Umfangswinkel ist halb so gross wie der Mittelpunktswinkel über demselben Bogen.",
+    "fehler": [
+     {
+      "antwort": "80°",
+      "diagnoseId": "gleich_gross",
+      "feedback": "Der Umfangswinkel ist nur halb so gross wie der Mittelpunktswinkel."
+     },
+     {
+      "antwort": "160°",
+      "diagnoseId": "verdoppelt",
+      "feedback": "Verdoppelt wird in die andere Richtung: Der Mittelpunktswinkel ist das Doppelte des Umfangswinkels."
+     },
+     {
+      "antwort": "100°",
+      "diagnoseId": "ergaenzt",
+      "feedback": "Zu 180° ergänzen hilft hier nicht. Das Verhältnis ist 2 : 1."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Umfangswinkel über einem Bogen misst 35°. Wie gross ist der Mittelpunktswinkel über demselben Bogen?",
+    "optionen": [
+     "70°",
+     "35°",
+     "17.5°",
+     "145°"
+    ],
+    "loesung": [
+     "70°"
+    ],
+    "erklaerung": "Der Mittelpunktswinkel ist doppelt so gross wie der Umfangswinkel.",
+    "fehler": [
+     {
+      "antwort": "35°",
+      "diagnoseId": "gleich_gross",
+      "feedback": "Der Mittelpunktswinkel ist doppelt so gross, nicht gleich gross."
+     },
+     {
+      "antwort": "17.5°",
+      "diagnoseId": "halbiert",
+      "feedback": "Halbiert wird in die andere Richtung: vom Mittelpunktswinkel zum Umfangswinkel."
+     },
+     {
+      "antwort": "145°",
+      "diagnoseId": "ergaenzt",
+      "feedback": "Zu 180° ergänzen gilt hier nicht. Das Verhältnis ist 2 : 1."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Punkt C liegt auf einem Halbkreis über dem Durchmesser AB. Wie gross ist der Winkel bei C?",
+    "optionen": [
+     "90°",
+     "45°",
+     "180°",
+     "das hängt von der Lage von C ab"
+    ],
+    "loesung": [
+     "90°"
+    ],
+    "erklaerung": "Das ist der Satz des Thales: Über dem Durchmesser ist der Umfangswinkel immer ein rechter.",
+    "fehler": [
+     {
+      "antwort": "45°",
+      "diagnoseId": "halbiert",
+      "feedback": "45° wäre die Hälfte des rechten Winkels. Thales sagt genau 90°."
+     },
+     {
+      "antwort": "180°",
+      "diagnoseId": "gestreckt",
+      "feedback": "180° ist ein gestreckter Winkel. Das wäre eine Gerade, kein Dreieck."
+     },
+     {
+      "antwort": "das hängt von der Lage von C ab",
+      "diagnoseId": "abhaengig_angenommen",
+      "feedback": "Gerade das ist das Besondere: Für JEDE Lage von C auf dem Halbkreis sind es 90°."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum ist ein Dreieck aus zwei Radien und einer Sehne immer gleichschenklig?",
+    "optionen": [
+     "Weil beide Radien gleich lang sind",
+     "Weil die Sehne der Basis entspricht",
+     "Weil der Mittelpunktswinkel immer 60° misst",
+     "Weil alle Dreiecke im Kreis gleichschenklig sind"
+    ],
+    "loesung": [
+     "Weil beide Radien gleich lang sind"
+    ],
+    "erklaerung": "Jeder Radius eines Kreises ist gleich lang. Zwei davon bilden darum immer zwei gleiche Schenkel.",
+    "fehler": [
+     {
+      "antwort": "Weil die Sehne der Basis entspricht",
+      "diagnoseId": "folge_statt_grund",
+      "feedback": "Die Sehne IST die Basis. Das ist die Folge, nicht der Grund."
+     },
+     {
+      "antwort": "Weil der Mittelpunktswinkel immer 60° misst",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Mittelpunktswinkel kann jeden Wert annehmen. 60° gäbe ein gleichseitiges Dreieck."
+     },
+     {
+      "antwort": "Weil alle Dreiecke im Kreis gleichschenklig sind",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Ein Dreieck aus drei Sehnen ist im Allgemeinen nicht gleichschenklig."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Mittelpunktswinkel eines gleichschenkligen Dreiecks aus zwei Radien misst 100°. Wie gross ist jeder Basiswinkel?",
+    "optionen": [
+     "40°",
+     "50°",
+     "80°",
+     "100°"
+    ],
+    "loesung": [
+     "40°"
+    ],
+    "erklaerung": "180° − 100° = 80° bleiben für die beiden gleichen Basiswinkel, also je 40°.",
+    "fehler": [
+     {
+      "antwort": "50°",
+      "diagnoseId": "halbiert_den_falschen",
+      "feedback": "Halbiert wird nicht der Mittelpunktswinkel, sondern das, was von 180° übrig bleibt."
+     },
+     {
+      "antwort": "80°",
+      "diagnoseId": "nicht_halbiert",
+      "feedback": "80° ist die Summe der beiden Basiswinkel. Jeder einzelne ist halb so gross."
+     },
+     {
+      "antwort": "100°",
+      "diagnoseId": "gleich_spitze",
+      "feedback": "Nur im gleichseitigen Dreieck sind alle Winkel gleich gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Zwei Umfangswinkel liegen über demselben Bogen, aber an verschiedenen Stellen des Kreises. Was gilt?",
+    "optionen": [
+     "Sie sind gleich gross",
+     "Sie ergänzen sich zu 180°",
+     "Der näher am Bogen ist grösser",
+     "Sie ergänzen sich zu 90°"
+    ],
+    "loesung": [
+     "Sie sind gleich gross"
+    ],
+    "erklaerung": "Der Umfangswinkelsatz: Alle Umfangswinkel über demselben Bogen sind gleich gross. Unabhängig davon, wo der Scheitel liegt.",
+    "fehler": [
+     {
+      "antwort": "Sie ergänzen sich zu 180°",
+      "diagnoseId": "gegenbogen_verwechselt",
+      "feedback": "Zu 180° ergänzen sich Umfangswinkel über den beiden VERSCHIEDENEN Bögen einer Sehne."
+     },
+     {
+      "antwort": "Der näher am Bogen ist grösser",
+      "diagnoseId": "abstand_angenommen",
+      "feedback": "Der Abstand zum Bogen spielt keine Rolle. Alle diese Winkel sind gleich gross."
+     },
+     {
+      "antwort": "Sie ergänzen sich zu 90°",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine solche Regel gibt es nicht. Über demselben Bogen sind alle Umfangswinkel gleich gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Kreissektor hat den Mittelpunktswinkel 90°. Welcher Anteil der Kreisfläche ist das?",
+    "optionen": [
+     "ein Viertel",
+     "ein Halbes",
+     "ein Drittel",
+     "90 Prozent"
+    ],
+    "loesung": [
+     "ein Viertel"
+    ],
+    "erklaerung": "Der volle Kreis hat 360°. 90 von 360 sind genau ein Viertel.",
+    "fehler": [
+     {
+      "antwort": "ein Halbes",
+      "diagnoseId": "haelfte",
+      "feedback": "Die Hälfte wären 180°. 90° sind halb so viel."
+     },
+     {
+      "antwort": "ein Drittel",
+      "diagnoseId": "drittel",
+      "feedback": "Ein Drittel wären 120°. 90° sind weniger."
+     },
+     {
+      "antwort": "90 Prozent",
+      "diagnoseId": "grad_als_prozent",
+      "feedback": "Grad und Prozent sind verschiedene Einheiten. Der Vollkreis hat 360°, nicht 100°."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Winkel zwischen einer Tangente und dem Radius zum Berührpunkt misst …",
+    "optionen": [
+     "90°",
+     "45°",
+     "180°",
+     "das hängt vom Radius ab"
+    ],
+    "loesung": [
+     "90°"
+    ],
+    "erklaerung": "Die Tangente berührt den Kreis in genau einem Punkt und steht dort senkrecht auf dem Radius.",
+    "fehler": [
+     {
+      "antwort": "45°",
+      "diagnoseId": "erfunden",
+      "feedback": "45° ergibt sich aus keiner Kreiseigenschaft. Der Winkel ist immer ein rechter."
+     },
+     {
+      "antwort": "180°",
+      "diagnoseId": "gestreckt",
+      "feedback": "180° wäre eine gerade Linie. Dann würde die Tangente durch den Mittelpunkt gehen."
+     },
+     {
+      "antwort": "das hängt vom Radius ab",
+      "diagnoseId": "abhaengig_angenommen",
+      "feedback": "Der Winkel ist immer 90°, unabhängig davon, wie gross der Kreis ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie gross ist die Summe der beiden Umfangswinkel über den beiden Bögen einer Sehne?",
+    "optionen": [
+     "180°",
+     "90°",
+     "360°",
+     "das hängt von der Sehne ab"
+    ],
+    "loesung": [
+     "180°"
+    ],
+    "erklaerung": "Die beiden Bögen ergänzen sich zum Vollkreis von 360°. Die zugehörigen Umfangswinkel sind je die Hälfte des Mittelpunktswinkels. Zusammen also 180°.",
+    "fehler": [
+     {
+      "antwort": "90°",
+      "diagnoseId": "zu_wenig",
+      "feedback": "90° gilt für den Sonderfall Thales, also wenn die Sehne ein Durchmesser ist, und auch dort ist die Summe 180°."
+     },
+     {
+      "antwort": "360°",
+      "diagnoseId": "mittelpunktswinkel_gerechnet",
+      "feedback": "360° ist die Summe der beiden MITTELPUNKTSWINKEL. Die Umfangswinkel sind je halb so gross."
+     },
+     {
+      "antwort": "das hängt von der Sehne ab",
+      "diagnoseId": "abhaengig_angenommen",
+      "feedback": "Die Summe ist immer 180°, gleich welche Sehne man wählt."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck ist einem Kreis so einbeschrieben, dass eine Seite durch den Mittelpunkt geht. Was folgt daraus?",
+    "optionen": [
+     "Das Dreieck ist rechtwinklig",
+     "Das Dreieck ist gleichseitig",
+     "Das Dreieck ist gleichschenklig",
+     "Daraus folgt nichts Bestimmtes"
+    ],
+    "loesung": [
+     "Das Dreieck ist rechtwinklig"
+    ],
+    "erklaerung": "Geht eine Seite durch den Mittelpunkt, ist sie ein Durchmesser, und nach Thales ist der gegenüberliegende Winkel ein rechter.",
+    "fehler": [
+     {
+      "antwort": "Das Dreieck ist gleichseitig",
+      "diagnoseId": "gleichseitig_angenommen",
+      "feedback": "Gleichseitig wird es dadurch nicht; die beiden anderen Seiten können verschieden lang sein."
+     },
+     {
+      "antwort": "Das Dreieck ist gleichschenklig",
+      "diagnoseId": "gleichschenklig_angenommen",
+      "feedback": "Auch das folgt nicht. Nur der rechte Winkel ist sicher."
+     },
+     {
+      "antwort": "Daraus folgt nichts Bestimmtes",
+      "diagnoseId": "nichts_angenommen",
+      "feedback": "Doch: Der Satz des Thales sagt, dass der gegenüberliegende Winkel 90° misst."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Mittelpunktswinkel misst 120°. Wie lang ist der zugehörige Kreisbogen im Verhältnis zum ganzen Umfang?",
+    "optionen": [
+     "ein Drittel",
+     "ein Viertel",
+     "ein Halbes",
+     "120 Prozent"
+    ],
+    "loesung": [
+     "ein Drittel"
+    ],
+    "erklaerung": "120 von 360 Grad sind genau ein Drittel des Vollkreises, für den Bogen wie für die Sektorfläche.",
+    "fehler": [
+     {
+      "antwort": "ein Viertel",
+      "diagnoseId": "viertel",
+      "feedback": "Ein Viertel wären 90°. 120° sind mehr. Rechne 120 geteilt durch 360."
+     },
+     {
+      "antwort": "ein Halbes",
+      "diagnoseId": "haelfte",
+      "feedback": "Die Hälfte wären 180°. 120° sind weniger."
+     },
+     {
+      "antwort": "120 Prozent",
+      "diagnoseId": "grad_als_prozent",
+      "feedback": "Ein Anteil kann nicht über 100 % liegen. Rechne 120 : 360."
+     }
+    ]
+   },
+   {
+    "stamm": "Zwei Radien schliessen einen Winkel von 60° ein. Welche Form hat das Dreieck aus den beiden Radien und der Sehne?",
+    "optionen": [
+     "gleichseitig",
+     "nur gleichschenklig",
+     "rechtwinklig",
+     "stumpfwinklig"
+    ],
+    "loesung": [
+     "gleichseitig"
+    ],
+    "erklaerung": "Die beiden Radien sind gleich lang, also sind die Basiswinkel gleich: (180° − 60°) : 2 = 60°. Alle drei Winkel messen 60°.",
+    "fehler": [
+     {
+      "antwort": "nur gleichschenklig",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Gleichschenklig stimmt, aber hier kommt mehr heraus: Alle drei Winkel messen 60°."
+     },
+     {
+      "antwort": "rechtwinklig",
+      "diagnoseId": "rechtwinklig_angenommen",
+      "feedback": "Ein rechter Winkel entstünde bei einem Mittelpunktswinkel von 90°."
+     },
+     {
+      "antwort": "stumpfwinklig",
+      "diagnoseId": "stumpf_angenommen",
+      "feedback": "Stumpf würde das Dreieck erst bei einem Mittelpunktswinkel über 90°."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Winkel am Kreis",
+  "status": "review"
+ },
+ {
+  "templateId": "so-vierecke-erkennen",
+  "lernzielId": "MSO.6.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "6.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Fragen Sie sich zuerst: Wie viele Seitenpaare sind parallel?",
+   "Zwei Paare parallel heisst Parallelogramm. Rechteck, Raute und Quadrat sind Sonderfälle davon.",
+   "Beim Drachenviereck stehen die Diagonalen senkrecht aufeinander, aber nur eine halbiert die andere."
+  ],
+  "loesungsweg": [
+   "Parallele Seitenpaare zählen.",
+   "Prüfen, ob alle Winkel rechte sind.",
+   "Prüfen, ob alle Seiten gleich lang sind.",
+   "Die Diagonalen anschauen: gleich lang, senkrecht, halbierend?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Viereck hat genau EIN Paar paralleler Seiten?",
+    "optionen": [
+     "das Trapez",
+     "das Parallelogramm",
+     "die Raute",
+     "das Drachenviereck"
+    ],
+    "loesung": [
+     "das Trapez"
+    ],
+    "erklaerung": "Beim Trapez sind genau zwei Seiten parallel. Sind es zwei Paare, heisst die Figur Parallelogramm.",
+    "fehler": [
+     {
+      "antwort": "das Parallelogramm",
+      "diagnoseId": "zwei_paare",
+      "feedback": "Beim Parallelogramm sind ZWEI Seitenpaare parallel."
+     },
+     {
+      "antwort": "die Raute",
+      "diagnoseId": "raute_verwechselt",
+      "feedback": "Die Raute ist ein Parallelogramm mit vier gleich langen Seiten, also ebenfalls zwei Paare."
+     },
+     {
+      "antwort": "das Drachenviereck",
+      "diagnoseId": "drachen_verwechselt",
+      "feedback": "Beim Drachenviereck muss kein Seitenpaar parallel sein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Eigenschaft haben die Diagonalen eines Rechtecks?",
+    "optionen": [
+     "Sie sind gleich lang und halbieren einander",
+     "Sie stehen senkrecht aufeinander",
+     "Sie sind verschieden lang",
+     "Nur eine halbiert die andere"
+    ],
+    "loesung": [
+     "Sie sind gleich lang und halbieren einander"
+    ],
+    "erklaerung": "Im Rechteck sind beide Diagonalen gleich lang und schneiden sich in ihrer Mitte. Senkrecht stehen sie nur beim Quadrat.",
+    "fehler": [
+     {
+      "antwort": "Sie stehen senkrecht aufeinander",
+      "diagnoseId": "raute_verwechselt",
+      "feedback": "Senkrechte Diagonalen hat die Raute, und das Quadrat, weil es beides ist."
+     },
+     {
+      "antwort": "Sie sind verschieden lang",
+      "diagnoseId": "falsch",
+      "feedback": "Gerade das zeichnet das Rechteck aus: Beide Diagonalen sind gleich lang."
+     },
+     {
+      "antwort": "Nur eine halbiert die andere",
+      "diagnoseId": "drachen_verwechselt",
+      "feedback": "Das gilt beim Drachenviereck. Im Rechteck halbieren sich beide gegenseitig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Viereck hat vier gleich lange Seiten, aber nicht unbedingt rechte Winkel?",
+    "optionen": [
+     "die Raute",
+     "das Quadrat",
+     "das Rechteck",
+     "das Trapez"
+    ],
+    "loesung": [
+     "die Raute"
+    ],
+    "erklaerung": "Die Raute hat vier gleich lange Seiten. Kommen rechte Winkel dazu, entsteht ein Quadrat.",
+    "fehler": [
+     {
+      "antwort": "das Quadrat",
+      "diagnoseId": "quadrat_verwechselt",
+      "feedback": "Das Quadrat hat zusätzlich vier rechte Winkel. Es ist ein Sonderfall der Raute."
+     },
+     {
+      "antwort": "das Rechteck",
+      "diagnoseId": "rechteck_verwechselt",
+      "feedback": "Beim Rechteck sind nur die gegenüberliegenden Seiten gleich lang."
+     },
+     {
+      "antwort": "das Trapez",
+      "diagnoseId": "trapez_verwechselt",
+      "feedback": "Beim Trapez müssen gar keine Seiten gleich lang sein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über das Quadrat stimmt?",
+    "optionen": [
+     "Es ist zugleich Rechteck und Raute",
+     "Es ist ein Trapez, aber kein Parallelogramm",
+     "Seine Diagonalen sind verschieden lang",
+     "Es hat nur ein Paar paralleler Seiten"
+    ],
+    "loesung": [
+     "Es ist zugleich Rechteck und Raute"
+    ],
+    "erklaerung": "Das Quadrat hat vier rechte Winkel wie das Rechteck und vier gleich lange Seiten wie die Raute. Beides zugleich.",
+    "fehler": [
+     {
+      "antwort": "Es ist ein Trapez, aber kein Parallelogramm",
+      "diagnoseId": "widerspruch",
+      "feedback": "Das Quadrat hat zwei Paare paralleler Seiten und ist damit sehr wohl ein Parallelogramm."
+     },
+     {
+      "antwort": "Seine Diagonalen sind verschieden lang",
+      "diagnoseId": "falsch",
+      "feedback": "Im Quadrat sind beide Diagonalen gleich lang UND stehen senkrecht aufeinander."
+     },
+     {
+      "antwort": "Es hat nur ein Paar paralleler Seiten",
+      "diagnoseId": "falsch_zwei",
+      "feedback": "Beide Seitenpaare sind parallel. Sonst wäre es kein Parallelogramm."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie berechnet man die Fläche eines Drachenvierecks?",
+    "optionen": [
+     "Diagonale mal Diagonale, geteilt durch 2",
+     "Diagonale mal Diagonale",
+     "Grundseite mal Höhe",
+     "Grundseite mal Höhe, geteilt durch 2"
+    ],
+    "loesung": [
+     "Diagonale mal Diagonale, geteilt durch 2"
+    ],
+    "erklaerung": "Das Produkt der Diagonalen ergibt das umschriebene Rechteck; der Drachen füllt genau die Hälfte davon.",
+    "fehler": [
+     {
+      "antwort": "Diagonale mal Diagonale",
+      "diagnoseId": "nicht_halbiert",
+      "feedback": "Das ist das umschriebene Rechteck. Der Drachen ist halb so gross."
+     },
+     {
+      "antwort": "Grundseite mal Höhe",
+      "diagnoseId": "parallelogramm_verwechselt",
+      "feedback": "Das ist die Formel für das Parallelogramm. Beim Drachen zählen die Diagonalen."
+     },
+     {
+      "antwort": "Grundseite mal Höhe, geteilt durch 2",
+      "diagnoseId": "dreieck_verwechselt",
+      "feedback": "Das ist die Dreiecksformel. Der Drachen ist ein Viereck aus zwei Dreiecken."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Eigenschaft haben die Diagonalen eines Drachenvierecks?",
+    "optionen": [
+     "Sie stehen senkrecht aufeinander, und eine halbiert die andere",
+     "Sie sind gleich lang",
+     "Sie halbieren einander gegenseitig",
+     "Sie stehen nie senkrecht aufeinander"
+    ],
+    "loesung": [
+     "Sie stehen senkrecht aufeinander, und eine halbiert die andere"
+    ],
+    "erklaerung": "Beim Drachenviereck steht die Symmetrieachse senkrecht auf der anderen Diagonale und halbiert sie. Umgekehrt gilt das nicht.",
+    "fehler": [
+     {
+      "antwort": "Sie sind gleich lang",
+      "diagnoseId": "rechteck_verwechselt",
+      "feedback": "Gleich lange Diagonalen hat das Rechteck. Beim Drachen sind sie meist verschieden lang."
+     },
+     {
+      "antwort": "Sie halbieren einander gegenseitig",
+      "diagnoseId": "parallelogramm_verwechselt",
+      "feedback": "Das gilt beim Parallelogramm. Beim Drachen halbiert nur die eine die andere."
+     },
+     {
+      "antwort": "Sie stehen nie senkrecht aufeinander",
+      "diagnoseId": "falsch",
+      "feedback": "Gerade das ist die Kerneigenschaft des Drachenvierecks."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie gross ist die Winkelsumme in jedem Viereck?",
+    "optionen": [
+     "360°",
+     "180°",
+     "270°",
+     "720°"
+    ],
+    "loesung": [
+     "360°"
+    ],
+    "erklaerung": "Jedes Viereck lässt sich durch eine Diagonale in zwei Dreiecke zerlegen: 2 · 180° = 360°.",
+    "fehler": [
+     {
+      "antwort": "180°",
+      "diagnoseId": "dreieck_verwechselt",
+      "feedback": "180° ist die Winkelsumme im Dreieck. Ein Viereck besteht aus zwei Dreiecken."
+     },
+     {
+      "antwort": "270°",
+      "diagnoseId": "erfunden",
+      "feedback": "Diese Zahl ergibt sich aus keiner Zerlegung. Zwei Dreiecke ergeben 360°."
+     },
+     {
+      "antwort": "720°",
+      "diagnoseId": "zu_viel",
+      "feedback": "720° wäre die Winkelsumme im Sechseck. Vier Dreiecke."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Viereck hat zwei Paare paralleler Seiten und vier rechte Winkel, aber nicht vier gleich lange Seiten. Was ist es?",
+    "optionen": [
+     "ein Rechteck",
+     "ein Quadrat",
+     "eine Raute",
+     "ein Trapez"
+    ],
+    "loesung": [
+     "ein Rechteck"
+    ],
+    "erklaerung": "Vier rechte Winkel machen das Rechteck. Wären zusätzlich alle Seiten gleich lang, wäre es ein Quadrat.",
+    "fehler": [
+     {
+      "antwort": "ein Quadrat",
+      "diagnoseId": "quadrat_verwechselt",
+      "feedback": "Beim Quadrat sind zusätzlich alle vier Seiten gleich lang. Das schliesst die Aufgabe aus."
+     },
+     {
+      "antwort": "eine Raute",
+      "diagnoseId": "raute_verwechselt",
+      "feedback": "Die Raute hat vier gleich lange Seiten, aber nicht unbedingt rechte Winkel."
+     },
+     {
+      "antwort": "ein Trapez",
+      "diagnoseId": "trapez_verwechselt",
+      "feedback": "Beim Trapez ist nur ein Seitenpaar parallel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Viereck entsteht, wenn man in einem Parallelogramm die Winkel auf 90° bringt?",
+    "optionen": [
+     "ein Rechteck",
+     "eine Raute",
+     "ein Trapez",
+     "ein Drachenviereck"
+    ],
+    "loesung": [
+     "ein Rechteck"
+    ],
+    "erklaerung": "Ein Parallelogramm mit rechten Winkeln ist ein Rechteck. Die Seitenlängen bleiben dabei, wie sie sind.",
+    "fehler": [
+     {
+      "antwort": "eine Raute",
+      "diagnoseId": "raute_verwechselt",
+      "feedback": "Zur Raute wird ein Parallelogramm, wenn alle SEITEN gleich lang werden, nicht durch die Winkel."
+     },
+     {
+      "antwort": "ein Trapez",
+      "diagnoseId": "trapez_verwechselt",
+      "feedback": "Ein Trapez hat weniger parallele Seiten, nicht mehr. Aus einem Parallelogramm wird es nicht."
+     },
+     {
+      "antwort": "ein Drachenviereck",
+      "diagnoseId": "drachen_verwechselt",
+      "feedback": "Das Drachenviereck ist meist gar kein Parallelogramm."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie berechnet man die Fläche eines Trapezes mit den parallelen Seiten a und c und der Höhe h?",
+    "optionen": [
+     "(a + c) · h : 2",
+     "(a + c) · h",
+     "a · h : 2",
+     "a · c : 2"
+    ],
+    "loesung": [
+     "(a + c) · h : 2"
+    ],
+    "erklaerung": "Die beiden parallelen Seiten werden gemittelt und mit der Höhe multipliziert. Das ist (a + c) : 2 mal h.",
+    "fehler": [
+     {
+      "antwort": "(a + c) · h",
+      "diagnoseId": "nicht_halbiert",
+      "feedback": "Die Summe der parallelen Seiten wird halbiert, weil sie doppelt gezählt ist."
+     },
+     {
+      "antwort": "a · h : 2",
+      "diagnoseId": "nur_eine_seite",
+      "feedback": "Beim Trapez zählen BEIDE parallelen Seiten, nicht nur eine."
+     },
+     {
+      "antwort": "a · c : 2",
+      "diagnoseId": "diagonalen_verwechselt",
+      "feedback": "Das Produkt zweier Seiten geteilt durch 2 gehört zum Drachen, und dort sind es die Diagonalen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über das Parallelogramm stimmt?",
+    "optionen": [
+     "Gegenüberliegende Seiten sind gleich lang und parallel",
+     "Alle vier Seiten sind gleich lang",
+     "Alle vier Winkel sind rechte Winkel",
+     "Die Diagonalen sind gleich lang"
+    ],
+    "loesung": [
+     "Gegenüberliegende Seiten sind gleich lang und parallel"
+    ],
+    "erklaerung": "Das ist die Grundeigenschaft. Gleich lange Seiten hat die Raute, rechte Winkel das Rechteck, gleich lange Diagonalen ebenfalls das Rechteck.",
+    "fehler": [
+     {
+      "antwort": "Alle vier Seiten sind gleich lang",
+      "diagnoseId": "raute_verwechselt",
+      "feedback": "Das gilt für die Raute, einen Sonderfall des Parallelogramms."
+     },
+     {
+      "antwort": "Alle vier Winkel sind rechte Winkel",
+      "diagnoseId": "rechteck_verwechselt",
+      "feedback": "Das gilt für das Rechteck, ebenfalls ein Sonderfall."
+     },
+     {
+      "antwort": "Die Diagonalen sind gleich lang",
+      "diagnoseId": "rechteck_verwechselt_zwei",
+      "feedback": "Gleich lange Diagonalen hat nur das Rechteck, nicht jedes Parallelogramm."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Viereck hat vier gleich lange Seiten und vier rechte Winkel. Wie viele der folgenden Namen treffen zu: Quadrat, Rechteck, Raute, Parallelogramm?",
+    "optionen": [
+     "alle vier",
+     "nur Quadrat",
+     "nur Quadrat und Rechteck",
+     "nur Quadrat und Raute"
+    ],
+    "loesung": [
+     "alle vier"
+    ],
+    "erklaerung": "Das Quadrat erfüllt alle Bedingungen der anderen drei zugleich. Es ist der speziellste Fall.",
+    "fehler": [
+     {
+      "antwort": "nur Quadrat",
+      "diagnoseId": "zu_eng",
+      "feedback": "Ein Quadrat erfüllt auch die Bedingungen für Rechteck, Raute und Parallelogramm."
+     },
+     {
+      "antwort": "nur Quadrat und Rechteck",
+      "diagnoseId": "raute_uebersehen",
+      "feedback": "Vier gleich lange Seiten machen es auch zur Raute."
+     },
+     {
+      "antwort": "nur Quadrat und Raute",
+      "diagnoseId": "rechteck_uebersehen",
+      "feedback": "Vier rechte Winkel machen es auch zum Rechteck."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Vierecksarten und ihre Eigenschaften",
+  "status": "review"
+ }
+]

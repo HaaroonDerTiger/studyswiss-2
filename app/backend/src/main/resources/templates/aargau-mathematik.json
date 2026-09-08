@@ -1,0 +1,3996 @@
+[
+ {
+  "templateId": "ag-vorrangterm",
+  "lernzielId": "MAG.1.01",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*b-c*(d-b)+d"
+   }
+  ],
+  "bedingungen": [
+   "b!=c",
+   "c!=d",
+   "d>b",
+   "wert>0",
+   "wert<200",
+   "wert!=a",
+   "wert!=d",
+   "a*b!=c*(d-b)"
+  ],
+  "stamm": "Berechne.\n\n{a} · {b} − {c} · ({d} − {b}) + {d} =",
+  "loesung": "a*b-c*(d-b)+d",
+  "gegenprobe": "d+(a*b-(c*d-c*b))",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "((a*b-c)*(d-b))+d",
+    "feedback": "Punkt vor Strich: Zuerst werden beide Produkte berechnet, erst danach wird addiert und subtrahiert."
+   },
+   {
+    "diagnoseId": "klammer_nicht_ausmultipliziert",
+    "ausdruck": "a*b-c*d-b+d",
+    "feedback": "Der Faktor {c} steht vor der ganzen Klammer. Er wird mit beiden Gliedern multipliziert: {c} · {d} und {c} · {b}."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "a*b-c*(d-b)-d",
+    "feedback": "Am Schluss steht ein Plus vor der {d}. Sie wird dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Was rechnest du zuerst?",
+   "Zuerst die Klammer, dann die beiden Produkte, zuletzt Plus und Minus.",
+   "Achte darauf, dass das Minus vor dem zweiten Produkt für das GANZE Produkt gilt."
+  ],
+  "loesungsweg": [
+   "Klammer: {d} − {b}.",
+   "Produkte: {a} · {b} und {c} · (die Klammer).",
+   "Der Reihe nach subtrahieren und addieren.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-bruchkette",
+  "lernzielId": "MAG.1.03",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.03",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b*c/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "c<b",
+   "a*b*b<=400",
+   "wert<3",
+   "((p*b*b+q*c*a)%(a*b*b))!=0",
+   "p!=q"
+  ],
+  "stamm": "{name} rechnet ohne Zwischenschritte auf dem Blatt. Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} · {c:hoch}⁄{b:tief} =",
+  "loesung": "p/a+q/b*c/b",
+  "gegenprobe": "(p*b*b+q*c*a)/(a*b*b)",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(p/a+q/b)*c/b",
+    "feedback": "Punkt vor Strich gilt auch bei Brüchen: Zuerst wird multipliziert, erst danach addiert."
+   },
+   {
+    "diagnoseId": "nur_zaehler_multipliziert",
+    "ausdruck": "p/a+q*c/b",
+    "feedback": "Beim Multiplizieren zweier Brüche werden auch die Nenner multipliziert: {b} · {b}."
+   },
+   {
+    "diagnoseId": "zweiten_gestuerzt",
+    "ausdruck": "p/a+q/b*b/c",
+    "feedback": "Gestürzt wird nur beim Dividieren. Zwischen den beiden hinteren Brüchen steht ein Malpunkt."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechnung kommt zuerst?",
+   "Zuerst das Produkt der beiden hinteren Brüche.",
+   "Dann den ersten Bruch dazuaddieren — dafür braucht es den gemeinsamen Nenner."
+  ],
+  "loesungsweg": [
+   "Produkt: {q} · {c} über {b} · {b}.",
+   "Gemeinsamer Nenner mit dem ersten Bruch.",
+   "Zähler addieren.",
+   "Vollständig kürzen: {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-kgv-anwendung",
+  "lernzielId": "MAG.1.05",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "min",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "am Bahnhof Aarau"
+     ],
+     [
+      "an der Haltestelle"
+     ],
+     [
+      "beim Schulhaus"
+     ],
+     [
+      "am Busterminal"
+     ],
+     [
+      "beim Hallenbad"
+     ],
+     [
+      "am Marktplatz"
+     ],
+     [
+      "beim Bahnübergang"
+     ],
+     [
+      "an der Kreuzung"
+     ],
+     [
+      "beim Sportplatz"
+     ],
+     [
+      "am Seeufer"
+     ],
+     [
+      "beim Werkhof"
+     ],
+     [
+      "an der Fähre"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*m"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*n"
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "g*m*n"
+   }
+  ],
+  "bedingungen": [
+   "ggt(m,n)==1",
+   "m!=n",
+   "a!=b",
+   "a<40",
+   "b<40",
+   "kgv<300",
+   "a>3",
+   "b>3"
+  ],
+  "stamm": "Zwei Buslinien halten {ort}: die eine fährt alle {a} Minuten, die andere alle {b} Minuten. Um 8 Uhr fahren beide gleichzeitig ab.\n\nNach wie vielen Minuten fahren sie das nächste Mal wieder gleichzeitig, und welche Zahl ist der grösste gemeinsame Teiler der beiden Taktzeiten?",
+  "felder": [
+   {
+    "name": "kgv",
+    "label": "nächste gemeinsame Abfahrt nach … Minuten",
+    "ausdruck": "g*m*n",
+    "fehler": [
+     {
+      "diagnoseId": "ggt",
+      "ausdruck": "g",
+      "feedback": "Das ist der grösste gemeinsame TEILER. Gesucht ist der nächste gemeinsame Zeitpunkt, also ein gemeinsames Vielfaches."
+     },
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt ist zwar ein gemeinsames Vielfaches, aber nicht das kleinste. Teile es noch durch den ggT."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b",
+      "feedback": "Addiert ergeben die Taktzeiten keinen gemeinsamen Zeitpunkt. Gesucht ist eine Zahl, die durch beide teilbar ist."
+     }
+    ]
+   },
+   {
+    "name": "g",
+    "label": "grösster gemeinsamer Teiler",
+    "ausdruck": "g",
+    "fehler": [
+     {
+      "diagnoseId": "kgv_verwechselt",
+      "ausdruck": "g*m*n",
+      "feedback": "Das ist das kleinste gemeinsame Vielfache. Der ggT ist höchstens so gross wie die kleinere der beiden Zahlen."
+     },
+     {
+      "diagnoseId": "kleinere",
+      "ausdruck": "min(a,b)",
+      "feedback": "Die kleinere Zahl ist nur dann der ggT, wenn sie die grössere wirklich teilt."
+     },
+     {
+      "diagnoseId": "eins",
+      "ausdruck": "1",
+      "feedback": "Die Eins teilt zwar beide, ist aber nicht die grösste solche Zahl. Zerlege beide in Primfaktoren."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wann treffen sich zwei Takte wieder?",
+   "Beim kleinsten gemeinsamen Vielfachen der beiden Taktzeiten.",
+   "Praktisch: kgV = {a} · {b} : ggT."
+  ],
+  "loesungsweg": [
+   "{a} = {g} · {m} und {b} = {g} · {n}.",
+   "Gemeinsam ist der Faktor {g} — das ist der ggT.",
+   "Das kgV ist {g} · {m} · {n} = {kgv}.",
+   "Nach {kgv} Minuten fahren beide Linien wieder zusammen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-potenzgesetze",
+  "lernzielId": "MAG.1.06",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.06",
+   "1.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "vor",
+    "typ": "formel",
+    "ausdruck": "a"
+   },
+   {
+    "name": "exp",
+    "typ": "formel",
+    "ausdruck": "m-n+k"
+   }
+  ],
+  "bedingungen": [
+   "m>n",
+   "exp>0",
+   "exp<12",
+   "m!=n",
+   "k!=n",
+   "a!=k"
+  ],
+  "stamm": "Vereinfache die Potenzen und gib das Ergebnis in der Form Vorfaktor mal Zehnerpotenz an.\n\n({a} · 10{m:hoch}) : 10{n:hoch} · 10{k:hoch} =",
+  "felder": [
+   {
+    "name": "vor",
+    "label": "Vorfaktor",
+    "ausdruck": "a",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "a/2",
+      "feedback": "Der Vorfaktor {a} bleibt unverändert: Geteilt und multipliziert werden nur die Zehnerpotenzen."
+     },
+     {
+      "diagnoseId": "mit_exponent_vermischt",
+      "ausdruck": "a*m",
+      "feedback": "Der Vorfaktor wird nicht mit einem Exponenten multipliziert. Beide Teile werden getrennt behandelt."
+     },
+     {
+      "diagnoseId": "eins",
+      "ausdruck": "1",
+      "feedback": "Der Vorfaktor verschwindet nicht. Er steht weiterhin vor der Zehnerpotenz."
+     }
+    ]
+   },
+   {
+    "name": "exp",
+    "label": "Exponent der Zehnerpotenz",
+    "ausdruck": "m-n+k",
+    "fehler": [
+     {
+      "diagnoseId": "alle_addiert",
+      "ausdruck": "m+n+k",
+      "feedback": "Beim DIVIDIEREN werden die Exponenten subtrahiert: {m} − {n}. Nur beim Multiplizieren werden sie addiert."
+     },
+     {
+      "diagnoseId": "alle_subtrahiert",
+      "ausdruck": "m-n-k",
+      "feedback": "Der letzte Faktor steht mit einem Malpunkt da. Sein Exponent wird addiert."
+     },
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "m*n*k",
+      "feedback": "Multipliziert werden die Exponenten nur beim Potenzieren einer Potenz."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was geschieht mit den Exponenten beim Dividieren?",
+   "Beim Dividieren werden sie subtrahiert, beim Multiplizieren addiert.",
+   "Also {m} − {n} + {k}."
+  ],
+  "loesungsweg": [
+   "Der Vorfaktor {a} bleibt stehen.",
+   "10{m:hoch} : 10{n:hoch} ergibt 10 hoch ({m} − {n}).",
+   "Mal 10{k:hoch} kommt noch {k} dazu.",
+   "Ergebnis: {vor} · 10 hoch {exp}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-wurzel-summe",
+  "lernzielId": "MAG.1.07",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.07",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "k1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "k2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "n1",
+    "typ": "formel",
+    "ausdruck": "pow(k1,2)*r"
+   },
+   {
+    "name": "n2",
+    "typ": "formel",
+    "ausdruck": "pow(k2,2)*r"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "k1+k2"
+   }
+  ],
+  "bedingungen": [
+   "k1<k2",
+   "n1<300",
+   "n2<300",
+   "k1!=r",
+   "k2!=r",
+   "summe!=r"
+  ],
+  "stamm": "{name} soll √{n1} + √{n2} vereinfachen. Beide Wurzeln lassen sich auf dieselbe Form a · √b bringen.\n\nGib den gemeinsamen Radikanden und den Faktor der Summe an.",
+  "felder": [
+   {
+    "name": "r",
+    "label": "Zahl unter der Wurzel",
+    "ausdruck": "r",
+    "fehler": [
+     {
+      "diagnoseId": "summe_der_zahlen",
+      "ausdruck": "n1+n2",
+      "feedback": "Zwei Wurzeln werden nicht addiert, indem man die Zahlen darunter addiert: √9 + √16 ist 7, nicht √25."
+     },
+     {
+      "diagnoseId": "faktor",
+      "ausdruck": "k1",
+      "feedback": "Das ist der Faktor der ersten Wurzel. Gefragt ist, was unter der Wurzel stehen bleibt."
+     },
+     {
+      "diagnoseId": "erste_zahl",
+      "ausdruck": "n1",
+      "feedback": "{n1} lässt sich vereinfachen: Es steckt eine Quadratzahl darin."
+     }
+    ]
+   },
+   {
+    "name": "summe",
+    "label": "Faktor vor der gemeinsamen Wurzel",
+    "ausdruck": "k1+k2",
+    "fehler": [
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "k1*k2",
+      "feedback": "Zwei gleichartige Wurzeln werden addiert wie {k1}x + {k2}x: Die Faktoren werden zusammengezählt, nicht multipliziert."
+     },
+     {
+      "diagnoseId": "nur_erster",
+      "ausdruck": "k1",
+      "feedback": "Beide Wurzeln zählen. Nach dem Vereinfachen stehen {k1} und {k2} vor derselben Wurzel."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "k2-k1",
+      "feedback": "Zwischen den beiden Wurzeln steht ein Plus."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Quadratzahlen stecken in {n1} und in {n2}?",
+   "Beide lassen sich als Quadratzahl mal denselben Rest schreiben.",
+   "Wurzeln mit gleichem Radikanden addiert man wie gleichartige Terme."
+  ],
+  "loesungsweg": [
+   "√{n1} = {k1} · √{r}.",
+   "√{n2} = {k2} · √{r}.",
+   "Beide haben denselben Radikanden, also lassen sich die Faktoren addieren.",
+   "Ergebnis: {summe} · √{r}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-volumen-einheiten",
+  "lernzielId": "MAG.1.09",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.09",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "dm³",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "m3",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 900,
+    "schritt": 10
+   },
+   {
+    "name": "cm3",
+    "typ": "ganzzahl",
+    "von": 500,
+    "bis": 9500,
+    "schritt": 500
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "m3*1000+l+cm3/1000"
+   }
+  ],
+  "bedingungen": [
+   "wert<12000",
+   "cm3%500==0",
+   "l!=m3",
+   "wert!=l"
+  ],
+  "stamm": "{name} addiert drei Rauminhalte und will das Ergebnis in Kubikdezimetern.\n\n{m3} m³ + {l} l + {cm3} cm³ =",
+  "loesung": "m3*1000+l+cm3/1000",
+  "gegenprobe": "(m3*1000000+l*1000+cm3)/1000",
+  "fehler": [
+   {
+    "diagnoseId": "liter_falsch",
+    "ausdruck": "m3*1000+l*1000+cm3/1000",
+    "feedback": "Ein Liter IST ein Kubikdezimeter. Die {l} Liter werden ohne Umrechnung dazugezählt."
+   },
+   {
+    "diagnoseId": "kubikmeter_falsch",
+    "ausdruck": "m3*100+l+cm3/1000",
+    "feedback": "1 m³ sind 1000 dm³, nicht 100: Zwischen zwei Raumeinheiten liegt der Faktor 1000."
+   },
+   {
+    "diagnoseId": "kubikzentimeter_falsch",
+    "ausdruck": "m3*1000+l+cm3/100",
+    "feedback": "1 dm³ sind 1000 cm³. Die Kubikzentimeter werden durch 1000 geteilt."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kubikdezimeter sind ein Kubikmeter?",
+   "1 m³ = 1000 dm³, und 1 dm³ = 1 l = 1000 cm³.",
+   "Alles in dm³ schreiben, dann addieren."
+  ],
+  "loesungsweg": [
+   "{m3} m³ sind {m3} · 1000 dm³.",
+   "{l} l sind {l} dm³ — Liter und Kubikdezimeter sind dasselbe.",
+   "{cm3} cm³ sind {cm3} : 1000 dm³.",
+   "Zusammen: {wert} dm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-zins-endkapital",
+  "lernzielId": "MAG.1.10",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.10",
+   "3.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2000,
+    "bis": 40000,
+    "schritt": 500
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "jahre",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "k*pow((100+p)/100,jahre)"
+   },
+   {
+    "name": "einfach",
+    "typ": "formel",
+    "ausdruck": "k+k*p*jahre/100"
+   },
+   {
+    "name": "zins",
+    "typ": "formel",
+    "ausdruck": "k*pow((100+p)/100,jahre)-k"
+   }
+  ],
+  "bedingungen": [
+   "ende<80000",
+   "ende!=einfach",
+   "k!=p",
+   "zins>60"
+  ],
+  "stamm": "{name} legt {k:franken} für {jahre} Jahre an. Der Zinssatz beträgt {p} % pro Jahr, und die Zinsen bleiben auf dem Konto.\n\nBerechne das Endkapital und den gesamten Zinsertrag.",
+  "felder": [
+   {
+    "name": "ende",
+    "label": "Endkapital in Fr.",
+    "ausdruck": "k*pow((100+p)/100,jahre)",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_zinseszins",
+      "ausdruck": "k+k*p*jahre/100",
+      "feedback": "Weil die Zinsen auf dem Konto bleiben, werden sie im nächsten Jahr mitverzinst. Der Faktor wird {jahre}-mal angewendet."
+     },
+     {
+      "diagnoseId": "nur_ein_jahr",
+      "ausdruck": "k*(100+p)/100",
+      "feedback": "Das ist das Kapital nach einem Jahr. Es sind {jahre} Jahre."
+     },
+     {
+      "diagnoseId": "nur_zins",
+      "ausdruck": "k*pow((100+p)/100,jahre)-k",
+      "feedback": "Das ist der Zinsertrag. Das Endkapital enthält auch das eingezahlte Geld."
+     }
+    ]
+   },
+   {
+    "name": "zins",
+    "label": "Zinsertrag in Fr.",
+    "ausdruck": "k*pow((100+p)/100,jahre)-k",
+    "fehler": [
+     {
+      "diagnoseId": "endkapital",
+      "ausdruck": "k*pow((100+p)/100,jahre)",
+      "feedback": "Das ist das Endkapital. Der Ertrag ist der Teil, der dazugekommen ist — also ohne das eingezahlte Kapital."
+     },
+     {
+      "diagnoseId": "einfacher_zins",
+      "ausdruck": "k*p*jahre/100",
+      "feedback": "Ohne Zinseszins wäre der Ertrag kleiner. Hier verzinsen sich auch die Zinsen."
+     },
+     {
+      "diagnoseId": "ein_jahr",
+      "ausdruck": "k*p/100",
+      "feedback": "Das ist der Zins des ersten Jahres. Gefragt ist der Ertrag über {jahre} Jahre."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was geschieht mit den Zinsen am Ende jedes Jahres?",
+   "Sie bleiben auf dem Konto und werden mitverzinst.",
+   "Also: Kapital mal (1 + {p} : 100) hoch {jahre}."
+  ],
+  "loesungsweg": [
+   "Faktor je Jahr: 1 + {p} : 100.",
+   "Endkapital: {k} · Faktor hoch {jahre} = {ende}.",
+   "Zinsertrag: Endkapital minus Kapital.",
+   "Ergebnis: Fr. {zins}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-gleichung-brueche",
+  "lernzielId": "MAG.2.11",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.11",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -36,
+    "bis": 36,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "x/n1+x/n2-k"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "x!=0",
+   "x%n1==0",
+   "x%n2==0",
+   "abs(r)<70",
+   "k!=x",
+   "r!=x",
+   "abs(x)>3",
+   "r!=k",
+   "(x/n1)!=(x/n2)"
+  ],
+  "stamm": "{name} löst diese Gleichung nach x auf.\n\nx⁄{n1:tief} + x⁄{n2:tief} − {k} = {r}",
+  "loesung": "x",
+  "gegenprobe": "(r+k)*n1*n2/(n1+n2)",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(r+k)*(n1+n2)",
+    "feedback": "Die Nenner werden nicht addiert. Multipliziere die ganze Gleichung mit dem gemeinsamen Nenner {n1} · {n2}."
+   },
+   {
+    "diagnoseId": "konstante_falsch",
+    "ausdruck": "(r-k)*n1*n2/(n1+n2)",
+    "feedback": "Die {k} steht links mit einem Minus. Beim Verschieben auf die rechte Seite wird sie addiert."
+   },
+   {
+    "diagnoseId": "nur_ein_bruch",
+    "ausdruck": "(r+k)*n1",
+    "feedback": "Es stehen ZWEI Brüche mit x auf der linken Seite. Beide gehören zusammengefasst."
+   }
+  ],
+  "hinweise": [
+   "Wie wirst du die Nenner los?",
+   "Multipliziere jeden Summanden mit {n1} · {n2}.",
+   "Danach ist es eine gewöhnliche lineare Gleichung."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {n1} · {n2}.",
+   "Die ganze Gleichung damit multiplizieren.",
+   "Zusammenfassen und nach x auflösen.",
+   "Ergebnis: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-altersaufgabe",
+  "lernzielId": "MAG.2.13",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.13",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Jahre",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "j",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "kind",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "mutter",
+    "typ": "formel",
+    "ausdruck": "f*kind"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "f*kind+kind"
+   }
+  ],
+  "bedingungen": [
+   "mutter<60",
+   "mutter>28",
+   "kind<mutter",
+   "j<kind",
+   "summe<80",
+   "kind!=j",
+   "mutter!=summe",
+   "f!=j"
+  ],
+  "stamm": "{name} ist heute {kind} Jahre alt. Die Mutter von {name} ist {f}-mal so alt.\n\nWie alt ist die Mutter heute, und wie alt war sie vor {j} Jahren?",
+  "felder": [
+   {
+    "name": "mutter",
+    "label": "Alter der Mutter heute",
+    "ausdruck": "f*kind",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "kind+f",
+      "feedback": "«{f}-mal so alt» heisst multiplizieren, nicht addieren."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "kind/f",
+      "feedback": "Die Mutter ist ÄLTER. Das Alter des Kindes wird mit {f} multipliziert."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "f*kind+kind",
+      "feedback": "Das ist die Summe beider Alter. Gefragt ist nur die Mutter."
+     }
+    ]
+   },
+   {
+    "name": "frueher",
+    "label": "Alter der Mutter vor {j} Jahren",
+    "ausdruck": "f*kind-j",
+    "fehler": [
+     {
+      "diagnoseId": "kind_abgezogen",
+      "ausdruck": "f*(kind-j)",
+      "feedback": "Vor {j} Jahren war die Mutter {j} Jahre jünger. Ihr Alter wird um {j} verringert, nicht das Vielfache neu berechnet."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "f*kind+j",
+      "feedback": "Vor {j} Jahren war sie jünger, nicht älter."
+     },
+     {
+      "diagnoseId": "heutiges_alter",
+      "ausdruck": "f*kind",
+      "feedback": "Das ist ihr heutiges Alter. Vor {j} Jahren war sie {j} Jahre jünger."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie kommst du vom Alter des Kindes auf das der Mutter?",
+   "Das Alter des Kindes mal {f}.",
+   "Für «vor {j} Jahren» ziehst du bei beiden {j} ab."
+  ],
+  "loesungsweg": [
+   "Mutter heute: {f} · {kind} = {mutter} Jahre.",
+   "Vor {j} Jahren war sie {j} Jahre jünger.",
+   "{mutter} − {j}.",
+   "Beide sind in derselben Zeit gleich viel älter geworden."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-gleichungssystem",
+  "lernzielId": "MAG.2.15",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.15",
+   "2.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "y",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Hefte",
+      "Ordner"
+     ],
+     [
+      "Karten",
+      "Umschläge"
+     ],
+     [
+      "Becher",
+      "Teller"
+     ],
+     [
+      "Stifte",
+      "Blöcke"
+     ],
+     [
+      "Setzlinge",
+      "Töpfe"
+     ],
+     [
+      "Bälle",
+      "Netze"
+     ],
+     [
+      "Kerzen",
+      "Halter"
+     ],
+     [
+      "Bücher",
+      "Hüllen"
+     ],
+     [
+      "Gläser",
+      "Krüge"
+     ],
+     [
+      "Riegel",
+      "Getränke"
+     ]
+    ]
+   },
+   {
+    "name": "s1",
+    "typ": "formel",
+    "ausdruck": "x+y"
+   },
+   {
+    "name": "s2",
+    "typ": "formel",
+    "ausdruck": "a*x+b*y"
+   }
+  ],
+  "bedingungen": [
+   "x!=y",
+   "a!=b",
+   "s1<26",
+   "s2<120",
+   "a*x!=b*y",
+   "x!=a",
+   "y!=b",
+   "s1!=s2",
+   "x!=s1",
+   "y!=s2"
+  ],
+  "stamm": "{name} kauft zusammen {s1} Stück: {sache} und {sache.1}. Ein Stück der ersten Sorte kostet Fr. {a}.–, eines der zweiten Fr. {b}.–. Zusammen bezahlt {name} Fr. {s2}.–.\n\nWie viele Stück sind es von jeder Sorte?",
+  "felder": [
+   {
+    "name": "x",
+    "label": "Anzahl {sache}",
+    "ausdruck": "x",
+    "fehler": [
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "s1/2",
+      "feedback": "Die Hälfte wäre es nur, wenn beide Sorten gleich viel kosteten. Stelle zwei Gleichungen auf: x + y = {s1} und {a}x + {b}y = {s2}."
+     },
+     {
+      "diagnoseId": "gesamtzahl",
+      "ausdruck": "s1",
+      "feedback": "Das ist die Gesamtzahl beider Sorten. Gefragt ist nur die erste."
+     },
+     {
+      "diagnoseId": "andere_sorte",
+      "ausdruck": "y",
+      "feedback": "Das ist die Anzahl der zweiten Sorte. Prüfe, welche Zahl zu welchem Preis gehört."
+     }
+    ]
+   },
+   {
+    "name": "y",
+    "label": "Anzahl {sache.1}",
+    "ausdruck": "y",
+    "fehler": [
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "s1/2",
+      "feedback": "Nur bei gleichen Preisen käme die Hälfte heraus. Hier kosten die beiden Sorten verschieden viel."
+     },
+     {
+      "diagnoseId": "erste_sorte",
+      "ausdruck": "x",
+      "feedback": "Das ist die Anzahl der ersten Sorte. Prüfe, welche Unbekannte zu welchem Preis gehört."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "s1-2*x",
+      "feedback": "Aus der ersten Gleichung folgt y = {s1} − x, nicht {s1} − 2x."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Gleichungen brauchst du für zwei Unbekannte?",
+   "Zwei: eine für die Anzahl, eine für den Preis.",
+   "x + y = {s1} und {a}x + {b}y = {s2}. Löse die erste nach y auf und setze ein."
+  ],
+  "loesungsweg": [
+   "Erste Gleichung: x + y = {s1}.",
+   "Zweite Gleichung: {a}x + {b}y = {s2}.",
+   "Aus der ersten y = {s1} − x, in die zweite einsetzen.",
+   "Es ergibt sich x = {x} und y = {y}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-schnittpunkt",
+  "lernzielId": "MAG.3.06",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "3.06",
+   "3.05",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": -4,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "ganzzahl",
+    "von": -4,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "q1",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "y",
+    "typ": "formel",
+    "ausdruck": "m1*x+q1"
+   },
+   {
+    "name": "q2",
+    "typ": "formel",
+    "ausdruck": "y-m2*x"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "abs(y)<28",
+   "abs(q2)<28",
+   "q1!=0",
+   "q2!=0",
+   "x!=0",
+   "x!=y",
+   "m1!=0",
+   "m2!=0",
+   "q1!=q2"
+  ],
+  "stamm": "Gegeben sind zwei Geraden:\n\ng: y = {m1}x + {q1}\nh: y = {m2}x + {q2}\n\nBerechne den Schnittpunkt.",
+  "felder": [
+   {
+    "name": "x",
+    "label": "x-Koordinate des Schnittpunkts",
+    "ausdruck": "(q2-q1)/(m1-m2)",
+    "fehler": [
+     {
+      "diagnoseId": "nenner_addiert",
+      "ausdruck": "(q2-q1)/(m1+m2)",
+      "feedback": "Beim Gleichsetzen werden die x-Glieder voneinander abgezogen: {m1}x − {m2}x ergibt ({m1} − {m2})x."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "(q1-q2)/(m1-m2)",
+      "feedback": "Prüfe die Zeile, in der du die Zahlen auf eine Seite gebracht hast: Aus {q1} auf der linken Seite wird −{q1} auf der rechten."
+     },
+     {
+      "diagnoseId": "y_wert",
+      "ausdruck": "m1*(q2-q1)/(m1-m2)+q1",
+      "feedback": "Das ist die y-Koordinate. Zuerst wird nach x aufgelöst."
+     }
+    ]
+   },
+   {
+    "name": "y",
+    "label": "y-Koordinate des Schnittpunkts",
+    "ausdruck": "m1*((q2-q1)/(m1-m2))+q1",
+    "fehler": [
+     {
+      "diagnoseId": "x_wert",
+      "ausdruck": "(q2-q1)/(m1-m2)",
+      "feedback": "Das ist die x-Koordinate. Setze sie in eine der beiden Gleichungen ein, um y zu erhalten."
+     },
+     {
+      "diagnoseId": "achsenabschnitt",
+      "ausdruck": "q1",
+      "feedback": "Das ist der y-Achsenabschnitt der ersten Geraden — der Wert bei x = 0, nicht am Schnittpunkt."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "q1+q2",
+      "feedback": "Die beiden Achsenabschnitte addiert ergeben keinen Punkt der Geraden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was gilt im Schnittpunkt für beide Geraden?",
+   "Dort haben sie denselben y-Wert: Setze die beiden Terme gleich.",
+   "Nach x auflösen, dann x in eine der Gleichungen einsetzen."
+  ],
+  "loesungsweg": [
+   "Gleichsetzen: {m1}x + {q1} = {m2}x + {q2}.",
+   "x-Glieder auf eine Seite, Zahlen auf die andere.",
+   "x = {x}.",
+   "Eingesetzt ergibt das y = {y}, der Schnittpunkt ist ({x}|{y})."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-kreisring",
+  "lernzielId": "MAG.4.04",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.04",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "ra",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Unterlagsscheibe"
+     ],
+     [
+      "ein Blumenring"
+     ],
+     [
+      "eine Laufbahn"
+     ],
+     [
+      "ein Zifferblatt"
+     ],
+     [
+      "ein Rohrquerschnitt"
+     ],
+     [
+      "ein Randbeet"
+     ],
+     [
+      "ein Deckelrand"
+     ],
+     [
+      "ein Reifen"
+     ],
+     [
+      "ein Brunnenrand"
+     ],
+     [
+      "eine Ringfläche"
+     ],
+     [
+      "ein Wegring"
+     ],
+     [
+      "ein Dichtungsring"
+     ]
+    ]
+   },
+   {
+    "name": "ri",
+    "typ": "formel",
+    "ausdruck": "ra-d"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "3.14159*(ra*ra-(ra-d)*(ra-d))"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "2*3.14159*ra"
+   }
+  ],
+  "bedingungen": [
+   "ri>3",
+   "flaeche>40",
+   "flaeche<2000",
+   "ra!=d",
+   "aussen!=flaeche"
+  ],
+  "stamm": "Auf dem Plan bildet {sache} einen Kreisring: Der äussere Radius misst {ra} cm, der Ring ist {d} cm breit.\n\nBerechne die Ringfläche und den äusseren Umfang. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Ringfläche in cm²",
+    "ausdruck": "3.14159*(ra*ra-(ra-d)*(ra-d))",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_kreis",
+      "ausdruck": "3.14159*ra*ra",
+      "feedback": "Das ist die Fläche des ganzen äusseren Kreises. Die innere Fläche gehört nicht zum Ring und wird abgezogen."
+     },
+     {
+      "diagnoseId": "breite_als_radius",
+      "ausdruck": "3.14159*d*d",
+      "feedback": "{d} cm ist die BREITE des Rings, nicht ein Radius. Die Ringfläche ist die Differenz zweier Kreisflächen."
+     },
+     {
+      "diagnoseId": "breite_zweimal",
+      "ausdruck": "3.14159*(ra*ra-(ra-2*d)*(ra-2*d))",
+      "feedback": "Die Ringbreite wird nur EINMAL abgezogen: Der innere Radius ist {ra} − {d}, nicht {ra} − 2 · {d}."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "äusserer Umfang in cm",
+    "ausdruck": "2*3.14159*ra",
+    "fehler": [
+     {
+      "diagnoseId": "mit_innenradius",
+      "ausdruck": "2*3.14159*(ra-d)",
+      "feedback": "Das ist der innere Umfang. Gefragt ist der äussere, mit dem Radius {ra} cm."
+     },
+     {
+      "diagnoseId": "ohne_zwei",
+      "ausdruck": "3.14159*ra",
+      "feedback": "Im Umfang steht der Faktor 2: U = 2 · π · r."
+     },
+     {
+      "diagnoseId": "flaechenformel",
+      "ausdruck": "3.14159*ra*ra",
+      "feedback": "Das ist eine Fläche in cm². Der Umfang ist eine Länge."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist der innere Radius?",
+   "{ra} cm minus die Ringbreite von {d} cm.",
+   "Die Ringfläche ist die äussere Kreisfläche minus die innere."
+  ],
+  "loesungsweg": [
+   "Innerer Radius: {ra} − {d} = {ri} cm.",
+   "Äussere Fläche: π · {ra}².",
+   "Innere Fläche abziehen: π · {ri}².",
+   "Ringfläche {flaeche} cm², äusserer Umfang {aussen} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-raumdiagonale",
+  "lernzielId": "MAG.4.06",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.06",
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Kiste"
+     ],
+     [
+      "ein Karton"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "ein Schrank"
+     ],
+     [
+      "ein Werkzeugkoffer"
+     ],
+     [
+      "ein Lagerfach"
+     ],
+     [
+      "eine Vitrine"
+     ],
+     [
+      "ein Transportbehälter"
+     ],
+     [
+      "ein Setzkasten"
+     ],
+     [
+      "eine Truhe"
+     ],
+     [
+      "ein Regalfach"
+     ],
+     [
+      "ein Bienenkasten"
+     ]
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "formel",
+    "ausdruck": "sqrt(a*a+b*b)"
+   },
+   {
+    "name": "raum",
+    "typ": "formel",
+    "ausdruck": "sqrt(a*a+b*b+c*c)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "raum<50",
+   "grund>4"
+  ],
+  "stamm": "Im Lager steht {sache} in Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm.\n\nBerechne die Diagonale der Grundfläche und die Raumdiagonale. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "grund",
+    "label": "Diagonale der Grundfläche in cm",
+    "ausdruck": "sqrt(a*a+b*b)",
+    "fehler": [
+     {
+      "diagnoseId": "summe_der_kanten",
+      "ausdruck": "a+b",
+      "feedback": "Die Diagonale ist kürzer als der Weg über die zwei Kanten. Sie folgt aus dem Satz des Pythagoras."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "sqrt(a*a+c*c)",
+      "feedback": "Zur Grundfläche gehören die Kanten {a} cm und {b} cm. Die {c} cm sind die Höhe."
+     },
+     {
+      "diagnoseId": "raumdiagonale",
+      "ausdruck": "sqrt(a*a+b*b+c*c)",
+      "feedback": "Das ist die Raumdiagonale — sie geht durch den Körper, nicht nur über die Grundfläche."
+     }
+    ]
+   },
+   {
+    "name": "raum",
+    "label": "Raumdiagonale in cm",
+    "ausdruck": "sqrt(a*a+b*b+c*c)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "sqrt(a*a+b*b)",
+      "feedback": "Das ist die Diagonale der Grundfläche. Für die Raumdiagonale kommt die Höhe dazu — wieder mit Pythagoras."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c",
+      "feedback": "Die Raumdiagonale ist kürzer als der Weg entlang der drei Kanten."
+     },
+     {
+      "diagnoseId": "ohne_wurzel",
+      "ausdruck": "a*a+b*b+c*c",
+      "feedback": "Das ist das Quadrat der Diagonale. Am Schluss fehlt die Wurzel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wo liegt die Diagonale der Grundfläche?",
+   "Im rechtwinkligen Dreieck aus den Kanten {a} cm und {b} cm.",
+   "Die Raumdiagonale steht dann senkrecht dazu — Pythagoras ein zweites Mal."
+  ],
+  "loesungsweg": [
+   "Grundflächendiagonale: √({a}² + {b}²) = {grund} cm.",
+   "Diese Diagonale und die Höhe bilden wieder ein rechtwinkliges Dreieck.",
+   "Raumdiagonale: √({grund}² + {c}²).",
+   "Kurz: √({a}² + {b}² + {c}²) = {raum} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-kugeln-ziehen",
+  "lernzielId": "MAG.6.03",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "6.03",
+   "6.02",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal4",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "gold",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "silber",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "schwarz",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "gold+silber+schwarz"
+   },
+   {
+    "name": "mit",
+    "typ": "formel",
+    "ausdruck": "gold*gold/(n*n)"
+   },
+   {
+    "name": "ohne",
+    "typ": "formel",
+    "ausdruck": "gold*(gold-1)/(n*(n-1))"
+   },
+   {
+    "name": "psilber",
+    "typ": "formel",
+    "ausdruck": "silber*(silber-1)/(n*(n-1))"
+   }
+  ],
+  "bedingungen": [
+   "gold>1",
+   "n>9",
+   "n<24",
+   "silber!=gold",
+   "mit!=ohne",
+   "psilber>0.01"
+  ],
+  "stamm": "In einer Schachtel liegen {gold} goldene, {silber} silberne und {schwarz} schwarze Kugeln. {name} zieht zweimal.\n\nWie gross ist die Wahrscheinlichkeit für zweimal Gold — einmal mit Zurücklegen und einmal ohne?",
+  "felder": [
+   {
+    "name": "mit",
+    "label": "mit Zurücklegen",
+    "ausdruck": "gold*gold/(n*n)",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_zuruecklegen",
+      "ausdruck": "gold*(gold-1)/(n*(n-1))",
+      "feedback": "Mit Zurücklegen bleibt die Schachtel unverändert: Beim zweiten Zug liegen wieder {gold} goldene unter {n} Kugeln."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "gold/n+gold/n",
+      "feedback": "Bei zwei Zügen hintereinander werden die Wahrscheinlichkeiten multipliziert, nicht addiert."
+     },
+     {
+      "diagnoseId": "nur_ein_zug",
+      "ausdruck": "gold/n",
+      "feedback": "Das ist die Wahrscheinlichkeit für einen einzigen Zug."
+     }
+    ]
+   },
+   {
+    "name": "ohne",
+    "label": "ohne Zurücklegen",
+    "ausdruck": "gold*(gold-1)/(n*(n-1))",
+    "fehler": [
+     {
+      "diagnoseId": "mit_zuruecklegen",
+      "ausdruck": "gold*gold/(n*n)",
+      "feedback": "Ohne Zurücklegen fehlt beim zweiten Zug eine goldene Kugel — und eine Kugel insgesamt."
+     },
+     {
+      "diagnoseId": "nur_nenner_kleiner",
+      "ausdruck": "gold*gold/(n*(n-1))",
+      "feedback": "Auch im Zähler ändert sich etwas: Nach dem ersten Zug sind nur noch {gold} − 1 goldene Kugeln da."
+     },
+     {
+      "diagnoseId": "nur_zaehler_kleiner",
+      "ausdruck": "gold*(gold-1)/(n*n)",
+      "feedback": "Auch die Gesamtzahl sinkt: Beim zweiten Zug liegen nur noch {n} − 1 Kugeln in der Schachtel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kugeln liegen insgesamt in der Schachtel?",
+   "{n} Stück. Mit Zurücklegen bleibt diese Zahl gleich.",
+   "Ohne Zurücklegen sinken beim zweiten Zug Zähler und Nenner um eins."
+  ],
+  "loesungsweg": [
+   "Insgesamt {n} Kugeln, davon {gold} goldene.",
+   "Mit Zurücklegen: {gold}⁄{n} · {gold}⁄{n}.",
+   "Ohne Zurücklegen: {gold}⁄{n} · ({gold}−1)⁄({n}−1).",
+   "Die zweite Wahrscheinlichkeit ist kleiner."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-runden",
+  "lernzielId": "MAG.1.04",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "1.04",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 1000,
+    "bis": 9999,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Schrauben"
+     ],
+     [
+      "Bausteine"
+     ],
+     [
+      "Setzlinge"
+     ],
+     [
+      "Bücher"
+     ],
+     [
+      "Kacheln"
+     ],
+     [
+      "Blätter"
+     ],
+     [
+      "Riegel"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Becher"
+     ],
+     [
+      "Nägel"
+     ],
+     [
+      "Steine"
+     ],
+     [
+      "Marken"
+     ]
+    ]
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a/b"
+   },
+   {
+    "name": "z1",
+    "typ": "formel",
+    "ausdruck": "floor(a*10/b+0.5)/10"
+   },
+   {
+    "name": "ganz",
+    "typ": "formel",
+    "ausdruck": "floor(a/b+0.5)"
+   }
+  ],
+  "bedingungen": [
+   "(a%b)!=0",
+   "wert>150",
+   "wert<3000",
+   "z1!=ganz",
+   "a!=b",
+   "(a*10/b-floor(a*10/b))>=0.5",
+   "(a/b-floor(a/b))>=0.5"
+  ],
+  "stamm": "{name} teilt {a} {sache} gleichmässig auf {b} Kisten auf.\n\nGib das Ergebnis einmal auf eine Nachkommastelle gerundet und einmal auf die ganze Zahl gerundet an.",
+  "felder": [
+   {
+    "name": "z1",
+    "label": "auf eine Nachkommastelle",
+    "ausdruck": "floor(a*10/b+0.5)/10",
+    "zahlformat": "dezimal1",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "floor(a*10/b)/10",
+      "feedback": "Abgeschnitten ist nicht gerundet: Ab einer 5 an der nächsten Stelle wird aufgerundet."
+     },
+     {
+      "diagnoseId": "ganze_zahl",
+      "ausdruck": "floor(a/b+0.5)",
+      "feedback": "Das ist die Rundung auf die ganze Zahl. Hier ist eine Nachkommastelle verlangt."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "b/a",
+      "feedback": "Geteilt wird die Anzahl durch die Zahl der Kisten, nicht umgekehrt."
+     }
+    ]
+   },
+   {
+    "name": "ganz",
+    "label": "auf die ganze Zahl",
+    "ausdruck": "floor(a/b+0.5)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "immer_abgerundet",
+      "ausdruck": "floor(a/b)",
+      "feedback": "Gerundet wird nach der ersten Nachkommastelle: ab 5 aufwärts."
+     },
+     {
+      "diagnoseId": "mit_nachkommastelle",
+      "ausdruck": "floor(a*10/b+0.5)/10",
+      "feedback": "Das ist die Zahl mit einer Nachkommastelle. Hier ist die ganze Zahl verlangt."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "b/a",
+      "feedback": "Die Anzahl wird durch die Zahl der Kisten geteilt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Stück kommen rechnerisch in eine Kiste?",
+   "{a} : {b} — und dieses Ergebnis wird gerundet.",
+   "Auf eine Nachkommastelle: Schau die zweite Nachkommastelle an."
+  ],
+  "loesungsweg": [
+   "{a} : {b} ergibt eine Zahl mit vielen Nachkommastellen.",
+   "Auf eine Stelle gerundet: {z1}.",
+   "Auf die ganze Zahl gerundet: {ganz}.",
+   "Gerundet wird ab 5 aufwärts."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-zusammengesetzter-dreisatz",
+  "lernzielId": "MAG.3.02",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "3.02",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "Tage",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "p1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "t1",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "p2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "arbeit",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Mauer zu setzen"
+     ],
+     [
+      "ein Dach zu decken"
+     ],
+     [
+      "den Weg zu pflästern"
+     ],
+     [
+      "die Halle zu streichen"
+     ],
+     [
+      "den Graben auszuheben"
+     ],
+     [
+      "das Gerüst aufzustellen"
+     ],
+     [
+      "die Bäume zu schneiden"
+     ],
+     [
+      "die Leitung zu verlegen"
+     ],
+     [
+      "den Zaun zu bauen"
+     ],
+     [
+      "das Feld zu bestellen"
+     ],
+     [
+      "die Fenster zu ersetzen"
+     ],
+     [
+      "den Boden zu verlegen"
+     ]
+    ]
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "p1*t1/p2"
+   }
+  ],
+  "bedingungen": [
+   "p1!=p2",
+   "(p1*t1)%p2==0",
+   "t2>1",
+   "t2<90",
+   "t2!=t1",
+   "t1!=p1",
+   "t2!=p2",
+   "t2!=p1"
+  ],
+  "stamm": "{p1} Personen brauchen {t1} Tage, um {arbeit}.\n\nWie lange brauchen {p2} Personen für dieselbe Arbeit, wenn alle gleich schnell arbeiten?",
+  "loesung": "p1*t1/p2",
+  "gegenprobe": "t1/(p2/p1)",
+  "fehler": [
+   {
+    "diagnoseId": "proportional",
+    "ausdruck": "p2*t1/p1",
+    "feedback": "Mehr Personen brauchen weniger Zeit. Der Zusammenhang ist umgekehrt proportional: Personen mal Tage bleibt gleich."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "t1-(p2-p1)",
+    "feedback": "Die Differenz der Personenzahlen sagt nichts über die Zeit. Massgebend ist das Verhältnis."
+   },
+   {
+    "diagnoseId": "unveraendert",
+    "ausdruck": "t1",
+    "feedback": "Mit einer anderen Personenzahl ändert sich die Zeit."
+   }
+  ],
+  "hinweise": [
+   "Bleibt die Arbeit gleich, wenn mehr Leute anpacken?",
+   "Ja — und deshalb ist das Produkt Personen mal Tage konstant.",
+   "{p1} · {t1} ist die gesamte Arbeit in Personentagen."
+  ],
+  "loesungsweg": [
+   "Gesamte Arbeit: {p1} · {t1} Personentage.",
+   "Auf {p2} Personen verteilt.",
+   "{p1} · {t1} : {p2}.",
+   "Ergebnis: {t2} Tage."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-winkel-parallelen",
+  "lernzielId": "MAG.4.01",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 21,
+    "bis": 84,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "Auf dem Bauplan"
+     ],
+     [
+      "Auf der Skizze"
+     ],
+     [
+      "Im Werkunterricht"
+     ],
+     [
+      "Auf dem Parkett"
+     ],
+     [
+      "Auf dem Pausenplatz"
+     ],
+     [
+      "Auf dem Gitterpapier"
+     ],
+     [
+      "Auf der Zeichnung"
+     ],
+     [
+      "Im Grundriss"
+     ],
+     [
+      "Auf dem Stoffmuster"
+     ],
+     [
+      "Auf der Fliesenwand"
+     ],
+     [
+      "Im Modell"
+     ],
+     [
+      "Auf dem Lageplan"
+     ]
+    ]
+   },
+   {
+    "name": "neben",
+    "typ": "formel",
+    "ausdruck": "180-alpha"
+   },
+   {
+    "name": "scheitel",
+    "typ": "formel",
+    "ausdruck": "alpha"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "90-alpha"
+   }
+  ],
+  "bedingungen": [
+   "neben!=alpha",
+   "rest>4",
+   "rest!=alpha",
+   "alpha!=45"
+  ],
+  "stamm": "{ort} kreuzen sich zwei parallele Linien mit einer dritten. Einer der entstehenden Winkel misst {alpha}°.\n\nWie gross sind der Nebenwinkel und der Winkel, der diesen {alpha}°-Winkel zu einem rechten Winkel ergänzt?",
+  "felder": [
+   {
+    "name": "neben",
+    "label": "Nebenwinkel in Grad",
+    "ausdruck": "180-alpha",
+    "fehler": [
+     {
+      "diagnoseId": "scheitelwinkel",
+      "ausdruck": "alpha",
+      "feedback": "Das ist der Scheitelwinkel — er ist gleich gross. Der Nebenwinkel ergänzt auf 180°."
+     },
+     {
+      "diagnoseId": "auf_90",
+      "ausdruck": "90-alpha",
+      "feedback": "Der Nebenwinkel ergänzt auf 180°, nicht auf 90°."
+     },
+     {
+      "diagnoseId": "auf_360",
+      "ausdruck": "360-alpha",
+      "feedback": "Zwei Nebenwinkel bilden zusammen einen gestreckten Winkel: 180°."
+     }
+    ]
+   },
+   {
+    "name": "rest",
+    "label": "Ergänzung auf 90 Grad",
+    "ausdruck": "90-alpha",
+    "fehler": [
+     {
+      "diagnoseId": "auf_180",
+      "ausdruck": "180-alpha",
+      "feedback": "Das ist die Ergänzung auf 180°, also der Nebenwinkel."
+     },
+     {
+      "diagnoseId": "gleich",
+      "ausdruck": "alpha",
+      "feedback": "Zwei gleiche Winkel ergäben zusammen nur dann 90°, wenn jeder 45° misst."
+     },
+     {
+      "diagnoseId": "differenz_zu_180",
+      "ausdruck": "alpha-90",
+      "feedback": "Der gesuchte Winkel ist positiv: 90° minus {alpha}°."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Summe zweier Nebenwinkel?",
+   "180°. Der Scheitelwinkel dagegen ist gleich gross wie der Ausgangswinkel.",
+   "Für die Ergänzung auf einen rechten Winkel rechnest du 90° − {alpha}°."
+  ],
+  "loesungsweg": [
+   "Nebenwinkel: 180° − {alpha}° = {neben}°.",
+   "Scheitelwinkel wäre gleich gross wie {alpha}°.",
+   "Ergänzung auf 90°: {rest}°.",
+   "An zwei Parallelen wiederholen sich diese Winkel."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-kegel",
+  "lernzielId": "MAG.4.08",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.08",
+   "4.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "trip",
+    "typ": "auswahl",
+    "werte": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Papierhut"
+     ],
+     [
+      "ein Trichter"
+     ],
+     [
+      "ein Sandhaufen"
+     ],
+     [
+      "ein Zeltdach"
+     ],
+     [
+      "ein Eishörnchen"
+     ],
+     [
+      "ein Turmdach"
+     ],
+     [
+      "ein Streukegel"
+     ],
+     [
+      "ein Modellberg"
+     ],
+     [
+      "ein Lampenschirm"
+     ],
+     [
+      "ein Silodach"
+     ],
+     [
+      "ein Kegelstück"
+     ],
+     [
+      "ein Aufsatz"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?3:(trip==1?6:8))"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?4:(trip==1?8:15))"
+   },
+   {
+    "name": "m",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?5:(trip==1?10:17))"
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "3.14159*f*f*(trip==0?9:(trip==1?36:64))*f*(trip==0?4:(trip==1?8:15))/3"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "3.14159*f*f*((trip==0?9:(trip==1?36:64))+(trip==0?3:(trip==1?6:8))*(trip==0?5:(trip==1?10:17)))"
+   }
+  ],
+  "bedingungen": [
+   "r<30",
+   "h<40",
+   "v<40000",
+   "o<6000"
+  ],
+  "stamm": "Auf dem Tisch steht {sache} in Form eines Kegels: Der Grundkreisradius misst {r} cm, die Höhe {h} cm und die Mantellinie {m} cm.\n\nBerechne Volumen und Oberfläche. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "3.14159*r*r*h/3",
+    "fehler": [
+     {
+      "diagnoseId": "wie_zylinder",
+      "ausdruck": "3.14159*r*r*h",
+      "feedback": "Das wäre ein Zylinder. Der Kegel fasst genau ein Drittel davon."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "3.14159*r*r*h/2",
+      "feedback": "Beim Kegel steht der Faktor ein Drittel, nicht ein Halb."
+     },
+     {
+      "diagnoseId": "mit_mantellinie",
+      "ausdruck": "3.14159*r*r*m/3",
+      "feedback": "In der Volumenformel steht die HÖHE, nicht die Mantellinie. Die Höhe steht senkrecht auf der Grundfläche."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "3.14159*r*r+3.14159*r*m",
+    "fehler": [
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "3.14159*r*m",
+      "feedback": "Das ist die Mantelfläche. Der Grundkreis gehört zur Oberfläche dazu."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "3.14159*r*r+3.14159*r*h",
+      "feedback": "Für den Mantel wird die Mantellinie {m} cm gebraucht, nicht die Höhe."
+     },
+     {
+      "diagnoseId": "zwei_kreise",
+      "ausdruck": "2*3.14159*r*r+3.14159*r*m",
+      "feedback": "Ein Kegel hat nur EINEN Kreis als Grundfläche, keine Deckfläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie verhält sich das Kegelvolumen zu dem eines Zylinders?",
+   "Es ist ein Drittel davon: V = π · r² · h : 3.",
+   "Die Oberfläche besteht aus dem Grundkreis und dem Mantel π · r · m."
+  ],
+  "loesungsweg": [
+   "Volumen: π · {r}² · {h} : 3 = {v} cm³.",
+   "Grundkreis: π · {r}².",
+   "Mantel: π · {r} · {m}.",
+   "Oberfläche zusammen: {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-massstab",
+  "lernzielId": "MAG.4.10",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.10",
+   "4.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     100,
+     200,
+     500,
+     1000,
+     2500,
+     5000,
+     25000
+    ]
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "plan",
+    "typ": "text",
+    "texte": [
+     [
+      "auf dem Bauplan"
+     ],
+     [
+      "auf der Wanderkarte"
+     ],
+     [
+      "im Modellbau"
+     ],
+     [
+      "auf dem Grundriss"
+     ],
+     [
+      "auf der Landeskarte"
+     ],
+     [
+      "auf dem Situationsplan"
+     ],
+     [
+      "auf dem Gartenplan"
+     ],
+     [
+      "auf der Schulhausskizze"
+     ],
+     [
+      "auf dem Übersichtsplan"
+     ],
+     [
+      "auf der Velokarte"
+     ],
+     [
+      "auf dem Quartierplan"
+     ],
+     [
+      "auf dem Lageplan"
+     ]
+    ]
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "cm*m/100"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "cm*cm*m*m/10000"
+   }
+  ],
+  "bedingungen": [
+   "meter>2",
+   "meter<9000",
+   "flaeche<400000",
+   "cm!=m"
+  ],
+  "stamm": "{plan} im Massstab 1 : {m} misst eine Strecke {cm} cm.\n\nWie lang ist sie in Wirklichkeit, und um welchen Faktor ist eine Fläche auf dem Plan kleiner als in Wirklichkeit?",
+  "felder": [
+   {
+    "name": "meter",
+    "label": "wirkliche Länge in m",
+    "ausdruck": "cm*m/100",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "cm*m",
+      "feedback": "Das Ergebnis der Multiplikation steht in Zentimetern. Für Meter wird noch durch 100 geteilt."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "cm/m",
+      "feedback": "Im Massstab 1 : {m} ist die Wirklichkeit {m}-mal grösser als der Plan. Also wird multipliziert."
+     },
+     {
+      "diagnoseId": "nur_massstab",
+      "ausdruck": "m/100",
+      "feedback": "Die gemessene Länge von {cm} cm gehört in die Rechnung."
+     }
+    ]
+   },
+   {
+    "name": "faktor",
+    "label": "Faktor bei Flächen",
+    "ausdruck": "m*m",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_wie_laenge",
+      "ausdruck": "m",
+      "feedback": "Eine Fläche hat zwei Richtungen. Beide werden {m}-mal grösser, also wächst die Fläche um {m} · {m}."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*m",
+      "feedback": "Der Faktor wird quadriert, nicht verdoppelt."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "m/2",
+      "feedback": "Die Fläche wächst stärker als die Länge, nicht schwächer."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet 1 : {m}?",
+   "Eine Strecke auf dem Plan ist in Wirklichkeit {m}-mal so lang.",
+   "Bei Flächen zählt der Faktor zweimal."
+  ],
+  "loesungsweg": [
+   "Wirkliche Länge: {cm} · {m} = {cm}·{m} cm.",
+   "In Meter: durch 100 teilen, das ergibt {meter} m.",
+   "Flächen wachsen um {m}² = {flaeche} … genauer: um den Faktor {m} · {m}.",
+   "Deshalb ist eine Fläche auf dem Plan {m}²-mal kleiner."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-mittelwerte",
+  "lernzielId": "MAG.6.05",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "6.05",
+   "6.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 29,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 30,
+    "bis": 39,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 61,
+    "bis": 90,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Punkte im Test"
+     ],
+     [
+      "gefahrene Kilometer"
+     ],
+     [
+      "gelesene Seiten"
+     ],
+     [
+      "verkaufte Karten"
+     ],
+     [
+      "gesammelte Kilogramm"
+     ],
+     [
+      "Minuten im Training"
+     ],
+     [
+      "gelöste Aufgaben"
+     ],
+     [
+      "besuchte Proben"
+     ],
+     [
+      "gezählte Vögel"
+     ],
+     [
+      "gepflanzte Setzlinge"
+     ],
+     [
+      "geschriebene Zeilen"
+     ],
+     [
+      "gefundene Fehler"
+     ]
+    ]
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d+e+f)/6"
+   },
+   {
+    "name": "median",
+    "typ": "formel",
+    "ausdruck": "(c+d)/2"
+   },
+   {
+    "name": "spanne",
+    "typ": "formel",
+    "ausdruck": "f-a"
+   }
+  ],
+  "bedingungen": [
+   "mittel!=median",
+   "spanne>40",
+   "mittel!=spanne",
+   "median!=spanne",
+   "a!=b",
+   "e!=f"
+  ],
+  "stamm": "{name} notiert sechs Werte für die {sache}: {a}, {b}, {c}, {d}, {e}, {f}.\n\nBerechne das arithmetische Mittel, den Zentralwert und die Spannweite.",
+  "felder": [
+   {
+    "name": "mittel",
+    "label": "arithmetisches Mittel",
+    "ausdruck": "(a+b+c+d+e+f)/6",
+    "fehler": [
+     {
+      "diagnoseId": "durch_fuenf",
+      "ausdruck": "(a+b+c+d+e+f)/5",
+      "feedback": "Es sind sechs Werte, also wird durch 6 geteilt."
+     },
+     {
+      "diagnoseId": "median",
+      "ausdruck": "(c+d)/2",
+      "feedback": "Das ist der Zentralwert. Das Mittel ist die Summe geteilt durch die Anzahl."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c+d+e+f",
+      "feedback": "Die Summe muss noch durch die Anzahl geteilt werden."
+     }
+    ]
+   },
+   {
+    "name": "median",
+    "label": "Zentralwert",
+    "ausdruck": "(c+d)/2",
+    "fehler": [
+     {
+      "diagnoseId": "mittelwert",
+      "ausdruck": "(a+b+c+d+e+f)/6",
+      "feedback": "Das ist das arithmetische Mittel. Der Zentralwert liegt in der Mitte der geordneten Reihe."
+     },
+     {
+      "diagnoseId": "dritter_wert",
+      "ausdruck": "c",
+      "feedback": "Bei einer GERADEN Anzahl von Werten liegt der Zentralwert zwischen den beiden mittleren: ({c} + {d}) : 2."
+     },
+     {
+      "diagnoseId": "mitte_der_spanne",
+      "ausdruck": "(a+f)/2",
+      "feedback": "Das ist die Mitte zwischen kleinstem und grösstem Wert, nicht der Zentralwert."
+     }
+    ]
+   },
+   {
+    "name": "spanne",
+    "label": "Spannweite",
+    "ausdruck": "f-a",
+    "fehler": [
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+f",
+      "feedback": "Die Spannweite ist die Differenz zwischen grösstem und kleinstem Wert."
+     },
+     {
+      "diagnoseId": "median",
+      "ausdruck": "(c+d)/2",
+      "feedback": "Das ist der Zentralwert. Die Spannweite sagt, wie weit die Werte auseinanderliegen."
+     },
+     {
+      "diagnoseId": "mittelwert",
+      "ausdruck": "(a+b+c+d+e+f)/6",
+      "feedback": "Das ist das Mittel. Für die Spannweite zählen nur der kleinste und der grösste Wert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Ordne die Werte zuerst der Grösse nach.",
+   "Bei sechs Werten liegt der Zentralwert zwischen dem dritten und dem vierten.",
+   "Spannweite: grösster minus kleinster Wert."
+  ],
+  "loesungsweg": [
+   "Summe aller sechs Werte, geteilt durch 6: {mittel}.",
+   "Geordnet stehen {c} und {d} in der Mitte.",
+   "Ihr Durchschnitt ist der Zentralwert: {median}.",
+   "Spannweite: {f} − {a} = {spanne}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-drachenflaeche",
+  "lernzielId": "MAG.4.02",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "4.02",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 36,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Drachen"
+     ],
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Fensterelement"
+     ],
+     [
+      "ein Beetstück"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Segeltuch"
+     ],
+     [
+      "eine Kachel"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "ein Teppichstück"
+     ],
+     [
+      "ein Holzstück"
+     ],
+     [
+      "ein Klebeschild"
+     ]
+    ]
+   },
+   {
+    "name": "drache",
+    "typ": "formel",
+    "ausdruck": "e*f/2"
+   },
+   {
+    "name": "rechteck",
+    "typ": "formel",
+    "ausdruck": "e*a"
+   },
+   {
+    "name": "zusammen",
+    "typ": "formel",
+    "ausdruck": "e*f/2+e*a"
+   }
+  ],
+  "bedingungen": [
+   "e!=f",
+   "drache>20",
+   "zusammen<900",
+   "a!=f",
+   "a!=e",
+   "drache!=rechteck"
+  ],
+  "stamm": "Im Werkunterricht entsteht {sache}: ein Drachenviereck mit den Diagonalen {e} cm und {f} cm, an das unten ein Rechteck von {e} cm mal {a} cm anschliesst.\n\nBerechne die Fläche des Drachenvierecks und die Gesamtfläche.",
+  "felder": [
+   {
+    "name": "drache",
+    "label": "Fläche des Drachenvierecks in cm²",
+    "ausdruck": "e*f/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbierung",
+      "ausdruck": "e*f",
+      "feedback": "Die Formel für das Drachenviereck lautet e · f : 2 — die beiden Diagonalen umschliessen ein Rechteck, von dem die Hälfte übrig bleibt."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "e+f",
+      "feedback": "Addiert ergäben die Diagonalen eine Länge, keine Fläche."
+     },
+     {
+      "diagnoseId": "gesamt",
+      "ausdruck": "e*f/2+e*a",
+      "feedback": "Das ist die Gesamtfläche mit dem Rechteck. Gefragt war nur der Drachen."
+     }
+    ]
+   },
+   {
+    "name": "zusammen",
+    "label": "Gesamtfläche in cm²",
+    "ausdruck": "e*f/2+e*a",
+    "fehler": [
+     {
+      "diagnoseId": "nur_drache",
+      "ausdruck": "e*f/2",
+      "feedback": "Das Rechteck von {e} cm mal {a} cm gehört dazu."
+     },
+     {
+      "diagnoseId": "rechteck_halbiert",
+      "ausdruck": "e*f/2+e*a/2",
+      "feedback": "Halbiert wird nur beim Drachenviereck. Ein Rechteck hat die Fläche Länge mal Breite."
+     },
+     {
+      "diagnoseId": "nur_rechteck",
+      "ausdruck": "e*a",
+      "feedback": "Das ist nur der untere Teil. Die Drachenfläche kommt dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie berechnet man die Fläche eines Drachenvierecks?",
+   "Über die Diagonalen: e · f : 2.",
+   "Die Gesamtfläche ist die Summe der beiden Teilflächen."
+  ],
+  "loesungsweg": [
+   "Drachenviereck: {e} · {f} : 2 = {drache} cm².",
+   "Rechteck: {e} · {a} = {rechteck} cm².",
+   "Zusammen: {zusammen} cm².",
+   "Zusammengesetzte Figuren werden immer so zerlegt."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ag-wertetabelle-term",
+  "lernzielId": "MAG.3.03",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "3.03",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Ramon"
+     ],
+     [
+      "Fiona"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Nico"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Janis"
+     ],
+     [
+      "Alma"
+     ],
+     [
+      "Beni"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Stunden",
+      "Franken"
+     ],
+     [
+      "Kilometer",
+      "Franken"
+     ],
+     [
+      "Stück",
+      "Franken"
+     ],
+     [
+      "Kilogramm",
+      "Franken"
+     ],
+     [
+      "Tage",
+      "Franken"
+     ],
+     [
+      "Meter",
+      "Franken"
+     ],
+     [
+      "Karten",
+      "Franken"
+     ],
+     [
+      "Portionen",
+      "Franken"
+     ],
+     [
+      "Runden",
+      "Franken"
+     ],
+     [
+      "Anrufe",
+      "Franken"
+     ]
+    ]
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m+q"
+   }
+  ],
+  "bedingungen": [
+   "m!=q",
+   "m*9+q<80"
+  ],
+  "stamm": "Ein Angebot kostet eine Grundgebühr von {q} Franken und dazu {m} Franken je Einheit. Für jede Anzahl {sache} von 1 bis 9 ergibt sich ein Preis.\n\nTrage alle Paare ein, die zusammengehören.",
+  "loesung": "m+q",
+  "gegenprobe": "q+m",
+  "fehler": [
+   {
+    "diagnoseId": "grundgebuehr_vergessen",
+    "ausdruck": "m",
+    "feedback": "Die Grundgebühr von {q} Franken fällt einmal an und gehört zu jedem Preis dazu."
+   },
+   {
+    "diagnoseId": "grundgebuehr_je_einheit",
+    "ausdruck": "(m+q)*2",
+    "feedback": "Die Grundgebühr wird nicht mit der Anzahl multipliziert; sie fällt nur einmal an."
+   },
+   {
+    "diagnoseId": "vertauscht",
+    "ausdruck": "q*2+m",
+    "feedback": "Multipliziert wird der Preis je Einheit mit der Anzahl, nicht die Grundgebühr."
+   }
+  ],
+  "hinweise": [
+   "Was kostet eine einzelne Einheit, was kommt einmalig dazu?",
+   "Preis = {m} · Anzahl + {q}.",
+   "Prüfe: Von einer Anzahl zur nächsten steigt der Preis um {m} Franken."
+  ],
+  "loesungsweg": [
+   "Für die Anzahl x gilt Preis = {m} · x + {q}.",
+   "Bei x = 1 sind das {y1} Franken.",
+   "Jede weitere Einheit kostet {m} Franken mehr.",
+   "So entsteht die ganze Tabelle."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "Anzahl",
+     "von": "1",
+     "bis": "9"
+    },
+    {
+     "name": "y",
+     "kopf": "Preis",
+     "von": "1",
+     "bis": "80"
+    }
+   ],
+   "bedingung": "y == m * x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

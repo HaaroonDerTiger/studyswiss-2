@@ -1,0 +1,391 @@
+[
+ {
+  "templateId": "ein-umwandeln",
+  "lernzielId": "MEI.1.09",
+  "fach": "mathematik-einsiedeln",
+  "unterthemen": [
+   "1.09",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Bruch lässt sich als Division lesen: Zähler geteilt durch Nenner.",
+   "Prozent heisst «von hundert»: Erweitere den Bruch auf den Nenner 100.",
+   "Beim Vergleichen hilft es, alle Zahlen in dieselbe Schreibweise zu bringen."
+  ],
+  "loesungsweg": [
+   "Die verlangte Schreibweise bestimmen.",
+   "Den Bruch auf den Nenner 100 erweitern oder ausdividieren.",
+   "Das Ergebnis prüfen.",
+   "Zum Vergleich alle Zahlen gleich schreiben."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Dezimalzahl gehört zu ¹⁄₂?",
+    "optionen": [
+     "0.5",
+     "0.12",
+     "1.2",
+     "0.2"
+    ],
+    "loesung": [
+     "0.5"
+    ],
+    "erklaerung": "Ein Halbes ist die Hälfte von 1, also 0.5.",
+    "fehler": [
+     {
+      "antwort": "0.12",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind Zähler und Nenner einfach aneinandergehängt worden."
+     },
+     {
+      "antwort": "1.2",
+      "diagnoseId": "ziffern",
+      "feedback": "Auch das sind nur die Ziffern in anderer Reihenfolge."
+     },
+     {
+      "antwort": "0.2",
+      "diagnoseId": "verwechselt",
+      "feedback": "0.2 entspricht einem Fünftel, nicht einem Halben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Dezimalzahl gehört zu ¹⁄₄?",
+    "optionen": [
+     "0.25",
+     "0.14",
+     "0.4",
+     "0.75"
+    ],
+    "loesung": [
+     "0.25"
+    ],
+    "erklaerung": "Ein Viertel ist die Hälfte von einem Halben, also 0.25.",
+    "fehler": [
+     {
+      "antwort": "0.14",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind Zähler und Nenner aneinandergehängt worden."
+     },
+     {
+      "antwort": "0.4",
+      "diagnoseId": "verwechselt",
+      "feedback": "0.4 entspricht zwei Fünfteln, nicht einem Viertel."
+     },
+     {
+      "antwort": "0.75",
+      "diagnoseId": "teil",
+      "feedback": "0.75 entspricht drei Vierteln, nicht einem."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel Prozent sind ³⁄₄?",
+    "optionen": [
+     "75 %",
+     "34 %",
+     "43 %",
+     "25 %"
+    ],
+    "loesung": [
+     "75 %"
+    ],
+    "erklaerung": "Drei Viertel von hundert sind 75.",
+    "fehler": [
+     {
+      "antwort": "34 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind Zähler und Nenner aneinandergehängt worden."
+     },
+     {
+      "antwort": "43 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Auch das sind nur die Ziffern in anderer Reihenfolge."
+     },
+     {
+      "antwort": "25 %",
+      "diagnoseId": "teil",
+      "feedback": "25 % entsprechen einem Viertel; hier sind es drei davon."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel Prozent sind ¹⁄₅?",
+    "optionen": [
+     "20 %",
+     "15 %",
+     "5 %",
+     "50 %"
+    ],
+    "loesung": [
+     "20 %"
+    ],
+    "erklaerung": "Ein Fünftel von hundert sind 20.",
+    "fehler": [
+     {
+      "antwort": "15 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind die Ziffern des Bruchs aneinandergehängt worden."
+     },
+     {
+      "antwort": "5 %",
+      "diagnoseId": "nenner",
+      "feedback": "Der Nenner sagt, in wie viele Teile das Ganze zerlegt ist."
+     },
+     {
+      "antwort": "50 %",
+      "diagnoseId": "verwechselt",
+      "feedback": "50 % entsprechen einem Halben, nicht einem Fünftel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch gehört zu 0.6?",
+    "optionen": [
+     "³⁄₅",
+     "⁶⁄₅",
+     "¹⁄₆",
+     "³⁄₁₀"
+    ],
+    "loesung": [
+     "³⁄₅"
+    ],
+    "erklaerung": "0.6 sind sechs Zehntel; gekürzt ergibt das drei Fünftel.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₅",
+      "diagnoseId": "groesser_eins",
+      "feedback": "Dieser Bruch ist grösser als 1; 0.6 ist kleiner."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "verwechselt",
+      "feedback": "Ein Sechstel ergibt 0.1666…, nicht 0.6; Zähler und Nenner sind vertauscht."
+     },
+     {
+      "antwort": "³⁄₁₀",
+      "diagnoseId": "haelfte",
+      "feedback": "Drei Zehntel sind 0.3, also die Hälfte von 0.6."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Dezimalzahl gehört zu 25 %?",
+    "optionen": [
+     "0.25",
+     "2.5",
+     "25.0",
+     "0.025"
+    ],
+    "loesung": [
+     "0.25"
+    ],
+    "erklaerung": "Prozent heisst geteilt durch 100: 25 : 100 ergibt 0.25.",
+    "fehler": [
+     {
+      "antwort": "2.5",
+      "diagnoseId": "komma",
+      "feedback": "Das Komma steht eine Stelle zu weit rechts; geteilt wird durch 100."
+     },
+     {
+      "antwort": "25.0",
+      "diagnoseId": "ohne_umrechnung",
+      "feedback": "Das ist die Prozentzahl selbst, nicht ihr Wert als Dezimalzahl."
+     },
+     {
+      "antwort": "0.025",
+      "diagnoseId": "komma",
+      "feedback": "Hier ist durch 1000 geteilt worden statt durch 100."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl ist am grössten?",
+    "optionen": [
+     "0.8",
+     "³⁄₄",
+     "70 %",
+     "0.75"
+    ],
+    "loesung": [
+     "0.8"
+    ],
+    "erklaerung": "In Prozent: 0.8 sind 80 %, drei Viertel sind 75 %, dazu 70 % und 75 %.",
+    "fehler": [
+     {
+      "antwort": "³⁄₄",
+      "diagnoseId": "umrechnung",
+      "feedback": "Drei Viertel ergeben 0.75 und sind damit kleiner als 0.8."
+     },
+     {
+      "antwort": "70 %",
+      "diagnoseId": "umrechnung",
+      "feedback": "70 % sind 0.7 und damit kleiner als 0.8."
+     },
+     {
+      "antwort": "0.75",
+      "diagnoseId": "umrechnung",
+      "feedback": "0.75 ist kleiner als 0.8; die erste Stelle nach dem Komma entscheidet."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl ist am kleinsten?",
+    "optionen": [
+     "¹⁄₄",
+     "0.3",
+     "30 %",
+     "³⁄₁₀"
+    ],
+    "loesung": [
+     "¹⁄₄"
+    ],
+    "erklaerung": "Ein Viertel sind 25 %; die drei anderen Zahlen entsprechen alle 30 %.",
+    "fehler": [
+     {
+      "antwort": "0.3",
+      "diagnoseId": "umrechnung",
+      "feedback": "0.3 sind 30 % und damit mehr als ein Viertel."
+     },
+     {
+      "antwort": "30 %",
+      "diagnoseId": "umrechnung",
+      "feedback": "30 % sind mehr als ein Viertel, das 25 % entspricht."
+     },
+     {
+      "antwort": "³⁄₁₀",
+      "diagnoseId": "umrechnung",
+      "feedback": "Drei Zehntel ergeben 0.3, also ebenfalls 30 %."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man ⁷⁄₁₀ als Dezimalzahl?",
+    "optionen": [
+     "0.7",
+     "7.10",
+     "0.07",
+     "1.7"
+    ],
+    "loesung": [
+     "0.7"
+    ],
+    "erklaerung": "Sieben Zehntel sind 0.7; der Nenner 10 bedeutet eine Stelle nach dem Komma.",
+    "fehler": [
+     {
+      "antwort": "7.10",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind Zähler und Nenner aneinandergehängt worden."
+     },
+     {
+      "antwort": "0.07",
+      "diagnoseId": "komma",
+      "feedback": "0.07 wären sieben Hundertstel, nicht sieben Zehntel."
+     },
+     {
+      "antwort": "1.7",
+      "diagnoseId": "groesser_eins",
+      "feedback": "Sieben Zehntel sind kleiner als 1; vor dem Komma steht darum eine Null."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel sind 50 % von 60?",
+    "optionen": [
+     "30",
+     "50",
+     "110",
+     "6"
+    ],
+    "loesung": [
+     "30"
+    ],
+    "erklaerung": "50 % sind die Hälfte; die Hälfte von 60 ist 30.",
+    "fehler": [
+     {
+      "antwort": "50",
+      "diagnoseId": "prozentzahl",
+      "feedback": "50 ist der Prozentsatz, nicht der Anteil von 60."
+     },
+     {
+      "antwort": "110",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist addiert worden statt den Anteil zu berechnen."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "operation",
+      "feedback": "Das wären 10 % von 60; die Hälfte ist zehnmal so viel."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel sind 25 % von 80?",
+    "optionen": [
+     "20",
+     "25",
+     "4",
+     "40"
+    ],
+    "loesung": [
+     "20"
+    ],
+    "erklaerung": "25 % sind ein Viertel; ein Viertel von 80 ist 20.",
+    "fehler": [
+     {
+      "antwort": "25",
+      "diagnoseId": "prozentzahl",
+      "feedback": "25 ist der Prozentsatz, nicht der Anteil von 80."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist 80 durch 20 geteilt worden; gesucht ist ein Viertel von 80."
+     },
+     {
+      "antwort": "40",
+      "diagnoseId": "teil",
+      "feedback": "40 wären die Hälfte, also 50 % von 80; ein Viertel ist halb so viel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch ist grösser: ²⁄₃ oder ³⁄₅?",
+    "optionen": [
+     "²⁄₃",
+     "³⁄₅",
+     "beide gleich gross",
+     "lässt sich nicht vergleichen"
+    ],
+    "loesung": [
+     "²⁄₃"
+    ],
+    "erklaerung": "Auf den gemeinsamen Nenner 15 gebracht: ¹⁰⁄₁₅ gegen ⁹⁄₁₅.",
+    "fehler": [
+     {
+      "antwort": "³⁄₅",
+      "diagnoseId": "nenner",
+      "feedback": "Der grössere Nenner macht einen Bruch nicht grösser; erweitere beide auf 15."
+     },
+     {
+      "antwort": "beide gleich gross",
+      "diagnoseId": "nenner",
+      "feedback": "Erweitert ergeben sie ¹⁰⁄₁₅ und ⁹⁄₁₅ — nicht dasselbe."
+     },
+     {
+      "antwort": "lässt sich nicht vergleichen",
+      "diagnoseId": "verfahren",
+      "feedback": "Zwei Brüche lassen sich immer vergleichen, sobald sie denselben Nenner haben."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteile Mathematik 1 und 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Bruch, Dezimalzahl und Prozent",
+  "status": "review"
+ }
+]

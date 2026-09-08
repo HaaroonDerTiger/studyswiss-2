@@ -1,0 +1,177 @@
+{
+ "fach": "sprache-gl",
+ "name": "Deutsch Sprachkunde",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Glarus",
+ "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026",
+ "punkteTotal": 31,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "B",
+   "name": "Wortschatz und Wortbildung",
+   "punkte": 11,
+   "anteil": 35,
+   "beschreibung": "Teil B der Sprachkunde: Wortfelder, Wortfamilien, Synonyme und Redewendungen — meist am Text entlang.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Synonyme und Wortfelder",
+     "lernzielId": "DSGL.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Wortfamilien und Wortstamm",
+     "lernzielId": "DSGL.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Genaue Verben und Adjektive wählen",
+     "lernzielId": "DSGL.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Redewendungen verstehen",
+     "lernzielId": "DSGL.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Zusammensetzungen und Ableitungen",
+     "lernzielId": "DSGL.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Fremdwörter im Text erklären",
+     "lernzielId": "DSGL.1.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "C1",
+   "name": "Wortarten und Verb",
+   "punkte": 10,
+   "anteil": 32,
+   "beschreibung": "Teil C, erster Block: Wortarten bestimmen, Zeitformen bilden, Modus und Passiv.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Nomen, Verb und Adjektiv bestimmen",
+     "lernzielId": "DSGL.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Pronomen und Partikel",
+     "lernzielId": "DSGL.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Zeitformen bestimmen",
+     "lernzielId": "DSGL.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Zeitformen bilden",
+     "lernzielId": "DSGL.2.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Aktiv und Passiv",
+     "lernzielId": "DSGL.2.05",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Direkte und indirekte Rede",
+     "lernzielId": "DSGL.2.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C2",
+   "name": "Satzglieder, Fälle und Rechtschreibung",
+   "punkte": 10,
+   "anteil": 33,
+   "beschreibung": "Teil C, zweiter Block: Satzglieder bestimmen, Fälle, Kommas und Gross- und Kleinschreibung.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Satzglieder bestimmen",
+     "lernzielId": "DSGL.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Subjekt und Objekte unterscheiden",
+     "lernzielId": "DSGL.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Die vier Fälle",
+     "lernzielId": "DSGL.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Haupt- und Nebensatz unterscheiden",
+     "lernzielId": "DSGL.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Kommaregeln",
+     "lernzielId": "DSGL.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "DSGL.3.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.07",
+     "name": "das oder dass",
+     "lernzielId": "DSGL.3.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.08",
+     "name": "Rechtschreibung: Dehnung und Schärfung",
+     "lernzielId": "DSGL.3.08",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

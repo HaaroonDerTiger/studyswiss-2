@@ -1,0 +1,5353 @@
+[
+ {
+  "templateId": "be-anteil-rueckwaerts",
+  "lernzielId": "MB.3.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.03",
+   "3.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Personen",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "teil",
+    "typ": "auswahl",
+    "werte": [
+     25,
+     50,
+     75
+    ]
+   },
+   {
+    "name": "nenner",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "rest",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "gezaehlt",
+    "typ": "formel",
+    "ausdruck": "rest*nenner/(nenner-1)"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "gezaehlt*100/teil"
+   },
+   {
+    "name": "uebrig",
+    "typ": "formel",
+    "ausdruck": "gesamt-gezaehlt"
+   },
+   {
+    "name": "leichte",
+    "typ": "formel",
+    "ausdruck": "gezaehlt-rest"
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "im Turnsaal",
+      "der Turnsaal"
+     ],
+     [
+      "im Probelokal",
+      "das Probelokal"
+     ],
+     [
+      "im Zug",
+      "der Zug"
+     ],
+     [
+      "im Lager",
+      "das Lager"
+     ],
+     [
+      "im Wartezimmer",
+      "das Wartezimmer"
+     ],
+     [
+      "im Schulzimmer",
+      "das Schulzimmer"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(gezaehlt)==1",
+   "istGanz(gesamt)==1",
+   "gesamt<=400",
+   "gesamt>=12",
+   "uebrig>=1",
+   "leichte>=1",
+   "gesamt!=rest",
+   "gesamt!=gezaehlt",
+   "gesamt!=teil",
+   "gesamt!=nenner",
+   "gezaehlt!=gesamt"
+  ],
+  "stamm": "{name} zählt Leute {ort}. Von allen Anwesenden wurden {teil} % befragt. Von den Befragten war 1 Teil von {nenner} noch nie hier, die übrigen {rest} Personen schon. Wie viele Personen sind insgesamt {ort}?",
+  "loesung": "gesamt",
+  "gegenprobe": "gezaehlt+uebrig",
+  "fehler": [
+   {
+    "diagnoseId": "teilmenge_als_ganzes",
+    "ausdruck": "gezaehlt",
+    "feedback": "Du hast bei den Befragten aufgehört. {gezaehlt} ist die Zahl der Befragten. Das sind aber nur {teil} % aller Anwesenden. Rechne von dort noch auf 100 % hoch."
+   },
+   {
+    "diagnoseId": "anteil_verwechselt",
+    "ausdruck": "rest*100/teil",
+    "feedback": "Du hast die {rest} Personen für die ganze befragte Gruppe gehalten. Sie sind aber nur der Rest davon, nämlich alle ausser 1 Teil von {nenner}."
+   },
+   {
+    "diagnoseId": "prozent_als_anzahl",
+    "ausdruck": "gezaehlt+teil",
+    "feedback": "Du hast {teil} als Anzahl Personen dazugezählt. {teil} ist ein Prozentsatz und damit ein Anteil, keine Stückzahl."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "gezaehlt*teil/100",
+    "feedback": "Du hast noch einmal {teil} % genommen, statt auf 100 % hochzurechnen. Die Befragten sind der kleinere Teil. Das Ganze muss grösser sein."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Personen wurden befragt? Von ihnen kennst du einen Bruchteil und die Restzahl.",
+   "Wenn 1 von {nenner} Teilen wegfällt, entsprechen die {rest} Personen {nenner} minus 1 Teilen.",
+   "Rechne zuerst die Befragten aus. Sie sind {teil} %. Dann weiter auf 100 %."
+  ],
+  "loesungsweg": [
+   "Die {rest} Personen sind der Rest der Befragten, also {nenner} − 1 von {nenner} Teilen.",
+   "Ein Teil ist {rest} ÷ ({nenner} − 1); alle {nenner} Teile ergeben {gezaehlt} Befragte.",
+   "Diese {gezaehlt} sind {teil} % aller Anwesenden.",
+   "1 % ist {gezaehlt} ÷ {teil}, hundert Prozent sind {gesamt}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-gleicher-gehalt",
+  "lernzielId": "MB.3.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.05",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "g",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "stark",
+    "typ": "auswahl",
+    "werte": [
+     60,
+     70,
+     75,
+     80,
+     90
+    ]
+   },
+   {
+    "name": "schwach",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     25,
+     30,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "menge",
+    "typ": "auswahl",
+    "werte": [
+     100,
+     120,
+     150,
+     200,
+     240,
+     300
+    ]
+   },
+   {
+    "name": "wirkstoff",
+    "typ": "formel",
+    "ausdruck": "menge*schwach/100"
+   },
+   {
+    "name": "noetig",
+    "typ": "formel",
+    "ausdruck": "wirkstoff*100/stark"
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Schokolade",
+      "Kakaoanteil"
+     ],
+     [
+      "Sirup",
+      "Fruchtanteil"
+     ],
+     [
+      "Saft",
+      "Fruchtanteil"
+     ],
+     [
+      "Müesli",
+      "Nussanteil"
+     ],
+     [
+      "Brot",
+      "Vollkornanteil"
+     ],
+     [
+      "Farbe",
+      "Pigmentanteil"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "stark>schwach+15",
+   "istGanz(wirkstoff)==1",
+   "istGanz(noetig)==1",
+   "noetig>=10",
+   "noetig<menge",
+   "noetig!=menge",
+   "noetig!=stark",
+   "noetig!=schwach",
+   "noetig!=wirkstoff"
+  ],
+  "stamm": "Die dunkle {ware} hat einen {ware.1} von {stark} %, die helle einen von {schwach} %. {name} isst {menge} g der hellen {ware}. Wie viel Gramm der dunklen {ware} müsste sie essen, um gleich viel davon aufzunehmen?",
+  "loesung": "noetig",
+  "gegenprobe": "menge*schwach/stark",
+  "fehler": [
+   {
+    "diagnoseId": "anteile_vertauscht",
+    "ausdruck": "menge*stark/schwach",
+    "feedback": "Du hast die beiden Anteile vertauscht. Die dunkle {ware} ist gehaltvoller, von ihr braucht es darum WENIGER, nicht mehr."
+   },
+   {
+    "diagnoseId": "differenz_statt_verhaeltnis",
+    "ausdruck": "menge-(stark-schwach)",
+    "feedback": "Du hast die Differenz der Prozentsätze abgezogen. Prozentsätze sind Anteile; du musst mit ihnen multiplizieren und dividieren, nicht addieren und subtrahieren."
+   },
+   {
+    "diagnoseId": "nur_erster_schritt",
+    "ausdruck": "wirkstoff",
+    "feedback": "{wirkstoff} g ist die Menge des {ware.1}s, die sie aufnimmt. Gefragt ist aber, wie viel dunkle {ware} diese Menge enthält."
+   },
+   {
+    "diagnoseId": "prozent_vergessen",
+    "ausdruck": "menge*schwach/stark*100",
+    "feedback": "Da ist ein Faktor 100 zu viel. Beim Umrechnen von Prozent teilst du einmal durch 100 und multiplizierst einmal mit 100. Beides hebt sich auf."
+   }
+  ],
+  "hinweise": [
+   "Wie viel {ware.1} nimmt sie mit den {menge} g der hellen {ware} auf?",
+   "Diese Menge muss in der dunklen {ware} genauso enthalten sein. Dort sind es aber {stark} % statt {schwach} %.",
+   "Weil die dunkle {ware} gehaltvoller ist, braucht es weniger davon."
+  ],
+  "loesungsweg": [
+   "{menge} g mit {schwach} % ergeben {wirkstoff} g {ware.1}.",
+   "Dieselbe Menge {ware.1} soll aus der dunklen {ware} kommen.",
+   "{wirkstoff} g sind dort {stark} %, also ist 1 % gleich {wirkstoff} ÷ {stark}.",
+   "Hundert Prozent sind {noetig} g."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-streckung-flaeche",
+  "lernzielId": "MB.3.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.03",
+   "5.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "%",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "zunahme",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40,
+     50,
+     60,
+     75,
+     100,
+     150,
+     200
+    ]
+   },
+   {
+    "name": "faktor",
+    "typ": "formel",
+    "ausdruck": "(100+zunahme)/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "round(pow((100+zunahme)/100, 2)*10000)/100"
+   },
+   {
+    "name": "aenderung",
+    "typ": "formel",
+    "ausdruck": "neu-100"
+   },
+   {
+    "name": "koerper",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Quadrat"
+     ],
+     [
+      "ein Rechteck"
+     ],
+     [
+      "ein Dreieck"
+     ],
+     [
+      "ein Trapez"
+     ],
+     [
+      "ein Parallelogramm"
+     ],
+     [
+      "einen Kreis"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "aenderung<=2600",
+   "aenderung!=zunahme",
+   "aenderung!=100"
+  ],
+  "stamm": "{name} vergrössert {koerper}: Alle Seitenlängen werden um {zunahme} % länger. Um wie viele Prozent nimmt der Flächeninhalt dabei zu?",
+  "loesung": "aenderung",
+  "gegenprobe": "round((pow(faktor, 2)-1)*10000)/100",
+  "fehler": [
+   {
+    "diagnoseId": "linear_statt_hoch",
+    "ausdruck": "zunahme",
+    "feedback": "Du hast die Zunahme der Seiten übernommen. Der flächeninhalt wächst aber stärker: Der Faktor zählt 2-mal, einmal für jede Richtung."
+   },
+   {
+    "diagnoseId": "faktor_mal_dimension",
+    "ausdruck": "zunahme*2",
+    "feedback": "Du hast die {zunahme} % mit 2 multipliziert. Anteile werden aber nicht addiert, sondern multipliziert: Aus dem Faktor {faktor} wird {faktor}²."
+   },
+   {
+    "diagnoseId": "neuwert_statt_zunahme",
+    "ausdruck": "neu",
+    "feedback": "{neu} % ist der neue Wert im Vergleich zum alten. Gefragt ist die ZUNAHME. Davon musst du die ursprünglichen 100 % abziehen."
+   },
+   {
+    "diagnoseId": "falsche_dimension",
+    "ausdruck": "round(pow(faktor, 3)*10000)/100-100",
+    "feedback": "Du hast die falsche Hochzahl genommen. Eine Fläche hat zwei Richtungen, ein Körper drei, so oft zählt der Faktor."
+   }
+  ],
+  "hinweise": [
+   "Um welchen Faktor wird jede Seite länger? {zunahme} % mehr heisst mal {faktor}.",
+   "Wie viele Seitenlängen stecken in dieser Grösse? Eine Fläche hat zwei Richtungen, ein Körper drei.",
+   "Rechne den Faktor entsprechend oft mit sich selbst mal, und ziehe erst am Schluss die 100 % ab."
+  ],
+  "loesungsweg": [
+   "{zunahme} % mehr Länge bedeutet den Faktor {faktor}.",
+   "Die Grösse wächst mit diesem Faktor im Quadrat.",
+   "Das ergibt {neu} % des ursprünglichen Werts.",
+   "Die Zunahme ist {neu} % − 100 % = {aenderung} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-streckung-volumen",
+  "lernzielId": "MB.3.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.03",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "%",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "zunahme",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40,
+     50,
+     60,
+     75,
+     100,
+     150,
+     200
+    ]
+   },
+   {
+    "name": "faktor",
+    "typ": "formel",
+    "ausdruck": "(100+zunahme)/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "round(pow((100+zunahme)/100, 3)*10000)/100"
+   },
+   {
+    "name": "aenderung",
+    "typ": "formel",
+    "ausdruck": "neu-100"
+   },
+   {
+    "name": "koerper",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Würfel"
+     ],
+     [
+      "einen Quader"
+     ],
+     [
+      "eine Pyramide"
+     ],
+     [
+      "ein Prisma"
+     ],
+     [
+      "einen Zylinder"
+     ],
+     [
+      "einen Kegel"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "aenderung<=2600",
+   "aenderung!=zunahme",
+   "aenderung!=100"
+  ],
+  "stamm": "{name} vergrössert {koerper}: Alle Seitenlängen werden um {zunahme} % länger. Um wie viele Prozent nimmt das Volumen dabei zu?",
+  "loesung": "aenderung",
+  "gegenprobe": "round((pow(faktor, 3)-1)*10000)/100",
+  "fehler": [
+   {
+    "diagnoseId": "linear_statt_hoch",
+    "ausdruck": "zunahme",
+    "feedback": "Du hast die Zunahme der Seiten übernommen. Das volumen wächst aber stärker: Der Faktor zählt 3-mal, einmal für jede Richtung."
+   },
+   {
+    "diagnoseId": "faktor_mal_dimension",
+    "ausdruck": "zunahme*3",
+    "feedback": "Du hast die {zunahme} % mit 3 multipliziert. Anteile werden aber nicht addiert, sondern multipliziert: Aus dem Faktor {faktor} wird {faktor}³."
+   },
+   {
+    "diagnoseId": "neuwert_statt_zunahme",
+    "ausdruck": "neu",
+    "feedback": "{neu} % ist der neue Wert im Vergleich zum alten. Gefragt ist die ZUNAHME. Davon musst du die ursprünglichen 100 % abziehen."
+   },
+   {
+    "diagnoseId": "falsche_dimension",
+    "ausdruck": "round(pow(faktor, 2)*10000)/100-100",
+    "feedback": "Du hast die falsche Hochzahl genommen. Eine Fläche hat zwei Richtungen, ein Körper drei, so oft zählt der Faktor."
+   }
+  ],
+  "hinweise": [
+   "Um welchen Faktor wird jede Seite länger? {zunahme} % mehr heisst mal {faktor}.",
+   "Wie viele Seitenlängen stecken in dieser Grösse? Eine Fläche hat zwei Richtungen, ein Körper drei.",
+   "Rechne den Faktor entsprechend oft mit sich selbst mal, und ziehe erst am Schluss die 100 % ab."
+  ],
+  "loesungsweg": [
+   "{zunahme} % mehr Länge bedeutet den Faktor {faktor}.",
+   "Die Grösse wächst mit diesem Faktor in der dritten Potenz.",
+   "Das ergibt {neu} % des ursprünglichen Werts.",
+   "Die Zunahme ist {neu} % − 100 % = {aenderung} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-drei-gruppen-gleichung",
+  "lernzielId": "MB.2.06",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "2.06",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Kinder",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "pk",
+    "typ": "auswahl",
+    "werte": [
+     8,
+     10,
+     12,
+     14,
+     15
+    ]
+   },
+   {
+    "name": "pj",
+    "typ": "auswahl",
+    "werte": [
+     16,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "pe",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     36,
+     40,
+     44,
+     48
+    ]
+   },
+   {
+    "name": "faktor",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3
+    ]
+   },
+   {
+    "name": "mehr",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 40,
+    "schritt": 2
+   },
+   {
+    "name": "kinder",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 90,
+    "schritt": 2
+   },
+   {
+    "name": "jugend",
+    "typ": "formel",
+    "ausdruck": "kinder*faktor"
+   },
+   {
+    "name": "erwachsen",
+    "typ": "formel",
+    "ausdruck": "kinder+mehr"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "kinder*pk + jugend*pj + erwachsen*pe"
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "Wasserpark",
+      "Bad"
+     ],
+     [
+      "Kletterhalle",
+      "Halle"
+     ],
+     [
+      "Tierpark",
+      "Park"
+     ],
+     [
+      "Museum",
+      "Haus"
+     ],
+     [
+      "Hallenbad",
+      "Bad"
+     ],
+     [
+      "Freizeitpark",
+      "Park"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "pj>pk",
+   "pe>pj",
+   "summe<=60000",
+   "summe>=1500",
+   "kinder!=jugend",
+   "kinder!=erwachsen",
+   "kinder!=mehr",
+   "kinder!=summe",
+   "kinder!=pk",
+   "kinder!=pj",
+   "kinder!=pe",
+   "kinder!=faktor",
+   "kinder != floor(summe/1000)",
+   "kinder != summe - floor(summe/1000)*1000"
+  ],
+  "stamm": "Im {ort} kostet der Eintritt für Kinder Fr. {pk}.–, für Jugendliche Fr. {pj}.– und für Erwachsene Fr. {pe}.–. Gestern kamen {faktor}-mal so viele Jugendliche wie Kinder und {mehr} Erwachsene mehr als Kinder. Insgesamt nahm das {ort.1} {summe:franken} ein, und alle haben bezahlt. Wie viele Kinder waren im {ort}?",
+  "loesung": "kinder",
+  "gegenprobe": "(summe - mehr*pe) / (pk + faktor*pj + pe)",
+  "fehler": [
+   {
+    "diagnoseId": "gruppen_verwechselt",
+    "ausdruck": "jugend",
+    "feedback": "{jugend} ist die Zahl der Jugendlichen. Gefragt sind die Kinder, von ihnen kamen {faktor}-mal weniger."
+   },
+   {
+    "diagnoseId": "aufschlag_vergessen",
+    "ausdruck": "summe / (pk + faktor*pj + pe)",
+    "feedback": "Du hast die {mehr} zusätzlichen Erwachsenen vergessen. Sie haben ebenfalls bezahlt, und ihr Anteil muss vom Gesamtbetrag abgezogen werden, bevor du teilst."
+   },
+   {
+    "diagnoseId": "nur_kinderpreis",
+    "ausdruck": "summe/pk",
+    "feedback": "Du hast die ganze Einnahme durch den Kinderpreis geteilt. Bezahlt haben aber drei Gruppen zu drei verschiedenen Preisen."
+   },
+   {
+    "diagnoseId": "faktor_ignoriert",
+    "ausdruck": "(summe - mehr*pe) / (pk + pj + pe)",
+    "feedback": "Du hast die Jugendlichen einfach gleich oft gezählt wie die Kinder. Es waren aber {faktor}-mal so viele, in der Gleichung steht darum {faktor}·x, nicht x."
+   }
+  ],
+  "hinweise": [
+   "Nenne die Zahl der Kinder x. Wie viele Jugendliche und Erwachsene sind es dann, ausgedrückt in x?",
+   "Jugendliche: {faktor}x. Erwachsene: x + {mehr}. Stelle damit die Gleichung für die Einnahme auf.",
+   "Löse zuerst die Klammern auf und bringe die reinen Zahlen auf die andere Seite."
+  ],
+  "loesungsweg": [
+   "x sind die Kinder, {faktor}x die Jugendlichen, x + {mehr} die Erwachsenen.",
+   "Einnahme: {pk}·x + {pj}·{faktor}x + {pe}·(x + {mehr}) = {summe}.",
+   "Die {mehr} zusätzlichen Erwachsenen bringen {mehr}·{pe}. Das ziehst du ab.",
+   "Übrig bleibt x·({pk} + {faktor}·{pj} + {pe}), und daraus folgt x = {kinder}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-zahlenraetsel",
+  "lernzielId": "MB.2.07",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "2.07",
+   "2.04",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 40,
+    "schritt": 2
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "(a*b + d) / (c - b)"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "c>b+1",
+   "istGanz(x)==1",
+   "x>=2",
+   "x<=60",
+   "x!=a",
+   "x!=b",
+   "x!=c",
+   "x!=d",
+   "x!=a*b",
+   "a!=b",
+   "b!=d"
+  ],
+  "stamm": "{name} denkt sich eine Zahl aus. Sie sagt: «Zählt man zu meiner Zahl {a} dazu und nimmt das Ergebnis mal {b}, kommt dasselbe heraus, wie wenn man meine Zahl mal {c} nimmt und {d} abzieht.» Wie heisst die Zahl?",
+  "loesung": "x",
+  "gegenprobe": "(a*b + d) / (c - b)",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_vergessen",
+    "ausdruck": "(a*b+d)/c",
+    "feedback": "Du hast die Klammer übersehen. Erst wird {a} dazugezählt, DANN mal {b} genommen: ({a} + x)·{b}, nicht x·{b} + {a}."
+   },
+   {
+    "diagnoseId": "vorzeichen_vertauscht",
+    "ausdruck": "(a*b - d) / (c - b)",
+    "feedback": "Beim Umstellen ist ein Vorzeichen gekippt. Die {d} werden auf der rechten Seite abgezogen. Bringst du sie nach links, werden sie addiert."
+   },
+   {
+    "diagnoseId": "seiten_vertauscht",
+    "ausdruck": "(a*b + d) / (b - c)",
+    "feedback": "Du hast {b} und {c} vertauscht. Beim Zusammenfassen bleibt {c}x − {b}x übrig, also der Faktor {c} − {b}."
+   },
+   {
+    "diagnoseId": "nur_erster_schritt",
+    "ausdruck": "a*b",
+    "feedback": "{a}·{b} ist bloss ein Zwischenschritt beim Ausmultiplizieren. Die gesuchte Zahl steht erst am Ende der Rechnung."
+   }
+  ],
+  "hinweise": [
+   "Nenne die gesuchte Zahl x und schreibe beide Seiten als Term auf.",
+   "Links: ({a} + x)·{b}. Rechts: {c}·x − {d}. Setze ein Gleichheitszeichen dazwischen.",
+   "Multipliziere die Klammer aus, sammle die x auf einer Seite und die Zahlen auf der anderen."
+  ],
+  "loesungsweg": [
+   "Gleichung: ({a} + x)·{b} = {c}·x − {d}.",
+   "Ausmultipliziert: {a}·{b} + {b}x = {c}x − {d}.",
+   "Alle x nach rechts, alle Zahlen nach links: {a}·{b} + {d} = ({c} − {b})·x.",
+   "Geteilt durch ({c} − {b}) ergibt x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-tarifvergleich",
+  "lernzielId": "MB.4.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "4.05",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "km",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "grund_a",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     30,
+     40,
+     50,
+     60
+    ]
+   },
+   {
+    "name": "grund_b",
+    "typ": "auswahl",
+    "werte": [
+     0,
+     10,
+     15,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "proKm_a",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     40,
+     50,
+     60
+    ]
+   },
+   {
+    "name": "proKm_b",
+    "typ": "auswahl",
+    "werte": [
+     60,
+     70,
+     75,
+     80,
+     90
+    ]
+   },
+   {
+    "name": "gleich",
+    "typ": "formel",
+    "ausdruck": "(grund_a - grund_b)*100 / (proKm_b - proKm_a)"
+   },
+   {
+    "name": "firma",
+    "typ": "text",
+    "texte": [
+     [
+      "Rollmobil",
+      "Fahrgut"
+     ],
+     [
+      "Autoteil",
+      "Mietflott"
+     ],
+     [
+      "Citycar",
+      "Nordwind"
+     ],
+     [
+      "Velomax",
+      "Radfein"
+     ],
+     [
+      "Transina",
+      "Kurzweg"
+     ],
+     [
+      "Mobilis",
+      "Wegfrei"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "grund_a>grund_b",
+   "proKm_b>proKm_a",
+   "istGanz(gleich)==1",
+   "gleich>=20",
+   "gleich<=400",
+   "gleich!=grund_a",
+   "gleich!=grund_b",
+   "gleich!=proKm_a",
+   "gleich!=proKm_b"
+  ],
+  "stamm": "{firma} verlangt eine Grundgebühr von Fr. {grund_a}.– und {proKm_a} Rappen je Kilometer. {firma.1} verlangt Fr. {grund_b}.– Grundgebühr und {proKm_b} Rappen je Kilometer. Bei welcher Fahrstrecke kosten beide Angebote gleich viel?",
+  "loesung": "gleich",
+  "gegenprobe": "(grund_a*100 - grund_b*100) / (proKm_b - proKm_a)",
+  "fehler": [
+   {
+    "diagnoseId": "einheiten_gemischt",
+    "ausdruck": "(grund_a - grund_b) / (proKm_b - proKm_a)",
+    "feedback": "Franken und Rappen sind durcheinandergeraten. Die Grundgebühr steht in Franken, der Kilometerpreis in Rappen. Rechne zuerst alles in dieselbe Einheit um."
+   },
+   {
+    "diagnoseId": "differenzen_vertauscht",
+    "ausdruck": "(proKm_b - proKm_a)*100 / (grund_a - grund_b)",
+    "feedback": "Zähler und Nenner sind vertauscht. Oben gehört die Differenz der Grundgebühren hin, unten die Differenz der Kilometerpreise."
+   },
+   {
+    "diagnoseId": "summe_statt_differenz",
+    "ausdruck": "(grund_a + grund_b)*100 / (proKm_b + proKm_a)",
+    "feedback": "Du hast addiert statt subtrahiert. Gesucht ist der Punkt, an dem der Vorsprung der einen Firma vom Kilometerpreis der anderen aufgeholt wird. Das sind zwei Differenzen."
+   },
+   {
+    "diagnoseId": "nur_grundgebuehr",
+    "ausdruck": "(grund_a - grund_b)*100",
+    "feedback": "Du hast nur die Differenz der Grundgebühren umgerechnet. Sie muss noch durch die Differenz der Kilometerpreise geteilt werden. Erst dann kommen Kilometer heraus."
+   }
+  ],
+  "hinweise": [
+   "Schreibe für beide Firmen die Kosten als Term mit x Kilometern auf.",
+   "Achte auf die Einheiten: Rechne die Grundgebühr in Rappen um oder den Kilometerpreis in Franken.",
+   "Setze die beiden Terme gleich und löse nach x auf."
+  ],
+  "loesungsweg": [
+   "{firma}: {grund_a}·100 + {proKm_a}·x Rappen. {firma.1}: {grund_b}·100 + {proKm_b}·x Rappen.",
+   "Gleichsetzen und alle x auf eine Seite bringen.",
+   "Übrig bleibt ({grund_a} − {grund_b})·100 = ({proKm_b} − {proKm_a})·x.",
+   "Geteilt ergibt x = {gleich} Kilometer."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-bassin-zufluss",
+  "lernzielId": "MB.7.04",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "7.04",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Minuten",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "teil",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     20,
+     25,
+     30,
+     40,
+     50,
+     60
+    ]
+   },
+   {
+    "name": "erst",
+    "typ": "auswahl",
+    "werte": [
+     8,
+     10,
+     12,
+     15,
+     18,
+     20,
+     24,
+     30
+    ]
+   },
+   {
+    "name": "danach",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     36,
+     40,
+     45,
+     50,
+     60,
+     72,
+     75,
+     80,
+     90,
+     100,
+     120,
+     135,
+     150
+    ]
+   },
+   {
+    "name": "restanteil",
+    "typ": "formel",
+    "ausdruck": "100-teil"
+   },
+   {
+    "name": "proMinNachher",
+    "typ": "formel",
+    "ausdruck": "restanteil/danach"
+   },
+   {
+    "name": "ganz",
+    "typ": "formel",
+    "ausdruck": "100/proMinNachher"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   },
+   {
+    "name": "becken",
+    "typ": "text",
+    "texte": [
+     [
+      "Bassin",
+      "Becken"
+     ],
+     [
+      "Schwimmbecken",
+      "Becken"
+     ],
+     [
+      "Wassertank",
+      "Tank"
+     ],
+     [
+      "Reservoir",
+      "Behälter"
+     ],
+     [
+      "Teich",
+      "Teich"
+     ],
+     [
+      "Regenspeicher",
+      "Speicher"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(ganz)==1",
+   "ganz>erst",
+   "ganz<=300",
+   "ganz!=erst",
+   "ganz!=danach",
+   "ganz!=teil",
+   "ganz!=restanteil",
+   "proMinNachher>0"
+  ],
+  "stamm": "{name} füllt ein leeres {becken}. Nach {erst} Minuten ist es erst zu {teil} % voll. Der Abfluss war die ganze Zeit offen. {name} schliesst ihn, und danach dauert es noch {danach} Minuten, bis das {becken.1} voll ist. In welcher Zeit wäre das leere {becken.1} gefüllt, wenn der Abfluss von Anfang an geschlossen bliebe?",
+  "loesung": "ganz",
+  "gegenprobe": "danach*100/(100-teil)",
+  "fehler": [
+   {
+    "diagnoseId": "gesamtzeit_addiert",
+    "ausdruck": "erst+danach",
+    "feedback": "Du hast einfach beide Zeiten zusammengezählt. Das ist die Zeit MIT offenem Abfluss am Anfang. Gefragt ist die Zeit ohne ihn, und die ist kürzer."
+   },
+   {
+    "diagnoseId": "nur_zweiter_teil",
+    "ausdruck": "danach",
+    "feedback": "{danach} Minuten sind die Zeit für die letzten {restanteil} %. Für das ganze {becken.1} braucht es entsprechend mehr."
+   },
+   {
+    "diagnoseId": "falscher_anteil",
+    "ausdruck": "danach*100/teil",
+    "feedback": "Du hast mit {teil} % gerechnet. In den {danach} Minuten wurden aber die übrigen {restanteil} % gefüllt, nicht die ersten {teil} %."
+   },
+   {
+    "diagnoseId": "erste_phase_hochgerechnet",
+    "ausdruck": "erst*100/teil",
+    "feedback": "Du hast die erste Phase hochgerechnet. In ihr lief aber Wasser ab. Sie sagt darum nichts über die Leistung der Zuleitung allein."
+   }
+  ],
+  "hinweise": [
+   "Wie viel Prozent fehlen nach den ersten {erst} Minuten noch?",
+   "Diese {restanteil} % wurden in {danach} Minuten gefüllt, und zwar ohne Abfluss, also mit der vollen Leistung der Zuleitung.",
+   "Rechne aus, wie viel Prozent die Zuleitung pro Minute schafft, und dann die Zeit für 100 %."
+  ],
+  "loesungsweg": [
+   "Nach {erst} Minuten fehlen noch {restanteil} %.",
+   "Diese {restanteil} % brauchen {danach} Minuten. Das ist die reine Zuleitung.",
+   "Pro Minute schafft sie {restanteil} ÷ {danach} Prozent.",
+   "Für 100 % braucht sie {ganz} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-kombinatorik-auswahl",
+  "lernzielId": "MB.7.01",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "7.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Gruppen",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3
+    ]
+   },
+   {
+    "name": "geordnet",
+    "typ": "formel",
+    "ausdruck": "n*(n-1)*(k==3 ? (n-2) : 1)"
+   },
+   {
+    "name": "ungeordnet",
+    "typ": "formel",
+    "ausdruck": "geordnet/(k==3 ? 6 : 2)"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Buchstaben aus einem Vorrat",
+      "Buchstaben"
+     ],
+     [
+      "Karten aus einem Stapel",
+      "Karten"
+     ],
+     [
+      "Kugeln aus einer Urne",
+      "Kugeln"
+     ],
+     [
+      "Bücher aus einem Regal",
+      "Bücher"
+     ],
+     [
+      "Farben aus einer Palette",
+      "Farben"
+     ],
+     [
+      "Lieder aus einer Liste",
+      "Lieder"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(ungeordnet)==1",
+   "ungeordnet>=10",
+   "ungeordnet<=250",
+   "ungeordnet!=n",
+   "ungeordnet!=k",
+   "ungeordnet!=geordnet"
+  ],
+  "stamm": "{name} wählt {k} verschiedene {sache} aus. Zur Wahl stehen {n} Stück. Auf die Reihenfolge kommt es nicht an. Wie viele verschiedene Gruppen von {k} {sache.1} sind möglich?",
+  "loesung": "ungeordnet",
+  "gegenprobe": "geordnet/(k==3 ? 6 : 2)",
+  "fehler": [
+   {
+    "diagnoseId": "reihenfolge_mitgezaehlt",
+    "ausdruck": "geordnet",
+    "feedback": "Du hast die Reihenfolge mitgezählt. Wenn sie egal ist, sind «A und B» und «B und A» dieselbe Gruppe. Teile darum noch durch die Zahl der Anordnungen."
+   },
+   {
+    "diagnoseId": "mit_zuruecklegen",
+    "ausdruck": "pow(n, k)",
+    "feedback": "Du hast erlaubt, dasselbe Stück mehrfach zu nehmen. Die {k} {sache.1} sollen aber verschieden sein: Beim zweiten Griff stehen nur noch {n} − 1 zur Wahl."
+   },
+   {
+    "diagnoseId": "einfach_multipliziert",
+    "ausdruck": "n*k",
+    "feedback": "Du hast {n} mit {k} multipliziert. So zählt man Paare aus zwei getrennten Mengen. Hier wird aber aus EINER Menge gewählt, und die wird mit jedem Griff kleiner."
+   },
+   {
+    "diagnoseId": "um_eins_daneben",
+    "ausdruck": "geordnet/(k==3 ? 6 : 2) - 1",
+    "feedback": "Da fehlt eine Gruppe. Das passiert leicht, wenn man beim Aufzählen die erste oder die letzte übersieht. Rechne lieber, statt zu zählen."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Möglichkeiten hast du beim ersten Griff? Und beim zweiten, wenn eines schon weg ist?",
+   "Multipliziere die Möglichkeiten. So zählst du allerdings jede Gruppe mehrfach. Einmal für jede Reihenfolge.",
+   "Bei {k} Stück gibt es {k}·({k}−1)·… Anordnungen derselben Gruppe. Durch diese Zahl musst du am Schluss teilen."
+  ],
+  "loesungsweg": [
+   "Erster Griff: {n} Möglichkeiten. Jeder weitere: eine weniger.",
+   "Mit Reihenfolge ergibt das {geordnet} Möglichkeiten.",
+   "Jede Gruppe kommt dabei mehrfach vor. Einmal je Anordnung.",
+   "Geteilt durch die Zahl der Anordnungen bleiben {ungeordnet} Gruppen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-einheiten-umrechnen",
+  "lernzielId": "MB.3.01",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal3",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     5,
+     7,
+     12,
+     25,
+     45,
+     80,
+     150
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     4,
+     8,
+     15,
+     30,
+     60,
+     125,
+     400
+    ]
+   },
+   {
+    "name": "c",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     9,
+     14,
+     20,
+     35,
+     50,
+     90,
+     200
+    ]
+   },
+   {
+    "name": "amm",
+    "typ": "formel",
+    "ausdruck": "a*10"
+   },
+   {
+    "name": "bqcm",
+    "typ": "formel",
+    "ausdruck": "b*100"
+   },
+   {
+    "name": "ccm3",
+    "typ": "formel",
+    "ausdruck": "c*1000"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c"
+  ],
+  "stamm": "{name} rechnet Masse um. Fülle die drei Felder aus.",
+  "felder": [
+   {
+    "name": "mm",
+    "label": "{a} cm in mm",
+    "einheit": "mm",
+    "ausdruck": "amm",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_verwechselt",
+      "ausdruck": "a*100",
+      "feedback": "Zwischen Zentimeter und Millimeter liegt der Faktor 10, nicht 100. Hundert ist der Sprung von Meter zu Zentimeter."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "a/10",
+      "feedback": "Du hast geteilt statt multipliziert. Ein Millimeter ist KLEINER als ein Zentimeter, von der grösseren zur kleineren Einheit wird die Zahl grösser."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "a",
+      "feedback": "Die Zahl ist unverändert geblieben. Beim Wechsel der Einheit ändert sich die Zahl immer, ausser der Faktor wäre 1."
+     }
+    ]
+   },
+   {
+    "name": "qcm",
+    "label": "{b} dm² in cm²",
+    "einheit": "cm²",
+    "ausdruck": "bqcm",
+    "fehler": [
+     {
+      "diagnoseId": "laengenfaktor_bei_flaeche",
+      "ausdruck": "b*10",
+      "feedback": "Bei Flächen zählt der Faktor ZWEIMAL. Von Dezimeter zu Zentimeter sind es 10, bei Quadratdezimeter zu Quadratzentimeter also 10·10 = 100."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "b/100",
+      "feedback": "Du hast geteilt statt multipliziert. Ein Quadratzentimeter ist kleiner als ein Quadratdezimeter. Die Zahl muss darum grösser werden."
+     },
+     {
+      "diagnoseId": "dreifach_gezaehlt",
+      "ausdruck": "b*1000",
+      "feedback": "Du hast den Faktor dreimal genommen, wie bei einem Volumen. Eine Fläche hat aber nur zwei Richtungen."
+     }
+    ]
+   },
+   {
+    "name": "cm3",
+    "label": "{c} dm³ in cm³",
+    "einheit": "cm³",
+    "ausdruck": "ccm3",
+    "fehler": [
+     {
+      "diagnoseId": "laengenfaktor_bei_volumen",
+      "ausdruck": "c*10",
+      "feedback": "Bei Körpern zählt der Faktor DREIMAL. Von Dezimeter zu Zentimeter sind es 10, bei Kubikdezimeter zu Kubikzentimeter also 10·10·10 = 1000."
+     },
+     {
+      "diagnoseId": "nur_zweimal",
+      "ausdruck": "c*100",
+      "feedback": "Du hast den Faktor zweimal genommen, wie bei einer Fläche. Ein Volumen hat drei Richtungen."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "c/1000",
+      "feedback": "Du hast geteilt statt multipliziert. Ein Kubikzentimeter ist kleiner. Es passen tausend davon in einen Kubikdezimeter."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Frage zuerst: Wird die Einheit kleiner oder grösser? Wird sie kleiner, wird die Zahl grösser.",
+   "Zähle den Faktor so oft, wie die Grösse Richtungen hat: Länge einmal, Fläche zweimal, Volumen dreimal.",
+   "Zwischen Meter und Zentimeter liegt 100, zwischen Zentimeter und Millimeter 10, zwischen Dezimeter und Zentimeter ebenfalls 10."
+  ],
+  "loesungsweg": [
+   "Bestimme den Faktor zwischen den beiden Längeneinheiten.",
+   "Nimm ihn einmal für eine Länge, zweimal für eine Fläche, dreimal für ein Volumen.",
+   "Prüfe die Richtung: Zur kleineren Einheit wird die Zahl grösser."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-zeit-weg",
+  "lernzielId": "MB.3.02",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "km",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "tempo",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     6,
+     12,
+     15,
+     20,
+     24,
+     30,
+     40,
+     60
+    ]
+   },
+   {
+    "name": "min",
+    "typ": "auswahl",
+    "werte": [
+     15,
+     20,
+     24,
+     30,
+     36,
+     40,
+     45,
+     50,
+     75,
+     90,
+     105,
+     120
+    ]
+   },
+   {
+    "name": "weg",
+    "typ": "formel",
+    "ausdruck": "tempo*min/60"
+   },
+   {
+    "name": "art",
+    "typ": "text",
+    "texte": [
+     [
+      "zu Fuss",
+      "geht"
+     ],
+     [
+      "mit dem Velo",
+      "fährt"
+     ],
+     [
+      "mit dem Trottinett",
+      "fährt"
+     ],
+     [
+      "joggend",
+      "läuft"
+     ],
+     [
+      "mit dem Bus",
+      "fährt"
+     ],
+     [
+      "auf dem Wanderweg",
+      "geht"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(weg)==1",
+   "weg>=2",
+   "weg<=120",
+   "weg!=tempo",
+   "weg!=min",
+   "min!=60",
+   "weg*60!=min"
+  ],
+  "stamm": "{name} {art.1} {art} mit gleichbleibenden {tempo} km/h. Sie ist {min} Minuten unterwegs. Wie viele Kilometer legt sie zurück?",
+  "loesung": "weg",
+  "gegenprobe": "tempo*(min/60)",
+  "fehler": [
+   {
+    "diagnoseId": "minuten_als_stunden",
+    "ausdruck": "tempo*min",
+    "feedback": "Du hast die Minuten wie Stunden gerechnet. {tempo} km/h heisst {tempo} Kilometer in SECHZIG Minuten. Teile die Zeit zuerst durch 60."
+   },
+   {
+    "diagnoseId": "geteilt_statt_mal",
+    "ausdruck": "tempo*60/min",
+    "feedback": "Du hast die falsche Richtung gerechnet. Je länger sie unterwegs ist, desto weiter kommt sie. Zeit und Weg wachsen zusammen."
+   },
+   {
+    "diagnoseId": "tempo_pro_minute_verwechselt",
+    "ausdruck": "min/tempo",
+    "feedback": "Du hast Zeit durch Tempo geteilt. Das ergäbe eine Zeit je Kilometer, nicht die Strecke."
+   },
+   {
+    "diagnoseId": "halbe_stunde_pauschal",
+    "ausdruck": "tempo/2",
+    "feedback": "Du hast mit einer halben Stunde gerechnet. Sie ist aber {min} Minuten unterwegs. Rechne mit dem tatsächlichen Anteil einer Stunde."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Kilometer schafft sie in einer Minute?",
+   "{tempo} km in 60 Minuten heisst {tempo} ÷ 60 Kilometer je Minute.",
+   "Das mal {min} Minuten ergibt die Strecke."
+  ],
+  "loesungsweg": [
+   "{tempo} km/h bedeutet {tempo} Kilometer in 60 Minuten.",
+   "In einer Minute sind das {tempo} ÷ 60 Kilometer.",
+   "In {min} Minuten also {tempo} · {min} ÷ 60.",
+   "Das ergibt {weg} Kilometer."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-grundwert-vermehrt",
+  "lernzielId": "MB.3.04",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.04",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "einheit": "Fr.",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     12,
+     15,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "alt",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 900,
+    "schritt": 5
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "alt*(100+satz)/100"
+   },
+   {
+    "name": "zuschlag",
+    "typ": "formel",
+    "ausdruck": "neu-alt"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "die Miete",
+      "Miete"
+     ],
+     [
+      "das Abonnement",
+      "Abo"
+     ],
+     [
+      "der Vereinsbeitrag",
+      "Beitrag"
+     ],
+     [
+      "der Kurspreis",
+      "Preis"
+     ],
+     [
+      "die Versicherung",
+      "Prämie"
+     ],
+     [
+      "das Ticket",
+      "Ticket"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(neu)==1",
+   "istGanz(zuschlag)==1",
+   "zuschlag>=3",
+   "neu<=1200",
+   "alt!=neu",
+   "alt!=satz",
+   "alt!=zuschlag",
+   "alt!=neu-satz",
+   "neu!=satz",
+   "alt != floor(neu/1000)",
+   "alt != neu - floor(neu/1000)*1000"
+  ],
+  "stamm": "Für {name} steigt {sache} um {satz} % auf neu {neu:franken}. Wie viel hat {sache.1} vorher gekostet?",
+  "loesung": "alt",
+  "gegenprobe": "neu*100/(100+satz)",
+  "fehler": [
+   {
+    "diagnoseId": "prozent_vom_neuen",
+    "ausdruck": "neu*(100-satz)/100",
+    "feedback": "Du hast die {satz} % vom NEUEN Betrag abgezogen. Der Zuschlag bezieht sich aber auf den alten. Der ist der Grundwert und entspricht 100 %."
+   },
+   {
+    "diagnoseId": "prozent_als_franken",
+    "ausdruck": "neu-satz",
+    "feedback": "Du hast {satz} als Frankenbetrag abgezogen. {satz} % ist ein Anteil: Bei einem hohen Betrag sind das viele Franken, bei einem tiefen wenige."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "neu*(100+satz)/100",
+    "feedback": "Du hast noch einmal draufgeschlagen. {neu:franken} ist bereits der erhöhte Betrag, von hier geht es zurück nach unten."
+   },
+   {
+    "diagnoseId": "durch_satz_geteilt",
+    "ausdruck": "neu*100/satz",
+    "feedback": "Du hast durch {satz} geteilt statt durch 100 + {satz}. Der neue Betrag entspricht 100 % + {satz} %, nicht {satz} %."
+   }
+  ],
+  "hinweise": [
+   "Welcher Betrag ist hier der Grundwert, also die 100 %. Der alte oder der neue?",
+   "Nach dem Zuschlag von {satz} % entspricht {neu:franken} genau 100 % + {satz} % des alten Betrags.",
+   "Rechne zuerst, wie viel 1 % ist, und dann die 100 %."
+  ],
+  "loesungsweg": [
+   "Der alte Betrag ist der Grundwert, also 100 %.",
+   "Mit dem Zuschlag sind es 100 % + {satz} %. Das sind die {neu:franken}.",
+   "1 % ist {neu:franken} geteilt durch (100 + {satz}).",
+   "Hundert Prozent ergeben {alt:franken}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "rueckwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-massstab",
+  "lernzielId": "MB.3.06",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "3.06",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "m",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     200,
+     500,
+     1000,
+     2000,
+     5000,
+     25000
+    ]
+   },
+   {
+    "name": "karte",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     12,
+     15,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "karte*m/100"
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "zwei Häusern",
+      "Häuser"
+     ],
+     [
+      "Schule und Bahnhof",
+      "Punkte"
+     ],
+     [
+      "Start und Ziel",
+      "Punkte"
+     ],
+     [
+      "Hütte und Gipfel",
+      "Punkte"
+     ],
+     [
+      "Brücke und Kirche",
+      "Punkte"
+     ],
+     [
+      "Halle und Parkplatz",
+      "Punkte"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(meter)==1",
+   "meter>=5",
+   "meter<=6000",
+   "meter!=karte",
+   "meter!=m",
+   "karte!=m",
+   "meter != floor(m/1000)",
+   "meter != m - floor(m/1000)*1000"
+  ],
+  "stamm": "Auf einer Karte im Massstab 1 : {m} misst {name} zwischen {ort} genau {karte} cm. Wie viele Meter sind das in Wirklichkeit?",
+  "loesung": "meter",
+  "gegenprobe": "karte*m/100",
+  "fehler": [
+   {
+    "diagnoseId": "einheit_vergessen",
+    "ausdruck": "karte*m",
+    "feedback": "Das Ergebnis steht noch in Zentimetern. {karte} cm mal {m} ergibt Zentimeter in der Wirklichkeit. Teile noch durch 100, um Meter zu erhalten."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "karte/m*100",
+    "feedback": "Du hast geteilt statt multipliziert. Der Massstab 1 : {m} heisst, dass die Wirklichkeit {m}-mal GRÖSSER ist als die Karte."
+   },
+   {
+    "diagnoseId": "durch_hundert_zu_viel",
+    "ausdruck": "karte*m/10000",
+    "feedback": "Da ist einmal zu oft durch 100 geteilt. Von Zentimetern zu Metern ist es genau ein Schritt mit dem Faktor 100."
+   },
+   {
+    "diagnoseId": "massstab_als_meter",
+    "ausdruck": "karte+m/100",
+    "feedback": "Du hast den Massstab dazugezählt. Er ist aber ein Verhältnis: Jede Strecke auf der Karte wird mit {m} multipliziert, nicht vergrössert um einen festen Betrag."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet 1 : {m}? Eine Einheit auf der Karte entspricht {m} Einheiten in der Wirklichkeit.",
+   "Rechne zuerst in Zentimetern: {karte} cm mal {m}.",
+   "Danach von Zentimetern in Meter. Das ist der Faktor 100."
+  ],
+  "loesungsweg": [
+   "1 cm auf der Karte sind {m} cm in Wirklichkeit.",
+   "{karte} cm entsprechen darum {karte} · {m} cm.",
+   "Geteilt durch 100 ergibt das Meter.",
+   "Die Strecke misst {meter} Meter."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-zahlenstrahl-terme",
+  "lernzielId": "MB.1.02",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.02",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "w1",
+    "typ": "formel",
+    "ausdruck": "a - b*2"
+   },
+   {
+    "name": "w2",
+    "typ": "formel",
+    "ausdruck": "0 - c + d"
+   },
+   {
+    "name": "w3",
+    "typ": "formel",
+    "ausdruck": "a*2 - d"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "w1>=-12",
+   "w1<=12",
+   "w2>=-12",
+   "w2<=12",
+   "w3>=-12",
+   "w3<=12",
+   "w1!=w2",
+   "w2!=w3",
+   "w1!=w3"
+  ],
+  "stamm": "{name} rechnet drei Terme aus. Setze für jedes Ergebnis eine Marke auf den Zahlenstrahl.\n\nA = {a} − 2·{b}\nB = −{c} + {d}\nC = 2·{a} − {d}",
+  "gitter": {
+   "xvon": "-12",
+   "xbis": "12",
+   "yvon": "0",
+   "ybis": "0",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A",
+     "label": "A"
+    },
+    {
+     "name": "B",
+     "label": "B"
+    },
+    {
+     "name": "C",
+     "label": "C"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "w1",
+      "0"
+     ],
+     [
+      "w2",
+      "0"
+     ],
+     [
+      "w3",
+      "0"
+     ]
+    ]
+   ],
+   "vorgabe": [],
+   "strecken": []
+  },
+  "fehler": [
+   {
+    "diagnoseId": "punkt_vor_strich_missachtet",
+    "bedingung": "1",
+    "feedback": "Wer von links nach rechts rechnet, statt zuerst zu multiplizieren, landet fast immer daneben. Bei A muss 2·{b} zuerst gerechnet werden."
+   },
+   {
+    "diagnoseId": "vorzeichen_verloren",
+    "bedingung": "1",
+    "feedback": "Das Minus gehört zur Zahl dahinter. −{c} + {d} ist nicht dasselbe wie {c} + {d} und auch nicht dasselbe wie −({c} + {d})."
+   },
+   {
+    "diagnoseId": "richtung_am_strahl",
+    "bedingung": "1",
+    "feedback": "Auf dem Zahlenstrahl liegen die negativen Zahlen LINKS von der Null, und je grösser die Zahl hinter dem Minus, desto weiter links. −8 liegt links von −3."
+   }
+  ],
+  "hinweise": [
+   "Rechne jeden Term für sich aus. Punkt vor Strich: Erst wird multipliziert, dann addiert und subtrahiert.",
+   "Ein Minus vor einer Zahl macht sie negativ. −{c} + {d} heisst: von −{c} aus {d} Schritte nach rechts.",
+   "Negative Zahlen liegen links von der Null. Je grösser die Zahl hinter dem Minus, desto weiter links."
+  ],
+  "loesungsweg": [
+   "A: erst 2·{b}, dann von {a} abziehen.",
+   "B: von −{c} aus {d} Schritte nach rechts.",
+   "C: erst 2·{a}, dann {d} abziehen.",
+   "Setze die drei Ergebnisse auf den Zahlenstrahl. Links von der Null liegen die negativen Zahlen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-zahlenstrahl-wurzel",
+  "lernzielId": "MB.1.06",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.06",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 220,
+    "schritt": 1
+   },
+   {
+    "name": "unten",
+    "typ": "formel",
+    "ausdruck": "floor(sqrt(n))"
+   },
+   {
+    "name": "oben",
+    "typ": "formel",
+    "ausdruck": "floor(sqrt(n))+1"
+   },
+   {
+    "name": "uq",
+    "typ": "formel",
+    "ausdruck": "unten*unten"
+   },
+   {
+    "name": "oq",
+    "typ": "formel",
+    "ausdruck": "oben*oben"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "n != uq",
+   "unten>=2",
+   "oben<=15",
+   "n<=224"
+  ],
+  "stamm": "{name} soll die Wurzel aus {n} einordnen, ohne sie auszurechnen. Zwischen welchen beiden ganzen Zahlen liegt sie? Setze die Marke U auf die Zahl darunter und die Marke O auf die Zahl darüber.",
+  "gitter": {
+   "xvon": "0",
+   "xbis": "15",
+   "yvon": "0",
+   "ybis": "0",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "U",
+     "label": "U"
+    },
+    {
+     "name": "O",
+     "label": "O"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "unten",
+      "0"
+     ],
+     [
+      "oben",
+      "0"
+     ]
+    ]
+   ],
+   "vorgabe": [],
+   "strecken": []
+  },
+  "fehler": [
+   {
+    "diagnoseId": "wurzel_halbiert",
+    "bedingung": "1",
+    "feedback": "Die Wurzel ist nicht die Hälfte. Die Wurzel aus 100 ist 10, nicht 50. Gesucht ist die Zahl, die mit sich selbst multipliziert {n} ergibt."
+   },
+   {
+    "diagnoseId": "quadratzahl_verfehlt",
+    "bedingung": "1",
+    "feedback": "Prüfe deine beiden Zahlen: Die eine mit sich selbst multipliziert muss KLEINER als {n} sein, die andere GRÖSSER. Liegt eine daneben, stimmt die Einschachtelung nicht."
+   },
+   {
+    "diagnoseId": "marken_vertauscht",
+    "bedingung": "1",
+    "feedback": "U und O sind vertauscht. U ist die Zahl DARUNTER und liegt links, O die Zahl DARÜBER und liegt rechts."
+   }
+  ],
+  "hinweise": [
+   "Suche Quadratzahlen in der Nähe von {n}: 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225.",
+   "Gesucht ist die grösste Quadratzahl, die noch kleiner ist als {n}, und die kleinste, die schon grösser ist.",
+   "Die Wurzeln dieser beiden Quadratzahlen sind U und O."
+  ],
+  "loesungsweg": [
+   "{unten}·{unten} = {uq}, und das ist kleiner als {n}.",
+   "{oben}·{oben} = {oq}, und das ist grösser als {n}.",
+   "Also liegt die Wurzel aus {n} zwischen {unten} und {oben}.",
+   "U kommt auf {unten}, O auf {oben}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-quadrat-ergaenzen",
+  "lernzielId": "MB.5.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "5.05",
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "ax",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "ay",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "s",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "bx",
+    "typ": "formel",
+    "ausdruck": "ax+s"
+   },
+   {
+    "name": "by",
+    "typ": "formel",
+    "ausdruck": "ay"
+   },
+   {
+    "name": "cx",
+    "typ": "formel",
+    "ausdruck": "ax+s"
+   },
+   {
+    "name": "cy",
+    "typ": "formel",
+    "ausdruck": "ay+s"
+   },
+   {
+    "name": "dx",
+    "typ": "formel",
+    "ausdruck": "ax"
+   },
+   {
+    "name": "dy",
+    "typ": "formel",
+    "ausdruck": "ay+s"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "s*s"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "bx<=10",
+   "cy<=10",
+   "s>=2"
+  ],
+  "stamm": "Im Koordinatensystem sind die Punkte A und B eingezeichnet. Sie sind zwei benachbarte Ecken eines Quadrats, und das Quadrat liegt oberhalb der Strecke AB. Setze die beiden fehlenden Ecken C und D. C ist die Ecke über B, D die Ecke über A.",
+  "gitter": {
+   "xvon": "0",
+   "xbis": "10",
+   "yvon": "0",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "C",
+     "label": "C"
+    },
+    {
+     "name": "D",
+     "label": "D"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "cx",
+      "cy"
+     ],
+     [
+      "dx",
+      "dy"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "text": "A",
+     "x": "ax",
+     "y": "ay"
+    },
+    {
+     "text": "B",
+     "x": "bx",
+     "y": "by"
+    }
+   ],
+   "strecken": [
+    {
+     "text": "",
+     "stil": "hilfslinie",
+     "von": {
+      "x": "ax",
+      "y": "ay"
+     },
+     "bis": {
+      "x": "bx",
+      "y": "by"
+     }
+    }
+   ]
+  },
+  "fehler": [
+   {
+    "diagnoseId": "rechteck_statt_quadrat",
+    "bedingung": "1",
+    "feedback": "Deine Figur ist ein Rechteck, aber kein Quadrat. Im Quadrat sind ALLE vier Seiten gleich lang. Die Höhe muss genau {s} betragen, so viel wie AB."
+   },
+   {
+    "diagnoseId": "nach_unten_gebaut",
+    "bedingung": "1",
+    "feedback": "Du hast das Quadrat nach unten gebaut. Die Aufgabe sagt, es liege oberhalb der Strecke AB."
+   },
+   {
+    "diagnoseId": "ecken_vertauscht",
+    "bedingung": "1",
+    "feedback": "C und D sind vertauscht. C gehört über B, D über A. Sonst kreuzen sich die Seiten und es entsteht kein Quadrat."
+   }
+  ],
+  "hinweise": [
+   "Wie lang ist die Strecke AB? Zähle die Kästchen zwischen A und B.",
+   "Im Quadrat sind alle vier Seiten gleich lang, und die Ecken bilden rechte Winkel.",
+   "C liegt genau so weit über B, wie B von A entfernt ist. D entsprechend über A."
+  ],
+  "loesungsweg": [
+   "A und B liegen auf derselben Höhe; die Seite AB ist {s} Kästchen lang.",
+   "Im Quadrat sind alle Seiten {s} lang und stehen senkrecht aufeinander.",
+   "C liegt {s} über B, D liegt {s} über A.",
+   "Das Quadrat hat damit den Flächeninhalt {flaeche}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-zahlen-ordnen",
+  "lernzielId": "MB.1.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.05",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "sortieren",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     15,
+     25,
+     35,
+     45,
+     55,
+     65,
+     75,
+     85
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     9,
+     16,
+     25,
+     36,
+     49,
+     64,
+     81
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "bruch",
+    "typ": "formel",
+    "ausdruck": "a*100/b"
+   },
+   {
+    "name": "wurzel",
+    "typ": "formel",
+    "ausdruck": "sqrt(q)*10"
+   },
+   {
+    "name": "zehntel",
+    "typ": "formel",
+    "ausdruck": "z*10"
+   },
+   {
+    "name": "prozent",
+    "typ": "formel",
+    "ausdruck": "p"
+   }
+  ],
+  "bedingungen": [
+   "a<b",
+   "bruch!=p",
+   "bruch!=wurzel",
+   "bruch!=zehntel",
+   "p!=wurzel",
+   "p!=zehntel",
+   "wurzel!=zehntel",
+   "wurzel<=100",
+   "zehntel<=100",
+   "bruch<=100"
+  ],
+  "stamm": "Fünf Zahlen in fünf Schreibweisen. Ordne sie der Grösse nach. Die kleinste auf Platz 1, die grösste auf Platz 5.",
+  "sortieren": {
+   "elemente": [
+    {
+     "text": "{a}/{b}"
+    },
+    {
+     "text": "{p} %"
+    },
+    {
+     "text": "√{q} Zehntel"
+    },
+    {
+     "text": "{z} Zehntel"
+    },
+    {
+     "text": "0.{p}"
+    }
+   ],
+   "werte": [
+    "bruch",
+    "prozent",
+    "wurzel",
+    "zehntel",
+    "prozent"
+   ]
+  },
+  "fehler": [
+   {
+    "diagnoseId": "von_gross_nach_klein",
+    "feedback": "Deine Reihenfolge stimmt genau umgekehrt. Gesucht ist die KLEINSTE Zahl auf Platz 1.",
+    "kurz": "falsche Richtung"
+   },
+   {
+    "diagnoseId": "schreibweise_nicht_umgerechnet",
+    "feedback": "Du hast die Zahlen verglichen, wie sie dastehen. Ein Bruch, eine Prozentzahl und eine Wurzel lassen sich so nicht vergleichen. Bring sie zuerst auf dieselbe Form.",
+    "kurz": "nicht umgerechnet"
+   },
+   {
+    "diagnoseId": "wurzel_als_haelfte",
+    "feedback": "Die Wurzel ist nicht die Hälfte. Die Wurzel aus {q} ist die Zahl, die mit sich selbst multipliziert {q} ergibt.",
+    "kurz": "Wurzel halbiert"
+   },
+   {
+    "diagnoseId": "nenner_ist_groesser",
+    "feedback": "Ein grösserer Nenner macht den Bruch KLEINER, nicht grösser: Ein Fünftel ist weniger als ein Drittel.",
+    "kurz": "Nenner falsch gedeutet"
+   }
+  ],
+  "hinweise": [
+   "Bring zuerst alle auf dieselbe Schreibweise. Am einfachsten sind Zehntel oder Prozent.",
+   "Ein Bruch wird zur Prozentzahl, indem du den Zähler durch den Nenner teilst und mal 100 nimmst.",
+   "Die Wurzel aus einer Quadratzahl ist genau die Zahl, die mit sich selbst multipliziert die Quadratzahl ergibt."
+  ],
+  "loesungsweg": [
+   "Rechne jede Zahl in Prozent um.",
+   "Der Bruch {a}/{b} ist {a} ÷ {b} · 100 Prozent.",
+   "Die Wurzel aus {q} ist eine ganze Zahl. Mal 10 gibt Zehntel.",
+   "Jetzt lassen sich alle fünf direkt vergleichen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-primteiler",
+  "lernzielId": "MB.1.04",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "loesungsmenge",
+  "variablen": [
+   {
+    "name": "p1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "name": "p2",
+    "typ": "auswahl",
+    "werte": [
+     7,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "e1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "e2",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "N",
+    "typ": "formel",
+    "ausdruck": "pow(p1, e1) * pow(p2, e2)"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "N<=2000",
+   "N>=30"
+  ],
+  "stamm": "{name} soll {N} in Primfaktoren zerlegen. Welche Primzahlen von 2 bis 20 kommen in der Zerlegung vor? Wähle alle aus.",
+  "loesungsmenge": {
+   "kandidatenVariable": "k",
+   "von": "2",
+   "bis": "20",
+   "bedingung": "N % k == 0 && k != 4 && k != 6 && k != 8 && k != 9 && k != 10 && k != 12 && k != 14 && k != 15 && k != 16 && k != 18 && k != 20"
+  },
+  "fehler": [
+   {
+    "diagnoseId": "auch_zusammengesetzte",
+    "feedback": "Du hast Zahlen gewählt, die selbst keine Primzahlen sind. 4, 6, 8, 9, 10 und so weiter lassen sich weiter zerlegen und sind darum nie Primfaktoren.",
+    "kurz": "keine Primzahl",
+    "bedingung": "N % k == 0"
+   },
+   {
+    "diagnoseId": "nur_kleinste",
+    "feedback": "Du hast bei der kleinsten Primzahl aufgehört. Teile {N} weiter, bis nur noch eine 1 übrig bleibt. Dabei kommen alle Primfaktoren zum Vorschein.",
+    "kurz": "zu früh aufgehört",
+    "bedingung": "k == 2"
+   },
+   {
+    "diagnoseId": "teiler_statt_primteiler",
+    "feedback": "Du hast alle Teiler gewählt, nicht nur die primen. Ein Primfaktor ist ein Teiler, der selbst eine Primzahl ist.",
+    "kurz": "Teiler statt Primteiler",
+    "bedingung": "N % k == 0"
+   }
+  ],
+  "hinweise": [
+   "Teile {N} der Reihe nach durch 2, 3, 5, 7, 11, 13, 17 und 19. Geht es auf, ist die Primzahl dabei.",
+   "Wie oft eine Primzahl vorkommt, spielt hier keine Rolle. Gefragt ist nur, WELCHE vorkommen.",
+   "Eine Zahl, die keine Primzahl ist, kann nie ein Primfaktor sein. 4, 6, 8, 9 und so weiter fallen von vornherein weg."
+  ],
+  "loesungsweg": [
+   "Prüfe der Reihe nach: Ist {N} durch 2 teilbar? Durch 3? Durch 5?",
+   "Jede Primzahl, die {N} ohne Rest teilt, gehört zur Zerlegung.",
+   "Die Vielfachheit ist hier nicht gefragt, nur die Auswahl."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-umgekehrt-tabelle",
+  "lernzielId": "MB.4.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "4.03",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "werk",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     36,
+     48,
+     60,
+     72,
+     84,
+     90,
+     96,
+     108,
+     120,
+     132,
+     144,
+     168,
+     180,
+     210,
+     240
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Maschinen",
+      "Minuten"
+     ],
+     [
+      "Pumpen",
+      "Stunden"
+     ],
+     [
+      "Helferinnen",
+      "Stunden"
+     ],
+     [
+      "Drucker",
+      "Minuten"
+     ],
+     [
+      "Bagger",
+      "Tage"
+     ],
+     [
+      "Öfen",
+      "Stunden"
+     ],
+     [
+      "Nähmaschinen",
+      "Minuten"
+     ],
+     [
+      "Mähdrescher",
+      "Stunden"
+     ],
+     [
+      "Kopiergeräte",
+      "Minuten"
+     ],
+     [
+      "Freiwillige",
+      "Stunden"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "werk>=24"
+  ],
+  "stamm": "Je mehr {sache} mitarbeiten, desto weniger {sache.1} dauert es. Eine einzige Einheit bräuchte {werk} {sache.1}. Trage alle Paare ein, bei denen die Arbeit genau fertig wird. Anzahl {sache} von 1 bis 12.",
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "n",
+     "kopf": "Anzahl",
+     "von": "1",
+     "bis": "12"
+    },
+    {
+     "name": "t",
+     "kopf": "Dauer",
+     "von": "1",
+     "bis": "werk"
+    }
+   ],
+   "bedingung": "n * t == werk"
+  },
+  "fehler": [
+   {
+    "diagnoseId": "proportional_gerechnet",
+    "feedback": "Du hast gerechnet, als würde die Dauer mit der Anzahl WACHSEN. Mehr {sache} bedeuten aber weniger {sache.1}. Das Produkt bleibt gleich, nicht der Quotient.",
+    "kurz": "proportional statt umgekehrt"
+   },
+   {
+    "diagnoseId": "summe_konstant",
+    "feedback": "Du hast Anzahl und Dauer zusammengezählt. Bei umgekehrter Proportionalität ist das Produkt konstant, nicht die Summe.",
+    "kurz": "Summe statt Produkt"
+   },
+   {
+    "diagnoseId": "nur_teiler_uebersehen",
+    "feedback": "Es fehlen Paare. Prüfe jede Anzahl von 1 bis 12 einzeln: Immer wenn {werk} durch sie ohne Rest teilbar ist, gehört das Paar in die Tabelle.",
+    "kurz": "Paare übersehen"
+   }
+  ],
+  "hinweise": [
+   "Bei umgekehrter Proportionalität ist das PRODUKT immer gleich: Anzahl mal Dauer ergibt stets {werk}.",
+   "Trage nur Paare ein, bei denen die Dauer eine ganze Zahl ist.",
+   "Prüfe jede Anzahl von 1 bis 12: Geht {werk} durch sie auf?"
+  ],
+  "loesungsweg": [
+   "Bei umgekehrter Proportionalität gilt: Anzahl · Dauer = {werk}.",
+   "Für jede Anzahl ist die Dauer also {werk} geteilt durch die Anzahl.",
+   "Nur wo das ohne Rest aufgeht, ist die Dauer eine ganze Zahl."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-wuerfel-kippen",
+  "lernzielId": "MB.6.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "6.05",
+   "6.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zuordnen",
+  "variablen": [
+   {
+    "name": "o",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "7-o"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "7-v"
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "7-l"
+   },
+   {
+    "name": "nO",
+    "typ": "formel",
+    "ausdruck": "7-v"
+   },
+   {
+    "name": "nV",
+    "typ": "formel",
+    "ausdruck": "7-o"
+   },
+   {
+    "name": "nU",
+    "typ": "formel",
+    "ausdruck": "v"
+   },
+   {
+    "name": "nH",
+    "typ": "formel",
+    "ausdruck": "o"
+   },
+   {
+    "name": "nL",
+    "typ": "formel",
+    "ausdruck": "7-l"
+   },
+   {
+    "name": "nR",
+    "typ": "formel",
+    "ausdruck": "l"
+   }
+  ],
+  "bedingungen": [
+   "o!=v",
+   "o!=h",
+   "o!=l",
+   "o!=r",
+   "v!=l",
+   "v!=r"
+  ],
+  "stamm": "Ein Spielwürfel liegt so, dass oben die {o}, vorne die {v} und links die {l} zu sehen ist. Gegenüberliegende Flächen ergeben zusammen immer 7. Kippe den Würfel zweimal nach links und danach einmal nach vorne. Ordne jeder Augenzahl ihre neue Lage zu.",
+  "zuordnen": {
+   "paare": [
+    {
+     "element": "{nO}",
+     "ziel": "oben"
+    },
+    {
+     "element": "{nU}",
+     "ziel": "unten"
+    },
+    {
+     "element": "{nV}",
+     "ziel": "vorne"
+    },
+    {
+     "element": "{nH}",
+     "ziel": "hinten"
+    },
+    {
+     "element": "{nL}",
+     "ziel": "links"
+    },
+    {
+     "element": "{nR}",
+     "ziel": "rechts"
+    }
+   ]
+  },
+  "fehler": [
+   {
+    "diagnoseId": "nur_einmal_gekippt",
+    "feedback": "Du hast einmal statt zweimal nach links gekippt. Zwei Kippungen sind eine halbe Drehung. Oben und unten tauschen dabei die Plätze.",
+    "kurz": "eine Kippung zu wenig"
+   },
+   {
+    "diagnoseId": "gegenflaeche_vergessen",
+    "feedback": "Gegenüberliegende Flächen ergeben zusammen 7. Wer das vergisst, vertauscht leicht eine Zahl mit ihrer Gegenzahl: 1 und 6, 2 und 5, 3 und 4.",
+    "kurz": "Gegenfläche verwechselt"
+   },
+   {
+    "diagnoseId": "richtung_verwechselt",
+    "feedback": "Beim Kippen nach vorne wandert die obere Fläche nach VORNE, nicht nach hinten. Stell dir vor, der Würfel fällt auf dich zu.",
+    "kurz": "Kipprichtung verwechselt"
+   }
+  ],
+  "hinweise": [
+   "Zweimal nach links kippen ist eine halbe Drehung: Oben und unten tauschen, links und rechts tauschen. Vorne und hinten bleiben.",
+   "Danach einmal nach vorne: Was oben war, kommt nach vorne; was vorne war, kommt nach unten; was unten war, geht nach hinten; was hinten war, kommt nach oben.",
+   "Schreibe dir nach jedem Kippen alle sechs Flächen auf. Wer nur die gesuchte verfolgt, verliert schnell den Überblick."
+  ],
+  "loesungsweg": [
+   "Am Anfang: oben {o}, unten {u}, vorne {v}, hinten {h}, links {l}, rechts {r}.",
+   "Nach zweimal links: oben {u}, unten {o}, links {r}, rechts {l}; vorne und hinten unverändert.",
+   "Nach einmal vorne: oben {nO}, vorne {nV}, unten {nU}, hinten {nH}.",
+   "Links und rechts ändern sich beim Kippen nach vorne nicht: links {nL}, rechts {nR}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "variantenGrenze": {
+   "anzahl": 48,
+   "grund": "Ein Spielwürfel hat genau 48 mögliche Lagen: sechs Zahlen können oben liegen, und zu jeder gibt es vier Drehungen um die senkrechte Achse. Mehr Ausgangslagen gibt es nicht, und mehr Aufgaben kann dieses Template darum nicht hergeben."
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-winkel-gleichschenklig",
+  "lernzielId": "MB.5.01",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "°",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "spitze",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 140,
+    "schritt": 2
+   },
+   {
+    "name": "basis",
+    "typ": "formel",
+    "ausdruck": "(180-spitze)/2"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "180-basis"
+   },
+   {
+    "name": "figur",
+    "typ": "text",
+    "texte": [
+     [
+      "einem Zeltquerschnitt"
+     ],
+     [
+      "einem Giebeldach"
+     ],
+     [
+      "einem Verkehrsschild"
+     ],
+     [
+      "einem Papierdrachen"
+     ],
+     [
+      "einer Dachgaube"
+     ],
+     [
+      "einem Wimpel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(basis)==1",
+   "basis>=20",
+   "basis<=80",
+   "basis!=spitze",
+   "aussen!=spitze",
+   "aussen<=180"
+  ],
+  "stamm": "In {figur} steckt ein gleichschenkliges Dreieck. Der Winkel an der Spitze misst {spitze}°. Wie gross ist der Aussenwinkel an einer der beiden Basisecken?",
+  "loesung": "aussen",
+  "gegenprobe": "180-(180-spitze)/2",
+  "fehler": [
+   {
+    "diagnoseId": "basiswinkel_statt_aussenwinkel",
+    "ausdruck": "basis",
+    "feedback": "{basis}° ist der Basiswinkel selbst. Gefragt ist der AUSSENWINKEL. Er ergänzt den Basiswinkel auf 180°."
+   },
+   {
+    "diagnoseId": "winkelsumme_falsch",
+    "ausdruck": "(360-spitze)/2",
+    "feedback": "Du hast mit 360° gerechnet. Die Winkelsumme im Dreieck beträgt 180°; 360° gilt im Viereck."
+   },
+   {
+    "diagnoseId": "spitze_halbiert",
+    "ausdruck": "spitze/2",
+    "feedback": "Du hast den Spitzenwinkel halbiert. Halbiert werden die ÜBRIGEN 180° − {spitze}°, weil sich die beiden gleich grossen Basiswinkel den Rest teilen."
+   },
+   {
+    "diagnoseId": "nebenwinkel_der_spitze",
+    "ausdruck": "180-spitze",
+    "feedback": "Das ist der Nebenwinkel der Spitze. Gefragt ist der Aussenwinkel an einer BASISecke."
+   }
+  ],
+  "hinweise": [
+   "Im gleichschenkligen Dreieck sind die beiden Basiswinkel gleich gross.",
+   "Die Winkelsumme im Dreieck beträgt 180°. Wie viel bleibt für die beiden Basiswinkel zusammen?",
+   "Der Aussenwinkel ergänzt den Innenwinkel auf 180°. Sie sind Nebenwinkel."
+  ],
+  "loesungsweg": [
+   "180° − {spitze}° bleiben für die beiden Basiswinkel zusammen.",
+   "Halbiert ergibt das je {basis}°.",
+   "Der Aussenwinkel ist der Nebenwinkel dazu: 180° − {basis}°.",
+   "Das ergibt {aussen}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-trapez-flaeche",
+  "lernzielId": "MB.5.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "5.03",
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "m²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 2
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 20,
+    "schritt": 2
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "A",
+    "typ": "formel",
+    "ausdruck": "(a+c)*h/2"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Grundstück",
+      "Das Grundstück"
+     ],
+     [
+      "ein Dachfenster",
+      "Das Fenster"
+     ],
+     [
+      "ein Beet",
+      "Das Beet"
+     ],
+     [
+      "ein Schild",
+      "Das Schild"
+     ],
+     [
+      "eine Tischplatte",
+      "Die Platte"
+     ],
+     [
+      "ein Segel",
+      "Das Segel"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a>c+1",
+   "istGanz(A)==1",
+   "A>=20",
+   "A<=400",
+   "A!=a",
+   "A!=c",
+   "A!=h",
+   "A!=a+c",
+   "A!=a*h",
+   "A!=c*h"
+  ],
+  "stamm": "{name} misst {sache} in Form eines Trapezes aus. Die beiden parallelen Seiten sind {a} m und {c} m lang, die Höhe dazwischen beträgt {h} m. Wie gross ist die Fläche?",
+  "loesung": "A",
+  "gegenprobe": "h*(a+c)/2",
+  "fehler": [
+   {
+    "diagnoseId": "wie_rechteck",
+    "ausdruck": "a*h",
+    "feedback": "Du hast nur mit der längeren Seite gerechnet, wie bei einem Rechteck. Beim Trapez zählt der MITTELWERT der beiden parallelen Seiten."
+   },
+   {
+    "diagnoseId": "nicht_halbiert",
+    "ausdruck": "(a+c)*h",
+    "feedback": "Du hast das Halbieren vergessen. Die Formel lautet (a + c) · h ÷ 2. Die Summe der beiden Seiten wird durch zwei geteilt, weil es ein Mittelwert ist."
+   },
+   {
+    "diagnoseId": "seiten_multipliziert",
+    "ausdruck": "a*c",
+    "feedback": "Du hast die beiden parallelen Seiten miteinander multipliziert. Sie werden addiert; multipliziert wird erst mit der Höhe."
+   },
+   {
+    "diagnoseId": "differenz_statt_summe",
+    "ausdruck": "(a-c)*h/2",
+    "feedback": "Du hast die Seiten voneinander abgezogen. In der Trapezformel steht ein Plus: (a + c) · h ÷ 2."
+   }
+  ],
+  "hinweise": [
+   "Die Trapezfläche berechnet sich aus dem Mittelwert der beiden parallelen Seiten mal der Höhe.",
+   "Der Mittelwert von {a} und {c} ist ihre Summe geteilt durch 2.",
+   "Multipliziere diesen Mittelwert mit der Höhe {h}."
+  ],
+  "loesungsweg": [
+   "Die beiden parallelen Seiten sind {a} m und {c} m.",
+   "Ihr Mittelwert ist ({a} + {c}) ÷ 2.",
+   "Mal die Höhe {h} m ergibt die Fläche.",
+   "Das sind {A} Quadratmeter."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-oberflaeche-quader",
+  "lernzielId": "MB.6.02",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "6.02",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "O",
+    "typ": "formel",
+    "ausdruck": "2*(a*b + a*c + b*c)"
+   },
+   {
+    "name": "V",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Schachtel",
+      "Die Schachtel"
+     ],
+     [
+      "ein Aquarium",
+      "Das Aquarium"
+     ],
+     [
+      "ein Karton",
+      "Der Karton"
+     ],
+     [
+      "ein Holzklotz",
+      "Der Klotz"
+     ],
+     [
+      "ein Container",
+      "Der Container"
+     ],
+     [
+      "eine Kiste",
+      "Die Kiste"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "O<=2000",
+   "O!=V",
+   "O!=a",
+   "O!=b",
+   "O!=c"
+  ],
+  "stamm": "{name} hat {sache} in Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm. Wie gross ist die Oberfläche?",
+  "loesung": "O",
+  "gegenprobe": "2*a*b + 2*a*c + 2*b*c",
+  "fehler": [
+   {
+    "diagnoseId": "volumen_statt_oberflaeche",
+    "ausdruck": "V",
+    "feedback": "Du hast das Volumen gerechnet. Die drei Kanten multipliziert. Die Oberfläche ist die Summe aller sechs Rechtecke aussen herum."
+   },
+   {
+    "diagnoseId": "nur_drei_flaechen",
+    "ausdruck": "a*b + a*c + b*c",
+    "feedback": "Du hast nur drei Flächen gezählt. Ein Quader hat sechs, und je zwei gegenüberliegende sind gleich gross. Darum mal 2."
+   },
+   {
+    "diagnoseId": "wie_wuerfel",
+    "ausdruck": "6*a*a",
+    "feedback": "Du hast gerechnet, als wären alle Kanten gleich lang. Beim Quader sind die drei Kanten verschieden, und es gibt drei verschiedene Rechteckgrössen."
+   },
+   {
+    "diagnoseId": "kanten_addiert",
+    "ausdruck": "4*(a+b+c)",
+    "feedback": "Das ist die Summe aller Kanten, also die Kantenlänge. Die Oberfläche misst Fläche und wird in Quadratzentimetern angegeben."
+   }
+  ],
+  "hinweise": [
+   "Ein Quader hat sechs Flächen. Welche sind gleich gross?",
+   "Es gibt drei verschiedene Rechtecke: {a}·{b}, {a}·{c} und {b}·{c}.",
+   "Jedes kommt zweimal vor. Vorne und hinten, links und rechts, oben und unten."
+  ],
+  "loesungsweg": [
+   "Die drei verschiedenen Rechtecke messen {a}·{b}, {a}·{c} und {b}·{c}.",
+   "Jedes kommt zweimal vor.",
+   "Die Oberfläche ist also 2·({a}·{b} + {a}·{c} + {b}·{c}).",
+   "Das ergibt {O} Quadratzentimeter."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-groesstes-produkt",
+  "lernzielId": "MB.7.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "7.03",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p2",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "negProdukt",
+    "typ": "formel",
+    "ausdruck": "n1*n2"
+   },
+   {
+    "name": "posProdukt",
+    "typ": "formel",
+    "ausdruck": "p1*p2"
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "max(negProdukt, posProdukt)"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "n1>n2",
+   "p2>p1",
+   "negProdukt!=posProdukt",
+   "n1!=p1",
+   "n1!=p2",
+   "n2!=p1",
+   "n2!=p2",
+   "gross!=n1",
+   "gross!=n2",
+   "gross!=p1",
+   "gross!=p2"
+  ],
+  "stamm": "{name} wählt aus den Zahlen −{n1}, −{n2}, 0, {p1} und {p2} zwei verschiedene aus und multipliziert sie. Welches ist das grösstmögliche Ergebnis?",
+  "loesung": "gross",
+  "gegenprobe": "max(n1*n2, p1*p2)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_positive_bedacht",
+    "ausdruck": "posProdukt",
+    "feedback": "Du hast nur die positiven Zahlen betrachtet. Zwei negative Zahlen ergeben multipliziert aber ebenfalls ein positives Ergebnis, und (−{n1})·(−{n2}) ist gross."
+   },
+   {
+    "diagnoseId": "groesste_beiden",
+    "ausdruck": "n1*p2",
+    "feedback": "Du hast die betragsmässig grössten Zahlen genommen. Eine negative mal eine positive Zahl ergibt aber ein NEGATIVES Ergebnis. Das ist nie das grösste."
+   },
+   {
+    "diagnoseId": "addiert_statt_multipliziert",
+    "ausdruck": "p1+p2",
+    "feedback": "Du hast addiert. Gefragt ist das Produkt, also das Ergebnis der Multiplikation."
+   },
+   {
+    "diagnoseId": "null_mitgenommen",
+    "ausdruck": "0",
+    "feedback": "Mit der Null ergibt jedes Produkt null. Das ist zwar möglich, aber sicher nicht das grösste."
+   }
+  ],
+  "hinweise": [
+   "Denke daran: minus mal minus ergibt plus.",
+   "Prüfe zwei Fälle. Das Produkt der beiden grössten positiven Zahlen und das Produkt der beiden negativen.",
+   "Vergleiche die beiden Ergebnisse und nimm das grössere."
+  ],
+  "loesungsweg": [
+   "Zwei positive Zahlen: {p1} · {p2} = {posProdukt}.",
+   "Zwei negative Zahlen: (−{n1}) · (−{n2}) = {negProdukt}, denn minus mal minus gibt plus.",
+   "Eine negative mal eine positive Zahl wäre negativ und scheidet aus.",
+   "Das grössere der beiden ist {gross}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-rechtecke-zaehlen",
+  "lernzielId": "MB.7.02",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "7.02",
+   "7.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Rechtecke",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "gitter",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Schokoladentäfelchen",
+      "Täfelchen"
+     ],
+     [
+      "ein Fensterrahmen",
+      "Scheiben"
+     ],
+     [
+      "ein Fliesenboden",
+      "Fliesen"
+     ],
+     [
+      "ein Setzkasten",
+      "Fächer"
+     ],
+     [
+      "ein Spielbrett",
+      "Felder"
+     ],
+     [
+      "ein Gartenbeet",
+      "Beete"
+     ]
+    ]
+   },
+   {
+    "name": "wx",
+    "typ": "formel",
+    "ausdruck": "m*(m+1)/2"
+   },
+   {
+    "name": "wy",
+    "typ": "formel",
+    "ausdruck": "n*(n+1)/2"
+   },
+   {
+    "name": "anzahl",
+    "typ": "formel",
+    "ausdruck": "wx*wy"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "anzahl>=9",
+   "anzahl<=450",
+   "anzahl!=m",
+   "anzahl!=n",
+   "anzahl!=m*n"
+  ],
+  "stamm": "{gitter} ist in {m} mal {n} gleich grosse {gitter.1} unterteilt. Wie viele Rechtecke lassen sich auf diesem Raster einzeichnen, wenn alle Seiten auf den Trennlinien liegen müssen?",
+  "loesung": "anzahl",
+  "gegenprobe": "(m*(m+1)/2) * (n*(n+1)/2)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_die_felder",
+    "ausdruck": "m*n",
+    "feedback": "Du hast nur die einzelnen Felder gezählt. Ein Rechteck darf auch mehrere Felder umfassen. Zwei nebeneinander, vier im Quadrat, das ganze Gitter."
+   },
+   {
+    "diagnoseId": "linien_statt_paare",
+    "ausdruck": "(m+1)*(n+1)",
+    "feedback": "Du hast die Gitterlinien gezählt. Ein Rechteck braucht aber je ZWEI senkrechte und ZWEI waagrechte Linien. Gezählt werden die Paare."
+   },
+   {
+    "diagnoseId": "nur_eine_richtung",
+    "ausdruck": "wx*n",
+    "feedback": "Du hast nur in einer Richtung die Paare gebildet. In beiden Richtungen gilt dieselbe Überlegung, und die Ergebnisse werden multipliziert."
+   },
+   {
+    "diagnoseId": "summe_statt_produkt",
+    "ausdruck": "wx+wy",
+    "feedback": "Du hast die beiden Anzahlen addiert. Jede Wahl links-rechts lässt sich mit jeder Wahl oben-unten kombinieren, also multiplizieren."
+   }
+  ],
+  "hinweise": [
+   "Ein Rechteck ist festgelegt, sobald du zwei senkrechte und zwei waagrechte Gitterlinien wählst.",
+   "Bei {m} Feldern Breite gibt es {m} + 1 senkrechte Linien. Wie viele Paare lassen sich daraus bilden?",
+   "Aus k Linien gibt es k·(k−1)÷2 Paare. Rechne das für beide Richtungen und multipliziere."
+  ],
+  "loesungsweg": [
+   "Bei {m} Feldern Breite gibt es {m} + 1 senkrechte Linien, daraus {wx} Paare.",
+   "Bei {n} Feldern Höhe gibt es {n} + 1 waagrechte Linien, daraus {wy} Paare.",
+   "Jedes Paar links-rechts lässt sich mit jedem Paar oben-unten verbinden.",
+   "Das ergibt {wx} · {wy} = {anzahl} Rechtecke."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-term-auswerten",
+  "lernzielId": "MB.2.01",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "2.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "y",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*x*x - b*y + x*y"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "x!=y",
+   "wert>=-60",
+   "wert<=400",
+   "wert!=x",
+   "wert!=y",
+   "wert!=a",
+   "wert!=b",
+   "wert!=a*x",
+   "wert!=b*y"
+  ],
+  "stamm": "Berechne den Wert des Terms {a}x² − {b}y + xy für x = {x} und y = −{y}.",
+  "loesung": "wert",
+  "gegenprobe": "x*(a*x + y) - b*y",
+  "fehler": [
+   {
+    "diagnoseId": "minus_verloren",
+    "ausdruck": "a*x*x + b*y - x*y",
+    "feedback": "Du hast das Minus vor dem y übersehen. y ist −{y}, und wo im Term ein Minus steht, wird daraus ein Plus: −{b}·(−{y}) = +{b}·{y}."
+   },
+   {
+    "diagnoseId": "quadrat_verwechselt",
+    "ausdruck": "a*x*2 - b*y + x*y",
+    "feedback": "Du hast x² als 2·x gerechnet. Das Quadrat heisst x·x, also {x}·{x}, nicht {x}·2."
+   },
+   {
+    "diagnoseId": "vorfaktor_quadriert",
+    "ausdruck": "a*a*x*x - b*y + x*y",
+    "feedback": "Du hast auch die {a} quadriert. Die Hochzahl gehört nur zum x: {a}x² heisst {a}·x·x."
+   },
+   {
+    "diagnoseId": "gemischtes_glied_vergessen",
+    "ausdruck": "a*x*x - b*y",
+    "feedback": "Du hast das Glied xy weggelassen. Es gehört dazu und ist hier {x}·(−{y})."
+   }
+  ],
+  "hinweise": [
+   "Setze zuerst ein, dann rechne. Schreibe die negative Zahl in Klammern: y = (−{y}).",
+   "x² bedeutet x·x, also {x}·{x}, nicht 2·{x}.",
+   "Minus mal minus ergibt plus. Achte besonders auf das Glied −{b}y."
+  ],
+  "loesungsweg": [
+   "Einsetzen: {a}·{x}² − {b}·(−{y}) + {x}·(−{y}).",
+   "{x}² ist {x}·{x}.",
+   "−{b}·(−{y}) wird zu +{b}·{y}, weil minus mal minus plus ergibt.",
+   "{x}·(−{y}) bleibt negativ. Zusammen ergibt das {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-bruchgleichung",
+  "lernzielId": "MB.2.05",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "2.05",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "nenner",
+    "typ": "formel",
+    "ausdruck": "a*n2 - n1"
+   },
+   {
+    "name": "zaehler",
+    "typ": "formel",
+    "ausdruck": "r*n1*n2 + b*n2 + c*n1"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "zaehler/nenner"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "nenner>0",
+   "istGanz(x)==1",
+   "x>=2",
+   "x<=40",
+   "x!=a",
+   "x!=b",
+   "x!=c",
+   "x!=r",
+   "x!=n1",
+   "x!=n2"
+  ],
+  "stamm": "Löse die Gleichung nach x auf:\n\n({a}x − {b})/{n1} − (x + {c})/{n2} = {r}",
+  "loesung": "x",
+  "gegenprobe": "(r*n1*n2 + b*n2 + c*n1) / (a*n2 - n1)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_einen_bruch_erweitert",
+    "ausdruck": "(r*n1 + b) / (a - 1)",
+    "feedback": "Du hast nur den ersten Bruch erweitert. Beide Brüche müssen auf denselben Nenner. Hier {n1}·{n2}, und auch die {r} auf der rechten Seite wird mit diesem Nenner multipliziert."
+   },
+   {
+    "diagnoseId": "vorzeichen_der_klammer",
+    "ausdruck": "(r*n1*n2 + b*n2 - c*n1) / (a*n2 + n1)",
+    "feedback": "Vor dem zweiten Bruch steht ein Minus. Es gilt für die GANZE Klammer: −(x + {c}) wird zu −x − {c}, nicht zu −x + {c}."
+   },
+   {
+    "diagnoseId": "rechte_seite_vergessen",
+    "ausdruck": "(b*n2 + c*n1) / (a*n2 - n1)",
+    "feedback": "Du hast die {r} auf der rechten Seite nicht mitmultipliziert. Wer die Gleichung mit {n1}·{n2} durchmultipliziert, muss beide Seiten multiplizieren."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(r*(n1+n2) + b + c) / (a - 1)",
+    "feedback": "Du hast die Nenner addiert. Der gemeinsame Nenner ist ihr kleinstes gemeinsames Vielfaches, bei {n1} und {n2} genügt hier das Produkt."
+   }
+  ],
+  "hinweise": [
+   "Multipliziere beide Seiten mit {n1}·{n2}. Dann verschwinden die Brüche.",
+   "Achte auf das Minus vor dem zweiten Bruch: Es gilt für die ganze Klammer.",
+   "Sammle danach alle x auf einer Seite und alle Zahlen auf der anderen."
+  ],
+  "loesungsweg": [
+   "Mit {n1}·{n2} durchmultiplizieren: {n2}·({a}x − {b}) − {n1}·(x + {c}) = {r}·{n1}·{n2}.",
+   "Ausmultiplizieren und dabei das Minus auf beide Glieder der zweiten Klammer anwenden.",
+   "Alle x links, alle Zahlen rechts.",
+   "Geteilt durch ({a}·{n2} − {n1}) ergibt x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-pegel-aenderung",
+  "lernzielId": "MB.4.02",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "4.02",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "cm/h",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 400,
+    "schritt": 10
+   },
+   {
+    "name": "dt",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "rate",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     6,
+     8,
+     10,
+     12,
+     15,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "p0",
+    "typ": "formel",
+    "ausdruck": "start"
+   },
+   {
+    "name": "p1",
+    "typ": "formel",
+    "ausdruck": "start - rate*dt"
+   },
+   {
+    "name": "p2",
+    "typ": "formel",
+    "ausdruck": "start - rate*dt - rate*dt"
+   },
+   {
+    "name": "p3",
+    "typ": "formel",
+    "ausdruck": "start - rate*dt - rate*dt + rate*dt/2"
+   },
+   {
+    "name": "t1",
+    "typ": "formel",
+    "ausdruck": "dt"
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "2*dt"
+   },
+   {
+    "name": "t3",
+    "typ": "formel",
+    "ausdruck": "3*dt"
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "Stausee",
+      "See"
+     ],
+     [
+      "Regenspeicher",
+      "Speicher"
+     ],
+     [
+      "Hafenbecken",
+      "Becken"
+     ],
+     [
+      "Kanal",
+      "Kanal"
+     ],
+     [
+      "Weiher",
+      "Weiher"
+     ],
+     [
+      "Reservoir",
+      "Behälter"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "p2>=20",
+   "rate!=dt",
+   "rate!=start",
+   "p3>p2",
+   "p1>p2",
+   "rate != p0",
+   "rate != p1",
+   "rate != p2",
+   "rate != p3",
+   "rate != t1",
+   "rate != t2",
+   "rate != t3"
+  ],
+  "stamm": "Die Tabelle zeigt den Wasserstand in einem {ort} im Lauf eines Tages. Zwischen 0 und {t2} Uhr sinkt er gleichmässig. Um wie viele Zentimeter je Stunde ändert er sich in dieser Zeit?",
+  "darstellung": {
+   "typ": "tabelle",
+   "kopf": [
+    "Uhrzeit",
+    "0 Uhr",
+    "{t1} Uhr",
+    "{t2} Uhr",
+    "{t3} Uhr"
+   ],
+   "zeilen": [
+    [
+     "Wasserstand in cm",
+     "{p0}",
+     "{p1}",
+     "{p2}",
+     "{p3}"
+    ]
+   ]
+  },
+  "loesung": "rate",
+  "gegenprobe": "(p0 - p2) / (2*dt)",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_statt_rate",
+    "ausdruck": "rate*dt",
+    "feedback": "{rate}·{dt} ist die Änderung über {dt} Stunden, nicht je Stunde. Teile die Differenz noch durch die vergangene Zeit."
+   },
+   {
+    "diagnoseId": "ganze_spanne_genommen",
+    "ausdruck": "(p0-p2)/(3*dt)",
+    "feedback": "Du hast durch die falsche Zeitspanne geteilt. Gefragt ist der Abschnitt von 0 bis {t2} Uhr. Das sind {t2} Stunden."
+   },
+   {
+    "diagnoseId": "endwert_statt_differenz",
+    "ausdruck": "p2",
+    "feedback": "{p2} ist der Wasserstand um {t2} Uhr. Gefragt ist die ÄNDERUNG je Stunde, also wie stark er fällt."
+   },
+   {
+    "diagnoseId": "falscher_abschnitt",
+    "ausdruck": "(p2-p3)/dt",
+    "feedback": "Du hast den letzten Abschnitt genommen. Dort steigt der Pegel wieder. Gefragt ist die Zeit von 0 bis {t2} Uhr."
+   }
+  ],
+  "hinweise": [
+   "Die Änderungsrate ist die Differenz geteilt durch die Zeit.",
+   "Wie viele Zentimeter liegen zwischen 0 Uhr und {t2} Uhr? Und wie viele Stunden sind das?",
+   "Achte darauf, dass du beide Werte aus demselben Abschnitt nimmst."
+  ],
+  "loesungsweg": [
+   "Um 0 Uhr sind es {p0} cm, um {t2} Uhr noch {p2} cm.",
+   "Die Differenz beträgt {p0} − {p2} Zentimeter.",
+   "Vergangen sind {t2} Stunden.",
+   "Differenz geteilt durch Zeit ergibt {rate} Zentimeter je Stunde."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-muster-streichhoelzer",
+  "lernzielId": "MB.4.06",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "4.06",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Stück",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "schritt",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "anzahl",
+    "typ": "formel",
+    "ausdruck": "start + schritt*(n-1)"
+   },
+   {
+    "name": "teil",
+    "typ": "text",
+    "texte": [
+     [
+      "Quadrate",
+      "Streichhölzer"
+     ],
+     [
+      "Dreiecke",
+      "Stäbchen"
+     ],
+     [
+      "Sechsecke",
+      "Stäbchen"
+     ],
+     [
+      "Tische",
+      "Stühle"
+     ],
+     [
+      "Waggons",
+      "Kupplungen"
+     ],
+     [
+      "Felder",
+      "Zäune"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lena"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Nuria"
+     ],
+     [
+      "Ardit"
+     ],
+     [
+      "Malia"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Rayan"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Noah"
+     ],
+     [
+      "Sinem"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "anzahl<=220",
+   "anzahl!=n",
+   "anzahl!=start",
+   "anzahl!=schritt",
+   "n!=start",
+   "n!=schritt",
+   "anzahl != start+schritt"
+  ],
+  "stamm": "{name} legt eine Reihe von {teil}. Für das erste braucht sie {start} {teil.1}, für jedes weitere {schritt} zusätzliche. Wie viele {teil.1} braucht sie für {n} {teil}?",
+  "loesung": "anzahl",
+  "gegenprobe": "schritt*n + (start-schritt)",
+  "fehler": [
+   {
+    "diagnoseId": "kein_startaufschlag",
+    "ausdruck": "schritt*n",
+    "feedback": "Du hast {schritt} mal {n} gerechnet. Das erste Element braucht aber {start} statt {schritt}. Der Unterschied kommt einmal dazu."
+   },
+   {
+    "diagnoseId": "start_mal_anzahl",
+    "ausdruck": "start*n",
+    "feedback": "Du hast {start} mit {n} multipliziert. So viele bräuchte es nur, wenn jedes Element einzeln stünde; sie hängen aber zusammen und teilen sich Seiten."
+   },
+   {
+    "diagnoseId": "um_eins_daneben",
+    "ausdruck": "start + schritt*n",
+    "feedback": "Da ist ein Schritt zu viel. Das erste Element ist schon in den {start} enthalten. Dazu kommen nur noch {n} − 1 weitere."
+   },
+   {
+    "diagnoseId": "summe_statt_folge",
+    "ausdruck": "start + schritt + n",
+    "feedback": "Du hast die drei Zahlen zusammengezählt. Der Zuwachs von {schritt} wiederholt sich aber für jedes weitere Element."
+   }
+  ],
+  "hinweise": [
+   "Wie viele {teil.1} kommen für jedes ZUSÄTZLICHE Element dazu?",
+   "Das erste Element kostet {start}, jedes weitere {schritt}. Wie viele weitere sind es bei {n} Elementen?",
+   "Der Term lautet {start} + {schritt}·(n − 1). Setze n = {n} ein."
+  ],
+  "loesungsweg": [
+   "Das erste Element braucht {start} {teil.1}.",
+   "Danach kommen {n} − 1 weitere Elemente zu je {schritt}.",
+   "Also {start} + {schritt}·({n} − 1).",
+   "Das ergibt {anzahl} {teil.1}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-rahmen-rechtecke",
+  "lernzielId": "MB.5.04",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "5.04",
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "innen",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "breit",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "innen + 2*breit"
+   },
+   {
+    "name": "lang",
+    "typ": "formel",
+    "ausdruck": "innen + breit"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "aussen*aussen"
+   },
+   {
+    "name": "grau",
+    "typ": "formel",
+    "ausdruck": "gesamt - innen*innen"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*(lang + breit)"
+   }
+  ],
+  "bedingungen": [
+   "aussen<=30",
+   "breit<innen",
+   "lang!=breit",
+   "grau>=8",
+   "umfang!=grau",
+   "umfang!=gesamt",
+   "innen!=breit"
+  ],
+  "stamm": "Vier gleich grosse Rechtecke umschliessen ein Quadrat, sodass zusammen wieder ein Quadrat entsteht. Das innere Quadrat hat den Flächeninhalt {innen}·{innen}, alle fünf Flächen zusammen {gesamt}. Wie lang und wie breit ist eines der vier Rechtecke?",
+  "felder": [
+   {
+    "name": "l",
+    "label": "Länge des Rechtecks",
+    "einheit": "",
+    "ausdruck": "lang",
+    "fehler": [
+     {
+      "diagnoseId": "aussenseite_genommen",
+      "ausdruck": "aussen",
+      "feedback": "{aussen} ist die Seite des GROSSEN Quadrats. Ein Rechteck reicht nur über die innere Seite plus eine Breite."
+     },
+     {
+      "diagnoseId": "innenseite_genommen",
+      "ausdruck": "innen",
+      "feedback": "{innen} ist die Seite des inneren Quadrats. Das Rechteck ragt darüber hinaus, um genau seine eigene Breite."
+     },
+     {
+      "diagnoseId": "halbe_aussenseite",
+      "ausdruck": "aussen/2",
+      "feedback": "Du hast die äussere Seite halbiert. Die vier Rechtecke liegen aber nicht symmetrisch zur Mitte: Jedes reicht über eine ganze Innenseite und eine Breite."
+     }
+    ]
+   },
+   {
+    "name": "b",
+    "label": "Breite des Rechtecks",
+    "einheit": "",
+    "ausdruck": "breit",
+    "fehler": [
+     {
+      "diagnoseId": "differenz_ganz",
+      "ausdruck": "aussen-innen",
+      "feedback": "{aussen} − {innen} ist die Breite ZWEIER Rechtecke. Eines auf jeder Seite. Halbiere noch."
+     },
+     {
+      "diagnoseId": "laenge_genommen",
+      "ausdruck": "lang",
+      "feedback": "Das ist die Länge, nicht die Breite. Die Breite ist der schmale Rand zwischen innerem und äusserem Quadrat."
+     },
+     {
+      "diagnoseId": "flaeche_geteilt",
+      "ausdruck": "grau/4",
+      "feedback": "Du hast die graue Fläche durch vier geteilt. Das ergibt die Fläche eines Rechtecks, nicht seine Breite."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst die Seite des grossen Quadrats aus: Sie ist die Wurzel aus dem Gesamtflächeninhalt.",
+   "Die äussere Seite ist die innere Seite plus zweimal die Breite eines Rechtecks. Links und rechts je einmal.",
+   "Die Länge eines Rechtecks reicht über die innere Seite plus eine Breite. Schau dir an, wie die vier Rechtecke ineinandergreifen."
+  ],
+  "loesungsweg": [
+   "Die Seite des grossen Quadrats ist die Wurzel aus {gesamt}, also {aussen}.",
+   "Die Seite des inneren Quadrats ist {innen}.",
+   "Der Unterschied {aussen} − {innen} verteilt sich auf zwei Breiten, also ist die Breite {breit}.",
+   "Die Länge ist {innen} + {breit} = {lang}."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "rueckwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be-restkoerper",
+  "lernzielId": "MB.6.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "6.03",
+   "6.01",
+   "6.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "kante",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "weg",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "k*k*k"
+   },
+   {
+    "name": "volumen",
+    "typ": "formel",
+    "ausdruck": "(gesamt - weg) * kante*kante*kante"
+   },
+   {
+    "name": "oberflaeche",
+    "typ": "formel",
+    "ausdruck": "6 * k*k * kante*kante"
+   },
+   {
+    "name": "wuerfel",
+    "typ": "formel",
+    "ausdruck": "gesamt - weg"
+   }
+  ],
+  "bedingungen": [
+   "weg < k*k",
+   "weg>=1",
+   "volumen<=8000",
+   "oberflaeche<=3000",
+   "volumen!=oberflaeche",
+   "volumen!=weg",
+   "oberflaeche!=weg",
+   "volumen!=gesamt",
+   "oberflaeche!=gesamt",
+   "volumen!=kante",
+   "oberflaeche!=kante",
+   "volumen!=k",
+   "oberflaeche!=k"
+  ],
+  "stamm": "Ein Würfel ist aus {k}·{k}·{k} kleinen Würfeln von je {kante} cm Kantenlänge gebaut. Aus einer Seitenfläche werden {weg} kleine Würfel herausgenommen, ohne dass ein Loch ganz durchgeht.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen des Restkörpers",
+    "einheit": "cm³",
+    "ausdruck": "volumen",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_abzug",
+      "ausdruck": "gesamt * kante*kante*kante",
+      "feedback": "Du hast das Volumen des ganzen Würfels gerechnet. Es fehlen die {weg} herausgenommenen kleinen Würfel."
+     },
+     {
+      "diagnoseId": "kante_nicht_hoch_drei",
+      "ausdruck": "wuerfel * kante",
+      "feedback": "Du hast die Kantenlänge nur einmal gerechnet. Das Volumen eines kleinen Würfels ist {kante}·{kante}·{kante}."
+     },
+     {
+      "diagnoseId": "nur_die_wuerfel",
+      "ausdruck": "wuerfel",
+      "feedback": "{wuerfel} ist die ANZAHL der verbliebenen kleinen Würfel. Jeder hat ein Volumen von {kante}³ Kubikzentimetern."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche des Restkörpers",
+    "einheit": "cm²",
+    "ausdruck": "oberflaeche",
+    "fehler": [
+     {
+      "diagnoseId": "abzug_bei_oberflaeche",
+      "ausdruck": "6 * k*k * kante*kante - weg*kante*kante",
+      "feedback": "Die Oberfläche bleibt gleich gross. Für jede weggenommene Fläche kommen die Wände der Vertiefung dazu. Was aussen verschwindet, erscheint innen wieder."
+     },
+     {
+      "diagnoseId": "nur_eine_flaeche",
+      "ausdruck": "k*k * kante*kante",
+      "feedback": "Du hast nur eine Seite gerechnet. Ein Würfel hat sechs Flächen."
+     },
+     {
+      "diagnoseId": "volumen_statt_oberflaeche",
+      "ausdruck": "volumen",
+      "feedback": "Das ist das Volumen. Die Oberfläche misst Fläche und wird in Quadratzentimetern angegeben."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Für das Volumen: Zähle die verbliebenen kleinen Würfel und multipliziere mit dem Volumen eines einzelnen.",
+   "Für die Oberfläche lohnt sich ein zweiter Blick. Nimmt man einen Würfel aus einer Fläche heraus, verschwindet ein Quadrat aussen. Dafür kommen die Wände der entstandenen Vertiefung dazu.",
+   "Rechne nach: Ein Quadrat weg, fünf Quadrate der Vertiefung dazu? Nein. Die Vertiefung hat einen Boden und vier Wände, aber die Öffnung fehlt. Unter dem Strich bleibt die Oberfläche unverändert."
+  ],
+  "loesungsweg": [
+   "Der ganze Würfel besteht aus {gesamt} kleinen Würfeln; {weg} werden entfernt, es bleiben {wuerfel}.",
+   "Ein kleiner Würfel hat das Volumen {kante}·{kante}·{kante}.",
+   "Für die Oberfläche: Jede Vertiefung nimmt aussen ein Quadrat weg und fügt innen Boden und Wände hinzu. Zusammen bleibt die Oberfläche gleich.",
+   "Sie beträgt darum weiterhin 6·({k}·{kante})² Quadratzentimeter."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I und II, 8./9. Schuljahr, FMS); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

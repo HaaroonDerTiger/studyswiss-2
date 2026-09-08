@@ -1,0 +1,219 @@
+{
+ "fach": "mathematik-sz",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfungen der Schwyzer Mittelschulen",
+ "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen",
+ "punkteTotal": 45,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Zahl und Variable",
+   "punkte": 18,
+   "anteil": 40,
+   "beschreibung": "Der grösste Teil der Prüfung: Terme umformen, Gleichungen lösen, mit Brüchen und Potenzen rechnen. Ein nicht programmierbarer Taschenrechner ist erlaubt, der Lösungsweg muss trotzdem dastehen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen und Vorrangregeln",
+     "lernzielId": "MSZ.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Brüche addieren, subtrahieren, multiplizieren und dividieren",
+     "lernzielId": "MSZ.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Brüche, Dezimalzahlen und Prozente ineinander umwandeln",
+     "lernzielId": "MSZ.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Potenzen und Quadratwurzeln",
+     "lernzielId": "MSZ.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Terme zusammenfassen und Klammern auflösen",
+     "lernzielId": "MSZ.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Ausmultiplizieren, auch mit Binomen",
+     "lernzielId": "MSZ.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Ausklammern und Faktorzerlegung",
+     "lernzielId": "MSZ.1.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.08",
+     "name": "Bruchterme kürzen und erweitern",
+     "lernzielId": "MSZ.1.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.09",
+     "name": "Gleichungen lösen und überprüfen",
+     "lernzielId": "MSZ.1.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "Terme aufstellen und Werte einsetzen",
+     "lernzielId": "MSZ.1.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.11",
+     "name": "Zahlenmauern und Zahlenfolgen",
+     "lernzielId": "MSZ.1.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.12",
+     "name": "Negative Zahlen",
+     "lernzielId": "MSZ.1.12",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Form und Raum",
+   "punkte": 15,
+   "anteil": 33,
+   "beschreibung": "Figuren und Körper berechnen, Winkel bestimmen, konstruieren. Geometrische Werkzeuge und Zirkel sind erlaubt; gemessene Lösungen zählen nicht.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Winkel an Geraden und im Dreieck",
+     "lernzielId": "MSZ.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Dreieck: Umfang und Fläche",
+     "lernzielId": "MSZ.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Vierecke: Rechteck, Parallelogramm, Trapez",
+     "lernzielId": "MSZ.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Zusammengesetzte Flächen",
+     "lernzielId": "MSZ.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Kreis: Umfang und Fläche",
+     "lernzielId": "MSZ.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MSZ.2.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.07",
+     "name": "Quader und Würfel: Oberfläche und Volumen",
+     "lernzielId": "MSZ.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Zusammengesetzte Körper",
+     "lernzielId": "MSZ.2.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.09",
+     "name": "Netze, Ansichten und Schrägbild",
+     "lernzielId": "MSZ.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Konstruktionen mit Zirkel und Geodreieck",
+     "lernzielId": "MSZ.2.10",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Grössen, Funktionen und Daten",
+   "punkte": 12,
+   "anteil": 27,
+   "beschreibung": "Sachaufgaben rechnen: Einheiten umwandeln, Prozente und Zinsen, Proportionalität, Mittelwert und Wahrscheinlichkeit.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Grössen umwandeln und runden",
+     "lernzielId": "MSZ.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Proportionalität",
+     "lernzielId": "MSZ.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "MSZ.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Prozentrechnen: Grundwert, Prozentwert, Prozentsatz",
+     "lernzielId": "MSZ.3.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Rabatt, Gewinn und Verlust",
+     "lernzielId": "MSZ.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Zinsrechnen",
+     "lernzielId": "MSZ.3.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.07",
+     "name": "Lineare Zusammenhänge und Wertetabellen",
+     "lernzielId": "MSZ.3.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.08",
+     "name": "Mittelwert, Häufigkeit und Wahrscheinlichkeit",
+     "lernzielId": "MSZ.3.08",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

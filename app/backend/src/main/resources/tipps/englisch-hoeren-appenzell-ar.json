@@ -1,0 +1,154 @@
+{
+ "bereich": "englisch-hoeren-ar",
+ "titel": "Listening",
+ "eyebrow": "Ein Viertel der Englischnote",
+ "einleitung": "Listening zählt 25 Prozent der Englischnote — gleich viel wie Reading und mehr als Writing. Die Tonaufnahmen kann diese App nicht abspielen; das Verfahren aber schon: was du in der Lesezeit tust, wie du beim zweiten Durchgang vorgehst und welche Wendungen du vorher können solltest.",
+ "grundlage": "Prüfungsstoff «Aufnahmeprüfungen an nichtgymnasiale Maturitätslehrgänge» der Kantonsschule Trogen 2026/27: Englisch, 90 Minuten, Gewichtung Reading 25 %, Listening 25 %, Writing 20 %, Grammar 30 %.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Aufgaben lesen",
+   "dauer": "vor der Aufnahme",
+   "text": "Zuerst bekommst du Zeit, die Aufgaben zu lesen. Nutze sie ganz: Wer die Fragen kennt, hört gezielt und muss nicht alles verstehen."
+  },
+  {
+   "nr": 2,
+   "titel": "Erstes Hören",
+   "dauer": "1. Mal",
+   "text": "Beim ersten Durchgang die sicheren Antworten setzen und die offenen Stellen markieren."
+  },
+  {
+   "nr": 3,
+   "titel": "Pause",
+   "dauer": "dazwischen",
+   "text": "Die offenen Aufgaben nochmals lesen und sich merken, auf welches Wort man wartet."
+  },
+  {
+   "nr": 4,
+   "titel": "Zweites Hören",
+   "dauer": "2. Mal",
+   "text": "Gezielt die Lücken füllen. Wer wieder von vorne mitliest, verpasst genau die fehlenden Stellen."
+  },
+  {
+   "nr": 5,
+   "titel": "Übertragen und prüfen",
+   "dauer": "am Schluss",
+   "text": "Antworten leserlich eintragen und nichts leer lassen. Bei «true, false, not given» gilt: «not given» heisst, dass der Text weder Ja noch Nein sagt."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Vorbereitung in der Lesezeit",
+   "tipps": [
+    {
+     "regel": "Markiere in jeder Frage das Fragewort und die Zahl der verlangten Angaben.",
+     "warum": "«How many» verlangt eine Zahl, «why» einen Grund. Und zwei Linien bedeuten zwei Informationen, nicht eine."
+    },
+    {
+     "regel": "Notiere zu jeder Frage ein englisches Stichwort.",
+     "warum": "Beim Hören erkennst du das Wort wieder, statt im Kopf zu übersetzen."
+    },
+    {
+     "regel": "Schau, ob Namen oder Orte vorkommen.",
+     "warum": "Eigennamen sind Anker: Sobald sie fallen, weisst du, wo in der Aufnahme du bist."
+    }
+   ]
+  },
+  {
+   "titel": "Während des Hörens",
+   "tipps": [
+    {
+     "regel": "Schreibe Zahlen und Zeiten sofort in Ziffern.",
+     "warum": "«Quarter past seven» ist als 7.15 sicher notiert; ausgeschrieben verliert man beim Weiterhören den Faden."
+    },
+    {
+     "regel": "Achte auf «not», «never» und «hardly».",
+     "warum": "Ein einziges Wort kehrt die Aussage um — und genau darauf zielen die Aufgaben oft ab."
+    },
+    {
+     "regel": "Höre auf Korrekturen der sprechenden Person.",
+     "warum": "«We meet at six — no, sorry, at seven» ist eine typische Falle. Es gilt immer die zweite Angabe."
+    },
+    {
+     "regel": "Bleib nicht an einem unbekannten Wort hängen.",
+     "warum": "Die Aufnahme läuft weiter. Wer überlegt, verpasst die nächste Antwort und verliert zwei Punkte statt eines."
+    }
+   ]
+  },
+  {
+   "titel": "Typische Aufgabenarten",
+   "tipps": [
+    {
+     "regel": "Bei «true, false, not given» zuerst prüfen, ob die Aussage überhaupt vorkommt.",
+     "warum": "«Not given» ist keine Verlegenheitsantwort, sondern eine eigene Kategorie — und sie ist genauso oft richtig wie die anderen beiden."
+    },
+    {
+     "regel": "Bei Multiple Choice alle Möglichkeiten vor dem Hören lesen.",
+     "warum": "Die falschen Antworten enthalten oft genau die Wörter, die vorkommen — aber im falschen Zusammenhang."
+    },
+    {
+     "regel": "Bei Lückentexten auf die Wortart achten.",
+     "warum": "Wenn vor der Lücke «a» steht, folgt ein Nomen. Das schränkt die Möglichkeiten stark ein, noch bevor du etwas hörst."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Zahlen und Zeiten",
+   "saetze": [
+    "quarter past, half past, quarter to",
+    "thirteen or thirty? — listen to the stress",
+    "a couple of, a few, several, plenty of",
+    "twice a week, every other day"
+   ]
+  },
+  {
+   "zweck": "Ort und Richtung",
+   "saetze": [
+    "on the left, on the right, straight ahead",
+    "opposite, next to, between",
+    "upstairs, downstairs, on the ground floor",
+    "at the corner of"
+   ]
+  },
+  {
+   "zweck": "Verneinung und Einschränkung",
+   "saetze": [
+    "not, never, hardly ever",
+    "nobody, nothing, none of them",
+    "but, however, although",
+    "only, just, except"
+   ]
+  },
+  {
+   "zweck": "Korrektur und Nachfrage",
+   "saetze": [
+    "no, sorry, I mean …",
+    "actually, it was …",
+    "let me repeat that",
+    "in other words"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "englisch-ar",
+   "unterthema": "2.12",
+   "name": "Adverbs of frequency",
+   "warum": "«Hardly ever» und «usually» entscheiden beim Hören oft über die richtige Antwort — und sie klingen ähnlich unauffällig."
+  },
+  {
+   "bereich": "englisch-ar",
+   "unterthema": "3.01",
+   "name": "Wortschatz: Alltag und Familie",
+   "warum": "Die Aufnahmen spielen im Alltag; dieser Wortschatz kommt in fast jeder Aufgabe vor."
+  },
+  {
+   "bereich": "englisch-ar",
+   "unterthema": "1.03",
+   "name": "True, false or not given",
+   "warum": "Dieselbe Aufgabenart kommt im Hörteil vor. Wer sie schriftlich übt, kennt die Fallen."
+  }
+ ]
+}

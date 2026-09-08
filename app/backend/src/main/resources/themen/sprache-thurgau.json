@@ -1,0 +1,299 @@
+{
+ "fach": "sprache-tg",
+ "name": "Deutsch Sprache",
+ "pruefung": "Aufnahmeprüfung an die Thurgauer Mittelschulen",
+ "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Sprachprüfungen der Kantonsschule Frauenfeld 2017-2026",
+ "punkteTotal": 56,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Wortschatz und Wortbildung",
+   "punkte": 14,
+   "anteil": 25,
+   "beschreibung": "Wortfamilien, Synonyme, Morpheme — und der wiederkehrende Auftrag, ein blasses Verb wie «machen» durch ein genaues zu ersetzen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wortfamilien erkennen und ergänzen",
+     "lernzielId": "DSTG.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Synonyme und Wortfelder unterscheiden",
+     "lernzielId": "DSTG.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Wörter in Morpheme zerlegen",
+     "lernzielId": "DSTG.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Stamm-, Vor- und Nachmorpheme bestimmen",
+     "lernzielId": "DSTG.1.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.03"
+     ]
+    },
+    {
+     "code": "1.05",
+     "name": "Nomen aus Verben und Adjektiven bilden",
+     "lernzielId": "DSTG.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Verstärkende Zusammensetzungen bilden",
+     "lernzielId": "DSTG.1.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.07",
+     "name": "Ein blasses Verb durch ein genaues ersetzen",
+     "lernzielId": "DSTG.1.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.08",
+     "name": "Textverknüpfende Mittel anwenden",
+     "lernzielId": "DSTG.1.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.09",
+     "name": "Redewendungen verstehen und einsetzen",
+     "lernzielId": "DSTG.1.09",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Wortarten",
+   "punkte": 12,
+   "anteil": 21,
+   "beschreibung": "Bestimmt wird nach fünf Wortarten: Nomen, Verb, Adjektiv, Pronomen und der Rest als Partikel. Bei den Auflistungsaufgaben gibt eine falsche Angabe Punkteabzug.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Nomen, Verb und Adjektiv bestimmen",
+     "lernzielId": "DSTG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Pronomen im Satz erkennen",
+     "lernzielId": "DSTG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Partikel als Restklasse bestimmen",
+     "lernzielId": "DSTG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Präpositionen erkennen und einsetzen",
+     "lernzielId": "DSTG.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Konjunktionen erkennen und einsetzen",
+     "lernzielId": "DSTG.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Nominalisierte Verben und Adjektive schreiben",
+     "lernzielId": "DSTG.2.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Das Verb",
+   "punkte": 14,
+   "anteil": 25,
+   "beschreibung": "Zeitformen, Personalformen, Modus und Passiv. Der grösste einzelne Block der Sprachprüfung.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Infinitiv und Personalform unterscheiden",
+     "lernzielId": "DSTG.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Personalformen in einem Text herausschreiben",
+     "lernzielId": "DSTG.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Präsens und Präteritum bilden",
+     "lernzielId": "DSTG.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Perfekt und Plusquamperfekt bilden",
+     "lernzielId": "DSTG.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Futur bilden",
+     "lernzielId": "DSTG.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Starke Verben konjugieren",
+     "lernzielId": "DSTG.3.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.07",
+     "name": "Aktiv und Passiv unterscheiden",
+     "lernzielId": "DSTG.3.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.08",
+     "name": "Indikativ und Imperativ erkennen",
+     "lernzielId": "DSTG.3.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.09",
+     "name": "Konjunktiv I und Konjunktiv II unterscheiden",
+     "lernzielId": "DSTG.3.09",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Nomen, Adjektiv und Pronomen",
+   "punkte": 6,
+   "anteil": 11,
+   "beschreibung": "Die vier Fälle mit der Ersatzprobe, Singular und Plural, und die Steigerung des Adjektivs.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Singular und Plural bilden",
+     "lernzielId": "DSTG.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Die vier Fälle mit der Ersatzprobe bestimmen",
+     "lernzielId": "DSTG.4.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.03",
+     "name": "Adjektive steigern und einordnen",
+     "lernzielId": "DSTG.4.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.04",
+     "name": "Pronomen richtig anwenden",
+     "lernzielId": "DSTG.4.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "5",
+   "name": "Satzglieder und Satzbau",
+   "punkte": 10,
+   "anteil": 18,
+   "beschreibung": "Satzglieder mit der Verschiebeprobe abtrennen, Nominal- und Präpositionalgruppen unterscheiden, einteilige Sätze in mehrteilige umformen.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Satzglieder mit der Verschiebeprobe abgrenzen",
+     "lernzielId": "DSTG.5.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.02",
+     "name": "Subjekt und Objekte bestimmen",
+     "lernzielId": "DSTG.5.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Nominal- und Präpositionalgruppen unterscheiden",
+     "lernzielId": "DSTG.5.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.04",
+     "name": "Einteilige und mehrteilige Sätze unterscheiden",
+     "lernzielId": "DSTG.5.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.05",
+     "name": "Präpositionen durch Konjunktionen ersetzen",
+     "lernzielId": "DSTG.5.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "5.04"
+     ]
+    },
+    {
+     "code": "5.06",
+     "name": "Kommas bei Aufzählungen und Verbgruppen setzen",
+     "lernzielId": "DSTG.5.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.07",
+     "name": "Kommas bei Relativsätzen setzen",
+     "lernzielId": "DSTG.5.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.08",
+     "name": "Kommas bei infinitivischen Verbgruppen und Einschüben",
+     "lernzielId": "DSTG.5.08",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "tg-gms3",
+      "tg-fms3"
+     ]
+    }
+   ]
+  }
+ ]
+}

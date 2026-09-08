@@ -1,0 +1,865 @@
+{
+ "fach": "mathematik",
+ "name": "Mathematik",
+ "pruefung": "ZAP 3",
+ "quelle": "StudySwiss Themenstruktur ZAP2 und ZAP3, Oberthemen 1-8",
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1.1",
+   "name": "Zahl und Arithmetik",
+   "punkte": 0,
+   "anteil": 0,
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Rechenregeln, Punkt vor Strich, Klammern",
+     "lernzielId": "M2.1.01",
+     "lp21": "MA.1.A.4.h",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Vorzeichen und negative Zahlen",
+     "lernzielId": "M2.1.02",
+     "lp21": "MA.1.A.1.i",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Brüche, Dezimalzahlen, Prozentzahlen umwandeln",
+     "lernzielId": "M2.1.03",
+     "lp21": "MA.1.A.1.h",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Zahlen ordnen und vergleichen",
+     "lernzielId": "M2.1.04",
+     "lp21": "MA.1.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Überschlagen und sinnvoll runden",
+     "lernzielId": "M2.1.05",
+     "lp21": "MA.1.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Teiler, Vielfache, Teilbarkeitsregeln",
+     "lernzielId": "M2.1.06",
+     "lp21": "MA.1.A.4.h",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Primfaktorzerlegung",
+     "lernzielId": "M2.1.07",
+     "lp21": "MA.1.A.4.h",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "ggT und kgV bestimmen",
+     "lernzielId": "M2.1.08",
+     "lp21": "MA.1.A.4.h",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.06",
+      "1.07"
+     ]
+    },
+    {
+     "code": "1.09",
+     "name": "Potenzen und Quadratwurzel",
+     "lernzielId": "M2.1.09",
+     "lp21": "MA.1.A.1.i",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "3. Wurzel",
+     "lernzielId": "M2.1.10",
+     "lp21": "MA.1.A.1.k",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "1.09"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "1.11",
+     "name": "Zehnerpotenzen und wissenschaftliche Schreibweise",
+     "lernzielId": "M2.1.11",
+     "lp21": "MA.1.A.1.j",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.09"
+     ]
+    },
+    {
+     "code": "1.12",
+     "name": "Zahlenpaare im Koordinatensystem",
+     "lernzielId": "M2.1.12",
+     "lp21": "MA.2.C.4",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.13",
+     "name": "Sachkontexte mit Zahlen beschreiben und berechnen",
+     "lernzielId": "M2.1.13",
+     "lp21": "MA.1.C.1",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "1.2",
+   "name": "Terme und Gleichungen",
+   "punkte": 18,
+   "anteil": 45,
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme aus Sach- und Geometriekontexten ableiten",
+     "lernzielId": "M2.2.01",
+     "lp21": "MA.1.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Terme auswerten (Werte einsetzen)",
+     "lernzielId": "M2.2.02",
+     "lp21": "MA.1.A.4",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Terme zusammenfassen und ordnen",
+     "lernzielId": "M2.2.03",
+     "lp21": "MA.1.A.4.k",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Ausmultiplizieren und Ausklammern",
+     "lernzielId": "M2.2.04",
+     "lp21": "MA.1.A.4.j",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Binome und Trinome faktorisieren",
+     "lernzielId": "M2.2.05",
+     "lp21": "MA.1.A.4.j",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.04"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Bruchterme kürzen",
+     "lernzielId": "M2.2.06",
+     "lp21": "MA.1.A.4.k",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Bruchterme addieren, subtrahieren, multiplizieren",
+     "lernzielId": "M2.2.07",
+     "lp21": "MA.1.A.4.k",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.06"
+     ]
+    },
+    {
+     "code": "2.08",
+     "name": "Wurzelterme umformen",
+     "lernzielId": "M2.2.08",
+     "lp21": "MA.1.A.4",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "1.09"
+     ]
+    },
+    {
+     "code": "2.09",
+     "name": "Potenzterme und Polynome",
+     "lernzielId": "M2.2.09",
+     "lp21": "MA.1.A.4.j",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "2.10",
+     "name": "Lineare Gleichungen mit Äquivalenzumformungen lösen",
+     "lernzielId": "M2.2.10",
+     "lp21": "MA.1.A.4.j",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.11",
+     "name": "Gleichungen mit Klammern lösen",
+     "lernzielId": "M2.2.11",
+     "lp21": "MA.1.A.4.j",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.12",
+     "name": "Gleichungen mit Brüchen lösen",
+     "lernzielId": "M2.2.12",
+     "lp21": "MA.1.A.4",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.13",
+     "name": "Gleichung aus einem Text aufstellen (ohne lösen)",
+     "lernzielId": "M2.2.13",
+     "lp21": "MA.1.C.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.14",
+     "name": "Formeln nach einer Variablen auflösen",
+     "lernzielId": "M2.2.14",
+     "lp21": "MA.1.A.4",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.15",
+     "name": "Zahlenfolgen und Muster fortsetzen",
+     "lernzielId": "M2.2.15",
+     "lp21": "MA.1.C.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.16",
+     "name": "Muster verallgemeinern und als Formel schreiben",
+     "lernzielId": "M2.2.16",
+     "lp21": "MA.1.C.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.15"
+     ]
+    },
+    {
+     "code": "2.17",
+     "name": "Terme und Gleichungen sprachlich deuten",
+     "lernzielId": "M2.2.17",
+     "lp21": "MA.1.B.2",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "2.1",
+   "name": "Statistik und Wahrscheinlichkeit",
+   "punkte": 4,
+   "anteil": 10,
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Säulen-, Linien- und Kreisdiagramme lesen",
+     "lernzielId": "M2.3.01",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Diagramme selbst erstellen",
+     "lernzielId": "M2.3.02",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 15
+    },
+    {
+     "code": "3.03",
+     "name": "Aus Tabellen und Diagrammen rechnen",
+     "lernzielId": "M2.3.03",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Arithmetisches Mittel bestimmen",
+     "lernzielId": "M2.3.04",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Absolute und relative Häufigkeit",
+     "lernzielId": "M2.3.05",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Einstufige Wahrscheinlichkeit",
+     "lernzielId": "M2.3.06",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.07",
+     "name": "Zweistufige Zufallsexperimente",
+     "lernzielId": "M2.3.07",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.06"
+     ]
+    },
+    {
+     "code": "3.08",
+     "name": "Mehrstufige Zufallsexperimente mit Baumdiagramm",
+     "lernzielId": "M2.3.08",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "3.07"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "3.09",
+     "name": "Ziehen mit und ohne Zurücklegen",
+     "lernzielId": "M2.3.09",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "3.07"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "3.10",
+     "name": "Kombinatorik: Anzahlen bestimmen",
+     "lernzielId": "M2.3.10",
+     "lp21": "MA.3.C.1",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "2.2",
+   "name": "Grössen und Masse",
+   "punkte": 7,
+   "anteil": 18,
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Längeneinheiten umrechnen",
+     "lernzielId": "M2.4.01",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Flächen- und Volumeneinheiten umrechnen",
+     "lernzielId": "M2.4.02",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Gewichte, Zeiten und Zeitformate",
+     "lernzielId": "M2.4.03",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Grössen schätzen und vergleichen",
+     "lernzielId": "M2.4.04",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Prozentrechnen: Grundwert, Prozentwert, Prozentsatz",
+     "lernzielId": "M2.4.05",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.06",
+     "name": "Verminderter und vermehrter Grundwert (rückwärts)",
+     "lernzielId": "M2.4.06",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.05"
+     ]
+    },
+    {
+     "code": "4.07",
+     "name": "Anteile und Verhältnisse",
+     "lernzielId": "M2.4.07",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.08",
+     "name": "Massstab",
+     "lernzielId": "M2.4.08",
+     "lp21": "MA.2.C.4",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01",
+      "4.07"
+     ]
+    },
+    {
+     "code": "4.09",
+     "name": "Währungen umrechnen",
+     "lernzielId": "M2.4.09",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 15,
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "4.10",
+     "name": "Rabatt, Netto, Brutto, Mehrwertsteuer",
+     "lernzielId": "M2.4.10",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.05"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "4.11",
+     "name": "Jahreszins und Marchzins",
+     "lernzielId": "M2.4.11",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.05"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "4.12",
+     "name": "Geschwindigkeit, Weg, Zeit",
+     "lernzielId": "M2.4.12",
+     "lp21": "MA.3.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.03"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "2.3",
+   "name": "Funktionale Zusammenhänge",
+   "punkte": 3,
+   "anteil": 7,
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Proportionale Zusammenhänge erkennen und berechnen",
+     "lernzielId": "M2.5.01",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "M2.5.02",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Wertetabelle erstellen",
+     "lernzielId": "M2.5.03",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.04",
+     "name": "Graph im Koordinatensystem zeichnen und lesen",
+     "lernzielId": "M2.5.04",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.12"
+     ]
+    },
+    {
+     "code": "5.05",
+     "name": "Weg-Zeit-Graphen und Füllgraphen deuten",
+     "lernzielId": "M2.5.05",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.04"
+     ]
+    },
+    {
+     "code": "5.06",
+     "name": "Steigungszahl und Steigungsdreieck",
+     "lernzielId": "M2.5.06",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.04"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "5.07",
+     "name": "Geradengleichung herleiten und deuten",
+     "lernzielId": "M2.5.07",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.06"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "5.08",
+     "name": "Schnittpunkt zweier Geraden grafisch bestimmen",
+     "lernzielId": "M2.5.08",
+     "lp21": "MA.3.A.3",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "5.07"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "3.1",
+   "name": "Abbildungen und Symmetrien",
+   "punkte": 0,
+   "anteil": 0,
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Symmetrische Figuren erkennen und ergänzen",
+     "lernzielId": "M2.6.01",
+     "lp21": "MA.2.A.1",
+     "pflichtset": 15
+    },
+    {
+     "code": "6.02",
+     "name": "Achsenspiegelung",
+     "lernzielId": "M2.6.02",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 15
+    },
+    {
+     "code": "6.03",
+     "name": "Punktspiegelung",
+     "lernzielId": "M2.6.03",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 15
+    },
+    {
+     "code": "6.04",
+     "name": "Drehung",
+     "lernzielId": "M2.6.04",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 15
+    },
+    {
+     "code": "6.05",
+     "name": "Abbildungen im Koordinatensystem berechnen",
+     "lernzielId": "M2.6.05",
+     "lp21": "MA.2.C.4",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.12"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "3.2",
+   "name": "Geometrie in der Ebene",
+   "punkte": 4,
+   "anteil": 10,
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Eigenschaften spezieller Dreiecke",
+     "lernzielId": "M2.7.01",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.02",
+     "name": "Eigenschaften spezieller Vierecke",
+     "lernzielId": "M2.7.02",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.03",
+     "name": "Winkel berechnen, Winkelsumme im Dreieck und Viereck",
+     "lernzielId": "M2.7.03",
+     "lp21": "MA.2.A.2",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.04",
+     "name": "Umfang und Fläche von Dreiecken",
+     "lernzielId": "M2.7.04",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.05",
+     "name": "Umfang und Fläche von Vierecken",
+     "lernzielId": "M2.7.05",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.02"
+     ]
+    },
+    {
+     "code": "7.06",
+     "name": "Zusammengesetzte Figuren zerlegen",
+     "lernzielId": "M2.7.06",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.04",
+      "7.05"
+     ]
+    },
+    {
+     "code": "7.07",
+     "name": "Kreis und Kreissektor: Umfang und Fläche",
+     "lernzielId": "M2.7.07",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "7.08",
+     "name": "Satz des Pythagoras in der Ebene",
+     "lernzielId": "M2.7.08",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.09"
+     ]
+    },
+    {
+     "code": "7.09",
+     "name": "Satz des Thales",
+     "lernzielId": "M2.7.09",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "7.03"
+     ]
+    },
+    {
+     "code": "7.10",
+     "name": "Mittelsenkrechte, Winkelhalbierende, Mittelparallele",
+     "lernzielId": "M2.7.10",
+     "lp21": "MA.2.C.2",
+     "pflichtset": 15
+    },
+    {
+     "code": "7.11",
+     "name": "Höhen, Schwerlinien, In- und Umkreis",
+     "lernzielId": "M2.7.11",
+     "tiefe": "erkennen",
+     "lp21": "MA.2.C.2",
+     "pflichtset": 10
+    },
+    {
+     "code": "7.12",
+     "name": "Konstruktionsaufgaben mit Zirkel",
+     "lernzielId": "M2.7.12",
+     "lp21": "MA.2.C.2",
+     "pflichtset": 10,
+     "nichtGeprueftIn": [
+      "zh-zap3"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "katalog": "3.3",
+   "name": "Geometrie im Raum",
+   "punkte": 4,
+   "anteil": 10,
+   "unterthemen": [
+    {
+     "code": "8.01",
+     "name": "Netz und Körper zuordnen",
+     "lernzielId": "M2.8.01",
+     "lp21": "MA.2.C.3",
+     "pflichtset": 15
+    },
+    {
+     "code": "8.02",
+     "name": "Ansichten von vorne, oben, rechts",
+     "lernzielId": "M2.8.02",
+     "lp21": "MA.2.C.3",
+     "pflichtset": 15
+    },
+    {
+     "code": "8.03",
+     "name": "Aus Ansichten den Körper rekonstruieren",
+     "lernzielId": "M2.8.03",
+     "lp21": "MA.2.C.3",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "8.02"
+     ]
+    },
+    {
+     "code": "8.04",
+     "name": "Bewegungen von Würfeln und Prismen (Kippen)",
+     "lernzielId": "M2.8.04",
+     "lp21": "MA.2.C.3",
+     "pflichtset": 15
+    },
+    {
+     "code": "8.05",
+     "name": "Würfel und Quader: Volumen und Oberfläche",
+     "lernzielId": "M2.8.05",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "8.06",
+     "name": "Gerades Prisma, auch mit Trapezquerschnitt",
+     "lernzielId": "M2.8.06",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.05",
+      "7.05"
+     ]
+    },
+    {
+     "code": "8.07",
+     "name": "Pyramide: Volumen, Höhe, Kanten",
+     "lernzielId": "M2.8.07",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.05"
+     ]
+    },
+    {
+     "code": "8.08",
+     "name": "Zylinder",
+     "lernzielId": "M2.8.08",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.07"
+     ],
+     "nurGeprueftIn": [
+      "zh-zap3"
+     ]
+    },
+    {
+     "code": "8.09",
+     "name": "Zusammengesetzte Körper",
+     "lernzielId": "M2.8.09",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.05",
+      "8.06"
+     ]
+    },
+    {
+     "code": "8.10",
+     "name": "Pythagoras im Raum und Schnittfiguren",
+     "lernzielId": "M2.8.10",
+     "lp21": "MA.2.A.3",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "7.08",
+      "8.05"
+     ]
+    }
+   ]
+  }
+ ],
+ "punkteTotal": 40
+}

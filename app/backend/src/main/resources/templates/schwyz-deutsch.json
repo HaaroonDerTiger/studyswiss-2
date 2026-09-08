@@ -1,0 +1,3465 @@
+[
+ {
+  "templateId": "sz-lesen-erzaehlung",
+  "lernzielId": "DTSZ.1.01",
+  "fach": "textverstaendnis-sz",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche die Stelle im Text, die zur Frage passt — sie steht wirklich dort.",
+   "Unterscheide, was der Text sagt, und was die erzählende Figur nur meint.",
+   "Bei einer Deutung zählt nur, was sich am Text belegen lässt."
+  ],
+  "loesungsweg": [
+   "Frage lesen und das Schlüsselwort merken.",
+   "Die passende Stelle im Text suchen.",
+   "Die Antwort am Wortlaut prüfen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wahr, falsch oder nicht bestimmbar?\n\nDer Mann sitzt immer am selben Tisch.",
+    "optionen": [
+     "wahr",
+     "falsch",
+     "nicht bestimmbar"
+    ],
+    "loesung": [
+     "wahr"
+    ],
+    "erklaerung": "Der Text sagt es im ersten Abschnitt: immer am selben Tisch, dem dritten von hinten.",
+    "fehler": [
+     {
+      "antwort": "falsch",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text nennt den Platz ausdrücklich: der dritte Tisch von hinten, jedes Mal."
+     },
+     {
+      "antwort": "nicht bestimmbar",
+      "diagnoseId": "uebersehen",
+      "feedback": "Die Angabe steht deutlich im ersten Abschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wahr, falsch oder nicht bestimmbar?\n\nDie erzählende Figur weiss, warum ihr der Mann unangenehm ist.",
+    "optionen": [
+     "falsch",
+     "wahr",
+     "nicht bestimmbar"
+    ],
+    "loesung": [
+     "falsch"
+    ],
+    "erklaerung": "Im Text steht: Ich weiss bis heute nicht, warum.",
+    "fehler": [
+     {
+      "antwort": "wahr",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt das Gegenteil: Sie weiss es bis heute nicht."
+     },
+     {
+      "antwort": "nicht bestimmbar",
+      "diagnoseId": "uebersehen",
+      "feedback": "Die Aussage steht wörtlich im dritten Abschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wahr, falsch oder nicht bestimmbar?\n\nDer Mann arbeitet in der Bibliothek.",
+    "optionen": [
+     "nicht bestimmbar",
+     "wahr",
+     "falsch"
+    ],
+    "loesung": [
+     "nicht bestimmbar"
+    ],
+    "erklaerung": "Über seinen Beruf sagt der Text nichts. Er kommt als Besucher, mehr steht nicht da.",
+    "fehler": [
+     {
+      "antwort": "wahr",
+      "diagnoseId": "erfunden",
+      "feedback": "Dass er dort arbeitet, behauptet der Text nirgends."
+     },
+     {
+      "antwort": "falsch",
+      "diagnoseId": "zu_sicher",
+      "feedback": "Auch das Gegenteil steht nicht im Text; die Frage lässt sich nicht entscheiden."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum ist der Platz am dritten Tisch nach Ansicht der erzählenden Figur schlecht?",
+    "optionen": [
+     "Weil man das Licht im Rücken und den halben Raum vor Augen hat",
+     "Weil er neben der Tür liegt",
+     "Weil dort niemand vorbeikommt",
+     "Weil es dort zieht"
+    ],
+    "loesung": [
+     "Weil man das Licht im Rücken und den halben Raum vor Augen hat"
+    ],
+    "erklaerung": "Der erste Abschnitt nennt genau diesen Grund: Licht hinter sich, halber Raum vor Augen.",
+    "fehler": [
+     {
+      "antwort": "Weil er neben der Tür liegt",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Lage zur Tür steht nichts; genannt werden das Licht und der Blick in den Raum."
+     },
+     {
+      "antwort": "Weil dort niemand vorbeikommt",
+      "diagnoseId": "erfunden",
+      "feedback": "Über den Durchgang sagt der Text nichts."
+     },
+     {
+      "antwort": "Weil es dort zieht",
+      "diagnoseId": "erfunden",
+      "feedback": "Zugluft kommt im Text nicht vor; genannt wird das Licht im Rücken."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie oft beschwert sich die erzählende Figur am Ausleihschalter?",
+    "optionen": [
+     "zweimal",
+     "einmal",
+     "dreimal",
+     "gar nicht"
+    ],
+    "loesung": [
+     "zweimal"
+    ],
+    "erklaerung": "Der Text sagt es ausdrücklich: Zweimal beschwerte ich mich.",
+    "fehler": [
+     {
+      "antwort": "einmal",
+      "diagnoseId": "zahl",
+      "feedback": "Der Text nennt zwei Beschwerden und beschreibt beide Antworten."
+     },
+     {
+      "antwort": "dreimal",
+      "diagnoseId": "zahl",
+      "feedback": "Drei Beschwerden nennt der Text nicht; er beschreibt genau zwei und ihre Antworten."
+     },
+     {
+      "antwort": "gar nicht",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Beschwerden werden ausdrücklich erwähnt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was fällt an der zweiten Antwort der Frau am Ausleihschalter auf?",
+    "optionen": [
+     "Sie sagt dasselbe wie beim ersten Mal, schaut aber zu lange",
+     "Sie verspricht, den Mann hinauszuweisen",
+     "Sie widerspricht deutlich",
+     "Sie antwortet gar nicht"
+    ],
+    "loesung": [
+     "Sie sagt dasselbe wie beim ersten Mal, schaut aber zu lange"
+    ],
+    "erklaerung": "Sie sagt beide Male denselben Satz; beim zweiten Mal kommt der lange Blick dazu — das lässt aufhorchen.",
+    "fehler": [
+     {
+      "antwort": "Sie verspricht, den Mann hinauszuweisen",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Hinauswurf ist nirgends die Rede."
+     },
+     {
+      "antwort": "Sie widerspricht deutlich",
+      "diagnoseId": "ungenau",
+      "feedback": "Sie widerspricht nicht mit Worten; der Blick tut es."
+     },
+     {
+      "antwort": "Sie antwortet gar nicht",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie antwortet, und zwar mit demselben Satz wie beim ersten Mal."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Merkmale des Mannes nennt der Text als beobachtbare Tatsachen?",
+    "optionen": [
+     "Mantel über der Stuhllehne, drei Bücher, halblautes Lesen",
+     "unangenehm, aufdringlich, rücksichtslos",
+     "laut, schmutzig, grob",
+     "still, unauffällig, freundlich"
+    ],
+    "loesung": [
+     "Mantel über der Stuhllehne, drei Bücher, halblautes Lesen"
+    ],
+    "erklaerung": "Beobachtbar sind Mantel, Bücher und das halblaute Lesen. Die Wertungen kommen von der erzählenden Figur.",
+    "fehler": [
+     {
+      "antwort": "unangenehm, aufdringlich, rücksichtslos",
+      "diagnoseId": "zuschreibung",
+      "feedback": "Das sind Zuschreibungen der erzählenden Figur, keine beobachtbaren Merkmale."
+     },
+     {
+      "antwort": "laut, schmutzig, grob",
+      "diagnoseId": "widerspruch",
+      "feedback": "Der Text sagt ausdrücklich, dass er nicht roch und niemanden anrempelte."
+     },
+     {
+      "antwort": "still, unauffällig, freundlich",
+      "diagnoseId": "widerspruch",
+      "feedback": "Still ist er gerade nicht; er liest halblaut."
+     }
+    ]
+   },
+   {
+    "stamm": "Woran merkt die erzählende Figur, dass ihr der Mann fehlt?",
+    "optionen": [
+     "Sie sieht ohne Grund vom Buch auf und schaut zur Tür",
+     "Sie fragt am Ausleihschalter nach ihm",
+     "Sie wechselt wieder den Platz",
+     "Sie kommt nicht mehr in die Bibliothek"
+    ],
+    "loesung": [
+     "Sie sieht ohne Grund vom Buch auf und schaut zur Tür"
+    ],
+    "erklaerung": "Im Februar bleibt sein Tisch leer; sie schaut zweimal ohne Grund auf und später zur Tür.",
+    "fehler": [
+     {
+      "antwort": "Sie fragt am Ausleihschalter nach ihm",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine Nachfrage nach ihm kommt im Text nicht vor; sie merkt es an ihrem eigenen Blick."
+     },
+     {
+      "antwort": "Sie wechselt wieder den Platz",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Den Platz wechselt sie früher, als er noch kam."
+     },
+     {
+      "antwort": "Sie kommt nicht mehr in die Bibliothek",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie ist gerade da und bemerkt darum die Leere."
+     }
+    ]
+   },
+   {
+    "stamm": "Worin besteht die Pointe am Schluss?",
+    "optionen": [
+     "Der Mann hat all die Samstage für eine blinde Frau geübt, die nun bei ihm sitzt",
+     "Der Mann liest zum ersten Mal vor",
+     "Die Frau ist die Bibliothekarin",
+     "Der Mann hört auf zu lesen"
+    ],
+    "loesung": [
+     "Der Mann hat all die Samstage für eine blinde Frau geübt, die nun bei ihm sitzt"
+    ],
+    "erklaerung": "Die Frau legt die Hände flach auf den Tisch und wendet das Gesicht zum Fenster, ohne die Augen zu bewegen; er liest genau so wie an allen Samstagen zuvor.",
+    "fehler": [
+     {
+      "antwort": "Der Mann liest zum ersten Mal vor",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er liest genau so wie all die Samstage zuvor — das steht im vorletzten Abschnitt."
+     },
+     {
+      "antwort": "Die Frau ist die Bibliothekarin",
+      "diagnoseId": "figur",
+      "feedback": "Die Frau am Ausleihschalter ist eine andere Person."
+     },
+     {
+      "antwort": "Der Mann hört auf zu lesen",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er schlägt das erste Buch auf und beginnt zu lesen."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum schämt sich die erzählende Figur am Schluss?",
+    "optionen": [
+     "Weil ihr Ärger auf einen Menschen zielte, der etwas Fürsorgliches tat",
+     "Weil sie im Lesesaal zu laut war",
+     "Weil sie das falsche Buch gelesen hat",
+     "Weil sie den Mann angesprochen hat"
+    ],
+    "loesung": [
+     "Weil ihr Ärger auf einen Menschen zielte, der etwas Fürsorgliches tat"
+    ],
+    "erklaerung": "Ihre Abneigung galt jemandem, der übte, um einer blinden Frau vorlesen zu können.",
+    "fehler": [
+     {
+      "antwort": "Weil sie im Lesesaal zu laut war",
+      "diagnoseId": "erfunden",
+      "feedback": "Laut war sie nie; das war ja ihr Vorwurf an ihn."
+     },
+     {
+      "antwort": "Weil sie das falsche Buch gelesen hat",
+      "diagnoseId": "ohne_bezug",
+      "feedback": "Welches Buch sie liest, sagt der Text nirgends."
+     },
+     {
+      "antwort": "Weil sie den Mann angesprochen hat",
+      "diagnoseId": "widerspruch",
+      "feedback": "Angesprochen hat sie ihn nie; sie ging zum Ausleihschalter."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lässt sich das Verhalten des Mannes durch den Schluss erklären?",
+    "optionen": [
+     "Er las halblaut, weil er das Vorlesen übte",
+     "Er war schwerhörig",
+     "Er wollte auffallen",
+     "Er las immer dasselbe Buch"
+    ],
+    "loesung": [
+     "Er las halblaut, weil er das Vorlesen übte"
+    ],
+    "erklaerung": "Dass er dieselben drei Bücher halblaut las, ergibt erst am Schluss einen Sinn: Er bereitete das Vorlesen vor.",
+    "fehler": [
+     {
+      "antwort": "Er war schwerhörig",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Schwerhörigkeit steht nichts im Text."
+     },
+     {
+      "antwort": "Er wollte auffallen",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er las nie so laut, dass man ihn hätte zurechtweisen können."
+     },
+     {
+      "antwort": "Er las immer dasselbe Buch",
+      "diagnoseId": "ungenau",
+      "feedback": "Es waren drei Bücher, und darauf kommt es an: Er wiederholte sie."
+     }
+    ]
+   },
+   {
+    "stamm": "Deute den Satz «und weil ich ihn nun nicht mehr sah, hörte ich ihn stärker».",
+    "optionen": [
+     "Was man nicht sieht, gewinnt in der Vorstellung an Gewicht",
+     "In der Ecke ist die Sitzordnung ungünstiger",
+     "Der Mann las an diesem Tag lauter",
+     "Der Lesesaal war voller als sonst"
+    ],
+    "loesung": [
+     "Was man nicht sieht, gewinnt in der Vorstellung an Gewicht"
+    ],
+    "erklaerung": "Der Satz beschreibt keinen physikalischen Vorgang, sondern die Wirkung des Ärgers: Ohne Blickkontakt wird das Geräusch grösser.",
+    "fehler": [
+     {
+      "antwort": "In der Ecke ist die Sitzordnung ungünstiger",
+      "diagnoseId": "zu_woertlich",
+      "feedback": "Der Satz meint nicht die Akustik, sondern die eigene Wahrnehmung."
+     },
+     {
+      "antwort": "Der Mann las an diesem Tag lauter",
+      "diagnoseId": "erfunden",
+      "feedback": "Über eine Änderung seiner Lautstärke steht nichts im Text."
+     },
+     {
+      "antwort": "Der Lesesaal war voller als sonst",
+      "diagnoseId": "erfunden",
+      "feedback": "Über die Zahl der Leute sagt der Text nichts."
+     }
+    ]
+   }
+  ],
+  "text": "Samstags um zehn\n\nIch sah ihn jeden Samstag. Immer am selben Tisch, dem dritten von hinten, immer mit dem Rücken zum Fenster, obwohl das der schlechteste Platz im ganzen Lesesaal ist. Wer dort sitzt, hat das Licht hinter sich und den halben Raum vor Augen.\n\nEr kam kurz nach zehn, legte den Mantel über die Stuhllehne und breitete drei Bücher aus, die er nie zurückstellte, bevor der Saal um zwölf schloss. Dann las er. Halblaut. Nicht so laut, dass man ihn hätte zurechtweisen können, aber laut genug, dass es an meinem Tisch ankam wie ein entferntes Radio, das jemand vergessen hatte.\n\nEr war mir vom ersten Samstag an unangenehm. Ich weiss bis heute nicht, warum. Er tat nichts Verbotenes, er roch nicht, er rempelte niemanden an. Trotzdem spannte sich etwas in mir, sobald die Tür ging und ich seine Schritte hörte, drei Schritte bis zur Garderobe, dann die Pause, dann der Rest.\n\nEinmal wechselte ich den Platz und setzte mich in die andere Ecke. Es half nichts. Ich hörte ihn trotzdem, und weil ich ihn nun nicht mehr sah, hörte ich ihn stärker.\n\nZweimal beschwerte ich mich bei der Frau am Ausleihschalter. Beim ersten Mal nickte sie und sagte, sie werde darauf achten. Beim zweiten Mal schaute sie mich einen Moment zu lange an und sagte, sie werde darauf achten.\n\nIm Februar blieb sein Tisch leer. Ich merkte es am dritten Samstag, und ich merkte es daran, dass ich zweimal von meinem Buch aufsah, ohne einen Grund. Am vierten Samstag ertappte ich mich dabei, wie ich zur Tür schaute, als sie um Viertel nach zehn aufging. Es war ein Schulkind mit einem Rucksack.\n\nIm März kam er wieder, mit demselben Mantel und denselben drei Büchern. Und diesmal war jemand bei ihm: eine ältere Frau, die er am Ellbogen führte und die sich langsam auf den Stuhl ihm gegenüber setzte. Sie legte beide Hände flach auf den Tisch und wandte das Gesicht zum Fenster, ohne die Augen zu bewegen.\n\nEr schlug das erste Buch auf und begann zu lesen. Halblaut. Genau so, wie er es all die Samstage vorher getan hatte, an denen sie nicht hatte kommen können.\n\nIch packte meine Sachen zusammen und ging hinaus, und auf der Treppe blieb ich stehen und schämte mich so gründlich, wie ich mich seit Jahren nicht geschämt hatte.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Sprachprüfung, Teil «Textverständnis»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Lesen: wahr oder falsch, Angaben und Figuren",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-lesen-erzaehlung-2",
+  "lernzielId": "DTSZ.1.04",
+  "fach": "textverstaendnis-sz",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Motiv steht selten dabei — du erschliesst es aus dem Verhalten.",
+   "Die Pointe ist der Punkt, an dem sich der Blick auf das Ganze ändert.",
+   "Eine Aussage bedeutet im Text oft mehr als im Alltag."
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Fragen, was die Figur damit erreicht.",
+   "Beim Schluss prüfen, was sich rückwirkend ändert.",
+   "Die Antwort am Wortlaut belegen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Warum sitzt der Mann jeden Samstag am schlechtesten Platz?",
+    "optionen": [
+     "Damit die Frau ihm gegenüber sitzen und zuhören kann",
+     "Weil alle anderen Plätze besetzt sind",
+     "Weil er das Licht nicht mag",
+     "Weil er den Raum überwachen will"
+    ],
+    "loesung": [
+     "Damit die Frau ihm gegenüber sitzen und zuhören kann"
+    ],
+    "erklaerung": "Der Schluss klärt es: Er liest jemandem vor, und der Platz gegenüber ist der wichtige.",
+    "fehler": [
+     {
+      "antwort": "Weil alle anderen Plätze besetzt sind",
+      "diagnoseId": "beleg",
+      "feedback": "Von einem vollen Saal steht nichts im Text."
+     },
+     {
+      "antwort": "Weil er das Licht nicht mag",
+      "diagnoseId": "deutung",
+      "feedback": "Der Platz hat das Licht im Rücken, was zum Lesen ungünstig ist."
+     },
+     {
+      "antwort": "Weil er den Raum überwachen will",
+      "diagnoseId": "deutung",
+      "feedback": "Vom Beobachten anderer ist nirgends die Rede."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum liest der Mann halblaut?",
+    "optionen": [
+     "Damit jemand ihn hören kann, ohne dass es den Saal stört",
+     "Weil er die Wörter sonst nicht versteht",
+     "Weil er schwerhörig ist",
+     "Weil er die Erzählstimme ärgern will"
+    ],
+    "loesung": [
+     "Damit jemand ihn hören kann, ohne dass es den Saal stört"
+    ],
+    "erklaerung": "Der letzte Abschnitt zeigt, für wen er liest — und dass er es all die Samstage vorher schon tat.",
+    "fehler": [
+     {
+      "antwort": "Weil er die Wörter sonst nicht versteht",
+      "diagnoseId": "deutung",
+      "feedback": "Über sein eigenes Lesen sagt der Text nichts."
+     },
+     {
+      "antwort": "Weil er schwerhörig ist",
+      "diagnoseId": "deutung",
+      "feedback": "Von seinem Gehör ist nicht die Rede. Richtig ist «Damit jemand ihn hören kann, ohne dass es den Saal stört»."
+     },
+     {
+      "antwort": "Weil er die Erzählstimme ärgern will",
+      "diagnoseId": "deutung",
+      "feedback": "Er weiss nichts von ihr; sie beobachtet ihn nur."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum wechselt die Erzählstimme einmal den Platz?",
+    "optionen": [
+     "Um dem Geräusch auszuweichen",
+     "Um besser zu sehen",
+     "Um näher beim Fenster zu sitzen",
+     "Weil ihr Platz besetzt war"
+    ],
+    "loesung": [
+     "Um dem Geräusch auszuweichen"
+    ],
+    "erklaerung": "«Es half nichts» — der Wechsel war ein Versuch, Ruhe zu bekommen.",
+    "fehler": [
+     {
+      "antwort": "Um besser zu sehen",
+      "diagnoseId": "deutung",
+      "feedback": "Sie will ihn gerade nicht sehen. Richtig ist «Um dem Geräusch auszuweichen»."
+     },
+     {
+      "antwort": "Um näher beim Fenster zu sitzen",
+      "diagnoseId": "deutung",
+      "feedback": "Vom Fenster ist bei ihrem Platz nicht die Rede."
+     },
+     {
+      "antwort": "Weil ihr Platz besetzt war",
+      "diagnoseId": "handlung",
+      "feedback": "Der Text nennt das Geräusch als Grund. Richtig ist «Um dem Geräusch auszuweichen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Beim zweiten Mal schaute sie mich einen Moment zu lange an»?",
+    "optionen": [
+     "Die Frau am Schalter fand die Beschwerde übertrieben",
+     "Die Frau hatte die Beschwerde vergessen",
+     "Die Frau kannte den Mann nicht",
+     "Die Frau war müde"
+    ],
+    "loesung": [
+     "Die Frau am Schalter fand die Beschwerde übertrieben"
+    ],
+    "erklaerung": "Derselbe Satz, aber ein Blick davor — das ist die stillste Kritik im ganzen Text.",
+    "fehler": [
+     {
+      "antwort": "Die Frau hatte die Beschwerde vergessen",
+      "diagnoseId": "deutung",
+      "feedback": "Sie wiederholt den Satz von damals wörtlich."
+     },
+     {
+      "antwort": "Die Frau kannte den Mann nicht",
+      "diagnoseId": "deutung",
+      "feedback": "Über ihr Wissen sagt der Text nichts. Richtig ist «Die Frau am Schalter fand die Beschwerde übertrieben»."
+     },
+     {
+      "antwort": "Die Frau war müde",
+      "diagnoseId": "deutung",
+      "feedback": "Von Müdigkeit ist nicht die Rede. Richtig ist «Die Frau am Schalter fand die Beschwerde übertrieben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist die Pointe des Textes?",
+    "optionen": [
+     "Das Vorlesen galt immer schon einer Person, die nur jetzt dabei ist",
+     "Der Mann hört auf zu lesen",
+     "Die Bibliothek schliesst",
+     "Die Erzählstimme wechselt endgültig den Platz"
+    ],
+    "loesung": [
+     "Das Vorlesen galt immer schon einer Person, die nur jetzt dabei ist"
+    ],
+    "erklaerung": "«an denen sie nicht hatte kommen können» — dieser Nebensatz kehrt den ganzen Text um.",
+    "fehler": [
+     {
+      "antwort": "Der Mann hört auf zu lesen",
+      "diagnoseId": "handlung",
+      "feedback": "Er liest weiter, genau wie vorher. Richtig ist «Das Vorlesen galt immer schon einer Person, die nur jetzt dabei ist»."
+     },
+     {
+      "antwort": "Die Bibliothek schliesst",
+      "diagnoseId": "handlung",
+      "feedback": "Von einer Schliessung steht nichts im Text."
+     },
+     {
+      "antwort": "Die Erzählstimme wechselt endgültig den Platz",
+      "diagnoseId": "handlung",
+      "feedback": "Sie verlässt den Saal, aus einem anderen Grund."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum schämt sich die Erzählstimme am Schluss?",
+    "optionen": [
+     "Weil ihre Störung ein Zeichen von Fürsorge war",
+     "Weil sie zu laut gewesen ist",
+     "Weil sie den Platz gewechselt hat",
+     "Weil sie das Buch vergessen hat"
+    ],
+    "loesung": [
+     "Weil ihre Störung ein Zeichen von Fürsorge war"
+    ],
+    "erklaerung": "Sie hat zweimal reklamiert — und erfährt jetzt, worüber.",
+    "fehler": [
+     {
+      "antwort": "Weil sie zu laut gewesen ist",
+      "diagnoseId": "beleg",
+      "feedback": "Laut war nicht sie, sondern er. Richtig ist «Weil ihre Störung ein Zeichen von Fürsorge war»."
+     },
+     {
+      "antwort": "Weil sie den Platz gewechselt hat",
+      "diagnoseId": "beleg",
+      "feedback": "Der Platzwechsel war harmlos. Richtig ist «Weil ihre Störung ein Zeichen von Fürsorge war»."
+     },
+     {
+      "antwort": "Weil sie das Buch vergessen hat",
+      "diagnoseId": "handlung",
+      "feedback": "Sie packt ihre Sachen zusammen und geht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Im Februar blieb sein Tisch leer»?",
+    "optionen": [
+     "Der Mann kam mehrere Wochen nicht",
+     "Der Tisch wurde abgeräumt",
+     "Die Bibliothek war geschlossen",
+     "Er sass an einem anderen Tisch"
+    ],
+    "loesung": [
+     "Der Mann kam mehrere Wochen nicht"
+    ],
+    "erklaerung": "Sie merkt es am dritten Samstag und wartet am vierten schon auf ihn.",
+    "fehler": [
+     {
+      "antwort": "Der Tisch wurde abgeräumt",
+      "diagnoseId": "woertlich",
+      "feedback": "«leer» meint hier: ohne ihn. Richtig ist «Der Mann kam mehrere Wochen nicht»."
+     },
+     {
+      "antwort": "Die Bibliothek war geschlossen",
+      "diagnoseId": "handlung",
+      "feedback": "Die Erzählstimme sitzt weiterhin dort. Richtig ist «Der Mann kam mehrere Wochen nicht»."
+     },
+     {
+      "antwort": "Er sass an einem anderen Tisch",
+      "diagnoseId": "handlung",
+      "feedback": "Dann hätte sie ihn gesehen. Richtig ist «Der Mann kam mehrere Wochen nicht»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was verrät «ich merkte es daran, dass ich zweimal von meinem Buch aufsah»?",
+    "optionen": [
+     "Sein Fehlen ist ihr aufgefallen, bevor sie es sich eingestand",
+     "Sie konnte nicht lesen",
+     "Der Saal war laut",
+     "Sie suchte einen anderen Platz"
+    ],
+    "loesung": [
+     "Sein Fehlen ist ihr aufgefallen, bevor sie es sich eingestand"
+    ],
+    "erklaerung": "Sie sieht auf «ohne einen Grund» — der Grund ist die fehlende Störung.",
+    "fehler": [
+     {
+      "antwort": "Sie konnte nicht lesen",
+      "diagnoseId": "deutung",
+      "feedback": "Über ihre Konzentration sagt der Text nur dies eine."
+     },
+     {
+      "antwort": "Der Saal war laut",
+      "diagnoseId": "deutung",
+      "feedback": "Gerade die Stille ist das Neue. Richtig ist «Sein Fehlen ist ihr aufgefallen, bevor sie es sich eingestand»."
+     },
+     {
+      "antwort": "Sie suchte einen anderen Platz",
+      "diagnoseId": "handlung",
+      "feedback": "Den Platzwechsel gab es früher. Richtig ist «Sein Fehlen ist ihr aufgefallen, bevor sie es sich eingestand»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie ist der Satz «Er war mir vom ersten Samstag an unangenehm» im Ganzen zu verstehen?",
+    "optionen": [
+     "Als Eingeständnis eines Gefühls ohne Begründung",
+     "Als Vorwurf an den Mann",
+     "Als Beschreibung seines Verhaltens",
+     "Als Erklärung des Ausgangs"
+    ],
+    "loesung": [
+     "Als Eingeständnis eines Gefühls ohne Begründung"
+    ],
+    "erklaerung": "Der nächste Satz sagt es ausdrücklich: «Ich weiss bis heute nicht, warum.»",
+    "fehler": [
+     {
+      "antwort": "Als Vorwurf an den Mann",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text betont, dass er nichts Verbotenes tat."
+     },
+     {
+      "antwort": "Als Beschreibung seines Verhaltens",
+      "diagnoseId": "funktion",
+      "feedback": "Beschrieben wird ihr Gefühl, nicht sein Verhalten."
+     },
+     {
+      "antwort": "Als Erklärung des Ausgangs",
+      "diagnoseId": "aufbau",
+      "feedback": "Erklärt wird nichts; der Ausgang kommt erst später."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «wie ein entferntes Radio, das jemand vergessen hatte»?",
+    "optionen": [
+     "Ein Geräusch, das man nicht abstellen kann und doch bemerkt",
+     "Ein Radio im Nebenzimmer",
+     "Ein leises Lied",
+     "Ein defektes Gerät"
+    ],
+    "loesung": [
+     "Ein Geräusch, das man nicht abstellen kann und doch bemerkt"
+    ],
+    "erklaerung": "Das Bild trifft genau die Art der Störung: leise, dauernd, nicht zu ändern.",
+    "fehler": [
+     {
+      "antwort": "Ein Radio im Nebenzimmer",
+      "diagnoseId": "woertlich",
+      "feedback": "Ein Radio gibt es nicht; es ist ein Vergleich."
+     },
+     {
+      "antwort": "Ein leises Lied",
+      "diagnoseId": "bild",
+      "feedback": "Es geht um eine Stimme, nicht um Musik. Richtig ist «Ein Geräusch, das man nicht abstellen kann und doch bemerkt»."
+     },
+     {
+      "antwort": "Ein defektes Gerät",
+      "diagnoseId": "bild",
+      "feedback": "Vom Defekt handelt das Bild nicht. Richtig ist «Ein Geräusch, das man nicht abstellen kann und doch bemerkt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «drei Schritte bis zur Garderobe, dann die Pause, dann der Rest»?",
+    "optionen": [
+     "Die Erzählstimme kennt seinen Ablauf genau",
+     "Der Mann geht langsam",
+     "Die Garderobe ist weit weg",
+     "Der Saal ist klein"
+    ],
+    "loesung": [
+     "Die Erzählstimme kennt seinen Ablauf genau"
+    ],
+    "erklaerung": "Wer ein Geräusch so genau zerlegt, hat lange darauf gehört.",
+    "fehler": [
+     {
+      "antwort": "Der Mann geht langsam",
+      "diagnoseId": "deutung",
+      "feedback": "Über sein Tempo sagt der Satz nichts. Richtig ist «Die Erzählstimme kennt seinen Ablauf genau»."
+     },
+     {
+      "antwort": "Die Garderobe ist weit weg",
+      "diagnoseId": "woertlich",
+      "feedback": "Drei Schritte sind gerade nicht weit. Richtig ist «Die Erzählstimme kennt seinen Ablauf genau»."
+     },
+     {
+      "antwort": "Der Saal ist klein",
+      "diagnoseId": "deutung",
+      "feedback": "Über die Grösse sagt der Text nichts. Richtig ist «Die Erzählstimme kennt seinen Ablauf genau»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über die Frau im März lässt sich belegen?",
+    "optionen": [
+     "Sie kann offenbar nicht selbst lesen",
+     "Sie ist die Ehefrau des Mannes",
+     "Sie arbeitet in der Bibliothek",
+     "Sie ist zum ersten Mal dort"
+    ],
+    "loesung": [
+     "Sie kann offenbar nicht selbst lesen"
+    ],
+    "erklaerung": "Sie wendet das Gesicht zum Fenster, «ohne die Augen zu bewegen» — und er liest ihr vor.",
+    "fehler": [
+     {
+      "antwort": "Sie ist die Ehefrau des Mannes",
+      "diagnoseId": "beleg",
+      "feedback": "Über ihr Verhältnis sagt der Text nichts."
+     },
+     {
+      "antwort": "Sie arbeitet in der Bibliothek",
+      "diagnoseId": "beleg",
+      "feedback": "Sie kommt als Besucherin. Richtig ist «Sie kann offenbar nicht selbst lesen»."
+     },
+     {
+      "antwort": "Sie ist zum ersten Mal dort",
+      "diagnoseId": "beleg",
+      "feedback": "Der Text sagt, sie habe vorher nicht kommen können."
+     }
+    ]
+   }
+  ],
+  "text": "Samstags um zehn\n\nIch sah ihn jeden Samstag. Immer am selben Tisch, dem dritten von hinten, immer mit dem Rücken zum Fenster, obwohl das der schlechteste Platz im ganzen Lesesaal ist. Wer dort sitzt, hat das Licht hinter sich und den halben Raum vor Augen.\n\nEr kam kurz nach zehn, legte den Mantel über die Stuhllehne und breitete drei Bücher aus, die er nie zurückstellte, bevor der Saal um zwölf schloss. Dann las er. Halblaut. Nicht so laut, dass man ihn hätte zurechtweisen können, aber laut genug, dass es an meinem Tisch ankam wie ein entferntes Radio, das jemand vergessen hatte.\n\nEr war mir vom ersten Samstag an unangenehm. Ich weiss bis heute nicht, warum. Er tat nichts Verbotenes, er roch nicht, er rempelte niemanden an. Trotzdem spannte sich etwas in mir, sobald die Tür ging und ich seine Schritte hörte, drei Schritte bis zur Garderobe, dann die Pause, dann der Rest.\n\nEinmal wechselte ich den Platz und setzte mich in die andere Ecke. Es half nichts. Ich hörte ihn trotzdem, und weil ich ihn nun nicht mehr sah, hörte ich ihn stärker.\n\nZweimal beschwerte ich mich bei der Frau am Ausleihschalter. Beim ersten Mal nickte sie und sagte, sie werde darauf achten. Beim zweiten Mal schaute sie mich einen Moment zu lange an und sagte, sie werde darauf achten.\n\nIm Februar blieb sein Tisch leer. Ich merkte es am dritten Samstag, und ich merkte es daran, dass ich zweimal von meinem Buch aufsah, ohne einen Grund. Am vierten Samstag ertappte ich mich dabei, wie ich zur Tür schaute, als sie um Viertel nach zehn aufging. Es war ein Schulkind mit einem Rucksack.\n\nIm März kam er wieder, mit demselben Mantel und denselben drei Büchern. Und diesmal war jemand bei ihm: eine ältere Frau, die er am Ellbogen führte und die sich langsam auf den Stuhl ihm gegenüber setzte. Sie legte beide Hände flach auf den Tisch und wandte das Gesicht zum Fenster, ohne die Augen zu bewegen.\n\nEr schlug das erste Buch auf und begann zu lesen. Halblaut. Genau so, wie er es all die Samstage vorher getan hatte, an denen sie nicht hatte kommen können.\n\nIch packte meine Sachen zusammen und ging hinaus, und auf der Treppe blieb ich stehen und schämte mich so gründlich, wie ich mich seit Jahren nicht geschämt hatte.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Sprachprüfung, Teil «Textverständnis»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Motive erschliessen, Pointe deuten, Aussagen im Zusammenhang",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-ausdruck",
+  "lernzielId": "DSSZ.1.01",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Setze das Wort probeweise in den Satz ein und lies ihn ganz.",
+   "Bei einem Bild fragst du: Was ist wörtlich gemeint, was übertragen?",
+   "Ein treffendes Wort sagt mehr als «machen», «Sache» oder «schön»."
+  ],
+  "loesungsweg": [
+   "Den ganzen Satz lesen.",
+   "Die Bedeutung jedes Wortes prüfen.",
+   "Das passende einsetzen.",
+   "Den Satz noch einmal lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort bedeutet fast dasselbe wie «unangenehm»?",
+    "optionen": [
+     "lästig",
+     "gleichgültig",
+     "selten",
+     "laut"
+    ],
+    "loesung": [
+     "lästig"
+    ],
+    "erklaerung": "«lästig» und «unangenehm» beschreiben beide etwas, das stört.",
+    "fehler": [
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "bedeutung",
+      "feedback": "Gleichgültig heisst, dass einem etwas egal ist — dann würde es gerade nicht stören."
+     },
+     {
+      "antwort": "selten",
+      "diagnoseId": "bedeutung",
+      "feedback": "Selten sagt etwas über die Häufigkeit, nicht über die Wirkung."
+     },
+     {
+      "antwort": "laut",
+      "diagnoseId": "bedeutung",
+      "feedback": "Laut ist eine mögliche Ursache, aber nicht dasselbe Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «zurechtweisen»?",
+    "optionen": [
+     "loben",
+     "tadeln",
+     "ermahnen",
+     "kritisieren"
+    ],
+    "loesung": [
+     "loben"
+    ],
+    "erklaerung": "Zurechtweisen heisst tadeln; das Gegenteil ist loben.",
+    "fehler": [
+     {
+      "antwort": "tadeln",
+      "diagnoseId": "synonym",
+      "feedback": "Tadeln bedeutet fast dasselbe wie zurechtweisen, nicht das Gegenteil."
+     },
+     {
+      "antwort": "ermahnen",
+      "diagnoseId": "synonym",
+      "feedback": "Ermahnen liegt nahe bei zurechtweisen; gesucht ist das Gegenteil, nicht ein ähnliches Wort."
+     },
+     {
+      "antwort": "kritisieren",
+      "diagnoseId": "synonym",
+      "feedback": "Auch kritisieren geht in dieselbe Richtung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet die Redewendung «jemandem den Kopf waschen»?",
+    "optionen": [
+     "jemanden deutlich zurechtweisen",
+     "jemandem helfen",
+     "jemanden zum Lachen bringen",
+     "jemanden waschen"
+    ],
+    "loesung": [
+     "jemanden deutlich zurechtweisen"
+    ],
+    "erklaerung": "Die Wendung meint eine deutliche Rüge, nicht das Haarewaschen.",
+    "fehler": [
+     {
+      "antwort": "jemandem helfen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Die Wendung ist kein Ausdruck der Hilfe, sondern der Zurechtweisung."
+     },
+     {
+      "antwort": "jemanden zum Lachen bringen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Lustig ist an der Wendung nichts; wem der Kopf gewaschen wird, dem wird deutlich die Meinung gesagt."
+     },
+     {
+      "antwort": "jemanden waschen",
+      "diagnoseId": "zu_woertlich",
+      "feedback": "Wörtlich genommen ergibt die Wendung ihren übertragenen Sinn nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «etwas auf die lange Bank schieben»?",
+    "optionen": [
+     "etwas immer wieder aufschieben",
+     "etwas gemeinsam tragen",
+     "etwas verlieren",
+     "etwas ordnen"
+    ],
+    "loesung": [
+     "etwas immer wieder aufschieben"
+    ],
+    "erklaerung": "Die Wendung stammt aus alten Gerichtssälen: Was auf die lange Bank kam, wurde nicht behandelt.",
+    "fehler": [
+     {
+      "antwort": "etwas gemeinsam tragen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Von Gemeinsamkeit sagt die Wendung nichts."
+     },
+     {
+      "antwort": "etwas verlieren",
+      "diagnoseId": "bedeutung",
+      "feedback": "Verloren geht dabei nichts; es wird nur verzögert."
+     },
+     {
+      "antwort": "etwas ordnen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Mit Ordnung hat die Wendung nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches sprachliche Bild liegt vor?\n\nDie Stille legte sich über den Lesesaal.",
+    "optionen": [
+     "Personifikation",
+     "Vergleich",
+     "Oxymoron",
+     "Wiederholung"
+    ],
+    "loesung": [
+     "Personifikation"
+    ],
+    "erklaerung": "Sich legen kann nur etwas Handelndes; hier tut es die Stille.",
+    "fehler": [
+     {
+      "antwort": "Vergleich",
+      "diagnoseId": "mittel",
+      "feedback": "Für einen Vergleich fehlt das «wie», das zwei Dinge verbinden müsste."
+     },
+     {
+      "antwort": "Oxymoron",
+      "diagnoseId": "mittel",
+      "feedback": "Ein Oxymoron bräuchte zwei Wörter, die einander widersprechen."
+     },
+     {
+      "antwort": "Wiederholung",
+      "diagnoseId": "mittel",
+      "feedback": "Für eine Wiederholung müsste ein Wort mehrfach dastehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches sprachliche Bild liegt vor?\n\nSeine Stimme war ein entferntes Radio.",
+    "optionen": [
+     "Metapher",
+     "Vergleich",
+     "Personifikation",
+     "Oxymoron"
+    ],
+    "loesung": [
+     "Metapher"
+    ],
+    "erklaerung": "Die Stimme wird nicht mit dem Radio verglichen, sie wird dazu erklärt — ohne «wie».",
+    "fehler": [
+     {
+      "antwort": "Vergleich",
+      "diagnoseId": "mittel",
+      "feedback": "Beim Vergleich hiesse es: wie ein entferntes Radio."
+     },
+     {
+      "antwort": "Personifikation",
+      "diagnoseId": "mittel",
+      "feedback": "Hier handelt kein Ding wie ein Mensch; ein Ding steht für ein anderes."
+     },
+     {
+      "antwort": "Oxymoron",
+      "diagnoseId": "mittel",
+      "feedback": "Stimme und Radio widersprechen einander nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz gehört zur gehobenen Stilebene?",
+    "optionen": [
+     "Er nahm den Mantel und verliess den Saal.",
+     "Er schnappte sich die Jacke und haute ab.",
+     "Er hat dann halt seine Sachen genommen.",
+     "Der ist einfach abgezischt."
+    ],
+    "loesung": [
+     "Er nahm den Mantel und verliess den Saal."
+    ],
+    "erklaerung": "Der erste Satz kommt ohne umgangssprachliche Wendungen aus und passt in einen schriftlichen Text.",
+    "fehler": [
+     {
+      "antwort": "Er schnappte sich die Jacke und haute ab.",
+      "diagnoseId": "umgangssprache",
+      "feedback": "«sich schnappen» und «abhauen» gehören in die Umgangssprache."
+     },
+     {
+      "antwort": "Er hat dann halt seine Sachen genommen.",
+      "diagnoseId": "umgangssprache",
+      "feedback": "«halt» und die Perfektform machen den Satz mündlich."
+     },
+     {
+      "antwort": "Der ist einfach abgezischt.",
+      "diagnoseId": "umgangssprache",
+      "feedback": "«abzischen» ist salopp und passt nicht in einen schriftlichen Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist am treffendsten?\n\nEr ______ die Bücher auf dem Tisch.",
+    "optionen": [
+     "breitete … aus",
+     "machte",
+     "tat",
+     "hatte"
+    ],
+    "loesung": [
+     "breitete … aus"
+    ],
+    "erklaerung": "«ausbreiten» sagt genau, was geschieht; «machen», «tun» und «haben» sagen fast nichts.",
+    "fehler": [
+     {
+      "antwort": "machte",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«machen» passt fast überall und darum nirgends genau."
+     },
+     {
+      "antwort": "tat",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«tun» ist ebenso unbestimmt wie «machen»."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«haben» beschreibt keinen Vorgang, sondern einen Zustand."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist am treffendsten?\n\nDas Kind ______ vor Freude durch den Gang.",
+    "optionen": [
+     "hüpfte",
+     "ging",
+     "war",
+     "machte"
+    ],
+    "loesung": [
+     "hüpfte"
+    ],
+    "erklaerung": "«hüpfen» zeigt die Freude in der Bewegung; «gehen» wäre neutral.",
+    "fehler": [
+     {
+      "antwort": "ging",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«gehen» sagt nichts über die Freude; gesucht ist ein Wort, das die Stimmung zeigt."
+     },
+     {
+      "antwort": "war",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«sein» beschreibt keinen Vorgang, sondern einen Zustand; hier bewegt sich das Kind."
+     },
+     {
+      "antwort": "machte",
+      "diagnoseId": "allerweltswort",
+      "feedback": "«machen» passt hier grammatisch nicht einmal."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lässt sich dieser Satz besser formulieren?\n\nEs wurde von ihm ein Buch gelesen.",
+    "optionen": [
+     "Er las ein Buch.",
+     "Ein Buch wurde von ihm gelesen worden.",
+     "Das Buch ist von ihm zu lesen.",
+     "Es ist ein Buch gelesen."
+    ],
+    "loesung": [
+     "Er las ein Buch."
+    ],
+    "erklaerung": "Das Passiv ist hier umständlich; im Aktiv wird der Satz kürzer und klarer.",
+    "fehler": [
+     {
+      "antwort": "Ein Buch wurde von ihm gelesen worden.",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es nicht; sie mischt zwei Zeitformen."
+     },
+     {
+      "antwort": "Das Buch ist von ihm zu lesen.",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das hiesse, er müsse es noch lesen — eine andere Aussage."
+     },
+     {
+      "antwort": "Es ist ein Buch gelesen.",
+      "diagnoseId": "form",
+      "feedback": "Der Satz ist unvollständig und ergibt keinen klaren Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Formulierung ist am klarsten?",
+    "optionen": [
+     "Die Bibliothek schliesst um zwölf Uhr.",
+     "Die Schliessung der Bibliothek erfolgt um zwölf Uhr.",
+     "Es kommt um zwölf Uhr zur Schliessung der Bibliothek.",
+     "Um zwölf Uhr findet die Schliessung der Bibliothek statt."
+    ],
+    "loesung": [
+     "Die Bibliothek schliesst um zwölf Uhr."
+    ],
+    "erklaerung": "Ein Verb sagt mehr als ein Nomen mit Hilfsverb: «schliesst» statt «erfolgt die Schliessung».",
+    "fehler": [
+     {
+      "antwort": "Die Schliessung der Bibliothek erfolgt um zwölf Uhr.",
+      "diagnoseId": "nominalstil",
+      "feedback": "Aus dem Verb ist ein Nomen geworden; der Satz wird schwerfälliger."
+     },
+     {
+      "antwort": "Es kommt um zwölf Uhr zur Schliessung der Bibliothek.",
+      "diagnoseId": "nominalstil",
+      "feedback": "«Es kommt zu» ist eine Umschreibung, die nichts hinzufügt."
+     },
+     {
+      "antwort": "Um zwölf Uhr findet die Schliessung der Bibliothek statt.",
+      "diagnoseId": "nominalstil",
+      "feedback": "«stattfinden» ersetzt hier ein klares Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt in die Lücke?\n\nSein Verhalten war mir vom ersten Tag an ______ .",
+    "optionen": [
+     "suspekt",
+     "gemütlich",
+     "gründlich",
+     "sparsam"
+    ],
+    "loesung": [
+     "suspekt"
+    ],
+    "erklaerung": "«suspekt» heisst verdächtig oder unheimlich und passt zu einem unguten Gefühl.",
+    "fehler": [
+     {
+      "antwort": "gemütlich",
+      "diagnoseId": "bedeutung",
+      "feedback": "Gemütlich beschreibt ein angenehmes Gefühl — das Gegenteil."
+     },
+     {
+      "antwort": "gründlich",
+      "diagnoseId": "bedeutung",
+      "feedback": "Gründlich sagt etwas über die Sorgfalt, nicht über ein Gefühl."
+     },
+     {
+      "antwort": "sparsam",
+      "diagnoseId": "bedeutung",
+      "feedback": "Sparsam beschreibt den Umgang mit Geld oder Mitteln."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortbedeutung, Redewendungen und sprachliche Bilder",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-ausdruck-2",
+  "lernzielId": "DSSZ.1.04",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Stilebene sagt, in welcher Lage ein Wort passt: gehoben, normal, salopp.",
+   "Ein Allerweltswort wie «machen» oder «Sache» lässt sich fast immer ersetzen.",
+   "Beim Umformulieren bleibt der Sinn gleich, nur die Form ändert."
+  ],
+  "loesungsweg": [
+   "Die Stilebene bestimmen.",
+   "Fragen, was genau gemeint ist.",
+   "Ein treffendes Wort suchen.",
+   "Den neuen Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort gehört zur gehobenen Sprache?",
+    "optionen": [
+     "erwidern",
+     "sagen",
+     "quatschen",
+     "reden"
+    ],
+    "loesung": [
+     "erwidern"
+    ],
+    "erklaerung": "«erwidern» ist gewählter als «sagen» und deutlich gewählter als «quatschen».",
+    "fehler": [
+     {
+      "antwort": "sagen",
+      "diagnoseId": "stilebene",
+      "feedback": "«sagen» ist neutral. Richtig ist «erwidern»."
+     },
+     {
+      "antwort": "quatschen",
+      "diagnoseId": "stilebene",
+      "feedback": "«quatschen» ist salopp. Richtig ist «erwidern»."
+     },
+     {
+      "antwort": "reden",
+      "diagnoseId": "stilebene",
+      "feedback": "«reden» ist neutral. Richtig ist «erwidern»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist salopp?",
+    "optionen": [
+     "abhauen",
+     "weggehen",
+     "sich entfernen",
+     "aufbrechen"
+    ],
+    "loesung": [
+     "abhauen"
+    ],
+    "erklaerung": "«abhauen» gehört zur lockeren gesprochenen Sprache.",
+    "fehler": [
+     {
+      "antwort": "weggehen",
+      "diagnoseId": "stilebene",
+      "feedback": "«weggehen» ist neutral. Richtig ist «abhauen»."
+     },
+     {
+      "antwort": "sich entfernen",
+      "diagnoseId": "stilebene",
+      "feedback": "«sich entfernen» ist gehoben. Richtig ist «abhauen»."
+     },
+     {
+      "antwort": "aufbrechen",
+      "diagnoseId": "stilebene",
+      "feedback": "«aufbrechen» ist neutral. Richtig ist «abhauen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz passt in einen Brief an eine Behörde?",
+    "optionen": [
+     "Ich bitte Sie um eine kurze Rückmeldung.",
+     "Meldet euch mal.",
+     "Gebt mir Bescheid, ja?",
+     "Ich will jetzt eine Antwort."
+    ],
+    "loesung": [
+     "Ich bitte Sie um eine kurze Rückmeldung."
+    ],
+    "erklaerung": "Der Anlass verlangt eine höfliche, gewählte Form.",
+    "fehler": [
+     {
+      "antwort": "Meldet euch mal.",
+      "diagnoseId": "stilebene",
+      "feedback": "Das ist zu salopp für eine Behörde. Richtig ist «Ich bitte Sie um eine kurze Rückmeldung.»."
+     },
+     {
+      "antwort": "Gebt mir Bescheid, ja?",
+      "diagnoseId": "stilebene",
+      "feedback": "Auch das gehört in ein Gespräch unter Freunden."
+     },
+     {
+      "antwort": "Ich will jetzt eine Antwort.",
+      "diagnoseId": "ton",
+      "feedback": "Das klingt fordernd statt höflich. Richtig ist «Ich bitte Sie um eine kurze Rückmeldung.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist treffender als «machen»?\n\nSie ______ einen Fehler.",
+    "optionen": [
+     "beging",
+     "tat",
+     "hatte",
+     "gab"
+    ],
+    "loesung": [
+     "beging"
+    ],
+    "erklaerung": "«einen Fehler begehen» ist die genaue Wendung.",
+    "fehler": [
+     {
+      "antwort": "tat",
+      "diagnoseId": "blass",
+      "feedback": "«tun» ist so blass wie «machen». Richtig ist «beging»."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«einen Fehler haben» sagt etwas anderes."
+     },
+     {
+      "antwort": "gab",
+      "diagnoseId": "bedeutung",
+      "feedback": "«einen Fehler geben» gibt es nicht. Richtig ist «beging»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist treffender als «machen»?\n\nEr ______ eine Entscheidung.",
+    "optionen": [
+     "traf",
+     "tat",
+     "legte",
+     "brachte"
+    ],
+    "loesung": [
+     "traf"
+    ],
+    "erklaerung": "«eine Entscheidung treffen» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "tat",
+      "diagnoseId": "blass",
+      "feedback": "«tun» sagt nichts über die Handlung. Richtig ist «traf»."
+     },
+     {
+      "antwort": "legte",
+      "diagnoseId": "wendung",
+      "feedback": "«eine Entscheidung legen» gibt es nicht."
+     },
+     {
+      "antwort": "brachte",
+      "diagnoseId": "wendung",
+      "feedback": "«eine Entscheidung bringen» gibt es nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nomen ist treffender als «Sache»?\n\nWir müssen diese ______ noch klären.",
+    "optionen": [
+     "Frage",
+     "Sache",
+     "Ding",
+     "Geschichte"
+    ],
+    "loesung": [
+     "Frage"
+    ],
+    "erklaerung": "«Frage» sagt genau, worum es geht: etwas Ungeklärtes.",
+    "fehler": [
+     {
+      "antwort": "Sache",
+      "diagnoseId": "blass",
+      "feedback": "«Sache» ist gerade das Wort, das ersetzt werden soll."
+     },
+     {
+      "antwort": "Ding",
+      "diagnoseId": "blass",
+      "feedback": "«Ding» ist ebenso unbestimmt. Richtig ist «Frage»."
+     },
+     {
+      "antwort": "Geschichte",
+      "diagnoseId": "umgangssprachlich",
+      "feedback": "«Geschichte» in diesem Sinn ist salopp. Richtig ist «Frage»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Adjektiv ist treffender als «schön»?\n\nDer Vortrag war ______ aufgebaut.",
+    "optionen": [
+     "klar",
+     "schön",
+     "gut",
+     "nett"
+    ],
+    "loesung": [
+     "klar"
+    ],
+    "erklaerung": "«klar» sagt, was am Aufbau gelungen war.",
+    "fehler": [
+     {
+      "antwort": "schön",
+      "diagnoseId": "blass",
+      "feedback": "«schön» sagt nichts über den Aufbau. Richtig ist «klar»."
+     },
+     {
+      "antwort": "gut",
+      "diagnoseId": "blass",
+      "feedback": "«gut» ist ebenso allgemein. Richtig ist «klar»."
+     },
+     {
+      "antwort": "nett",
+      "diagnoseId": "blass",
+      "feedback": "«nett» passt kaum zu einem Aufbau. Richtig ist «klar»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den Satz um, ohne den Sinn zu ändern.\n\nWeil es regnete, blieben wir zu Hause.",
+    "optionen": [
+     "Wegen des Regens blieben wir zu Hause.",
+     "Trotz des Regens blieben wir zu Hause.",
+     "Der Regen blieb zu Hause.",
+     "Wir blieben zu Hause, obwohl es regnete."
+    ],
+    "loesung": [
+     "Wegen des Regens blieben wir zu Hause."
+    ],
+    "erklaerung": "Der Nebensatz mit «weil» wird zur Präpositionalgruppe mit «wegen».",
+    "fehler": [
+     {
+      "antwort": "Trotz des Regens blieben wir zu Hause.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«trotz» kehrt den Sinn um. Richtig ist «Wegen des Regens blieben wir zu Hause.»."
+     },
+     {
+      "antwort": "Der Regen blieb zu Hause.",
+      "diagnoseId": "sinn",
+      "feedback": "Das Subjekt ist vertauscht. Richtig ist «Wegen des Regens blieben wir zu Hause.»."
+     },
+     {
+      "antwort": "Wir blieben zu Hause, obwohl es regnete.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«obwohl» kehrt den Sinn um. Richtig ist «Wegen des Regens blieben wir zu Hause.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den Satz ins Passiv um.\n\nDie Bibliothek verlängert die Öffnungszeiten.",
+    "optionen": [
+     "Die Öffnungszeiten werden von der Bibliothek verlängert.",
+     "Die Bibliothek wird verlängert.",
+     "Die Öffnungszeiten verlängern die Bibliothek.",
+     "Die Öffnungszeiten sind verlängert worden von der Bibliothek."
+    ],
+    "loesung": [
+     "Die Öffnungszeiten werden von der Bibliothek verlängert."
+    ],
+    "erklaerung": "Das Akkusativobjekt wird zum Subjekt, die handelnde Person steht mit «von».",
+    "fehler": [
+     {
+      "antwort": "Die Bibliothek wird verlängert.",
+      "diagnoseId": "sinn",
+      "feedback": "Verlängert werden die Zeiten, nicht das Haus."
+     },
+     {
+      "antwort": "Die Öffnungszeiten verlängern die Bibliothek.",
+      "diagnoseId": "sinn",
+      "feedback": "Das kehrt die Aussage um. Richtig ist «Die Öffnungszeiten werden von der Bibliothek verlängert.»."
+     },
+     {
+      "antwort": "Die Öffnungszeiten sind verlängert worden von der Bibliothek.",
+      "diagnoseId": "zeit",
+      "feedback": "Das ist das Perfekt, verlangt war die Gegenwart."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den Satz kürzer, ohne den Sinn zu ändern.\n\nEr las das Buch, das er ausgeliehen hatte.",
+    "optionen": [
+     "Er las das ausgeliehene Buch.",
+     "Er lieh das gelesene Buch aus.",
+     "Er las und lieh das Buch aus.",
+     "Das Buch las er aus."
+    ],
+    "loesung": [
+     "Er las das ausgeliehene Buch."
+    ],
+    "erklaerung": "Der Relativsatz wird zu einem Partizip vor dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "Er lieh das gelesene Buch aus.",
+      "diagnoseId": "sinn",
+      "feedback": "Hier sind Lesen und Ausleihen vertauscht."
+     },
+     {
+      "antwort": "Er las und lieh das Buch aus.",
+      "diagnoseId": "sinn",
+      "feedback": "Die Reihenfolge geht verloren. Richtig ist «Er las das ausgeliehene Buch.»."
+     },
+     {
+      "antwort": "Das Buch las er aus.",
+      "diagnoseId": "sinn",
+      "feedback": "«auslesen» heisst zu Ende lesen. Richtig ist «Er las das ausgeliehene Buch.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist stilistisch besser?",
+    "optionen": [
+     "Der Zug hatte zwanzig Minuten Verspätung.",
+     "Der Zug hat eine Verspätung von zwanzig Minuten gehabt gehabt.",
+     "Es war so, dass der Zug zwanzig Minuten Verspätung hatte.",
+     "Zwanzig Minuten, so viel Verspätung hatte der Zug, nämlich."
+    ],
+    "loesung": [
+     "Der Zug hatte zwanzig Minuten Verspätung."
+    ],
+    "erklaerung": "Kurz, klar, ohne Füllwörter.",
+    "fehler": [
+     {
+      "antwort": "Der Zug hat eine Verspätung von zwanzig Minuten gehabt gehabt.",
+      "diagnoseId": "form",
+      "feedback": "«gehabt gehabt» ist doppelt und falsch. Richtig ist «Der Zug hatte zwanzig Minuten Verspätung.»."
+     },
+     {
+      "antwort": "Es war so, dass der Zug zwanzig Minuten Verspätung hatte.",
+      "diagnoseId": "fuellwoerter",
+      "feedback": "«Es war so, dass» ist überflüssig. Richtig ist «Der Zug hatte zwanzig Minuten Verspätung.»."
+     },
+     {
+      "antwort": "Zwanzig Minuten, so viel Verspätung hatte der Zug, nämlich.",
+      "diagnoseId": "form",
+      "feedback": "Der Satzbau ist umständlich. Richtig ist «Der Zug hatte zwanzig Minuten Verspätung.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist in einem Aufsatz zu salopp?",
+    "optionen": [
+     "krass",
+     "auffällig",
+     "bemerkenswert",
+     "erstaunlich"
+    ],
+    "loesung": [
+     "krass"
+    ],
+    "erklaerung": "«krass» gehört in die gesprochene Jugendsprache.",
+    "fehler": [
+     {
+      "antwort": "auffällig",
+      "diagnoseId": "stilebene",
+      "feedback": "«auffällig» ist neutral. Richtig ist «krass»."
+     },
+     {
+      "antwort": "bemerkenswert",
+      "diagnoseId": "stilebene",
+      "feedback": "«bemerkenswert» ist gehoben. Richtig ist «krass»."
+     },
+     {
+      "antwort": "erstaunlich",
+      "diagnoseId": "stilebene",
+      "feedback": "«erstaunlich» ist neutral bis gehoben. Richtig ist «krass»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Stilebenen, treffende Wörter und Sätze umformulieren",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-wortarten-sz",
+  "lernzielId": "DSSZ.2.01",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Prüfe, ob sich das Wort beugen oder steigern lässt.",
+   "Ein Nomen verträgt einen Artikel, ein Verb lässt sich in eine andere Zeit setzen.",
+   "Präposition und Konjunktion verwechselt man leicht: Die Konjunktion verbindet zwei Teile."
+  ],
+  "loesungsweg": [
+   "Das gefragte Wort im Satz suchen.",
+   "Prüfen, wie es sich verändern lässt.",
+   "Die Wortart daraus ableiten.",
+   "Zur Probe ersetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wortart hat das Wort «Lesesaal» in diesem Satz?\n\nDer Lesesaal schliesst um zwölf Uhr.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "«Lesesaal» steht mit dem Artikel «Der» und benennt einen Ort — das kennzeichnet das Nomen.",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «schliesst»; es sagt, was geschieht."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern; das geht bei «Lesesaal» nicht."
+     },
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Die Präposition dieses Satzes ist «um»; sie steht vor der Zeitangabe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «legte» in diesem Satz?\n\nEr legte den Mantel über die Stuhllehne.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Verb"
+    ],
+    "erklaerung": "«legte» sagt, was geschieht, und lässt sich in andere Zeiten setzen: legt, hat gelegt.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen trüge einen Artikel; hier steht ein Verb im Präteritum."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wie etwas geschieht, und liesse sich nicht beugen."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe eine Eigenschaft und liesse sich steigern."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «frei» in diesem Satz?\n\nDer dritte Tisch von hinten war immer frei.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Adjektiv"
+    ],
+    "erklaerung": "«frei» beschreibt eine Eigenschaft des Tisches und liesse sich steigern.",
+    "fehler": [
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Adverbien wie «immer» lassen sich nicht steigern; «frei» schon."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «war»; es sagt, in welchem Zustand der Tisch war."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen würde grossgeschrieben und trüge einen Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Eine» in diesem Satz?\n\nEine ältere Frau setzte sich ihm gegenüber.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Artikel"
+    ],
+    "erklaerung": "«Eine» begleitet das Nomen «Frau» — der unbestimmte Artikel.",
+    "fehler": [
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Pronomen stünde für das Nomen; hier steht das Nomen daneben."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Das Adjektiv dieses Satzes ist «ältere»."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Frau»; «Eine» begleitet es nur."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «ihn» in diesem Satz?\n\nIch hörte ihn trotzdem.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«ihn» steht anstelle einer zuvor genannten Person — ein Personalpronomen im Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel begleitete ein Nomen; hier steht keines daneben."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen benennte die Person; das Pronomen ersetzt sie."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Das Adverb dieses Satzes ist «trotzdem»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «mit» in diesem Satz?\n\nEr sass mit dem Rücken zum Fenster.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«mit» steht vor der Wortgruppe «dem Rücken» und bestimmt deren Fall.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion verbände zwei Satzteile; hier wird nichts verbunden."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein; «mit» braucht eine Wortgruppe."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «dem»; er begleitet das Nomen «Rücken»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «weil» in diesem Satz?\n\nIch wechselte den Platz, weil es mich störte.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«weil» leitet einen Nebensatz ein und schickt das Verb ans Satzende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor einer Wortgruppe, etwa «wegen des Lärms»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb liesse die Wortstellung unverändert."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Die Pronomen dieses Satzes sind «ich», «es» und «mich»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «wieder» in diesem Satz?\n\nIm März kam er wieder.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Adverb"
+    ],
+    "erklaerung": "«wieder» bestimmt näher, wie oft etwas geschieht, und lässt sich nicht beugen.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Als Adjektiv stünde es vor einem Nomen und liesse sich steigern."
+     },
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition bräuchte eine Wortgruppe hinter sich."
+     },
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion verbände zwei Sätze; hier steht nur einer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Während» in diesem Satz?\n\nWährend des Februars blieb sein Tisch leer.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "Hier steht «während» vor der Wortgruppe «des Februars» und verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "«während» kann auch Konjunktion sein — aber nur, wenn ein ganzer Nebensatz mit Verb folgt."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein, ohne Wortgruppe dahinter."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «des»; er gehört zum Nomen «Februars»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Niemand» in diesem Satz?\n\nNiemand hatte sich beschwert.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Niemand» steht anstelle einer Person, die nicht genannt wird — ein Indefinitpronomen.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen benennte jemanden; «niemand» benennt gerade niemanden."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wie etwas geschieht, nicht wer handelt."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel begleitete ein Nomen; hier steht keines."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Lesen» in diesem Satz?\n\nDas Lesen fiel ihr an diesem Tag schwer.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "Aus dem Verb «lesen» ist hier ein Nomen geworden: Es trägt den Artikel «Das».",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "«lesen» ist ursprünglich ein Verb — mit Artikel davor wird es zum Nomen."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe eine Eigenschaft und liesse sich steigern."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wie gelesen wird, etwa «langsam»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «obwohl» in diesem Satz?\n\nEr las halblaut, obwohl der Saal still war.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«obwohl» leitet einen Nebensatz ein; das Verb «war» rutscht ans Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor einer Wortgruppe, etwa «trotz der Stille»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb liesse die Wortstellung unverändert."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Das Pronomen dieses Satzes ist «er»; es steht für den Mann."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortarten bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-faelle-sz",
+  "lernzielId": "DSSZ.2.02",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Stelle die Frage: wer oder was, wessen, wem, wen oder was?",
+   "Nach manchen Präpositionen steht der Fall fest — «mit» verlangt immer den Dativ.",
+   "Am Satzanfang steht nicht immer das Subjekt."
+  ],
+  "loesungsweg": [
+   "Das Verb des Satzes suchen.",
+   "Die passende Frage stellen.",
+   "Den Ausdruck einsetzen und prüfen.",
+   "Den Fall benennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Fall steht «Der Mann» in diesem Satz?\n\nDer Mann breitete drei Bücher aus.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "Wer breitete aus? Der Mann — das ist der Nominativ und zugleich das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Im Akkusativ stehen «drei Bücher»; wer handelt, steht im Nominativ."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Die Dativfrage «wem?» passt hier nicht; der Mann empfängt nichts."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «des Mannes» und antwortete auf «wessen?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «drei Bücher» in diesem Satz?\n\nDer Mann breitete drei Bücher auf dem Tisch aus.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "Was breitete er aus? Drei Bücher — die Akkusativfrage «wen oder was?».",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «der Mann»; die Bücher werden bewegt."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ steht hier bei «dem Tisch», nicht bei den Büchern."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «dreier Bücher» und antwortete auf «wessen?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «der Frau» in diesem Satz?\n\nEr las der Frau aus einem Buch vor.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Wem las er vor? Der Frau — die Dativfrage kennzeichnet den Empfänger.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Im Akkusativ stünde die Sache, die vorgelesen wird, nicht die Person."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «er»; er führt die Handlung aus."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «der Frau» im Sinn von «wessen?» — hier passt die Frage «wem?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «des Fensters» in diesem Satz?\n\nDas Licht des Fensters fiel auf den Tisch.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "Wessen Licht? Des Fensters — die Endung «-s» kennzeichnet den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ wäre «dem Fenster»; hier wird nach der Zugehörigkeit gefragt."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Akkusativ wäre «das Fenster» und antwortete auf «wen oder was?»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «das Licht»; es fällt auf den Tisch."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «dem Schulkind» in diesem Satz?\n\nWir gingen mit dem Schulkind hinaus.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Die Präposition «mit» verlangt immer den Dativ, unabhängig von der Frage.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition",
+      "feedback": "«mit» steht nie mit dem Akkusativ; diese Präposition verlangt den Dativ."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «wir»; wir führen die Handlung aus."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "praeposition",
+      "feedback": "Der Genitiv steht nach «wegen» oder «während», nicht nach «mit»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «der Beschwerde» in diesem Satz?\n\nTrotz der Beschwerde änderte sich nichts.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«trotz» verlangt den Genitiv: Trotz wessen? Der Beschwerde.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "praeposition",
+      "feedback": "Umgangssprachlich hört man «trotz dem»; die Schriftsprache verlangt den Genitiv."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition",
+      "feedback": "«trotz» steht nie mit dem Akkusativ; die Schriftsprache verlangt hier den Genitiv."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «nichts»; es ist das Subjekt des Satzes."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «Der Frau» in diesem Satz?\n\nDer Frau am Schalter fiel mein Ärger auf.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«auffallen» verlangt den Dativ: Wem fiel er auf? Der Frau.",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "satzanfang",
+      "feedback": "Der Ausdruck steht zwar am Anfang, ist aber nicht das Subjekt — das ist «mein Ärger»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "verb_fall",
+      "feedback": "«auffallen» steht mit dem Dativ, nicht mit dem Akkusativ."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «der Frau» im Sinn von «wessen?»; hier passt «wem?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «den Mantel» in diesem Satz?\n\nOhne den Mantel wäre ihm kalt gewesen.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«ohne» verlangt immer den Akkusativ, unabhängig von der Bedeutung.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "praeposition",
+      "feedback": "«ohne dem Mantel» gibt es nicht; die Präposition verlangt den Akkusativ."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Ein Nominativ steht in diesem Satz nicht sichtbar da; das Subjekt ist ausgelassen."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "praeposition",
+      "feedback": "Der Genitiv steht nach «wegen» oder «trotz», nicht nach «ohne»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «eine geduldige Zuhörerin» in diesem Satz?\n\nSie wurde eine geduldige Zuhörerin.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "Nach «werden» steht die Ergänzung im Nominativ, gleich wie nach «sein».",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "verb_fall",
+      "feedback": "«werden» hat kein Objekt; die Ergänzung bleibt im Nominativ."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Die Frage «wem?» passt hier nicht; es geht um eine Gleichsetzung."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «einer geduldigen Zuhörerin»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «das Regal» in diesem Satz?\n\nEr stellte die Bücher auf das Regal.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«auf» steht hier auf die Frage «wohin?» und verlangt darum den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "wechselpraeposition",
+      "feedback": "Der Dativ stünde auf die Frage «wo?»: auf dem Regal."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «er»; er stellt die Bücher hin."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "praeposition",
+      "feedback": "Nach «auf» steht nie der Genitiv, sondern je nach Frage der Dativ oder der Akkusativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «dem Regal» in diesem Satz?\n\nDie Bücher standen auf dem Regal.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«auf» steht hier auf die Frage «wo?» und verlangt darum den Dativ.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "wechselpraeposition",
+      "feedback": "Der Akkusativ stünde auf die Frage «wohin?»: auf das Regal."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «die Bücher»; sie stehen dort."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "praeposition",
+      "feedback": "Nach «auf» steht nie der Genitiv, sondern je nach Frage der Dativ oder der Akkusativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «des Vorlesers» in diesem Satz?\n\nDie Stimme des Vorlesers war leise.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "Wessen Stimme? Des Vorlesers — die Endung «-s» zeigt den Genitiv an.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ wäre «dem Vorleser»; hier geht es um die Zugehörigkeit."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «die Stimme»; sie ist leise."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Akkusativ antwortete auf «wen oder was?» und lautete «den Vorleser»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Die vier Fälle bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-zeiten-passiv",
+  "lernzielId": "DSSZ.2.03",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.03",
+   "2.04",
+   "2.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Suche zuerst alle Teile des Verbs — oft steht einer am Satzende.",
+   "Das Passiv erkennt man an «werden» plus Partizip.",
+   "In der indirekten Rede steht der Konjunktiv I; fällt er mit dem Indikativ zusammen, weicht man auf den Konjunktiv II aus."
+  ],
+  "loesungsweg": [
+   "Alle Verbteile suchen.",
+   "Bei der Rede prüfen, ob die Form vom Indikativ abweicht.",
+   "Beim Passiv «werden» plus Partizip bilden.",
+   "Die fertige Form laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Präteritum.\n\nEr bringt jeden Samstag drei Bücher mit.\n\nEr ______________ jeden Samstag drei Bücher mit.",
+    "loesung": [
+     "brachte"
+    ],
+    "erklaerung": "«bringen» ist unregelmässig: Im Präteritum lautet es «brachte».",
+    "fehler": [
+     {
+      "antwort": "bringte",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«bringen» wird nicht regelmässig gebeugt; die Vergangenheitsform lautet «brachte»."
+     },
+     {
+      "antwort": "hat gebracht",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Das ist das Perfekt; gefragt ist die einfache Vergangenheitsform."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt.\n\nSie geht ohne ein Wort hinaus.\n\nSie ______________ ohne ein Wort ______________ .",
+    "loesung": [
+     "ist hinausgegangen"
+    ],
+    "erklaerung": "«hinausgehen» ist ein Bewegungsverb und bildet das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "hat hinausgegangen",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Bewegungsverben nehmen im Perfekt «sein», nicht «haben»."
+     },
+     {
+      "antwort": "ist gegangen hinaus",
+      "diagnoseId": "falsche_trennung",
+      "feedback": "Das Partizip lautet «hinausgegangen»; die Vorsilbe bleibt vorn."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt.\n\nWir bemerken den leeren Tisch.\n\nWir ______________ den leeren Tisch ______________ .",
+    "loesung": [
+     "hatten bemerkt"
+    ],
+    "erklaerung": "Das Plusquamperfekt braucht das Hilfsverb im Präteritum: «hatten» plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "haben bemerkt",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Mit «haben» im Präsens ergibt sich das Perfekt; für die Vorvergangenheit braucht es «hatten»."
+     },
+     {
+      "antwort": "waren bemerkt",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«bemerken» bildet die zusammengesetzten Zeiten mit «haben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur I.\n\nDie Bibliothek schliesst um zwölf.\n\nDie Bibliothek ______________ um zwölf ______________ .",
+    "loesung": [
+     "wird schliessen"
+    ],
+    "erklaerung": "Futur I: «werden» in der Personalform plus Grundform.",
+    "fehler": [
+     {
+      "antwort": "werden schliessen",
+      "diagnoseId": "person",
+      "feedback": "«Die Bibliothek» ist Einzahl und verlangt «wird»."
+     },
+     {
+      "antwort": "wird geschlossen",
+      "diagnoseId": "passiv",
+      "feedback": "«wird geschlossen» ist ein Passiv im Präsens; gefragt ist das Futur im Aktiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passiv.\n\nDer Mann liest das Buch vor.\n\nDas Buch ______________ vom Mann ______________ .",
+    "loesung": [
+     "wird vorgelesen"
+    ],
+    "erklaerung": "Das Objekt wird zum Subjekt, das Verb zu «werden» plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "werden vorgelesen",
+      "diagnoseId": "zahl",
+      "feedback": "«Das Buch» steht in der Einzahl; das Hilfsverb lautet «wird»."
+     },
+     {
+      "antwort": "ist vorgelesen",
+      "diagnoseId": "zustand",
+      "feedback": "«ist vorgelesen» beschreibt den Zustand danach, nicht den Vorgang."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Aktiv.\n\nDer Platz wurde von ihr gewechselt.\n\nSie ______________ den Platz.",
+    "loesung": [
+     "wechselte"
+    ],
+    "erklaerung": "Der Ausdruck mit «von» wird zum Subjekt; das Passiv verschwindet, die Zeitform bleibt.",
+    "fehler": [
+     {
+      "antwort": "wechselt",
+      "diagnoseId": "zeit",
+      "feedback": "Der Passivsatz steht in der Vergangenheit; das Aktiv muss ebenfalls dort stehen."
+     },
+     {
+      "antwort": "wurde gewechselt",
+      "diagnoseId": "kein_aktiv",
+      "feedback": "Das ist wieder Passiv; im Aktiv handelt sie selbst."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passiv im Präteritum.\n\nJemand räumte die Bücher weg.\n\nDie Bücher ______________ ______________ .",
+    "loesung": [
+     "wurden weggeräumt"
+    ],
+    "erklaerung": "Im Passiv steht «werden» in der gewünschten Zeit; das Präteritum in der Mehrzahl lautet «wurden».",
+    "fehler": [
+     {
+      "antwort": "wurde weggeräumt",
+      "diagnoseId": "zahl",
+      "feedback": "«Die Bücher» stehen in der Mehrzahl; das Hilfsverb lautet «wurden»."
+     },
+     {
+      "antwort": "sind weggeräumt",
+      "diagnoseId": "zustand",
+      "feedback": "Das beschreibt den Zustand danach, nicht den Vorgang des Wegräumens."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die indirekte Rede.\n\nSie sagte: «Das kann ich nicht ändern.»\n\nSie sagte, sie ______________ das nicht ändern.",
+    "loesung": [
+     "könne"
+    ],
+    "erklaerung": "Der Konjunktiv I von «können» lautet «könne» und unterscheidet sich deutlich vom Indikativ «kann».",
+    "fehler": [
+     {
+      "antwort": "kann",
+      "diagnoseId": "indikativ",
+      "feedback": "«kann» ist der Indikativ; damit übernähme der Erzähler die Aussage als eigene."
+     },
+     {
+      "antwort": "könnte",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II «könnte» wird erst nötig, wenn der Konjunktiv I mit dem Indikativ zusammenfällt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die indirekte Rede.\n\nEr erklärte: «Wir haben nichts gehört.»\n\nEr erklärte, sie ______________ nichts gehört.",
+    "loesung": [
+     "hätten"
+    ],
+    "erklaerung": "In der Mehrzahl sieht der Konjunktiv I «haben» gleich aus wie der Indikativ; darum weicht man auf «hätten» aus.",
+    "fehler": [
+     {
+      "antwort": "haben",
+      "diagnoseId": "gleich_wie_indikativ",
+      "feedback": "Diese Form ist zugleich der Indikativ; die Rede wäre nicht als fremde Aussage erkennbar."
+     },
+     {
+      "antwort": "hatten",
+      "diagnoseId": "indikativ",
+      "feedback": "«hatten» ist der Indikativ des Plusquamperfekts, kein Konjunktiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die indirekte Rede.\n\nEr sagte: «Ich bin krank gewesen.»\n\nEr sagte, er ______________ krank gewesen.",
+    "loesung": [
+     "sei"
+    ],
+    "erklaerung": "Der Konjunktiv I von «sein» lautet «sei» und unterscheidet sich deutlich vom Indikativ «ist».",
+    "fehler": [
+     {
+      "antwort": "ist",
+      "diagnoseId": "indikativ",
+      "feedback": "«ist» ist der Indikativ und kennzeichnet die Aussage nicht als fremde Rede."
+     },
+     {
+      "antwort": "wäre",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II wird erst nötig, wenn der Konjunktiv I mit dem Indikativ zusammenfällt — bei «sein» tut er das nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präsens.\n\nDu hieltest das Buch in der Hand.\n\nDu ______________ das Buch in der Hand.",
+    "loesung": [
+     "hältst"
+    ],
+    "erklaerung": "Im Präsens wechselt der Stammvokal: halten wird zu «du hältst».",
+    "fehler": [
+     {
+      "antwort": "haltest",
+      "diagnoseId": "ohne_umlaut",
+      "feedback": "Bei «halten» tritt in der zweiten Person Einzahl ein Umlaut auf: du hältst."
+     },
+     {
+      "antwort": "hälst",
+      "diagnoseId": "fehlendes_t",
+      "feedback": "Der Stamm endet auf «-lt»; die Endung «-st» kommt dazu: hältst."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präteritum.\n\nDer Saal wird um zwölf geschlossen.\n\nDer Saal ______________ um zwölf geschlossen.",
+    "loesung": [
+     "wurde"
+    ],
+    "erklaerung": "Im Passiv steht «werden» in der gewünschten Zeit; das Präteritum davon lautet «wurde».",
+    "fehler": [
+     {
+      "antwort": "worden",
+      "diagnoseId": "partizip",
+      "feedback": "«worden» ist das Partizip und braucht ein Hilfsverb: «ist geschlossen worden»."
+     },
+     {
+      "antwort": "war",
+      "diagnoseId": "falsches_verb",
+      "feedback": "«war geschlossen» beschreibt den Zustand, nicht den Vorgang des Schliessens."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitformen, Aktiv und Passiv, indirekte Rede",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-satzglieder-sz",
+  "lernzielId": "DSSZ.2.06",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.06",
+   "2.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Satzglied lässt sich als Ganzes an den Satzanfang verschieben.",
+   "Das Subjekt findest du mit «wer oder was?», das Prädikat ist das Verb.",
+   "Im Nebensatz steht das Verb am Ende — daran erkennst du ihn sicher."
+  ],
+  "loesungsweg": [
+   "Zuerst das Verb suchen.",
+   "Mit «wer oder was?» das Subjekt bestimmen.",
+   "Die übrigen Glieder mit den passenden Fragen erschliessen.",
+   "Zur Probe verschieben."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Satzglied ist «der fremde Mann»?\n\nAm Samstag kam der fremde Mann in den Lesesaal.",
+    "optionen": [
+     "Subjekt",
+     "Akkusativobjekt",
+     "Dativobjekt",
+     "adverbiale Bestimmung"
+    ],
+    "loesung": [
+     "Subjekt"
+    ],
+    "erklaerung": "Wer oder was kam? Der fremde Mann — das ist das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Ein Akkusativobjekt antwortete auf «wen oder was?»; dieser Satz hat gar keines."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?»; der Mann empfängt hier nichts."
+     },
+     {
+      "antwort": "adverbiale Bestimmung",
+      "diagnoseId": "glied",
+      "feedback": "Die adverbialen Bestimmungen sind «am Samstag» und «in den Lesesaal»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «am Samstag»?\n\nAm Samstag kam der fremde Mann in den Lesesaal.",
+    "optionen": [
+     "adverbiale Bestimmung",
+     "Subjekt",
+     "Prädikat",
+     "Akkusativobjekt"
+    ],
+    "loesung": [
+     "adverbiale Bestimmung"
+    ],
+    "erklaerung": "«Am Samstag» antwortet auf «wann?» und ist damit eine adverbiale Bestimmung der Zeit.",
+    "fehler": [
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «der fremde Mann»; er kommt in den Saal."
+     },
+     {
+      "antwort": "Prädikat",
+      "diagnoseId": "glied",
+      "feedback": "Das Prädikat ist «kam», also das Verb des Satzes."
+     },
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "glied",
+      "feedback": "Ein Akkusativobjekt gibt es in diesem Satz nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «den Mantel»?\n\nEr legte den Mantel über die Lehne.",
+    "optionen": [
+     "Akkusativobjekt",
+     "Subjekt",
+     "Dativobjekt",
+     "adverbiale Bestimmung"
+    ],
+    "loesung": [
+     "Akkusativobjekt"
+    ],
+    "erklaerung": "Was legte er hin? Den Mantel — die Akkusativfrage «wen oder was?».",
+    "fehler": [
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «er»; er handelt, der Mantel wird bewegt."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "fall",
+      "feedback": "Das Dativobjekt antwortete auf «wem?»; hier steht der Akkusativ."
+     },
+     {
+      "antwort": "adverbiale Bestimmung",
+      "diagnoseId": "glied",
+      "feedback": "Die adverbiale Bestimmung ist «über die Lehne»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «der Frau»?\n\nEr las der Frau eine ganze Stunde vor.",
+    "optionen": [
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt",
+     "Prädikat"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "Wem las er vor? Der Frau — das Dativobjekt nennt den Empfänger.",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Ein Akkusativobjekt gibt es hier nicht; «eine ganze Stunde» ist eine Zeitangabe."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «er»; er liest vor, die Frau hört zu."
+     },
+     {
+      "antwort": "Prädikat",
+      "diagnoseId": "glied",
+      "feedback": "Das Prädikat ist «las … vor» und besteht aus zwei Teilen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nGestern schloss die Bibliothek früher.",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Gestern», «schloss», «die Bibliothek» und «früher» — vier Glieder, jedes für sich verschiebbar.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "verzaehlt",
+      "feedback": "Auch «früher» ist ein eigenes Satzglied; es lässt sich an den Anfang stellen."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "artikel",
+      "feedback": "Artikel und Nomen bilden zusammen ein Glied: «die Bibliothek» zählt einmal."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "wortzahl",
+      "feedback": "Gezählt werden Satzglieder, nicht Wörter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied steht am Anfang?\n\nSeit Februar blieb sein Tisch leer.",
+    "optionen": [
+     "adverbiale Bestimmung",
+     "Subjekt",
+     "Prädikat",
+     "Akkusativobjekt"
+    ],
+    "loesung": [
+     "adverbiale Bestimmung"
+    ],
+    "erklaerung": "«Seit Februar» antwortet auf «seit wann?» — eine adverbiale Bestimmung der Zeit.",
+    "fehler": [
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "satzanfang",
+      "feedback": "Das Subjekt steht hier hinter dem Verb: «sein Tisch»."
+     },
+     {
+      "antwort": "Prädikat",
+      "diagnoseId": "glied",
+      "feedback": "Das Prädikat ist «blieb», das Verb des Satzes."
+     },
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "glied",
+      "feedback": "Ein Akkusativobjekt hat dieser Satz nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Handelt es sich um einen Hauptsatz oder um einen Nebensatz?\n\nweil sein Tisch leer blieb",
+    "optionen": [
+     "Nebensatz",
+     "Hauptsatz"
+    ],
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«weil» leitet ein, und das Verb «blieb» steht am Ende — beides kennzeichnet den Nebensatz.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "verbstellung",
+      "feedback": "Im Hauptsatz stünde das Verb an zweiter Stelle: «Sein Tisch blieb leer.»"
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Teil ist der Nebensatz?\n\nAls sie sich setzte, wurde es still.",
+    "optionen": [
+     "Als sie sich setzte",
+     "wurde es still",
+     "sie sich",
+     "es still"
+    ],
+    "loesung": [
+     "Als sie sich setzte"
+    ],
+    "erklaerung": "«Als» leitet ein, das Verb «setzte» steht am Ende — das ist der Nebensatz.",
+    "fehler": [
+     {
+      "antwort": "wurde es still",
+      "diagnoseId": "verbstellung",
+      "feedback": "Hier steht das Verb an zweiter Stelle; das ist der Hauptsatz."
+     },
+     {
+      "antwort": "sie sich",
+      "diagnoseId": "satzteil",
+      "feedback": "Das ist kein ganzer Satz; es fehlt das Verb."
+     },
+     {
+      "antwort": "es still",
+      "diagnoseId": "satzteil",
+      "feedback": "Auch das ist kein Satz, sondern ein Teil des Hauptsatzes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nWir warteten, bis der Saal schloss.",
+    "optionen": [
+     "ein Nebensatz der Zeit",
+     "ein Nebensatz des Grundes",
+     "ein Nebensatz der Bedingung",
+     "ein Nebensatz des Gegensatzes"
+    ],
+    "loesung": [
+     "ein Nebensatz der Zeit"
+    ],
+    "erklaerung": "«bis» sagt, wie lange gewartet wurde — der Nebensatz bestimmt die Zeit.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz des Grundes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Grund nennte «weil» oder «da»; «bis» sagt etwas über die Zeit."
+     },
+     {
+      "antwort": "ein Nebensatz der Bedingung",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Bedingung leitete «wenn» oder «falls» ein."
+     },
+     {
+      "antwort": "ein Nebensatz des Gegensatzes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Gegensatz leitete «obwohl» oder «während» ein; «bis» tut das nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nObwohl er leise las, störte es mich.",
+    "optionen": [
+     "ein Nebensatz des Gegensatzes",
+     "ein Nebensatz der Zeit",
+     "ein Nebensatz des Grundes",
+     "ein Nebensatz der Folge"
+    ],
+    "loesung": [
+     "ein Nebensatz des Gegensatzes"
+    ],
+    "erklaerung": "«Obwohl» stellt einen Gegensatz her: Das Leisesein sprach dagegen, es störte trotzdem.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz der Zeit",
+      "diagnoseId": "konjunktion",
+      "feedback": "Die Zeit bestimmten «als», «während» oder «bis»."
+     },
+     {
+      "antwort": "ein Nebensatz des Grundes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Der Grund spräche für das Stören; «obwohl» nennt gerade den Einwand."
+     },
+     {
+      "antwort": "ein Nebensatz der Folge",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Folge leitete «sodass» ein und nennte, was sich aus dem Hauptsatz ergibt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist das Prädikat in diesem Satz?\n\nDie Frau am Schalter schaute mich lange an.",
+    "optionen": [
+     "schaute … an",
+     "die Frau",
+     "mich",
+     "lange"
+    ],
+    "loesung": [
+     "schaute … an"
+    ],
+    "erklaerung": "Das Prädikat ist das Verb; hier besteht es aus zwei Teilen: «schaute … an».",
+    "fehler": [
+     {
+      "antwort": "die Frau",
+      "diagnoseId": "subjekt",
+      "feedback": "Das ist das Subjekt und antwortet auf «wer oder was?»."
+     },
+     {
+      "antwort": "mich",
+      "diagnoseId": "objekt",
+      "feedback": "Das ist das Akkusativobjekt: Wen schaute sie an?"
+     },
+     {
+      "antwort": "lange",
+      "diagnoseId": "adverbial",
+      "feedback": "Das ist eine adverbiale Bestimmung der Zeit: Wie lange?"
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht in diesem Satzgefüge das Prädikat des Hauptsatzes?\n\nWeil er fehlte, sah ich auf.",
+    "optionen": [
+     "sah … auf",
+     "fehlte",
+     "Weil",
+     "ich"
+    ],
+    "loesung": [
+     "sah … auf"
+    ],
+    "erklaerung": "Der Hauptsatz lautet «sah ich auf»; sein Prädikat besteht aus «sah … auf».",
+    "fehler": [
+     {
+      "antwort": "fehlte",
+      "diagnoseId": "satzteil_verwechselt",
+      "feedback": "«fehlte» ist das Prädikat des Nebensatzes und steht darum am Ende."
+     },
+     {
+      "antwort": "Weil",
+      "diagnoseId": "wortart",
+      "feedback": "«Weil» ist eine Konjunktion; ein Prädikat ist immer ein Verb."
+     },
+     {
+      "antwort": "ich",
+      "diagnoseId": "subjekt",
+      "feedback": "«ich» ist das Subjekt des Hauptsatzes, nicht sein Prädikat."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Satzglieder, Haupt- und Nebensatz",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-kommas-sz",
+  "lernzielId": "DSSZ.2.08",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.08",
+   "2.07"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Suche zuerst alle Verben — jedes Verb gehört zu einem eigenen Satz.",
+   "Zwischen Hauptsatz und Nebensatz steht immer ein Komma.",
+   "Auch eine erweiterte Infinitivgruppe mit «um … zu» wird abgetrennt."
+  ],
+  "loesungsweg": [
+   "Die Verben im Satz zählen.",
+   "Die Satzgrenzen bestimmen.",
+   "An jede Grenze ein Komma setzen.",
+   "Den Satz laut lesen und die Pausen prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nAls die Tür aufging schauten alle hin.",
+    "loesung": [
+     "Als die Tür aufging, schauten alle hin."
+    ],
+    "erklaerung": "Der vorangestellte Nebensatz mit «Als» wird vom Hauptsatz durch ein Komma getrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nIch wechselte den Platz weil es mich störte.",
+    "loesung": [
+     "Ich wechselte den Platz, weil es mich störte."
+    ],
+    "erklaerung": "«weil» leitet einen Nebensatz ein; davor steht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr brachte Mantel Bücher und Notizen mit.",
+    "loesung": [
+     "Er brachte Mantel, Bücher und Notizen mit."
+    ],
+    "erklaerung": "In der Aufzählung stehen Kommas zwischen den Gliedern; vor dem letzten «und» steht keines."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Tisch der hinten steht ist am hellsten.",
+    "loesung": [
+     "Der Tisch, der hinten steht, ist am hellsten."
+    ],
+    "erklaerung": "Der eingeschobene Relativsatz wird auf beiden Seiten mit einem Komma abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr kam früher um einen Platz zu bekommen.",
+    "loesung": [
+     "Er kam früher, um einen Platz zu bekommen."
+    ],
+    "erklaerung": "Eine Infinitivgruppe mit «um … zu» wird mit einem Komma abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nObwohl es still war hörte ich ihn.",
+    "loesung": [
+     "Obwohl es still war, hörte ich ihn."
+    ],
+    "erklaerung": "Der vorangestellte Nebensatz mit «obwohl» wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie setzte sich hin und er schlug das Buch auf.",
+    "loesung": [
+     "Sie setzte sich hin, und er schlug das Buch auf."
+    ],
+    "erklaerung": "Zwei vollständige Hauptsätze dürfen auch vor «und» durch ein Komma getrennt werden; es macht die Grenze sichtbar."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nWenn er nicht kommt bleibt der Tisch leer.",
+    "loesung": [
+     "Wenn er nicht kommt, bleibt der Tisch leer."
+    ],
+    "erklaerung": "Der Bedingungssatz mit «wenn» ist ein Nebensatz und wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Frau die neben ihm sass sagte nichts.",
+    "loesung": [
+     "Die Frau, die neben ihm sass, sagte nichts."
+    ],
+    "erklaerung": "Der eingeschobene Relativsatz steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nIch wusste nicht ob er wiederkommen würde.",
+    "loesung": [
+     "Ich wusste nicht, ob er wiederkommen würde."
+    ],
+    "erklaerung": "«ob» leitet einen indirekten Fragesatz ein; das ist ein Nebensatz und braucht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Saal war voll aber ruhig.",
+    "loesung": [
+     "Der Saal war voll, aber ruhig."
+    ],
+    "erklaerung": "Vor «aber» steht ein Komma, weil es einen Gegensatz anschliesst."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nBevor ich ging packte ich meine Sachen und stand auf.",
+    "loesung": [
+     "Bevor ich ging, packte ich meine Sachen und stand auf."
+    ],
+    "erklaerung": "Der Nebensatz mit «bevor» wird abgetrennt; zwischen den beiden Prädikaten desselben Satzes steht vor «und» kein Komma."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Kommas setzen",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-rechtschreibung-sz",
+  "lernzielId": "DSSZ.2.09",
+  "fach": "sprache-sz",
+  "unterthemen": [
+   "2.09",
+   "2.10"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Steht ein Artikel davor oder liesse sich einer einsetzen? Dann ist es ein Nomen.",
+   "Nachmorpheme wie «-heit», «-ung» oder «-keit» machen aus einem Wort ein Nomen.",
+   "Der Wortstamm bleibt in der ganzen Wortfamilie gleich und entscheidet über die Schreibung."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Morpheme zerlegen.",
+   "Den Stamm bestimmen.",
+   "Prüfen, ob ein Nachmorphem ein Nomen daraus macht.",
+   "Die Regel anwenden."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nBeim ______ vergisst er die Zeit.",
+    "optionen": [
+     "Vorlesen",
+     "vorlesen",
+     "Vorleesen"
+    ],
+    "loesung": [
+     "Vorlesen"
+    ],
+    "erklaerung": "«beim» ist «bei dem» — damit steht ein Artikel davor und aus dem Verb wird ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "vorlesen",
+      "diagnoseId": "klein",
+      "feedback": "Vor dem Wort steht «beim», also «bei dem»; damit ist es ein Nomen und wird grossgeschrieben."
+     },
+     {
+      "antwort": "Vorleesen",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein doppeltes e gibt es in diesem Wort nicht; das lange e steht einfach."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr hat der Frau eine Stunde lang ______ .",
+    "optionen": [
+     "vorgelesen",
+     "Vorgelesen",
+     "vorgelessen"
+    ],
+    "loesung": [
+     "vorgelesen"
+    ],
+    "erklaerung": "Hier gehört das Wort als Partizip zum Verb «haben» und bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Vorgelesen",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur mit einem Artikel davor."
+     },
+     {
+      "antwort": "vorgelessen",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem langen e steht nur ein s: vorgelesen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie heisst der Wortstamm von «Beschwerde»?",
+    "optionen": [
+     "schwer",
+     "werde",
+     "beschwer",
+     "schwerde"
+    ],
+    "loesung": [
+     "schwer"
+    ],
+    "erklaerung": "Zur Wortfamilie gehören «schwer», «beschweren», «Beschwerde» — der gemeinsame Stamm ist «schwer».",
+    "fehler": [
+     {
+      "antwort": "werde",
+      "diagnoseId": "zerlegung",
+      "feedback": "«werde» ist kein eigener Stamm dieses Wortes; das Vormorphem lautet «be-»."
+     },
+     {
+      "antwort": "beschwer",
+      "diagnoseId": "zerlegung",
+      "feedback": "Darin steckt bereits das Vormorphem «be-»; der Stamm allein ist «schwer»."
+     },
+     {
+      "antwort": "schwerde",
+      "diagnoseId": "zerlegung",
+      "feedback": "Das «-de» ist ein Nachmorphem und gehört nicht zum Stamm."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört NICHT zur Wortfamilie von «lesen»?",
+    "optionen": [
+     "Lehm",
+     "Leser",
+     "Lesesaal",
+     "belesen"
+    ],
+    "loesung": [
+     "Lehm"
+    ],
+    "erklaerung": "«Lehm» hat einen anderen Stamm; die drei anderen tragen alle den Stamm «les-».",
+    "fehler": [
+     {
+      "antwort": "Leser",
+      "diagnoseId": "stamm",
+      "feedback": "«Leser» ist die Person, die liest, und gehört klar zur Familie."
+     },
+     {
+      "antwort": "Lesesaal",
+      "diagnoseId": "stamm",
+      "feedback": "«Lesesaal» enthält den Stamm «les-» im ersten Teil."
+     },
+     {
+      "antwort": "belesen",
+      "diagnoseId": "stamm",
+      "feedback": "«belesen» heisst viel gelesen habend und gehört ebenfalls dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nachmorphem macht aus «frei» ein Nomen?",
+    "optionen": [
+     "-heit",
+     "-lich",
+     "-bar",
+     "-los"
+    ],
+    "loesung": [
+     "-heit"
+    ],
+    "erklaerung": "«Frei-heit» ist ein Nomen und wird darum grossgeschrieben; die anderen Endungen ergeben Adjektive.",
+    "fehler": [
+     {
+      "antwort": "-lich",
+      "diagnoseId": "wortart",
+      "feedback": "«freilich» ist ein Adverb und kein Nomen; grossgeschrieben wird es nicht."
+     },
+     {
+      "antwort": "-bar",
+      "diagnoseId": "wortart",
+      "feedback": "«-bar» ergibt Adjektive wie «essbar» oder «machbar», keine Nomen."
+     },
+     {
+      "antwort": "-los",
+      "diagnoseId": "wortart",
+      "feedback": "«-los» ergibt Adjektive wie «arbeitslos»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSeine ______ war deutlich zu hören.",
+    "optionen": [
+     "Entdeckung",
+     "entdeckung",
+     "Entdekung"
+    ],
+    "loesung": [
+     "Entdeckung"
+    ],
+    "erklaerung": "«Entdeck-ung» ist durch das Nachmorphem «-ung» ein Nomen und wird grossgeschrieben; nach dem kurzen e steht «ck».",
+    "fehler": [
+     {
+      "antwort": "entdeckung",
+      "diagnoseId": "klein",
+      "feedback": "Das Nachmorphem «-ung» macht daraus ein Nomen; Nomen werden grossgeschrieben."
+     },
+     {
+      "antwort": "Entdekung",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen e steht «ck», nicht ein einfaches k."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWir haben nichts ______ gefunden.",
+    "optionen": [
+     "Besseres",
+     "besseres",
+     "Beseres"
+    ],
+    "loesung": [
+     "Besseres"
+    ],
+    "erklaerung": "Nach «nichts» wird das Adjektiv zum Nomen und darum grossgeschrieben; nach dem kurzen e steht ein doppeltes s.",
+    "fehler": [
+     {
+      "antwort": "besseres",
+      "diagnoseId": "klein",
+      "feedback": "Nach «nichts», «etwas» oder «viel» steht das Adjektiv als Nomen und wird grossgeschrieben."
+     },
+     {
+      "antwort": "Beseres",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen e steht ein doppeltes s: Besseres."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr sass ______ am Fenster.",
+    "optionen": [
+     "immer",
+     "Immer",
+     "imer"
+    ],
+    "loesung": [
+     "immer"
+    ],
+    "erklaerung": "«immer» ist ein Adverb und bleibt mitten im Satz klein; nach dem kurzen i steht ein doppeltes m.",
+    "fehler": [
+     {
+      "antwort": "Immer",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur am Satzanfang."
+     },
+     {
+      "antwort": "imer",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen i steht ein doppeltes m: immer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDas Buch lag ______ auf dem Tisch.",
+    "optionen": [
+     "offen",
+     "Offen",
+     "ofen"
+    ],
+    "loesung": [
+     "offen"
+    ],
+    "erklaerung": "«offen» ist hier ein Adjektiv und bleibt klein; nach dem kurzen o steht ein doppeltes f.",
+    "fehler": [
+     {
+      "antwort": "Offen",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur am Satzanfang oder als Nomen."
+     },
+     {
+      "antwort": "ofen",
+      "diagnoseId": "schaerfung",
+      "feedback": "«Ofen» mit einem f ist ein Nomen und meint etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist richtig geschrieben?",
+    "optionen": [
+     "Ähnlichkeit",
+     "Ehnlichkeit",
+     "ähnlichkeit",
+     "Ählichkeit"
+    ],
+    "loesung": [
+     "Ähnlichkeit"
+    ],
+    "erklaerung": "Der Stamm ist «ähnlich»; das ä bleibt, und das Nachmorphem «-keit» macht daraus ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "Ehnlichkeit",
+      "diagnoseId": "stammregel",
+      "feedback": "Der Stamm lautet «ähnlich» mit ä; ein e wäre ein anderer Laut."
+     },
+     {
+      "antwort": "ähnlichkeit",
+      "diagnoseId": "klein",
+      "feedback": "Das Nachmorphem «-keit» macht daraus ein Nomen; Nomen werden grossgeschrieben."
+     },
+     {
+      "antwort": "Ählichkeit",
+      "diagnoseId": "zerlegung",
+      "feedback": "Das «-lich» darf nicht verkürzt werden: ähn-lich-keit."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie wird «Verkäufer» richtig zerlegt?",
+    "optionen": [
+     "ver-kauf-er",
+     "verk-äuf-er",
+     "ver-käu-fer",
+     "verkäu-fer"
+    ],
+    "loesung": [
+     "ver-kauf-er"
+    ],
+    "erklaerung": "«ver-» ist das Vormorphem, «kauf» der Stamm, «-er» das Nachmorphem.",
+    "fehler": [
+     {
+      "antwort": "verk-äuf-er",
+      "diagnoseId": "stamm",
+      "feedback": "Der Stamm lautet «kauf»; das Vormorphem endet nach «ver»."
+     },
+     {
+      "antwort": "ver-käu-fer",
+      "diagnoseId": "stamm",
+      "feedback": "Der Stamm wird hier zerschnitten; «kauf» gehört zusammen."
+     },
+     {
+      "antwort": "verkäu-fer",
+      "diagnoseId": "zerlegung",
+      "feedback": "Das Vormorphem «ver-» steht für sich; die Zerlegung ist unvollständig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr hat sich sehr ______ .",
+    "optionen": [
+     "geschämt",
+     "geschehmt",
+     "gescheemt"
+    ],
+    "loesung": [
+     "geschämt"
+    ],
+    "erklaerung": "Der Stamm ist «Scham»; darum steht ein ä, nicht ein e.",
+    "fehler": [
+     {
+      "antwort": "geschehmt",
+      "diagnoseId": "stammregel",
+      "feedback": "Der Stamm lautet «Scham»; die Stammregel verlangt darum ein ä."
+     },
+     {
+      "antwort": "gescheemt",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein doppeltes e gibt es in diesem Wort nicht; der Stamm «Scham» entscheidet."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsteil Deutsch, Teile «Sprache als Ausdrucksmittel» und «Sprache im Fokus»; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Gross- und Kleinschreibung, Wortstamm und Morpheme",
+  "status": "review"
+ }
+]

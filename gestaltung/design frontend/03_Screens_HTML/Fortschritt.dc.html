@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><style>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+:root{
+ --ink:#3A1D0A; --ink7:#5C3A1E; --ink5:#7C5836; --ink3:#A98B66;
+ --tan6:#B0834F; --tan:#C99A66; --tan3:#E4CBA9; --tan1:#F2E4CF;
+ --paper:#FBF5EA; --card:#FFFDF8; --line:#EADCC6;
+ --red:#E2231A; --red1:#FBE3E1; --green:#3F7A4D; --green1:#E3F0E4;
+ --gelb:#D99A2B; --gelb1:#FAEED6; --cream:#FFF7EA;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--tan6);text-decoration:none} a:hover{color:var(--ink)}
+.phone{width:390px;height:844px;position:relative;overflow:hidden;background:var(--paper);
+ background-image:linear-gradient(rgba(176,131,79,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(176,131,79,.10) 1px,transparent 1px);
+ background-size:24px 24px}
+.wash{display:none}
+.safe{height:58px}
+.wrap{position:relative;padding:0 24px}
+.appbar{position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 22px;height:44px}
+.appbar h2{margin:0;font:600 18px/1.3 'Bitter',Georgia,serif;position:absolute;left:0;right:0;text-align:center;pointer-events:none}
+.eyebrow{font:700 10px/1.2 'Nunito Sans';letter-spacing:.11em;color:var(--tan6);text-transform:uppercase}
+.h1{margin:6px 0 0;font:600 27px/1.18 'Bitter',Georgia,serif;letter-spacing:-.015em}
+.h2{margin:0;font:600 18px/1.32 'Bitter',Georgia,serif}
+.h3{margin:0;font:600 17px/1.32 'Bitter',Georgia,serif}
+.h4{margin:0;font:600 15px/1.35 'Bitter',Georgia,serif}
+.num{font:600 44px/1 'Bitter',Georgia,serif;letter-spacing:-.025em}
+.bd{font:400 14px/1.5 'Nunito Sans';color:var(--ink5)}
+.sm{font:400 12px/1.45 'Nunito Sans';color:var(--ink3)}
+.lb{font:700 13px/1.3 'Nunito Sans'}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:none}
+.dark{background:var(--ink);color:var(--cream);border:none;border-radius:18px;position:relative;overflow:hidden;box-shadow:none}
+.row{display:flex;align-items:center;gap:14px}
+.col{display:flex;flex-direction:column}
+.btn{height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:8px;font:700 15px 'Nunito Sans';cursor:default}
+.bp{background:var(--ink);color:var(--cream)}
+.bs{background:transparent;color:var(--ink);border:1px solid var(--tan3)}
+.bg-{background:transparent;color:var(--tan6)}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 11px;border-radius:9px;background:var(--card);border:1px solid var(--line);font:600 12px 'Nunito Sans'}
+.ic{width:44px;height:44px;border-radius:12px;background:var(--tan1);display:flex;align-items:center;justify-content:center;flex:none}
+.bar{height:5px;border-radius:0;background:var(--tan1);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tan)}
+.tabbar{position:absolute;left:0;right:0;bottom:0;height:86px;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);box-shadow:none}
+.tab{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:14px;font:600 9.5px 'Nunito Sans';color:var(--ink3)}
+.tab .pl{width:24px;height:24px;display:flex;align-items:center;justify-content:center}
+.tab.on{color:var(--ink);font-weight:700}
+.tab.on .pl{background:transparent}
+.bottombar{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 32px;background:var(--card);border-top:1px solid var(--line)}
+.divider{height:1px;background:var(--line)}
+.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--card);border-radius:20px 20px 0 0;border-top:1px solid var(--line);box-shadow:0 -12px 24px rgba(58,29,10,.07);padding:16px 24px 28px}
+.handle{width:48px;height:5px;border-radius:3px;background:var(--tan3);margin:0 auto 14px}
+.badge{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+</style></helmet>
+<div class="phone"><div class="safe"></div>
+<div class="wrap">
+ <div class="eyebrow">Seit 3. September &middot; 12 Wochen</div>
+ <h1 class="h1">Fortschritt</h1>
+ <div class="dark" style="margin-top:12px;padding:15px 20px 16px">
+  <div class="eyebrow" style="color:var(--tan3)">Abgeschlossene Themen</div>
+  <div style="display:flex;align-items:baseline;gap:9px;margin-top:4px">
+   <span style="font:600 32px/1 'Bitter',Georgia,serif;color:var(--cream)">13</span>
+   <span style="font:600 16px 'Bitter',Georgia,serif;color:var(--tan)">von 25 Themen</span></div>
+  <div class="bar" style="margin-top:11px;background:rgba(255,247,234,.16)"><i style="width:52%"></i></div>
+  <div class="sm" style="color:var(--tan3);margin-top:8px;line-height:1.45;font-size:11.5px">Ein Thema ist abgeschlossen, wenn du seine 20 Pflichtaufgaben gelöst hast. Zusatzaufgaben zählen nicht mit.</div>
+ </div>
+ <div class="row" style="gap:6px;justify-content:space-between;margin-top:11px"><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:var(--ink);border:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FFF7EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">M</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:var(--ink);border:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FFF7EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">D</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:var(--ink);border:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FFF7EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">M</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:var(--ink);border:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FFF7EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">D</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:var(--ink);border:none"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FFF7EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">F</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:transparent;border:1px solid var(--line)"></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">S</span></div><div class="col" style="align-items:center;gap:6px"><div class="badge" style="width:28px;height:28px;background:transparent;border:1px solid var(--line)"></div><span class="eyebrow" style="color:var(--ink3);font-size:9px">S</span></div></div>
+ <div class="row" style="justify-content:space-between;margin-top:14px;align-items:baseline">
+  <div class="h2">Dein Lernstand</div><span class="sm" style="font-size:10.5px">seit 3. September &middot; alle Fächer</span></div>
+ <div style="display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:9px"><div class="card" style="padding:11px 13px"><div class="row" style="justify-content:space-between;align-items:flex-start"><div style="font:600 22px/1 'Bitter',Georgia,serif">812<span style="font-size:12px;color:var(--ink3);margin-left:3px"></span></div><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A66" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><div class="eyebrow" style="margin-top:9px;color:var(--ink3);font-size:9px">Aufgaben bearbeitet</div><div class="sm" style="font-size:9.5px;margin-top:2px">seit 3. September</div></div><div class="card" style="padding:11px 13px"><div class="row" style="justify-content:space-between;align-items:flex-start"><div style="font:600 22px/1 'Bitter',Georgia,serif">78<span style="font-size:12px;color:var(--ink3);margin-left:3px">%</span></div><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A66" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><div class="eyebrow" style="margin-top:9px;color:var(--ink3);font-size:9px">korrekte Antworten</div><div class="sm" style="font-size:9.5px;margin-top:2px">alle Fächer, gesamt</div></div><div class="card" style="padding:11px 13px"><div class="row" style="justify-content:space-between;align-items:flex-start"><div style="font:600 22px/1 'Bitter',Georgia,serif">31<span style="font-size:12px;color:var(--ink3);margin-left:3px">Std</span></div><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A66" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div class="eyebrow" style="margin-top:9px;color:var(--ink3);font-size:9px">Lernzeit</div><div class="sm" style="font-size:9.5px;margin-top:2px">seit 3. September</div></div><div class="card" style="padding:11px 13px"><div class="row" style="justify-content:space-between;align-items:flex-start"><div style="font:600 22px/1 'Bitter',Georgia,serif">12<span style="font-size:12px;color:var(--ink3);margin-left:3px">Tage</span></div><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A66" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></div><div class="eyebrow" style="margin-top:9px;color:var(--ink3);font-size:9px">Serie</div><div class="sm" style="font-size:9.5px;margin-top:2px">Tage in Folge</div></div></div>
+ <div class="card" style="margin-top:11px;padding:13px 18px 12px">
+  <div class="eyebrow">Nach Fach</div><div style="margin-top:13px"><div class="row" style="justify-content:space-between"><span class="lb" style="font-size:13px">Mathematik</span><span class="sm" style="font-size:11px">8 von 13 Themen &middot; 71 % korrekt</span></div><div class="bar" style="margin-top:7px"><i style="width:62%"></i></div></div><div style="margin-top:13px"><div class="row" style="justify-content:space-between"><span class="lb" style="font-size:13px">Deutsch</span><span class="sm" style="font-size:11px">5 von 12 Themen &middot; 84 % korrekt</span></div><div class="bar" style="margin-top:7px"><i style="width:42%"></i></div></div>
+  <div style="border-top:1px solid var(--line);margin-top:12px;padding-top:10px">
+   <div class="row" style="justify-content:space-between;gap:10px"><span class="sm" style="font-size:11px;color:var(--ink5)">Stärkstes Thema</span><span class="sm" style="font-size:11px;color:var(--green);font-weight:700;text-align:right">Rechtschreibung &middot; Deutsch &middot; 94 %</span></div>
+   <div class="row" style="justify-content:space-between;gap:10px;margin-top:5px"><span class="sm" style="font-size:11px;color:var(--ink5)">Schwächstes Thema</span><span class="sm" style="font-size:11px;color:var(--red);font-weight:700;text-align:right">Textaufgaben &middot; Mathematik &middot; 38 %</span></div>
+   <div class="sm" style="font-size:9.5px;margin-top:7px">Über alle Fächer, ab 20 bearbeiteten Aufgaben pro Thema.</div></div>
+ </div>
+</div><div class="tabbar"><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div><span>Lernen</span></div><div class="tab" style="position:relative;color:#C9B79B"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9B79B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg></div><span>Lernpfad</span><i style="position:absolute;top:9px;right:16px;width:5px;height:5px;border-radius:50%;background:var(--tan3);display:block"></i></div><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><span>Selbsttest</span></div><div class="tab on" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3A1D0A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16v-5"/><path d="M12 16V8"/><path d="M17 16v-3"/></svg></div><span>Fortschritt</span></div><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6 1.65 1.65 0 0 0 10 3.09V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div><span>Einstellungen</span></div></div></div>
+</x-dc>
+</body>
+</html>

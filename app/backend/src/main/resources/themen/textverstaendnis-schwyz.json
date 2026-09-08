@@ -1,0 +1,55 @@
+{
+ "fach": "textverstaendnis-sz",
+ "name": "Deutsch: Textverständnis",
+ "pruefung": "Aufnahmeprüfungen der Schwyzer Mittelschulen",
+ "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Textverständnis",
+   "punkte": 20,
+   "anteil": 100,
+   "beschreibung": "Der erste Teil der Sprachprüfung: 20 von 60 Punkten. Grundlage ist eine literarische Erzählung; geantwortet wird in ganzen Sätzen, sofern nicht Lücken oder Kästchen zu füllen sind.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wahr, falsch oder nicht bestimmbar",
+     "lernzielId": "DTSZ.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Informationen aus dem Text entnehmen",
+     "lernzielId": "DTSZ.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Figuren beschreiben: objektiv und zugeschrieben",
+     "lernzielId": "DTSZ.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Absichten und Motive erschliessen",
+     "lernzielId": "DTSZ.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Die Pointe eines Textes deuten",
+     "lernzielId": "DTSZ.1.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.06",
+     "name": "Aussagen im Zusammenhang deuten",
+     "lernzielId": "DTSZ.1.06",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,919 @@
+[
+ {
+  "templateId": "wortart-im-satz",
+  "lernzielId": "D2.2.01",
+  "unterthemen": [
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Verb",
+   "Nomen",
+   "Adjektiv",
+   "Pronomen",
+   "Konjunktion",
+   "Präposition",
+   "übrige Partikeln"
+  ],
+  "hinweise": [
+   "Was kann das Wort? Lässt es sich beugen, steigern, oder bleibt es immer gleich?",
+   "Drei Proben helfen: Lässt es sich deklinieren oder steigern, ist es Nomen oder Adjektiv. Verbindet es zwei Sätze, ist es Konjunktion. Steht es vor einer Nomengruppe und fordert einen Fall, ist es Präposition.",
+   "Bleibt nach allen Proben nichts übrig, sind es die übrigen Partikeln. Dort landen Wörter wie «doch», «schon», «nicht»."
+  ],
+  "loesungsweg": [
+   "An der ZAP zählen sieben Wortarten. Artikel wie «der» und «ein» gehören zu den Pronomen.",
+   "Prüfe der Reihe nach: beugbar? steigerbar? verbindend? fallfordernd? Was übrig bleibt, sind die übrigen Partikeln."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wortart hat «dennoch» in diesem Satz?\n\nSie war müde, dennoch ging sie noch ins Training.",
+    "loesung": [
+     "übrige Partikeln"
+    ],
+    "erklaerung": "«dennoch» lässt sich nicht beugen, fordert keinen Fall und leitet keinen Nebensatz ein. Die Personalform «ging» steht gleich danach. Damit bleibt nur die letzte Wortart.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "partikel_als_konjunktion",
+      "feedback": "Bei einer Konjunktion stünde die Personalform am Ende des Nebensatzes. Hier steht «ging» direkt nach «dennoch» Der Satz bleibt ein Hauptsatz. Also keine Konjunktion."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "unbeugbar_als_adjektiv",
+      "feedback": "Ein Adjektiv liesse sich steigern oder vor ein Nomen setzen: «das dennochere Training» geht nicht. Wörter, die sich nie verändern, sind keine Adjektive."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «während» in diesem Satz?\n\nWährend des Spaziergangs schwieg er.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«während» steht hier vor der Nomengruppe «des Spaziergangs» und fordert den Genitiv. Wer einen Fall fordert, ist Präposition.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "gleiches_wort_andere_rolle",
+      "feedback": "«während» kann beides sein. Als Konjunktion leitet es einen Nebensatz mit eigenem Verb ein: «Während er sprach, …». Hier folgt aber keine Personalform, sondern eine Nomengruppe im Genitiv."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Die übrigen Partikeln fordern keinen Fall. Frage dich: Steht danach «des Spaziergangs» wegen dieses Wortes im Genitiv? Dann ist es eine Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «während» in diesem Satz?\n\nWährend er sprach, schwieg sie.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "Hier folgt ein ganzer Nebensatz mit der Personalform «sprach» am Ende. Ein Wort, das zwei Teilsätze verbindet, ist eine Konjunktion.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "gleiches_wort_andere_rolle",
+      "feedback": "Dasselbe Wort, andere Rolle: Als Präposition stünde danach eine Nomengruppe, keine Personalform. Achte immer darauf, was folgt, nicht nur auf das Wort selbst."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Der Nebensatz mit «sprach» am Ende und dem Komma davor zeigt: Hier verbindet etwas zwei Teilsätze. Das können die übrigen Partikeln nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «die» in diesem Satz?\n\nDie Nachbarin hat den Schlüssel gefunden.",
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "An der ZAP zählen die Artikel zu den Pronomen. «die» begleitet hier das Nomen «Nachbarin».",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "begleiter_als_nomen",
+      "feedback": "Das Nomen ist «Nachbarin». «die» begleitet es nur und gibt Fall, Zahl und Geschlecht an."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "artikel_nicht_zugeordnet",
+      "feedback": "Artikel wie «der», «die», «ein» werden an der ZAP zu den Pronomen gezählt. Merk dir diese Regel. Sie kommt regelmässig vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «gewesen» in diesem Satz?\n\nFünf Schiffe sind von uns gewesen.",
+    "loesung": [
+     "Verb"
+    ],
+    "erklaerung": "«gewesen» ist das Partizip II von «sein» und gehört zur Verbform «sind … gewesen». Auch der zweite Teil einer Verbform ist ein Verb.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "partizip_als_adjektiv",
+      "feedback": "Partizipien können wie Adjektive aussehen, aber hier bildet «gewesen» zusammen mit «sind» das Perfekt. Prüfe: Gehört das Wort zu einer Verbform? Dann ist es ein Verb."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "verbteil_uebersehen",
+      "feedback": "Ein Verb kann aus mehreren Teilen bestehen, die weit auseinanderstehen. «sind» und «gewesen» gehören zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «nicht» in diesem Satz?\n\nEr hat es nicht gewusst.",
+    "loesung": [
+     "übrige Partikeln"
+    ],
+    "erklaerung": "«nicht» verneint, verändert sich nie und fordert keinen Fall. Es gehört zu den übrigen Partikeln.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "unbeugbar_als_adjektiv",
+      "feedback": "Ein Adjektiv beschreibt und lässt sich steigern. «nicht» beschreibt nichts, es verneint."
+     },
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "partikel_als_konjunktion",
+      "feedback": "«nicht» verbindet keine Teilsätze. Ohne Verbindung keine Konjunktion."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «trotz» in diesem Satz?\n\nTrotz des Regens fuhr sie mit dem Velo.",
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«trotz» steht vor der Nomengruppe «des Regens» und fordert den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Eine Konjunktion wäre «obwohl» Danach käme ein Nebensatz mit Personalform. Hier folgt eine Nomengruppe im Genitiv."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Frage dich: Warum steht «des Regens» im Genitiv? Weil «trotz» ihn fordert. Wer einen Fall fordert, ist Präposition."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «schon» in diesem Satz?\n\nSie hatte schon dreimal angerufen.",
+    "loesung": [
+     "übrige Partikeln"
+    ],
+    "erklaerung": "«schon» verändert sich nie, steigert nicht, verbindet nicht und fordert keinen Fall.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "unbeugbar_als_adjektiv",
+      "feedback": "«schön» mit ö wäre ein Adjektiv. «schon» ohne ö ist eine Partikel. Hier entscheidet ein einziger Buchstabe."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "Ein Pronomen steht für ein Nomen oder begleitet es. «schon» tut weder das eine noch das andere."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «zwei» in diesem Satz?\n\nZwei Korken dienten als Passagiere.",
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "Zahlwörter, die ein Nomen begleiten, werden an der ZAP zu den Pronomen gezählt, wie die Artikel.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "zahlwort_als_adjektiv",
+      "feedback": "Ein Adjektiv liesse sich steigern: «zweier» als Steigerung gibt es nicht. Begleitende Zahlwörter zählen zu den Pronomen."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "begleiter_als_nomen",
+      "feedback": "Das Nomen ist «Korken». «Zwei» sagt nur, wie viele es sind."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «weil» in diesem Satz?\n\nSie blieb zu Hause, weil sie Fieber hatte.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«weil» verbindet Haupt- und Nebensatz. Das Kennzeichen: Die Personalform «hatte» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "Eine Präposition stünde vor einer Nomengruppe: «wegen des Fiebers». Nach «weil» kommt ein ganzer Satz."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Das Komma und die Personalform am Ende sind die zwei sicheren Zeichen für einen Nebensatz, und damit für eine Konjunktion."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «müde» in diesem Satz?\n\nDie müde Läuferin setzte sich auf die Bank.",
+    "loesung": [
+     "Adjektiv"
+    ],
+    "erklaerung": "«müde» beschreibt die Läuferin, steht vor dem Nomen und lässt sich steigern: müder, am müdesten.",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "beschreibung_als_verb",
+      "feedback": "Ein Verb sagt, was geschieht. «müde» sagt, wie jemand ist. Das ist eine Beschreibung, also ein Adjektiv."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "steigerbar_uebersehen",
+      "feedback": "Mach die Probe: «müder, am müdesten» geht. Was sich steigern lässt, ist ein Adjektiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «Perron» in diesem Satz?\n\nAuf dem Perron war es kalt.",
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "«Perron» wird grossgeschrieben, hat einen Artikel und lässt sich in die Mehrzahl setzen: die Perrons.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "beschreibung_als_verb",
+      "feedback": "Ein Adjektiv beschreibt etwas. «Perron» ist der Ort selbst, also ein Nomen."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "begleiter_als_nomen",
+      "feedback": "Das Pronomen ist «dem» Es begleitet das Nomen. «Perron» ist das Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «wieder» in diesem Satz?\n\nEr hat den Schlüssel wieder verloren.",
+    "loesung": [
+     "übrige Partikeln"
+    ],
+    "erklaerung": "«wieder» verändert sich nie und fordert keinen Fall. Es gehört zu den übrigen Partikeln.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "unbeugbar_als_adjektiv",
+      "feedback": "«wieder» lässt sich nicht steigern und nicht vor ein Nomen stellen. Damit ist es kein Adjektiv."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "verbteil_uebersehen",
+      "feedback": "Das Verb ist «hat … verloren». «wieder» gehört nicht dazu. Es lässt sich weglassen, ohne dass die Verbform kaputtgeht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «mir» in diesem Satz?\n\nSie hat mir nichts davon erzählt.",
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«mir» steht für eine Person und ist die Dativform von «ich» Ein Personalpronomen.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "begleiter_als_nomen",
+      "feedback": "Ein Nomen wird grossgeschrieben und hat einen Artikel. «mir» ersetzt ein Nomen, es ist keines."
+     },
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "partikel_als_pronomen",
+      "feedback": "«mir» verändert sich je nach Fall: ich, mir, mich. Wer sich beugen lässt, gehört nicht zu den übrigen Partikeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «gefunden» in diesem Satz?\n\nSie hat den Brief in der Innentasche gefunden.",
+    "loesung": [
+     "Verb"
+    ],
+    "erklaerung": "«gefunden» ist das Partizip II und bildet mit «hat» zusammen das Perfekt.",
+    "fehler": [
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "partizip_als_adjektiv",
+      "feedback": "Als Adjektiv stünde es vor einem Nomen: «der gefundene Brief». Hier steht es am Satzende und gehört zu «hat», also ein Verb."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "begleiter_als_nomen",
+      "feedback": "«gefunden» wird kleingeschrieben und hat keinen Artikel. Es ist Teil der Verbform."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «und» in diesem Satz?\n\nSie packte die Bücher und die Hefte ein.",
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«und» verbindet hier zwei Wortgruppen. Auch Aufzählungen werden von Konjunktionen verbunden.",
+    "fehler": [
+     {
+      "antwort": "übrige Partikeln",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Eine Konjunktion muss nicht immer einen Nebensatz einleiten. Sie kann auch nur zwei Teile verbinden. Genau das tut «und» hier."
+     },
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "fall_uebersehen",
+      "feedback": "«und» fordert keinen Fall: Beide Teile stehen im selben Fall. Eine Präposition würde einen bestimmten Fall verlangen."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "zeitform-bestimmen",
+  "lernzielId": "D2.3.01",
+  "unterthemen": [
+   "3.01"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Präsens",
+   "Präteritum",
+   "Perfekt",
+   "Plusquamperfekt",
+   "Futur I"
+  ],
+  "hinweise": [
+   "Aus wie vielen Teilen besteht die Verbform, und welches Hilfsverb steht dabei?",
+   "Ein Teil heisst Präsens oder Präteritum. Zwei Teile mit «haben» oder «sein» heissen Perfekt oder Plusquamperfekt, mit «werden» Futur I.",
+   "Bei zwei Teilen entscheidet das Hilfsverb: steht es im Präsens, ist es Perfekt; steht es im Präteritum, ist es Plusquamperfekt."
+  ],
+  "loesungsweg": [
+   "Suche zuerst alle Teile der Verbform. Sie können weit auseinanderstehen.",
+   "Ein Teil: Präsens oder Präteritum. Zwei Teile mit «werden»: Futur I.",
+   "Zwei Teile mit «haben» oder «sein»: Steht das Hilfsverb im Präsens, ist es Perfekt; steht es im Präteritum, ist es Plusquamperfekt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nSie hatte den Brief schon geöffnet.",
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "Zwei Teile: «hatte» und «geöffnet». Das Hilfsverb «hatte» steht im Präteritum: das ergibt Plusquamperfekt.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "Der Bau stimmt, die Zeit des Hilfsverbs nicht: Beim Perfekt hiesse es «hat geöffnet». Hier steht «hatte», also eine Stufe weiter zurück."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "Du hast nur «hatte» angeschaut. Das Partizip «geöffnet» gehört dazu. Zwei Teile ergeben nie ein einfaches Präteritum."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nEr hat den Zug verpasst.",
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "Zwei Teile: «hat» im Präsens und das Partizip «verpasst».",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«hat» allein steht im Präsens, aber es ist hier nur das Hilfsverb. Zusammen mit «verpasst» bildet es das Perfekt."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "Fürs Plusquamperfekt müsste «hatte» stehen. «hat» ist Präsens: also Perfekt."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nMorgen wird sie den Brief lesen.",
+    "loesung": [
+     "Futur I"
+    ],
+    "erklaerung": "«wird» plus Infinitiv «lesen» ergibt das Futur I.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«wird» steht zwar im Präsens, ist aber Hilfsverb. Zusammen mit dem Infinitiv «lesen» bildet es das Futur I."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Beim Perfekt hiesse das Hilfsverb «hat» oder «ist» und am Ende stünde ein Partizip. Hier steht «werden» plus Infinitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nSie ging jeden Morgen zum Perron.",
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "Ein einziger Teil, und «ging» ist die Vergangenheitsform von «gehen».",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "einteilig_uebersehen",
+      "feedback": "Das Perfekt hat immer zwei Teile: «ist gegangen». Hier steht nur ein Wort."
+     },
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "stammform_verwechselt",
+      "feedback": "Das Präsens hiesse «geht». «ging» ist die Präteritumform, bei starken Verben ändert sich der Stammvokal."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nDer Regen fällt gegen die Scheibe.",
+    "loesung": [
+     "Präsens"
+    ],
+    "erklaerung": "Ein Teil, und die Handlung läuft gerade.",
+    "fehler": [
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "stammform_verwechselt",
+      "feedback": "Das Präteritum hiesse «fiel». Achte auf den Stammvokal: a im Präsens, ie im Präteritum."
+     },
+     {
+      "antwort": "Futur I",
+      "diagnoseId": "zeitangabe_statt_form",
+      "feedback": "Die Zeitform steckt in der Verbform, nicht in der Bedeutung. Ohne «werden» kein Futur I."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nNachdem er gegessen hatte, ging er los.",
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "Gefragt ist die Verbform im Nebensatz: «gegessen hatte» Partizip plus «hatte» im Präteritum.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "«hatte» statt «hat»: Das Hilfsverb steht im Präteritum, also Plusquamperfekt. Diese Form braucht man, wenn etwas noch vor einer anderen Vergangenheit liegt."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "Im Nebensatz steht die Personalform am Ende. «hatte». Das Partizip «gegessen» gehört dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nDie Kinder sind in den Bus gestiegen.",
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«sind» im Präsens plus Partizip «gestiegen». Verben der Bewegung bilden das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«sind» ist hier nur das Hilfsverb. Das Partizip «gestiegen» macht daraus das Perfekt."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "Fürs Plusquamperfekt müsste «waren» stehen. «sind» ist Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nWir werden im Sommer nach Chur ziehen.",
+    "loesung": [
+     "Futur I"
+    ],
+    "erklaerung": "«werden» plus Infinitiv «ziehen».",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«werden» ist hier das Hilfsverb, nicht das Vollverb. Der Infinitiv am Ende macht daraus das Futur I."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Am Ende steht ein Infinitiv («ziehen»), kein Partizip («gezogen»). Das unterscheidet Futur I vom Perfekt."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nSie schrieb ihm einen langen Brief.",
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "Ein Teil, mit verändertem Stammvokal: schreiben wird zu schrieb.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "stammform_verwechselt",
+      "feedback": "Das Präsens hiesse «schreibt». Bei starken Verben ändert sich im Präteritum der Vokal. Ei wird ie."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "einteilig_uebersehen",
+      "feedback": "Das Perfekt bräuchte zwei Teile: «hat geschrieben». Hier steht nur ein Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nEr war schon dreimal dort gewesen.",
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "«war» im Präteritum plus Partizip «gewesen».",
+    "fehler": [
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«war» allein wäre Präteritum. Mit «gewesen» werden es zwei Teile, und das Hilfsverb steht im Präteritum, also Plusquamperfekt."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "Beim Perfekt hiesse es «ist gewesen». «war» ist die Präteritumform von «sein»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nDas Postauto fährt jede Stunde.",
+    "loesung": [
+     "Präsens"
+    ],
+    "erklaerung": "Ein Teil, und die Aussage gilt jetzt.",
+    "fehler": [
+     {
+      "antwort": "Futur I",
+      "diagnoseId": "zeitangabe_statt_form",
+      "feedback": "«jede Stunde» meint auch die Zukunft, aber die Zeitform liest man an der Verbform ab. Ohne «werden» ist es Präsens."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "stammform_verwechselt",
+      "feedback": "Das Präteritum hiesse «fuhr». Achte auf den Stammvokal."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nIhr habt den Anschluss verpasst.",
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«habt» im Präsens plus Partizip «verpasst».",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "nur_ersten_teil",
+      "feedback": "«habt» ist hier Hilfsverb. Ein Partizip am Satzende macht daraus das Perfekt."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_zeit_uebersehen",
+      "feedback": "Fürs Plusquamperfekt müsste «hattet» stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nSie wird den Aufsatz bis Freitag abgegeben haben.",
+    "loesung": [
+     "Futur I"
+    ],
+    "erklaerung": "Das Kennzeichen bleibt «werden» plus Infinitiv. Hier ist der Infinitiv «abgegeben haben». An der ZAP zählt diese Form zum Futur.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Das Partizip «abgegeben» gehört zum Infinitiv «abgegeben haben». Die Verbform beginnt mit «wird» Das entscheidet."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Plusquamperfekt hiesse «hatte abgegeben». Hier steht «wird» am Anfang."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht die Verbform?\n\nDamals wohnten sie noch in Winterthur.",
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "Ein Teil, mit der Endung «-ten»: die regelmässige Präteritumform von «wohnen».",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "stammform_verwechselt",
+      "feedback": "Das Präsens hiesse «wohnen sie». Bei schwachen Verben erkennst du das Präteritum am eingeschobenen «-t-»."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "einteilig_uebersehen",
+      "feedback": "Das Perfekt bräuchte «haben gewohnt» Zwei Teile. Hier steht nur ein Wort."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "modus-bestimmen",
+  "lernzielId": "D2.4.01",
+  "unterthemen": [
+   "4.01",
+   "4.02"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Indikativ",
+   "Konjunktiv I",
+   "Konjunktiv II",
+   "Imperativ"
+  ],
+  "hinweise": [
+   "Behauptet der Satz etwas als wirklich, gibt er etwas Gehörtes weiter, malt er etwas Gedachtes aus, oder fordert er auf?",
+   "Konjunktiv I erkennst du an Formen wie «er sei», «sie habe», «er gehe» Der Endung «-e» in der 3. Person.",
+   "Konjunktiv II hat oft einen Umlaut («käme», «hätte») oder wird mit «würde» gebildet. Der Imperativ hat kein Subjekt."
+  ],
+  "loesungsweg": [
+   "Vier Modi: Indikativ für Wirkliches, Konjunktiv I für indirekte Rede, Konjunktiv II für Gedachtes und Höfliches, Imperativ für Aufforderungen.",
+   "Prüfe zuerst, ob ein Subjekt fehlt. Dann ist es der Imperativ.",
+   "Danach die Form: «-e» in der 3. Person ergibt Konjunktiv I, Umlaut oder «würde» ergibt Konjunktiv II."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nIch _bin_ der Dritte in der Schlange.",
+    "loesung": [
+     "Indikativ"
+    ],
+    "erklaerung": "Der Satz behauptet etwas als wirklich. «bin» ist die normale Präsensform.",
+    "fehler": [
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "sein_form_verwechselt",
+      "feedback": "Der Konjunktiv I von «sein» in der 1. Person wäre «sei». «bin» ist der Indikativ."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "sein_form_verwechselt",
+      "feedback": "Der Konjunktiv II wäre «wäre». Achte auf den Umlaut. Er fehlt hier."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nSie sagte, er _sei_ schon gegangen.",
+    "loesung": [
+     "Konjunktiv I"
+    ],
+    "erklaerung": "Nach «sagte» wird eine fremde Aussage weitergegeben. Dafür steht der Konjunktiv I: «sei» statt «ist».",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "indirekte_rede_uebersehen",
+      "feedback": "Der Indikativ wäre «ist». Die Form «sei» zeigt an, dass hier jemand anderes zitiert wird. Das ist der Konjunktiv I der indirekten Rede."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv II wäre «wäre». Der Konjunktiv I gibt Gehörtes weiter, der Konjunktiv II malt Gedachtes aus."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\n_Gib_ mir bitte den Schlüssel!",
+    "loesung": [
+     "Imperativ"
+    ],
+    "erklaerung": "Der Satz fordert auf, und ein Subjekt fehlt. Das ist der Imperativ.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "subjekt_fehlt_uebersehen",
+      "feedback": "Im Indikativ hiesse es «Du gibst mir den Schlüssel». Beim Imperativ fällt das Subjekt weg und die Endung verschwindet."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "aufforderung_verwechselt",
+      "feedback": "Der Konjunktiv I kann auch auffordern («Man nehme …»), aber dort steht ein Subjekt. Hier fehlt es, also Imperativ."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nIch _würde_ am liebsten sofort gehen.",
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "«würde» drückt einen Wunsch aus, der nicht wirklich ist. Das ist die Umschreibung des Konjunktivs II.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "wuerde_als_futur",
+      "feedback": "«werde» wäre Futur im Indikativ. «würde» mit Umlaut ist der Konjunktiv II. Der Umlaut ist das Zeichen."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv I hiesse «werde». Der Umlaut in «würde» ist das Zeichen des Konjunktivs II: Er malt aus, was nicht wirklich ist. Der Konjunktiv I gibt dagegen wieder, was jemand anderes gesagt hat."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\n_Könnte_ ich bitte den Fisch haben?",
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "Der Konjunktiv II macht die Bitte höflich. «Kann ich?» wäre direkter.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "hoeflichkeit_uebersehen",
+      "feedback": "Der Indikativ wäre «kann». Der Umlaut in «könnte» macht aus der Frage eine höfliche Bitte. Das ist Konjunktiv II."
+     },
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "aufforderung_verwechselt",
+      "feedback": "Eine Bitte ist keine Befehlsform. Der Imperativ hätte kein Subjekt: «Gib mir den Fisch!»"
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nEr behauptet, sie _habe_ nichts gewusst.",
+    "loesung": [
+     "Konjunktiv I"
+    ],
+    "erklaerung": "Nach «behauptet» folgt indirekte Rede. Die Endung «-e» in der 3. Person zeigt den Konjunktiv I.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "indirekte_rede_uebersehen",
+      "feedback": "Der Indikativ wäre «hat». Das «-e» macht den Unterschied und zeigt: Hier wird jemand zitiert."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv II wäre «hätte» mit Umlaut. Ohne Umlaut ist es der Konjunktiv I."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\n_Kämen_ sie doch endlich!",
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "Der Umlaut in «kämen» zeigt den Konjunktiv II. Er drückt hier einen Wunsch aus.",
+    "fehler": [
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv I hiesse «kommen sie». Der Umlaut ä ist das sichere Zeichen für den Konjunktiv II."
+     },
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "aufforderung_verwechselt",
+      "feedback": "Es steht ein Subjekt da («sie»). Beim Imperativ fehlt es. Ein Wunsch ist keine Befehlsform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nDas Postauto _fährt_ jede Stunde.",
+    "loesung": [
+     "Indikativ"
+    ],
+    "erklaerung": "Eine Tatsache, in der normalen Präsensform.",
+    "fehler": [
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "indirekte_rede_uebersehen",
+      "feedback": "Der Konjunktiv I hiesse «fahre». Hier zitiert niemand, es wird schlicht etwas festgestellt."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv II hiesse «führe» oder «würde fahren»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\n_Lies_ den Auftrag zuerst genau durch!",
+    "loesung": [
+     "Imperativ"
+    ],
+    "erklaerung": "Aufforderung ohne Subjekt, mit Ausrufezeichen.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "subjekt_fehlt_uebersehen",
+      "feedback": "Im Indikativ hiesse es «Du liest». Das fehlende Subjekt ist das Kennzeichen des Imperativs."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "aufforderung_verwechselt",
+      "feedback": "Der Konjunktiv I der Aufforderung klingt anders: «Man lese …». Hier wird direkt jemand angesprochen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nWenn ich mehr Zeit _hätte_, würde ich mitkommen.",
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "Ein Bedingungssatz über etwas, das nicht zutrifft. Der Umlaut in «hätte» zeigt den Konjunktiv II.",
+    "fehler": [
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv I wäre «habe» ohne Umlaut. Bei einer Bedingung, die nicht zutrifft, steht immer der Konjunktiv II."
+     },
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "bedingung_uebersehen",
+      "feedback": "Der Indikativ wäre «habe» im Sinn von «ich habe». Der Umlaut zeigt: Das trifft gerade nicht zu."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nSie schrieb, sie _komme_ später.",
+    "loesung": [
+     "Konjunktiv I"
+    ],
+    "erklaerung": "Indirekte Rede nach «schrieb». Die Endung «-e» statt «-t» zeigt den Konjunktiv I.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "indirekte_rede_uebersehen",
+      "feedback": "Der Indikativ wäre «kommt». Beim Umformen in die indirekte Rede wird aus «-t» ein «-e»."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv II wäre «käme» mit Umlaut."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\n_Nehmt_ eure Jacken mit!",
+    "loesung": [
+     "Imperativ"
+    ],
+    "erklaerung": "Aufforderung an mehrere Personen, ohne Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "subjekt_fehlt_uebersehen",
+      "feedback": "Der Indikativ hiesse «Ihr nehmt eure Jacken mit». Beim Imperativ fällt «ihr» weg."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "aufforderung_verwechselt",
+      "feedback": "Der Konjunktiv I der 2. Person Plural wäre «nehmet» und wirkt altertümlich. Hier steht die normale Befehlsform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht die unterstrichene Form?\n\nAn deiner Stelle _würde_ ich nachfragen.",
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "Ein Rat über eine gedachte Lage. Dafür steht der Konjunktiv II, hier mit «würde» umschrieben.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "wuerde_als_futur",
+      "feedback": "«werde» wäre Indikativ. Der Umlaut in «würde» zeigt an, dass die Lage nur gedacht ist."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "konjunktiv_stufen_verwechselt",
+      "feedback": "Der Konjunktiv I gibt fremde Aussagen weiter. Hier gibst du selbst einen Rat."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

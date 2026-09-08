@@ -1,0 +1,3689 @@
+[
+ {
+  "templateId": "gl-kopfrechnen",
+  "lernzielId": "MGL.1.02",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.02",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 98,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 49,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*c-b*2+a"
+   }
+  ],
+  "bedingungen": [
+   "wert>0",
+   "wert<900",
+   "a!=b",
+   "wert!=a",
+   "wert!=b",
+   "c!=2"
+  ],
+  "stamm": "{name} rechnet im Kopf, ohne Taschenrechner.\n\n{a} · {c} − {b} · 2 + {a} =",
+  "loesung": "a*c-b*2+a",
+  "gegenprobe": "a*(c+1)-2*b",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a*c-b)*2+a",
+    "feedback": "Punkt vor Strich: Zuerst werden beide Produkte gerechnet, dann addiert und subtrahiert."
+   },
+   {
+    "diagnoseId": "letztes_vergessen",
+    "ausdruck": "a*c-b*2",
+    "feedback": "Am Schluss wird noch einmal {a} addiert; dieser Summand gehört dazu."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "a*c+b*2+a",
+    "feedback": "Vor {b} · 2 steht ein Minus. Das Produkt wird abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechenart kommt zuerst?",
+   "Beide Produkte zuerst, dann der Reihe nach addieren und subtrahieren.",
+   "Ein Trick: {a} · {c} + {a} ist dasselbe wie {a} · ({c} + 1)."
+  ],
+  "loesungsweg": [
+   "{a} · {c} ausrechnen.",
+   "{b} · 2 abziehen.",
+   "{a} addieren.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-bruch-dezimal-prozent",
+  "lernzielId": "MGL.1.06",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.06",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     16,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 39,
+    "schritt": 1
+   },
+   {
+    "name": "dez",
+    "typ": "formel",
+    "ausdruck": "z/n"
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "z*100/n"
+   }
+  ],
+  "bedingungen": [
+   "z<n",
+   "ggt(z,n)==1",
+   "(z*100)%n==0",
+   "dez<1",
+   "dez>0.02",
+   "proz!=z",
+   "proz!=n"
+  ],
+  "stamm": "{name} findet in einer Tabelle den Anteil {z:hoch}⁄{n:tief}.\n\nSchreibe ihn als Dezimalzahl und als Prozentzahl.",
+  "felder": [
+   {
+    "name": "dez",
+    "label": "als Dezimalzahl",
+    "ausdruck": "z/n",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "n/z",
+      "feedback": "Geteilt wird Zähler durch Nenner. Andersherum käme eine Zahl grösser als eins heraus, obwohl der Anteil kleiner als das Ganze ist."
+     },
+     {
+      "diagnoseId": "prozentzahl",
+      "ausdruck": "z*100/n",
+      "feedback": "Das ist die Prozentzahl; die Dezimalzahl ist hundertmal kleiner."
+     },
+     {
+      "diagnoseId": "zaehler",
+      "ausdruck": "z",
+      "feedback": "Der Zähler allein ist kein Anteil; erst das Verhältnis zum Nenner ergibt ihn."
+     }
+    ]
+   },
+   {
+    "name": "proz",
+    "label": "in Prozent",
+    "ausdruck": "z*100/n",
+    "einheit": "%",
+    "fehler": [
+     {
+      "diagnoseId": "dezimal",
+      "ausdruck": "z/n",
+      "feedback": "Das ist die Dezimalzahl; für Prozent wird sie mit 100 multipliziert."
+     },
+     {
+      "diagnoseId": "nenner",
+      "ausdruck": "n",
+      "feedback": "Der Nenner ist das Ganze, nicht der Anteil."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "n-z",
+      "feedback": "Das wäre der Rest in Bruchteilen, und auch der müsste noch umgerechnet werden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet der Bruchstrich?",
+   "Er bedeutet «geteilt durch»: {z} : {n}.",
+   "Die Dezimalzahl mal 100 ergibt die Prozentzahl."
+  ],
+  "loesungsweg": [
+   "{z} : {n} ergibt {dez}.",
+   "Mal 100 ergibt {proz} %.",
+   "Beide Schreibweisen meinen denselben Anteil.",
+   "Probe: {proz} % von 1 sind wieder {dez}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-einheiten",
+  "lernzielId": "MGL.2.01",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.01",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "dm",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 90,
+    "schritt": 5
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 95,
+    "schritt": 1
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "m+dm/10+cm/100"
+   },
+   {
+    "name": "mm",
+    "typ": "formel",
+    "ausdruck": "m*1000+dm*100+cm*10"
+   }
+  ],
+  "bedingungen": [
+   "meter<12",
+   "cm%5==0",
+   "dm!=cm",
+   "m!=dm"
+  ],
+  "stamm": "{name} misst eine Strecke in drei Abschnitten: {m} m, {dm} dm und {cm} cm.\n\nGib die Gesamtlänge in Metern und in Millimetern an.",
+  "felder": [
+   {
+    "name": "meter",
+    "label": "Länge in m",
+    "ausdruck": "m+dm/10+cm/100",
+    "fehler": [
+     {
+      "diagnoseId": "dm_falsch",
+      "ausdruck": "m+dm/100+cm/100",
+      "feedback": "Ein Dezimeter ist ein Zehntel Meter, nicht ein Hundertstel."
+     },
+     {
+      "diagnoseId": "cm_falsch",
+      "ausdruck": "m+dm/10+cm/10",
+      "feedback": "Ein Zentimeter ist ein Hundertstel Meter."
+     },
+     {
+      "diagnoseId": "alles_addiert",
+      "ausdruck": "m+dm+cm",
+      "feedback": "Die drei Zahlen stehen in verschiedenen Einheiten und lassen sich nicht direkt addieren."
+     }
+    ]
+   },
+   {
+    "name": "mm",
+    "label": "Länge in mm",
+    "ausdruck": "m*1000+dm*100+cm*10",
+    "fehler": [
+     {
+      "diagnoseId": "meter_falsch",
+      "ausdruck": "m*100+dm*100+cm*10",
+      "feedback": "Ein Meter sind 1000 Millimeter, nicht 100."
+     },
+     {
+      "diagnoseId": "cm_falsch",
+      "ausdruck": "m*1000+dm*100+cm",
+      "feedback": "Ein Zentimeter sind 10 Millimeter, nicht einer."
+     },
+     {
+      "diagnoseId": "meterwert",
+      "ausdruck": "m+dm/10+cm/100",
+      "feedback": "Das ist die Länge in Metern. In Millimetern ist die Zahl tausendmal grösser."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Dezimeter sind ein Meter?",
+   "Zehn. Und ein Meter hat 100 Zentimeter und 1000 Millimeter.",
+   "Rechne alles zuerst in dieselbe Einheit um."
+  ],
+  "loesungsweg": [
+   "{dm} dm sind {dm} : 10 m.",
+   "{cm} cm sind {cm} : 100 m.",
+   "Zusammen mit {m} m ergibt das {meter} m.",
+   "Mal 1000 ergibt {mm} mm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-prozent-grundwert",
+  "lernzielId": "MGL.2.03",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.03",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 600,
+    "schritt": 20
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Snowboard"
+     ],
+     [
+      "ein Wanderrucksack"
+     ],
+     [
+      "ein Zelt"
+     ],
+     [
+      "ein Velohelm"
+     ],
+     [
+      "ein Schlafsack"
+     ],
+     [
+      "ein Kochset"
+     ],
+     [
+      "ein Fernglas"
+     ],
+     [
+      "eine Jacke"
+     ],
+     [
+      "ein Paar Schuhe"
+     ],
+     [
+      "eine Lampe"
+     ],
+     [
+      "ein Rucksack"
+     ],
+     [
+      "ein Schlitten"
+     ]
+    ]
+   },
+   {
+    "name": "betrag",
+    "typ": "formel",
+    "ausdruck": "g*p/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "g*(100-p)/100"
+   }
+  ],
+  "bedingungen": [
+   "(g*p)%100==0",
+   "betrag>3",
+   "neu>20",
+   "g!=p",
+   "betrag!=neu",
+   "g!=100"
+  ],
+  "stamm": "Im Ausverkauf wird {ware} von {g:franken} um {p} % reduziert.\n\nBerechne den Rabattbetrag und den neuen Preis.",
+  "felder": [
+   {
+    "name": "betrag",
+    "label": "Rabatt in Fr.",
+    "ausdruck": "g*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "neuer_preis",
+      "ausdruck": "g*(100-p)/100",
+      "feedback": "Das ist der neue Preis. Der Rabatt ist der Betrag, den man spart."
+     },
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "{p} ist der Prozentsatz, nicht der Betrag in Franken."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "g/p",
+      "feedback": "{p} % heissen: mal {p}, geteilt durch 100."
+     }
+    ]
+   },
+   {
+    "name": "neu",
+    "label": "neuer Preis in Fr.",
+    "ausdruck": "g*(100-p)/100",
+    "fehler": [
+     {
+      "diagnoseId": "rabatt",
+      "ausdruck": "g*p/100",
+      "feedback": "Das ist der Rabatt. Der neue Preis ist der alte minus dieser Betrag."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "g*(100+p)/100",
+      "feedback": "Bei einer Reduktion wird der Rabatt abgezogen, nicht dazugezählt."
+     },
+     {
+      "diagnoseId": "alter_preis",
+      "ausdruck": "g",
+      "feedback": "Das ist der alte Preis. Nach der Reduktion ist er kleiner."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl entspricht 100 %?",
+   "Der ursprüngliche Preis von {g:franken}",
+   "Der neue Preis entspricht (100 − {p}) % davon."
+  ],
+  "loesungsweg": [
+   "Rabatt: {g} · {p} : 100 = {betrag}.",
+   "Neuer Preis: {g} − {betrag}.",
+   "Oder direkt: {g} · (100 − {p}) : 100.",
+   "Beides ergibt {neu} Franken."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-gleichung-loesen",
+  "lernzielId": "MGL.3.05",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "3.05",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "a*(x+c)-b*x"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "x!=0",
+   "abs(d)<120",
+   "x!=c",
+   "x!=a",
+   "x!=b",
+   "d!=0",
+   "abs(a-b)>1"
+  ],
+  "stamm": "{name} löst diese Gleichung nach x auf.\n\n{a}(x + {c}) − {b}x = {d}",
+  "loesung": "x",
+  "gegenprobe": "(d-a*c)/(a-b)",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_nicht_ausmultipliziert",
+    "ausdruck": "(d-c)/(a-b)",
+    "feedback": "Der Faktor {a} gehört zu BEIDEN Gliedern der Klammer: {a}x und {a} · {c}."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "(d+a*c)/(a-b)",
+    "feedback": "Das Glied {a} · {c} steht links; beim Verschieben wird es abgezogen."
+   },
+   {
+    "diagnoseId": "faktoren_addiert",
+    "ausdruck": "(d-a*c)/(a+b)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen: {a}x − {b}x."
+   }
+  ],
+  "hinweise": [
+   "Was machst du zuerst mit der Klammer?",
+   "Ausmultiplizieren: {a}x + {a} · {c}.",
+   "Dann die x-Glieder zusammenfassen und die Zahl verschieben."
+  ],
+  "loesungsweg": [
+   "Klammer ausmultiplizieren.",
+   "x-Glieder zusammenfassen: ({a} − {b})x.",
+   "Die Zahl auf die andere Seite bringen.",
+   "Durch den Faktor teilen: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-winkel-viereck",
+  "lernzielId": "MGL.4.01",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.01",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 50,
+    "bis": 140,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 130,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 45,
+    "bis": 120,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "360-a-b-c"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "a+b+c"
+   }
+  ],
+  "bedingungen": [
+   "d>25",
+   "d<160",
+   "a!=b",
+   "b!=c",
+   "d!=a",
+   "d!=b",
+   "d!=c",
+   "summe<335"
+  ],
+  "stamm": "In einem Viereck sind drei Winkel bekannt: {a}°, {b}° und {c}°.\n\nBerechne den vierten Winkel und die Summe der drei bekannten.",
+  "felder": [
+   {
+    "name": "d",
+    "label": "vierter Winkel in Grad",
+    "ausdruck": "360-a-b-c",
+    "fehler": [
+     {
+      "diagnoseId": "mit_180",
+      "ausdruck": "180-a-b-c",
+      "feedback": "Die Winkelsumme im Viereck beträgt 360°. 180° gilt im Dreieck."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c",
+      "feedback": "Das ist die Summe der drei bekannten Winkel. Der vierte ist der Rest auf 360°."
+     },
+     {
+      "diagnoseId": "mittelwert",
+      "ausdruck": "(a+b+c)/3",
+      "feedback": "Der vierte Winkel ist kein Durchschnitt, sondern ergänzt auf 360°."
+     }
+    ]
+   },
+   {
+    "name": "summe",
+    "label": "Summe der drei bekannten Winkel",
+    "ausdruck": "a+b+c",
+    "fehler": [
+     {
+      "diagnoseId": "mit_viertem",
+      "ausdruck": "360",
+      "feedback": "Alle VIER Winkel ergeben zusammen 360°. Gefragt sind nur die drei bekannten."
+     },
+     {
+      "diagnoseId": "vierter",
+      "ausdruck": "360-a-b-c",
+      "feedback": "Das ist der vierte Winkel; gefragt war die Summe der drei bekannten."
+     },
+     {
+      "diagnoseId": "durchschnitt",
+      "ausdruck": "(a+b+c)/3",
+      "feedback": "Gefragt ist die Summe, nicht der Durchschnitt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Viereck?",
+   "360°. Jedes Viereck lässt sich in zwei Dreiecke zerlegen.",
+   "Der vierte Winkel ist 360° minus die Summe der drei bekannten."
+  ],
+  "loesungsweg": [
+   "Summe der drei bekannten: {a}° + {b}° + {c}° = {summe}°.",
+   "Winkelsumme im Viereck: 360°.",
+   "Vierter Winkel: 360° − {summe}°.",
+   "Das ergibt {d}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-flaeche-zusammengesetzt",
+  "lernzielId": "MGL.4.04",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.04",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 26,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Sitzplatz"
+     ],
+     [
+      "ein Beet"
+     ],
+     [
+      "ein Vorplatz"
+     ],
+     [
+      "ein Werkraum"
+     ],
+     [
+      "ein Balkonboden"
+     ],
+     [
+      "ein Kellerraum"
+     ],
+     [
+      "ein Estrich"
+     ],
+     [
+      "ein Schuppenboden"
+     ],
+     [
+      "ein Gartenstück"
+     ],
+     [
+      "ein Zimmer"
+     ],
+     [
+      "ein Lagerraum"
+     ],
+     [
+      "ein Hofstück"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "a*b+c*c"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*a+2*b+2*c"
+   }
+  ],
+  "bedingungen": [
+   "c<b",
+   "flaeche<600",
+   "a!=b",
+   "b!=c",
+   "flaeche!=umfang",
+   "a!=c"
+  ],
+  "stamm": "Hinter dem Haus liegt {ort}: ein Rechteck von {a} m mal {b} m, an das ein Quadrat mit {c} m Seitenlänge anschliesst.\n\nBerechne die Gesamtfläche und den Umfang der ganzen Figur.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche in m²",
+    "ausdruck": "a*b+c*c",
+    "fehler": [
+     {
+      "diagnoseId": "nur_rechteck",
+      "ausdruck": "a*b",
+      "feedback": "Das Quadrat gehört dazu: {c} · {c} Quadratmeter."
+     },
+     {
+      "diagnoseId": "quadrat_falsch",
+      "ausdruck": "a*b+c",
+      "feedback": "Die Fläche eines Quadrats ist Seite mal Seite, nicht die Seite allein."
+     },
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "a*b*c",
+      "feedback": "Die beiden Teilflächen werden addiert, nicht multipliziert."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang in m",
+    "ausdruck": "2*a+2*b+2*c",
+    "fehler": [
+     {
+      "diagnoseId": "nur_rechteck",
+      "ausdruck": "2*a+2*b",
+      "feedback": "Auch das angesetzte Quadrat trägt zum äusseren Umfang bei."
+     },
+     {
+      "diagnoseId": "alle_seiten",
+      "ausdruck": "2*a+2*b+4*c",
+      "feedback": "Die gemeinsame Seite liegt innen und gehört nicht zum Umfang; von den vier Quadratseiten zählen nur zwei zusätzlich."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "a*b+c*c",
+      "feedback": "Das ist die Fläche in m². Der Umfang ist eine Länge."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zerlege die Figur in zwei einfache Teile.",
+   "Rechteck und Quadrat: Ihre Flächen werden addiert.",
+   "Beim Umfang zählt nur die Aussenlinie; die gemeinsame Kante liegt innen."
+  ],
+  "loesungsweg": [
+   "Rechteck: {a} · {b} m².",
+   "Quadrat: {c} · {c} m².",
+   "Zusammen {flaeche} m².",
+   "Der Umfang der ganzen Figur misst {umfang} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-quader-oberflaeche",
+  "lernzielId": "MGL.4.09",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.09",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Werkzeugkiste"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "ein Karton"
+     ],
+     [
+      "ein Blumentrog"
+     ],
+     [
+      "ein Setzkasten"
+     ],
+     [
+      "ein Futtertrog"
+     ],
+     [
+      "ein Sockel"
+     ],
+     [
+      "ein Wassertank"
+     ],
+     [
+      "ein Bücherfach"
+     ],
+     [
+      "eine Truhe"
+     ],
+     [
+      "ein Schaukasten"
+     ],
+     [
+      "ein Behälter"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*(a*b+a*c+b*c)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "v<5000",
+   "v>60",
+   "o!=v"
+  ],
+  "stamm": "Im Keller steht {sache} in Form eines Quaders: {a} cm lang, {b} cm breit und {c} cm hoch.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "a*b*c",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+c",
+      "feedback": "Das Volumen entsteht durch Multiplizieren der drei Kanten."
+     },
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in cm²; für das Volumen fehlt die Höhe."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(a*b+a*c+b*c)",
+      "feedback": "Das ist die Oberfläche in cm², kein Rauminhalt."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*(a*b+a*c+b*c)",
+    "fehler": [
+     {
+      "diagnoseId": "drei_flaechen",
+      "ausdruck": "a*b+a*c+b*c",
+      "feedback": "Ein Quader hat sechs Flächen, je zwei gleich grosse. Die Summe der drei verschiedenen wird verdoppelt."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "a*b*c",
+      "feedback": "Das ist das Volumen in cm³, also ein Rauminhalt."
+     },
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "2*(a*c+b*c)",
+      "feedback": "Der Mantel sind vier Flächen; Grund- und Deckfläche fehlen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Quader?",
+   "Sechs, paarweise gleich gross.",
+   "Volumen: Länge mal Breite mal Höhe."
+  ],
+  "loesungsweg": [
+   "Volumen: {a} · {b} · {c} = {v} cm³.",
+   "Die drei verschiedenen Flächen berechnen.",
+   "Jede kommt zweimal vor.",
+   "Oberfläche: {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-brueche-rechnen",
+  "lernzielId": "MGL.1.04",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.04",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a-q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=72",
+   "((p*b-q*a)%(a*b))!=0",
+   "abs(wert)<1",
+   "p/a!=q/b"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner. Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} − {q:hoch}⁄{b:tief} =",
+  "loesung": "p/a-q/b",
+  "gegenprobe": "(p*b-q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "ueber_kreuz",
+    "ausdruck": "(p-q)/(a-b)",
+    "feedback": "Zähler minus Zähler und Nenner minus Nenner geht nicht. Beide Brüche kommen zuerst auf den gemeinsamen Nenner {a} · {b}."
+   },
+   {
+    "diagnoseId": "nenner_beibehalten",
+    "ausdruck": "(p-q)/a",
+    "feedback": "Die Nenner sind verschieden; vor dem Subtrahieren müssen sie gleich sein."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "p/a+q/b",
+    "feedback": "Zwischen den Brüchen steht ein Minus, nicht ein Plus."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie subtrahieren kann?",
+   "Den gemeinsamen Nenner {a} · {b}.",
+   "Dann nur die Zähler verrechnen und am Schluss kürzen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern.",
+   "Zähler subtrahieren.",
+   "Vollständig kürzen: {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-ggt-kgv-glarus",
+  "lernzielId": "MGL.1.07",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*m"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*n"
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "g*m*n"
+   }
+  ],
+  "bedingungen": [
+   "ggt(m,n)==1",
+   "m!=n",
+   "a!=b",
+   "a<120",
+   "b<120",
+   "kgv<600",
+   "g!=m",
+   "g!=n"
+  ],
+  "stamm": "{name} soll für die Zahlen {a} und {b} den grössten gemeinsamen Teiler und das kleinste gemeinsame Vielfache bestimmen.",
+  "felder": [
+   {
+    "name": "g",
+    "label": "ggT",
+    "ausdruck": "g",
+    "fehler": [
+     {
+      "diagnoseId": "kgv",
+      "ausdruck": "g*m*n",
+      "feedback": "Das ist das kleinste gemeinsame VIELFACHE. Der ggT ist höchstens so gross wie die kleinere Zahl."
+     },
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt ist weder ggT noch kgV; der ggT teilt beide Zahlen."
+     },
+     {
+      "diagnoseId": "eins",
+      "ausdruck": "1",
+      "feedback": "Die Eins teilt zwar beide, ist aber nicht die grösste solche Zahl."
+     }
+    ]
+   },
+   {
+    "name": "kgv",
+    "label": "kgV",
+    "ausdruck": "g*m*n",
+    "fehler": [
+     {
+      "diagnoseId": "ggt",
+      "ausdruck": "g",
+      "feedback": "Das ist der grösste gemeinsame TEILER. Das kgV ist mindestens so gross wie die grössere Zahl."
+     },
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt ist ein gemeinsames Vielfaches, aber nicht das kleinste; teile es noch durch den ggT."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b",
+      "feedback": "Die Summe ist in der Regel durch keine der beiden Zahlen teilbar."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zerlege beide Zahlen in Primfaktoren.",
+   "Für den ggT die gemeinsamen Faktoren, für das kgV alle vorkommenden.",
+   "Praktisch: kgV = {a} · {b} : ggT."
+  ],
+  "loesungsweg": [
+   "{a} = {g} · {m} und {b} = {g} · {n}.",
+   "Gemeinsam ist {g} — das ist der ggT.",
+   "Das kgV ist {g} · {m} · {n}.",
+   "Also {kgv}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-dreisatz",
+  "lernzielId": "MGL.2.05",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.05",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "t1",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 60,
+    "schritt": 2
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "arbeit",
+    "typ": "text",
+    "texte": [
+     [
+      "Zäune zu streichen"
+     ],
+     [
+      "Kisten zu packen"
+     ],
+     [
+      "Bäume zu setzen"
+     ],
+     [
+      "Wege zu räumen"
+     ],
+     [
+      "Blätter zu falten"
+     ],
+     [
+      "Karten zu sortieren"
+     ],
+     [
+      "Regale zu füllen"
+     ],
+     [
+      "Bänke zu schleifen"
+     ],
+     [
+      "Kerzen zu ziehen"
+     ],
+     [
+      "Beete zu jäten"
+     ],
+     [
+      "Säcke zu binden"
+     ],
+     [
+      "Netze zu flicken"
+     ]
+    ]
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "n1*t1/n2"
+   },
+   {
+    "name": "prop",
+    "typ": "formel",
+    "ausdruck": "n2*t1/n1"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "(n1*t1)%n2==0",
+   "t2>2",
+   "t2<200",
+   "t2!=t1",
+   "prop!=t2",
+   "t1!=n1",
+   "t2!=n2"
+  ],
+  "stamm": "{n1} Personen brauchen {t1} Minuten, um {arbeit}.\n\nWie lange brauchen {n2} Personen — und wie lange bräuchte eine einzige Person?",
+  "felder": [
+   {
+    "name": "t2",
+    "label": "Zeit für {n2} Personen in Minuten",
+    "ausdruck": "n1*t1/n2",
+    "fehler": [
+     {
+      "diagnoseId": "proportional",
+      "ausdruck": "n2*t1/n1",
+      "feedback": "Mehr Personen brauchen weniger Zeit: Der Zusammenhang ist umgekehrt proportional."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "t1",
+      "feedback": "Mit einer anderen Personenzahl ändert sich die Zeit."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "t1-(n2-n1)",
+      "feedback": "Massgebend ist das Verhältnis, nicht die Differenz der Personenzahlen."
+     }
+    ]
+   },
+   {
+    "name": "eine",
+    "label": "Zeit für eine Person in Minuten",
+    "ausdruck": "n1*t1",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "t1/n1",
+      "feedback": "Eine einzige Person braucht LÄNGER als eine Gruppe, nicht kürzer."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "t1",
+      "feedback": "{n1} Personen brauchen {t1} Minuten; eine allein braucht entsprechend mehr."
+     },
+     {
+      "diagnoseId": "fuer_n2",
+      "ausdruck": "n1*t1/n2",
+      "feedback": "Das ist die Zeit für {n2} Personen, nicht für eine einzige."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Bleibt die Arbeit gleich, wenn mehr Leute anpacken?",
+   "Ja — deshalb ist Personen mal Zeit konstant.",
+   "{n1} · {t1} ist die ganze Arbeit in Personenminuten."
+  ],
+  "loesungsweg": [
+   "Gesamte Arbeit: {n1} · {t1} Personenminuten.",
+   "Auf {n2} Personen verteilt: {t2} Minuten.",
+   "Eine Person allein braucht die ganze Arbeit: {n1} · {t1} Minuten.",
+   "Je mehr Personen, desto kürzer die Zeit."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-mittelwert",
+  "lernzielId": "MGL.2.08",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 35,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Punkte"
+     ],
+     [
+      "gelaufene Runden"
+     ],
+     [
+      "gesammelte Karten"
+     ],
+     [
+      "Seiten"
+     ],
+     [
+      "verkaufte Lose"
+     ],
+     [
+      "Minuten"
+     ],
+     [
+      "gefundene Fehler"
+     ],
+     [
+      "gepflückte Äpfel"
+     ],
+     [
+      "Treffer"
+     ],
+     [
+      "Anmeldungen"
+     ],
+     [
+      "gezählte Vögel"
+     ],
+     [
+      "Aufgaben"
+     ]
+    ]
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d)/4"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "a+b+c+d"
+   }
+  ],
+  "bedingungen": [
+   "a<b",
+   "b<c",
+   "c<d",
+   "mittel!=summe",
+   "d-a>6",
+   "mittel!=c"
+  ],
+  "stamm": "{name} notiert an vier Tagen die {sache}: {a}, {b}, {c} und {d}.\n\nBerechne die Summe und das arithmetische Mittel.",
+  "felder": [
+   {
+    "name": "summe",
+    "label": "Summe",
+    "ausdruck": "a+b+c+d",
+    "fehler": [
+     {
+      "diagnoseId": "mittel",
+      "ausdruck": "(a+b+c+d)/4",
+      "feedback": "Das ist das Mittel. Die Summe ist alles zusammengezählt, ohne Teilen."
+     },
+     {
+      "diagnoseId": "groesster",
+      "ausdruck": "d",
+      "feedback": "Der grösste Wert allein ist nicht die Summe aller vier."
+     },
+     {
+      "diagnoseId": "spanne",
+      "ausdruck": "d-a",
+      "feedback": "Das ist die Spannweite zwischen kleinstem und grösstem Wert."
+     }
+    ]
+   },
+   {
+    "name": "mittel",
+    "label": "arithmetisches Mittel",
+    "ausdruck": "(a+b+c+d)/4",
+    "fehler": [
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c+d",
+      "feedback": "Die Summe muss noch durch die Anzahl der Werte geteilt werden."
+     },
+     {
+      "diagnoseId": "durch_drei",
+      "ausdruck": "(a+b+c+d)/3",
+      "feedback": "Es sind vier Werte, also wird durch 4 geteilt."
+     },
+     {
+      "diagnoseId": "mitte",
+      "ausdruck": "(a+d)/2",
+      "feedback": "Das ist die Mitte zwischen kleinstem und grösstem Wert, nicht der Durchschnitt aller vier."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Werte sind es?",
+   "Vier. Zuerst alle addieren.",
+   "Dann durch die Anzahl teilen."
+  ],
+  "loesungsweg": [
+   "Summe: {a} + {b} + {c} + {d} = {summe}.",
+   "Anzahl der Werte: 4.",
+   "Mittel: {summe} : 4.",
+   "Ergebnis: {mittel}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-symmetrie-gitter",
+  "lernzielId": "MGL.4.06",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "ya!=yb",
+   "xa!=xb",
+   "ya!=0",
+   "yb!=0",
+   "abs(ya)!=abs(yb)"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) an der x-Achse.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "0-ya",
+  "gegenprobe": "(0-1)*ya",
+  "fehler": [
+   {
+    "diagnoseId": "an_y_achse",
+    "ausdruck": "ya",
+    "feedback": "Bei der Spiegelung an der x-Achse wechselt der y-Wert das Vorzeichen, der x-Wert bleibt."
+   },
+   {
+    "diagnoseId": "beide_gewechselt",
+    "ausdruck": "0-ya",
+    "feedback": "Am Nullpunkt würden beide Koordinaten wechseln. Hier wird nur an der x-Achse gespiegelt."
+   },
+   {
+    "diagnoseId": "nicht_gespiegelt",
+    "ausdruck": "ya*1",
+    "feedback": "So bleibt der Punkt an derselben Stelle; beim Spiegeln wechselt er die Seite."
+   }
+  ],
+  "hinweise": [
+   "Welche Koordinate ändert sich bei der Spiegelung an der x-Achse?",
+   "Nur der y-Wert wechselt das Vorzeichen.",
+   "Der Abstand zur Achse bleibt gleich."
+  ],
+  "loesungsweg": [
+   "A liegt {ya} Einheiten über oder unter der x-Achse.",
+   "Der Bildpunkt liegt gleich weit auf der anderen Seite.",
+   "Der x-Wert bleibt unverändert.",
+   "Ebenso für B."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa",
+      "0-ya"
+     ],
+     [
+      "xb",
+      "0-yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-kreis-glarus",
+  "lernzielId": "MGL.4.05",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.05",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Blumenbeet"
+     ],
+     [
+      "ein Brunnen"
+     ],
+     [
+      "eine Zielscheibe"
+     ],
+     [
+      "ein Tischblatt"
+     ],
+     [
+      "ein Deckel"
+     ],
+     [
+      "ein Teichrand"
+     ],
+     [
+      "eine Sitzfläche"
+     ],
+     [
+      "ein Rasenrund"
+     ],
+     [
+      "ein Rondell"
+     ],
+     [
+      "ein Uhrenblatt"
+     ],
+     [
+      "eine Trommel"
+     ],
+     [
+      "ein Radquerschnitt"
+     ]
+    ]
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*3.14159*r"
+   },
+   {
+    "name": "f",
+    "typ": "formel",
+    "ausdruck": "3.14159*r*r"
+   }
+  ],
+  "bedingungen": [
+   "f<2000",
+   "u!=f",
+   "r>3"
+  ],
+  "stamm": "Auf dem Plan ist {sache} als Kreis mit dem Radius {r} m gezeichnet.\n\nBerechne Umfang und Fläche. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "u",
+    "label": "Umfang in m",
+    "ausdruck": "2*3.14159*r",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_zwei",
+      "ausdruck": "3.14159*r",
+      "feedback": "Im Umfang steht der Faktor 2: U = 2 · π · r."
+     },
+     {
+      "diagnoseId": "flaechenformel",
+      "ausdruck": "3.14159*r*r",
+      "feedback": "Das ist die Fläche in m². Der Umfang ist eine Länge."
+     },
+     {
+      "diagnoseId": "durchmesser",
+      "ausdruck": "2*r",
+      "feedback": "Das ist der Durchmesser. Für den Umfang kommt π dazu."
+     }
+    ]
+   },
+   {
+    "name": "f",
+    "label": "Fläche in m²",
+    "ausdruck": "3.14159*r*r",
+    "fehler": [
+     {
+      "diagnoseId": "umfangsformel",
+      "ausdruck": "2*3.14159*r",
+      "feedback": "Das ist der Umfang in m. In der Flächenformel steht r²."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "3.14159*r",
+      "feedback": "Der Radius wird mit sich selbst multipliziert: π · r · r."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*3.14159*r*r",
+      "feedback": "Der Faktor 2 gehört zum Umfang, nicht zur Fläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie lauten die beiden Kreisformeln?",
+   "U = 2 · π · r und A = π · r².",
+   "Der Umfang ist eine Länge, die Fläche wird in Quadratmetern gemessen."
+  ],
+  "loesungsweg": [
+   "Umfang: 2 · π · {r} = {u} m.",
+   "Fläche: π · {r}² = {f} m².",
+   "Im Umfang steht r einfach, in der Fläche quadriert.",
+   "Darum wächst die Fläche schneller als der Umfang."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-negative-zahlen",
+  "lernzielId": "MGL.1.10",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.10",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": -15,
+    "bis": -2,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": -2,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a-b+c*(0-1)*2"
+   }
+  ],
+  "bedingungen": [
+   "wert<0",
+   "wert>-60",
+   "a!=c",
+   "wert!=a",
+   "wert!=b",
+   "b!=abs(c)"
+  ],
+  "stamm": "{name} rechnet mit negativen Zahlen.\n\n{a} − {b} − 2 · ({c}) =",
+  "loesung": "a-b-2*c",
+  "gegenprobe": "a-b+2*abs(c)",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_produkt",
+    "ausdruck": "a-b+2*c",
+    "feedback": "Minus mal Minus gibt Plus: Vor dem Produkt steht ein Minus, und {c} ist selbst negativ."
+   },
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a-b-2)*c",
+    "feedback": "Punkt vor Strich: Zuerst 2 · ({c}) rechnen, dann subtrahieren."
+   },
+   {
+    "diagnoseId": "plus_statt_minus",
+    "ausdruck": "a+b-2*c",
+    "feedback": "Vor {b} steht ein Minus; die Zahl wird abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Welches Vorzeichen bekommt das Produkt in der Klammer?",
+   "Das Produkt ist negativ, und davor steht noch ein Minus.",
+   "Minus mal Minus ergibt Plus."
+  ],
+  "loesungsweg": [
+   "Produkt: 2 · ({c}) ist negativ.",
+   "Davor steht ein Minus, also wird addiert.",
+   "Der Reihe nach rechnen.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-potenzen-wurzeln",
+  "lernzielId": "MGL.1.08",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "1.08",
+   "1.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "formel",
+    "ausdruck": "pow(a,2)"
+   },
+   {
+    "name": "w",
+    "typ": "formel",
+    "ausdruck": "a"
+   },
+   {
+    "name": "term",
+    "typ": "formel",
+    "ausdruck": "pow(a,2)-pow(b,2)"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "q<420",
+   "term>0",
+   "a!=b",
+   "term!=q"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\nBerechne {a}² − {b}² und gib die Quadratwurzel aus {a}² an.",
+  "felder": [
+   {
+    "name": "term",
+    "label": "{a}² − {b}²",
+    "ausdruck": "pow(a,2)-pow(b,2)",
+    "fehler": [
+     {
+      "diagnoseId": "differenz_quadriert",
+      "ausdruck": "pow(a-b,2)",
+      "feedback": "({a} − {b})² ist etwas anderes als {a}² − {b}². Rechne beide Quadrate einzeln aus."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "a*2-b*2",
+      "feedback": "Eine Hochzahl bedeutet nicht «mal zwei»: {a}² ist {a} · {a}."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "pow(a,2)+pow(b,2)",
+      "feedback": "Zwischen den beiden Quadraten steht ein Minus."
+     }
+    ]
+   },
+   {
+    "name": "w",
+    "label": "Quadratwurzel aus {a}²",
+    "ausdruck": "a",
+    "fehler": [
+     {
+      "diagnoseId": "quadrat",
+      "ausdruck": "pow(a,2)",
+      "feedback": "Die Wurzel macht das Quadrieren rückgängig: √({a}²) ist {a}."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a/2",
+      "feedback": "Die Wurzel ist nicht die Hälfte. √36 ist 6, nicht 18."
+     },
+     {
+      "diagnoseId": "doppelt",
+      "ausdruck": "2*a",
+      "feedback": "Die Wurzel aus einem Quadrat ist die Zahl selbst."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet die Hochzahl 2?",
+   "Die Zahl mal sich selbst.",
+   "Die Wurzel macht genau das rückgängig."
+  ],
+  "loesungsweg": [
+   "{a}² = {a} · {a} = {q}.",
+   "{b}² abziehen.",
+   "Das ergibt {term}.",
+   "√({a}²) = {a}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-zeitspanne-gl",
+  "lernzielId": "MGL.2.02",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.02",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "h1",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 55,
+    "schritt": 5
+   },
+   {
+    "name": "h2",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 55,
+    "schritt": 5
+   },
+   {
+    "name": "start",
+    "typ": "formel",
+    "ausdruck": "h1*60+m1"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "h2*60+m2"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "h2*60+m2-h1*60-m1"
+   },
+   {
+    "name": "dh",
+    "typ": "formel",
+    "ausdruck": "floor((h2*60+m2-h1*60-m1)/60)"
+   },
+   {
+    "name": "dm",
+    "typ": "formel",
+    "ausdruck": "(h2*60+m2-h1*60-m1)%60"
+   }
+  ],
+  "bedingungen": [
+   "ende>start",
+   "dauer<720",
+   "dm!=0",
+   "dh>2",
+   "m1!=m2"
+  ],
+  "stamm": "{name} beginnt um {h1}.{m1} Uhr und hört um {h2}.{m2} Uhr auf.\n\nWie lange dauert die Arbeit? Gib Stunden und Minuten an.",
+  "felder": [
+   {
+    "name": "dh",
+    "label": "Stunden",
+    "ausdruck": "floor((h2*60+m2-h1*60-m1)/60)",
+    "fehler": [
+     {
+      "diagnoseId": "stunden_subtrahiert",
+      "ausdruck": "h2-h1",
+      "feedback": "Wenn die Minuten der Endzeit kleiner sind als die der Startzeit, fehlt eine Stunde. Rechne besser alles in Minuten um."
+     },
+     {
+      "diagnoseId": "start",
+      "ausdruck": "h1",
+      "feedback": "Das ist die Startstunde, nicht die Dauer."
+     },
+     {
+      "diagnoseId": "ende",
+      "ausdruck": "h2",
+      "feedback": "Das ist die Endstunde, nicht die Dauer der Arbeit."
+     }
+    ]
+   },
+   {
+    "name": "dm",
+    "label": "Minuten",
+    "ausdruck": "(h2*60+m2-h1*60-m1)%60",
+    "fehler": [
+     {
+      "diagnoseId": "minuten_subtrahiert",
+      "ausdruck": "m2-m1",
+      "feedback": "Ist die Minutenzahl am Ende kleiner, wird die Differenz negativ. Rechne beide Zeiten in Minuten um und ziehe erst dann ab."
+     },
+     {
+      "diagnoseId": "startminuten",
+      "ausdruck": "m1",
+      "feedback": "Das sind die Startminuten, nicht die Minuten der Dauer."
+     },
+     {
+      "diagnoseId": "endminuten",
+      "ausdruck": "m2",
+      "feedback": "Das sind die Endminuten, nicht die Minuten der Dauer."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne beide Zeitpunkte in Minuten seit Mitternacht um.",
+   "Start: {h1} · 60 + {m1}.",
+   "Die Differenz durch 60 teilen: ganzer Teil sind Stunden, Rest sind Minuten."
+  ],
+  "loesungsweg": [
+   "Start: {start} Minuten.",
+   "Ende: {ende} Minuten.",
+   "Differenz: {dauer} Minuten.",
+   "Das sind {dh} Stunden und {dm} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-massstab-gl",
+  "lernzielId": "MGL.2.07",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.07",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "m",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     100,
+     200,
+     500,
+     1000
+    ]
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "plan",
+    "typ": "text",
+    "texte": [
+     [
+      "auf dem Schulhausplan"
+     ],
+     [
+      "auf dem Gartenplan"
+     ],
+     [
+      "auf dem Grundriss"
+     ],
+     [
+      "auf dem Situationsplan"
+     ],
+     [
+      "auf der Skizze"
+     ],
+     [
+      "auf dem Bauplan"
+     ],
+     [
+      "auf dem Modellplan"
+     ],
+     [
+      "auf dem Quartierplan"
+     ],
+     [
+      "auf dem Lageplan"
+     ],
+     [
+      "auf dem Übersichtsplan"
+     ],
+     [
+      "auf dem Werkplan"
+     ],
+     [
+      "auf dem Hallenplan"
+     ]
+    ]
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "cm*m/100"
+   }
+  ],
+  "bedingungen": [
+   "meter>2",
+   "meter<400",
+   "cm!=m",
+   "meter!=cm",
+   "meter!=m",
+   "meter!=m/100"
+  ],
+  "stamm": "{plan} im Massstab 1 : {m} ist eine Strecke {cm} cm lang.\n\nWie lang ist sie in Wirklichkeit?",
+  "loesung": "cm*m/100",
+  "gegenprobe": "(cm/100)*m",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_umrechnung",
+    "ausdruck": "cm*m",
+    "feedback": "Das Ergebnis steht in Zentimetern; für Meter wird durch 100 geteilt."
+   },
+   {
+    "diagnoseId": "geteilt",
+    "ausdruck": "cm/m",
+    "feedback": "In Wirklichkeit ist die Strecke {m}-mal LÄNGER als auf dem Plan."
+   },
+   {
+    "diagnoseId": "nur_massstab",
+    "ausdruck": "m/100",
+    "feedback": "Die gemessenen {cm} cm gehören in die Rechnung."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet 1 : {m}?",
+   "Ein Zentimeter auf dem Plan sind {m} Zentimeter in Wirklichkeit.",
+   "Danach von Zentimetern in Meter umrechnen."
+  ],
+  "loesungsweg": [
+   "{cm} cm · {m} ergibt die wahre Länge in Zentimetern.",
+   "Durch 100 teilen ergibt Meter.",
+   "Ergebnis: {meter} m.",
+   "Probe: Auf dem Plan wäre das wieder {cm} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-zins-gl",
+  "lernzielId": "MGL.2.09",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "2.09",
+   "2.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 500,
+    "bis": 20000,
+    "schritt": 500
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "jahr",
+    "typ": "formel",
+    "ausdruck": "k*p/100"
+   },
+   {
+    "name": "halb",
+    "typ": "formel",
+    "ausdruck": "k*p/200"
+   }
+  ],
+  "bedingungen": [
+   "jahr>8",
+   "k!=p",
+   "jahr!=halb"
+  ],
+  "stamm": "{name} legt {k:franken} zu {p} % Jahreszins an.\n\nBerechne den Zins für ein ganzes Jahr und für ein halbes Jahr.",
+  "felder": [
+   {
+    "name": "jahr",
+    "label": "Jahreszins in Fr.",
+    "ausdruck": "k*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "kapital",
+      "ausdruck": "k",
+      "feedback": "Das ist das Kapital selbst; der Zins ist ein kleiner Teil davon."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "k/p",
+      "feedback": "{p} % heissen: mal {p}, geteilt durch 100."
+     },
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "{p} ist der Zinssatz, nicht der Betrag in Franken."
+     }
+    ]
+   },
+   {
+    "name": "halb",
+    "label": "Zins für ein halbes Jahr in Fr.",
+    "ausdruck": "k*p/200",
+    "fehler": [
+     {
+      "diagnoseId": "ganzes_jahr",
+      "ausdruck": "k*p/100",
+      "feedback": "Das ist der Zins für ein ganzes Jahr; für ein halbes ist er halb so gross."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "k*p/50",
+      "feedback": "Ein halbes Jahr bringt weniger Zins, nicht mehr."
+     },
+     {
+      "diagnoseId": "kapital_halbiert",
+      "ausdruck": "k/2",
+      "feedback": "Halbiert wird der ZINS, nicht das Kapital."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie berechnet man den Jahreszins?",
+   "Kapital mal Zinssatz geteilt durch 100.",
+   "Für ein halbes Jahr ist es die Hälfte davon."
+  ],
+  "loesungsweg": [
+   "Jahreszins: {k} · {p} : 100 = {jahr}.",
+   "Ein halbes Jahr ist die halbe Zeit.",
+   "Also die Hälfte des Jahreszinses.",
+   "Ergebnis: {halb} Franken."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-dreieck-winkel",
+  "lernzielId": "MGL.4.02",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.02",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 30,
+    "bis": 80,
+    "schritt": 1
+   },
+   {
+    "name": "figur",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Giebel"
+     ],
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Zeltquerschnitt"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Dachdreieck"
+     ],
+     [
+      "ein Holzkeil"
+     ],
+     [
+      "ein Segelstück"
+     ],
+     [
+      "ein Blechwinkel"
+     ],
+     [
+      "ein Kartenausschnitt"
+     ],
+     [
+      "ein Modellteil"
+     ],
+     [
+      "ein Beetdreieck"
+     ],
+     [
+      "ein Bügel"
+     ]
+    ]
+   },
+   {
+    "name": "beta",
+    "typ": "formel",
+    "ausdruck": "(180-alpha)/2"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "180-alpha"
+   }
+  ],
+  "bedingungen": [
+   "(180-alpha)%2==0",
+   "beta>40",
+   "beta!=alpha",
+   "aussen!=beta"
+  ],
+  "stamm": "Auf dem Plan bildet {figur} ein gleichschenkliges Dreieck. An der Spitze misst der Winkel {alpha}°.\n\nBerechne die beiden Basiswinkel und den Aussenwinkel an der Spitze.",
+  "felder": [
+   {
+    "name": "beta",
+    "label": "Basiswinkel in Grad",
+    "ausdruck": "(180-alpha)/2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "180-alpha",
+      "feedback": "Die beiden Basiswinkel teilen sich den Rest: (180° − {alpha}°) : 2."
+     },
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "(360-alpha)/2",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°, nicht 360°."
+     },
+     {
+      "diagnoseId": "gleich",
+      "ausdruck": "alpha",
+      "feedback": "Im gleichschenkligen Dreieck sind die BASISWINKEL gleich gross, nicht alle drei."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel an der Spitze in Grad",
+    "ausdruck": "180-alpha",
+    "fehler": [
+     {
+      "diagnoseId": "basiswinkel",
+      "ausdruck": "(180-alpha)/2",
+      "feedback": "Das ist ein Basiswinkel. Der Aussenwinkel ergänzt den Spitzenwinkel auf 180°."
+     },
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha",
+      "feedback": "Der Aussenwinkel ist der Nebenwinkel: 180° minus der Innenwinkel."
+     },
+     {
+      "diagnoseId": "gleich",
+      "ausdruck": "alpha",
+      "feedback": "Nur bei 90° wären Innen- und Aussenwinkel gleich gross."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Dreieck?",
+   "180°. Der Rest nach dem Spitzenwinkel teilt sich auf zwei gleiche Basiswinkel auf.",
+   "Der Aussenwinkel ergänzt einen Innenwinkel auf 180°."
+  ],
+  "loesungsweg": [
+   "Rest der Winkelsumme: 180° − {alpha}°.",
+   "Geteilt durch 2 ergibt {beta}° je Basiswinkel.",
+   "Aussenwinkel an der Spitze: 180° − {alpha}°.",
+   "Das ergibt {aussen}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gl-prisma-gl",
+  "lernzielId": "MGL.4.10",
+  "fach": "mathematik-gl",
+  "unterthemen": [
+   "4.10",
+   "4.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Seline"
+     ],
+     [
+      "Marco"
+     ],
+     [
+      "Jael"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Tim"
+     ],
+     [
+      "Alea"
+     ],
+     [
+      "Joel"
+     ],
+     [
+      "Lynn"
+     ],
+     [
+      "Rafael"
+     ],
+     [
+      "Mia"
+     ],
+     [
+      "Nino"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Sockel"
+     ],
+     [
+      "ein Betonelement"
+     ],
+     [
+      "ein Holzblock"
+     ],
+     [
+      "ein Modellteil"
+     ],
+     [
+      "ein Fundament"
+     ],
+     [
+      "ein Werkstück"
+     ],
+     [
+      "ein Regalkorpus"
+     ],
+     [
+      "ein Blumenkasten"
+     ],
+     [
+      "ein Wasserbecken"
+     ],
+     [
+      "ein Podest"
+     ],
+     [
+      "ein Lagerblock"
+     ],
+     [
+      "ein Steinquader"
+     ]
+    ]
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "a*b*h"
+   },
+   {
+    "name": "klein",
+    "typ": "formel",
+    "ausdruck": "k*k*k"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "a*b*h-k*k*k"
+   }
+  ],
+  "bedingungen": [
+   "k<b",
+   "k<a",
+   "k<h",
+   "gross<5000",
+   "rest>60",
+   "a!=b",
+   "k!=h"
+  ],
+  "stamm": "Im Werkraum liegt {sache}: ein Quader von {a} cm mal {b} cm mal {h} cm. Aus einer Ecke ist ein Würfel mit {k} cm Kante herausgeschnitten.\n\nBerechne das Volumen des ganzen Quaders und das Volumen des Restkörpers.",
+  "felder": [
+   {
+    "name": "gross",
+    "label": "Volumen des Quaders in cm³",
+    "ausdruck": "a*b*h",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+h",
+      "feedback": "Das Volumen entsteht durch Multiplizieren der drei Kanten."
+     },
+     {
+      "diagnoseId": "mit_ausschnitt",
+      "ausdruck": "a*b*h-k*k*k",
+      "feedback": "Das ist der Restkörper. Gefragt war zuerst der ganze Quader."
+     },
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in cm²; für das Volumen fehlt die Höhe."
+     }
+    ]
+   },
+   {
+    "name": "rest",
+    "label": "Volumen des Restkörpers in cm³",
+    "ausdruck": "a*b*h-k*k*k",
+    "fehler": [
+     {
+      "diagnoseId": "wuerfel_vergessen",
+      "ausdruck": "a*b*h",
+      "feedback": "Der herausgeschnittene Würfel fehlt noch: {k} · {k} · {k} cm³."
+     },
+     {
+      "diagnoseId": "wuerfel_flaeche",
+      "ausdruck": "a*b*h-k*k",
+      "feedback": "{k}² wäre eine Fläche; beim Würfel wird die Kante dreimal multipliziert."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a*b*h+k*k*k",
+      "feedback": "Der Würfel wird herausgeschnitten, also abgezogen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie berechnet man das Volumen eines Quaders?",
+   "Länge mal Breite mal Höhe.",
+   "Der herausgeschnittene Würfel hat das Volumen {k} hoch drei und wird abgezogen."
+  ],
+  "loesungsweg": [
+   "Quader: {a} · {b} · {h} = {gross} cm³.",
+   "Würfel: {k} · {k} · {k} = {klein} cm³.",
+   "Rest: {gross} − {klein}.",
+   "Ergebnis: {rest} cm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

@@ -1,0 +1,1151 @@
+[
+ {
+  "templateId": "lu-fr-lesen",
+  "lernzielId": "FLU.1.01",
+  "fach": "franzoesisch-lu",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text, ohne jedes Wort nachzuschlagen.",
+   "Suche zu jeder Frage die Stelle, an der das Schlüsselwort steht.",
+   "Bei Richtig-falsch-Aufgaben zählt an der Prüfung nur, wer die Stelle im Text belegen kann."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und das Schlüsselwort merken.",
+   "Die Stelle im französischen Text suchen.",
+   "Die Antwort am Wortlaut prüfen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Warum geht Nina diese Woche nicht zur Schule?",
+    "optionen": [
+     "Weil Herbstferien sind",
+     "Weil sie krank ist",
+     "Weil sie verreist ist",
+     "Weil die Schule geschlossen wurde"
+    ],
+    "loesung": [
+     "Weil Herbstferien sind"
+    ],
+    "erklaerung": "Im Text steht: parce que ce sont les vacances d'automne — weil Herbstferien sind.",
+    "fehler": [
+     {
+      "antwort": "Weil sie krank ist",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Krankheit steht nichts im Text; Nina schreibt, dass alles gut geht."
+     },
+     {
+      "antwort": "Weil sie verreist ist",
+      "diagnoseId": "zeit",
+      "feedback": "Verreisen wird sie erst am kommenden Samstag, zur Grossmutter."
+     },
+     {
+      "antwort": "Weil die Schule geschlossen wurde",
+      "diagnoseId": "ungenau",
+      "feedback": "Der Text nennt die Ferien als Grund, nicht eine Schliessung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wann steht Nina in den Ferien auf?",
+    "optionen": [
+     "Gegen neun Uhr",
+     "Um sieben Uhr",
+     "Erst am Mittag",
+     "Vor sechs Uhr"
+    ],
+    "loesung": [
+     "Gegen neun Uhr"
+    ],
+    "erklaerung": "«je me lève assez tard, vers neuf heures» — ziemlich spät, gegen neun.",
+    "fehler": [
+     {
+      "antwort": "Um sieben Uhr",
+      "diagnoseId": "zahl",
+      "feedback": "Der Text nennt neun Uhr: «vers neuf heures», also gegen neun, nicht sieben."
+     },
+     {
+      "antwort": "Erst am Mittag",
+      "diagnoseId": "ungenau",
+      "feedback": "«assez tard» heisst ziemlich spät, und der Text sagt genau, wie spät: neun Uhr."
+     },
+     {
+      "antwort": "Vor sechs Uhr",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das wäre früh; der Text sagt ausdrücklich «assez tard»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wohin geht Nina oft mit ihrem Bruder?",
+    "optionen": [
+     "An den See",
+     "In die Berge",
+     "Ins Schwimmbad",
+     "Zur Grossmutter"
+    ],
+    "loesung": [
+     "An den See"
+    ],
+    "erklaerung": "«je vais souvent au lac avec mon frère» — oft an den See.",
+    "fehler": [
+     {
+      "antwort": "In die Berge",
+      "diagnoseId": "erfunden",
+      "feedback": "Von den Bergen ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "Ins Schwimmbad",
+      "diagnoseId": "aehnlich",
+      "feedback": "Es geht an den See, nicht ins Schwimmbad."
+     },
+     {
+      "antwort": "Zur Grossmutter",
+      "diagnoseId": "zeit",
+      "feedback": "Zur Grossmutter fährt sie erst am Samstag, und zwar allein."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie alt ist Timo?",
+    "optionen": [
+     "19",
+     "9",
+     "10",
+     "29"
+    ],
+    "loesung": [
+     "19"
+    ],
+    "erklaerung": "«Il a dix-neuf ans» — dix-neuf heisst neunzehn.",
+    "fehler": [
+     {
+      "antwort": "9",
+      "diagnoseId": "zahl",
+      "feedback": "«neuf» allein wäre neun; «dix-neuf» ist zehn und neun, also neunzehn."
+     },
+     {
+      "antwort": "10",
+      "diagnoseId": "zahl",
+      "feedback": "«dix» allein wäre zehn; hier steht «dix-neuf»."
+     },
+     {
+      "antwort": "29",
+      "diagnoseId": "zahl",
+      "feedback": "Neunundzwanzig hiesse «vingt-neuf»; im Text steht «dix-neuf», also neunzehn."
+     }
+    ]
+   },
+   {
+    "stamm": "Was macht Timo im Winter?",
+    "optionen": [
+     "Er arbeitet als Skilehrer",
+     "Er geht zur Schule",
+     "Er arbeitet im Sportgeschäft",
+     "Er hat frei"
+    ],
+    "loesung": [
+     "Er arbeitet als Skilehrer"
+    ],
+    "erklaerung": "«En hiver, il est moniteur de ski» — im Winter ist er Skilehrer.",
+    "fehler": [
+     {
+      "antwort": "Er geht zur Schule",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Schule steht bei Timo nichts; er arbeitet bereits und ist neunzehn."
+     },
+     {
+      "antwort": "Er arbeitet im Sportgeschäft",
+      "diagnoseId": "zeit",
+      "feedback": "Im Sportgeschäft arbeitet er sonst; im Winter ist er Skilehrer."
+     },
+     {
+      "antwort": "Er hat frei",
+      "diagnoseId": "gegenteil",
+      "feedback": "Im Winter hat er gerade Arbeit; weniger Arbeit gibt es im Herbst."
+     }
+    ]
+   },
+   {
+    "stamm": "Richtig oder falsch? «Timo hat im Herbst viel Arbeit.»",
+    "optionen": [
+     "falsch",
+     "richtig"
+    ],
+    "loesung": [
+     "falsch"
+    ],
+    "erklaerung": "Im Text steht: en automne, il y a moins de travail pour lui — im Herbst gibt es weniger Arbeit für ihn.",
+    "fehler": [
+     {
+      "antwort": "richtig",
+      "diagnoseId": "gegenteil",
+      "feedback": "«moins de travail» heisst weniger Arbeit; im Herbst hat er also gerade nicht viel zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Was haben Nina und ihr Bruder am Donnerstag gemacht?",
+    "optionen": [
+     "Sie haben ein Museum besucht",
+     "Sie sind Ski gefahren",
+     "Sie waren bei der Grossmutter",
+     "Sie sind Zug gefahren"
+    ],
+    "loesung": [
+     "Sie haben ein Museum besucht"
+    ],
+    "erklaerung": "«Jeudi, nous avons visité le musée des transports» — am Donnerstag besuchten sie das Verkehrshaus.",
+    "fehler": [
+     {
+      "antwort": "Sie sind Ski gefahren",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Ski fährt Timo im Winter; der Text spielt im Herbst."
+     },
+     {
+      "antwort": "Sie waren bei der Grossmutter",
+      "diagnoseId": "zeit",
+      "feedback": "Zur Grossmutter fährt Nina erst am Samstag."
+     },
+     {
+      "antwort": "Sie sind Zug gefahren",
+      "diagnoseId": "zeit",
+      "feedback": "Mit dem Zug fährt sie erst am Samstag nach Fribourg."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie fand Nina den Museumsbesuch?",
+    "optionen": [
+     "Interessanter als erwartet",
+     "Langweilig",
+     "Genau wie erwartet",
+     "Zu teuer"
+    ],
+    "loesung": [
+     "Interessanter als erwartet"
+    ],
+    "erklaerung": "«C'était plus intéressant que je ne pensais» — interessanter, als sie gedacht hatte.",
+    "fehler": [
+     {
+      "antwort": "Langweilig",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt das Gegenteil: interessanter als gedacht."
+     },
+     {
+      "antwort": "Genau wie erwartet",
+      "diagnoseId": "ungenau",
+      "feedback": "«plus … que je ne pensais» heisst gerade, dass es anders war als erwartet."
+     },
+     {
+      "antwort": "Zu teuer",
+      "diagnoseId": "erfunden",
+      "feedback": "Über den Preis steht nichts im Text; genannt wird nur, wie interessant es war."
+     }
+    ]
+   },
+   {
+    "stamm": "Richtig oder falsch? «Nach dem Museum war es warm.»",
+    "optionen": [
+     "falsch",
+     "richtig"
+    ],
+    "loesung": [
+     "falsch"
+    ],
+    "erklaerung": "Im Text steht: même s'il faisait froid — obwohl es kalt war.",
+    "fehler": [
+     {
+      "antwort": "richtig",
+      "diagnoseId": "gegenteil",
+      "feedback": "«il faisait froid» heisst, dass es kalt war; sie assen das Eis trotzdem."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie kommt Nina nach Fribourg?",
+    "optionen": [
+     "Mit dem Zug",
+     "Mit dem Velo",
+     "Mit dem Auto",
+     "Zu Fuss"
+    ],
+    "loesung": [
+     "Mit dem Zug"
+    ],
+    "erklaerung": "«j'y vais en train» — sie fährt mit dem Zug, weil die Grossmutter nahe beim Bahnhof wohnt.",
+    "fehler": [
+     {
+      "antwort": "Mit dem Velo",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Velo ist im Text nicht die Rede; sie fährt «en train», also mit dem Zug."
+     },
+     {
+      "antwort": "Mit dem Auto",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Auto kommt im Text nicht vor; «en train» heisst mit dem Zug."
+     },
+     {
+      "antwort": "Zu Fuss",
+      "diagnoseId": "entfernung",
+      "feedback": "Die Fahrt dauert zwei Stunden; zu Fuss ginge das nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lange dauert die Reise nach Fribourg?",
+    "optionen": [
+     "Zwei Stunden",
+     "Zwei Tage",
+     "Eine halbe Stunde",
+     "Neun Stunden"
+    ],
+    "loesung": [
+     "Zwei Stunden"
+    ],
+    "erklaerung": "«Le voyage dure deux heures» — die Reise dauert zwei Stunden.",
+    "fehler": [
+     {
+      "antwort": "Zwei Tage",
+      "diagnoseId": "einheit",
+      "feedback": "«heures» heisst Stunden, nicht Tage; Tage hiessen «jours»."
+     },
+     {
+      "antwort": "Eine halbe Stunde",
+      "diagnoseId": "zahl",
+      "feedback": "Der Text nennt zwei Stunden: «deux heures», nicht eine halbe Stunde."
+     },
+     {
+      "antwort": "Neun Stunden",
+      "diagnoseId": "zahl",
+      "feedback": "Die Neun gehört zur Aufstehzeit, nicht zur Reisedauer."
+     }
+    ]
+   },
+   {
+    "stamm": "Was will Nina am Schluss von Léa wissen?",
+    "optionen": [
+     "Was Léa in den Ferien macht",
+     "Ob Léa nach Fribourg kommt",
+     "Wie alt Léas Bruder ist",
+     "Wann Léa zurückschreibt"
+    ],
+    "loesung": [
+     "Was Léa in den Ferien macht"
+    ],
+    "erklaerung": "«Et toi, qu'est-ce que tu fais pendant les vacances ?» — was machst du in den Ferien?",
+    "fehler": [
+     {
+      "antwort": "Ob Léa nach Fribourg kommt",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine Einladung spricht Nina nicht aus; sie fragt nur nach Léas Ferien."
+     },
+     {
+      "antwort": "Wie alt Léas Bruder ist",
+      "diagnoseId": "figur",
+      "feedback": "Vom Alter ist nur bei Ninas eigenem Bruder die Rede."
+     },
+     {
+      "antwort": "Wann Léa zurückschreibt",
+      "diagnoseId": "erfunden",
+      "feedback": "Nina schreibt nur «À bientôt», ohne einen Zeitpunkt zu nennen."
+     }
+    ]
+   }
+  ],
+  "text": "Salut Léa,\n\nMerci pour ton message ! Ici, tout va bien. Je ne vais pas à l'école cette semaine parce que ce sont les vacances d'automne.\n\nLe matin, je me lève assez tard, vers neuf heures. Après le petit déjeuner, je vais souvent au lac avec mon frère Timo. Il a dix-neuf ans et il travaille dans un magasin de sport. En hiver, il est moniteur de ski, mais en automne, il y a moins de travail pour lui.\n\nJeudi, nous avons visité le musée des transports. C'était plus intéressant que je ne pensais. Après, nous avons mangé une glace au bord de l'eau, même s'il faisait froid.\n\nSamedi prochain, je vais chez ma grand-mère à Fribourg. Elle habite près de la gare, alors j'y vais en train. Le voyage dure deux heures.\n\nEt toi, qu'est-ce que tu fais pendant les vacances ?\n\nÀ bientôt,\nNina",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Französisch, Compréhension écrite; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Eine Mitteilung auf Französisch verstehen",
+  "status": "review"
+ },
+ {
+  "templateId": "lu-fr-grammatik",
+  "lernzielId": "FLU.2.01",
+  "fach": "franzoesisch-lu",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Prüfe zuerst, ob ein Nomen folgt — dann brauchst du einen Begleiter.",
+   "Bei Verbformen zählt die Person: je, tu, il, nous, vous, ils.",
+   "«à» und «de» verschmelzen mit dem Artikel: à + le wird au, de + le wird du."
+  ],
+  "loesungsweg": [
+   "Die Lücke einordnen: Begleiter, Verb oder Präposition?",
+   "Die Person oder das Geschlecht bestimmen.",
+   "Die passende Form wählen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nJe n'ai jamais parlé de lui dans ______ blog.",
+    "optionen": [
+     "ce",
+     "se",
+     "ses",
+     "ces"
+    ],
+    "loesung": [
+     "ce"
+    ],
+    "erklaerung": "Vor einem männlichen Nomen im Einzahl steht der Begleiter «ce».",
+    "fehler": [
+     {
+      "antwort": "se",
+      "diagnoseId": "verwechselt",
+      "feedback": "«se» gehört zu einem reflexiven Verb, etwa «il se lève»."
+     },
+     {
+      "antwort": "ses",
+      "diagnoseId": "zahl",
+      "feedback": "«ses» steht vor einem Nomen in der Mehrzahl und zeigt Besitz an."
+     },
+     {
+      "antwort": "ces",
+      "diagnoseId": "zahl",
+      "feedback": "«ces» ist die Mehrzahl von «ce»; hier folgt ein einziges Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ dans un petit village depuis dix ans.",
+    "optionen": [
+     "J'habite",
+     "Je cherche",
+     "Je trouve",
+     "Je regarde"
+    ],
+    "loesung": [
+     "J'habite"
+    ],
+    "erklaerung": "«habiter» heisst wohnen und passt zu «dans un village depuis dix ans».",
+    "fehler": [
+     {
+      "antwort": "Je cherche",
+      "diagnoseId": "bedeutung",
+      "feedback": "«chercher» heisst suchen; das passt nicht zu einer Zeitangabe mit «depuis»."
+     },
+     {
+      "antwort": "Je trouve",
+      "diagnoseId": "bedeutung",
+      "feedback": "«trouver» heisst finden; man findet nicht zehn Jahre lang in einem Dorf."
+     },
+     {
+      "antwort": "Je regarde",
+      "diagnoseId": "bedeutung",
+      "feedback": "«regarder» heisst anschauen und passt nicht zu «dans un village»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nC'est à l'école que ______ Nicolas pour la première fois.",
+    "optionen": [
+     "j'ai rencontré",
+     "j'ai raconté",
+     "je suis rentré",
+     "je suis resté"
+    ],
+    "loesung": [
+     "j'ai rencontré"
+    ],
+    "erklaerung": "«rencontrer quelqu'un» heisst jemanden treffen — genau das passt zu «pour la première fois».",
+    "fehler": [
+     {
+      "antwort": "j'ai raconté",
+      "diagnoseId": "bedeutung",
+      "feedback": "«raconter» heisst erzählen; man erzählt keine Person."
+     },
+     {
+      "antwort": "je suis rentré",
+      "diagnoseId": "bedeutung",
+      "feedback": "«rentrer» heisst zurückkehren und verträgt kein Objekt wie «Nicolas»."
+     },
+     {
+      "antwort": "je suis resté",
+      "diagnoseId": "bedeutung",
+      "feedback": "«rester» heisst bleiben; auch dieses Verb nimmt kein Objekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl n'est pas dans la ______ classe que moi.",
+    "optionen": [
+     "même",
+     "seule",
+     "grande",
+     "précise"
+    ],
+    "loesung": [
+     "même"
+    ],
+    "erklaerung": "«la même classe que moi» heisst dieselbe Klasse wie ich.",
+    "fehler": [
+     {
+      "antwort": "seule",
+      "diagnoseId": "bedeutung",
+      "feedback": "«seule» heisst einzig oder allein; mit «que moi» ergibt das keinen Sinn."
+     },
+     {
+      "antwort": "grande",
+      "diagnoseId": "bedeutung",
+      "feedback": "«grande» heisst gross und passt nicht zum Vergleich mit «que moi»."
+     },
+     {
+      "antwort": "précise",
+      "diagnoseId": "bedeutung",
+      "feedback": "«précise» heisst genau und passt hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl aime faire ______ vélo.",
+    "optionen": [
+     "du",
+     "au",
+     "de la",
+     "à la"
+    ],
+    "loesung": [
+     "du"
+    ],
+    "erklaerung": "«faire du vélo» ist eine feste Wendung; «du» ist de + le.",
+    "fehler": [
+     {
+      "antwort": "au",
+      "diagnoseId": "praeposition",
+      "feedback": "«au» ist à + le und passt zu «jouer au foot», nicht zu «faire»."
+     },
+     {
+      "antwort": "de la",
+      "diagnoseId": "geschlecht",
+      "feedback": "«vélo» ist männlich; die weibliche Form «de la» passt nicht."
+     },
+     {
+      "antwort": "à la",
+      "diagnoseId": "geschlecht",
+      "feedback": "«vélo» ist männlich, und «faire» verlangt hier «de»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous allons ______ musée des transports.",
+    "optionen": [
+     "au",
+     "du",
+     "à la",
+     "de la"
+    ],
+    "loesung": [
+     "au"
+    ],
+    "erklaerung": "«aller à» plus männliches Nomen ergibt «au»: à + le musée.",
+    "fehler": [
+     {
+      "antwort": "du",
+      "diagnoseId": "praeposition",
+      "feedback": "«du» ist de + le und hiesse «vom Museum», nicht «ins Museum»."
+     },
+     {
+      "antwort": "à la",
+      "diagnoseId": "geschlecht",
+      "feedback": "«musée» ist männlich, obwohl es auf -ée endet."
+     },
+     {
+      "antwort": "de la",
+      "diagnoseId": "geschlecht",
+      "feedback": "Auch hier stimmt weder das Geschlecht noch die Richtung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nMes parents ______ que c'est dangereux.",
+    "optionen": [
+     "pensent",
+     "pense",
+     "pensons",
+     "penses"
+    ],
+    "loesung": [
+     "pensent"
+    ],
+    "erklaerung": "«Mes parents» ist dritte Person Mehrzahl; die Endung lautet -ent.",
+    "fehler": [
+     {
+      "antwort": "pense",
+      "diagnoseId": "person",
+      "feedback": "«pense» gehört zu je, tu oder il — also zur Einzahl."
+     },
+     {
+      "antwort": "pensons",
+      "diagnoseId": "person",
+      "feedback": "«pensons» gehört zu «nous»; das Subjekt hier ist «mes parents», also «ils»."
+     },
+     {
+      "antwort": "penses",
+      "diagnoseId": "person",
+      "feedback": "«penses» gehört zu «tu»; für die Mehrzahl braucht es die Endung -ent."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nHier, nous ______ au lac.",
+    "optionen": [
+     "sommes allés",
+     "avons allé",
+     "allons",
+     "irons"
+    ],
+    "loesung": [
+     "sommes allés"
+    ],
+    "erklaerung": "«aller» bildet das passé composé mit «être»: nous sommes allés.",
+    "fehler": [
+     {
+      "antwort": "avons allé",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«aller» nimmt im passé composé «être», nicht «avoir»."
+     },
+     {
+      "antwort": "allons",
+      "diagnoseId": "zeit",
+      "feedback": "Das ist das Präsens; «hier» verlangt die Vergangenheit."
+     },
+     {
+      "antwort": "irons",
+      "diagnoseId": "zeit",
+      "feedback": "Das ist das Futur und blickt nach vorn; «hier» verlangt aber die Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ______ une glace au bord de l'eau.",
+    "optionen": [
+     "a mangé",
+     "est mangé",
+     "as mangé",
+     "ont mangé"
+    ],
+    "loesung": [
+     "a mangé"
+    ],
+    "erklaerung": "«manger» bildet das passé composé mit «avoir»; die dritte Person Einzahl lautet «a».",
+    "fehler": [
+     {
+      "antwort": "est mangé",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«manger» nimmt «avoir»; mit «être» entstünde ein Passiv."
+     },
+     {
+      "antwort": "as mangé",
+      "diagnoseId": "person",
+      "feedback": "«as» gehört zu «tu»; die dritte Person Einzahl lautet «a»."
+     },
+     {
+      "antwort": "ont mangé",
+      "diagnoseId": "zahl",
+      "feedback": "«ont» gehört zur Mehrzahl; hier handelt eine einzelne Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJe me ______ assez tard pendant les vacances.",
+    "optionen": [
+     "lève",
+     "lever",
+     "lèves",
+     "levons"
+    ],
+    "loesung": [
+     "lève"
+    ],
+    "erklaerung": "Nach «je me» steht die erste Person Einzahl: je me lève.",
+    "fehler": [
+     {
+      "antwort": "lever",
+      "diagnoseId": "form",
+      "feedback": "Das ist die Grundform; nach «je me» steht die gebeugte Form."
+     },
+     {
+      "antwort": "lèves",
+      "diagnoseId": "person",
+      "feedback": "«lèves» gehört zu «tu»; nach «je» steht die Form «lève»."
+     },
+     {
+      "antwort": "levons",
+      "diagnoseId": "person",
+      "feedback": "«levons» gehört zu «nous»; hier spricht eine einzelne Person von sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle habite ______ la gare.",
+    "optionen": [
+     "près de",
+     "près",
+     "à côté",
+     "proche"
+    ],
+    "loesung": [
+     "près de"
+    ],
+    "erklaerung": "«près de» heisst in der Nähe von; das «de» gehört dazu.",
+    "fehler": [
+     {
+      "antwort": "près",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Ohne «de» fehlt die Verbindung zum Nomen."
+     },
+     {
+      "antwort": "à côté",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Auch «à côté» verlangt ein «de»: à côté de la gare."
+     },
+     {
+      "antwort": "proche",
+      "diagnoseId": "form",
+      "feedback": "«proche» ist ein Adjektiv und bräuchte ebenfalls «de»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nSamedi prochain, je vais ______ ma grand-mère.",
+    "optionen": [
+     "chez",
+     "à",
+     "dans",
+     "en"
+    ],
+    "loesung": [
+     "chez"
+    ],
+    "erklaerung": "Vor einer Person steht «chez»: chez ma grand-mère.",
+    "fehler": [
+     {
+      "antwort": "à",
+      "diagnoseId": "praeposition",
+      "feedback": "«à» steht vor Orten wie «à Fribourg», nicht vor Personen."
+     },
+     {
+      "antwort": "dans",
+      "diagnoseId": "praeposition",
+      "feedback": "«dans» heisst in, im Sinne von innerhalb eines Raumes."
+     },
+     {
+      "antwort": "en",
+      "diagnoseId": "praeposition",
+      "feedback": "«en» steht vor Ländern und Verkehrsmitteln, nicht vor Personen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Französisch, Compréhension écrite; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Artikel, Verbformen und Präpositionen",
+  "status": "review"
+ },
+ {
+  "templateId": "lu-fr-wendungen",
+  "lernzielId": "FLU.2.05",
+  "fach": "franzoesisch-lu",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Achte auf kleine Wörter wie déjà, encore und toujours — sie verändern den Sinn ganz.",
+   "«il fait», «il y a» und «il faut» sehen ähnlich aus und bedeuten Verschiedenes.",
+   "Beim Wortschatz hilft es, das Wort in einen bekannten Satz einzusetzen."
+  ],
+  "loesungsweg": [
+   "Die Lücke einordnen.",
+   "Die Bedeutung des ganzen Satzes prüfen.",
+   "Die passende Wendung wählen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nOn trouve souvent une rue qu'on ne connaît pas ______ .",
+    "optionen": [
+     "encore",
+     "déjà",
+     "toujours",
+     "jamais"
+    ],
+    "loesung": [
+     "encore"
+    ],
+    "erklaerung": "«ne … pas encore» heisst noch nicht — die Strasse ist ihnen noch unbekannt.",
+    "fehler": [
+     {
+      "antwort": "déjà",
+      "diagnoseId": "bedeutung",
+      "feedback": "«déjà» heisst schon; mit der Verneinung ergibt das hier keinen Sinn."
+     },
+     {
+      "antwort": "toujours",
+      "diagnoseId": "bedeutung",
+      "feedback": "«toujours» heisst immer und passt nicht zu einer neu entdeckten Strasse."
+     },
+     {
+      "antwort": "jamais",
+      "diagnoseId": "bedeutung",
+      "feedback": "«ne … jamais» heisst nie; der Satz sagt aber, dass sie die Strasse noch entdecken."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nEn été, quand ______ beau, on va dans la forêt.",
+    "optionen": [
+     "il fait",
+     "il y a",
+     "il faut",
+     "il est"
+    ],
+    "loesung": [
+     "il fait"
+    ],
+    "erklaerung": "Beim Wetter steht «il fait»: il fait beau, il fait froid.",
+    "fehler": [
+     {
+      "antwort": "il y a",
+      "diagnoseId": "wendung",
+      "feedback": "«il y a» heisst es gibt und steht vor einem Nomen."
+     },
+     {
+      "antwort": "il faut",
+      "diagnoseId": "wendung",
+      "feedback": "«il faut» heisst man muss und steht vor einer Grundform."
+     },
+     {
+      "antwort": "il est",
+      "diagnoseId": "wendung",
+      "feedback": "«il est» steht bei der Uhrzeit: il est huit heures."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nDans ma classe, ______ vingt-deux élèves.",
+    "optionen": [
+     "il y a",
+     "il fait",
+     "il faut",
+     "il est"
+    ],
+    "loesung": [
+     "il y a"
+    ],
+    "erklaerung": "«il y a» heisst es gibt und steht vor einer Menge oder einem Nomen.",
+    "fehler": [
+     {
+      "antwort": "il fait",
+      "diagnoseId": "wendung",
+      "feedback": "«il fait» gehört zum Wetter: il fait beau, il fait froid."
+     },
+     {
+      "antwort": "il faut",
+      "diagnoseId": "wendung",
+      "feedback": "«il faut» heisst man muss und steht vor einer Grundform, nicht vor einer Anzahl."
+     },
+     {
+      "antwort": "il est",
+      "diagnoseId": "wendung",
+      "feedback": "«il est» passt zur Uhrzeit oder zu einer Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nPour aller à Fribourg, ______ prendre le train.",
+    "optionen": [
+     "il faut",
+     "il fait",
+     "il y a",
+     "il va"
+    ],
+    "loesung": [
+     "il faut"
+    ],
+    "erklaerung": "«il faut» plus Grundform heisst man muss.",
+    "fehler": [
+     {
+      "antwort": "il fait",
+      "diagnoseId": "wendung",
+      "feedback": "«il fait» gehört zum Wetter, nicht zu einer Notwendigkeit."
+     },
+     {
+      "antwort": "il y a",
+      "diagnoseId": "wendung",
+      "feedback": "«il y a» hiesse es gibt und stünde vor einem Nomen."
+     },
+     {
+      "antwort": "il va",
+      "diagnoseId": "wendung",
+      "feedback": "«il va» heisst er geht; ein Subjekt fehlt hier aber."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nJ'ai ______ vu ce film, je ne veux pas le revoir.",
+    "optionen": [
+     "déjà",
+     "encore",
+     "jamais",
+     "souvent"
+    ],
+    "loesung": [
+     "déjà"
+    ],
+    "erklaerung": "«déjà» heisst schon: Sie hat den Film schon gesehen.",
+    "fehler": [
+     {
+      "antwort": "encore",
+      "diagnoseId": "bedeutung",
+      "feedback": "«encore» hiesse noch einmal und widerspräche dem zweiten Satzteil."
+     },
+     {
+      "antwort": "jamais",
+      "diagnoseId": "bedeutung",
+      "feedback": "«jamais» heisst nie; dann gäbe es keinen Grund, ihn nicht wiedersehen zu wollen."
+     },
+     {
+      "antwort": "souvent",
+      "diagnoseId": "bedeutung",
+      "feedback": "«souvent» heisst oft und passt nicht zu einem einmaligen Ereignis."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «un magasin de sport» auf Deutsch?",
+    "optionen": [
+     "ein Sportgeschäft",
+     "ein Sportplatz",
+     "ein Sportverein",
+     "eine Sporthalle"
+    ],
+    "loesung": [
+     "ein Sportgeschäft"
+    ],
+    "erklaerung": "«magasin» heisst Geschäft oder Laden.",
+    "fehler": [
+     {
+      "antwort": "ein Sportplatz",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Sportplatz hiesse «un terrain de sport»."
+     },
+     {
+      "antwort": "ein Sportverein",
+      "diagnoseId": "wortschatz",
+      "feedback": "Ein Verein hiesse «un club»; «magasin» ist immer ein Geschäft."
+     },
+     {
+      "antwort": "eine Sporthalle",
+      "diagnoseId": "wortschatz",
+      "feedback": "Eine Halle hiesse «une salle de sport»; «magasin» meint den Laden."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «le petit déjeuner»?",
+    "optionen": [
+     "das Frühstück",
+     "das Mittagessen",
+     "das Abendessen",
+     "der kleine Teller"
+    ],
+    "loesung": [
+     "das Frühstück"
+    ],
+    "erklaerung": "«le petit déjeuner» ist das Frühstück; «le déjeuner» allein ist das Mittagessen.",
+    "fehler": [
+     {
+      "antwort": "das Mittagessen",
+      "diagnoseId": "wortschatz",
+      "feedback": "Das Mittagessen heisst «le déjeuner», ohne «petit»."
+     },
+     {
+      "antwort": "das Abendessen",
+      "diagnoseId": "wortschatz",
+      "feedback": "Das Abendessen heisst «le dîner» oder «le souper»."
+     },
+     {
+      "antwort": "der kleine Teller",
+      "diagnoseId": "woertlich",
+      "feedback": "Wörtlich übersetzt ergibt die Wendung keinen Sinn; sie ist fest."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «le voyage dure deux heures»?",
+    "optionen": [
+     "Die Reise dauert zwei Stunden",
+     "Die Reise ist hart",
+     "Die Reise kostet zwei Franken",
+     "Die Reise beginnt um zwei"
+    ],
+    "loesung": [
+     "Die Reise dauert zwei Stunden"
+    ],
+    "erklaerung": "«durer» heisst dauern; «deux heures» sind zwei Stunden.",
+    "fehler": [
+     {
+      "antwort": "Die Reise ist hart",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«dur» heisst hart, «durer» dagegen dauern — die beiden Wörter sehen sich ähnlich."
+     },
+     {
+      "antwort": "Die Reise kostet zwei Franken",
+      "diagnoseId": "wortschatz",
+      "feedback": "Kosten hiesse «coûter»; «durer» sagt nichts über den Preis."
+     },
+     {
+      "antwort": "Die Reise beginnt um zwei",
+      "diagnoseId": "wortschatz",
+      "feedback": "Beginnen hiesse «commencer»; «durer» nennt die Dauer, nicht den Anfang."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nEn hiver, mon frère est ______ de ski.",
+    "optionen": [
+     "moniteur",
+     "monsieur",
+     "montagne",
+     "moment"
+    ],
+    "loesung": [
+     "moniteur"
+    ],
+    "erklaerung": "«un moniteur de ski» ist ein Skilehrer.",
+    "fehler": [
+     {
+      "antwort": "monsieur",
+      "diagnoseId": "klang",
+      "feedback": "«monsieur» heisst Herr und klingt nur ähnlich."
+     },
+     {
+      "antwort": "montagne",
+      "diagnoseId": "wortschatz",
+      "feedback": "«montagne» heisst Berg; ein Skilehrer ist «un moniteur de ski»."
+     },
+     {
+      "antwort": "moment",
+      "diagnoseId": "wortschatz",
+      "feedback": "«moment» heisst Augenblick und passt nicht zu einer Tätigkeit im Winter."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «au bord de l'eau»?",
+    "optionen": [
+     "am Ufer",
+     "auf dem Wasser",
+     "unter Wasser",
+     "an Bord eines Schiffes"
+    ],
+    "loesung": [
+     "am Ufer"
+    ],
+    "erklaerung": "«le bord» ist der Rand; «au bord de l'eau» heisst am Wasser, also am Ufer.",
+    "fehler": [
+     {
+      "antwort": "auf dem Wasser",
+      "diagnoseId": "praeposition",
+      "feedback": "Auf dem Wasser hiesse «sur l'eau»; «au bord» meint den Rand."
+     },
+     {
+      "antwort": "unter Wasser",
+      "diagnoseId": "praeposition",
+      "feedback": "Unter Wasser hiesse «sous l'eau»; «bord» ist der Rand, nicht die Tiefe."
+     },
+     {
+      "antwort": "an Bord eines Schiffes",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«bord» kann auch Bord heissen; mit «de l'eau» ist aber der Rand des Wassers gemeint."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl travaille dans un magasin, ______ en hiver il est moniteur de ski.",
+    "optionen": [
+     "mais",
+     "parce que",
+     "donc",
+     "pendant"
+    ],
+    "loesung": [
+     "mais"
+    ],
+    "erklaerung": "«mais» heisst aber und stellt die beiden Tätigkeiten einander gegenüber.",
+    "fehler": [
+     {
+      "antwort": "parce que",
+      "diagnoseId": "bedeutung",
+      "feedback": "«parce que» heisst weil und nennt einen Grund; hier steht ein Gegensatz."
+     },
+     {
+      "antwort": "donc",
+      "diagnoseId": "bedeutung",
+      "feedback": "«donc» heisst also und nennt eine Folge."
+     },
+     {
+      "antwort": "pendant",
+      "diagnoseId": "bedeutung",
+      "feedback": "«pendant» heisst während und stünde vor einer Zeitangabe."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «les vacances d'automne»?",
+    "optionen": [
+     "die Herbstferien",
+     "die Sommerferien",
+     "die Frühlingsferien",
+     "die Weihnachtsferien"
+    ],
+    "loesung": [
+     "die Herbstferien"
+    ],
+    "erklaerung": "«l'automne» ist der Herbst.",
+    "fehler": [
+     {
+      "antwort": "die Sommerferien",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Der Sommer heisst «l'été»; «automne» ist der Herbst."
+     },
+     {
+      "antwort": "die Frühlingsferien",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Der Frühling heisst «le printemps»; «automne» ist der Herbst."
+     },
+     {
+      "antwort": "die Weihnachtsferien",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Weihnachten heisst «Noël»; die Ferien im Text liegen im Herbst."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026, die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023, Prüfungsfach Französisch, Compréhension écrite; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitadverbien, unpersönliche Wendungen und Wortschatz",
+  "status": "review"
+ }
+]

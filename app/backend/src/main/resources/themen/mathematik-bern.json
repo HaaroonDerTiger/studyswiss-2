@@ -1,0 +1,360 @@
+{
+ "fach": "mathematik-bern",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfung GYM 1 und FMS Bern",
+ "quelle": "Aufnahmeprüfungen Kanton Bern 2022-2026, Mathematik I und Mathematik II (8. und 9. Schuljahr) sowie FMS",
+ "punkteTotal": 61,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "2.1",
+   "name": "Rechnen ohne Taschenrechner",
+   "punkte": 10,
+   "anteil": 16,
+   "beschreibung": "Mathematik I wird ohne Taschenrechner geschrieben. Alles muss im Kopf oder auf Papier gehen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Brüche addieren, subtrahieren, multiplizieren, dividieren",
+     "lernzielId": "MB.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Punkt vor Strich, Klammern und negative Zahlen",
+     "lernzielId": "MB.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Brüche, Dezimalzahlen und Prozente umwandeln",
+     "lernzielId": "MB.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Primfaktorzerlegung und Teilbarkeit",
+     "lernzielId": "MB.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Zahlen und Grössen vergleichen: kleiner, grösser, gleich",
+     "lernzielId": "MB.1.05",
+     "pflichtset": 15
+    },
+    {
+     "code": "1.06",
+     "name": "Wurzeln abschätzen und einordnen",
+     "lernzielId": "MB.1.06",
+     "pflichtset": 15
+    },
+    {
+     "code": "1.07",
+     "name": "Terme auf Gleichwertigkeit prüfen",
+     "lernzielId": "MB.1.07",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2.2",
+   "name": "Terme und Gleichungen",
+   "punkte": 12,
+   "anteil": 20,
+   "beschreibung": "Der grösste Block der Prüfung. Fast jedes Jahr steht eine Textaufgabe darin, die auf einer Gleichung beruhen muss.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme auswerten: Werte einsetzen",
+     "lernzielId": "MB.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Terme vereinfachen und zusammenfassen",
+     "lernzielId": "MB.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Ausmultiplizieren und Ausklammern",
+     "lernzielId": "MB.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MB.2.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Gleichungen mit Brüchen lösen",
+     "lernzielId": "MB.2.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Gleichung aus einem Text aufstellen",
+     "lernzielId": "MB.2.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Zahlenrätsel als Gleichung",
+     "lernzielId": "MB.2.07",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "2.06"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "2.3",
+   "name": "Grössen, Masse und Prozent",
+   "punkte": 10,
+   "anteil": 16,
+   "beschreibung": "Einheiten umrechnen und Prozentrechnen kommen in jeder Prüfung vor, oft als Teilaufgabe.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Längen-, Flächen- und Volumeneinheiten umrechnen",
+     "lernzielId": "MB.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Zeit, Gewicht und zusammengesetzte Einheiten",
+     "lernzielId": "MB.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Prozentwert, Grundwert, Prozentsatz",
+     "lernzielId": "MB.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Vermehrter und verminderter Grundwert",
+     "lernzielId": "MB.3.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Anteile, Verhältnisse und Mischungen",
+     "lernzielId": "MB.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Massstab, Schätzen und Grössenordnung",
+     "lernzielId": "MB.3.06",
+     "pflichtset": 15
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "2.4",
+   "name": "Funktionen, Diagramme und Muster",
+   "punkte": 8,
+   "anteil": 13,
+   "beschreibung": "Diagramme lesen, Tarife vergleichen, Muster fortsetzen und verallgemeinern.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Diagramme lesen: Weg-Zeit, Füllstand, Pegel",
+     "lernzielId": "MB.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Änderungsrate aus einem Graphen bestimmen",
+     "lernzielId": "MB.4.02",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Proportional und umgekehrt proportional",
+     "lernzielId": "MB.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Wertetabelle erstellen und Graph zeichnen",
+     "lernzielId": "MB.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Lineare Tarife vergleichen",
+     "lernzielId": "MB.4.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.04"
+     ]
+    },
+    {
+     "code": "4.06",
+     "name": "Muster fortsetzen und als Term verallgemeinern",
+     "lernzielId": "MB.4.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "2.5",
+   "name": "Geometrie in der Ebene",
+   "punkte": 9,
+   "anteil": 15,
+   "beschreibung": "Winkel, Flächen und Figuren im Koordinatensystem, meist ohne Massstab, immer mit Rechnung.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Winkel berechnen: Winkelsumme, Nebenwinkel, gleichschenklig",
+     "lernzielId": "MB.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Fläche und Umfang von Rechteck und Quadrat",
+     "lernzielId": "MB.5.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.03",
+     "name": "Fläche von Dreiecken und Trapezen",
+     "lernzielId": "MB.5.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.04",
+     "name": "Zusammengesetzte Figuren zerlegen",
+     "lernzielId": "MB.5.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.02",
+      "5.03"
+     ]
+    },
+    {
+     "code": "5.05",
+     "name": "Figuren im Koordinatensystem",
+     "lernzielId": "MB.5.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.06",
+     "name": "Achsenspiegelung, Drehung und Streckung",
+     "lernzielId": "MB.5.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "2.6",
+   "name": "Geometrie im Raum",
+   "punkte": 8,
+   "anteil": 13,
+   "beschreibung": "Würfel und Quader, Netze, Ansichten und das Kippen. Der Teil, der räumliches Vorstellen prüft.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Volumen von Würfel, Quader und Prisma",
+     "lernzielId": "MB.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Oberfläche von Würfel, Quader und Prisma",
+     "lernzielId": "MB.6.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.03",
+     "name": "Zusammengesetzte Körper und Restkörper",
+     "lernzielId": "MB.6.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01",
+      "6.02"
+     ]
+    },
+    {
+     "code": "6.04",
+     "name": "Würfelnetze zuordnen",
+     "lernzielId": "MB.6.04",
+     "pflichtset": 14
+    },
+    {
+     "code": "6.05",
+     "name": "Würfel kippen und Augenzahlen bestimmen",
+     "lernzielId": "MB.6.05",
+     "pflichtset": 15
+    },
+    {
+     "code": "6.06",
+     "name": "Ansichten und Würfelgebäude",
+     "lernzielId": "MB.6.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "2.7",
+   "name": "Erforschen und Argumentieren",
+   "punkte": 4,
+   "anteil": 7,
+   "beschreibung": "Mathematik II prüft ausdrücklich das Erforschen: abzählen, ordnen, das Grösste finden, Arbeitsaufgaben.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Kombinatorik: Anzahlen bestimmen",
+     "lernzielId": "MB.7.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.02",
+     "name": "Figuren systematisch abzählen",
+     "lernzielId": "MB.7.02",
+     "pflichtset": 15
+    },
+    {
+     "code": "7.03",
+     "name": "Grösstes und kleinstes Ergebnis finden",
+     "lernzielId": "MB.7.03",
+     "pflichtset": 15
+    },
+    {
+     "code": "7.04",
+     "name": "Arbeits-, Füll- und Abflussaufgaben",
+     "lernzielId": "MB.7.04",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

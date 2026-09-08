@@ -1,0 +1,165 @@
+{
+ "fach": "sprache-gr",
+ "name": "Sprache im Fokus",
+ "pruefung": "Aufnahmeprüfungen der Bündner Mittelschulen",
+ "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026; Detailliste «Sprache im Fokus» des Amts für Höhere Bildung",
+ "punkteTotal": 25,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "S1",
+   "name": "Wortarten",
+   "punkte": 8,
+   "anteil": 32,
+   "beschreibung": "Sprache untersuchen: die Wortarten bestimmen und richtig verwenden.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Nomen, Verb und Adjektiv",
+     "lernzielId": "DSGR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Artikel und Pronomen",
+     "lernzielId": "DSGR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Präpositionen und Konjunktionen",
+     "lernzielId": "DSGR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Wortarten im Satz unterscheiden",
+     "lernzielId": "DSGR.1.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "S2",
+   "name": "Verb und Fälle",
+   "punkte": 9,
+   "anteil": 36,
+   "beschreibung": "Zeitformen, Personalformen und die vier Fälle — nach den Sprachstarken 7 und 8.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Zeitformen bestimmen",
+     "lernzielId": "DSGR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Zeitformen bilden",
+     "lernzielId": "DSGR.2.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Personalform und Infinitiv",
+     "lernzielId": "DSGR.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Die vier Fälle bestimmen",
+     "lernzielId": "DSGR.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Aktiv und Passiv",
+     "lernzielId": "DSGR.2.05",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Konjunktiv und indirekte Rede",
+     "lernzielId": "DSGR.2.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "S3",
+   "name": "Satz und Rechtschreibung",
+   "punkte": 8,
+   "anteil": 32,
+   "beschreibung": "Satzglieder, Kommas und die Rechtschreibregeln, die in der Detailliste stehen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Satzglieder bestimmen",
+     "lernzielId": "DSGR.3.01",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.02",
+     "name": "Haupt- und Nebensatz",
+     "lernzielId": "DSGR.3.02",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "DSGR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "das oder dass",
+     "lernzielId": "DSGR.3.04",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Dehnung und Schärfung",
+     "lernzielId": "DSGR.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Kommaregeln",
+     "lernzielId": "DSGR.3.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Wortstamm und Wortfamilie",
+     "lernzielId": "DSGR.3.07",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

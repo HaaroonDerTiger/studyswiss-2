@@ -1,0 +1,2345 @@
+[
+ {
+  "templateId": "ein-lesen",
+  "lernzielId": "DTEI.1.01",
+  "fach": "textverstaendnis-einsiedeln",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche die Stelle im Text, die zur Frage passt — sie steht wirklich dort.",
+   "Achte darauf, was die Figuren tun, nicht nur, was sie sagen.",
+   "Bei den Zahlen hilft es, die Tabelle im Text noch einmal anzuschauen."
+  ],
+  "loesungsweg": [
+   "Frage lesen und das Schlüsselwort merken.",
+   "Die passende Stelle im Text suchen.",
+   "Die Antwort am Text prüfen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was steht am ersten Schultag auf dem Pult?",
+    "optionen": [
+     "Eine Kiste mit einer Wetterstation",
+     "Ein Heft",
+     "Ein Regenmesser allein",
+     "Ein Blumentopf"
+    ],
+    "loesung": [
+     "Eine Kiste mit einer Wetterstation"
+    ],
+    "erklaerung": "Der erste Abschnitt sagt es: eine Kiste, und darin ist eine Wetterstation.",
+    "fehler": [
+     {
+      "antwort": "Ein Heft",
+      "diagnoseId": "spaeter",
+      "feedback": "Das Heft kommt später vor: Darin werden die Zahlen notiert."
+     },
+     {
+      "antwort": "Ein Regenmesser allein",
+      "diagnoseId": "ungenau",
+      "feedback": "Der Regenmesser ist ein Teil der Station, nicht das Ganze."
+     },
+     {
+      "antwort": "Ein Blumentopf",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Blumentopf kommt im Text nicht vor; in der Kiste steckt die Wetterstation."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo wollte Timo die Station aufstellen?",
+    "optionen": [
+     "Auf dem Dach des Veloständers",
+     "Unter der Linde",
+     "Im Schulzimmer",
+     "Auf dem Schulhausdach"
+    ],
+    "loesung": [
+     "Auf dem Dach des Veloständers"
+    ],
+    "erklaerung": "Timo schlug den Veloständer vor, weil man von dort das ganze Dorf sieht.",
+    "fehler": [
+     {
+      "antwort": "Unter der Linde",
+      "diagnoseId": "ergebnis",
+      "feedback": "Unter der Linde steht die Station am Schluss — das war Ninas Standpunkt."
+     },
+     {
+      "antwort": "Im Schulzimmer",
+      "diagnoseId": "erfunden",
+      "feedback": "Im Schulzimmer würde man das Wetter draussen nicht messen."
+     },
+     {
+      "antwort": "Auf dem Schulhausdach",
+      "diagnoseId": "ungenau",
+      "feedback": "Genannt wird das Dach des Veloständers, nicht das des Schulhauses."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum war Nina dagegen?",
+    "optionen": [
+     "Weil das Blech in der Sonne zu warm wird",
+     "Weil der Ort zu weit weg ist",
+     "Weil dort niemand hinsieht",
+     "Weil es dort zu windig ist"
+    ],
+    "loesung": [
+     "Weil das Blech in der Sonne zu warm wird"
+    ],
+    "erklaerung": "Nina sagt: Auf dem Blech wird es viel zu warm — dann misst man die Sonne und nicht die Luft.",
+    "fehler": [
+     {
+      "antwort": "Weil der Ort zu weit weg ist",
+      "diagnoseId": "erfunden",
+      "feedback": "Über die Entfernung sagt Nina nichts; ihr Einwand betrifft die Wärme des Blechs."
+     },
+     {
+      "antwort": "Weil dort niemand hinsieht",
+      "diagnoseId": "gegenteil",
+      "feedback": "Timo sagt gerade, dass man von dort das ganze Dorf sieht."
+     },
+     {
+      "antwort": "Weil es dort zu windig ist",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Wind ist im Text nicht die Rede; genannt wird die Sonne auf dem Blech."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht die Station am Schluss?",
+    "optionen": [
+     "Im Schatten der Linde",
+     "Auf dem Veloständer",
+     "Vor dem Schulhaus",
+     "Auf dem Pult"
+    ],
+    "loesung": [
+     "Im Schatten der Linde"
+    ],
+    "erklaerung": "Am Schluss der Diskussion steht die Station im Schatten der grossen Linde hinter dem Schulhaus.",
+    "fehler": [
+     {
+      "antwort": "Auf dem Veloständer",
+      "diagnoseId": "vorschlag",
+      "feedback": "Das war Timos Vorschlag; durchgesetzt hat er sich nicht."
+     },
+     {
+      "antwort": "Vor dem Schulhaus",
+      "diagnoseId": "ungenau",
+      "feedback": "Der Text sagt: hinter dem Schulhaus, im Schatten der Linde."
+     },
+     {
+      "antwort": "Auf dem Pult",
+      "diagnoseId": "anfang",
+      "feedback": "Auf dem Pult stand nur die Kiste am ersten Tag."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Woche regnete es am meisten?",
+    "optionen": [
+     "In der vierten Woche",
+     "In der ersten Woche",
+     "In der zweiten Woche",
+     "In der dritten Woche"
+    ],
+    "loesung": [
+     "In der vierten Woche"
+    ],
+    "erklaerung": "Die Tabelle zeigt 34 Millimeter in der vierten Woche — mehr als in jeder anderen.",
+    "fehler": [
+     {
+      "antwort": "In der ersten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In der ersten Woche waren es 8 Millimeter."
+     },
+     {
+      "antwort": "In der zweiten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In der zweiten Woche waren es 21 Millimeter, also weniger als 34."
+     },
+     {
+      "antwort": "In der dritten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In der dritten Woche waren es nur 3 Millimeter."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchen beiden Wochen war die Temperatur gleich?",
+    "optionen": [
+     "In der zweiten und der dritten Woche",
+     "In der ersten und der zweiten Woche",
+     "In der dritten und der vierten Woche",
+     "In keiner"
+    ],
+    "loesung": [
+     "In der zweiten und der dritten Woche"
+    ],
+    "erklaerung": "In beiden Wochen zeigt die Tabelle 9 Grad.",
+    "fehler": [
+     {
+      "antwort": "In der ersten und der zweiten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "Dort stehen 12 und 9 Grad, also verschiedene Werte."
+     },
+     {
+      "antwort": "In der dritten und der vierten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "Dort stehen 9 und 4 Grad, also zwei verschiedene Werte."
+     },
+     {
+      "antwort": "In keiner",
+      "diagnoseId": "tabelle",
+      "feedback": "Die zweite und die dritte Woche zeigen beide 9 Grad."
+     }
+    ]
+   },
+   {
+    "stamm": "Wer vergass das Ablesen zweimal?",
+    "optionen": [
+     "Timo",
+     "Nina",
+     "Frau Bürgi",
+     "Niemand"
+    ],
+    "loesung": [
+     "Timo"
+    ],
+    "erklaerung": "Der Text sagt: Timo vergass es zweimal, Nina kein einziges Mal.",
+    "fehler": [
+     {
+      "antwort": "Nina",
+      "diagnoseId": "figur",
+      "feedback": "Nina vergass es kein einziges Mal; der Text hält das ausdrücklich fest."
+     },
+     {
+      "antwort": "Frau Bürgi",
+      "diagnoseId": "figur",
+      "feedback": "Die Lehrerin las die Werte nicht selbst ab."
+     },
+     {
+      "antwort": "Niemand",
+      "diagnoseId": "widerspruch",
+      "feedback": "Der Text nennt ausdrücklich zwei vergessene Male."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum widerspricht Nina der Aussage «Es wird kälter und nasser»?",
+    "optionen": [
+     "Weil es in der dritten Woche fast nicht regnete",
+     "Weil die Temperatur gleich blieb",
+     "Weil Timo sich verrechnet hat",
+     "Weil die Station kaputt war"
+    ],
+    "loesung": [
+     "Weil es in der dritten Woche fast nicht regnete"
+    ],
+    "erklaerung": "Nina zeigt auf die dritte Woche mit nur 3 Millimetern: Nasser wird es also nicht jede Woche.",
+    "fehler": [
+     {
+      "antwort": "Weil die Temperatur gleich blieb",
+      "diagnoseId": "gegenteil",
+      "feedback": "Beim Kälterwerden gibt Nina Timo ausdrücklich recht."
+     },
+     {
+      "antwort": "Weil Timo sich verrechnet hat",
+      "diagnoseId": "ungenau",
+      "feedback": "Timo rechnet nicht falsch; er verallgemeinert zu schnell."
+     },
+     {
+      "antwort": "Weil die Station kaputt war",
+      "diagnoseId": "zeit",
+      "feedback": "Die Station fällt erst im Dezember aus; im November lieferte sie alle Werte."
+     }
+    ]
+   },
+   {
+    "stamm": "Was meint Frau Bürgi mit «Eine einzelne Zahl sagt fast nichts»?",
+    "optionen": [
+     "Erst mehrere Messungen zeigen eine Veränderung",
+     "Zahlen sind unwichtig",
+     "Die Station misst ungenau",
+     "Man soll nur einmal im Monat messen"
+    ],
+    "loesung": [
+     "Erst mehrere Messungen zeigen eine Veränderung"
+    ],
+    "erklaerung": "Genau darum messen sie vier Wochen und nicht eine: Erst die Reihe zeigt, was sich verändert.",
+    "fehler": [
+     {
+      "antwort": "Zahlen sind unwichtig",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die ganze Klasse misst wochenlang; Zahlen sind gerade wichtig."
+     },
+     {
+      "antwort": "Die Station misst ungenau",
+      "diagnoseId": "erfunden",
+      "feedback": "Von ungenauen Messungen steht nichts im Text."
+     },
+     {
+      "antwort": "Man soll nur einmal im Monat messen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie messen jeden Morgen, vier Wochen lang."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie verändert sich Timo im Lauf des Textes?",
+    "optionen": [
+     "Er lernt aus Ninas Einwand und schaut später selbst genau hin",
+     "Er verliert die Lust am Messen",
+     "Er wird wütend auf Nina",
+     "Er bleibt genau gleich"
+    ],
+    "loesung": [
+     "Er lernt aus Ninas Einwand und schaut später selbst genau hin"
+    ],
+    "erklaerung": "Am Schluss schreibt er sich den Satz der Lehrerin auf und findet im Dezember den Ast auf dem Regenmesser.",
+    "fehler": [
+     {
+      "antwort": "Er verliert die Lust am Messen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Im Dezember ist er es, der den Fehler findet."
+     },
+     {
+      "antwort": "Er wird wütend auf Nina",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Ärger steht nichts im Text; die beiden diskutieren sachlich."
+     },
+     {
+      "antwort": "Er bleibt genau gleich",
+      "diagnoseId": "uebersehen",
+      "feedback": "Der letzte Abschnitt zeigt die Veränderung."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum zeigte die Station im Dezember eine Woche lang nichts an?",
+    "optionen": [
+     "Ein Ast war auf den Regenmesser gefallen",
+     "Die Batterie war leer",
+     "Niemand hatte abgelesen",
+     "Es hatte nicht geregnet"
+    ],
+    "loesung": [
+     "Ein Ast war auf den Regenmesser gefallen"
+    ],
+    "erklaerung": "Der letzte Satz nennt den Grund: ein Ast auf dem Regenmesser.",
+    "fehler": [
+     {
+      "antwort": "Die Batterie war leer",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Batterie steht nichts im Text."
+     },
+     {
+      "antwort": "Niemand hatte abgelesen",
+      "diagnoseId": "ungenau",
+      "feedback": "Abgelesen wurde; die Station zeigte selbst nichts an."
+     },
+     {
+      "antwort": "Es hatte nicht geregnet",
+      "diagnoseId": "ungenau",
+      "feedback": "Dann hätte die Station immer noch die Temperatur angezeigt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt am besten zum ganzen Text?",
+    "optionen": [
+     "Vier Wochen messen — und daraus lernen",
+     "Der Streit um den Veloständer",
+     "Ein Ast auf dem Regenmesser",
+     "Das Wetter im November"
+    ],
+    "loesung": [
+     "Vier Wochen messen — und daraus lernen"
+    ],
+    "erklaerung": "Der Text handelt vom Aufstellen, vom Messen über vier Wochen und von dem, was die Klasse dabei lernt.",
+    "fehler": [
+     {
+      "antwort": "Der Streit um den Veloständer",
+      "diagnoseId": "teil",
+      "feedback": "Die Diskussion ist nur der Anfang; danach geht es weiter."
+     },
+     {
+      "antwort": "Ein Ast auf dem Regenmesser",
+      "diagnoseId": "teil",
+      "feedback": "Der Ast kommt erst im letzten Satz vor und taugt darum nicht als Überschrift."
+     },
+     {
+      "antwort": "Das Wetter im November",
+      "diagnoseId": "teil",
+      "feedback": "Das Wetter ist der Gegenstand der Messungen, nicht das Thema des Textes."
+     }
+    ]
+   }
+  ],
+  "text": "Die Wetterstation der 6b\n\nAm ersten Schultag nach den Herbstferien stand auf dem Pult von Frau Bürgi eine Kiste. «Darin ist eine Wetterstation», sagte sie. «Sie misst Temperatur und Regen. Aufstellen und ablesen müsst ihr sie selbst.»\n\nTimo meldete sich sofort. Er wollte die Station auf dem Dach des Veloständers befestigen, weil man von dort das ganze Dorf sieht. Nina war dagegen. «Auf dem Blech wird es viel zu warm», sagte sie. «Dann messen wir die Sonne und nicht die Luft.» Die Klasse diskutierte eine ganze Lektion lang. Am Schluss stand die Station im Schatten der grossen Linde hinter dem Schulhaus.\n\nVier Wochen lang ging jeden Morgen jemand anders hinaus und schrieb die Zahlen in ein Heft. Timo vergass es zweimal, Nina kein einziges Mal.\n\nIm November trugen sie die Werte zusammen:\n\nWoche 1: 12 Grad, 8 Millimeter Regen\nWoche 2: 9 Grad, 21 Millimeter Regen\nWoche 3: 9 Grad, 3 Millimeter Regen\nWoche 4: 4 Grad, 34 Millimeter Regen\n\n«Es wird kälter und nasser», sagte Timo. Nina schaute noch einmal auf die Zahlen. «Kälter schon», sagte sie. «Aber in der dritten Woche hat es fast nicht geregnet. Nasser wird es also nicht jede Woche.»\n\nFrau Bürgi nickte. «Genau darum messen wir vier Wochen und nicht eine», sagte sie. «Eine einzelne Zahl sagt fast nichts. Erst die Reihe zeigt, was sich verändert.»\n\nTimo schrieb sich das auf. Und im Dezember, als die Station eine Woche lang gar nichts anzeigte, war er es, der herausfand, dass ein Ast auf den Regenmesser gefallen war.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Lesen: Informationen, Aufbau und Schlüsse",
+  "status": "review"
+ },
+ {
+  "templateId": "ein-lesen-2",
+  "lernzielId": "DTEI.1.04",
+  "fach": "textverstaendnis-einsiedeln",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Eine Stimmung steht selten dabei — sie zeigt sich am Verhalten.",
+   "Frage bei einer Figur: Was will sie erreichen?",
+   "In einer Tabelle liest du zuerst die Überschrift, dann die Zeile."
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Bei Gefühlen aufs Verhalten achten.",
+   "Bei Zahlen die richtige Zeile suchen.",
+   "Die Antwort am Text belegen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie ist Timo gestimmt, als er sich sofort meldet?",
+    "optionen": [
+     "begeistert und voller Tatendrang",
+     "ängstlich",
+     "gelangweilt",
+     "verärgert"
+    ],
+    "loesung": [
+     "begeistert und voller Tatendrang"
+    ],
+    "erklaerung": "«meldete sich sofort» und der eigene Vorschlag zeigen Eifer.",
+    "fehler": [
+     {
+      "antwort": "ängstlich",
+      "diagnoseId": "deutung",
+      "feedback": "Wer sich sofort meldet, ist nicht ängstlich."
+     },
+     {
+      "antwort": "gelangweilt",
+      "diagnoseId": "deutung",
+      "feedback": "Langeweile passt nicht zu einem eigenen Vorschlag."
+     },
+     {
+      "antwort": "verärgert",
+      "diagnoseId": "deutung",
+      "feedback": "Von Ärger steht an dieser Stelle nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Was will Nina erreichen, als sie gegen den Veloständer ist?",
+    "optionen": [
+     "dass die Station richtige Werte misst",
+     "dass Timo nicht bestimmen darf",
+     "dass die Station im Schulhaus bleibt",
+     "dass die Klasse länger diskutiert"
+    ],
+    "loesung": [
+     "dass die Station richtige Werte misst"
+    ],
+    "erklaerung": "Sie begründet ihren Einwand mit dem warmen Blech — es geht ihr um die Messung.",
+    "fehler": [
+     {
+      "antwort": "dass Timo nicht bestimmen darf",
+      "diagnoseId": "deutung",
+      "feedback": "Sie widerspricht der Sache, nicht der Person."
+     },
+     {
+      "antwort": "dass die Station im Schulhaus bleibt",
+      "diagnoseId": "handlung",
+      "feedback": "Ihr Vorschlag ist der Schatten draussen, nicht das Schulhaus."
+     },
+     {
+      "antwort": "dass die Klasse länger diskutiert",
+      "diagnoseId": "deutung",
+      "feedback": "Die lange Diskussion ist eine Folge, kein Ziel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Stimmung herrscht während der Diskussion in der Klasse?",
+    "optionen": [
+     "engagiert — es wird eine ganze Lektion lang gestritten",
+     "gleichgültig",
+     "ängstlich",
+     "traurig"
+    ],
+    "loesung": [
+     "engagiert — es wird eine ganze Lektion lang gestritten"
+    ],
+    "erklaerung": "«Die Klasse diskutierte eine ganze Lektion lang» — so lange redet man nur über etwas, das einen interessiert.",
+    "fehler": [
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "deutung",
+      "feedback": "Gleichgültige Klassen diskutieren keine Lektion lang."
+     },
+     {
+      "antwort": "ängstlich",
+      "diagnoseId": "deutung",
+      "feedback": "Von Angst steht nichts im Text. Richtig ist «engagiert — es wird eine ganze Lektion lang gestritten»."
+     },
+     {
+      "antwort": "traurig",
+      "diagnoseId": "deutung",
+      "feedback": "Von Traurigkeit steht nichts im Text. Richtig ist «engagiert — es wird eine ganze Lektion lang gestritten»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was zeigt der Satz «Timo vergass es zweimal, Nina kein einziges Mal»?",
+    "optionen": [
+     "einen Unterschied in der Verlässlichkeit",
+     "dass Nina strenger ist",
+     "dass Timo krank war",
+     "dass die Station nicht funktionierte"
+    ],
+    "loesung": [
+     "einen Unterschied in der Verlässlichkeit"
+    ],
+    "erklaerung": "Der Text stellt die beiden gegenüber, ohne zu werten.",
+    "fehler": [
+     {
+      "antwort": "dass Nina strenger ist",
+      "diagnoseId": "deutung",
+      "feedback": "Von Strenge ist nicht die Rede, sondern vom Erledigen."
+     },
+     {
+      "antwort": "dass Timo krank war",
+      "diagnoseId": "deutung",
+      "feedback": "Einen Grund fürs Vergessen nennt der Text nicht."
+     },
+     {
+      "antwort": "dass die Station nicht funktionierte",
+      "diagnoseId": "handlung",
+      "feedback": "Der Ausfall kommt erst im Dezember. Richtig ist «einen Unterschied in der Verlässlichkeit»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Woche regnete es am meisten?",
+    "optionen": [
+     "in der vierten Woche",
+     "in der zweiten Woche",
+     "in der ersten Woche",
+     "in der dritten Woche"
+    ],
+    "loesung": [
+     "in der vierten Woche"
+    ],
+    "erklaerung": "34 Millimeter in Woche 4 sind der höchste Wert der Tabelle.",
+    "fehler": [
+     {
+      "antwort": "in der zweiten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In Woche 2 waren es 21 Millimeter. Richtig ist «in der vierten Woche»."
+     },
+     {
+      "antwort": "in der ersten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In Woche 1 waren es 8 Millimeter. Richtig ist «in der vierten Woche»."
+     },
+     {
+      "antwort": "in der dritten Woche",
+      "diagnoseId": "tabelle",
+      "feedback": "In Woche 3 waren es nur 3 Millimeter. Richtig ist «in der vierten Woche»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchen Wochen war die Temperatur gleich?",
+    "optionen": [
+     "in Woche 2 und Woche 3",
+     "in Woche 1 und Woche 2",
+     "in Woche 3 und Woche 4",
+     "in keiner"
+    ],
+    "loesung": [
+     "in Woche 2 und Woche 3"
+    ],
+    "erklaerung": "Beide Male stehen 9 Grad in der Tabelle.",
+    "fehler": [
+     {
+      "antwort": "in Woche 1 und Woche 2",
+      "diagnoseId": "tabelle",
+      "feedback": "12 Grad und 9 Grad sind nicht gleich. Richtig ist «in Woche 2 und Woche 3»."
+     },
+     {
+      "antwort": "in Woche 3 und Woche 4",
+      "diagnoseId": "tabelle",
+      "feedback": "9 Grad und 4 Grad sind nicht gleich. Richtig ist «in Woche 2 und Woche 3»."
+     },
+     {
+      "antwort": "in keiner",
+      "diagnoseId": "tabelle",
+      "feedback": "Woche 2 und Woche 3 zeigen beide 9 Grad."
+     }
+    ]
+   },
+   {
+    "stamm": "Um wie viel Grad sank die Temperatur von Woche 1 bis Woche 4?",
+    "optionen": [
+     "um 8 Grad",
+     "um 4 Grad",
+     "um 12 Grad",
+     "um 9 Grad"
+    ],
+    "loesung": [
+     "um 8 Grad"
+    ],
+    "erklaerung": "Von 12 Grad auf 4 Grad sind es 8 Grad Unterschied.",
+    "fehler": [
+     {
+      "antwort": "um 4 Grad",
+      "diagnoseId": "rechnen",
+      "feedback": "4 Grad ist der Wert der vierten Woche, nicht der Unterschied."
+     },
+     {
+      "antwort": "um 12 Grad",
+      "diagnoseId": "rechnen",
+      "feedback": "12 Grad ist der Wert der ersten Woche. Richtig ist «um 8 Grad»."
+     },
+     {
+      "antwort": "um 9 Grad",
+      "diagnoseId": "rechnen",
+      "feedback": "9 Grad steht in den Wochen 2 und 3. Richtig ist «um 8 Grad»."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum widerspricht Nina der Aussage «Es wird kälter und nasser»?",
+    "optionen": [
+     "Weil die dritte Woche fast trocken war",
+     "Weil es gar nicht kälter wurde",
+     "Weil die Messungen falsch sind",
+     "Weil Timo zweimal vergessen hat"
+    ],
+    "loesung": [
+     "Weil die dritte Woche fast trocken war"
+    ],
+    "erklaerung": "3 Millimeter in Woche 3 durchbrechen die Reihe — die Nässe steigt nicht Woche für Woche.",
+    "fehler": [
+     {
+      "antwort": "Weil es gar nicht kälter wurde",
+      "diagnoseId": "beleg",
+      "feedback": "Nina sagt ausdrücklich «Kälter schon». Richtig ist «Weil die dritte Woche fast trocken war»."
+     },
+     {
+      "antwort": "Weil die Messungen falsch sind",
+      "diagnoseId": "beleg",
+      "feedback": "An den Zahlen zweifelt sie nicht. Richtig ist «Weil die dritte Woche fast trocken war»."
+     },
+     {
+      "antwort": "Weil Timo zweimal vergessen hat",
+      "diagnoseId": "beleg",
+      "feedback": "Das steht in keinem Zusammenhang mit ihrem Einwand."
+     }
+    ]
+   },
+   {
+    "stamm": "Was meint Frau Bürgi mit «Eine einzelne Zahl sagt fast nichts»?",
+    "optionen": [
+     "Erst mehrere Messungen zeigen eine Entwicklung",
+     "Die Zahlen sind ungenau",
+     "Man soll nicht rechnen",
+     "Vier Wochen sind zu wenig"
+    ],
+    "loesung": [
+     "Erst mehrere Messungen zeigen eine Entwicklung"
+    ],
+    "erklaerung": "Sie begründet damit, warum vier Wochen gemessen wurde und nicht eine.",
+    "fehler": [
+     {
+      "antwort": "Die Zahlen sind ungenau",
+      "diagnoseId": "deutung",
+      "feedback": "Über die Genauigkeit sagt sie nichts. Richtig ist «Erst mehrere Messungen zeigen eine Entwicklung»."
+     },
+     {
+      "antwort": "Man soll nicht rechnen",
+      "diagnoseId": "deutung",
+      "feedback": "Sie wendet sich gegen den vorschnellen Schluss, nicht gegen das Rechnen."
+     },
+     {
+      "antwort": "Vier Wochen sind zu wenig",
+      "diagnoseId": "deutung",
+      "feedback": "Sie nennt vier Wochen gerade als genügend."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie fühlt sich Timo vermutlich, als er den Ast auf dem Regenmesser findet?",
+    "optionen": [
+     "stolz, weil er den Fehler gefunden hat",
+     "enttäuscht",
+     "gleichgültig",
+     "ängstlich"
+    ],
+    "loesung": [
+     "stolz, weil er den Fehler gefunden hat"
+    ],
+    "erklaerung": "«war er es, der herausfand» — der Satz hebt seinen Anteil ausdrücklich hervor.",
+    "fehler": [
+     {
+      "antwort": "enttäuscht",
+      "diagnoseId": "deutung",
+      "feedback": "Der Satz betont seinen Erfolg, nicht ein Scheitern."
+     },
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "deutung",
+      "feedback": "Wer nachforscht, ist nicht gleichgültig."
+     },
+     {
+      "antwort": "ängstlich",
+      "diagnoseId": "deutung",
+      "feedback": "Von Angst steht nichts im Text. Richtig ist «stolz, weil er den Fehler gefunden hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Absicht verfolgt Frau Bürgi mit dem Satz «Aufstellen und ablesen müsst ihr sie selbst»?",
+    "optionen": [
+     "Die Klasse soll die Verantwortung übernehmen",
+     "Sie hat keine Zeit",
+     "Sie kennt die Station nicht",
+     "Sie will die Klasse prüfen"
+    ],
+    "loesung": [
+     "Die Klasse soll die Verantwortung übernehmen"
+    ],
+    "erklaerung": "Der ganze weitere Text handelt davon, wie die Klasse das selbst regelt.",
+    "fehler": [
+     {
+      "antwort": "Sie hat keine Zeit",
+      "diagnoseId": "deutung",
+      "feedback": "Von ihrer Zeit ist nirgends die Rede. Richtig ist «Die Klasse soll die Verantwortung übernehmen»."
+     },
+     {
+      "antwort": "Sie kennt die Station nicht",
+      "diagnoseId": "deutung",
+      "feedback": "Sie erklärt, was die Station misst. Richtig ist «Die Klasse soll die Verantwortung übernehmen»."
+     },
+     {
+      "antwort": "Sie will die Klasse prüfen",
+      "diagnoseId": "deutung",
+      "feedback": "Von einer Prüfung steht nichts im Text. Richtig ist «Die Klasse soll die Verantwortung übernehmen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel Regen fiel in den vier Wochen zusammen?",
+    "optionen": [
+     "66 Millimeter",
+     "55 Millimeter",
+     "34 Millimeter",
+     "32 Millimeter"
+    ],
+    "loesung": [
+     "66 Millimeter"
+    ],
+    "erklaerung": "8 + 21 + 3 + 34 ergibt 66 Millimeter.",
+    "fehler": [
+     {
+      "antwort": "55 Millimeter",
+      "diagnoseId": "rechnen",
+      "feedback": "Rechne noch einmal: 8 + 21 + 3 + 34. Richtig ist «66 Millimeter»."
+     },
+     {
+      "antwort": "34 Millimeter",
+      "diagnoseId": "tabelle",
+      "feedback": "34 ist der Wert der vierten Woche allein."
+     },
+     {
+      "antwort": "32 Millimeter",
+      "diagnoseId": "rechnen",
+      "feedback": "Hier fehlt ein Summand. Richtig ist «66 Millimeter»."
+     }
+    ]
+   }
+  ],
+  "text": "Die Wetterstation der 6b\n\nAm ersten Schultag nach den Herbstferien stand auf dem Pult von Frau Bürgi eine Kiste. «Darin ist eine Wetterstation», sagte sie. «Sie misst Temperatur und Regen. Aufstellen und ablesen müsst ihr sie selbst.»\n\nTimo meldete sich sofort. Er wollte die Station auf dem Dach des Veloständers befestigen, weil man von dort das ganze Dorf sieht. Nina war dagegen. «Auf dem Blech wird es viel zu warm», sagte sie. «Dann messen wir die Sonne und nicht die Luft.» Die Klasse diskutierte eine ganze Lektion lang. Am Schluss stand die Station im Schatten der grossen Linde hinter dem Schulhaus.\n\nVier Wochen lang ging jeden Morgen jemand anders hinaus und schrieb die Zahlen in ein Heft. Timo vergass es zweimal, Nina kein einziges Mal.\n\nIm November trugen sie die Werte zusammen:\n\nWoche 1: 12 Grad, 8 Millimeter Regen\nWoche 2: 9 Grad, 21 Millimeter Regen\nWoche 3: 9 Grad, 3 Millimeter Regen\nWoche 4: 4 Grad, 34 Millimeter Regen\n\n«Es wird kälter und nasser», sagte Timo. Nina schaute noch einmal auf die Zahlen. «Kälter schon», sagte sie. «Aber in der dritten Woche hat es fast nicht geregnet. Nasser wird es also nicht jede Woche.»\n\nFrau Bürgi nickte. «Genau darum messen wir vier Wochen und nicht eine», sagte sie. «Eine einzelne Zahl sagt fast nichts. Erst die Reihe zeigt, was sich verändert.»\n\nTimo schrieb sich das auf. Und im Dezember, als die Station eine Woche lang gar nichts anzeigte, war er es, der herausfand, dass ein Ast auf den Regenmesser gefallen war.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Stimmungen, Absichten und Angaben aus Tabellen",
+  "status": "review"
+ },
+ {
+  "templateId": "ein-wortarten-formen",
+  "lernzielId": "DSEI.1.01",
+  "fach": "sprache-einsiedeln",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Nomen verträgt einen Artikel: der, die oder das.",
+   "Ein Verb lässt sich in eine andere Zeit setzen, ein Adjektiv steigern.",
+   "Bei den Fällen hilft die Ersatzprobe: der, des, dem, den."
+  ],
+  "loesungsweg": [
+   "Das Wort mit einer Probe untersuchen.",
+   "Prüfen, ob es sich beugen oder steigern lässt.",
+   "Die Wortart oder Form benennen.",
+   "Zur Kontrolle die Probe wiederholen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wortart hat «Kiste» in diesem Satz?\n\nAuf dem Pult stand eine Kiste.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Pronomen"
+    ],
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "«Kiste» verträgt den Artikel «die» und benennt einen Gegenstand — das kennzeichnet das Nomen.",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «stand»; es sagt, was geschieht."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern; das geht bei «Kiste» nicht."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Pronomen stünde für das Nomen, zum Beispiel «sie»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «misst» in diesem Satz?\n\nDie Station misst Temperatur und Regen.",
+    "optionen": [
+     "Verb",
+     "Nomen",
+     "Adjektiv",
+     "Partikel"
+    ],
+    "loesung": [
+     "Verb"
+    ],
+    "erklaerung": "«misst» sagt, was geschieht, und lässt sich in andere Zeiten setzen: mass, hat gemessen.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen trüge einen Artikel; hier steht ein Verb im Präsens."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern und vor ein Nomen stellen."
+     },
+     {
+      "antwort": "Partikel",
+      "diagnoseId": "form",
+      "feedback": "Zur Restgruppe gehören die Wörter, die weder Nomen noch Verb noch Adjektiv sind."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat «gross» in diesem Satz?\n\nDie Station steht unter der grossen Linde.",
+    "optionen": [
+     "Adjektiv",
+     "Nomen",
+     "Verb",
+     "Pronomen"
+    ],
+    "loesung": [
+     "Adjektiv"
+    ],
+    "erklaerung": "«gross» beschreibt eine Eigenschaft der Linde und liesse sich steigern: gross, grösser, am grössten.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen würde grossgeschrieben und trüge einen Artikel."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «steht»; es sagt, was die Station tut."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Pronomen stünde anstelle eines Nomens."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort in diesem Satz ist ein Pronomen?\n\nEr schrieb sich das auf.",
+    "optionen": [
+     "Er",
+     "schrieb",
+     "auf",
+     "sich das"
+    ],
+    "loesung": [
+     "Er"
+    ],
+    "erklaerung": "«Er» steht anstelle eines Namens — das kennzeichnet das Pronomen.",
+    "fehler": [
+     {
+      "antwort": "schrieb",
+      "diagnoseId": "wortart",
+      "feedback": "«schrieb» ist das Verb des Satzes und keine Vertretung für ein Nomen."
+     },
+     {
+      "antwort": "auf",
+      "diagnoseId": "wortart",
+      "feedback": "«auf» gehört als Vorsilbe zum Verb «aufschreiben»."
+     },
+     {
+      "antwort": "sich das",
+      "diagnoseId": "form",
+      "feedback": "Gefragt ist ein einzelnes Wort; «sich» allein wäre ebenfalls ein Pronomen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\nTimo vergass es zweimal.",
+    "optionen": [
+     "Präteritum",
+     "Präsens",
+     "Perfekt",
+     "Futur"
+    ],
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "«vergass» ist die einfache Vergangenheitsform ohne Hilfsverb.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "zeit",
+      "feedback": "Im Präsens hiesse es «vergisst»; der Vokalwechsel zeigt die Vergangenheit an."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Perfekt hiesse «hat vergessen» und trüge ein Hilfsverb."
+     },
+     {
+      "antwort": "Futur",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Futur bräuchte «wird» und die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\nDie Klasse hat vier Wochen lang gemessen.",
+    "optionen": [
+     "Perfekt",
+     "Präsens",
+     "Präteritum",
+     "Futur"
+    ],
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«hat» im Präsens plus Partizip «gemessen» ergibt das Perfekt.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«hat» steht zwar im Präsens, ist hier aber nur Hilfsverb."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Präteritum käme ohne Hilfsverb aus: «mass»."
+     },
+     {
+      "antwort": "Futur",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Futur bräuchte «wird» und die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Infinitiv von «schrieb»?",
+    "optionen": [
+     "schreiben",
+     "schriebt",
+     "geschrieben",
+     "schreibt"
+    ],
+    "loesung": [
+     "schreiben"
+    ],
+    "erklaerung": "Der Infinitiv ist die Grundform, wie sie im Wörterbuch steht: schreiben.",
+    "fehler": [
+     {
+      "antwort": "schriebt",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es nicht; die Grundform lautet «schreiben»."
+     },
+     {
+      "antwort": "geschrieben",
+      "diagnoseId": "partizip",
+      "feedback": "Das ist das Partizip, das im Perfekt steht."
+     },
+     {
+      "antwort": "schreibt",
+      "diagnoseId": "personalform",
+      "feedback": "Das ist eine Personalform der dritten Person Einzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist eine Personalform?",
+    "optionen": [
+     "liest",
+     "lesen",
+     "gelesen",
+     "zu lesen"
+    ],
+    "loesung": [
+     "liest"
+    ],
+    "erklaerung": "Eine Personalform ist an eine Person gebunden: er liest, du liest.",
+    "fehler": [
+     {
+      "antwort": "lesen",
+      "diagnoseId": "infinitiv",
+      "feedback": "«lesen» ist der Infinitiv, also die Grundform."
+     },
+     {
+      "antwort": "gelesen",
+      "diagnoseId": "partizip",
+      "feedback": "«gelesen» ist das Partizip und steht mit einem Hilfsverb."
+     },
+     {
+      "antwort": "zu lesen",
+      "diagnoseId": "form",
+      "feedback": "Das ist der Infinitiv mit «zu» und ebenfalls keine Personalform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «die Zahlen»?\n\nNina schrieb die Zahlen ins Heft.",
+    "optionen": [
+     "Akkusativ",
+     "Nominativ",
+     "Dativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "Die Ersatzprobe hilft: «den» passt, also Akkusativ — sie schrieb wen oder was?",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Der Nominativ ist «Nina»; sie führt die Handlung aus."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Die Dativfrage «wem?» passt hier nicht; geschrieben werden die Zahlen."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv antwortete auf «wessen?» und lautete «der Zahlen»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «der Klasse»?\n\nFrau Bürgi zeigte der Klasse die Kiste.",
+    "optionen": [
+     "Dativ",
+     "Akkusativ",
+     "Nominativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Wem zeigte sie die Kiste? Der Klasse — die Ersatzprobe ergibt «dem».",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Im Akkusativ steht «die Kiste»; die Klasse ist die Empfängerin."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Der Nominativ ist «Frau Bürgi»; sie zeigt die Kiste."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «der Klasse» im Sinn von «wessen?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «des Regenmessers»?\n\nDer Deckel des Regenmessers fehlte.",
+    "optionen": [
+     "Genitiv",
+     "Nominativ",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "Wessen Deckel? Des Regenmessers — die Endung «-s» und die Ersatzprobe «des» zeigen den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Der Nominativ ist «der Deckel»; er fehlt."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ wäre «dem Regenmesser» und antwortete auf «wem?»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Akkusativ wäre «den Regenmesser» und antwortete auf «wen oder was?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört zur Restgruppe, den Partikeln?",
+    "optionen": [
+     "sofort",
+     "Kiste",
+     "messen",
+     "kalt"
+    ],
+    "loesung": [
+     "sofort"
+    ],
+    "erklaerung": "«sofort» ist weder Nomen noch Verb noch Adjektiv; solche Wörter bilden die Restgruppe.",
+    "fehler": [
+     {
+      "antwort": "Kiste",
+      "diagnoseId": "wortart",
+      "feedback": "«Kiste» ist ein Nomen und verträgt einen Artikel."
+     },
+     {
+      "antwort": "messen",
+      "diagnoseId": "wortart",
+      "feedback": "«messen» ist ein Verb und lässt sich in andere Zeiten setzen."
+     },
+     {
+      "antwort": "kalt",
+      "diagnoseId": "wortart",
+      "feedback": "«kalt» ist ein Adjektiv und lässt sich steigern."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortarten und Zeitformen bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "ein-formen",
+  "lernzielId": "DSEI.1.04",
+  "fach": "sprache-einsiedeln",
+  "unterthemen": [
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Personalform ändert sich mit der Person, der Infinitiv nicht.",
+   "Die Ersatzprobe fragt: wer, wessen, wem, wen.",
+   "Der Fall steht am Begleitwort, nicht nur am Nomen."
+  ],
+  "loesungsweg": [
+   "Das Verb suchen.",
+   "Die Person wechseln und schauen, was sich ändert.",
+   "Bei Nomen die vier Fragen stellen.",
+   "Die Antwort laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort ist die Personalform?\n\nDie Klasse will die Station aufstellen.",
+    "optionen": [
+     "will",
+     "aufstellen",
+     "Klasse",
+     "Station"
+    ],
+    "loesung": [
+     "will"
+    ],
+    "erklaerung": "«will» ändert sich mit der Person: ich will, du willst.",
+    "fehler": [
+     {
+      "antwort": "aufstellen",
+      "diagnoseId": "infinitiv",
+      "feedback": "«aufstellen» bleibt gleich und ist der Infinitiv."
+     },
+     {
+      "antwort": "Klasse",
+      "diagnoseId": "wortart",
+      "feedback": "«Klasse» ist ein Nomen. Richtig ist «will»."
+     },
+     {
+      "antwort": "Station",
+      "diagnoseId": "wortart",
+      "feedback": "«Station» ist ein Nomen. Richtig ist «will»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Infinitiv?\n\nNina musste die Zahlen aufschreiben.",
+    "optionen": [
+     "aufschreiben",
+     "musste",
+     "Zahlen",
+     "Nina"
+    ],
+    "loesung": [
+     "aufschreiben"
+    ],
+    "erklaerung": "«aufschreiben» bleibt bei jedem Wechsel der Person gleich.",
+    "fehler": [
+     {
+      "antwort": "musste",
+      "diagnoseId": "personalform",
+      "feedback": "«musste» ändert sich: ich musste, du musstest."
+     },
+     {
+      "antwort": "Zahlen",
+      "diagnoseId": "wortart",
+      "feedback": "«Zahlen» ist ein Nomen. Richtig ist «aufschreiben»."
+     },
+     {
+      "antwort": "Nina",
+      "diagnoseId": "wortart",
+      "feedback": "«Nina» ist ein Name, also ein Nomen. Richtig ist «aufschreiben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Infinitiv zu «mass»?",
+    "optionen": [
+     "messen",
+     "masse",
+     "gemessen",
+     "misst"
+    ],
+    "loesung": [
+     "messen"
+    ],
+    "erklaerung": "«messen» ist die Grundform; «mass» ist das Präteritum.",
+    "fehler": [
+     {
+      "antwort": "masse",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es so nicht. Richtig ist «messen»."
+     },
+     {
+      "antwort": "gemessen",
+      "diagnoseId": "partizip",
+      "feedback": "«gemessen» ist das Partizip. Richtig ist «messen»."
+     },
+     {
+      "antwort": "misst",
+      "diagnoseId": "personalform",
+      "feedback": "«misst» ist eine Personalform des Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Personalformen stehen in diesem Satz?\n\nTimo meldete sich, und Nina schaute auf die Zahlen.",
+    "optionen": [
+     "zwei",
+     "eine",
+     "drei",
+     "keine"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "«meldete» und «schaute» sind beide gebeugt.",
+    "fehler": [
+     {
+      "antwort": "eine",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch «schaute» ist eine Personalform. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zaehlung",
+      "feedback": "«sich» ist ein Pronomen, kein Verb. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "zaehlung",
+      "feedback": "Jeder Aussagesatz braucht mindestens eine Personalform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «der Klasse»?\n\nFrau Bürgi zeigte der Klasse die Kiste.",
+    "optionen": [
+     "Dativ",
+     "Akkusativ",
+     "Genitiv",
+     "Nominativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«Wem zeigte sie?» ergibt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Akkusativ ist «die Kiste». Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "fall",
+      "feedback": "Der Genitiv antwortete auf «wessen?». Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Nominativ ist «Frau Bürgi». Richtig ist «Dativ»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «die Kiste»?\n\nFrau Bürgi zeigte der Klasse die Kiste.",
+    "optionen": [
+     "Akkusativ",
+     "Dativ",
+     "Genitiv",
+     "Nominativ"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«Wen oder was zeigte sie?» ergibt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Dativ ist «der Klasse». Richtig ist «Akkusativ»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "fall",
+      "feedback": "Der Genitiv antwortete auf «wessen?». Richtig ist «Akkusativ»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Nominativ ist «Frau Bürgi». Richtig ist «Akkusativ»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «des Schulhauses»?\n\nHinter der Linde des Schulhauses steht die Station.",
+    "optionen": [
+     "Genitiv",
+     "Dativ",
+     "Akkusativ",
+     "Nominativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«Wessen Linde?» ergibt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Dativ ist «der Linde». Richtig ist «Genitiv»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Akkusativ antwortete auf «wen oder was?»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "fall",
+      "feedback": "Der Nominativ ist «die Station». Richtig ist «Genitiv»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Frage führt zum Dativ?",
+    "optionen": [
+     "Wem?",
+     "Wer oder was?",
+     "Wen oder was?",
+     "Wessen?"
+    ],
+    "loesung": [
+     "Wem?"
+    ],
+    "erklaerung": "«Wem?» ist die Frage des dritten Falls.",
+    "fehler": [
+     {
+      "antwort": "Wer oder was?",
+      "diagnoseId": "fall",
+      "feedback": "Das ist die Frage des Nominativs. Richtig ist «Wem?»."
+     },
+     {
+      "antwort": "Wen oder was?",
+      "diagnoseId": "fall",
+      "feedback": "Das ist die Frage des Akkusativs. Richtig ist «Wem?»."
+     },
+     {
+      "antwort": "Wessen?",
+      "diagnoseId": "fall",
+      "feedback": "Das ist die Frage des Genitivs. Richtig ist «Wem?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in den Dativ.\n\nSie gab ______ das Heft. (der Schüler)",
+    "optionen": [
+     "dem Schüler",
+     "den Schüler",
+     "des Schülers",
+     "der Schüler"
+    ],
+    "loesung": [
+     "dem Schüler"
+    ],
+    "erklaerung": "Im Dativ heisst es «dem Schüler».",
+    "fehler": [
+     {
+      "antwort": "den Schüler",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Akkusativ. Richtig ist «dem Schüler»."
+     },
+     {
+      "antwort": "des Schülers",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Genitiv. Richtig ist «dem Schüler»."
+     },
+     {
+      "antwort": "der Schüler",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Nominativ. Richtig ist «dem Schüler»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in den Akkusativ.\n\nSie las ______ vor. (das Ergebnis)",
+    "optionen": [
+     "das Ergebnis",
+     "dem Ergebnis",
+     "des Ergebnisses",
+     "der Ergebnisse"
+    ],
+    "loesung": [
+     "das Ergebnis"
+    ],
+    "erklaerung": "Bei sächlichen Nomen sehen Nominativ und Akkusativ gleich aus: das Ergebnis.",
+    "fehler": [
+     {
+      "antwort": "dem Ergebnis",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Dativ. Richtig ist «das Ergebnis»."
+     },
+     {
+      "antwort": "des Ergebnisses",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Genitiv. Richtig ist «das Ergebnis»."
+     },
+     {
+      "antwort": "der Ergebnisse",
+      "diagnoseId": "zahl",
+      "feedback": "Das ist der Genitiv der Mehrzahl. Richtig ist «das Ergebnis»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist KEINE Personalform?\n\nSie hatte die Zahlen notiert und ging hinaus.",
+    "optionen": [
+     "notiert",
+     "hatte",
+     "ging",
+     "sie"
+    ],
+    "loesung": [
+     "notiert"
+    ],
+    "erklaerung": "«notiert» ist das Partizip; gebeugt sind «hatte» und «ging».",
+    "fehler": [
+     {
+      "antwort": "hatte",
+      "diagnoseId": "personalform",
+      "feedback": "«hatte» ändert sich mit der Person. Richtig ist «notiert»."
+     },
+     {
+      "antwort": "ging",
+      "diagnoseId": "personalform",
+      "feedback": "«ging» ändert sich mit der Person. Richtig ist «notiert»."
+     },
+     {
+      "antwort": "sie",
+      "diagnoseId": "wortart",
+      "feedback": "«sie» ist ein Pronomen, kein Verb. Richtig ist «notiert»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe zeigt den Fall eines Nomens?",
+    "optionen": [
+     "die Ersatzprobe mit den vier Fragen",
+     "die Steigerungsprobe",
+     "die Verschiebeprobe",
+     "die Silbenprobe"
+    ],
+    "loesung": [
+     "die Ersatzprobe mit den vier Fragen"
+    ],
+    "erklaerung": "Wer, wessen, wem, wen — die vier Fragen führen zum Fall.",
+    "fehler": [
+     {
+      "antwort": "die Steigerungsprobe",
+      "diagnoseId": "probe",
+      "feedback": "Die Steigerungsprobe erkennt Adjektive. Richtig ist «die Ersatzprobe mit den vier Fragen»."
+     },
+     {
+      "antwort": "die Verschiebeprobe",
+      "diagnoseId": "probe",
+      "feedback": "Die Verschiebeprobe grenzt Satzglieder ab."
+     },
+     {
+      "antwort": "die Silbenprobe",
+      "diagnoseId": "probe",
+      "feedback": "Silben haben mit Fällen nichts zu tun. Richtig ist «die Ersatzprobe mit den vier Fragen»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Infinitiv, Personalform und die vier Fälle",
+  "status": "review"
+ },
+ {
+  "templateId": "ein-wortbau",
+  "lernzielId": "DSEI.2.01",
+  "fach": "sprache-einsiedeln",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zerlege das Wort zuerst in Vormorphem, Stamm und Nachmorphem.",
+   "Der Stamm bleibt in der ganzen Wortfamilie gleich und entscheidet über die Schreibung.",
+   "Nach einem kurzen Vokal steht ein doppelter Mitlaut, nach einem langen ein einfacher."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Morpheme zerlegen.",
+   "Den Stamm bestimmen.",
+   "Die passende Regel anwenden.",
+   "Zur Probe ein verwandtes Wort suchen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie heisst der Wortstamm von «Regenmesser»?",
+    "optionen": [
+     "regn- und mess-",
+     "re- und mes-",
+     "regen- allein",
+     "messer- allein"
+    ],
+    "loesung": [
+     "regn- und mess-"
+    ],
+    "erklaerung": "Das Wort ist zusammengesetzt: Es enthält die Stämme von «Regen» und «messen».",
+    "fehler": [
+     {
+      "antwort": "re- und mes-",
+      "diagnoseId": "zerlegung",
+      "feedback": "So sind die Stämme zerschnitten; sie lauten «regn-» und «mess-»."
+     },
+     {
+      "antwort": "regen- allein",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Der zweite Teil des Wortes hat einen eigenen Stamm."
+     },
+     {
+      "antwort": "messer- allein",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Der erste Teil des Wortes hat ebenfalls einen Stamm."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört NICHT zur Wortfamilie von «messen»?",
+    "optionen": [
+     "Messe",
+     "Messung",
+     "Messgerät",
+     "vermessen"
+    ],
+    "loesung": [
+     "Messe"
+    ],
+    "erklaerung": "«Messe» im Sinn eines Gottesdienstes oder einer Ausstellung hat einen anderen Ursprung.",
+    "fehler": [
+     {
+      "antwort": "Messung",
+      "diagnoseId": "stamm",
+      "feedback": "«Messung» enthält den Stamm «mess-» und das Nachmorphem «-ung»."
+     },
+     {
+      "antwort": "Messgerät",
+      "diagnoseId": "stamm",
+      "feedback": "«Messgerät» ist ein zusammengesetztes Wort mit dem Stamm «mess-»."
+     },
+     {
+      "antwort": "vermessen",
+      "diagnoseId": "stamm",
+      "feedback": "«vermessen» enthält das Vormorphem «ver-» und den Stamm «mess-»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie wird «Beobachtung» richtig zerlegt?",
+    "optionen": [
+     "be-obacht-ung",
+     "beo-bach-tung",
+     "be-oba-chtung",
+     "beobacht-ung"
+    ],
+    "loesung": [
+     "be-obacht-ung"
+    ],
+    "erklaerung": "«be-» ist das Vormorphem, «obacht» der Stamm, «-ung» das Nachmorphem.",
+    "fehler": [
+     {
+      "antwort": "beo-bach-tung",
+      "diagnoseId": "zerlegung",
+      "feedback": "So ist der Stamm zerschnitten; «obacht» gehört zusammen."
+     },
+     {
+      "antwort": "be-oba-chtung",
+      "diagnoseId": "zerlegung",
+      "feedback": "Auch hier ist der Stamm auseinandergerissen."
+     },
+     {
+      "antwort": "beobacht-ung",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das Vormorphem «be-» gehört für sich abgetrennt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist die grüne Fläche vor dem Haus.",
+    "optionen": [
+     "Wiese",
+     "Wisse",
+     "Wihse",
+     "Wiehse"
+    ],
+    "loesung": [
+     "Wiese"
+    ],
+    "erklaerung": "Das lange i wird hier mit «ie» geschrieben — das ist die ie-Regel.",
+    "fehler": [
+     {
+      "antwort": "Wisse",
+      "diagnoseId": "kurz",
+      "feedback": "Ein einfaches i steht bei kurzem Vokal; hier ist das i lang."
+     },
+     {
+      "antwort": "Wihse",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h steht nicht zusammen mit «ie»."
+     },
+     {
+      "antwort": "Wiehse",
+      "diagnoseId": "dehnung",
+      "feedback": "«ie» und «h» zusammen gibt es in diesem Wort nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist das Tier mit Federn.",
+    "optionen": [
+     "Vogel",
+     "Fogel",
+     "Wogel",
+     "Phogel"
+    ],
+    "loesung": [
+     "Vogel"
+    ],
+    "erklaerung": "«Vogel» wird mit v geschrieben; man erkennt es an verwandten Wörtern wie «Vögel».",
+    "fehler": [
+     {
+      "antwort": "Fogel",
+      "diagnoseId": "f_v_regel",
+      "feedback": "Gesprochen klingt es gleich; geschrieben wird «Vogel» mit v."
+     },
+     {
+      "antwort": "Wogel",
+      "diagnoseId": "laut",
+      "feedback": "Ein w klingt anders und passt hier nicht."
+     },
+     {
+      "antwort": "Phogel",
+      "diagnoseId": "fremdwort",
+      "feedback": "Diese Schreibweise gibt es im Deutschen nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDas Wasser ist ______ .",
+    "optionen": [
+     "kälter",
+     "kelter",
+     "kähter",
+     "keelter"
+    ],
+    "loesung": [
+     "kälter"
+    ],
+    "erklaerung": "Der Stamm ist «kalt»; darum steht in der Steigerung ein ä, kein e.",
+    "fehler": [
+     {
+      "antwort": "kelter",
+      "diagnoseId": "stammregel",
+      "feedback": "Der Stamm lautet «kalt»; die Stammregel verlangt darum ein ä."
+     },
+     {
+      "antwort": "kähter",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h gehört hier nicht hin; der Stamm «kalt» entscheidet."
+     },
+     {
+      "antwort": "keelter",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein doppeltes e gibt es in diesem Wort nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist der Übergang über den Fluss.",
+    "optionen": [
+     "Brücke",
+     "Brüke",
+     "Brükke",
+     "Brücke-"
+    ],
+    "loesung": [
+     "Brücke"
+    ],
+    "erklaerung": "Nach dem kurzen ü steht «ck» — das ist die ck-Regel.",
+    "fehler": [
+     {
+      "antwort": "Brüke",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen ü steht «ck», nicht ein einfaches k."
+     },
+     {
+      "antwort": "Brükke",
+      "diagnoseId": "schaerfung",
+      "feedback": "Ein doppeltes k gibt es im Deutschen nicht; dafür steht «ck»."
+     },
+     {
+      "antwort": "Brücke-",
+      "diagnoseId": "zeichen",
+      "feedback": "Ein Bindestrich gehört hier nicht hin; das Wort steht für sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist das Haustier, das schnurrt.",
+    "optionen": [
+     "Katze",
+     "Kaze",
+     "Katzze",
+     "Kazze"
+    ],
+    "loesung": [
+     "Katze"
+    ],
+    "erklaerung": "Nach dem kurzen a steht «tz» — das ist die tz-Regel.",
+    "fehler": [
+     {
+      "antwort": "Kaze",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen a steht «tz», nicht ein einfaches z."
+     },
+     {
+      "antwort": "Katzze",
+      "diagnoseId": "schaerfung",
+      "feedback": "Ein doppeltes z gibt es im Deutschen nicht; dafür steht «tz»."
+     },
+     {
+      "antwort": "Kazze",
+      "diagnoseId": "schaerfung",
+      "feedback": "Auch hier steht ein doppeltes z, das es nicht gibt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDie ______ war gross.",
+    "optionen": [
+     "Freude",
+     "freude",
+     "Freudte",
+     "Froide"
+    ],
+    "loesung": [
+     "Freude"
+    ],
+    "erklaerung": "«Freude» ist ein Nomen und wird grossgeschrieben, auch wenn man es nicht anfassen kann.",
+    "fehler": [
+     {
+      "antwort": "freude",
+      "diagnoseId": "klein",
+      "feedback": "Auch Gefühle wie Freude, Wut oder Glück sind Nomen und werden grossgeschrieben."
+     },
+     {
+      "antwort": "Freudte",
+      "diagnoseId": "laut",
+      "feedback": "Ein t gehört in dieses Wort nicht hinein."
+     },
+     {
+      "antwort": "Froide",
+      "diagnoseId": "laut",
+      "feedback": "Der Laut wird mit «eu» geschrieben, nicht mit «oi»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDie ______ der Klasse war gut.",
+    "optionen": [
+     "Stimmung",
+     "stimmung",
+     "Stimung",
+     "Stimmuhng"
+    ],
+    "loesung": [
+     "Stimmung"
+    ],
+    "erklaerung": "Das Nachmorphem «-ung» macht aus dem Verb ein Nomen; nach dem kurzen i steht ein doppeltes m.",
+    "fehler": [
+     {
+      "antwort": "stimmung",
+      "diagnoseId": "klein",
+      "feedback": "Das Nachmorphem «-ung» macht daraus ein Nomen; Nomen werden grossgeschrieben."
+     },
+     {
+      "antwort": "Stimung",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen i steht ein doppeltes m."
+     },
+     {
+      "antwort": "Stimmuhng",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h gehört hier nicht hin; die Endung lautet schlicht «-ung»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo gehört ein Komma hin?\n\nIn der Kiste lagen ein Thermometer ein Regenmesser und ein Heft.",
+    "optionen": [
+     "nach «Thermometer»",
+     "nach «Kiste»",
+     "nach «und»",
+     "gar nirgends"
+    ],
+    "loesung": [
+     "nach «Thermometer»"
+    ],
+    "erklaerung": "In einer Aufzählung stehen Kommas zwischen den Gliedern; vor dem letzten «und» steht keines.",
+    "fehler": [
+     {
+      "antwort": "nach «Kiste»",
+      "diagnoseId": "stelle",
+      "feedback": "Dort endet keine Aufzählung; der Satz läuft weiter."
+     },
+     {
+      "antwort": "nach «und»",
+      "diagnoseId": "stelle",
+      "feedback": "Nach «und» steht in einer Aufzählung kein Komma."
+     },
+     {
+      "antwort": "gar nirgends",
+      "diagnoseId": "aufzaehlung",
+      "feedback": "Drei Dinge werden aufgezählt; zwischen den ersten beiden steht ein Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zeichen fehlen?\n\nNina sagte Auf dem Blech wird es zu warm",
+    "optionen": [
+     "Doppelpunkt und Anführungszeichen",
+     "nur ein Komma",
+     "nur ein Fragezeichen",
+     "gar keine"
+    ],
+    "loesung": [
+     "Doppelpunkt und Anführungszeichen"
+    ],
+    "erklaerung": "Bei der direkten Rede steht nach dem Begleitsatz ein Doppelpunkt, danach die Rede in Anführungszeichen.",
+    "fehler": [
+     {
+      "antwort": "nur ein Komma",
+      "diagnoseId": "zeichen",
+      "feedback": "Ein Komma allein genügt nicht; die wörtliche Rede braucht Anführungszeichen."
+     },
+     {
+      "antwort": "nur ein Fragezeichen",
+      "diagnoseId": "zeichen",
+      "feedback": "Der Satz ist eine Aussage, keine Frage; ein Fragezeichen wäre falsch."
+     },
+     {
+      "antwort": "gar keine",
+      "diagnoseId": "zeichen",
+      "feedback": "Ohne Zeichen ist nicht zu erkennen, wo die Rede beginnt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortfamilie, Morpheme und die ie-Regel",
+  "status": "review"
+ },
+ {
+  "templateId": "ein-wortbau-2",
+  "lernzielId": "DSEI.2.05",
+  "fach": "sprache-einsiedeln",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei «e» oder «ä» hilft ein verwandtes Wort: Hände von Hand.",
+   "Nomen erkennst du am Artikel, der davorsteht oder davorstehen könnte.",
+   "Die wörtliche Rede steht in Anführungszeichen, davor oder danach ein Komma."
+  ],
+  "loesungsweg": [
+   "Bei «e» oder «ä» ein verwandtes Wort suchen.",
+   "Bei der Grossschreibung die Artikelprobe machen.",
+   "Bei Aufzählungen die Glieder zählen.",
+   "Bei der Rede die Zeichen von aussen nach innen setzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie schreibt man richtig?\n\nSie wusch sich die ______ .",
+    "optionen": [
+     "Hände",
+     "Hende",
+     "Händer",
+     "Hendee"
+    ],
+    "loesung": [
+     "Hände"
+    ],
+    "erklaerung": "«Hände» kommt von «Hand» — darum «ä».",
+    "fehler": [
+     {
+      "antwort": "Hende",
+      "diagnoseId": "stammregel",
+      "feedback": "Das verwandte Wort «Hand» zeigt das «ä»."
+     },
+     {
+      "antwort": "Händer",
+      "diagnoseId": "form",
+      "feedback": "Die Mehrzahl lautet «Hände», ohne «-r». Richtig ist «Hände»."
+     },
+     {
+      "antwort": "Hendee",
+      "diagnoseId": "form",
+      "feedback": "Diese Schreibung gibt es nicht. Richtig ist «Hände»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nEr hat sich beim Rennen ______ .",
+    "optionen": [
+     "verletzt",
+     "verlätzt",
+     "verlezt",
+     "ferletzt"
+    ],
+    "loesung": [
+     "verletzt"
+    ],
+    "erklaerung": "«verletzt» hat kein verwandtes Wort mit «a» — es bleibt beim «e».",
+    "fehler": [
+     {
+      "antwort": "verlätzt",
+      "diagnoseId": "stammregel",
+      "feedback": "Es gibt kein verwandtes Wort mit «a»; darum «e»."
+     },
+     {
+      "antwort": "verlezt",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach kurzem Vokal steht «tz». Richtig ist «verletzt»."
+     },
+     {
+      "antwort": "ferletzt",
+      "diagnoseId": "anlaut",
+      "feedback": "Die Vorsilbe lautet «ver-», nicht «fer-»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nDer ______ war zu klein für alle Bücher.",
+    "optionen": [
+     "Vorrat",
+     "Forrat",
+     "Vorat",
+     "Vohrrat"
+    ],
+    "loesung": [
+     "Vorrat"
+    ],
+    "erklaerung": "«Vorrat» beginnt mit «v» und hat nach dem kurzen «o» ein doppeltes «r».",
+    "fehler": [
+     {
+      "antwort": "Forrat",
+      "diagnoseId": "anlaut",
+      "feedback": "Das Wort beginnt mit «v». Richtig ist «Vorrat»."
+     },
+     {
+      "antwort": "Vorat",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach kurzem «o» steht ein doppeltes «r»."
+     },
+     {
+      "antwort": "Vohrrat",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h steht hier nicht. Richtig ist «Vorrat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nSie ging ______ zur Schule.",
+    "optionen": [
+     "zu Fuss",
+     "zufuss",
+     "zu fuss",
+     "Zu Fuss"
+    ],
+    "loesung": [
+     "zu Fuss"
+    ],
+    "erklaerung": "«Fuss» ist ein Nomen und wird grossgeschrieben; «zu» bleibt getrennt und klein.",
+    "fehler": [
+     {
+      "antwort": "zufuss",
+      "diagnoseId": "gross_klein",
+      "feedback": "«zu» und «Fuss» bleiben getrennt. Richtig ist «zu Fuss»."
+     },
+     {
+      "antwort": "zu fuss",
+      "diagnoseId": "gross_klein",
+      "feedback": "«Fuss» ist ein Nomen und wird grossgeschrieben."
+     },
+     {
+      "antwort": "Zu Fuss",
+      "diagnoseId": "gross_klein",
+      "feedback": "«zu» ist eine Präposition und bleibt mitten im Satz klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nBeim ______ vergass er die Zeit.",
+    "optionen": [
+     "Lesen",
+     "lesen",
+     "Leesen",
+     "lezen"
+    ],
+    "loesung": [
+     "Lesen"
+    ],
+    "erklaerung": "Nach «beim» wird das Verb zum Nomen und darum grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "lesen",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «beim» steht ein nominalisiertes Verb."
+     },
+     {
+      "antwort": "Leesen",
+      "diagnoseId": "dehnung",
+      "feedback": "«Lesen» hat einen langen Vokal ohne Doppelschreibung."
+     },
+     {
+      "antwort": "lezen",
+      "diagnoseId": "schreibung",
+      "feedback": "Das Wort schreibt sich mit «s». Richtig ist «Lesen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort wird grossgeschrieben?",
+    "optionen": [
+     "das Laufen",
+     "laufen",
+     "gelaufen",
+     "läuft"
+    ],
+    "loesung": [
+     "das Laufen"
+    ],
+    "erklaerung": "Der Artikel «das» macht aus dem Verb ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "laufen",
+      "diagnoseId": "artikelprobe",
+      "feedback": "Ohne Artikel bleibt das Verb klein. Richtig ist «das Laufen»."
+     },
+     {
+      "antwort": "gelaufen",
+      "diagnoseId": "wortart",
+      "feedback": "Das Partizip bleibt klein. Richtig ist «das Laufen»."
+     },
+     {
+      "antwort": "läuft",
+      "diagnoseId": "wortart",
+      "feedback": "Eine Personalform bleibt klein. Richtig ist «das Laufen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo fehlt ein Komma?\n\nSie brachte Hefte Stifte und ein Lineal mit.",
+    "optionen": [
+     "zwischen «Hefte» und «Stifte»",
+     "vor «und»",
+     "nach «Lineal»",
+     "nirgends"
+    ],
+    "loesung": [
+     "zwischen «Hefte» und «Stifte»"
+    ],
+    "erklaerung": "In einer Aufzählung steht zwischen den Gliedern ein Komma, vor «und» keines.",
+    "fehler": [
+     {
+      "antwort": "vor «und»",
+      "diagnoseId": "regel",
+      "feedback": "Vor «und» in einer Aufzählung steht kein Komma."
+     },
+     {
+      "antwort": "nach «Lineal»",
+      "diagnoseId": "regel",
+      "feedback": "Nach dem letzten Glied steht kein Komma."
+     },
+     {
+      "antwort": "nirgends",
+      "diagnoseId": "regel",
+      "feedback": "Zwischen «Hefte» und «Stifte» fehlt eines."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Kommas braucht dieser Satz?\n\nIm Rucksack lagen Bücher Hefte Stifte und ein Etui.",
+    "optionen": [
+     "zwei",
+     "eines",
+     "drei",
+     "keines"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "Vier Glieder ergeben drei Trennstellen, aber vor «und» steht keines — also zwei Kommas.",
+    "fehler": [
+     {
+      "antwort": "eines",
+      "diagnoseId": "zaehlung",
+      "feedback": "Zwischen vier Gliedern braucht es mehr als ein Komma."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "und",
+      "feedback": "Vor «und» steht in einer Aufzählung kein Komma."
+     },
+     {
+      "antwort": "keines",
+      "diagnoseId": "regel",
+      "feedback": "Zwischen den Gliedern einer Aufzählung steht ein Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibung der Rede ist richtig? Der Begleitsatz steht hinten.",
+    "optionen": [
+     "«Ich komme gleich», sagte sie.",
+     "«Ich komme gleich» sagte sie.",
+     "«Ich komme gleich». Sagte sie.",
+     "Ich komme gleich, sagte sie."
+    ],
+    "loesung": [
+     "«Ich komme gleich», sagte sie."
+    ],
+    "erklaerung": "Nach der Rede steht ein Komma, dann folgt der Begleitsatz klein.",
+    "fehler": [
+     {
+      "antwort": "«Ich komme gleich» sagte sie.",
+      "diagnoseId": "komma",
+      "feedback": "Zwischen Rede und Begleitsatz steht ein Komma."
+     },
+     {
+      "antwort": "«Ich komme gleich». Sagte sie.",
+      "diagnoseId": "punkt",
+      "feedback": "Der Begleitsatz ist kein eigener Satz. Richtig ist ««Ich komme gleich», sagte sie.»."
+     },
+     {
+      "antwort": "Ich komme gleich, sagte sie.",
+      "diagnoseId": "zeichen",
+      "feedback": "Die wörtliche Rede braucht Anführungszeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibung der Rede ist richtig? Der Begleitsatz steht vorne.",
+    "optionen": [
+     "Sie sagte: «Ich komme gleich.»",
+     "Sie sagte, «Ich komme gleich.»",
+     "Sie sagte: Ich komme gleich.",
+     "Sie sagte: «ich komme gleich.»"
+    ],
+    "loesung": [
+     "Sie sagte: «Ich komme gleich.»"
+    ],
+    "erklaerung": "Vor der Rede steht ein Doppelpunkt, die Rede beginnt gross und endet mit ihrem eigenen Zeichen.",
+    "fehler": [
+     {
+      "antwort": "Sie sagte, «Ich komme gleich.»",
+      "diagnoseId": "zeichen",
+      "feedback": "Vor der Rede steht ein Doppelpunkt, kein Komma."
+     },
+     {
+      "antwort": "Sie sagte: Ich komme gleich.",
+      "diagnoseId": "zeichen",
+      "feedback": "Die Anführungszeichen fehlen. Richtig ist «Sie sagte: «Ich komme gleich.»»."
+     },
+     {
+      "antwort": "Sie sagte: «ich komme gleich.»",
+      "diagnoseId": "gross_klein",
+      "feedback": "Die Rede beginnt mit einem grossen Buchstaben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibung der Rede ist richtig? Die Rede ist eine Frage.",
+    "optionen": [
+     "«Kommst du mit?», fragte er.",
+     "«Kommst du mit?» fragte er.",
+     "«Kommst du mit,» fragte er?",
+     "«Kommst du mit?». Fragte er."
+    ],
+    "loesung": [
+     "«Kommst du mit?», fragte er."
+    ],
+    "erklaerung": "Das Fragezeichen bleibt in der Rede, danach folgt trotzdem das Komma.",
+    "fehler": [
+     {
+      "antwort": "«Kommst du mit?» fragte er.",
+      "diagnoseId": "komma",
+      "feedback": "Nach der Rede steht zusätzlich ein Komma."
+     },
+     {
+      "antwort": "«Kommst du mit,» fragte er?",
+      "diagnoseId": "zeichen",
+      "feedback": "Das Fragezeichen gehört in die Rede. Richtig ist ««Kommst du mit?», fragte er.»."
+     },
+     {
+      "antwort": "«Kommst du mit?». Fragte er.",
+      "diagnoseId": "punkt",
+      "feedback": "Der Begleitsatz ist kein eigener Satz. Richtig ist ««Kommst du mit?», fragte er.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nDer Weg war ______ als gedacht.",
+    "optionen": [
+     "länger",
+     "lenger",
+     "längerr",
+     "lännger"
+    ],
+    "loesung": [
+     "länger"
+    ],
+    "erklaerung": "«länger» kommt von «lang» — darum «ä».",
+    "fehler": [
+     {
+      "antwort": "lenger",
+      "diagnoseId": "stammregel",
+      "feedback": "Das verwandte Wort «lang» zeigt das «ä»."
+     },
+     {
+      "antwort": "längerr",
+      "diagnoseId": "form",
+      "feedback": "Ein doppeltes «r» steht hier nicht. Richtig ist «länger»."
+     },
+     {
+      "antwort": "lännger",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach «ä» folgt hier nur ein «n». Richtig ist «länger»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026, Prüfungsteil Deutsch 2; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Stammregel, Grossschreibung, Komma und direkte Rede",
+  "status": "review"
+ }
+]

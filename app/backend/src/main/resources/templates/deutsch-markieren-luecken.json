@@ -1,0 +1,1369 @@
+[
+ {
+  "templateId": "zeitform-setzen",
+  "lernzielId": "D2.3.02",
+  "unterthemen": [
+   "3.02",
+   "3.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Welche Person und welche Zahl hat das Subjekt? Danach richtet sich die Endung.",
+   "Bei starken Verben ändert sich der Stammvokal. Prüfe die drei Stammformen: kommen, kam, gekommen.",
+   "Schreib die ganze Verbform hin, auch wenn sie aus zwei Wörtern besteht."
+  ],
+  "loesungsweg": [
+   "Bestimme Person und Zahl des Subjekts.",
+   "Bilde die verlangte Zeitform mit den richtigen Stammformen.",
+   "Prüfe zum Schluss die Übereinstimmung mit dem Subjekt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze die Verbform ins Perfekt.\n\nSie ___ (schreiben) einen langen Brief.",
+    "loesung": [
+     "hat geschrieben"
+    ],
+    "erklaerung": "Perfekt von «schreiben»: haben plus Partizip «geschrieben».",
+    "fehler": [
+     {
+      "antwort": "hat geschreibt",
+      "diagnoseId": "starkes_verb_schwach_gebildet",
+      "feedback": "«schreiben» ist ein starkes Verb: geschrieben, nicht geschreibt. Bei starken Verben ändert sich im Partizip der Stammvokal, und die Endung ist «-en»."
+     },
+     {
+      "antwort": "ist geschrieben",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«schreiben» bildet das Perfekt mit «haben». Mit «sein» bilden es nur Verben der Bewegung und der Zustandsänderung."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Präteritum.\n\nEr ___ (gehen) jeden Morgen zum Perron.",
+    "loesung": [
+     "ging"
+    ],
+    "erklaerung": "Starkes Verb: gehen, ging, gegangen.",
+    "fehler": [
+     {
+      "antwort": "gehte",
+      "diagnoseId": "starkes_verb_schwach_gebildet",
+      "feedback": "«gehen» ist stark und bildet das Präteritum ohne «-te»: ging. Nur schwache Verben bekommen ein «-te» eingeschoben."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Plusquamperfekt.\n\nSie ___ (öffnen) den Brief schon.",
+    "loesung": [
+     "hatte geöffnet"
+    ],
+    "erklaerung": "Plusquamperfekt: «hatte» im Präteritum plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "hat geöffnet",
+      "diagnoseId": "perfekt_statt_plusquamperfekt",
+      "feedback": "Das ist das Perfekt. Fürs Plusquamperfekt muss das Hilfsverb selbst in die Vergangenheit: «hatte» statt «hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Futur I.\n\nWir ___ (ziehen) im Sommer nach Chur.",
+    "loesung": [
+     "werden ziehen"
+    ],
+    "erklaerung": "Futur I: «werden» plus Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "werden gezogen",
+      "diagnoseId": "partizip_statt_infinitiv",
+      "feedback": "Nach «werden» steht im Futur der Infinitiv, nicht das Partizip. «werden gezogen» wäre Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Perfekt.\n\nDie Kinder ___ (steigen) in den Bus.",
+    "loesung": [
+     "sind gestiegen"
+    ],
+    "erklaerung": "Verben der Bewegung bilden das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "haben gestiegen",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "«steigen» beschreibt eine Bewegung von einem Ort zum anderen. Solche Verben nehmen «sein». Probe: Kann man fragen «Wohin?» Dann meist «sein»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Präteritum.\n\nDamals ___ (wohnen) sie in Winterthur.",
+    "loesung": [
+     "wohnten"
+    ],
+    "erklaerung": "Schwaches Verb: Stamm plus «-te» plus Personalendung.",
+    "fehler": [
+     {
+      "antwort": "wohnte",
+      "diagnoseId": "kongruenz_fehlt",
+      "feedback": "Das Subjekt «sie» steht im Plural. Die Verbform muss dazu passen: wohnten, nicht wohnte."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Perfekt.\n\nEr ___ (verlieren) den Schlüssel.",
+    "loesung": [
+     "hat verloren"
+    ],
+    "erklaerung": "Starkes Verb: verlieren, verlor, verloren. Verben mit der Vorsilbe «ver-» bekommen kein «ge-».",
+    "fehler": [
+     {
+      "antwort": "hat geverloren",
+      "diagnoseId": "ge_bei_vorsilbe",
+      "feedback": "Verben mit untrennbarer Vorsilbe wie «ver-», «be-», «er-» bilden das Partizip ohne «ge-»: verloren, nicht geverloren."
+     },
+     {
+      "antwort": "hat verliert",
+      "diagnoseId": "starkes_verb_schwach_gebildet",
+      "feedback": "«verlieren» ist stark: verloren mit o und Endung «-en»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Präsens.\n\nDas Postauto ___ (fahren) jede Stunde.",
+    "loesung": [
+     "fährt"
+    ],
+    "erklaerung": "Starke Verben mit a bekommen in der 3. Person Einzahl einen Umlaut: fahren wird zu fährt.",
+    "fehler": [
+     {
+      "antwort": "fahrt",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "Bei starken Verben mit a im Stamm kommt in der 2. und 3. Person Einzahl ein Umlaut dazu: du fährst, er fährt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Perfekt.\n\nIhr ___ (verpassen) den Anschluss.",
+    "loesung": [
+     "habt verpasst"
+    ],
+    "erklaerung": "Schwaches Verb mit untrennbarer Vorsilbe: verpasst, ohne «ge-».",
+    "fehler": [
+     {
+      "antwort": "habt geverpasst",
+      "diagnoseId": "ge_bei_vorsilbe",
+      "feedback": "Nach der Vorsilbe «ver-» folgt kein «ge-». Das Partizip heisst «verpasst»."
+     },
+     {
+      "antwort": "hat verpasst",
+      "diagnoseId": "kongruenz_fehlt",
+      "feedback": "Das Subjekt ist «ihr». Die passende Form von «haben» lautet «habt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Präteritum.\n\nEr ___ (nehmen) den letzten Zug.",
+    "loesung": [
+     "nahm"
+    ],
+    "erklaerung": "Starkes Verb: nehmen, nahm, genommen.",
+    "fehler": [
+     {
+      "antwort": "nehmte",
+      "diagnoseId": "starkes_verb_schwach_gebildet",
+      "feedback": "«nehmen» ist stark. Das Präteritum lautet «nahm», ohne «-te»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Plusquamperfekt.\n\nEr ___ (sein) schon dreimal dort.",
+    "loesung": [
+     "war gewesen"
+    ],
+    "erklaerung": "Plusquamperfekt von «sein»: «war» plus «gewesen».",
+    "fehler": [
+     {
+      "antwort": "ist gewesen",
+      "diagnoseId": "perfekt_statt_plusquamperfekt",
+      "feedback": "Das ist das Perfekt. Fürs Plusquamperfekt muss das Hilfsverb ins Präteritum: «war gewesen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Perfekt.\n\nSie ___ (bringen) die Decken mit.",
+    "loesung": [
+     "hat mitgebracht"
+    ],
+    "erklaerung": "«mitbringen» ist trennbar: Das «ge-» rutscht zwischen Verbzusatz und Stamm.",
+    "fehler": [
+     {
+      "antwort": "hat gebrachtmit",
+      "diagnoseId": "trennbar_falsch_gebaut",
+      "feedback": "Bei trennbaren Verben steht der Verbzusatz vorn und das «ge-» dahinter: mit-ge-bracht."
+     },
+     {
+      "antwort": "hat mitgebringt",
+      "diagnoseId": "starkes_verb_schwach_gebildet",
+      "feedback": "«bringen» ist unregelmässig: gebracht, nicht gebringt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Präsens.\n\nDu ___ (lesen) den Auftrag zuerst.",
+    "loesung": [
+     "liest"
+    ],
+    "erklaerung": "«lesen» wechselt in der 2. und 3. Person Einzahl das e zu ie: du liest.",
+    "fehler": [
+     {
+      "antwort": "lesst",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "Bei «lesen» ändert sich der Stammvokal: du liest, er liest. Ausserdem verschmilzt das s der Endung mit dem Stamm."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Verbform ins Futur I.\n\nSie ___ (abgeben) den Aufsatz am Freitag.",
+    "loesung": [
+     "wird abgeben"
+    ],
+    "erklaerung": "Futur I: «wird» plus Infinitiv. Bei trennbaren Verben bleibt der Infinitiv zusammen.",
+    "fehler": [
+     {
+      "antwort": "wird abgegeben",
+      "diagnoseId": "partizip_statt_infinitiv",
+      "feedback": "«wird abgegeben» ist Passiv. Fürs Futur im Aktiv brauchst du den Infinitiv «abgeben»."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "vergleichsformen-bilden",
+  "lernzielId": "D2.7.01",
+  "unterthemen": [
+   "7.01",
+   "7.02"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Welche Stufe ist verlangt. Der Vergleich zwischen zweien oder die Spitze?",
+   "Viele kurze Adjektive bekommen in der Steigerung einen Umlaut: alt, älter, am ältesten.",
+   "Einige Adjektive werden ganz unregelmässig gesteigert. Diese musst du auswendig können."
+  ],
+  "loesungsweg": [
+   "Grundstufe, Vergleichsstufe («-er»), Höchststufe («am -sten»).",
+   "Prüfe, ob ein Umlaut dazukommt.",
+   "Einige Wörter sind unregelmässig: gut, viel, gern, hoch, nah."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nVon allen dreien lief sie ___ (schnell).",
+    "loesung": [
+     "am schnellsten"
+    ],
+    "erklaerung": "Höchststufe: «am» plus Stamm plus «-sten».",
+    "fehler": [
+     {
+      "antwort": "am schnellsten von allen",
+      "diagnoseId": "zusatz_statt_form",
+      "feedback": "Gefragt ist nur die Form des Adjektivs, nicht ein ganzer Satzteil."
+     },
+     {
+      "antwort": "schneller",
+      "diagnoseId": "stufe_verwechselt",
+      "feedback": "«schneller» ist die Vergleichsstufe zwischen zwei Dingen. Bei dreien und mehr brauchst du die Höchststufe."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nDieser Weg ist ___ (kurz) als der andere.",
+    "loesung": [
+     "kürzer"
+    ],
+    "erklaerung": "Bei «kurz» kommt in der Steigerung ein Umlaut dazu.",
+    "fehler": [
+     {
+      "antwort": "kurzer",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "Viele kurze Adjektive bekommen beim Steigern einen Umlaut: kurz, kürzer, am kürzesten."
+     },
+     {
+      "antwort": "am kürzesten",
+      "diagnoseId": "stufe_verwechselt",
+      "feedback": "Das Wort «als» im Satz zeigt einen Vergleich zwischen zweien an. Dafür brauchst du die Vergleichsstufe."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nHeute geht es ihr ___ (gut) als gestern.",
+    "loesung": [
+     "besser"
+    ],
+    "erklaerung": "«gut» wird unregelmässig gesteigert: gut, besser, am besten.",
+    "fehler": [
+     {
+      "antwort": "guter",
+      "diagnoseId": "unregelmaessig_regelmaessig_gebildet",
+      "feedback": "«gut» folgt nicht der Regel. Die Reihe lautet: gut, besser, am besten. Diese musst du auswendig können."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nEr isst ___ (gern) Spaghetti.",
+    "loesung": [
+     "am liebsten"
+    ],
+    "erklaerung": "«gern» wird unregelmässig gesteigert: gern, lieber, am liebsten.",
+    "fehler": [
+     {
+      "antwort": "am gernsten",
+      "diagnoseId": "unregelmaessig_regelmaessig_gebildet",
+      "feedback": "«gern» folgt nicht der Regel. Die Reihe lautet: gern, lieber, am liebsten."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nDer Turm ist ___ (hoch) als das Schulhaus.",
+    "loesung": [
+     "höher"
+    ],
+    "erklaerung": "«hoch» verliert beim Steigern das c: hoch, höher, am höchsten.",
+    "fehler": [
+     {
+      "antwort": "hocher",
+      "diagnoseId": "unregelmaessig_regelmaessig_gebildet",
+      "feedback": "Bei «hoch» fällt das c weg und ein Umlaut kommt dazu: höher."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nDas ist ___ (viel), was ich geben kann.",
+    "loesung": [
+     "am meisten",
+     "das meiste"
+    ],
+    "erklaerung": "«viel» wird unregelmässig gesteigert: viel, mehr, am meisten.",
+    "fehler": [
+     {
+      "antwort": "am vielsten",
+      "diagnoseId": "unregelmaessig_regelmaessig_gebildet",
+      "feedback": "«viel» folgt nicht der Regel. Die Reihe lautet: viel, mehr, am meisten."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nSie wohnt ___ (nah) am Bahnhof als ich.",
+    "loesung": [
+     "näher"
+    ],
+    "erklaerung": "«nah» bekommt einen Umlaut: nah, näher, am nächsten.",
+    "fehler": [
+     {
+      "antwort": "naher",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "«nah» steigert mit Umlaut: nah, näher, am nächsten. Achte darauf: In der Höchststufe kommt zusätzlich ein ch dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nUnter allen Bäumen war dieser ___ (alt).",
+    "loesung": [
+     "am ältesten"
+    ],
+    "erklaerung": "«alt» bekommt einen Umlaut, und die Endung lautet «-esten», weil der Stamm auf t endet.",
+    "fehler": [
+     {
+      "antwort": "am altsten",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "Zwei Dinge fehlen: der Umlaut und das eingeschobene e. Nach t, d, s oder z heisst die Endung «-esten»."
+     },
+     {
+      "antwort": "älter",
+      "diagnoseId": "stufe_verwechselt",
+      "feedback": "«Unter allen» zeigt an, dass mehr als zwei verglichen werden. Dafür die Höchststufe."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nDie Aufgabe war ___ (schwierig) als erwartet.",
+    "loesung": [
+     "schwieriger"
+    ],
+    "erklaerung": "Längere Adjektive steigern ohne Umlaut, einfach mit «-er».",
+    "fehler": [
+     {
+      "antwort": "schwierigerer",
+      "diagnoseId": "doppelt_gesteigert",
+      "feedback": "Ein Adjektiv wird nur einmal gesteigert. «schwieriger» genügt."
+     },
+     {
+      "antwort": "mehr schwierig",
+      "diagnoseId": "umschreibung_statt_form",
+      "feedback": "Im Deutschen wird mit der Endung gesteigert, nicht mit «mehr» davor. Das ist ein Einfluss aus dem Englischen."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nDas Zimmer ist ___ (gross) als meines.",
+    "loesung": [
+     "grösser"
+    ],
+    "erklaerung": "«gross» bekommt einen Umlaut. In der Schweiz schreibt man «grösser» mit ss.",
+    "fehler": [
+     {
+      "antwort": "grosser",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "«gross» steigert mit Umlaut: gross, grösser, am grössten. In der Schweiz schreibst du alle drei Formen mit Doppel-s."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nVon allen Wegen ist dieser ___ (steil).",
+    "loesung": [
+     "am steilsten"
+    ],
+    "erklaerung": "Regelmässige Steigerung ohne Umlaut.",
+    "fehler": [
+     {
+      "antwort": "am steilesten",
+      "diagnoseId": "e_zu_viel",
+      "feedback": "Das eingeschobene e braucht es nur nach t, d, s, ss, z oder sch. Nach l steht die Endung direkt an."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Vergleichsstufe ein.\n\nEr kam ___ (spät) als abgemacht.",
+    "loesung": [
+     "später"
+    ],
+    "erklaerung": "«spät» steigert regelmässig, ohne Umlaut.",
+    "fehler": [
+     {
+      "antwort": "später als abgemacht",
+      "diagnoseId": "zusatz_statt_form",
+      "feedback": "Gefragt ist nur die Adjektivform. Der Rest des Satzes steht schon da."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Höchststufe ein.\n\nDas war ___ (jung) Kind in der Gruppe.",
+    "loesung": [
+     "das jüngste"
+    ],
+    "erklaerung": "Vor einem Nomen steht die Höchststufe mit Artikel und Endung: das jüngste Kind.",
+    "fehler": [
+     {
+      "antwort": "am jüngsten",
+      "diagnoseId": "form_vor_nomen",
+      "feedback": "Vor einem Nomen steht nicht «am jüngsten», sondern die gebeugte Form mit Artikel: das jüngste Kind."
+     },
+     {
+      "antwort": "das jungste",
+      "diagnoseId": "umlaut_vergessen",
+      "feedback": "«jung» steigert mit Umlaut: jünger, das jüngste."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "objekt-markieren",
+  "lernzielId": "D2.8.01",
+  "unterthemen": [
+   "8.01",
+   "8.04"
+  ],
+  "format": "markieren",
+  "hinweise": [
+   "Stell die Frageprobe: «wen oder was?» für das Akkusativobjekt, «wem?» für das Dativobjekt.",
+   "Markiere die Wortgruppe immer vollständig, mit Artikel und Adjektiven, nicht nur das Nomen.",
+   "Zähle die Wörter der Wortgruppe, bevor du tippst. Ein vergessener Artikel zählt als Fehler."
+  ],
+  "loesungsweg": [
+   "Suche zuerst die Personalform, dann das Subjekt.",
+   "Frage vom Verb aus nach dem Objekt: «wen oder was?» bzw. «wem?».",
+   "Markiere die ganze Wortgruppe, samt Begleitern."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "das",
+     "verbogene",
+     "Schutzblech."
+    ],
+    "erklaerung": "«Wen oder was reparierte er?» Das verbogene Schutzblech. Artikel und Adjektiv gehören dazu.",
+    "woerter": [
+     "Der",
+     "Junge",
+     "reparierte",
+     "in",
+     "der",
+     "Nacht",
+     "das",
+     "verbogene",
+     "Schutzblech."
+    ],
+    "stellen": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "stamm": "Markiere das Dativobjekt vollständig.",
+    "loesung": [
+     "ihrer",
+     "kleinen",
+     "Schwester"
+    ],
+    "erklaerung": "«Wem erzählte sie?» Ihrer kleinen Schwester. «Die ganze Geschichte» ist das Akkusativobjekt.",
+    "woerter": [
+     "Sie",
+     "erzählte",
+     "ihrer",
+     "kleinen",
+     "Schwester",
+     "die",
+     "ganze",
+     "Geschichte."
+    ],
+    "stellen": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "einen",
+     "heissen",
+     "Kaffee."
+    ],
+    "erklaerung": "«Wen oder was kaufte er?» Einen heissen Kaffee.",
+    "woerter": [
+     "Am",
+     "Bahnhof",
+     "kaufte",
+     "er",
+     "einen",
+     "heissen",
+     "Kaffee."
+    ],
+    "stellen": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere das Dativobjekt vollständig.",
+    "loesung": [
+     "dem",
+     "freundlichen",
+     "Nachbarn."
+    ],
+    "erklaerung": "«gehören» fordert den Dativ: «Wem gehört der Wagen?»",
+    "woerter": [
+     "Der",
+     "Wagen",
+     "gehört",
+     "dem",
+     "freundlichen",
+     "Nachbarn."
+    ],
+    "stellen": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "einen",
+     "ungeöffneten",
+     "Brief."
+    ],
+    "erklaerung": "«Wen oder was fand sie?» Einen ungeöffneten Brief. «In der Innentasche» ist kein Objekt, sondern eine Ortsangabe.",
+    "woerter": [
+     "In",
+     "der",
+     "Innentasche",
+     "fand",
+     "sie",
+     "einen",
+     "ungeöffneten",
+     "Brief."
+    ],
+    "stellen": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "stamm": "Markiere das Dativobjekt vollständig.",
+    "loesung": [
+     "den",
+     "neuen",
+     "Schülerinnen"
+    ],
+    "erklaerung": "«Wem gab sie den Stundenplan?» Den neuen Schülerinnen.",
+    "woerter": [
+     "Die",
+     "Lehrerin",
+     "gab",
+     "den",
+     "neuen",
+     "Schülerinnen",
+     "einen",
+     "Stundenplan."
+    ],
+    "stellen": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "den",
+     "letzten",
+     "Zug"
+    ],
+    "erklaerung": "«Wen oder was hat sie verpasst?» Den letzten Zug. «knapp» gehört nicht dazu, es beschreibt das Verpassen.",
+    "woerter": [
+     "Sie",
+     "hat",
+     "den",
+     "letzten",
+     "Zug",
+     "knapp",
+     "verpasst."
+    ],
+    "stellen": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "stamm": "Markiere das Dativobjekt vollständig.",
+    "loesung": [
+     "seiner",
+     "älteren",
+     "Nachbarin"
+    ],
+    "erklaerung": "«helfen» fordert den Dativ: «Wem half er?»",
+    "woerter": [
+     "Er",
+     "half",
+     "seiner",
+     "älteren",
+     "Nachbarin",
+     "beim",
+     "Einkaufen."
+    ],
+    "stellen": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "das",
+     "alte",
+     "Dach"
+    ],
+    "erklaerung": "«Wen oder was hat der Wind abgedeckt?» Das alte Dach.",
+    "woerter": [
+     "Der",
+     "Wind",
+     "hat",
+     "gestern",
+     "das",
+     "alte",
+     "Dach",
+     "abgedeckt."
+    ],
+    "stellen": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere das Dativobjekt vollständig.",
+    "loesung": [
+     "den",
+     "Wanderern"
+    ],
+    "erklaerung": "«passen» fordert den Dativ: «Wem passte das Wetter nicht?»",
+    "woerter": [
+     "Das",
+     "Wetter",
+     "passte",
+     "den",
+     "Wanderern",
+     "überhaupt",
+     "nicht."
+    ],
+    "stellen": [
+     3,
+     4
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "fremde",
+     "Velos."
+    ],
+    "erklaerung": "«Wen oder was repariert er?» Fremde Velos. Ohne Artikel besteht die Wortgruppe nur aus Adjektiv und Nomen.",
+    "woerter": [
+     "Jeden",
+     "Abend",
+     "repariert",
+     "er",
+     "heimlich",
+     "fremde",
+     "Velos."
+    ],
+    "stellen": [
+     5,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere das Akkusativobjekt vollständig.",
+    "loesung": [
+     "ihren",
+     "dunkelgrünen",
+     "Mantel"
+    ],
+    "erklaerung": "«Wen oder was zog sie an?» Ihren dunkelgrünen Mantel. «an» ist der Verbzusatz und gehört zum Verb.",
+    "woerter": [
+     "Sie",
+     "zog",
+     "ihren",
+     "dunkelgrünen",
+     "Mantel",
+     "an."
+    ],
+    "stellen": [
+     2,
+     3,
+     4
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "verbale-teile-markieren",
+  "lernzielId": "D2.8.05",
+  "unterthemen": [
+   "8.05",
+   "8.07"
+  ],
+  "format": "markieren",
+  "hinweise": [
+   "Welche Wörter würden fehlen, wenn du das Verb allein hinschreiben müsstest?",
+   "Zu den verbalen Teilen zählen die Personalform, Infinitive, Partizipien und Verbzusätze.",
+   "Verbzusätze wie «an», «auf», «mit» stehen oft ganz am Satzende und werden leicht vergessen."
+  ],
+  "loesungsweg": [
+   "Suche zuerst die Personalform. Sie zeigt Person und Zeit an.",
+   "Suche dann die weiteren Teile am Satzende: Partizip, Infinitiv oder Verbzusatz.",
+   "Zusammen bilden sie die verbale Klammer."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "hat",
+     "geöffnet."
+    ],
+    "erklaerung": "«hat» ist die Personalform, «geöffnet» das Partizip II. Zusammen bilden sie das Perfekt.",
+    "woerter": [
+     "Sie",
+     "hat",
+     "den",
+     "Brief",
+     "nie",
+     "geöffnet."
+    ],
+    "stellen": [
+     1,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "zieht",
+     "an."
+    ],
+    "erklaerung": "«anziehen» ist ein Verb mit Verbzusatz. Im Hauptsatz rutscht «an» ans Ende. Es gehört trotzdem zum Verb.",
+    "woerter": [
+     "Er",
+     "zieht",
+     "seinen",
+     "Mantel",
+     "schnell",
+     "an."
+    ],
+    "stellen": [
+     1,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "wird",
+     "abgeben."
+    ],
+    "erklaerung": "«wird» ist die Personalform, «abgeben» der Infinitiv. Zusammen bilden sie das Futur I.",
+    "woerter": [
+     "Morgen",
+     "wird",
+     "sie",
+     "den",
+     "Aufsatz",
+     "abgeben."
+    ],
+    "stellen": [
+     1,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "ist",
+     "gestohlen",
+     "worden."
+    ],
+    "erklaerung": "Drei Teile: «ist», «gestohlen» und «worden». Das Perfekt im Passiv braucht sie alle.",
+    "woerter": [
+     "Das",
+     "Velo",
+     "ist",
+     "gestern",
+     "gestohlen",
+     "worden."
+    ],
+    "stellen": [
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "hätte",
+     "anrufen",
+     "können."
+    ],
+    "erklaerung": "Drei Teile: die Personalform «hätte» und die beiden Infinitive «anrufen» und «können».",
+    "woerter": [
+     "Sie",
+     "hätte",
+     "längst",
+     "anrufen",
+     "können."
+    ],
+    "stellen": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "fährt",
+     "ab."
+    ],
+    "erklaerung": "«abfahren» hat den Verbzusatz «ab», der im Hauptsatz ans Ende rutscht.",
+    "woerter": [
+     "Der",
+     "Zug",
+     "fährt",
+     "in",
+     "zwei",
+     "Minuten",
+     "ab."
+    ],
+    "stellen": [
+     2,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "hatte",
+     "verloren."
+    ],
+    "erklaerung": "«hatte» und «verloren» bilden das Plusquamperfekt.",
+    "woerter": [
+     "Er",
+     "hatte",
+     "den",
+     "Schlüssel",
+     "schon",
+     "wieder",
+     "verloren."
+    ],
+    "stellen": [
+     1,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "sind",
+     "eingestiegen."
+    ],
+    "erklaerung": "Bei Bewegungsverben bildet «sein» das Perfekt. «eingestiegen» ist das Partizip II.",
+    "woerter": [
+     "Die",
+     "Kinder",
+     "sind",
+     "in",
+     "den",
+     "Bus",
+     "eingestiegen."
+    ],
+    "stellen": [
+     2,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "muss",
+     "schreiben."
+    ],
+    "erklaerung": "«muss» ist die Personalform, «schreiben» der Infinitiv. «fertig» ist ein Adjektiv und gehört nicht dazu.",
+    "woerter": [
+     "Sie",
+     "muss",
+     "den",
+     "Aufsatz",
+     "bis",
+     "Freitag",
+     "fertig",
+     "schreiben."
+    ],
+    "stellen": [
+     1,
+     7
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "wird",
+     "geputzt."
+    ],
+    "erklaerung": "«wird» und das Partizip «geputzt» bilden das Passiv.",
+    "woerter": [
+     "Die",
+     "Turnhalle",
+     "wird",
+     "jeden",
+     "Freitag",
+     "geputzt."
+    ],
+    "stellen": [
+     2,
+     5
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "fängt",
+     "an."
+    ],
+    "erklaerung": "«anfangen» ist ein Verb mit Verbzusatz. «an» steht am Ende und gehört zum Verb.",
+    "woerter": [
+     "Er",
+     "fängt",
+     "jeden",
+     "Morgen",
+     "um",
+     "sieben",
+     "an."
+    ],
+    "stellen": [
+     1,
+     6
+    ]
+   },
+   {
+    "stamm": "Markiere alle verbalen Teile.",
+    "loesung": [
+     "hat",
+     "kommen",
+     "wollen."
+    ],
+    "erklaerung": "Drei Teile: «hat» plus die beiden Infinitive. Bei Modalverben steht im Perfekt der Infinitiv statt des Partizips.",
+    "woerter": [
+     "Sie",
+     "hat",
+     "gestern",
+     "nicht",
+     "kommen",
+     "wollen."
+    ],
+    "stellen": [
+     1,
+     4,
+     5
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "kommas-setzen",
+  "lernzielId": "D2.9.06",
+  "unterthemen": [
+   "9.06",
+   "9.08"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Wo endet ein Teilsatz und beginnt der nächste? Genau dort gehört ein Komma hin.",
+   "Vor Konjunktionen wie «weil», «dass», «obwohl», «damit», «wenn», «bevor» steht immer ein Komma.",
+   "Auch vor Relativsätzen und bei Aufzählungen wird ein Komma gesetzt, und ein eingeschobener Nebensatz braucht zwei."
+  ],
+  "loesungsweg": [
+   "Suche alle Personalformen im Satz. Jede gehört zu einem eigenen Teilsatz.",
+   "Zwischen zwei Teilsätzen steht ein Komma.",
+   "Vor «und» und «oder» steht in einer Aufzählung kein Komma."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Sie blieb zu Hause, weil sie Fieber hatte."
+    ],
+    "erklaerung": "Vor «weil» beginnt der Nebensatz. Dort gehört das Komma hin.",
+    "woerter": [
+     "Sie",
+     "blieb",
+     "zu",
+     "Hause",
+     "weil",
+     "sie",
+     "Fieber",
+     "hatte."
+    ],
+    "stellen": [
+     3
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Der Mann, der jede Nacht Velos repariert, wohnt nebenan."
+    ],
+    "erklaerung": "Ein eingeschobener Relativsatz braucht zwei Kommas: eines davor und eines danach.",
+    "woerter": [
+     "Der",
+     "Mann",
+     "der",
+     "jede",
+     "Nacht",
+     "Velos",
+     "repariert",
+     "wohnt",
+     "nebenan."
+    ],
+    "stellen": [
+     1,
+     6
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Nachdem er gegessen hatte, ging er los."
+    ],
+    "erklaerung": "Steht der Nebensatz vorne, folgt das Komma an seinem Ende. Danach kommt sofort die Personalform des Hauptsatzes.",
+    "woerter": [
+     "Nachdem",
+     "er",
+     "gegessen",
+     "hatte",
+     "ging",
+     "er",
+     "los."
+    ],
+    "stellen": [
+     3
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Er wusste nicht, ob sie noch kommen würde."
+    ],
+    "erklaerung": "«ob» leitet einen Nebensatz ein. Davor steht ein Komma.",
+    "woerter": [
+     "Er",
+     "wusste",
+     "nicht",
+     "ob",
+     "sie",
+     "noch",
+     "kommen",
+     "würde."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Sie packte Brot, Käse und einen Apfel ein."
+    ],
+    "erklaerung": "In einer Aufzählung trennt das Komma die Glieder. Vor «und» steht keines.",
+    "woerter": [
+     "Sie",
+     "packte",
+     "Brot",
+     "Käse",
+     "und",
+     "einen",
+     "Apfel",
+     "ein."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Obwohl es regnete, fuhr sie mit dem Velo."
+    ],
+    "erklaerung": "Der Nebensatz mit «obwohl» steht vorne, das Komma folgt an seinem Ende.",
+    "woerter": [
+     "Obwohl",
+     "es",
+     "regnete",
+     "fuhr",
+     "sie",
+     "mit",
+     "dem",
+     "Velo."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Das Buch, das ich dir geliehen habe, liegt noch bei dir."
+    ],
+    "erklaerung": "Zwei Kommas rahmen den eingeschobenen Relativsatz ein.",
+    "woerter": [
+     "Das",
+     "Buch",
+     "das",
+     "ich",
+     "dir",
+     "geliehen",
+     "habe",
+     "liegt",
+     "noch",
+     "bei",
+     "dir."
+    ],
+    "stellen": [
+     1,
+     6
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Er hatte Hunger, aber der Laden war schon zu."
+    ],
+    "erklaerung": "Vor «aber» steht ein Komma, auch wenn es zwei Hauptsätze verbindet.",
+    "woerter": [
+     "Er",
+     "hatte",
+     "Hunger",
+     "aber",
+     "der",
+     "Laden",
+     "war",
+     "schon",
+     "zu."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Sie fragte, was er damit gemeint habe."
+    ],
+    "erklaerung": "«was» leitet hier einen Nebensatz ein.",
+    "woerter": [
+     "Sie",
+     "fragte",
+     "was",
+     "er",
+     "damit",
+     "gemeint",
+     "habe."
+    ],
+    "stellen": [
+     1
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Wenn du willst, hole ich dich ab."
+    ],
+    "erklaerung": "Der Bedingungssatz steht vorne, das Komma folgt an seinem Ende.",
+    "woerter": [
+     "Wenn",
+     "du",
+     "willst",
+     "hole",
+     "ich",
+     "dich",
+     "ab."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Sie hat gesagt, dass sie später kommt."
+    ],
+    "erklaerung": "Vor «dass» steht immer ein Komma.",
+    "woerter": [
+     "Sie",
+     "hat",
+     "gesagt",
+     "dass",
+     "sie",
+     "später",
+     "kommt."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Damit niemand friert, hat sie Decken mitgebracht."
+    ],
+    "erklaerung": "Der Absichtssatz mit «damit» steht vorne, danach folgt das Komma.",
+    "woerter": [
+     "Damit",
+     "niemand",
+     "friert",
+     "hat",
+     "sie",
+     "Decken",
+     "mitgebracht."
+    ],
+    "stellen": [
+     2
+    ]
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Er räumte die Küche auf und sie deckte den Tisch."
+    ],
+    "erklaerung": "Hier gehört kein Komma hin: «und» verbindet zwei Hauptsätze, und dort ist das Komma freiwillig. Setze in der Prüfung nur die nötigen Kommas.",
+    "woerter": [
+     "Er",
+     "räumte",
+     "die",
+     "Küche",
+     "auf",
+     "und",
+     "sie",
+     "deckte",
+     "den",
+     "Tisch."
+    ],
+    "stellen": []
+   },
+   {
+    "stamm": "Tippe an, nach welchen Wörtern ein Komma stehen muss.",
+    "loesung": [
+     "Bevor du gehst, schliess bitte das Fenster."
+    ],
+    "erklaerung": "«bevor» leitet den Nebensatz ein, der hier vorne steht.",
+    "woerter": [
+     "Bevor",
+     "du",
+     "gehst",
+     "schliess",
+     "bitte",
+     "das",
+     "Fenster."
+    ],
+    "stellen": [
+     2
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

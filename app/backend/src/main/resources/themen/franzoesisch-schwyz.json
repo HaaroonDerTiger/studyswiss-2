@@ -1,0 +1,101 @@
+{
+ "fach": "franzoesisch-sz",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfungen der Schwyzer Mittelschulen",
+ "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen",
+ "punkteTotal": 53,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Compréhension écrite",
+   "punkte": 20,
+   "anteil": 38,
+   "beschreibung": "20 Punkte am Gymnasium, 15 an der FMS: ein Text mit Fragen auf Deutsch oder Französisch.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes",
+     "lernzielId": "FSZ.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "FSZ.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Richtig oder falsch mit Beleg",
+     "lernzielId": "FSZ.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Wortschatz aus dem Zusammenhang",
+     "lernzielId": "FSZ.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Grammaire et vocabulaire",
+   "punkte": 33,
+   "anteil": 62,
+   "beschreibung": "Der grösste Teil der Prüfung: Verbformen, Possessivbegleiter, Fragen mit «est-ce que», Pronomen und Wortschatz.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Verben im présent",
+     "lernzielId": "FSZ.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Passé composé mit avoir und être",
+     "lernzielId": "FSZ.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Futur composé und imparfait",
+     "lernzielId": "FSZ.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Possessivbegleiter",
+     "lernzielId": "FSZ.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Fragen mit est-ce que und Inversion",
+     "lernzielId": "FSZ.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Direkte und indirekte Objektpronomen",
+     "lernzielId": "FSZ.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Verneinung",
+     "lernzielId": "FSZ.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Wortschatz: Alltag, Schule, Freizeit",
+     "lernzielId": "FSZ.2.08",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

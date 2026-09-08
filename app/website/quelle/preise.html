@@ -1,0 +1,159 @@
+<!--
+  Preise.
+
+  Zwei Zielgruppen auf einer Seite: Eltern und Schulen. Die Reihenfolge
+  ist Absicht — wer hier landet, ist meistens ein Elternteil.
+
+  §4.9: Der Kauf-Screen rechnet vor, welcher Weg beim eigenen Termin
+  günstiger ist. Das steht auf der Karte, nicht im Kleingedruckten.
+-->
+<section class="aufmacher">
+  <div class="innen">
+    <p class="eyebrow">Preise</p>
+    <h1>Ein Preis, der zum Termin passt</h1>
+    <p class="bd">
+      Der Prüfungstermin gibt das Tempo vor — und den Preis. Wer noch acht
+      Monate hat, fährt mit dem Pass besser; wer noch zwei hat, monatlich.
+      Rechnen Sie es unten nach.
+    </p>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen">
+    <div class="raster" id="produkte" style="align-items:stretch"></div>
+
+    <div class="karte" style="margin-top:24px;max-width:560px">
+      <h3>Welcher Weg ist bei Ihnen günstiger?</h3>
+      <label class="feld" style="margin-top:14px"><span>Prüfungstermin</span>
+        <input type="date" id="terminWahl"></label>
+      <div id="terminRat"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen mittel">
+    <p class="eyebrow">Immer dabei</p>
+    <h2>Ein Fach bleibt gratis, und zwar vollständig</h2>
+    <p class="bd" style="margin-top:12px">
+      Nicht drei Aufgaben zur Probe, sondern ein ganzes Fach von A bis Z:
+      alle Themen, alle Aufgaben, Standortbestimmung, Lernpfad, Fortschritt
+      und Fehlerarchiv. Wer damit auskommt, zahlt nichts.
+    </p>
+    <div class="raster zwei" style="margin-top:24px">
+      <div class="karte">
+        <h4>Gratis</h4>
+        <ul class="preiskarte" style="list-style:none;padding:0;margin:12px 0 0">
+          <li>{{icon:haken}} Ein Fach vollständig</li>
+          <li>{{icon:haken}} Standortbestimmung</li>
+          <li>{{icon:haken}} Lernpfad und Fortschritt</li>
+          <li>{{icon:haken}} Fehlerarchiv</li>
+        </ul>
+      </div>
+      <div class="karte">
+        <h4>Mit Plus dazu</h4>
+        <ul class="preiskarte" style="list-style:none;padding:0;margin:12px 0 0">
+          <li>{{icon:haken}} Alle Fächer der Prüfung</li>
+          <li>{{icon:haken}} Selbsttest über die ganze Prüfung</li>
+          <li>{{icon:haken}} Aufsatzkorrektur</li>
+          <li>{{icon:haken}} Eltern-Report, freigegeben vom Kind</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band dunkelband">
+  <div class="innen mittel">
+    <p class="eyebrow">Woher der Preis kommt</p>
+    <h2>Der Vergleich, den sonst niemand hinschreibt</h2>
+    <div class="tabellenrahmen" style="margin-top:22px" data-fremdpreis>
+      <table class="t" style="color:var(--tan1)">
+        <thead><tr style="border-color:rgba(228,203,169,.3)">
+          <th style="color:var(--tan3)">Angebot</th>
+          <th class="rechts" style="color:var(--tan3)">Preis</th></tr></thead>
+        <tbody>
+          <tr><td style="color:var(--tan1);border-color:rgba(228,203,169,.18)">
+              Präsenzkurs über eine Saison</td>
+            <td class="rechts" style="color:var(--cream);border-color:rgba(228,203,169,.18)">
+              Fr. 1'980.– bis 3'370.–</td></tr>
+          <tr><td style="color:var(--tan1);border-color:rgba(228,203,169,.18)">
+              Einzelnachhilfe je Lektion</td>
+            <td class="rechts" style="color:var(--cream);border-color:rgba(228,203,169,.18)">
+              Fr. 27.– bis 49.–</td></tr>
+          <tr><td style="color:var(--tan1);border-color:rgba(228,203,169,.18)">
+              Vergleichbare App im Jahresabo</td>
+            <td class="rechts" style="color:var(--cream);border-color:rgba(228,203,169,.18)">
+              Fr. 390.–</td></tr>
+          <tr><td style="color:var(--cream);border:none"><b>StudySwiss Pass</b></td>
+            <td class="rechts" style="color:var(--cream);border:none"><b>Fr. 129.–</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sm" style="margin-top:14px;color:var(--tan3)">
+      Marktzahlen für den Kanton Zürich, Stand August 2026.
+    </p>
+  </div>
+</section>
+
+<section class="band" id="schulen">
+  <div class="innen">
+    <div class="reihe" style="gap:16px;margin-bottom:8px">
+      <div class="ic">{{icon:schule}}</div>
+      <div><p class="eyebrow" style="margin:0">Für Schulen</p>
+        <h2>Schullizenzen</h2></div>
+    </div>
+    <p class="bd" style="max-width:62ch;margin-bottom:8px">
+      Eine Lizenz gilt für ein Schuljahr und alle Fächer der Prüfung. Zahlung
+      auf Rechnung, 30 Tage netto. Der Stückpreis sinkt mit der Menge, und die
+      Staffel steht offen da.
+    </p>
+
+    <div class="rechner" style="margin-top:24px">
+      <div class="karte">
+        <label class="feld" for="anzahl"><span>Anzahl Schülerinnen und Schüler</span>
+          <input type="number" id="anzahl" min="1" max="2000" value="24" inputmode="numeric"></label>
+        <input type="range" class="schieber" id="schieber" min="1" max="300" value="24"
+               aria-label="Anzahl Lizenzen grob einstellen">
+        <div class="staffel" id="staffel"></div>
+        <label class="feld" for="start" style="margin-top:22px"><span>Gewünschter Beginn</span>
+          <input type="date" id="start"></label>
+        <p class="sm" id="laufzeit"></p>
+      </div>
+      <div class="karte">
+        <p class="eyebrow">Ihre Offerte</p>
+        <dl class="summe" id="summe"></dl>
+        <p class="sm" id="stufenhinweis" style="margin-top:12px"></p>
+        <a class="btn bp voll" id="zurOfferte" href="bestellen.html" style="margin-top:18px">
+          Offerte erstellen</a>
+        <a class="btn bt voll" id="direktBestellen" href="bestellen.html?schritt=bestellung"
+           style="margin-top:6px">Direkt bestellen</a>
+        <p class="sm" id="preisherkunft" style="margin-top:14px"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="padding-top:0">
+  <div class="innen mittel">
+    <p class="eyebrow">Wo gekauft wird</p>
+    <h2>Drei Wege, ein Konto</h2>
+    <p class="bd" style="margin-top:12px;max-width:62ch">
+      Es ist gleichgültig, wo Plus gekauft wird — freigeschaltet ist es
+      überall, weil es am Konto hängt und nicht am Gerät.
+    </p>
+    <div class="raster" style="margin-top:22px">
+      <div class="karte"><h4>In der App</h4>
+        <p class="bd14" style="margin-top:6px">Über den App Store oder Google
+        Play, mit dem Konto, das ohnehin auf dem Telefon eingerichtet ist.</p></div>
+      <div class="karte"><h4>Auf dieser Website</h4>
+        <p class="bd14" style="margin-top:6px">Mit Karte oder TWINT. Der Weg
+        für Eltern, die am Laptop sitzen — und das sind die meisten, wenn es
+        ums Bezahlen geht.</p></div>
+      <div class="karte"><h4>Über die Schule</h4>
+        <p class="bd14" style="margin-top:6px">Die Schule bestellt Lizenzen auf
+        Rechnung und gibt Codes aus. Für die Familie kostet es dann nichts.</p></div>
+    </div>
+  </div>
+</section>

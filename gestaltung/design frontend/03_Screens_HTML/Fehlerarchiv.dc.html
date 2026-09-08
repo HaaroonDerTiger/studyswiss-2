@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><style>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+:root{
+ --ink:#3A1D0A; --ink7:#5C3A1E; --ink5:#7C5836; --ink3:#A98B66;
+ --tan6:#B0834F; --tan:#C99A66; --tan3:#E4CBA9; --tan1:#F2E4CF;
+ --paper:#FBF5EA; --card:#FFFDF8; --line:#EADCC6;
+ --red:#E2231A; --red1:#FBE3E1; --green:#3F7A4D; --green1:#E3F0E4;
+ --gelb:#D99A2B; --gelb1:#FAEED6; --cream:#FFF7EA;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--tan6);text-decoration:none} a:hover{color:var(--ink)}
+.phone{width:390px;height:844px;position:relative;overflow:hidden;background:var(--paper);
+ background-image:linear-gradient(rgba(176,131,79,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(176,131,79,.10) 1px,transparent 1px);
+ background-size:24px 24px}
+.wash{display:none}
+.safe{height:58px}
+.wrap{position:relative;padding:0 24px}
+.appbar{position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 22px;height:44px}
+.appbar h2{margin:0;font:600 18px/1.3 'Bitter',Georgia,serif;position:absolute;left:0;right:0;text-align:center;pointer-events:none}
+.eyebrow{font:700 10px/1.2 'Nunito Sans';letter-spacing:.11em;color:var(--tan6);text-transform:uppercase}
+.h1{margin:6px 0 0;font:600 27px/1.18 'Bitter',Georgia,serif;letter-spacing:-.015em}
+.h2{margin:0;font:600 18px/1.32 'Bitter',Georgia,serif}
+.h3{margin:0;font:600 17px/1.32 'Bitter',Georgia,serif}
+.h4{margin:0;font:600 15px/1.35 'Bitter',Georgia,serif}
+.num{font:600 44px/1 'Bitter',Georgia,serif;letter-spacing:-.025em}
+.bd{font:400 14px/1.5 'Nunito Sans';color:var(--ink5)}
+.sm{font:400 12px/1.45 'Nunito Sans';color:var(--ink3)}
+.lb{font:700 13px/1.3 'Nunito Sans'}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:none}
+.dark{background:var(--ink);color:var(--cream);border:none;border-radius:18px;position:relative;overflow:hidden;box-shadow:none}
+.row{display:flex;align-items:center;gap:14px}
+.col{display:flex;flex-direction:column}
+.btn{height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:8px;font:700 15px 'Nunito Sans';cursor:default}
+.bp{background:var(--ink);color:var(--cream)}
+.bs{background:transparent;color:var(--ink);border:1px solid var(--tan3)}
+.bg-{background:transparent;color:var(--tan6)}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 11px;border-radius:9px;background:var(--card);border:1px solid var(--line);font:600 12px 'Nunito Sans'}
+.ic{width:44px;height:44px;border-radius:12px;background:var(--tan1);display:flex;align-items:center;justify-content:center;flex:none}
+.bar{height:5px;border-radius:0;background:var(--tan1);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tan)}
+.tabbar{position:absolute;left:0;right:0;bottom:0;height:86px;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);box-shadow:none}
+.tab{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:14px;font:600 9.5px 'Nunito Sans';color:var(--ink3)}
+.tab .pl{width:24px;height:24px;display:flex;align-items:center;justify-content:center}
+.tab.on{color:var(--ink);font-weight:700}
+.tab.on .pl{background:transparent}
+.bottombar{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 32px;background:var(--card);border-top:1px solid var(--line)}
+.divider{height:1px;background:var(--line)}
+.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--card);border-radius:20px 20px 0 0;border-top:1px solid var(--line);box-shadow:0 -12px 24px rgba(58,29,10,.07);padding:16px 24px 28px}
+.handle{width:48px;height:5px;border-radius:3px;background:var(--tan3);margin:0 auto 14px}
+.badge{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+</style></helmet>
+<div class="phone"><div class="safe"></div>
+<div class="appbar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3A1D0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg><h2>Meine Fehler</h2><span style="width:24px"></span></div>
+<div class="wrap" style="padding-top:8px">
+ <div class="card row" style="padding:0 15px;height:46px;gap:10px">
+  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span class="sm" style="font-size:13px">In meinen Fehlern suchen</span></div>
+ <div class="row" style="gap:8px;margin-top:14px">
+  <span class="chip" style="background:var(--ink);color:var(--cream);border:none">Alle 47</span>
+  <span class="chip">Mathematik 31</span>
+  <span class="chip">Deutsch 16</span></div>
+ <div class="eyebrow" style="margin-top:20px">Mathematik &middot; nach Thema</div>
+ <div class="card" style="margin-top:9px;padding:2px 16px 6px">
+  <div class="row" style="justify-content:space-between;padding:14px 0"><span class="lb" style="font-size:13.5px">Textaufgaben</span><span class="row" style="gap:10px"><span class="chip" style="height:22px;font-size:10.5px">9</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#C9B79B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></div>
+  <div style="padding:0 0 8px"><div class="card" style="padding:13px 15px;margin-top:10px;background:var(--paper)"><div class="row" style="justify-content:space-between"><span class="sm" style="font-size:10.5px">vor 5 Tagen</span><span class="sm" style="font-size:10.5px;color:var(--red)">3&times; falsch</span></div><div style="margin-top:5px;font:600 14px/1.35 'Bitter',Georgia,serif">Ein Zug fährt 180 km in 2 Std. 15 Min. &hellip;</div><div class="row" style="justify-content:flex-end;margin-top:9px"><span class="chip" style="height:26px;font-size:11px;background:var(--ink);color:var(--cream);border:none">Nochmal üben</span></div></div><div class="card" style="padding:13px 15px;margin-top:10px;background:var(--paper)"><div class="row" style="justify-content:space-between"><span class="sm" style="font-size:10.5px">vor 8 Tagen</span><span class="sm" style="font-size:10.5px;color:var(--red)">2&times; falsch</span></div><div style="margin-top:5px;font:600 14px/1.35 'Bitter',Georgia,serif">Ein Rechteck ist 3-mal so lang wie breit &hellip;</div><div class="row" style="justify-content:flex-end;margin-top:9px"><span class="chip" style="height:26px;font-size:11px;background:var(--ink);color:var(--cream);border:none">Nochmal üben</span></div></div></div>
+  <div class="row" style="border-top:1px solid var(--line);justify-content:space-between;padding:14px 0"><span class="lb" style="font-size:13.5px">Gleichungen</span><span class="row" style="gap:10px"><span class="chip" style="height:22px;font-size:10.5px">12</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#C9B79B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div><div class="row" style="border-top:1px solid var(--line);justify-content:space-between;padding:14px 0"><span class="lb" style="font-size:13.5px">Brüche & Dezimalzahlen</span><span class="row" style="gap:10px"><span class="chip" style="height:22px;font-size:10.5px">6</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#C9B79B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+ </div>
+</div><div class="tabbar"><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div><span>Lernen</span></div><div class="tab" style="position:relative;color:#C9B79B"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9B79B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg></div><span>Lernpfad</span><i style="position:absolute;top:9px;right:16px;width:5px;height:5px;border-radius:50%;background:var(--tan3);display:block"></i></div><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><span>Selbsttest</span></div><div class="tab on" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3A1D0A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16v-5"/><path d="M12 16V8"/><path d="M17 16v-3"/></svg></div><span>Fortschritt</span></div><div class="tab" style="position:relative;"><div class="pl"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A98B66" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6 1.65 1.65 0 0 0 10 3.09V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div><span>Einstellungen</span></div></div></div>
+</x-dc>
+</body>
+</html>

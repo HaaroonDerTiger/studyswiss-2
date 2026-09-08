@@ -1,0 +1,174 @@
+{
+ "fach": "englisch-ar",
+ "name": "Englisch",
+ "pruefung": "Aufnahmeprüfung an die nichtgymnasialen Maturitätslehrgänge",
+ "quelle": "Prüfungsstoff Englisch der Kantonsschule Trogen 2026/27: Lehrmittel «Voices» und «Open World», die dort aufgeführten Grammatikthemen und die Liste unregelmässiger Verben",
+ "punkteTotal": 75,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "R",
+   "name": "Reading",
+   "punkte": 25,
+   "anteil": 33,
+   "beschreibung": "Ein Viertel der Note. Fragen zu einem Lesetext, beantwortet auf Englisch.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "EAR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "EAR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "True, false or not given",
+     "lernzielId": "EAR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "EAR.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "G",
+   "name": "Grammar",
+   "punkte": 30,
+   "anteil": 40,
+   "beschreibung": "Der grösste Block: dreissig Prozent der Note. Die Themen stehen im Prüfungsstoff einzeln aufgeführt.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Present simple und present continuous",
+     "lernzielId": "EAR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Past simple und past continuous",
+     "lernzielId": "EAR.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Unregelmässige Verben: infinitive, past, past participle",
+     "lernzielId": "EAR.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "will-future",
+     "lernzielId": "EAR.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "used to",
+     "lernzielId": "EAR.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Modalverben: should, could, might, must, be allowed to",
+     "lernzielId": "EAR.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Fragen im Präsens und im Präteritum",
+     "lernzielId": "EAR.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Subject- und object questions",
+     "lernzielId": "EAR.2.08",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.07"
+     ]
+    },
+    {
+     "code": "2.09",
+     "name": "Personal- und Reflexivpronomen",
+     "lernzielId": "EAR.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Possessive adjectives und s-genitive",
+     "lernzielId": "EAR.2.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.11",
+     "name": "Relative clauses for things",
+     "lernzielId": "EAR.2.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.12",
+     "name": "Adverbs of frequency",
+     "lernzielId": "EAR.2.12",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.13",
+     "name": "Contracted forms",
+     "lernzielId": "EAR.2.13",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "W",
+   "name": "Writing und Wortschatz",
+   "punkte": 20,
+   "anteil": 27,
+   "beschreibung": "Zwanzig Prozent der Note. Wortschatz aus «Voices» und «Open World», angewendet in eigenen Sätzen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wortschatz: Alltag und Familie",
+     "lernzielId": "EAR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Wortschatz: Schule, Arbeit und Zukunft",
+     "lernzielId": "EAR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Wortschatz: Reisen, Umwelt und Medien",
+     "lernzielId": "EAR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Satzbau und linking words",
+     "lernzielId": "EAR.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Einen kurzen Text planen und gliedern",
+     "lernzielId": "EAR.3.05",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "fach": "englisch-ag",
+ "name": "Englisch",
+ "pruefung": "Aufnahmeprüfung an das Gymnasium Aargau",
+ "quelle": "Merkblatt «Aufnahmeprüfung an das Gymnasium Aargau» sowie die Englischprüfungen der Mittelschulen Aargau 2023-2025",
+ "punkteTotal": 54,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Reading comprehension",
+   "punkte": 18,
+   "anteil": 33,
+   "beschreibung": "Achtzehn Punkte auf Fragen zu einem Lesetext, beantwortet auf Englisch.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "EAG.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "EAG.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Fragen zum Text in der Zielsprache beantworten",
+     "lernzielId": "EAG.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Unbekannte Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "EAG.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Aussagen als richtig, falsch oder nicht genannt einordnen",
+     "lernzielId": "EAG.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Vocabulary and grammar",
+   "punkte": 36,
+   "anteil": 67,
+   "beschreibung": "Sechsunddreissig Punkte — der grösste Block der ganzen Prüfung.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Zeitformen der Gegenwart",
+     "lernzielId": "EAG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Zeitformen der Vergangenheit",
+     "lernzielId": "EAG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Zukunft ausdrücken",
+     "lernzielId": "EAG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Fragen und Verneinung bilden",
+     "lernzielId": "EAG.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Pronomen richtig einsetzen",
+     "lernzielId": "EAG.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Adjektive und Adverbien, Steigerung",
+     "lernzielId": "EAG.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Präpositionen und feste Wendungen",
+     "lernzielId": "EAG.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Satzbau und Bindewörter",
+     "lernzielId": "EAG.2.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.09",
+     "name": "Wortschatz: Alltag und Freizeit",
+     "lernzielId": "EAG.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Wortschatz: Schule, Beruf und Zukunft",
+     "lernzielId": "EAG.2.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.11",
+     "name": "Wortschatz: Umwelt, Medien und Gesellschaft",
+     "lernzielId": "EAG.2.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.12",
+     "name": "Wortbildung und Wortfamilien",
+     "lernzielId": "EAG.2.12",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

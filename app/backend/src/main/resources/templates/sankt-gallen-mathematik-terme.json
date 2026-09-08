@@ -1,0 +1,2852 @@
+[
+ {
+  "templateId": "sg-brueche-grundrechnen",
+  "lernzielId": "MS.1.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Kürze zuerst, wo es geht, mit kleineren Zahlen rechnet es sich leichter.",
+   "Beim Addieren und Subtrahieren brauchst du denselben Nenner. Beim Multiplizieren und Dividieren nicht.",
+   "Durch einen Bruch teilen heisst mit seinem Kehrwert multiplizieren."
+  ],
+  "loesungsweg": [
+   "Schau zuerst, welche Rechenart dasteht. Davon hängt alles Weitere ab.",
+   "Bei Plus und Minus: gemeinsamen Nenner suchen, dann nur die Zähler verrechnen.",
+   "Bei Mal: Zähler mal Zähler, Nenner mal Nenner. Vorher übers Kreuz kürzen spart Arbeit.",
+   "Bei Geteilt: den hinteren Bruch umdrehen und multiplizieren.",
+   "Am Schluss vollständig kürzen. Die Prüfung verlangt es ausdrücklich."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n³⁄₄ + ¹⁄₆",
+    "optionen": [
+     "¹¹⁄₁₂",
+     "⁴⁄₁₀",
+     "⁴⁄₂₄",
+     "¹⁄₂"
+    ],
+    "loesung": [
+     "¹¹⁄₁₂"
+    ],
+    "erklaerung": "Der gemeinsame Nenner von 4 und 6 ist 12: ⁹⁄₁₂ + ²⁄₁₂ = ¹¹⁄₁₂.",
+    "fehler": [
+     {
+      "antwort": "⁴⁄₁₀",
+      "diagnoseId": "zaehler_und_nenner_addiert",
+      "feedback": "Du hast Zähler zu Zähler und Nenner zu Nenner addiert. So rechnet man mit Brüchen nicht. Erst auf denselben Nenner bringen, dann nur die Zähler."
+     },
+     {
+      "antwort": "⁴⁄₂₄",
+      "diagnoseId": "nenner_multipliziert",
+      "feedback": "Du hast die Nenner multipliziert und die Zähler addiert. Der gemeinsame Nenner darf 24 sein, dann müssen aber auch beide Zähler erweitert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁵⁄₆ − ¹⁄₄",
+    "optionen": [
+     "⁷⁄₁₂",
+     "⁴⁄₂",
+     "⁴⁄₁₂",
+     "²⁄₃"
+    ],
+    "loesung": [
+     "⁷⁄₁₂"
+    ],
+    "erklaerung": "Gemeinsamer Nenner 12: ¹⁰⁄₁₂ − ³⁄₁₂ = ⁷⁄₁₂.",
+    "fehler": [
+     {
+      "antwort": "⁴⁄₂",
+      "diagnoseId": "zaehler_und_nenner_subtrahiert",
+      "feedback": "Du hast Zähler minus Zähler und Nenner minus Nenner gerechnet. Brüche werden zuerst gleichnamig gemacht."
+     },
+     {
+      "antwort": "⁴⁄₁₂",
+      "diagnoseId": "nur_zaehler_erweitert",
+      "feedback": "Der zweite Bruch wurde nicht erweitert. Aus ¹⁄₄ werden ³⁄₁₂, nicht ¹⁄₁₂."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n²⁄₃ · ⁹⁄₁₀",
+    "optionen": [
+     "³⁄₅",
+     "¹¹⁄₁₃",
+     "¹⁸⁄₁₀",
+     "²⁰⁄₂₇"
+    ],
+    "loesung": [
+     "³⁄₅"
+    ],
+    "erklaerung": "Vor dem Multiplizieren kürzen: 3 gegen 9 und 2 gegen 10. Im Zähler bleibt 1 · 3, im Nenner 1 · 5.",
+    "fehler": [
+     {
+      "antwort": "¹¹⁄₁₃",
+      "diagnoseId": "addiert_statt_multipliziert",
+      "feedback": "Du hast addiert. Zwischen den Brüchen steht ein Malzeichen. Dort werden Zähler mit Zähler und Nenner mit Nenner multipliziert."
+     },
+     {
+      "antwort": "¹⁸⁄₁₀",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Richtig multipliziert, aber nicht gekürzt und nicht ganz zu Ende gerechnet: 18 und 10 haben den Teiler 2 gemeinsam."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n³⁄₈ : ⁹⁄₄",
+    "optionen": [
+     "¹⁄₆",
+     "²⁷⁄₃₂",
+     "¹²⁄₇₂",
+     "6"
+    ],
+    "loesung": [
+     "¹⁄₆"
+    ],
+    "erklaerung": "Durch einen Bruch teilen heisst mit dem Kehrwert multiplizieren: ³⁄₈ · ⁴⁄₉ = ¹²⁄₇₂ = ¹⁄₆.",
+    "fehler": [
+     {
+      "antwort": "²⁷⁄₃₂",
+      "diagnoseId": "nicht_umgedreht",
+      "feedback": "Du hast einfach multipliziert. Beim Teilen wird der HINTERE Bruch umgedreht, bevor multipliziert wird."
+     },
+     {
+      "antwort": "¹²⁄₇₂",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Der Weg stimmt, das Kürzen fehlt: 12 und 72 haben den Teiler 12 gemeinsam."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁷⁄₁₀ − ²⁄₁₅",
+    "optionen": [
+     "¹⁷⁄₃₀",
+     "⁵⁄₅",
+     "⁵⁄₃₀",
+     "¹⁄₂"
+    ],
+    "loesung": [
+     "¹⁷⁄₃₀"
+    ],
+    "erklaerung": "Gemeinsamer Nenner 30: ²¹⁄₃₀ − ⁴⁄₃₀ = ¹⁷⁄₃₀.",
+    "fehler": [
+     {
+      "antwort": "⁵⁄₅",
+      "diagnoseId": "zaehler_und_nenner_subtrahiert",
+      "feedback": "Zähler und Nenner werden nicht einzeln subtrahiert. Erst gleichnamig machen."
+     },
+     {
+      "antwort": "⁵⁄₃₀",
+      "diagnoseId": "nur_einen_erweitert",
+      "feedback": "Nur der erste Bruch wurde erweitert. Aus ²⁄₁₅ werden ⁴⁄₃₀."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁴⁄₉ + ⁵⁄₆",
+    "optionen": [
+     "²³⁄₁₈",
+     "⁹⁄₁₅",
+     "²⁴⁄₁₈",
+     "⁹⁄₅₄"
+    ],
+    "loesung": [
+     "²³⁄₁₈"
+    ],
+    "erklaerung": "Gemeinsamer Nenner 18: ⁸⁄₁₈ + ¹⁵⁄₁₈ = ²³⁄₁₈.",
+    "fehler": [
+     {
+      "antwort": "⁹⁄₁₅",
+      "diagnoseId": "zaehler_und_nenner_addiert",
+      "feedback": "Zähler und Nenner einzeln zu addieren ergibt keinen richtigen Bruch. Setze beide zuerst auf denselben Nenner."
+     },
+     {
+      "antwort": "²⁴⁄₁₈",
+      "diagnoseId": "zaehler_verzaehlt",
+      "feedback": "Fast: 8 + 15 sind 23, nicht 24. Rechne die erweiterten Zähler noch einmal zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁵⁄₁₂ · ⁸⁄₁₅",
+    "optionen": [
+     "²⁄₉",
+     "⁴⁰⁄₁₈₀",
+     "¹³⁄₂₇",
+     "⁷⁵⁄₉₆"
+    ],
+    "loesung": [
+     "²⁄₉"
+    ],
+    "erklaerung": "Übers Kreuz kürzen: 5 und 15 durch 5, 8 und 12 durch 4. Es bleibt ¹⁄₃ · ²⁄₃ = ²⁄₉.",
+    "fehler": [
+     {
+      "antwort": "⁴⁰⁄₁₈₀",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Richtig multipliziert, aber nicht gekürzt. 40 und 180 haben den Teiler 20 gemeinsam."
+     },
+     {
+      "antwort": "¹³⁄₂₇",
+      "diagnoseId": "addiert_statt_multipliziert",
+      "feedback": "Du hast Zähler und Nenner addiert. Es steht ein Malzeichen da."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁹⁄₄ : ³⁄₈",
+    "optionen": [
+     "6",
+     "²⁷⁄₃₂",
+     "³⁄₃₂",
+     "⁷²⁄₁₂"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Kehrwert bilden: ⁹⁄₄ · ⁸⁄₃ = ⁷²⁄₁₂ = 6.",
+    "fehler": [
+     {
+      "antwort": "²⁷⁄₃₂",
+      "diagnoseId": "nicht_umgedreht",
+      "feedback": "Du hast multipliziert statt geteilt. Beim Teilen wird der hintere Bruch umgedreht."
+     },
+     {
+      "antwort": "⁷²⁄₁₂",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Der Weg stimmt, das Kürzen fehlt: 72 : 12 ergibt 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze vollständig:\n\n⁸⁴⁄₁₂₆",
+    "optionen": [
+     "²⁄₃",
+     "⁴²⁄₆₃",
+     "¹²⁄₁₈",
+     "⁴⁄₆"
+    ],
+    "loesung": [
+     "²⁄₃"
+    ],
+    "erklaerung": "84 und 126 haben den grössten gemeinsamen Teiler 42: 84 : 42 = 2 und 126 : 42 = 3.",
+    "fehler": [
+     {
+      "antwort": "⁴²⁄₆₃",
+      "diagnoseId": "nur_halbiert",
+      "feedback": "Nur durch 2 gekürzt. 42 und 63 lassen sich weiter kürzen. Beide sind durch 21 teilbar."
+     },
+     {
+      "antwort": "¹²⁄₁₈",
+      "diagnoseId": "nicht_zu_ende_gekuerzt",
+      "feedback": "Noch nicht fertig: 12 und 18 haben den Teiler 6 gemeinsam."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze vollständig:\n\n⁹⁶⁄₁₄₄",
+    "optionen": [
+     "²⁄₃",
+     "⁴⁸⁄₇₂",
+     "⁸⁄₁₂",
+     "³⁄₂"
+    ],
+    "loesung": [
+     "²⁄₃"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 96 und 144 ist 48: 96 : 48 = 2 und 144 : 48 = 3.",
+    "fehler": [
+     {
+      "antwort": "⁴⁸⁄₇₂",
+      "diagnoseId": "nur_halbiert",
+      "feedback": "Erst einmal halbiert. Weiterkürzen: 48 und 72 haben den Teiler 24 gemeinsam."
+     },
+     {
+      "antwort": "³⁄₂",
+      "diagnoseId": "umgedreht",
+      "feedback": "Zähler und Nenner sind vertauscht. Der Bruch ist kleiner als 1, weil 96 kleiner ist als 144."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch ist gleich gross wie ³⁄₇?",
+    "optionen": [
+     "¹²⁄₂₈",
+     "⁶⁄₂₁",
+     "⁹⁄₁₄",
+     "³⁄₁₄"
+    ],
+    "loesung": [
+     "¹²⁄₂₈"
+    ],
+    "erklaerung": "Erweitert wird mit derselben Zahl oben und unten: 3 · 4 = 12 und 7 · 4 = 28.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₂₁",
+      "diagnoseId": "nur_einen_faktor",
+      "feedback": "Der Zähler wurde mit 2, der Nenner mit 3 multipliziert. Beim Erweitern gilt für beide dieselbe Zahl."
+     },
+     {
+      "antwort": "³⁄₁₄",
+      "diagnoseId": "nur_nenner_erweitert",
+      "feedback": "Nur der Nenner wurde verdoppelt. Damit halbiert sich der Wert des Bruchs."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n¹⁄₂ + ¹⁄₃ + ¹⁄₆",
+    "optionen": [
+     "1",
+     "³⁄₁₁",
+     "⁶⁄₁₁",
+     "³⁄₆"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Gemeinsamer Nenner 6: ³⁄₆ + ²⁄₆ + ¹⁄₆ = ⁶⁄₆ = 1.",
+    "fehler": [
+     {
+      "antwort": "³⁄₁₁",
+      "diagnoseId": "zaehler_und_nenner_addiert",
+      "feedback": "Zähler und Nenner wurden einzeln addiert. Setze alle drei Brüche zuerst auf den Nenner 6."
+     },
+     {
+      "antwort": "⁶⁄₁₁",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Die Nenner wurden zusammengezählt. Der gemeinsame Nenner ist das kleinste gemeinsame Vielfache, hier 6, nicht ihre Summe."
+     },
+     {
+      "antwort": "³⁄₆",
+      "diagnoseId": "einen_summanden_vergessen",
+      "feedback": "Das sind erst zwei der drei Brüche zusammen. Der dritte fehlt noch."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n¹¹⁄₁₂ − ⁵⁄₈",
+    "optionen": [
+     "⁷⁄₂₄",
+     "⁶⁄₄",
+     "⁶⁄₂₄",
+     "¹⁄₃"
+    ],
+    "loesung": [
+     "⁷⁄₂₄"
+    ],
+    "erklaerung": "Gemeinsamer Nenner 24: ²²⁄₂₄ − ¹⁵⁄₂₄ = ⁷⁄₂₄.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₄",
+      "diagnoseId": "zaehler_und_nenner_subtrahiert",
+      "feedback": "Zähler und Nenner werden nicht einzeln verrechnet."
+     },
+     {
+      "antwort": "⁶⁄₂₄",
+      "diagnoseId": "nur_einen_erweitert",
+      "feedback": "Der zweite Bruch wurde nicht erweitert: Aus ⁵⁄₈ werden ¹⁵⁄₂₄."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n²⁄₅ : ⁴⁄₁₅",
+    "optionen": [
+     "³⁄₂",
+     "⁸⁄₇₅",
+     "²⁄₃",
+     "³⁰⁄₂₀"
+    ],
+    "loesung": [
+     "³⁄₂"
+    ],
+    "erklaerung": "Kehrwert: ²⁄₅ · ¹⁵⁄₄ = ³⁰⁄₂₀ = ³⁄₂.",
+    "fehler": [
+     {
+      "antwort": "⁸⁄₇₅",
+      "diagnoseId": "nicht_umgedreht",
+      "feedback": "Du hast multipliziert statt geteilt. Der hintere Bruch muss umgedreht werden."
+     },
+     {
+      "antwort": "²⁄₃",
+      "diagnoseId": "kehrwert_der_loesung",
+      "feedback": "Zähler und Nenner sind vertauscht. Der Wert ist grösser als 1, weil ²⁄₅ grösser ist als ⁴⁄₁₅."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Bruchrechnen ohne Taschenrechner",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-zahlen-vergleichen",
+  "lernzielId": "MS.1.04",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Rechne nie beide Seiten ganz aus. Suche eine Form, in der sich die beiden vergleichen lassen.",
+   "Eine Wurzel liegt zwischen den beiden Quadratzahlen, die sie einschliessen: √50 liegt zwischen 7 und 8.",
+   "Bei Zehnerpotenzen entscheidet zuerst die Hochzahl, erst danach die Zahl davor."
+  ],
+  "loesungsweg": [
+   "Bring beide Seiten in dieselbe Form: beide als Potenz, beide als Wurzel oder beide als gewöhnliche Zahl.",
+   "Bei Wurzeln hilft das Quadrieren: Was quadriert grösser ist, ist auch selbst grösser.",
+   "Bei Zehnerpotenzen zuerst die Hochzahlen vergleichen.",
+   "Achte auf Vorzeichen: Eine negative Zahl ist immer kleiner als eine positive."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n√81  ___  81",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "<"
+    ],
+    "erklaerung": "√81 ist 9, und 9 ist kleiner als 81. Die Wurzel einer Zahl grösser als 1 ist immer kleiner als die Zahl selbst.",
+    "fehler": [
+     {
+      "antwort": ">",
+      "diagnoseId": "wurzel_ueberschaetzt",
+      "feedback": "Die Wurzel macht eine Zahl grösser als 1 kleiner, nicht grösser: aus 81 wird 9."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "wurzel_uebersehen",
+      "feedback": "Das Wurzelzeichen wurde übersehen. √81 ist 9, nicht 81."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n5³  ___  555",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "<"
+    ],
+    "erklaerung": "5³ ist 5 · 5 · 5 = 125, und 125 ist kleiner als 555.",
+    "fehler": [
+     {
+      "antwort": ">",
+      "diagnoseId": "potenz_als_wiederholung",
+      "feedback": "5³ heisst nicht «555». Die Hochzahl sagt, wie oft die 5 als FAKTOR auftritt: 5 · 5 · 5."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "potenz_als_wiederholung",
+      "feedback": "5³ ist 125, nicht die dreimal hingeschriebene Ziffer 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\neine Billion  ___  10¹²",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "="
+    ],
+    "erklaerung": "Eine Billion ist eine Eins mit zwölf Nullen, also genau 10¹².",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "billion_zu_klein",
+      "feedback": "Eine Billion hat zwölf Nullen. Genau so viele, wie die Hochzahl sagt."
+     },
+     {
+      "antwort": ">",
+      "diagnoseId": "billion_zu_gross",
+      "feedback": "Eine Billion ist nicht grösser als 10¹², sondern genau das."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n√2 + √2  ___  √4",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "√2 ist ungefähr 1,41; zweimal ergibt das rund 2,83. √4 ist genau 2.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "wurzeln_addiert",
+      "feedback": "√2 + √2 ist nicht √4. Wurzeln lassen sich nicht wie Zahlen unter dem Wurzelzeichen addieren."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "wurzeln_addiert",
+      "feedback": "Das wäre nur richtig, wenn man die Zahlen unter der Wurzel addieren dürfte. Das darf man nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n10⁻⁶  ___  −60",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "10⁻⁶ ist ein Millionstel und damit positiv. Jede positive Zahl ist grösser als jede negative.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "minus_in_der_hochzahl",
+      "feedback": "Das Minus steht in der HOCHZAHL, nicht vor der Zahl. 10⁻⁶ ist winzig, aber positiv."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "minus_in_der_hochzahl",
+      "feedback": "Ein Minus in der Hochzahl macht die Zahl klein, nicht negativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n11 : √11  ___  √11",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "="
+    ],
+    "erklaerung": "11 : √11 ist √11, denn √11 · √11 ergibt 11.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "wurzel_unterschaetzt",
+      "feedback": "Rechne rückwärts: √11 · √11 ergibt genau 11. Also ist 11 : √11 gleich √11."
+     },
+     {
+      "antwort": ">",
+      "diagnoseId": "wurzel_unterschaetzt",
+      "feedback": "Setze zur Probe ein: √11 mal √11 ergibt 11. Die beiden Seiten sind gleich."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n2⁵  ___  5²",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "2⁵ heisst 2·2·2·2·2 und ergibt 32; 5² heisst 5·5 und ergibt 25. Basis und Hochzahl sind nicht vertauschbar.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "basis_und_hochzahl_vertauscht",
+      "feedback": "Basis und Hochzahl sind nicht vertauschbar: 2⁵ ist 32, 5² ist 25."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "basis_und_hochzahl_vertauscht",
+      "feedback": "2⁵ und 5² sind verschieden. 32 gegen 25."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n3 · 10⁴  ___  2 · 10⁵",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "<"
+    ],
+    "erklaerung": "Bei Zehnerpotenzen entscheidet zuerst die Hochzahl: 10⁵ ist zehnmal grösser als 10⁴, und die 3 gegen die 2 gleicht das nicht aus.",
+    "fehler": [
+     {
+      "antwort": ">",
+      "diagnoseId": "vorfaktor_entscheidet",
+      "feedback": "Die 3 ist zwar grösser als die 2, aber die Hochzahl wiegt schwerer: 30 000 gegen 200 000."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "hochzahl_uebersehen",
+      "feedback": "Die Hochzahlen sind verschieden, damit sind die Zahlen es auch."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n√0,81  ___  0,81",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "√0,81 ist 0,9. Bei Zahlen ZWISCHEN 0 und 1 macht die Wurzel die Zahl grösser.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "regel_von_grossen_zahlen",
+      "feedback": "Für Zahlen über 1 stimmt das. Hier nicht. Bei 0,81 ist die Wurzel 0,9 und damit grösser."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "wurzel_uebersehen",
+      "feedback": "0,9 ist nicht 0,81. Prüfe mit dem Quadrat: 0,9 · 0,9 ergibt 0,81."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n(−3)²  ___  −9",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "Eine negative Zahl im Quadrat wird positiv: (−3)² ist 9.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "minus_mitgenommen",
+      "feedback": "Das Minus steht IN der Klammer und wird mitquadriert: minus mal minus ergibt plus."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "minus_mitgenommen",
+      "feedback": "(−3)² ist +9, nicht −9. Die Klammer entscheidet."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n2 Millionen  ___  2 · 10⁶",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "="
+    ],
+    "erklaerung": "Eine Million ist 10⁶, zwei Millionen sind 2 · 10⁶.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "million_zu_klein",
+      "feedback": "Eine Million hat sechs Nullen. Genau so viele, wie die Hochzahl sagt."
+     },
+     {
+      "antwort": ">",
+      "diagnoseId": "million_zu_gross",
+      "feedback": "Beide Seiten meinen dieselbe Zahl: zwei Millionen sind 2 · 10⁶."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n√49 + √4  ___  √53",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     ">"
+    ],
+    "erklaerung": "Links steht 7 + 2 = 9. √53 liegt zwischen 7 und 8, ist also kleiner.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "wurzeln_addiert",
+      "feedback": "Wurzeln lassen sich nicht unter dem Zeichen addieren: √49 + √4 ist nicht √53."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "wurzeln_addiert",
+      "feedback": "Das wäre nur so, wenn man die Zahlen unter der Wurzel zusammenzählen dürfte."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n0,5³  ___  0,5",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "<"
+    ],
+    "erklaerung": "0,5³ ist 0,125. Wer eine Zahl zwischen 0 und 1 potenziert, macht sie kleiner.",
+    "fehler": [
+     {
+      "antwort": ">",
+      "diagnoseId": "regel_von_grossen_zahlen",
+      "feedback": "Bei Zahlen über 1 wächst die Potenz, bei Zahlen zwischen 0 und 1 schrumpft sie."
+     },
+     {
+      "antwort": "=",
+      "diagnoseId": "potenz_uebersehen",
+      "feedback": "0,5³ ist 0,125, nicht 0,5. Die Hochzahl 3 darf nicht übersehen werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n10⁻³  ___  0,001",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "="
+    ],
+    "erklaerung": "Eine negative Hochzahl verschiebt das Komma nach links: 10⁻³ ist ein Tausendstel.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "hochzahl_falsch_gelesen",
+      "feedback": "Drei Stellen nach links ergeben genau 0,001."
+     },
+     {
+      "antwort": ">",
+      "diagnoseId": "hochzahl_falsch_gelesen",
+      "feedback": "10⁻³ ist nicht grösser als 0,001, sondern genau das."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das richtige Zeichen ein:\n\n7 · 10³  ___  7000",
+    "optionen": [
+     "<",
+     ">",
+     "="
+    ],
+    "loesung": [
+     "="
+    ],
+    "erklaerung": "Drei Stellen nach rechts: aus 7 werden 7000.",
+    "fehler": [
+     {
+      "antwort": "<",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Zähle die Nullen: die Hochzahl 3 ergibt genau drei."
+     },
+     {
+      "antwort": ">",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "7 · 10³ ist genau 7000, nicht mehr und nicht weniger."
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "<",
+   ">",
+   "="
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Zahlen vergleichen ohne Taschenrechner",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-wissenschaftliche-sg",
+  "lernzielId": "MS.5.06",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.06",
+   "1.05",
+   "1.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Vor der Zehnerpotenz steht immer eine Zahl von 1 bis unter 10.",
+   "Die Hochzahl sagt, um wie viele Stellen das Komma verschoben wird, nach rechts bei positiver, nach links bei negativer Hochzahl.",
+   "Beim Multiplizieren werden die Hochzahlen addiert, beim Dividieren subtrahiert."
+  ],
+  "loesungsweg": [
+   "Verschiebe das Komma, bis vorne genau eine Ziffer ungleich null steht.",
+   "Zähle die Stellen. Das ist der Betrag der Hochzahl.",
+   "Wurde die Zahl beim Verschieben kleiner, ist die Hochzahl positiv.",
+   "Prüfe am Schluss: Steht vorne wirklich eine Zahl zwischen 1 und 10?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Schreibe in wissenschaftlicher Schreibweise:\n\n0,000 065",
+    "optionen": [
+     "6,5·10⁻⁵",
+     "6,5·10⁻⁴",
+     "65·10⁻⁶",
+     "6,5·10⁵"
+    ],
+    "loesung": [
+     "6,5·10⁻⁵"
+    ],
+    "erklaerung": "Das Komma wandert fünf Stellen nach rechts, bis vorne die 6 steht. Weil die Zahl dabei grösser wird, ist die Hochzahl negativ.",
+    "fehler": [
+     {
+      "antwort": "6,5·10⁻⁴",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Zähle noch einmal: von der ursprünglichen Kommastelle bis hinter die erste Ziffer ungleich null sind es fünf Stellen."
+     },
+     {
+      "antwort": "6,5·10⁵",
+      "diagnoseId": "vorzeichen_der_hochzahl",
+      "feedback": "0,000 065 ist eine sehr kleine Zahl. Eine positive Hochzahl machte sie riesig."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe in wissenschaftlicher Schreibweise:\n\n4 200 000",
+    "optionen": [
+     "4,2·10⁶",
+     "4,2·10⁷",
+     "42·10⁵",
+     "4,2·10⁻⁶"
+    ],
+    "loesung": [
+     "4,2·10⁶"
+    ],
+    "erklaerung": "Von 4,2 bis 4 200 000 wandert das Komma sechs Stellen nach rechts.",
+    "fehler": [
+     {
+      "antwort": "4,2·10⁷",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Zähle die Stellen: nach der 42 folgen fünf Nullen, das Komma wandert sechs Stellen."
+     },
+     {
+      "antwort": "42·10⁵",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "42 ist grösser als 10. Vor der Zehnerpotenz steht eine Zahl von 1 bis unter 10."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als gewöhnliche Zahl:\n\n2,4·10⁵",
+    "optionen": [
+     "240 000",
+     "24 000",
+     "2 400 000",
+     "0,000 024"
+    ],
+    "loesung": [
+     "240 000"
+    ],
+    "erklaerung": "Fünf Stellen nach rechts: aus 2,4 werden 240 000.",
+    "fehler": [
+     {
+      "antwort": "24 000",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Das sind nur vier Stellen. Die Hochzahl 5 verlangt fünf."
+     },
+     {
+      "antwort": "0,000 024",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "Bei positiver Hochzahl wird die Zahl grösser, das Komma wandert nach rechts."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis wissenschaftlich an:\n\n(4·10⁵) · (2,5·10³)",
+    "optionen": [
+     "1·10⁹",
+     "10·10⁸",
+     "1·10⁸",
+     "6,5·10⁸"
+    ],
+    "loesung": [
+     "1·10⁹"
+    ],
+    "erklaerung": "4 · 2,5 ergibt 10, und 10⁵ · 10³ ergibt 10⁸. Aus 10·10⁸ wird 1·10⁹.",
+    "fehler": [
+     {
+      "antwort": "10·10⁸",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "Der Wert stimmt, die Form nicht: 10 ist nicht kleiner als 10. Verschiebe um eine Stelle."
+     },
+     {
+      "antwort": "6,5·10⁸",
+      "diagnoseId": "zahlen_addiert",
+      "feedback": "Die Zahlen vor den Potenzen werden multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis wissenschaftlich an:\n\n(9·10⁻³) : (3·10²)",
+    "optionen": [
+     "3·10⁻⁵",
+     "3·10⁻¹",
+     "3·10⁵",
+     "6·10⁻⁵"
+    ],
+    "loesung": [
+     "3·10⁻⁵"
+    ],
+    "erklaerung": "9 : 3 ergibt 3, und bei den Hochzahlen wird subtrahiert: −3 minus 2 ergibt −5.",
+    "fehler": [
+     {
+      "antwort": "3·10⁻¹",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Dividieren werden die Hochzahlen subtrahiert: −3 − 2 = −5."
+     },
+     {
+      "antwort": "6·10⁻⁵",
+      "diagnoseId": "zahlen_subtrahiert",
+      "feedback": "Die Zahlen vor den Potenzen werden dividiert: 9 : 3 = 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Sekunden hat ein Tag? Gib das Ergebnis wissenschaftlich an.",
+    "optionen": [
+     "8,64·10⁴",
+     "8,64·10³",
+     "86,4·10³",
+     "8,64·10⁵"
+    ],
+    "loesung": [
+     "8,64·10⁴"
+    ],
+    "erklaerung": "24 · 60 · 60 ergibt 86 400. Das Komma wandert vier Stellen nach links.",
+    "fehler": [
+     {
+      "antwort": "86,4·10³",
+      "diagnoseId": "vorfaktor_zu_gross",
+      "feedback": "Der Wert stimmt, die Form nicht: Vor der Potenz darf nur eine Ziffer stehen."
+     },
+     {
+      "antwort": "8,64·10³",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "86 400 hat fünf Stellen; das Komma wandert vier davon nach links."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl ist die grösste?",
+    "optionen": [
+     "3·10⁻²",
+     "8·10⁻³",
+     "45·10⁻⁴",
+     "2,9·10⁻²"
+    ],
+    "loesung": [
+     "3·10⁻²"
+    ],
+    "erklaerung": "Auf 10⁻³ gebracht: 30, 8, 4,5 und 29. Mal 10⁻³. Die erste ist die grösste.",
+    "fehler": [
+     {
+      "antwort": "8·10⁻³",
+      "diagnoseId": "vorfaktor_verglichen",
+      "feedback": "Die 8 ist zwar gross, die Potenz aber zehnmal kleiner. Bring alle auf dieselbe Zehnerpotenz."
+     },
+     {
+      "antwort": "45·10⁻⁴",
+      "diagnoseId": "vorfaktor_verglichen",
+      "feedback": "45 ist der grösste Vorfaktor, doch 10⁻⁴ ist die kleinste Potenz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Virus misst 120 nm. Wie viele Meter sind das? Ein Nanometer ist 10⁻⁹ m.",
+    "optionen": [
+     "1,2·10⁻⁷ m",
+     "1,2·10⁻⁸ m",
+     "120·10⁻⁹ m",
+     "1,2·10⁻¹⁰ m"
+    ],
+    "loesung": [
+     "1,2·10⁻⁷ m"
+    ],
+    "erklaerung": "120·10⁻⁹ m ist der Wert. Aus 120 wird 1,2, und die Hochzahl steigt dabei um 2 auf −7.",
+    "fehler": [
+     {
+      "antwort": "120·10⁻⁹ m",
+      "diagnoseId": "form_nicht_fertig",
+      "feedback": "Der Wert stimmt, die Form nicht: 120 ist grösser als 10."
+     },
+     {
+      "antwort": "1,2·10⁻¹⁰ m",
+      "diagnoseId": "richtung_der_anpassung",
+      "feedback": "Wird der Vorfaktor kleiner, muss die Hochzahl grösser werden. Sonst ändert sich der Wert."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis wissenschaftlich an:\n\n(3·10⁴)²",
+    "optionen": [
+     "9·10⁸",
+     "9·10⁶",
+     "6·10⁸",
+     "3·10⁸"
+    ],
+    "loesung": [
+     "9·10⁸"
+    ],
+    "erklaerung": "Beide Faktoren werden quadriert: 3² ergibt 9, und (10⁴)² ergibt 10⁸.",
+    "fehler": [
+     {
+      "antwort": "9·10⁶",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Bei einer Potenz von einer Potenz werden die Hochzahlen multipliziert: 4·2 = 8."
+     },
+     {
+      "antwort": "6·10⁸",
+      "diagnoseId": "zahl_verdoppelt",
+      "feedback": "3² ist 9, nicht 6. Quadrieren heisst mit sich selbst multiplizieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Vorsilbe steht für den Faktor 10⁹?",
+    "optionen": [
+     "Giga",
+     "Mega",
+     "Kilo",
+     "Tera"
+    ],
+    "loesung": [
+     "Giga"
+    ],
+    "erklaerung": "Kilo ist 10³, Mega 10⁶, Giga 10⁹, Tera 10¹². Je Stufe der Faktor tausend.",
+    "fehler": [
+     {
+      "antwort": "Mega",
+      "diagnoseId": "eine_stufe_zu_tief",
+      "feedback": "Mega steht für 10⁶. Giga ist die nächste Stufe darüber."
+     },
+     {
+      "antwort": "Tera",
+      "diagnoseId": "eine_stufe_zu_hoch",
+      "feedback": "Tera steht für 10¹². Tausendmal mehr als gesucht."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und gib das Ergebnis wissenschaftlich an:\n\n5·10⁴ + 3·10⁵",
+    "optionen": [
+     "3,5·10⁵",
+     "8·10⁹",
+     "8·10⁵",
+     "3,5·10⁴"
+    ],
+    "loesung": [
+     "3,5·10⁵"
+    ],
+    "erklaerung": "Erst auf dieselbe Potenz bringen: 0,5·10⁵ + 3·10⁵ ergibt 3,5·10⁵.",
+    "fehler": [
+     {
+      "antwort": "8·10⁹",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Addiert wird hier, nicht multipliziert. Die Hochzahlen bleiben stehen."
+     },
+     {
+      "antwort": "8·10⁵",
+      "diagnoseId": "potenzen_gleichgesetzt",
+      "feedback": "5·10⁴ ist nicht 5·10⁵. Bring beide Zahlen zuerst auf dieselbe Zehnerpotenz."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als gewöhnliche Zahl:\n\n7,05·10⁻³",
+    "optionen": [
+     "0,007 05",
+     "0,070 5",
+     "0,000 705",
+     "7050"
+    ],
+    "loesung": [
+     "0,007 05"
+    ],
+    "erklaerung": "Drei Stellen nach links: aus 7,05 wird 0,007 05.",
+    "fehler": [
+     {
+      "antwort": "0,070 5",
+      "diagnoseId": "stellen_verzaehlt",
+      "feedback": "Das sind nur zwei Stellen. Die Hochzahl −3 verlangt drei."
+     },
+     {
+      "antwort": "7050",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "Ein Minus in der Hochzahl macht die Zahl kleiner, nicht grösser."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Abstand Erde–Sonne beträgt rund 150 Millionen km. Wie schreibt man das wissenschaftlich in Kilometern?",
+    "optionen": [
+     "1,5·10⁸ km",
+     "1,5·10⁶ km",
+     "150·10⁶ km",
+     "1,5·10⁹ km"
+    ],
+    "loesung": [
+     "1,5·10⁸ km"
+    ],
+    "erklaerung": "150 Millionen sind 150 000 000. Das Komma wandert acht Stellen nach links.",
+    "fehler": [
+     {
+      "antwort": "150·10⁶ km",
+      "diagnoseId": "form_nicht_fertig",
+      "feedback": "Der Wert stimmt, die Form nicht: 150 ist grösser als 10."
+     },
+     {
+      "antwort": "1,5·10⁶ km",
+      "diagnoseId": "million_direkt_uebernommen",
+      "feedback": "10⁶ ist eine Million. 150 Millionen sind 1,5·10⁸, weil aus der 150 noch zwei Stellen dazukommen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Wissenschaftliche Schreibweise",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-gleichungen-sonderfaelle",
+  "lernzielId": "MS.2.07",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "2.07",
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Forme die Gleichung um, als suchtest du x. Was am Schluss dasteht, verrät die Antwort.",
+   "Bleibt eine falsche Aussage stehen, etwa 0 = 5, hat die Gleichung keine Lösung.",
+   "Bleibt eine wahre Aussage stehen, etwa 0 = 0, ist jede Zahl eine Lösung."
+  ],
+  "loesungsweg": [
+   "Multipliziere alle Klammern aus.",
+   "Bringe alle x auf eine Seite und alle Zahlen auf die andere.",
+   "Steht vor dem x eine Zahl ungleich null, gibt es genau eine Lösung.",
+   "Fällt das x weg, entscheidet die übrig gebliebene Aussage: wahr heisst unendlich viele, falsch heisst keine."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n2x + 5 = 2x + 9",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "keine Lösung"
+    ],
+    "erklaerung": "Die x fallen weg, übrig bleibt 5 = 9. Das ist falsch, also gibt es keine Zahl, die passt.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "x_faellt_weg_uebersehen",
+      "feedback": "Auf beiden Seiten steht 2x. Sie heben sich auf, und ohne x bleibt keine Gleichung mehr, die man lösen könnte."
+     },
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Übrig bleibt 5 = 9. Eine falsche Aussage. Unendlich viele Lösungen gäbe es nur bei einer wahren."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n3(x − 2) = 3x − 6",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "unendlich viele Lösungen"
+    ],
+    "erklaerung": "Rechts steht dasselbe wie links, nur ausmultipliziert. Übrig bleibt 0 = 0, und das stimmt für jede Zahl.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "umformung_uebersehen",
+      "feedback": "Multipliziere die Klammer aus: 3x − 6. Beide Seiten sind identisch."
+     },
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Übrig bleibt eine WAHRE Aussage. Damit passt jede Zahl, nicht keine."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n4x − 7 = 2x + 9",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "genau eine Lösung"
+    ],
+    "erklaerung": "Vor dem x bleibt 4 − 2 = 2 stehen. Durch diese Zahl lässt sich teilen, also gibt es genau eine Lösung.",
+    "fehler": [
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "x_faellt_weg_vermutet",
+      "feedback": "Die x fallen hier nicht weg: 4x und 2x sind verschieden."
+     },
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "x_faellt_weg_vermutet",
+      "feedback": "Nur wenn das x ganz verschwindet und eine wahre Aussage bleibt. Hier bleibt 2x stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n5(x + 1) = 5x + 1",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "keine Lösung"
+    ],
+    "erklaerung": "Links steht 5x + 5, rechts 5x + 1. Die x fallen weg, übrig bleibt 5 = 1. Falsch.",
+    "fehler": [
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "klammer_falsch_ausmultipliziert",
+      "feedback": "Die 5 gilt für beide Glieder: 5·1 ergibt 5, nicht 1. Damit sind die Seiten verschieden."
+     },
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "x_faellt_weg_uebersehen",
+      "feedback": "Nach dem Ausmultiplizieren steht beidseits 5x. Es hebt sich auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\nx + x + 3 = 2x + 3",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "unendlich viele Lösungen"
+    ],
+    "erklaerung": "Links zusammengefasst steht 2x + 3. Genau dasselbe wie rechts.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "nicht_zusammengefasst",
+      "feedback": "Fasse die linke Seite zuerst zusammen: x + x ergibt 2x."
+     },
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Beide Seiten sind gleich. Damit ist jede Zahl eine Lösung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n6x − 4 = 2(3x − 2)",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "unendlich viele Lösungen"
+    ],
+    "erklaerung": "Rechts ausmultipliziert steht 6x − 4. Dasselbe wie links.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "klammer_nicht_ausmultipliziert",
+      "feedback": "Multipliziere aus: 2·3x ergibt 6x, 2·(−2) ergibt −4."
+     },
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Die beiden Seiten stimmen überein; das ergibt eine wahre Aussage."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n7x + 2 = 7x − 2",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "keine Lösung"
+    ],
+    "erklaerung": "Die x heben sich auf, übrig bleibt 2 = −2. Das stimmt nie.",
+    "fehler": [
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Übrig bleibt eine falsche Aussage. Damit passt keine Zahl."
+     },
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "x_faellt_weg_uebersehen",
+      "feedback": "Auf beiden Seiten steht 7x. Es verschwindet beim Sortieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n2(x + 4) = 3x − 1",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "genau eine Lösung"
+    ],
+    "erklaerung": "Links ausmultipliziert steht 2x + 8. Vor dem x bleibt 3 − 2 = 1 stehen.",
+    "fehler": [
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "x_faellt_weg_vermutet",
+      "feedback": "2x und 3x sind verschieden; das x fällt nicht weg."
+     },
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "x_faellt_weg_vermutet",
+      "feedback": "Dafür müssten beide Seiten identisch sein. Sie sind es nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n9 − x = −(x − 9)",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "unendlich viele Lösungen"
+    ],
+    "erklaerung": "Rechts das Minus verteilen: −x + 9. Das ist dasselbe wie links.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Das Minus vor der Klammer dreht beide Vorzeichen um: aus x wird −x, aus −9 wird +9."
+     },
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Beide Seiten sind gleich. Das ergibt eine wahre Aussage."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n4(x − 1) = 4x − 1",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "keine Lösung"
+    ],
+    "erklaerung": "Links steht 4x − 4, rechts 4x − 1. Die x fallen weg, übrig bleibt −4 = −1.",
+    "fehler": [
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "klammer_falsch_ausmultipliziert",
+      "feedback": "Die 4 gilt auch für die −1: 4·(−1) ergibt −4, nicht −1."
+     },
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "x_faellt_weg_uebersehen",
+      "feedback": "Auf beiden Seiten steht 4x. Beim Sortieren heben sie sich auf, und ohne x bleibt nichts mehr zu lösen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\nx : 2 + 3 = (x + 6) : 2",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "unendlich viele Lösungen"
+    ],
+    "erklaerung": "Rechts aufgeteilt steht x : 2 + 3. Dasselbe wie links.",
+    "fehler": [
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "bruch_nicht_zerlegt",
+      "feedback": "Ein Bruch mit einer Summe im Zähler lässt sich aufteilen: (x + 6) : 2 ist x : 2 + 3."
+     },
+     {
+      "antwort": "keine Lösung",
+      "diagnoseId": "wahr_und_falsch_verwechselt",
+      "feedback": "Die Seiten sind gleich, also stimmt die Gleichung für jede Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat diese Gleichung?\n\n3x + 8 = 8 + 3x + 1",
+    "optionen": [
+     "genau eine Lösung",
+     "keine Lösung",
+     "unendlich viele Lösungen"
+    ],
+    "loesung": [
+     "keine Lösung"
+    ],
+    "erklaerung": "Rechts steht 3x + 9. Die x fallen weg, übrig bleibt 8 = 9.",
+    "fehler": [
+     {
+      "antwort": "unendlich viele Lösungen",
+      "diagnoseId": "zahl_uebersehen",
+      "feedback": "Rechts steht zusätzlich eine 1. Damit sind die beiden Seiten nicht gleich."
+     },
+     {
+      "antwort": "genau eine Lösung",
+      "diagnoseId": "x_faellt_weg_uebersehen",
+      "feedback": "Auf beiden Seiten steht 3x. Es verschwindet."
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "genau eine Lösung",
+   "keine Lösung",
+   "unendlich viele Lösungen"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Gleichungen ohne und mit unendlich vielen Lösungen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-terme-binome",
+  "lernzielId": "MS.2.03",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "2.03",
+   "2.04",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zusammenfassen darf man nur, was dieselbe Variable in derselben Potenz trägt: 3x² und 5x² ja, 3x² und 5x nein.",
+   "Die drei binomischen Formeln: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².",
+   "Beim mittleren Glied steht immer der Faktor 2. Es entsteht zweimal."
+  ],
+  "loesungsweg": [
+   "Ordne den Term: gleiche Glieder nebeneinander.",
+   "Fasse nur zusammen, was dieselbe Variable in derselben Potenz hat.",
+   "Bei einem Quadrat einer Klammer: erstes Glied quadriert, zweimal das Produkt, letztes Glied quadriert.",
+   "Zur Probe eine Zahl einsetzen. Links und rechts muss dasselbe herauskommen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Fasse zusammen:\n\n5x + 3y − 2x + 7y",
+    "optionen": [
+     "3x + 10y",
+     "13xy",
+     "3x + 4y",
+     "7x + 10y"
+    ],
+    "loesung": [
+     "3x + 10y"
+    ],
+    "erklaerung": "x und y sind verschiedene Variablen und werden getrennt gezählt: 5x − 2x ergibt 3x, 3y + 7y ergibt 10y.",
+    "fehler": [
+     {
+      "antwort": "13xy",
+      "diagnoseId": "alles_zusammengezaehlt",
+      "feedback": "x und y lassen sich nicht zusammenfassen. Nur Glieder mit derselben Variablen gehören zusammen."
+     },
+     {
+      "antwort": "3x + 4y",
+      "diagnoseId": "vorzeichen_beim_y",
+      "feedback": "Bei den y steht zweimal ein Plus: 3y + 7y ergibt 10y, nicht 4y."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n4a² − 6a + a² + 9a",
+    "optionen": [
+     "5a² + 3a",
+     "8a²",
+     "5a² + 15a",
+     "3a² + 3a"
+    ],
+    "loesung": [
+     "5a² + 3a"
+    ],
+    "erklaerung": "a² und a sind verschiedene Potenzen: 4a² + a² ergibt 5a², −6a + 9a ergibt 3a.",
+    "fehler": [
+     {
+      "antwort": "8a²",
+      "diagnoseId": "potenzen_vermischt",
+      "feedback": "a² und a lassen sich nicht zusammenzählen. Sie sind so verschieden wie eine Fläche und eine Länge."
+     },
+     {
+      "antwort": "5a² + 15a",
+      "diagnoseId": "vorzeichen_uebersehen",
+      "feedback": "Vor der 6a steht ein Minus: −6a + 9a ergibt 3a, nicht 15a."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x + 5)²",
+    "optionen": [
+     "x² + 10x + 25",
+     "x² + 25",
+     "x² + 5x + 25",
+     "x² + 10x + 10"
+    ],
+    "loesung": [
+     "x² + 10x + 25"
+    ],
+    "erklaerung": "Erste binomische Formel: x², dazu zweimal x·5 und schliesslich 5².",
+    "fehler": [
+     {
+      "antwort": "x² + 25",
+      "diagnoseId": "mittleres_glied_fehlt",
+      "feedback": "(x + 5)² ist nicht x² + 5². Setze x = 1 ein: links 36, rechts 26. Das mittlere Glied fehlt."
+     },
+     {
+      "antwort": "x² + 5x + 25",
+      "diagnoseId": "faktor_zwei_vergessen",
+      "feedback": "Das mittlere Glied entsteht ZWEIMAL: einmal x·5 und einmal 5·x. Darum 10x."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(3a − 4)²",
+    "optionen": [
+     "9a² − 24a + 16",
+     "9a² + 16",
+     "3a² − 24a + 16",
+     "9a² − 12a + 16"
+    ],
+    "loesung": [
+     "9a² − 24a + 16"
+    ],
+    "erklaerung": "Zweite binomische Formel: (3a)² = 9a², zweimal 3a·4 = 24a mit Minus, und 4² = 16.",
+    "fehler": [
+     {
+      "antwort": "3a² − 24a + 16",
+      "diagnoseId": "faktor_nicht_quadriert",
+      "feedback": "Die 3 gehört mit in die Klammer: (3a)² ist 9a², nicht 3a²."
+     },
+     {
+      "antwort": "9a² − 12a + 16",
+      "diagnoseId": "faktor_zwei_vergessen",
+      "feedback": "Das mittlere Glied ist 2·3a·4 = 24a. Der Faktor 2 fehlt."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(2y + 7)(2y − 7)",
+    "optionen": [
+     "4y² − 49",
+     "4y² + 49",
+     "4y² − 28y − 49",
+     "2y² − 49"
+    ],
+    "loesung": [
+     "4y² − 49"
+    ],
+    "erklaerung": "Dritte binomische Formel: Plus mal Minus ergibt die Differenz der Quadrate, das mittlere Glied hebt sich auf.",
+    "fehler": [
+     {
+      "antwort": "4y² − 28y − 49",
+      "diagnoseId": "mittleres_glied_erfunden",
+      "feedback": "Die mittleren Glieder heben sich hier gerade auf: −14y + 14y ergibt null."
+     },
+     {
+      "antwort": "2y² − 49",
+      "diagnoseId": "faktor_nicht_quadriert",
+      "feedback": "Die 2 gehört mit in die Klammer und wird mitquadriert: (2y)² ist 4y², nicht 2y²."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke:\n\n(−4x + ___)² = 16x² − 16xy + 4y²",
+    "optionen": [
+     "2y",
+     "4y",
+     "y",
+     "−2y"
+    ],
+    "loesung": [
+     "2y"
+    ],
+    "erklaerung": "Das letzte Glied ist 4y², also ist die gesuchte Zahl 2y. Probe am mittleren Glied: 2·(−4x)·2y ergibt −16xy.",
+    "fehler": [
+     {
+      "antwort": "4y",
+      "diagnoseId": "letztes_glied_falsch",
+      "feedback": "Dann stünde am Schluss 16y², nicht 4y². Gesucht ist die Wurzel aus 4y²."
+     },
+     {
+      "antwort": "−2y",
+      "diagnoseId": "vorzeichen_doppelt",
+      "feedback": "Das Minus steht schon beim ersten Glied. Mit −2y würde das mittlere Glied positiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke:\n\n(___ − 5y)² = 9x² − 30xy + 25y²",
+    "optionen": [
+     "3x",
+     "9x",
+     "x",
+     "−3x"
+    ],
+    "loesung": [
+     "3x"
+    ],
+    "erklaerung": "Das erste Glied ist 9x², also ist die gesuchte Zahl 3x. Probe: 2·3x·5y ergibt 30xy.",
+    "fehler": [
+     {
+      "antwort": "9x",
+      "diagnoseId": "erstes_glied_falsch",
+      "feedback": "Dann stünde vorne 81x². Gesucht ist die Wurzel aus 9x²."
+     },
+     {
+      "antwort": "−3x",
+      "diagnoseId": "vorzeichen_doppelt",
+      "feedback": "Mit −3x würde das mittlere Glied positiv. Im Term steht dort ein Minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(3x − 1)² − (1 + 3x)²",
+    "optionen": [
+     "−12x",
+     "0",
+     "12x",
+     "18x² + 2"
+    ],
+    "loesung": [
+     "−12x"
+    ],
+    "erklaerung": "Ausmultipliziert: 9x² − 6x + 1 minus 9x² + 6x + 1. Die Quadrate und die Einsen heben sich auf, übrig bleibt −12x.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "klammern_gleichgesetzt",
+      "feedback": "Die beiden Klammern sind nicht gleich: in der einen steht ein Minus, in der anderen ein Plus."
+     },
+     {
+      "antwort": "12x",
+      "diagnoseId": "vorzeichen_verkehrt",
+      "feedback": "Der zweite Term ist der grössere; die Differenz ist negativ. Prüfe mit x = 1: 4 − 16 ergibt −12."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n7m − (3m − 8)",
+    "optionen": [
+     "4m + 8",
+     "4m − 8",
+     "10m − 8",
+     "4m"
+    ],
+    "loesung": [
+     "4m + 8"
+    ],
+    "erklaerung": "Das Minus vor der Klammer dreht beide Vorzeichen um: aus −3m wird abgezogen, aus −8 wird +8.",
+    "fehler": [
+     {
+      "antwort": "4m − 8",
+      "diagnoseId": "minus_nicht_verteilt",
+      "feedback": "Das Minus gilt für die ganze Klammer. Aus −(−8) wird +8."
+     },
+     {
+      "antwort": "10m − 8",
+      "diagnoseId": "klammer_addiert",
+      "feedback": "Vor der Klammer steht ein Minus, kein Plus. 7m − 3m ergibt 4m."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x − 6)(x + 2)",
+    "optionen": [
+     "x² − 4x − 12",
+     "x² − 12",
+     "x² + 8x − 12",
+     "x² − 4x + 12"
+    ],
+    "loesung": [
+     "x² − 4x − 12"
+    ],
+    "erklaerung": "Jedes Glied mit jedem: x² + 2x − 6x − 12. Die mittleren Glieder ergeben zusammen −4x.",
+    "fehler": [
+     {
+      "antwort": "x² − 12",
+      "diagnoseId": "mittlere_glieder_vergessen",
+      "feedback": "Es fehlen die gemischten Glieder. Setze x = 1 ein: links −7, rechts −11."
+     },
+     {
+      "antwort": "x² − 4x + 12",
+      "diagnoseId": "vorzeichen_am_schluss",
+      "feedback": "Minus mal Plus ergibt Minus: (−6)·(+2) ist −12."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n2(x + 3) + 3(x − 1)",
+    "optionen": [
+     "5x + 3",
+     "5x + 9",
+     "5x + 2",
+     "6x + 3"
+    ],
+    "loesung": [
+     "5x + 3"
+    ],
+    "erklaerung": "Ausmultiplizieren: 2x + 6 und 3x − 3. Zusammen 5x + 3.",
+    "fehler": [
+     {
+      "antwort": "5x + 9",
+      "diagnoseId": "vorzeichen_in_zweiter_klammer",
+      "feedback": "In der zweiten Klammer steht ein Minus: 3·(−1) ergibt −3, nicht +3."
+     },
+     {
+      "antwort": "5x + 2",
+      "diagnoseId": "faktor_nicht_verteilt",
+      "feedback": "Die 3 gilt für beide Glieder der zweiten Klammer, also auch für die −1."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke:\n\n(2a + ___)(2a − ___) = 4a² − 9",
+    "optionen": [
+     "3",
+     "9",
+     "6",
+     "−3"
+    ],
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Nach der dritten binomischen Formel ist die gesuchte Zahl die Wurzel aus 9.",
+    "fehler": [
+     {
+      "antwort": "9",
+      "diagnoseId": "wurzel_nicht_gezogen",
+      "feedback": "Dann stünde am Schluss 81. Gesucht ist die Zahl, deren Quadrat 9 ergibt."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "faktor_verwechselt",
+      "feedback": "6 wäre das mittlere Glied, wenn es eines gäbe. Bei der dritten binomischen Formel fällt es weg."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n5x² · 3x³",
+    "optionen": [
+     "15x⁵",
+     "15x⁶",
+     "8x⁵",
+     "15x"
+    ],
+    "loesung": [
+     "15x⁵"
+    ],
+    "erklaerung": "Zahlen multiplizieren, bei gleicher Basis die Hochzahlen addieren: 5·3 und 2 + 3.",
+    "fehler": [
+     {
+      "antwort": "15x⁶",
+      "diagnoseId": "hochzahlen_multipliziert",
+      "feedback": "Multipliziert werden die Hochzahlen nur bei einer Potenz in einer Potenz. Hier werden sie addiert."
+     },
+     {
+      "antwort": "8x⁵",
+      "diagnoseId": "zahlen_addiert",
+      "feedback": "Die Zahlen vor den Variablen werden multipliziert: 5 · 3 ergibt 15."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n(a + b)² − (a² + b²)",
+    "optionen": [
+     "2ab",
+     "0",
+     "a²b²",
+     "2ab − 2b²"
+    ],
+    "loesung": [
+     "2ab"
+    ],
+    "erklaerung": "(a + b)² ist a² + 2ab + b². Zieht man a² + b² ab, bleibt genau das mittlere Glied.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "binom_zu_einfach",
+      "feedback": "(a + b)² ist nicht a² + b². Genau die Differenz ist gefragt, und die ist nicht null."
+     },
+     {
+      "antwort": "a²b²",
+      "diagnoseId": "potenzen_multipliziert",
+      "feedback": "Aus einer Differenz wird kein Produkt. Rechne die Klammer zuerst aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(4 − x)²",
+    "optionen": [
+     "16 − 8x + x²",
+     "16 + x²",
+     "16 − 4x + x²",
+     "16 − 8x − x²"
+    ],
+    "loesung": [
+     "16 − 8x + x²"
+    ],
+    "erklaerung": "Zweite binomische Formel: 4² = 16, zweimal 4·x = 8x mit Minus, und x².",
+    "fehler": [
+     {
+      "antwort": "16 + x²",
+      "diagnoseId": "mittleres_glied_fehlt",
+      "feedback": "Setze x = 1 ein: links 9, rechts 17. Das mittlere Glied fehlt."
+     },
+     {
+      "antwort": "16 − 8x − x²",
+      "diagnoseId": "letztes_glied_vorzeichen",
+      "feedback": "Auch (−x)² ist positiv: minus mal minus ergibt plus."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Terme zusammenfassen und binomische Formeln",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-terme-fuer-folgen",
+  "lernzielId": "MS.5.04",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.04",
+   "5.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Rechne zuerst die Differenz von einer Figur zur nächsten aus. Sie steht im Term vor dem n.",
+   "Prüfe dann bei Figur 1: Welche Zahl muss dazu, damit der Term stimmt?",
+   "Setze zur Kontrolle eine zweite Figurnummer ein. Beide müssen passen."
+  ],
+  "loesungsweg": [
+   "Differenz zwischen zwei aufeinanderfolgenden Figuren bestimmen: das ist der Faktor vor n.",
+   "Faktor mal 1 rechnen und mit Figur 1 vergleichen: Die Differenz ist die Zahl, die dazukommt.",
+   "Term aufschreiben und mit einer zweiten Figur prüfen.",
+   "Wächst die Folge nicht gleichmässig, hilft ein Blick auf die Quadrate: 1, 4, 9, 16."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Die Folge lautet 2, 7, 12, 17, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "5n − 3",
+     "5n + 2",
+     "5n",
+     "n + 5"
+    ],
+    "loesung": [
+     "5n − 3"
+    ],
+    "erklaerung": "Je Schritt kommen 5 dazu, also steht 5n im Term. Für n = 1 ergibt 5 − 3 = 2. Das passt.",
+    "fehler": [
+     {
+      "antwort": "5n + 2",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Für n = 1 ergäbe das 7, nicht 2. Der Startwert stimmt nicht."
+     },
+     {
+      "antwort": "n + 5",
+      "diagnoseId": "faktor_und_summand_vertauscht",
+      "feedback": "Die 5 ist die Differenz je Schritt und gehört vor das n, nicht dahinter."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 3, 6, 9, 12, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "3n",
+     "3n + 3",
+     "n + 3",
+     "3n − 3"
+    ],
+    "loesung": [
+     "3n"
+    ],
+    "erklaerung": "Je Schritt kommen 3 dazu, und für n = 1 ergibt 3·1 genau 3. Es kommt nichts dazu.",
+    "fehler": [
+     {
+      "antwort": "3n + 3",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Setze n = 1 ein: Das ergäbe 6, die erste Figur hat aber 3. Der Term muss auch für die erste Figur stimmen."
+     },
+     {
+      "antwort": "n + 3",
+      "diagnoseId": "faktor_und_summand_vertauscht",
+      "feedback": "Die Folge wächst um 3 je Schritt. Die 3 gehört vor das n."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 4, 9, 14, 19, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "5n − 1",
+     "5n + 4",
+     "4n + 5",
+     "5n"
+    ],
+    "loesung": [
+     "5n − 1"
+    ],
+    "erklaerung": "Differenz 5, also 5n. Für n = 1 muss 4 herauskommen: 5 − 1 = 4.",
+    "fehler": [
+     {
+      "antwort": "5n + 4",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Für n = 1 ergäbe das 9. Die erste Figur hat aber 4."
+     },
+     {
+      "antwort": "4n + 5",
+      "diagnoseId": "faktor_und_summand_vertauscht",
+      "feedback": "Der Faktor vor dem n ist die Differenz, hier 5, nicht der Startwert."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 0, 7, 14, 21, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "7n − 7",
+     "7n",
+     "7n + 7",
+     "n − 7"
+    ],
+    "loesung": [
+     "7n − 7"
+    ],
+    "erklaerung": "Differenz 7. Für n = 1 muss 0 herauskommen: 7 − 7 = 0.",
+    "fehler": [
+     {
+      "antwort": "7n",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Für n = 1 ergäbe das 7, die erste Figur hat aber 0."
+     },
+     {
+      "antwort": "7n + 7",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Für n = 1 ergäbe das 14. Zwei Schritte zu weit."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 1, 4, 9, 16, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "n²",
+     "3n − 2",
+     "n + 3",
+     "2n²"
+    ],
+    "loesung": [
+     "n²"
+    ],
+    "erklaerung": "Die Differenzen sind 3, 5, 7. Sie wachsen selbst. Das sind die Quadratzahlen.",
+    "fehler": [
+     {
+      "antwort": "3n − 2",
+      "diagnoseId": "gleichmaessig_angenommen",
+      "feedback": "Das passt für die ersten zwei Figuren, dann nicht mehr: Für n = 3 ergäbe es 7, nicht 9."
+     },
+     {
+      "antwort": "2n²",
+      "diagnoseId": "faktor_erfunden",
+      "feedback": "Für n = 1 ergäbe das 2, die erste Figur hat aber 1."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 5, 8, 11, 14, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "3n + 2",
+     "3n + 5",
+     "5n + 3",
+     "3n − 2"
+    ],
+    "loesung": [
+     "3n + 2"
+    ],
+    "erklaerung": "Differenz 3, also 3n. Für n = 1 muss 5 herauskommen: 3 + 2 = 5.",
+    "fehler": [
+     {
+      "antwort": "3n + 5",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Setze n = 1 ein: Das ergäbe 8, die erste Figur hat aber 5. Prüfe jeden Term an der ersten Figur."
+     },
+     {
+      "antwort": "3n − 2",
+      "diagnoseId": "vorzeichen_verkehrt",
+      "feedback": "Für n = 1 ergäbe das 1. Die Zahl muss dazugezählt, nicht abgezogen werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 10, 8, 6, 4, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "12 − 2n",
+     "2n + 10",
+     "10 − 2n",
+     "n − 2"
+    ],
+    "loesung": [
+     "12 − 2n"
+    ],
+    "erklaerung": "Die Folge fällt um 2 je Schritt, also steht −2n im Term. Für n = 1 muss 10 herauskommen: 12 − 2 = 10.",
+    "fehler": [
+     {
+      "antwort": "10 − 2n",
+      "diagnoseId": "erste_figur_nicht_geprueft",
+      "feedback": "Setze n = 1 ein: Das ergäbe 8, die erste Figur hat aber 10. Der Startwert wird um einen Schritt zu früh gezählt."
+     },
+     {
+      "antwort": "2n + 10",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "Die Folge wird kleiner, nicht grösser. Vor dem n muss ein Minus stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 6, 11, 16, 21, … Wie viele sind es bei Figur 30?",
+    "optionen": [
+     "151",
+     "156",
+     "150",
+     "180"
+    ],
+    "loesung": [
+     "151"
+    ],
+    "erklaerung": "Der Term ist 5n + 1. Für n = 30 ergibt das 150 + 1 = 151.",
+    "fehler": [
+     {
+      "antwort": "156",
+      "diagnoseId": "schritte_verzaehlt",
+      "feedback": "Das wäre 5·31. Von Figur 1 bis 30 sind es 29 Schritte, nicht 31."
+     },
+     {
+      "antwort": "180",
+      "diagnoseId": "start_ignoriert",
+      "feedback": "Das wäre 6·30. Die Folge wächst um 5 je Schritt, nicht um 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 2, 6, 12, 20, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "n² + n",
+     "4n − 2",
+     "2n²",
+     "n² + 1"
+    ],
+    "loesung": [
+     "n² + n"
+    ],
+    "erklaerung": "Die Differenzen sind 4, 6, 8. Sie wachsen. Für n = 1 ergibt 1 + 1 = 2, für n = 2 ergibt 4 + 2 = 6.",
+    "fehler": [
+     {
+      "antwort": "4n − 2",
+      "diagnoseId": "gleichmaessig_angenommen",
+      "feedback": "Das passt nur für die ersten zwei Figuren. Für n = 3 ergäbe es 10, nicht 12."
+     },
+     {
+      "antwort": "2n²",
+      "diagnoseId": "erste_figur_geprueft_zweite_nicht",
+      "feedback": "Für n = 1 stimmt es, für n = 2 ergäbe es 8 statt 6."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 100, 95, 90, 85, … Bei welcher Figur ist der Wert 50?",
+    "optionen": [
+     "Figur 11",
+     "Figur 10",
+     "Figur 12",
+     "Figur 50"
+    ],
+    "loesung": [
+     "Figur 11"
+    ],
+    "erklaerung": "Der Term ist 105 − 5n. Aus 105 − 5n = 50 folgt 5n = 55, also n = 11.",
+    "fehler": [
+     {
+      "antwort": "Figur 10",
+      "diagnoseId": "schritte_verzaehlt",
+      "feedback": "Bei Figur 10 wäre der Wert 55. Ein Schritt fehlt noch."
+     },
+     {
+      "antwort": "Figur 12",
+      "diagnoseId": "schritte_verzaehlt",
+      "feedback": "Bei Figur 12 wäre der Wert bereits 45. Einer zu weit."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge der Würfelzahlen lautet 0, 7, 26, 63, … Welcher Term gilt für Figur n?",
+    "optionen": [
+     "n³ − 1",
+     "n³",
+     "7n − 7",
+     "n² − 1"
+    ],
+    "loesung": [
+     "n³ − 1"
+    ],
+    "erklaerung": "1, 8, 27, 64 sind die Kubikzahlen; jeweils eins weniger ergibt die Folge.",
+    "fehler": [
+     {
+      "antwort": "7n − 7",
+      "diagnoseId": "gleichmaessig_angenommen",
+      "feedback": "Das passt für die ersten zwei Figuren. Für n = 3 ergäbe es 14, nicht 26."
+     },
+     {
+      "antwort": "n² − 1",
+      "diagnoseId": "falsche_potenz",
+      "feedback": "Für n = 3 ergäbe das 8, nicht 26. Die Folge wächst schneller. Es sind Kubikzahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Die Folge lautet 1, 3, 5, 7, … Wie viele sind es bei Figur 48?",
+    "optionen": [
+     "95",
+     "96",
+     "97",
+     "48"
+    ],
+    "loesung": [
+     "95"
+    ],
+    "erklaerung": "Der Term ist 2n − 1. Für n = 48 ergibt das 96 − 1 = 95.",
+    "fehler": [
+     {
+      "antwort": "96",
+      "diagnoseId": "minus_eins_vergessen",
+      "feedback": "2·48 ist 96, aber der Term endet auf −1. Prüfe an Figur 1: 2 − 1 ergibt 1."
+     },
+     {
+      "antwort": "97",
+      "diagnoseId": "vorzeichen_verkehrt",
+      "feedback": "Bei +1 ergäbe Figur 1 den Wert 3, die Folge beginnt aber bei 1."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Den Term einer Folge finden",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-konstruktion-ortslinien",
+  "lernzielId": "MS.6.08",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.08",
+   "6.09"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage bei jeder Konstruktion zuerst: Welche Bedingung müssen die gesuchten Punkte erfüllen?",
+   "«Gleich weit von zwei Punkten» ist immer die Mittelsenkrechte. «Gleich weit von zwei Geraden» ist immer die Winkelhalbierende.",
+   "«Höchstens so weit entfernt» ergibt eine Kreisfläche, «genau so weit entfernt» nur die Kreislinie."
+  ],
+  "loesungsweg": [
+   "Übersetze die Bedingung in eine Ortslinie: Kreis, Mittelsenkrechte, Winkelhalbierende oder Parallele.",
+   "Zeichne jede Ortslinie einzeln.",
+   "Der gesuchte Punkt liegt dort, wo sich die Ortslinien schneiden.",
+   "Bei zwei Bedingungen gibt es oft zwei Schnittpunkte. Beide gehören zur Lösung."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Gesucht ist ein Punkt P, der von den drei Punkten A, B und C gleich weit entfernt ist. Wie findet man ihn?",
+    "optionen": [
+     "Als Schnittpunkt der Mittelsenkrechten von AB und BC",
+     "Als Schnittpunkt der Winkelhalbierenden",
+     "Als Mittelpunkt der Strecke AC",
+     "Als Schnittpunkt der Höhen"
+    ],
+    "loesung": [
+     "Als Schnittpunkt der Mittelsenkrechten von AB und BC"
+    ],
+    "erklaerung": "Alle Punkte, die von A und B gleich weit entfernt sind, liegen auf der Mittelsenkrechten von AB. Dasselbe gilt für B und C. Der Schnittpunkt erfüllt beide Bedingungen.",
+    "fehler": [
+     {
+      "antwort": "Als Schnittpunkt der Winkelhalbierenden",
+      "diagnoseId": "ortslinie_verwechselt",
+      "feedback": "Die Winkelhalbierenden schneiden sich im Inkreismittelpunkt. Er ist von den SEITEN gleich weit entfernt, nicht von den Ecken."
+     },
+     {
+      "antwort": "Als Mittelpunkt der Strecke AC",
+      "diagnoseId": "zwei_statt_drei_punkte",
+      "feedback": "Der Mittelpunkt von AC ist nur von A und C gleich weit entfernt. Von B in der Regel nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Ortslinie beschreibt alle Punkte, die von einer Geraden g genau 2 cm Abstand haben?",
+    "optionen": [
+     "Zwei Parallelen zu g, je 2 cm entfernt",
+     "Eine Parallele zu g",
+     "Ein Kreis mit Radius 2 cm",
+     "Die Mittelsenkrechte von g"
+    ],
+    "loesung": [
+     "Zwei Parallelen zu g, je 2 cm entfernt"
+    ],
+    "erklaerung": "Der Abstand kann auf beiden Seiten der Geraden liegen. Darum zwei Parallelen.",
+    "fehler": [
+     {
+      "antwort": "Eine Parallele zu g",
+      "diagnoseId": "eine_seite_vergessen",
+      "feedback": "Eine Gerade hat zwei Seiten. Auf jeder liegt eine Parallele im Abstand 2 cm."
+     },
+     {
+      "antwort": "Ein Kreis mit Radius 2 cm",
+      "diagnoseId": "punkt_statt_gerade",
+      "feedback": "Ein Kreis beschreibt den Abstand zu einem PUNKT, nicht zu einer Geraden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man den Umkreis eines Dreiecks ABC?",
+    "optionen": [
+     "Zwei Mittelsenkrechte schneiden, dann Kreis durch A schlagen",
+     "Zwei Winkelhalbierende schneiden, dann Kreis durch A schlagen",
+     "Den Mittelpunkt der längsten Seite nehmen",
+     "Zwei Höhen schneiden, dann Kreis durch A schlagen"
+    ],
+    "loesung": [
+     "Zwei Mittelsenkrechte schneiden, dann Kreis durch A schlagen"
+    ],
+    "erklaerung": "Der Umkreismittelpunkt ist von allen drei Ecken gleich weit entfernt. Das leisten die Mittelsenkrechten.",
+    "fehler": [
+     {
+      "antwort": "Zwei Winkelhalbierende schneiden, dann Kreis durch A schlagen",
+      "diagnoseId": "umkreis_und_inkreis",
+      "feedback": "Die Winkelhalbierenden ergeben den INkreismittelpunkt. Der Umkreis geht durch die Ecken."
+     },
+     {
+      "antwort": "Den Mittelpunkt der längsten Seite nehmen",
+      "diagnoseId": "sonderfall_verallgemeinert",
+      "feedback": "Das stimmt nur beim rechtwinkligen Dreieck. Im allgemeinen Fall liegt der Mittelpunkt anderswo."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht sind alle Punkte, die von A höchstens 3 cm entfernt sind. Was ergibt das?",
+    "optionen": [
+     "Die Kreisfläche um A mit Radius 3 cm, Rand eingeschlossen",
+     "Die Kreislinie um A mit Radius 3 cm",
+     "Die Fläche ausserhalb des Kreises",
+     "Ein Quadrat mit Seitenlänge 3 cm"
+    ],
+    "loesung": [
+     "Die Kreisfläche um A mit Radius 3 cm, Rand eingeschlossen"
+    ],
+    "erklaerung": "«Höchstens» schliesst alle kleineren Abstände ein. Das ist die ganze Fläche innerhalb des Kreises samt Rand.",
+    "fehler": [
+     {
+      "antwort": "Die Kreislinie um A mit Radius 3 cm",
+      "diagnoseId": "genau_statt_hoechstens",
+      "feedback": "Die Kreislinie sind die Punkte mit GENAU 3 cm Abstand. «Höchstens» schliesst alles darin mit ein."
+     },
+     {
+      "antwort": "Die Fläche ausserhalb des Kreises",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "Draussen ist der Abstand grösser als 3 cm. Das ist das Gegenteil."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Punkte erfüllen beide Bedingungen: höchstens 4 cm von A entfernt UND mindestens 2 cm von der Geraden g entfernt?",
+    "optionen": [
+     "Die Kreisfläche um A ohne den Streifen längs g",
+     "Die ganze Kreisfläche um A",
+     "Nur der Streifen längs g",
+     "Der Kreisrand um A"
+    ],
+    "loesung": [
+     "Die Kreisfläche um A ohne den Streifen längs g"
+    ],
+    "erklaerung": "Die erste Bedingung gibt die Kreisfläche, die zweite nimmt den 2 cm breiten Streifen beidseits von g weg. Was übrig bleibt, erfüllt beides.",
+    "fehler": [
+     {
+      "antwort": "Die ganze Kreisfläche um A",
+      "diagnoseId": "zweite_bedingung_ignoriert",
+      "feedback": "Die zweite Bedingung schliesst alle Punkte nahe bei g aus. Sie fallen weg."
+     },
+     {
+      "antwort": "Nur der Streifen längs g",
+      "diagnoseId": "bedingung_umgedreht",
+      "feedback": "«Mindestens 2 cm entfernt» heisst AUSSERHALB des Streifens, nicht darin."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie halbiert man eine Strecke AB nur mit Zirkel und Lineal?",
+    "optionen": [
+     "Von A und B aus gleiche Kreisbogen schlagen und die Schnittpunkte verbinden",
+     "Die Strecke mit dem Massstab messen und halbieren",
+     "Von A aus einen Kreis mit halbem Radius schlagen",
+     "Eine Parallele zu AB zeichnen"
+    ],
+    "loesung": [
+     "Von A und B aus gleiche Kreisbogen schlagen und die Schnittpunkte verbinden"
+    ],
+    "erklaerung": "Die beiden Schnittpunkte der gleich grossen Kreisbogen liegen von A und B gleich weit entfernt. Ihre Verbindung ist die Mittelsenkrechte und trifft AB genau in der Mitte.",
+    "fehler": [
+     {
+      "antwort": "Die Strecke mit dem Massstab messen und halbieren",
+      "diagnoseId": "gemessen_statt_konstruiert",
+      "feedback": "Das wäre Messen, nicht Konstruieren. Verlangt ist eine Konstruktion mit Zirkel und Lineal."
+     },
+     {
+      "antwort": "Von A aus einen Kreis mit halbem Radius schlagen",
+      "diagnoseId": "radius_geschaetzt",
+      "feedback": "Dafür müsste man die Hälfte schon kennen. Die Konstruktion soll sie erst finden."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Inkreismittelpunkt eines Dreiecks ist von welchen Elementen gleich weit entfernt?",
+    "optionen": [
+     "Von den drei Seiten",
+     "Von den drei Ecken",
+     "Von den drei Höhenfusspunkten",
+     "Von den Mittelpunkten der Seiten"
+    ],
+    "loesung": [
+     "Von den drei Seiten"
+    ],
+    "erklaerung": "Der Inkreis berührt alle drei Seiten. Sein Mittelpunkt hat darum zu jeder Seite denselben Abstand. Er liegt auf den Winkelhalbierenden.",
+    "fehler": [
+     {
+      "antwort": "Von den drei Ecken",
+      "diagnoseId": "inkreis_und_umkreis",
+      "feedback": "Von den Ecken gleich weit entfernt ist der UMkreismittelpunkt."
+     },
+     {
+      "antwort": "Von den Mittelpunkten der Seiten",
+      "diagnoseId": "ortslinie_verwechselt",
+      "feedback": "Die Seitenmittelpunkte spielen bei den Mittelsenkrechten eine Rolle, nicht beim Inkreis."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man eine Senkrechte zu einer Geraden g durch einen Punkt P auf g?",
+    "optionen": [
+     "Von P aus zwei gleiche Abstände auf g abtragen und deren Mittelsenkrechte zeichnen",
+     "Das Geodreieck schräg anlegen",
+     "Von P aus einen Kreis schlagen und den obersten Punkt verbinden",
+     "Eine Parallele zu g durch P zeichnen"
+    ],
+    "loesung": [
+     "Von P aus zwei gleiche Abstände auf g abtragen und deren Mittelsenkrechte zeichnen"
+    ],
+    "erklaerung": "Die beiden abgetragenen Punkte liegen symmetrisch zu P. Ihre Mittelsenkrechte geht durch P und steht senkrecht auf g.",
+    "fehler": [
+     {
+      "antwort": "Von P aus einen Kreis schlagen und den obersten Punkt verbinden",
+      "diagnoseId": "oben_ist_nicht_definiert",
+      "feedback": "«Oben» ist keine geometrische Bedingung. Sie hängt davon ab, wie das Blatt liegt."
+     },
+     {
+      "antwort": "Eine Parallele zu g durch P zeichnen",
+      "diagnoseId": "senkrecht_und_parallel",
+      "feedback": "Eine Parallele läuft neben g her. Eine Senkrechte trifft sie im rechten Winkel."
+     }
+    ]
+   },
+   {
+    "stamm": "Alle Punkte, die von zwei sich schneidenden Geraden g und h gleich weit entfernt sind, liegen auf …",
+    "optionen": [
+     "den beiden Winkelhalbierenden",
+     "der Mittelsenkrechten",
+     "einem Kreis um den Schnittpunkt",
+     "einer Parallelen zu g"
+    ],
+    "loesung": [
+     "den beiden Winkelhalbierenden"
+    ],
+    "erklaerung": "An einem Geradenkreuz entstehen zwei Paare von Scheitelwinkeln. Beide Winkelhalbierenden erfüllen die Bedingung.",
+    "fehler": [
+     {
+      "antwort": "der Mittelsenkrechten",
+      "diagnoseId": "punkte_statt_geraden",
+      "feedback": "Die Mittelsenkrechte gehört zu zwei PUNKTEN, nicht zu zwei Geraden."
+     },
+     {
+      "antwort": "einem Kreis um den Schnittpunkt",
+      "diagnoseId": "abstand_verwechselt",
+      "feedback": "Auf einem Kreis ist der Abstand zum Schnittpunkt gleich, nicht der Abstand zu den Geraden."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum genügen bei der Umkreiskonstruktion zwei Mittelsenkrechte?",
+    "optionen": [
+     "Weil die dritte automatisch durch denselben Punkt geht",
+     "Weil die dritte parallel zu den anderen ist",
+     "Weil zwei Punkte einen Kreis festlegen",
+     "Weil die dritte Seite nicht gebraucht wird"
+    ],
+    "loesung": [
+     "Weil die dritte automatisch durch denselben Punkt geht"
+    ],
+    "erklaerung": "Ist ein Punkt von A und B sowie von B und C gleich weit entfernt, dann auch von A und C. Die dritte Mittelsenkrechte bringt nichts Neues.",
+    "fehler": [
+     {
+      "antwort": "Weil zwei Punkte einen Kreis festlegen",
+      "diagnoseId": "zwei_punkte_genuegen_nicht",
+      "feedback": "Zwei Punkte legen keinen Kreis fest, durch zwei Punkte gehen unendlich viele."
+     },
+     {
+      "antwort": "Weil die dritte parallel zu den anderen ist",
+      "diagnoseId": "behauptung_falsch",
+      "feedback": "Die drei Mittelsenkrechten sind nicht parallel; sie schneiden sich alle im selben Punkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Punkt, der von A genau 5 cm und von B genau 4 cm entfernt ist. Wie viele Lösungen gibt es höchstens?",
+    "optionen": [
+     "Zwei",
+     "Eine",
+     "Keine",
+     "Unendlich viele"
+    ],
+    "loesung": [
+     "Zwei"
+    ],
+    "erklaerung": "Zwei Kreise schneiden sich in höchstens zwei Punkten. Liegen A und B zu weit auseinander, gibt es gar keinen.",
+    "fehler": [
+     {
+      "antwort": "Eine",
+      "diagnoseId": "beruehrung_als_regel",
+      "feedback": "Einen einzigen Schnittpunkt gibt es nur, wenn sich die Kreise gerade berühren. Das ist der Sonderfall, nicht die Regel."
+     },
+     {
+      "antwort": "Unendlich viele",
+      "diagnoseId": "ortslinien_verwechselt",
+      "feedback": "Unendlich viele gäbe es nur, wenn beide Bedingungen dieselbe Linie beschrieben. Zwei verschiedene Kreise tun das nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was beschreibt der Thaleskreis?",
+    "optionen": [
+     "Alle Punkte, von denen aus eine Strecke unter 90° erscheint",
+     "Alle Punkte mit gleichem Abstand zu einer Geraden",
+     "Den Inkreis eines rechtwinkligen Dreiecks",
+     "Alle Punkte auf der Mittelsenkrechten"
+    ],
+    "loesung": [
+     "Alle Punkte, von denen aus eine Strecke unter 90° erscheint"
+    ],
+    "erklaerung": "Liegt C auf dem Kreis über der Strecke AB als Durchmesser, ist der Winkel bei C ein rechter. Das ist der Satz von Thales.",
+    "fehler": [
+     {
+      "antwort": "Den Inkreis eines rechtwinkligen Dreiecks",
+      "diagnoseId": "kreis_verwechselt",
+      "feedback": "Der Thaleskreis geht durch die Ecken, der Inkreis berührt die Seiten."
+     },
+     {
+      "antwort": "Alle Punkte auf der Mittelsenkrechten",
+      "diagnoseId": "ortslinie_verwechselt",
+      "feedback": "Die Mittelsenkrechte ist eine Gerade. Der Thaleskreis ist ein Kreis über AB als Durchmesser."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Konstruieren mit Zirkel und Geodreieck",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-wuerfelnetze",
+  "lernzielId": "MS.7.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "7.01",
+   "7.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Gegenüberliegende Flächen eines Würfels berühren sich im Netz nie. Zwischen ihnen liegt immer eine dritte.",
+   "Im Netz liegen Flächen einander gegenüber, wenn zwischen ihnen genau ein Feld liegt.",
+   "Bei Ansichten hilft die Frage: Wie viele Würfel stehen in dieser Spalte hintereinander? Von vorne sieht man nur den höchsten Stapel."
+  ],
+  "loesungsweg": [
+   "Suche im Netz die drei Paare gegenüberliegender Flächen.",
+   "Denke das Netz Schritt für Schritt zusammengefaltet, eine Fläche nach der anderen.",
+   "Bei Ansichten: Zeichne einen Bauplan von oben und schreibe in jedes Feld die Höhe.",
+   "Von vorne zählt in jeder Spalte der höchste Stapel, von der Seite der höchste in jeder Zeile."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ein Würfelnetz ist ein Kreuz aus sechs Feldern. Welche Flächen liegen sich beim Falten gegenüber?",
+    "optionen": [
+     "Die Felder, zwischen denen genau ein Feld liegt",
+     "Die Felder, die aneinandergrenzen",
+     "Die beiden äussersten Felder der langen Reihe",
+     "Alle Felder derselben Reihe"
+    ],
+    "loesung": [
+     "Die Felder, zwischen denen genau ein Feld liegt"
+    ],
+    "erklaerung": "Beim Falten kommen genau die Flächen einander gegenüber zu liegen, die im Netz durch ein Feld getrennt sind.",
+    "fehler": [
+     {
+      "antwort": "Die Felder, die aneinandergrenzen",
+      "diagnoseId": "gegenueber_und_benachbart",
+      "feedback": "Aneinandergrenzende Felder werden beim Falten zu benachbarten Flächen. Sie berühren sich an einer Kante."
+     },
+     {
+      "antwort": "Die beiden äussersten Felder der langen Reihe",
+      "diagnoseId": "reihenlaenge_verwechselt",
+      "feedback": "In einer Viererreihe liegen sich das erste und das dritte sowie das zweite und das vierte gegenüber, nicht das erste und das vierte."
+     }
+    ]
+   },
+   {
+    "stamm": "Auf einem Spielwürfel ergeben gegenüberliegende Augenzahlen immer 7. Welche Zahl liegt der 3 gegenüber?",
+    "optionen": [
+     "4",
+     "3",
+     "5",
+     "7"
+    ],
+    "loesung": [
+     "4"
+    ],
+    "erklaerung": "7 minus 3 ergibt 4. Die Paare sind 1 und 6, 2 und 5, 3 und 4.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "gegenueber_gleich",
+      "feedback": "Gegenüberliegende Flächen tragen nie dieselbe Zahl. Sonst käme die Summe 7 nie zustande."
+     },
+     {
+      "antwort": "7",
+      "diagnoseId": "summe_als_zahl",
+      "feedback": "7 ist die Summe der beiden Zahlen, nicht eine davon."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelkörper besteht aus Spalten von 3, 1 und 2 Würfeln Höhe. Wie hoch erscheint er von vorne in der höchsten Spalte?",
+    "optionen": [
+     "3 Würfel hoch",
+     "1 Würfel hoch",
+     "2 Würfel hoch",
+     "6 Würfel hoch"
+    ],
+    "loesung": [
+     "3 Würfel hoch"
+    ],
+    "erklaerung": "Von vorne sieht man in jeder Spalte den höchsten Stapel. Hier drei Würfel.",
+    "fehler": [
+     {
+      "antwort": "6 Würfel hoch",
+      "diagnoseId": "hoehen_addiert",
+      "feedback": "Die Höhen der Spalten werden nicht addiert. Sie stehen nebeneinander, nicht übereinander."
+     },
+     {
+      "antwort": "1 Würfel hoch",
+      "diagnoseId": "kleinste_statt_groesste",
+      "feedback": "Von vorne verdeckt der höchste Stapel die niedrigeren. Massgebend ist der höchste."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele verschiedene Netze hat ein Würfel?",
+    "optionen": [
+     "11",
+     "6",
+     "8",
+     "24"
+    ],
+    "loesung": [
+     "11"
+    ],
+    "erklaerung": "Es gibt genau elf verschiedene Würfelnetze, wenn man gedrehte und gespiegelte als gleich zählt.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechen_gezaehlt",
+      "feedback": "6 ist die Zahl der Flächen, nicht der Netze."
+     },
+     {
+      "antwort": "24",
+      "diagnoseId": "drehungen_mitgezaehlt",
+      "feedback": "24 wäre die Zahl der Lagen eines Würfels im Raum. Beim Zählen der Netze gelten gedrehte als gleich."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Bauplan von oben zeigt in einer Zeile die Zahlen 2, 3 und 1. Wie viele Würfel stehen in dieser Zeile?",
+    "optionen": [
+     "6",
+     "3",
+     "5",
+     "1"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Die Zahlen im Bauplan sagen, wie viele Würfel übereinanderstehen. Zusammen sind es 2 + 3 + 1 = 6.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "felder_gezaehlt",
+      "feedback": "3 ist die Zahl der Felder, nicht der Würfel. In jedem Feld stehen mehrere übereinander."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "kleinste_zahl",
+      "feedback": "Die kleinste Zahl gilt nur für ein einziges Feld. Gefragt ist die ganze Zeile."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über gegenüberliegende Würfelflächen stimmt?",
+    "optionen": [
+     "Sie haben keine gemeinsame Kante",
+     "Sie haben genau eine gemeinsame Kante",
+     "Sie haben eine gemeinsame Ecke",
+     "Sie liegen im Netz immer nebeneinander"
+    ],
+    "loesung": [
+     "Sie haben keine gemeinsame Kante"
+    ],
+    "erklaerung": "Gegenüberliegende Flächen berühren sich nirgends, weder an einer Kante noch an einer Ecke.",
+    "fehler": [
+     {
+      "antwort": "Sie haben genau eine gemeinsame Kante",
+      "diagnoseId": "gegenueber_und_benachbart",
+      "feedback": "Eine gemeinsame Kante haben benachbarte Flächen. Gegenüberliegende berühren sich gar nicht."
+     },
+     {
+      "antwort": "Sie liegen im Netz immer nebeneinander",
+      "diagnoseId": "netz_falsch_gelesen",
+      "feedback": "Im Netz liegt zwischen ihnen immer mindestens ein Feld."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Körper aus Würfeln erscheint von vorne als 3 mal 2 Felder. Was lässt sich daraus schliessen?",
+    "optionen": [
+     "Er ist mindestens 3 Würfel breit und 2 hoch",
+     "Er besteht aus genau 6 Würfeln",
+     "Er ist 3 Würfel tief",
+     "Er ist würfelförmig"
+    ],
+    "loesung": [
+     "Er ist mindestens 3 Würfel breit und 2 hoch"
+    ],
+    "erklaerung": "Die Ansicht von vorne zeigt Breite und Höhe. Über die Tiefe sagt sie nichts. Dahinter können weitere Würfel stehen.",
+    "fehler": [
+     {
+      "antwort": "Er besteht aus genau 6 Würfeln",
+      "diagnoseId": "tiefe_uebersehen",
+      "feedback": "Von vorne sieht man nicht, wie viele Würfel hintereinanderstehen. Es können mehr als 6 sein."
+     },
+     {
+      "antwort": "Er ist 3 Würfel tief",
+      "diagnoseId": "breite_und_tiefe_verwechselt",
+      "feedback": "Die 3 ist die Breite. Die Tiefe zeigt erst die Seitenansicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Netz ergibt KEINEN Würfel: eine Reihe aus vier Feldern mit je einem Feld oben und unten an derselben Stelle, oder eine Reihe aus sechs Feldern?",
+    "optionen": [
+     "Die Reihe aus sechs Feldern",
+     "Die Reihe aus vier Feldern mit zwei Anbauten",
+     "Beide ergeben einen Würfel",
+     "Keines von beiden"
+    ],
+    "loesung": [
+     "Die Reihe aus sechs Feldern"
+    ],
+    "erklaerung": "Eine gerade Reihe aus sechs Feldern rollt sich zu einem Rohr. Deckel und Boden fehlen. Das Kreuz dagegen faltet sich zum Würfel.",
+    "fehler": [
+     {
+      "antwort": "Die Reihe aus vier Feldern mit zwei Anbauten",
+      "diagnoseId": "netz_falsch_beurteilt",
+      "feedback": "Das ist eines der elf gültigen Netze: vier Felder als Mantel, je eines für Boden und Deckel."
+     },
+     {
+      "antwort": "Beide ergeben einen Würfel",
+      "diagnoseId": "rohr_uebersehen",
+      "feedback": "Sechs Felder in einer Reihe ergeben ein offenes Rohr, keinen geschlossenen Würfel."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfel wird von 3 mal 3 mal 3 kleinen Würfeln gebildet. Wie viele kleine Würfel haben keine bemalte Fläche, wenn der grosse aussen ganz bemalt wird?",
+    "optionen": [
+     "1",
+     "6",
+     "8",
+     "27"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Nur der Würfel genau in der Mitte berührt keine Aussenfläche.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechenmitten_gezaehlt",
+      "feedback": "6 wäre die Zahl der Würfel in den Flächenmitten. Die tragen je eine bemalte Fläche."
+     },
+     {
+      "antwort": "8",
+      "diagnoseId": "ecken_gezaehlt",
+      "feedback": "8 ist die Zahl der Eckwürfel; sie tragen sogar drei bemalte Flächen."
+     }
+    ]
+   },
+   {
+    "stamm": "Von welcher Seite zeigt eine Ansicht die Tiefe eines Körpers?",
+    "optionen": [
+     "Von der Seite",
+     "Von vorne",
+     "Von oben und von vorne zugleich",
+     "Von keiner"
+    ],
+    "loesung": [
+     "Von der Seite"
+    ],
+    "erklaerung": "Die Seitenansicht zeigt Tiefe und Höhe, die Vorderansicht Breite und Höhe, die Draufsicht Breite und Tiefe.",
+    "fehler": [
+     {
+      "antwort": "Von vorne",
+      "diagnoseId": "ansichten_verwechselt",
+      "feedback": "Von vorne sieht man Breite und Höhe. Wie tief der Körper ist, bleibt verborgen."
+     },
+     {
+      "antwort": "Von keiner",
+      "diagnoseId": "behauptung_falsch",
+      "feedback": "Seitenansicht und Draufsicht zeigen die Tiefe beide."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Bauplan enthält nur Einsen. Was für ein Körper entsteht?",
+    "optionen": [
+     "Eine flache Platte aus einer Würfelschicht",
+     "Ein Würfel",
+     "Ein Turm aus einer Reihe",
+     "Ein leerer Bauplan"
+    ],
+    "loesung": [
+     "Eine flache Platte aus einer Würfelschicht"
+    ],
+    "erklaerung": "Jede Eins bedeutet einen einzigen Würfel in diesem Feld. Zusammen ergibt das eine Schicht von einem Würfel Höhe.",
+    "fehler": [
+     {
+      "antwort": "Ein Würfel",
+      "diagnoseId": "hoehe_erfunden",
+      "feedback": "Für einen Würfel müssten die Zahlen so gross sein wie die Anzahl Felder in einer Reihe."
+     },
+     {
+      "antwort": "Ein Turm aus einer Reihe",
+      "diagnoseId": "spalte_statt_flaeche",
+      "feedback": "Ein Turm entstünde bei einem einzigen Feld mit einer grossen Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Auf einem Spielwürfel sind die Augenzahlen 1, 2 und 3 um eine gemeinsame Ecke angeordnet. Wo liegt die 6?",
+    "optionen": [
+     "Der 1 gegenüber",
+     "Der 2 gegenüber",
+     "Der 3 gegenüber",
+     "Neben der 1"
+    ],
+    "loesung": [
+     "Der 1 gegenüber"
+    ],
+    "erklaerung": "Gegenüberliegende Zahlen ergeben zusammen 7, und 7 minus 6 ergibt 1.",
+    "fehler": [
+     {
+      "antwort": "Der 2 gegenüber",
+      "diagnoseId": "paare_verwechselt",
+      "feedback": "Der 2 liegt die 5 gegenüber: 2 + 5 ergibt 7."
+     },
+     {
+      "antwort": "Neben der 1",
+      "diagnoseId": "gegenueber_und_benachbart",
+      "feedback": "Neben der 1 liegen 2, 3, 4 und 5. Die 6 ist die einzige, die ihr gegenüberliegt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "thema": "Würfelnetze und Ansichten",
+  "status": "review"
+ }
+]

@@ -1,0 +1,253 @@
+{
+ "fach": "mathematik-bern-gym3",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfung GYM 3 Bern",
+ "quelle": "Kantonale Prüfungen Bern 2022-2026 für den Übertritt in eine Maturitätsschule auf Beginn des 11. Schuljahres",
+ "punkteTotal": 59,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "3.1",
+   "name": "Zahlen und Grössen",
+   "punkte": 7,
+   "anteil": 12,
+   "beschreibung": "Sehr grosse und sehr kleine Zahlen, Einheiten und sinnvolles Runden.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wissenschaftliche Schreibweise",
+     "lernzielId": "MG.1.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.02",
+     "name": "Sachrechnen mit grossen Zahlen und Einheiten",
+     "lernzielId": "MG.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Runden, Genauigkeit und Überschlag",
+     "lernzielId": "MG.1.03",
+     "pflichtset": 15
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "3.2",
+   "name": "Terme und Gleichungen",
+   "punkte": 14,
+   "anteil": 24,
+   "beschreibung": "Der grösste Block. Der Taschenrechner ist erlaubt, der Löser-Befehl nicht. Der Weg muss stehen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme vereinfachen und Potenzgesetze",
+     "lernzielId": "MG.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Lineare Gleichungen mit Brüchen",
+     "lernzielId": "MG.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Gleichung aus einem Text aufstellen",
+     "lernzielId": "MG.2.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "Lineare Gleichungssysteme lösen",
+     "lernzielId": "MG.2.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Quadratische Gleichungen lösen",
+     "lernzielId": "MG.2.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Bruch- und Wurzelgleichungen",
+     "lernzielId": "MG.2.06",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "3.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3.3",
+   "name": "Funktionen",
+   "punkte": 14,
+   "anteil": 24,
+   "beschreibung": "Lineare, quadratische und exponentielle Zusammenhänge. Erkennen, aufstellen, deuten.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wertetabelle und Graph einer Funktion",
+     "lernzielId": "MG.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Lineare Funktionen: Gleichung bestimmen",
+     "lernzielId": "MG.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Parallele Geraden und Punktprobe",
+     "lernzielId": "MG.3.03",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Lineares Modell aus einem Sachtext",
+     "lernzielId": "MG.3.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Quadratische Funktionen und ihre Nullstellen",
+     "lernzielId": "MG.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Exponentielles Wachstum, Zerfall und Halbwertszeit",
+     "lernzielId": "MG.3.06",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "3.4",
+   "name": "Prozent und Wachstum",
+   "punkte": 6,
+   "anteil": 10,
+   "beschreibung": "Prozentuale Veränderung, mehrfach hintereinander, und der Wachstumsfaktor dahinter.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Prozentuale Veränderung berechnen",
+     "lernzielId": "MG.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Mehrfache Veränderung und Wachstumsfaktor",
+     "lernzielId": "MG.4.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Zinseszins",
+     "lernzielId": "MG.4.03",
+     "pflichtset": 15,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "3.5",
+   "name": "Geometrie in der Ebene",
+   "punkte": 12,
+   "anteil": 20,
+   "beschreibung": "Pythagoras, Kreis und Ähnlichkeit, meist in einer Figur, die man erst zerlegen muss.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MG.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Kreis, Kreissektor und Kreisring",
+     "lernzielId": "MG.5.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.03",
+     "name": "Ähnlichkeit und Strahlensätze",
+     "lernzielId": "MG.5.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.04",
+     "name": "Dreiecksflächen und Höhen",
+     "lernzielId": "MG.5.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.05",
+     "name": "Zusammengesetzte Flächen zerlegen",
+     "lernzielId": "MG.5.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01",
+      "5.02"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "3.6",
+   "name": "Geometrie im Raum",
+   "punkte": 6,
+   "anteil": 10,
+   "beschreibung": "Prisma, Zylinder, Kugel, Pyramide und Kegel, mit Formelsammlung, aber mit eigenem Ansatz.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Prisma und Zylinder",
+     "lernzielId": "MG.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Kugel: Oberfläche und Volumen",
+     "lernzielId": "MG.6.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.03",
+     "name": "Pyramide und Kegel",
+     "lernzielId": "MG.6.03",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

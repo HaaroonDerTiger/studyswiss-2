@@ -1,0 +1,223 @@
+{
+ "fach": "franzoesisch-sg",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfung Französisch, Kanton St. Gallen",
+ "quelle": "Prüfungsanforderungen des Kantons St. Gallen (Dis donc! 7, Unités 1-6, und Dis donc! 8, Unité 1) sowie die Prüfungsserien 2022-2026",
+ "punkteTotal": 45,
+ "bemerkung": "Die Prüfung zählt 75 Punkte (Gymnasium 100). Teil A «Hören und Sehen» und Teil E «Schreiben» stehen nicht in diesem Baum: Für ein Hörformat gibt es noch keine Aufgabenart, und der freie Text gehört zur Textproduktion. Der Baum deckt die Teile B, C und D ab, in beiden Prüfungen zu gleichen Teilen.",
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "B",
+   "name": "Leseverstehen",
+   "punkte": 15,
+   "anteil": 33,
+   "beschreibung": "Ein Text auf Französisch, die Fragen dazu auf Deutsch. Neben richtig und falsch gibt es «nicht erwähnt», und genau dort wird geraten.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Fragen zum Text auf Deutsch beantworten",
+     "lernzielId": "FS.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Richtig, falsch oder nicht erwähnt",
+     "lernzielId": "FS.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Einzelheiten im Text auffinden",
+     "lernzielId": "FS.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Zwei Angaben zu einer Antwort verbinden",
+     "lernzielId": "FS.1.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.03"
+     ]
+    },
+    {
+     "code": "1.05",
+     "name": "Unbekannte Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "FS.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "C",
+   "name": "Wortschatz",
+   "punkte": 15,
+   "anteil": 33,
+   "beschreibung": "Der Prüfungswortschatz ist festgelegt: Alltag, Schule, Ferien, Körper, Kleidung, Uhrzeit.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Mengen und Verpackungen",
+     "lernzielId": "FS.2.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "2.02",
+     "name": "Schule und erster Schultag",
+     "lernzielId": "FS.2.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "2.03",
+     "name": "Tagesablauf und Morgenroutine",
+     "lernzielId": "FS.2.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "2.04",
+     "name": "Freizeit und Ferien",
+     "lernzielId": "FS.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Beim Arzt: Körper, Beschwerden, Ratschläge",
+     "lernzielId": "FS.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Kleidung und Aussehen",
+     "lernzielId": "FS.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Städte, Länder und Kontinente",
+     "lernzielId": "FS.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Die Uhrzeit",
+     "lernzielId": "FS.2.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.09",
+     "name": "Synonyme und Gegenteile",
+     "lernzielId": "FS.2.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.10",
+     "name": "Wortfamilien ergänzen",
+     "lernzielId": "FS.2.10",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "D",
+   "name": "Grammatik",
+   "punkte": 15,
+   "anteil": 34,
+   "beschreibung": "Die gelernten Strukturen anwenden: Zeiten, Verneinung, Fragen, Vergleich, Begleiter.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Präsens der regelmässigen Verben",
+     "lernzielId": "FS.3.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.02",
+     "name": "Präsens der unregelmässigen Verben",
+     "lernzielId": "FS.3.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.03",
+     "name": "Reflexivverben im Präsens",
+     "lernzielId": "FS.3.03",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Passé composé mit «avoir»",
+     "lernzielId": "FS.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Passé composé mit «être»",
+     "lernzielId": "FS.3.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.04"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Futur proche",
+     "lernzielId": "FS.3.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.07",
+     "name": "Adjektive angleichen",
+     "lernzielId": "FS.3.07",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.08",
+     "name": "Komparativ und Superlativ",
+     "lernzielId": "FS.3.08",
+     "pflichtset": 14,
+     "voraussetzungen": [
+      "3.07"
+     ]
+    },
+    {
+     "code": "3.09",
+     "name": "Präpositionen bei Städten, Ländern, Kontinenten",
+     "lernzielId": "FS.3.09",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.10",
+     "name": "Fragen stellen: est-ce que, Intonation, Inversion",
+     "lernzielId": "FS.3.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.11",
+     "name": "Verneinung",
+     "lernzielId": "FS.3.11",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.12",
+     "name": "Befehlsform, auch verneint",
+     "lernzielId": "FS.3.12",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.11"
+     ]
+    },
+    {
+     "code": "3.13",
+     "name": "Possessivbegleiter",
+     "lernzielId": "FS.3.13",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

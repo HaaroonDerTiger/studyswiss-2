@@ -1,0 +1,2528 @@
+[
+ {
+  "templateId": "sz-bruchterme",
+  "lernzielId": "MSZ.1.08",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.08",
+   "1.02"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Gekürzt wird nur, was in Zähler und Nenner als Faktor steht — nie einzelne Summanden.",
+   "Beim Multiplizieren von Brüchen darf man vorher über Kreuz kürzen.",
+   "Geteilt wird durch einen Bruch, indem man mit seinem Kehrwert multipliziert."
+  ],
+  "loesungsweg": [
+   "Zähler und Nenner in Faktoren zerlegen.",
+   "Gemeinsame Faktoren streichen.",
+   "Beim Multiplizieren Zähler mal Zähler, Nenner mal Nenner.",
+   "Zum Schluss prüfen, ob noch etwas zu kürzen ist."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n18xy⁄24y",
+    "loesung": [
+     "3x/4",
+     "(3x)/4",
+     "3x:4"
+    ],
+    "erklaerung": "18 und 24 haben den Teiler 6, das y steht in Zähler und Nenner als Faktor.",
+    "fehler": [
+     {
+      "antwort": "3xy/4",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Das y steht in Zähler und Nenner und lässt sich streichen."
+     },
+     {
+      "antwort": "9xy/12y",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das geht, ist aber nicht zu Ende: In 9 und 12 steckt noch die 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n7a²⁄21a",
+    "loesung": [
+     "a/3",
+     "a:3"
+    ],
+    "erklaerung": "7 und 21 haben den Teiler 7; von a² und a bleibt ein a im Zähler.",
+    "fehler": [
+     {
+      "antwort": "a²/3",
+      "diagnoseId": "potenz",
+      "feedback": "Von a² wird ein a weggekürzt; übrig bleibt ein einfaches a."
+     },
+     {
+      "antwort": "1/3a",
+      "diagnoseId": "potenz",
+      "feedback": "Das a bleibt im Zähler stehen, weil dort die grössere Potenz steht."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n(5m · 4n)⁄(10mn)",
+    "loesung": [
+     "2"
+    ],
+    "erklaerung": "Zähler 20mn, Nenner 10mn; alles kürzt sich bis auf die 2.",
+    "fehler": [
+     {
+      "antwort": "2mn",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "m und n stehen in Zähler und Nenner und heben sich vollständig auf."
+     },
+     {
+      "antwort": "20mn/10mn",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Der Bruch lässt sich vollständig kürzen; übrig bleibt eine einzige Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere und kürze.\n\n(4b⁄9) · (3⁄8b)",
+    "loesung": [
+     "1/6",
+     "1:6"
+    ],
+    "erklaerung": "Zähler 12b, Nenner 72b; gekürzt bleibt ein Sechstel.",
+    "fehler": [
+     {
+      "antwort": "12b/72b",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Der Bruch ist richtig gebildet, aber noch nicht gekürzt."
+     },
+     {
+      "antwort": "b/6",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Das b steht in Zähler und Nenner und hebt sich auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Dividiere und kürze.\n\n(c⁄4) : (c⁄12)",
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Durch einen Bruch teilt man, indem man mit dem Kehrwert multipliziert: c/4 mal 12/c.",
+    "fehler": [
+     {
+      "antwort": "c²/48",
+      "diagnoseId": "kehrwert",
+      "feedback": "Beim Teilen durch einen Bruch wird mit dem Kehrwert multipliziert, nicht mit dem Bruch selbst."
+     },
+     {
+      "antwort": "1/3",
+      "diagnoseId": "kehrwert",
+      "feedback": "Der Kehrwert des zweiten Bruchs ist 12/c; damit ergibt sich 3, nicht ein Drittel."
+     }
+    ]
+   },
+   {
+    "stamm": "Erweitere den Bruch auf den Nenner 20a.\n\n2⁄5",
+    "loesung": [
+     "8a/20a",
+     "(8a)/(20a)"
+    ],
+    "erklaerung": "Der Nenner wird mit 4a multipliziert; dasselbe geschieht mit dem Zähler.",
+    "fehler": [
+     {
+      "antwort": "2a/20a",
+      "diagnoseId": "nur_nenner",
+      "feedback": "Wer nur den Nenner erweitert, verändert den Wert des Bruchs; der Zähler wird mit demselben Faktor multipliziert."
+     },
+     {
+      "antwort": "8/20a",
+      "diagnoseId": "nur_teilweise",
+      "feedback": "Der Zähler wird mit 4a multipliziert, nicht nur mit 4."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n(3u · 8v)⁄(4u · 6v)",
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Zähler 24uv, Nenner 24uv — der Bruch ist gleich 1.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "null",
+      "feedback": "Ein Bruch mit gleichem Zähler und Nenner ist 1, nicht 0."
+     },
+     {
+      "antwort": "24uv",
+      "diagnoseId": "nenner_vergessen",
+      "feedback": "Der Nenner ist nicht verschwunden; er ist gleich gross wie der Zähler."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n35pq⁄(14q)",
+    "loesung": [
+     "5p/2",
+     "(5p)/2",
+     "5p:2"
+    ],
+    "erklaerung": "35 und 14 haben den Teiler 7, das q steht in Zähler und Nenner.",
+    "fehler": [
+     {
+      "antwort": "5pq/2",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Das q kommt in Zähler und Nenner als Faktor vor und lässt sich streichen."
+     },
+     {
+      "antwort": "7p/2",
+      "diagnoseId": "zahl",
+      "feedback": "Der grösste gemeinsame Teiler von 35 und 14 ist 7; oben bleibt 5, nicht 7."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere und kürze.\n\n(9⁄4d) · (2d⁄27)",
+    "loesung": [
+     "1/6",
+     "1:6"
+    ],
+    "erklaerung": "Zähler 18d, Nenner 108d; gekürzt bleibt ein Sechstel.",
+    "fehler": [
+     {
+      "antwort": "18d/108d",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Richtig gerechnet, aber noch nicht gekürzt: 18 und 108 haben den Teiler 18."
+     },
+     {
+      "antwort": "d/6",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Das d steht in Zähler und Nenner und hebt sich auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n(10r²s)⁄(15rs²)",
+    "loesung": [
+     "2r/(3s)",
+     "2r/3s"
+    ],
+    "erklaerung": "10 und 15 haben den Teiler 5; von r² bleibt ein r oben, von s² ein s unten.",
+    "fehler": [
+     {
+      "antwort": "2rs/3",
+      "diagnoseId": "potenz",
+      "feedback": "Das s bleibt im Nenner stehen, weil dort die grössere Potenz steht."
+     },
+     {
+      "antwort": "2/3",
+      "diagnoseId": "potenz",
+      "feedback": "r und s heben sich nicht vollständig auf: Oben bleibt ein r, unten ein s."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie heisst der Kehrwert von 5m⁄7?",
+    "loesung": [
+     "7/(5m)",
+     "7/5m"
+    ],
+    "erklaerung": "Beim Kehrwert tauschen Zähler und Nenner die Plätze.",
+    "fehler": [
+     {
+      "antwort": "-5m/7",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Der Kehrwert ist nicht das Gegenteil; Zähler und Nenner werden getauscht."
+     },
+     {
+      "antwort": "5m/7",
+      "diagnoseId": "unveraendert",
+      "feedback": "So bleibt der Bruch, wie er war; getauscht wird oben mit unten."
+     }
+    ]
+   },
+   {
+    "stamm": "Kürze so weit wie möglich.\n\n(x + y)⁄(3x + 3y)",
+    "loesung": [
+     "1/3",
+     "1:3"
+    ],
+    "erklaerung": "Im Nenner lässt sich 3 ausklammern: 3(x + y). Danach kürzt sich die Klammer weg.",
+    "fehler": [
+     {
+      "antwort": "1/(3x)",
+      "diagnoseId": "summanden",
+      "feedback": "Gekürzt werden dürfen nur Faktoren. Zuerst muss der Nenner in ein Produkt verwandelt werden."
+     },
+     {
+      "antwort": "x/3x",
+      "diagnoseId": "summanden",
+      "feedback": "Einzelne Summanden lassen sich nicht wegstreichen; klammere im Nenner zuerst die 3 aus."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Bruchterme kürzen und erweitern",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-umwandeln",
+  "lernzielId": "MSZ.1.03",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.03",
+   "1.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Bruch lässt sich als Division lesen: Zähler geteilt durch Nenner.",
+   "Prozent heisst «von hundert»: Erweitere den Bruch auf den Nenner 100.",
+   "Beim Ordnen hilft es, alles in dieselbe Schreibweise zu bringen."
+  ],
+  "loesungsweg": [
+   "Die verlangte Schreibweise bestimmen.",
+   "Den Bruch auf den Nenner 100 erweitern oder ausdividieren.",
+   "Das Ergebnis prüfen.",
+   "Zum Vergleich alle Zahlen in dieselbe Form bringen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Dezimalzahl gehört zu ³⁄₈?",
+    "optionen": [
+     "0.375",
+     "0.38",
+     "3.8",
+     "0.83"
+    ],
+    "loesung": [
+     "0.375"
+    ],
+    "erklaerung": "3 geteilt durch 8 ergibt 0.375 — eine Zahl mit drei Stellen nach dem Komma.",
+    "fehler": [
+     {
+      "antwort": "0.38",
+      "diagnoseId": "gerundet",
+      "feedback": "Das ist die gerundete Form; verlangt ist der genaue Wert."
+     },
+     {
+      "antwort": "3.8",
+      "diagnoseId": "komma",
+      "feedback": "Das Komma steht an der falschen Stelle; ³⁄₈ ist kleiner als 1."
+     },
+     {
+      "antwort": "0.83",
+      "diagnoseId": "vertauscht",
+      "feedback": "Hier sind Zähler und Nenner vertauscht worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel Prozent sind ⁷⁄₂₀?",
+    "optionen": [
+     "35 %",
+     "7 %",
+     "20 %",
+     "72 %"
+    ],
+    "loesung": [
+     "35 %"
+    ],
+    "erklaerung": "Der Bruch wird auf den Nenner 100 erweitert: 7 · 5 von 20 · 5 ergibt 35 von 100.",
+    "fehler": [
+     {
+      "antwort": "7 %",
+      "diagnoseId": "zaehler",
+      "feedback": "Der Zähler allein ist noch kein Prozentsatz; der Bruch muss auf 100 erweitert werden."
+     },
+     {
+      "antwort": "20 %",
+      "diagnoseId": "nenner",
+      "feedback": "Der Nenner sagt, in wie viele Teile das Ganze zerlegt ist."
+     },
+     {
+      "antwort": "72 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind einfach die Ziffern aneinandergereiht worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch gehört zu 0.6?",
+    "optionen": [
+     "³⁄₅",
+     "⁶⁄₅",
+     "¹⁄₆",
+     "³⁄₁₀"
+    ],
+    "loesung": [
+     "³⁄₅"
+    ],
+    "erklaerung": "0.6 sind sechs Zehntel; gekürzt ergibt das drei Fünftel.",
+    "fehler": [
+     {
+      "antwort": "⁶⁄₅",
+      "diagnoseId": "groesser_eins",
+      "feedback": "Dieser Bruch ist grösser als 1; 0.6 ist kleiner."
+     },
+     {
+      "antwort": "¹⁄₆",
+      "diagnoseId": "verwechselt",
+      "feedback": "Ein Sechstel ergibt 0.1666…, nicht 0.6; Zähler und Nenner sind vertauscht."
+     },
+     {
+      "antwort": "³⁄₁₀",
+      "diagnoseId": "haelfte",
+      "feedback": "Drei Zehntel sind 0.3, also die Hälfte von 0.6."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl ist die grösste?",
+    "optionen": [
+     "0.7",
+     "⁵⁄₈",
+     "65 %",
+     "⁰·⁶⁷ als Dezimalzahl"
+    ],
+    "loesung": [
+     "0.7"
+    ],
+    "erklaerung": "In Prozent: 0.7 sind 70 %, ⁵⁄₈ sind 62.5 %, dazu 65 % und 67 %.",
+    "fehler": [
+     {
+      "antwort": "⁵⁄₈",
+      "diagnoseId": "umrechnung",
+      "feedback": "⁵⁄₈ ergibt 0.625 und ist damit die kleinste der vier Zahlen."
+     },
+     {
+      "antwort": "65 %",
+      "diagnoseId": "umrechnung",
+      "feedback": "65 % sind 0.65 und damit kleiner als 0.7."
+     },
+     {
+      "antwort": "⁰·⁶⁷ als Dezimalzahl",
+      "diagnoseId": "umrechnung",
+      "feedback": "0.67 ist kleiner als 0.7; die zweite Stelle entscheidet nicht allein."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel Prozent sind ³⁄₄?",
+    "optionen": [
+     "75 %",
+     "34 %",
+     "43 %",
+     "0.75 %"
+    ],
+    "loesung": [
+     "75 %"
+    ],
+    "erklaerung": "Drei Viertel von hundert sind 75.",
+    "fehler": [
+     {
+      "antwort": "34 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind Zähler und Nenner einfach aneinandergehängt worden."
+     },
+     {
+      "antwort": "43 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Auch das sind nur die Ziffern in anderer Reihenfolge."
+     },
+     {
+      "antwort": "0.75 %",
+      "diagnoseId": "einheit",
+      "feedback": "0.75 ist die Dezimalzahl; als Prozentsatz sind es 75 %."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Dezimalzahl gehört zu 12 %?",
+    "optionen": [
+     "0.12",
+     "1.2",
+     "12.0",
+     "0.012"
+    ],
+    "loesung": [
+     "0.12"
+    ],
+    "erklaerung": "Prozent heisst geteilt durch 100: 12 : 100 ergibt 0.12.",
+    "fehler": [
+     {
+      "antwort": "1.2",
+      "diagnoseId": "komma",
+      "feedback": "Das Komma steht eine Stelle zu weit rechts; geteilt wird durch 100."
+     },
+     {
+      "antwort": "12.0",
+      "diagnoseId": "ohne_umrechnung",
+      "feedback": "Das ist die Prozentzahl selbst, nicht ihr Wert als Dezimalzahl."
+     },
+     {
+      "antwort": "0.012",
+      "diagnoseId": "komma",
+      "feedback": "Hier ist durch 1000 geteilt worden statt durch 100."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch ist gleich gross wie 0.25?",
+    "optionen": [
+     "¹⁄₄",
+     "¹⁄₂₅",
+     "²⁵⁄₁₀",
+     "¹⁄₅"
+    ],
+    "loesung": [
+     "¹⁄₄"
+    ],
+    "erklaerung": "0.25 sind fünfundzwanzig Hundertstel, gekürzt ein Viertel.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₂₅",
+      "diagnoseId": "ziffern",
+      "feedback": "Ein Fünfundzwanzigstel ist 0.04, nicht 0.25."
+     },
+     {
+      "antwort": "²⁵⁄₁₀",
+      "diagnoseId": "komma",
+      "feedback": "Das ergäbe 2.5, also das Zehnfache von 0.25; das Komma stünde falsch."
+     },
+     {
+      "antwort": "¹⁄₅",
+      "diagnoseId": "aehnlich",
+      "feedback": "Ein Fünftel ergibt 0.2, nicht 0.25; die beiden Brüche liegen nahe beieinander."
+     }
+    ]
+   },
+   {
+    "stamm": "Ordne der Grösse nach: Welche Zahl ist die kleinste?",
+    "optionen": [
+     "⁴⁄₉",
+     "0.5",
+     "48 %",
+     "¹⁄₂"
+    ],
+    "loesung": [
+     "⁴⁄₉"
+    ],
+    "erklaerung": "⁴⁄₉ sind rund 44 %; die drei anderen liegen bei 50, 48 und 50 Prozent.",
+    "fehler": [
+     {
+      "antwort": "0.5",
+      "diagnoseId": "umrechnung",
+      "feedback": "0.5 sind 50 % und damit mehr als ⁴⁄₉, das rund 44 % entspricht."
+     },
+     {
+      "antwort": "48 %",
+      "diagnoseId": "umrechnung",
+      "feedback": "48 % sind mehr als ⁴⁄₉, das rund 44 % entspricht."
+     },
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "umrechnung",
+      "feedback": "Ein Halbes sind 50 % und damit mehr als ⁴⁄₉, das rund 44 % entspricht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel sind 20 % von 45?",
+    "optionen": [
+     "9",
+     "2.25",
+     "22.5",
+     "90"
+    ],
+    "loesung": [
+     "9"
+    ],
+    "erklaerung": "Ein Prozent von 45 ist 0.45; mal 20 ergibt das 9.",
+    "fehler": [
+     {
+      "antwort": "2.25",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist durch 20 geteilt worden statt mit 20 multipliziert."
+     },
+     {
+      "antwort": "22.5",
+      "diagnoseId": "prozentsatz",
+      "feedback": "Das wären 50 % von 45, also die Hälfte; gefragt sind 20 %."
+     },
+     {
+      "antwort": "90",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist mit 2 multipliziert worden; 20 % sind ein Fünftel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Bruch ist grösser: ⁵⁄₆ oder ⁷⁄₉?",
+    "optionen": [
+     "⁵⁄₆",
+     "⁷⁄₉",
+     "beide gleich gross",
+     "lässt sich nicht vergleichen"
+    ],
+    "loesung": [
+     "⁵⁄₆"
+    ],
+    "erklaerung": "Auf den gemeinsamen Nenner 18 gebracht: ¹⁵⁄₁₈ gegen ¹⁴⁄₁₈.",
+    "fehler": [
+     {
+      "antwort": "⁷⁄₉",
+      "diagnoseId": "nenner",
+      "feedback": "Der grössere Nenner macht einen Bruch nicht grösser; erweitere beide auf 18."
+     },
+     {
+      "antwort": "beide gleich gross",
+      "diagnoseId": "nenner",
+      "feedback": "Erweitert ergeben sie ¹⁵⁄₁₈ und ¹⁴⁄₁₈ — nicht dasselbe."
+     },
+     {
+      "antwort": "lässt sich nicht vergleichen",
+      "diagnoseId": "verfahren",
+      "feedback": "Zwei Brüche lassen sich immer vergleichen, sobald sie denselben Nenner haben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl liegt genau zwischen 0.4 und 0.5?",
+    "optionen": [
+     "0.45",
+     "0.9",
+     "0.54",
+     "0.05"
+    ],
+    "loesung": [
+     "0.45"
+    ],
+    "erklaerung": "Der Mittelwert ist die Summe geteilt durch zwei: 0.9 : 2 ergibt 0.45.",
+    "fehler": [
+     {
+      "antwort": "0.9",
+      "diagnoseId": "summe",
+      "feedback": "Das ist die Summe der beiden Zahlen, nicht ihr Mittelwert."
+     },
+     {
+      "antwort": "0.54",
+      "diagnoseId": "ziffern",
+      "feedback": "Die Ziffern sind vertauscht; 0.54 liegt ausserhalb des Bereichs."
+     },
+     {
+      "antwort": "0.05",
+      "diagnoseId": "differenz",
+      "feedback": "Das ist die Differenz der beiden Zahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man ²⁄₅ als Prozentsatz?",
+    "optionen": [
+     "40 %",
+     "25 %",
+     "20 %",
+     "52 %"
+    ],
+    "loesung": [
+     "40 %"
+    ],
+    "erklaerung": "Auf den Nenner 100 erweitert: 2 · 20 von 5 · 20 ergibt 40 von 100.",
+    "fehler": [
+     {
+      "antwort": "25 %",
+      "diagnoseId": "verwechselt",
+      "feedback": "25 % entsprechen einem Viertel, nicht zwei Fünfteln."
+     },
+     {
+      "antwort": "20 %",
+      "diagnoseId": "teil",
+      "feedback": "20 % sind ein Fünftel; hier sind es zwei davon."
+     },
+     {
+      "antwort": "52 %",
+      "diagnoseId": "ziffern",
+      "feedback": "Hier sind die Ziffern des Bruchs vertauscht worden."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Brüche, Dezimalzahlen und Prozente",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-terme-zusammenfassen",
+  "lernzielId": "MSZ.1.05",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Nur gleiche Glieder lassen sich zusammenfassen: x zu x, y zu y, Zahlen zu Zahlen.",
+   "Vor einer Klammer mit Minus wechseln alle Vorzeichen darin.",
+   "Eine eckige Klammer wird von innen nach aussen abgebaut."
+  ],
+  "loesungsweg": [
+   "Klammern von innen nach aussen auflösen.",
+   "Auf das Vorzeichen vor jeder Klammer achten.",
+   "Gleiche Glieder zusammenzählen.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Fasse so weit wie möglich zusammen.\n\n9x + 2y − 4x + 7y",
+    "loesung": [
+     "5x + 9y",
+     "5x+9y"
+    ],
+    "erklaerung": "x-Glieder und y-Glieder werden getrennt gerechnet: 9x − 4x und 2y + 7y.",
+    "fehler": [
+     {
+      "antwort": "5x + 5y",
+      "diagnoseId": "zahlfehler",
+      "feedback": "2y und 7y ergeben zusammen 9y; der zweite Teil stimmt nicht."
+     },
+     {
+      "antwort": "14xy",
+      "diagnoseId": "ungleiche_glieder",
+      "feedback": "x und y sind verschiedene Grössen und lassen sich nicht zu einem Glied verschmelzen."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Klammer auf und fasse zusammen.\n\n8a − (3a − 5)",
+    "loesung": [
+     "5a + 5",
+     "5a+5"
+    ],
+    "erklaerung": "Vor der Klammer steht ein Minus: Beide Vorzeichen darin drehen sich um.",
+    "fehler": [
+     {
+      "antwort": "5a - 5",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Aus dem −5 in der Klammer wird beim Auflösen +5, weil das Minus davor beide Glieder betrifft."
+     },
+     {
+      "antwort": "11a - 5",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Auch das 3a wechselt das Vorzeichen: 8a − 3a ergibt 5a."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse auf und fasse zusammen.\n\n5(b + 2) − 3(b − 4)",
+    "loesung": [
+     "2b + 22",
+     "2b+22"
+    ],
+    "erklaerung": "5b + 10 minus 3b − 12, also 5b + 10 − 3b + 12.",
+    "fehler": [
+     {
+      "antwort": "2b - 2",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Aus −3 · (−4) wird +12, nicht −12; zusammen ergibt das 22."
+     },
+     {
+      "antwort": "8b + 22",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das zweite Glied wird abgezogen: 5b − 3b ergibt 2b."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n15y − [(4x + 3y) − 8y]",
+    "loesung": [
+     "20y - 4x",
+     "-4x + 20y",
+     "20y-4x"
+    ],
+    "erklaerung": "In der eckigen Klammer steht 4x − 5y; mit dem Minus davor wird daraus −4x + 5y.",
+    "fehler": [
+     {
+      "antwort": "20y + 4x",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Vor der eckigen Klammer steht ein Minus; das 4x wird abgezogen."
+     },
+     {
+      "antwort": "10y - 4x",
+      "diagnoseId": "zahlfehler",
+      "feedback": "3y − 8y ergibt −5y; zusammen mit den 15y bleiben 20y."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n5m² + 4m − 2m² + 3m",
+    "loesung": [
+     "3m² + 7m",
+     "3m^2+7m",
+     "3m²+7m"
+    ],
+    "erklaerung": "m² und m sind verschiedene Glieder: 5m² − 2m² und 4m + 3m werden getrennt gerechnet.",
+    "fehler": [
+     {
+      "antwort": "10m²",
+      "diagnoseId": "ungleiche_glieder",
+      "feedback": "m² und m lassen sich nicht zusammenzählen; sie bleiben getrennte Glieder."
+     },
+     {
+      "antwort": "3m² + m",
+      "diagnoseId": "zahlfehler",
+      "feedback": "4m + 3m ergibt 7m, nicht m. Die m-Glieder werden für sich zusammengezählt."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse auf und fasse zusammen.\n\n−2(4z − 7) + 5z",
+    "loesung": [
+     "-3z + 14",
+     "14 - 3z",
+     "-3z+14"
+    ],
+    "erklaerung": "−8z + 14, dazu 5z ergibt −3z + 14.",
+    "fehler": [
+     {
+      "antwort": "-3z - 14",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−2 mal −7 ergibt +14; zwei Minuszeichen ergeben ein Plus."
+     },
+     {
+      "antwort": "-13z + 14",
+      "diagnoseId": "zahlfehler",
+      "feedback": "−8z und +5z ergeben zusammen −3z; die beiden z-Glieder heben sich teilweise auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n4p + 5q − (p − 2q) − 3q",
+    "loesung": [
+     "3p + 4q",
+     "3p+4q"
+    ],
+    "erklaerung": "Die Klammer mit Minus davor wird zu −p + 2q; danach p-Glieder und q-Glieder ordnen.",
+    "fehler": [
+     {
+      "antwort": "3p + 6q",
+      "diagnoseId": "zahlfehler",
+      "feedback": "5q + 2q − 3q ergibt 4q, nicht 6q. Auch das −3q am Schluss zählt mit."
+     },
+     {
+      "antwort": "5p + 4q",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das p in der Klammer wird abgezogen: 4p − p ergibt 3p."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n10c − [4c − (3c − 6)]",
+    "loesung": [
+     "9c - 6",
+     "9c-6"
+    ],
+    "erklaerung": "Von innen nach aussen: In der eckigen Klammer steht 4c − 3c + 6, also c + 6; mit Minus davor bleibt 10c − c − 6.",
+    "fehler": [
+     {
+      "antwort": "9c + 6",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die innere Klammer bringt −6 mit; nach den Vorzeichenwechseln bleibt −6 stehen."
+     },
+     {
+      "antwort": "3c - 6",
+      "diagnoseId": "zahlfehler",
+      "feedback": "10c − 4c + 3c ergibt 9c. Das innere +3c kommt durch die zwei Vorzeichenwechsel zustande."
+     }
+    ]
+   },
+   {
+    "stamm": "Fülle die Lücke, damit ein gleichwertiger Term entsteht.\n\n8xy − 5xz + ______ = 14xy − 5xz",
+    "loesung": [
+     "6xy",
+     "+6xy"
+    ],
+    "erklaerung": "Auf der rechten Seite stehen 14xy; es fehlen also 6xy. Die xz-Glieder stimmen bereits.",
+    "fehler": [
+     {
+      "antwort": "14xy",
+      "diagnoseId": "ganze_zahl",
+      "feedback": "Es fehlt nur die Differenz zu den vorhandenen 8xy, nicht der ganze Betrag."
+     },
+     {
+      "antwort": "6xz",
+      "diagnoseId": "falsches_glied",
+      "feedback": "Ergänzt werden müssen xy-Glieder; die xz-Glieder stimmen schon."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n7r − 3s − (2r + s)",
+    "loesung": [
+     "5r - 4s",
+     "5r-4s"
+    ],
+    "erklaerung": "Die Klammer mit Minus davor ergibt −2r − s.",
+    "fehler": [
+     {
+      "antwort": "5r - 2s",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Auch das s in der Klammer wird abgezogen: −3s − s ergibt −4s."
+     },
+     {
+      "antwort": "9r - 4s",
+      "diagnoseId": "vorzeichen",
+      "feedback": "2r wird abgezogen, nicht addiert: 7r − 2r ergibt 5r."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n(6u + 4) − (u + 4) + (3u − 9)",
+    "loesung": [
+     "8u - 9",
+     "8u-9"
+    ],
+    "erklaerung": "6u − u + 3u ergibt 8u; 4 − 4 − 9 ergibt −9.",
+    "fehler": [
+     {
+      "antwort": "8u + 9",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die letzte Klammer bringt −9 mit; damit bleibt −9 übrig."
+     },
+     {
+      "antwort": "10u - 9",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die zweite Klammer wird abgezogen: 6u − u + 3u ergibt 8u."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen.\n\n−(2v − 3w) − (−2v + 5w)",
+    "loesung": [
+     "-2w",
+     "- 2w"
+    ],
+    "erklaerung": "Beide Klammern werden mit Minus aufgelöst: −2v + 3w + 2v − 5w. Die v-Glieder heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "4v - 2w",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die zweite Klammer beginnt mit −2v; mit dem Minus davor wird daraus +2v, und die v-Glieder heben sich auf."
+     },
+     {
+      "antwort": "8w",
+      "diagnoseId": "zahlfehler",
+      "feedback": "3w − 5w ergibt −2w, nicht 8w. Das zweite w-Glied wird abgezogen, nicht addiert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme zusammenfassen und Klammern auflösen",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-ausmultiplizieren",
+  "lernzielId": "MSZ.1.06",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Jedes Glied der ersten Klammer wird mit jedem Glied der zweiten multipliziert.",
+   "Bei (a + b)² gilt nicht a² + b²: das mittlere Glied 2ab gehört dazu.",
+   "Prüfe zum Schluss, ob alle Vorzeichen stimmen."
+  ],
+  "loesungsweg": [
+   "Zählen, wie viele Produkte entstehen.",
+   "Jedes Produkt einzeln bilden.",
+   "Gleiche Glieder zusammenfassen.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multipliziere aus.\n\n6(3x − 4)",
+    "loesung": [
+     "18x - 24",
+     "18x-24"
+    ],
+    "erklaerung": "Der Faktor 6 wird auf beide Glieder verteilt.",
+    "fehler": [
+     {
+      "antwort": "18x - 4",
+      "diagnoseId": "nur_erstes",
+      "feedback": "Der Faktor gilt für beide Glieder in der Klammer, auch für die 4."
+     },
+     {
+      "antwort": "18x + 24",
+      "diagnoseId": "vorzeichen",
+      "feedback": "In der Klammer steht ein Minus; es bleibt beim Ausmultiplizieren erhalten."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(y + 5)(y + 2)",
+    "loesung": [
+     "y² + 7y + 10",
+     "y^2+7y+10",
+     "y²+7y+10"
+    ],
+    "erklaerung": "Vier Produkte: y·y, y·2, 5·y und 5·2. Die beiden mittleren ergeben 7y.",
+    "fehler": [
+     {
+      "antwort": "y² + 10",
+      "diagnoseId": "mittelglied",
+      "feedback": "Die gemischten Produkte 2y und 5y fehlen; zusammen ergeben sie 7y."
+     },
+     {
+      "antwort": "y² + 7y + 7",
+      "diagnoseId": "zahlfehler",
+      "feedback": "5 mal 2 ergibt 10, nicht 7. Das letzte Glied ist das Produkt der beiden Zahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(c + 4)²",
+    "loesung": [
+     "c² + 8c + 16",
+     "c^2+8c+16",
+     "c²+8c+16"
+    ],
+    "erklaerung": "Erste binomische Formel: c² + 2·c·4 + 4².",
+    "fehler": [
+     {
+      "antwort": "c² + 16",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied 2ab fehlt: 2 mal c mal 4 ergibt 8c."
+     },
+     {
+      "antwort": "c² + 4c + 16",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied ist doppelt so gross: 2 · c · 4 = 8c."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(d − 5)²",
+    "loesung": [
+     "d² - 10d + 25",
+     "d^2-10d+25",
+     "d²-10d+25"
+    ],
+    "erklaerung": "Zweite binomische Formel: d² − 2·d·5 + 5². Das letzte Glied ist positiv.",
+    "fehler": [
+     {
+      "antwort": "d² - 10d - 25",
+      "diagnoseId": "vorzeichen",
+      "feedback": "(−5) mal (−5) ergibt +25; zwei Minuszeichen ergeben ein Plus."
+     },
+     {
+      "antwort": "d² - 25",
+      "diagnoseId": "mittelglied",
+      "feedback": "Das mittlere Glied −10d fehlt: Es ist 2 mal d mal 5, mit dem Vorzeichen der Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(z + 9)(z − 9)",
+    "loesung": [
+     "z² - 81",
+     "z^2-81",
+     "z²-81"
+    ],
+    "erklaerung": "Dritte binomische Formel: Die gemischten Glieder heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "z² + 81",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das Produkt der beiden Zahlen ist +9 mal −9, also −81."
+     },
+     {
+      "antwort": "z² - 18z - 81",
+      "diagnoseId": "mittelglied",
+      "feedback": "Die gemischten Glieder −9z und +9z heben sich gerade auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n3m(2m − 7)",
+    "loesung": [
+     "6m² - 21m",
+     "6m^2-21m",
+     "6m²-21m"
+    ],
+    "erklaerung": "3m mal 2m ergibt 6m², 3m mal −7 ergibt −21m.",
+    "fehler": [
+     {
+      "antwort": "6m - 21m",
+      "diagnoseId": "quadrat_vergessen",
+      "feedback": "m mal m ergibt m²; das Quadrat fehlt im ersten Glied."
+     },
+     {
+      "antwort": "6m² - 7",
+      "diagnoseId": "zweites_glied",
+      "feedback": "Auch die 7 wird mit 3m multipliziert; daraus wird 21m."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus und fasse zusammen.\n\n(3x + 2)(x + 4)",
+    "loesung": [
+     "3x² + 14x + 8",
+     "3x^2+14x+8",
+     "3x²+14x+8"
+    ],
+    "erklaerung": "3x² + 12x + 2x + 8; die mittleren Glieder ergeben 14x.",
+    "fehler": [
+     {
+      "antwort": "3x² + 8x + 8",
+      "diagnoseId": "zahlfehler",
+      "feedback": "12x und 2x ergeben 14x, nicht 8x. Zähle die beiden gemischten Produkte einzeln nach."
+     },
+     {
+      "antwort": "3x² + 8",
+      "diagnoseId": "mittelglied",
+      "feedback": "Die gemischten Glieder 12x und 2x fehlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(4a − 3)(4a + 3)",
+    "loesung": [
+     "16a² - 9",
+     "16a^2-9",
+     "16a²-9"
+    ],
+    "erklaerung": "Dritte binomische Formel mit dem Vorfaktor 4: (4a)² − 3².",
+    "fehler": [
+     {
+      "antwort": "4a² - 9",
+      "diagnoseId": "quadrat",
+      "feedback": "Auch die 4 wird quadriert: (4a)² ergibt 16a²."
+     },
+     {
+      "antwort": "16a² + 9",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das Produkt der beiden Zahlen ist −3 mal +3, also −9; das letzte Glied bleibt negativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(3p + 2q)(p − q)",
+    "loesung": [
+     "3p² - pq - 2q²",
+     "3p^2-pq-2q^2",
+     "3p²-pq-2q²"
+    ],
+    "erklaerung": "3p² − 3pq + 2pq − 2q²; die gemischten Glieder ergeben −pq.",
+    "fehler": [
+     {
+      "antwort": "3p² - 2q²",
+      "diagnoseId": "mittelglied",
+      "feedback": "Die gemischten Glieder −3pq und +2pq fehlen; zusammen ergeben sie −pq."
+     },
+     {
+      "antwort": "3p² - 5pq - 2q²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−3pq und +2pq ergeben −pq, nicht −5pq. Die beiden gemischten Glieder haben verschiedene Vorzeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n−5(3u − 2v + 1)",
+    "loesung": [
+     "-15u + 10v - 5",
+     "-15u+10v-5"
+    ],
+    "erklaerung": "Der negative Faktor kehrt alle Vorzeichen in der Klammer um.",
+    "fehler": [
+     {
+      "antwort": "-15u - 10v - 5",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−5 mal −2v ergibt +10v: Zwei Minuszeichen ergeben zusammen ein Pluszeichen."
+     },
+     {
+      "antwort": "-15u + 10v + 1",
+      "diagnoseId": "letztes_glied",
+      "feedback": "Auch die 1 wird mit −5 multipliziert; daraus wird −5."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus und fasse zusammen.\n\n(y + 3)² − (y − 3)²",
+    "loesung": [
+     "12y",
+     "12 y"
+    ],
+    "erklaerung": "y² + 6y + 9 minus y² − 6y + 9; die Quadrate und die Zahlen heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die mittleren Glieder heben sich nicht auf: +6y minus (−6y) ergibt 12y."
+     },
+     {
+      "antwort": "2y²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Die beiden y² heben sich gerade auf, weil das zweite abgezogen wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus.\n\n(2r + 5s)(r + 3s − 1)",
+    "loesung": [
+     "2r² + 11rs - 2r + 15s² - 5s",
+     "2r^2+11rs-2r+15s^2-5s"
+    ],
+    "erklaerung": "Sechs Produkte: 2r·r, 2r·3s, 2r·(−1), 5s·r, 5s·3s und 5s·(−1). Die gemischten Glieder 6rs und 5rs ergeben 11rs.",
+    "fehler": [
+     {
+      "antwort": "2r² + 15s² - 2r - 5s",
+      "diagnoseId": "mittelglied",
+      "feedback": "Die gemischten Glieder 6rs und 5rs fehlen."
+     },
+     {
+      "antwort": "2r² + 6rs - 2r + 15s² - 5s",
+      "diagnoseId": "mittelglied",
+      "feedback": "Auch 5s mal r ergibt rs; zusammen sind es 11rs."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausmultiplizieren und binomische Formeln",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-ausklammern",
+  "lernzielId": "MSZ.1.07",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.07",
+   "1.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Suche zuerst die grösste Zahl, die in allen Gliedern steckt.",
+   "Prüfe danach, welche Buchstaben in jedem Glied vorkommen.",
+   "Bei a² ± 2ab + b² und a² − b² helfen die binomischen Formeln rückwärts."
+  ],
+  "loesungsweg": [
+   "Gemeinsamen Zahlfaktor bestimmen.",
+   "Gemeinsame Buchstaben dazunehmen.",
+   "Beides vor die Klammer ziehen.",
+   "Durch Ausmultiplizieren prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n15y + 20",
+    "loesung": [
+     "5(3y + 4)",
+     "5*(3y+4)",
+     "5(3y+4)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 15 und 20 ist 5.",
+    "fehler": [
+     {
+      "antwort": "5(3y + 20)",
+      "diagnoseId": "nicht_geteilt",
+      "feedback": "Auch die 20 wird durch 5 geteilt; übrig bleibt 4."
+     },
+     {
+      "antwort": "3(5y + 6.67)",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Mit 3 geht die 20 nicht auf; der gemeinsame Faktor ist 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n8b² − 20b",
+    "loesung": [
+     "4b(2b - 5)",
+     "4*b*(2b-5)",
+     "4b(2b-5)"
+    ],
+    "erklaerung": "In 8 und 20 steckt die 4, und beide Glieder enthalten b.",
+    "fehler": [
+     {
+      "antwort": "4(2b² - 5b)",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Das b kommt in beiden Gliedern vor und gehört ebenfalls vor die Klammer."
+     },
+     {
+      "antwort": "b(8b - 20)",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "In 8 und 20 steckt noch die 4; vollständig ausgeklammert heisst es 4b(2b − 5)."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\np² + 2pq + q²",
+    "loesung": [
+     "(p + q)²",
+     "(p+q)^2",
+     "(p+q)(p+q)",
+     "(p+q)²"
+    ],
+    "erklaerung": "Das ist die erste binomische Formel rückwärts gelesen.",
+    "fehler": [
+     {
+      "antwort": "(p - q)²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das mittlere Glied ist positiv; darum steht in der Klammer ein Plus."
+     },
+     {
+      "antwort": "(p + q)(p - q)",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe p² − q² ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\nm² − n²",
+    "loesung": [
+     "(m + n)(m - n)",
+     "(m+n)(m-n)",
+     "(m-n)(m+n)"
+    ],
+    "erklaerung": "Dritte binomische Formel rückwärts: die Differenz zweier Quadrate.",
+    "fehler": [
+     {
+      "antwort": "(m - n)²",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe m² − 2mn + n²; hier fehlt aber jedes mittlere Glied."
+     },
+     {
+      "antwort": "(m + n)²",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe m² + 2mn + n², also eine Summe statt einer Differenz."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\nx² − 14x + 49",
+    "loesung": [
+     "(x - 7)²",
+     "(x-7)^2",
+     "(x-7)(x-7)",
+     "(x-7)²"
+    ],
+    "erklaerung": "Zweite binomische Formel: 49 ist 7², und 14x ist 2 · x · 7.",
+    "fehler": [
+     {
+      "antwort": "(x + 7)²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das mittlere Glied ist negativ; in der Klammer steht darum ein Minus."
+     },
+     {
+      "antwort": "(x - 49)²",
+      "diagnoseId": "zahl",
+      "feedback": "In die Klammer gehört die Wurzel aus 49, also 7."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n12u − 18v",
+    "loesung": [
+     "6(2u - 3v)",
+     "6*(2u-3v)",
+     "6(2u-3v)"
+    ],
+    "erklaerung": "In 12 und 18 steckt die 6; u und v sind verschieden und lassen sich nicht ausklammern.",
+    "fehler": [
+     {
+      "antwort": "6u(2 - 3v)",
+      "diagnoseId": "falscher_buchstabe",
+      "feedback": "Das u kommt nur im ersten Glied vor und darf nicht vor die Klammer."
+     },
+     {
+      "antwort": "3(4u - 6v)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das geht, ist aber nicht zu Ende: In 4 und 6 steckt noch eine 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n24cd + 16d",
+    "loesung": [
+     "8d(3c + 2)",
+     "8*d*(3c+2)",
+     "8d(3c+2)"
+    ],
+    "erklaerung": "In 24 und 16 steckt die 8, und beide Glieder enthalten d.",
+    "fehler": [
+     {
+      "antwort": "8(3cd + 2d)",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Das d steckt in beiden Gliedern und gehört ebenfalls vor die Klammer."
+     },
+     {
+      "antwort": "8cd(3 + 2)",
+      "diagnoseId": "falscher_buchstabe",
+      "feedback": "Das c kommt nur im ersten Glied vor und darf darum nicht ausgeklammert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\n9k² − 25",
+    "loesung": [
+     "(3k + 5)(3k - 5)",
+     "(3k+5)(3k-5)",
+     "(3k-5)(3k+5)"
+    ],
+    "erklaerung": "9k² ist (3k)², und 25 ist 5². Dritte binomische Formel.",
+    "fehler": [
+     {
+      "antwort": "(9k + 5)(9k - 5)",
+      "diagnoseId": "wurzel",
+      "feedback": "Die Wurzel aus 9k² ist 3k, nicht 9k: Auch die Zahl vor dem Buchstaben wird gewurzelt."
+     },
+     {
+      "antwort": "(3k - 5)²",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe 9k² − 30k + 25; hier fehlt jedes mittlere Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n7a³ + 14a²",
+    "loesung": [
+     "7a²(a + 2)",
+     "7*a^2*(a+2)",
+     "7a^2(a+2)",
+     "7a²(a+2)"
+    ],
+    "erklaerung": "Beide Glieder enthalten 7 und a²; die kleinere Potenz kommt vor die Klammer.",
+    "fehler": [
+     {
+      "antwort": "7a(a² + 2a)",
+      "diagnoseId": "potenz",
+      "feedback": "Beide Glieder enthalten a², nicht nur a; die kleinere Potenz wird ausgeklammert."
+     },
+     {
+      "antwort": "a²(7a + 14)",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "In 7 und 14 steckt noch die 7; vollständig ausgeklammert heisst es 7a²(a + 2)."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\ns² + 10st + 25t²",
+    "loesung": [
+     "(s + 5t)²",
+     "(s+5t)^2",
+     "(s+5t)(s+5t)",
+     "(s+5t)²"
+    ],
+    "erklaerung": "25t² ist (5t)², und 10st ist 2 · s · 5t.",
+    "fehler": [
+     {
+      "antwort": "(s + 25t)²",
+      "diagnoseId": "zahl",
+      "feedback": "In die Klammer gehört die Wurzel aus 25t², also 5t."
+     },
+     {
+      "antwort": "(s + 5t)(s - 5t)",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe s² − 25t² ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere so weit wie möglich aus.\n\n30e − 45ef",
+    "loesung": [
+     "15e(2 - 3f)",
+     "15*e*(2-3f)",
+     "15e(2-3f)"
+    ],
+    "erklaerung": "In 30 und 45 steckt die 15, und beide Glieder enthalten e.",
+    "fehler": [
+     {
+      "antwort": "15(2e - 3ef)",
+      "diagnoseId": "buchstabe_vergessen",
+      "feedback": "Das e kommt in beiden Gliedern vor und gehört vor die Klammer."
+     },
+     {
+      "antwort": "5e(6 - 9f)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das geht, ist aber nicht fertig: In 6 und 9 steckt noch eine 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in ein Produkt.\n\n64 − g²",
+    "loesung": [
+     "(8 + g)(8 - g)",
+     "(8+g)(8-g)",
+     "(8-g)(8+g)"
+    ],
+    "erklaerung": "64 ist 8². Dritte binomische Formel, hier mit der Zahl zuerst.",
+    "fehler": [
+     {
+      "antwort": "(g + 8)(g - 8)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe g² − 64, also gerade das Gegenteil."
+     },
+     {
+      "antwort": "(8 - g)²",
+      "diagnoseId": "formel",
+      "feedback": "Das ergäbe 64 − 16g + g²; ein mittleres Glied gibt es hier nicht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausklammern und Faktorzerlegung",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-terme-aufstellen",
+  "lernzielId": "MSZ.1.10",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.10",
+   "1.11"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Gib zuerst der unbekannten Grösse einen Buchstaben.",
+   "Übersetze den Satz Stück für Stück, in der Reihenfolge, in der er dasteht.",
+   "Beim Einsetzen gilt Punkt vor Strich, und Klammern zuerst."
+  ],
+  "loesungsweg": [
+   "Die unbekannte Grösse benennen.",
+   "Jeden Teil des Satzes in Rechenzeichen übersetzen.",
+   "Klammern setzen, wo eine ganze Summe betroffen ist.",
+   "Zur Probe eine Zahl einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Schreibe als Term.\n\nEine Zahl x wird um 6 vergrössert und das Ergebnis vervierfacht.",
+    "loesung": [
+     "4(x + 6)",
+     "4*(x+6)",
+     "4(x+6)"
+    ],
+    "erklaerung": "Zuerst die Summe, dann das Vervierfachen — die Klammer hält die Reihenfolge fest.",
+    "fehler": [
+     {
+      "antwort": "4x + 6",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Ohne Klammer wird nur x vervierfacht; vervierfacht werden soll die ganze Summe."
+     },
+     {
+      "antwort": "4x + 24",
+      "diagnoseId": "form",
+      "feedback": "Das ist der ausmultiplizierte Term; gefragt war die Schreibweise mit Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nDas Fünffache einer Zahl y, vermindert um 8.",
+    "loesung": [
+     "5y - 8",
+     "5*y-8",
+     "5y-8"
+    ],
+    "erklaerung": "Zuerst verfünffachen, dann abziehen — hier braucht es keine Klammer.",
+    "fehler": [
+     {
+      "antwort": "5(y - 8)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "Mit Klammer würde erst abgezogen und dann verfünffacht; der Satz nennt die andere Reihenfolge."
+     },
+     {
+      "antwort": "8 - 5y",
+      "diagnoseId": "richtung",
+      "feedback": "Abgezogen werden 8 vom Fünffachen, nicht umgekehrt."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEin Eintritt kostet e Franken. Wie viel kosten 9 Eintritte und ein Programmheft zu 6 Franken?",
+    "loesung": [
+     "9e + 6",
+     "9*e+6",
+     "9e+6"
+    ],
+    "erklaerung": "Neun Eintritte kosten 9e; das Programmheft kommt einmal dazu.",
+    "fehler": [
+     {
+      "antwort": "9(e + 6)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "So würde das Heft neunmal bezahlt; es wird nur einmal gekauft."
+     },
+     {
+      "antwort": "9e + 6e",
+      "diagnoseId": "einheit",
+      "feedback": "Die 6 Franken sind ein fester Betrag, kein Vielfaches von e."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze x = 9 ein und berechne.\n\n6x − 14",
+    "loesung": [
+     "40"
+    ],
+    "erklaerung": "6 mal 9 ergibt 54, minus 14 bleiben 40.",
+    "fehler": [
+     {
+      "antwort": "-30",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Zuerst wird multipliziert, dann subtrahiert; Punkt geht vor Strich."
+     },
+     {
+      "antwort": "48",
+      "diagnoseId": "zahlfehler",
+      "feedback": "6 mal 9 sind 54, nicht 62; rechne noch einmal nach."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze a = 8 ein und berechne.\n\n3(a + 5)",
+    "loesung": [
+     "39"
+    ],
+    "erklaerung": "In der Klammer stehen 13, mal 3 ergibt das 39.",
+    "fehler": [
+     {
+      "antwort": "29",
+      "diagnoseId": "klammer_uebersehen",
+      "feedback": "Die Klammer gilt für die ganze Summe: 3 · (8 + 5), nicht 3 · 8 + 5."
+     },
+     {
+      "antwort": "24",
+      "diagnoseId": "zahl_vergessen",
+      "feedback": "Die 5 in der Klammer ist untergegangen: Gerechnet wird 3 · (8 + 5), nicht 3 · 8."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze x = −4 ein und berechne.\n\nx² + 5x",
+    "loesung": [
+     "-4"
+    ],
+    "erklaerung": "(−4)² ergibt 16, 5 · (−4) ergibt −20; zusammen −4.",
+    "fehler": [
+     {
+      "antwort": "36",
+      "diagnoseId": "vorzeichen",
+      "feedback": "5 mal (−4) ergibt −20, nicht +20; das Vorzeichen gehört mitgerechnet."
+     },
+     {
+      "antwort": "-36",
+      "diagnoseId": "quadrat",
+      "feedback": "(−4)² ist +16, denn zwei Minuszeichen ergeben ein Plus."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEin Rechteck ist um 7 cm länger als breit. Die Breite ist b. Wie gross ist der Umfang?",
+    "loesung": [
+     "4b + 14",
+     "2(b + b + 7)",
+     "2b + 2(b + 7)",
+     "4b+14"
+    ],
+    "erklaerung": "Die Länge ist b + 7; der Umfang zählt beide Seiten doppelt.",
+    "fehler": [
+     {
+      "antwort": "2b + 7",
+      "diagnoseId": "haelfte",
+      "feedback": "Das ist erst die halbe Runde; der Umfang zählt jede Seite zweimal."
+     },
+     {
+      "antwort": "b(b + 7)",
+      "diagnoseId": "flaeche",
+      "feedback": "Das ist die Fläche; der Umfang wird addiert, nicht multipliziert."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEin Seil von 420 cm wird in gleich lange Stücke von je s Zentimetern geschnitten. Wie viele Stücke entstehen?",
+    "loesung": [
+     "420/s",
+     "420:s"
+    ],
+    "erklaerung": "Die Gesamtlänge wird durch die Länge eines Stücks geteilt.",
+    "fehler": [
+     {
+      "antwort": "s/420",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Geteilt wird das ganze Seil durch ein Stück, nicht umgekehrt."
+     },
+     {
+      "antwort": "420s",
+      "diagnoseId": "operation",
+      "feedback": "Mehr Stücke entstehen durch Teilen, nicht durch Multiplizieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze x = 6 und y = 4 ein.\n\n4x − 3y",
+    "loesung": [
+     "12"
+    ],
+    "erklaerung": "4 mal 6 ergibt 24, 3 mal 4 ergibt 12; die Differenz ist 12.",
+    "fehler": [
+     {
+      "antwort": "36",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das zweite Glied wird abgezogen, nicht addiert."
+     },
+     {
+      "antwort": "20",
+      "diagnoseId": "faktor",
+      "feedback": "Beim zweiten Glied ist der Faktor 3 untergegangen: 3 mal 4 sind 12."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nDie Summe aus p und q wird gedrittelt.",
+    "loesung": [
+     "(p + q)/3",
+     "(p+q):3",
+     "(p+q)/3"
+    ],
+    "erklaerung": "Gedrittelt wird die ganze Summe, darum steht sie in einer Klammer.",
+    "fehler": [
+     {
+      "antwort": "p + q/3",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Ohne Klammer wird nur q gedrittelt; gedrittelt werden soll die ganze Summe."
+     },
+     {
+      "antwort": "p/3 + q",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Hier ist nur p gedrittelt worden; beide Summanden gehören in die Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze n = 8 ein und berechne.\n\nn(n − 5)",
+    "loesung": [
+     "24"
+    ],
+    "erklaerung": "In der Klammer stehen 3; 8 mal 3 ergibt 24.",
+    "fehler": [
+     {
+      "antwort": "64",
+      "diagnoseId": "klammer_ignoriert",
+      "feedback": "Hier ist n mit sich selbst multipliziert und die Klammer übergangen worden."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "faktor_vergessen",
+      "feedback": "Nur die Klammer ist ausgerechnet worden; das n davor gehört dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als Term.\n\nEine Zahl z wird durch 6 geteilt und das Ergebnis um 4 vergrössert.",
+    "loesung": [
+     "z/6 + 4",
+     "z:6+4",
+     "z/6+4"
+    ],
+    "erklaerung": "Zuerst teilen, dann addieren — die Reihenfolge steht im Satz.",
+    "fehler": [
+     {
+      "antwort": "(z + 4)/6",
+      "diagnoseId": "reihenfolge",
+      "feedback": "So würde zuerst addiert und dann geteilt; der Satz nennt die umgekehrte Reihenfolge."
+     },
+     {
+      "antwort": "6z + 4",
+      "diagnoseId": "operation",
+      "feedback": "Geteilt wird durch 6, nicht multipliziert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme aufstellen und Werte einsetzen",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-konstruktionen",
+  "lernzielId": "MSZ.2.10",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.10",
+   "2.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage dich, welche Punkte die gesuchte Linie enthält: Sie haben immer dieselbe Eigenschaft.",
+   "Die Mittelsenkrechte enthält alle Punkte mit gleichem Abstand zu zwei Punkten.",
+   "Die Winkelhalbierende enthält alle Punkte mit gleichem Abstand zu zwei Geraden."
+  ],
+  "loesungsweg": [
+   "Die Eigenschaft der gesuchten Linie benennen.",
+   "Prüfen, welche Punkte sie erfüllen.",
+   "Den Schnittpunkt bestimmen.",
+   "Die Probe mit dem Zirkel machen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was enthält die Mittelsenkrechte einer Strecke AB?",
+    "optionen": [
+     "alle Punkte mit gleichem Abstand zu A und B",
+     "alle Punkte auf der Strecke AB",
+     "alle Punkte mit gleichem Abstand zu zwei Geraden",
+     "alle Punkte im gleichen Abstand von A"
+    ],
+    "loesung": [
+     "alle Punkte mit gleichem Abstand zu A und B"
+    ],
+    "erklaerung": "Die Mittelsenkrechte steht senkrecht auf AB und geht durch deren Mitte; jeder ihrer Punkte ist von A und B gleich weit entfernt.",
+    "fehler": [
+     {
+      "antwort": "alle Punkte auf der Strecke AB",
+      "diagnoseId": "verwechselt",
+      "feedback": "Die Strecke selbst ist nicht die Mittelsenkrechte; diese steht senkrecht dazu."
+     },
+     {
+      "antwort": "alle Punkte mit gleichem Abstand zu zwei Geraden",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Winkelhalbierende, nicht die Mittelsenkrechte."
+     },
+     {
+      "antwort": "alle Punkte im gleichen Abstand von A",
+      "diagnoseId": "kreis",
+      "feedback": "Alle Punkte mit gleichem Abstand von A bilden einen Kreis um A, keine Gerade."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo schneiden sich die drei Mittelsenkrechten eines Dreiecks?",
+    "optionen": [
+     "im Mittelpunkt des Umkreises",
+     "im Mittelpunkt des Inkreises",
+     "im Schwerpunkt",
+     "im Höhenschnittpunkt"
+    ],
+    "loesung": [
+     "im Mittelpunkt des Umkreises"
+    ],
+    "erklaerung": "Der Schnittpunkt hat zu allen drei Ecken denselben Abstand — das ist genau der Umkreismittelpunkt.",
+    "fehler": [
+     {
+      "antwort": "im Mittelpunkt des Inkreises",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Inkreismittelpunkt entsteht aus den Winkelhalbierenden."
+     },
+     {
+      "antwort": "im Schwerpunkt",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Schwerpunkt ist der Schnittpunkt der Seitenhalbierenden."
+     },
+     {
+      "antwort": "im Höhenschnittpunkt",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Höhenschnittpunkt entsteht aus den drei Höhen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo schneiden sich die drei Winkelhalbierenden eines Dreiecks?",
+    "optionen": [
+     "im Mittelpunkt des Inkreises",
+     "im Mittelpunkt des Umkreises",
+     "im Schwerpunkt",
+     "in einer Ecke"
+    ],
+    "loesung": [
+     "im Mittelpunkt des Inkreises"
+    ],
+    "erklaerung": "Der Schnittpunkt hat zu allen drei Seiten denselben Abstand; um ihn lässt sich der Inkreis zeichnen.",
+    "fehler": [
+     {
+      "antwort": "im Mittelpunkt des Umkreises",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Umkreismittelpunkt entsteht aus den Mittelsenkrechten."
+     },
+     {
+      "antwort": "im Schwerpunkt",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Schwerpunkt entsteht aus den Seitenhalbierenden."
+     },
+     {
+      "antwort": "in einer Ecke",
+      "diagnoseId": "falsch",
+      "feedback": "Die drei Winkelhalbierenden treffen sich immer im Innern des Dreiecks."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist die Höhe eines Dreiecks?",
+    "optionen": [
+     "die Senkrechte von einer Ecke auf die Gegenseite",
+     "die Verbindung einer Ecke mit der Mitte der Gegenseite",
+     "die Senkrechte durch die Mitte einer Seite",
+     "die Verbindung zweier Seitenmitten"
+    ],
+    "loesung": [
+     "die Senkrechte von einer Ecke auf die Gegenseite"
+    ],
+    "erklaerung": "Die Höhe steht senkrecht auf einer Seite und geht durch die gegenüberliegende Ecke.",
+    "fehler": [
+     {
+      "antwort": "die Verbindung einer Ecke mit der Mitte der Gegenseite",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Seitenhalbierende; sie steht in der Regel nicht senkrecht."
+     },
+     {
+      "antwort": "die Senkrechte durch die Mitte einer Seite",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Mittelsenkrechte; sie geht nicht durch eine Ecke."
+     },
+     {
+      "antwort": "die Verbindung zweier Seitenmitten",
+      "diagnoseId": "verwechselt",
+      "feedback": "Die Verbindung zweier Seitenmitten ist die Mittellinie; sie geht durch keine Ecke."
+     }
+    ]
+   },
+   {
+    "stamm": "Womit konstruiert man eine Mittelsenkrechte?",
+    "optionen": [
+     "mit zwei gleich grossen Kreisbögen um A und B",
+     "mit dem Geodreieck allein",
+     "mit einem Kreis um den Mittelpunkt der Strecke",
+     "durch Abmessen mit dem Lineal"
+    ],
+    "loesung": [
+     "mit zwei gleich grossen Kreisbögen um A und B"
+    ],
+    "erklaerung": "Zwei gleich grosse Kreisbögen um A und B schneiden sich in zwei Punkten; ihre Verbindung ist die Mittelsenkrechte.",
+    "fehler": [
+     {
+      "antwort": "mit dem Geodreieck allein",
+      "diagnoseId": "messen",
+      "feedback": "Das wäre gemessen, nicht konstruiert; an der Prüfung wird die Konstruktion verlangt."
+     },
+     {
+      "antwort": "mit einem Kreis um den Mittelpunkt der Strecke",
+      "diagnoseId": "falsch",
+      "feedback": "Ein einzelner Kreis liefert keine Gerade."
+     },
+     {
+      "antwort": "durch Abmessen mit dem Lineal",
+      "diagnoseId": "messen",
+      "feedback": "Gemessene Lösungen werden an der Prüfung nicht bewertet."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Bestimmungsstücke braucht man mindestens, um ein Dreieck eindeutig zu konstruieren?",
+    "optionen": [
+     "drei",
+     "zwei",
+     "vier",
+     "eines"
+    ],
+    "loesung": [
+     "drei"
+    ],
+    "erklaerung": "Drei geeignete Angaben genügen: drei Seiten, zwei Seiten und ein Winkel, oder eine Seite und zwei Winkel.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Mit zwei Angaben gibt es unendlich viele verschiedene Dreiecke."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "zu_viel",
+      "feedback": "Eine vierte Angabe ist überflüssig und kann sich sogar widersprechen."
+     },
+     {
+      "antwort": "eines",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Eine einzige Angabe legt nichts fest; es gäbe unendlich viele Dreiecke."
+     }
+    ]
+   },
+   {
+    "stamm": "Der Umkreis eines Dreiecks geht durch …",
+    "optionen": [
+     "alle drei Ecken",
+     "alle drei Seitenmitten",
+     "eine Ecke und die Gegenseite",
+     "alle drei Seiten, die er berührt"
+    ],
+    "loesung": [
+     "alle drei Ecken"
+    ],
+    "erklaerung": "Der Umkreis geht durch die Ecken; sein Mittelpunkt ist von allen dreien gleich weit entfernt.",
+    "fehler": [
+     {
+      "antwort": "alle drei Seitenmitten",
+      "diagnoseId": "verwechselt",
+      "feedback": "Durch die Seitenmitten geht kein Kreis dieser Aufgabe."
+     },
+     {
+      "antwort": "eine Ecke und die Gegenseite",
+      "diagnoseId": "falsch",
+      "feedback": "Ein Kreis geht nicht durch eine ganze Seite."
+     },
+     {
+      "antwort": "alle drei Seiten, die er berührt",
+      "diagnoseId": "inkreis",
+      "feedback": "Der Kreis, der die Seiten berührt, ist der Inkreis."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck soll aus den Seiten 4 cm, 5 cm und 10 cm konstruiert werden. Was geschieht?",
+    "optionen": [
+     "Es lässt sich nicht konstruieren",
+     "Es entsteht ein rechtwinkliges Dreieck",
+     "Es entsteht ein gleichschenkliges Dreieck",
+     "Es gibt zwei mögliche Dreiecke"
+    ],
+    "loesung": [
+     "Es lässt sich nicht konstruieren"
+    ],
+    "erklaerung": "4 + 5 ist kleiner als 10: Die beiden kurzen Seiten reichen nicht zusammen. Die Kreisbögen schneiden sich nicht.",
+    "fehler": [
+     {
+      "antwort": "Es entsteht ein rechtwinkliges Dreieck",
+      "diagnoseId": "falsch",
+      "feedback": "Rechtwinklig wäre 3, 4, 5 — mit 10 schliesst sich die Figur gar nicht."
+     },
+     {
+      "antwort": "Es entsteht ein gleichschenkliges Dreieck",
+      "diagnoseId": "falsch",
+      "feedback": "Gleichschenklig hiesse zwei gleich lange Seiten; hier sind alle drei verschieden."
+     },
+     {
+      "antwort": "Es gibt zwei mögliche Dreiecke",
+      "diagnoseId": "falsch",
+      "feedback": "Es gibt keines: Die Summe der beiden kurzen Seiten ist kleiner als die längste."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man die Winkelhalbierende eines Winkels?",
+    "optionen": [
+     "mit einem Kreisbogen um den Scheitel und zwei gleichen Bögen um die Schnittpunkte",
+     "indem man den Winkel misst und halbiert",
+     "mit einem Kreis um einen Schenkelpunkt",
+     "indem man die Gegenseite halbiert"
+    ],
+    "loesung": [
+     "mit einem Kreisbogen um den Scheitel und zwei gleichen Bögen um die Schnittpunkte"
+    ],
+    "erklaerung": "Der erste Bogen schneidet beide Schenkel; zwei gleich grosse Bögen um diese Schnittpunkte liefern einen Punkt der Winkelhalbierenden.",
+    "fehler": [
+     {
+      "antwort": "indem man den Winkel misst und halbiert",
+      "diagnoseId": "messen",
+      "feedback": "Das wäre gemessen; verlangt ist die Konstruktion mit dem Zirkel."
+     },
+     {
+      "antwort": "mit einem Kreis um einen Schenkelpunkt",
+      "diagnoseId": "falsch",
+      "feedback": "Ein einzelner Kreis um einen Schenkelpunkt legt nichts fest."
+     },
+     {
+      "antwort": "indem man die Gegenseite halbiert",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ergäbe die Seitenhalbierende, die im Allgemeinen anders verläuft."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Angabe fehlt, wenn zwei Seiten und der eingeschlossene Winkel gegeben sind?",
+    "optionen": [
+     "keine — das Dreieck ist eindeutig bestimmt",
+     "die dritte Seite",
+     "ein zweiter Winkel",
+     "der Umkreisradius"
+    ],
+    "loesung": [
+     "keine — das Dreieck ist eindeutig bestimmt"
+    ],
+    "erklaerung": "Zwei Seiten mit dem Winkel dazwischen legen das Dreieck eindeutig fest; alles Übrige ergibt sich.",
+    "fehler": [
+     {
+      "antwort": "die dritte Seite",
+      "diagnoseId": "zu_viel",
+      "feedback": "Sie ergibt sich aus den drei gegebenen Stücken und muss nicht gegeben sein."
+     },
+     {
+      "antwort": "ein zweiter Winkel",
+      "diagnoseId": "zu_viel",
+      "feedback": "Auch er ergibt sich; eine vierte Angabe wäre überflüssig."
+     },
+     {
+      "antwort": "der Umkreisradius",
+      "diagnoseId": "zu_viel",
+      "feedback": "Der Umkreis lässt sich nachträglich konstruieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum wird an der Prüfung eine Konstruktion und keine Messung verlangt?",
+    "optionen": [
+     "Weil eine Messung nur ungefähr stimmt und der Weg nachvollziehbar sein muss",
+     "Weil das Geodreieck nicht erlaubt ist",
+     "Weil Konstruktionen schneller gehen",
+     "Weil der Zirkel genauer misst als das Lineal"
+    ],
+    "loesung": [
+     "Weil eine Messung nur ungefähr stimmt und der Weg nachvollziehbar sein muss"
+    ],
+    "erklaerung": "Die Prüfung verlangt einen nachvollziehbaren Weg; gemessene Lösungen werden ausdrücklich nicht bewertet.",
+    "fehler": [
+     {
+      "antwort": "Weil das Geodreieck nicht erlaubt ist",
+      "diagnoseId": "falsch",
+      "feedback": "Geodreieck und Zirkel sind beide zugelassen; nur das Messen als Lösungsweg zählt nicht."
+     },
+     {
+      "antwort": "Weil Konstruktionen schneller gehen",
+      "diagnoseId": "falsch",
+      "feedback": "Schneller sind sie nicht; es geht um die Nachvollziehbarkeit."
+     },
+     {
+      "antwort": "Weil der Zirkel genauer misst als das Lineal",
+      "diagnoseId": "falsch",
+      "feedback": "Der Zirkel misst nicht, er überträgt Abstände."
+     }
+    ]
+   },
+   {
+    "stamm": "Zwei Geraden schneiden sich. Wie gross ist der Scheitelwinkel zu einem Winkel von 63°?",
+    "optionen": [
+     "63°",
+     "117°",
+     "27°",
+     "153°"
+    ],
+    "loesung": [
+     "63°"
+    ],
+    "erklaerung": "Scheitelwinkel sind gleich gross; sie liegen einander am Schnittpunkt gegenüber.",
+    "fehler": [
+     {
+      "antwort": "117°",
+      "diagnoseId": "nebenwinkel",
+      "feedback": "Das ist der Nebenwinkel; er ergänzt auf 180°."
+     },
+     {
+      "antwort": "27°",
+      "diagnoseId": "komplement",
+      "feedback": "Das ergänzt auf 90°, ist aber weder Neben- noch Scheitelwinkel."
+     },
+     {
+      "antwort": "153°",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Diese Zahl ergibt sich weder aus 180° noch aus 90° minus 63°."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Konstruktionen mit Zirkel und Geodreieck",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-netze-ansichten",
+  "lernzielId": "MSZ.2.09",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.09",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Stelle dir vor, du schaust genau von vorn, von oben oder von der Seite auf den Körper.",
+   "Ein Netz muss sich ohne Überlappung zum Körper falten lassen.",
+   "Zähle bei einem Netz zuerst, wie viele Flächen der Körper hat."
+  ],
+  "loesungsweg": [
+   "Den Körper benennen und seine Flächen zählen.",
+   "Prüfen, ob die Anzahl der Flächen im Netz stimmt.",
+   "Kontrollieren, ob gegenüberliegende Flächen richtig liegen.",
+   "Zur Probe im Kopf falten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Aus wie vielen Quadraten besteht das Netz eines Würfels?",
+    "optionen": [
+     "6",
+     "4",
+     "8",
+     "5"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Der Würfel hat sechs Flächen; sein Netz besteht darum aus sechs Quadraten.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "mantel",
+      "feedback": "Vier Quadrate ergeben nur den Mantel; Grund- und Deckfläche fehlen dann."
+     },
+     {
+      "antwort": "8",
+      "diagnoseId": "ecken",
+      "feedback": "Acht ist die Anzahl der Ecken des Würfels, nicht die der Flächen."
+     },
+     {
+      "antwort": "5",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Mit fünf Quadraten bliebe eine Seite offen; der Körper wäre nicht geschlossen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Kanten hat ein Quader?",
+    "optionen": [
+     "12",
+     "8",
+     "6",
+     "10"
+    ],
+    "loesung": [
+     "12"
+    ],
+    "erklaerung": "Ein Quader hat zwölf Kanten: je vier in drei Richtungen.",
+    "fehler": [
+     {
+      "antwort": "8",
+      "diagnoseId": "ecken",
+      "feedback": "Acht ist die Anzahl der Ecken eines Quaders, nicht die der Kanten."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechen",
+      "feedback": "Sechs ist die Anzahl der Flächen eines Quaders."
+     },
+     {
+      "antwort": "10",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Zähle systematisch: vier Kanten unten, vier oben, vier senkrecht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Ansicht zeigt Länge und Breite eines Quaders?",
+    "optionen": [
+     "die Aufsicht",
+     "die Vorderansicht",
+     "die Seitenansicht",
+     "das Schrägbild"
+    ],
+    "loesung": [
+     "die Aufsicht"
+    ],
+    "erklaerung": "Von oben sieht man Länge und Breite, also die Grundfläche.",
+    "fehler": [
+     {
+      "antwort": "die Vorderansicht",
+      "diagnoseId": "ansicht",
+      "feedback": "Von vorn sieht man Länge und Höhe; Länge und Breite zeigt die Aufsicht."
+     },
+     {
+      "antwort": "die Seitenansicht",
+      "diagnoseId": "ansicht",
+      "feedback": "Von der Seite sieht man Breite und Höhe."
+     },
+     {
+      "antwort": "das Schrägbild",
+      "diagnoseId": "darstellung",
+      "feedback": "Das Schrägbild zeigt den ganzen Körper räumlich, nicht eine einzelne Ansicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Quader ist 8 cm lang, 5 cm breit und 4 cm hoch. Wie gross ist die Seitenansicht?",
+    "optionen": [
+     "20 cm²",
+     "32 cm²",
+     "40 cm²",
+     "160 cm²"
+    ],
+    "loesung": [
+     "20 cm²"
+    ],
+    "erklaerung": "Die Seitenansicht zeigt Breite mal Höhe: 5 cm · 4 cm.",
+    "fehler": [
+     {
+      "antwort": "32 cm²",
+      "diagnoseId": "flaeche_verwechselt",
+      "feedback": "8 mal 4 ergibt die Vorderansicht, also Länge mal Höhe."
+     },
+     {
+      "antwort": "40 cm²",
+      "diagnoseId": "flaeche_verwechselt",
+      "feedback": "8 mal 5 ergibt die Aufsicht, also die Grundfläche."
+     },
+     {
+      "antwort": "160 cm²",
+      "diagnoseId": "volumen",
+      "feedback": "Das ist das Volumen in cm³, nicht eine Ansicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie vielen anderen Flächen liegt eine Würfelfläche gegenüber?",
+    "optionen": [
+     "genau einer",
+     "zwei",
+     "drei",
+     "keiner"
+    ],
+    "loesung": [
+     "genau einer"
+    ],
+    "erklaerung": "Jede Würfelfläche hat genau eine gegenüberliegende; die vier übrigen grenzen an sie an.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Zwei Flächen können nicht gleichzeitig derselben dritten gegenüberliegen."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Drei Flächen stossen an einer Ecke zusammen; gegenüber liegt nur eine."
+     },
+     {
+      "antwort": "keiner",
+      "diagnoseId": "falsch",
+      "feedback": "Ein Würfel hat sechs Flächen in drei gegenüberliegenden Paaren."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie werden im Schrägbild die nach hinten laufenden Kanten gezeichnet?",
+    "optionen": [
+     "verkürzt und schräg",
+     "in wahrer Länge und senkrecht",
+     "gar nicht",
+     "doppelt so lang"
+    ],
+    "loesung": [
+     "verkürzt und schräg"
+    ],
+    "erklaerung": "Damit ein räumlicher Eindruck entsteht, laufen die Tiefenkanten schräg und werden verkürzt gezeichnet, meist auf die Hälfte.",
+    "fehler": [
+     {
+      "antwort": "in wahrer Länge und senkrecht",
+      "diagnoseId": "darstellung",
+      "feedback": "Dann sähe der Körper flach aus; der räumliche Eindruck entstünde nicht."
+     },
+     {
+      "antwort": "gar nicht",
+      "diagnoseId": "darstellung",
+      "feedback": "Ohne Tiefenkanten bliebe nur ein Rechteck übrig."
+     },
+     {
+      "antwort": "doppelt so lang",
+      "diagnoseId": "darstellung",
+      "feedback": "Verlängert werden sie nie; sie werden verkürzt."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfel hat die Kantenlänge 7 cm. Wie gross ist ein Quadrat in seinem Netz?",
+    "optionen": [
+     "49 cm²",
+     "28 cm²",
+     "294 cm²",
+     "343 cm²"
+    ],
+    "loesung": [
+     "49 cm²"
+    ],
+    "erklaerung": "Jede Fläche ist ein Quadrat mit 7 cm Seitenlänge: 7 · 7 = 49 cm².",
+    "fehler": [
+     {
+      "antwort": "28 cm²",
+      "diagnoseId": "umfang",
+      "feedback": "28 cm ist der Umfang eines solchen Quadrats, nicht seine Fläche."
+     },
+     {
+      "antwort": "294 cm²",
+      "diagnoseId": "oberflaeche",
+      "feedback": "Das ist die ganze Oberfläche, also alle sechs Quadrate zusammen."
+     },
+     {
+      "antwort": "343 cm²",
+      "diagnoseId": "volumen",
+      "feedback": "Das ist das Volumen des Würfels in cm³, nicht die Fläche eines einzelnen Quadrats."
+     }
+    ]
+   },
+   {
+    "stamm": "Was zeigt ein Netz?",
+    "optionen": [
+     "alle Flächen des Körpers in einer Ebene ausgebreitet",
+     "den Körper räumlich gezeichnet",
+     "nur die Grundfläche",
+     "nur die Kantenlängen"
+    ],
+    "loesung": [
+     "alle Flächen des Körpers in einer Ebene ausgebreitet"
+    ],
+    "erklaerung": "Ein Netz entsteht durch Abwickeln: Alle Flächen liegen nebeneinander und lassen sich zum Körper falten.",
+    "fehler": [
+     {
+      "antwort": "den Körper räumlich gezeichnet",
+      "diagnoseId": "schraegbild",
+      "feedback": "Räumlich gezeichnet ist das Schrägbild; das Netz liegt flach in einer Ebene."
+     },
+     {
+      "antwort": "nur die Grundfläche",
+      "diagnoseId": "ansicht",
+      "feedback": "Nur die Grundfläche zeigt die Aufsicht; im Netz liegen alle sechs Flächen nebeneinander."
+     },
+     {
+      "antwort": "nur die Kantenlängen",
+      "diagnoseId": "darstellung",
+      "feedback": "Ein Netz ist eine Zeichnung, keine Aufstellung von Zahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Körper besteht aus sechs Würfeln von 1 cm Kantenlänge, die in einer Reihe liegen. Wie gross ist seine Oberfläche?",
+    "optionen": [
+     "26 cm²",
+     "36 cm²",
+     "24 cm²",
+     "6 cm²"
+    ],
+    "loesung": [
+     "26 cm²"
+    ],
+    "erklaerung": "Sechs Würfel hätten einzeln 36 Quadrate; an den fünf Berührungen fallen je zwei weg: 36 − 10 = 26.",
+    "fehler": [
+     {
+      "antwort": "36 cm²",
+      "diagnoseId": "ohne_beruehrung",
+      "feedback": "Das wären die Würfel einzeln. An jeder Berührung verschwinden zwei Quadrate."
+     },
+     {
+      "antwort": "24 cm²",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Es sind fünf Berührungen, nicht sechs; 36 − 10 ergibt 26."
+     },
+     {
+      "antwort": "6 cm²",
+      "diagnoseId": "volumen",
+      "feedback": "Sechs ist die Anzahl der Würfel und damit das Volumen in cm³."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Flächen eines Quaders sind immer gleich gross?",
+    "optionen": [
+     "die einander gegenüberliegenden",
+     "alle sechs",
+     "die aneinandergrenzenden",
+     "nur Grund- und Vorderfläche"
+    ],
+    "loesung": [
+     "die einander gegenüberliegenden"
+    ],
+    "erklaerung": "Gegenüberliegende Flächen sind deckungsgleich; darum wird bei der Oberfläche verdoppelt.",
+    "fehler": [
+     {
+      "antwort": "alle sechs",
+      "diagnoseId": "wuerfel",
+      "feedback": "Alle sechs sind nur beim Würfel gleich gross."
+     },
+     {
+      "antwort": "die aneinandergrenzenden",
+      "diagnoseId": "falsch",
+      "feedback": "Aneinandergrenzende Flächen haben nur eine Kante gemeinsam und sind meist verschieden gross."
+     },
+     {
+      "antwort": "nur Grund- und Vorderfläche",
+      "diagnoseId": "falsch",
+      "feedback": "Diese beiden haben in der Regel verschiedene Masse."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Ecken hat ein Würfel?",
+    "optionen": [
+     "8",
+     "6",
+     "12",
+     "4"
+    ],
+    "loesung": [
+     "8"
+    ],
+    "erklaerung": "Ein Würfel hat acht Ecken, vier unten und vier oben.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "flaechen",
+      "feedback": "Sechs ist die Anzahl der Flächen eines Würfels, nicht die der Ecken."
+     },
+     {
+      "antwort": "12",
+      "diagnoseId": "kanten",
+      "feedback": "Zwölf ist die Anzahl der Kanten eines Würfels."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Vier Ecken hat allein die Grundfläche; oben kommen noch einmal vier dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Netz aus sechs Quadraten liegt in einer Reihe. Lässt es sich zu einem Würfel falten?",
+    "optionen": [
+     "Nein",
+     "Ja"
+    ],
+    "loesung": [
+     "Nein"
+    ],
+    "erklaerung": "Sechs Quadrate in einer Reihe ergeben beim Falten einen Ring; Grund- und Deckfläche fehlen, zwei Quadrate liegen doppelt.",
+    "fehler": [
+     {
+      "antwort": "Ja",
+      "diagnoseId": "zaehlung",
+      "feedback": "Die Anzahl stimmt zwar, die Anordnung aber nicht: In einer Reihe entsteht kein geschlossener Würfel."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Netze, Ansichten und Schrägbild",
+  "status": "review"
+ }
+]

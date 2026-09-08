@@ -1,0 +1,159 @@
+<!--
+  Schulverwaltung.
+
+  Kein Konto, kein Passwort — die Schule meldet sich mit dem
+  Verwaltungsschlüssel an, den sie mit der Bestellbestätigung bekommen
+  hat. Eine Schulsekretärin soll dafür kein Konto anlegen müssen, und
+  ein Passwort, das drei Leute im Sekretariat teilen, ist ohnehin
+  keines.
+-->
+<section class="band schmal">
+  <div class="innen">
+
+    <!-- ---------- Anmeldung ---------- -->
+    <section id="anmeldung" hidden>
+      <div class="innen mittel">
+        <p class="eyebrow">Schulverwaltung</p>
+        <h1>Lizenzen verwalten</h1>
+        <p class="bd" style="margin-top:10px;max-width:58ch">
+          Geben Sie den Verwaltungsschlüssel ein, den Sie mit der
+          Bestellbestätigung erhalten haben. Er steht auch in der E-Mail an
+          die Kontaktperson.
+        </p>
+        <form id="formSchluessel" class="karte" style="margin-top:26px;max-width:520px" novalidate>
+          <label class="feld"><span>Verwaltungsschlüssel</span>
+            <input name="schluessel" required autocomplete="off" spellcheck="false"
+                   style="font:600 16px 'Bitter',Georgia,serif;letter-spacing:.06em"></label>
+          <button class="btn bp voll" type="submit">Öffnen</button>
+        </form>
+        <p class="sm" style="margin-top:14px">
+          Schlüssel verloren? Schreiben Sie an
+          <a href="mailto:schulen@studyswiss.ch">schulen@studyswiss.ch</a> —
+          wir schicken ihn an die hinterlegte Adresse der Schule, nicht an
+          eine beliebige.
+        </p>
+        <div id="meldungAnmeldung" style="margin-top:16px"></div>
+      </div>
+    </section>
+
+    <!-- ---------- Verwaltung ---------- -->
+    <section id="verwaltung" hidden>
+      <div class="reihe" style="justify-content:space-between;flex-wrap:wrap;gap:14px">
+        <div>
+          <p class="eyebrow">Schulverwaltung</p>
+          <h1 id="schulname">Ihre Schule</h1>
+          <p class="sm" id="laufzeitZeile"></p>
+        </div>
+        <button class="btn bs klein" id="abmeldenKnopf">Schlüssel vergessen</button>
+      </div>
+
+      <div class="raster vier" style="margin-top:28px">
+        <div class="karte"><p class="eyebrow">Lizenzen</p>
+          <div class="num2 zahl" id="zLizenzen">–</div></div>
+        <div class="karte"><p class="eyebrow">Eingelöst</p>
+          <div class="num2 zahl" id="zEingeloest">–</div></div>
+        <div class="karte"><p class="eyebrow">Noch frei</p>
+          <div class="num2 zahl" id="zFrei">–</div></div>
+        <div class="karte"><p class="eyebrow">Gültig bis</p>
+          <div class="h3" id="zEnde" style="margin-top:6px">–</div></div>
+      </div>
+
+      <nav class="unternav" id="unternav" aria-label="Bereiche der Verwaltung">
+        <a href="#codes"    data-teil="codes">Codes verteilen</a>
+        <a href="#bericht"  data-teil="bericht">Bericht</a>
+        <a href="#belege"   data-teil="belege">Rechnungen</a>
+        <a href="#aufstocken" data-teil="aufstocken">Aufstocken</a>
+      </nav>
+
+      <!-- ---- Codes ---- -->
+      <section data-teil="codes">
+        <div class="karte">
+          <div class="reihe" style="justify-content:space-between;flex-wrap:wrap;gap:12px">
+            <div>
+              <h3>Zugangscodes</h3>
+              <p class="bd14" style="margin-top:4px">Jedes Kind bekommt einen Code.
+                Kein Name, keine E-Mail-Adresse, keine Klassenliste bei uns.</p>
+            </div>
+            <div class="reihe" style="gap:8px">
+              <button class="btn bs klein" id="codesDrucken">{{icon:druck}} Druckblatt</button>
+              <button class="btn bs klein" id="codesCsv">{{icon:laden}} CSV</button>
+            </div>
+          </div>
+
+          <div class="feldpaar" style="margin-top:20px">
+            <label class="feld"><span>Suchen</span>
+              <input id="codeSuche" placeholder="Code oder Klasse"></label>
+            <label class="feld"><span>Anzeigen</span>
+              <select id="codeFilter">
+                <option value="alle">Alle</option>
+                <option value="frei">Noch nicht eingelöst</option>
+                <option value="eingeloest">Eingelöst</option>
+              </select></label>
+          </div>
+
+          <div class="tabellenrahmen"><table class="t" id="codeTabelle">
+            <thead><tr>
+              <th>Code</th><th>Klasse</th><th>Stand</th><th class="rechts">Aktion</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table></div>
+          <p class="sm" id="codeFuss" style="margin-top:14px"></p>
+        </div>
+
+        <div class="hinweis ruhig" style="margin-top:18px">{{icon:info}}
+          <div>Ein Code lässt sich genau einmal einlösen. Geht ein Blatt
+          verloren, sperren Sie den Code hier und geben einen neuen aus —
+          der Fortschritt bleibt beim Kind, weil er am Gerät und am Konto
+          hängt, nicht am Code.</div></div>
+      </section>
+
+      <!-- ---- Bericht ---- -->
+      <section data-teil="bericht" hidden>
+        <div id="berichtInhalt"></div>
+      </section>
+
+      <!-- ---- Belege ---- -->
+      <section data-teil="belege" hidden>
+        <div class="karte">
+          <h3>Rechnungen und Offerten</h3>
+          <p class="bd14" style="margin-top:4px">Alle Belege zu dieser Schule.
+            Sie bleiben abrufbar, solange die Lizenz läuft, und zehn Jahre
+            darüber hinaus — so lange verlangt es die Aufbewahrungspflicht.</p>
+          <div class="tabellenrahmen" style="margin-top:18px">
+            <table class="t" id="belegTabelle">
+              <thead><tr><th>Beleg</th><th>Datum</th><th class="rechts">Betrag</th>
+                <th>Stand</th><th class="rechts">Ansehen</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---- Aufstocken ---- -->
+      <section data-teil="aufstocken" hidden>
+        <div class="karte">
+          <h3>Weitere Lizenzen</h3>
+          <p class="bd14" style="margin-top:4px;max-width:62ch">
+            Verrechnet wird die Differenz. Erreicht die Gesamtzahl eine
+            günstigere Stufe, gilt sie <b>für alle</b> Lizenzen des
+            Schuljahrs — auch für die bereits bezahlten. Das ist der
+            ehrlichere Weg: Wer nachbestellt, soll nicht bestraft werden,
+            weil er zuerst vorsichtig war.
+          </p>
+          <div class="feldpaar" style="margin-top:20px;max-width:520px">
+            <label class="feld"><span>Zusätzliche Lizenzen</span>
+              <input type="number" id="zusatzAnzahl" min="1" max="2000" value="10"></label>
+          </div>
+          <dl class="summe" id="zusatzSumme" style="max-width:420px"></dl>
+          <button class="btn bp" id="zusatzBestellen" style="margin-top:18px">
+            Nachbestellen</button>
+        </div>
+      </section>
+    </section>
+
+    <div id="meldung"></div>
+  </div>
+</section>
+
+<!-- Das Druckblatt wird beim Drucken eingeblendet und sonst nie. -->
+<section id="druckblatt" class="nur-druck"></section>

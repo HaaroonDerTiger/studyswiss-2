@@ -1,0 +1,3380 @@
+[
+ {
+  "templateId": "ar-spr-satzglieder",
+  "lernzielId": "DSAR.1.01",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Verschiebeprobe ist die wichtigste: Was sich gemeinsam an den Satzanfang schieben lässt, ist ein Satzglied.",
+   "Der Verbenfächer zeigt, welche Teile zum Prädikat gehören.",
+   "Eine Präpositionalgruppe beginnt immer mit einer Präposition."
+  ],
+  "loesungsweg": [
+   "Das gebeugte Verb suchen.",
+   "Die Verschiebeprobe machen: Was rutscht als Block nach vorn?",
+   "Fragen stellen: wer? wen? wem? wessen?",
+   "Erst dann benennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wörter bilden ein Satzglied?\n\nAm frühen Morgen brachte der Käser die Milch in den Keller.",
+    "optionen": [
+     "«Am frühen Morgen»",
+     "«Morgen brachte»",
+     "«der Käser die»",
+     "«die Milch in»"
+    ],
+    "loesung": [
+     "«Am frühen Morgen»"
+    ],
+    "erklaerung": "«Am frühen Morgen» lässt sich als Ganzes verschieben und ist damit ein Satzglied — eine Präpositionalgruppe als Zeitangabe.",
+    "fehler": [
+     {
+      "antwort": "«Morgen brachte»",
+      "diagnoseId": "zerrissen",
+      "feedback": "Diese beiden Wörter gehören zu verschiedenen Satzgliedern: das eine zur Zeitangabe, das andere ist das Prädikat."
+     },
+     {
+      "antwort": "«der Käser die»",
+      "diagnoseId": "zerrissen_zwei",
+      "feedback": "Der Artikel «die» gehört zum nächsten Satzglied, nicht zum Subjekt."
+     },
+     {
+      "antwort": "«die Milch in»",
+      "diagnoseId": "zerrissen_drei",
+      "feedback": "Die Präposition «in» beginnt bereits das nächste Satzglied."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «dem Lehrling»?\n\nDer Käser zeigte dem Lehrling den Griff.",
+    "optionen": [
+     "Dativobjekt",
+     "Subjekt",
+     "Akkusativobjekt",
+     "Präpositionalgruppe"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "«Wem zeigte er den Griff?» — dem Lehrling. Das ist das Dativobjekt.",
+    "fehler": [
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «der Käser»; es antwortet auf «wer?»."
+     },
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "akkusativ",
+      "feedback": "Im Akkusativ steht «den Griff»: Was zeigte er?"
+     },
+     {
+      "antwort": "Präpositionalgruppe",
+      "diagnoseId": "praeposition",
+      "feedback": "Eine Präpositionalgruppe begänne mit einer Präposition, etwa «für den Lehrling»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «auf den Wagen»?\n\nSie luden die Laibe auf den Wagen.",
+    "optionen": [
+     "Präpositionalgruppe",
+     "Akkusativobjekt",
+     "Dativobjekt",
+     "Subjekt"
+    ],
+    "loesung": [
+     "Präpositionalgruppe"
+    ],
+    "erklaerung": "Die Gruppe beginnt mit der Präposition «auf» und antwortet auf «wohin?».",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "akkusativ",
+      "feedback": "Das Akkusativobjekt ist «die Laibe»: Was luden sie?"
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "dativ",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?» und stünde ohne Präposition."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie» und antwortet auf die Frage «wer lud?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was gehört alles zum Prädikat?\n\nDer Bruder hat den Rucksack mitgenommen.",
+    "optionen": [
+     "«hat … mitgenommen»",
+     "nur «hat»",
+     "nur «mitgenommen»",
+     "«hat den Rucksack»"
+    ],
+    "loesung": [
+     "«hat … mitgenommen»"
+    ],
+    "erklaerung": "Personalform und Partizip bilden zusammen das Prädikat — genau das zeigt der Verbenfächer.",
+    "fehler": [
+     {
+      "antwort": "nur «hat»",
+      "diagnoseId": "personalform",
+      "feedback": "«Hat» ist nur die Personalform; das Partizip gehört dazu."
+     },
+     {
+      "antwort": "nur «mitgenommen»",
+      "diagnoseId": "partizip",
+      "feedback": "Ohne das Hilfsverb ist das Prädikat unvollständig."
+     },
+     {
+      "antwort": "«hat den Rucksack»",
+      "diagnoseId": "objekt_dabei",
+      "feedback": "«Den Rucksack» ist ein eigenes Satzglied, das Akkusativobjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nIm Keller reifen die Laibe drei Monate.",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Im Keller» / «reifen» / «die Laibe» / «drei Monate» — vier Glieder, das Prädikat mitgezählt.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "praedikat_vergessen",
+      "feedback": "Das Prädikat «reifen» ist ein eigenes Satzglied."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "zu_fein",
+      "feedback": "«Die Laibe» ist ein Satzglied, nicht zwei: Artikel und Nomen verschieben sich gemeinsam."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "wortweise",
+      "feedback": "Gezählt werden Satzglieder, nicht Wörter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe zeigt, dass «sehr sorgfältig» ein Satzglied ist?",
+    "optionen": [
+     "die Verschiebeprobe",
+     "die Weglassprobe",
+     "die Ersatzprobe",
+     "die Erweiterungsprobe"
+    ],
+    "loesung": [
+     "die Verschiebeprobe"
+    ],
+    "erklaerung": "Wenn sich «sehr sorgfältig» gemeinsam an den Satzanfang schieben lässt, ist es ein Satzglied.",
+    "fehler": [
+     {
+      "antwort": "die Weglassprobe",
+      "diagnoseId": "weglassen",
+      "feedback": "Die Weglassprobe zeigt, ob ein Teil nötig ist — nicht, ob er zusammengehört."
+     },
+     {
+      "antwort": "die Ersatzprobe",
+      "diagnoseId": "ersetzen",
+      "feedback": "Die Ersatzprobe hilft vor allem beim Bestimmen des Falls."
+     },
+     {
+      "antwort": "die Erweiterungsprobe",
+      "diagnoseId": "erweitern",
+      "feedback": "Die Erweiterungsprobe zeigt, ob sich ein Teil ausbauen lässt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «des Käsers»?\n\nDie Arbeit des Käsers beginnt früh.",
+    "optionen": [
+     "Teil des Subjekts",
+     "Genitivobjekt",
+     "Dativobjekt",
+     "eigenes Satzglied"
+    ],
+    "loesung": [
+     "Teil des Subjekts"
+    ],
+    "erklaerung": "«Die Arbeit des Käsers» verschiebt sich als Ganzes — der Genitiv ist hier ein Attribut innerhalb des Subjekts.",
+    "fehler": [
+     {
+      "antwort": "Genitivobjekt",
+      "diagnoseId": "objekt",
+      "feedback": "Ein Genitivobjekt hinge am Verb, etwa bei «sich erinnern». Hier hängt der Genitiv am Nomen «Arbeit»."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "dativ",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?» und hinge am Verb."
+     },
+     {
+      "antwort": "eigenes Satzglied",
+      "diagnoseId": "verschiebeprobe",
+      "feedback": "Die Verschiebeprobe zeigt es: «Des Käsers beginnt die Arbeit früh» geht nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz enthält einen Gleichsetzungsnominativ?",
+    "optionen": [
+     "Silas ist ein guter Käser.",
+     "Silas hilft einem guten Käser.",
+     "Silas kennt einen guten Käser.",
+     "Silas arbeitet bei einem Käser."
+    ],
+    "loesung": [
+     "Silas ist ein guter Käser."
+    ],
+    "erklaerung": "Nach «sein», «werden» und «bleiben» steht kein Objekt, sondern ein zweiter Nominativ.",
+    "fehler": [
+     {
+      "antwort": "Silas hilft einem guten Käser.",
+      "diagnoseId": "dativ",
+      "feedback": "«Helfen» verlangt den Dativ; das ist ein Dativobjekt."
+     },
+     {
+      "antwort": "Silas kennt einen guten Käser.",
+      "diagnoseId": "akkusativ",
+      "feedback": "«Kennen» verlangt den Akkusativ; das ist ein Objekt, kein zweiter Nominativ."
+     },
+     {
+      "antwort": "Silas arbeitet bei einem Käser.",
+      "diagnoseId": "praeposition",
+      "feedback": "«Bei einem Käser» ist eine Präpositionalgruppe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied fehlt?\n\n______ wischte den Boden.",
+    "optionen": [
+     "das Subjekt",
+     "das Prädikat",
+     "das Akkusativobjekt",
+     "eine Zeitangabe"
+    ],
+    "loesung": [
+     "das Subjekt"
+    ],
+    "erklaerung": "Prädikat und Akkusativobjekt stehen da. Es fehlt, WER wischt.",
+    "fehler": [
+     {
+      "antwort": "das Prädikat",
+      "diagnoseId": "verb",
+      "feedback": "Das Prädikat ist «wischte» und steht bereits im Satz."
+     },
+     {
+      "antwort": "das Akkusativobjekt",
+      "diagnoseId": "objekt",
+      "feedback": "«Den Boden» ist das Akkusativobjekt und ist da."
+     },
+     {
+      "antwort": "eine Zeitangabe",
+      "diagnoseId": "freiwillig",
+      "feedback": "Eine Zeitangabe wäre möglich, ist aber nicht nötig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gruppe ist eine Nominalgruppe?\n\nDer alte Käser stellte den Laib in das Salzbad.",
+    "optionen": [
+     "«den Laib»",
+     "«in das Salzbad»",
+     "«stellte»",
+     "«in das»"
+    ],
+    "loesung": [
+     "«den Laib»"
+    ],
+    "erklaerung": "Eine Nominalgruppe besteht aus Nomen mit Begleitern, ohne Präposition.",
+    "fehler": [
+     {
+      "antwort": "«in das Salzbad»",
+      "diagnoseId": "praepositional",
+      "feedback": "Diese Gruppe beginnt mit «in» und ist darum eine Präpositionalgruppe."
+     },
+     {
+      "antwort": "«stellte»",
+      "diagnoseId": "verb",
+      "feedback": "«Stellte» ist die Personalform des Verbs."
+     },
+     {
+      "antwort": "«in das»",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das ist kein vollständiges Satzglied; das Nomen fehlt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «zwei Tage»?\n\nEr blieb zwei Tage.",
+    "optionen": [
+     "eine Zeitangabe",
+     "ein Akkusativobjekt",
+     "das Subjekt",
+     "eine Präpositionalgruppe"
+    ],
+    "loesung": [
+     "eine Zeitangabe"
+    ],
+    "erklaerung": "Die Form sieht nach Akkusativ aus, die Frage lautet aber «wie lange?» — also eine adverbiale Bestimmung der Zeit.",
+    "fehler": [
+     {
+      "antwort": "ein Akkusativobjekt",
+      "diagnoseId": "form",
+      "feedback": "Ein Akkusativobjekt antwortete auf «wen oder was?». «Bleiben» hat gar kein Objekt."
+     },
+     {
+      "antwort": "das Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «er» und antwortet auf die Frage «wer blieb?»."
+     },
+     {
+      "antwort": "eine Präpositionalgruppe",
+      "diagnoseId": "praeposition",
+      "feedback": "Eine Präposition steht hier nicht; «zwei Tage» kommt ohne aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe hilft beim Bestimmen des Falls?",
+    "optionen": [
+     "die Ersatzprobe mit «der Mann»",
+     "die Verschiebeprobe",
+     "die Weglassprobe",
+     "die Erweiterungsprobe"
+    ],
+    "loesung": [
+     "die Ersatzprobe mit «der Mann»"
+    ],
+    "erklaerung": "Man setzt ein männliches Nomen ein und sieht am Artikel, welcher Fall vorliegt: der, den, dem, des.",
+    "fehler": [
+     {
+      "antwort": "die Verschiebeprobe",
+      "diagnoseId": "satzglied",
+      "feedback": "Die Verschiebeprobe zeigt die Grenzen eines Satzglieds, nicht den Fall."
+     },
+     {
+      "antwort": "die Weglassprobe",
+      "diagnoseId": "notwendig",
+      "feedback": "Sie zeigt, ob ein Teil nötig ist — nicht, welcher Fall vorliegt."
+     },
+     {
+      "antwort": "die Erweiterungsprobe",
+      "diagnoseId": "ausbau",
+      "feedback": "Sie zeigt, ob sich ein Teil ausbauen lässt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Satzglieder mit den vier Proben",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-objekte",
+  "lernzielId": "DGAR.1.04",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Das Subjekt findest du mit «wer oder was?», es bestimmt die Personalform des Verbs.",
+   "Die Objekte unterscheidest du mit den Fragen wessen, wem und wen oder was.",
+   "Nach «sein», «werden» und «bleiben» steht kein Objekt, sondern ein zweiter Nominativ."
+  ],
+  "loesungsweg": [
+   "Das Prädikat suchen.",
+   "Mit «wer oder was?» das Subjekt bestimmen.",
+   "Die übrigen Glieder mit den Fragen prüfen.",
+   "Bei «sein» und «werden» an den Gleichsetzungsnominativ denken."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Satzglied ist «der alte Postbus»?\n\nAm Morgen fährt der alte Postbus über den Pass.",
+    "optionen": [
+     "Subjekt",
+     "Akkusativobjekt",
+     "Dativobjekt",
+     "Gleichsetzungsnominativ"
+    ],
+    "loesung": [
+     "Subjekt"
+    ],
+    "erklaerung": "Wer oder was fährt? Der alte Postbus — das Subjekt bestimmt auch die Personalform «fährt».",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Ein Akkusativobjekt antwortete auf «wen oder was?»; dieser Satz hat keines."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?». Richtig ist «Subjekt»."
+     },
+     {
+      "antwort": "Gleichsetzungsnominativ",
+      "diagnoseId": "verb",
+      "feedback": "Ein Gleichsetzungsnominativ stünde nach «sein», «werden» oder «bleiben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Woran erkennst du das Subjekt sicher?",
+    "optionen": [
+     "Es richtet sich mit dem Verb in der Person",
+     "Es steht immer am Satzanfang",
+     "Es ist immer das erste Nomen",
+     "Es steht immer vor dem Objekt"
+    ],
+    "loesung": [
+     "Es richtet sich mit dem Verb in der Person"
+    ],
+    "erklaerung": "Ändert man die Zahl des Subjekts, ändert sich die Personalform mit — das ist die sichere Probe.",
+    "fehler": [
+     {
+      "antwort": "Es steht immer am Satzanfang",
+      "diagnoseId": "stellung",
+      "feedback": "Das Subjekt kann auch hinter dem Verb stehen: «Am Morgen fährt der Bus»."
+     },
+     {
+      "antwort": "Es ist immer das erste Nomen",
+      "diagnoseId": "stellung",
+      "feedback": "Im Satz «Dem Fahrer fiel der Fehler auf» steht das erste Nomen im Dativ."
+     },
+     {
+      "antwort": "Es steht immer vor dem Objekt",
+      "diagnoseId": "stellung",
+      "feedback": "Auch die Reihenfolge lässt sich verschieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied sind die verbalen Teile?\n\nDer Bus fährt am Morgen über den Pass ab.",
+    "optionen": [
+     "fährt … ab",
+     "der Bus",
+     "am Morgen",
+     "über den Pass"
+    ],
+    "loesung": [
+     "fährt … ab"
+    ],
+    "erklaerung": "Das Prädikat besteht hier aus zwei Teilen: «fährt» und die Vorsilbe «ab» am Satzende.",
+    "fehler": [
+     {
+      "antwort": "der Bus",
+      "diagnoseId": "subjekt",
+      "feedback": "Das ist das Subjekt und antwortet auf «wer oder was?»."
+     },
+     {
+      "antwort": "am Morgen",
+      "diagnoseId": "adverbial",
+      "feedback": "Das ist eine adverbiale Bestimmung der Zeit."
+     },
+     {
+      "antwort": "über den Pass",
+      "diagnoseId": "adverbial",
+      "feedback": "Das ist eine adverbiale Bestimmung des Ortes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «des Wanderers»?\n\nWir erinnern uns des Wanderers gern.",
+    "optionen": [
+     "Genitivobjekt",
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt"
+    ],
+    "loesung": [
+     "Genitivobjekt"
+    ],
+    "erklaerung": "«sich erinnern» kann den Genitiv verlangen: Wessen erinnern wir uns?",
+    "fehler": [
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "frage",
+      "feedback": "Das Dativobjekt antwortete auf «wem?». Richtig ist «Genitivobjekt»."
+     },
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "frage",
+      "feedback": "Das Akkusativobjekt antwortete auf «wen oder was?»."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «wir». Richtig ist «Genitivobjekt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «den Gästen»?\n\nSilas zeigt den Gästen den kürzeren Weg.",
+    "optionen": [
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Genitivobjekt",
+     "Subjekt"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "Wem zeigt er den Weg? Den Gästen — die Dativfrage.",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Das Akkusativobjekt ist «den kürzeren Weg»."
+     },
+     {
+      "antwort": "Genitivobjekt",
+      "diagnoseId": "frage",
+      "feedback": "Ein Genitivobjekt antwortete auf «wessen?»."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «Silas». Richtig ist «Dativobjekt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «den kürzeren Weg»?\n\nSilas zeigt den Gästen den kürzeren Weg.",
+    "optionen": [
+     "Akkusativobjekt",
+     "Dativobjekt",
+     "Subjekt",
+     "Gleichsetzungsnominativ"
+    ],
+    "loesung": [
+     "Akkusativobjekt"
+    ],
+    "erklaerung": "Was zeigt er? Den kürzeren Weg — die Akkusativfrage.",
+    "fehler": [
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Das Dativobjekt ist «den Gästen». Richtig ist «Akkusativobjekt»."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «Silas». Richtig ist «Akkusativobjekt»."
+     },
+     {
+      "antwort": "Gleichsetzungsnominativ",
+      "diagnoseId": "verb",
+      "feedback": "Dafür bräuchte es «sein», «werden» oder «bleiben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «eine gute Kletterin»?\n\nNorina wurde eine gute Kletterin.",
+    "optionen": [
+     "Gleichsetzungsnominativ",
+     "Akkusativobjekt",
+     "Dativobjekt",
+     "Subjekt"
+    ],
+    "loesung": [
+     "Gleichsetzungsnominativ"
+    ],
+    "erklaerung": "Nach «werden» steht kein Objekt, sondern ein zweiter Nominativ, der das Subjekt gleichsetzt.",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "verb_fall",
+      "feedback": "«werden» hat kein Objekt; die Ergänzung bleibt im Nominativ."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "frage",
+      "feedback": "Die Frage «wem?» passt hier nicht. Richtig ist «Gleichsetzungsnominativ»."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «Norina»; die Ergänzung setzt es gleich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz enthält einen Gleichsetzungsnominativ?",
+    "optionen": [
+     "Mein Onkel ist Wanderleiter.",
+     "Mein Onkel führt die Gruppe.",
+     "Mein Onkel hilft dem Kind.",
+     "Mein Onkel erinnert sich des Weges."
+    ],
+    "loesung": [
+     "Mein Onkel ist Wanderleiter."
+    ],
+    "erklaerung": "Nach «sein» steht ein zweiter Nominativ, der dasselbe bezeichnet wie das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Mein Onkel führt die Gruppe.",
+      "diagnoseId": "objekt",
+      "feedback": "«die Gruppe» ist ein Akkusativobjekt. Richtig ist «Mein Onkel ist Wanderleiter.»."
+     },
+     {
+      "antwort": "Mein Onkel hilft dem Kind.",
+      "diagnoseId": "objekt",
+      "feedback": "«dem Kind» ist ein Dativobjekt. Richtig ist «Mein Onkel ist Wanderleiter.»."
+     },
+     {
+      "antwort": "Mein Onkel erinnert sich des Weges.",
+      "diagnoseId": "objekt",
+      "feedback": "«des Weges» ist ein Genitivobjekt. Richtig ist «Mein Onkel ist Wanderleiter.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Objekt verlangt das Verb «helfen»?",
+    "optionen": [
+     "das Dativobjekt",
+     "das Akkusativobjekt",
+     "das Genitivobjekt",
+     "gar keines"
+    ],
+    "loesung": [
+     "das Dativobjekt"
+    ],
+    "erklaerung": "«helfen» steht mit dem Dativ: Man hilft jemandem, nicht jemanden.",
+    "fehler": [
+     {
+      "antwort": "das Akkusativobjekt",
+      "diagnoseId": "verb_fall",
+      "feedback": "«helfen» steht nie mit dem Akkusativ. Richtig ist «das Dativobjekt»."
+     },
+     {
+      "antwort": "das Genitivobjekt",
+      "diagnoseId": "verb_fall",
+      "feedback": "Ein Genitivobjekt verlangen nur wenige Verben wie «sich erinnern»."
+     },
+     {
+      "antwort": "gar keines",
+      "diagnoseId": "verb_fall",
+      "feedback": "«helfen» braucht sehr wohl eine Ergänzung: helfen wem?"
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «ihm»?\n\nDer Weg kam ihm länger vor als sonst.",
+    "optionen": [
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt",
+     "Genitivobjekt"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "«vorkommen» verlangt den Dativ: Wem kam der Weg länger vor?",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "verb_fall",
+      "feedback": "«vorkommen» steht mit dem Dativ, nicht mit dem Akkusativ."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «der Weg». Richtig ist «Dativobjekt»."
+     },
+     {
+      "antwort": "Genitivobjekt",
+      "diagnoseId": "frage",
+      "feedback": "Ein Genitivobjekt antwortete auf «wessen?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Objekte hat dieser Satz?\n\nLivia schenkte ihrer Schwester eine Karte.",
+    "optionen": [
+     "zwei",
+     "eines",
+     "drei",
+     "keines"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "«ihrer Schwester» steht im Dativ, «eine Karte» im Akkusativ — zwei Objekte.",
+    "fehler": [
+     {
+      "antwort": "eines",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Neben dem Akkusativobjekt steht auch ein Dativobjekt."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "«Livia» ist das Subjekt, kein Objekt. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "keines",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Der Satz hat sogar zwei Objekte. Richtig ist «zwei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied bleibt übrig, wenn du «am Morgen» wegstreichst?\n\nAm Morgen zählt der Leiter die Gruppe.",
+    "optionen": [
+     "Der Satz bleibt vollständig",
+     "Das Subjekt fehlt",
+     "Das Prädikat fehlt",
+     "Das Objekt fehlt"
+    ],
+    "loesung": [
+     "Der Satz bleibt vollständig"
+    ],
+    "erklaerung": "Die adverbiale Bestimmung lässt sich weglassen; Subjekt, Prädikat und Objekt bleiben stehen.",
+    "fehler": [
+     {
+      "antwort": "Das Subjekt fehlt",
+      "diagnoseId": "probe",
+      "feedback": "Das Subjekt «der Leiter» bleibt im Satz."
+     },
+     {
+      "antwort": "Das Prädikat fehlt",
+      "diagnoseId": "probe",
+      "feedback": "Das Prädikat «zählt» bleibt im Satz. Richtig ist «Der Satz bleibt vollständig»."
+     },
+     {
+      "antwort": "Das Objekt fehlt",
+      "diagnoseId": "probe",
+      "feedback": "Das Objekt «die Gruppe» bleibt im Satz. Richtig ist «Der Satz bleibt vollständig»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Subjekt, Objekte und Gleichsetzungsnominativ",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-wortarten",
+  "lernzielId": "DGAR.2.01",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Nomen verträgt einen Artikel, ein Verb lässt sich in eine andere Zeit setzen.",
+   "Ein Adjektiv lässt sich steigern und vor ein Nomen stellen.",
+   "Ein Relativpronomen leitet einen Nebensatz ein und bezieht sich auf ein Nomen davor."
+  ],
+  "loesungsweg": [
+   "Das gefragte Wort im Satz suchen.",
+   "Mit einer Probe prüfen, wie es sich verändern lässt.",
+   "Die Wortart benennen.",
+   "Zur Kontrolle ersetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wortart hat das Wort «Zug» in diesem Satz?\n\nDer Zug nach Trogen fährt jede halbe Stunde.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "«Zug» steht mit dem Artikel «Der» und benennt einen Gegenstand.",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «fährt»; es sagt, was geschieht."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern; bei «Zug» geht das nicht."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «Der»; er begleitet das Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «packt» in diesem Satz?\n\nSilas packt seine Wanderschuhe ein.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Verb"
+    ],
+    "erklaerung": "«packt» sagt, was geschieht, und lässt sich in andere Zeiten setzen: packte, hat gepackt.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen trüge einen Artikel; hier steht ein Verb im Präsens."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wie etwas geschieht."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe eine Eigenschaft und liesse sich steigern."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «steiler» in diesem Satz?\n\nDer Weg über den Hügel war steiler als erwartet.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Adjektiv"
+    ],
+    "erklaerung": "«steil» beschreibt eine Eigenschaft und steht hier in der Steigerungsform.",
+    "fehler": [
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Adverbien wie «gestern» lassen sich nicht steigern; dieses Wort schon."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «war». Richtig ist «Adjektiv»."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen würde grossgeschrieben und trüge einen Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Eine» in diesem Satz?\n\nEine Wanderkarte lag auf dem Tisch.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Artikel"
+    ],
+    "erklaerung": "«Eine» begleitet das Nomen «Wanderkarte» — der unbestimmte Artikel.",
+    "fehler": [
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Pronomen stünde für das Nomen; hier steht das Nomen daneben."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe die Karte näher."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Wanderkarte». Richtig ist «Artikel»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «den» in diesem Satz?\n\nNorina hat den Rucksack schon gepackt.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Artikel"
+    ],
+    "erklaerung": "«den» begleitet das Nomen «Rucksack» und steht im Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Als Pronomen stünde «den» ohne Nomen dahinter, etwa in einem Relativsatz."
+     },
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor der ganzen Wortgruppe."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Rucksack». Richtig ist «Artikel»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «ihn» in diesem Satz?\n\nSie hat ihn im Zug liegen lassen.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«ihn» steht anstelle eines zuvor genannten Nomens — ein Personalpronomen im Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel begleitete ein Nomen; hier steht keines daneben."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen benennte die Sache; das Pronomen ersetzt sie."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wo etwas geschieht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «der im Zug» in diesem Satz?\n\nDer Rucksack, der im Zug lag, gehört Jonas.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "Das zweite «der» leitet den Relativsatz ein und bezieht sich auf den Rucksack.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Als Artikel stünde ein Nomen dahinter; hier folgt eine Präposition."
+     },
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion wie «weil» trüge keine Endung und bezöge sich auf nichts."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Rucksack». Richtig ist «Pronomen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Welches» in diesem Satz?\n\nWelches Buch möchtest du lesen?",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Welches» fragt nach einer Auswahl und begleitet das Nomen — ein Interrogativpronomen.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «das Buch»; «welches» fragt zusätzlich."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wie etwas geschieht."
+     },
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion verbände zwei Satzteile."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Wandern» in diesem Satz?\n\nDas Wandern in den Bergen macht ihm Freude.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Nomen"
+    ],
+    "erklaerung": "Aus dem Verb «wandern» ist ein Nomen geworden: Es trägt den Artikel «Das».",
+    "fehler": [
+     {
+      "antwort": "Verb",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "«wandern» ist ursprünglich ein Verb — mit Artikel davor wird es zum Nomen."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern. Richtig ist «Nomen»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wie gewandert wird, etwa «langsam»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Diese» in diesem Satz?\n\nDiese Karte zeigt den ganzen Kanton.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Diese» zeigt auf eine bestimmte Karte — ein Demonstrativpronomen als Begleiter.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «die Karte»; «diese» zeigt zusätzlich hin."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe die Karte und liesse sich steigern."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Karte». Richtig ist «Pronomen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «warme» in diesem Satz?\n\nLivia trägt eine warme Jacke.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Adjektiv"
+    ],
+    "erklaerung": "«warm» beschreibt die Jacke und liesse sich steigern: warm, wärmer, am wärmsten.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Jacke»; das Adjektiv beschreibt es nur."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «eine». Richtig ist «Adjektiv»."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "form",
+      "feedback": "Das Verb dieses Satzes ist «trägt». Richtig ist «Adjektiv»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Niemand» in diesem Satz?\n\nNiemand hatte an den Regenschutz gedacht.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Niemand» steht anstelle einer Person, die nicht genannt wird — ein Indefinitpronomen.",
+    "fehler": [
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Ein Nomen benennte jemanden; «niemand» benennt gerade niemanden."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel begleitete ein Nomen; hier steht keines."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann oder wie etwas geschieht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Nomen, Verb, Adjektiv, Artikel und Pronomen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-wortarten-2",
+  "lernzielId": "DGAR.2.04",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "2.04",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Possessivpronomen sagt, wem etwas gehört, und begleitet ein Nomen.",
+   "Eine Präposition steht vor einer Wortgruppe und bestimmt deren Fall.",
+   "Eine Konjunktion verbindet zwei Satzteile; leitet sie einen Nebensatz ein, rutscht das Verb ans Ende."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob ein Nomen folgt oder ein ganzer Satz.",
+   "Bei einer Wortgruppe: Präposition.",
+   "Bei einem Nebensatz mit Verb am Ende: Konjunktion.",
+   "Zur Probe ersetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Wortart hat das Wort «sein» in diesem Satz?\n\nJonas hat sein Billett zu Hause vergessen.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«sein» sagt, wem das Billett gehört, und begleitet das Nomen — ein Possessivpronomen.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «das Billett»; «sein» sagt zusätzlich, wem es gehört."
+     },
+     {
+      "antwort": "Verb",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "Das Verb «sein» gibt es auch; hier steht das Wort aber vor einem Nomen."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe eine Eigenschaft und liesse sich steigern."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Unsere» in diesem Satz?\n\nUnsere Klasse fährt nach Trogen.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Unsere» zeigt an, wem die Klasse gehört — ein Possessivpronomen als Begleiter.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «die Klasse». Richtig ist «Pronomen»."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern. Richtig ist «Pronomen»."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Klasse». Richtig ist «Pronomen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Jenes» in diesem Satz?\n\nJenes Haus dort oben gehört der Gemeinde.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Jenes» zeigt auf ein bestimmtes Haus — ein Demonstrativpronomen.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «das Haus»; «jenes» zeigt zusätzlich hin."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Das Adverb dieses Satzes ist «dort». Richtig ist «Pronomen»."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv beschriebe das Haus. Richtig ist «Pronomen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Dieselbe» in diesem Satz?\n\nDieselbe Frage stellte sie am Abend noch einmal.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Pronomen"
+    ],
+    "erklaerung": "«Dieselbe» weist auf etwas schon Genanntes zurück — ein Demonstrativpronomen.",
+    "fehler": [
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel wäre «die Frage». Richtig ist «Pronomen»."
+     },
+     {
+      "antwort": "Adjektiv",
+      "diagnoseId": "form",
+      "feedback": "Ein Adjektiv liesse sich steigern; das geht hier nicht."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb sagte, wann etwas geschieht, etwa «am Abend»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «unter» in diesem Satz?\n\nWir warteten unter dem Vordach.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«unter» steht vor der Wortgruppe «dem Vordach» und bestimmt deren Fall.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion verbände zwei Satzteile; hier wird nichts verbunden."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein; «unter» braucht eine Wortgruppe."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «dem». Richtig ist «Präposition»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Trotz» in diesem Satz?\n\nTrotz des Regens gingen wir los.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«Trotz» steht vor der Wortgruppe «des Regens» und verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion leitete einen Nebensatz mit Verb ein."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein, ohne Wortgruppe."
+     },
+     {
+      "antwort": "Nomen",
+      "diagnoseId": "form",
+      "feedback": "Das Nomen ist «Regens». Richtig ist «Präposition»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «weil» in diesem Satz?\n\nNorina blieb zu Hause, weil sie Fieber hatte.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«weil» verbindet Haupt- und Nebensatz und schickt das Verb ans Satzende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor einer Wortgruppe, etwa «wegen des Fiebers»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb liesse die Wortstellung unverändert."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Das Pronomen dieses Satzes ist «sie». Richtig ist «Konjunktion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «obwohl» in diesem Satz?\n\nWir gingen los, obwohl es stark schneite.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«obwohl» leitet einen Nebensatz ein; das Verb «schneite» rutscht ans Ende.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor einer Wortgruppe, etwa «trotz des Schnees»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb änderte die Wortstellung nicht."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Das Pronomen dieses Satzes ist «es». Richtig ist «Konjunktion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Während» in diesem Satz?\n\nWährend des Gewitters fiel der Strom aus.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "Hier steht «während» vor der Wortgruppe «des Gewitters» und verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "«während» kann auch Konjunktion sein — aber nur, wenn ein ganzer Nebensatz folgt."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein, ohne Wortgruppe."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «des». Richtig ist «Präposition»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «Während» in diesem Satz?\n\nWährend wir warteten, wurde es dunkel.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "Hier folgt ein ganzer Nebensatz mit dem Verb am Ende — also eine Konjunktion.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "gleiches_wort",
+      "feedback": "Als Präposition stünde «während» vor einer Wortgruppe wie «des Wartens»."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb änderte die Wortstellung nicht."
+     },
+     {
+      "antwort": "Pronomen",
+      "diagnoseId": "form",
+      "feedback": "Das Pronomen dieses Satzes ist «wir». Richtig ist «Konjunktion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «und» in diesem Satz?\n\nSilas und Livia fahren gemeinsam nach Herisau.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Konjunktion"
+    ],
+    "erklaerung": "«und» verbindet zwei gleichrangige Teile — hier zwei Namen.",
+    "fehler": [
+     {
+      "antwort": "Präposition",
+      "diagnoseId": "form",
+      "feedback": "Eine Präposition stünde vor einer Wortgruppe und bestimmte deren Fall."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Das Adverb dieses Satzes ist «gemeinsam»."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Ein Artikel begleitete ein Nomen. Richtig ist «Konjunktion»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wortart hat das Wort «auf» in diesem Satz?\n\nEr wartete auf den nächsten Bus.",
+    "optionen": [
+     "Nomen",
+     "Verb",
+     "Adjektiv",
+     "Artikel",
+     "Pronomen",
+     "Präposition",
+     "Konjunktion",
+     "Adverb"
+    ],
+    "loesung": [
+     "Präposition"
+    ],
+    "erklaerung": "«auf» steht vor der Wortgruppe «den nächsten Bus» und bestimmt deren Fall.",
+    "fehler": [
+     {
+      "antwort": "Konjunktion",
+      "diagnoseId": "form",
+      "feedback": "Eine Konjunktion verbände zwei Satzteile."
+     },
+     {
+      "antwort": "Adverb",
+      "diagnoseId": "form",
+      "feedback": "Ein Adverb stünde allein, ohne Wortgruppe."
+     },
+     {
+      "antwort": "Artikel",
+      "diagnoseId": "form",
+      "feedback": "Der Artikel dieses Satzes ist «den». Richtig ist «Präposition»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Possessiv- und Demonstrativpronomen, Präpositionen und Konjunktionen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-verbformen",
+  "lernzielId": "DGAR.3.01",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Der Infinitiv ist die Grundform, wie sie im Wörterbuch steht.",
+   "Bei zusammengesetzten Zeiten brauchst du das richtige Hilfsverb: haben oder sein.",
+   "Das Futur I besteht aus «werden» und der Grundform."
+  ],
+  "loesungsweg": [
+   "Person und Zahl aus dem Satz ablesen.",
+   "Das passende Hilfsverb wählen.",
+   "Das Partizip oder die Grundform anhängen.",
+   "Die fertige Form laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie lautet der Infinitiv von «brachte»?\n\nInfinitiv: ______",
+    "loesung": [
+     "bringen"
+    ],
+    "erklaerung": "Der Infinitiv ist die Grundform: bringen. Im Präteritum wechselt der Stamm zu «bracht-».",
+    "fehler": [
+     {
+      "antwort": "bringte",
+      "diagnoseId": "regelmaessig_gebildet",
+      "feedback": "«bringen» ist unregelmässig; die Vergangenheitsform lautet «brachte»."
+     },
+     {
+      "antwort": "brachten",
+      "diagnoseId": "personalform",
+      "feedback": "Das ist die Mehrzahlform des Präteritums, nicht der Infinitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Infinitiv von «ging»?\n\nInfinitiv: ______",
+    "loesung": [
+     "gehen"
+    ],
+    "erklaerung": "«ging» ist das Präteritum von «gehen»; der Stammvokal wechselt.",
+    "fehler": [
+     {
+      "antwort": "gingen",
+      "diagnoseId": "personalform",
+      "feedback": "Das ist die Mehrzahlform des Präteritums."
+     },
+     {
+      "antwort": "gegangen",
+      "diagnoseId": "partizip",
+      "feedback": "Das ist das Partizip, das im Perfekt steht."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Personalform ein.\n\n(fahren) Du ______ jeden Morgen mit dem Bus.",
+    "loesung": [
+     "fährst"
+    ],
+    "erklaerung": "In der zweiten Person Einzahl wechselt der Stammvokal: du fährst.",
+    "fehler": [
+     {
+      "antwort": "fahrst",
+      "diagnoseId": "ohne_umlaut",
+      "feedback": "Bei «fahren» tritt in der zweiten Person Einzahl ein Umlaut auf."
+     },
+     {
+      "antwort": "fährt",
+      "diagnoseId": "falsche_person",
+      "feedback": "«fährt» gehört zu «er», «sie» oder «es»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präteritum.\n\nEr schneidet das Brot.\n\nEr ______ das Brot.",
+    "loesung": [
+     "schnitt"
+    ],
+    "erklaerung": "«schneiden» ist unregelmässig: Im Präteritum lautet es «schnitt».",
+    "fehler": [
+     {
+      "antwort": "schneidete",
+      "diagnoseId": "regelmaessig_gebildet",
+      "feedback": "«schneiden» wird nicht regelmässig gebeugt."
+     },
+     {
+      "antwort": "hat geschnitten",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Das ist das Perfekt; gesucht ist die einfache Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präteritum.\n\nWir denken an den Ausflug.\n\nWir ______ an den Ausflug.",
+    "loesung": [
+     "dachten"
+    ],
+    "erklaerung": "«denken» ist unregelmässig: dachte, dachten.",
+    "fehler": [
+     {
+      "antwort": "denkten",
+      "diagnoseId": "regelmaessig_gebildet",
+      "feedback": "«denken» wird nicht regelmässig gebeugt."
+     },
+     {
+      "antwort": "haben gedacht",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Das ist das Perfekt; gesucht ist das Präteritum."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt.\n\nLivia läuft zur Haltestelle.\n\nLivia ______ zur Haltestelle.",
+    "loesung": [
+     "ist gelaufen"
+    ],
+    "erklaerung": "«laufen» ist ein Bewegungsverb und bildet das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "hat gelaufen",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Bewegungsverben nehmen im Perfekt «sein», nicht «haben»."
+     },
+     {
+      "antwort": "ist laufen",
+      "diagnoseId": "kein_partizip",
+      "feedback": "Nach dem Hilfsverb steht das Partizip «gelaufen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt.\n\nSie nehmen die Abkürzung.\n\nSie ______ die Abkürzung.",
+    "loesung": [
+     "haben genommen"
+    ],
+    "erklaerung": "«nehmen» bildet das Perfekt mit «haben»; das Partizip lautet «genommen».",
+    "fehler": [
+     {
+      "antwort": "sind genommen",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«nehmen» ist kein Bewegungsverb und nimmt darum «haben»."
+     },
+     {
+      "antwort": "haben genehmt",
+      "diagnoseId": "regelmaessig_gebildet",
+      "feedback": "«nehmen» ist unregelmässig; das Partizip lautet «genommen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt.\n\nWir vergessen den Schlüssel.\n\nWir ______ den Schlüssel ______ .",
+    "loesung": [
+     "hatten vergessen"
+    ],
+    "erklaerung": "Das Plusquamperfekt braucht das Hilfsverb im Präteritum: «hatten» plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "haben vergessen",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Mit «haben» im Präsens ergibt sich das Perfekt."
+     },
+     {
+      "antwort": "waren vergessen",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«vergessen» bildet die zusammengesetzten Zeiten mit «haben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt.\n\nDie Gruppe geht früh los.\n\nDie Gruppe ______ früh ______ .",
+    "loesung": [
+     "war losgegangen"
+    ],
+    "erklaerung": "«losgehen» ist ein Bewegungsverb: Hilfsverb «sein», im Präteritum «war», plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "hatte losgegangen",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Bewegungsverben bilden die zusammengesetzten Zeiten mit «sein»."
+     },
+     {
+      "antwort": "ist losgegangen",
+      "diagnoseId": "falsche_zeit",
+      "feedback": "Das ist das Perfekt; für die Vorvergangenheit braucht es «war»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur I.\n\nDie Gemeinde saniert den Weg.\n\nDie Gemeinde ______ den Weg ______ .",
+    "loesung": [
+     "wird sanieren"
+    ],
+    "erklaerung": "Das Futur I besteht aus «werden» in der Personalform und der Grundform.",
+    "fehler": [
+     {
+      "antwort": "werdet sanieren",
+      "diagnoseId": "falsche_person",
+      "feedback": "«Die Gemeinde» ist dritte Person Einzahl: wird."
+     },
+     {
+      "antwort": "wird saniert",
+      "diagnoseId": "passiv",
+      "feedback": "«wird saniert» ist ein Passiv im Präsens, kein Futur im Aktiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur I.\n\nIhr steht früh auf.\n\nIhr ______ früh ______ .",
+    "loesung": [
+     "werdet aufstehen"
+    ],
+    "erklaerung": "Futur I: «werden» in der zweiten Person Mehrzahl plus Grundform.",
+    "fehler": [
+     {
+      "antwort": "wird aufstehen",
+      "diagnoseId": "falsche_person",
+      "feedback": "«Ihr» verlangt «werdet», nicht «wird». Richtig ist «werdet aufstehen»."
+     },
+     {
+      "antwort": "werdet aufgestanden",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «werden» steht die Grundform, nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präsens.\n\nDu hieltest die Karte fest.\n\nDu ______ die Karte fest.",
+    "loesung": [
+     "hältst"
+    ],
+    "erklaerung": "Im Präsens wechselt der Stammvokal: halten wird zu «du hältst».",
+    "fehler": [
+     {
+      "antwort": "haltest",
+      "diagnoseId": "ohne_umlaut",
+      "feedback": "Bei «halten» tritt in der zweiten Person Einzahl ein Umlaut auf."
+     },
+     {
+      "antwort": "hälst",
+      "diagnoseId": "fehlendes_t",
+      "feedback": "Der Stamm endet auf «-lt»; die Endung «-st» kommt dazu."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Infinitiv, Personalform und die Zeitformen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-modus-rede",
+  "lernzielId": "DGAR.3.05",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "3.05",
+   "3.06",
+   "3.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Das Futur II sagt, was zu einem späteren Zeitpunkt abgeschlossen sein wird.",
+   "Der Imperativ steht ohne Subjekt, der Konjunktiv I in der indirekten Rede.",
+   "Fällt der Konjunktiv I mit dem Indikativ zusammen, weicht man auf den Konjunktiv II aus."
+  ],
+  "loesungsweg": [
+   "Alle Verbteile suchen.",
+   "Prüfen, ob eine Aussage, ein Befehl oder eine fremde Rede vorliegt.",
+   "Den Modus benennen.",
+   "Die Form laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\nBis zum Abend werden wir den Gipfel erreicht haben.",
+    "optionen": [
+     "Futur II",
+     "Futur I",
+     "Perfekt",
+     "Plusquamperfekt"
+    ],
+    "loesung": [
+     "Futur II"
+    ],
+    "erklaerung": "«werden» plus Partizip plus «haben» ergibt das Futur II: etwas ist bis dann abgeschlossen.",
+    "fehler": [
+     {
+      "antwort": "Futur I",
+      "diagnoseId": "form",
+      "feedback": "Das Futur I bestünde nur aus «werden» plus Grundform: werden erreichen."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Perfekt hiesse «haben erreicht», ohne «werden»."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Plusquamperfekt hiesse «hatten erreicht»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet das Futur II?\n\nSie schreibt den Brief.",
+    "optionen": [
+     "Sie wird den Brief geschrieben haben",
+     "Sie wird den Brief schreiben",
+     "Sie hat den Brief geschrieben",
+     "Sie wird den Brief geschrieben"
+    ],
+    "loesung": [
+     "Sie wird den Brief geschrieben haben"
+    ],
+    "erklaerung": "Futur II: «werden» plus Partizip plus Hilfsverb im Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "Sie wird den Brief schreiben",
+      "diagnoseId": "form",
+      "feedback": "Das ist das Futur I; es sagt nichts über den Abschluss."
+     },
+     {
+      "antwort": "Sie hat den Brief geschrieben",
+      "diagnoseId": "form",
+      "feedback": "Das ist das Perfekt und blickt zurück. Richtig ist «Sie wird den Brief geschrieben haben»."
+     },
+     {
+      "antwort": "Sie wird den Brief geschrieben",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das «haben» am Schluss fehlt. Richtig ist «Sie wird den Brief geschrieben haben»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht das Verb?\n\nBring bitte die Karte mit.",
+    "optionen": [
+     "Imperativ",
+     "Indikativ",
+     "Konjunktiv I",
+     "Konjunktiv II"
+    ],
+    "loesung": [
+     "Imperativ"
+    ],
+    "erklaerung": "«Bring» ist die Befehlsform; sie steht ohne Subjekt und ohne Endung.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ hiesse «du bringst» und stellte etwas fest."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv I lautete «er bringe» und gäbe eine fremde Aussage wieder."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv II lautete «brächte» und beschriebe etwas Gedachtes."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht das Verb?\n\nSilas behauptet, er habe nichts gehört.",
+    "optionen": [
+     "Konjunktiv I",
+     "Indikativ",
+     "Konjunktiv II",
+     "Imperativ"
+    ],
+    "loesung": [
+     "Konjunktiv I"
+    ],
+    "erklaerung": "«habe» ist der Konjunktiv I und kennzeichnet die Aussage als die von Silas.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ wäre «hat»; dann übernähme der Erzähler die Aussage."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv II wäre «hätte» und drückte Zweifel aus."
+     },
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "modus",
+      "feedback": "Ein Imperativ forderte zu etwas auf. Richtig ist «Konjunktiv I»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht das Verb?\n\nWenn der Nebel stiege, sähen wir den See.",
+    "optionen": [
+     "Konjunktiv II",
+     "Indikativ",
+     "Konjunktiv I",
+     "Imperativ"
+    ],
+    "loesung": [
+     "Konjunktiv II"
+    ],
+    "erklaerung": "Der Konjunktiv II beschreibt hier etwas Gedachtes: Der Nebel steigt eben nicht.",
+    "fehler": [
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ stellte fest, dass es so ist."
+     },
+     {
+      "antwort": "Konjunktiv I",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv I gäbe eine fremde Aussage wieder."
+     },
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "modus",
+      "feedback": "Ein Imperativ forderte zu etwas auf. Richtig ist «Konjunktiv II»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nLivia sagt: «Ich komme später.» — Livia sagt, sie ______ später.",
+    "optionen": [
+     "komme",
+     "kommt",
+     "käme",
+     "kam"
+    ],
+    "loesung": [
+     "komme"
+    ],
+    "erklaerung": "In der indirekten Rede steht der Konjunktiv I: «sie komme». Er weicht deutlich vom Indikativ ab.",
+    "fehler": [
+     {
+      "antwort": "kommt",
+      "diagnoseId": "indikativ",
+      "feedback": "«kommt» ist der Indikativ und gibt die Aussage als eigene wieder."
+     },
+     {
+      "antwort": "käme",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II kommt erst zum Zug, wenn der Konjunktiv I gleich aussieht wie der Indikativ."
+     },
+     {
+      "antwort": "kam",
+      "diagnoseId": "zeit",
+      "feedback": "«kam» ist das Präteritum im Indikativ. Richtig ist «komme»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nSie erzählen: «Wir haben den Zug verpasst.» — Sie erzählen, sie ______ den Zug verpasst.",
+    "optionen": [
+     "hätten",
+     "haben",
+     "hatten",
+     "habe"
+    ],
+    "loesung": [
+     "hätten"
+    ],
+    "erklaerung": "Der Konjunktiv I «haben» sieht gleich aus wie der Indikativ; darum weicht man auf «hätten» aus.",
+    "fehler": [
+     {
+      "antwort": "haben",
+      "diagnoseId": "gleich_wie_indikativ",
+      "feedback": "Diese Form ist zugleich der Indikativ; die Rede wäre nicht erkennbar."
+     },
+     {
+      "antwort": "hatten",
+      "diagnoseId": "indikativ",
+      "feedback": "«hatten» ist der Indikativ des Plusquamperfekts."
+     },
+     {
+      "antwort": "habe",
+      "diagnoseId": "falsche_zahl",
+      "feedback": "«habe» steht in der Einzahl; hier sprechen mehrere."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nEr sagt: «Ich bin müde.» — Er sagt, er ______ müde.",
+    "optionen": [
+     "sei",
+     "ist",
+     "wäre",
+     "war"
+    ],
+    "loesung": [
+     "sei"
+    ],
+    "erklaerung": "Der Konjunktiv I von «sein» lautet «sei» und weicht deutlich vom Indikativ ab.",
+    "fehler": [
+     {
+      "antwort": "ist",
+      "diagnoseId": "indikativ",
+      "feedback": "«ist» ist der Indikativ; die indirekte Rede verlangt den Konjunktiv I."
+     },
+     {
+      "antwort": "wäre",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II käme erst zum Zug, wenn der Konjunktiv I mit dem Indikativ zusammenfiele."
+     },
+     {
+      "antwort": "war",
+      "diagnoseId": "zeit",
+      "feedback": "«war» ist der Indikativ des Präteritums."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz gibt «Ich war nie dort» richtig indirekt wieder?",
+    "optionen": [
+     "Sie sagt, sie sei nie dort gewesen",
+     "Sie sagt, sie ist nie dort gewesen",
+     "Sie sagt, sie wäre nie dort",
+     "Sie sagt, sie war nie dort gewesen"
+    ],
+    "loesung": [
+     "Sie sagt, sie sei nie dort gewesen"
+    ],
+    "erklaerung": "Der Konjunktiv I von «sein» lautet «sei»; die Vergangenheit wird mit dem Partizip gebildet.",
+    "fehler": [
+     {
+      "antwort": "Sie sagt, sie ist nie dort gewesen",
+      "diagnoseId": "indikativ",
+      "feedback": "«ist» ist der Indikativ. Richtig ist «Sie sagt, sie sei nie dort gewesen»."
+     },
+     {
+      "antwort": "Sie sagt, sie wäre nie dort",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II käme erst zum Zug, wenn der Konjunktiv I zusammenfiele."
+     },
+     {
+      "antwort": "Sie sagt, sie war nie dort gewesen",
+      "diagnoseId": "indikativ",
+      "feedback": "«war» ist der Indikativ des Präteritums."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Imperativ in der Höflichkeitsform?\n\n(mitkommen)",
+    "optionen": [
+     "Kommen Sie mit!",
+     "Komm Sie mit!",
+     "Sie kommen mit!",
+     "Mitkommen Sie!"
+    ],
+    "loesung": [
+     "Kommen Sie mit!"
+    ],
+    "erklaerung": "In der Höflichkeitsform steht das Verb vor «Sie», und beides bleibt in der Wir-Form des Verbs.",
+    "fehler": [
+     {
+      "antwort": "Komm Sie mit!",
+      "diagnoseId": "form",
+      "feedback": "«Komm» ist die Du-Form; zur Höflichkeitsform gehört «Kommen»."
+     },
+     {
+      "antwort": "Sie kommen mit!",
+      "diagnoseId": "wortstellung",
+      "feedback": "In der Aufforderung steht das Verb voran."
+     },
+     {
+      "antwort": "Mitkommen Sie!",
+      "diagnoseId": "form",
+      "feedback": "Die Vorsilbe bleibt am Satzende: Kommen Sie mit!"
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz steht im Imperativ?",
+    "optionen": [
+     "Nimm die Jacke mit.",
+     "Du nimmst die Jacke mit.",
+     "Er nehme die Jacke mit.",
+     "Sie nähme die Jacke mit."
+    ],
+    "loesung": [
+     "Nimm die Jacke mit."
+    ],
+    "erklaerung": "Der Imperativ steht ohne Subjekt und fordert auf.",
+    "fehler": [
+     {
+      "antwort": "Du nimmst die Jacke mit.",
+      "diagnoseId": "modus",
+      "feedback": "Das ist der Indikativ mit Subjekt. Richtig ist «Nimm die Jacke mit.»."
+     },
+     {
+      "antwort": "Er nehme die Jacke mit.",
+      "diagnoseId": "modus",
+      "feedback": "Das ist der Konjunktiv I. Richtig ist «Nimm die Jacke mit.»."
+     },
+     {
+      "antwort": "Sie nähme die Jacke mit.",
+      "diagnoseId": "modus",
+      "feedback": "Das ist der Konjunktiv II. Richtig ist «Nimm die Jacke mit.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Frage?\n\nEr fragt: «Wann fährt der Bus?» — Er fragt, wann der Bus ______ .",
+    "optionen": [
+     "fahre",
+     "fährt",
+     "führe",
+     "fuhr"
+    ],
+    "loesung": [
+     "fahre"
+    ],
+    "erklaerung": "Auch die indirekte Frage steht im Konjunktiv I; das Verb rutscht ans Satzende.",
+    "fehler": [
+     {
+      "antwort": "fährt",
+      "diagnoseId": "indikativ",
+      "feedback": "«fährt» ist der Indikativ. Richtig ist «fahre»."
+     },
+     {
+      "antwort": "führe",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II wird nur genommen, wenn der Konjunktiv I gleich aussieht wie der Indikativ."
+     },
+     {
+      "antwort": "fuhr",
+      "diagnoseId": "zeit",
+      "feedback": "«fuhr» ist das Präteritum im Indikativ. Richtig ist «fahre»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Futur II, Modus und indirekte Rede",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-faelle",
+  "lernzielId": "DGAR.4.01",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "4.01",
+   "4.02",
+   "4.09"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Stelle die Frage: wer oder was, wessen, wem, wen oder was?",
+   "Die Ersatzprobe hilft: der, des, dem, den.",
+   "Im Brief werden Sie, Ihnen und Ihr grossgeschrieben."
+  ],
+  "loesungsweg": [
+   "Das Verb des Satzes suchen.",
+   "Die passende Frage stellen.",
+   "Den Ausdruck einsetzen und prüfen.",
+   "Den Fall benennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Fall steht «der Wanderleiter»?\n\nDer Wanderleiter zählt die Gruppe.",
+    "optionen": [
+     "Nominativ",
+     "Genitiv",
+     "Dativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Nominativ"
+    ],
+    "erklaerung": "Wer zählt? Der Wanderleiter — die Ersatzprobe ergibt «der».",
+    "fehler": [
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «des Wanderleiters» und antwortete auf «wessen?»."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ wäre «dem Wanderleiter». Richtig ist «Nominativ»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Akkusativ wäre «den Wanderleiter». Richtig ist «Nominativ»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «die Gruppe»?\n\nDer Wanderleiter zählt die Gruppe.",
+    "optionen": [
+     "Akkusativ",
+     "Nominativ",
+     "Dativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "Wen oder was zählt er? Die Gruppe — die Ersatzprobe ergibt «den».",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «der Wanderleiter». Richtig ist «Akkusativ»."
+     },
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Die Dativfrage «wem?» passt hier nicht. Richtig ist «Akkusativ»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «der Gruppe» im Sinn von «wessen?»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «den Kindern»?\n\nSie zeigt den Kindern den Weg.",
+    "optionen": [
+     "Dativ",
+     "Akkusativ",
+     "Nominativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Wem zeigt sie den Weg? Den Kindern — die Ersatzprobe ergibt «dem».",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "zwei_objekte",
+      "feedback": "Im Akkusativ steht «den Weg»; die Personen stehen im Dativ."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «sie». Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv lautete «der Kinder». Richtig ist «Dativ»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «des Weges»?\n\nAm Ende des Weges steht eine Bank.",
+    "optionen": [
+     "Genitiv",
+     "Dativ",
+     "Akkusativ",
+     "Nominativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "Wessen Ende? Des Weges — die Endung «-es» und die Ersatzprobe «des» zeigen den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ wäre «dem Weg». Richtig ist «Genitiv»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Akkusativ wäre «den Weg». Richtig ist «Genitiv»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «eine Bank». Richtig ist «Genitiv»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde den Genitiv.\n\n(der Rucksack) Die Farbe ______ gefällt ihr.",
+    "optionen": [
+     "des Rucksacks",
+     "dem Rucksack",
+     "den Rucksack",
+     "der Rucksack"
+    ],
+    "loesung": [
+     "des Rucksacks"
+    ],
+    "erklaerung": "Der Genitiv männlicher Nomen endet auf «-s» oder «-es»: des Rucksacks.",
+    "fehler": [
+     {
+      "antwort": "dem Rucksack",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Dativ. Richtig ist «des Rucksacks»."
+     },
+     {
+      "antwort": "den Rucksack",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Akkusativ. Richtig ist «des Rucksacks»."
+     },
+     {
+      "antwort": "der Rucksack",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Nominativ. Richtig ist «des Rucksacks»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde den Dativ.\n\n(die Lehrerin) Sie gibt ______ das Blatt.",
+    "optionen": [
+     "der Lehrerin",
+     "die Lehrerin",
+     "der Lehrerinnen",
+     "den Lehrerin"
+    ],
+    "loesung": [
+     "der Lehrerin"
+    ],
+    "erklaerung": "Der Dativ weiblicher Nomen in der Einzahl lautet «der Lehrerin».",
+    "fehler": [
+     {
+      "antwort": "die Lehrerin",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Nominativ oder der Akkusativ."
+     },
+     {
+      "antwort": "der Lehrerinnen",
+      "diagnoseId": "zahl",
+      "feedback": "Das ist der Genitiv in der Mehrzahl. Richtig ist «der Lehrerin»."
+     },
+     {
+      "antwort": "den Lehrerin",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es nicht. Richtig ist «der Lehrerin»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde den Akkusativ.\n\n(der Bus) Wir nehmen ______ um sieben.",
+    "optionen": [
+     "den Bus",
+     "dem Bus",
+     "des Busses",
+     "der Bus"
+    ],
+    "loesung": [
+     "den Bus"
+    ],
+    "erklaerung": "Der Akkusativ männlicher Nomen lautet «den Bus».",
+    "fehler": [
+     {
+      "antwort": "dem Bus",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Dativ. Richtig ist «den Bus»."
+     },
+     {
+      "antwort": "des Busses",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Genitiv. Richtig ist «den Bus»."
+     },
+     {
+      "antwort": "der Bus",
+      "diagnoseId": "fall",
+      "feedback": "Das ist der Nominativ. Richtig ist «den Bus»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «mit dem Zug»?\n\nWir fahren mit dem Zug nach Trogen.",
+    "optionen": [
+     "Dativ",
+     "Akkusativ",
+     "Nominativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«mit» verlangt immer den Dativ, unabhängig von der Frage.",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "praeposition",
+      "feedback": "«mit» steht nie mit dem Akkusativ. Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «wir». Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "praeposition",
+      "feedback": "Der Genitiv steht nach «wegen» oder «während»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist im Brief richtig?\n\nIch danke ______ für die Auskunft.",
+    "optionen": [
+     "Ihnen",
+     "ihnen",
+     "Ihen",
+     "ihre"
+    ],
+    "loesung": [
+     "Ihnen"
+    ],
+    "erklaerung": "Im Brief wird die Höflichkeitsform grossgeschrieben: Sie, Ihnen, Ihr.",
+    "fehler": [
+     {
+      "antwort": "ihnen",
+      "diagnoseId": "klein",
+      "feedback": "In der Anrede eines Briefes wird die Höflichkeitsform grossgeschrieben."
+     },
+     {
+      "antwort": "Ihen",
+      "diagnoseId": "form",
+      "feedback": "Die Form lautet «Ihnen», mit n in der Mitte."
+     },
+     {
+      "antwort": "ihre",
+      "diagnoseId": "form",
+      "feedback": "«ihre» ist ein Possessivpronomen und passt nicht nach «danken»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist im Brief richtig?\n\nKönnen ______ mir das Formular schicken?",
+    "optionen": [
+     "Sie",
+     "sie",
+     "Ihnen",
+     "Ihr"
+    ],
+    "loesung": [
+     "Sie"
+    ],
+    "erklaerung": "Als Anrede im Brief wird «Sie» grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "sie",
+      "diagnoseId": "klein",
+      "feedback": "Kleingeschrieben meint «sie» eine dritte Person, nicht die angeschriebene."
+     },
+     {
+      "antwort": "Ihnen",
+      "diagnoseId": "fall",
+      "feedback": "«Ihnen» ist der Dativ; hier braucht es das Subjekt im Nominativ."
+     },
+     {
+      "antwort": "Ihr",
+      "diagnoseId": "form",
+      "feedback": "«Ihr» ist ein Possessivpronomen und bräuchte ein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDie Klasse dankt ______ Lehrerin für den Ausflug.",
+    "optionen": [
+     "ihrer",
+     "Ihrer",
+     "ihre",
+     "Ihre"
+    ],
+    "loesung": [
+     "ihrer"
+    ],
+    "erklaerung": "Hier geht es nicht um eine Anrede, sondern um eine dritte Person — darum klein.",
+    "fehler": [
+     {
+      "antwort": "Ihrer",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur in der direkten Anrede eines Briefes."
+     },
+     {
+      "antwort": "ihre",
+      "diagnoseId": "fall",
+      "feedback": "«danken» verlangt den Dativ: ihrer Lehrerin."
+     },
+     {
+      "antwort": "Ihre",
+      "diagnoseId": "gross",
+      "feedback": "Auch hier gilt: kein Brief, keine Anrede, also klein."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «ihrer Lehrerin»?\n\nDie Klasse dankt ihrer Lehrerin.",
+    "optionen": [
+     "Dativ",
+     "Akkusativ",
+     "Genitiv",
+     "Nominativ"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "«danken» verlangt den Dativ: Wem dankt die Klasse?",
+    "fehler": [
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "verb_fall",
+      "feedback": "«danken» steht mit dem Dativ, nicht mit dem Akkusativ."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "frage",
+      "feedback": "Der Genitiv antwortete auf «wessen?». Richtig ist «Dativ»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Der Nominativ ist «die Klasse». Richtig ist «Dativ»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Die vier Fälle und das Höflichkeitspronomen",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-morpheme",
+  "lernzielId": "DGAR.4.03",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "4.03",
+   "4.04",
+   "4.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zerlege das Wort in Vormorphem, Stamm und Nachmorphem.",
+   "Nachmorpheme wie «-heit», «-ung» und «-keit» machen aus einem Wort ein Nomen.",
+   "Steht eine Präposition mit Artikel davor, wird aus dem Verb ein Nomen."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Morpheme zerlegen.",
+   "Den Stamm bestimmen.",
+   "Prüfen, ob ein Nachmorphem ein Nomen daraus macht.",
+   "Die Regel anwenden."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie wird «Verkäuferin» richtig zerlegt?",
+    "optionen": [
+     "ver-kauf-er-in",
+     "verk-äuf-erin",
+     "ver-käufe-rin",
+     "verkäufer-in"
+    ],
+    "loesung": [
+     "ver-kauf-er-in"
+    ],
+    "erklaerung": "«ver-» ist das Vormorphem, «kauf» der Stamm, «-er» und «-in» sind Nachmorpheme.",
+    "fehler": [
+     {
+      "antwort": "verk-äuf-erin",
+      "diagnoseId": "stamm",
+      "feedback": "Der Stamm lautet «kauf»; das Vormorphem endet nach «ver»."
+     },
+     {
+      "antwort": "ver-käufe-rin",
+      "diagnoseId": "stamm",
+      "feedback": "Der Stamm wird hier zerschnitten. Richtig ist «ver-kauf-er-in»."
+     },
+     {
+      "antwort": "verkäufer-in",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Vormorphem und Stamm gehören ebenfalls getrennt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie wird «Unfreundlichkeit» richtig zerlegt?",
+    "optionen": [
+     "un-freund-lich-keit",
+     "unf-reund-lichkeit",
+     "un-freundlich-keit",
+     "unfreund-lich-keit"
+    ],
+    "loesung": [
+     "un-freund-lich-keit"
+    ],
+    "erklaerung": "«un-» ist das Vormorphem, «freund» der Stamm, «-lich» und «-keit» sind Nachmorpheme.",
+    "fehler": [
+     {
+      "antwort": "unf-reund-lichkeit",
+      "diagnoseId": "stamm",
+      "feedback": "Der Stamm lautet «freund»; das f gehört nicht zum Vormorphem."
+     },
+     {
+      "antwort": "un-freundlich-keit",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "«-lich» ist ein eigenes Nachmorphem. Richtig ist «un-freund-lich-keit»."
+     },
+     {
+      "antwort": "unfreund-lich-keit",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das Vormorphem «un-» gehört für sich abgetrennt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nachmorphem macht aus «krank» ein Nomen?",
+    "optionen": [
+     "-heit",
+     "-lich",
+     "-bar",
+     "-sam"
+    ],
+    "loesung": [
+     "-heit"
+    ],
+    "erklaerung": "«Krank-heit» ist ein Nomen und wird grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "-lich",
+      "diagnoseId": "wortart",
+      "feedback": "«kränklich» ist ein Adjektiv. Richtig ist «-heit»."
+     },
+     {
+      "antwort": "-bar",
+      "diagnoseId": "wortart",
+      "feedback": "«-bar» ergibt Adjektive wie «essbar». Richtig ist «-heit»."
+     },
+     {
+      "antwort": "-sam",
+      "diagnoseId": "wortart",
+      "feedback": "«-sam» ergibt Adjektive wie «sparsam». Richtig ist «-heit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSeine ______ war deutlich zu sehen.",
+    "optionen": [
+     "Erleichterung",
+     "erleichterung",
+     "Erleichtrung"
+    ],
+    "loesung": [
+     "Erleichterung"
+    ],
+    "erklaerung": "Das Nachmorphem «-ung» macht daraus ein Nomen; Nomen werden grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "erleichterung",
+      "diagnoseId": "klein",
+      "feedback": "Das Nachmorphem «-ung» macht daraus ein Nomen."
+     },
+     {
+      "antwort": "Erleichtrung",
+      "diagnoseId": "form",
+      "feedback": "Das e vor dem r darf nicht wegfallen: Erleichterung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nBeim ______ achtet Livia auf ihre Schuhe.",
+    "optionen": [
+     "Wandern",
+     "wandern",
+     "Wanderen"
+    ],
+    "loesung": [
+     "Wandern"
+    ],
+    "erklaerung": "«beim» ist «bei dem» — damit steht ein Artikel davor und aus dem Verb wird ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "wandern",
+      "diagnoseId": "klein",
+      "feedback": "Vor dem Wort steht «beim»; damit ist es ein Nomen."
+     },
+     {
+      "antwort": "Wanderen",
+      "diagnoseId": "form",
+      "feedback": "Die Nomenform lautet «das Wandern», ohne zusätzliches e."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWir sind den ganzen Tag ______ .",
+    "optionen": [
+     "gewandert",
+     "Gewandert",
+     "gewandern"
+    ],
+    "loesung": [
+     "gewandert"
+    ],
+    "erklaerung": "Hier gehört das Wort als Partizip zum Verb «sein» und bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Gewandert",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur mit einem Artikel davor."
+     },
+     {
+      "antwort": "gewandern",
+      "diagnoseId": "form",
+      "feedback": "Das Partizip von «wandern» lautet «gewandert»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nZum ______ blieb keine Zeit.",
+    "optionen": [
+     "Ausruhen",
+     "ausruhen",
+     "Ausrühen"
+    ],
+    "loesung": [
+     "Ausruhen"
+    ],
+    "erklaerung": "«zum» ist «zu dem» — der Artikel macht aus dem Verb ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "ausruhen",
+      "diagnoseId": "klein",
+      "feedback": "Nach «zum» steht ein Nomen; es wird grossgeschrieben."
+     },
+     {
+      "antwort": "Ausrühen",
+      "diagnoseId": "form",
+      "feedback": "Das Wort schreibt sich mit u: ausruhen. Richtig ist «Ausruhen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWir haben nichts ______ gefunden.",
+    "optionen": [
+     "Besseres",
+     "besseres",
+     "Beseres"
+    ],
+    "loesung": [
+     "Besseres"
+    ],
+    "erklaerung": "Nach «nichts» wird das Adjektiv zum Nomen; nach dem kurzen e steht ein doppeltes s.",
+    "fehler": [
+     {
+      "antwort": "besseres",
+      "diagnoseId": "klein",
+      "feedback": "Nach «nichts», «etwas» oder «viel» steht das Adjektiv als Nomen."
+     },
+     {
+      "antwort": "Beseres",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen e steht ein doppeltes s."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nBeim ______ half ihr niemand.",
+    "optionen": [
+     "Aufräumen",
+     "aufräumen",
+     "Aufraeumen"
+    ],
+    "loesung": [
+     "Aufräumen"
+    ],
+    "erklaerung": "Nach «beim» steht ein Nomen; Umlaute werden ausgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "aufräumen",
+      "diagnoseId": "klein",
+      "feedback": "Nach «beim» wird das Verb zum Nomen und grossgeschrieben."
+     },
+     {
+      "antwort": "Aufraeumen",
+      "diagnoseId": "umlaut",
+      "feedback": "Der Umlaut wird als «ä» geschrieben, nicht als «ae»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort gehört NICHT zur Wortfamilie von «fahren»?",
+    "optionen": [
+     "Fahne",
+     "Fahrt",
+     "Gefährt",
+     "Fahrer"
+    ],
+    "loesung": [
+     "Fahne"
+    ],
+    "erklaerung": "«Fahne» hat einen anderen Stamm; die drei anderen tragen den Stamm «fahr-».",
+    "fehler": [
+     {
+      "antwort": "Fahrt",
+      "diagnoseId": "stamm",
+      "feedback": "«Fahrt» kommt von fahren; der Stamm ist gut zu erkennen."
+     },
+     {
+      "antwort": "Gefährt",
+      "diagnoseId": "umlaut",
+      "feedback": "Auch «Gefährt» gehört dazu — der Umlaut ä gehört zum Stamm."
+     },
+     {
+      "antwort": "Fahrer",
+      "diagnoseId": "stamm",
+      "feedback": "«Fahrer» ist die Person, die fährt. Richtig ist «Fahne»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie heisst der Stamm von «Beschwerde»?",
+    "optionen": [
+     "schwer",
+     "werde",
+     "beschwer",
+     "schwerde"
+    ],
+    "loesung": [
+     "schwer"
+    ],
+    "erklaerung": "Zur Wortfamilie gehören «schwer», «beschweren», «Beschwerde» — der Stamm ist «schwer».",
+    "fehler": [
+     {
+      "antwort": "werde",
+      "diagnoseId": "zerlegung",
+      "feedback": "«werde» ist kein eigener Stamm dieses Wortes."
+     },
+     {
+      "antwort": "beschwer",
+      "diagnoseId": "zerlegung",
+      "feedback": "Darin steckt bereits das Vormorphem «be-»."
+     },
+     {
+      "antwort": "schwerde",
+      "diagnoseId": "zerlegung",
+      "feedback": "Das «-de» ist ein Nachmorphem. Richtig ist «schwer»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie hatte ______ zu tun.",
+    "optionen": [
+     "viel",
+     "Viel",
+     "fiel"
+    ],
+    "loesung": [
+     "viel"
+    ],
+    "erklaerung": "«viel» ist hier ein unbestimmtes Zahlwort und bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Viel",
+      "diagnoseId": "gross",
+      "feedback": "Grossgeschrieben würde es nur am Satzanfang."
+     },
+     {
+      "antwort": "fiel",
+      "diagnoseId": "laut",
+      "feedback": "«fiel» kommt von fallen und meint etwas ganz anderes."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Morpheme, Gross- und Kleinschreibung",
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spr-rechtschreibung",
+  "lernzielId": "DGAR.4.05",
+  "fach": "sprache-ar",
+  "unterthemen": [
+   "4.05",
+   "4.06",
+   "4.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Nach einem kurzen Vokal steht ein doppelter Mitlaut, nach einem langen ein einfacher.",
+   "Der Stamm entscheidet über e oder ä und über f oder v.",
+   "In einer Aufzählung stehen Kommas zwischen den Gliedern; vor dem letzten «und» steht keines."
+  ],
+  "loesungsweg": [
+   "Auf die Länge des Vokals hören.",
+   "Ein verwandtes Wort suchen.",
+   "Die Regel anwenden.",
+   "Bei Kommas die Verben zählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist die grüne Fläche vor dem Haus.",
+    "optionen": [
+     "Wiese",
+     "Wisse",
+     "Wihse"
+    ],
+    "loesung": [
+     "Wiese"
+    ],
+    "erklaerung": "Das lange i wird hier mit «ie» geschrieben — das ist die ie-Regel.",
+    "fehler": [
+     {
+      "antwort": "Wisse",
+      "diagnoseId": "kurz",
+      "feedback": "Ein einfaches i steht bei kurzem Vokal; hier ist das i lang."
+     },
+     {
+      "antwort": "Wihse",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h steht nicht zusammen mit «ie»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist das Tier mit Federn.",
+    "optionen": [
+     "Vogel",
+     "Fogel",
+     "Wogel"
+    ],
+    "loesung": [
+     "Vogel"
+    ],
+    "erklaerung": "«Vogel» wird mit v geschrieben; verwandte Wörter wie «Vögel» bestätigen es.",
+    "fehler": [
+     {
+      "antwort": "Fogel",
+      "diagnoseId": "f_v_regel",
+      "feedback": "Gesprochen klingt es gleich; geschrieben wird «Vogel» mit v."
+     },
+     {
+      "antwort": "Wogel",
+      "diagnoseId": "laut",
+      "feedback": "Ein w klingt anders und passt hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDas Wasser ist ______ als gestern.",
+    "optionen": [
+     "kälter",
+     "kelter",
+     "kähter"
+    ],
+    "loesung": [
+     "kälter"
+    ],
+    "erklaerung": "Der Stamm ist «kalt»; darum steht in der Steigerung ein ä.",
+    "fehler": [
+     {
+      "antwort": "kelter",
+      "diagnoseId": "stammregel",
+      "feedback": "Der Stamm lautet «kalt»; die Stammregel verlangt ein ä."
+     },
+     {
+      "antwort": "kähter",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein Dehnungs-h gehört hier nicht hin. Richtig ist «kälter»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist der Übergang über den Fluss.",
+    "optionen": [
+     "Brücke",
+     "Brüke",
+     "Brükke"
+    ],
+    "loesung": [
+     "Brücke"
+    ],
+    "erklaerung": "Nach dem kurzen ü steht «ck» — das ist die ck-Regel.",
+    "fehler": [
+     {
+      "antwort": "Brüke",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen ü steht «ck», nicht ein einfaches k."
+     },
+     {
+      "antwort": "Brükke",
+      "diagnoseId": "schaerfung",
+      "feedback": "Ein doppeltes k gibt es im Deutschen nicht; dafür steht «ck»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig? Gemeint ist das Haustier, das schnurrt.",
+    "optionen": [
+     "Katze",
+     "Kaze",
+     "Katzze"
+    ],
+    "loesung": [
+     "Katze"
+    ],
+    "erklaerung": "Nach dem kurzen a steht «tz» — das ist die tz-Regel.",
+    "fehler": [
+     {
+      "antwort": "Kaze",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen a steht «tz», nicht ein einfaches z."
+     },
+     {
+      "antwort": "Katzze",
+      "diagnoseId": "schaerfung",
+      "feedback": "Ein doppeltes z gibt es im Deutschen nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDer Weg ist an dieser Stelle sehr ______ .",
+    "optionen": [
+     "schmal",
+     "schmall",
+     "schmahl"
+    ],
+    "loesung": [
+     "schmal"
+    ],
+    "erklaerung": "Das a ist lang, darum steht nur ein l und kein Dehnungszeichen.",
+    "fehler": [
+     {
+      "antwort": "schmall",
+      "diagnoseId": "schaerfung",
+      "feedback": "Ein doppelter Mitlaut folgt auf einen kurzen Vokal."
+     },
+     {
+      "antwort": "schmahl",
+      "diagnoseId": "dehnung",
+      "feedback": "«schmal» kommt ohne Dehnungs-h aus. Richtig ist «schmal»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr hat sich sehr ______ .",
+    "optionen": [
+     "geschämt",
+     "geschehmt",
+     "gescheemt"
+    ],
+    "loesung": [
+     "geschämt"
+    ],
+    "erklaerung": "Der Stamm ist «Scham»; darum steht ein ä, nicht ein e.",
+    "fehler": [
+     {
+      "antwort": "geschehmt",
+      "diagnoseId": "stammregel",
+      "feedback": "Der Stamm lautet «Scham»; die Stammregel verlangt ein ä."
+     },
+     {
+      "antwort": "gescheemt",
+      "diagnoseId": "dehnung",
+      "feedback": "Ein doppeltes e gibt es in diesem Wort nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie hat den Brief ______ .",
+    "optionen": [
+     "verfasst",
+     "verfast",
+     "verfaßt"
+    ],
+    "loesung": [
+     "verfasst"
+    ],
+    "erklaerung": "Nach dem kurzen a steht ein doppeltes s.",
+    "fehler": [
+     {
+      "antwort": "verfast",
+      "diagnoseId": "schaerfung",
+      "feedback": "Nach dem kurzen a steht ein doppeltes s."
+     },
+     {
+      "antwort": "verfaßt",
+      "diagnoseId": "eszett",
+      "feedback": "In der Schweiz schreibt man immer «ss», nie das scharfe s."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo gehört ein Komma hin?\n\nIm Rucksack lagen eine Karte ein Apfel und eine Jacke.",
+    "optionen": [
+     "nach «Karte»",
+     "nach «Rucksack»",
+     "nach «und»",
+     "gar nirgends"
+    ],
+    "loesung": [
+     "nach «Karte»"
+    ],
+    "erklaerung": "In der Aufzählung steht ein Komma zwischen den Gliedern; vor dem letzten «und» steht keines.",
+    "fehler": [
+     {
+      "antwort": "nach «Rucksack»",
+      "diagnoseId": "stelle",
+      "feedback": "Dort beginnt keine Aufzählung; der Satz läuft weiter."
+     },
+     {
+      "antwort": "nach «und»",
+      "diagnoseId": "stelle",
+      "feedback": "Nach «und» steht in einer Aufzählung kein Komma."
+     },
+     {
+      "antwort": "gar nirgends",
+      "diagnoseId": "aufzaehlung",
+      "feedback": "Drei Dinge werden aufgezählt; zwischen den ersten beiden steht ein Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Kommas fehlen?\n\nSie packte die Karte den Apfel die Jacke und die Flasche ein.",
+    "optionen": [
+     "drei",
+     "zwei",
+     "vier",
+     "eines"
+    ],
+    "loesung": [
+     "drei"
+    ],
+    "erklaerung": "Vier Glieder ergeben drei Kommas; vor dem letzten «und» steht keines.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Zwischen vier Gliedern liegen drei Stellen, an denen ein Komma steht."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "und",
+      "feedback": "Vor dem letzten «und» steht in der Aufzählung kein Komma."
+     },
+     {
+      "antwort": "eines",
+      "diagnoseId": "zaehlfehler",
+      "feedback": "Es sind vier Glieder, nicht zwei. Richtig ist «drei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo gehört ein Komma hin?\n\nEr stand auf schaute hinaus und ging zur Tür.",
+    "optionen": [
+     "nach «auf»",
+     "nach «hinaus»",
+     "nach «und»",
+     "gar nirgends"
+    ],
+    "loesung": [
+     "nach «auf»"
+    ],
+    "erklaerung": "Zwischen den Verbgruppen «stand auf» und «schaute hinaus» steht ein Komma; vor «und» keines.",
+    "fehler": [
+     {
+      "antwort": "nach «hinaus»",
+      "diagnoseId": "stelle",
+      "feedback": "Dort folgt «und»; davor steht in dieser Reihung kein Komma."
+     },
+     {
+      "antwort": "nach «und»",
+      "diagnoseId": "stelle",
+      "feedback": "Nach «und» steht kein Komma. Richtig ist «nach «auf»»."
+     },
+     {
+      "antwort": "gar nirgends",
+      "diagnoseId": "verbgruppen",
+      "feedback": "Drei Verbgruppen stehen nebeneinander; zwischen den ersten beiden gehört ein Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie hat den Schlüssel in die ______ gesteckt.",
+    "optionen": [
+     "Tasche",
+     "Tassche",
+     "Tasse"
+    ],
+    "loesung": [
+     "Tasche"
+    ],
+    "erklaerung": "In «Tasche» steht der Zischlaut «sch»; verdoppelt wird davor nichts.",
+    "fehler": [
+     {
+      "antwort": "Tassche",
+      "diagnoseId": "doppelt",
+      "feedback": "Vor «sch» steht nie ein doppeltes s. Richtig ist «Tasche»."
+     },
+     {
+      "antwort": "Tasse",
+      "diagnoseId": "anderes_wort",
+      "feedback": "«Tasse» ist ein anderes Wort — daraus trinkt man."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsteil Grammatik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "ie-Regel, Doppelkonsonanten und Kommas",
+  "status": "review"
+ }
+]

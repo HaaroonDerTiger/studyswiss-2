@@ -1,0 +1,474 @@
+{
+ "fach": "mathematik-so",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfung BM, FMS und Gymnasium, Kanton Solothurn",
+ "quelle": "Prüfungseckwerte für die Aufnahmeprüfungen ab 2026 der Kantonalen Schulen Sek II Olten und Solothurn sowie die Prüfungsserien 2019-2024",
+ "punkteTotal": 35,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Zahlen, Grössen und Teilbarkeit",
+   "punkte": 4,
+   "anteil": 12,
+   "beschreibung": "Der Einstieg: Grundoperationen mit Brüchen und Dezimalzahlen, Einheiten und Teilbarkeit. Der Taschenrechner ist erlaubt. Er nimmt einem das Umrechnen aber nicht ab.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen mit gewöhnlichen Brüchen",
+     "lernzielId": "MSO.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Doppelbrüche als Division schreiben",
+     "lernzielId": "MSO.1.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.03",
+     "name": "Dezimalbrüche und Brüche ineinander umwandeln",
+     "lernzielId": "MSO.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Teiler, Vielfache und Primfaktoren",
+     "lernzielId": "MSO.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "SI-Einheiten umrechnen",
+     "lernzielId": "MSO.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Mit Grössen rechnen",
+     "lernzielId": "MSO.1.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Terme und binomische Formeln",
+   "punkte": 5,
+   "anteil": 14,
+   "beschreibung": "Aufgabe 1 der Prüfung: ausmultiplizieren, faktorisieren und erkennen, ob zwei Terme gleichwertig sind.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Algebraische Summen addieren und subtrahieren",
+     "lernzielId": "MSO.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Terme ausmultiplizieren",
+     "lernzielId": "MSO.2.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Binomische Formeln anwenden",
+     "lernzielId": "MSO.2.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "In Faktoren zerlegen",
+     "lernzielId": "MSO.2.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Mit binomischen Formeln faktorisieren",
+     "lernzielId": "MSO.2.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.03",
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Sind zwei Terme gleichwertig?",
+     "lernzielId": "MSO.2.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Bruchterme kürzen und zusammenfassen",
+     "lernzielId": "MSO.2.07",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Gleichungen",
+   "punkte": 4,
+   "anteil": 12,
+   "beschreibung": "Äquivalenzumformungen in ℚ. Verlangt ist der vollständige Lösungsweg. Das Resultat allein gibt keine Punkte.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MSO.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Gleichungen mit Klammern und Klammern in Klammern",
+     "lernzielId": "MSO.3.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Bruchgleichungen lösen",
+     "lernzielId": "MSO.3.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Formeln nach einer Variablen umstellen",
+     "lernzielId": "MSO.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Textaufgaben in Gleichungen übersetzen",
+     "lernzielId": "MSO.3.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Zuordnungen und Funktionen",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Zuordnungen tabellarisch und zeichnerisch, das Koordinatensystem, die lineare Funktion und die beiden Proportionalitäten.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Wertetabelle und Graph einer linearen Funktion",
+     "lernzielId": "MSO.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Geradengleichung aus zwei Punkten",
+     "lernzielId": "MSO.4.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Steigung und y-Achsenabschnitt deuten",
+     "lernzielId": "MSO.4.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Schnittpunkt zweier Geraden",
+     "lernzielId": "MSO.4.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "4.05",
+     "name": "Direkte Proportionalität",
+     "lernzielId": "MSO.4.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.06",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "MSO.4.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "5",
+   "name": "Prozent, Promille und Sachrechnen",
+   "punkte": 6,
+   "anteil": 17,
+   "beschreibung": "Der grösste Brocken im Bereich A. Dazu gehören auch Diagramme und Aufgaben zu Geschwindigkeit, Weg und Zeit.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Prozentrechnen: Grundwert, Prozentwert, Prozentsatz",
+     "lernzielId": "MSO.5.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.02",
+     "name": "Vermehrter und verminderter Grundwert",
+     "lernzielId": "MSO.5.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.03",
+     "name": "Promille rechnen",
+     "lernzielId": "MSO.5.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    },
+    {
+     "code": "5.04",
+     "name": "Diagramme lesen und auswerten",
+     "lernzielId": "MSO.5.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.05",
+     "name": "Geschwindigkeit, Weg und Zeit",
+     "lernzielId": "MSO.5.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.06",
+     "name": "Zwei Bewegungen gegeneinander",
+     "lernzielId": "MSO.5.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.05"
+     ]
+    },
+    {
+     "code": "5.07",
+     "name": "Verhältnisse und Mischungen",
+     "lernzielId": "MSO.5.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "6",
+   "name": "Dreieck, Viereck und Flächen",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Bereich B beginnt bei den ebenen Figuren: Linien und Punkte im Dreieck, Winkelberechnungen und die Flächenformeln der Vierecke.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Winkel im Dreieck berechnen",
+     "lernzielId": "MSO.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Linien und Punkte im Dreieck",
+     "lernzielId": "MSO.6.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Vierecksarten erkennen",
+     "lernzielId": "MSO.6.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.04",
+     "name": "Fläche von Parallelogramm und Trapez",
+     "lernzielId": "MSO.6.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.03"
+     ]
+    },
+    {
+     "code": "6.05",
+     "name": "Fläche von Dreieck und Drachenviereck",
+     "lernzielId": "MSO.6.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.03"
+     ]
+    },
+    {
+     "code": "6.06",
+     "name": "Zusammengesetzte Flächen",
+     "lernzielId": "MSO.6.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.04",
+      "6.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "7",
+   "name": "Körper, Pythagoras und Ähnlichkeit",
+   "punkte": 5,
+   "anteil": 14,
+   "beschreibung": "Volumen, Oberflächen und Strecken an Würfel, Quader, Prisma und Zylinder, und die zwei Sätze, mit denen man die Strecken findet.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Satz des Pythagoras in der Ebene",
+     "lernzielId": "MSO.7.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.02",
+     "name": "Pythagoras am Körper: Flächen- und Raumdiagonale",
+     "lernzielId": "MSO.7.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.03",
+     "name": "Volumen und Oberfläche von Würfel und Quader",
+     "lernzielId": "MSO.7.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.04",
+     "name": "Volumen und Oberfläche von Prisma und Zylinder",
+     "lernzielId": "MSO.7.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.03"
+     ]
+    },
+    {
+     "code": "7.05",
+     "name": "Masse und Gewicht eines Körpers",
+     "lernzielId": "MSO.7.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.03"
+     ]
+    },
+    {
+     "code": "7.06",
+     "name": "Strahlensätze und Ähnlichkeit",
+     "lernzielId": "MSO.7.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "7.07",
+     "name": "Wege über die Körperabwicklung",
+     "lernzielId": "MSO.7.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "7.01",
+      "7.03"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "katalog": "8",
+   "name": "Kreis",
+   "punkte": 3,
+   "anteil": 9,
+   "beschreibung": "Kreisumfang und Kreisfläche, und die zusammengesetzten Figuren, in denen beides zugleich steckt. Die letzte Aufgabe der Prüfung ist meist eine davon.",
+   "unterthemen": [
+    {
+     "code": "8.01",
+     "name": "Kreisumfang und Kreisfläche",
+     "lernzielId": "MSO.8.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "8.02",
+     "name": "Kreissektor und Kreisbogen",
+     "lernzielId": "MSO.8.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.01"
+     ]
+    },
+    {
+     "code": "8.03",
+     "name": "Winkel am Kreis",
+     "lernzielId": "MSO.8.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "8.01"
+     ]
+    },
+    {
+     "code": "8.04",
+     "name": "Zusammengesetzte Figuren mit Kreisteilen",
+     "lernzielId": "MSO.8.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "8.01",
+      "8.02"
+     ]
+    }
+   ]
+  }
+ ]
+}

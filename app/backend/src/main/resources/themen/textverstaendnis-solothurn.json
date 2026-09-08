@@ -1,0 +1,154 @@
+{
+ "fach": "textverstaendnis-so",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Aufnahmeprüfung BM, FMS und Gymnasium, Kanton Solothurn",
+ "quelle": "Prüfungseckwerte für die Aufnahmeprüfungen ab 2026 der Kantonalen Schulen Sek II Olten und Solothurn sowie die Prüfungsserien 2019-2024",
+ "punkteTotal": 10,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Informationen aus dem Text entnehmen",
+   "punkte": 4,
+   "anteil": 40,
+   "beschreibung": "Teil 1 des Sprachbogens beginnt mit Fragen zum Inhalt. Verlangt sind eigene Worte, nicht abgeschriebene Sätze.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Eine Frage zum Inhalt beantworten",
+     "lernzielId": "TSO.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Angaben und Zahlen im Text finden",
+     "lernzielId": "TSO.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Zusammenhänge über mehrere Abschnitte",
+     "lernzielId": "TSO.1.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "In eigenen Worten wiedergeben",
+     "lernzielId": "TSO.1.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Wörter im Textzusammenhang erklären",
+   "punkte": 2,
+   "anteil": 20,
+   "beschreibung": "Gefragt ist nicht die Wörterbuchbedeutung, sondern die Bedeutung an dieser Stelle im Text.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Bedeutung eines Wortes aus dem Kontext erschliessen",
+     "lernzielId": "TSO.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Fremdwörter und Fachbegriffe erklären",
+     "lernzielId": "TSO.2.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Bildliche Wendungen deuten",
+     "lernzielId": "TSO.2.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Stimmt, stimmt nicht oder nicht erwähnt",
+   "punkte": 2,
+   "anteil": 20,
+   "beschreibung": "Die dritte Spalte ist der Kern: Was der Text nicht sagt, ist nicht falsch. Es steht bloss nicht da. Falsche Antworten geben Abzug.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Aussagen am Text prüfen",
+     "lernzielId": "TSO.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Erkennen, was der Text nicht sagt",
+     "lernzielId": "TSO.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Verallgemeinerungen entlarven",
+     "lernzielId": "TSO.3.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Titel, Absicht und Deutung",
+   "punkte": 2,
+   "anteil": 20,
+   "beschreibung": "Die letzte Frage von Teil 1 zielt fast immer auf den Titel oder auf die Absicht des ganzen Textes.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Den Titel erklären",
+     "lernzielId": "TSO.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Absicht und Haltung des Textes erkennen",
+     "lernzielId": "TSO.4.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.03",
+     "name": "Textsorte bestimmen",
+     "lernzielId": "TSO.4.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.04",
+     "name": "Schlüsse ziehen und deuten",
+     "lernzielId": "TSO.4.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    }
+   ]
+  }
+ ]
+}

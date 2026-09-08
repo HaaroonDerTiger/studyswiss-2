@@ -1,0 +1,3170 @@
+[
+ {
+  "templateId": "so-fr-lesen",
+  "lernzielId": "FSO.1.01",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lisez d'abord la question, puis cherchez le passage dans le texte.",
+   "Les chiffres et les noms sont faciles à retrouver — commencez par eux.",
+   "Un mot inconnu ne bloque pas: le reste de la phrase donne souvent le sens."
+  ],
+  "loesungsweg": [
+   "Überfliegen Sie den Text und merken Sie sich, wo was steht.",
+   "Suche zu jeder Frage die passende Stelle.",
+   "Lies den ganzen Satz, nicht nur ein Wort.",
+   "Prüfe jede Antwortmöglichkeit gegen den Text."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Où habite Nina ?",
+    "optionen": [
+     "à Delémont",
+     "à Genève",
+     "à Soleure",
+     "sur la place du marché"
+    ],
+    "loesung": [
+     "à Delémont"
+    ],
+    "erklaerung": "Le texte dit: «elle habite à Delémont, dans le Jura».",
+    "fehler": [
+     {
+      "antwort": "à Genève",
+      "diagnoseId": "autre_ort",
+      "feedback": "Genève, c'est la ville de sa cousine — elle veut y aller, elle n'y habite pas."
+     },
+     {
+      "antwort": "à Soleure",
+      "diagnoseId": "erfunden",
+      "feedback": "Soleure n'apparaît nulle part dans le texte."
+     },
+     {
+      "antwort": "sur la place du marché",
+      "diagnoseId": "ort_verwechselt",
+      "feedback": "C'est là qu'a lieu le vide-grenier, pas là qu'elle habite."
+     }
+    ]
+   },
+   {
+    "stamm": "Quand la commune organise-t-elle le vide-grenier ?",
+    "optionen": [
+     "chaque printemps",
+     "chaque samedi",
+     "chaque automne",
+     "une fois par mois"
+    ],
+    "loesung": [
+     "chaque printemps"
+    ],
+    "erklaerung": "Le texte: «Chaque printemps, sa commune organise un vide-grenier».",
+    "fehler": [
+     {
+      "antwort": "chaque samedi",
+      "diagnoseId": "tag_statt_jahreszeit",
+      "feedback": "Le samedi est le jour où Nina a préparé sa table, mais le vide-grenier a lieu chaque printemps."
+     },
+     {
+      "antwort": "chaque automne",
+      "diagnoseId": "jahreszeit_falsch",
+      "feedback": "Le texte dit «printemps», donc au printemps."
+     },
+     {
+      "antwort": "une fois par mois",
+      "diagnoseId": "haeufigkeit_erfunden",
+      "feedback": "Le texte parle d'une fois par année, au printemps."
+     }
+    ]
+   },
+   {
+    "stamm": "À quelle heure Nina a-t-elle préparé sa table ?",
+    "optionen": [
+     "à sept heures",
+     "à six heures",
+     "à quatorze heures",
+     "le texte ne le dit pas"
+    ],
+    "loesung": [
+     "à sept heures"
+    ],
+    "erklaerung": "Le texte: «Elle a préparé sa table le samedi matin à sept heures.»",
+    "fehler": [
+     {
+      "antwort": "à six heures",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Le six se rapporte aux pulls vendus, pas à l'heure."
+     },
+     {
+      "antwort": "à quatorze heures",
+      "diagnoseId": "zahl_verwechselt_zwei",
+      "feedback": "Quatorze, c'est le nombre de livres vendus."
+     },
+     {
+      "antwort": "le texte ne le dit pas",
+      "diagnoseId": "uebersehen",
+      "feedback": "L'heure est indiquée dans le deuxième paragraphe."
+     }
+    ]
+   },
+   {
+    "stamm": "Qui a aidé Nina au début ?",
+    "optionen": [
+     "sa mère",
+     "sa cousine",
+     "une amie",
+     "personne"
+    ],
+    "loesung": [
+     "sa mère"
+    ],
+    "erklaerung": "Le texte: «Sa mère l'a aidée pendant la première heure, puis Nina est restée seule.»",
+    "fehler": [
+     {
+      "antwort": "sa cousine",
+      "diagnoseId": "person_verwechselt",
+      "feedback": "La cousine habite à Genève; Nina veut aller la voir plus tard."
+     },
+     {
+      "antwort": "une amie",
+      "diagnoseId": "zeitpunkt_verwechselt",
+      "feedback": "L'amie viendra l'année prochaine, pas cette année."
+     },
+     {
+      "antwort": "personne",
+      "diagnoseId": "widerspruch",
+      "feedback": "Le texte dit clairement que sa mère l'a aidée."
+     }
+    ]
+   },
+   {
+    "stamm": "Combien de livres Nina a-t-elle vendus ?",
+    "optionen": [
+     "quatorze",
+     "six",
+     "quarante",
+     "vingt-cinq"
+    ],
+    "loesung": [
+     "quatorze"
+    ],
+    "erklaerung": "Le texte: «Elle a vendu quatorze livres, six pulls et une vieille guitare.»",
+    "fehler": [
+     {
+      "antwort": "six",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Six, c'est le nombre de pulls vendus, pas celui des livres."
+     },
+     {
+      "antwort": "quarante",
+      "diagnoseId": "preis_statt_anzahl",
+      "feedback": "Quarante francs, c'est le prix que Nina demandait pour la guitare."
+     },
+     {
+      "antwort": "vingt-cinq",
+      "diagnoseId": "preis_statt_anzahl_zwei",
+      "feedback": "Vingt-cinq francs, c'est le prix final de la guitare."
+     }
+    ]
+   },
+   {
+    "stamm": "Combien la guitare a-t-elle coûté finalement ?",
+    "optionen": [
+     "vingt-cinq francs",
+     "dix francs",
+     "quarante francs",
+     "quinze francs"
+    ],
+    "loesung": [
+     "vingt-cinq francs"
+    ],
+    "erklaerung": "Le texte: «Ils se sont mis d'accord à vingt-cinq francs.»",
+    "fehler": [
+     {
+      "antwort": "dix francs",
+      "diagnoseId": "erstes_angebot",
+      "feedback": "C'est ce que l'homme voulait payer au début — ils se sont mis d'accord plus haut."
+     },
+     {
+      "antwort": "quarante francs",
+      "diagnoseId": "erste_forderung",
+      "feedback": "C'est ce que Nina demandait au début. Après la discussion, le prix a baissé."
+     },
+     {
+      "antwort": "quinze francs",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Quinze, c'est l'âge de Nina, pas un prix. Le prix final est plus élevé."
+     }
+    ]
+   },
+   {
+    "stamm": "Qu'est-ce que Nina veut faire avec l'argent ?",
+    "optionen": [
+     "acheter un billet de train pour Genève",
+     "acheter une nouvelle guitare",
+     "acheter des livres",
+     "tout garder"
+    ],
+    "loesung": [
+     "acheter un billet de train pour Genève"
+    ],
+    "erklaerung": "Le texte: «elle veut acheter un billet de train pour aller voir sa cousine à Genève».",
+    "fehler": [
+     {
+      "antwort": "acheter une nouvelle guitare",
+      "diagnoseId": "gegenteil",
+      "feedback": "Elle a vendu une guitare, elle n'en achète pas."
+     },
+     {
+      "antwort": "acheter des livres",
+      "diagnoseId": "erfunden",
+      "feedback": "Le texte ne dit rien de tel: elle veut un billet de train."
+     },
+     {
+      "antwort": "tout garder",
+      "diagnoseId": "haelfte_uebersehen",
+      "feedback": "Elle garde seulement une partie — le reste est pour le billet."
+     }
+    ]
+   },
+   {
+    "stamm": "Pourquoi Nina veut-elle venir avec une amie l'année prochaine ?",
+    "optionen": [
+     "parce que six heures toute seule, c'est long",
+     "parce qu'elle a peur des clients",
+     "parce qu'elle vend plus à deux",
+     "parce que sa mère n'a pas le temps"
+    ],
+    "loesung": [
+     "parce que six heures toute seule, c'est long"
+    ],
+    "erklaerung": "La dernière phrase le dit: «parce que six heures toute seule derrière une table, c'est long».",
+    "fehler": [
+     {
+      "antwort": "parce qu'elle a peur des clients",
+      "diagnoseId": "frueher_im_text",
+      "feedback": "La peur, c'était au début de cette année — et elle a appris à discuter."
+     },
+     {
+      "antwort": "parce qu'elle vend plus à deux",
+      "diagnoseId": "erfunden",
+      "feedback": "Le texte ne parle pas de vendre davantage."
+     },
+     {
+      "antwort": "parce que sa mère n'a pas le temps",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Le texte ne dit rien du temps de sa mère."
+     }
+    ]
+   },
+   {
+    "stamm": "Qu'est-ce que Nina dit avoir appris ?",
+    "optionen": [
+     "à discuter",
+     "à jouer de la guitare",
+     "à parler allemand",
+     "à compter l'argent"
+    ],
+    "loesung": [
+     "à discuter"
+    ],
+    "erklaerung": "Le texte: «J'ai appris à discuter», dit Nina en riant.",
+    "fehler": [
+     {
+      "antwort": "à jouer de la guitare",
+      "diagnoseId": "gegenstand_verwechselt",
+      "feedback": "Elle a vendu la guitare, elle n'a pas appris à en jouer."
+     },
+     {
+      "antwort": "à parler allemand",
+      "diagnoseId": "erfunden",
+      "feedback": "Il n'est nulle part question d'allemand dans ce texte."
+     },
+     {
+      "antwort": "à compter l'argent",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Le texte ne dit pas cela: elle a appris à négocier le prix."
+     }
+    ]
+   },
+   {
+    "stamm": "Que veut dire «un vide-grenier» d'après le texte ?",
+    "optionen": [
+     "une vente d'objets qu'on n'utilise plus",
+     "un grenier vide",
+     "un marché de nourriture",
+     "une fête de quartier"
+    ],
+    "loesung": [
+     "une vente d'objets qu'on n'utilise plus"
+    ],
+    "erklaerung": "Le deuxième paragraphe l'explique: «Les habitants vendent ce qu'ils n'utilisent plus.»",
+    "fehler": [
+     {
+      "antwort": "un grenier vide",
+      "diagnoseId": "woertlich",
+      "feedback": "C'est le sens littéral des deux mots, mais le texte explique de quoi il s'agit."
+     },
+     {
+      "antwort": "un marché de nourriture",
+      "diagnoseId": "erfunden",
+      "feedback": "Le texte cite des livres, des vêtements, des jouets et des vélos — pas de nourriture."
+     },
+     {
+      "antwort": "une fête de quartier",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Il s'agit d'une vente, pas d'une fête. Le texte parle de vendre et d'acheter."
+     }
+    ]
+   },
+   {
+    "stamm": "Qu'est-ce que les habitants vendent au vide-grenier ?",
+    "optionen": [
+     "des livres, des vêtements, des jouets et des vélos",
+     "de la nourriture et des boissons",
+     "seulement des livres",
+     "des instruments de musique"
+    ],
+    "loesung": [
+     "des livres, des vêtements, des jouets et des vélos"
+    ],
+    "erklaerung": "Le premier paragraphe donne exactement cette liste.",
+    "fehler": [
+     {
+      "antwort": "de la nourriture et des boissons",
+      "diagnoseId": "erfunden",
+      "feedback": "Aucun aliment n'est mentionné dans le texte."
+     },
+     {
+      "antwort": "seulement des livres",
+      "diagnoseId": "zu_eng",
+      "feedback": "Les livres ne sont qu'un des quatre exemples cités."
+     },
+     {
+      "antwort": "des instruments de musique",
+      "diagnoseId": "einzelfall_verallgemeinert",
+      "feedback": "Nina a vendu une guitare, mais la liste générale ne mentionne pas d'instruments."
+     }
+    ]
+   },
+   {
+    "stamm": "Quel âge a Nina ?",
+    "optionen": [
+     "quinze ans",
+     "quatorze ans",
+     "six ans",
+     "vingt-cinq ans"
+    ],
+    "loesung": [
+     "quinze ans"
+    ],
+    "erklaerung": "La première phrase: «Nina a quinze ans».",
+    "fehler": [
+     {
+      "antwort": "quatorze ans",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Quatorze, c'est le nombre de livres vendus."
+     },
+     {
+      "antwort": "six ans",
+      "diagnoseId": "zahl_verwechselt_zwei",
+      "feedback": "Six, c'est le nombre de pulls vendus, pas un âge."
+     },
+     {
+      "antwort": "vingt-cinq ans",
+      "diagnoseId": "preis_statt_alter",
+      "feedback": "Vingt-cinq francs, c'est le prix de la guitare."
+     }
+    ]
+   }
+  ],
+  "text": "Le vide-grenier de Nina\n\nNina a quinze ans et elle habite à Delémont, dans le Jura. Chaque printemps,\nsa commune organise un vide-grenier sur la place du marché. Les habitants\nvendent ce qu'ils n'utilisent plus: des livres, des vêtements, des jouets, des\nvélos.\n\nCette année, Nina participe pour la première fois. Elle a préparé sa table le\nsamedi matin à sept heures. «Au début, j'avais un peu peur», raconte-t-elle.\n«Je ne savais pas comment parler aux clients.» Sa mère l'a aidée pendant la\npremière heure, puis Nina est restée seule.\n\nElle a vendu quatorze livres, six pulls et une vieille guitare. La guitare\nétait le plus difficile: un homme voulait la payer dix francs, Nina en\ndemandait quarante. Ils se sont mis d'accord à vingt-cinq francs. «J'ai appris\nà discuter», dit Nina en riant.\n\nAvec l'argent, elle veut acheter un billet de train pour aller voir sa cousine\nà Genève. Mais elle garde aussi une partie: «On ne sait jamais.»\n\nL'année prochaine, elle recommencera. Cette fois avec une amie, parce que six\nheures toute seule derrière une table, c'est long.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Compréhension de texte",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-vrai-faux",
+  "lernzielId": "FSO.1.03",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "1.03",
+   "1.01"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "«Pas mentionné» heisst: Der Text sagt weder das eine noch das andere.",
+   "Achte auf «tous», «jamais», «seulement» — ein Gegenbeispiel genügt.",
+   "Wenn Sie die Stelle nicht finden, ist die Aussage meist «pas mentionné»."
+  ],
+  "loesungsweg": [
+   "Jede Zeile einzeln nehmen.",
+   "Die Stelle im Text suchen.",
+   "Steht es da: vrai. Steht das Gegenteil da: faux.",
+   "Steht nichts dazu: pas mentionné."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (Nina et sa ville)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Le texte situe Nina à Delémont dans le Jura. Son école n'est pas mentionnée.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina habite dans le canton du Jura.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina habite à Genève.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Nina va à l'école à Delémont.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Le vide-grenier a lieu sur la place du marché.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (la première fois)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "C'est la première participation de Nina, et sa mère l'a aidée une heure. Le nombre de participants n'est pas indiqué.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina participe pour la première fois cette année.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina a participé plusieurs fois déjà.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Il y avait cinquante vendeurs cette année.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Sa mère l'a aidée pendant la première heure.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (les ventes)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Quatorze livres, six pulls, une guitare — tout cela est dans le texte. Le prix des livres ne l'est pas.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina a vendu quatorze livres.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina a vendu dix pulls.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Chaque livre coûtait deux francs.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina a vendu une guitare.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (la guitare)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Le marchandage est décrit en détail: dix, quarante, puis vingt-cinq francs. L'âge de la guitare n'est pas précisé.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "L'homme voulait payer dix francs.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina a accepté tout de suite le prix de l'homme.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "La guitare avait vingt ans.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Ils se sont mis d'accord à vingt-cinq francs.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (l'argent)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Nina veut un billet de train et garde une partie. Le montant total n'est jamais donné.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina veut acheter un billet de train.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina dépense tout son argent.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Nina a gagné cent francs en tout.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina garde une partie de l'argent.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (la cousine)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "La cousine habite à Genève; Nina veut aller la voir. Son âge n'est pas indiqué.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "La cousine de Nina habite à Genève.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "La cousine était au vide-grenier.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina ne veut pas voir sa cousine.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "La cousine a le même âge que Nina.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (l'année prochaine)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Nina recommencera avec une amie. Le nom de l'amie n'apparaît pas.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina veut recommencer l'année prochaine.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina viendra seule l'année prochaine.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "L'amie de Nina s'appelle Léa.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina trouve que six heures seule, c'est long.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (les sentiments)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Nina avait peur au début et rit en parlant de ce qu'elle a appris. Sa fatigue n'est pas décrite.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Au début, Nina avait un peu peur.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina savait exactement comment parler aux clients.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Nina était très fatiguée le soir.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina rit en racontant son expérience.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (le vide-grenier)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Le vide-grenier est organisé par la commune, chaque printemps. La météo n'est pas mentionnée.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "C'est la commune qui organise le vide-grenier.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Le vide-grenier a lieu en hiver.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Il faisait beau ce samedi.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Les habitants vendent ce qu'ils n'utilisent plus.",
+      "loesung": [
+       "vrai"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (les objets)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Le texte cite quatre catégories d'objets. Les meubles n'en font pas partie.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "On vend des vélos au vide-grenier.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "On vend des meubles au vide-grenier.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "On vend des jouets au vide-grenier.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "On ne vend que des livres.",
+      "loesung": [
+       "faux"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (le déroulement)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Nina a préparé sa table à sept heures et est restée six heures. Ce qu'elle a mangé n'est pas dit.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Nina a préparé sa table à sept heures du matin.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina est restée six heures derrière sa table.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina a mangé une glace pendant la journée.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina est restée seule toute la journée.",
+      "loesung": [
+       "faux"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Vrai, faux ou pas mentionné ?  (généralisations)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Attention aux mots «tous» et «jamais»: le texte est plus précis que ces affirmations.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Tous les habitants de Delémont participent au vide-grenier.",
+      "loesung": [
+       "pas mentionné"
+      ]
+     },
+     {
+      "text": "Nina n'a rien vendu.",
+      "loesung": [
+       "faux"
+      ]
+     },
+     {
+      "text": "Nina a vendu au moins trois sortes d'objets.",
+      "loesung": [
+       "vrai"
+      ]
+     },
+     {
+      "text": "Nina ne reviendra jamais au vide-grenier.",
+      "loesung": [
+       "faux"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "vrai",
+   "faux",
+   "pas mentionné"
+  ],
+  "text": "Le vide-grenier de Nina\n\nNina a quinze ans et elle habite à Delémont, dans le Jura. Chaque printemps,\nsa commune organise un vide-grenier sur la place du marché. Les habitants\nvendent ce qu'ils n'utilisent plus: des livres, des vêtements, des jouets, des\nvélos.\n\nCette année, Nina participe pour la première fois. Elle a préparé sa table le\nsamedi matin à sept heures. «Au début, j'avais un peu peur», raconte-t-elle.\n«Je ne savais pas comment parler aux clients.» Sa mère l'a aidée pendant la\npremière heure, puis Nina est restée seule.\n\nElle a vendu quatorze livres, six pulls et une vieille guitare. La guitare\nétait le plus difficile: un homme voulait la payer dix francs, Nina en\ndemandait quarante. Ils se sont mis d'accord à vingt-cinq francs. «J'ai appris\nà discuter», dit Nina en riant.\n\nAvec l'argent, elle veut acheter un billet de train pour aller voir sa cousine\nà Genève. Mais elle garde aussi une partie: «On ne sait jamais.»\n\nL'année prochaine, elle recommencera. Cette fois avec une amie, parce que six\nheures toute seule derrière une table, c'est long.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Vrai, faux ou pas mentionné",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-wortschatz",
+  "lernzielId": "FSO.2.01",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Denken Sie an den Zusammenhang: In welcher Situation braucht man das Wort?",
+   "Viele französische Wörter ähneln deutschen oder englischen — aber nicht alle.",
+   "Wenn Sie unsicher sind: Welche Antwort passt grammatisch in den Satz?"
+  ],
+  "loesungsweg": [
+   "Den ganzen Satz lesen, nicht nur die Lücke.",
+   "Überlegen, um welches Wortfeld es geht.",
+   "Jede Möglichkeit einsetzen und laut mitlesen.",
+   "Auf Artikel und Endung achten: Sie verraten oft die richtige Wahl."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Freizeit: Que fait-on à la piscine ?",
+    "optionen": [
+     "on nage",
+     "on chante",
+     "on dort",
+     "on cuisine"
+    ],
+    "loesung": [
+     "on nage"
+    ],
+    "erklaerung": "«nager» heisst schwimmen. Zum Wortfeld Freizeit und Sport gehören auch «faire du vélo», «jouer au foot» und «courir».",
+    "fehler": [
+     {
+      "antwort": "on chante",
+      "diagnoseId": "falsches_wortfeld",
+      "feedback": "«chanter» heisst singen. Das gehört zur Musik, nicht ins Schwimmbad."
+     },
+     {
+      "antwort": "on dort",
+      "diagnoseId": "falsches_wortfeld_zwei",
+      "feedback": "«dormir» heisst schlafen. Das tut man nicht im Schwimmbad."
+     },
+     {
+      "antwort": "on cuisine",
+      "diagnoseId": "falsches_wortfeld_drei",
+      "feedback": "«cuisiner» heisst kochen. Das gehört in die Küche."
+     }
+    ]
+   },
+   {
+    "stamm": "Essen: Qu'est-ce qu'on boit ?",
+    "optionen": [
+     "de l'eau",
+     "du pain",
+     "une fourchette",
+     "une assiette"
+    ],
+    "loesung": [
+     "de l'eau"
+    ],
+    "erklaerung": "«boire» heisst trinken, «de l'eau» ist Wasser. Brot, Gabel und Teller trinkt man nicht.",
+    "fehler": [
+     {
+      "antwort": "du pain",
+      "diagnoseId": "essen_statt_trinken",
+      "feedback": "«le pain» ist Brot. Das isst man, man trinkt es nicht."
+     },
+     {
+      "antwort": "une fourchette",
+      "diagnoseId": "besteck",
+      "feedback": "«une fourchette» ist eine Gabel, also Besteck."
+     },
+     {
+      "antwort": "une assiette",
+      "diagnoseId": "geschirr",
+      "feedback": "«une assiette» ist ein Teller. Von einem Teller isst man, man trinkt ihn nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wohnen: Où est-ce qu'on dort ?",
+    "optionen": [
+     "dans la chambre",
+     "dans la cuisine",
+     "dans le jardin",
+     "dans la salle de bains"
+    ],
+    "loesung": [
+     "dans la chambre"
+    ],
+    "erklaerung": "«la chambre» ist das Schlafzimmer. «la cuisine» ist die Küche, «le jardin» der Garten, «la salle de bains» das Badezimmer.",
+    "fehler": [
+     {
+      "antwort": "dans la cuisine",
+      "diagnoseId": "kueche",
+      "feedback": "«la cuisine» ist die Küche. Dort kocht man."
+     },
+     {
+      "antwort": "dans le jardin",
+      "diagnoseId": "garten",
+      "feedback": "«le jardin» ist der Garten, also draussen."
+     },
+     {
+      "antwort": "dans la salle de bains",
+      "diagnoseId": "bad",
+      "feedback": "«la salle de bains» ist das Badezimmer. Dort wäscht man sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Verkehr: Comment est-ce qu'on va vite d'une ville à l'autre ?",
+    "optionen": [
+     "en train",
+     "à pied",
+     "en ascenseur",
+     "à la maison"
+    ],
+    "loesung": [
+     "en train"
+    ],
+    "erklaerung": "«en train» heisst mit dem Zug. «à pied» ist zu Fuss, «un ascenseur» ein Lift.",
+    "fehler": [
+     {
+      "antwort": "à pied",
+      "diagnoseId": "zu_fuss",
+      "feedback": "«à pied» heisst zu Fuss. Das ist nicht schnell zwischen zwei Städten."
+     },
+     {
+      "antwort": "en ascenseur",
+      "diagnoseId": "lift",
+      "feedback": "«un ascenseur» ist ein Lift und fährt nur im Haus auf und ab."
+     },
+     {
+      "antwort": "à la maison",
+      "diagnoseId": "kein_verkehrsmittel",
+      "feedback": "«à la maison» heisst zu Hause und ist gar kein Verkehrsmittel."
+     }
+    ]
+   },
+   {
+    "stamm": "Einkaufen: Que dit la vendeuse à la caisse ?",
+    "optionen": [
+     "Ça fait douze francs.",
+     "Bonne nuit.",
+     "Je suis fatiguée.",
+     "Il pleut beaucoup."
+    ],
+    "loesung": [
+     "Ça fait douze francs."
+    ],
+    "erklaerung": "«Ça fait …» ist die übliche Wendung an der Kasse: «Das macht …».",
+    "fehler": [
+     {
+      "antwort": "Bonne nuit.",
+      "diagnoseId": "gute_nacht",
+      "feedback": "«Bonne nuit» heisst «Gute Nacht». Das sagt man abends beim Schlafengehen."
+     },
+     {
+      "antwort": "Je suis fatiguée.",
+      "diagnoseId": "muede",
+      "feedback": "«Je suis fatiguée» heisst «Ich bin müde»."
+     },
+     {
+      "antwort": "Il pleut beaucoup.",
+      "diagnoseId": "wetter",
+      "feedback": "«Il pleut» heisst «Es regnet». Das gehört zum Wetter."
+     }
+    ]
+   },
+   {
+    "stamm": "Schule: Qu'est-ce qu'on apprend en classe de maths ?",
+    "optionen": [
+     "à calculer",
+     "à nager",
+     "à cuisiner",
+     "à conduire"
+    ],
+    "loesung": [
+     "à calculer"
+    ],
+    "erklaerung": "«calculer» heisst rechnen. Die anderen Verben gehören zu Sport, Küche und Verkehr.",
+    "fehler": [
+     {
+      "antwort": "à nager",
+      "diagnoseId": "sport",
+      "feedback": "«nager» heisst schwimmen und gehört ins Schwimmbad."
+     },
+     {
+      "antwort": "à cuisiner",
+      "diagnoseId": "kueche",
+      "feedback": "«cuisiner» heisst kochen. Das gehört in die Küche."
+     },
+     {
+      "antwort": "à conduire",
+      "diagnoseId": "fahren",
+      "feedback": "«conduire» heisst Auto fahren. Das lernt man in der Fahrschule."
+     }
+    ]
+   },
+   {
+    "stamm": "Körper und Gefühle: Comment dit-on «Ich habe Kopfweh» ?",
+    "optionen": [
+     "J'ai mal à la tête.",
+     "J'ai faim.",
+     "J'ai de la chance.",
+     "J'ai douze ans."
+    ],
+    "loesung": [
+     "J'ai mal à la tête."
+    ],
+    "erklaerung": "«avoir mal à …» heisst «wehtun an …», «la tête» ist der Kopf.",
+    "fehler": [
+     {
+      "antwort": "J'ai faim.",
+      "diagnoseId": "hunger",
+      "feedback": "«avoir faim» heisst Hunger haben. Das ist kein Schmerz im Kopf."
+     },
+     {
+      "antwort": "J'ai de la chance.",
+      "diagnoseId": "glueck",
+      "feedback": "«avoir de la chance» heisst Glück haben."
+     },
+     {
+      "antwort": "J'ai douze ans.",
+      "diagnoseId": "alter",
+      "feedback": "«avoir … ans» gibt das Alter an. Mit Schmerzen hat das nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Uhrzeit: Il est sept heures et demie. Wie spät ist es?",
+    "optionen": [
+     "halb acht",
+     "halb sieben",
+     "sieben Uhr zwei",
+     "Viertel nach sieben"
+    ],
+    "loesung": [
+     "halb acht"
+    ],
+    "erklaerung": "«sept heures et demie» heisst wörtlich «sieben Uhr und halb», also 7.30 Uhr. Auf Deutsch sagt man dazu «halb acht».",
+    "fehler": [
+     {
+      "antwort": "halb sieben",
+      "diagnoseId": "deutsch_uebertragen",
+      "feedback": "Vorsicht: Im Französischen wird von der VOLLEN Stunde aus gezählt. «Sept heures et demie» ist 7.30, also halb acht."
+     },
+     {
+      "antwort": "sieben Uhr zwei",
+      "diagnoseId": "demi_missverstanden",
+      "feedback": "«demie» heisst halb, nicht zwei. Gemeint ist die halbe Stunde nach sieben."
+     },
+     {
+      "antwort": "Viertel nach sieben",
+      "diagnoseId": "viertel",
+      "feedback": "Viertel nach sieben wäre «sept heures et quart»."
+     }
+    ]
+   },
+   {
+    "stamm": "Meinung: Comment dit-on «Ich finde, das ist eine gute Idee» ?",
+    "optionen": [
+     "Je trouve que c'est une bonne idée.",
+     "Je cherche une bonne idée.",
+     "J'ai trouvé une bonne idée.",
+     "Je donne une bonne idée."
+    ],
+    "loesung": [
+     "Je trouve que c'est une bonne idée."
+    ],
+    "erklaerung": "«trouver que …» heisst «finden, dass …» und drückt eine Meinung aus.",
+    "fehler": [
+     {
+      "antwort": "Je cherche une bonne idée.",
+      "diagnoseId": "suchen",
+      "feedback": "«chercher» heisst suchen, nicht finden. Der Satz drückt so keine Meinung aus."
+     },
+     {
+      "antwort": "J'ai trouvé une bonne idée.",
+      "diagnoseId": "gefunden",
+      "feedback": "Das heisst «Ich habe eine gute Idee gefunden» — eine Handlung, keine Meinung."
+     },
+     {
+      "antwort": "Je donne une bonne idée.",
+      "diagnoseId": "geben",
+      "feedback": "«donner» heisst geben. Auch das ist eine Handlung, keine Meinung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wetter: Qu'est-ce qu'on dit quand il y a du soleil ?",
+    "optionen": [
+     "Il fait beau.",
+     "Il fait froid.",
+     "Il neige.",
+     "Il y a du brouillard."
+    ],
+    "loesung": [
+     "Il fait beau."
+    ],
+    "erklaerung": "«Il fait beau» heisst «Es ist schönes Wetter». Für Sonne sagt man auch «Il y a du soleil».",
+    "fehler": [
+     {
+      "antwort": "Il fait froid.",
+      "diagnoseId": "kalt",
+      "feedback": "«Il fait froid» heisst «Es ist kalt». Von der Sonne ist da nicht die Rede."
+     },
+     {
+      "antwort": "Il neige.",
+      "diagnoseId": "schnee",
+      "feedback": "«Il neige» heisst «Es schneit». Dann scheint gerade keine Sonne."
+     },
+     {
+      "antwort": "Il y a du brouillard.",
+      "diagnoseId": "nebel",
+      "feedback": "«le brouillard» ist der Nebel. Bei Nebel sieht man die Sonne nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Berufe: Qui travaille dans un hôpital ?",
+    "optionen": [
+     "une infirmière",
+     "une boulangère",
+     "une coiffeuse",
+     "une factrice"
+    ],
+    "loesung": [
+     "une infirmière"
+    ],
+    "erklaerung": "«une infirmière» ist eine Pflegefachfrau und arbeitet im Spital.",
+    "fehler": [
+     {
+      "antwort": "une boulangère",
+      "diagnoseId": "baeckerin",
+      "feedback": "«une boulangère» ist eine Bäckerin und arbeitet in der Bäckerei."
+     },
+     {
+      "antwort": "une coiffeuse",
+      "diagnoseId": "coiffeuse",
+      "feedback": "«une coiffeuse» ist eine Coiffeuse. Sie arbeitet im Coiffeursalon."
+     },
+     {
+      "antwort": "une factrice",
+      "diagnoseId": "post",
+      "feedback": "«une factrice» ist eine Briefträgerin. Sie bringt die Post, nicht die Pflege."
+     }
+    ]
+   },
+   {
+    "stamm": "Ordinalzahlen: Comment dit-on «der dritte Tag» ?",
+    "optionen": [
+     "le troisième jour",
+     "le trois jour",
+     "le tiers jour",
+     "le trentième jour"
+    ],
+    "loesung": [
+     "le troisième jour"
+    ],
+    "erklaerung": "Ordnungszahlen enden auf «-ième»: deuxième, troisième, quatrième. Ausnahme ist «premier».",
+    "fehler": [
+     {
+      "antwort": "le trois jour",
+      "diagnoseId": "grundzahl",
+      "feedback": "«trois» ist die Grundzahl «drei». Für «der dritte» braucht es «troisième»."
+     },
+     {
+      "antwort": "le tiers jour",
+      "diagnoseId": "bruchzahl",
+      "feedback": "«un tiers» ist ein Drittel, also eine Bruchzahl."
+     },
+     {
+      "antwort": "le trentième jour",
+      "diagnoseId": "dreissigster",
+      "feedback": "«trentième» heisst «der dreissigste». Gesucht war die Drei, nicht die Dreissig."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortfelder: Freizeit, Essen, Wohnen und Reisen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-wortschatz-2",
+  "lernzielId": "FSO.2.05",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Mengenangaben stehen mit «de», ohne Artikel.",
+   "Bei Berufen steht im Französischen kein Artikel nach «être».",
+   "Die Uhrzeit wird mit «heures» gebildet, halb mit «et demie»."
+  ],
+  "loesungsweg": [
+   "Das Wortfeld bestimmen.",
+   "Auf Artikel und Geschlecht achten.",
+   "Die Form anpassen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort passt?\n\nJe voudrais un ______ de lait, s'il vous plaît.",
+    "optionen": [
+     "litre",
+     "kilo",
+     "morceau",
+     "tranche"
+    ],
+    "loesung": [
+     "litre"
+    ],
+    "erklaerung": "Milch wird in Litern gekauft.",
+    "fehler": [
+     {
+      "antwort": "kilo",
+      "diagnoseId": "mengenwort",
+      "feedback": "Kilo misst ein Gewicht; Milch misst man in Litern."
+     },
+     {
+      "antwort": "morceau",
+      "diagnoseId": "mengenwort",
+      "feedback": "«un morceau» ist ein Stück, etwa vom Käse."
+     },
+     {
+      "antwort": "tranche",
+      "diagnoseId": "mengenwort",
+      "feedback": "«une tranche» ist eine Scheibe, etwa vom Schinken."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nÇa fait combien ? — Ça ______ douze francs.",
+    "optionen": [
+     "coûte",
+     "paie",
+     "achète",
+     "vend"
+    ],
+    "loesung": [
+     "coûte"
+    ],
+    "erklaerung": "«coûter» heisst kosten und steht beim Preis.",
+    "fehler": [
+     {
+      "antwort": "paie",
+      "diagnoseId": "verb",
+      "feedback": "«payer» heisst bezahlen und braucht eine Person als Subjekt."
+     },
+     {
+      "antwort": "achète",
+      "diagnoseId": "verb",
+      "feedback": "«acheter» heisst kaufen; hier geht es um den Preis."
+     },
+     {
+      "antwort": "vend",
+      "diagnoseId": "verb",
+      "feedback": "«vendre» heisst verkaufen und passt nicht zu «ça»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nJe n'ai pas assez d'argent. Je dois payer ______ carte.",
+    "optionen": [
+     "par",
+     "avec la",
+     "en",
+     "de"
+    ],
+    "loesung": [
+     "par"
+    ],
+    "erklaerung": "«payer par carte» ist die übliche Wendung.",
+    "fehler": [
+     {
+      "antwort": "avec la",
+      "diagnoseId": "wendung",
+      "feedback": "Üblich ist «par carte», nicht «avec la carte»."
+     },
+     {
+      "antwort": "en",
+      "diagnoseId": "wendung",
+      "feedback": "«en espèces» heisst bar; bei der Karte steht «par»."
+     },
+     {
+      "antwort": "de",
+      "diagnoseId": "wendung",
+      "feedback": "«de» passt hier nicht. Richtig ist «par»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nMa mère est ______ dans une école primaire.",
+    "optionen": [
+     "enseignante",
+     "enseignant",
+     "une enseignante",
+     "l'enseignante"
+    ],
+    "loesung": [
+     "enseignante"
+    ],
+    "erklaerung": "Nach «être» steht der Beruf ohne Artikel, in der weiblichen Form.",
+    "fehler": [
+     {
+      "antwort": "enseignant",
+      "diagnoseId": "geschlecht",
+      "feedback": "«ma mère» ist weiblich: enseignante. Richtig ist «enseignante»."
+     },
+     {
+      "antwort": "une enseignante",
+      "diagnoseId": "artikel",
+      "feedback": "Nach «être» steht der Beruf ohne Artikel."
+     },
+     {
+      "antwort": "l'enseignante",
+      "diagnoseId": "artikel",
+      "feedback": "Auch der bestimmte Artikel entfällt nach «être»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nAprès l'école, je fais mes ______ à la maison.",
+    "optionen": [
+     "devoirs",
+     "métiers",
+     "matières",
+     "classes"
+    ],
+    "loesung": [
+     "devoirs"
+    ],
+    "erklaerung": "«les devoirs» sind die Hausaufgaben.",
+    "fehler": [
+     {
+      "antwort": "métiers",
+      "diagnoseId": "bedeutung",
+      "feedback": "«les métiers» sind die Berufe. Richtig ist «devoirs»."
+     },
+     {
+      "antwort": "matières",
+      "diagnoseId": "bedeutung",
+      "feedback": "«les matières» sind die Schulfächer. Richtig ist «devoirs»."
+     },
+     {
+      "antwort": "classes",
+      "diagnoseId": "bedeutung",
+      "feedback": "«les classes» sind die Klassen oder Zimmer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nMon frère veut devenir ______ : il aime réparer les voitures.",
+    "optionen": [
+     "mécanicien",
+     "boulanger",
+     "infirmier",
+     "vendeur"
+    ],
+    "loesung": [
+     "mécanicien"
+    ],
+    "erklaerung": "Wer Autos repariert, wird Mechaniker.",
+    "fehler": [
+     {
+      "antwort": "boulanger",
+      "diagnoseId": "beruf",
+      "feedback": "Ein Bäcker backt Brot. Richtig ist «mécanicien»."
+     },
+     {
+      "antwort": "infirmier",
+      "diagnoseId": "beruf",
+      "feedback": "Ein Pfleger arbeitet im Spital. Richtig ist «mécanicien»."
+     },
+     {
+      "antwort": "vendeur",
+      "diagnoseId": "beruf",
+      "feedback": "Ein Verkäufer bedient im Laden. Richtig ist «mécanicien»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nElle a peur des chiens. Elle ______ peur.",
+    "optionen": [
+     "a",
+     "est",
+     "fait",
+     "prend"
+    ],
+    "loesung": [
+     "a"
+    ],
+    "erklaerung": "«avoir peur» ist eine feste Wendung mit «avoir».",
+    "fehler": [
+     {
+      "antwort": "est",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Im Französischen «hat» man Angst, man «ist» sie nicht."
+     },
+     {
+      "antwort": "fait",
+      "diagnoseId": "verb",
+      "feedback": "«faire peur» hiesse jemandem Angst machen."
+     },
+     {
+      "antwort": "prend",
+      "diagnoseId": "verb",
+      "feedback": "«prendre» passt nicht zu «peur». Richtig ist «a»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nÀ mon avis, ce film est trop long. — Je suis ______ avec toi.",
+    "optionen": [
+     "d'accord",
+     "content",
+     "sûr",
+     "prêt"
+    ],
+    "loesung": [
+     "d'accord"
+    ],
+    "erklaerung": "«être d'accord avec» heisst einverstanden sein.",
+    "fehler": [
+     {
+      "antwort": "content",
+      "diagnoseId": "bedeutung",
+      "feedback": "«content» heisst zufrieden, nicht einverstanden."
+     },
+     {
+      "antwort": "sûr",
+      "diagnoseId": "bedeutung",
+      "feedback": "«sûr» heisst sicher. Richtig ist «d'accord»."
+     },
+     {
+      "antwort": "prêt",
+      "diagnoseId": "bedeutung",
+      "feedback": "«prêt» heisst bereit. Richtig ist «d'accord»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nIl est fatigué parce qu'il n'a pas assez ______ .",
+    "optionen": [
+     "dormi",
+     "dormir",
+     "dormait",
+     "dort"
+    ],
+    "loesung": [
+     "dormi"
+    ],
+    "erklaerung": "Nach «il n'a pas» steht das Partizip: dormi.",
+    "fehler": [
+     {
+      "antwort": "dormir",
+      "diagnoseId": "form",
+      "feedback": "Nach dem Hilfsverb steht das Partizip, nicht die Grundform."
+     },
+     {
+      "antwort": "dormait",
+      "diagnoseId": "zeit",
+      "feedback": "Das Imparfait passt nicht nach «il n'a pas»."
+     },
+     {
+      "antwort": "dort",
+      "diagnoseId": "zeit",
+      "feedback": "Das Präsens passt nicht nach dem Hilfsverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man 14 h 30 aus?",
+    "optionen": [
+     "quatorze heures trente",
+     "quatorze heure trente",
+     "deux heures trente du matin",
+     "quatorze et demi"
+    ],
+    "loesung": [
+     "quatorze heures trente"
+    ],
+    "erklaerung": "Im Fahrplan und im Amtlichen wird durchgezählt: quatorze heures trente.",
+    "fehler": [
+     {
+      "antwort": "quatorze heure trente",
+      "diagnoseId": "zahl",
+      "feedback": "Nach einer Zahl über eins steht «heures» in der Mehrzahl."
+     },
+     {
+      "antwort": "deux heures trente du matin",
+      "diagnoseId": "tageszeit",
+      "feedback": "14 h 30 ist am Nachmittag, nicht am Morgen."
+     },
+     {
+      "antwort": "quatorze et demi",
+      "diagnoseId": "form",
+      "feedback": "Es fehlt «heures», und «demie» wäre weiblich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nNous sommes le ______ mai aujourd'hui.",
+    "optionen": [
+     "premier",
+     "un",
+     "première",
+     "premièrement"
+    ],
+    "loesung": [
+     "premier"
+    ],
+    "erklaerung": "Nur beim ersten Tag des Monats steht die Ordnungszahl «premier».",
+    "fehler": [
+     {
+      "antwort": "un",
+      "diagnoseId": "form",
+      "feedback": "Beim ersten Tag steht «le premier», nicht «le un»."
+     },
+     {
+      "antwort": "première",
+      "diagnoseId": "geschlecht",
+      "feedback": "«mai» ist männlich: le premier mai. Richtig ist «premier»."
+     },
+     {
+      "antwort": "premièrement",
+      "diagnoseId": "wortart",
+      "feedback": "«premièrement» heisst erstens und leitet eine Aufzählung ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt?\n\nLe cours commence ______ huit heures et finit à midi.",
+    "optionen": [
+     "à",
+     "en",
+     "dans",
+     "depuis"
+    ],
+    "loesung": [
+     "à"
+    ],
+    "erklaerung": "Bei einer Uhrzeit steht «à».",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "praeposition",
+      "feedback": "«en» steht bei Monaten und Jahreszeiten."
+     },
+     {
+      "antwort": "dans",
+      "diagnoseId": "praeposition",
+      "feedback": "«dans» hiesse in acht Stunden. Richtig ist «à»."
+     },
+     {
+      "antwort": "depuis",
+      "diagnoseId": "praeposition",
+      "feedback": "«depuis» hiesse seit acht Uhr. Richtig ist «à»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Einkaufen, Schule, Gefühle und Zeit",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-grammatik",
+  "lernzielId": "FSO.3.01",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Fragen Sie zuerst: Wann geschieht das? Danach richtet sich die Zeitform.",
+   "Beim passé composé zählt das Hilfsverb: «avoir» oder «être»?",
+   "Adjektive richten sich nach dem Nomen: männlich oder weiblich, Einzahl oder Mehrzahl."
+  ],
+  "loesungsweg": [
+   "Das Subjekt bestimmen.",
+   "Die Zeitform aus dem Satz ableiten: hier, gestern oder morgen?",
+   "Die passende Form bilden.",
+   "Endung und Begleiter prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Présent:\n\nElle ______ (finir) ses devoirs.",
+    "optionen": [
+     "finit",
+     "finis",
+     "finissons",
+     "finissent"
+    ],
+    "loesung": [
+     "finit"
+    ],
+    "erklaerung": "«finir» gehört zur zweiten Gruppe. Bei «elle» endet es auf «-it»: elle finit.",
+    "fehler": [
+     {
+      "antwort": "finis",
+      "diagnoseId": "erste_person",
+      "feedback": "«finis» gehört zu «je» und «tu». Zu «elle» gehört die Endung «-it»."
+     },
+     {
+      "antwort": "finissons",
+      "diagnoseId": "wir_form",
+      "feedback": "«finissons» gehört zu «nous». Zu «elle» gehört die Einzahlform."
+     },
+     {
+      "antwort": "finissent",
+      "diagnoseId": "plural",
+      "feedback": "«finissent» gehört zu «ils» oder «elles», also zur Mehrzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Présent:\n\nNous ______ (être) en retard.",
+    "optionen": [
+     "sommes",
+     "êtes",
+     "sont",
+     "est"
+    ],
+    "loesung": [
+     "sommes"
+    ],
+    "erklaerung": "«être» ist unregelmässig: je suis, tu es, il est, nous sommes, vous êtes, ils sont.",
+    "fehler": [
+     {
+      "antwort": "êtes",
+      "diagnoseId": "ihr_form",
+      "feedback": "«êtes» gehört zu «vous». Zu «nous» gehört «sommes»."
+     },
+     {
+      "antwort": "sont",
+      "diagnoseId": "sie_form",
+      "feedback": "«sont» gehört zu «ils» oder «elles». Zu «nous» gehört «sommes»."
+     },
+     {
+      "antwort": "est",
+      "diagnoseId": "er_form",
+      "feedback": "«est» gehört zu «il» oder «elle». Zu «nous» gehört «sommes»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nJ'______ (manger) une pomme.",
+    "optionen": [
+     "ai mangé",
+     "suis mangé",
+     "ai mangée",
+     "as mangé"
+    ],
+    "loesung": [
+     "ai mangé"
+    ],
+    "erklaerung": "«manger» bildet das passé composé mit «avoir»: j'ai mangé. Das Partizip bleibt unverändert.",
+    "fehler": [
+     {
+      "antwort": "suis mangé",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«manger» nimmt «avoir», nicht «être». Mit «être» stehen vor allem Bewegungsverben."
+     },
+     {
+      "antwort": "ai mangée",
+      "diagnoseId": "angleichung",
+      "feedback": "Mit «avoir» gleicht sich das Partizip nicht an das Subjekt an."
+     },
+     {
+      "antwort": "as mangé",
+      "diagnoseId": "falsche_person",
+      "feedback": "«as» gehört zu «tu», nicht zu «je». Zu «je» gehört «ai»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nElle ______ (aller) au marché.",
+    "optionen": [
+     "est allée",
+     "a allé",
+     "est allé",
+     "a allée"
+    ],
+    "loesung": [
+     "est allée"
+    ],
+    "erklaerung": "«aller» bildet das passé composé mit «être». Bei weiblichem Subjekt bekommt das Partizip ein «-e»: elle est allée.",
+    "fehler": [
+     {
+      "antwort": "a allé",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«aller» ist ein Bewegungsverb und nimmt «être»."
+     },
+     {
+      "antwort": "est allé",
+      "diagnoseId": "keine_angleichung",
+      "feedback": "Mit «être» gleicht sich das Partizip an: «elle» ist weiblich, also «allée»."
+     },
+     {
+      "antwort": "a allée",
+      "diagnoseId": "zweifach_falsch",
+      "feedback": "Falsches Hilfsverb UND unnötige Angleichung. Richtig ist «est allée»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Imparfait:\n\nQuand j'étais petit, je ______ (jouer) souvent dehors.",
+    "optionen": [
+     "jouais",
+     "ai joué",
+     "jouerai",
+     "joue"
+    ],
+    "loesung": [
+     "jouais"
+    ],
+    "erklaerung": "Das imparfait beschreibt eine Gewohnheit in der Vergangenheit: je jouais.",
+    "fehler": [
+     {
+      "antwort": "ai joué",
+      "diagnoseId": "passe_compose",
+      "feedback": "Das passé composé nennt ein einmaliges Ereignis. «souvent» zeigt eine Gewohnheit an, also imparfait."
+     },
+     {
+      "antwort": "jouerai",
+      "diagnoseId": "futur",
+      "feedback": "«jouerai» ist das futur simple, also die Zukunft."
+     },
+     {
+      "antwort": "joue",
+      "diagnoseId": "praesens",
+      "feedback": "«joue» ist das Präsens. Der Satz spielt in der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur proche:\n\nIls ______ (partir) demain.",
+    "optionen": [
+     "vont partir",
+     "partiront",
+     "sont partis",
+     "vont partis"
+    ],
+    "loesung": [
+     "vont partir"
+    ],
+    "erklaerung": "Das futur proche wird mit «aller» plus Infinitiv gebildet: ils vont partir.",
+    "fehler": [
+     {
+      "antwort": "partiront",
+      "diagnoseId": "futur_simple",
+      "feedback": "Das ist das futur simple. Gefragt ist das futur proche mit «aller»."
+     },
+     {
+      "antwort": "sont partis",
+      "diagnoseId": "passe_compose",
+      "feedback": "Das ist das passé composé, also die Vergangenheit."
+     },
+     {
+      "antwort": "vont partis",
+      "diagnoseId": "partizip_statt_infinitiv",
+      "feedback": "Nach «aller» steht der Infinitiv «partir», nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nune ______ maison (grand)",
+    "optionen": [
+     "grande",
+     "grand",
+     "grands",
+     "grandes"
+    ],
+    "loesung": [
+     "grande"
+    ],
+    "erklaerung": "«maison» ist weiblich und in der Einzahl, also «grande».",
+    "fehler": [
+     {
+      "antwort": "grand",
+      "diagnoseId": "maennlich",
+      "feedback": "«grand» ist die männliche Form. «une maison» ist weiblich."
+     },
+     {
+      "antwort": "grands",
+      "diagnoseId": "maennlich_plural",
+      "feedback": "«grands» ist männlich und Mehrzahl. Hier steht ein einzelnes, weibliches Nomen."
+     },
+     {
+      "antwort": "grandes",
+      "diagnoseId": "plural",
+      "feedback": "«grandes» ist weiblich, aber Mehrzahl. Hier steht nur ein Haus."
+     }
+    ]
+   },
+   {
+    "stamm": "Steigerung: Comment dit-on «schneller als» ?",
+    "optionen": [
+     "plus vite que",
+     "plus vite de",
+     "le plus vite",
+     "aussi vite que"
+    ],
+    "loesung": [
+     "plus vite que"
+    ],
+    "erklaerung": "Der Komparativ wird mit «plus … que» gebildet: plus vite que.",
+    "fehler": [
+     {
+      "antwort": "plus vite de",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Beim Vergleich steht «que», nicht «de». «de» steht beim Superlativ: le plus vite de tous."
+     },
+     {
+      "antwort": "le plus vite",
+      "diagnoseId": "superlativ",
+      "feedback": "«le plus vite» ist der Superlativ: «am schnellsten»."
+     },
+     {
+      "antwort": "aussi vite que",
+      "diagnoseId": "gleichheit",
+      "feedback": "«aussi … que» heisst «genauso … wie», nicht «schneller als»."
+     }
+    ]
+   },
+   {
+    "stamm": "Plural: Wie lautet die Mehrzahl von «un journal» ?",
+    "optionen": [
+     "des journaux",
+     "des journals",
+     "des journales",
+     "des journaus"
+    ],
+    "loesung": [
+     "des journaux"
+    ],
+    "erklaerung": "Nomen auf «-al» bilden die Mehrzahl auf «-aux»: journal → journaux.",
+    "fehler": [
+     {
+      "antwort": "des journals",
+      "diagnoseId": "regel_uebersehen",
+      "feedback": "Nomen auf «-al» bekommen kein einfaches «-s». Die Mehrzahl lautet «journaux»."
+     },
+     {
+      "antwort": "des journales",
+      "diagnoseId": "erfundene_endung",
+      "feedback": "Diese Endung gibt es nicht. Nomen auf «-al» enden in der Mehrzahl auf «-aux»."
+     },
+     {
+      "antwort": "des journaus",
+      "diagnoseId": "fast_richtig",
+      "feedback": "Fast: Es fehlt das «x». Richtig ist «journaux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Kontrahierter Artikel: Je vais ______ cinéma.",
+    "optionen": [
+     "au",
+     "à le",
+     "du",
+     "à la"
+    ],
+    "loesung": [
+     "au"
+    ],
+    "erklaerung": "«à» und «le» werden zu «au» zusammengezogen: je vais au cinéma.",
+    "fehler": [
+     {
+      "antwort": "à le",
+      "diagnoseId": "nicht_zusammengezogen",
+      "feedback": "«à le» gibt es nicht. Die beiden Wörter werden zu «au» zusammengezogen."
+     },
+     {
+      "antwort": "du",
+      "diagnoseId": "de_statt_a",
+      "feedback": "«du» kommt von «de le» und heisst «vom», nicht «zum»."
+     },
+     {
+      "antwort": "à la",
+      "diagnoseId": "weiblich",
+      "feedback": "«à la» steht vor weiblichen Nomen. «le cinéma» ist männlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Demonstrativbegleiter: ______ livre est intéressant.",
+    "optionen": [
+     "Ce",
+     "Cette",
+     "Ces",
+     "Cet"
+    ],
+    "loesung": [
+     "Ce"
+    ],
+    "erklaerung": "«livre» ist männlich und beginnt mit einem Konsonanten, also «ce livre».",
+    "fehler": [
+     {
+      "antwort": "Cette",
+      "diagnoseId": "weiblich",
+      "feedback": "«cette» steht vor weiblichen Nomen. «le livre» ist männlich."
+     },
+     {
+      "antwort": "Ces",
+      "diagnoseId": "plural",
+      "feedback": "«ces» steht vor der Mehrzahl. Hier steht ein einzelnes Buch."
+     },
+     {
+      "antwort": "Cet",
+      "diagnoseId": "vor_vokal",
+      "feedback": "«cet» steht vor männlichen Nomen, die mit einem Vokal oder stummem h beginnen: cet ami, cet hôtel."
+     }
+    ]
+   },
+   {
+    "stamm": "Possessivbegleiter: C'est ______ sœur. (die Schwester von mir)",
+    "optionen": [
+     "ma",
+     "mon",
+     "mes",
+     "ta"
+    ],
+    "loesung": [
+     "ma"
+    ],
+    "erklaerung": "«sœur» ist weiblich und in der Einzahl, also «ma sœur».",
+    "fehler": [
+     {
+      "antwort": "mon",
+      "diagnoseId": "maennlich",
+      "feedback": "«mon» steht vor männlichen Nomen — oder vor weiblichen, die mit einem Vokal beginnen."
+     },
+     {
+      "antwort": "mes",
+      "diagnoseId": "plural",
+      "feedback": "«mes» steht vor der Mehrzahl. Hier steht eine einzelne Schwester."
+     },
+     {
+      "antwort": "ta",
+      "diagnoseId": "andere_person",
+      "feedback": "«ta» heisst «deine», nicht «meine». Gesucht war die eigene Schwester."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitformen: Présent, Passé composé, Imparfait, Futur",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-formen",
+  "lernzielId": "FSO.3.05",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "3.05",
+   "3.06",
+   "3.07",
+   "3.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die meisten Adjektive stehen hinter dem Nomen; einige kurze davor.",
+   "Der Plural der Nomen endet meist auf «-s», mit Ausnahmen auf «-x».",
+   "«à» und «de» verschmelzen mit dem bestimmten Artikel: au, aux, du, des."
+  ],
+  "loesungsweg": [
+   "Geschlecht und Zahl des Nomens bestimmen.",
+   "Das Adjektiv angleichen und richtig stellen.",
+   "Beim Plural auf die Ausnahmen achten.",
+   "Verschmelzungen prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nC'est une ______ maison.",
+    "optionen": [
+     "belle",
+     "beau",
+     "bel",
+     "belles"
+    ],
+    "loesung": [
+     "belle"
+    ],
+    "erklaerung": "«maison» ist weiblich und Einzahl: belle. Kurze Adjektive wie «beau» stehen vor dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "beau",
+      "diagnoseId": "geschlecht",
+      "feedback": "«maison» ist weiblich: belle. Richtig ist «belle»."
+     },
+     {
+      "antwort": "bel",
+      "diagnoseId": "lautung",
+      "feedback": "«bel» steht nur vor einem männlichen Wort mit Vokal am Anfang."
+     },
+     {
+      "antwort": "belles",
+      "diagnoseId": "zahl",
+      "feedback": "Es geht um ein einziges Haus. Richtig ist «belle»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIls habitent dans un ______ appartement.",
+    "optionen": [
+     "vieil",
+     "vieux",
+     "vieille",
+     "vieilles"
+    ],
+    "loesung": [
+     "vieil"
+    ],
+    "erklaerung": "Vor einem männlichen Wort mit Vokal am Anfang wird «vieux» zu «vieil».",
+    "fehler": [
+     {
+      "antwort": "vieux",
+      "diagnoseId": "lautung",
+      "feedback": "Vor «appartement» wird «vieux» zu «vieil»."
+     },
+     {
+      "antwort": "vieille",
+      "diagnoseId": "geschlecht",
+      "feedback": "«appartement» ist männlich. Richtig ist «vieil»."
+     },
+     {
+      "antwort": "vieilles",
+      "diagnoseId": "zahl",
+      "feedback": "Es geht um eine einzige Wohnung. Richtig ist «vieil»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht das Adjektiv?\n\nun livre intéressant / un intéressant livre",
+    "optionen": [
+     "un livre intéressant",
+     "un intéressant livre",
+     "beides ist möglich",
+     "weder noch"
+    ],
+    "loesung": [
+     "un livre intéressant"
+    ],
+    "erklaerung": "Lange Adjektive stehen im Französischen hinter dem Nomen.",
+    "fehler": [
+     {
+      "antwort": "un intéressant livre",
+      "diagnoseId": "stellung",
+      "feedback": "Nur wenige kurze Adjektive stehen vor dem Nomen."
+     },
+     {
+      "antwort": "beides ist möglich",
+      "diagnoseId": "stellung",
+      "feedback": "«intéressant» steht immer hinter dem Nomen."
+     },
+     {
+      "antwort": "weder noch",
+      "diagnoseId": "stellung",
+      "feedback": "Die erste Form ist richtig. Richtig ist «un livre intéressant»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nCette rue est ______ que l'autre.",
+    "optionen": [
+     "plus large",
+     "le plus large",
+     "très large",
+     "plus largement"
+    ],
+    "loesung": [
+     "plus large"
+    ],
+    "erklaerung": "Der Vergleich zweier Dinge steht mit «plus … que».",
+    "fehler": [
+     {
+      "antwort": "le plus large",
+      "diagnoseId": "stufe",
+      "feedback": "Die höchste Stufe verträgt kein «que». Richtig ist «plus large»."
+     },
+     {
+      "antwort": "très large",
+      "diagnoseId": "form",
+      "feedback": "«très» verstärkt, vergleicht aber nicht."
+     },
+     {
+      "antwort": "plus largement",
+      "diagnoseId": "wortart",
+      "feedback": "«largement» ist ein Adverb; hier braucht es das Adjektiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nC'est ______ ville de Suisse.",
+    "optionen": [
+     "la plus grande",
+     "la plus grand",
+     "plus grande",
+     "le plus grand"
+    ],
+    "loesung": [
+     "la plus grande"
+    ],
+    "erklaerung": "Die höchste Stufe steht mit dem Artikel und gleicht sich an: la plus grande.",
+    "fehler": [
+     {
+      "antwort": "la plus grand",
+      "diagnoseId": "angleichung",
+      "feedback": "«ville» ist weiblich: grande. Richtig ist «la plus grande»."
+     },
+     {
+      "antwort": "plus grande",
+      "diagnoseId": "artikel",
+      "feedback": "Der höchsten Stufe fehlt der Artikel. Richtig ist «la plus grande»."
+     },
+     {
+      "antwort": "le plus grand",
+      "diagnoseId": "geschlecht",
+      "feedback": "«ville» ist weiblich; der Artikel lautet «la»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist die Steigerung von «bon»?",
+    "optionen": [
+     "meilleur",
+     "plus bon",
+     "mieux",
+     "plus bien"
+    ],
+    "loesung": [
+     "meilleur"
+    ],
+    "erklaerung": "«bon» steigert unregelmässig zu «meilleur».",
+    "fehler": [
+     {
+      "antwort": "plus bon",
+      "diagnoseId": "form",
+      "feedback": "«plus bon» gibt es nicht. Richtig ist «meilleur»."
+     },
+     {
+      "antwort": "mieux",
+      "diagnoseId": "wortart",
+      "feedback": "«mieux» ist die Steigerung des Adverbs «bien»."
+     },
+     {
+      "antwort": "plus bien",
+      "diagnoseId": "form",
+      "feedback": "Auch «bien» steigert unregelmässig, nämlich zu «mieux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Plural von «le journal»?",
+    "optionen": [
+     "les journaux",
+     "les journals",
+     "les journales",
+     "le journaux"
+    ],
+    "loesung": [
+     "les journaux"
+    ],
+    "erklaerung": "Wörter auf «-al» bilden den Plural auf «-aux».",
+    "fehler": [
+     {
+      "antwort": "les journals",
+      "diagnoseId": "form",
+      "feedback": "Wörter auf «-al» enden im Plural auf «-aux»."
+     },
+     {
+      "antwort": "les journales",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung gibt es nicht. Richtig ist «les journaux»."
+     },
+     {
+      "antwort": "le journaux",
+      "diagnoseId": "artikel",
+      "feedback": "Im Plural steht «les». Richtig ist «les journaux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Plural von «le gâteau»?",
+    "optionen": [
+     "les gâteaux",
+     "les gâteaus",
+     "les gâteauxs",
+     "le gâteaux"
+    ],
+    "loesung": [
+     "les gâteaux"
+    ],
+    "erklaerung": "Wörter auf «-eau» bekommen im Plural ein «-x».",
+    "fehler": [
+     {
+      "antwort": "les gâteaus",
+      "diagnoseId": "form",
+      "feedback": "Nach «-eau» steht «-x», nicht «-s». Richtig ist «les gâteaux»."
+     },
+     {
+      "antwort": "les gâteauxs",
+      "diagnoseId": "form",
+      "feedback": "Ein zusätzliches «-s» gibt es nicht. Richtig ist «les gâteaux»."
+     },
+     {
+      "antwort": "le gâteaux",
+      "diagnoseId": "artikel",
+      "feedback": "Im Plural steht «les». Richtig ist «les gâteaux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Plural von «l'œil»?",
+    "optionen": [
+     "les yeux",
+     "les œils",
+     "les œilx",
+     "les oeuils"
+    ],
+    "loesung": [
+     "les yeux"
+    ],
+    "erklaerung": "«l'œil» hat einen unregelmässigen Plural: les yeux.",
+    "fehler": [
+     {
+      "antwort": "les œils",
+      "diagnoseId": "form",
+      "feedback": "Der Plural ist unregelmässig: les yeux. Richtig ist «les yeux»."
+     },
+     {
+      "antwort": "les œilx",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung gibt es nicht. Richtig ist «les yeux»."
+     },
+     {
+      "antwort": "les oeuils",
+      "diagnoseId": "form",
+      "feedback": "Diese Schreibung gibt es nicht. Richtig ist «les yeux»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous allons ______ cinéma ce soir.",
+    "optionen": [
+     "au",
+     "à le",
+     "du",
+     "à la"
+    ],
+    "loesung": [
+     "au"
+    ],
+    "erklaerung": "«à» und «le» verschmelzen zu «au».",
+    "fehler": [
+     {
+      "antwort": "à le",
+      "diagnoseId": "verschmelzung",
+      "feedback": "«à le» wird immer zu «au». Richtig ist «au»."
+     },
+     {
+      "antwort": "du",
+      "diagnoseId": "praeposition",
+      "feedback": "«du» käme von «de», hier braucht es «à»."
+     },
+     {
+      "antwort": "à la",
+      "diagnoseId": "geschlecht",
+      "feedback": "«cinéma» ist männlich. Richtig ist «au»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle revient ______ montagnes samedi.",
+    "optionen": [
+     "des",
+     "de les",
+     "aux",
+     "de la"
+    ],
+    "loesung": [
+     "des"
+    ],
+    "erklaerung": "«de» und «les» verschmelzen zu «des».",
+    "fehler": [
+     {
+      "antwort": "de les",
+      "diagnoseId": "verschmelzung",
+      "feedback": "«de les» wird immer zu «des». Richtig ist «des»."
+     },
+     {
+      "antwort": "aux",
+      "diagnoseId": "praeposition",
+      "feedback": "«revenir de» nennt die Herkunft, nicht das Ziel."
+     },
+     {
+      "antwort": "de la",
+      "diagnoseId": "zahl",
+      "feedback": "«montagnes» steht in der Mehrzahl. Richtig ist «des»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl parle ______ professeurs après le cours.",
+    "optionen": [
+     "aux",
+     "à les",
+     "des",
+     "à la"
+    ],
+    "loesung": [
+     "aux"
+    ],
+    "erklaerung": "«à» und «les» verschmelzen zu «aux».",
+    "fehler": [
+     {
+      "antwort": "à les",
+      "diagnoseId": "verschmelzung",
+      "feedback": "«à les» wird immer zu «aux». Richtig ist «aux»."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "praeposition",
+      "feedback": "«parler à» verlangt «à», nicht «de». Richtig ist «aux»."
+     },
+     {
+      "antwort": "à la",
+      "diagnoseId": "zahl",
+      "feedback": "«professeurs» steht in der Mehrzahl. Richtig ist «aux»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Adjektive, Steigerung, Plural und Artikel",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-satzbau",
+  "lernzielId": "FSO.3.09",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "3.09",
+   "3.10",
+   "3.11"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei reflexiven Verben steht das Pronomen VOR dem Verb: je me lève.",
+   "Die Verneinung klammert das gebeugte Verb ein: ne … pas.",
+   "Fragen lassen sich auf drei Arten bilden: mit Intonation, mit «est-ce que» oder durch Umstellung."
+  ],
+  "loesungsweg": [
+   "Das Subjekt und das gebeugte Verb suchen.",
+   "Bei reflexiven Verben das Pronomen dazwischenschieben.",
+   "Bei der Verneinung «ne» davor und «pas» dahinter setzen.",
+   "Bei Fragen prüfen, welche der drei Formen verlangt ist."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Présent:\n\nJe ______ (se lever) à sept heures.",
+    "optionen": [
+     "me lève",
+     "lève",
+     "se lève",
+     "me lever"
+    ],
+    "loesung": [
+     "me lève"
+    ],
+    "erklaerung": "Bei reflexiven Verben wechselt das Pronomen mit der Person: je me lève, tu te lèves, il se lève.",
+    "fehler": [
+     {
+      "antwort": "lève",
+      "diagnoseId": "pronomen_fehlt",
+      "feedback": "Das Reflexivpronomen «me» fehlt. Ohne es hiesse der Satz «Ich hebe … hoch»."
+     },
+     {
+      "antwort": "se lève",
+      "diagnoseId": "falsches_pronomen",
+      "feedback": "«se» gehört zu «il» oder «elle». Zu «je» gehört «me»."
+     },
+     {
+      "antwort": "me lever",
+      "diagnoseId": "infinitiv",
+      "feedback": "«me lever» ist der Infinitiv. Nach «je» steht die gebeugte Form."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Passé composé:\n\nElle ______ (se réveiller) tard.",
+    "optionen": [
+     "s'est réveillée",
+     "a réveillé",
+     "s'a réveillée",
+     "est réveillée"
+    ],
+    "loesung": [
+     "s'est réveillée"
+    ],
+    "erklaerung": "Reflexive Verben bilden das passé composé immer mit «être», und das Partizip gleicht sich an: elle s'est réveillée.",
+    "fehler": [
+     {
+      "antwort": "a réveillé",
+      "diagnoseId": "hilfsverb_und_pronomen",
+      "feedback": "Zwei Fehler: Reflexive Verben nehmen «être», und das Pronomen «se» fehlt."
+     },
+     {
+      "antwort": "s'a réveillée",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Reflexive Verben nehmen immer «être», nie «avoir»."
+     },
+     {
+      "antwort": "est réveillée",
+      "diagnoseId": "pronomen_fehlt",
+      "feedback": "Das Reflexivpronomen «s'» fehlt vor dem Hilfsverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneinen Sie:\n\nIl mange de la viande.",
+    "optionen": [
+     "Il ne mange pas de viande.",
+     "Il ne mange pas de la viande.",
+     "Il mange ne pas de viande.",
+     "Il pas mange de viande."
+    ],
+    "loesung": [
+     "Il ne mange pas de viande."
+    ],
+    "erklaerung": "«ne» steht vor dem gebeugten Verb, «pas» dahinter. Nach einer Verneinung wird aus «de la» ein einfaches «de».",
+    "fehler": [
+     {
+      "antwort": "Il ne mange pas de la viande.",
+      "diagnoseId": "teilungsartikel",
+      "feedback": "Nach einer Verneinung wird der Teilungsartikel zu «de»: pas de viande."
+     },
+     {
+      "antwort": "Il mange ne pas de viande.",
+      "diagnoseId": "stellung",
+      "feedback": "«ne» steht VOR dem gebeugten Verb, nicht dahinter."
+     },
+     {
+      "antwort": "Il pas mange de viande.",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "Das «ne» fehlt. Die Verneinung klammert das Verb ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Verneinen Sie:\n\nElle a compris.",
+    "optionen": [
+     "Elle n'a pas compris.",
+     "Elle a ne pas compris.",
+     "Elle a pas compris.",
+     "Elle n'a compris pas."
+    ],
+    "loesung": [
+     "Elle n'a pas compris."
+    ],
+    "erklaerung": "Im passé composé klammert die Verneinung das HILFSVERB ein: n'a pas compris.",
+    "fehler": [
+     {
+      "antwort": "Elle a ne pas compris.",
+      "diagnoseId": "stellung",
+      "feedback": "«ne» steht vor dem Hilfsverb, nicht dahinter."
+     },
+     {
+      "antwort": "Elle a pas compris.",
+      "diagnoseId": "ne_fehlt",
+      "feedback": "Das «ne» fehlt. In der Schrift gehört es dazu, auch wenn man es beim Sprechen oft weglässt."
+     },
+     {
+      "antwort": "Elle n'a compris pas.",
+      "diagnoseId": "pas_zu_spaet",
+      "feedback": "«pas» steht direkt hinter dem Hilfsverb, nicht hinter dem Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde eine Frage mit «est-ce que»:\n\nTu viens demain.",
+    "optionen": [
+     "Est-ce que tu viens demain ?",
+     "Est-ce tu viens demain ?",
+     "Viens-tu est-ce que demain ?",
+     "Tu est-ce que viens demain ?"
+    ],
+    "loesung": [
+     "Est-ce que tu viens demain ?"
+    ],
+    "erklaerung": "«Est-ce que» steht am Satzanfang, danach folgt der Satz unverändert.",
+    "fehler": [
+     {
+      "antwort": "Est-ce tu viens demain ?",
+      "diagnoseId": "que_fehlt",
+      "feedback": "Es heisst «est-ce QUE», das «que» gehört dazu."
+     },
+     {
+      "antwort": "Viens-tu est-ce que demain ?",
+      "diagnoseId": "zwei_formen",
+      "feedback": "Hier sind zwei Frageformen vermischt: Umstellung UND «est-ce que». Eine genügt."
+     },
+     {
+      "antwort": "Tu est-ce que viens demain ?",
+      "diagnoseId": "stellung",
+      "feedback": "«Est-ce que» steht ganz am Anfang. Danach folgt der Satz unverändert."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde eine Frage durch Umstellung:\n\nVous habitez ici.",
+    "optionen": [
+     "Habitez-vous ici ?",
+     "Vous habitez-ici ?",
+     "Habitez vous ici ?",
+     "Vous-habitez ici ?"
+    ],
+    "loesung": [
+     "Habitez-vous ici ?"
+    ],
+    "erklaerung": "Bei der Umstellung tauschen Verb und Subjekt den Platz, verbunden durch einen Bindestrich: Habitez-vous ?",
+    "fehler": [
+     {
+      "antwort": "Vous habitez-ici ?",
+      "diagnoseId": "falsche_stellung",
+      "feedback": "Getauscht werden Verb und SUBJEKT, nicht Verb und Ortsangabe."
+     },
+     {
+      "antwort": "Habitez vous ici ?",
+      "diagnoseId": "bindestrich_fehlt",
+      "feedback": "Bei der Umstellung steht ein Bindestrich zwischen Verb und Subjekt."
+     },
+     {
+      "antwort": "Vous-habitez ici ?",
+      "diagnoseId": "keine_umstellung",
+      "feedback": "Hier wurde nichts umgestellt, nur ein Bindestrich gesetzt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Fragewort passt?\n\n______ est-ce que tu habites ? — À Soleure.",
+    "optionen": [
+     "Où",
+     "Quand",
+     "Combien",
+     "Pourquoi"
+    ],
+    "loesung": [
+     "Où"
+    ],
+    "erklaerung": "«Où» fragt nach dem Ort. Die Antwort «À Soleure» nennt einen Ort.",
+    "fehler": [
+     {
+      "antwort": "Quand",
+      "diagnoseId": "zeit",
+      "feedback": "«Quand» fragt nach der Zeit. Die Antwort wäre dann ein Zeitpunkt."
+     },
+     {
+      "antwort": "Combien",
+      "diagnoseId": "menge",
+      "feedback": "«Combien» fragt nach einer Menge oder Anzahl."
+     },
+     {
+      "antwort": "Pourquoi",
+      "diagnoseId": "grund",
+      "feedback": "«Pourquoi» fragt nach dem Grund. Die Antwort begänne mit «parce que»."
+     }
+    ]
+   },
+   {
+    "stamm": "Personalpronomen als Objekt:\n\nTu vois Marie ? — Oui, je ______ vois.",
+    "optionen": [
+     "la",
+     "le",
+     "lui",
+     "elle"
+    ],
+    "loesung": [
+     "la"
+    ],
+    "erklaerung": "«Marie» ist ein direktes Objekt und weiblich, also «la»: je la vois.",
+    "fehler": [
+     {
+      "antwort": "le",
+      "diagnoseId": "maennlich",
+      "feedback": "«le» steht für ein männliches direktes Objekt."
+     },
+     {
+      "antwort": "lui",
+      "diagnoseId": "indirektes_objekt",
+      "feedback": "«lui» ist das indirekte Objekt: «ihm» oder «ihr». Nach «voir» steht das direkte Objekt."
+     },
+     {
+      "antwort": "elle",
+      "diagnoseId": "betontes_pronomen",
+      "feedback": "«elle» ist ein betontes Pronomen und steht nach einer Präposition, nicht vor dem Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "Verbinde die Sätze:\n\nJe reste à la maison. Il pleut.",
+    "optionen": [
+     "Je reste à la maison parce qu'il pleut.",
+     "Je reste à la maison parce que il pleut.",
+     "Je reste à la maison quand il pleut aussi.",
+     "Je reste à la maison, il pleut parce que."
+    ],
+    "loesung": [
+     "Je reste à la maison parce qu'il pleut."
+    ],
+    "erklaerung": "«parce que» gibt den Grund an. Vor einem Vokal wird «que» zu «qu'».",
+    "fehler": [
+     {
+      "antwort": "Je reste à la maison parce que il pleut.",
+      "diagnoseId": "elision",
+      "feedback": "Vor einem Vokal wird «que» zu «qu'»: parce qu'il."
+     },
+     {
+      "antwort": "Je reste à la maison quand il pleut aussi.",
+      "diagnoseId": "falsche_konjunktion",
+      "feedback": "«quand» heisst «wenn» und nennt eine Zeit, keinen Grund."
+     },
+     {
+      "antwort": "Je reste à la maison, il pleut parce que.",
+      "diagnoseId": "stellung",
+      "feedback": "«parce que» steht VOR dem Grund, nicht am Satzende."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nElle parle à son frère. — Elle ______ parle.",
+    "optionen": [
+     "lui",
+     "le",
+     "la",
+     "y"
+    ],
+    "loesung": [
+     "lui"
+    ],
+    "erklaerung": "«parler à quelqu'un» verlangt das indirekte Objekt: lui.",
+    "fehler": [
+     {
+      "antwort": "le",
+      "diagnoseId": "direktes_objekt",
+      "feedback": "«le» ist das direkte Objekt. «parler» verlangt «à», also das indirekte."
+     },
+     {
+      "antwort": "la",
+      "diagnoseId": "direktes_objekt_weiblich",
+      "feedback": "Auch «la» ist ein direktes Objekt. Nach «parler à» steht das indirekte."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "ort",
+      "feedback": "«y» ersetzt eine Ortsangabe, nicht eine Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Direkte Rede: Wie sagt man «Er sagt: ‹Ich komme›» auf Französisch?",
+    "optionen": [
+     "Il dit : « Je viens. »",
+     "Il dit que je viens.",
+     "Il dit : « Il vient. »",
+     "Il dit « Je viens » que."
+    ],
+    "loesung": [
+     "Il dit : « Je viens. »"
+    ],
+    "erklaerung": "In der direkten Rede bleibt der Satz unverändert und steht zwischen französischen Anführungszeichen.",
+    "fehler": [
+     {
+      "antwort": "Il dit que je viens.",
+      "diagnoseId": "indirekte_rede",
+      "feedback": "Das ist die indirekte Rede. Gefragt war die direkte."
+     },
+     {
+      "antwort": "Il dit : « Il vient. »",
+      "diagnoseId": "person_geaendert",
+      "feedback": "In der direkten Rede bleibt «je» stehen. Geändert wird nur in der indirekten Rede."
+     },
+     {
+      "antwort": "Il dit « Je viens » que.",
+      "diagnoseId": "stellung",
+      "feedback": "Das «que» gehört zur indirekten Rede und steht dort vor dem Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig gebaut?",
+    "optionen": [
+     "Elle ne va jamais au cinéma.",
+     "Elle va ne jamais au cinéma.",
+     "Elle ne jamais va au cinéma.",
+     "Elle va jamais ne au cinéma."
+    ],
+    "loesung": [
+     "Elle ne va jamais au cinéma."
+    ],
+    "erklaerung": "Wie bei «ne … pas» klammert auch «ne … jamais» das gebeugte Verb ein.",
+    "fehler": [
+     {
+      "antwort": "Elle va ne jamais au cinéma.",
+      "diagnoseId": "stellung",
+      "feedback": "«ne» steht vor dem gebeugten Verb. «jamais» kommt dahinter."
+     },
+     {
+      "antwort": "Elle ne jamais va au cinéma.",
+      "diagnoseId": "jamais_zu_frueh",
+      "feedback": "«jamais» steht hinter dem gebeugten Verb, nicht davor."
+     },
+     {
+      "antwort": "Elle va jamais ne au cinéma.",
+      "diagnoseId": "beide_falsch",
+      "feedback": "Beide Teile stehen falsch: «ne» vor das Verb, «jamais» dahinter."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Begleiter, reflexive Verben und Pronomen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-fr-fragen-verneinung",
+  "lernzielId": "FSO.3.12",
+  "fach": "franzoesisch-so",
+  "unterthemen": [
+   "3.12",
+   "3.13",
+   "3.14",
+   "3.15"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Verneinung klammert das gebeugte Verb mit «ne … pas» ein.",
+   "Eine Frage lässt sich mit «est-ce que», mit der Stimme oder mit der Umstellung bilden.",
+   "Ein Objektpronomen steht vor dem gebeugten Verb."
+  ],
+  "loesungsweg": [
+   "Die Struktur bestimmen.",
+   "Die Wortstellung prüfen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie lautet die Verneinung?\n\nElle boit du café.",
+    "optionen": [
+     "Elle ne boit pas de café.",
+     "Elle ne boit pas du café.",
+     "Elle boit ne pas de café.",
+     "Elle pas boit de café."
+    ],
+    "loesung": [
+     "Elle ne boit pas de café."
+    ],
+    "erklaerung": "Nach der Verneinung wird aus «du» ein blosses «de».",
+    "fehler": [
+     {
+      "antwort": "Elle ne boit pas du café.",
+      "diagnoseId": "teilungsartikel",
+      "feedback": "Nach «ne … pas» fällt der Teilungsartikel auf «de» zusammen."
+     },
+     {
+      "antwort": "Elle boit ne pas de café.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«ne» steht vor dem Verb. Richtig ist «Elle ne boit pas de café.»."
+     },
+     {
+      "antwort": "Elle pas boit de café.",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das «ne» fehlt. Richtig ist «Elle ne boit pas de café.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Verneinung im Passé composé?\n\nNous avons vu le film.",
+    "optionen": [
+     "Nous n'avons pas vu le film.",
+     "Nous n'avons vu pas le film.",
+     "Nous avons ne pas vu le film.",
+     "Nous n'avons pas vu pas le film."
+    ],
+    "loesung": [
+     "Nous n'avons pas vu le film."
+    ],
+    "erklaerung": "«ne» und «pas» klammern das Hilfsverb ein, nicht das Partizip.",
+    "fehler": [
+     {
+      "antwort": "Nous n'avons vu pas le film.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«pas» steht direkt nach dem Hilfsverb. Richtig ist «Nous n'avons pas vu le film.»."
+     },
+     {
+      "antwort": "Nous avons ne pas vu le film.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«ne» steht vor dem Hilfsverb. Richtig ist «Nous n'avons pas vu le film.»."
+     },
+     {
+      "antwort": "Nous n'avons pas vu pas le film.",
+      "diagnoseId": "doppelt",
+      "feedback": "«pas» steht doppelt im Satz. Richtig ist «Nous n'avons pas vu le film.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verneinung passt?\n\nIl ______ mange ______ , il n'a pas faim.",
+    "optionen": [
+     "ne … rien",
+     "ne … personne",
+     "ne … plus",
+     "ne … jamais"
+    ],
+    "loesung": [
+     "ne … rien"
+    ],
+    "erklaerung": "«rien» heisst nichts und passt zum fehlenden Hunger.",
+    "fehler": [
+     {
+      "antwort": "ne … personne",
+      "diagnoseId": "bedeutung",
+      "feedback": "«personne» heisst niemand und meint Menschen."
+     },
+     {
+      "antwort": "ne … plus",
+      "diagnoseId": "bedeutung",
+      "feedback": "«ne … plus» hiesse, dass er aufgehört hat zu essen."
+     },
+     {
+      "antwort": "ne … jamais",
+      "diagnoseId": "bedeutung",
+      "feedback": "«jamais» hiesse nie, das passt nicht zu einer einzelnen Mahlzeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage mit «est-ce que»?\n\nVous habitez à Olten.",
+    "optionen": [
+     "Est-ce que vous habitez à Olten ?",
+     "Est-ce vous habitez à Olten ?",
+     "Vous est-ce que habitez à Olten ?",
+     "Est-ce que habitez-vous à Olten ?"
+    ],
+    "loesung": [
+     "Est-ce que vous habitez à Olten ?"
+    ],
+    "erklaerung": "«Est-ce que» steht vor dem unveränderten Aussagesatz.",
+    "fehler": [
+     {
+      "antwort": "Est-ce vous habitez à Olten ?",
+      "diagnoseId": "form",
+      "feedback": "Das «que» darf nicht fehlen. Richtig ist «Est-ce que vous habitez à Olten ?»."
+     },
+     {
+      "antwort": "Vous est-ce que habitez à Olten ?",
+      "diagnoseId": "wortstellung",
+      "feedback": "«Est-ce que» steht am Satzanfang. Richtig ist «Est-ce que vous habitez à Olten ?»."
+     },
+     {
+      "antwort": "Est-ce que habitez-vous à Olten ?",
+      "diagnoseId": "gemischt",
+      "feedback": "Hier sind zwei Fragearten vermischt. Richtig ist «Est-ce que vous habitez à Olten ?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage mit Umstellung?\n\nIl travaille le samedi.",
+    "optionen": [
+     "Travaille-t-il le samedi ?",
+     "Travaille-il le samedi ?",
+     "Il travaille-t-il le samedi ?",
+     "Travaille t'il le samedi ?"
+    ],
+    "loesung": [
+     "Travaille-t-il le samedi ?"
+    ],
+    "erklaerung": "Zwischen zwei Vokalen wird ein «-t-» eingeschoben.",
+    "fehler": [
+     {
+      "antwort": "Travaille-il le samedi ?",
+      "diagnoseId": "bindelaut",
+      "feedback": "Zwischen «travaille» und «il» braucht es ein «-t-»."
+     },
+     {
+      "antwort": "Il travaille-t-il le samedi ?",
+      "diagnoseId": "doppelt",
+      "feedback": "Das Pronomen steht doppelt im Satz. Richtig ist «Travaille-t-il le samedi ?»."
+     },
+     {
+      "antwort": "Travaille t'il le samedi ?",
+      "diagnoseId": "schreibung",
+      "feedback": "Geschrieben wird «-t-» mit zwei Bindestrichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Fragewort passt?\n\n______ est-ce que tu rentres ? — À six heures.",
+    "optionen": [
+     "Quand",
+     "Où",
+     "Pourquoi",
+     "Comment"
+    ],
+    "loesung": [
+     "Quand"
+    ],
+    "erklaerung": "Die Antwort nennt eine Uhrzeit; gefragt ist nach dem Zeitpunkt.",
+    "fehler": [
+     {
+      "antwort": "Où",
+      "diagnoseId": "fragewort",
+      "feedback": "«Où» fragt nach dem Ort. Richtig ist «Quand»."
+     },
+     {
+      "antwort": "Pourquoi",
+      "diagnoseId": "fragewort",
+      "feedback": "«Pourquoi» fragt nach dem Grund. Richtig ist «Quand»."
+     },
+     {
+      "antwort": "Comment",
+      "diagnoseId": "fragewort",
+      "feedback": "«Comment» fragt nach der Art und Weise. Richtig ist «Quand»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJe vois Marc. → Je ______ vois.",
+    "optionen": [
+     "le",
+     "lui",
+     "y",
+     "en"
+    ],
+    "loesung": [
+     "le"
+    ],
+    "erklaerung": "«Marc» ist ein direktes Objekt in der männlichen Einzahl.",
+    "fehler": [
+     {
+      "antwort": "lui",
+      "diagnoseId": "form",
+      "feedback": "«lui» ersetzt ein indirektes Objekt mit «à»."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt eine Ortsangabe. Richtig ist «le»."
+     },
+     {
+      "antwort": "en",
+      "diagnoseId": "form",
+      "feedback": "«en» ersetzt Angaben mit «de». Richtig ist «le»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJ'écris à mes grands-parents. → Je ______ écris.",
+    "optionen": [
+     "leur",
+     "les",
+     "y",
+     "en"
+    ],
+    "loesung": [
+     "leur"
+    ],
+    "erklaerung": "«écrire à quelqu'un» verlangt ein indirektes Objekt; in der Mehrzahl steht «leur».",
+    "fehler": [
+     {
+      "antwort": "les",
+      "diagnoseId": "form",
+      "feedback": "«les» ersetzt ein direktes Objekt ohne «à»."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt Ortsangaben, nicht Personen."
+     },
+     {
+      "antwort": "en",
+      "diagnoseId": "form",
+      "feedback": "«en» ersetzt Angaben mit «de». Richtig ist «leur»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht das Objektpronomen?\n\nJe ne le connais pas. / Je ne connais le pas.",
+    "optionen": [
+     "Je ne le connais pas.",
+     "Je ne connais le pas.",
+     "Je le ne connais pas.",
+     "Ne je le connais pas."
+    ],
+    "loesung": [
+     "Je ne le connais pas."
+    ],
+    "erklaerung": "Das Objektpronomen steht zwischen «ne» und dem gebeugten Verb.",
+    "fehler": [
+     {
+      "antwort": "Je ne connais le pas.",
+      "diagnoseId": "wortstellung",
+      "feedback": "Das Pronomen steht vor dem Verb. Richtig ist «Je ne le connais pas.»."
+     },
+     {
+      "antwort": "Je le ne connais pas.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«ne» steht vor dem Pronomen. Richtig ist «Je ne le connais pas.»."
+     },
+     {
+      "antwort": "Ne je le connais pas.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«ne» steht nicht am Satzanfang. Richtig ist «Je ne le connais pas.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Bindewort passt?\n\nIl est resté à la maison ______ il était malade.",
+    "optionen": [
+     "parce qu'",
+     "pour qu'",
+     "bien qu'",
+     "afin d'"
+    ],
+    "loesung": [
+     "parce qu'"
+    ],
+    "erklaerung": "«parce que» nennt den Grund; vor einem Vokal wird daraus «parce qu'».",
+    "fehler": [
+     {
+      "antwort": "pour qu'",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«pour que» nennte eine Absicht und verlangt den Subjonctif."
+     },
+     {
+      "antwort": "bien qu'",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«bien que» nennte einen Gegensatz. Richtig ist «parce qu'»."
+     },
+     {
+      "antwort": "afin d'",
+      "diagnoseId": "form",
+      "feedback": "«afin de» steht vor einer Grundform, nicht vor einem Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Bindewort passt?\n\nJe t'appelle ______ tu arrives à la gare.",
+    "optionen": [
+     "quand",
+     "donc",
+     "mais",
+     "car"
+    ],
+    "loesung": [
+     "quand"
+    ],
+    "erklaerung": "«quand» nennt den Zeitpunkt.",
+    "fehler": [
+     {
+      "antwort": "donc",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«donc» leitete eine Folge ein. Richtig ist «quand»."
+     },
+     {
+      "antwort": "mais",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«mais» nennte einen Gegensatz. Richtig ist «quand»."
+     },
+     {
+      "antwort": "car",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«car» nennte einen Grund. Richtig ist «quand»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig gebaut?",
+    "optionen": [
+     "Elle a acheté un livre qui coûte trente francs.",
+     "Elle a acheté un livre que coûte trente francs.",
+     "Elle a acheté un livre qu'il coûte trente francs.",
+     "Elle a acheté un livre coûte trente francs."
+    ],
+    "loesung": [
+     "Elle a acheté un livre qui coûte trente francs."
+    ],
+    "erklaerung": "«qui» ersetzt das Subjekt des Nebensatzes.",
+    "fehler": [
+     {
+      "antwort": "Elle a acheté un livre que coûte trente francs.",
+      "diagnoseId": "relativpronomen",
+      "feedback": "«que» ersetzt ein Objekt; hier fehlt das Subjekt."
+     },
+     {
+      "antwort": "Elle a acheté un livre qu'il coûte trente francs.",
+      "diagnoseId": "doppelt",
+      "feedback": "Subjekt und Relativpronomen stehen doppelt."
+     },
+     {
+      "antwort": "Elle a acheté un livre coûte trente francs.",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das Relativpronomen fehlt ganz. Richtig ist «Elle a acheté un livre qui coûte trente francs.»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Französischprüfungen 2022-2024 sowie die Prüfungseckwerte Französisch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Verneinung, Fragen, Pronomen und Satzverbindung",
+  "status": "review"
+ }
+]

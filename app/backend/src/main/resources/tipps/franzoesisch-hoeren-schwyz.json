@@ -1,0 +1,167 @@
+{
+ "bereich": "franzoesisch-hoeren-sz",
+ "titel": "Compréhension orale",
+ "eyebrow": "Erster Teil der Französischprüfung",
+ "einleitung": "Du hörst zwei Aufnahmen und beantwortest Fragen dazu. Jede läuft zweimal, mit drei Minuten Pause dazwischen. Zwanzig von 97 Punkten hängen daran. Die Aufnahmen kann dir diese App nicht vorspielen; was sie dir geben kann, ist das Verfahren und der Wortschatz, an dem die Punkte hängen.",
+ "grundlage": "Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen, Prüfungsteil «Compréhension orale»: 20 von 97 Punkten.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Fragen lesen",
+   "dauer": "vor dem ersten Durchgang",
+   "text": "Lies alle Fragen, bevor die Aufnahme startet. Sie stehen in der Reihenfolge, in der die Antworten kommen."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "",
+   "text": "Nur zuhören. Notiere ausschliesslich Zahlen, Uhrzeiten und Namen."
+  },
+  {
+   "nr": 3,
+   "titel": "Drei Minuten Pause",
+   "dauer": "drei Minuten",
+   "text": "Aufschreiben, was sicher ist, und die offenen Fragen markieren."
+  },
+  {
+   "nr": 4,
+   "titel": "Zweiter Durchgang",
+   "dauer": "",
+   "text": "Gezielt die markierten Lücken schliessen."
+  },
+  {
+   "nr": 5,
+   "titel": "Danach",
+   "dauer": "",
+   "text": "Stichworte ausformulieren und prüfen, ob wirklich beantwortet ist, was gefragt war."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Fragen sind der Fahrplan",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Où», «quand» und «combien» verlangen verschiedene Sorten Antwort. Wer das vorher weiss, hört gezielt."
+    },
+    {
+     "regel": "Steht in der Frage eine Zahl, liefere auch so viele Angaben.",
+     "warum": "«Que devez-vous apporter ? (2 choses)» gibt zwei Punkte; eine einzige Angabe gibt in der Regel keinen."
+    },
+    {
+     "regel": "Prüfe, in welcher Sprache geantwortet werden soll.",
+     "warum": "Beim ersten Dokument ist Deutsch erlaubt, beim zweiten wird Französisch verlangt. Wer das übersieht, verliert Punkte für richtige Inhalte."
+    }
+   ]
+  },
+  {
+   "titel": "Zahlen und Uhrzeiten kosten die meisten Punkte",
+   "tipps": [
+    {
+     "regel": "Schreib Zahlen sofort als Ziffern.",
+     "warum": "«Quatre-vingt-dix-sept» ist im Kopf schon halb verloren, «97» nicht."
+    },
+    {
+     "regel": "Übe 70 bis 99, bis es ohne Nachdenken geht.",
+     "warum": "Soixante-dix, quatre-vingts, quatre-vingt-dix — an diesen drei Zahlen scheitern Preise und Zeiten am häufigsten."
+    },
+    {
+     "regel": "Achte bei Uhrzeiten auf «et quart», «et demie» und «moins le quart».",
+     "warum": "«Sept heures moins le quart» ist Viertel vor sieben, nicht Viertel nach."
+    }
+   ]
+  },
+  {
+   "titel": "Was sich üben lässt",
+   "tipps": [
+    {
+     "regel": "Sprich den Wortschatz laut mit.",
+     "warum": "Wer ein Wort nur gelesen hat, erkennt es beim Hören nicht wieder."
+    },
+    {
+     "regel": "Achte auf die Verneinung.",
+     "warum": "«Je ne vais pas» und «je vais» unterscheiden sich durch zwei kurze Wörter, die man leicht überhört."
+    },
+    {
+     "regel": "Antworte auch bei Unsicherheit.",
+     "warum": "Für eine falsche Antwort gibt es keinen Abzug, für ein leeres Feld sicher keinen Punkt."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Fragewörter und was sie verlangen",
+   "saetze": [
+    "Qui ? Eine Person",
+    "Où ? Ein Ort",
+    "Quand ? Eine Zeit",
+    "Combien ? Eine Zahl",
+    "Pourquoi ? Ein Grund",
+    "Comment ? Eine Art und Weise",
+    "Qu'est-ce que ? Eine Sache"
+   ]
+  },
+  {
+   "zweck": "Zahlen, die man verwechselt",
+   "saetze": [
+    "soixante. 60 · soixante-dix. 70",
+    "quatre-vingts. 80 · quatre-vingt-dix. 90",
+    "quatre-vingt-treize. 93, nicht 83",
+    "deux cents. 200 · deux cent trois. 203"
+   ]
+  },
+  {
+   "zweck": "Verabredung und Uhrzeit",
+   "saetze": [
+    "à sept heures et quart. um Viertel nach sieben",
+    "à sept heures et demie. um halb acht",
+    "à huit heures moins le quart. um Viertel vor acht",
+    "on se retrouve devant … wir treffen uns vor …",
+    "apporte … bring … mit"
+   ]
+  },
+  {
+   "zweck": "Verneinungen",
+   "saetze": [
+    "ne … pas. nicht",
+    "ne … jamais. nie",
+    "ne … plus. nicht mehr",
+    "ne … rien. nichts",
+    "personne ne … niemand"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.01",
+   "name": "Verben im présent",
+   "warum": "Wer die Personalformen sicher erkennt, weiss beim Hören, wer handelt."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.02",
+   "name": "Passé composé mit avoir und être",
+   "warum": "In den Aufnahmen wird erzählt, was geschehen ist; die Vergangenheitsformen ordnen die Ereignisse."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.07",
+   "name": "Verneinung",
+   "warum": "Ein überhörtes «ne … pas» dreht die ganze Antwort um."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "2.08",
+   "name": "Wortschatz: Alltag, Schule, Freizeit",
+   "warum": "Die Aufnahmen spielen im Alltag Jugendlicher; der Grundwortschatz trägt das Verständnis."
+  },
+  {
+   "bereich": "franzoesisch-sz",
+   "unterthema": "1.03",
+   "name": "Richtig oder falsch mit Beleg",
+   "warum": "Dieselbe Denkfalle wie im Hörteil: Was plausibel klingt, muss noch lange nicht gesagt worden sein."
+  }
+ ]
+}

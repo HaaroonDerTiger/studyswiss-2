@@ -1,0 +1,4306 @@
+[
+ {
+  "templateId": "tg-spr-wortschatz",
+  "lernzielId": "DSTG.1.01",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Wortfamilien zählt der gemeinsame Wortstamm, nicht der ähnliche Klang.",
+   "Ein Morphem ist der kleinste Baustein mit eigener Bedeutung.",
+   "Für ein blasses Verb wie «machen» gibt es fast immer ein genaueres."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Bausteine zerlegen.",
+   "Den Stamm suchen: Was bleibt ohne Vor- und Nachsilben übrig?",
+   "Bei Synonymen den ganzen Satz einsetzen und mitlesen.",
+   "Prüfen, ob die Antwort auch grammatisch passt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort gehört NICHT zur Wortfamilie von «fahren»?",
+    "optionen": [
+     "Fähre",
+     "Fahrt",
+     "erfahren",
+     "Gefährt"
+    ],
+    "loesung": [
+     "Fähre"
+    ],
+    "erklaerung": "«Fähre» hat einen eigenen Ursprung und gehört trotz des ähnlichen Klangs nicht zur Wortfamilie. Fahrt, erfahren und Gefährt teilen den Stamm «fahr».",
+    "fehler": [
+     {
+      "antwort": "Fahrt",
+      "diagnoseId": "stamm_klar",
+      "feedback": "«Fahrt» enthält den Stamm «fahr» unverändert und gehört damit zur Familie."
+     },
+     {
+      "antwort": "erfahren",
+      "diagnoseId": "vorsilbe",
+      "feedback": "Die Vorsilbe «er-» ändert die Bedeutung, aber nicht die Familie: Der Stamm «fahr» bleibt."
+     },
+     {
+      "antwort": "Gefährt",
+      "diagnoseId": "umlaut",
+      "feedback": "Der Umlaut verändert den Stamm nur lautlich. «Gefährt» gehört zur Familie."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist KEIN Synonym von «anstrengend»?",
+    "optionen": [
+     "abwechslungsreich",
+     "mühsam",
+     "kräftezehrend",
+     "beschwerlich"
+    ],
+    "loesung": [
+     "abwechslungsreich"
+    ],
+    "erklaerung": "«Abwechslungsreich» sagt etwas über die Vielfalt, nicht über den Aufwand. Die anderen drei meinen alle: Es kostet Kraft.",
+    "fehler": [
+     {
+      "antwort": "mühsam",
+      "diagnoseId": "synonym",
+      "feedback": "«Mühsam» beschreibt genau das: Es braucht Mühe und Kraft."
+     },
+     {
+      "antwort": "kräftezehrend",
+      "diagnoseId": "synonym_zwei",
+      "feedback": "Das Wort sagt es sogar wörtlich: Es zehrt an den Kräften."
+     },
+     {
+      "antwort": "beschwerlich",
+      "diagnoseId": "synonym_drei",
+      "feedback": "«Beschwerlich» meint ebenfalls, dass etwas Anstrengung kostet."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege «unaufmerksam» in seine Morpheme.",
+    "optionen": [
+     "un-auf-merk-sam",
+     "una-uf-merksam",
+     "unauf-merksam",
+     "un-aufmerksam"
+    ],
+    "loesung": [
+     "un-auf-merk-sam"
+    ],
+    "erklaerung": "«un-» verneint, «auf-» ist eine Vorsilbe, «merk» ist der Stamm, «-sam» macht daraus ein Adjektiv.",
+    "fehler": [
+     {
+      "antwort": "una-uf-merksam",
+      "diagnoseId": "willkuerlich",
+      "feedback": "So zerlegt entstehen Teile ohne eigene Bedeutung. Ein Morphem trägt immer eine Bedeutung."
+     },
+     {
+      "antwort": "unauf-merksam",
+      "diagnoseId": "zu_grob",
+      "feedback": "«unauf» ist kein Baustein. Verneinung und Vorsilbe sind zwei verschiedene Morpheme."
+     },
+     {
+      "antwort": "un-aufmerksam",
+      "diagnoseId": "zu_grob_zwei",
+      "feedback": "Das ist erst der erste Schnitt. «Aufmerksam» lässt sich weiter zerlegen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist das Vormorphem in «missverstehen»?",
+    "optionen": [
+     "miss-",
+     "ver-",
+     "steh",
+     "-en"
+    ],
+    "loesung": [
+     "miss-"
+    ],
+    "erklaerung": "«miss-» steht am Anfang und dreht die Bedeutung ins Falsche. «ver-» ist ein zweites Vormorphem, aber nicht das erste.",
+    "fehler": [
+     {
+      "antwort": "ver-",
+      "diagnoseId": "zweites_vormorphem",
+      "feedback": "«ver-» ist ebenfalls ein Vormorphem, steht aber nicht am Anfang. Gefragt ist das erste."
+     },
+     {
+      "antwort": "steh",
+      "diagnoseId": "stamm",
+      "feedback": "«steh» ist der Wortstamm — der Teil, der die Grundbedeutung trägt."
+     },
+     {
+      "antwort": "-en",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-en» steht am Schluss und ist die Endung des Infinitivs."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde ein Nomen aus «entscheiden» mit dem passenden Artikel.",
+    "optionen": [
+     "die Entscheidung",
+     "das Entscheiden",
+     "der Entscheider",
+     "die Entscheide"
+    ],
+    "loesung": [
+     "die Entscheidung"
+    ],
+    "erklaerung": "«Die Entscheidung» ist das übliche Nomen zum Verb. Es benennt die Sache, nicht die Person.",
+    "fehler": [
+     {
+      "antwort": "das Entscheiden",
+      "diagnoseId": "nominalisiert",
+      "feedback": "Das ist der nominalisierte Infinitiv. Er ist möglich, aber das gesuchte Nomen lautet «die Entscheidung»."
+     },
+     {
+      "antwort": "der Entscheider",
+      "diagnoseId": "person",
+      "feedback": "Gefragt war nicht die Person, die entscheidet, sondern die Sache selbst."
+     },
+     {
+      "antwort": "die Entscheide",
+      "diagnoseId": "plural",
+      "feedback": "Das ist eine Mehrzahlform. Verlangt ist die Einzahl mit Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches verstärkte Adjektiv ist richtig gebildet?",
+    "optionen": [
+     "steinhart",
+     "hartstein",
+     "steinlich hart",
+     "sehrhart"
+    ],
+    "loesung": [
+     "steinhart"
+    ],
+    "erklaerung": "Das verstärkende Nomen steht vorn: Stein + hart ergibt steinhart, wie kerngesund oder blitzschnell.",
+    "fehler": [
+     {
+      "antwort": "hartstein",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Die Reihenfolge stimmt nicht: Das verstärkende Nomen steht vorn, das Adjektiv hinten."
+     },
+     {
+      "antwort": "steinlich hart",
+      "diagnoseId": "erfundene_endung",
+      "feedback": "«steinlich» gibt es nicht. Das Nomen wird direkt angehängt."
+     },
+     {
+      "antwort": "sehrhart",
+      "diagnoseId": "kein_nomen",
+      "feedback": "«Sehr» ist kein Nomen. Verlangt ist eine Verstärkung durch ein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Ersetze «machen»:\n\nWir ______ einen Plan für die Reise.",
+    "optionen": [
+     "erstellen",
+     "gedeihen",
+     "befassen",
+     "erzeugen"
+    ],
+    "loesung": [
+     "erstellen"
+    ],
+    "erklaerung": "Einen Plan erstellt man. «Erzeugen» passt zu Waren oder Strom, nicht zu einem Plan.",
+    "fehler": [
+     {
+      "antwort": "gedeihen",
+      "diagnoseId": "falsches_verb",
+      "feedback": "«Gedeihen» heisst wachsen und braucht kein Objekt. Ein Plan gedeiht nicht."
+     },
+     {
+      "antwort": "befassen",
+      "diagnoseId": "reflexiv",
+      "feedback": "«Sich befassen mit» braucht ein «sich» und eine Präposition."
+     },
+     {
+      "antwort": "erzeugen",
+      "diagnoseId": "zu_technisch",
+      "feedback": "«Erzeugen» passt zu Strom, Wärme oder Waren, nicht zu einem Plan."
+     }
+    ]
+   },
+   {
+    "stamm": "Ersetze «machen»:\n\nSie ______ das Abendessen für alle.",
+    "optionen": [
+     "bereitet zu",
+     "erledigt",
+     "unternimmt",
+     "trifft"
+    ],
+    "loesung": [
+     "bereitet zu"
+    ],
+    "erklaerung": "Ein Essen bereitet man zu. Die anderen Verben gehören zu Aufgaben, Unternehmungen oder Vereinbarungen.",
+    "fehler": [
+     {
+      "antwort": "erledigt",
+      "diagnoseId": "aufgabe",
+      "feedback": "«Erledigen» passt zu Aufgaben und Pflichten, etwa zu den Hausaufgaben."
+     },
+     {
+      "antwort": "unternimmt",
+      "diagnoseId": "ausflug",
+      "feedback": "«Unternehmen» passt zu einem Ausflug oder einem Versuch."
+     },
+     {
+      "antwort": "trifft",
+      "diagnoseId": "vereinbarung",
+      "feedback": "«Treffen» passt zu einer Abmachung oder einer Wahl: eine Entscheidung treffen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort verknüpft die beiden Sätze am besten?\n\nEs regnete stark. ______ blieb der Anlass draussen.",
+    "optionen": [
+     "Trotzdem",
+     "Deshalb",
+     "Danach",
+     "Ausserdem"
+    ],
+    "loesung": [
+     "Trotzdem"
+    ],
+    "erklaerung": "Zwischen den Sätzen steht ein Gegensatz: Man erwartete eine Absage, es blieb aber draussen. Das leistet «trotzdem».",
+    "fehler": [
+     {
+      "antwort": "Deshalb",
+      "diagnoseId": "folge",
+      "feedback": "«Deshalb» nennt eine Folge. Starker Regen wäre aber kein Grund, draussen zu bleiben."
+     },
+     {
+      "antwort": "Danach",
+      "diagnoseId": "zeit",
+      "feedback": "«Danach» ordnet zeitlich ein und zeigt keinen Zusammenhang der Sache."
+     },
+     {
+      "antwort": "Ausserdem",
+      "diagnoseId": "ergaenzung",
+      "feedback": "«Ausserdem» fügt etwas hinzu, statt einen Gegensatz zu markieren."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet die Redewendung «jemandem reinen Wein einschenken»?",
+    "optionen": [
+     "jemandem die unangenehme Wahrheit sagen",
+     "jemanden grosszügig bewirten",
+     "jemandem verzeihen",
+     "jemanden zum Feiern einladen"
+    ],
+    "loesung": [
+     "jemandem die unangenehme Wahrheit sagen"
+    ],
+    "erklaerung": "Die Wendung meint: offen sagen, wie es wirklich steht — auch wenn es unangenehm ist.",
+    "fehler": [
+     {
+      "antwort": "jemanden grosszügig bewirten",
+      "diagnoseId": "woertlich",
+      "feedback": "Wörtlich genommen ginge es ums Einschenken. Redewendungen sind aber bildhaft gemeint."
+     },
+     {
+      "antwort": "jemandem verzeihen",
+      "diagnoseId": "erfunden",
+      "feedback": "Mit Verzeihen hat die Wendung nichts zu tun."
+     },
+     {
+      "antwort": "jemanden zum Feiern einladen",
+      "diagnoseId": "woertlich_zwei",
+      "feedback": "Auch das nimmt das Bild wörtlich. Gemeint ist die Wahrheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «etwas auf die lange Bank schieben»?",
+    "optionen": [
+     "etwas immer wieder aufschieben",
+     "etwas gemeinsam entscheiden",
+     "etwas in Ruhe erklären",
+     "etwas günstig verkaufen"
+    ],
+    "loesung": [
+     "etwas immer wieder aufschieben"
+    ],
+    "erklaerung": "Die Wendung stammt aus alten Gerichtssälen: Akten wurden auf eine lange Bank gelegt und blieben liegen.",
+    "fehler": [
+     {
+      "antwort": "etwas gemeinsam entscheiden",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer gemeinsamen Entscheidung ist nicht die Rede."
+     },
+     {
+      "antwort": "etwas in Ruhe erklären",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Die Wendung sagt nichts über Erklärungen."
+     },
+     {
+      "antwort": "etwas günstig verkaufen",
+      "diagnoseId": "erfunden_drei",
+      "feedback": "Mit Handel hat sie nichts zu tun; gemeint ist das Aufschieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt in die Wortfamilie «schreiben»?",
+    "optionen": [
+     "Vorschrift",
+     "Schreiner",
+     "Schrei",
+     "Schritt"
+    ],
+    "loesung": [
+     "Vorschrift"
+    ],
+    "erklaerung": "«Vorschrift» enthält den Stamm «schrift», der zu «schreiben» gehört. Die anderen klingen nur ähnlich.",
+    "fehler": [
+     {
+      "antwort": "Schreiner",
+      "diagnoseId": "aehnlicher_klang",
+      "feedback": "Ein Schreiner arbeitet mit Holz. Das Wort hat einen anderen Stamm."
+     },
+     {
+      "antwort": "Schrei",
+      "diagnoseId": "aehnlicher_klang_zwei",
+      "feedback": "«Schrei» gehört zu «schreien», nicht zu «schreiben»."
+     },
+     {
+      "antwort": "Schritt",
+      "diagnoseId": "aehnlicher_klang_drei",
+      "feedback": "«Schritt» gehört zu «schreiten» — ein anderer Stamm, trotz ähnlichem Klang."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortfamilien, Wortfelder und Morpheme zerlegen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-morpheme",
+  "lernzielId": "DSTG.1.04",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "1.04",
+   "1.05",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Das Stammmorphem trägt die Bedeutung; Vor- und Nachmorpheme verändern sie.",
+   "Aus Verben und Adjektiven werden Nomen mit «-ung», «-heit», «-keit», «-nis».",
+   "Eine verstärkende Zusammensetzung steigert ein Adjektiv: blitzschnell."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Bausteine zerlegen.",
+   "Das Stammmorphem freilegen.",
+   "Die Wirkung des Vor- oder Nachmorphems bestimmen.",
+   "Das neue Wort laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches ist das Stammmorphem von «unverständlich»?",
+    "optionen": [
+     "-ständ-",
+     "un-",
+     "-lich",
+     "ver-"
+    ],
+    "loesung": [
+     "-ständ-"
+    ],
+    "erklaerung": "«-ständ-» trägt die Bedeutung; «un-» und «ver-» sind Vormorpheme, «-lich» ein Nachmorphem.",
+    "fehler": [
+     {
+      "antwort": "un-",
+      "diagnoseId": "vormorphem",
+      "feedback": "«un-» verneint und ist ein Vormorphem. Richtig ist «-ständ-»."
+     },
+     {
+      "antwort": "-lich",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-lich» steht am Schluss und bildet ein Adjektiv."
+     },
+     {
+      "antwort": "ver-",
+      "diagnoseId": "vormorphem",
+      "feedback": "«ver-» ist ebenfalls ein Vormorphem. Richtig ist «-ständ-»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches ist das Vormorphem in «missverstehen»?",
+    "optionen": [
+     "miss-",
+     "-ver-",
+     "-steh-",
+     "-en"
+    ],
+    "loesung": [
+     "miss-"
+    ],
+    "erklaerung": "«miss-» steht vorn und kehrt die Bedeutung ins Fehlerhafte.",
+    "fehler": [
+     {
+      "antwort": "-ver-",
+      "diagnoseId": "stellung",
+      "feedback": "«ver-» ist zwar ein Vormorphem, steht hier aber an zweiter Stelle."
+     },
+     {
+      "antwort": "-steh-",
+      "diagnoseId": "stamm",
+      "feedback": "«-steh-» ist das Stammmorphem. Richtig ist «miss-»."
+     },
+     {
+      "antwort": "-en",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-en» ist die Endung der Grundform. Richtig ist «miss-»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nachmorphem bildet aus «freundlich» ein Nomen?",
+    "optionen": [
+     "-keit",
+     "-ung",
+     "-nis",
+     "-ig"
+    ],
+    "loesung": [
+     "-keit"
+    ],
+    "erklaerung": "Adjektive auf «-lich» und «-ig» bilden Nomen auf «-keit»: Freundlichkeit.",
+    "fehler": [
+     {
+      "antwort": "-ung",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-ung» steht bei Verben: die Prüfung. Richtig ist «-keit»."
+     },
+     {
+      "antwort": "-nis",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-nis» ergäbe kein gebräuchliches Wort. Richtig ist «-keit»."
+     },
+     {
+      "antwort": "-ig",
+      "diagnoseId": "wortart",
+      "feedback": "«-ig» bildet Adjektive, keine Nomen. Richtig ist «-keit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nachmorphem bildet aus «verbessern» ein Nomen?",
+    "optionen": [
+     "-ung",
+     "-heit",
+     "-keit",
+     "-nis"
+    ],
+    "loesung": [
+     "-ung"
+    ],
+    "erklaerung": "Verben bilden Nomen häufig auf «-ung»: die Verbesserung.",
+    "fehler": [
+     {
+      "antwort": "-heit",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-heit» steht bei Adjektiven: die Schönheit."
+     },
+     {
+      "antwort": "-keit",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-keit» steht bei Adjektiven auf «-lich» oder «-ig»."
+     },
+     {
+      "antwort": "-nis",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-nis» ergäbe hier kein gebräuchliches Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nachmorphem bildet aus «dunkel» ein Nomen?",
+    "optionen": [
+     "-heit",
+     "-ung",
+     "-keit",
+     "-schaft"
+    ],
+    "loesung": [
+     "-heit"
+    ],
+    "erklaerung": "Einfache Adjektive bilden Nomen auf «-heit»: die Dunkelheit.",
+    "fehler": [
+     {
+      "antwort": "-ung",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-ung» steht bei Verben. Richtig ist «-heit»."
+     },
+     {
+      "antwort": "-keit",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-keit» steht bei Adjektiven auf «-lich» oder «-ig»."
+     },
+     {
+      "antwort": "-schaft",
+      "diagnoseId": "nachmorphem",
+      "feedback": "«-schaft» bezeichnet meist eine Gemeinschaft."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nomen gehört zu «erkennen»?",
+    "optionen": [
+     "die Erkenntnis",
+     "die Erkennung",
+     "die Erkennheit",
+     "das Erkennnis"
+    ],
+    "loesung": [
+     "die Erkenntnis"
+    ],
+    "erklaerung": "«erkennen» bildet das Nomen «die Erkenntnis».",
+    "fehler": [
+     {
+      "antwort": "die Erkennung",
+      "diagnoseId": "gebrauch",
+      "feedback": "«Erkennung» gibt es nur in technischen Zusammensetzungen."
+     },
+     {
+      "antwort": "die Erkennheit",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung gibt es nicht. Richtig ist «die Erkenntnis»."
+     },
+     {
+      "antwort": "das Erkennnis",
+      "diagnoseId": "form",
+      "feedback": "Das Wort ist weiblich und schreibt sich «Erkenntnis»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verstärkung ist gebräuchlich?\n\n______ schnell",
+    "optionen": [
+     "blitzschnell",
+     "donnerschnell",
+     "feuerschnell",
+     "steinschnell"
+    ],
+    "loesung": [
+     "blitzschnell"
+    ],
+    "erklaerung": "«blitzschnell» ist die feste verstärkende Zusammensetzung.",
+    "fehler": [
+     {
+      "antwort": "donnerschnell",
+      "diagnoseId": "gebrauch",
+      "feedback": "«donner-» verstärkt anderes, etwa «donnerlaut» in der Mundart."
+     },
+     {
+      "antwort": "feuerschnell",
+      "diagnoseId": "gebrauch",
+      "feedback": "Diese Zusammensetzung ist nicht gebräuchlich."
+     },
+     {
+      "antwort": "steinschnell",
+      "diagnoseId": "gebrauch",
+      "feedback": "«stein-» verstärkt «steinhart» und «steinalt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verstärkung ist gebräuchlich?\n\n______ hart",
+    "optionen": [
+     "steinhart",
+     "blitzhart",
+     "eishart",
+     "windhart"
+    ],
+    "loesung": [
+     "steinhart"
+    ],
+    "erklaerung": "«steinhart» ist die feste verstärkende Zusammensetzung.",
+    "fehler": [
+     {
+      "antwort": "blitzhart",
+      "diagnoseId": "gebrauch",
+      "feedback": "«blitz-» verstärkt «blitzschnell» und «blitzblank»."
+     },
+     {
+      "antwort": "eishart",
+      "diagnoseId": "gebrauch",
+      "feedback": "«eis-» verstärkt «eiskalt». Richtig ist «steinhart»."
+     },
+     {
+      "antwort": "windhart",
+      "diagnoseId": "gebrauch",
+      "feedback": "Diese Zusammensetzung gibt es nicht. Richtig ist «steinhart»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verstärkung ist gebräuchlich?\n\n______ kalt",
+    "optionen": [
+     "eiskalt",
+     "steinkalt",
+     "blitzkalt",
+     "bitterkalt und eiskalt sind falsch"
+    ],
+    "loesung": [
+     "eiskalt"
+    ],
+    "erklaerung": "«eiskalt» ist die feste Zusammensetzung; «bitterkalt» ist ebenfalls gebräuchlich.",
+    "fehler": [
+     {
+      "antwort": "steinkalt",
+      "diagnoseId": "gebrauch",
+      "feedback": "«stein-» verstärkt «steinhart» und «steinalt»."
+     },
+     {
+      "antwort": "blitzkalt",
+      "diagnoseId": "gebrauch",
+      "feedback": "«blitz-» verstärkt «blitzschnell». Richtig ist «eiskalt»."
+     },
+     {
+      "antwort": "bitterkalt und eiskalt sind falsch",
+      "diagnoseId": "gebrauch",
+      "feedback": "Beide sind gebräuchlich; die richtige Wahl ist «eiskalt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Morpheme hat «Unfreundlichkeit»?",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "zwei"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "un- / freund / -lich / -keit — vier Bausteine.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "zerlegung",
+      "feedback": "Auch das Vormorphem «un-» zählt mit. Richtig ist «vier»."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "zerlegung",
+      "feedback": "«freund» ist ein einziges Stammmorphem. Richtig ist «vier»."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zerlegung",
+      "feedback": "Das Wort hat mehr als Stamm und Endung. Richtig ist «vier»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort enthält KEIN Vormorphem?",
+    "optionen": [
+     "Freundschaft",
+     "Verständnis",
+     "Unruhe",
+     "Bearbeitung"
+    ],
+    "loesung": [
+     "Freundschaft"
+    ],
+    "erklaerung": "«Freundschaft» besteht aus Stamm und Nachmorphem; ein Vormorphem fehlt.",
+    "fehler": [
+     {
+      "antwort": "Verständnis",
+      "diagnoseId": "zerlegung",
+      "feedback": "«ver-» ist ein Vormorphem. Richtig ist «Freundschaft»."
+     },
+     {
+      "antwort": "Unruhe",
+      "diagnoseId": "zerlegung",
+      "feedback": "«un-» ist ein Vormorphem. Richtig ist «Freundschaft»."
+     },
+     {
+      "antwort": "Bearbeitung",
+      "diagnoseId": "zerlegung",
+      "feedback": "«be-» ist ein Vormorphem. Richtig ist «Freundschaft»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Nomen gehört zu «erlauben»?",
+    "optionen": [
+     "die Erlaubnis",
+     "die Erlaubung",
+     "die Erlaubheit",
+     "die Erlaubkeit"
+    ],
+    "loesung": [
+     "die Erlaubnis"
+    ],
+    "erklaerung": "«erlauben» bildet das Nomen «die Erlaubnis».",
+    "fehler": [
+     {
+      "antwort": "die Erlaubung",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung ist nicht gebräuchlich. Richtig ist «die Erlaubnis»."
+     },
+     {
+      "antwort": "die Erlaubheit",
+      "diagnoseId": "form",
+      "feedback": "«-heit» steht bei Adjektiven. Richtig ist «die Erlaubnis»."
+     },
+     {
+      "antwort": "die Erlaubkeit",
+      "diagnoseId": "form",
+      "feedback": "«-keit» steht bei Adjektiven auf «-lich» oder «-ig»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Morpheme, Nomenbildung und Verstärkungen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-genau",
+  "lernzielId": "DSTG.1.07",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "1.07",
+   "1.08",
+   "1.09"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein blasses Verb wie «machen» oder «sein» lässt sich fast immer genauer sagen.",
+   "Textverknüpfende Mittel sind Pronomen, Konjunktionen und Wiederaufnahmen.",
+   "Eine Redewendung meint nicht, was die Wörter einzeln sagen."
+  ],
+  "loesungsweg": [
+   "Fragen, was genau geschieht.",
+   "Ein Verb suchen, das die Handlung beschreibt.",
+   "Bei der Verknüpfung prüfen, worauf sich das Wort bezieht.",
+   "Bei einer Redewendung die Gesamtbedeutung suchen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Verb ist genauer?\n\nEr machte eine Suppe.",
+    "optionen": [
+     "kochte",
+     "tat",
+     "hatte",
+     "gab"
+    ],
+    "loesung": [
+     "kochte"
+    ],
+    "erklaerung": "«kochen» sagt, wie die Suppe entsteht; «machen» sagt gar nichts.",
+    "fehler": [
+     {
+      "antwort": "tat",
+      "diagnoseId": "blass",
+      "feedback": "«tun» ist genauso blass wie «machen». Richtig ist «kochte»."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«hatte» beschreibt Besitz, nicht die Zubereitung."
+     },
+     {
+      "antwort": "gab",
+      "diagnoseId": "bedeutung",
+      "feedback": "«gab» beschriebe das Weiterreichen. Richtig ist «kochte»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist genauer?\n\nSie machte die Tür zu.",
+    "optionen": [
+     "schloss",
+     "tat",
+     "setzte",
+     "brachte"
+    ],
+    "loesung": [
+     "schloss"
+    ],
+    "erklaerung": "«schliessen» benennt die Handlung genau.",
+    "fehler": [
+     {
+      "antwort": "tat",
+      "diagnoseId": "blass",
+      "feedback": "«tun» sagt nichts über die Handlung. Richtig ist «schloss»."
+     },
+     {
+      "antwort": "setzte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«setzen» passt nicht zu einer Tür. Richtig ist «schloss»."
+     },
+     {
+      "antwort": "brachte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«bringen» beschriebe einen Transport. Richtig ist «schloss»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist genauer?\n\nDer Hund machte laute Geräusche.",
+    "optionen": [
+     "bellte",
+     "sagte",
+     "zeigte",
+     "hatte"
+    ],
+    "loesung": [
+     "bellte"
+    ],
+    "erklaerung": "«bellen» ist das genaue Verb für dieses Geräusch.",
+    "fehler": [
+     {
+      "antwort": "sagte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«sagen» steht bei Sprache, nicht bei Tierlauten."
+     },
+     {
+      "antwort": "zeigte",
+      "diagnoseId": "bedeutung",
+      "feedback": "«zeigen» beschreibt etwas Sichtbares. Richtig ist «bellte»."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "blass",
+      "feedback": "«haben» beschreibt keinen Vorgang. Richtig ist «bellte»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist genauer?\n\nSie ging schnell über die Wiese.",
+    "optionen": [
+     "rannte",
+     "war",
+     "kam",
+     "machte"
+    ],
+    "loesung": [
+     "rannte"
+    ],
+    "erklaerung": "«rennen» fasst «schnell gehen» in einem genauen Verb.",
+    "fehler": [
+     {
+      "antwort": "war",
+      "diagnoseId": "blass",
+      "feedback": "«sein» beschreibt keine Bewegung. Richtig ist «rannte»."
+     },
+     {
+      "antwort": "kam",
+      "diagnoseId": "bedeutung",
+      "feedback": "«kommen» sagt nichts über das Tempo. Richtig ist «rannte»."
+     },
+     {
+      "antwort": "machte",
+      "diagnoseId": "blass",
+      "feedback": "«machen» ist das blasseste aller Verben."
+     }
+    ]
+   },
+   {
+    "stamm": "Worauf bezieht sich «dort» im zweiten Satz?\n\nMarisa arbeitet in der Bäckerei am Bahnhof. Dort beginnt ihre Schicht um sechs.",
+    "optionen": [
+     "auf die Bäckerei am Bahnhof",
+     "auf Marisa",
+     "auf die Schicht",
+     "auf den Bahnhofplatz"
+    ],
+    "loesung": [
+     "auf die Bäckerei am Bahnhof"
+    ],
+    "erklaerung": "«dort» nimmt eine Ortsangabe wieder auf, hier die Bäckerei.",
+    "fehler": [
+     {
+      "antwort": "auf Marisa",
+      "diagnoseId": "bezug",
+      "feedback": "«dort» bezeichnet einen Ort, keine Person."
+     },
+     {
+      "antwort": "auf die Schicht",
+      "diagnoseId": "bezug",
+      "feedback": "Die Schicht ist keine Ortsangabe. Richtig ist «auf die Bäckerei am Bahnhof»."
+     },
+     {
+      "antwort": "auf den Bahnhofplatz",
+      "diagnoseId": "bezug",
+      "feedback": "Vom Platz ist im Satz nicht die Rede. Richtig ist «auf die Bäckerei am Bahnhof»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort verknüpft die beiden Sätze am besten?\n\nDer Zug hatte Verspätung. ______ kam sie zu spät zur Schicht.",
+    "optionen": [
+     "Deshalb",
+     "Trotzdem",
+     "Zuerst",
+     "Dagegen"
+    ],
+    "loesung": [
+     "Deshalb"
+    ],
+    "erklaerung": "«Deshalb» nennt die Folge der Verspätung.",
+    "fehler": [
+     {
+      "antwort": "Trotzdem",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Trotzdem» nennte einen Gegensatz. Richtig ist «Deshalb»."
+     },
+     {
+      "antwort": "Zuerst",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Zuerst» ordnete eine Reihenfolge. Richtig ist «Deshalb»."
+     },
+     {
+      "antwort": "Dagegen",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Dagegen» stellte zwei Dinge gegenüber. Richtig ist «Deshalb»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort verknüpft die beiden Sätze am besten?\n\nSie war müde. ______ arbeitete sie bis zum Schluss.",
+    "optionen": [
+     "Trotzdem",
+     "Deshalb",
+     "Ausserdem",
+     "Dann"
+    ],
+    "loesung": [
+     "Trotzdem"
+    ],
+    "erklaerung": "«Trotzdem» zeigt, dass die Müdigkeit sie nicht aufhielt.",
+    "fehler": [
+     {
+      "antwort": "Deshalb",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Deshalb» kehrte die Aussage um. Richtig ist «Trotzdem»."
+     },
+     {
+      "antwort": "Ausserdem",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Ausserdem» reihte etwas Zusätzliches an."
+     },
+     {
+      "antwort": "Dann",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Dann» ordnete nur zeitlich. Richtig ist «Trotzdem»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wodurch wird «die Verkäuferin» im zweiten Satz wieder aufgenommen?\n\nDie Verkäuferin packte das Brot ein. Sie gab der Kundin das Wechselgeld.",
+    "optionen": [
+     "durch das Pronomen «sie»",
+     "durch das Wort «Brot»",
+     "durch das Wort «Kundin»",
+     "durch gar nichts"
+    ],
+    "loesung": [
+     "durch das Pronomen «sie»"
+    ],
+    "erklaerung": "Das Personalpronomen «sie» nimmt das Nomen des ersten Satzes wieder auf.",
+    "fehler": [
+     {
+      "antwort": "durch das Wort «Brot»",
+      "diagnoseId": "bezug",
+      "feedback": "«Brot» ist die Ware, nicht die Person. Richtig ist «durch das Pronomen «sie»»."
+     },
+     {
+      "antwort": "durch das Wort «Kundin»",
+      "diagnoseId": "bezug",
+      "feedback": "Die Kundin ist eine andere Person. Richtig ist «durch das Pronomen «sie»»."
+     },
+     {
+      "antwort": "durch gar nichts",
+      "diagnoseId": "bezug",
+      "feedback": "Die Verknüpfung steht im Pronomen «sie»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «jemandem reinen Wein einschenken»?",
+    "optionen": [
+     "jemandem die unangenehme Wahrheit sagen",
+     "jemanden grosszügig bewirten",
+     "jemandem etwas verschweigen",
+     "jemanden zum Feiern einladen"
+    ],
+    "loesung": [
+     "jemandem die unangenehme Wahrheit sagen"
+    ],
+    "erklaerung": "Die Wendung meint, dass man nichts beschönigt.",
+    "fehler": [
+     {
+      "antwort": "jemanden grosszügig bewirten",
+      "diagnoseId": "woertlich",
+      "feedback": "Das wäre die wörtliche Lesart; gemeint ist die Wahrheit."
+     },
+     {
+      "antwort": "jemandem etwas verschweigen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Wendung meint genau das Gegenteil. Richtig ist «jemandem die unangenehme Wahrheit sagen»."
+     },
+     {
+      "antwort": "jemanden zum Feiern einladen",
+      "diagnoseId": "woertlich",
+      "feedback": "Vom Feiern handelt die Wendung nicht. Richtig ist «jemandem die unangenehme Wahrheit sagen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «etwas auf die lange Bank schieben»?",
+    "optionen": [
+     "etwas immer wieder aufschieben",
+     "etwas gemeinsam entscheiden",
+     "etwas sorgfältig prüfen",
+     "etwas laut ankündigen"
+    ],
+    "loesung": [
+     "etwas immer wieder aufschieben"
+    ],
+    "erklaerung": "Die Wendung meint, dass eine Sache liegen bleibt.",
+    "fehler": [
+     {
+      "antwort": "etwas gemeinsam entscheiden",
+      "diagnoseId": "bedeutung",
+      "feedback": "Von einer Entscheidung handelt die Wendung nicht."
+     },
+     {
+      "antwort": "etwas sorgfältig prüfen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Sorgfalt ist nicht gemeint, sondern Verzögerung."
+     },
+     {
+      "antwort": "etwas laut ankündigen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Die Wendung sagt nichts über Ankündigungen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «die Fäden in der Hand halten»?",
+    "optionen": [
+     "eine Sache lenken und überblicken",
+     "handwerklich geschickt sein",
+     "gerade nichts zu tun haben",
+     "nervös sein"
+    ],
+    "loesung": [
+     "eine Sache lenken und überblicken"
+    ],
+    "erklaerung": "Wer die Fäden hält, steuert das Ganze.",
+    "fehler": [
+     {
+      "antwort": "handwerklich geschickt sein",
+      "diagnoseId": "woertlich",
+      "feedback": "Das wäre die wörtliche Lesart. Richtig ist «eine Sache lenken und überblicken»."
+     },
+     {
+      "antwort": "gerade nichts zu tun haben",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Wendung meint das Gegenteil von Untätigkeit."
+     },
+     {
+      "antwort": "nervös sein",
+      "diagnoseId": "bedeutung",
+      "feedback": "Von Nervosität handelt die Wendung nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wendung passt?\n\nSie liess sich von der Bemerkung nicht ______ .",
+    "optionen": [
+     "aus der Ruhe bringen",
+     "ins Wasser fallen",
+     "über den Berg helfen",
+     "den Kopf waschen"
+    ],
+    "loesung": [
+     "aus der Ruhe bringen"
+    ],
+    "erklaerung": "«sich nicht aus der Ruhe bringen lassen» heisst gelassen bleiben.",
+    "fehler": [
+     {
+      "antwort": "ins Wasser fallen",
+      "diagnoseId": "bedeutung",
+      "feedback": "«ins Wasser fallen» sagt man von einem Anlass, der ausfällt."
+     },
+     {
+      "antwort": "über den Berg helfen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Diese Wendung meint Unterstützung in einer Notlage."
+     },
+     {
+      "antwort": "den Kopf waschen",
+      "diagnoseId": "bedeutung",
+      "feedback": "«den Kopf waschen» heisst jemanden zurechtweisen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Genaue Verben, Textverknüpfung und Redewendungen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-wortarten",
+  "lernzielId": "DSTG.2.01",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Im Thurgau wird nach fünf Wortarten unterschieden: Nomen, Verb, Adjektiv, Pronomen — und alles Übrige ist Partikel.",
+   "Ein Wort, das für ein Nomen einspringt, ist ein Pronomen.",
+   "Artikel, Präpositionen und Konjunktionen zählen zu den Partikeln."
+  ],
+  "loesungsweg": [
+   "Das Wort im Satz betrachten, nicht allein.",
+   "Fragen: Lässt es sich beugen? Steht ein Artikel davor?",
+   "Prüfen, ob es für ein Nomen einspringt — dann ist es ein Pronomen.",
+   "Alles, was keiner der vier Klassen angehört, ist Partikel."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 1)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Bäckerei» steht mit Artikel und ist ein Nomen; «öffnete» ist die Personalform eines Verbs; «früh» beschreibt und ist ein Adjektiv; «sie» springt für ein Nomen ein.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Bäckerei",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "öffnete",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "früh",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "sie",
+      "loesung": [
+       "Pronomen"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 2)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«und» verbindet und ist ein Partikel; «Ofen» ist ein Nomen; «heiss» beschreibt; «wurde» ist eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "und",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "Ofen",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "heiss",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "wurde",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 3)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«ihn» steht für ein Nomen; «gestern» ist ein Partikel; «Kundschaft» ein Nomen; «freundlich» ein Adjektiv.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "ihn",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "gestern",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "Kundschaft",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "freundlich",
+      "loesung": [
+       "Adjektiv"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 4)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«unter» ist eine Präposition und damit ein Partikel; «arbeiten» ein Verb; «welche» ein Pronomen; «Schicht» ein Nomen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "unter",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "arbeiten",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "welche",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Schicht",
+      "loesung": [
+       "Nomen"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 5)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«müde» beschreibt; «wir» springt für Namen ein; «Regal» ist ein Nomen; «räumte» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "müde",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "wir",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Regal",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "räumte",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 6)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«weil» leitet einen Nebensatz ein und ist ein Partikel; «Kasse» ein Nomen; «leer» ein Adjektiv; «blieb» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "weil",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "Kasse",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "leer",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "blieb",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 7)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«dieser» begleitet ein Nomen und ist ein Pronomen; «Morgen» ein Nomen; «kalt» ein Adjektiv; «schien» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "dieser",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Morgen",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "kalt",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "schien",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 8)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«sehr» verstärkt und ist ein Partikel; «geduldig» ein Adjektiv; «Frau» ein Nomen; «wartete» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "sehr",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "geduldig",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "Frau",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "wartete",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 9)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«mein» begleitet ein Nomen und ist ein Pronomen; «Znüni» ein Nomen; «fehlt» eine Verbform; «heute» ein Partikel.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "mein",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Znüni",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "fehlt",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "heute",
+      "loesung": [
+       "Partikel"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 10)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«nach» ist eine Präposition, also ein Partikel; «Pause» ein Nomen; «ruhig» ein Adjektiv; «wurde» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "nach",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "Pause",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "ruhig",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "wurde",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 11)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«niemand» ersetzt ein Nomen; «Antwort» ist ein Nomen; «laut» ein Adjektiv; «rief» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "niemand",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Antwort",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "laut",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "rief",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Gruppe 12)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«oder» verbindet und ist ein Partikel; «Gipfeli» ein Nomen; «frisch» ein Adjektiv; «schmeckt» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "oder",
+      "loesung": [
+       "Partikel"
+      ]
+     },
+     {
+      "text": "Gipfeli",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "frisch",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "schmeckt",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "Nomen",
+   "Verb",
+   "Adjektiv",
+   "Pronomen",
+   "Partikel"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Die fünf Wortarten bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-partikel",
+  "lernzielId": "DSTG.2.04",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "2.04",
+   "2.05",
+   "2.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Eine Präposition steht vor einer Nominalgruppe und bestimmt deren Fall.",
+   "Eine Konjunktion verbindet Sätze oder Satzteile.",
+   "Nominalisierte Wörter erkennt man am Artikel oder an einem Wort wie «etwas», «viel», «nichts» davor."
+  ],
+  "loesungsweg": [
+   "Das fragliche Wort im Satz einkreisen.",
+   "Fragen: Steht danach eine Nominalgruppe? Dann Präposition.",
+   "Fragen: Verbindet es zwei Teile? Dann Konjunktion.",
+   "Bei der Grossschreibung nach einem Begleitwort suchen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort ist in diesem Satz eine Präposition?\n\nWährend der Pause räumte sie die Regale ein.",
+    "optionen": [
+     "Während",
+     "räumte",
+     "die",
+     "ein"
+    ],
+    "loesung": [
+     "Während"
+    ],
+    "erklaerung": "«Während» steht vor der Nominalgruppe «der Pause» und verlangt den Genitiv. Damit ist es hier eine Präposition.",
+    "fehler": [
+     {
+      "antwort": "räumte",
+      "diagnoseId": "verb",
+      "feedback": "«Räumte» ist die Personalform des Verbs «einräumen»."
+     },
+     {
+      "antwort": "die",
+      "diagnoseId": "artikel",
+      "feedback": "«Die» ist ein Artikel. Artikel zählen zwar zu den Partikeln, sind aber keine Präpositionen."
+     },
+     {
+      "antwort": "ein",
+      "diagnoseId": "verbteil",
+      "feedback": "«Ein» gehört hier zum Verb «einräumen» und steht als abgetrennter Teil am Satzende."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist eine Konjunktion?\n\nSie wartete, bis der Ofen heiss war.",
+    "optionen": [
+     "bis",
+     "wartete",
+     "der",
+     "heiss"
+    ],
+    "loesung": [
+     "bis"
+    ],
+    "erklaerung": "«Bis» leitet hier den Nebensatz ein und verbindet ihn mit dem Hauptsatz — das ist die Aufgabe einer Konjunktion.",
+    "fehler": [
+     {
+      "antwort": "wartete",
+      "diagnoseId": "verb",
+      "feedback": "«Wartete» ist die Personalform eines Verbs."
+     },
+     {
+      "antwort": "der",
+      "diagnoseId": "artikel",
+      "feedback": "«Der» ist ein Artikel und begleitet das Nomen «Ofen»."
+     },
+     {
+      "antwort": "heiss",
+      "diagnoseId": "adjektiv",
+      "feedback": "«Heiss» beschreibt den Ofen und ist ein Adjektiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (nominalisiertes Verb)",
+    "optionen": [
+     "Beim Aufräumen half ihr niemand.",
+     "Beim aufräumen half ihr niemand.",
+     "Beim Aufraumen half ihr Niemand.",
+     "beim Aufräumen half ihr niemand."
+    ],
+    "loesung": [
+     "Beim Aufräumen half ihr niemand."
+    ],
+    "erklaerung": "«Beim» enthält den Artikel «dem». Danach ist das Verb nominalisiert und wird grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Beim aufräumen half ihr niemand.",
+      "diagnoseId": "nicht_erkannt",
+      "feedback": "Nach «beim» steht ein nominalisiertes Verb. Es wird grossgeschrieben."
+     },
+     {
+      "antwort": "Beim Aufraumen half ihr Niemand.",
+      "diagnoseId": "zwei_fehler",
+      "feedback": "Zwei Fehler: Der Umlaut fehlt, und «niemand» ist ein Pronomen und bleibt klein."
+     },
+     {
+      "antwort": "beim Aufräumen half ihr niemand.",
+      "diagnoseId": "satzanfang",
+      "feedback": "Am Satzanfang wird grossgeschrieben, unabhängig von der Wortart."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (Adjektiv nach «nichts»)",
+    "optionen": [
+     "Sie hat nichts Wichtiges vergessen.",
+     "Sie hat nichts wichtiges vergessen.",
+     "Sie hat Nichts Wichtiges vergessen.",
+     "Sie hat nichts Wichtiges Vergessen."
+    ],
+    "loesung": [
+     "Sie hat nichts Wichtiges vergessen."
+    ],
+    "erklaerung": "Nach «nichts», «etwas», «viel» und «wenig» wird ein Adjektiv nominalisiert und grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Sie hat nichts wichtiges vergessen.",
+      "diagnoseId": "nicht_erkannt",
+      "feedback": "«Nichts» ist ein Signalwort: Das folgende Adjektiv wird nominalisiert."
+     },
+     {
+      "antwort": "Sie hat Nichts Wichtiges vergessen.",
+      "diagnoseId": "zu_viel",
+      "feedback": "«Nichts» selbst ist ein Pronomen und bleibt klein."
+     },
+     {
+      "antwort": "Sie hat nichts Wichtiges Vergessen.",
+      "diagnoseId": "verb_gross",
+      "feedback": "«Vergessen» ist hier ein Verb im Perfekt und bleibt klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nSie erinnerte sich ______ den ersten Arbeitstag.",
+    "optionen": [
+     "an",
+     "auf",
+     "über",
+     "für"
+    ],
+    "loesung": [
+     "an"
+    ],
+    "erklaerung": "«sich erinnern an» ist eine feste Verbindung; «an» verlangt hier den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«Sich freuen auf» gibt es, «sich erinnern auf» nicht."
+     },
+     {
+      "antwort": "über",
+      "diagnoseId": "falsche_praeposition_zwei",
+      "feedback": "«Sich ärgern über» gibt es. Erinnern verlangt «an»."
+     },
+     {
+      "antwort": "für",
+      "diagnoseId": "falsche_praeposition_drei",
+      "feedback": "«Sich interessieren für» gibt es. Bei «erinnern» steht «an»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nEr blieb ruhig, ______ der Andrang gross war.",
+    "optionen": [
+     "obwohl",
+     "damit",
+     "sobald",
+     "indem"
+    ],
+    "loesung": [
+     "obwohl"
+    ],
+    "erklaerung": "Zwischen Ruhe und Andrang steht ein Gegensatz. «Obwohl» drückt genau das aus.",
+    "fehler": [
+     {
+      "antwort": "damit",
+      "diagnoseId": "absicht",
+      "feedback": "«Damit» nennt eine Absicht. Der Andrang ist aber kein Ziel."
+     },
+     {
+      "antwort": "sobald",
+      "diagnoseId": "zeit",
+      "feedback": "«Sobald» ordnet zeitlich ein und zeigt keinen Gegensatz."
+     },
+     {
+      "antwort": "indem",
+      "diagnoseId": "art_und_weise",
+      "feedback": "«Indem» sagt, WIE etwas geschieht. Hier geht es um einen Gegensatz."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Satz steht «zu» als Präposition?",
+    "optionen": [
+     "Sie ging zu ihrer Kollegin.",
+     "Der Laden ist noch zu.",
+     "Sie versuchte zu lachen.",
+     "Das ist zu teuer."
+    ],
+    "loesung": [
+     "Sie ging zu ihrer Kollegin."
+    ],
+    "erklaerung": "In «zu ihrer Kollegin» steht «zu» vor einer Nominalgruppe und bestimmt deren Fall — das ist eine Präposition.",
+    "fehler": [
+     {
+      "antwort": "Der Laden ist noch zu.",
+      "diagnoseId": "adjektivisch",
+      "feedback": "Hier beschreibt «zu» einen Zustand: Der Laden ist geschlossen."
+     },
+     {
+      "antwort": "Sie versuchte zu lachen.",
+      "diagnoseId": "infinitivpartikel",
+      "feedback": "Hier gehört «zu» zum Infinitiv «zu lachen»."
+     },
+     {
+      "antwort": "Das ist zu teuer.",
+      "diagnoseId": "gradpartikel",
+      "feedback": "Hier verstärkt «zu» das Adjektiv: mehr als angemessen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (Infinitiv mit Artikel)",
+    "optionen": [
+     "Das Backen macht ihr Freude.",
+     "Das backen macht ihr Freude.",
+     "Das Backen macht ihr freude.",
+     "das Backen macht ihr Freude."
+    ],
+    "loesung": [
+     "Das Backen macht ihr Freude."
+    ],
+    "erklaerung": "«Das» ist ein Artikel; danach ist der Infinitiv nominalisiert und wird grossgeschrieben. «Freude» ist ohnehin ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "Das backen macht ihr Freude.",
+      "diagnoseId": "nicht_erkannt",
+      "feedback": "Der Artikel «das» zeigt an, dass «Backen» hier ein Nomen ist."
+     },
+     {
+      "antwort": "Das Backen macht ihr freude.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Freude» ist ein Nomen und wird immer grossgeschrieben."
+     },
+     {
+      "antwort": "das Backen macht ihr Freude.",
+      "diagnoseId": "satzanfang",
+      "feedback": "Am Satzanfang wird grossgeschrieben, unabhängig von der Wortart."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist KEINE Konjunktion?",
+    "optionen": [
+     "trotzdem",
+     "weil",
+     "dass",
+     "obwohl"
+    ],
+    "loesung": [
+     "trotzdem"
+    ],
+    "erklaerung": "«Trotzdem» ist ein Adverb: Es steht im Hauptsatz und verändert die Wortstellung nicht wie eine Konjunktion.",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "konjunktion",
+      "feedback": "«Weil» leitet einen Nebensatz ein und schickt das Verb ans Ende."
+     },
+     {
+      "antwort": "dass",
+      "diagnoseId": "konjunktion_zwei",
+      "feedback": "«Dass» leitet ebenfalls einen Nebensatz ein."
+     },
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "konjunktion_drei",
+      "feedback": "«Obwohl» leitet einen Gegensatzsatz ein und ist eine Konjunktion."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition verlangt den Genitiv?",
+    "optionen": [
+     "wegen",
+     "mit",
+     "bei",
+     "seit"
+    ],
+    "loesung": [
+     "wegen"
+    ],
+    "erklaerung": "«Wegen» verlangt in der Schriftsprache den Genitiv: wegen des Regens.",
+    "fehler": [
+     {
+      "antwort": "mit",
+      "diagnoseId": "dativ",
+      "feedback": "«Mit» steht immer mit dem Dativ: mit dem Velo."
+     },
+     {
+      "antwort": "bei",
+      "diagnoseId": "dativ_zwei",
+      "feedback": "«Bei» verlangt ebenfalls den Dativ: bei der Arbeit."
+     },
+     {
+      "antwort": "seit",
+      "diagnoseId": "dativ_drei",
+      "feedback": "«Seit» steht mit dem Dativ: seit einem Jahr."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (Adjektiv nach «viel»)",
+    "optionen": [
+     "Sie hat viel Gutes erlebt.",
+     "Sie hat viel gutes erlebt.",
+     "Sie hat Viel Gutes erlebt.",
+     "Sie hat viel Gutes Erlebt."
+    ],
+    "loesung": [
+     "Sie hat viel Gutes erlebt."
+    ],
+    "erklaerung": "Nach «viel» wird das Adjektiv nominalisiert und grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Sie hat viel gutes erlebt.",
+      "diagnoseId": "nicht_erkannt",
+      "feedback": "«Viel» ist eines der Signalwörter, nach denen ein Adjektiv nominalisiert wird."
+     },
+     {
+      "antwort": "Sie hat Viel Gutes erlebt.",
+      "diagnoseId": "zu_viel",
+      "feedback": "«Viel» ist ein unbestimmtes Zahlwort und bleibt klein."
+     },
+     {
+      "antwort": "Sie hat viel Gutes Erlebt.",
+      "diagnoseId": "verb_gross",
+      "feedback": "«Erlebt» ist ein Verb im Perfekt und bleibt klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist in diesem Satz ein Partikel?\n\nSie arbeitete gestern bis am Abend.",
+    "optionen": [
+     "gestern",
+     "arbeitete",
+     "Abend",
+     "sie"
+    ],
+    "loesung": [
+     "gestern"
+    ],
+    "erklaerung": "«Gestern» ist ein Adverb; im Thurgauer Fünfersystem zählt es zu den Partikeln.",
+    "fehler": [
+     {
+      "antwort": "arbeitete",
+      "diagnoseId": "verb",
+      "feedback": "«Arbeitete» ist die Personalform eines Verbs."
+     },
+     {
+      "antwort": "Abend",
+      "diagnoseId": "nomen",
+      "feedback": "«Abend» ist ein Nomen; es steht mit Artikel."
+     },
+     {
+      "antwort": "sie",
+      "diagnoseId": "pronomen",
+      "feedback": "«Sie» ersetzt ein Nomen und ist damit ein Pronomen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Präpositionen, Konjunktionen und Nominalisierung",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-personalform",
+  "lernzielId": "DSTG.3.01",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "3.01",
+   "3.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Personalform verändert sich mit der Person: ich gehe, du gehst.",
+   "Der Infinitiv endet auf «-en» oder «-n» und bleibt unverändert.",
+   "In jedem Satz steht mindestens eine Personalform."
+  ],
+  "loesungsweg": [
+   "Das Verb suchen.",
+   "Die Probe machen: Ändert es sich, wenn ich die Person wechsle?",
+   "Bei mehrteiligen Formen die gebeugte Form bestimmen.",
+   "Die übrigen Verbteile als Infinitiv oder Partizip einordnen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort ist die Personalform?\n\nMarisa will die Kasse abrechnen.",
+    "optionen": [
+     "will",
+     "abrechnen",
+     "Kasse",
+     "die"
+    ],
+    "loesung": [
+     "will"
+    ],
+    "erklaerung": "«will» verändert sich mit der Person: ich will, du willst.",
+    "fehler": [
+     {
+      "antwort": "abrechnen",
+      "diagnoseId": "infinitiv",
+      "feedback": "«abrechnen» bleibt unverändert und ist der Infinitiv."
+     },
+     {
+      "antwort": "Kasse",
+      "diagnoseId": "wortart",
+      "feedback": "«Kasse» ist ein Nomen. Richtig ist «will»."
+     },
+     {
+      "antwort": "die",
+      "diagnoseId": "wortart",
+      "feedback": "«die» ist ein Artikel. Richtig ist «will»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist die Personalform?\n\nHerr Gwerder hat das Blech in den Ofen geschoben.",
+    "optionen": [
+     "hat",
+     "geschoben",
+     "Blech",
+     "Ofen"
+    ],
+    "loesung": [
+     "hat"
+    ],
+    "erklaerung": "«hat» ist gebeugt; «geschoben» ist das Partizip.",
+    "fehler": [
+     {
+      "antwort": "geschoben",
+      "diagnoseId": "partizip",
+      "feedback": "«geschoben» ist das Partizip und verändert sich nicht."
+     },
+     {
+      "antwort": "Blech",
+      "diagnoseId": "wortart",
+      "feedback": "«Blech» ist ein Nomen. Richtig ist «hat»."
+     },
+     {
+      "antwort": "Ofen",
+      "diagnoseId": "wortart",
+      "feedback": "«Ofen» ist ein Nomen. Richtig ist «hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist der Infinitiv?\n\nSie musste die Schlange bedienen.",
+    "optionen": [
+     "bedienen",
+     "musste",
+     "Schlange",
+     "sie"
+    ],
+    "loesung": [
+     "bedienen"
+    ],
+    "erklaerung": "«bedienen» bleibt bei jedem Wechsel der Person gleich.",
+    "fehler": [
+     {
+      "antwort": "musste",
+      "diagnoseId": "personalform",
+      "feedback": "«musste» verändert sich: ich musste, du musstest."
+     },
+     {
+      "antwort": "Schlange",
+      "diagnoseId": "wortart",
+      "feedback": "«Schlange» ist ein Nomen. Richtig ist «bedienen»."
+     },
+     {
+      "antwort": "sie",
+      "diagnoseId": "wortart",
+      "feedback": "«sie» ist ein Pronomen. Richtig ist «bedienen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Personalformen stehen in diesem Satz?\n\nSie schloss auf und hängte die Jacke an den Haken.",
+    "optionen": [
+     "zwei",
+     "eine",
+     "drei",
+     "keine"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "«schloss» und «hängte» sind beide gebeugt.",
+    "fehler": [
+     {
+      "antwort": "eine",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch «hängte» ist eine Personalform. Richtig ist «zwei»."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zaehlung",
+      "feedback": "«auf» gehört als Verbzusatz zu «schloss»."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "zaehlung",
+      "feedback": "Jeder Aussagesatz braucht mindestens eine Personalform."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Personalformen stehen in diesem Satz?\n\nWeil der Bus ausfiel, musste sie zu Fuss gehen.",
+    "optionen": [
+     "zwei",
+     "eine",
+     "drei",
+     "vier"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "«ausfiel» im Nebensatz und «musste» im Hauptsatz; «gehen» ist der Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "eine",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch der Nebensatz hat eine eigene Personalform."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zaehlung",
+      "feedback": "«gehen» ist ein Infinitiv, keine Personalform."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "zaehlung",
+      "feedback": "Der Satz hat nur zwei gebeugte Verben. Richtig ist «zwei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form steht im Satz?\n\nDas Brot einpacken war ihre erste Aufgabe.",
+    "optionen": [
+     "ein Infinitiv als Subjekt",
+     "eine Personalform als Subjekt",
+     "ein Partizip als Subjekt",
+     "gar kein Verb"
+    ],
+    "loesung": [
+     "ein Infinitiv als Subjekt"
+    ],
+    "erklaerung": "«einpacken» bleibt unverändert und steht hier an der Stelle eines Nomens.",
+    "fehler": [
+     {
+      "antwort": "eine Personalform als Subjekt",
+      "diagnoseId": "form",
+      "feedback": "«einpacken» verändert sich nicht mit der Person."
+     },
+     {
+      "antwort": "ein Partizip als Subjekt",
+      "diagnoseId": "form",
+      "feedback": "Das Partizip lautete «eingepackt». Richtig ist «ein Infinitiv als Subjekt»."
+     },
+     {
+      "antwort": "gar kein Verb",
+      "diagnoseId": "form",
+      "feedback": "«war» ist die Personalform des Satzes. Richtig ist «ein Infinitiv als Subjekt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist die Personalform?\n\nUm zwölf wird die Bäckerei geschlossen.",
+    "optionen": [
+     "wird",
+     "geschlossen",
+     "Bäckerei",
+     "zwölf"
+    ],
+    "loesung": [
+     "wird"
+    ],
+    "erklaerung": "«wird» ist gebeugt; «geschlossen» ist das Partizip im Passiv.",
+    "fehler": [
+     {
+      "antwort": "geschlossen",
+      "diagnoseId": "partizip",
+      "feedback": "«geschlossen» ist das Partizip. Richtig ist «wird»."
+     },
+     {
+      "antwort": "Bäckerei",
+      "diagnoseId": "wortart",
+      "feedback": "«Bäckerei» ist ein Nomen. Richtig ist «wird»."
+     },
+     {
+      "antwort": "zwölf",
+      "diagnoseId": "wortart",
+      "feedback": "«zwölf» ist ein Zahlwort. Richtig ist «wird»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe zeigt, dass ein Wort eine Personalform ist?",
+    "optionen": [
+     "Man wechselt die Person und schaut, ob sich das Wort ändert",
+     "Man setzt einen Artikel davor",
+     "Man steigert das Wort",
+     "Man verschiebt es an den Satzanfang"
+    ],
+    "loesung": [
+     "Man wechselt die Person und schaut, ob sich das Wort ändert"
+    ],
+    "erklaerung": "Nur die Personalform ändert sich mit ich, du, er.",
+    "fehler": [
+     {
+      "antwort": "Man setzt einen Artikel davor",
+      "diagnoseId": "probe",
+      "feedback": "Die Artikelprobe erkennt Nomen. Richtig ist «Man wechselt die Person und schaut, ob sich das Wort ändert»."
+     },
+     {
+      "antwort": "Man steigert das Wort",
+      "diagnoseId": "probe",
+      "feedback": "Die Steigerungsprobe erkennt Adjektive. Richtig ist «Man wechselt die Person und schaut, ob sich das Wort ändert»."
+     },
+     {
+      "antwort": "Man verschiebt es an den Satzanfang",
+      "diagnoseId": "probe",
+      "feedback": "Die Verschiebeprobe grenzt Satzglieder ab."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist KEINE Personalform?\n\nSie hatte die Jacke aufgehängt und ging nach vorne.",
+    "optionen": [
+     "aufgehängt",
+     "hatte",
+     "ging",
+     "sie"
+    ],
+    "loesung": [
+     "aufgehängt"
+    ],
+    "erklaerung": "«aufgehängt» ist das Partizip; gebeugt sind «hatte» und «ging».",
+    "fehler": [
+     {
+      "antwort": "hatte",
+      "diagnoseId": "personalform",
+      "feedback": "«hatte» verändert sich mit der Person. Richtig ist «aufgehängt»."
+     },
+     {
+      "antwort": "ging",
+      "diagnoseId": "personalform",
+      "feedback": "«ging» verändert sich mit der Person. Richtig ist «aufgehängt»."
+     },
+     {
+      "antwort": "sie",
+      "diagnoseId": "wortart",
+      "feedback": "«sie» ist ein Pronomen, kein Verb. Richtig ist «aufgehängt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Infinitiv zu «schob»?",
+    "optionen": [
+     "schieben",
+     "schoben",
+     "geschoben",
+     "schiebt"
+    ],
+    "loesung": [
+     "schieben"
+    ],
+    "erklaerung": "«schieben» ist die Grundform; «schob» ist das Präteritum.",
+    "fehler": [
+     {
+      "antwort": "schoben",
+      "diagnoseId": "personalform",
+      "feedback": "«schoben» ist die Mehrzahlform des Präteritums."
+     },
+     {
+      "antwort": "geschoben",
+      "diagnoseId": "partizip",
+      "feedback": "«geschoben» ist das Partizip. Richtig ist «schieben»."
+     },
+     {
+      "antwort": "schiebt",
+      "diagnoseId": "personalform",
+      "feedback": "«schiebt» ist eine Personalform des Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet der Infinitiv zu «wusste»?",
+    "optionen": [
+     "wissen",
+     "wusst",
+     "gewusst",
+     "weiss"
+    ],
+    "loesung": [
+     "wissen"
+    ],
+    "erklaerung": "«wissen» ist die Grundform; «wusste» ist das Präteritum.",
+    "fehler": [
+     {
+      "antwort": "wusst",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es nicht. Richtig ist «wissen»."
+     },
+     {
+      "antwort": "gewusst",
+      "diagnoseId": "partizip",
+      "feedback": "«gewusst» ist das Partizip. Richtig ist «wissen»."
+     },
+     {
+      "antwort": "weiss",
+      "diagnoseId": "personalform",
+      "feedback": "«weiss» ist eine Personalform des Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satzteil enthält die Personalform?\n\nNachdem sie abgerechnet hatte, ging sie nach Hause.",
+    "optionen": [
+     "beide Teile",
+     "nur der erste Teil",
+     "nur der zweite Teil",
+     "keiner"
+    ],
+    "loesung": [
+     "beide Teile"
+    ],
+    "erklaerung": "«hatte» steht im Nebensatz, «ging» im Hauptsatz.",
+    "fehler": [
+     {
+      "antwort": "nur der erste Teil",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch der Hauptsatz hat eine Personalform: «ging»."
+     },
+     {
+      "antwort": "nur der zweite Teil",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch der Nebensatz hat eine: «hatte». Richtig ist «beide Teile»."
+     },
+     {
+      "antwort": "keiner",
+      "diagnoseId": "zaehlung",
+      "feedback": "Beide Teile haben eine gebeugte Form. Richtig ist «beide Teile»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Infinitiv und Personalform unterscheiden",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-zeitformen",
+  "lernzielId": "DSTG.3.03",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "3.03",
+   "3.04",
+   "3.05",
+   "3.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Perfekt und Plusquamperfekt brauchen ein Hilfsverb: «haben» oder «sein».",
+   "Das Plusquamperfekt ist das Perfekt mit dem Hilfsverb im Präteritum.",
+   "Beim Futur steht «werden» plus Infinitiv."
+  ],
+  "loesungsweg": [
+   "Die Person und die Zahl bestimmen.",
+   "Das passende Hilfsverb wählen.",
+   "Die Form bilden und laut mitlesen.",
+   "Prüfen, ob die Zeitstufe wirklich stimmt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze ins Präteritum:\n\nSie backt jeden Morgen frisches Brot.",
+    "optionen": null,
+    "loesung": [
+     "Sie backte jeden Morgen frisches Brot.",
+     "Sie buk jeden Morgen frisches Brot."
+    ],
+    "erklaerung": "«backen» hat heute beide Formen: «backte» ist die übliche, «buk» die ältere starke Form. Beide gelten.",
+    "fehler": [
+     {
+      "antwort": "Sie hat jeden Morgen frisches Brot gebacken.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt. Verlangt war das Präteritum, also die einfache Vergangenheitsform."
+     },
+     {
+      "antwort": "Sie wird jeden Morgen frisches Brot backen.",
+      "diagnoseId": "futur",
+      "feedback": "Das ist das Futur und blickt nach vorn, nicht zurück."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt:\n\nEr schob das Blech in den Ofen.",
+    "optionen": null,
+    "loesung": [
+     "Er hat das Blech in den Ofen geschoben."
+    ],
+    "erklaerung": "Perfekt: Hilfsverb «haben» im Präsens plus Partizip II «geschoben».",
+    "fehler": [
+     {
+      "antwort": "Er hatte das Blech in den Ofen geschoben.",
+      "diagnoseId": "plusquamperfekt",
+      "feedback": "Das ist das Plusquamperfekt: Dort steht das Hilfsverb im Präteritum."
+     },
+     {
+      "antwort": "Er ist das Blech in den Ofen geschoben.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«schieben» bildet das Perfekt mit «haben». Mit «sein» stehen vor allem Verben der Bewegung ohne Objekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt:\n\nSie schloss den Laden auf.",
+    "optionen": null,
+    "loesung": [
+     "Sie hatte den Laden aufgeschlossen."
+    ],
+    "erklaerung": "Plusquamperfekt: Hilfsverb «haben» im Präteritum plus Partizip II.",
+    "fehler": [
+     {
+      "antwort": "Sie hat den Laden aufgeschlossen.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt. Für das Plusquamperfekt steht das Hilfsverb im Präteritum: «hatte»."
+     },
+     {
+      "antwort": "Sie schloss den Laden auf.",
+      "diagnoseId": "praeteritum",
+      "feedback": "Das ist die Ausgangsform im Präteritum, noch ohne Hilfsverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur:\n\nDer Andrang beginnt um acht.",
+    "optionen": null,
+    "loesung": [
+     "Der Andrang wird um acht beginnen."
+    ],
+    "erklaerung": "Futur I: «werden» in der Personalform plus Infinitiv am Satzende.",
+    "fehler": [
+     {
+      "antwort": "Der Andrang hat um acht begonnen.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt und liegt in der Vergangenheit."
+     },
+     {
+      "antwort": "Der Andrang würde um acht beginnen.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«würde» ist der Konjunktiv II und drückt eine Möglichkeit aus, keine Zukunft."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präteritum:\n\nIch gehe früh zur Arbeit.",
+    "optionen": null,
+    "loesung": [
+     "Ich ging früh zur Arbeit."
+    ],
+    "erklaerung": "«gehen» ist ein starkes Verb: gehen — ging — gegangen.",
+    "fehler": [
+     {
+      "antwort": "Ich bin früh zur Arbeit gegangen.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt mit dem Hilfsverb «sein»."
+     },
+     {
+      "antwort": "Ich gehte früh zur Arbeit.",
+      "diagnoseId": "schwach_gebildet",
+      "feedback": "«gehen» ist stark und bildet das Präteritum mit einem anderen Stammvokal: «ging»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt:\n\nDer Bus fuhr vorbei.",
+    "optionen": null,
+    "loesung": [
+     "Der Bus ist vorbeigefahren."
+    ],
+    "erklaerung": "Verben der Ortsveränderung bilden das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Der Bus hat vorbeigefahren.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«fahren» ohne Objekt beschreibt eine Ortsveränderung und nimmt «sein»."
+     },
+     {
+      "antwort": "Der Bus war vorbeigefahren.",
+      "diagnoseId": "plusquamperfekt",
+      "feedback": "Das ist das Plusquamperfekt, mit dem Hilfsverb im Präteritum."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präsens:\n\nSie wusste die Antwort.",
+    "optionen": null,
+    "loesung": [
+     "Sie weiss die Antwort."
+    ],
+    "erklaerung": "«wissen» ist unregelmässig: ich weiss, du weisst, sie weiss.",
+    "fehler": [
+     {
+      "antwort": "Sie wisst die Antwort.",
+      "diagnoseId": "falsche_form",
+      "feedback": "«wisst» gehört zu «ihr». Zu «sie» in der Einzahl gehört «weiss»."
+     },
+     {
+      "antwort": "Sie wird die Antwort wissen.",
+      "diagnoseId": "futur",
+      "feedback": "Das ist das Futur. Verlangt war die Gegenwart."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt:\n\nMarisa blieb sitzen.",
+    "optionen": null,
+    "loesung": [
+     "Marisa ist sitzen geblieben."
+    ],
+    "erklaerung": "«bleiben» gehört zu den Verben, die das Perfekt mit «sein» bilden, obwohl sie keine Bewegung ausdrücken.",
+    "fehler": [
+     {
+      "antwort": "Marisa hat sitzen geblieben.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«bleiben» nimmt «sein» — wie «sein» und «werden» selbst."
+     },
+     {
+      "antwort": "Marisa war sitzen geblieben.",
+      "diagnoseId": "plusquamperfekt",
+      "feedback": "Das ist das Plusquamperfekt. Für das Perfekt steht «ist»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Präteritum:\n\nWir haben viel zu tun.",
+    "optionen": null,
+    "loesung": [
+     "Wir hatten viel zu tun."
+    ],
+    "erklaerung": "«haben» im Präteritum: ich hatte, du hattest, wir hatten.",
+    "fehler": [
+     {
+      "antwort": "Wir haben viel zu tun gehabt.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt von «haben». Verlangt war die einfache Vergangenheit."
+     },
+     {
+      "antwort": "Wir hätten viel zu tun.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«hätten» ist der Konjunktiv II und drückt eine Möglichkeit aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur:\n\nIch räume die Regale ein.",
+    "optionen": null,
+    "loesung": [
+     "Ich werde die Regale einräumen."
+    ],
+    "erklaerung": "Futur I mit «werden» plus Infinitiv; die Vorsilbe bleibt am Verb.",
+    "fehler": [
+     {
+      "antwort": "Ich werde die Regale ein.",
+      "diagnoseId": "infinitiv_fehlt",
+      "feedback": "Nach «werden» muss der Infinitiv stehen: «einräumen»."
+     },
+     {
+      "antwort": "Ich habe die Regale eingeräumt.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt und liegt in der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt:\n\nEr kam um vier Uhr.",
+    "optionen": null,
+    "loesung": [
+     "Er war um vier Uhr gekommen."
+    ],
+    "erklaerung": "«kommen» nimmt «sein»; im Plusquamperfekt steht dieses im Präteritum: «war».",
+    "fehler": [
+     {
+      "antwort": "Er ist um vier Uhr gekommen.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt. Das Plusquamperfekt braucht «war»."
+     },
+     {
+      "antwort": "Er hatte um vier Uhr gekommen.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«kommen» bildet die zusammengesetzten Zeiten mit «sein»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die 2. Person Singular Präsens:\n\nsie verspricht",
+    "optionen": null,
+    "loesung": [
+     "du versprichst"
+    ],
+    "erklaerung": "Starke Verben mit e-Wechsel ändern in der 2. und 3. Person Singular den Stammvokal: ich verspreche, du versprichst.",
+    "fehler": [
+     {
+      "antwort": "du versprechst",
+      "diagnoseId": "kein_wechsel",
+      "feedback": "Der Stammvokal wechselt von e zu i: «du versprichst»."
+     },
+     {
+      "antwort": "du versprachst",
+      "diagnoseId": "praeteritum",
+      "feedback": "Das ist das Präteritum. Verlangt war das Präsens."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitformen bilden",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-modus-passiv",
+  "lernzielId": "DSTG.3.07",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "3.07",
+   "3.08",
+   "3.09"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Im Passiv steht «werden» plus Partizip II.",
+   "Der Konjunktiv I steht in der indirekten Rede, der Konjunktiv II in Bedingungen und Wünschen.",
+   "Der Imperativ ist die Befehlsform und kommt ohne Subjekt aus."
+  ],
+  "loesungsweg": [
+   "Fragen: Wer tut etwas — oder geschieht etwas mit jemandem?",
+   "Bei den Modi den Zusammenhang prüfen: Wird zitiert oder gewünscht?",
+   "Die Form am Verb ablesen.",
+   "Die Probe machen: Lässt sich der Satz umformen?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Steht der Satz im Aktiv oder im Passiv?\n\nDas Brot wird jeden Morgen frisch gebacken.",
+    "optionen": [
+     "Passiv",
+     "Aktiv",
+     "Imperativ",
+     "Konjunktiv"
+    ],
+    "loesung": [
+     "Passiv"
+    ],
+    "erklaerung": "«wird gebacken» ist «werden» plus Partizip II — die Passivform. Wer backt, steht nicht da.",
+    "fehler": [
+     {
+      "antwort": "Aktiv",
+      "diagnoseId": "handelnde_person",
+      "feedback": "Im Aktiv stünde, wer backt. Hier geschieht etwas mit dem Brot."
+     },
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "befehl",
+      "feedback": "Der Imperativ wäre eine Aufforderung: «Backe das Brot!»"
+     },
+     {
+      "antwort": "Konjunktiv",
+      "diagnoseId": "modus",
+      "feedback": "Aktiv und Passiv sind Handlungsrichtungen, kein Modus. Hier steht der Indikativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um:\n\nHerr Gwerder öffnet den Laden.",
+    "optionen": [
+     "Der Laden wird geöffnet.",
+     "Der Laden ist geöffnet.",
+     "Herr Gwerder wird geöffnet.",
+     "Der Laden öffnet sich."
+    ],
+    "loesung": [
+     "Der Laden wird geöffnet."
+    ],
+    "erklaerung": "Das Objekt des Aktivsatzes wird zum Subjekt: Der Laden wird (von Herrn Gwerder) geöffnet.",
+    "fehler": [
+     {
+      "antwort": "Der Laden ist geöffnet.",
+      "diagnoseId": "zustand",
+      "feedback": "Das beschreibt einen Zustand, nicht den Vorgang. Das Vorgangspassiv braucht «wird»."
+     },
+     {
+      "antwort": "Herr Gwerder wird geöffnet.",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Zum Subjekt des Passivsatzes wird das OBJEKT, also der Laden."
+     },
+     {
+      "antwort": "Der Laden öffnet sich.",
+      "diagnoseId": "reflexiv",
+      "feedback": "Das ist eine reflexive Form im Aktiv, kein Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Satz steht der Imperativ?",
+    "optionen": [
+     "Räum bitte die Regale ein!",
+     "Räumst du die Regale ein?",
+     "Sie räumte die Regale ein.",
+     "Die Regale wurden eingeräumt."
+    ],
+    "loesung": [
+     "Räum bitte die Regale ein!"
+    ],
+    "erklaerung": "Der Imperativ ist die Befehls- oder Bittform; er kommt ohne Subjekt aus.",
+    "fehler": [
+     {
+      "antwort": "Räumst du die Regale ein?",
+      "diagnoseId": "frage",
+      "feedback": "Das ist eine Frage im Indikativ, mit Subjekt «du»."
+     },
+     {
+      "antwort": "Sie räumte die Regale ein.",
+      "diagnoseId": "indikativ",
+      "feedback": "Das ist eine Aussage im Präteritum, also der Indikativ — keine Aufforderung."
+     },
+     {
+      "antwort": "Die Regale wurden eingeräumt.",
+      "diagnoseId": "passiv",
+      "feedback": "Das ist ein Passivsatz im Präteritum: Es geschieht etwas mit den Regalen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist der Konjunktiv I von «gehen» in der 3. Person Singular?",
+    "optionen": [
+     "sie gehe",
+     "sie ginge",
+     "sie geht",
+     "sie ist gegangen"
+    ],
+    "loesung": [
+     "sie gehe"
+    ],
+    "erklaerung": "Der Konjunktiv I wird vom Präsensstamm gebildet: sie gehe. Er steht in der indirekten Rede.",
+    "fehler": [
+     {
+      "antwort": "sie ginge",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "«ginge» ist der Konjunktiv II. Er steht in Bedingungen und Wünschen."
+     },
+     {
+      "antwort": "sie geht",
+      "diagnoseId": "indikativ",
+      "feedback": "«geht» ist der Indikativ, die normale Wirklichkeitsform."
+     },
+     {
+      "antwort": "sie ist gegangen",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt im Indikativ, also die Wirklichkeitsform der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die indirekte Rede:\n\nSie sagt: «Ich komme später.»",
+    "optionen": [
+     "Sie sagt, sie komme später.",
+     "Sie sagt, sie kommt später.",
+     "Sie sagt, sie käme später.",
+     "Sie sagt, sie ist später gekommen."
+    ],
+    "loesung": [
+     "Sie sagt, sie komme später."
+    ],
+    "erklaerung": "In der indirekten Rede steht der Konjunktiv I: «sie komme».",
+    "fehler": [
+     {
+      "antwort": "Sie sagt, sie kommt später.",
+      "diagnoseId": "indikativ",
+      "feedback": "In der Schriftsprache steht in der indirekten Rede der Konjunktiv I."
+     },
+     {
+      "antwort": "Sie sagt, sie käme später.",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "Der Konjunktiv II steht dort, wo der Konjunktiv I nicht vom Indikativ zu unterscheiden wäre. Bei «komme» ist er es."
+     },
+     {
+      "antwort": "Sie sagt, sie ist später gekommen.",
+      "diagnoseId": "zeitstufe",
+      "feedback": "Die Zeitstufe hat sich verschoben: Aus der Gegenwart wurde die Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Satz steht der Konjunktiv II?",
+    "optionen": [
+     "Wenn ich Zeit hätte, käme ich vorbei.",
+     "Er sagt, er habe Zeit.",
+     "Ich habe Zeit.",
+     "Hab doch Zeit für mich!"
+    ],
+    "loesung": [
+     "Wenn ich Zeit hätte, käme ich vorbei."
+    ],
+    "erklaerung": "«hätte» und «käme» sind Konjunktiv-II-Formen. Sie stehen in Bedingungssätzen.",
+    "fehler": [
+     {
+      "antwort": "Er sagt, er habe Zeit.",
+      "diagnoseId": "konjunktiv_eins",
+      "feedback": "«habe» ist Konjunktiv I und steht hier in der indirekten Rede."
+     },
+     {
+      "antwort": "Ich habe Zeit.",
+      "diagnoseId": "indikativ",
+      "feedback": "Das ist der Indikativ, die Wirklichkeitsform."
+     },
+     {
+      "antwort": "Hab doch Zeit für mich!",
+      "diagnoseId": "imperativ",
+      "feedback": "Das ist der Imperativ, eine Aufforderung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches ist die Personalform in diesem Satz?\n\nSie wollte das Brot noch einpacken.",
+    "optionen": [
+     "wollte",
+     "einpacken",
+     "Brot",
+     "noch"
+    ],
+    "loesung": [
+     "wollte"
+    ],
+    "erklaerung": "Die Personalform ist das gebeugte Verb: «wollte» richtet sich nach «sie». «einpacken» steht im Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "einpacken",
+      "diagnoseId": "infinitiv",
+      "feedback": "«Einpacken» ist der Infinitiv, die Grundform. Sie richtet sich nicht nach der Person."
+     },
+     {
+      "antwort": "Brot",
+      "diagnoseId": "nomen",
+      "feedback": "«Brot» ist ein Nomen und keine Verbform."
+     },
+     {
+      "antwort": "noch",
+      "diagnoseId": "partikel",
+      "feedback": "«Noch» ist ein Partikel und lässt sich nicht beugen — Personalformen richten sich nach dem Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Personalformen stehen in diesem Satz?\n\nSie öffnete den Laden, während er schon buk.",
+    "optionen": [
+     "zwei",
+     "eine",
+     "drei",
+     "keine"
+    ],
+    "loesung": [
+     "zwei"
+    ],
+    "erklaerung": "«öffnete» und «buk» sind beide gebeugt und gehören je zu einem Subjekt — also zwei Personalformen und zwei Teilsätze.",
+    "fehler": [
+     {
+      "antwort": "eine",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Der Nebensatz mit «während» hat sein eigenes gebeugtes Verb: «buk»."
+     },
+     {
+      "antwort": "drei",
+      "diagnoseId": "zu_viel",
+      "feedback": "«Laden» ist ein Nomen und «schon» ein Partikel — keine Verbformen."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "grundform",
+      "feedback": "Beide Verben sind gebeugt und richten sich nach ihrem Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Aktiv um:\n\nDie Regale wurden von ihr eingeräumt.",
+    "optionen": [
+     "Sie räumte die Regale ein.",
+     "Sie hat die Regale eingeräumt.",
+     "Die Regale räumten sich ein.",
+     "Sie wird die Regale einräumen."
+    ],
+    "loesung": [
+     "Sie räumte die Regale ein."
+    ],
+    "erklaerung": "Das «von»-Glied wird zum Subjekt, das Subjekt des Passivsatzes zum Objekt. Die Zeitstufe bleibt: Präteritum.",
+    "fehler": [
+     {
+      "antwort": "Sie hat die Regale eingeräumt.",
+      "diagnoseId": "zeitform",
+      "feedback": "Der Ausgangssatz steht im Präteritum, nicht im Perfekt."
+     },
+     {
+      "antwort": "Die Regale räumten sich ein.",
+      "diagnoseId": "reflexiv",
+      "feedback": "Das wäre eine reflexive Form; die handelnde Person verschwände."
+     },
+     {
+      "antwort": "Sie wird die Regale einräumen.",
+      "diagnoseId": "futur",
+      "feedback": "Das ist das Futur. Die Zeitstufe muss erhalten bleiben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist ein Imperativ in der Höflichkeitsform?",
+    "optionen": [
+     "Nehmen Sie bitte Platz.",
+     "Nimmst du bitte Platz?",
+     "Sie nehmen Platz.",
+     "Er nähme Platz."
+    ],
+    "loesung": [
+     "Nehmen Sie bitte Platz."
+    ],
+    "erklaerung": "Im Höflichkeitsimperativ steht die Sie-Form vor dem Subjekt: «Nehmen Sie …».",
+    "fehler": [
+     {
+      "antwort": "Nimmst du bitte Platz?",
+      "diagnoseId": "frage",
+      "feedback": "Das ist eine Frage, keine Aufforderungsform."
+     },
+     {
+      "antwort": "Sie nehmen Platz.",
+      "diagnoseId": "aussage",
+      "feedback": "Das ist eine Aussage im Indikativ und fordert niemanden zu etwas auf."
+     },
+     {
+      "antwort": "Er nähme Platz.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«nähme» ist der Konjunktiv II und drückt eine Möglichkeit aus, keine Bitte."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht in diesem Satz kein Passiv?\n\nDas Brot ist ausverkauft.",
+    "optionen": [
+     "Weil «ist ausverkauft» einen Zustand beschreibt.",
+     "Weil kein «von» dabeisteht.",
+     "Weil das Brot handelt.",
+     "Weil der Satz zu kurz ist."
+    ],
+    "loesung": [
+     "Weil «ist ausverkauft» einen Zustand beschreibt."
+    ],
+    "erklaerung": "Das Vorgangspassiv braucht «werden». Mit «sein» entsteht das Zustandspassiv, das eher einen erreichten Zustand beschreibt.",
+    "fehler": [
+     {
+      "antwort": "Weil kein «von» dabeisteht.",
+      "diagnoseId": "urheber",
+      "feedback": "Ein «von»-Glied ist im Passiv möglich, aber nicht nötig. Entscheidend ist das Hilfsverb."
+     },
+     {
+      "antwort": "Weil das Brot handelt.",
+      "diagnoseId": "subjekt",
+      "feedback": "Das Brot handelt gerade nicht — aber der Satz nennt auch keinen Vorgang."
+     },
+     {
+      "antwort": "Weil der Satz zu kurz ist.",
+      "diagnoseId": "laenge",
+      "feedback": "Die Länge spielt keine Rolle. «Das Brot wird verkauft» wäre ebenso kurz und ein Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Satz steht der Konjunktiv I?",
+    "optionen": [
+     "Er behauptet, er sei pünktlich gewesen.",
+     "Er wäre pünktlich gewesen.",
+     "Er ist pünktlich gewesen.",
+     "Sei pünktlich!"
+    ],
+    "loesung": [
+     "Er behauptet, er sei pünktlich gewesen."
+    ],
+    "erklaerung": "«sei» ist Konjunktiv I und zeigt an, dass eine fremde Aussage wiedergegeben wird.",
+    "fehler": [
+     {
+      "antwort": "Er wäre pünktlich gewesen.",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "«wäre» ist Konjunktiv II und drückt eine Möglichkeit aus."
+     },
+     {
+      "antwort": "Er ist pünktlich gewesen.",
+      "diagnoseId": "indikativ",
+      "feedback": "Das ist der Indikativ im Perfekt: Der Satz gibt keine fremde Aussage wieder."
+     },
+     {
+      "antwort": "Sei pünktlich!",
+      "diagnoseId": "imperativ",
+      "feedback": "Das ist der Imperativ von «sein» — die gleiche Form, aber ein anderer Modus."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Aktiv, Passiv und die Modi",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-nomen-adjektiv",
+  "lernzielId": "DSTG.4.02",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "4.01",
+   "4.02",
+   "4.03",
+   "4.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Den Fall bestimmst du mit der Ersatzprobe: Setze «der Mann» ein und schau, wie er sich verändert.",
+   "Nominativ fragt «wer oder was?», Akkusativ «wen oder was?», Dativ «wem?», Genitiv «wessen?».",
+   "Bei der Steigerung heisst es «grösser ALS», nie «grösser wie»."
+  ],
+  "loesungsweg": [
+   "Die Nominalgruppe ganz markieren, nicht nur das Nomen.",
+   "Die Ersatzprobe mit einem maskulinen Nomen machen.",
+   "Die Frage stellen, die zum Fall gehört.",
+   "Das Ergebnis am Satz prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Fall steht die unterstrichene Gruppe?\n\nSie reichte _der Kundin_ das Brot.",
+    "optionen": [
+     "Dativ",
+     "Nominativ",
+     "Akkusativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Dativ"
+    ],
+    "erklaerung": "Ersatzprobe: «Sie reichte dem Mann das Brot» — «dem Mann» ist Dativ. Die Frage lautet «wem?».",
+    "fehler": [
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Der Nominativ wäre das Subjekt. Das ist hier «sie»."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "objekt",
+      "feedback": "Der Akkusativ steht bei «das Brot»: Was reichte sie? Das Brot."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "besitz",
+      "feedback": "Der Genitiv antwortet auf «wessen?» und käme hier nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht die unterstrichene Gruppe?\n\nDie Stimme _des Bäckers_ klang streng.",
+    "optionen": [
+     "Genitiv",
+     "Dativ",
+     "Nominativ",
+     "Akkusativ"
+    ],
+    "loesung": [
+     "Genitiv"
+    ],
+    "erklaerung": "«Wessen Stimme?» — «des Bäckers». Die Endung «-s» und der Artikel «des» zeigen den Genitiv an.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ antwortet auf «wem?». Hier geht es darum, wessen Stimme gemeint ist."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Das Subjekt ist «die Stimme». Es steht im Nominativ."
+     },
+     {
+      "antwort": "Akkusativ",
+      "diagnoseId": "objekt",
+      "feedback": "Ein Akkusativobjekt gibt es in diesem Satz nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Mehrzahl von «das Kaufhaus»?",
+    "optionen": [
+     "die Kaufhäuser",
+     "die Kaufhause",
+     "die Kaufhauses",
+     "die Kaufhäusern"
+    ],
+    "loesung": [
+     "die Kaufhäuser"
+    ],
+    "erklaerung": "Bei Zusammensetzungen wird nur der letzte Teil in die Mehrzahl gesetzt: Haus — Häuser.",
+    "fehler": [
+     {
+      "antwort": "die Kaufhause",
+      "diagnoseId": "endung",
+      "feedback": "«Haus» bildet die Mehrzahl mit Umlaut und «-er»: Häuser."
+     },
+     {
+      "antwort": "die Kaufhauses",
+      "diagnoseId": "genitiv",
+      "feedback": "«-es» ist die Genitivendung der Einzahl, keine Mehrzahlform."
+     },
+     {
+      "antwort": "die Kaufhäusern",
+      "diagnoseId": "dativ_plural",
+      "feedback": "«-n» kommt erst im Dativ Plural dazu: «in den Kaufhäusern»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Mehrzahl von «der Vorname»?",
+    "optionen": [
+     "die Vornamen",
+     "die Vornames",
+     "die Vornämen",
+     "die Vorname"
+    ],
+    "loesung": [
+     "die Vornamen"
+    ],
+    "erklaerung": "«Name» gehört zu den Nomen, die im Plural auf «-n» enden: Namen.",
+    "fehler": [
+     {
+      "antwort": "die Vornames",
+      "diagnoseId": "englisch",
+      "feedback": "Das «-s» als Mehrzahlzeichen kommt aus dem Englischen und passt hier nicht."
+     },
+     {
+      "antwort": "die Vornämen",
+      "diagnoseId": "umlaut",
+      "feedback": "«Name» bekommt keinen Umlaut in der Mehrzahl."
+     },
+     {
+      "antwort": "die Vorname",
+      "diagnoseId": "unveraendert",
+      "feedback": "Die Form bleibt nicht gleich: Im Plural steht «Vornamen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Steigerung ist richtig?",
+    "optionen": [
+     "Dieses Brot ist frischer als jenes.",
+     "Dieses Brot ist frischer wie jenes.",
+     "Dieses Brot ist mehr frisch als jenes.",
+     "Dieses Brot ist am frischer als jenes."
+    ],
+    "loesung": [
+     "Dieses Brot ist frischer als jenes."
+    ],
+    "erklaerung": "Der Komparativ wird mit «-er» gebildet, der Vergleich mit «als».",
+    "fehler": [
+     {
+      "antwort": "Dieses Brot ist frischer wie jenes.",
+      "diagnoseId": "als_wie",
+      "feedback": "Beim Vergleich UNGLEICHER Dinge steht «als». «Wie» steht bei Gleichheit: so frisch wie."
+     },
+     {
+      "antwort": "Dieses Brot ist mehr frisch als jenes.",
+      "diagnoseId": "umschreibung",
+      "feedback": "Kurze Adjektive werden mit «-er» gesteigert, nicht mit «mehr»."
+     },
+     {
+      "antwort": "Dieses Brot ist am frischer als jenes.",
+      "diagnoseId": "superlativ_gemischt",
+      "feedback": "«Am …-sten» ist der Superlativ und verträgt kein «als»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist der Superlativ von «gut»?",
+    "optionen": [
+     "am besten",
+     "am gutesten",
+     "am guten",
+     "besser"
+    ],
+    "loesung": [
+     "am besten"
+    ],
+    "erklaerung": "«gut» wird unregelmässig gesteigert: gut — besser — am besten.",
+    "fehler": [
+     {
+      "antwort": "am gutesten",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«gut» ist unregelmässig. Die regelmässige Bildung gibt es hier nicht."
+     },
+     {
+      "antwort": "am guten",
+      "diagnoseId": "grundform",
+      "feedback": "Das ist die Grundform mit Artikel, keine Steigerung."
+     },
+     {
+      "antwort": "besser",
+      "diagnoseId": "komparativ",
+      "feedback": "«Besser» ist der Komparativ, also die erste Steigerungsstufe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nDas ist der Kollege, ______ ich das Brot gegeben habe.",
+    "optionen": [
+     "dem",
+     "den",
+     "der",
+     "dessen"
+    ],
+    "loesung": [
+     "dem"
+    ],
+    "erklaerung": "«geben» verlangt beim Empfänger den Dativ: Wem habe ich das Brot gegeben? Dem Kollegen.",
+    "fehler": [
+     {
+      "antwort": "den",
+      "diagnoseId": "akkusativ",
+      "feedback": "Der Akkusativ steht beim direkten Objekt — das ist hier das Brot."
+     },
+     {
+      "antwort": "der",
+      "diagnoseId": "nominativ",
+      "feedback": "Der Nominativ wäre das Subjekt des Relativsatzes. Das ist hier «ich»."
+     },
+     {
+      "antwort": "dessen",
+      "diagnoseId": "genitiv",
+      "feedback": "«Dessen» zeigt Besitz an: der Kollege, dessen Brot ich habe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\n______ Jacke hängt am Haken?",
+    "optionen": [
+     "Wessen",
+     "Wem",
+     "Wen",
+     "Wer"
+    ],
+    "loesung": [
+     "Wessen"
+    ],
+    "erklaerung": "Gefragt wird nach dem Besitz, also mit dem Genitiv: «Wessen Jacke?»",
+    "fehler": [
+     {
+      "antwort": "Wem",
+      "diagnoseId": "dativ",
+      "feedback": "«Wem» fragt nach dem Empfänger, nicht nach dem Besitzer."
+     },
+     {
+      "antwort": "Wen",
+      "diagnoseId": "akkusativ",
+      "feedback": "«Wen» fragt nach dem direkten Objekt, nicht nach dem Besitzer."
+     },
+     {
+      "antwort": "Wer",
+      "diagnoseId": "nominativ",
+      "feedback": "«Wer» fragt nach dem Subjekt: Wer hängt etwas auf?"
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Fall steht «den Ofen»?\n\nEr heizte den Ofen an.",
+    "optionen": [
+     "Akkusativ",
+     "Dativ",
+     "Nominativ",
+     "Genitiv"
+    ],
+    "loesung": [
+     "Akkusativ"
+    ],
+    "erklaerung": "«Wen oder was heizte er an?» — den Ofen. Das ist der Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Dativ",
+      "diagnoseId": "frage",
+      "feedback": "Der Dativ antwortet auf «wem?». Hier fragt man «wen oder was?»."
+     },
+     {
+      "antwort": "Nominativ",
+      "diagnoseId": "subjekt",
+      "feedback": "Das Subjekt ist «er» und antwortet auf die Frage «wer heizte an?»."
+     },
+     {
+      "antwort": "Genitiv",
+      "diagnoseId": "besitz",
+      "feedback": "Der Genitiv antwortet auf «wessen?» und zeigt einen Besitz an."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist richtig?\n\nSie half ______ Kollegin beim Einräumen.",
+    "optionen": [
+     "der",
+     "die",
+     "den",
+     "des"
+    ],
+    "loesung": [
+     "der"
+    ],
+    "erklaerung": "«helfen» verlangt den Dativ: Wem half sie? Der Kollegin.",
+    "fehler": [
+     {
+      "antwort": "die",
+      "diagnoseId": "akkusativ",
+      "feedback": "«helfen» steht mit dem Dativ, nicht mit dem Akkusativ — anders als «unterstützen»."
+     },
+     {
+      "antwort": "den",
+      "diagnoseId": "plural",
+      "feedback": "«Den» wäre Dativ Plural oder Akkusativ maskulin. Hier steht eine einzelne Kollegin."
+     },
+     {
+      "antwort": "des",
+      "diagnoseId": "genitiv",
+      "feedback": "Der Genitiv passt nicht zu «helfen»: Dieses Verb verlangt den Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist ein Pronomen?\n\nJeder wollte noch ein Gipfeli.",
+    "optionen": [
+     "Jeder",
+     "wollte",
+     "Gipfeli",
+     "noch"
+    ],
+    "loesung": [
+     "Jeder"
+    ],
+    "erklaerung": "«Jeder» steht anstelle eines Nomens — es sagt, wer gemeint ist, ohne die Personen zu nennen.",
+    "fehler": [
+     {
+      "antwort": "wollte",
+      "diagnoseId": "verb",
+      "feedback": "«Wollte» ist die Personalform eines Verbs."
+     },
+     {
+      "antwort": "Gipfeli",
+      "diagnoseId": "nomen",
+      "feedback": "«Gipfeli» ist ein Nomen und steht hier mit dem Artikel «ein»."
+     },
+     {
+      "antwort": "noch",
+      "diagnoseId": "partikel",
+      "feedback": "«Noch» ist ein Partikel und steht für kein Nomen ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Mehrzahl von «das Praktikum»?",
+    "optionen": [
+     "die Praktika",
+     "die Praktikums",
+     "die Praktiken",
+     "die Praktikume"
+    ],
+    "loesung": [
+     "die Praktika"
+    ],
+    "erklaerung": "Fremdwörter auf «-um» bilden die Mehrzahl oft auf «-a»: Praktikum — Praktika.",
+    "fehler": [
+     {
+      "antwort": "die Praktikums",
+      "diagnoseId": "englisch",
+      "feedback": "Das «-s» passt bei diesem Wort nicht; es folgt der lateinischen Form."
+     },
+     {
+      "antwort": "die Praktiken",
+      "diagnoseId": "anderes_wort",
+      "feedback": "«Praktiken» ist die Mehrzahl von «die Praktik» — ein anderes Wort."
+     },
+     {
+      "antwort": "die Praktikume",
+      "diagnoseId": "erfunden",
+      "feedback": "Diese Form gibt es nicht; das Wort folgt der lateinischen Mehrzahl."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Fälle, Mehrzahl, Steigerung und Pronomen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-satzglieder",
+  "lernzielId": "DSTG.5.02",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "5.01",
+   "5.02",
+   "5.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Satzglied lässt sich als Ganzes an den Satzanfang schieben.",
+   "Was sich nicht gemeinsam verschieben lässt, gehört nicht zusammen.",
+   "Ein mehrteiliger Satz hat mehr als eine Personalform."
+  ],
+  "loesungsweg": [
+   "Das gebeugte Verb suchen.",
+   "Die Verschiebeprobe machen: Was rutscht als Block ans Satzende?",
+   "Fragen stellen: wer? wen? wem? wann? wo?",
+   "Erst danach benennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nAm Sonntagmorgen öffnete Marisa die Bäckerei.",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Am Sonntagmorgen» / «öffnete» / «Marisa» / «die Bäckerei» — vier Glieder, das Verb mitgezählt.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "verb_nicht_gezaehlt",
+      "feedback": "Das gebeugte Verb ist ein eigenes Satzglied und zählt mit."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "zu_fein",
+      "feedback": "«Die Bäckerei» ist EIN Satzglied: Artikel und Nomen verschieben sich gemeinsam."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "wortweise",
+      "feedback": "Gezählt werden Satzglieder, nicht Wörter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «die Regale»?\n\nSie räumte die Regale ein.",
+    "optionen": [
+     "Akkusativobjekt",
+     "Subjekt",
+     "Dativobjekt",
+     "Ortsangabe"
+    ],
+    "loesung": [
+     "Akkusativobjekt"
+    ],
+    "erklaerung": "«Wen oder was räumte sie ein?» — die Regale. Das ist das Akkusativobjekt, in den Sprachstarken die Nominalgruppe im Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie»: Es antwortet auf die Frage «wer räumte ein?»."
+     },
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "dativ",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?». Das kommt hier nicht vor."
+     },
+     {
+      "antwort": "Ortsangabe",
+      "diagnoseId": "adverbial",
+      "feedback": "Eine Ortsangabe antwortete auf «wo?». Die Regale sind das, was eingeräumt wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «der Kundin»?\n\nSie erklärte der Kundin das Sortiment.",
+    "optionen": [
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt",
+     "Zeitangabe"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "«Wem erklärte sie es?» — der Kundin. Das ist das Dativobjekt.",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "akkusativ",
+      "feedback": "Im Akkusativ steht «das Sortiment»: Was erklärte sie?"
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie» und antwortet auf die Frage «wer erklärte?»."
+     },
+     {
+      "antwort": "Zeitangabe",
+      "diagnoseId": "adverbial",
+      "feedback": "Eine Zeitangabe antwortete auf «wann?». Hier geht es um eine Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der Satz einteilig oder mehrteilig?\n\nWeil der Ofen heiss war, ging es schnell.",
+    "optionen": [
+     "mehrteilig, mit zwei Personalformen",
+     "einteilig, mit einer Personalform",
+     "mehrteilig, mit drei Personalformen",
+     "einteilig, aber mit zwei Subjekten"
+    ],
+    "loesung": [
+     "mehrteilig, mit zwei Personalformen"
+    ],
+    "erklaerung": "«war» und «ging» sind zwei Personalformen; der Satz besteht aus einem Nebensatz und einem Hauptsatz.",
+    "fehler": [
+     {
+      "antwort": "einteilig, mit einer Personalform",
+      "diagnoseId": "nebensatz_uebersehen",
+      "feedback": "Der Teil mit «weil» hat sein eigenes gebeugtes Verb: «war»."
+     },
+     {
+      "antwort": "mehrteilig, mit drei Personalformen",
+      "diagnoseId": "zu_viel",
+      "feedback": "Es sind genau zwei Personalformen: «war» im Nebensatz und «ging» im Hauptsatz."
+     },
+     {
+      "antwort": "einteilig, aber mit zwei Subjekten",
+      "diagnoseId": "begriff",
+      "feedback": "Sobald zwei Personalformen im Satz stehen, ist er mehrteilig."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in einen mehrteiligen Satz um:\n\nTrotz des Regens blieb der Anlass draussen.",
+    "optionen": [
+     "Obwohl es regnete, blieb der Anlass draussen.",
+     "Weil es regnete, blieb der Anlass draussen.",
+     "Es regnete und der Anlass blieb draussen.",
+     "Nachdem es regnete, blieb der Anlass draussen."
+    ],
+    "loesung": [
+     "Obwohl es regnete, blieb der Anlass draussen."
+    ],
+    "erklaerung": "«Trotz» drückt einen Gegensatz aus; die passende Konjunktion ist «obwohl».",
+    "fehler": [
+     {
+      "antwort": "Weil es regnete, blieb der Anlass draussen.",
+      "diagnoseId": "grund",
+      "feedback": "«Weil» nennt einen Grund. «Trotz» sagt aber, dass etwas GEGEN die Erwartung geschieht."
+     },
+     {
+      "antwort": "Es regnete und der Anlass blieb draussen.",
+      "diagnoseId": "reihung",
+      "feedback": "«Und» reiht bloss auf und zeigt den Gegensatz nicht."
+     },
+     {
+      "antwort": "Nachdem es regnete, blieb der Anlass draussen.",
+      "diagnoseId": "zeit",
+      "feedback": "«Nachdem» ordnet zeitlich ein, statt den Gegensatz zu benennen."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in einen mehrteiligen Satz um:\n\nNach der Ankunft der Kundschaft wurde es eng.",
+    "optionen": [
+     "Nachdem die Kundschaft angekommen war, wurde es eng.",
+     "Weil die Kundschaft ankam, wurde es eng.",
+     "Obwohl die Kundschaft ankam, wurde es eng.",
+     "Damit die Kundschaft ankam, wurde es eng."
+    ],
+    "loesung": [
+     "Nachdem die Kundschaft angekommen war, wurde es eng."
+    ],
+    "erklaerung": "«Nach» ist eine Zeitpräposition; die passende Konjunktion ist «nachdem». Die Vorzeitigkeit verlangt das Plusquamperfekt.",
+    "fehler": [
+     {
+      "antwort": "Weil die Kundschaft ankam, wurde es eng.",
+      "diagnoseId": "grund",
+      "feedback": "«Weil» nennt einen Grund. Die Präposition «nach» ordnet aber zeitlich ein."
+     },
+     {
+      "antwort": "Obwohl die Kundschaft ankam, wurde es eng.",
+      "diagnoseId": "gegensatz",
+      "feedback": "«Obwohl» macht einen Gegensatz auf, den der Ausgangssatz nicht hat."
+     },
+     {
+      "antwort": "Damit die Kundschaft ankam, wurde es eng.",
+      "diagnoseId": "absicht",
+      "feedback": "«Damit» nennt eine Absicht — das ergibt hier keinen Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied steht am Satzanfang?\n\nSeit dem Frühling arbeitet sie hier.",
+    "optionen": [
+     "eine Zeitangabe",
+     "das Subjekt",
+     "ein Akkusativobjekt",
+     "das Prädikat"
+    ],
+    "loesung": [
+     "eine Zeitangabe"
+    ],
+    "erklaerung": "«Seit dem Frühling» antwortet auf «seit wann?» und ist eine Zeitangabe (adverbiale Bestimmung).",
+    "fehler": [
+     {
+      "antwort": "das Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie» und steht hier hinter dem Verb."
+     },
+     {
+      "antwort": "ein Akkusativobjekt",
+      "diagnoseId": "objekt",
+      "feedback": "Ein Akkusativobjekt gibt es in diesem Satz nicht."
+     },
+     {
+      "antwort": "das Prädikat",
+      "diagnoseId": "verb",
+      "feedback": "Das Prädikat ist «arbeitet» und steht an zweiter Stelle im Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gruppe ist eine Präpositionalgruppe?\n\nSie stellte den Kaffee auf den Tresen.",
+    "optionen": [
+     "auf den Tresen",
+     "den Kaffee",
+     "sie",
+     "stellte"
+    ],
+    "loesung": [
+     "auf den Tresen"
+    ],
+    "erklaerung": "Eine Präpositionalgruppe beginnt mit einer Präposition — hier «auf».",
+    "fehler": [
+     {
+      "antwort": "den Kaffee",
+      "diagnoseId": "nominalgruppe",
+      "feedback": "«Den Kaffee» ist eine Nominalgruppe im Akkusativ, ohne Präposition."
+     },
+     {
+      "antwort": "sie",
+      "diagnoseId": "pronomen",
+      "feedback": "«Sie» ist ein Pronomen und bildet allein das Subjekt."
+     },
+     {
+      "antwort": "stellte",
+      "diagnoseId": "verb",
+      "feedback": "«Stellte» ist die Personalform des Verbs."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist einteilig?",
+    "optionen": [
+     "Um zwölf war der Andrang endlich vorbei.",
+     "Als es zwölf schlug, war der Andrang vorbei.",
+     "Der Andrang war vorbei, und sie setzte sich.",
+     "Sie setzte sich, weil der Andrang vorbei war."
+    ],
+    "loesung": [
+     "Um zwölf war der Andrang endlich vorbei."
+    ],
+    "erklaerung": "Nur eine Personalform («war») — also ein einteiliger Satz, auch wenn er mehrere Satzglieder hat.",
+    "fehler": [
+     {
+      "antwort": "Als es zwölf schlug, war der Andrang vorbei.",
+      "diagnoseId": "nebensatz",
+      "feedback": "Hier stehen zwei Personalformen: «schlug» und «war»."
+     },
+     {
+      "antwort": "Der Andrang war vorbei, und sie setzte sich.",
+      "diagnoseId": "reihung",
+      "feedback": "Zwei Hauptsätze mit «und» sind zusammen ein mehrteiliger Satz."
+     },
+     {
+      "antwort": "Sie setzte sich, weil der Andrang vorbei war.",
+      "diagnoseId": "nebensatz_zwei",
+      "feedback": "«setzte» und «war» sind zwei Personalformen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nGestern half ihr niemand.",
+    "optionen": [
+     "vier",
+     "drei",
+     "zwei",
+     "fünf"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Gestern» ist die Zeitangabe, «half» das Prädikat, «ihr» das Dativobjekt und «niemand» das Subjekt — vier Satzglieder, hier zufällig auch vier Wörter.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "eines_uebersehen",
+      "feedback": "Vier Glieder sind es: Zeitangabe, Prädikat, Dativobjekt und Subjekt. Das Prädikat zählt mit."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Neben Subjekt und Prädikat stehen noch das Dativobjekt «ihr» und die Zeitangabe «gestern»."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "zu_viel",
+      "feedback": "Der Satz hat nur vier Wörter — mehr als vier Satzglieder sind gar nicht möglich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied fehlt in diesem Satz?\n\n______ öffnete um sechs Uhr die Bäckerei.",
+    "optionen": [
+     "das Subjekt",
+     "das Prädikat",
+     "das Akkusativobjekt",
+     "die Zeitangabe"
+    ],
+    "loesung": [
+     "das Subjekt"
+    ],
+    "erklaerung": "Das gebeugte Verb, die Zeitangabe und das Akkusativobjekt sind da. Es fehlt, WER öffnet — also das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "das Prädikat",
+      "diagnoseId": "verb",
+      "feedback": "Das Prädikat ist «öffnete» und steht bereits im Satz."
+     },
+     {
+      "antwort": "das Akkusativobjekt",
+      "diagnoseId": "objekt",
+      "feedback": "«Die Bäckerei» ist das Akkusativobjekt und steht da."
+     },
+     {
+      "antwort": "die Zeitangabe",
+      "diagnoseId": "adverbial",
+      "feedback": "«Um sechs Uhr» ist die Zeitangabe und fehlt nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo endet das erste Satzglied?\n\nDer Pressesprecher der Bäckerei informierte gestern alle Angestellten.",
+    "optionen": [
+     "nach «Bäckerei»",
+     "nach «Pressesprecher»",
+     "nach «informierte»",
+     "nach «gestern»"
+    ],
+    "loesung": [
+     "nach «Bäckerei»"
+    ],
+    "erklaerung": "«Der Pressesprecher der Bäckerei» verschiebt sich als Ganzes und ist damit EIN Satzglied.",
+    "fehler": [
+     {
+      "antwort": "nach «Pressesprecher»",
+      "diagnoseId": "zu_frueh",
+      "feedback": "Der Genitiv «der Bäckerei» gehört zum Subjekt und verschiebt sich mit."
+     },
+     {
+      "antwort": "nach «informierte»",
+      "diagnoseId": "verb",
+      "feedback": "Das Verb ist ein eigenes Satzglied und beginnt erst nach dem Subjekt."
+     },
+     {
+      "antwort": "nach «gestern»",
+      "diagnoseId": "zu_spaet",
+      "feedback": "«Gestern» ist eine eigene Zeitangabe und gehört nicht zum Subjekt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Satzglieder und Wortgruppen bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-satzarten",
+  "lernzielId": "DSTG.5.04",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "5.04",
+   "5.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein einteiliger Satz hat genau eine Personalform.",
+   "Ein mehrteiliger Satz hat mehrere und damit mehrere Teilsätze.",
+   "Eine Präpositionalgruppe lässt sich oft in einen Nebensatz umformen."
+  ],
+  "loesungsweg": [
+   "Die Personalformen zählen.",
+   "Die Teilsätze abgrenzen.",
+   "Beim Umformen die Präposition durch die passende Konjunktion ersetzen.",
+   "Das Nomen zum Verb machen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ist der Satz einteilig oder mehrteilig?\n\nUm sechs Uhr öffnete sie den Laden.",
+    "optionen": [
+     "einteilig",
+     "mehrteilig"
+    ],
+    "loesung": [
+     "einteilig"
+    ],
+    "erklaerung": "Es gibt nur eine Personalform: «öffnete».",
+    "fehler": [
+     {
+      "antwort": "mehrteilig",
+      "diagnoseId": "zaehlung",
+      "feedback": "«Um sechs Uhr» ist eine Zeitangabe, kein eigener Teilsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der Satz einteilig oder mehrteilig?\n\nSie öffnete den Laden, und er heizte den Ofen.",
+    "optionen": [
+     "mehrteilig",
+     "einteilig"
+    ],
+    "loesung": [
+     "mehrteilig"
+    ],
+    "erklaerung": "Zwei Personalformen, «öffnete» und «heizte», ergeben zwei Teilsätze.",
+    "fehler": [
+     {
+      "antwort": "einteilig",
+      "diagnoseId": "zaehlung",
+      "feedback": "Zwei gebeugte Verben bedeuten zwei Teilsätze."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der Satz einteilig oder mehrteilig?\n\nWeil der Ofen kalt war, dauerte alles länger.",
+    "optionen": [
+     "mehrteilig",
+     "einteilig"
+    ],
+    "loesung": [
+     "mehrteilig"
+    ],
+    "erklaerung": "«war» im Nebensatz und «dauerte» im Hauptsatz ergeben zwei Teilsätze.",
+    "fehler": [
+     {
+      "antwort": "einteilig",
+      "diagnoseId": "zaehlung",
+      "feedback": "Ein Nebensatz ist ein eigener Teilsatz. Richtig ist «mehrteilig»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ist der Satz einteilig oder mehrteilig?\n\nTrotz des Andrangs blieb sie freundlich.",
+    "optionen": [
+     "einteilig",
+     "mehrteilig"
+    ],
+    "loesung": [
+     "einteilig"
+    ],
+    "erklaerung": "«Trotz des Andrangs» ist eine Präpositionalgruppe ohne eigene Personalform.",
+    "fehler": [
+     {
+      "antwort": "mehrteilig",
+      "diagnoseId": "zaehlung",
+      "feedback": "Eine Präpositionalgruppe bildet keinen Teilsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Teilsätze hat dieser Satz?\n\nAls der Bus kam, war sie schon gegangen, weil sie nicht warten wollte.",
+    "optionen": [
+     "drei",
+     "zwei",
+     "vier",
+     "einer"
+    ],
+    "loesung": [
+     "drei"
+    ],
+    "erklaerung": "«kam», «war gegangen» und «wollte» — drei Personalformen, drei Teilsätze.",
+    "fehler": [
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zaehlung",
+      "feedback": "Auch der Satz mit «weil» ist ein eigener Teilsatz."
+     },
+     {
+      "antwort": "vier",
+      "diagnoseId": "zaehlung",
+      "feedback": "«gegangen» gehört zu «war» und bildet keinen eigenen Teilsatz."
+     },
+     {
+      "antwort": "einer",
+      "diagnoseId": "zaehlung",
+      "feedback": "Der Satz hat mehrere gebeugte Verben. Richtig ist «drei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme um: Präposition zu Konjunktion.\n\nWegen des Regens blieb sie zu Hause.",
+    "optionen": [
+     "Weil es regnete, blieb sie zu Hause.",
+     "Obwohl es regnete, blieb sie zu Hause.",
+     "Nachdem es regnete, blieb sie zu Hause.",
+     "Damit es regnete, blieb sie zu Hause."
+    ],
+    "loesung": [
+     "Weil es regnete, blieb sie zu Hause."
+    ],
+    "erklaerung": "«Wegen» nennt einen Grund; die passende Konjunktion ist «weil».",
+    "fehler": [
+     {
+      "antwort": "Obwohl es regnete, blieb sie zu Hause.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«obwohl» nennte einen Gegensatz. Richtig ist «Weil es regnete, blieb sie zu Hause.»."
+     },
+     {
+      "antwort": "Nachdem es regnete, blieb sie zu Hause.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«nachdem» nennte eine Reihenfolge. Richtig ist «Weil es regnete, blieb sie zu Hause.»."
+     },
+     {
+      "antwort": "Damit es regnete, blieb sie zu Hause.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«damit» nennte eine Absicht. Richtig ist «Weil es regnete, blieb sie zu Hause.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme um: Präposition zu Konjunktion.\n\nTrotz der Kälte fuhr sie mit dem Velo.",
+    "optionen": [
+     "Obwohl es kalt war, fuhr sie mit dem Velo.",
+     "Weil es kalt war, fuhr sie mit dem Velo.",
+     "Sobald es kalt war, fuhr sie mit dem Velo.",
+     "Damit es kalt war, fuhr sie mit dem Velo."
+    ],
+    "loesung": [
+     "Obwohl es kalt war, fuhr sie mit dem Velo."
+    ],
+    "erklaerung": "«Trotz» nennt einen Gegensatz; die passende Konjunktion ist «obwohl».",
+    "fehler": [
+     {
+      "antwort": "Weil es kalt war, fuhr sie mit dem Velo.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«weil» kehrte die Aussage um. Richtig ist «Obwohl es kalt war, fuhr sie mit dem Velo.»."
+     },
+     {
+      "antwort": "Sobald es kalt war, fuhr sie mit dem Velo.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«sobald» nennte einen Zeitpunkt. Richtig ist «Obwohl es kalt war, fuhr sie mit dem Velo.»."
+     },
+     {
+      "antwort": "Damit es kalt war, fuhr sie mit dem Velo.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«damit» nennte eine Absicht. Richtig ist «Obwohl es kalt war, fuhr sie mit dem Velo.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme um: Präposition zu Konjunktion.\n\nNach dem Abrechnen ging sie nach Hause.",
+    "optionen": [
+     "Nachdem sie abgerechnet hatte, ging sie nach Hause.",
+     "Bevor sie abgerechnet hatte, ging sie nach Hause.",
+     "Weil sie abgerechnet hatte, ging sie nach Hause.",
+     "Während sie abrechnete, ging sie nach Hause."
+    ],
+    "loesung": [
+     "Nachdem sie abgerechnet hatte, ging sie nach Hause."
+    ],
+    "erklaerung": "«Nach» nennt die Reihenfolge; die passende Konjunktion ist «nachdem».",
+    "fehler": [
+     {
+      "antwort": "Bevor sie abgerechnet hatte, ging sie nach Hause.",
+      "diagnoseId": "reihenfolge",
+      "feedback": "«bevor» kehrte die Reihenfolge um. Richtig ist «Nachdem sie abgerechnet hatte, ging sie nach Hause.»."
+     },
+     {
+      "antwort": "Weil sie abgerechnet hatte, ging sie nach Hause.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«weil» nennte einen Grund. Richtig ist «Nachdem sie abgerechnet hatte, ging sie nach Hause.»."
+     },
+     {
+      "antwort": "Während sie abrechnete, ging sie nach Hause.",
+      "diagnoseId": "zeit",
+      "feedback": "«während» hiesse gleichzeitig. Richtig ist «Nachdem sie abgerechnet hatte, ging sie nach Hause.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme um: Präposition zu Konjunktion.\n\nBei starkem Andrang hilft der Chef mit.",
+    "optionen": [
+     "Wenn der Andrang stark ist, hilft der Chef mit.",
+     "Obwohl der Andrang stark ist, hilft der Chef mit.",
+     "Weil der Andrang stark ist, hilft der Chef mit.",
+     "Bevor der Andrang stark ist, hilft der Chef mit."
+    ],
+    "loesung": [
+     "Wenn der Andrang stark ist, hilft der Chef mit."
+    ],
+    "erklaerung": "«Bei» drückt hier eine Bedingung aus; die passende Konjunktion ist «wenn».",
+    "fehler": [
+     {
+      "antwort": "Obwohl der Andrang stark ist, hilft der Chef mit.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«obwohl» nennte einen Gegensatz. Richtig ist «Wenn der Andrang stark ist, hilft der Chef mit.»."
+     },
+     {
+      "antwort": "Weil der Andrang stark ist, hilft der Chef mit.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«weil» nennte einen einmaligen Grund, nicht eine Regel."
+     },
+     {
+      "antwort": "Bevor der Andrang stark ist, hilft der Chef mit.",
+      "diagnoseId": "zeit",
+      "feedback": "«bevor» verschöbe den Zeitpunkt. Richtig ist «Wenn der Andrang stark ist, hilft der Chef mit.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme um: Konjunktion zu Präposition.\n\nWährend sie arbeitete, war der Laden voll.",
+    "optionen": [
+     "Während ihrer Arbeit war der Laden voll.",
+     "Wegen ihrer Arbeit war der Laden voll.",
+     "Trotz ihrer Arbeit war der Laden voll.",
+     "Nach ihrer Arbeit war der Laden voll."
+    ],
+    "loesung": [
+     "Während ihrer Arbeit war der Laden voll."
+    ],
+    "erklaerung": "«Während» bleibt und steht dann mit dem Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Wegen ihrer Arbeit war der Laden voll.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«wegen» nennte einen Grund, gemeint ist die Zeit."
+     },
+     {
+      "antwort": "Trotz ihrer Arbeit war der Laden voll.",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«trotz» nennte einen Gegensatz. Richtig ist «Während ihrer Arbeit war der Laden voll.»."
+     },
+     {
+      "antwort": "Nach ihrer Arbeit war der Laden voll.",
+      "diagnoseId": "zeit",
+      "feedback": "«nach» verschöbe den Zeitpunkt. Richtig ist «Während ihrer Arbeit war der Laden voll.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist einteilig?",
+    "optionen": [
+     "Am Sonntag beginnt ihre Schicht um sechs.",
+     "Sie kam früh, weil es dann ruhig ist.",
+     "Er heizte den Ofen, und sie öffnete die Kasse.",
+     "Als sie aufschloss, war es noch dunkel."
+    ],
+    "loesung": [
+     "Am Sonntag beginnt ihre Schicht um sechs."
+    ],
+    "erklaerung": "Nur dieser Satz hat eine einzige Personalform: «beginnt».",
+    "fehler": [
+     {
+      "antwort": "Sie kam früh, weil es dann ruhig ist.",
+      "diagnoseId": "zaehlung",
+      "feedback": "Der Nebensatz mit «weil» ist ein zweiter Teilsatz."
+     },
+     {
+      "antwort": "Er heizte den Ofen, und sie öffnete die Kasse.",
+      "diagnoseId": "zaehlung",
+      "feedback": "Zwei Hauptsätze ergeben zwei Teilsätze. Richtig ist «Am Sonntag beginnt ihre Schicht um sechs.»."
+     },
+     {
+      "antwort": "Als sie aufschloss, war es noch dunkel.",
+      "diagnoseId": "zaehlung",
+      "feedback": "Der Nebensatz mit «als» ist ein eigener Teilsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion ersetzt «wegen» in einem Nebensatz?",
+    "optionen": [
+     "weil",
+     "obwohl",
+     "damit",
+     "bevor"
+    ],
+    "loesung": [
+     "weil"
+    ],
+    "erklaerung": "«wegen» nennt einen Grund, und der Grund steht im Nebensatz mit «weil».",
+    "fehler": [
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«obwohl» steht für «trotz». Richtig ist «weil»."
+     },
+     {
+      "antwort": "damit",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«damit» steht für eine Absicht, etwa «zur»."
+     },
+     {
+      "antwort": "bevor",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«bevor» steht für «vor». Richtig ist «weil»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Einteilige und mehrteilige Sätze, Präposition und Konjunktion",
+  "status": "review"
+ },
+ {
+  "templateId": "tg-spr-kommas",
+  "lernzielId": "DSTG.5.06",
+  "fach": "sprache-tg",
+  "unterthemen": [
+   "5.06",
+   "5.07",
+   "5.08"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Zwischen Haupt- und Nebensatz steht immer ein Komma.",
+   "Ein Nebensatz erkennt man daran, dass das gebeugte Verb ans Ende rutscht.",
+   "Ein Einschub wird von zwei Kommas eingeschlossen."
+  ],
+  "loesungsweg": [
+   "Alle gebeugten Verben suchen.",
+   "Die Grenzen zwischen den Teilsätzen markieren.",
+   "Aufzählungen durchgehen: zwischen den Gliedern steht ein Komma, vor «und» keines.",
+   "Einschübe auf beiden Seiten schliessen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze die Kommas.\n\nSie kaufte Brot Gipfeli und einen Kaffee.",
+    "optionen": null,
+    "loesung": [
+     "Sie kaufte Brot, Gipfeli und einen Kaffee."
+    ],
+    "erklaerung": "Zwischen den Gliedern einer Aufzählung steht ein Komma, vor dem abschliessenden «und» keines.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nAls der Ofen heiss war schob er das Blech hinein.",
+    "optionen": null,
+    "loesung": [
+     "Als der Ofen heiss war, schob er das Blech hinein."
+    ],
+    "erklaerung": "Der Nebensatz mit «als» wird vom Hauptsatz durch ein Komma getrennt. Das Verb «war» steht am Ende des Nebensatzes.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nDas Brot das sie suchte gab es nicht mehr.",
+    "optionen": null,
+    "loesung": [
+     "Das Brot, das sie suchte, gab es nicht mehr."
+    ],
+    "erklaerung": "Der Relativsatz «das sie suchte» ist ein Einschub und wird von zwei Kommas eingeschlossen.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nSie blieb ruhig obwohl der Andrang gross war.",
+    "optionen": null,
+    "loesung": [
+     "Sie blieb ruhig, obwohl der Andrang gross war."
+    ],
+    "erklaerung": "«obwohl» leitet einen Nebensatz ein; davor steht ein Komma.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nEr stellte zwei Tassen hin setzte sich und schwieg.",
+    "optionen": null,
+    "loesung": [
+     "Er stellte zwei Tassen hin, setzte sich und schwieg."
+    ],
+    "erklaerung": "Drei gereihte Verbgruppen: zwischen den ersten beiden ein Komma, vor dem abschliessenden «und» keines.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nMarisa die seit drei Wochen hier arbeitet kennt die Abläufe.",
+    "optionen": null,
+    "loesung": [
+     "Marisa, die seit drei Wochen hier arbeitet, kennt die Abläufe."
+    ],
+    "erklaerung": "Der Relativsatz steht als Einschub mitten im Hauptsatz und braucht auf beiden Seiten ein Komma.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nWenn du früh kommst ist es noch ruhig.",
+    "optionen": null,
+    "loesung": [
+     "Wenn du früh kommst, ist es noch ruhig."
+    ],
+    "erklaerung": "Steht der Nebensatz vorn, folgt das Komma vor dem Hauptsatz.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nSie versuchte das Brot zu finden und fragte nach.",
+    "optionen": null,
+    "loesung": [
+     "Sie versuchte, das Brot zu finden, und fragte nach."
+    ],
+    "erklaerung": "Die infinitivische Verbgruppe mit «zu» wird hier durch Kommas abgetrennt, weil sie als Einschub steht.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nDer Kaffee war heiss das Gespräch kurz.",
+    "optionen": null,
+    "loesung": [
+     "Der Kaffee war heiss, das Gespräch kurz."
+    ],
+    "erklaerung": "Zwei gereihte Aussagen ohne Bindewort werden durch ein Komma getrennt.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nWeil der Bus vorbeifuhr blieb sie sitzen und trank aus.",
+    "optionen": null,
+    "loesung": [
+     "Weil der Bus vorbeifuhr, blieb sie sitzen und trank aus."
+    ],
+    "erklaerung": "Nach dem Nebensatz steht ein Komma; die beiden gereihten Verbgruppen im Hauptsatz sind durch «und» verbunden und brauchen keines.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nHerr Gwerder der schon seit vier Uhr backte sagte nichts.",
+    "optionen": null,
+    "loesung": [
+     "Herr Gwerder, der schon seit vier Uhr backte, sagte nichts."
+    ],
+    "erklaerung": "Der Relativsatz ist ein Einschub zwischen Subjekt und Prädikat.",
+    "fehler": []
+   },
+   {
+    "stamm": "Setze die Kommas.\n\nSie packte ein wechselte das Geld und rief die nächste Nummer auf.",
+    "optionen": null,
+    "loesung": [
+     "Sie packte ein, wechselte das Geld und rief die nächste Nummer auf."
+    ],
+    "erklaerung": "Drei gereihte Verbgruppen: ein Komma nach der ersten, keines vor dem abschliessenden «und».",
+    "fehler": []
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsstoff Wortschatz, Grammatik und Zeichensetzung, sowie die Aufgabentypen der Sprachprüfungen 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Kommas bei Aufzählungen, Nebensätzen und Einschüben",
+  "status": "review"
+ }
+]

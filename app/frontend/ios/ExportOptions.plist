@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Fuer TestFlight und den Laden ist es dieselbe Ausfuhr: app-store-connect. -->
+	<key>method</key>
+	<string>app-store-connect</string>
+	<key>teamID</key>
+	<string>MP66YWAZ26</string>
+	<!-- Xcode holt Zertifikat und Profil selbst, sobald ein Konto hinterlegt ist. -->
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<!-- Symbole mitschicken: Ohne sie sind Abstuerzberichte aus TestFlight
+	     unlesbar, und genau die braucht man beim Test mit echten Geraeten. -->
+	<key>uploadSymbols</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+</dict>
+</plist>

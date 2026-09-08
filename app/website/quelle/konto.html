@@ -1,0 +1,65 @@
+<!--
+  Anmelden.
+
+  Drei Wege, gleichwertig — dieselben wie in der App (§4.8). Auf dem
+  Web kommt ein vierter dazu, der in der App keinen Sinn hätte: einen
+  Code einlösen. So gelangt ein Kind, dessen Schule Lizenzen gekauft
+  hat, in einem Schritt hinein, ohne Konto und ohne E-Mail-Adresse.
+-->
+<section class="band schmal">
+  <div class="innen lese">
+    <p class="eyebrow">Konto</p>
+    <h1>Anmelden</h1>
+    <p class="bd" style="margin-top:10px">
+      Der Fortschritt hängt am Konto, nicht am Gerät. Wer sich hier mit
+      demselben Konto anmeldet wie in der App, findet denselben Stand vor —
+      dieselben Themen, dasselbe Fehlerarchiv, dieselben Aufgaben.
+    </p>
+
+    <div class="karte" style="margin-top:26px">
+      <div class="stapel">
+        <button class="btn bapple voll" id="mitApple">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"
+               aria-hidden="true"><path d="M17.05 12.5c0-2.4 1.96-3.55 2.05-3.6-1.12-1.63-2.86-1.86-3.48-1.88-1.48-.15-2.89.87-3.64.87s-1.91-.85-3.14-.83c-1.62.02-3.11.94-3.94 2.39-1.68 2.92-.43 7.24 1.21 9.61.8 1.16 1.76 2.46 3.02 2.41 1.21-.05 1.67-.78 3.14-.78s1.88.78 3.15.76c1.3-.02 2.13-1.18 2.93-2.35.92-1.35 1.3-2.65 1.32-2.72-.03-.01-2.53-.97-2.62-3.88zM14.7 4.9c.67-.81 1.12-1.94.99-3.07-.96.04-2.12.64-2.81 1.45-.62.72-1.16 1.87-1.02 2.97 1.07.08 2.17-.54 2.84-1.35z"/></svg>
+          Mit Apple anmelden</button>
+        <button class="btn bgoogle voll" id="mitGoogle">
+          <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="#4285F4" d="M23 12.27c0-.85-.08-1.67-.22-2.45H12v4.64h6.17a5.27 5.27 0 01-2.29 3.46v2.88h3.7C21.74 18.8 23 15.8 23 12.27z"/>
+            <path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.79l-3.71-2.88c-1.03.69-2.35 1.1-3.89 1.1-2.99 0-5.52-2.02-6.43-4.73H1.73v2.97A11.5 11.5 0 0012 23.5z"/>
+            <path fill="#FBBC05" d="M5.57 14.2a6.9 6.9 0 010-4.4V6.83H1.73a11.5 11.5 0 000 10.34l3.84-2.97z"/>
+            <path fill="#EA4335" d="M12 5.07c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.61 15.1.5 12 .5A11.5 11.5 0 001.73 6.83L5.57 9.8C6.48 7.09 9.01 5.07 12 5.07z"/></svg>
+          Mit Google anmelden</button>
+        <button class="btn bt voll" id="alsGast">Ohne Konto weiterlernen</button>
+      </div>
+      <p class="sm" style="margin-top:16px">
+        Ohne Konto bleibt der Fortschritt <b>auf diesem Gerät</b>. Er wandert
+        mit, sobald du später ein Konto verknüpfst — aber er kommt nicht von
+        selbst auf dein Telefon.
+      </p>
+    </div>
+
+    <hr>
+
+    <div class="karte">
+      <h3>Code einlösen</h3>
+      <p class="bd14" style="margin-top:6px">
+        Von der Schule oder von den Eltern. Ein Code schaltet alle Fächer
+        frei — ein Konto brauchst du dafür nicht.
+      </p>
+      <form id="formCode" style="margin-top:18px" novalidate>
+        <label class="feld"><span>Code</span>
+          <input name="code" required autocomplete="off" spellcheck="false"
+                 placeholder="SSW-XXXX-XXXX"
+                 style="font:600 16px 'Bitter',Georgia,serif;letter-spacing:.08em;
+                        text-transform:uppercase"></label>
+        <button class="btn bp voll" type="submit">Einlösen</button>
+      </form>
+      <div id="codeMeldung" style="margin-top:14px"></div>
+    </div>
+
+    <div class="hinweis ruhig" style="margin-top:22px">{{icon:schloss}}
+      <div>Es gibt keine Anmeldung mit E-Mail und Passwort — und darum auch
+      keine vergessenen Passwörter, kein Zurücksetzen und keine
+      Passwortdatenbank, die jemand stehlen könnte.</div></div>
+  </div>
+</section>

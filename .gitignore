@@ -1,0 +1,50 @@
+# ── Bauergebnisse ────────────────────────────────────────────────────
+# Sie entstehen aus dem Quelltext neu und machen das Repo um Hunderte
+# von Megabyte groesser. `app/frontend/build/` enthaelt ausserdem
+# Dateien ueber 100 MB — GitHub weist die zurueck.
+app/frontend/build/
+app/frontend/.dart_tool/
+app/frontend/.flutter-plugins-dependencies
+app/backend/build/
+app/backend/.gradle/
+.gradle/
+build/
+
+# ── Abhaengigkeiten, die ein Werkzeug wiederherstellt ────────────────
+app/frontend/ios/Pods/
+app/frontend/ios/Flutter/ephemeral/
+app/frontend/ios/.symlinks/
+app/frontend/android/.gradle/
+app/frontend/android/local.properties
+**/xcuserdata/
+**/DerivedData/
+
+# ── Geheimnisse ──────────────────────────────────────────────────────
+# .env traegt Datenbankpasswort, JWT-Geheimnis und die Ladenschluessel.
+# Die Vorlage dazu steht in app/start/umgebung.beispiel und gehoert
+# sehr wohl ins Repo.
+.env
+.env.*
+!app/start/umgebung.beispiel
+*.p8
+*.p12
+*.keystore
+*.jks
+app/frontend/android/key.properties
+
+# ── Quellen der Kantone ──────────────────────────────────────────────
+# 2,0 GB alte Pruefungen, Lehrplaene und ein Hoertext als WAV. Sie sind
+# laut CLAUDE.md §1 Referenz, kein Build-Input: Kein Codepfad liest sie,
+# und der Server braucht sie nicht. Im Repo wuerden sie jeden Klon und
+# jeden Bau auf DigitalOcean um Minuten verlaengern.
+#
+# ACHTUNG: Diese Dateien sind damit NICHT gesichert. Sie gehoeren in
+# eine eigene Sicherung (externe Platte oder Cloud-Ordner) — sie sind
+# die Grundlage jeder Aufgabe im Bestand und nicht wiederbeschaffbar.
+kantone/
+
+# ── macOS und Editoren ───────────────────────────────────────────────
+.DS_Store
+*.swp
+.idea/
+*.iml

@@ -1,0 +1,85 @@
+{
+ "fach": "kopfrechnen-gr",
+ "name": "Fixierendes Kopfrechnen",
+ "pruefung": "Aufnahmeprüfung 1G der Bündner Mittelschulen",
+ "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden, nach Armin Kuratle, sowie die Prüfungsbeispiele 1G",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "K",
+   "name": "Rechentricks",
+   "punkte": 20,
+   "anteil": 100,
+   "beschreibung": "Die Aufgaben sind so gebaut, dass ein Trick zum Ziel führt. Zwischenergebnisse aufzuschreiben ist an der Prüfung untersagt — geübt wird darum das Verfahren, nicht das Rechnen auf Papier.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Auf glatte Zehner ergänzen und zurückrechnen",
+     "lernzielId": "KGR.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Verdoppeln und halbieren",
+     "lernzielId": "KGR.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Mit 5, 25 und 50 multiplizieren",
+     "lernzielId": "KGR.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Mit 9, 19 und 99 multiplizieren",
+     "lernzielId": "KGR.1.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.05",
+     "name": "Zerlegen in Summanden",
+     "lernzielId": "KGR.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Distributivgesetz im Kopf anwenden",
+     "lernzielId": "KGR.1.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.05"
+     ]
+    },
+    {
+     "code": "1.07",
+     "name": "Dividieren durch Zerlegen",
+     "lernzielId": "KGR.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Prozente im Kopf: 10 %, 25 %, 50 %",
+     "lernzielId": "KGR.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Überschlagen und Grössenordnung prüfen",
+     "lernzielId": "KGR.1.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "Reihenfolge geschickt wählen",
+     "lernzielId": "KGR.1.10",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

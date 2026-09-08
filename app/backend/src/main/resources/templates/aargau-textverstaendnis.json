@@ -1,0 +1,1566 @@
+[
+ {
+  "templateId": "ag-tv-fenster-inhalt",
+  "lernzielId": "DTAG.1.01",
+  "fach": "textverstaendnis-ag",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Der Text folgt einem Zeitverlauf: Anfang, März, Mai, drei Wochen später.",
+   "Achte auf die Wiederholungen — sie tragen die Geschichte.",
+   "Was nicht im Text steht, darf nicht ergänzt werden."
+  ],
+  "loesungsweg": [
+   "Den Text einmal ganz lesen, bevor du antwortest.",
+   "Zu jeder Frage die passende Stelle suchen.",
+   "Die Antwort am Text prüfen.",
+   "Auf die Zeitangaben achten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bringe die Ereignisse in die richtige Reihenfolge. Welches kommt zuerst?",
+    "optionen": [
+     "Die Erzählerin beobachtet die Frau regelmässig.",
+     "Die Frau fehlt drei Tage.",
+     "Die Frau hebt die Hand.",
+     "Die Erzählerin tritt vom Fenster zurück."
+    ],
+    "loesung": [
+     "Die Erzählerin beobachtet die Frau regelmässig."
+    ],
+    "erklaerung": "Der Text beginnt mit der regelmässigen Beobachtung; erst danach kommen das Fehlen im März, die gehobene Hand im Mai und der Rückzug.",
+    "fehler": [
+     {
+      "antwort": "Die Frau fehlt drei Tage.",
+      "diagnoseId": "spaeter",
+      "feedback": "Das geschieht im März, also nach der Zeit der regelmässigen Beobachtung."
+     },
+     {
+      "antwort": "Die Frau hebt die Hand.",
+      "diagnoseId": "noch_spaeter",
+      "feedback": "Das geschieht an einem Dienstag im Mai — am Ende der Geschichte."
+     },
+     {
+      "antwort": "Die Erzählerin tritt vom Fenster zurück.",
+      "diagnoseId": "zuletzt",
+      "feedback": "Das ist die letzte Handlung des Textes, nach der gehobenen Hand."
+     }
+    ]
+   },
+   {
+    "stamm": "Um welche Uhrzeit steht die Frau am Fenster?",
+    "optionen": [
+     "um zwanzig nach sieben",
+     "um sieben Uhr",
+     "um halb acht",
+     "um zwanzig vor sieben"
+    ],
+    "loesung": [
+     "um zwanzig nach sieben"
+    ],
+    "erklaerung": "«Immer um zwanzig nach sieben» — die Zeit steht im ersten Abschnitt und wird am Ende wiederholt.",
+    "fehler": [
+     {
+      "antwort": "um sieben Uhr",
+      "diagnoseId": "ungenau",
+      "feedback": "Die Zeit ist genauer angegeben: zwanzig Minuten nach sieben."
+     },
+     {
+      "antwort": "um halb acht",
+      "diagnoseId": "zehn_minuten",
+      "feedback": "Halb acht wäre 7.30 Uhr, im Text steht 7.20 Uhr."
+     },
+     {
+      "antwort": "um zwanzig vor sieben",
+      "diagnoseId": "richtung",
+      "feedback": "«Nach sieben» heisst später als sieben, nicht früher."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Monat fehlt die Frau drei Tage?",
+    "optionen": [
+     "im März",
+     "im Mai",
+     "im Januar",
+     "im September"
+    ],
+    "loesung": [
+     "im März"
+    ],
+    "erklaerung": "«Im März fehlte sie drei Tage.»",
+    "fehler": [
+     {
+      "antwort": "im Mai",
+      "diagnoseId": "anderer_monat",
+      "feedback": "Im Mai hebt sie die Hand. Das Fehlen war früher."
+     },
+     {
+      "antwort": "im Januar",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Januar kommt im Text nicht vor; genannt werden März und Mai."
+     },
+     {
+      "antwort": "im September",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Auch der September wird nirgends genannt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lange dauert es, bis die Erzählerin wieder ans Fenster geht?",
+    "optionen": [
+     "drei Wochen",
+     "drei Tage",
+     "drei Monate",
+     "einen Morgen"
+    ],
+    "loesung": [
+     "drei Wochen"
+    ],
+    "erklaerung": "«Es dauerte drei Wochen, bis ich wieder ans Fenster ging.»",
+    "fehler": [
+     {
+      "antwort": "drei Tage",
+      "diagnoseId": "verwechselt",
+      "feedback": "Drei Tage fehlte die Frau im März. Die Erzählerin brauchte länger."
+     },
+     {
+      "antwort": "drei Monate",
+      "diagnoseId": "zu_lang",
+      "feedback": "Im Text stehen Wochen, nicht Monate — drei Wochen sind gemeint."
+     },
+     {
+      "antwort": "einen Morgen",
+      "diagnoseId": "zu_kurz",
+      "feedback": "Am nächsten Morgen stand sie zwei Meter weiter hinten — zurück ans Fenster ging sie erst nach drei Wochen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was tut die Erzählerin jeden Morgen?",
+    "optionen": [
+     "Sie steht zur selben Zeit auf und kocht denselben Kaffee.",
+     "Sie geht zuerst einkaufen.",
+     "Sie schreibt auf, was sie sieht.",
+     "Sie ruft eine Freundin an."
+    ],
+    "loesung": [
+     "Sie steht zur selben Zeit auf und kocht denselben Kaffee."
+    ],
+    "erklaerung": "«Ich stand selbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das Haus durch dieselbe Tür.»",
+    "fehler": [
+     {
+      "antwort": "Sie geht zuerst einkaufen.",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Einkaufen ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "Sie schreibt auf, was sie sieht.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Sie beobachtet, aber sie notiert nichts."
+     },
+     {
+      "antwort": "Sie ruft eine Freundin an.",
+      "diagnoseId": "erfunden_drei",
+      "feedback": "Ein Telefon kommt in der Geschichte nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Was hält die Erzählerin von sich selbst, bevor ihr die Ähnlichkeit auffällt?",
+    "optionen": [
+     "Sie hält sich für jemanden, der sein Leben selbst einrichtet.",
+     "Sie hält sich für einsam.",
+     "Sie hält sich für neugierig.",
+     "Sie hält sich für müde."
+    ],
+    "loesung": [
+     "Sie hält sich für jemanden, der sein Leben selbst einrichtet."
+    ],
+    "erklaerung": "«… und hielt mich dabei für jemanden, der sein Leben selbst einrichtet.» Genau dieser Satz wird später widerlegt.",
+    "fehler": [
+     {
+      "antwort": "Sie hält sich für einsam.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Einsamkeit spricht der Text nicht ausdrücklich."
+     },
+     {
+      "antwort": "Sie hält sich für neugierig.",
+      "diagnoseId": "folgerung",
+      "feedback": "Neugierig ist sie zwar, aber der Text sagt etwas anderes über ihr Selbstbild."
+     },
+     {
+      "antwort": "Sie hält sich für müde.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Müdigkeit kommt im Text nicht vor; es geht um ihr Selbstbild."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie hebt die Frau die Hand?",
+    "optionen": [
+     "prüfend, wie um zu sehen, ob es regnet",
+     "winkend zum Gruss",
+     "abwehrend",
+     "um das Fenster zu schliessen"
+    ],
+    "loesung": [
+     "prüfend, wie um zu sehen, ob es regnet"
+    ],
+    "erklaerung": "«Nicht winkend, eher prüfend, so wie man die Hand hebt, um zu sehen, ob es regnet.»",
+    "fehler": [
+     {
+      "antwort": "winkend zum Gruss",
+      "diagnoseId": "ausdruecklich_verneint",
+      "feedback": "Der Text schliesst das ausdrücklich aus: «Nicht winkend.»"
+     },
+     {
+      "antwort": "abwehrend",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Abwehr steht nichts im Text; die Geste ist prüfend beschrieben."
+     },
+     {
+      "antwort": "um das Fenster zu schliessen",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Das Fenster bleibt offen; sie schaut hinüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Was begreift die Erzählerin in diesem Moment?",
+    "optionen": [
+     "dass sie für die Frau dasselbe ist wie die Frau für sie",
+     "dass die Frau sie grüssen will",
+     "dass die Frau umgezogen ist",
+     "dass sie die Frau kennt"
+    ],
+    "loesung": [
+     "dass sie für die Frau dasselbe ist wie die Frau für sie"
+    ],
+    "erklaerung": "«… und begriff, dass ich für sie genau dasselbe war, was sie für mich gewesen war: eine Figur im Fenster gegenüber.»",
+    "fehler": [
+     {
+      "antwort": "dass die Frau sie grüssen will",
+      "diagnoseId": "gruss",
+      "feedback": "Der Text sagt ausdrücklich, dass die Geste kein Winken ist."
+     },
+     {
+      "antwort": "dass die Frau umgezogen ist",
+      "diagnoseId": "erfunden",
+      "feedback": "Die Frau ist noch da — auch drei Wochen später."
+     },
+     {
+      "antwort": "dass sie die Frau kennt",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie kennt nicht einmal ihren Namen; das steht im dritten Abschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie reagiert die Erzählerin auf die gehobene Hand?",
+    "optionen": [
+     "Sie tritt einen Schritt zurück.",
+     "Sie hebt ebenfalls die Hand.",
+     "Sie öffnet das Fenster.",
+     "Sie ruft etwas hinüber."
+    ],
+    "loesung": [
+     "Sie tritt einen Schritt zurück."
+    ],
+    "erklaerung": "«Ich hob die Hand nicht. Ich trat einen Schritt zurück.»",
+    "fehler": [
+     {
+      "antwort": "Sie hebt ebenfalls die Hand.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt genau das Gegenteil: «Ich hob die Hand nicht.»"
+     },
+     {
+      "antwort": "Sie öffnet das Fenster.",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Öffnen des Fensters ist nicht die Rede."
+     },
+     {
+      "antwort": "Sie ruft etwas hinüber.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Gesprochen wird in dieser Geschichte kein Wort."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Personen kommen im Text vor?",
+    "optionen": [
+     "die Erzählerin und die Frau gegenüber",
+     "die Erzählerin, die Frau und eine Nachbarin",
+     "nur die Erzählerin",
+     "die Erzählerin, die Frau und ein Kind"
+    ],
+    "loesung": [
+     "die Erzählerin und die Frau gegenüber"
+    ],
+    "erklaerung": "Es sind genau zwei: die Ich-Erzählerin und die Frau im Haus gegenüber.",
+    "fehler": [
+     {
+      "antwort": "die Erzählerin, die Frau und eine Nachbarin",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine Nachbarin kommt im Text nicht vor; es sind genau zwei Figuren."
+     },
+     {
+      "antwort": "nur die Erzählerin",
+      "diagnoseId": "uebersehen",
+      "feedback": "Die Frau am Fenster gegenüber ist die zweite Figur — und das Thema der Geschichte."
+     },
+     {
+      "antwort": "die Erzählerin, die Frau und ein Kind",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Ein Kind wird nirgends erwähnt; der Text kennt nur zwei Personen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie endet der Text?",
+    "optionen": [
+     "Die Frau steht noch immer am Fenster.",
+     "Die Frau ist verschwunden.",
+     "Die beiden Frauen sprechen miteinander.",
+     "Die Erzählerin zieht um."
+    ],
+    "loesung": [
+     "Die Frau steht noch immer am Fenster."
+    ],
+    "erklaerung": "Der letzte Satz lautet: «Sie war noch da.»",
+    "fehler": [
+     {
+      "antwort": "Die Frau ist verschwunden.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der letzte Satz sagt gerade, dass sie noch da war."
+     },
+     {
+      "antwort": "Die beiden Frauen sprechen miteinander.",
+      "diagnoseId": "erfunden",
+      "feedback": "In der ganzen Geschichte fällt kein Wort zwischen ihnen."
+     },
+     {
+      "antwort": "Die Erzählerin zieht um.",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Von einem Umzug ist nirgends die Rede; sie bleibt in der Wohnung."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse den Kern der Geschichte in einem Satz zusammen.",
+    "optionen": [
+     "Beim Beobachten einer Fremden erkennt die Erzählerin sich selbst.",
+     "Zwei Nachbarinnen werden Freundinnen.",
+     "Eine Frau verschwindet spurlos.",
+     "Eine Erzählerin beschreibt ihren Arbeitsweg."
+    ],
+    "loesung": [
+     "Beim Beobachten einer Fremden erkennt die Erzählerin sich selbst."
+    ],
+    "erklaerung": "Der Wendepunkt ist der Moment, in dem die Erzählerin merkt, dass sie selbst eine Figur im Fenster ist.",
+    "fehler": [
+     {
+      "antwort": "Zwei Nachbarinnen werden Freundinnen.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie sprechen nie miteinander; am Ende zieht sich die Erzählerin zurück."
+     },
+     {
+      "antwort": "Eine Frau verschwindet spurlos.",
+      "diagnoseId": "teilaspekt",
+      "feedback": "Die Frau fehlt drei Tage, ist danach aber wieder da."
+     },
+     {
+      "antwort": "Eine Erzählerin beschreibt ihren Arbeitsweg.",
+      "diagnoseId": "nebensache",
+      "feedback": "Der Weg aus dem Haus wird erwähnt, ist aber nicht das Thema."
+     }
+    ]
+   }
+  ],
+  "text": "Die Frau am Fenster gegenüber\n\nSeit ich in dieser Wohnung lebe, sehe ich sie jeden Morgen. Sie steht am\nFenster im dritten Stock des Hauses gegenüber, eine Tasse in der Hand, und\nschaut auf die Strasse hinunter. Immer um zwanzig nach sieben. Immer dieselbe\nHaltung, den linken Ellbogen auf dem Fenstersims.\n\nAm Anfang fand ich das beruhigend. Später begann es mich zu stören, ohne dass\nich hätte sagen können, warum. Vielleicht war es die Regelmässigkeit. Ich stand\nselbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das\nHaus durch dieselbe Tür — und hielt mich dabei für jemanden, der sein Leben\nselbst einrichtet.\n\nIm März fehlte sie drei Tage. Ich ertappte mich dabei, wie ich am vierten\nMorgen länger als nötig am Fenster stand. Als sie wieder auftauchte, war ich\nerleichtert und ärgerte mich zugleich über diese Erleichterung. Was ging mich\ndiese Frau an? Ich kannte nicht einmal ihren Namen.\n\nAn einem Dienstag im Mai hob sie die Hand. Nicht winkend, eher prüfend, so wie\nman die Hand hebt, um zu sehen, ob es regnet. Aber sie schaute dabei zu mir\nherüber. Ich stand da, die Tasse in der Hand, den linken Ellbogen auf dem\nFenstersims, und begriff, dass ich für sie genau dasselbe war, was sie für mich\ngewesen war: eine Figur im Fenster gegenüber, jeden Morgen um zwanzig nach\nsieben.\n\nIch hob die Hand nicht. Ich trat einen Schritt zurück, und am nächsten Morgen\nstand ich zwei Meter weiter hinten im Zimmer. Es dauerte drei Wochen, bis ich\nwieder ans Fenster ging. Sie war noch da.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Inhalt erfassen und wiedergeben",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-tv-fenster-woerter",
+  "lernzielId": "DTAG.2.01",
+  "fach": "textverstaendnis-ag",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies immer den ganzen Satz, in dem das Wort steht.",
+   "Frage dich, worauf sich ein Wort wie «das» oder «diese» bezieht.",
+   "Bei Bildern: Was wird womit verglichen?"
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Das Wort versuchsweise ersetzen.",
+   "Prüfen, ob der Sinn erhalten bleibt.",
+   "Auf den Zusammenhang achten, nicht auf das Wörterbuch."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "«Ich ertappte mich dabei, wie ich am vierten Morgen länger als nötig am Fenster stand.» Was bedeutet «ertappte mich»?",
+    "optionen": [
+     "Sie bemerkte an sich selbst etwas, das sie nicht beabsichtigt hatte.",
+     "Jemand beobachtete sie dabei.",
+     "Sie erschrak über ein Geräusch.",
+     "Sie machte absichtlich eine Pause."
+    ],
+    "loesung": [
+     "Sie bemerkte an sich selbst etwas, das sie nicht beabsichtigt hatte."
+    ],
+    "erklaerung": "«Sich ertappen» heisst: an sich selbst ein Verhalten bemerken, das man nicht geplant hat — oft ein wenig peinlich.",
+    "fehler": [
+     {
+      "antwort": "Jemand beobachtete sie dabei.",
+      "diagnoseId": "fremdes_ertappen",
+      "feedback": "«Sich ertappen» ist rückbezüglich: Sie bemerkt es selbst."
+     },
+     {
+      "antwort": "Sie erschrak über ein Geräusch.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Geräusch ist nicht die Rede; sie bemerkt es an sich selbst."
+     },
+     {
+      "antwort": "Sie machte absichtlich eine Pause.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Gerade nicht absichtlich — das ist der Kern des Wortes."
+     }
+    ]
+   },
+   {
+    "stamm": "Worauf bezieht sich «das» in «Am Anfang fand ich das beruhigend»?",
+    "optionen": [
+     "auf die tägliche Regelmässigkeit der Frau",
+     "auf die eigene Wohnung",
+     "auf die Tasse Kaffee",
+     "auf die Strasse unten"
+    ],
+    "loesung": [
+     "auf die tägliche Regelmässigkeit der Frau"
+    ],
+    "erklaerung": "Der Abschnitt davor beschreibt, dass die Frau immer zur selben Zeit in derselben Haltung dasteht. Genau darauf zeigt das «das».",
+    "fehler": [
+     {
+      "antwort": "auf die eigene Wohnung",
+      "diagnoseId": "nebensache",
+      "feedback": "Die Wohnung wird nur genannt, um den Blick zu erklären."
+     },
+     {
+      "antwort": "auf die Tasse Kaffee",
+      "diagnoseId": "gegenstand",
+      "feedback": "Die Tasse ist ein Detail der Beschreibung, nicht das, was beruhigt."
+     },
+     {
+      "antwort": "auf die Strasse unten",
+      "diagnoseId": "ort",
+      "feedback": "Die Strasse ist das, worauf die Frau schaut."
+     }
+    ]
+   },
+   {
+    "stamm": "«so wie man die Hand hebt, um zu sehen, ob es regnet» — was leistet dieser Vergleich?",
+    "optionen": [
+     "Er zeigt, dass die Geste nicht als Gruss gemeint ist.",
+     "Er beschreibt das Wetter an diesem Tag.",
+     "Er erklärt, warum die Frau am Fenster steht.",
+     "Er zeigt, dass die Frau friert."
+    ],
+    "loesung": [
+     "Er zeigt, dass die Geste nicht als Gruss gemeint ist."
+    ],
+    "erklaerung": "Der Vergleich hält die Geste in der Schwebe: prüfend, nicht grüssend — und genau daran hängt die ganze Szene.",
+    "fehler": [
+     {
+      "antwort": "Er beschreibt das Wetter an diesem Tag.",
+      "diagnoseId": "woertlich",
+      "feedback": "Der Regen ist im Vergleich, nicht in der Wirklichkeit des Textes."
+     },
+     {
+      "antwort": "Er erklärt, warum die Frau am Fenster steht.",
+      "diagnoseId": "grund",
+      "feedback": "Warum sie dort steht, erfahren wir nie — das bleibt offen."
+     },
+     {
+      "antwort": "Er zeigt, dass die Frau friert.",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Frieren steht nichts; der Vergleich zielt auf die Art der Geste."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Was ging mich diese Frau an?»",
+    "optionen": [
+     "Die Erzählerin fragt sich, warum sie sich überhaupt kümmert.",
+     "Die Erzählerin will die Frau ansprechen.",
+     "Die Erzählerin ist wütend auf die Frau.",
+     "Die Erzählerin hat die Frau um etwas gebeten."
+    ],
+    "loesung": [
+     "Die Erzählerin fragt sich, warum sie sich überhaupt kümmert."
+    ],
+    "erklaerung": "Die rhetorische Frage richtet sich an sie selbst: Sie wundert sich über die eigene Anteilnahme.",
+    "fehler": [
+     {
+      "antwort": "Die Erzählerin will die Frau ansprechen.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie spricht die Frau nie an; am Ende zieht sie sich zurück."
+     },
+     {
+      "antwort": "Die Erzählerin ist wütend auf die Frau.",
+      "diagnoseId": "gefuehl",
+      "feedback": "Der Ärger richtet sich gegen die eigene Erleichterung, nicht gegen die Frau."
+     },
+     {
+      "antwort": "Die Erzählerin hat die Frau um etwas gebeten.",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Kontakt findet nicht statt; die beiden sprechen nie miteinander."
+     }
+    ]
+   },
+   {
+    "stamm": "«eine Figur im Fenster gegenüber» — was sagt das Wort «Figur» hier?",
+    "optionen": [
+     "Die Person wird zur blossen Erscheinung ohne eigene Geschichte.",
+     "Die Person ist besonders gross.",
+     "Es geht um eine Spielfigur.",
+     "Die Person ist eine Erfindung."
+    ],
+    "loesung": [
+     "Die Person wird zur blossen Erscheinung ohne eigene Geschichte."
+    ],
+    "erklaerung": "«Figur» nimmt der Person das Persönliche — genau das erkennt die Erzählerin in diesem Moment auch über sich selbst.",
+    "fehler": [
+     {
+      "antwort": "Die Person ist besonders gross.",
+      "diagnoseId": "koerper",
+      "feedback": "Über die Statur sagt der Text nichts; «Figur» ist übertragen gemeint."
+     },
+     {
+      "antwort": "Es geht um eine Spielfigur.",
+      "diagnoseId": "woertlich",
+      "feedback": "Das Wort ist bildhaft gebraucht, es geht nicht um ein Spiel."
+     },
+     {
+      "antwort": "Die Person ist eine Erfindung.",
+      "diagnoseId": "fiktion",
+      "feedback": "Die Frau existiert in der Geschichte, sie bleibt nur fremd."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Regelmässigkeit» im zweiten Abschnitt?",
+    "optionen": [
+     "dass sich alles immer gleich wiederholt",
+     "dass alles nach Vorschrift geschieht",
+     "dass es ordentlich aussieht",
+     "dass etwas selten vorkommt"
+    ],
+    "loesung": [
+     "dass sich alles immer gleich wiederholt"
+    ],
+    "erklaerung": "Gemeint ist die Wiederholung: dieselbe Zeit, dieselbe Haltung, derselbe Kaffee.",
+    "fehler": [
+     {
+      "antwort": "dass alles nach Vorschrift geschieht",
+      "diagnoseId": "regel",
+      "feedback": "Von Vorschriften ist nicht die Rede, sondern von Gewohnheit."
+     },
+     {
+      "antwort": "dass es ordentlich aussieht",
+      "diagnoseId": "ordnung",
+      "feedback": "Es geht nicht um Ordnung, sondern um Wiederholung."
+     },
+     {
+      "antwort": "dass etwas selten vorkommt",
+      "diagnoseId": "gegenteil",
+      "feedback": "Regelmässig heisst gerade: immer wieder."
+     }
+    ]
+   },
+   {
+    "stamm": "Worauf bezieht sich «diese Erleichterung»?",
+    "optionen": [
+     "auf das Gefühl, als die Frau wieder auftauchte",
+     "auf das Ende des Winters",
+     "auf den freien Blick zur Strasse",
+     "auf die drei Tage ohne Beobachtung"
+    ],
+    "loesung": [
+     "auf das Gefühl, als die Frau wieder auftauchte"
+    ],
+    "erklaerung": "Im Satz davor steht: «Als sie wieder auftauchte, war ich erleichtert.» Genau darauf zeigt das Wort.",
+    "fehler": [
+     {
+      "antwort": "auf das Ende des Winters",
+      "diagnoseId": "jahreszeit",
+      "feedback": "Der März wird nur als Zeitangabe genannt."
+     },
+     {
+      "antwort": "auf den freien Blick zur Strasse",
+      "diagnoseId": "ort",
+      "feedback": "Der Blick ist nicht das, worüber sie erleichtert ist."
+     },
+     {
+      "antwort": "auf die drei Tage ohne Beobachtung",
+      "diagnoseId": "gegenteil",
+      "feedback": "Diese Tage beunruhigten sie gerade; erleichtert war sie erst danach."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt anstelle von «prüfend»?",
+    "optionen": [
+     "kontrollierend",
+     "winkend",
+     "eilig",
+     "fröhlich"
+    ],
+    "loesung": [
+     "kontrollierend"
+    ],
+    "erklaerung": "«Prüfend» heisst: um etwas festzustellen — kontrollierend trifft das am ehesten.",
+    "fehler": [
+     {
+      "antwort": "winkend",
+      "diagnoseId": "ausdruecklich_verneint",
+      "feedback": "Der Text schliesst das Winken ausdrücklich aus."
+     },
+     {
+      "antwort": "eilig",
+      "diagnoseId": "tempo",
+      "feedback": "Über das Tempo der Geste sagt der Text nichts."
+     },
+     {
+      "antwort": "fröhlich",
+      "diagnoseId": "stimmung",
+      "feedback": "Eine Stimmung liegt in dem Wort nicht; es beschreibt die Absicht."
+     }
+    ]
+   },
+   {
+    "stamm": "«den linken Ellbogen auf dem Fenstersims» — warum steht dieses Detail zweimal im Text?",
+    "optionen": [
+     "Es zeigt, wie ähnlich sich die beiden Frauen sind.",
+     "Es beschreibt, wie das Fenster gebaut ist.",
+     "Es erklärt, warum die Frau müde ist.",
+     "Es zeigt, dass die Erzählerin gut beobachtet."
+    ],
+    "loesung": [
+     "Es zeigt, wie ähnlich sich die beiden Frauen sind."
+    ],
+    "erklaerung": "Beim zweiten Mal beschreibt der Satz die Erzählerin selbst — genau dadurch entsteht die Erkenntnis.",
+    "fehler": [
+     {
+      "antwort": "Es beschreibt, wie das Fenster gebaut ist.",
+      "diagnoseId": "bau",
+      "feedback": "Der Fenstersims ist nur die Stütze, nicht das Thema."
+     },
+     {
+      "antwort": "Es erklärt, warum die Frau müde ist.",
+      "diagnoseId": "erfunden",
+      "feedback": "Müdigkeit steht nirgends im Text; das Wort meint hier «sichtbar werden»."
+     },
+     {
+      "antwort": "Es zeigt, dass die Erzählerin gut beobachtet.",
+      "diagnoseId": "teilweise",
+      "feedback": "Das stimmt nebenbei, erklärt aber nicht, warum das Detail wiederholt wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «auftauchen» in «Als sie wieder auftauchte»?",
+    "optionen": [
+     "wieder sichtbar werden",
+     "aus dem Wasser steigen",
+     "unerwartet klingeln",
+     "sich melden"
+    ],
+    "loesung": [
+     "wieder sichtbar werden"
+    ],
+    "erklaerung": "«Auftauchen» wird hier im übertragenen Sinn gebraucht: Sie war wieder am Fenster zu sehen.",
+    "fehler": [
+     {
+      "antwort": "aus dem Wasser steigen",
+      "diagnoseId": "woertlich",
+      "feedback": "Die wörtliche Bedeutung passt hier nicht — es geht um ein Fenster."
+     },
+     {
+      "antwort": "unerwartet klingeln",
+      "diagnoseId": "kontakt",
+      "feedback": "Ein Kontakt findet nicht statt; die beiden sprechen nie miteinander."
+     },
+     {
+      "antwort": "sich melden",
+      "diagnoseId": "meldung",
+      "feedback": "Sie sagt nichts; sie ist einfach wieder da."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort im Text zeigt, dass die Erzählerin sich über sich selbst ärgert?",
+    "optionen": [
+     "«ärgerte mich zugleich über diese Erleichterung»",
+     "«fand ich das beruhigend»",
+     "«Ich kannte nicht einmal ihren Namen»",
+     "«Sie war noch da»"
+    ],
+    "loesung": [
+     "«ärgerte mich zugleich über diese Erleichterung»"
+    ],
+    "erklaerung": "Der Ärger richtet sich ausdrücklich auf das eigene Gefühl, nicht auf die Frau.",
+    "fehler": [
+     {
+      "antwort": "«fand ich das beruhigend»",
+      "diagnoseId": "anfang",
+      "feedback": "Das ist der Zustand am Anfang, ohne Ärger."
+     },
+     {
+      "antwort": "«Ich kannte nicht einmal ihren Namen»",
+      "diagnoseId": "feststellung",
+      "feedback": "Das ist eine Feststellung, keine Selbstkritik."
+     },
+     {
+      "antwort": "«Sie war noch da»",
+      "diagnoseId": "schluss",
+      "feedback": "Der letzte Satz enthält keinen Ärger, sondern eine nüchterne Feststellung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Bedeutung hat das Wort «immer» in den ersten Sätzen?",
+    "optionen": [
+     "Es betont die tägliche Wiederholung.",
+     "Es zeigt, dass die Frau nie schläft.",
+     "Es bedeutet «für alle Zeiten».",
+     "Es ist eine Übertreibung der Erzählerin."
+    ],
+    "loesung": [
+     "Es betont die tägliche Wiederholung."
+    ],
+    "erklaerung": "«Immer um zwanzig nach sieben. Immer dieselbe Haltung.» Die Wiederholung des Wortes verstärkt die Wiederholung der Handlung.",
+    "fehler": [
+     {
+      "antwort": "Es zeigt, dass die Frau nie schläft.",
+      "diagnoseId": "uebertrieben",
+      "feedback": "Es geht um den Morgen, nicht um den ganzen Tag."
+     },
+     {
+      "antwort": "Es bedeutet «für alle Zeiten».",
+      "diagnoseId": "zeitraum",
+      "feedback": "Gemeint ist «jeden Morgen», nicht die Ewigkeit."
+     },
+     {
+      "antwort": "Es ist eine Übertreibung der Erzählerin.",
+      "diagnoseId": "stilmittel",
+      "feedback": "Der Text nimmt das Wort wörtlich: Es geschieht wirklich jeden Morgen."
+     }
+    ]
+   }
+  ],
+  "text": "Die Frau am Fenster gegenüber\n\nSeit ich in dieser Wohnung lebe, sehe ich sie jeden Morgen. Sie steht am\nFenster im dritten Stock des Hauses gegenüber, eine Tasse in der Hand, und\nschaut auf die Strasse hinunter. Immer um zwanzig nach sieben. Immer dieselbe\nHaltung, den linken Ellbogen auf dem Fenstersims.\n\nAm Anfang fand ich das beruhigend. Später begann es mich zu stören, ohne dass\nich hätte sagen können, warum. Vielleicht war es die Regelmässigkeit. Ich stand\nselbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das\nHaus durch dieselbe Tür — und hielt mich dabei für jemanden, der sein Leben\nselbst einrichtet.\n\nIm März fehlte sie drei Tage. Ich ertappte mich dabei, wie ich am vierten\nMorgen länger als nötig am Fenster stand. Als sie wieder auftauchte, war ich\nerleichtert und ärgerte mich zugleich über diese Erleichterung. Was ging mich\ndiese Frau an? Ich kannte nicht einmal ihren Namen.\n\nAn einem Dienstag im Mai hob sie die Hand. Nicht winkend, eher prüfend, so wie\nman die Hand hebt, um zu sehen, ob es regnet. Aber sie schaute dabei zu mir\nherüber. Ich stand da, die Tasse in der Hand, den linken Ellbogen auf dem\nFenstersims, und begriff, dass ich für sie genau dasselbe war, was sie für mich\ngewesen war: eine Figur im Fenster gegenüber, jeden Morgen um zwanzig nach\nsieben.\n\nIch hob die Hand nicht. Ich trat einen Schritt zurück, und am nächsten Morgen\nstand ich zwei Meter weiter hinten im Zimmer. Es dauerte drei Wochen, bis ich\nwieder ans Fenster ging. Sie war noch da.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wörter und Wendungen erklären",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-tv-fenster-deutung",
+  "lernzielId": "DTAG.3.01",
+  "fach": "textverstaendnis-ag",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage bei jeder Antwort: Woran im Text sieht man das?",
+   "Achte auf das, was die Erzählerin über sich selbst sagt.",
+   "Eine Deutung muss sich belegen lassen."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und die passende Stelle suchen.",
+   "Überlegen, was gezeigt, aber nicht ausgesprochen wird.",
+   "Die Antwort am Text prüfen.",
+   "Antworten ausschliessen, die dem Text widersprechen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Aus welcher Perspektive wird erzählt?",
+    "optionen": [
+     "aus der Ich-Perspektive",
+     "aus der Sicht der Frau gegenüber",
+     "aus der Sicht eines Nachbarn",
+     "aus einer allwissenden Perspektive"
+    ],
+    "loesung": [
+     "aus der Ich-Perspektive"
+    ],
+    "erklaerung": "Der Text beginnt mit «Seit ich in dieser Wohnung lebe» — wir erfahren nur, was die Erzählerin denkt und sieht.",
+    "fehler": [
+     {
+      "antwort": "aus der Sicht der Frau gegenüber",
+      "diagnoseId": "andere_figur",
+      "feedback": "Von der Frau erfahren wir nur, was von aussen zu sehen ist."
+     },
+     {
+      "antwort": "aus der Sicht eines Nachbarn",
+      "diagnoseId": "dritte_person",
+      "feedback": "Ein Nachbar kommt im Text nicht vor; erzählt wird durchgehend mit «ich»."
+     },
+     {
+      "antwort": "aus einer allwissenden Perspektive",
+      "diagnoseId": "allwissend",
+      "feedback": "Eine allwissende Erzählstimme wüsste, warum die Frau am Fenster steht. Genau das erfahren wir nie."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum stört die Regelmässigkeit die Erzählerin?",
+    "optionen": [
+     "Weil sie ihr die eigene Regelmässigkeit vor Augen führt.",
+     "Weil sie den Blick auf die Strasse verstellt.",
+     "Weil die Frau sie ausspioniert.",
+     "Weil die Frau immer denselben Kaffee trinkt."
+    ],
+    "loesung": [
+     "Weil sie ihr die eigene Regelmässigkeit vor Augen führt."
+    ],
+    "erklaerung": "Direkt nach dem Satz über das Stören beschreibt die Erzählerin ihren eigenen, genauso gleichförmigen Morgen.",
+    "fehler": [
+     {
+      "antwort": "Weil sie den Blick auf die Strasse verstellt.",
+      "diagnoseId": "ort",
+      "feedback": "Die Frau steht im Haus gegenüber, sie verstellt nichts."
+     },
+     {
+      "antwort": "Weil die Frau sie ausspioniert.",
+      "diagnoseId": "verdacht",
+      "feedback": "Dass die Frau ebenfalls schaut, merkt die Erzählerin erst im Mai."
+     },
+     {
+      "antwort": "Weil die Frau immer denselben Kaffee trinkt.",
+      "diagnoseId": "detail",
+      "feedback": "Den Kaffee kocht die Erzählerin — von der Frau ist nur eine Tasse bekannt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt der Moment mit der gehobenen Hand?",
+    "optionen": [
+     "Die Erzählerin sieht sich zum ersten Mal von aussen.",
+     "Die beiden verabreden sich.",
+     "Die Erzählerin erkennt die Frau wieder.",
+     "Die Frau will Hilfe holen."
+    ],
+    "loesung": [
+     "Die Erzählerin sieht sich zum ersten Mal von aussen."
+    ],
+    "erklaerung": "«… begriff, dass ich für sie genau dasselbe war, was sie für mich gewesen war.» Das ist der Wendepunkt.",
+    "fehler": [
+     {
+      "antwort": "Die beiden verabreden sich.",
+      "diagnoseId": "kontakt",
+      "feedback": "Es kommt zu keinem Kontakt; die Erzählerin tritt zurück."
+     },
+     {
+      "antwort": "Die Erzählerin erkennt die Frau wieder.",
+      "diagnoseId": "bekanntschaft",
+      "feedback": "Sie kannte sie nie — nicht einmal den Namen."
+     },
+     {
+      "antwort": "Die Frau will Hilfe holen.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Notlage steht nichts im Text; die Geste bleibt harmlos."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum tritt die Erzählerin zurück, statt zu winken?",
+    "optionen": [
+     "Weil ihr die Erkenntnis unangenehm ist.",
+     "Weil sie die Frau nicht mag.",
+     "Weil sie zu spät zur Arbeit kommt.",
+     "Weil das Fenster zu hoch ist."
+    ],
+    "loesung": [
+     "Weil ihr die Erkenntnis unangenehm ist."
+    ],
+    "erklaerung": "Der Rückzug folgt unmittelbar auf die Einsicht — und er dauert drei Wochen. Das spricht für eine Erkenntnis, die trifft.",
+    "fehler": [
+     {
+      "antwort": "Weil sie die Frau nicht mag.",
+      "diagnoseId": "abneigung",
+      "feedback": "Von Abneigung ist nicht die Rede; sie war sogar erleichtert, als die Frau wieder da war."
+     },
+     {
+      "antwort": "Weil sie zu spät zur Arbeit kommt.",
+      "diagnoseId": "alltag",
+      "feedback": "Der Zeitdruck spielt in dieser Szene keine Rolle."
+     },
+     {
+      "antwort": "Weil das Fenster zu hoch ist.",
+      "diagnoseId": "technisch",
+      "feedback": "Sie steht ja am Fenster; die Höhe ist kein Hindernis."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung haben die vielen Wiederholungen im Text?",
+    "optionen": [
+     "Sie machen die Gleichförmigkeit der Morgen spürbar.",
+     "Sie zeigen, dass die Erzählerin vergesslich ist.",
+     "Sie sollen den Text verlängern.",
+     "Sie kennzeichnen die wörtliche Rede."
+    ],
+    "loesung": [
+     "Sie machen die Gleichförmigkeit der Morgen spürbar."
+    ],
+    "erklaerung": "«Immer … immer … dieselbe … dieselbe» — die Sprache macht vor, wovon der Text handelt.",
+    "fehler": [
+     {
+      "antwort": "Sie zeigen, dass die Erzählerin vergesslich ist.",
+      "diagnoseId": "figur",
+      "feedback": "Vergesslichkeit spielt keine Rolle; sie erinnert sich sehr genau."
+     },
+     {
+      "antwort": "Sie sollen den Text verlängern.",
+      "diagnoseId": "form",
+      "feedback": "Die Wiederholungen tragen die Aussage, sie füllen nicht."
+     },
+     {
+      "antwort": "Sie kennzeichnen die wörtliche Rede.",
+      "diagnoseId": "zeichen",
+      "feedback": "Wörtliche Rede kommt im ganzen Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Textsorte liegt vor?",
+    "optionen": [
+     "eine literarische Kurzgeschichte",
+     "ein Sachtext über Nachbarschaft",
+     "ein Zeitungsbericht",
+     "ein Tagebucheintrag mit Datum"
+    ],
+    "loesung": [
+     "eine literarische Kurzgeschichte"
+    ],
+    "erklaerung": "Ich-Erzählung, ein Wendepunkt, ein offener Schluss und kein einziger Beleg oder Fachbegriff: Das sind Merkmale einer Kurzgeschichte.",
+    "fehler": [
+     {
+      "antwort": "ein Sachtext über Nachbarschaft",
+      "diagnoseId": "sachtext",
+      "feedback": "Ein Sachtext würde erklären und belegen, nicht erzählen."
+     },
+     {
+      "antwort": "ein Zeitungsbericht",
+      "diagnoseId": "bericht",
+      "feedback": "Ein Bericht nennt Namen, Orte und Quellen. Hier bleibt sogar der Name unbekannt."
+     },
+     {
+      "antwort": "ein Tagebucheintrag mit Datum",
+      "diagnoseId": "tagebuch",
+      "feedback": "Es fehlen Datum und Anrede; der Text spannt einen Bogen über Monate."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist die zentrale Aussage des Textes?",
+    "optionen": [
+     "Wer andere beobachtet, sieht am Ende sich selbst.",
+     "Nachbarn sollten miteinander sprechen.",
+     "Grossstädte machen einsam.",
+     "Gewohnheiten sind gefährlich."
+    ],
+    "loesung": [
+     "Wer andere beobachtet, sieht am Ende sich selbst."
+    ],
+    "erklaerung": "Der Wendepunkt und der Rückzug am Schluss laufen genau darauf zu.",
+    "fehler": [
+     {
+      "antwort": "Nachbarn sollten miteinander sprechen.",
+      "diagnoseId": "moral",
+      "feedback": "Eine solche Aufforderung enthält der Text nicht; er urteilt nicht."
+     },
+     {
+      "antwort": "Grossstädte machen einsam.",
+      "diagnoseId": "allgemein",
+      "feedback": "Von einer Stadt und von Einsamkeit spricht der Text nicht ausdrücklich."
+     },
+     {
+      "antwort": "Gewohnheiten sind gefährlich.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text wertet nicht. Er zeigt eine Erkenntnis, keine Gefahr."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort beschreibt die Haltung der Erzählerin am Ende am besten?",
+    "optionen": [
+     "verunsichert",
+     "erleichtert",
+     "wütend",
+     "gleichgültig"
+    ],
+    "loesung": [
+     "verunsichert"
+    ],
+    "erklaerung": "Sie zieht sich zurück, kommt drei Wochen nicht ans Fenster und schaut dann doch wieder — das ist Verunsicherung.",
+    "fehler": [
+     {
+      "antwort": "erleichtert",
+      "diagnoseId": "frueher",
+      "feedback": "Erleichtert war sie im März, als die Frau zurückkam."
+     },
+     {
+      "antwort": "wütend",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Ärger im Text ist leise und richtet sich gegen sie selbst."
+     },
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "gegenteil",
+      "feedback": "Gleichgültig wäre sie, wenn sie einfach weitergemacht hätte."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Rolle spielen die Zeitangaben im Text?",
+    "optionen": [
+     "Sie gliedern die Geschichte und zeigen, wie lange alles dauert.",
+     "Sie sind reine Verzierung.",
+     "Sie beweisen, dass der Text wahr ist.",
+     "Sie zeigen, dass die Erzählerin Uhrzeiten liebt."
+    ],
+    "loesung": [
+     "Sie gliedern die Geschichte und zeigen, wie lange alles dauert."
+    ],
+    "erklaerung": "Zwanzig nach sieben, März, ein Dienstag im Mai, drei Wochen: Der Text spannt damit einen Bogen über Monate.",
+    "fehler": [
+     {
+      "antwort": "Sie sind reine Verzierung.",
+      "diagnoseId": "unterschaetzt",
+      "feedback": "Ohne sie verlöre die Geschichte ihren Verlauf."
+     },
+     {
+      "antwort": "Sie beweisen, dass der Text wahr ist.",
+      "diagnoseId": "beleg",
+      "feedback": "Eine Kurzgeschichte will nichts beweisen."
+     },
+     {
+      "antwort": "Sie zeigen, dass die Erzählerin Uhrzeiten liebt.",
+      "diagnoseId": "figur",
+      "feedback": "Sie zeigen ihre Gleichförmigkeit — das ist etwas anderes als Vorliebe."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum erfahren wir nichts über die Frau am Fenster?",
+    "optionen": [
+     "Weil der Text von der Erzählerin handelt, nicht von ihr.",
+     "Weil die Erzählerin sie nicht sehen kann.",
+     "Weil die Frau erfunden ist.",
+     "Weil der Text zu kurz ist."
+    ],
+    "loesung": [
+     "Weil der Text von der Erzählerin handelt, nicht von ihr."
+    ],
+    "erklaerung": "Die Frau bleibt eine Figur im Fenster — genau das ist der Punkt, den die Erzählerin am Ende über sich selbst begreift.",
+    "fehler": [
+     {
+      "antwort": "Weil die Erzählerin sie nicht sehen kann.",
+      "diagnoseId": "sicht",
+      "feedback": "Sie sieht sie sogar sehr genau: Tasse, Haltung, Ellbogen."
+     },
+     {
+      "antwort": "Weil die Frau erfunden ist.",
+      "diagnoseId": "fiktion",
+      "feedback": "Innerhalb der Geschichte ist sie wirklich da."
+     },
+     {
+      "antwort": "Weil der Text zu kurz ist.",
+      "diagnoseId": "laenge",
+      "feedback": "Der Text hätte Platz für mehr — er verzichtet bewusst darauf."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie wirkt der letzte Satz «Sie war noch da»?",
+    "optionen": [
+     "Er lässt offen, wie es weitergeht.",
+     "Er löst alle Fragen auf.",
+     "Er zeigt, dass die Frau krank war.",
+     "Er beendet die Bekanntschaft."
+    ],
+    "loesung": [
+     "Er lässt offen, wie es weitergeht."
+    ],
+    "erklaerung": "Ein offener Schluss: Wir erfahren nicht, ob die beiden je die Hand heben werden.",
+    "fehler": [
+     {
+      "antwort": "Er löst alle Fragen auf.",
+      "diagnoseId": "gegenteil",
+      "feedback": "Er beantwortet gerade keine der offenen Fragen."
+     },
+     {
+      "antwort": "Er zeigt, dass die Frau krank war.",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Krankheit ist nirgends die Rede; der Grund bleibt offen."
+     },
+     {
+      "antwort": "Er beendet die Bekanntschaft.",
+      "diagnoseId": "kontakt",
+      "feedback": "Eine Bekanntschaft gab es nie — und der Schluss beendet nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches sprachliche Mittel prägt den Text am stärksten?",
+    "optionen": [
+     "die Wiederholung",
+     "die wörtliche Rede",
+     "die Übertreibung",
+     "die rhetorische Frage"
+    ],
+    "loesung": [
+     "die Wiederholung"
+    ],
+    "erklaerung": "«Immer … immer», «dieselbe … dieselbe», der zweimal beschriebene Ellbogen: Die Wiederholung ist das tragende Mittel.",
+    "fehler": [
+     {
+      "antwort": "die wörtliche Rede",
+      "diagnoseId": "fehlt",
+      "feedback": "Im ganzen Text kommt kein einziger gesprochener Satz vor."
+     },
+     {
+      "antwort": "die Übertreibung",
+      "diagnoseId": "stil",
+      "feedback": "Der Text ist auffällig nüchtern und übertreibt nicht."
+     },
+     {
+      "antwort": "die rhetorische Frage",
+      "diagnoseId": "einmal",
+      "feedback": "Eine rhetorische Frage steht im Text — aber nur eine, und sie prägt ihn nicht."
+     }
+    ]
+   }
+  ],
+  "text": "Die Frau am Fenster gegenüber\n\nSeit ich in dieser Wohnung lebe, sehe ich sie jeden Morgen. Sie steht am\nFenster im dritten Stock des Hauses gegenüber, eine Tasse in der Hand, und\nschaut auf die Strasse hinunter. Immer um zwanzig nach sieben. Immer dieselbe\nHaltung, den linken Ellbogen auf dem Fenstersims.\n\nAm Anfang fand ich das beruhigend. Später begann es mich zu stören, ohne dass\nich hätte sagen können, warum. Vielleicht war es die Regelmässigkeit. Ich stand\nselbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das\nHaus durch dieselbe Tür — und hielt mich dabei für jemanden, der sein Leben\nselbst einrichtet.\n\nIm März fehlte sie drei Tage. Ich ertappte mich dabei, wie ich am vierten\nMorgen länger als nötig am Fenster stand. Als sie wieder auftauchte, war ich\nerleichtert und ärgerte mich zugleich über diese Erleichterung. Was ging mich\ndiese Frau an? Ich kannte nicht einmal ihren Namen.\n\nAn einem Dienstag im Mai hob sie die Hand. Nicht winkend, eher prüfend, so wie\nman die Hand hebt, um zu sehen, ob es regnet. Aber sie schaute dabei zu mir\nherüber. Ich stand da, die Tasse in der Hand, den linken Ellbogen auf dem\nFenstersims, und begriff, dass ich für sie genau dasselbe war, was sie für mich\ngewesen war: eine Figur im Fenster gegenüber, jeden Morgen um zwanzig nach\nsieben.\n\nIch hob die Hand nicht. Ich trat einen Schritt zurück, und am nächsten Morgen\nstand ich zwei Meter weiter hinten im Zimmer. Es dauerte drei Wochen, bis ich\nwieder ans Fenster ging. Sie war noch da.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Deuten: Perspektive, Figuren und Absicht",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-tv-fenster-form",
+  "lernzielId": "DTAG.3.04",
+  "fach": "textverstaendnis-ag",
+  "unterthemen": [
+   "3.04",
+   "3.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein sprachliches Mittel wirkt — frage dich, was es beim Lesen auslöst.",
+   "Eine Wiederholung betont; ein Vergleich erklärt über etwas Bekanntes.",
+   "Die Textsorte erkennst du an Erzählform, Aufbau und Absicht."
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Das Mittel benennen.",
+   "Fragen, was es bewirkt.",
+   "Bei der Textsorte auf Erzählform und Absicht achten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches sprachliche Mittel prägt den zweiten Abschnitt?\n\n«… stand selbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das Haus durch dieselbe Tür …»",
+    "optionen": [
+     "die Wiederholung von «dieselbe»",
+     "ein Vergleich mit «wie»",
+     "eine rhetorische Frage",
+     "eine Übertreibung"
+    ],
+    "loesung": [
+     "die Wiederholung von «dieselbe»"
+    ],
+    "erklaerung": "Dreimal «dieselbe» — die Wiederholung führt die Gleichförmigkeit vor, statt sie nur zu behaupten.",
+    "fehler": [
+     {
+      "antwort": "ein Vergleich mit «wie»",
+      "diagnoseId": "mittel",
+      "feedback": "Ein Vergleich mit «wie» steht an dieser Stelle nicht."
+     },
+     {
+      "antwort": "eine rhetorische Frage",
+      "diagnoseId": "mittel",
+      "feedback": "Die rhetorische Frage kommt erst später: «Was ging mich diese Frau an?»"
+     },
+     {
+      "antwort": "eine Übertreibung",
+      "diagnoseId": "mittel",
+      "feedback": "Die Angaben sind nüchtern, nichts ist übertrieben."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt die Wiederholung von «Immer» im ersten Abschnitt?",
+    "optionen": [
+     "Sie lässt die Gewohnheit unausweichlich erscheinen",
+     "Sie zeigt, dass die Frau vergesslich ist",
+     "Sie beschleunigt die Handlung",
+     "Sie kennzeichnet eine wörtliche Rede"
+    ],
+    "loesung": [
+     "Sie lässt die Gewohnheit unausweichlich erscheinen"
+    ],
+    "erklaerung": "Zweimal «Immer» an den Satzanfang gestellt — die Wiederholung macht aus einer Beobachtung ein Gesetz.",
+    "fehler": [
+     {
+      "antwort": "Sie zeigt, dass die Frau vergesslich ist",
+      "diagnoseId": "deutung",
+      "feedback": "Vom Gedächtnis der Frau ist nirgends die Rede."
+     },
+     {
+      "antwort": "Sie beschleunigt die Handlung",
+      "diagnoseId": "wirkung",
+      "feedback": "Die Wiederholung verlangsamt eher, als dass sie beschleunigt."
+     },
+     {
+      "antwort": "Sie kennzeichnet eine wörtliche Rede",
+      "diagnoseId": "mittel",
+      "feedback": "Wörtliche Rede stünde in Anführungszeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Mittel steht in «Nicht winkend, eher prüfend, so wie man die Hand hebt, um zu sehen, ob es regnet»?",
+    "optionen": [
+     "ein Vergleich",
+     "eine Personifikation",
+     "eine Metapher",
+     "eine Aufzählung"
+    ],
+    "loesung": [
+     "ein Vergleich"
+    ],
+    "erklaerung": "«so wie man die Hand hebt» erklärt die Geste über eine bekannte Alltagsbewegung.",
+    "fehler": [
+     {
+      "antwort": "eine Personifikation",
+      "diagnoseId": "mittel",
+      "feedback": "Personifikation gäbe einem Ding menschliche Züge; hier handelt ein Mensch."
+     },
+     {
+      "antwort": "eine Metapher",
+      "diagnoseId": "mittel",
+      "feedback": "Eine Metapher setzte etwas gleich, ohne «wie»."
+     },
+     {
+      "antwort": "eine Aufzählung",
+      "diagnoseId": "mittel",
+      "feedback": "Aufgezählt wird hier nichts. Richtig ist «ein Vergleich»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt die Frage «Was ging mich diese Frau an?»",
+    "optionen": [
+     "Sie zeigt, dass die Erzählstimme sich selbst nicht erklären kann",
+     "Sie wendet sich an die Lesenden und verlangt eine Antwort",
+     "Sie leitet einen Zeitsprung ein",
+     "Sie gibt die Meinung der Frau wieder"
+    ],
+    "loesung": [
+     "Sie zeigt, dass die Erzählstimme sich selbst nicht erklären kann"
+    ],
+    "erklaerung": "Die Frage richtet sich nach innen: Sie benennt eine Beunruhigung, für die es keine Erklärung gibt.",
+    "fehler": [
+     {
+      "antwort": "Sie wendet sich an die Lesenden und verlangt eine Antwort",
+      "diagnoseId": "wirkung",
+      "feedback": "Eine Antwort wird nicht erwartet; die Frage bleibt offen."
+     },
+     {
+      "antwort": "Sie leitet einen Zeitsprung ein",
+      "diagnoseId": "aufbau",
+      "feedback": "Der Zeitsprung steht im Satz davor: «Im März»."
+     },
+     {
+      "antwort": "Sie gibt die Meinung der Frau wieder",
+      "diagnoseId": "perspektive",
+      "feedback": "Die Frau kommt im Text nie zu Wort. Richtig ist «Sie zeigt, dass die Erzählstimme sich selbst nicht erklären kann»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat der letzte Satz «Sie war noch da.»?",
+    "optionen": [
+     "Er wirkt durch seine Kürze und lässt den Schluss offen",
+     "Er löst alle offenen Fragen auf",
+     "Er nennt die Absicht des Textes ausdrücklich",
+     "Er fasst die Handlung zusammen"
+    ],
+    "loesung": [
+     "Er wirkt durch seine Kürze und lässt den Schluss offen"
+    ],
+    "erklaerung": "Vier Wörter nach einem langen Abschnitt — die Kürze fällt auf, und beantwortet ist nichts.",
+    "fehler": [
+     {
+      "antwort": "Er löst alle offenen Fragen auf",
+      "diagnoseId": "wirkung",
+      "feedback": "Offen bleibt gerade, was aus der Beobachtung wird."
+     },
+     {
+      "antwort": "Er nennt die Absicht des Textes ausdrücklich",
+      "diagnoseId": "deutung",
+      "feedback": "Die Absicht wird nirgends ausgesprochen."
+     },
+     {
+      "antwort": "Er fasst die Handlung zusammen",
+      "diagnoseId": "aufbau",
+      "feedback": "Zusammengefasst wird nichts; der Satz stellt nur fest."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Textsorte liegt vor?",
+    "optionen": [
+     "eine Kurzgeschichte",
+     "ein Zeitungsbericht",
+     "ein Sachtext",
+     "eine Anleitung"
+    ],
+    "loesung": [
+     "eine Kurzgeschichte"
+    ],
+    "erklaerung": "Erfundene Handlung, Ich-Erzählung, offener Schluss, kein Titelhinweis auf ein Ereignis — das ist eine Kurzgeschichte.",
+    "fehler": [
+     {
+      "antwort": "ein Zeitungsbericht",
+      "diagnoseId": "sorte",
+      "feedback": "Ein Bericht nennte Ort, Zeit und Beteiligte und wäre in der dritten Person geschrieben."
+     },
+     {
+      "antwort": "ein Sachtext",
+      "diagnoseId": "sorte",
+      "feedback": "Ein Sachtext erklärte einen Gegenstand, statt eine Geschichte zu erzählen."
+     },
+     {
+      "antwort": "eine Anleitung",
+      "diagnoseId": "sorte",
+      "feedback": "Eine Anleitung gäbe Schritte vor. Richtig ist «eine Kurzgeschichte»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Merkmal spricht am stärksten für diese Textsorte?",
+    "optionen": [
+     "der offene Schluss ohne Auflösung",
+     "die Angabe der Monate März und Mai",
+     "die Länge der Abschnitte",
+     "die Verwendung des Präteritums"
+    ],
+    "loesung": [
+     "der offene Schluss ohne Auflösung"
+    ],
+    "erklaerung": "Ein Schluss, der nichts auflöst, ist ein Kennzeichen der Kurzgeschichte.",
+    "fehler": [
+     {
+      "antwort": "die Angabe der Monate März und Mai",
+      "diagnoseId": "merkmal",
+      "feedback": "Zeitangaben stehen in vielen Textsorten."
+     },
+     {
+      "antwort": "die Länge der Abschnitte",
+      "diagnoseId": "merkmal",
+      "feedback": "Die Abschnittslänge sagt nichts über die Sorte."
+     },
+     {
+      "antwort": "die Verwendung des Präteritums",
+      "diagnoseId": "merkmal",
+      "feedback": "Das Präteritum steht auch in Berichten und Sachtexten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Merkmal eines Zeitungsberichts fehlt in diesem Text?",
+    "optionen": [
+     "die Nennung überprüfbarer Tatsachen mit Quelle",
+     "eine Überschrift",
+     "Zeitangaben",
+     "Absätze"
+    ],
+    "loesung": [
+     "die Nennung überprüfbarer Tatsachen mit Quelle"
+    ],
+    "erklaerung": "Der Text nennt keine überprüfbaren Angaben und keine Quelle — er erzählt.",
+    "fehler": [
+     {
+      "antwort": "eine Überschrift",
+      "diagnoseId": "merkmal",
+      "feedback": "Eine Überschrift hat der Text: «Die Frau am Fenster gegenüber»."
+     },
+     {
+      "antwort": "Zeitangaben",
+      "diagnoseId": "merkmal",
+      "feedback": "Zeitangaben stehen mehrere im Text. Richtig ist «die Nennung überprüfbarer Tatsachen mit Quelle»."
+     },
+     {
+      "antwort": "Absätze",
+      "diagnoseId": "merkmal",
+      "feedback": "Der Text ist in Absätze gegliedert. Richtig ist «die Nennung überprüfbarer Tatsachen mit Quelle»."
+     }
+    ]
+   },
+   {
+    "stamm": "Woran erkennst du, dass der Text nicht als Sachtext gemeint ist?",
+    "optionen": [
+     "Er beschreibt Gefühle und wertet, statt zu erklären",
+     "Er verwendet lange Sätze",
+     "Er nennt keine Zahlen",
+     "Er hat einen Titel"
+    ],
+    "loesung": [
+     "Er beschreibt Gefühle und wertet, statt zu erklären"
+    ],
+    "erklaerung": "«erleichtert», «ärgerte mich» — der Text verhandelt ein Inneres, kein Wissen.",
+    "fehler": [
+     {
+      "antwort": "Er verwendet lange Sätze",
+      "diagnoseId": "merkmal",
+      "feedback": "Auch Sachtexte haben lange Sätze. Richtig ist «Er beschreibt Gefühle und wertet, statt zu erklären»."
+     },
+     {
+      "antwort": "Er nennt keine Zahlen",
+      "diagnoseId": "merkmal",
+      "feedback": "Zahlen stehen durchaus im Text, etwa «drei Tage»."
+     },
+     {
+      "antwort": "Er hat einen Titel",
+      "diagnoseId": "merkmal",
+      "feedback": "Einen Titel haben Sachtexte ebenfalls. Richtig ist «Er beschreibt Gefühle und wertet, statt zu erklären»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat es, dass die Frau nie einen Namen bekommt?",
+    "optionen": [
+     "Sie bleibt eine Figur, kein Gegenüber",
+     "Sie wirkt dadurch sympathischer",
+     "Der Text spart Platz",
+     "Sie ist deshalb erfunden"
+    ],
+    "loesung": [
+     "Sie bleibt eine Figur, kein Gegenüber"
+    ],
+    "erklaerung": "«Ich kannte nicht einmal ihren Namen» — die Namenlosigkeit hält sie auf Abstand, und genau darum geht es.",
+    "fehler": [
+     {
+      "antwort": "Sie wirkt dadurch sympathischer",
+      "diagnoseId": "wirkung",
+      "feedback": "Ein fehlender Name schafft Abstand, nicht Nähe."
+     },
+     {
+      "antwort": "Der Text spart Platz",
+      "diagnoseId": "wirkung",
+      "feedback": "Ein Name kostete ein Wort; darum geht es nicht."
+     },
+     {
+      "antwort": "Sie ist deshalb erfunden",
+      "diagnoseId": "schluss",
+      "feedback": "Auch benannte Figuren wären erfunden. Richtig ist «Sie bleibt eine Figur, kein Gegenüber»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches sprachliche Mittel steht in «eine Figur im Fenster gegenüber»?",
+    "optionen": [
+     "eine Metapher",
+     "ein Vergleich",
+     "eine Personifikation",
+     "eine Ironie"
+    ],
+    "loesung": [
+     "eine Metapher"
+    ],
+    "erklaerung": "Die Frau wird ohne «wie» mit einer Figur gleichgesetzt — das ist eine Metapher.",
+    "fehler": [
+     {
+      "antwort": "ein Vergleich",
+      "diagnoseId": "mittel",
+      "feedback": "Ein Vergleich brauchte «wie» oder «als ob»."
+     },
+     {
+      "antwort": "eine Personifikation",
+      "diagnoseId": "mittel",
+      "feedback": "Hier wird ein Mensch zum Ding, nicht ein Ding zum Menschen."
+     },
+     {
+      "antwort": "eine Ironie",
+      "diagnoseId": "mittel",
+      "feedback": "Gemeint ist genau das, was dasteht. Richtig ist «eine Metapher»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz nennt am ehesten die Absicht des Textes?",
+    "optionen": [
+     "Er fragt, wie viel von einem selbst in der Beobachtung anderer steckt",
+     "Er warnt vor neugierigen Nachbarn",
+     "Er erklärt, wie Gewohnheiten entstehen",
+     "Er wirbt für mehr Kontakt unter Nachbarn"
+    ],
+    "loesung": [
+     "Er fragt, wie viel von einem selbst in der Beobachtung anderer steckt"
+    ],
+    "erklaerung": "Der Wendepunkt ist die Erkenntnis, für die andere dasselbe zu sein — darauf läuft alles zu.",
+    "fehler": [
+     {
+      "antwort": "Er warnt vor neugierigen Nachbarn",
+      "diagnoseId": "deutung",
+      "feedback": "Gewarnt wird niemand; der Text urteilt nicht."
+     },
+     {
+      "antwort": "Er erklärt, wie Gewohnheiten entstehen",
+      "diagnoseId": "deutung",
+      "feedback": "Erklärt wird nichts; die Gewohnheit ist der Ausgangspunkt."
+     },
+     {
+      "antwort": "Er wirbt für mehr Kontakt unter Nachbarn",
+      "diagnoseId": "deutung",
+      "feedback": "Am Schluss tritt die Erzählstimme gerade zurück."
+     }
+    ]
+   }
+  ],
+  "text": "Die Frau am Fenster gegenüber\n\nSeit ich in dieser Wohnung lebe, sehe ich sie jeden Morgen. Sie steht am\nFenster im dritten Stock des Hauses gegenüber, eine Tasse in der Hand, und\nschaut auf die Strasse hinunter. Immer um zwanzig nach sieben. Immer dieselbe\nHaltung, den linken Ellbogen auf dem Fenstersims.\n\nAm Anfang fand ich das beruhigend. Später begann es mich zu stören, ohne dass\nich hätte sagen können, warum. Vielleicht war es die Regelmässigkeit. Ich stand\nselbst jeden Morgen um dieselbe Zeit auf, kochte denselben Kaffee, verliess das\nHaus durch dieselbe Tür — und hielt mich dabei für jemanden, der sein Leben\nselbst einrichtet.\n\nIm März fehlte sie drei Tage. Ich ertappte mich dabei, wie ich am vierten\nMorgen länger als nötig am Fenster stand. Als sie wieder auftauchte, war ich\nerleichtert und ärgerte mich zugleich über diese Erleichterung. Was ging mich\ndiese Frau an? Ich kannte nicht einmal ihren Namen.\n\nAn einem Dienstag im Mai hob sie die Hand. Nicht winkend, eher prüfend, so wie\nman die Hand hebt, um zu sehen, ob es regnet. Aber sie schaute dabei zu mir\nherüber. Ich stand da, die Tasse in der Hand, den linken Ellbogen auf dem\nFenstersims, und begriff, dass ich für sie genau dasselbe war, was sie für mich\ngewesen war: eine Figur im Fenster gegenüber, jeden Morgen um zwanzig nach\nsieben.\n\nIch hob die Hand nicht. Ich trat einen Schritt zurück, und am nächsten Morgen\nstand ich zwei Meter weiter hinten im Zimmer. Es dauerte drei Wochen, bis ich\nwieder ans Fenster ging. Sie war noch da.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Textverständnis; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sprachliche Mittel und Textsorte",
+  "status": "review"
+ }
+]

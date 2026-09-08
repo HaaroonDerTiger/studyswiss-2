@@ -1,0 +1,178 @@
+{
+ "fach": "sprache-ag",
+ "name": "Deutsch Sprachbetrachtung",
+ "pruefung": "Aufnahmeprüfungen der Mittelschulen Aargau",
+ "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Wortarten",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Bestimmen und anwenden — im Satz, nicht in einer Liste.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Nomen, Verb und Adjektiv bestimmen",
+     "lernzielId": "DSAG.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Pronomenarten unterscheiden",
+     "lernzielId": "DSAG.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Präpositionen und Konjunktionen",
+     "lernzielId": "DSAG.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Adverbien erkennen",
+     "lernzielId": "DSAG.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Das Verb",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Zeitformen, Modus und Passiv — der Teil mit den meisten Punkten in der Sprachbetrachtung.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Zeitformen bilden und bestimmen",
+     "lernzielId": "DSAG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Aktiv und Passiv umformen",
+     "lernzielId": "DSAG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Konjunktiv I in der indirekten Rede",
+     "lernzielId": "DSAG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Konjunktiv II in Bedingungen und Wünschen",
+     "lernzielId": "DSAG.2.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Starke und schwache Verben konjugieren",
+     "lernzielId": "DSAG.2.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Satzglieder und Satzbau",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Satzglieder bestimmen, Haupt- und Nebensätze unterscheiden, Kommas setzen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Satzglieder mit der Verschiebeprobe bestimmen",
+     "lernzielId": "DSAG.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Subjekt, Objekte und adverbiale Bestimmungen",
+     "lernzielId": "DSAG.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Haupt- und Nebensätze unterscheiden",
+     "lernzielId": "DSAG.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Nebensatzarten bestimmen",
+     "lernzielId": "DSAG.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Kommaregeln anwenden",
+     "lernzielId": "DSAG.3.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Rechtschreibung und Wortschatz",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Gross- und Kleinschreibung, das-dass, Fremdwörter und genaue Verben — alles, was im Aufsatz Abzug gibt.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Gross- und Kleinschreibung, Nominalisierung",
+     "lernzielId": "DSAG.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "das oder dass",
+     "lernzielId": "DSAG.4.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.03",
+     "name": "Getrennt- und Zusammenschreibung",
+     "lernzielId": "DSAG.4.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.04",
+     "name": "Wortfamilien und Wortfelder",
+     "lernzielId": "DSAG.4.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.05",
+     "name": "Synonyme und genaue Verben",
+     "lernzielId": "DSAG.4.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.06",
+     "name": "Redewendungen und Fremdwörter",
+     "lernzielId": "DSAG.4.06",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

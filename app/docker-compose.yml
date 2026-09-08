@@ -1,0 +1,87 @@
+# StudySwiss — Backend, Datenbank und TLS auf einem Droplet.
+#
+# Für App Platform braucht es diese Datei nicht; dort baut DigitalOcean
+# direkt aus dem Dockerfile. Sie ist für den Weg mit einem eigenen Server.
+services:
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      STUDYSWISS_UMGEBUNG: produktion
+      PORT: 8080
+      # Der Dienstname `datenbank` genügt — Docker löst ihn im eigenen Netz
+      # auf. Die Datenbank ist von aussen nicht erreichbar.
+      DB_URL: jdbc:postgresql://datenbank:5432/studyswiss
+      DB_BENUTZER: studyswiss
+      DB_PASSWORT: ${DB_PASSWORT:?DB_PASSWORT fehlt in .env}
+      JWT_GEHEIMNIS: ${JWT_GEHEIMNIS:?JWT_GEHEIMNIS fehlt in .env}
+      JWT_ISSUER: ${JWT_ISSUER:-studyswiss}
+      JWT_AUDIENCE: ${JWT_AUDIENCE:-studyswiss-app}
+      APPLE_BUNDLE_ID: ${APPLE_BUNDLE_ID:?APPLE_BUNDLE_ID fehlt in .env}
+      # Die Website ist der zweite Client. Ohne die Service-ID (Apple) und
+      # die Web-Client-ID (Google) weist der Server jede Anmeldung aus dem
+      # Browser ab — mit einer Meldung, die in die Irre fuehrt.
+      APPLE_SERVICE_ID: ${APPLE_SERVICE_ID:-}
+      GOOGLE_WEB_CLIENT_ID: ${GOOGLE_WEB_CLIENT_ID:-}
+      WEB_HERKUNFT: ${WEB_HERKUNFT:-studyswiss.ch,www.studyswiss.ch,app.studyswiss.ch}
+      # Absender und Bankverbindung fuer Offerten und Rechnungen. Ohne
+      # RECHNUNG_IBAN wird bewusst kein Zahlteil erzeugt — ein Zahlteil
+      # ohne Konto ist wertlos und wird trotzdem bezahlt.
+      RECHNUNG_ABSENDER: ${RECHNUNG_ABSENDER:-StudySwiss}
+      RECHNUNG_ZUSATZ: ${RECHNUNG_ZUSATZ:-}
+      RECHNUNG_STRASSE: ${RECHNUNG_STRASSE:-}
+      RECHNUNG_PLZ: ${RECHNUNG_PLZ:-}
+      RECHNUNG_ORT: ${RECHNUNG_ORT:-}
+      RECHNUNG_UID: ${RECHNUNG_UID:-}
+      RECHNUNG_IBAN: ${RECHNUNG_IBAN:-}
+      RECHNUNG_EMAIL: ${RECHNUNG_EMAIL:-rechnungen@studyswiss.ch}
+      ANDROID_PAKET: ${ANDROID_PAKET:?ANDROID_PAKET fehlt in .env}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      APPLE_SERVER_TOKEN: ${APPLE_SERVER_TOKEN:-}
+      GOOGLE_SERVER_TOKEN: ${GOOGLE_SERVER_TOKEN:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      STUDYSWISS_VERSION: ${STUDYSWISS_VERSION:-unbekannt}
+    depends_on:
+      datenbank:
+        condition: service_healthy
+    # Kein `ports:` — nur Caddy spricht mit dem Backend. Wer den Port hier
+    # öffnet, umgeht damit TLS.
+    expose: ["8080"]
+
+  datenbank:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: studyswiss
+      POSTGRES_USER: studyswiss
+      POSTGRES_PASSWORD: ${DB_PASSWORT:?DB_PASSWORT fehlt in .env}
+    volumes:
+      - daten:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U studyswiss -d studyswiss"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+  # Caddy holt und erneuert das TLS-Zertifikat selbst. Eine Zeile Konfiguration
+  # statt Certbot, Cron und einer Erinnerung im Kalender.
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      DOMAIN: ${DOMAIN:?DOMAIN fehlt in .env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      # Die Website liegt als Dateien daneben, nicht im Backend-Bild:
+      # Wer eine Zeile Text ändert, soll dafür kein Kotlin neu bauen.
+      - ./website:/srv/website:ro
+      - caddy_daten:/data
+      - caddy_konfig:/config
+    depends_on: [backend]
+
+volumes:
+  daten:
+  caddy_daten:
+  caddy_konfig:

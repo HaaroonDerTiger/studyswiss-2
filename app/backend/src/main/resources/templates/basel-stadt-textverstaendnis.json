@@ -1,0 +1,2334 @@
+[
+ {
+  "templateId": "bs-tv-mottainai-info",
+  "lernzielId": "TBS.1.01",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zahlen und Angaben stehen meist in einem einzigen Satz. Suche ihn gezielt.",
+   "Achte auf Wörter wie «im Schnitt», «rund» oder «etwa»: Sie gehören zur Angabe dazu.",
+   "Lies bei einer Definition auch den Satz danach. Dort steht oft die Einschränkung."
+  ],
+  "loesungsweg": [
+   "Überfliege den Text und merke dir, wo welche Angabe steht.",
+   "Suche zur Frage die passende Stelle und lies sie ganz.",
+   "Prüfe jede Auswahlmöglichkeit gegen diese Stelle.",
+   "Was im Text nicht steht, ist auch dann falsch, wenn es plausibel klingt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viele Kilogramm Lebensmittel wirft laut Text jede Person in der Schweiz im Jahr weg?",
+    "optionen": [
+     "rund achtzig",
+     "rund achtzehn",
+     "rund achthundert",
+     "genau achtzig"
+    ],
+    "loesung": [
+     "rund achtzig"
+    ],
+    "erklaerung": "Der Text nennt «im Schnitt rund achtzig Kilogramm Lebensmittel im Jahr».",
+    "fehler": [
+     {
+      "antwort": "rund achtzehn",
+      "diagnoseId": "zahl_verlesen",
+      "feedback": "Im Text steht achtzig, nicht achtzehn. Die beiden Zahlen sehen ähnlich aus, meinen aber sehr Verschiedenes."
+     },
+     {
+      "antwort": "rund achthundert",
+      "diagnoseId": "groessenordnung",
+      "feedback": "Achthundert Kilogramm wären fast eine Tonne pro Person. Der Text nennt achtzig."
+     },
+     {
+      "antwort": "genau achtzig",
+      "diagnoseId": "rund_uebersehen",
+      "feedback": "Der Text sagt «im Schnitt rund» Das ist eine gerundete Angabe, keine genaue."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Mindestens haltbar bis» laut Text?",
+    "optionen": [
+     "ein Versprechen des Herstellers",
+     "ein Verfallsdatum",
+     "eine gesetzliche Pflicht zum Wegwerfen",
+     "das Datum der Herstellung"
+    ],
+    "loesung": [
+     "ein Versprechen des Herstellers"
+    ],
+    "erklaerung": "Der Text stellt es ausdrücklich gegenüber: «kein Verfallsdatum, sondern ein Versprechen des Herstellers».",
+    "fehler": [
+     {
+      "antwort": "ein Verfallsdatum",
+      "diagnoseId": "gegenteil",
+      "feedback": "Genau das verneint der Text: Es ist kein Verfallsdatum."
+     },
+     {
+      "antwort": "eine gesetzliche Pflicht zum Wegwerfen",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Pflicht steht nichts im Text. Es geht um ein Versprechen."
+     },
+     {
+      "antwort": "das Datum der Herstellung",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das Datum bezieht sich auf die Haltbarkeit, nicht auf die Herstellung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viel rettet der «zweite Blick» laut Text?",
+    "optionen": [
+     "ein Viertel dessen, was sonst weggeht",
+     "die Hälfte",
+     "achtzig Kilogramm",
+     "zehn Sekunden"
+    ],
+    "loesung": [
+     "ein Viertel dessen, was sonst weggeht"
+    ],
+    "erklaerung": "Der Text: «Er kostet zehn Sekunden und rettet ein Viertel dessen, was sonst weggeht.»",
+    "fehler": [
+     {
+      "antwort": "die Hälfte",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Der Text nennt ein Viertel, nicht die Hälfte."
+     },
+     {
+      "antwort": "achtzig Kilogramm",
+      "diagnoseId": "angabe_verwechselt",
+      "feedback": "Die achtzig Kilogramm sind die Gesamtmenge pro Person und Jahr, nicht der gerettete Teil."
+     },
+     {
+      "antwort": "zehn Sekunden",
+      "diagnoseId": "zeit_statt_menge",
+      "feedback": "Zehn Sekunden ist der Aufwand, nicht die gerettete Menge."
+     }
+    ]
+   },
+   {
+    "stamm": "Womit vergleicht der Text die Kosten eines neuen Reissverschlusses?",
+    "optionen": [
+     "mit einem Kinobesuch",
+     "mit einer neuen Jacke",
+     "mit einem Joghurt",
+     "mit einer Werkstattstunde"
+    ],
+    "loesung": [
+     "mit einem Kinobesuch"
+    ],
+    "erklaerung": "Der Text sagt, der neue Reissverschluss koste weniger als ein Kinobesuch.",
+    "fehler": [
+     {
+      "antwort": "mit einer neuen Jacke",
+      "diagnoseId": "naheliegend_aber_falsch",
+      "feedback": "Die Jacke kommt vor, aber der Preisvergleich läuft über den Kinobesuch."
+     },
+     {
+      "antwort": "mit einem Joghurt",
+      "diagnoseId": "anderer_abschnitt",
+      "feedback": "Das Joghurt gehört zum Abschnitt über das Haltbarkeitsdatum."
+     },
+     {
+      "antwort": "mit einer Werkstattstunde",
+      "diagnoseId": "erfunden",
+      "feedback": "Was die Werkstatt kostet, sagt der Text nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was erzählen laut Text die Leute, die in einer Quartierwerkstatt waren?",
+    "optionen": [
+     "dass sie etwas konnten, was sie sich nicht zugetraut hätten",
+     "wie schön die Jacke wieder aussieht",
+     "wie günstig es war",
+     "wie lange sie gewartet haben"
+    ],
+    "loesung": [
+     "dass sie etwas konnten, was sie sich nicht zugetraut hätten"
+    ],
+    "erklaerung": "Der Text: «Wer dort war, erzählt selten von der Jacke. Er erzählt davon, dass er etwas konnte, was er sich nicht zugetraut hätte.»",
+    "fehler": [
+     {
+      "antwort": "wie schön die Jacke wieder aussieht",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt ausdrücklich, dass sie SELTEN von der Jacke erzählen."
+     },
+     {
+      "antwort": "wie günstig es war",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Preis erzählen sie laut Text nicht; der Preisvergleich steht im Satz davor."
+     },
+     {
+      "antwort": "wie lange sie gewartet haben",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Von Wartezeiten steht im Text nichts; erzählt wird von der eigenen Erfahrung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst *mottainai* wörtlich?",
+    "optionen": [
+     "etwa «wie schade»",
+     "«nicht wegwerfen»",
+     "«zweiter Blick»",
+     "«mindestens haltbar»"
+    ],
+    "loesung": [
+     "etwa «wie schade»"
+    ],
+    "erklaerung": "Der Text: «Wörtlich heisst es etwa ‹wie schade›, gemeint ist aber mehr».",
+    "fehler": [
+     {
+      "antwort": "«nicht wegwerfen»",
+      "diagnoseId": "bedeutung_statt_wortlaut",
+      "feedback": "Das trifft ungefähr den Sinn, aber nicht den wörtlichen Ausdruck."
+     },
+     {
+      "antwort": "«zweiter Blick»",
+      "diagnoseId": "ueberschrift_verwechselt",
+      "feedback": "Der «zweite Blick» ist der Titel des Textes, nicht die Übersetzung des Wortes."
+     },
+     {
+      "antwort": "«mindestens haltbar»",
+      "diagnoseId": "aufdruck_verwechselt",
+      "feedback": "Das ist der Aufdruck auf der Packung, nicht die Bedeutung von mottainai."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum ist der zweite Blick laut Text unbequem?",
+    "optionen": [
+     "weil er eine eigene Entscheidung verlangt",
+     "weil er lange dauert",
+     "weil er Geld kostet",
+     "weil er gesetzlich verboten ist"
+    ],
+    "loesung": [
+     "weil er eine eigene Entscheidung verlangt"
+    ],
+    "erklaerung": "Der Text: «Doch der zweite Blick ist unbequem, weil er eine Entscheidung verlangt.»",
+    "fehler": [
+     {
+      "antwort": "weil er lange dauert",
+      "diagnoseId": "widerspruch",
+      "feedback": "Der Text nennt zehn Sekunden. Gerade nicht lange."
+     },
+     {
+      "antwort": "weil er Geld kostet",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Geld ist beim zweiten Blick nicht die Rede."
+     },
+     {
+      "antwort": "weil er gesetzlich verboten ist",
+      "diagnoseId": "unsinn",
+      "feedback": "Ein Verbot kommt im Text nirgends vor. Unbequem ist der zweite Blick aus einem anderen Grund."
+     }
+    ]
+   },
+   {
+    "stamm": "Was passiert laut Text mit dem meisten weggeworfenen Essen?",
+    "optionen": [
+     "Es ist nicht verdorben, sondern nur über dem Datum",
+     "Es ist verschimmelt",
+     "Es wird kompostiert",
+     "Es wird an Tiere verfüttert"
+    ],
+    "loesung": [
+     "Es ist nicht verdorben, sondern nur über dem Datum"
+    ],
+    "erklaerung": "Der Text: «Das meiste davon ist nicht verdorben, sondern bloss über ein Datum hinaus.»",
+    "fehler": [
+     {
+      "antwort": "Es ist verschimmelt",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text betont, dass das meiste eben NICHT verdorben ist."
+     },
+     {
+      "antwort": "Es wird kompostiert",
+      "diagnoseId": "erfunden",
+      "feedback": "Was mit dem Weggeworfenen geschieht, sagt der Text nicht."
+     },
+     {
+      "antwort": "Es wird an Tiere verfüttert",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Von Tieren steht im Text nichts; er sagt nur, das meiste sei nicht verdorben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welchen Einwand nennt der Text selbst gegen seine Aussage?",
+    "optionen": [
+     "dass es blosse Nostalgie sei",
+     "dass Flicken zu teuer sei",
+     "dass es zu lange dauere",
+     "dass die Zahlen falsch seien"
+    ],
+    "loesung": [
+     "dass es blosse Nostalgie sei"
+    ],
+    "erklaerung": "Der letzte Abschnitt beginnt: «Man könnte einwenden, das sei Nostalgie.»",
+    "fehler": [
+     {
+      "antwort": "dass Flicken zu teuer sei",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Text argumentiert gerade umgekehrt: Flicken ist günstiger als ein Kinobesuch."
+     },
+     {
+      "antwort": "dass es zu lange dauere",
+      "diagnoseId": "anderer_abschnitt",
+      "feedback": "Die Zeitfrage gehört zum zweiten Blick, nicht zum Einwand."
+     },
+     {
+      "antwort": "dass die Zahlen falsch seien",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Die Zahlen werden im Text nicht angezweifelt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie beantwortet der Text den Nostalgie-Einwand?",
+    "optionen": [
+     "Er gibt ihm recht und lässt ihn trotzdem nicht gelten",
+     "Er widerlegt ihn mit Zahlen",
+     "Er übergeht ihn",
+     "Er stimmt ihm vollständig zu"
+    ],
+    "loesung": [
+     "Er gibt ihm recht und lässt ihn trotzdem nicht gelten"
+    ],
+    "erklaerung": "Der Text: «Das stimmt, und es ist trotzdem kein Argument.»",
+    "fehler": [
+     {
+      "antwort": "Er widerlegt ihn mit Zahlen",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Text bringt an dieser Stelle keine Zahlen, sondern eine Umdeutung."
+     },
+     {
+      "antwort": "Er übergeht ihn",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Einwand wird ausdrücklich genannt und beantwortet."
+     },
+     {
+      "antwort": "Er stimmt ihm vollständig zu",
+      "diagnoseId": "haelfte_uebersehen",
+      "feedback": "Der Text stimmt nur im ersten Halbsatz zu und widerspricht dann."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «ein Ding zu Ende denken» laut dem letzten Abschnitt?",
+    "optionen": [
+     "von der Arbeit darin bis zu dem Tag, an dem es wirklich nichts mehr taugt",
+     "es möglichst schnell zu ersetzen",
+     "es nie mehr wegzuwerfen",
+     "seinen Preis auszurechnen"
+    ],
+    "loesung": [
+     "von der Arbeit darin bis zu dem Tag, an dem es wirklich nichts mehr taugt"
+    ],
+    "erklaerung": "Der Text erklärt es genau so und fügt an: «Dazwischen liegt meistens mehr Zeit, als wir ihm zugestehen.»",
+    "fehler": [
+     {
+      "antwort": "es möglichst schnell zu ersetzen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text plädiert gerade dafür, ein Ding länger zu behalten."
+     },
+     {
+      "antwort": "es nie mehr wegzuwerfen",
+      "diagnoseId": "zu_absolut",
+      "feedback": "Der Text schliesst den Tag ausdrücklich ein, an dem ein Ding wirklich nichts mehr taugt."
+     },
+     {
+      "antwort": "seinen Preis auszurechnen",
+      "diagnoseId": "geld_verwechselt",
+      "feedback": "Der Text sagt gleich zu Beginn, dass es nicht ums Geld geht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Sekunden kostet der zweite Blick laut Text?",
+    "optionen": [
+     "zehn",
+     "elf",
+     "achtzig",
+     "hundert"
+    ],
+    "loesung": [
+     "zehn"
+    ],
+    "erklaerung": "Der Text: «Er kostet zehn Sekunden.»",
+    "fehler": [
+     {
+      "antwort": "elf",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Elf kommt im Text nicht vor. Genannt werden zehn Sekunden."
+     },
+     {
+      "antwort": "achtzig",
+      "diagnoseId": "angabe_verwechselt",
+      "feedback": "Achtzig sind die Kilogramm pro Person und Jahr, nicht die Sekunden."
+     },
+     {
+      "antwort": "hundert",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine solche Zahl steht nicht im Text. Genannt werden zehn Sekunden für den zweiten Blick."
+     }
+    ]
+   }
+  ],
+  "text": "Die Kunst des zweiten Blicks\n\nEs gibt ein japanisches Wort, das sich schlecht übersetzen lässt: «mottainai».\nWörtlich heisst es etwa «wie schade», gemeint ist aber mehr. Ein leises\nUnbehagen darüber, dass etwas verschwendet wird, das noch Wert hätte. Wer\n«mottainai» sagt, spricht nicht von Geld. Er spricht davon, dass ein Ding, in\ndem Arbeit steckt, zu früh aufhört, ein Ding zu sein.\n\nDie Rechnung ist ernüchternd. In der Schweiz wirft jede Person im Schnitt\nrund achtzig Kilogramm Lebensmittel im Jahr weg. Das meiste davon ist nicht\nverdorben, sondern bloss über ein Datum hinaus, das auf der Packung steht.\n«Mindestens haltbar bis» ist kein Verfallsdatum, sondern ein Versprechen des\nHerstellers, und trotzdem wandert ein Joghurt am Tag danach in den Kübel,\nohne dass jemand den Deckel geöffnet hätte.\n\nDer zweite Blick wäre einfach: aufmachen, riechen, kosten. Er kostet zehn\nSekunden und rettet ein Viertel dessen, was sonst weggeht. Doch der zweite\nBlick ist unbequem, weil er eine Entscheidung verlangt. Das Datum entscheidet\nfür uns; die Nase zwingt uns, selbst zu urteilen.\n\nÄhnlich geht es uns mit Dingen, die nicht essbar sind. Ein Reissverschluss\nklemmt, und die Jacke ist erledigt. Dabei kostet der neue Reissverschluss\nweniger als ein Kinobesuch, und in vielen Quartieren gibt es inzwischen\nWerkstätten, in denen man ihn unter Anleitung selbst einnäht. Wer dort war,\nerzählt selten von der Jacke. Er erzählt davon, dass er etwas konnte, was er\nsich nicht zugetraut hätte.\n\nMan könnte einwenden, das sei Nostalgie: Früher habe man eben flicken müssen,\nheute müsse man nicht mehr. Das stimmt, und es ist trotzdem kein Argument.\nDenn «mottainai» ist keine Sparanweisung. Es ist die Aufforderung, ein Ding\nzu Ende zu denken, von der Arbeit, die darinsteckt, bis zu dem Tag, an dem\nes wirklich nichts mehr taugt. Dazwischen liegt meistens mehr Zeit, als wir\nihm zugestehen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Informationen aus einem Sachtext entnehmen",
+  "status": "review"
+ },
+ {
+  "templateId": "bs-tv-mottainai-richtig-falsch",
+  "lernzielId": "TBS.1.05",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "1.05",
+   "1.06",
+   "1.04"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "«Mit Sicherheit» heisst: Es muss im Text stehen, nicht bloss wahrscheinlich sein.",
+   "Achte auf Wörter wie «alle», «nie», «immer»: Ein einziges Gegenbeispiel macht die Aussage falsch.",
+   "Wenn du eine Stelle nicht findest, ist die Aussage meist falsch."
+  ],
+  "loesungsweg": [
+   "Nimm jede Zeile einzeln und suche die passende Textstelle.",
+   "Steht es wörtlich oder sinngemäss da, ist die Aussage richtig.",
+   "Steht das Gegenteil da oder gar nichts, ist sie falsch.",
+   "Achte besonders auf Verallgemeinerungen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (Zahlen und Begriffe)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text nennt achtzig Kilogramm pro Person und Jahr und sagt, das meiste davon sei nicht verdorben. Vom Geld handelt mottainai gerade nicht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Jede Person in der Schweiz wirft rund achtzig Kilogramm Lebensmittel im Jahr weg.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Das meiste weggeworfene Essen ist verdorben.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Wer mottainai sagt, spricht in erster Linie vom Geld.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "«Mindestens haltbar bis» ist kein Verfallsdatum.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (der zweite Blick)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der zweite Blick dauert zehn Sekunden und rettet ein Viertel. Unbequem ist er wegen der Entscheidung, nicht wegen des Aufwands.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Der zweite Blick dauert laut Text etwa zehn Sekunden.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der zweite Blick rettet die Hälfte des Weggeworfenen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der zweite Blick ist unbequem, weil er eine Entscheidung verlangt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Das Datum auf der Packung nimmt uns die Entscheidung ab.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (Reissverschluss und Werkstatt)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Reissverschluss kostet weniger als ein Kinobesuch, und in den Werkstätten näht man selbst, unter Anleitung.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Ein neuer Reissverschluss kostet mehr als ein Kinobesuch.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "In den Quartierwerkstätten näht eine Fachperson die Jacke für einen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Es gibt laut Text in vielen Quartieren solche Werkstätten.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Wer dort war, erzählt vor allem von der Jacke.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (das Wort mottainai)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Mottainai lässt sich schlecht übersetzen; der Text nennt eine wörtliche Näherung und sagt, gemeint sei mehr.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Das Wort mottainai lässt sich leicht ins Deutsche übersetzen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Wörtlich bedeutet mottainai etwa «wie schade».",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text sagt, gemeint sei mehr als die wörtliche Bedeutung.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Mottainai ist laut Text eine Sparanweisung.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (der Einwand)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text nennt den Nostalgie-Einwand, gibt ihm im ersten Halbsatz recht und lässt ihn dann nicht gelten.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Der Text nennt selbst einen möglichen Einwand.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text hält den Nostalgie-Einwand für schlicht falsch.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text lässt den Einwand trotzdem nicht als Argument gelten.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text fordert, nie mehr etwas wegzuwerfen.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (das Joghurt)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text spricht von einem Joghurt, das ungeöffnet im Kübel landet, und vom Riechen und Kosten als Prüfung.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Der Text nennt ein Joghurt als Beispiel.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text wird das Joghurt vor dem Wegwerfen geöffnet.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Aufmachen, riechen und kosten ist laut Text der zweite Blick.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text empfiehlt, sich allein auf das Datum zu verlassen.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (Arbeit und Zeit)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text spricht von Arbeit, die in einem Ding steckt, und davon, dass wir Dingen zu wenig Zeit zugestehen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Laut Text steckt in einem Ding Arbeit.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text gestehen wir Dingen mehr Zeit zu, als sie brauchen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text spricht auch von Dingen, die nicht essbar sind.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text nennt nur Lebensmittel als Beispiel.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (Japan und die Schweiz)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text stammt aus Japan nur dem Wort nach; die Zahlen beziehen sich auf die Schweiz.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Das Wort mottainai stammt aus dem Japanischen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Die genannte Zahl von achtzig Kilogramm gilt für Japan.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text nennt eine Zahl für die Schweiz.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text vergleicht die Schweiz mit Japan.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (Nase und Datum)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text spricht davon, dass die Nase uns zwingt, selbst zu urteilen, und dass das Datum für uns entscheidet.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Laut Text entscheidet das Datum für uns.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text zwingt uns die Nase zu einem eigenen Urteil.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text hält das eigene Urteil für unzuverlässig.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text rät davon ab, an Lebensmitteln zu riechen.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (die Jacke)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text erzählt vom Klemmen eines Reissverschlusses und davon, dass die Jacke deswegen als erledigt gilt.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Laut Text gilt eine Jacke mit klemmendem Reissverschluss oft als erledigt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text hält diesen Umgang mit der Jacke für richtig.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Reissverschluss lässt sich laut Text ersetzen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text muss man dafür eine Schneiderei bezahlen.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (was der Text belegt)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text nennt keine Studie, keine Jahreszahl und keinen Ort in Japan. Solche Angaben lassen sich also nicht belegen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Der Text nennt eine Studie mit Namen.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text nennt eine Zahl zum Lebensmittelabfall.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text nennt ein Jahr, in dem die Zahl erhoben wurde.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Text nennt eine japanische Stadt.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheide bei jeder Aussage, ob sie laut Text richtig oder falsch ist.  (der Schluss)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der letzte Abschnitt fasst zusammen: mottainai ist die Aufforderung, ein Ding zu Ende zu denken.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Mottainai ist laut Text eine Aufforderung.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text soll man ein Ding von seiner Arbeit her denken.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Laut Text taugt ein Ding irgendwann wirklich nichts mehr.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Text behauptet, Dinge hielten ewig.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "richtig",
+   "falsch"
+  ],
+  "text": "Die Kunst des zweiten Blicks\n\nEs gibt ein japanisches Wort, das sich schlecht übersetzen lässt: «mottainai».\nWörtlich heisst es etwa «wie schade», gemeint ist aber mehr. Ein leises\nUnbehagen darüber, dass etwas verschwendet wird, das noch Wert hätte. Wer\n«mottainai» sagt, spricht nicht von Geld. Er spricht davon, dass ein Ding, in\ndem Arbeit steckt, zu früh aufhört, ein Ding zu sein.\n\nDie Rechnung ist ernüchternd. In der Schweiz wirft jede Person im Schnitt\nrund achtzig Kilogramm Lebensmittel im Jahr weg. Das meiste davon ist nicht\nverdorben, sondern bloss über ein Datum hinaus, das auf der Packung steht.\n«Mindestens haltbar bis» ist kein Verfallsdatum, sondern ein Versprechen des\nHerstellers, und trotzdem wandert ein Joghurt am Tag danach in den Kübel,\nohne dass jemand den Deckel geöffnet hätte.\n\nDer zweite Blick wäre einfach: aufmachen, riechen, kosten. Er kostet zehn\nSekunden und rettet ein Viertel dessen, was sonst weggeht. Doch der zweite\nBlick ist unbequem, weil er eine Entscheidung verlangt. Das Datum entscheidet\nfür uns; die Nase zwingt uns, selbst zu urteilen.\n\nÄhnlich geht es uns mit Dingen, die nicht essbar sind. Ein Reissverschluss\nklemmt, und die Jacke ist erledigt. Dabei kostet der neue Reissverschluss\nweniger als ein Kinobesuch, und in vielen Quartieren gibt es inzwischen\nWerkstätten, in denen man ihn unter Anleitung selbst einnäht. Wer dort war,\nerzählt selten von der Jacke. Er erzählt davon, dass er etwas konnte, was er\nsich nicht zugetraut hätte.\n\nMan könnte einwenden, das sei Nostalgie: Früher habe man eben flicken müssen,\nheute müsse man nicht mehr. Das stimmt, und es ist trotzdem kein Argument.\nDenn «mottainai» ist keine Sparanweisung. Es ist die Aufforderung, ein Ding\nzu Ende zu denken, von der Arbeit, die darinsteckt, bis zu dem Tag, an dem\nes wirklich nichts mehr taugt. Dazwischen liegt meistens mehr Zeit, als wir\nihm zugestehen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Aussagen als richtig oder falsch prüfen",
+  "status": "review"
+ },
+ {
+  "templateId": "bs-tv-schluessel-handlung",
+  "lernzielId": "TBS.2.01",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies die Frage genau: Wird nach dem gefragt, was dasteht, oder nach dem, was du vermutest?",
+   "Such die Stelle im Text, die zur Frage gehört, und lies sie noch einmal ganz.",
+   "Wenn zwei Antworten möglich scheinen, entscheidet oft ein einziges Wort im Text."
+  ],
+  "loesungsweg": [
+   "Suche zuerst die Textstelle, um die es geht.",
+   "Lies den Satz davor und danach mit, oft steht dort die Antwort.",
+   "Prüfe jede Auswahl einzeln gegen den Text.",
+   "Streiche, was zwar plausibel klingt, aber nicht dasteht."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wo hatte Malik den Schlüssel zuletzt in der Hand?",
+    "optionen": [
+     "auf dem Kiesplatz hinter dem Haus",
+     "in seiner Jackentasche",
+     "unter dem Sofa",
+     "bei der Haustür"
+    ],
+    "loesung": [
+     "auf dem Kiesplatz hinter dem Haus"
+    ],
+    "erklaerung": "Im ersten Abschnitt steht, er habe ihn zuletzt in der Hand gehabt, als er über den Kiesplatz hinter dem Haus ging.",
+    "fehler": [
+     {
+      "antwort": "in seiner Jackentasche",
+      "diagnoseId": "frueheres_ereignis",
+      "feedback": "Die Jackentasche gehört zu einem früheren Mal. Der Text sagt ausdrücklich: «Diesmal war es anders.»"
+     },
+     {
+      "antwort": "unter dem Sofa",
+      "diagnoseId": "frueheres_ereignis_zwei",
+      "feedback": "Auch das Sofa gehört zu einem der beiden früheren Male, nicht zu diesem."
+     },
+     {
+      "antwort": "bei der Haustür",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Die Haustür kommt erst am Schluss vor, und dort hat er den Schlüssel schon wieder."
+     }
+    ]
+   },
+   {
+    "stamm": "Was findet Malik, während er in der Sonne sucht?",
+    "optionen": [
+     "einen Kronenkorken, ein Stück Draht und eine verbogene Münze",
+     "nichts ausser Kies",
+     "den Schlüssel",
+     "ein Tuch von Frau Bühler"
+    ],
+    "loesung": [
+     "einen Kronenkorken, ein Stück Draht und eine verbogene Münze"
+    ],
+    "erklaerung": "Der Text zählt die drei Fundstücke ausdrücklich auf.",
+    "fehler": [
+     {
+      "antwort": "nichts ausser Kies",
+      "diagnoseId": "ueberlesen",
+      "feedback": "Der Text nennt drei Dinge, die er findet. Lies den Abschnitt über die zwanzig Minuten noch einmal."
+     },
+     {
+      "antwort": "den Schlüssel",
+      "diagnoseId": "zu_frueh",
+      "feedback": "Den Schlüssel findet er erst später, und zwar bei der Hecke im Schatten."
+     },
+     {
+      "antwort": "ein Tuch von Frau Bühler",
+      "diagnoseId": "verwechselt",
+      "feedback": "Frau Bühler schüttelt ein Tuch aus, aber Malik findet es nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum hatte Malik zuerst nur in der Sonne gesucht?",
+    "optionen": [
+     "weil man dort am besten sieht",
+     "weil der Schatten ihm zu kalt war",
+     "weil Frau Bühler es ihm geraten hatte",
+     "weil er dort am Morgen gegangen war"
+    ],
+    "loesung": [
+     "weil man dort am besten sieht"
+    ],
+    "erklaerung": "Der Text sagt es direkt: «Er hatte die ganze Zeit in der Sonne gesucht, weil man dort am besten sah.»",
+    "fehler": [
+     {
+      "antwort": "weil der Schatten ihm zu kalt war",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Kälte steht nichts im Text. Der Grund ist die bessere Sicht."
+     },
+     {
+      "antwort": "weil Frau Bühler es ihm geraten hatte",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Frau Bühler rät ihm das Gegenteil: nicht dort zu suchen, wo es hell ist."
+     },
+     {
+      "antwort": "weil er dort am Morgen gegangen war",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Sein Weg führte am Schatten der Hecke entlang, nicht durch die Sonne."
+     }
+    ]
+   },
+   {
+    "stamm": "Was tut Malik, unmittelbar nachdem Frau Bühler ihm den Rat gegeben hat?",
+    "optionen": [
+     "Er steht auf und geht zur Hecke",
+     "Er sucht weiter in der Sonne",
+     "Er geht ins Haus",
+     "Er ruft seinen Bruder"
+    ],
+    "loesung": [
+     "Er steht auf und geht zur Hecke"
+    ],
+    "erklaerung": "Nach dem Innehalten steht er auf, klopft sich den Staub ab und geht zur Hecke hinüber.",
+    "fehler": [
+     {
+      "antwort": "Er sucht weiter in der Sonne",
+      "diagnoseId": "rat_ignoriert",
+      "feedback": "Er befolgt den Rat. Der Text beschreibt, wie er aufsteht und die Seite wechselt."
+     },
+     {
+      "antwort": "Er geht ins Haus",
+      "diagnoseId": "zu_spaet",
+      "feedback": "Ins Haus geht er erst, nachdem er den Schlüssel gefunden hat."
+     },
+     {
+      "antwort": "Er ruft seinen Bruder",
+      "diagnoseId": "spaeter",
+      "feedback": "Der Bruder kommt erst am Abend vor, und dort fragt er von sich aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Beim wievielten Griff findet Malik den Schlüssel im Schatten?",
+    "optionen": [
+     "beim dritten",
+     "beim ersten",
+     "beim zweiten",
+     "beim zehnten"
+    ],
+    "loesung": [
+     "beim dritten"
+    ],
+    "erklaerung": "Der Text sagt: «einmal, zweimal. Beim dritten Mal spürte er etwas Kaltes, Kantiges.»",
+    "fehler": [
+     {
+      "antwort": "beim ersten",
+      "diagnoseId": "ueberlesen",
+      "feedback": "Der Text zählt mit: einmal, zweimal, und erst beim dritten Mal spürt er etwas."
+     },
+     {
+      "antwort": "beim zweiten",
+      "diagnoseId": "fast_richtig",
+      "feedback": "Fast, nach dem zweiten Mal hat er noch nichts. Erst der dritte Griff bringt den Schlüssel."
+     },
+     {
+      "antwort": "beim zehnten",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Die Zehn gehört zu den zehn Minuten in der Sonne, nicht zu den Griffen im Schatten."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie reagiert Frau Bühler, als Malik den Schlüssel hochhält?",
+    "optionen": [
+     "Sie nickt und geht in ihre Wohnung",
+     "Sie ruft ihm etwas zu",
+     "Sie kommt hinunter",
+     "Sie schüttelt noch einmal das Tuch aus"
+    ],
+    "loesung": [
+     "Sie nickt und geht in ihre Wohnung"
+    ],
+    "erklaerung": "Der Text: «Sie nickte, als hätte sie es die ganze Zeit gewusst, und verschwand in ihrer Wohnung.»",
+    "fehler": [
+     {
+      "antwort": "Sie ruft ihm etwas zu",
+      "diagnoseId": "frueher",
+      "feedback": "Gerufen hat sie vorher, als sie fragte, ob er etwas suche. Danach sagt sie nichts mehr."
+     },
+     {
+      "antwort": "Sie kommt hinunter",
+      "diagnoseId": "erfunden",
+      "feedback": "Sie bleibt auf dem Balkon und verschwindet von dort in die Wohnung."
+     },
+     {
+      "antwort": "Sie schüttelt noch einmal das Tuch aus",
+      "diagnoseId": "wiederholung_erfunden",
+      "feedback": "Das Tuch schüttelt sie nur einmal aus, ganz am Anfang der Szene."
+     }
+    ]
+   },
+   {
+    "stamm": "Was erfährt man über die Münze, die Malik findet?",
+    "optionen": [
+     "Sie ist so verbogen, dass er ihren Wert nicht erkennt",
+     "Sie ist einen Franken wert",
+     "Sie ist aus Gold",
+     "Sie gehört Frau Bühler"
+    ],
+    "loesung": [
+     "Sie ist so verbogen, dass er ihren Wert nicht erkennt"
+    ],
+    "erklaerung": "Der Text sagt genau das: Sie war so verbogen, dass er ihren Wert nicht mehr erkennen konnte.",
+    "fehler": [
+     {
+      "antwort": "Sie ist einen Franken wert",
+      "diagnoseId": "wert_erfunden",
+      "feedback": "Gerade das steht nicht da: Ihr Wert ist nicht mehr zu erkennen."
+     },
+     {
+      "antwort": "Sie ist aus Gold",
+      "diagnoseId": "erfunden",
+      "feedback": "Über das Material der Münze sagt der Text nichts. Nur, dass sie verbogen ist."
+     },
+     {
+      "antwort": "Sie gehört Frau Bühler",
+      "diagnoseId": "erfunden_besitzer",
+      "feedback": "Wem die Münze gehört, steht nirgends im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie fühlt sich der Kies bei der Hecke an im Vergleich zum Kies in der Sonne?",
+    "optionen": [
+     "dunkler und feuchter",
+     "heller und trockener",
+     "wärmer",
+     "genau gleich"
+    ],
+    "loesung": [
+     "dunkler und feuchter"
+    ],
+    "erklaerung": "Der Text: «Der Kies dort war dunkler und feuchter, und er roch nach Erde.»",
+    "fehler": [
+     {
+      "antwort": "heller und trockener",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Das beschreibt den Kies in der Sonne. Bei der Hecke ist es umgekehrt."
+     },
+     {
+      "antwort": "wärmer",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Temperatur des Kieses steht nichts; kalt ist nur der Schlüssel."
+     },
+     {
+      "antwort": "genau gleich",
+      "diagnoseId": "unterschied_uebersehen",
+      "feedback": "Der Text betont den Unterschied ausdrücklich."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lange sucht Malik ungefähr, bevor er die drei Fundstücke beisammen hat?",
+    "optionen": [
+     "etwa zwanzig Minuten",
+     "etwa zehn Minuten",
+     "mehrere Stunden",
+     "einen ganzen Nachmittag"
+    ],
+    "loesung": [
+     "etwa zwanzig Minuten"
+    ],
+    "erklaerung": "Nach zehn Minuten tun ihm die Knie weh, nach zwanzig Minuten hat er Kronenkorken, Draht und Münze gefunden.",
+    "fehler": [
+     {
+      "antwort": "etwa zehn Minuten",
+      "diagnoseId": "fruehere_marke",
+      "feedback": "Nach zehn Minuten tun ihm erst die Knie weh. Die Fundstücke kommen nach zwanzig."
+     },
+     {
+      "antwort": "mehrere Stunden",
+      "diagnoseId": "stunden_verwechselt",
+      "feedback": "Von Stunden ist nur am Schluss die Rede, und zwar als Vermutung, was gewesen wäre."
+     },
+     {
+      "antwort": "einen ganzen Nachmittag",
+      "diagnoseId": "erfunden",
+      "feedback": "Eine solche Angabe macht der Text nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum erzählt Malik seinem Bruder am Abend doch von der Suche?",
+    "optionen": [
+     "Der Text nennt keinen Grund",
+     "Weil sein Bruder ihn ausgelacht hat",
+     "Weil Frau Bühler es verlangt hat",
+     "Weil er den Schlüssel wieder verloren hat"
+    ],
+    "loesung": [
+     "Der Text nennt keinen Grund"
+    ],
+    "erklaerung": "Der Text sagt nur, dass der Bruder fragt und Malik erzählt. Warum er seinen Vorsatz bricht, bleibt offen.",
+    "fehler": [
+     {
+      "antwort": "Weil sein Bruder ihn ausgelacht hat",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Auslachen steht nichts im Text. Der Bruder fragt bloss."
+     },
+     {
+      "antwort": "Weil Frau Bühler es verlangt hat",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Frau Bühler verlangt gar nichts; sie verschwindet in ihrer Wohnung."
+     },
+     {
+      "antwort": "Weil er den Schlüssel wieder verloren hat",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er hat den Schlüssel gefunden und behalten."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo befindet sich Frau Bühler, als sie mit Malik spricht?",
+    "optionen": [
+     "auf ihrem Balkon",
+     "auf dem Kiesplatz",
+     "an der Haustür",
+     "in ihrer Wohnung"
+    ],
+    "loesung": [
+     "auf ihrem Balkon"
+    ],
+    "erklaerung": "Sie tritt auf den Balkon, schüttelt ein Tuch aus und ruft von dort hinunter.",
+    "fehler": [
+     {
+      "antwort": "auf dem Kiesplatz",
+      "diagnoseId": "ort_verwechselt",
+      "feedback": "Auf dem Kiesplatz ist Malik. Sie ruft von oben hinunter."
+     },
+     {
+      "antwort": "an der Haustür",
+      "diagnoseId": "erfunden",
+      "feedback": "Die Haustür kommt erst am Schluss vor, und dort ist sie nicht."
+     },
+     {
+      "antwort": "in ihrer Wohnung",
+      "diagnoseId": "zeitpunkt_verwechselt",
+      "feedback": "In die Wohnung geht sie erst, nachdem Malik den Schlüssel gefunden hat."
+     }
+    ]
+   },
+   {
+    "stamm": "Was tut Malik, bevor er zur Hecke hinübergeht?",
+    "optionen": [
+     "Er steht auf und klopft sich den Staub von den Hosen",
+     "Er sammelt seine Fundstücke ein",
+     "Er bedankt sich bei Frau Bühler",
+     "Er ruft nach Hilfe"
+    ],
+    "loesung": [
+     "Er steht auf und klopft sich den Staub von den Hosen"
+    ],
+    "erklaerung": "Der Text beschreibt genau diese Bewegung: aufstehen, Staub abklopfen, hinübergehen.",
+    "fehler": [
+     {
+      "antwort": "Er sammelt seine Fundstücke ein",
+      "diagnoseId": "erfunden",
+      "feedback": "Was mit Kronenkorken, Draht und Münze geschieht, sagt der Text nicht."
+     },
+     {
+      "antwort": "Er bedankt sich bei Frau Bühler",
+      "diagnoseId": "erfunden_dank",
+      "feedback": "Ein Dank kommt im Text nicht vor; Malik geht wortlos zur Hecke hinüber."
+     },
+     {
+      "antwort": "Er ruft nach Hilfe",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er sucht allein weiter; gerufen hat Frau Bühler."
+     }
+    ]
+   }
+  ],
+  "text": "Der Schlüssel im Kies\n\nMalik hatte den Schlüssel schon zweimal verloren, und beide Male war er\nwieder aufgetaucht: einmal in der Jackentasche, einmal unter dem Sofa. Diesmal\nwar es anders. Diesmal hatte er ihn zuletzt in der Hand gehabt, als er über\nden Kiesplatz hinter dem Haus gegangen war, und jetzt war die Hand leer.\n\nEr ging zurück. Der Platz war grösser, als er ihn in Erinnerung hatte. In der\nMittagssonne sah jeder Stein aus wie jeder andere, hell und rund und\ngleichgültig. Malik kniete sich hin und begann, den Kies mit den Fingern\nauseinanderzuschieben, Handbreit für Handbreit. Nach zehn Minuten taten ihm\ndie Knie weh. Nach zwanzig Minuten hatte er einen Kronenkorken gefunden, ein\nStück Draht und eine Münze, die so verbogen war, dass er ihren Wert nicht\nmehr erkennen konnte.\n\nFrau Bühler vom Erdgeschoss trat auf den Balkon und schüttelte ein Tuch aus.\n«Suchst du etwas?», rief sie hinunter.\n\n«Meinen Schlüssel», sagte Malik, ohne aufzusehen.\n\n«Dann such nicht dort, wo es hell ist», sagte sie. «Such dort, wo du gegangen\nbist.»\n\nMalik hielt inne. Er hatte die ganze Zeit in der Sonne gesucht, weil man dort\nam besten sah. Sein Weg aber war am Schatten der Hecke entlanggeführt. Er\nstand auf, klopfte sich den Staub von den Hosen und ging zur Hecke hinüber.\n\nDer Kies dort war dunkler und feuchter, und er roch nach Erde. Malik fuhr mit\nder Hand hindurch, einmal, zweimal. Beim dritten Mal spürte er etwas Kaltes,\nKantiges. Er zog den Schlüssel heraus und hielt ihn hoch, damit Frau Bühler\nihn sehen konnte. Sie nickte, als hätte sie es die ganze Zeit gewusst, und\nverschwand in ihrer Wohnung.\n\nAuf dem Weg zur Haustür dachte Malik, dass er den Schlüssel wohl auch in der\nSonne gefunden hätte, irgendwann, nach Stunden. Er dachte auch, dass er das\nniemandem erzählen würde. Aber am Abend, als sein Bruder fragte, warum er so\nlange gebraucht habe, erzählte er es doch.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Handlung und Figuren einer Erzählung",
+  "status": "review"
+ },
+ {
+  "templateId": "bs-tv-schluessel-belegen",
+  "lernzielId": "TBS.2.03",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "2.03",
+   "2.05"
+  ],
+  "format": "mehrfachauswahl",
+  "hinweise": [
+   "Hier können mehrere Antworten richtig sein. Prüfe jede einzeln.",
+   "Frage bei jeder Aussage: Steht das wirklich im Text, oder denke ich es mir dazu?",
+   "Ein Gefühl muss nicht benannt sein; oft zeigt es sich an einer Handlung."
+  ],
+  "loesungsweg": [
+   "Lies jede Aussage einzeln und suche die Stelle im Text.",
+   "Kreuze nur an, was der Text stützt.",
+   "Achte auf Wörter wie «nur», «immer», «nie» Sie machen eine Aussage oft falsch.",
+   "Zähle am Schluss nach, ob du wirklich alle passenden angekreuzt hast."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Aussagen über Maliks Suche stimmen mit dem Text überein?",
+    "optionen": [
+     "Er sucht zuerst am falschen Ort",
+     "Er gibt zwischendurch nicht auf",
+     "Er findet den Schlüssel im ersten Anlauf",
+     "Er sucht nur wenige Sekunden"
+    ],
+    "loesung": [
+     "Er sucht zuerst am falschen Ort",
+     "Er gibt zwischendurch nicht auf"
+    ],
+    "erklaerung": "Er sucht lange in der Sonne, obwohl sein Weg im Schatten verlief, und er hört trotz schmerzender Knie nicht auf.",
+    "fehler": [
+     {
+      "antwort": "Er findet den Schlüssel im ersten Anlauf",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er sucht zwanzig Minuten in der Sonne, bevor er überhaupt die Seite wechselt."
+     },
+     {
+      "antwort": "Er sucht nur wenige Sekunden",
+      "diagnoseId": "widerspruch_zeit",
+      "feedback": "Der Text nennt zehn und zwanzig Minuten."
+     }
+    ]
+   },
+   {
+    "stamm": "Was lässt sich über Frau Bühler mit Sicherheit sagen?",
+    "optionen": [
+     "Sie spricht Malik von sich aus an",
+     "Sie gibt ihm einen brauchbaren Rat",
+     "Sie hilft ihm beim Suchen",
+     "Sie hat den Schlüssel selbst versteckt"
+    ],
+    "loesung": [
+     "Sie spricht Malik von sich aus an",
+     "Sie gibt ihm einen brauchbaren Rat"
+    ],
+    "erklaerung": "Sie ruft ihn von sich aus an und rät ihm, dort zu suchen, wo er gegangen ist. Genau dort findet er den Schlüssel.",
+    "fehler": [
+     {
+      "antwort": "Sie hilft ihm beim Suchen",
+      "diagnoseId": "erfunden",
+      "feedback": "Sie bleibt auf dem Balkon und sucht nicht mit."
+     },
+     {
+      "antwort": "Sie hat den Schlüssel selbst versteckt",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Dafür gibt es im Text keinen einzigen Hinweis."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gefühle oder Zustände lassen sich bei Malik am Text belegen?",
+    "optionen": [
+     "Er ist erschöpft",
+     "Er ist überrascht von Frau Bühlers Rat",
+     "Er ist wütend auf Frau Bühler",
+     "Er ist stolz auf seine Fundstücke"
+    ],
+    "loesung": [
+     "Er ist erschöpft",
+     "Er ist überrascht von Frau Bühlers Rat"
+    ],
+    "erklaerung": "Die schmerzenden Knie zeigen die Erschöpfung, und das Innehalten nach dem Rat zeigt die Überraschung.",
+    "fehler": [
+     {
+      "antwort": "Er ist wütend auf Frau Bühler",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Wut steht nichts im Text. Er befolgt ihren Rat wortlos."
+     },
+     {
+      "antwort": "Er ist stolz auf seine Fundstücke",
+      "diagnoseId": "erfunden_stolz",
+      "feedback": "Die Fundstücke werden nur aufgezählt, ohne jede Bewertung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussagen über den Kiesplatz stimmen?",
+    "optionen": [
+     "Er wirkt in der Sonne unübersichtlich",
+     "Bei der Hecke ist der Kies anders beschaffen",
+     "Er ist kleiner, als Malik dachte",
+     "Er ist frisch aufgeschüttet"
+    ],
+    "loesung": [
+     "Er wirkt in der Sonne unübersichtlich",
+     "Bei der Hecke ist der Kies anders beschaffen"
+    ],
+    "erklaerung": "In der Sonne sieht jeder Stein aus wie jeder andere, und bei der Hecke ist der Kies dunkler und feuchter.",
+    "fehler": [
+     {
+      "antwort": "Er ist kleiner, als Malik dachte",
+      "diagnoseId": "umgekehrt",
+      "feedback": "Der Text sagt das Gegenteil: Der Platz war grösser, als er ihn in Erinnerung hatte."
+     },
+     {
+      "antwort": "Er ist frisch aufgeschüttet",
+      "diagnoseId": "erfunden",
+      "feedback": "Über das Alter oder den Zustand der Aufschüttung sagt der Text nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Was gehört zu Maliks Weg über den Platz?",
+    "optionen": [
+     "Er führte am Schatten der Hecke entlang",
+     "Er führte über den Kiesplatz hinter dem Haus",
+     "Er führte quer durch die Sonne",
+     "Er führte über eine Wiese"
+    ],
+    "loesung": [
+     "Er führte am Schatten der Hecke entlang",
+     "Er führte über den Kiesplatz hinter dem Haus"
+    ],
+    "erklaerung": "Der Text sagt beides: Malik ging über den Kiesplatz hinter dem Haus, und sein Weg führte am Schatten der Hecke entlang.",
+    "fehler": [
+     {
+      "antwort": "Er führte quer durch die Sonne",
+      "diagnoseId": "umgekehrt",
+      "feedback": "In der Sonne hat er gesucht. Gegangen ist er dem Schatten der Hecke entlang."
+     },
+     {
+      "antwort": "Er führte über eine Wiese",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Eine Wiese kommt im ganzen Text nicht vor; der Platz ist mit Kies bedeckt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussagen über das Ende der Geschichte stimmen?",
+    "optionen": [
+     "Malik bricht seinen eigenen Vorsatz",
+     "Der Bruder fragt nach dem langen Ausbleiben",
+     "Malik verschweigt die Geschichte",
+     "Frau Bühler erzählt es dem Bruder"
+    ],
+    "loesung": [
+     "Malik bricht seinen eigenen Vorsatz",
+     "Der Bruder fragt nach dem langen Ausbleiben"
+    ],
+    "erklaerung": "Malik nimmt sich vor, nichts zu erzählen, und erzählt es dann doch, weil der Bruder fragt.",
+    "fehler": [
+     {
+      "antwort": "Malik verschweigt die Geschichte",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er nimmt es sich vor, hält es aber nicht ein. Der letzte Satz sagt es."
+     },
+     {
+      "antwort": "Frau Bühler erzählt es dem Bruder",
+      "diagnoseId": "erfunden",
+      "feedback": "Frau Bühler kommt am Abend gar nicht mehr vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Was lässt sich über die Zeit sagen, in der die Geschichte spielt?",
+    "optionen": [
+     "Der Hauptteil spielt am Mittag",
+     "Der Schluss spielt am Abend",
+     "Alles spielt in der Nacht",
+     "Die Geschichte spielt an mehreren Tagen"
+    ],
+    "loesung": [
+     "Der Hauptteil spielt am Mittag",
+     "Der Schluss spielt am Abend"
+    ],
+    "erklaerung": "Von der Mittagssonne ist ausdrücklich die Rede, und der letzte Abschnitt beginnt mit «am Abend».",
+    "fehler": [
+     {
+      "antwort": "Alles spielt in der Nacht",
+      "diagnoseId": "widerspruch",
+      "feedback": "Die Mittagssonne schliesst die Nacht aus."
+     },
+     {
+      "antwort": "Die Geschichte spielt an mehreren Tagen",
+      "diagnoseId": "erfunden",
+      "feedback": "Die frühere Verluste werden nur erwähnt; erzählt wird ein einziger Tag."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gegenstände findet Malik im Kies?",
+    "optionen": [
+     "einen Kronenkorken",
+     "ein Stück Draht",
+     "eine verbogene Münze",
+     "einen zweiten Schlüssel"
+    ],
+    "loesung": [
+     "einen Kronenkorken",
+     "ein Stück Draht",
+     "eine verbogene Münze"
+    ],
+    "erklaerung": "Der Text zählt genau diese drei Fundstücke auf.",
+    "fehler": [
+     {
+      "antwort": "einen zweiten Schlüssel",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein zweiter Schlüssel kommt im Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussagen über Frau Bühlers Rat treffen zu?",
+    "optionen": [
+     "Er verweist auf Maliks tatsächlichen Weg",
+     "Er widerspricht Maliks bisherigem Vorgehen",
+     "Er nennt Malik den genauen Fundort",
+     "Er ist als Scherz gemeint"
+    ],
+    "loesung": [
+     "Er verweist auf Maliks tatsächlichen Weg",
+     "Er widerspricht Maliks bisherigem Vorgehen"
+    ],
+    "erklaerung": "Sie rät ihm, dort zu suchen, wo er gegangen ist. Das Gegenteil von dem, was er bisher tat.",
+    "fehler": [
+     {
+      "antwort": "Er nennt Malik den genauen Fundort",
+      "diagnoseId": "zu_genau",
+      "feedback": "Sie nennt keine Stelle, sondern nur ein Prinzip."
+     },
+     {
+      "antwort": "Er ist als Scherz gemeint",
+      "diagnoseId": "erfunden",
+      "feedback": "Nichts im Text deutet auf einen Scherz; ihr Rat führt zum Erfolg."
+     }
+    ]
+   },
+   {
+    "stamm": "Was lässt sich über Maliks Umgang mit dem Schlüssel in der Vergangenheit sagen?",
+    "optionen": [
+     "Er hat ihn schon zweimal verloren",
+     "Beide Male ist er wieder aufgetaucht",
+     "Er hat ihn noch nie verloren",
+     "Er hat schon einen neuen bekommen"
+    ],
+    "loesung": [
+     "Er hat ihn schon zweimal verloren",
+     "Beide Male ist er wieder aufgetaucht"
+    ],
+    "erklaerung": "Der erste Satz nennt beide früheren Verluste und ihr gutes Ende.",
+    "fehler": [
+     {
+      "antwort": "Er hat ihn noch nie verloren",
+      "diagnoseId": "widerspruch",
+      "feedback": "Der erste Satz sagt genau das Gegenteil."
+     },
+     {
+      "antwort": "Er hat schon einen neuen bekommen",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Ersatzschlüssel steht nichts im Text. Es geht durchweg um denselben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussagen über den Schluss lassen sich mit Sicherheit belegen?",
+    "optionen": [
+     "Malik hält den gefundenen Schlüssel hoch",
+     "Er überlegt, ob er auch in der Sonne fündig geworden wäre",
+     "Er verliert den Schlüssel gleich wieder",
+     "Er zieht zu Frau Bühler hinunter"
+    ],
+    "loesung": [
+     "Malik hält den gefundenen Schlüssel hoch",
+     "Er überlegt, ob er auch in der Sonne fündig geworden wäre"
+    ],
+    "erklaerung": "Er hält den Schlüssel hoch, damit Frau Bühler ihn sieht, und denkt später, er hätte ihn wohl auch in der Sonne gefunden, nach Stunden.",
+    "fehler": [
+     {
+      "antwort": "Er verliert den Schlüssel gleich wieder",
+      "diagnoseId": "erfunden",
+      "feedback": "Davon steht im Text nichts; er behält ihn und geht damit ins Haus."
+     },
+     {
+      "antwort": "Er zieht zu Frau Bühler hinunter",
+      "diagnoseId": "unsinn",
+      "feedback": "Er geht in sein eigenes Zuhause; Frau Bühler wohnt im Erdgeschoss."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Beobachtungen zur Sonne stehen im Text?",
+    "optionen": [
+     "Sie steht mittags hoch",
+     "Sie macht die Steine ununterscheidbar",
+     "Sie geht während der Suche unter",
+     "Sie wird von Wolken verdeckt"
+    ],
+    "loesung": [
+     "Sie steht mittags hoch",
+     "Sie macht die Steine ununterscheidbar"
+    ],
+    "erklaerung": "Von der Mittagssonne ist die Rede, und in ihr sieht jeder Stein aus wie jeder andere.",
+    "fehler": [
+     {
+      "antwort": "Sie geht während der Suche unter",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Sonnenuntergang kommt im Text nicht vor."
+     },
+     {
+      "antwort": "Sie wird von Wolken verdeckt",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Von Wolken steht nichts im Text; die Sonne brennt die ganze Zeit."
+     }
+    ]
+   }
+  ],
+  "text": "Der Schlüssel im Kies\n\nMalik hatte den Schlüssel schon zweimal verloren, und beide Male war er\nwieder aufgetaucht: einmal in der Jackentasche, einmal unter dem Sofa. Diesmal\nwar es anders. Diesmal hatte er ihn zuletzt in der Hand gehabt, als er über\nden Kiesplatz hinter dem Haus gegangen war, und jetzt war die Hand leer.\n\nEr ging zurück. Der Platz war grösser, als er ihn in Erinnerung hatte. In der\nMittagssonne sah jeder Stein aus wie jeder andere, hell und rund und\ngleichgültig. Malik kniete sich hin und begann, den Kies mit den Fingern\nauseinanderzuschieben, Handbreit für Handbreit. Nach zehn Minuten taten ihm\ndie Knie weh. Nach zwanzig Minuten hatte er einen Kronenkorken gefunden, ein\nStück Draht und eine Münze, die so verbogen war, dass er ihren Wert nicht\nmehr erkennen konnte.\n\nFrau Bühler vom Erdgeschoss trat auf den Balkon und schüttelte ein Tuch aus.\n«Suchst du etwas?», rief sie hinunter.\n\n«Meinen Schlüssel», sagte Malik, ohne aufzusehen.\n\n«Dann such nicht dort, wo es hell ist», sagte sie. «Such dort, wo du gegangen\nbist.»\n\nMalik hielt inne. Er hatte die ganze Zeit in der Sonne gesucht, weil man dort\nam besten sah. Sein Weg aber war am Schatten der Hecke entlanggeführt. Er\nstand auf, klopfte sich den Staub von den Hosen und ging zur Hecke hinüber.\n\nDer Kies dort war dunkler und feuchter, und er roch nach Erde. Malik fuhr mit\nder Hand hindurch, einmal, zweimal. Beim dritten Mal spürte er etwas Kaltes,\nKantiges. Er zog den Schlüssel heraus und hielt ihn hoch, damit Frau Bühler\nihn sehen konnte. Sie nickte, als hätte sie es die ganze Zeit gewusst, und\nverschwand in ihrer Wohnung.\n\nAuf dem Weg zur Haustür dachte Malik, dass er den Schlüssel wohl auch in der\nSonne gefunden hätte, irgendwann, nach Stunden. Er dachte auch, dass er das\nniemandem erzählen würde. Aber am Abend, als sein Bruder fragte, warum er so\nlange gebraucht habe, erzählte er es doch.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Gefühle und Reaktionen im Text belegen",
+  "status": "review"
+ },
+ {
+  "templateId": "bs-tv-mottainai-deutung",
+  "lernzielId": "TBS.3.01",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frag dich: Was will der Text von mir. Informieren, überzeugen oder unterhalten?",
+   "Die Textsorte erkennst du an der Ich-Nähe, an der Meinung und daran, ob eine Person dahintersteht.",
+   "Ein sprachliches Bild sagt etwas anderes, als es wörtlich meint. Frag nach der Übertragung."
+  ],
+  "loesungsweg": [
+   "Fasse den Text in einem Satz zusammen: Worum geht es?",
+   "Prüfe, ob eine Meinung vertreten wird oder nur Fakten stehen.",
+   "Frage nach der Wirkung: Soll der Text erklären, aufrütteln oder unterhalten?",
+   "Bei sprachlichen Bildern: Was ist gemeint, wenn es nicht wörtlich gemeint ist?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Worum geht es in diesem Text hauptsächlich?",
+    "optionen": [
+     "darum, Dingen ihre volle Lebensdauer zuzugestehen",
+     "darum, japanische Wörter zu erklären",
+     "darum, Geld beim Einkaufen zu sparen",
+     "darum, wie man einen Reissverschluss einnäht"
+    ],
+    "loesung": [
+     "darum, Dingen ihre volle Lebensdauer zuzugestehen"
+    ],
+    "erklaerung": "Alle Beispiele, Joghurt, Jacke, Werkstatt, laufen auf denselben Gedanken hinaus: ein Ding zu Ende denken.",
+    "fehler": [
+     {
+      "antwort": "darum, japanische Wörter zu erklären",
+      "diagnoseId": "einstieg_verwechselt",
+      "feedback": "Das japanische Wort ist der Einstieg, nicht das Thema."
+     },
+     {
+      "antwort": "darum, Geld beim Einkaufen zu sparen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt ausdrücklich, dass es nicht ums Geld geht."
+     },
+     {
+      "antwort": "darum, wie man einen Reissverschluss einnäht",
+      "diagnoseId": "beispiel_verwechselt",
+      "feedback": "Der Reissverschluss ist ein Beispiel, keine Anleitung."
+     }
+    ]
+   },
+   {
+    "stamm": "Um welche Textsorte handelt es sich?",
+    "optionen": [
+     "eine Kolumne",
+     "eine Reportage",
+     "eine Erzählung",
+     "eine Gebrauchsanweisung"
+    ],
+    "loesung": [
+     "eine Kolumne"
+    ],
+    "erklaerung": "Der Text vertritt eine Haltung, wendet sich an die Lesenden und arbeitet mit persönlichen Beobachtungen. Das ist typisch für eine Kolumne.",
+    "fehler": [
+     {
+      "antwort": "eine Reportage",
+      "diagnoseId": "reportage_verwechselt",
+      "feedback": "Eine Reportage schildert vor Ort Erlebtes. Dieser Text argumentiert."
+     },
+     {
+      "antwort": "eine Erzählung",
+      "diagnoseId": "erzaehlung_verwechselt",
+      "feedback": "Es gibt keine Figuren und keine Handlung, sondern einen Gedankengang."
+     },
+     {
+      "antwort": "eine Gebrauchsanweisung",
+      "diagnoseId": "anweisung_verwechselt",
+      "feedback": "Eine Anleitung würde Schritt für Schritt erklären, wie man etwas macht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was will der Text bei den Lesenden vor allem erreichen?",
+    "optionen": [
+     "sie zum Nachdenken über ihren eigenen Umgang mit Dingen bringen",
+     "sie über Japan informieren",
+     "sie zum Lachen bringen",
+     "ihnen ein Produkt verkaufen"
+    ],
+    "loesung": [
+     "sie zum Nachdenken über ihren eigenen Umgang mit Dingen bringen"
+    ],
+    "erklaerung": "Der Text nennt Zahlen und Beispiele, um eine Haltung zu begründen, und schliesst mit einer Aufforderung.",
+    "fehler": [
+     {
+      "antwort": "sie über Japan informieren",
+      "diagnoseId": "einstieg_verwechselt",
+      "feedback": "Japan liefert nur das Wort. Über das Land erfährt man nichts."
+     },
+     {
+      "antwort": "sie zum Lachen bringen",
+      "diagnoseId": "ton_verkannt",
+      "feedback": "Der Ton ist nachdenklich, nicht komisch."
+     },
+     {
+      "antwort": "ihnen ein Produkt verkaufen",
+      "diagnoseId": "werbung_verwechselt",
+      "feedback": "Es wird nichts angeboten und nichts beworben."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist mit «der zweite Blick» gemeint?",
+    "optionen": [
+     "selbst prüfen, statt sich auf das Datum zu verlassen",
+     "ein zweites Mal einkaufen gehen",
+     "das Datum zweimal lesen",
+     "die Packung genauer betrachten"
+    ],
+    "loesung": [
+     "selbst prüfen, statt sich auf das Datum zu verlassen"
+    ],
+    "erklaerung": "Der Text erklärt es selbst: aufmachen, riechen, kosten, also mit den eigenen Sinnen urteilen.",
+    "fehler": [
+     {
+      "antwort": "ein zweites Mal einkaufen gehen",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Der Ausdruck ist bildlich gemeint. Es geht um das Prüfen, nicht ums Einkaufen."
+     },
+     {
+      "antwort": "das Datum zweimal lesen",
+      "diagnoseId": "woertlich_genommen_zwei",
+      "feedback": "Gerade nicht: Der zweite Blick geht am Datum vorbei."
+     },
+     {
+      "antwort": "die Packung genauer betrachten",
+      "diagnoseId": "zu_aeusserlich",
+      "feedback": "Gemeint ist nicht die Packung, sondern der Inhalt. Riechen und kosten."
+     }
+    ]
+   },
+   {
+    "stamm": "«Ein Ding, in dem Arbeit steckt» Was für ein sprachliches Bild ist das?",
+    "optionen": [
+     "eine Personifikation oder Übertragung: Arbeit wird zu etwas Enthaltenem",
+     "eine Übertreibung",
+     "ein Vergleich mit «wie»",
+     "eine wörtliche Aussage"
+    ],
+    "loesung": [
+     "eine Personifikation oder Übertragung: Arbeit wird zu etwas Enthaltenem"
+    ],
+    "erklaerung": "Arbeit ist nichts, was man in etwas hineinlegen kann. Der Ausdruck überträgt sie in einen Behälter. Das macht sie greifbar.",
+    "fehler": [
+     {
+      "antwort": "eine Übertreibung",
+      "diagnoseId": "uebertreibung_verwechselt",
+      "feedback": "Es wird nichts übertrieben, sondern etwas Abstraktes anschaulich gemacht."
+     },
+     {
+      "antwort": "ein Vergleich mit «wie»",
+      "diagnoseId": "vergleich_verwechselt",
+      "feedback": "Ein Vergleich bräuchte ein «wie» oder «als». Hier fehlt beides."
+     },
+     {
+      "antwort": "eine wörtliche Aussage",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Wörtlich kann in einem Ding keine Arbeit stecken. Es ist ein Bild."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat es, dass der Text mit einem fremden Wort beginnt?",
+    "optionen": [
+     "Er weckt Neugier und führt zugleich den Kerngedanken ein",
+     "Er zeigt, dass der Autor Japanisch kann",
+     "Er macht den Text schwerer verständlich",
+     "Er lenkt vom eigentlichen Thema ab"
+    ],
+    "loesung": [
+     "Er weckt Neugier und führt zugleich den Kerngedanken ein"
+    ],
+    "erklaerung": "Das unübersetzbare Wort zieht die Aufmerksamkeit an und bringt in einem Begriff unter, worum es im ganzen Text geht.",
+    "fehler": [
+     {
+      "antwort": "Er zeigt, dass der Autor Japanisch kann",
+      "diagnoseId": "person_statt_wirkung",
+      "feedback": "Über den Autor sagt der Anfang nichts; er dient dem Thema."
+     },
+     {
+      "antwort": "Er macht den Text schwerer verständlich",
+      "diagnoseId": "wirkung_verkannt",
+      "feedback": "Das Wort wird sofort erklärt. Es erschwert nichts."
+     },
+     {
+      "antwort": "Er lenkt vom eigentlichen Thema ab",
+      "diagnoseId": "zusammenhang_uebersehen",
+      "feedback": "Das Wort IST das Thema; alle Beispiele führen darauf zurück."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie ist der Satz «Das stimmt, und es ist trotzdem kein Argument» aufgebaut?",
+    "optionen": [
+     "Er räumt etwas ein und schränkt es sofort wieder ein",
+     "Er widerspricht ohne Begründung",
+     "Er stellt eine Frage",
+     "Er fasst den Text zusammen"
+    ],
+    "loesung": [
+     "Er räumt etwas ein und schränkt es sofort wieder ein"
+    ],
+    "erklaerung": "Der erste Halbsatz gibt dem Einwand recht, der zweite nimmt ihm die Kraft. Ein typisches Zugeständnis.",
+    "fehler": [
+     {
+      "antwort": "Er widerspricht ohne Begründung",
+      "diagnoseId": "haelfte_uebersehen",
+      "feedback": "Der Satz beginnt mit einem Zugeständnis: «Das stimmt.»"
+     },
+     {
+      "antwort": "Er stellt eine Frage",
+      "diagnoseId": "form_verkannt",
+      "feedback": "Es ist eine Aussage, kein Fragesatz. Am Ende steht ein Punkt, kein Fragezeichen."
+     },
+     {
+      "antwort": "Er fasst den Text zusammen",
+      "diagnoseId": "funktion_verkannt",
+      "feedback": "Die Zusammenfassung kommt erst danach, im letzten Teil des Abschnitts."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lässt sich die Haltung des Textes am besten beschreiben?",
+    "optionen": [
+     "nachdenklich und werbend, aber ohne Vorwurf",
+     "zornig und anklagend",
+     "sachlich und meinungslos",
+     "spöttisch"
+    ],
+    "loesung": [
+     "nachdenklich und werbend, aber ohne Vorwurf"
+    ],
+    "erklaerung": "Der Text nennt Zahlen und wirbt für eine Haltung, ohne jemandem Schuld zuzuweisen. Er sagt «uns» und «wir».",
+    "fehler": [
+     {
+      "antwort": "zornig und anklagend",
+      "diagnoseId": "ton_verkannt",
+      "feedback": "Der Text klagt niemanden an; er schliesst sich selbst mit ein."
+     },
+     {
+      "antwort": "sachlich und meinungslos",
+      "diagnoseId": "meinung_uebersehen",
+      "feedback": "Eine Meinung ist deutlich da: Der Text findet den zweiten Blick richtig."
+     },
+     {
+      "antwort": "spöttisch",
+      "diagnoseId": "ton_verkannt_zwei",
+      "feedback": "Spott findet sich im Text nirgends; der Ton bleibt durchwegs ernst und einladend."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Funktion hat der Abschnitt über den Reissverschluss?",
+    "optionen": [
+     "Er überträgt den Gedanken von Lebensmitteln auf andere Dinge",
+     "Er widerlegt den vorherigen Abschnitt",
+     "Er erklärt, wie man näht",
+     "Er ist ein Einschub ohne Bezug"
+    ],
+    "loesung": [
+     "Er überträgt den Gedanken von Lebensmitteln auf andere Dinge"
+    ],
+    "erklaerung": "Der Abschnitt beginnt mit «Ähnlich geht es uns mit Dingen, die nicht essbar sind» Er weitet das Thema aus.",
+    "fehler": [
+     {
+      "antwort": "Er widerlegt den vorherigen Abschnitt",
+      "diagnoseId": "funktion_verkannt",
+      "feedback": "Er widerspricht nichts, sondern führt denselben Gedanken weiter."
+     },
+     {
+      "antwort": "Er erklärt, wie man näht",
+      "diagnoseId": "beispiel_verwechselt",
+      "feedback": "Wie genäht wird, steht nirgends. Es geht um die Erfahrung dabei."
+     },
+     {
+      "antwort": "Er ist ein Einschub ohne Bezug",
+      "diagnoseId": "zusammenhang_uebersehen",
+      "feedback": "Das Wort «ähnlich» stellt den Bezug ausdrücklich her."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie beurteilst du die Aussagekraft der Zahl «rund achtzig Kilogramm»?",
+    "optionen": [
+     "Sie stützt die Aussage, ist aber ohne Quelle nicht überprüfbar",
+     "Sie beweist die These vollständig",
+     "Sie ist für den Text bedeutungslos",
+     "Sie widerspricht dem übrigen Text"
+    ],
+    "loesung": [
+     "Sie stützt die Aussage, ist aber ohne Quelle nicht überprüfbar"
+    ],
+    "erklaerung": "Die Zahl macht das Problem greifbar; woher sie stammt, sagt der Text aber nicht, beim Beurteilen gehört das dazu.",
+    "fehler": [
+     {
+      "antwort": "Sie beweist die These vollständig",
+      "diagnoseId": "zu_stark",
+      "feedback": "Eine einzelne Zahl ohne Quelle beweist nichts vollständig."
+     },
+     {
+      "antwort": "Sie ist für den Text bedeutungslos",
+      "diagnoseId": "zu_schwach",
+      "feedback": "Ohne die Zahl bliebe das Problem abstrakt. Sie trägt einiges."
+     },
+     {
+      "antwort": "Sie widerspricht dem übrigen Text",
+      "diagnoseId": "widerspruch_erfunden",
+      "feedback": "Die Zahl stützt den Gedanken, statt ihm zu widersprechen."
+     }
+    ]
+   },
+   {
+    "stamm": "«Ein Ding hört zu früh auf, ein Ding zu sein» Worauf zielt dieser Satz?",
+    "optionen": [
+     "darauf, dass es weggeworfen wird, obwohl es noch brauchbar ist",
+     "darauf, dass es kaputtgeht",
+     "darauf, dass es verkauft wird",
+     "darauf, dass es niemandem gehört"
+    ],
+    "loesung": [
+     "darauf, dass es weggeworfen wird, obwohl es noch brauchbar ist"
+    ],
+    "erklaerung": "Der Satz meint das Ende der Nutzung, nicht das Ende der Haltbarkeit. Genau das ist der Kern von mottainai.",
+    "fehler": [
+     {
+      "antwort": "darauf, dass es kaputtgeht",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Der Text spricht gerade von Dingen, die noch heil sind."
+     },
+     {
+      "antwort": "darauf, dass es verkauft wird",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Verkaufen ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "darauf, dass es niemandem gehört",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Besitzverhältnisse spielen im Text keine Rolle."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz fasst die Kernaussage des Textes am besten zusammen?",
+    "optionen": [
+     "Zwischen «noch gut» und «wirklich nichts mehr wert» liegt mehr Zeit, als wir annehmen",
+     "Japanische Begriffe helfen beim Sparen",
+     "Wer flickt, spart Geld",
+     "Haltbarkeitsdaten sollten abgeschafft werden"
+    ],
+    "loesung": [
+     "Zwischen «noch gut» und «wirklich nichts mehr wert» liegt mehr Zeit, als wir annehmen"
+    ],
+    "erklaerung": "Genau das sagt der Schlusssatz: «Dazwischen liegt meistens mehr Zeit, als wir ihm zugestehen.»",
+    "fehler": [
+     {
+      "antwort": "Japanische Begriffe helfen beim Sparen",
+      "diagnoseId": "geld_verwechselt",
+      "feedback": "Der Text verneint den Geldaspekt ausdrücklich."
+     },
+     {
+      "antwort": "Wer flickt, spart Geld",
+      "diagnoseId": "nebensache",
+      "feedback": "Das Sparen ist höchstens ein Nebeneffekt; der Text zielt auf die Haltung."
+     },
+     {
+      "antwort": "Haltbarkeitsdaten sollten abgeschafft werden",
+      "diagnoseId": "zu_weit",
+      "feedback": "Das fordert der Text nicht. Er wirbt für den eigenen zweiten Blick."
+     }
+    ]
+   }
+  ],
+  "text": "Die Kunst des zweiten Blicks\n\nEs gibt ein japanisches Wort, das sich schlecht übersetzen lässt: «mottainai».\nWörtlich heisst es etwa «wie schade», gemeint ist aber mehr. Ein leises\nUnbehagen darüber, dass etwas verschwendet wird, das noch Wert hätte. Wer\n«mottainai» sagt, spricht nicht von Geld. Er spricht davon, dass ein Ding, in\ndem Arbeit steckt, zu früh aufhört, ein Ding zu sein.\n\nDie Rechnung ist ernüchternd. In der Schweiz wirft jede Person im Schnitt\nrund achtzig Kilogramm Lebensmittel im Jahr weg. Das meiste davon ist nicht\nverdorben, sondern bloss über ein Datum hinaus, das auf der Packung steht.\n«Mindestens haltbar bis» ist kein Verfallsdatum, sondern ein Versprechen des\nHerstellers, und trotzdem wandert ein Joghurt am Tag danach in den Kübel,\nohne dass jemand den Deckel geöffnet hätte.\n\nDer zweite Blick wäre einfach: aufmachen, riechen, kosten. Er kostet zehn\nSekunden und rettet ein Viertel dessen, was sonst weggeht. Doch der zweite\nBlick ist unbequem, weil er eine Entscheidung verlangt. Das Datum entscheidet\nfür uns; die Nase zwingt uns, selbst zu urteilen.\n\nÄhnlich geht es uns mit Dingen, die nicht essbar sind. Ein Reissverschluss\nklemmt, und die Jacke ist erledigt. Dabei kostet der neue Reissverschluss\nweniger als ein Kinobesuch, und in vielen Quartieren gibt es inzwischen\nWerkstätten, in denen man ihn unter Anleitung selbst einnäht. Wer dort war,\nerzählt selten von der Jacke. Er erzählt davon, dass er etwas konnte, was er\nsich nicht zugetraut hätte.\n\nMan könnte einwenden, das sei Nostalgie: Früher habe man eben flicken müssen,\nheute müsse man nicht mehr. Das stimmt, und es ist trotzdem kein Argument.\nDenn «mottainai» ist keine Sparanweisung. Es ist die Aufforderung, ein Ding\nzu Ende zu denken, von der Arbeit, die darinsteckt, bis zu dem Tag, an dem\nes wirklich nichts mehr taugt. Dazwischen liegt meistens mehr Zeit, als wir\nihm zugestehen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Thema, Textsorte und Absicht des Textes",
+  "status": "review"
+ },
+ {
+  "templateId": "bs-tv-mottainai-mittel",
+  "lernzielId": "TBS.3.04",
+  "fach": "textverstaendnis-bs",
+  "unterthemen": [
+   "3.04",
+   "3.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Urteil über einen Text stützt sich auf das, was er wirklich sagt.",
+   "Ein sprachliches Bild überträgt etwas Bekanntes auf etwas anderes.",
+   "Frage bei einem Bild: Was wird womit verglichen, und warum passt es?"
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Das Bild benennen.",
+   "Fragen, was es zeigt.",
+   "Beim Urteil prüfen, ob der Text es hergibt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was meint das Bild «zu früh aufhört, ein Ding zu sein»?",
+    "optionen": [
+     "Ein Gegenstand wird weggeworfen, bevor er unbrauchbar ist",
+     "Ein Gegenstand zerfällt von selbst",
+     "Ein Gegenstand wird verkauft",
+     "Ein Gegenstand wird repariert"
+    ],
+    "loesung": [
+     "Ein Gegenstand wird weggeworfen, bevor er unbrauchbar ist"
+    ],
+    "erklaerung": "«ein Ding sein» heisst hier: seinen Zweck erfüllen — und das endet zu früh.",
+    "fehler": [
+     {
+      "antwort": "Ein Gegenstand zerfällt von selbst",
+      "diagnoseId": "bild",
+      "feedback": "Der Text spricht vom Wegwerfen, nicht vom Zerfall."
+     },
+     {
+      "antwort": "Ein Gegenstand wird verkauft",
+      "diagnoseId": "bild",
+      "feedback": "Vom Verkaufen ist nicht die Rede. Richtig ist «Ein Gegenstand wird weggeworfen, bevor er unbrauchbar ist»."
+     },
+     {
+      "antwort": "Ein Gegenstand wird repariert",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das Reparieren ist im Text gerade die Alternative."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist mit «der zweite Blick» gemeint?",
+    "optionen": [
+     "selbst prüfen statt sich auf das Datum zu verlassen",
+     "ein zweites Mal einkaufen",
+     "noch einmal auf die Packung schauen",
+     "eine Brille aufsetzen"
+    ],
+    "loesung": [
+     "selbst prüfen statt sich auf das Datum zu verlassen"
+    ],
+    "erklaerung": "Der Text erklärt es selbst: aufmachen, riechen, kosten.",
+    "fehler": [
+     {
+      "antwort": "ein zweites Mal einkaufen",
+      "diagnoseId": "bild",
+      "feedback": "Vom Einkaufen ist nicht die Rede. Richtig ist «selbst prüfen statt sich auf das Datum zu verlassen»."
+     },
+     {
+      "antwort": "noch einmal auf die Packung schauen",
+      "diagnoseId": "bild",
+      "feedback": "Gerade die Packung soll nicht entscheiden."
+     },
+     {
+      "antwort": "eine Brille aufsetzen",
+      "diagnoseId": "woertlich",
+      "feedback": "Das Bild meint nicht das Sehen selbst. Richtig ist «selbst prüfen statt sich auf das Datum zu verlassen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bewirkt das Bild «Das Datum entscheidet für uns; die Nase zwingt uns, selbst zu urteilen»?",
+    "optionen": [
+     "Es stellt Bequemlichkeit und Verantwortung gegenüber",
+     "Es erklärt, wie ein Datum berechnet wird",
+     "Es warnt vor schlechten Gerüchen",
+     "Es lobt die Hersteller"
+    ],
+    "loesung": [
+     "Es stellt Bequemlichkeit und Verantwortung gegenüber"
+    ],
+    "erklaerung": "Zwei Sätze, zwei Haltungen: das Datum nimmt einem die Entscheidung ab, die Nase gibt sie zurück.",
+    "fehler": [
+     {
+      "antwort": "Es erklärt, wie ein Datum berechnet wird",
+      "diagnoseId": "funktion",
+      "feedback": "Über die Berechnung sagt der Text nichts."
+     },
+     {
+      "antwort": "Es warnt vor schlechten Gerüchen",
+      "diagnoseId": "funktion",
+      "feedback": "Die Nase steht hier für das eigene Urteil."
+     },
+     {
+      "antwort": "Es lobt die Hersteller",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text bewertet die Hersteller nicht. Richtig ist «Es stellt Bequemlichkeit und Verantwortung gegenüber»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist der Vergleich «kostet weniger als ein Kinobesuch» wert?",
+    "optionen": [
+     "Er macht den Preis eines Reissverschlusses anschaulich",
+     "Er empfiehlt, ins Kino zu gehen",
+     "Er nennt den genauen Preis",
+     "Er kritisiert die Kinopreise"
+    ],
+    "loesung": [
+     "Er macht den Preis eines Reissverschlusses anschaulich"
+    ],
+    "erklaerung": "Der Vergleich übersetzt einen unbekannten Betrag in einen bekannten.",
+    "fehler": [
+     {
+      "antwort": "Er empfiehlt, ins Kino zu gehen",
+      "diagnoseId": "funktion",
+      "feedback": "Das Kino dient nur als Massstab. Richtig ist «Er macht den Preis eines Reissverschlusses anschaulich»."
+     },
+     {
+      "antwort": "Er nennt den genauen Preis",
+      "diagnoseId": "genauigkeit",
+      "feedback": "Ein genauer Betrag steht nirgends. Richtig ist «Er macht den Preis eines Reissverschlusses anschaulich»."
+     },
+     {
+      "antwort": "Er kritisiert die Kinopreise",
+      "diagnoseId": "deutung",
+      "feedback": "Die Kinopreise werden nicht bewertet. Richtig ist «Er macht den Preis eines Reissverschlusses anschaulich»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat der Satz «Die Rechnung ist ernüchternd»?",
+    "optionen": [
+     "Er kündigt eine Zahl an, die unangenehm ist",
+     "Er nennt einen Kassenbon",
+     "Er beendet den Abschnitt",
+     "Er stellt eine Frage"
+    ],
+    "loesung": [
+     "Er kündigt eine Zahl an, die unangenehm ist"
+    ],
+    "erklaerung": "Unmittelbar danach folgen die achtzig Kilogramm.",
+    "fehler": [
+     {
+      "antwort": "Er nennt einen Kassenbon",
+      "diagnoseId": "woertlich",
+      "feedback": "«Rechnung» meint hier die Zahlen, nicht einen Beleg."
+     },
+     {
+      "antwort": "Er beendet den Abschnitt",
+      "diagnoseId": "aufbau",
+      "feedback": "Er eröffnet ihn. Richtig ist «Er kündigt eine Zahl an, die unangenehm ist»."
+     },
+     {
+      "antwort": "Er stellt eine Frage",
+      "diagnoseId": "form",
+      "feedback": "Der Satz ist eine Feststellung. Richtig ist «Er kündigt eine Zahl an, die unangenehm ist»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie beurteilt der Text den Einwand, das sei bloss Nostalgie?",
+    "optionen": [
+     "Er gibt ihm teilweise recht und lässt ihn trotzdem nicht gelten",
+     "Er übergeht ihn",
+     "Er stimmt ihm ganz zu",
+     "Er nennt ihn eine Lüge"
+    ],
+    "loesung": [
+     "Er gibt ihm teilweise recht und lässt ihn trotzdem nicht gelten"
+    ],
+    "erklaerung": "«Das stimmt, und es ist trotzdem kein Argument» — beides in einem Satz.",
+    "fehler": [
+     {
+      "antwort": "Er übergeht ihn",
+      "diagnoseId": "aufbau",
+      "feedback": "Der Text nennt den Einwand ausdrücklich."
+     },
+     {
+      "antwort": "Er stimmt ihm ganz zu",
+      "diagnoseId": "deutung",
+      "feedback": "Dann bräuchte es das «trotzdem» nicht. Richtig ist «Er gibt ihm teilweise recht und lässt ihn trotzdem nicht gelten»."
+     },
+     {
+      "antwort": "Er nennt ihn eine Lüge",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text sagt ausdrücklich «Das stimmt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie ist der Text insgesamt zu beurteilen?",
+    "optionen": [
+     "Er wirbt für eine Haltung und stützt sie mit Zahlen und Beispielen",
+     "Er berichtet neutral über Japan",
+     "Er gibt eine Anleitung zum Nähen",
+     "Er erzählt eine Geschichte"
+    ],
+    "loesung": [
+     "Er wirbt für eine Haltung und stützt sie mit Zahlen und Beispielen"
+    ],
+    "erklaerung": "Der Text hat ein Anliegen und belegt es — er ist ein Kommentar, kein Bericht.",
+    "fehler": [
+     {
+      "antwort": "Er berichtet neutral über Japan",
+      "diagnoseId": "sorte",
+      "feedback": "Das japanische Wort ist der Ausgangspunkt, nicht das Thema."
+     },
+     {
+      "antwort": "Er gibt eine Anleitung zum Nähen",
+      "diagnoseId": "sorte",
+      "feedback": "Das Einnähen wird erwähnt, nicht erklärt."
+     },
+     {
+      "antwort": "Er erzählt eine Geschichte",
+      "diagnoseId": "sorte",
+      "feedback": "Eine Handlung mit Figuren gibt es nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage lässt sich am Text belegen?",
+    "optionen": [
+     "Der Text hält den zweiten Blick für unbequem, aber machbar",
+     "Der Text verlangt, alle Datumsangaben abzuschaffen",
+     "Der Text sagt, abgelaufene Lebensmittel seien immer gut",
+     "Der Text rät, keine neuen Jacken zu kaufen"
+    ],
+    "loesung": [
+     "Der Text hält den zweiten Blick für unbequem, aber machbar"
+    ],
+    "erklaerung": "«Er kostet zehn Sekunden» und «der zweite Blick ist unbequem» stehen beide da.",
+    "fehler": [
+     {
+      "antwort": "Der Text verlangt, alle Datumsangaben abzuschaffen",
+      "diagnoseId": "beleg",
+      "feedback": "Er erklärt das Datum, fordert aber dessen Abschaffung nicht."
+     },
+     {
+      "antwort": "Der Text sagt, abgelaufene Lebensmittel seien immer gut",
+      "diagnoseId": "beleg",
+      "feedback": "Er rät gerade zum Prüfen, nicht zum Vertrauen."
+     },
+     {
+      "antwort": "Der Text rät, keine neuen Jacken zu kaufen",
+      "diagnoseId": "beleg",
+      "feedback": "Er spricht vom Flicken, nicht vom Kaufverzicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «ein Ding zu Ende denken»?",
+    "optionen": [
+     "seinen ganzen Weg mitdenken, von der Herstellung bis zum Ende",
+     "ein Ding fertig bauen",
+     "aufhören, an ein Ding zu denken",
+     "ein Ding wegwerfen"
+    ],
+    "loesung": [
+     "seinen ganzen Weg mitdenken, von der Herstellung bis zum Ende"
+    ],
+    "erklaerung": "Der Text sagt es unmittelbar danach: von der Arbeit, die darinsteckt, bis zum Tag, an dem es nichts mehr taugt.",
+    "fehler": [
+     {
+      "antwort": "ein Ding fertig bauen",
+      "diagnoseId": "woertlich",
+      "feedback": "Vom Bauen ist an dieser Stelle nicht die Rede."
+     },
+     {
+      "antwort": "aufhören, an ein Ding zu denken",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text meint das Gegenteil. Richtig ist «seinen ganzen Weg mitdenken, von der Herstellung bis zum Ende»."
+     },
+     {
+      "antwort": "ein Ding wegwerfen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Genau das soll vermieden werden. Richtig ist «seinen ganzen Weg mitdenken, von der Herstellung bis zum Ende»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Wirkung hat der Satz «Wer dort war, erzählt selten von der Jacke»?",
+    "optionen": [
+     "Er verschiebt den Blick vom Gegenstand auf die Erfahrung",
+     "Er sagt, dass Jacken unwichtig sind",
+     "Er beschreibt eine Werkstatt",
+     "Er kritisiert die Teilnehmenden"
+    ],
+    "loesung": [
+     "Er verschiebt den Blick vom Gegenstand auf die Erfahrung"
+    ],
+    "erklaerung": "Der Folgesatz nennt es ausdrücklich: dass er etwas konnte, was er sich nicht zugetraut hätte.",
+    "fehler": [
+     {
+      "antwort": "Er sagt, dass Jacken unwichtig sind",
+      "diagnoseId": "deutung",
+      "feedback": "Die Jacke ist der Anlass, nicht das Thema."
+     },
+     {
+      "antwort": "Er beschreibt eine Werkstatt",
+      "diagnoseId": "funktion",
+      "feedback": "Die Werkstatt steht im Satz davor. Richtig ist «Er verschiebt den Blick vom Gegenstand auf die Erfahrung»."
+     },
+     {
+      "antwort": "Er kritisiert die Teilnehmenden",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text urteilt nicht über sie. Richtig ist «Er verschiebt den Blick vom Gegenstand auf die Erfahrung»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Bild steckt in «wandert ein Joghurt in den Kübel»?",
+    "optionen": [
+     "Der Gegenstand wird dargestellt, als bewege er sich selbst",
+     "Der Kübel wird zum Menschen",
+     "Das Joghurt ist verdorben",
+     "Der Weg ist weit"
+    ],
+    "loesung": [
+     "Der Gegenstand wird dargestellt, als bewege er sich selbst"
+    ],
+    "erklaerung": "Wandern kann nur ein Lebewesen — das Bild verdeckt, dass jemand es wegwirft.",
+    "fehler": [
+     {
+      "antwort": "Der Kübel wird zum Menschen",
+      "diagnoseId": "bild",
+      "feedback": "Nicht der Kübel handelt, sondern das Joghurt."
+     },
+     {
+      "antwort": "Das Joghurt ist verdorben",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text sagt ausdrücklich, es sei meist nicht verdorben."
+     },
+     {
+      "antwort": "Der Weg ist weit",
+      "diagnoseId": "woertlich",
+      "feedback": "Vom Weg handelt das Bild nicht. Richtig ist «Der Gegenstand wird dargestellt, als bewege er sich selbst»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie beurteilt der Text das «Mindestens haltbar bis»?",
+    "optionen": [
+     "Als Versprechen des Herstellers, nicht als Verfallsdatum",
+     "Als gesetzliche Vorschrift",
+     "Als überflüssige Angabe",
+     "Als Erfindung des Handels"
+    ],
+    "loesung": [
+     "Als Versprechen des Herstellers, nicht als Verfallsdatum"
+    ],
+    "erklaerung": "Der Text sagt es wörtlich und stellt die beiden Begriffe einander gegenüber.",
+    "fehler": [
+     {
+      "antwort": "Als gesetzliche Vorschrift",
+      "diagnoseId": "beleg",
+      "feedback": "Von einem Gesetz ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "Als überflüssige Angabe",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text nennt sie nicht überflüssig, sondern missverstanden."
+     },
+     {
+      "antwort": "Als Erfindung des Handels",
+      "diagnoseId": "deutung",
+      "feedback": "Der Text nennt den Hersteller, ohne ihm etwas zu unterstellen."
+     }
+    ]
+   }
+  ],
+  "text": "Die Kunst des zweiten Blicks\n\nEs gibt ein japanisches Wort, das sich schlecht übersetzen lässt: «mottainai».\nWörtlich heisst es etwa «wie schade», gemeint ist aber mehr. Ein leises\nUnbehagen darüber, dass etwas verschwendet wird, das noch Wert hätte. Wer\n«mottainai» sagt, spricht nicht von Geld. Er spricht davon, dass ein Ding, in\ndem Arbeit steckt, zu früh aufhört, ein Ding zu sein.\n\nDie Rechnung ist ernüchternd. In der Schweiz wirft jede Person im Schnitt\nrund achtzig Kilogramm Lebensmittel im Jahr weg. Das meiste davon ist nicht\nverdorben, sondern bloss über ein Datum hinaus, das auf der Packung steht.\n«Mindestens haltbar bis» ist kein Verfallsdatum, sondern ein Versprechen des\nHerstellers, und trotzdem wandert ein Joghurt am Tag danach in den Kübel,\nohne dass jemand den Deckel geöffnet hätte.\n\nDer zweite Blick wäre einfach: aufmachen, riechen, kosten. Er kostet zehn\nSekunden und rettet ein Viertel dessen, was sonst weggeht. Doch der zweite\nBlick ist unbequem, weil er eine Entscheidung verlangt. Das Datum entscheidet\nfür uns; die Nase zwingt uns, selbst zu urteilen.\n\nÄhnlich geht es uns mit Dingen, die nicht essbar sind. Ein Reissverschluss\nklemmt, und die Jacke ist erledigt. Dabei kostet der neue Reissverschluss\nweniger als ein Kinobesuch, und in vielen Quartieren gibt es inzwischen\nWerkstätten, in denen man ihn unter Anleitung selbst einnäht. Wer dort war,\nerzählt selten von der Jacke. Er erzählt davon, dass er etwas konnte, was er\nsich nicht zugetraut hätte.\n\nMan könnte einwenden, das sei Nostalgie: Früher habe man eben flicken müssen,\nheute müsse man nicht mehr. Das stimmt, und es ist trotzdem kein Argument.\nDenn «mottainai» ist keine Sparanweisung. Es ist die Aufforderung, ein Ding\nzu Ende zu denken, von der Arbeit, die darinsteckt, bis zu dem Tag, an dem\nes wirklich nichts mehr taugt. Dazwischen liegt meistens mehr Zeit, als wir\nihm zugestehen.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Basler Musterprüfungen Deutsch März 2021 und März 2022 sowie die Prüfungsanforderungen Deutsch 2026; Texte und Fragen eigenentwickelt"
+  },
+  "thema": "Das Gelesene beurteilen und sprachliche Bilder deuten",
+  "status": "review"
+ }
+]

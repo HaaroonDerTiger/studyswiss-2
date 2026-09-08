@@ -1,0 +1,154 @@
+<!--
+  Der Lernbereich.
+
+  Hier ist die Website wirklich «dieselbe App, nur Website-Ansicht»:
+  dieselben Screens, dieselben Bausteine, dasselbe Backend. Anders ist
+  nur der Platz — die fünf Tabs der App liegen am Telefon unten beim
+  Daumen, am Laptop gehören sie an den Rand.
+
+  Die Aufgaben kommen aus `/v1`, samt Auswertung. Die Lösung reist nie
+  mit (§4.10): Was hier ankommt, ist `aufgabeRef`, Stamm und Optionen.
+-->
+<div class="werkflaeche">
+  <aside class="seitenleiste">
+    <nav aria-label="Lernbereich">
+      <a href="#uebersicht" data-lern="uebersicht">{{icon:buch}}<span>Lernen</span></a>
+      <a href="#pfad"       data-lern="pfad">{{icon:pfad}}<span>Lernpfad</span></a>
+      <a href="#standort"   data-lern="standort">{{icon:schule}}<span>Standortbestimmung</span></a>
+      <a href="#selbsttest" data-lern="selbsttest">{{icon:test}}<span>Selbsttest</span></a>
+      <a href="#aufsatz"    data-lern="aufsatz">{{icon:beleg}}<span>Aufsatz</span></a>
+      <a href="#fortschritt" data-lern="fortschritt">{{icon:chart}}<span>Fortschritt</span></a>
+      <a href="#fehler"     data-lern="fehler">{{icon:warn}}<span>Fehlerarchiv</span></a>
+      <a href="#einstellungen" data-lern="einstellungen">{{icon:zahn}}<span>Einstellungen</span></a>
+    </nav>
+  </aside>
+
+  <div class="arbeitsflaeche">
+    <div id="lernMeldung"></div>
+
+    <!-- ---- Nicht angemeldet ---- -->
+    <section data-lern="anmelden" hidden>
+      <p class="eyebrow">Lernen</p>
+      <h1>Zuerst anmelden</h1>
+      <p class="bd" style="margin-top:10px;max-width:56ch">
+        Der Fortschritt hängt am Konto. Melde dich an — oder lern ohne Konto
+        weiter, dann bleibt er auf diesem Gerät.
+      </p>
+      <div class="knopfreihe"><a class="btn bp" href="konto.html">Zur Anmeldung</a></div>
+    </section>
+
+    <!-- ---- Übersicht ---- -->
+    <section data-lern="uebersicht" hidden>
+      <div class="dunkel" id="terminKarte"></div>
+      <div id="zuerstDran" style="margin-top:22px"></div>
+      <h2 style="margin-top:34px">Deine Fächer</h2>
+      <div class="raster" id="faecher" style="margin-top:18px"></div>
+    </section>
+
+    <!-- ---- Die Bereiche eines Fachs ----
+         Screen 11b. Nur für Fächer mit mehr als einem Bereich, also für
+         Deutsch: Sprachbetrachtung, Textverständnis, Aufsatz. Mathematik
+         überspringt diesen Schirm, dort fallen Fach und Bereich zusammen. -->
+    <section data-lern="bereiche" hidden>
+      <button class="btn bt klein" id="zurueckVonBereichen"
+              style="padding-left:0">{{icon:zurueck}} Zurück</button>
+      <h1 id="bereicheTitel" style="margin-top:10px">Fach</h1>
+      <p class="bd" style="margin-top:8px;max-width:56ch">
+        An der Prüfung besteht dieses Fach aus mehreren Teilen. Wähle den,
+        den du üben möchtest.</p>
+      <div class="stapel" id="bereicheInhalt" style="margin-top:22px"></div>
+    </section>
+
+    <!-- ---- Ein Bereich mit seinen Themen ---- -->
+    <section data-lern="fach" hidden>
+      <button class="btn bt klein" id="zurueckUebersicht"
+              style="padding-left:0">{{icon:zurueck}} Zurück</button>
+      <h1 id="fachTitel" style="margin-top:10px">Fach</h1>
+      <p class="bd" id="fachZeile" style="margin-top:8px"></p>
+      <div id="themenbaum" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Übung ---- -->
+    <section data-lern="uebung" hidden>
+      <div class="reihe" style="justify-content:space-between;margin-bottom:18px">
+        <button class="btn bt klein" id="uebungSchliessen" style="padding-left:0">
+          {{icon:zurueck}} Abbrechen</button>
+        <span class="sm" id="uebungTitel" style="font-weight:700;color:var(--ink5)"></span>
+        <span class="sm" id="uebungStand"></span>
+      </div>
+      <div class="bar" style="margin-bottom:24px"><i id="uebungBalken" style="width:0"></i></div>
+      <div id="uebungInhalt"></div>
+    </section>
+
+    <!-- ---- Fortschritt ---- -->
+    <section data-lern="fortschritt" hidden>
+      <p class="eyebrow">Fortschritt</p>
+      <h1>Wo du stehst</h1>
+      <div id="fortschrittInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Fehlerarchiv ---- -->
+    <section data-lern="fehler" hidden>
+      <p class="eyebrow">Fehlerarchiv</p>
+      <h1>Meine Fehler</h1>
+      <p class="bd" style="margin-top:8px;max-width:58ch">
+        Nach Denkfehler geordnet. «Nochmal» erzeugt genau dieselbe Aufgabe —
+        mit denselben Zahlen, auch Wochen später und auf jedem Gerät.
+      </p>
+      <div id="fehlerInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Lernpfad ---- -->
+    <section data-lern="pfad" hidden>
+      <p class="eyebrow">Lernpfad</p>
+      <h1>Von heute bis zur Prüfung</h1>
+      <div id="pfadInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Selbsttest ---- -->
+    <section data-lern="selbsttest" hidden>
+      <p class="eyebrow">Selbsttest</p>
+      <h1>Wie an der Prüfung</h1>
+      <p class="bd" style="margin-top:8px;max-width:58ch">
+        Uhr läuft, keine Hinweise, kein Feedback zwischendurch — aber du
+        darfst zurückblättern, und die Uhr hält an, wenn du das Fenster
+        wechselst. Bewertet wird erst bei der Abgabe.
+      </p>
+      <div id="selbsttestInhalt" style="margin-top:24px"></div>
+    </section>
+
+    <!-- ---- Standortbestimmung ----
+         Sie heisst überall «Standortbestimmung», nie «Test»: «Test» weckt
+         genau die Erwartung, die der Ergebnis-Schirm gleich darauf
+         verneinen muss. -->
+    <section data-lern="standort" hidden>
+      <p class="eyebrow">Wo stehst du?</p>
+      <h1>Standortbestimmung</h1>
+      <div id="standortInhalt" style="margin-top:20px"></div>
+    </section>
+
+    <!-- ---- Aufsatz ---- -->
+    <section data-lern="aufsatz" hidden>
+      <p class="eyebrow">Wähle eine Aufsatzart aus, die du üben möchtest</p>
+      <h1>Aufsatz</h1>
+      <div id="aufsatzInhalt" style="margin-top:20px"></div>
+    </section>
+
+    <!-- ---- Tipps ----
+         Für einen Bereich mit `art: "tipps"` — Hörverstehen, mündliche
+         Prüfung. Der Schirm verspricht keine Aufgaben und sagt darum auch
+         nie «Aufgaben folgen». -->
+    <section data-lern="tipps" hidden>
+      <button class="btn bt klein" id="zurueckVonTipps"
+              style="padding-left:0">{{icon:zurueck}} Zurück</button>
+      <div id="tippsInhalt" style="margin-top:14px"></div>
+    </section>
+
+    <!-- ---- Einstellungen ---- -->
+    <section data-lern="einstellungen" hidden>
+      <p class="eyebrow">Einstellungen</p>
+      <h1>Prüfung und Konto</h1>
+      <div id="einstellungenInhalt" style="margin-top:24px"></div>
+    </section>
+  </div>
+</div>

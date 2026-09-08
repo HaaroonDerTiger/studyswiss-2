@@ -1,0 +1,165 @@
+{
+ "bereich": "englisch-muendlich-sz",
+ "titel": "Englisch mündlich",
+ "eyebrow": "Mündliche Prüfung, zehn Minuten",
+ "einleitung": "Zehn Minuten Einzelprüfung, zehn Minuten Vorbereitung davor. Geprüft wird die Sprache, die du nicht schriftlich schreibst. Drei von vier Teilen kommen dran: eine Unterhaltung, ein Rollenspiel, eine Bildbeschreibung und ein Text mit Fragen. Ein Gegenüber hat diese App nicht. Was sie dir geben kann, ist der Ablauf, die Sätze, die du auswendig können solltest, und die Fehler, die am meisten kosten.",
+ "grundlage": "Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen, Prüfungsteil «Englisch mündlich»: zehn Minuten, bewertet werden sprachlicher Ausdruck und Verständnis.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Vorbereitung",
+   "dauer": "10 Minuten",
+   "text": "Du bekommst die Unterlagen und kannst dir Stichworte machen. Schreibe keine ganzen Sätze auf — vorgelesene Sätze klingen auswendig gelernt und bringen weniger."
+  },
+  {
+   "nr": 2,
+   "titel": "Unterhaltung",
+   "dauer": "etwa 3 Minuten",
+   "text": "Fragen zu dir: Schule, Familie, Freizeit, Ferien. Antworte in ganzen Sätzen und hänge immer einen Satz an, den niemand verlangt hat."
+  },
+  {
+   "nr": 3,
+   "titel": "Rollenspiel oder Bildbeschreibung",
+   "dauer": "etwa 4 Minuten",
+   "text": "Beim Rollenspiel übernimmst du eine Rolle in einer Alltagssituation. Bei der Bildbeschreibung sagst du zuerst, was du siehst, dann was du vermutest."
+  },
+  {
+   "nr": 4,
+   "titel": "Text mit Fragen",
+   "dauer": "etwa 3 Minuten",
+   "text": "Ein kurzer Text wird gelesen, danach folgen Fragen dazu. Antworte mit eigenen Worten, nicht mit abgelesenen Satzteilen."
+  },
+  {
+   "nr": 5,
+   "titel": "Abschluss",
+   "dauer": "",
+   "text": "Bedanke dich und verabschiede dich in der Fremdsprache. Der letzte Satz bleibt hängen."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Reden ist wichtiger als fehlerfrei reden",
+   "tipps": [
+    {
+     "regel": "Antworte nie nur mit einem Wort.",
+     "warum": "Bewertet werden sprachlicher Ausdruck und Verständnis. Wer «yes» sagt, zeigt beides nicht."
+    },
+    {
+     "regel": "Hänge an jede Antwort einen zusätzlichen Satz.",
+     "warum": "So steuerst du das Gespräch in den Wortschatz, den du beherrschst, statt darauf zu warten, was kommt."
+    },
+    {
+     "regel": "Sprich weiter, auch wenn ein Wort fehlt.",
+     "warum": "Ein Umweg zeigt Sprachvermögen; eine lange Pause zeigt nichts. Umschreiben ist erlaubt und wird positiv gewertet."
+    }
+   ]
+  },
+  {
+   "titel": "Die Bildbeschreibung hat eine feste Reihenfolge",
+   "tipps": [
+    {
+     "regel": "Zuerst der Überblick, dann die Einzelheiten, dann die Vermutung.",
+     "warum": "Diese drei Schritte füllen die Zeit von selbst und wirken geordnet."
+    },
+    {
+     "regel": "Beschreibe die Lage der Dinge mit Präpositionen.",
+     "warum": "Vorne, hinten, links, rechts, im Hintergrund — damit zeigst du Wortschatz, den man sonst nie braucht."
+    },
+    {
+     "regel": "Sag am Schluss, was du vermutest.",
+     "warum": "Eine Vermutung verlangt eine andere Verbform als eine Beschreibung; genau das will die Prüfung sehen."
+    }
+   ]
+  },
+  {
+   "titel": "Was am meisten kostet",
+   "tipps": [
+    {
+     "regel": "Zu leise sprechen.",
+     "warum": "Was nicht verstanden wird, kann nicht bewertet werden. Lieber langsam und laut als schnell und leise."
+    },
+    {
+     "regel": "Ganze Sätze aus der Vorbereitung ablesen.",
+     "warum": "Das Gespräch bricht ab, sobald eine Rückfrage kommt — und sie kommt."
+    },
+    {
+     "regel": "Auf Deutsch ausweichen.",
+     "warum": "Bewertet wird, was du in der Fremdsprache sagst. Ein deutscher Satz bringt null Punkte, ein einfacher fremdsprachiger einen."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Über sich selbst sprechen",
+   "saetze": [
+    "My name is …, and I live in …",
+    "I have been learning English for … years.",
+    "In my free time I usually …",
+    "What I like most about school is …",
+    "Last summer we went to …"
+   ]
+  },
+  {
+   "zweck": "Ein Bild beschreiben",
+   "saetze": [
+    "In this picture I can see …",
+    "In the foreground there is …, in the background …",
+    "On the left … and on the right …",
+    "It looks as if …",
+    "I think this photo was taken in …"
+   ]
+  },
+  {
+   "zweck": "Im Rollenspiel",
+   "saetze": [
+    "Excuse me, could you tell me …?",
+    "I would like to …, please.",
+    "How much does it cost?",
+    "I'm sorry, I don't quite understand. Could you repeat that?",
+    "That sounds good. Let's do that."
+   ]
+  },
+  {
+   "zweck": "Wenn ein Wort fehlt",
+   "saetze": [
+    "It's a thing you use for …",
+    "It's similar to …",
+    "I don't know the word, but it means …",
+    "How do you say … in English?"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.08",
+   "name": "Präpositionen und feste Wendungen",
+   "warum": "Im Gespräch kommen sie in jedem zweiten Satz vor; wer sie sicher hat, stockt seltener."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.04",
+   "name": "Tenses: present, past, present perfect",
+   "warum": "Über Ferien und Erlebnisse zu erzählen heisst, in der Vergangenheit zu erzählen."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.06",
+   "name": "Konditionalsätze",
+   "warum": "«What would you do if …» ist eine der häufigsten Fragen in der Unterhaltung."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "1.04",
+   "name": "Wortbedeutung aus dem Zusammenhang",
+   "warum": "Im Textteil der mündlichen Prüfung musst du unbekannte Wörter im Lauf des Lesens erschliessen."
+  },
+  {
+   "bereich": "englisch-sz",
+   "unterthema": "2.02",
+   "name": "Word formation: Nomen, Adjektiv, Adverb",
+   "warum": "Wer aus einem bekannten Wort ein anderes bilden kann, kommt ohne das fehlende Wort aus."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "fach": "textverstaendnis-ag",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Aufnahmeprüfungen der Mittelschulen Aargau",
+ "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Inhalt erfassen und wiedergeben",
+   "punkte": 8,
+   "anteil": 40,
+   "beschreibung": "Zusammenfassen, in eigenen Worten wiedergeben, die Reihenfolge der Ereignisse bestimmen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Handlung und Reihenfolge bestimmen",
+     "lernzielId": "DTAG.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text auffinden",
+     "lernzielId": "DTAG.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Textpassagen in eigenen Worten zusammenfassen",
+     "lernzielId": "DTAG.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Figuren und ihre Beziehungen erfassen",
+     "lernzielId": "DTAG.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Wörter und Wendungen erklären",
+   "punkte": 5,
+   "anteil": 25,
+   "beschreibung": "Ein Wort aus dem Text wird herausgegriffen — gefragt ist, was es an dieser Stelle bedeutet.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortbedeutung aus dem Zusammenhang erschliessen",
+     "lernzielId": "DTAG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Bildhafte Wendungen deuten",
+     "lernzielId": "DTAG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Bezüge und Verweiswörter auflösen",
+     "lernzielId": "DTAG.2.03",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Deuten und interpretieren",
+   "punkte": 7,
+   "anteil": 35,
+   "beschreibung": "Erzählperspektive, Absicht, Wirkung — und immer die Frage: Woran im Text sieht man das?",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Erzählperspektive bestimmen",
+     "lernzielId": "DTAG.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Verhalten und Gefühle einer Figur begründen",
+     "lernzielId": "DTAG.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Absicht und Aussage des Textes benennen",
+     "lernzielId": "DTAG.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Sprachliche Mittel und ihre Wirkung",
+     "lernzielId": "DTAG.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Textsorte bestimmen und begründen",
+     "lernzielId": "DTAG.3.05",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

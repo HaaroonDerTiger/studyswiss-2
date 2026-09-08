@@ -1,0 +1,135 @@
+{
+ "fach": "englisch-gr",
+ "name": "Englisch",
+ "pruefung": "Einheitsprüfung der Bündner Mittelschulen",
+ "quelle": "«Bestimmungen über die Vorkenntnisse» des Amts für Höhere Bildung Graubünden: New World 1 und 2 sowie die Liste der 70 unregelmässigen Verben",
+ "punkteTotal": 30,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "E1",
+   "name": "Unregelmässige Verben",
+   "punkte": 10,
+   "anteil": 33,
+   "beschreibung": "Das Amt veröffentlicht eine Liste von genau 70 Verben — sie sind namentlich Prüfungsstoff.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Häufige unregelmässige Verben: be, have, do, go",
+     "lernzielId": "EGR.1.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.02",
+     "name": "Verben der Bewegung: come, run, fly, drive",
+     "lernzielId": "EGR.1.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.03",
+     "name": "Verben des Sprechens und Denkens: say, tell, think, mean",
+     "lernzielId": "EGR.1.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.04",
+     "name": "Verben mit gleicher Form: cut, put, let, cost",
+     "lernzielId": "EGR.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Verben mit Vokalwechsel: sing, drink, begin, swim",
+     "lernzielId": "EGR.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "E2",
+   "name": "Grammatik",
+   "punkte": 12,
+   "anteil": 40,
+   "beschreibung": "Die Strukturen aus New World 1 und 2.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Present simple und present continuous",
+     "lernzielId": "EGR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Past simple",
+     "lernzielId": "EGR.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Fragen und Verneinung",
+     "lernzielId": "EGR.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Personal- und Possessivpronomen",
+     "lernzielId": "EGR.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Plural und Mengenangaben",
+     "lernzielId": "EGR.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Adjektive und Steigerung",
+     "lernzielId": "EGR.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Präpositionen der Zeit und des Ortes",
+     "lernzielId": "EGR.2.07",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "E3",
+   "name": "Wortschatz und Lesen",
+   "punkte": 8,
+   "anteil": 27,
+   "beschreibung": "Wortschatz aus New World, angewendet in Sätzen und in einem kurzen Lesetext.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wortschatz: Schule und Alltag",
+     "lernzielId": "EGR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Wortschatz: Familie, Freizeit und Ferien",
+     "lernzielId": "EGR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Einen kurzen Text verstehen",
+     "lernzielId": "EGR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Sätze richtig bauen",
+     "lernzielId": "EGR.3.04",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

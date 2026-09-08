@@ -1,0 +1,189 @@
+{
+ "bereich": "franzoesisch-hoeren-so",
+ "titel": "Compréhension auditive",
+ "eyebrow": "Teil A der Französischprüfung",
+ "einleitung": "Vierzehn von 43 Punkten. Fast ein Drittel der ganzen Französischprüfung, und alles davon hörst du, statt es zu lesen. Die Tonaufnahmen kann dir diese App nicht vorspielen. Was sie dir geben kann, ist das Verfahren: was du in den vier Minuten Lesezeit tust, worauf du beim ersten und beim zweiten Durchgang achtest, und welche Wörter du vorher können musst.",
+ "grundlage": "Aufnahmeprüfung Französisch BM/FMS/Gym des Kantons Solothurn, Teil A «Compréhension auditive»: 14 von 43 Punkten. Der Ablauf steht im Aufgabenheft der Serie 2024.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Vier Minuten Lesezeit",
+   "dauer": "4 Minuten",
+   "text": "Zu Beginn bekommst du vier Minuten, um alle Fragen durchzulesen. Das steht so im Aufgabenheft, und es ist die wichtigste Zeit der ganzen Aufgabe. Wer sie verstreichen lässt, hört danach ohne Fahrplan zu."
+  },
+  {
+   "nr": 2,
+   "titel": "Devoir 1. Zweimal",
+   "dauer": "2 Durchgänge",
+   "text": "Die erste Aufnahme wird zweimal abgespielt, mit einer Pause dazwischen. Beim ersten Mal nur zuhören und die sicheren Antworten setzen, beim zweiten Mal die Lücken füllen."
+  },
+  {
+   "nr": 3,
+   "titel": "Devoir 2. Dreimal",
+   "dauer": "3 Durchgänge",
+   "text": "Die zweite Aufnahme ist länger und wird dreimal gespielt. Sie hat meist eine Tabelle, in der du Aussagen zwei Personen zuordnest. Dafür sind drei Durchgänge nötig und auch gedacht."
+  },
+  {
+   "nr": 4,
+   "titel": "Pausen nutzen",
+   "dauer": "zwischen den Durchgängen",
+   "text": "In jeder Pause die noch offenen Fragen anschauen und dir merken, auf welches Wort du im nächsten Durchgang wartest."
+  },
+  {
+   "nr": 5,
+   "titel": "Nichts leer lassen",
+   "dauer": "am Schluss",
+   "text": "Bei Ankreuzfragen gibt es in diesem Teil keinen Abzug für falsche Antworten. Ein leeres Kästchen bringt sicher null Punkte, ein geratenes vielleicht einen halben."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die Lesezeit richtig nutzen",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Combien» verlangt eine Zahl, «pourquoi» einen Grund, «où» einen Ort. Wer das vorher weiss, wartet gezielt auf eine Sorte Antwort statt auf alles gleichzeitig."
+    },
+    {
+     "regel": "Lies bei Ankreuzfragen alle drei Möglichkeiten vorher.",
+     "warum": "In der Aufnahme fallen oft alle drei Wörter, aber nur eines im richtigen Zusammenhang. Wer die Auswahl erst nachher liest, hat nur noch das letzte Wort im Ohr."
+    },
+    {
+     "regel": "Schätze bei jeder Frage, welche Antwortlänge erwartet wird.",
+     "warum": "Eine Frage mit einem Punkt will ein Wort oder eine Zahl, eine mit mehreren Punkten einen ganzen Satz. Das sagt dir, wie genau du hinhören musst."
+    }
+   ]
+  },
+  {
+   "titel": "Zahlen, Zeiten und Preise",
+   "tipps": [
+    {
+     "regel": "Schreib Zahlen sofort als Ziffern hin, nicht als Wort.",
+     "warum": "«Quatre-vingt-dix-sept» im Kopf zu behalten, während der Text weiterläuft, kostet die nächste Antwort. Eine 97 auf dem Blatt kostet eine Sekunde."
+    },
+    {
+     "regel": "Achte auf «et demie», «et quart» und «moins le quart».",
+     "warum": "Die Uhrzeit ist in fast jeder Aufnahme dabei, und die Viertelstunden sind die Stelle, an der die meisten danebengreifen."
+    },
+    {
+     "regel": "Bei Preisen auf «euros» und «centimes» hören.",
+     "warum": "«Trois euros cinquante» ist 3.50, nicht 350. Der Unterschied ist ein halber Punkt."
+    }
+   ]
+  },
+  {
+   "titel": "Die Zuordnungstabelle in Devoir 2",
+   "tipps": [
+    {
+     "regel": "Setze im ersten Durchgang nur die Kreuze, die du sicher hörst.",
+     "warum": "Die Tabelle hat oft elf Zeilen für zwei Personen. Wer alles auf einmal will, verliert die Spur. Die sicheren Zeilen sind der Anker für die übrigen."
+    },
+    {
+     "regel": "Merke dir, wer zuerst spricht.",
+     "warum": "Die Aussagen kommen meist in Blöcken: erst die eine Person, dann die andere. Wer die Reihenfolge kennt, ordnet auch das zu, was er nur halb versteht."
+    },
+    {
+     "regel": "Wenn beide Kästchen leer bleiben, kreuze das wahrscheinlichere an.",
+     "warum": "Bei zwei Möglichkeiten steht die Hälfte der Punkte schon im Raten. Ein leeres Kästchen bringt garantiert nichts."
+    }
+   ]
+  },
+  {
+   "titel": "Was du tun kannst, wenn du ein Wort nicht verstehst",
+   "tipps": [
+    {
+     "regel": "Hör weiter, statt am Wort zu hängen.",
+     "warum": "Wer über ein Wort nachdenkt, verpasst den nächsten Satz, und oft steht die Antwort erst dort. Ein Fragezeichen an den Rand und weiter."
+    },
+    {
+     "regel": "Nutze das, was du drumherum verstehst.",
+     "warum": "«Il a acheté un … pour son vélo» Auch ohne das Wort weisst du, dass es etwas fürs Velo ist. Für eine Ankreuzfrage reicht das oft."
+    },
+    {
+     "regel": "Achte auf international ähnliche Wörter.",
+     "warum": "«La cantine», «le collège», «l'appétit» klingen fast wie im Deutschen. Sie tragen dich weiter, als du denkst."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Fragewörter, an denen du die Antwortsorte erkennst",
+   "saetze": [
+    "Qui ? Eine Person",
+    "Où ? Ein Ort",
+    "Quand ? Eine Zeit",
+    "Combien ? Eine Zahl",
+    "Pourquoi ? Ein Grund",
+    "Comment ? Eine Art und Weise",
+    "Qu'est-ce que ? Eine Sache"
+   ]
+  },
+  {
+   "zweck": "Wörter, die eine Aufzählung oder Reihenfolge ankündigen",
+   "saetze": [
+    "d'abord. Zuerst",
+    "ensuite / puis. Dann",
+    "enfin. Schliesslich",
+    "par exemple, zum Beispiel",
+    "surtout, vor allem",
+    "en plus. Ausserdem"
+   ]
+  },
+  {
+   "zweck": "Wörter, die einen Gegensatz oder eine Einschränkung ankündigen",
+   "saetze": [
+    "mais, aber",
+    "pourtant. Dennoch",
+    "par contre. Dagegen",
+    "sauf, ausser",
+    "ne … que. Nur",
+    "au lieu de, statt"
+   ]
+  },
+  {
+   "zweck": "Zahlen, bei denen es am häufigsten schiefgeht",
+   "saetze": [
+    "soixante-dix. 70",
+    "quatre-vingts. 80",
+    "quatre-vingt-dix. 90",
+    "cent. 100",
+    "mille. 1000",
+    "un demi / la moitié. Die Hälfte",
+    "un quart. Ein Viertel"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-so",
+   "unterthema": "2.08",
+   "name": "Zeit, Uhrzeit und Datum",
+   "warum": "Uhrzeiten und Daten kommen in fast jeder Aufnahme vor, und sie lassen sich schriftlich vollständig üben. Dann musst du beim Hören nicht mehr rechnen."
+  },
+  {
+   "bereich": "franzoesisch-so",
+   "unterthema": "2.05",
+   "name": "Einkaufen, Preise und Mengen",
+   "warum": "Preise und Mengen sind die zweite Stelle, an der es rein am Zahlwort scheitert und nicht am Verständnis."
+  },
+  {
+   "bereich": "franzoesisch-so",
+   "unterthema": "3.13",
+   "name": "Fragesätze bilden",
+   "warum": "Wer Fragen selbst bilden kann, erkennt sie beim Hören schneller, und weiss sofort, was gefragt ist."
+  },
+  {
+   "bereich": "franzoesisch-so",
+   "unterthema": "1.03",
+   "name": "Vrai, faux ou pas mentionné",
+   "warum": "Dieselbe Denkbewegung wie beim Hören: entscheiden, ob etwas wirklich gesagt wurde oder ob man es sich dazudenkt."
+  },
+  {
+   "bereich": "franzoesisch-so",
+   "unterthema": "2.02",
+   "name": "Essen, Trinken und Restaurant",
+   "warum": "Das Wortfeld der Serie 2024. Kantine, Teller, Reste. Wer die Wörter kennt, versteht die Aufnahme auch beim ersten Mal."
+  }
+ ]
+}

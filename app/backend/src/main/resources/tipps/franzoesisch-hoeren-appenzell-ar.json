@@ -1,0 +1,150 @@
+{
+ "bereich": "franzoesisch-hoeren-ar",
+ "titel": "Compréhension orale",
+ "eyebrow": "Der Hörteil der Französischprüfung",
+ "einleitung": "Die Französischprüfung enthält ein Hörverständnis; die Tonaufnahme kann dir diese App nicht vorspielen. Was sie dir geben kann, ist alles andere: wie der Teil abläuft, was du in der Lesezeit tust, worauf du beim ersten und beim zweiten Durchgang achtest — und welche Wörter du vorher können musst. Der Prüfungsstoff nennt die Grundlage genau: dis donc! 7, Unités 1 bis 6, und dis donc! 8, Unité 1.",
+ "grundlage": "Angaben zum Prüfungsstoff der Aufnahmeprüfung Gymnasium Kantonsschule Trogen 2026/27: Französisch schriftlich, 90 Minuten, mit Hörverständnis und Wortschatzübung; Lehrmittel dis donc! 7 und 8 sowie die dort abgedruckte Verbenliste.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Die Fragen zuerst lesen",
+   "dauer": "vor der Aufnahme",
+   "text": "Bevor die Aufnahme startet, bekommst du Zeit, die Fragen zu lesen. Das ist die wichtigste Minute des ganzen Teils: Wer die Fragen kennt, hört gezielt zu, statt alles verstehen zu wollen."
+  },
+  {
+   "nr": 2,
+   "titel": "Erster Durchgang",
+   "dauer": "1. Mal",
+   "text": "Beim ersten Hören nur die sicheren Antworten setzen. Was du nicht verstehst, lässt du offen und merkst dir die Stelle."
+  },
+  {
+   "nr": 3,
+   "titel": "Pause zwischen den Durchgängen",
+   "dauer": "kurz",
+   "text": "In der Pause die offenen Fragen anschauen und dir merken, auf welches Wort du beim nächsten Mal wartest."
+  },
+  {
+   "nr": 4,
+   "titel": "Zweiter Durchgang",
+   "dauer": "2. Mal",
+   "text": "Jetzt gezielt die Lücken füllen. Wer beim zweiten Mal wieder von vorne mitliest, verpasst genau die Stellen, die noch fehlen."
+  },
+  {
+   "nr": 5,
+   "titel": "Nichts leer lassen",
+   "dauer": "am Schluss",
+   "text": "Eine leere Antwort gibt sicher keinen Punkt, eine geratene vielleicht. Trage überall etwas ein, was zum Thema passt."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Was du in der Lesezeit tust",
+   "tipps": [
+    {
+     "regel": "Unterstreiche in jeder Frage das Fragewort.",
+     "warum": "«Où», «quand», «combien» und «pourquoi» sagen dir, auf welche Art Information du wartest — eine Zahl, einen Ort, einen Grund."
+    },
+    {
+     "regel": "Schreibe zu jeder Frage ein französisches Stichwort an den Rand.",
+     "warum": "Beim Hören erkennst du das Wort wieder. Wer nur deutsch denkt, muss während des Hörens übersetzen und verliert den Faden."
+    },
+    {
+     "regel": "Schau dir an, wie viele Antworten verlangt sind.",
+     "warum": "Zwei Linien bedeuten zwei Informationen. Wer nur eine notiert, verliert die Hälfte der Punkte, obwohl er alles verstanden hat."
+    }
+   ]
+  },
+  {
+   "titel": "Während der Aufnahme",
+   "tipps": [
+    {
+     "regel": "Schreibe Zahlen sofort als Ziffern auf.",
+     "warum": "«Quatre-vingt-douze» ist im Kopf schnell wieder weg. Als 92 notiert bleibt es stehen."
+    },
+    {
+     "regel": "Achte auf die Verneinung.",
+     "warum": "«Il n'habite plus à Genève» dreht die Aussage um. Wer nur «Genève» hört, kreuzt das Falsche an."
+    },
+    {
+     "regel": "Lass dich von einem unbekannten Wort nicht aufhalten.",
+     "warum": "Während du überlegst, läuft die Aufnahme weiter — und du verpasst zwei Antworten statt einer."
+    }
+   ]
+  },
+  {
+   "titel": "Wortschatz, den du vorher können musst",
+   "tipps": [
+    {
+     "regel": "Die Zahlen bis 100 sicher hören, besonders 70, 80 und 90.",
+     "warum": "«Soixante-dix», «quatre-vingts» und «quatre-vingt-dix» sind die häufigste Fehlerquelle im ganzen Hörteil."
+    },
+    {
+     "regel": "Die Uhrzeit und die Wochentage.",
+     "warum": "Fast jede Aufnahme enthält eine Verabredung, und danach wird gefragt."
+    },
+    {
+     "regel": "Die Verben der Verbenliste im Präsens und im passé composé.",
+     "warum": "Der Prüfungsstoff nennt sie namentlich — sie kommen in der Aufnahme genauso vor wie im schriftlichen Teil."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Zahlen und Mengen",
+   "saetze": [
+    "soixante-dix, quatre-vingts, quatre-vingt-dix",
+    "la moitié, le tiers, le quart",
+    "environ, presque, plus de, moins de",
+    "combien de fois ?"
+   ]
+  },
+  {
+   "zweck": "Zeit und Verabredung",
+   "saetze": [
+    "lundi prochain, la semaine dernière",
+    "à midi, à minuit, dans une heure",
+    "d'abord, ensuite, enfin",
+    "il est huit heures et quart"
+   ]
+  },
+  {
+   "zweck": "Ort und Weg",
+   "saetze": [
+    "à gauche, à droite, tout droit",
+    "en face de, à côté de, près de",
+    "au premier étage",
+    "il habite à …, il vient de …"
+   ]
+  },
+  {
+   "zweck": "Verneinung und Einschränkung",
+   "saetze": [
+    "ne … pas, ne … plus, ne … jamais",
+    "personne, rien",
+    "mais, pourtant",
+    "seulement"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch-ar",
+   "unterthema": "1.04",
+   "name": "Wortschatz: Alltag, Schule und Freizeit",
+   "warum": "Genau dieser Wortschatz kommt in den Aufnahmen vor; wer ihn geschrieben kennt, erkennt ihn auch gehört."
+  },
+  {
+   "bereich": "franzoesisch-ar",
+   "unterthema": "2.03",
+   "name": "avoir, être, faire und aller im Présent",
+   "warum": "Diese vier Verben tragen fast jeden gesprochenen Satz. Wer sie sicher kennt, versteht das Gerüst der Aussage."
+  },
+  {
+   "bereich": "franzoesisch-ar",
+   "unterthema": "3.03",
+   "name": "Verneinung mit ne … pas",
+   "warum": "Beim Hören entscheidet oft ein einziges «pas» oder «plus» über die richtige Antwort."
+  }
+ ]
+}

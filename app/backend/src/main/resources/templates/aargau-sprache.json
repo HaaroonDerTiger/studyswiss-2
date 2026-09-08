@@ -1,0 +1,2377 @@
+[
+ {
+  "templateId": "ag-spr-wortarten",
+  "lernzielId": "DSAG.1.01",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Die Aargauer Prüfung verlangt die genaue Wortart, nicht nur «Partikel».",
+   "Eine Präposition steht vor einer Nominalgruppe und bestimmt deren Fall.",
+   "Ein Adverb lässt sich nicht beugen und bestimmt meist das Verb näher."
+  ],
+  "loesungsweg": [
+   "Das Wort im Satz betrachten.",
+   "Prüfen, ob es sich beugen lässt.",
+   "Fragen: Steht danach eine Nominalgruppe? Verbindet es zwei Teile?",
+   "Erst dann benennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 1)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«Fenster» ist ein Nomen, «gegenüber» steht hier vor einer Nominalgruppe, «schaute» ist eine Verbform, «still» beschreibt.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Fenster",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "schaute",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "still",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "gegenüber",
+      "loesung": [
+       "Präposition"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 2)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«weil» leitet einen Nebensatz ein, «sie» steht für ein Nomen, «Tasse» ist ein Nomen, «hielt» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "weil",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "sie",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Tasse",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "hielt",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 3)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«gestern» ist ein Adverb der Zeit, «neben» eine Präposition, «Nachbarin» ein Nomen, «freundlich» ein Adjektiv.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "gestern",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "neben",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Nachbarin",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "freundlich",
+      "loesung": [
+       "Adjektiv"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 4)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«dass» leitet einen Nebensatz ein, «niemand» ersetzt ein Nomen, «antwortete» ist eine Verbform, «lange» ein Adverb.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "dass",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "niemand",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "antwortete",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "lange",
+      "loesung": [
+       "Adverb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 5)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«während» steht hier vor einer Nominalgruppe im Genitiv, «Pause» ist ein Nomen, «kurz» ein Adjektiv, «blieb» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "während",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Pause",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "kurz",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "blieb",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 6)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«dieser» begleitet ein Nomen, «Morgen» ist ein Nomen, «immer» ein Adverb, «begann» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "dieser",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Morgen",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "immer",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "begann",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 7)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«und» verbindet zwei Satzteile, «Strasse» ist ein Nomen, «leer» ein Adjektiv, «lag» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "und",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "Strasse",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "leer",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "lag",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 8)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«ihn» ersetzt ein Nomen, «zwischen» ist eine Präposition, «Häusern» ein Nomen, «sah» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "ihn",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "zwischen",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Häusern",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "sah",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 9)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«obwohl» leitet einen Nebensatz ein, «kaum» ist ein Adverb, «Licht» ein Nomen, «brannte» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "obwohl",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "kaum",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "Licht",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "brannte",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 10)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«mein» begleitet ein Nomen, «Kaffee» ist ein Nomen, «kalt» ein Adjektiv, «wurde» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "mein",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "Kaffee",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "kalt",
+      "loesung": [
+       "Adjektiv"
+      ]
+     },
+     {
+      "text": "wurde",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 11)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«trotz» ist eine Präposition mit Genitiv, «Regen» ein Nomen, «draussen» ein Adverb, «stand» eine Verbform.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "trotz",
+      "loesung": [
+       "Präposition"
+      ]
+     },
+     {
+      "text": "Regen",
+      "loesung": [
+       "Nomen"
+      ]
+     },
+     {
+      "text": "draussen",
+      "loesung": [
+       "Adverb"
+      ]
+     },
+     {
+      "text": "stand",
+      "loesung": [
+       "Verb"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Bestimme die Wortarten.  (Satz 12)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "«aber» verbindet zwei Hauptsätze, «etwas» ersetzt ein Nomen, «veränderte» ist eine Verbform, «langsam» ein Adverb.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "aber",
+      "loesung": [
+       "Konjunktion"
+      ]
+     },
+     {
+      "text": "etwas",
+      "loesung": [
+       "Pronomen"
+      ]
+     },
+     {
+      "text": "veränderte",
+      "loesung": [
+       "Verb"
+      ]
+     },
+     {
+      "text": "langsam",
+      "loesung": [
+       "Adverb"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "Nomen",
+   "Verb",
+   "Adjektiv",
+   "Pronomen",
+   "Präposition",
+   "Konjunktion",
+   "Adverb"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortarten genau bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-spr-verb",
+  "lernzielId": "DSAG.2.01",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Perfekt und Plusquamperfekt brauchen ein Hilfsverb.",
+   "Das Passiv erkennt man an «werden» plus Partizip II.",
+   "Der Konjunktiv I steht in der indirekten Rede, der Konjunktiv II in Bedingungen."
+  ],
+  "loesungsweg": [
+   "Die Personalform suchen.",
+   "Zeitstufe und Modus bestimmen.",
+   "Bei Umformungen zuerst prüfen, welches Hilfsverb nötig ist.",
+   "Den fertigen Satz laut mitlesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\nSie hatte drei Tage lang gefehlt.",
+    "optionen": [
+     "Plusquamperfekt",
+     "Perfekt",
+     "Präteritum",
+     "Futur II"
+    ],
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "«hatte gefehlt» ist das Hilfsverb im Präteritum plus Partizip II — das Plusquamperfekt.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_zeit",
+      "feedback": "Im Perfekt stünde das Hilfsverb im Präsens: «hat gefehlt»."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "einfach",
+      "feedback": "Das Präteritum wäre «fehlte», ohne Hilfsverb."
+     },
+     {
+      "antwort": "Futur II",
+      "diagnoseId": "zukunft",
+      "feedback": "Das Futur II bräuchte «werden»: «wird gefehlt haben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um:\n\nDie Nachbarin öffnete das Fenster.",
+    "optionen": [
+     "Das Fenster wurde geöffnet.",
+     "Das Fenster ist geöffnet.",
+     "Die Nachbarin wurde geöffnet.",
+     "Das Fenster öffnete sich."
+    ],
+    "loesung": [
+     "Das Fenster wurde geöffnet."
+    ],
+    "erklaerung": "Das Objekt wird zum Subjekt, die Zeitstufe bleibt im Präteritum: «wurde geöffnet».",
+    "fehler": [
+     {
+      "antwort": "Das Fenster ist geöffnet.",
+      "diagnoseId": "zustand",
+      "feedback": "Das beschreibt einen Zustand. Das Vorgangspassiv im Präteritum heisst «wurde geöffnet»."
+     },
+     {
+      "antwort": "Die Nachbarin wurde geöffnet.",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Zum Subjekt des Passivsatzes wird das Objekt, also das Fenster."
+     },
+     {
+      "antwort": "Das Fenster öffnete sich.",
+      "diagnoseId": "reflexiv",
+      "feedback": "Das ist eine reflexive Aktivform, kein Passiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze in die indirekte Rede:\n\nEr sagt: «Ich habe nichts gesehen.»",
+    "optionen": [
+     "Er sagt, er habe nichts gesehen.",
+     "Er sagt, er hat nichts gesehen.",
+     "Er sagt, er hätte nichts gesehen.",
+     "Er sagt, dass er nichts sieht."
+    ],
+    "loesung": [
+     "Er sagt, er habe nichts gesehen."
+    ],
+    "erklaerung": "In der indirekten Rede steht der Konjunktiv I: «habe».",
+    "fehler": [
+     {
+      "antwort": "Er sagt, er hat nichts gesehen.",
+      "diagnoseId": "indikativ",
+      "feedback": "In der Schriftsprache steht in der indirekten Rede der Konjunktiv I."
+     },
+     {
+      "antwort": "Er sagt, er hätte nichts gesehen.",
+      "diagnoseId": "konjunktiv_zwei",
+      "feedback": "Der Konjunktiv II steht dort, wo der Konjunktiv I gleich klingt wie der Indikativ. Bei «habe» ist das nicht so."
+     },
+     {
+      "antwort": "Er sagt, dass er nichts sieht.",
+      "diagnoseId": "zeitstufe",
+      "feedback": "Die Zeitstufe ändert sich: Aus dem Perfekt darf keine Gegenwart werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz steht im Konjunktiv II?",
+    "optionen": [
+     "Wenn ich sie kennen würde, hätte ich gewinkt.",
+     "Sie sagt, sie kenne mich.",
+     "Ich kenne sie nicht.",
+     "Kennst du sie?"
+    ],
+    "loesung": [
+     "Wenn ich sie kennen würde, hätte ich gewinkt."
+    ],
+    "erklaerung": "«würde» und «hätte» sind Konjunktiv-II-Formen und stehen im Bedingungssatz.",
+    "fehler": [
+     {
+      "antwort": "Sie sagt, sie kenne mich.",
+      "diagnoseId": "konjunktiv_eins",
+      "feedback": "«kenne» ist Konjunktiv I in der indirekten Rede."
+     },
+     {
+      "antwort": "Ich kenne sie nicht.",
+      "diagnoseId": "indikativ",
+      "feedback": "Das ist der Indikativ, die Wirklichkeitsform."
+     },
+     {
+      "antwort": "Kennst du sie?",
+      "diagnoseId": "frage",
+      "feedback": "Das ist eine Frage im Indikativ, kein Konjunktiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Perfekt:\n\nSie trat einen Schritt zurück.",
+    "optionen": [
+     "Sie ist einen Schritt zurückgetreten.",
+     "Sie hat einen Schritt zurückgetreten.",
+     "Sie war einen Schritt zurückgetreten.",
+     "Sie wird einen Schritt zurücktreten."
+    ],
+    "loesung": [
+     "Sie ist einen Schritt zurückgetreten."
+    ],
+    "erklaerung": "«zurücktreten» ist ein Bewegungsverb und bildet das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Sie hat einen Schritt zurückgetreten.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Verben der Ortsveränderung nehmen «sein», nicht «haben»."
+     },
+     {
+      "antwort": "Sie war einen Schritt zurückgetreten.",
+      "diagnoseId": "plusquamperfekt",
+      "feedback": "Das ist das Plusquamperfekt; das Hilfsverb steht im Präteritum."
+     },
+     {
+      "antwort": "Sie wird einen Schritt zurücktreten.",
+      "diagnoseId": "futur",
+      "feedback": "Das ist das Futur und blickt nach vorn, statt zurück."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist die 2. Person Singular Präsens von «lesen»?",
+    "optionen": [
+     "du liest",
+     "du lesst",
+     "du last",
+     "du liesest"
+    ],
+    "loesung": [
+     "du liest"
+    ],
+    "erklaerung": "Starke Verben mit e-Wechsel: ich lese, du liest, er liest.",
+    "fehler": [
+     {
+      "antwort": "du lesst",
+      "diagnoseId": "kein_wechsel",
+      "feedback": "Der Stammvokal wechselt von e zu ie: «du liest»."
+     },
+     {
+      "antwort": "du last",
+      "diagnoseId": "praeteritum",
+      "feedback": "«last» wäre die 2. Person Plural im Präteritum."
+     },
+     {
+      "antwort": "du liesest",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«liesest» ist eine Konjunktivform, nicht der Indikativ Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Aktiv um:\n\nDas Fenster wird jeden Morgen geöffnet.",
+    "optionen": [
+     "Jemand öffnet das Fenster jeden Morgen.",
+     "Das Fenster öffnet jeden Morgen.",
+     "Das Fenster hat jeden Morgen geöffnet.",
+     "Jemand hat das Fenster geöffnet."
+    ],
+    "loesung": [
+     "Jemand öffnet das Fenster jeden Morgen."
+    ],
+    "erklaerung": "Im Passivsatz fehlt die handelnde Person; im Aktiv braucht es eine — hier «jemand». Die Zeitstufe bleibt das Präsens.",
+    "fehler": [
+     {
+      "antwort": "Das Fenster öffnet jeden Morgen.",
+      "diagnoseId": "subjekt_falsch",
+      "feedback": "So würde das Fenster selbst handeln. Es wird aber geöffnet."
+     },
+     {
+      "antwort": "Das Fenster hat jeden Morgen geöffnet.",
+      "diagnoseId": "zeitform",
+      "feedback": "Der Ausgangssatz steht im Präsens, nicht im Perfekt."
+     },
+     {
+      "antwort": "Jemand hat das Fenster geöffnet.",
+      "diagnoseId": "zeitform_zwei",
+      "feedback": "Auch hier ist die Zeitstufe verschoben: aus «wird geöffnet» wird «öffnet»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Satz steht ein Zustandspassiv?",
+    "optionen": [
+     "Der Laden ist seit Wochen geschlossen.",
+     "Der Laden wird um sechs geschlossen.",
+     "Der Ladenbesitzer schliesst um sechs.",
+     "Der Laden schliesst um sechs."
+    ],
+    "loesung": [
+     "Der Laden ist seit Wochen geschlossen."
+    ],
+    "erklaerung": "«ist geschlossen» beschreibt einen Zustand; «wird geschlossen» wäre der Vorgang.",
+    "fehler": [
+     {
+      "antwort": "Der Laden wird um sechs geschlossen.",
+      "diagnoseId": "vorgangspassiv",
+      "feedback": "Das ist das Vorgangspassiv mit «werden»."
+     },
+     {
+      "antwort": "Der Ladenbesitzer schliesst um sechs.",
+      "diagnoseId": "aktiv",
+      "feedback": "Das ist ein Aktivsatz mit handelnder Person."
+     },
+     {
+      "antwort": "Der Laden schliesst um sechs.",
+      "diagnoseId": "aktiv_zwei",
+      "feedback": "Auch das ist Aktiv, obwohl niemand genannt wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Futur I:\n\nIch gehe wieder ans Fenster.",
+    "optionen": [
+     "Ich werde wieder ans Fenster gehen.",
+     "Ich würde wieder ans Fenster gehen.",
+     "Ich bin wieder ans Fenster gegangen.",
+     "Ich ging wieder ans Fenster."
+    ],
+    "loesung": [
+     "Ich werde wieder ans Fenster gehen."
+    ],
+    "erklaerung": "Futur I: «werden» in der Personalform plus Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "Ich würde wieder ans Fenster gehen.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«würde» ist Konjunktiv II und drückt eine Möglichkeit aus."
+     },
+     {
+      "antwort": "Ich bin wieder ans Fenster gegangen.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt und liegt in der Vergangenheit."
+     },
+     {
+      "antwort": "Ich ging wieder ans Fenster.",
+      "diagnoseId": "praeteritum",
+      "feedback": "Das ist das Präteritum, die einfache Vergangenheitsform."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Personalform steht in diesem Satz?\n\nSie wollte die Hand nicht heben.",
+    "optionen": [
+     "wollte",
+     "heben",
+     "Hand",
+     "nicht"
+    ],
+    "loesung": [
+     "wollte"
+    ],
+    "erklaerung": "«wollte» ist gebeugt und richtet sich nach «sie»; «heben» ist der Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "heben",
+      "diagnoseId": "infinitiv",
+      "feedback": "«Heben» ist die Grundform und richtet sich nicht nach der Person."
+     },
+     {
+      "antwort": "Hand",
+      "diagnoseId": "nomen",
+      "feedback": "«Hand» ist ein Nomen und keine Verbform."
+     },
+     {
+      "antwort": "nicht",
+      "diagnoseId": "adverb",
+      "feedback": "«Nicht» ist ein Adverb der Verneinung und lässt sich nicht beugen."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze ins Plusquamperfekt:\n\nSie wartete drei Wochen.",
+    "optionen": [
+     "Sie hatte drei Wochen gewartet.",
+     "Sie hat drei Wochen gewartet.",
+     "Sie war drei Wochen gewartet.",
+     "Sie würde drei Wochen warten."
+    ],
+    "loesung": [
+     "Sie hatte drei Wochen gewartet."
+    ],
+    "erklaerung": "Plusquamperfekt: Hilfsverb «haben» im Präteritum plus Partizip II.",
+    "fehler": [
+     {
+      "antwort": "Sie hat drei Wochen gewartet.",
+      "diagnoseId": "perfekt",
+      "feedback": "Das ist das Perfekt; das Hilfsverb steht im Präsens."
+     },
+     {
+      "antwort": "Sie war drei Wochen gewartet.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«warten» bildet die zusammengesetzten Zeiten mit «haben»."
+     },
+     {
+      "antwort": "Sie würde drei Wochen warten.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "Das ist der Konjunktiv II und drückt eine Möglichkeit aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz enthält einen Imperativ?",
+    "optionen": [
+     "Schau nicht immer hinüber!",
+     "Schaust du hinüber?",
+     "Sie schaute hinüber.",
+     "Es wurde hinübergeschaut."
+    ],
+    "loesung": [
+     "Schau nicht immer hinüber!"
+    ],
+    "erklaerung": "Der Imperativ ist die Aufforderungsform und kommt ohne Subjekt aus.",
+    "fehler": [
+     {
+      "antwort": "Schaust du hinüber?",
+      "diagnoseId": "frage",
+      "feedback": "Das ist eine Frage im Indikativ, mit dem Subjekt «du»."
+     },
+     {
+      "antwort": "Sie schaute hinüber.",
+      "diagnoseId": "aussage",
+      "feedback": "Das ist eine Aussage im Präteritum, keine Aufforderung."
+     },
+     {
+      "antwort": "Es wurde hinübergeschaut.",
+      "diagnoseId": "passiv",
+      "feedback": "Das ist ein unpersönliches Passiv ohne handelnde Person."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeitformen, Passiv und Verbformen",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-spr-verb-modus",
+  "lernzielId": "DSAG.2.03",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Der Konjunktiv I kennzeichnet eine fremde Aussage.",
+   "Fällt er mit dem Indikativ zusammen, weicht man auf den Konjunktiv II aus.",
+   "Der Konjunktiv II beschreibt Bedingungen und Wünsche, die nicht erfüllt sind."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob eine Rede wiedergegeben oder etwas Gedachtes beschrieben wird.",
+   "Den passenden Konjunktiv wählen.",
+   "Auf die Unterscheidbarkeit vom Indikativ achten.",
+   "Die Form laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nEr sagt: «Ich fahre morgen.» — Er sagt, er ______ morgen.",
+    "optionen": [
+     "fahre",
+     "fährt",
+     "führe",
+     "fuhr"
+    ],
+    "loesung": [
+     "fahre"
+    ],
+    "erklaerung": "Der Konjunktiv I lautet «fahre» und weicht deutlich vom Indikativ «fährt» ab.",
+    "fehler": [
+     {
+      "antwort": "fährt",
+      "diagnoseId": "indikativ",
+      "feedback": "«fährt» ist der Indikativ und gibt die Aussage als eigene wieder."
+     },
+     {
+      "antwort": "führe",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II kommt erst zum Zug, wenn der Konjunktiv I gleich aussieht wie der Indikativ."
+     },
+     {
+      "antwort": "fuhr",
+      "diagnoseId": "zeit",
+      "feedback": "«fuhr» ist das Präteritum im Indikativ. Richtig ist «fahre»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nSie sagen: «Wir kommen später.» — Sie sagen, sie ______ später.",
+    "optionen": [
+     "kämen",
+     "kommen",
+     "kamen",
+     "komme"
+    ],
+    "loesung": [
+     "kämen"
+    ],
+    "erklaerung": "In der Mehrzahl sieht der Konjunktiv I «kommen» gleich aus wie der Indikativ; darum «kämen».",
+    "fehler": [
+     {
+      "antwort": "kommen",
+      "diagnoseId": "gleich_wie_indikativ",
+      "feedback": "Diese Form ist zugleich der Indikativ; die Rede wäre nicht erkennbar."
+     },
+     {
+      "antwort": "kamen",
+      "diagnoseId": "indikativ",
+      "feedback": "«kamen» ist der Indikativ des Präteritums."
+     },
+     {
+      "antwort": "komme",
+      "diagnoseId": "zahl",
+      "feedback": "«komme» steht in der Einzahl; hier sprechen mehrere."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nSie sagt: «Ich habe Zeit.» — Sie sagt, sie ______ Zeit.",
+    "optionen": [
+     "habe",
+     "hat",
+     "hätte",
+     "hatte"
+    ],
+    "loesung": [
+     "habe"
+    ],
+    "erklaerung": "Der Konjunktiv I lautet «habe» und unterscheidet sich vom Indikativ «hat».",
+    "fehler": [
+     {
+      "antwort": "hat",
+      "diagnoseId": "indikativ",
+      "feedback": "«hat» ist der Indikativ. Richtig ist «habe»."
+     },
+     {
+      "antwort": "hätte",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II wird erst nötig, wenn der Konjunktiv I zusammenfällt."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "zeit",
+      "feedback": "«hatte» ist der Indikativ des Präteritums."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form gehört in die indirekte Rede?\n\nEr behauptet: «Ich bin unschuldig.» — Er behauptet, er ______ unschuldig.",
+    "optionen": [
+     "sei",
+     "ist",
+     "wäre",
+     "war"
+    ],
+    "loesung": [
+     "sei"
+    ],
+    "erklaerung": "Der Konjunktiv I von «sein» lautet «sei».",
+    "fehler": [
+     {
+      "antwort": "ist",
+      "diagnoseId": "indikativ",
+      "feedback": "«ist» ist der Indikativ. Richtig ist «sei»."
+     },
+     {
+      "antwort": "wäre",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II drückte Zweifel aus; hier wird nur wiedergegeben."
+     },
+     {
+      "antwort": "war",
+      "diagnoseId": "zeit",
+      "feedback": "«war» ist der Indikativ des Präteritums."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nWenn ich mehr Zeit ______ , würde ich mitkommen.",
+    "optionen": [
+     "hätte",
+     "habe",
+     "hatte",
+     "haben würde"
+    ],
+    "loesung": [
+     "hätte"
+    ],
+    "erklaerung": "Im Bedingungssatz steht der Konjunktiv II: hätte.",
+    "fehler": [
+     {
+      "antwort": "habe",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ stellte fest, dass es so ist; hier ist es gerade nicht so."
+     },
+     {
+      "antwort": "hatte",
+      "diagnoseId": "zeit",
+      "feedback": "«hatte» ist der Indikativ des Präteritums."
+     },
+     {
+      "antwort": "haben würde",
+      "diagnoseId": "stil",
+      "feedback": "Die Umschreibung mit «würde» steht nicht im Nebensatz mit «wenn»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nWenn der Nebel ______ , sähen wir den Jura.",
+    "optionen": [
+     "stiege",
+     "steigt",
+     "stieg",
+     "steigen würde"
+    ],
+    "loesung": [
+     "stiege"
+    ],
+    "erklaerung": "Der Konjunktiv II von «steigen» lautet «stiege» und beschreibt etwas Gedachtes.",
+    "fehler": [
+     {
+      "antwort": "steigt",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ hiesse, dass der Nebel tatsächlich steigt."
+     },
+     {
+      "antwort": "stieg",
+      "diagnoseId": "zeit",
+      "feedback": "«stieg» ist der Indikativ des Präteritums."
+     },
+     {
+      "antwort": "steigen würde",
+      "diagnoseId": "stil",
+      "feedback": "Im Nebensatz mit «wenn» steht die einfache Form, nicht die Umschreibung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was drückt der Konjunktiv in diesem Satz aus?\n\nIch wünschte, es wäre schon Freitag.",
+    "optionen": [
+     "einen Wunsch, der nicht erfüllt ist",
+     "eine fremde Aussage",
+     "einen Befehl",
+     "eine Tatsache"
+    ],
+    "loesung": [
+     "einen Wunsch, der nicht erfüllt ist"
+    ],
+    "erklaerung": "Der Konjunktiv II beschreibt hier einen Wunsch, der der Wirklichkeit widerspricht.",
+    "fehler": [
+     {
+      "antwort": "eine fremde Aussage",
+      "diagnoseId": "modus",
+      "feedback": "Dafür stünde der Konjunktiv I. Richtig ist «einen Wunsch, der nicht erfüllt ist»."
+     },
+     {
+      "antwort": "einen Befehl",
+      "diagnoseId": "modus",
+      "feedback": "Ein Befehl stünde im Imperativ. Richtig ist «einen Wunsch, der nicht erfüllt ist»."
+     },
+     {
+      "antwort": "eine Tatsache",
+      "diagnoseId": "modus",
+      "feedback": "Tatsachen stehen im Indikativ. Richtig ist «einen Wunsch, der nicht erfüllt ist»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Modus steht das Verb?\n\nMan nehme zwei Eier und etwas Mehl.",
+    "optionen": [
+     "Konjunktiv I",
+     "Imperativ",
+     "Indikativ",
+     "Konjunktiv II"
+    ],
+    "loesung": [
+     "Konjunktiv I"
+    ],
+    "erklaerung": "In Rezepten und Anleitungen steht der Konjunktiv I als höfliche Aufforderung.",
+    "fehler": [
+     {
+      "antwort": "Imperativ",
+      "diagnoseId": "modus",
+      "feedback": "Der Imperativ hiesse «Nimm zwei Eier». Richtig ist «Konjunktiv I»."
+     },
+     {
+      "antwort": "Indikativ",
+      "diagnoseId": "modus",
+      "feedback": "Der Indikativ hiesse «man nimmt». Richtig ist «Konjunktiv I»."
+     },
+     {
+      "antwort": "Konjunktiv II",
+      "diagnoseId": "modus",
+      "feedback": "Der Konjunktiv II hiesse «man nähme». Richtig ist «Konjunktiv I»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist der Konjunktiv II von «gehen»?",
+    "optionen": [
+     "ginge",
+     "gehe",
+     "ging",
+     "gegangen"
+    ],
+    "loesung": [
+     "ginge"
+    ],
+    "erklaerung": "Der Konjunktiv II wird vom Präteritum abgeleitet: ging wird zu ginge.",
+    "fehler": [
+     {
+      "antwort": "gehe",
+      "diagnoseId": "modus",
+      "feedback": "«gehe» ist der Konjunktiv I. Richtig ist «ginge»."
+     },
+     {
+      "antwort": "ging",
+      "diagnoseId": "modus",
+      "feedback": "«ging» ist der Indikativ des Präteritums."
+     },
+     {
+      "antwort": "gegangen",
+      "diagnoseId": "form",
+      "feedback": "«gegangen» ist das Partizip. Richtig ist «ginge»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form ist der Konjunktiv I von «werden»?",
+    "optionen": [
+     "werde",
+     "würde",
+     "wurde",
+     "wird"
+    ],
+    "loesung": [
+     "werde"
+    ],
+    "erklaerung": "Der Konjunktiv I lautet «werde», der Konjunktiv II «würde».",
+    "fehler": [
+     {
+      "antwort": "würde",
+      "diagnoseId": "modus",
+      "feedback": "«würde» ist der Konjunktiv II. Richtig ist «werde»."
+     },
+     {
+      "antwort": "wurde",
+      "diagnoseId": "zeit",
+      "feedback": "«wurde» ist der Indikativ des Präteritums."
+     },
+     {
+      "antwort": "wird",
+      "diagnoseId": "modus",
+      "feedback": "«wird» ist der Indikativ des Präsens. Richtig ist «werde»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz gibt «Ich komme nicht mit» richtig indirekt wieder?",
+    "optionen": [
+     "Er sagt, er komme nicht mit",
+     "Er sagt, er kommt nicht mit",
+     "Er sagt, er käme nicht mit",
+     "Er sagt, er kam nicht mit"
+    ],
+    "loesung": [
+     "Er sagt, er komme nicht mit"
+    ],
+    "erklaerung": "Der Konjunktiv I «komme» weicht deutlich vom Indikativ «kommt» ab und ist darum die richtige Wahl.",
+    "fehler": [
+     {
+      "antwort": "Er sagt, er kommt nicht mit",
+      "diagnoseId": "indikativ",
+      "feedback": "«kommt» ist der Indikativ. Richtig ist «Er sagt, er komme nicht mit»."
+     },
+     {
+      "antwort": "Er sagt, er käme nicht mit",
+      "diagnoseId": "konjunktiv2",
+      "feedback": "Der Konjunktiv II käme erst zum Zug, wenn der Konjunktiv I zusammenfiele."
+     },
+     {
+      "antwort": "Er sagt, er kam nicht mit",
+      "diagnoseId": "zeit",
+      "feedback": "«kam» ist der Indikativ des Präteritums."
+     }
+    ]
+   },
+   {
+    "stamm": "Wann weicht man auf den Konjunktiv II aus?",
+    "optionen": [
+     "Wenn der Konjunktiv I gleich aussieht wie der Indikativ",
+     "Immer in der Mehrzahl",
+     "Immer bei starken Verben",
+     "Nie"
+    ],
+    "loesung": [
+     "Wenn der Konjunktiv I gleich aussieht wie der Indikativ"
+    ],
+    "erklaerung": "Nur dann, wenn die Form sonst nicht als indirekte Rede erkennbar wäre.",
+    "fehler": [
+     {
+      "antwort": "Immer in der Mehrzahl",
+      "diagnoseId": "regel",
+      "feedback": "Auch in der Mehrzahl gilt zuerst der Konjunktiv I — er fällt dort nur oft zusammen."
+     },
+     {
+      "antwort": "Immer bei starken Verben",
+      "diagnoseId": "regel",
+      "feedback": "Ob ein Verb stark ist, spielt keine Rolle."
+     },
+     {
+      "antwort": "Nie",
+      "diagnoseId": "regel",
+      "feedback": "Ohne diese Ausweichform wäre die indirekte Rede oft nicht erkennbar."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Konjunktiv I und II",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-spr-satzbau",
+  "lernzielId": "DSAG.3.02",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03",
+   "3.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Satzglied lässt sich als Ganzes an den Satzanfang verschieben.",
+   "Im Nebensatz steht das Verb am Ende.",
+   "Die Art des Nebensatzes erkennst du an der Konjunktion."
+  ],
+  "loesungsweg": [
+   "Das Verb suchen.",
+   "Mit der Verschiebeprobe die Glieder abgrenzen.",
+   "Haupt- und Nebensatz unterscheiden.",
+   "Die Art des Nebensatzes an der Konjunktion ablesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nGestern reparierte der Nachbar das Velo.",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Gestern», «reparierte», «der Nachbar» und «das Velo» — vier Glieder, jedes verschiebbar.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "verzaehlt",
+      "feedback": "Auch die Zeitangabe «gestern» ist ein eigenes Satzglied."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "artikel",
+      "feedback": "Artikel und Nomen bilden zusammen ein Glied."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "wortzahl",
+      "feedback": "Gezählt werden Satzglieder, nicht Wörter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe grenzt ein Satzglied ab?",
+    "optionen": [
+     "die Verschiebeprobe",
+     "die Steigerungsprobe",
+     "die Artikelprobe",
+     "die Silbenprobe"
+    ],
+    "loesung": [
+     "die Verschiebeprobe"
+    ],
+    "erklaerung": "Was gemeinsam an den Satzanfang wandert, ist ein Satzglied.",
+    "fehler": [
+     {
+      "antwort": "die Steigerungsprobe",
+      "diagnoseId": "probe",
+      "feedback": "Die Steigerungsprobe erkennt Adjektive, nicht Satzglieder."
+     },
+     {
+      "antwort": "die Artikelprobe",
+      "diagnoseId": "probe",
+      "feedback": "Die Artikelprobe erkennt Nomen. Richtig ist «die Verschiebeprobe»."
+     },
+     {
+      "antwort": "die Silbenprobe",
+      "diagnoseId": "probe",
+      "feedback": "Silben haben mit Satzgliedern nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «dem Nachbarn»?\n\nSie half dem Nachbarn beim Umzug.",
+    "optionen": [
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt",
+     "adverbiale Bestimmung"
+    ],
+    "loesung": [
+     "Dativobjekt"
+    ],
+    "erklaerung": "«helfen» verlangt den Dativ: Wem half sie?",
+    "fehler": [
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "verb_fall",
+      "feedback": "«helfen» steht mit dem Dativ, nicht mit dem Akkusativ."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «sie». Richtig ist «Dativobjekt»."
+     },
+     {
+      "antwort": "adverbiale Bestimmung",
+      "diagnoseId": "glied",
+      "feedback": "Die adverbiale Bestimmung ist «beim Umzug»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «beim Umzug»?\n\nSie half dem Nachbarn beim Umzug.",
+    "optionen": [
+     "adverbiale Bestimmung",
+     "Dativobjekt",
+     "Akkusativobjekt",
+     "Subjekt"
+    ],
+    "loesung": [
+     "adverbiale Bestimmung"
+    ],
+    "erklaerung": "«beim Umzug» antwortet auf «wann?» oder «wobei?» — eine adverbiale Bestimmung.",
+    "fehler": [
+     {
+      "antwort": "Dativobjekt",
+      "diagnoseId": "glied",
+      "feedback": "Das Dativobjekt ist «dem Nachbarn». Richtig ist «adverbiale Bestimmung»."
+     },
+     {
+      "antwort": "Akkusativobjekt",
+      "diagnoseId": "glied",
+      "feedback": "Ein Akkusativobjekt hat dieser Satz nicht."
+     },
+     {
+      "antwort": "Subjekt",
+      "diagnoseId": "subjekt_objekt",
+      "feedback": "Das Subjekt ist «sie». Richtig ist «adverbiale Bestimmung»."
+     }
+    ]
+   },
+   {
+    "stamm": "Handelt es sich um einen Hauptsatz oder um einen Nebensatz?\n\nweil der Zug Verspätung hatte",
+    "optionen": [
+     "Nebensatz",
+     "Hauptsatz"
+    ],
+    "loesung": [
+     "Nebensatz"
+    ],
+    "erklaerung": "«weil» leitet ein, und das Verb «hatte» steht am Ende.",
+    "fehler": [
+     {
+      "antwort": "Hauptsatz",
+      "diagnoseId": "verbstellung",
+      "feedback": "Im Hauptsatz stünde das Verb an zweiter Stelle."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Teil ist der Hauptsatz?\n\nAls es dunkel wurde, kehrten wir um.",
+    "optionen": [
+     "kehrten wir um",
+     "Als es dunkel wurde",
+     "es dunkel",
+     "wir um"
+    ],
+    "loesung": [
+     "kehrten wir um"
+    ],
+    "erklaerung": "Im Hauptsatz steht das Verb an zweiter Stelle: «kehrten».",
+    "fehler": [
+     {
+      "antwort": "Als es dunkel wurde",
+      "diagnoseId": "verbstellung",
+      "feedback": "Dort steht das Verb am Ende; das ist der Nebensatz."
+     },
+     {
+      "antwort": "es dunkel",
+      "diagnoseId": "satzteil",
+      "feedback": "Das ist kein ganzer Satz. Richtig ist «kehrten wir um»."
+     },
+     {
+      "antwort": "wir um",
+      "diagnoseId": "satzteil",
+      "feedback": "«um» gehört zum Verb «umkehren». Richtig ist «kehrten wir um»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nWir warteten, bis der Regen aufhörte.",
+    "optionen": [
+     "ein Nebensatz der Zeit",
+     "ein Nebensatz des Grundes",
+     "ein Nebensatz der Bedingung",
+     "ein Nebensatz des Gegensatzes"
+    ],
+    "loesung": [
+     "ein Nebensatz der Zeit"
+    ],
+    "erklaerung": "«bis» sagt, wie lange gewartet wurde.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz des Grundes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Grund nennte «weil» oder «da». Richtig ist «ein Nebensatz der Zeit»."
+     },
+     {
+      "antwort": "ein Nebensatz der Bedingung",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Bedingung leitete «wenn» oder «falls» ein."
+     },
+     {
+      "antwort": "ein Nebensatz des Gegensatzes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Gegensatz leitete «obwohl» ein. Richtig ist «ein Nebensatz der Zeit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nFalls es regnet, bleiben wir zu Hause.",
+    "optionen": [
+     "ein Nebensatz der Bedingung",
+     "ein Nebensatz der Zeit",
+     "ein Nebensatz der Folge",
+     "ein Nebensatz des Grundes"
+    ],
+    "loesung": [
+     "ein Nebensatz der Bedingung"
+    ],
+    "erklaerung": "«falls» nennt die Bedingung, unter der etwas gilt.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz der Zeit",
+      "diagnoseId": "konjunktion",
+      "feedback": "Die Zeit bestimmten «als», «während» oder «bis»."
+     },
+     {
+      "antwort": "ein Nebensatz der Folge",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Folge leitete «sodass» ein. Richtig ist «ein Nebensatz der Bedingung»."
+     },
+     {
+      "antwort": "ein Nebensatz des Grundes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Grund nennte «weil». Richtig ist «ein Nebensatz der Bedingung»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nEs regnete so stark, dass wir umkehrten.",
+    "optionen": [
+     "ein Nebensatz der Folge",
+     "ein Nebensatz des Grundes",
+     "ein Nebensatz der Zeit",
+     "ein Nebensatz der Absicht"
+    ],
+    "loesung": [
+     "ein Nebensatz der Folge"
+    ],
+    "erklaerung": "«so … dass» nennt die Folge des Hauptsatzes.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz des Grundes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Der Grund stünde mit «weil» und käme vor der Wirkung."
+     },
+     {
+      "antwort": "ein Nebensatz der Zeit",
+      "diagnoseId": "konjunktion",
+      "feedback": "Die Zeit bestimmten «als» oder «während»."
+     },
+     {
+      "antwort": "ein Nebensatz der Absicht",
+      "diagnoseId": "konjunktion",
+      "feedback": "Die Absicht leitete «damit» oder «um … zu» ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nWir gingen früher los, damit wir den Bus erreichten.",
+    "optionen": [
+     "ein Nebensatz der Absicht",
+     "ein Nebensatz der Folge",
+     "ein Nebensatz der Bedingung",
+     "ein Nebensatz des Gegensatzes"
+    ],
+    "loesung": [
+     "ein Nebensatz der Absicht"
+    ],
+    "erklaerung": "«damit» nennt die Absicht, das Ziel des Handelns.",
+    "fehler": [
+     {
+      "antwort": "ein Nebensatz der Folge",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Folge leitete «sodass» ein und wäre ungewollt."
+     },
+     {
+      "antwort": "ein Nebensatz der Bedingung",
+      "diagnoseId": "konjunktion",
+      "feedback": "Eine Bedingung leitete «wenn» oder «falls» ein."
+     },
+     {
+      "antwort": "ein Nebensatz des Gegensatzes",
+      "diagnoseId": "konjunktion",
+      "feedback": "Einen Gegensatz leitete «obwohl» ein. Richtig ist «ein Nebensatz der Absicht»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz enthält einen Relativsatz?",
+    "optionen": [
+     "Der Zug, der um acht fährt, ist voll.",
+     "Der Zug fährt um acht, weil er Verspätung hat.",
+     "Wenn der Zug kommt, steigen wir ein.",
+     "Der Zug fährt, und wir steigen ein."
+    ],
+    "loesung": [
+     "Der Zug, der um acht fährt, ist voll."
+    ],
+    "erklaerung": "Ein Relativsatz beschreibt ein Nomen näher und wird von einem Relativpronomen eingeleitet.",
+    "fehler": [
+     {
+      "antwort": "Der Zug fährt um acht, weil er Verspätung hat.",
+      "diagnoseId": "art",
+      "feedback": "«weil» leitet einen Nebensatz des Grundes ein."
+     },
+     {
+      "antwort": "Wenn der Zug kommt, steigen wir ein.",
+      "diagnoseId": "art",
+      "feedback": "«wenn» leitet einen Bedingungssatz ein. Richtig ist «Der Zug, der um acht fährt, ist voll.»."
+     },
+     {
+      "antwort": "Der Zug fährt, und wir steigen ein.",
+      "diagnoseId": "art",
+      "feedback": "«und» verbindet zwei Hauptsätze. Richtig ist «Der Zug, der um acht fährt, ist voll.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo steht in diesem Satzgefüge das Prädikat des Nebensatzes?\n\nWeil der Bus ausfiel, gingen wir zu Fuss.",
+    "optionen": [
+     "ausfiel",
+     "gingen",
+     "Weil",
+     "zu Fuss"
+    ],
+    "loesung": [
+     "ausfiel"
+    ],
+    "erklaerung": "Im Nebensatz rutscht das Prädikat ans Ende: «ausfiel».",
+    "fehler": [
+     {
+      "antwort": "gingen",
+      "diagnoseId": "satzteil",
+      "feedback": "«gingen» ist das Prädikat des Hauptsatzes."
+     },
+     {
+      "antwort": "Weil",
+      "diagnoseId": "wortart",
+      "feedback": "«Weil» ist eine Konjunktion; ein Prädikat ist immer ein Verb."
+     },
+     {
+      "antwort": "zu Fuss",
+      "diagnoseId": "glied",
+      "feedback": "«zu Fuss» ist eine adverbiale Bestimmung."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Satzglieder, Haupt- und Nebensätze",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-spr-satz-rechtschreibung",
+  "lernzielId": "DSAG.3.01",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "3.05",
+   "4.01",
+   "4.02",
+   "4.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Satzglied lässt sich als Ganzes verschieben.",
+   "Zwischen Haupt- und Nebensatz steht immer ein Komma.",
+   "«dass» leitet einen Nebensatz ein, «das» steht für ein Nomen."
+  ],
+  "loesungsweg": [
+   "Das gebeugte Verb suchen.",
+   "Die Verschiebeprobe machen.",
+   "Bei «das/dass» die Ersatzprobe mit «dieses» versuchen.",
+   "Den fertigen Satz noch einmal lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Satzglied ist «jeden Morgen»?\n\nJeden Morgen stand sie am Fenster.",
+    "optionen": [
+     "eine adverbiale Bestimmung der Zeit",
+     "das Subjekt",
+     "ein Akkusativobjekt",
+     "ein Dativobjekt"
+    ],
+    "loesung": [
+     "eine adverbiale Bestimmung der Zeit"
+    ],
+    "erklaerung": "«Jeden Morgen» antwortet auf «wann?» — trotz Akkusativform ist es eine Zeitangabe.",
+    "fehler": [
+     {
+      "antwort": "das Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie»: Wer stand am Fenster?"
+     },
+     {
+      "antwort": "ein Akkusativobjekt",
+      "diagnoseId": "form",
+      "feedback": "Die Form sieht nach Akkusativ aus, aber die Frage lautet «wann?», nicht «wen oder was?»."
+     },
+     {
+      "antwort": "ein Dativobjekt",
+      "diagnoseId": "dativ",
+      "feedback": "Ein Dativobjekt antwortete auf «wem?», nicht auf «wann?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Art von Nebensatz liegt vor?\n\nWeil sie fehlte, wurde ich unruhig.",
+    "optionen": [
+     "ein Kausalsatz",
+     "ein Temporalsatz",
+     "ein Konditionalsatz",
+     "ein Konzessivsatz"
+    ],
+    "loesung": [
+     "ein Kausalsatz"
+    ],
+    "erklaerung": "«Weil» nennt den Grund — das ist ein Kausalsatz.",
+    "fehler": [
+     {
+      "antwort": "ein Temporalsatz",
+      "diagnoseId": "zeit",
+      "feedback": "Ein Temporalsatz beginnt mit «als», «während» oder «nachdem»."
+     },
+     {
+      "antwort": "ein Konditionalsatz",
+      "diagnoseId": "bedingung",
+      "feedback": "Ein Konditionalsatz beginnt mit «wenn» oder «falls»."
+     },
+     {
+      "antwort": "ein Konzessivsatz",
+      "diagnoseId": "gegensatz",
+      "feedback": "Ein Konzessivsatz beginnt mit «obwohl» und nennt einen Gegensatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (das oder dass)",
+    "optionen": [
+     "Ich weiss, dass das Fenster offen ist.",
+     "Ich weiss, das dass Fenster offen ist.",
+     "Ich weiss dass, das Fenster offen ist.",
+     "Ich weiss, das das Fenster offen ist."
+    ],
+    "loesung": [
+     "Ich weiss, dass das Fenster offen ist."
+    ],
+    "erklaerung": "«dass» leitet den Nebensatz ein, «das» ist der Artikel vor «Fenster». Das Komma steht vor dem Nebensatz.",
+    "fehler": [
+     {
+      "antwort": "Ich weiss, das dass Fenster offen ist.",
+      "diagnoseId": "vertauscht",
+      "feedback": "Vor «Fenster» steht der Artikel «das»; eingeleitet wird der Nebensatz mit «dass»."
+     },
+     {
+      "antwort": "Ich weiss dass, das Fenster offen ist.",
+      "diagnoseId": "komma",
+      "feedback": "Das Komma steht VOR der Konjunktion, nicht dahinter."
+     },
+     {
+      "antwort": "Ich weiss, das das Fenster offen ist.",
+      "diagnoseId": "zweimal_das",
+      "feedback": "Das erste Wort leitet den Nebensatz ein und heisst «dass» — mit Doppel-s."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo gehört ein Komma hin?\n\nSie stand am Fenster und schaute hinunter während der Kaffee kalt wurde.",
+    "optionen": [
+     "vor «während»",
+     "vor «und»",
+     "nach «Fenster»",
+     "nach «Kaffee»"
+    ],
+    "loesung": [
+     "vor «während»"
+    ],
+    "erklaerung": "«Während der Kaffee kalt wurde» ist ein Nebensatz; davor steht ein Komma. Vor «und» steht keines, weil es zwei Verbgruppen mit demselben Subjekt verbindet.",
+    "fehler": [
+     {
+      "antwort": "vor «und»",
+      "diagnoseId": "reihung",
+      "feedback": "Zwischen zwei Verbgruppen mit demselben Subjekt steht kein Komma."
+     },
+     {
+      "antwort": "nach «Fenster»",
+      "diagnoseId": "mitten",
+      "feedback": "Dort endet kein Satzteil; «und schaute hinunter» gehört noch zum Hauptsatz."
+     },
+     {
+      "antwort": "nach «Kaffee»",
+      "diagnoseId": "mitten_im_nebensatz",
+      "feedback": "Das würde den Nebensatz auseinanderreissen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz ist richtig geschrieben?  (Nominalisierung)",
+    "optionen": [
+     "Das Beobachten fiel ihr immer leichter.",
+     "Das beobachten fiel ihr immer leichter.",
+     "Das Beobachten fiel ihr immer Leichter.",
+     "das Beobachten fiel ihr immer leichter."
+    ],
+    "loesung": [
+     "Das Beobachten fiel ihr immer leichter."
+    ],
+    "erklaerung": "Nach dem Artikel «das» ist der Infinitiv nominalisiert und wird grossgeschrieben; «leichter» bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Das beobachten fiel ihr immer leichter.",
+      "diagnoseId": "nicht_erkannt",
+      "feedback": "Der Artikel «das» zeigt an, dass «Beobachten» hier ein Nomen ist."
+     },
+     {
+      "antwort": "Das Beobachten fiel ihr immer Leichter.",
+      "diagnoseId": "adjektiv_gross",
+      "feedback": "«leichter» ist ein gesteigertes Adjektiv und bleibt klein."
+     },
+     {
+      "antwort": "das Beobachten fiel ihr immer leichter.",
+      "diagnoseId": "satzanfang",
+      "feedback": "Am Satzanfang wird grossgeschrieben, unabhängig von der Wortart."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (zwei Verben)",
+    "optionen": [
+     "Sie ist stehen geblieben.",
+     "Sie ist stehengeblieben.",
+     "Sie ist Stehen geblieben.",
+     "Sie ist stehen Geblieben."
+    ],
+    "loesung": [
+     "Sie ist stehen geblieben."
+    ],
+    "erklaerung": "Zwei Verben werden getrennt geschrieben: stehen geblieben.",
+    "fehler": [
+     {
+      "antwort": "Sie ist stehengeblieben.",
+      "diagnoseId": "zusammen",
+      "feedback": "Nach der geltenden Rechtschreibung stehen die beiden Verben getrennt."
+     },
+     {
+      "antwort": "Sie ist Stehen geblieben.",
+      "diagnoseId": "gross",
+      "feedback": "«stehen» ist hier ein Verb und bleibt klein."
+     },
+     {
+      "antwort": "Sie ist stehen Geblieben.",
+      "diagnoseId": "gross_zwei",
+      "feedback": "Auch «geblieben» ist eine Verbform und bleibt klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Satzglied ist «ihrer Nachbarin»?\n\nSie winkte ihrer Nachbarin.",
+    "optionen": [
+     "ein Dativobjekt",
+     "ein Akkusativobjekt",
+     "ein Genitivobjekt",
+     "das Subjekt"
+    ],
+    "loesung": [
+     "ein Dativobjekt"
+    ],
+    "erklaerung": "«winken» verlangt den Dativ: Wem winkte sie? Ihrer Nachbarin.",
+    "fehler": [
+     {
+      "antwort": "ein Akkusativobjekt",
+      "diagnoseId": "akkusativ",
+      "feedback": "Der Akkusativ antwortete auf «wen oder was?». «Winken» verlangt aber den Dativ."
+     },
+     {
+      "antwort": "ein Genitivobjekt",
+      "diagnoseId": "genitiv",
+      "feedback": "Ein Genitivobjekt käme etwa bei «gedenken» vor."
+     },
+     {
+      "antwort": "das Subjekt",
+      "diagnoseId": "nominativ",
+      "feedback": "Das Subjekt ist «sie» und antwortet auf die Frage «wer winkte?»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Satzglieder hat dieser Satz?\n\nIm Mai hob die Frau die Hand.",
+    "optionen": [
+     "vier",
+     "drei",
+     "fünf",
+     "sechs"
+    ],
+    "loesung": [
+     "vier"
+    ],
+    "erklaerung": "«Im Mai» / «hob» / «die Frau» / «die Hand» — vier Glieder, das Verb mitgezählt.",
+    "fehler": [
+     {
+      "antwort": "drei",
+      "diagnoseId": "verb_vergessen",
+      "feedback": "Das gebeugte Verb ist ein eigenes Satzglied."
+     },
+     {
+      "antwort": "fünf",
+      "diagnoseId": "zu_fein",
+      "feedback": "«Die Frau» und «die Hand» sind je EIN Satzglied: Artikel und Nomen gehören zusammen."
+     },
+     {
+      "antwort": "sechs",
+      "diagnoseId": "wortweise",
+      "feedback": "Gezählt werden Satzglieder, nicht Wörter."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz enthält einen Relativsatz?",
+    "optionen": [
+     "Die Frau, die gegenüber wohnt, fehlte drei Tage.",
+     "Die Frau fehlte, weil sie krank war.",
+     "Als die Frau fehlte, wurde es still.",
+     "Die Frau fehlte drei Tage."
+    ],
+    "loesung": [
+     "Die Frau, die gegenüber wohnt, fehlte drei Tage."
+    ],
+    "erklaerung": "«die gegenüber wohnt» bezieht sich auf das Nomen «Frau» und wird von einem Relativpronomen eingeleitet.",
+    "fehler": [
+     {
+      "antwort": "Die Frau fehlte, weil sie krank war.",
+      "diagnoseId": "kausalsatz",
+      "feedback": "Das ist ein Kausalsatz mit «weil»; er nennt einen Grund."
+     },
+     {
+      "antwort": "Als die Frau fehlte, wurde es still.",
+      "diagnoseId": "temporalsatz",
+      "feedback": "Das ist ein Temporalsatz mit «als»; er ordnet zeitlich ein."
+     },
+     {
+      "antwort": "Die Frau fehlte drei Tage.",
+      "diagnoseId": "einteilig",
+      "feedback": "Das ist ein einteiliger Satz ohne Nebensatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?  (feste Wendung)",
+    "optionen": [
+     "Sie hat sich das zu Herzen genommen.",
+     "Sie hat sich dass zu Herzen genommen.",
+     "Sie hat sich das zu herzen genommen.",
+     "Sie hat sich Das zu Herzen genommen."
+    ],
+    "loesung": [
+     "Sie hat sich das zu Herzen genommen."
+    ],
+    "erklaerung": "«das» ersetzt hier ein Nomen und wird mit einem s geschrieben; «Herzen» ist ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "Sie hat sich dass zu Herzen genommen.",
+      "diagnoseId": "dass",
+      "feedback": "«dass» leitet einen Nebensatz ein. Hier steht das Wort für eine Sache und heisst «das»."
+     },
+     {
+      "antwort": "Sie hat sich das zu herzen genommen.",
+      "diagnoseId": "nomen_klein",
+      "feedback": "«Herzen» ist in dieser Wendung ein Nomen und wird grossgeschrieben."
+     },
+     {
+      "antwort": "Sie hat sich Das zu Herzen genommen.",
+      "diagnoseId": "pronomen_gross",
+      "feedback": "Das Pronomen «das» bleibt klein, auch mitten im Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Nebensatz ist ein Konditionalsatz?",
+    "optionen": [
+     "Falls sie morgen wieder dasteht, winke ich.",
+     "Weil sie dastand, winkte ich.",
+     "Nachdem sie gewunken hatte, trat ich zurück.",
+     "Obwohl sie dastand, winkte ich nicht."
+    ],
+    "loesung": [
+     "Falls sie morgen wieder dasteht, winke ich."
+    ],
+    "erklaerung": "«Falls» nennt eine Bedingung — das ist ein Konditionalsatz.",
+    "fehler": [
+     {
+      "antwort": "Weil sie dastand, winkte ich.",
+      "diagnoseId": "kausal",
+      "feedback": "«Weil» nennt einen Grund, keine Bedingung."
+     },
+     {
+      "antwort": "Nachdem sie gewunken hatte, trat ich zurück.",
+      "diagnoseId": "temporal",
+      "feedback": "«Nachdem» ordnet zeitlich ein und nennt keine Bedingung."
+     },
+     {
+      "antwort": "Obwohl sie dastand, winkte ich nicht.",
+      "diagnoseId": "konzessiv",
+      "feedback": "«Obwohl» drückt einen Gegensatz aus, keine Bedingung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo fehlt ein Komma?\n\nIch wusste nicht ob sie mich gesehen hatte.",
+    "optionen": [
+     "vor «ob»",
+     "nach «wusste»",
+     "vor «mich»",
+     "nach «gesehen»"
+    ],
+    "loesung": [
+     "vor «ob»"
+    ],
+    "erklaerung": "«ob sie mich gesehen hatte» ist ein Nebensatz; vor dem einleitenden Wort steht das Komma.",
+    "fehler": [
+     {
+      "antwort": "nach «wusste»",
+      "diagnoseId": "mitten",
+      "feedback": "Dort steht das Verb des Hauptsatzes; der Nebensatz beginnt erst mit «ob»."
+     },
+     {
+      "antwort": "vor «mich»",
+      "diagnoseId": "mitten_im_nebensatz",
+      "feedback": "Das würde den Nebensatz auseinanderreissen."
+     },
+     {
+      "antwort": "nach «gesehen»",
+      "diagnoseId": "vor_verb",
+      "feedback": "Zwischen Partizip und Hilfsverb steht kein Komma."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Kommas, Gross- und Kleinschreibung",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-spr-wortschatz",
+  "lernzielId": "DSAG.4.04",
+  "fach": "sprache-ag",
+  "unterthemen": [
+   "4.04",
+   "4.05",
+   "4.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Wortfamilien zählt der gemeinsame Stamm, nicht der Klang.",
+   "Ein genaues Verb ersetzt zwei blasse Wörter.",
+   "Redewendungen sind bildhaft — die wörtliche Bedeutung führt in die Irre."
+  ],
+  "loesungsweg": [
+   "Das Wort in seine Bausteine zerlegen.",
+   "Bei Synonymen den ganzen Satz einsetzen.",
+   "Bei Redewendungen nach dem Bild dahinter fragen.",
+   "Die Antwort im Satz gegenlesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort gehört NICHT zur Wortfamilie von «sehen»?",
+    "optionen": [
+     "Seil",
+     "Ansicht",
+     "Sicht",
+     "Aussehen"
+    ],
+    "loesung": [
+     "Seil"
+    ],
+    "erklaerung": "«Seil» klingt ähnlich, hat aber einen anderen Stamm. Ansicht, Sicht und Aussehen gehören zu «sehen».",
+    "fehler": [
+     {
+      "antwort": "Ansicht",
+      "diagnoseId": "stamm",
+      "feedback": "«Ansicht» enthält den Stamm «sicht», der zu «sehen» gehört."
+     },
+     {
+      "antwort": "Sicht",
+      "diagnoseId": "stamm_zwei",
+      "feedback": "«Sicht» ist die Grundform desselben Stammes."
+     },
+     {
+      "antwort": "Aussehen",
+      "diagnoseId": "stamm_drei",
+      "feedback": "«Aussehen» enthält «sehen» unverändert und gehört zur Familie."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ist am genauesten?\n\nSie ______ die Tasse auf den Fenstersims.",
+    "optionen": [
+     "stellte",
+     "machte",
+     "tat",
+     "gab"
+    ],
+    "loesung": [
+     "stellte"
+    ],
+    "erklaerung": "«Stellen» sagt, wie der Gegenstand steht. «Machen», «tun» und «geben» sind blass.",
+    "fehler": [
+     {
+      "antwort": "machte",
+      "diagnoseId": "blass",
+      "feedback": "«Machen» passt fast überall und sagt darum fast nichts."
+     },
+     {
+      "antwort": "tat",
+      "diagnoseId": "blass_zwei",
+      "feedback": "«Tun» ist noch unbestimmter als «machen»."
+     },
+     {
+      "antwort": "gab",
+      "diagnoseId": "falsche_bedeutung",
+      "feedback": "«Geben» braucht eine Person, die etwas empfängt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «jemandem etwas vor Augen führen»?",
+    "optionen": [
+     "jemandem etwas deutlich bewusst machen",
+     "jemanden an der Hand führen",
+     "jemandem etwas zeigen wollen",
+     "jemanden zum Augenarzt bringen"
+    ],
+    "loesung": [
+     "jemandem etwas deutlich bewusst machen"
+    ],
+    "erklaerung": "Die Wendung ist bildhaft: Man macht etwas so deutlich, dass die andere Person es nicht übersehen kann.",
+    "fehler": [
+     {
+      "antwort": "jemanden an der Hand führen",
+      "diagnoseId": "woertlich",
+      "feedback": "Das Bild wird hier wörtlich genommen; gemeint ist etwas anderes."
+     },
+     {
+      "antwort": "jemandem etwas zeigen wollen",
+      "diagnoseId": "fast",
+      "feedback": "Zeigen ist nur der halbe Weg. Die Wendung meint, dass es auch ankommt."
+     },
+     {
+      "antwort": "jemanden zum Augenarzt bringen",
+      "diagnoseId": "woertlich_zwei",
+      "feedback": "Auch das nimmt das Bild wörtlich; gemeint ist die Einsicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist ein Synonym von «regelmässig»?",
+    "optionen": [
+     "gleichbleibend",
+     "gelegentlich",
+     "plötzlich",
+     "unregelmässig"
+    ],
+    "loesung": [
+     "gleichbleibend"
+    ],
+    "erklaerung": "«Regelmässig» und «gleichbleibend» meinen beide: immer wieder auf dieselbe Weise.",
+    "fehler": [
+     {
+      "antwort": "gelegentlich",
+      "diagnoseId": "gegenteil",
+      "feedback": "«Gelegentlich» heisst ab und zu — also gerade nicht regelmässig."
+     },
+     {
+      "antwort": "plötzlich",
+      "diagnoseId": "zeitpunkt",
+      "feedback": "«Plötzlich» sagt etwas über die Art des Eintretens, nicht über Wiederholung."
+     },
+     {
+      "antwort": "unregelmässig",
+      "diagnoseId": "gegenteil_zwei",
+      "feedback": "Das ist das Gegenteil und darum kein Synonym."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege «Unaufmerksamkeit» in seine Bausteine.",
+    "optionen": [
+     "un-auf-merk-sam-keit",
+     "unauf-merksam-keit",
+     "un-aufmerksam-keit",
+     "una-ufmerk-samkeit"
+    ],
+    "loesung": [
+     "un-auf-merk-sam-keit"
+    ],
+    "erklaerung": "«un-» verneint, «auf-» ist eine Vorsilbe, «merk» der Stamm, «-sam» und «-keit» sind Nachsilben.",
+    "fehler": [
+     {
+      "antwort": "unauf-merksam-keit",
+      "diagnoseId": "zu_grob",
+      "feedback": "«unauf» ist kein Baustein: Verneinung und Vorsilbe sind zwei verschiedene Morpheme."
+     },
+     {
+      "antwort": "un-aufmerksam-keit",
+      "diagnoseId": "zu_grob_zwei",
+      "feedback": "«aufmerksam» lässt sich weiter zerlegen: auf-merk-sam."
+     },
+     {
+      "antwort": "una-ufmerk-samkeit",
+      "diagnoseId": "willkuerlich",
+      "feedback": "So entstehen Teile ohne eigene Bedeutung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «etwas auf die leichte Schulter nehmen»?",
+    "optionen": [
+     "etwas nicht ernst genug nehmen",
+     "etwas tragen helfen",
+     "etwas gerne tun",
+     "etwas schnell erledigen"
+    ],
+    "loesung": [
+     "etwas nicht ernst genug nehmen"
+    ],
+    "erklaerung": "Die Wendung meint: eine Sache unterschätzen und zu wenig ernst nehmen.",
+    "fehler": [
+     {
+      "antwort": "etwas tragen helfen",
+      "diagnoseId": "woertlich",
+      "feedback": "Das Bild kommt vom Tragen, gemeint ist aber die Haltung."
+     },
+     {
+      "antwort": "etwas gerne tun",
+      "diagnoseId": "stimmung",
+      "feedback": "Von Freude ist in der Wendung nicht die Rede."
+     },
+     {
+      "antwort": "etwas schnell erledigen",
+      "diagnoseId": "tempo",
+      "feedback": "Es geht nicht um das Tempo, sondern um die Ernsthaftigkeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort passt in dieselbe Wortfamilie wie «Fenster»?",
+    "optionen": [
+     "Fensterbank",
+     "fernsehen",
+     "Fernrohr",
+     "Fenchel"
+    ],
+    "loesung": [
+     "Fensterbank"
+    ],
+    "erklaerung": "«Fensterbank» ist eine Zusammensetzung mit demselben Stamm.",
+    "fehler": [
+     {
+      "antwort": "fernsehen",
+      "diagnoseId": "aehnlicher_klang",
+      "feedback": "«Fern» ist ein anderer Stamm; mit dem Fenster hat er nichts zu tun."
+     },
+     {
+      "antwort": "Fernrohr",
+      "diagnoseId": "aehnlicher_klang_zwei",
+      "feedback": "Auch hier steckt «fern», nicht «Fenster»."
+     },
+     {
+      "antwort": "Fenchel",
+      "diagnoseId": "aehnlicher_klang_drei",
+      "feedback": "«Fenchel» ist eine Pflanze und hat mit dem Fenster nichts zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Verb ersetzt «sagte» am genauesten?\n\n«Komm sofort her!», ______ sie.",
+    "optionen": [
+     "rief",
+     "flüsterte",
+     "murmelte",
+     "seufzte"
+    ],
+    "loesung": [
+     "rief"
+    ],
+    "erklaerung": "Ein Ausrufezeichen und eine Aufforderung passen zu «rief».",
+    "fehler": [
+     {
+      "antwort": "flüsterte",
+      "diagnoseId": "lautstaerke",
+      "feedback": "Geflüstert wird leise — das passt nicht zum Ausrufezeichen."
+     },
+     {
+      "antwort": "murmelte",
+      "diagnoseId": "undeutlich",
+      "feedback": "«Murmeln» ist undeutlich und leise, passt also nicht zum Ausruf."
+     },
+     {
+      "antwort": "seufzte",
+      "diagnoseId": "stimmung",
+      "feedback": "Ein Seufzer drückt Müdigkeit oder Resignation aus, keine Aufforderung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist KEIN Synonym von «beobachten»?",
+    "optionen": [
+     "übersehen",
+     "betrachten",
+     "verfolgen",
+     "mustern"
+    ],
+    "loesung": [
+     "übersehen"
+    ],
+    "erklaerung": "«Übersehen» heisst gerade NICHT sehen — das Gegenteil von beobachten.",
+    "fehler": [
+     {
+      "antwort": "betrachten",
+      "diagnoseId": "synonym",
+      "feedback": "«Betrachten» heisst genau hinschauen — ein echtes Synonym."
+     },
+     {
+      "antwort": "verfolgen",
+      "diagnoseId": "synonym_zwei",
+      "feedback": "«Verfolgen» heisst, etwas über eine Zeit hinweg im Blick behalten."
+     },
+     {
+      "antwort": "mustern",
+      "diagnoseId": "synonym_drei",
+      "feedback": "«Mustern» heisst prüfend anschauen und meint fast dasselbe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Vorsilbe kehrt die Bedeutung von «bekannt» um?",
+    "optionen": [
+     "un-",
+     "vor-",
+     "über-",
+     "ver-"
+    ],
+    "loesung": [
+     "un-"
+    ],
+    "erklaerung": "«unbekannt» ist das Gegenteil von «bekannt». Die Vorsilbe «un-» verneint.",
+    "fehler": [
+     {
+      "antwort": "vor-",
+      "diagnoseId": "zeit",
+      "feedback": "«Vorbekannt» gibt es nicht; «vor-» ordnet zeitlich ein."
+     },
+     {
+      "antwort": "über-",
+      "diagnoseId": "steigerung",
+      "feedback": "«Über-» verstärkt oder bezeichnet ein Darüberhinaus."
+     },
+     {
+      "antwort": "ver-",
+      "diagnoseId": "veraenderung",
+      "feedback": "«Ver-» zeigt oft eine Veränderung an, keine Verneinung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet das Fremdwort «Perspektive» in einem Text?",
+    "optionen": [
+     "der Blickwinkel, aus dem erzählt wird",
+     "die Länge des Textes",
+     "die Zahl der Figuren",
+     "die Zeitform"
+    ],
+    "loesung": [
+     "der Blickwinkel, aus dem erzählt wird"
+    ],
+    "erklaerung": "Die Perspektive sagt, wer sieht und erzählt — beim Textverständnis eine der Standardfragen.",
+    "fehler": [
+     {
+      "antwort": "die Länge des Textes",
+      "diagnoseId": "umfang",
+      "feedback": "Der Umfang hat mit der Perspektive nichts zu tun."
+     },
+     {
+      "antwort": "die Zahl der Figuren",
+      "diagnoseId": "personal",
+      "feedback": "Wie viele Figuren vorkommen, ist eine andere Frage."
+     },
+     {
+      "antwort": "die Zeitform",
+      "diagnoseId": "grammatik",
+      "feedback": "Die Zeitform ist eine grammatische Kategorie."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wortpaar bildet KEINEN Gegensatz?",
+    "optionen": [
+     "beobachten – betrachten",
+     "erleichtert – beunruhigt",
+     "regelmässig – zufällig",
+     "fremd – vertraut"
+    ],
+    "loesung": [
+     "beobachten – betrachten"
+    ],
+    "erklaerung": "«Beobachten» und «betrachten» bedeuten fast dasselbe; die anderen Paare sind Gegensätze.",
+    "fehler": [
+     {
+      "antwort": "erleichtert – beunruhigt",
+      "diagnoseId": "gegensatz",
+      "feedback": "Diese beiden Gefühle stehen einander gegenüber — im Text sogar unmittelbar."
+     },
+     {
+      "antwort": "regelmässig – zufällig",
+      "diagnoseId": "gegensatz_zwei",
+      "feedback": "Was zufällig geschieht, folgt keiner Regel."
+     },
+     {
+      "antwort": "fremd – vertraut",
+      "diagnoseId": "gegensatz_drei",
+      "feedback": "Das ist ein klarer Gegensatz: bekannt gegen unbekannt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsteil Sprachbetrachtung; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wortfamilien, Synonyme und Redewendungen",
+  "status": "review"
+ }
+]

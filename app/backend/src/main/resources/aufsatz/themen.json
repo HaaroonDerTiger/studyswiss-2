@@ -1,0 +1,2029 @@
+[
+ {
+  "id": 1,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Handys im Schulzimmer",
+  "auftrag": "An immer mehr Schulen müssen die Handys am Morgen in einer Box abgegeben werden. Beschreibe einleitend, welche Rolle das Handy im Schulalltag spielt. Erörtere anschliessend im Hauptteil die Vor- und Nachteile eines strikten Handyverbots während der ganzen Schulzeit. Begründe ausführlich. Halte im Schlussteil deine eigene Meinung fest.",
+  "teile": [
+   "Rolle des Handys im Schulalltag beschreiben",
+   "Vorteile eines Verbots ausführen und begründen",
+   "Nachteile eines Verbots ausführen und begründen",
+   "Eigene Meinung im Schlussteil begründen"
+  ]
+ },
+ {
+  "id": 2,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Hausaufgaben mit künstlicher Intelligenz",
+  "auftrag": "Programme wie ChatGPT schreiben auf Knopfdruck ganze Texte. Erkläre einleitend mit eigenen Worten, wozu Jugendliche solche Programme heute nutzen. Erörtere im Hauptteil, was dabei gewonnen und was verloren geht. Nimm im Schlussteil Stellung: Wo ist der Einsatz sinnvoll, wo nicht?",
+  "teile": [
+   "Erklären, wozu Jugendliche KI-Programme nutzen",
+   "Chancen mit Beispielen ausführen",
+   "Gefahren mit Beispielen ausführen",
+   "Eigene Grenze ziehen und begründen"
+  ]
+ },
+ {
+  "id": 3,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Wählen ab 16",
+  "auftrag": "Einige Kantone diskutieren, das Stimm- und Wahlrecht auf 16 Jahre zu senken. Beschreibe einleitend kurz, worum es bei dieser Frage geht. Wäge im Hauptteil ausführlich ab, was für und was gegen ein Stimmrecht ab 16 spricht. Äussere am Schluss deine eigene Meinung und begründe sie.",
+  "teile": [
+   "Die Frage einleitend erklären",
+   "Argumente dafür ausführen",
+   "Argumente dagegen ausführen",
+   "Eigene Meinung begründen"
+  ]
+ },
+ {
+  "id": 4,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Sackgeld. Wofür?",
+  "auftrag": "Manche Jugendliche erhalten jeden Monat Sackgeld und dürfen frei darüber verfügen, andere bekommen Geld nur für Bestimmtes. Führe aus, wie Jugendliche mit Geld umgehen sollten. Erörtere die Vor- und Nachteile von frei verfügbarem Sackgeld. Formuliere am Schluss deine Meinung.",
+  "teile": [
+   "Umgang Jugendlicher mit Geld beschreiben",
+   "Vorteile von freiem Sackgeld begründen",
+   "Nachteile von freiem Sackgeld begründen",
+   "Eigene Meinung formulieren"
+  ]
+ },
+ {
+  "id": 5,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Schule ohne Noten",
+  "auftrag": "Immer wieder wird gefordert, Noten durch schriftliche Rückmeldungen zu ersetzen. Beschreibe einleitend, was Noten in der Schule bewirken. Erörtere im Hauptteil, welche Vor- und Nachteile eine Schule ohne Noten hätte, für die Schülerinnen und Schüler, aber auch für Lehrpersonen und Eltern. Nimm im Schlussteil Stellung.",
+  "teile": [
+   "Wirkung von Noten beschreiben",
+   "Vorteile einer Schule ohne Noten ausführen",
+   "Nachteile einer Schule ohne Noten ausführen",
+   "Stellung nehmen und begründen"
+  ]
+ },
+ {
+  "id": 6,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Soziale Medien erst ab 16",
+  "auftrag": "In mehreren Ländern wird darüber diskutiert, soziale Netzwerke erst ab 16 Jahren zu erlauben. Erkläre einleitend, was soziale Medien für Jugendliche bedeuten. Argumentiere im Hauptteil ausführlich für und gegen eine solche Altersgrenze. Halte am Schluss fest, was du davon hältst.",
+  "teile": [
+   "Bedeutung sozialer Medien für Jugendliche erklären",
+   "Argumente für eine Altersgrenze",
+   "Argumente gegen eine Altersgrenze",
+   "Eigene Haltung begründen"
+  ]
+ },
+ {
+  "id": 7,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Ein Jahr Pause nach der Schule",
+  "auftrag": "Manche Jugendliche legen nach der Schulzeit ein Zwischenjahr ein: reisen, arbeiten, Sprachen lernen. Beschreibe einleitend, was ein Zwischenjahr sein kann. Wäge im Hauptteil ab, was ein solches Jahr bringt und was es kostet. Begründe im Schlussteil, ob ein Zwischenjahr für dich infrage käme.",
+  "teile": [
+   "Zwischenjahr einleitend beschreiben",
+   "Gewinn eines Zwischenjahres ausführen",
+   "Nachteile und Risiken ausführen",
+   "Eigene Entscheidung begründen"
+  ]
+ },
+ {
+  "id": 8,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Weniger Fleisch essen",
+  "auftrag": "In der Schweiz isst jede Person durchschnittlich rund 50 Kilogramm Fleisch pro Jahr. Beschreibe einleitend, welche Rolle Fleisch in unserem Alltag spielt. Erörtere im Hauptteil ausführlich Gründe, die für und gegen einen bewussten Verzicht sprechen. Formuliere am Schluss deine eigene Meinung.",
+  "teile": [
+   "Rolle von Fleisch im Alltag beschreiben",
+   "Gründe für weniger Fleisch ausführen",
+   "Gründe dagegen ausführen",
+   "Eigene Meinung begründen"
+  ]
+ },
+ {
+  "id": 9,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Autofreie Innenstadt",
+  "auftrag": "Stell dir vor, in deiner nächstgelegenen Stadt würden alle Autos aus dem Zentrum verbannt. Beschreibe einleitend, wie das Zentrum heute aussieht und wer es nutzt. Erörtere im Hauptteil die Folgen für Bewohnerinnen, Geschäfte und Besucher. Nimm im Schlussteil Stellung zu einem solchen Verbot.",
+  "teile": [
+   "Heutige Situation im Zentrum beschreiben",
+   "Vorteile eines Autoverbots ausführen",
+   "Nachteile für Betroffene ausführen",
+   "Eigene Stellungnahme begründen"
+  ]
+ },
+ {
+  "id": 10,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Ein Sozialeinsatz für alle",
+  "auftrag": "Manche fordern, jede Jugendliche und jeder Jugendliche solle während der Schulzeit eine Woche in einem Altersheim, einem Spital oder einem Naturschutzprojekt mitarbeiten. Erkläre einleitend, was ein solcher Einsatz wäre. Argumentiere im Hauptteil ausführlich dafür und dagegen. Begründe am Schluss deine Meinung.",
+  "teile": [
+   "Sozialeinsatz einleitend erklären",
+   "Argumente dafür ausführen",
+   "Argumente dagegen ausführen",
+   "Meinung begründen"
+  ]
+ },
+ {
+  "id": 11,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Klassenlager. Pflicht oder Angebot?",
+  "auftrag": "Klassenlager kosten Geld und Zeit, und nicht alle fahren gern mit. Beschreibe einleitend, was in einem Klassenlager geschieht. Erörtere im Hauptteil, was ein Lager der Klasse bringt und welche Schwierigkeiten es mit sich bringt. Nimm am Schluss Stellung: Soll ein Lager für alle verbindlich sein?",
+  "teile": [
+   "Ablauf und Sinn eines Klassenlagers beschreiben",
+   "Gewinn für die Klasse ausführen",
+   "Schwierigkeiten und Belastungen ausführen",
+   "Zur Verbindlichkeit Stellung nehmen"
+  ]
+ },
+ {
+  "id": 12,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Unterricht zu Hause",
+  "auftrag": "Während der Pandemie fand der Unterricht wochenlang zu Hause statt. Beschreibe einleitend, wie Fernunterricht abläuft. Erörtere im Hauptteil ausführlich die Vor- und Nachteile für das Lernen und für das Zusammenleben in einer Klasse. Halte im Schlussteil deine eigene Meinung fest.",
+  "teile": [
+   "Fernunterricht beschreiben",
+   "Vorteile fürs Lernen ausführen",
+   "Nachteile fürs Lernen und die Klasse ausführen",
+   "Eigene Meinung festhalten"
+  ]
+ },
+ {
+  "id": 13,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Videospiele",
+  "auftrag": "Für die einen sind Videospiele Zeitverschwendung, für die anderen ein Hobby wie jedes andere. Beschreibe einleitend, was Jugendliche an Videospielen fasziniert. Erörtere im Hauptteil die Vor- und Nachteile des Spielens. Begründe ausführlich und nimm am Schluss selbst Stellung.",
+  "teile": [
+   "Faszination von Videospielen beschreiben",
+   "Vorteile ausführen und begründen",
+   "Nachteile ausführen und begründen",
+   "Eigene Stellungnahme"
+  ]
+ },
+ {
+  "id": 14,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Tiere im Zoo",
+  "auftrag": "Zoos zeigen Tiere, die die meisten Menschen sonst nie sehen würden, aber sie halten sie eingesperrt. Beschreibe einleitend, welche Aufgaben ein Zoo heute hat. Wäge im Hauptteil ausführlich ab, was für und was gegen Zoos spricht. Formuliere am Schluss deine Meinung.",
+  "teile": [
+   "Aufgaben eines Zoos beschreiben",
+   "Argumente für Zoos ausführen",
+   "Argumente gegen Zoos ausführen",
+   "Meinung formulieren und begründen"
+  ]
+ },
+ {
+  "id": 15,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Werbung, die sich an Kinder richtet",
+  "auftrag": "Werbung spricht gezielt auch Kinder an, mit Figuren, Farben und Geschenken. Erkläre einleitend, wie solche Werbung funktioniert. Erörtere im Hauptteil, ob Werbung, die sich an Kinder richtet, verboten werden sollte. Führe Gründe dafür und dagegen an und begründe am Schluss deine eigene Position.",
+  "teile": [
+   "Funktionsweise von Kinderwerbung erklären",
+   "Gründe für ein Verbot ausführen",
+   "Gründe gegen ein Verbot ausführen",
+   "Eigene Position begründen"
+  ]
+ },
+ {
+  "id": 16,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Ferien in der Nähe",
+  "auftrag": "Immer mehr Menschen verzichten bewusst auf Flugreisen und verbringen ihre Ferien in der Nähe. Beschreibe einleitend, was Menschen von Ferien erwarten. Erörtere im Hauptteil ausführlich, was für und was gegen Ferien in der Nähe spricht. Nimm im Schlussteil dazu Stellung.",
+  "teile": [
+   "Erwartungen an Ferien beschreiben",
+   "Vorteile von Ferien in der Nähe ausführen",
+   "Nachteile ausführen",
+   "Stellung nehmen"
+  ]
+ },
+ {
+  "id": 17,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Roboter in der Pflege",
+  "auftrag": "In einigen Ländern helfen Roboter bereits in Altersheimen: Sie tragen, erinnern an Medikamente und unterhalten die Bewohnerinnen und Bewohner. Beschreibe einleitend, welche Arbeit in einem Altersheim anfällt. Erörtere im Hauptteil die Chancen und Gefahren solcher Roboter. Halte am Schluss deine Meinung fest.",
+  "teile": [
+   "Arbeit im Altersheim beschreiben",
+   "Chancen von Pflegerobotern ausführen",
+   "Gefahren ausführen",
+   "Eigene Meinung festhalten"
+  ]
+ },
+ {
+  "id": 18,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Gleiche Kleider für alle",
+  "auftrag": "An manchen Schulen tragen alle Schülerinnen und Schüler dieselbe Kleidung. Beschreibe einleitend, was Kleidung über einen Menschen aussagt. Erörtere im Hauptteil ausführlich, was eine Schuluniform bewirken würde. Begründe im Schlussteil, ob du dir das an deiner Schule wünschen würdest.",
+  "teile": [
+   "Bedeutung von Kleidung beschreiben",
+   "Vorteile einer Uniform ausführen",
+   "Nachteile einer Uniform ausführen",
+   "Eigenen Wunsch begründen"
+  ]
+ },
+ {
+  "id": 19,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "E-Trottinette in der Stadt",
+  "auftrag": "In vielen Städten stehen Miet-Trottinette an jeder Ecke, und liegen oft quer über dem Trottoir. Beschreibe einleitend, wie diese Fahrzeuge genutzt werden. Erörtere im Hauptteil ausführlich, welchen Nutzen sie stiften und welche Probleme sie verursachen. Nimm am Schluss Stellung zu einer möglichen Einschränkung.",
+  "teile": [
+   "Nutzung der E-Trottinette beschreiben",
+   "Nutzen ausführen",
+   "Probleme ausführen",
+   "Zur Einschränkung Stellung nehmen"
+  ]
+ },
+ {
+  "id": 20,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Was ich in der Schweiz ändern würde",
+  "auftrag": "Was würdest du in der Schweiz verändern? Beschreibe einleitend kurz, welches Problem dich stört. Erläutere im Hauptteil eine konkrete Idee und führe aus, was damit erreicht werden soll und wer davon betroffen wäre. Wäge auch mögliche Einwände ab und halte am Schluss fest, warum dir diese Veränderung wichtig ist.",
+  "teile": [
+   "Problem einleitend benennen",
+   "Konkrete Idee ausführlich erläutern",
+   "Wirkung und Betroffene darlegen",
+   "Einwände abwägen und Wichtigkeit begründen"
+  ]
+ },
+ {
+  "id": 21,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Das müsste man erlauben",
+  "auftrag": "Führe aus, was Jugendlichen deiner Meinung nach zu Unrecht verboten ist. Argumentiere und begründe ausführlich, warum diese Erlaubnis sinnvoll wäre. Gehe im Hauptteil auch auf die Gründe ein, die für das Verbot sprechen, und entkräfte sie. Formuliere am Schluss deine Forderung klar.",
+  "teile": [
+   "Verbot benennen und beschreiben",
+   "Gründe für eine Erlaubnis ausführen",
+   "Gegengründe aufgreifen und entkräften",
+   "Forderung klar formulieren"
+  ]
+ },
+ {
+  "id": 22,
+  "slot": "arg",
+  "sorte": "Argumentation",
+  "titel": "Nebenjob neben der Schule",
+  "auftrag": "Manche Jugendliche arbeiten am Samstag im Laden oder tragen Zeitungen aus. Beschreibe einleitend, welche Nebenjobs es für Jugendliche gibt. Erörtere im Hauptteil, was ein Nebenjob neben der Schule bringt und wo er schadet. Begründe am Schluss deine eigene Haltung.",
+  "teile": [
+   "Nebenjobs für Jugendliche beschreiben",
+   "Gewinn eines Nebenjobs ausführen",
+   "Belastungen ausführen",
+   "Eigene Haltung begründen"
+  ]
+ },
+ {
+  "id": 23,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Mein Lieblingsort",
+  "auftrag": "Beschreibe im ersten Teil deines Textes möglichst genau einen Ort, an den du gerne gehst: was du dort siehst, hörst und riechst. Erkläre danach, warum gerade dieser Ort für dich wichtig ist. Überlege am Schluss, warum Menschen überhaupt solche Orte brauchen.",
+  "teile": [
+   "Ort genau und anschaulich beschreiben",
+   "Bedeutung des Ortes für dich erklären",
+   "Allgemein über die Bedeutung solcher Orte nachdenken"
+  ]
+ },
+ {
+  "id": 24,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Geduld",
+  "auftrag": "Beschreibe einleitend mit eigenen Worten, was Geduld bedeutet. Schildere im Hauptteil eine Situation, in der dir Geduld schwergefallen ist, und eine, in der sie sich gelohnt hat. Überlege zum Schluss, warum Geduld heute schwieriger geworden ist.",
+  "teile": [
+   "Geduld mit eigenen Worten beschreiben",
+   "Situation schildern, in der Geduld schwerfiel",
+   "Situation schildern, in der sich Geduld lohnte",
+   "Schlussüberlegung zur Geduld heute"
+  ]
+ },
+ {
+  "id": 25,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Heimat",
+  "auftrag": "Erkläre einleitend, was das Wort «Heimat» für dich bedeutet. Beschreibe im Hauptteil möglichst genau, woran du Heimat festmachst, an Orten, Menschen, Gerüchen, Gewohnheiten. Überlege am Schluss, ob man Heimat verlieren oder neu finden kann.",
+  "teile": [
+   "Eigene Bedeutung von «Heimat» erklären",
+   "Konkret beschreiben, woran du Heimat festmachst",
+   "Überlegen, ob Heimat verloren oder neu gefunden werden kann"
+  ]
+ },
+ {
+  "id": 26,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Langeweile",
+  "auftrag": "Beschreibe einleitend, wie sich Langeweile anfühlt. Schildere im Hauptteil eine Situation, in der dir richtig langweilig war, und was du dagegen unternommen hast. Führe zum Schluss aus, ob Langeweile nur lästig ist oder auch etwas Gutes hat. Begründe deine Meinung.",
+  "teile": [
+   "Gefühl der Langeweile beschreiben",
+   "Konkrete Situation schildern",
+   "Nutzen oder Schaden von Langeweile abwägen",
+   "Eigene Meinung begründen"
+  ]
+ },
+ {
+  "id": 27,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Der Sonntag",
+  "auftrag": "Beschreibe genau, wie ein gewöhnlicher Sonntag bei dir abläuft. Vom Aufwachen bis zum Abend. Erkläre danach, was diesen Tag von den anderen Wochentagen unterscheidet. Überlege am Schluss, welche Bedeutung ein solcher Ruhetag für die Menschen hat.",
+  "teile": [
+   "Ablauf eines Sonntags genau beschreiben",
+   "Unterschied zu anderen Tagen erklären",
+   "Bedeutung eines Ruhetags allgemein reflektieren"
+  ]
+ },
+ {
+  "id": 28,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Ein Mensch, der mich geprägt hat",
+  "auftrag": "Beschreibe im ersten Teil einen Menschen, der dich geprägt hat: sein Aussehen, seine Art zu sprechen, seine Eigenheiten. Berichte im Hauptteil von einer Situation mit dieser Person, die dir in Erinnerung geblieben ist. Erkläre zum Schluss, was du von ihr übernommen hast.",
+  "teile": [
+   "Person anschaulich beschreiben",
+   "Von einer prägenden Situation berichten",
+   "Erklären, was du übernommen hast"
+  ]
+ },
+ {
+  "id": 29,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Musik in meinem Leben",
+  "auftrag": "Beschreibe einleitend, welche Musik du hörst und in welchen Situationen. Erläutere im Hauptteil an einem Beispiel, was Musik bei dir auslöst. Führe zum Schluss aus, welche Bedeutung Musik für Menschen allgemein hat, und begründe deine Überlegungen.",
+  "teile": [
+   "Eigenes Hörverhalten beschreiben",
+   "Wirkung an einem Beispiel erläutern",
+   "Bedeutung von Musik allgemein begründen"
+  ]
+ },
+ {
+  "id": 30,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Angst",
+  "auftrag": "Beschreibe einleitend, wie sich Angst körperlich und im Kopf anfühlt. Schildere im Hauptteil eine Situation, in der du Angst hattest, und wie du damit umgegangen bist. Überlege am Schluss, wozu Angst gut ist und wann sie hinderlich wird.",
+  "teile": [
+   "Angst genau beschreiben",
+   "Eigene Angstsituation schildern",
+   "Umgang mit der Angst darstellen",
+   "Nutzen und Schaden von Angst reflektieren"
+  ]
+ },
+ {
+  "id": 31,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Ehrlich sein",
+  "auftrag": "Erkläre einleitend genau, was Ehrlichkeit bedeutet. Führe im Hauptteil an einem passenden Beispiel aus, ob es Situationen gibt, in denen eine Lüge erlaubt ist. Argumentiere sorgfältig und halte am Schluss deine eigene Haltung fest.",
+  "teile": [
+   "Ehrlichkeit genau erklären",
+   "Beispiel ausführen",
+   "Argumentieren, ob Lügen erlaubt sein können",
+   "Eigene Haltung festhalten"
+  ]
+ },
+ {
+  "id": 32,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Mein Schulweg",
+  "auftrag": "Beschreibe deinen Schulweg so genau, dass sich eine fremde Person ihn vorstellen kann. Berichte danach von einem Ereignis, das dir auf diesem Weg passiert ist. Überlege am Schluss, was dieser tägliche Weg für dich bedeutet.",
+  "teile": [
+   "Schulweg anschaulich beschreiben",
+   "Von einem Ereignis berichten",
+   "Bedeutung des täglichen Wegs reflektieren"
+  ]
+ },
+ {
+  "id": 33,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Glück",
+  "auftrag": "Beschreibe einleitend, was Glück für dich bedeutet. Schildere im Hauptteil einen Moment, in dem du dich glücklich gefühlt hast, möglichst genau. Erörtere zum Schluss, ob man Glück beeinflussen kann, und begründe deine Meinung.",
+  "teile": [
+   "Eigene Vorstellung von Glück beschreiben",
+   "Glücksmoment genau schildern",
+   "Erörtern, ob Glück beeinflussbar ist",
+   "Meinung begründen"
+  ]
+ },
+ {
+  "id": 34,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Warten",
+  "auftrag": "Beschreibe einleitend eine Situation, in der du warten musstest, und wie sich das angefühlt hat. Führe im Hauptteil aus, worauf Menschen im Leben warten, auf Kleines und auf Grosses. Überlege am Schluss, was das Warten mit uns macht.",
+  "teile": [
+   "Wartesituation beschreiben",
+   "Ausführen, worauf Menschen warten",
+   "Wirkung des Wartens reflektieren"
+  ]
+ },
+ {
+  "id": 35,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Mein Zimmer",
+  "auftrag": "Beschreibe dein Zimmer so genau, dass ein Leser es vor sich sieht. Erkläre danach, was die Gegenstände darin über dich verraten. Überlege am Schluss, warum Menschen einen eigenen Raum brauchen, und begründe deine Meinung.",
+  "teile": [
+   "Zimmer genau beschreiben",
+   "Erklären, was die Gegenstände über dich verraten",
+   "Bedürfnis nach eigenem Raum reflektieren"
+  ]
+ },
+ {
+  "id": 36,
+  "slot": "ref",
+  "sorte": "Beschreibung",
+  "titel": "Älter werden",
+  "auftrag": "Beschreibe einleitend, wie du dir das Alter vorstellst. Berichte im Hauptteil von einer älteren Person, die du kennst, und davon, wie sie lebt. Überlege am Schluss, wie unsere Gesellschaft mit alten Menschen umgeht, und nimm dazu Stellung.",
+  "teile": [
+   "Vorstellung vom Alter beschreiben",
+   "Von einer älteren Person berichten",
+   "Umgang der Gesellschaft mit dem Alter reflektieren",
+   "Stellung nehmen"
+  ]
+ },
+ {
+  "id": 37,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Wer nicht wagt, der nicht gewinnt",
+  "auftrag": "Erkläre mit eigenen Worten, wie du das Sprichwort verstehst. Beschreibe eine Situation, auf die es zutrifft. Erörtere anschliessend, wo das Wagen sinnvoll ist und wo es leichtsinnig wird. Begründe am Schluss deine eigene Meinung.",
+  "teile": [
+   "Sprichwort mit eigenen Worten erklären",
+   "Passende Situation beschreiben",
+   "Grenzen des Wagens erörtern",
+   "Eigene Meinung begründen"
+  ]
+ },
+ {
+  "id": 38,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Reden ist Silber, Schweigen ist Gold",
+  "auftrag": "Erkläre mit eigenen Worten, was dieses Sprichwort behauptet. Schildere eine Situation, in der Schweigen richtig war, und eine, in der es falsch war. Nimm am Schluss Stellung: Stimmt der Satz? Begründe deine Antwort.",
+  "teile": [
+   "Sprichwort erklären",
+   "Situation schildern, in der Schweigen richtig war",
+   "Situation schildern, in der Schweigen falsch war",
+   "Begründet Stellung nehmen"
+  ]
+ },
+ {
+  "id": 39,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Der Weg ist das Ziel",
+  "auftrag": "Formuliere kurz mit eigenen Worten, wie du diese Aussage verstehst. Was ist deiner Meinung nach daran richtig, was falsch? Verdeutliche deinen Standpunkt anhand eigener Erfahrungen und schliesse mit einem klaren Fazit.",
+  "teile": [
+   "Aussage mit eigenen Worten deuten",
+   "Ausführen, was daran richtig ist",
+   "Ausführen, was daran falsch ist",
+   "Standpunkt mit eigenen Erfahrungen belegen und Fazit ziehen"
+  ]
+ },
+ {
+  "id": 40,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Jeder ist seines Glückes Schmied",
+  "auftrag": "Erkläre mit eigenen Worten, was mit diesem Satz gemeint ist. Erörtere im Hauptteil, wie viel ein Mensch selbst in der Hand hat und was von aussen bestimmt wird. Belege deine Überlegungen mit Beispielen und nimm am Schluss Stellung.",
+  "teile": [
+   "Satz mit eigenen Worten erklären",
+   "Ausführen, was man selbst beeinflussen kann",
+   "Ausführen, was von aussen bestimmt wird",
+   "Mit Beispielen belegen und Stellung nehmen"
+  ]
+ },
+ {
+  "id": 41,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Kleider machen Leute",
+  "auftrag": "Erkläre mit eigenen Worten, wie du das Sprichwort verstehst. Beschreibe eine Situation, in der die Kleidung eines Menschen dein Urteil beeinflusst hat. Erörtere, wie stark der erste Eindruck wirklich wiegt, und begründe deine Meinung.",
+  "teile": [
+   "Sprichwort erklären",
+   "Situation beschreiben",
+   "Wirkung des ersten Eindrucks erörtern",
+   "Meinung begründen"
+  ]
+ },
+ {
+  "id": 42,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Lügen haben kurze Beine",
+  "auftrag": "Erkläre genau, was das Sprichwort besagt. Erzähle im Hauptteil von einer Lüge, die aufgeflogen ist, und von den Folgen. Überlege am Schluss, warum Menschen trotzdem lügen, und halte deine Meinung fest.",
+  "teile": [
+   "Sprichwort erklären",
+   "Von einer aufgeflogenen Lüge erzählen",
+   "Folgen darstellen",
+   "Reflektieren, warum Menschen lügen"
+  ]
+ },
+ {
+  "id": 43,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Man sieht nur mit dem Herzen gut",
+  "auftrag": "Formuliere kurz mit eigenen Worten, wie du dieses Zitat verstehst. Verdeutliche deinen Standpunkt an einem Beispiel aus deinem Leben. Erörtere anschliessend, ob man Menschen wirklich nur mit dem Herzen richtig erkennt, und begründe deine Meinung.",
+  "teile": [
+   "Zitat mit eigenen Worten deuten",
+   "Standpunkt an einem Beispiel verdeutlichen",
+   "Erörtern, ob die Aussage stimmt",
+   "Meinung begründen"
+  ]
+ },
+ {
+  "id": 44,
+  "slot": "ref",
+  "sorte": "Argumentation",
+  "titel": "Zeit ist Geld",
+  "auftrag": "Erkläre mit eigenen Worten, was mit diesem Satz gemeint ist. Erörtere im Hauptteil, was geschieht, wenn Menschen ihre Zeit vor allem als Ware betrachten. Führe Beispiele an und nimm am Schluss Stellung zu dieser Haltung.",
+  "teile": [
+   "Satz erklären",
+   "Folgen dieser Haltung erörtern",
+   "Beispiele anführen",
+   "Stellung nehmen"
+  ]
+ },
+ {
+  "id": 45,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Fehler",
+  "auftrag": "Erzähle eine gut aufgebaute Geschichte, in der jemand einen Fehler macht und diesen wiedergutzumachen versucht. Es muss nachvollziehbar werden, wie es zu dem Fehler kam, was er auslöste und wie die Geschichte ausgeht. Du kannst eine Geschichte erfinden oder auf ein eigenes Erlebnis zurückgreifen.",
+  "teile": [
+   "Ausgangslage und Entstehung des Fehlers nachvollziehbar erzählen",
+   "Folgen des Fehlers darstellen",
+   "Versuch der Wiedergutmachung erzählen",
+   "Schluss, der die Geschichte abrundet"
+  ]
+ },
+ {
+  "id": 46,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Zum ersten Mal allein",
+  "auftrag": "Erzähle von einer Situation, in der du zum ersten Mal etwas ganz allein bewältigen musstest. Mache dabei deutlich, was in dir vorging, bevor, während und nachdem du es getan hast. Achte beim Erzählen genau auf die passenden Zeitformen.",
+  "teile": [
+   "Ausgangssituation erzählen",
+   "Gefühle und Gedanken vorher und währenddessen deutlich machen",
+   "Verlauf spannend erzählen",
+   "Rückblick am Schluss"
+  ]
+ },
+ {
+  "id": 47,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Sekunden entscheiden",
+  "auftrag": "Erzähle eine Geschichte, in der eine Person innerhalb weniger Sekunden eine Entscheidung treffen muss. Baue die Geschichte so auf, dass die Spannung bis zu dieser Entscheidung steigt. Im Laufe deines Textes muss nachvollziehbar werden, warum die Person so handelt und welche Folgen das hat.",
+  "teile": [
+   "Spannungsaufbau bis zur Entscheidung",
+   "Entscheidungsmoment ausführlich gestalten",
+   "Beweggründe nachvollziehbar machen",
+   "Folgen und Schluss erzählen"
+  ]
+ },
+ {
+  "id": 48,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Das Geheimnis",
+  "auftrag": "Erzähle eine Geschichte, in der jemand ein Geheimnis hütet. Mache deutlich, warum es geheim bleiben soll und was es mit der Person macht. Erzähle bis zu dem Punkt, an dem sich entscheidet, ob das Geheimnis gewahrt bleibt oder nicht.",
+  "teile": [
+   "Geheimnis und seine Bedeutung einführen",
+   "Innere Belastung der Person zeigen",
+   "Auf die Entscheidung zusteuern",
+   "Ausgang der Geschichte erzählen"
+  ]
+ },
+ {
+  "id": 49,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Nachts im Zug",
+  "auftrag": "Du sitzt spätabends allein im letzten Zug. Erzähle, was sich auf dieser Fahrt ereignet. Beschreibe dabei auch die Umgebung und die Menschen, die dir begegnen. Im Laufe deines Textes muss nachvollziehbar werden, wie sich die Situation entwickelt und wie sie ausgeht.",
+  "teile": [
+   "Situation im Zug beschreiben",
+   "Begegnung oder Ereignis erzählen",
+   "Entwicklung nachvollziehbar gestalten",
+   "Ausgang der Geschichte"
+  ]
+ },
+ {
+  "id": 50,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Die Nachricht",
+  "auftrag": "Erzähle eine Geschichte, in der eine einzige Nachricht auf dem Handy alles verändert. Es muss deutlich werden, was in der Nachricht steht, wie die Person darauf reagiert und welche Folgen das hat. Achte auf einen klaren Aufbau und passende Zeitformen.",
+  "teile": [
+   "Ausgangslage vor der Nachricht erzählen",
+   "Inhalt und Wirkung der Nachricht darstellen",
+   "Reaktion der Person zeigen",
+   "Folgen und Schluss erzählen"
+  ]
+ },
+ {
+  "id": 51,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Dazwischengehen",
+  "auftrag": "Erzähle eine Geschichte, in der sich jemand in deinem Alter für eine andere Person einsetzt, obwohl das unangenehm ist. Es muss deutlich werden, was auf dem Spiel steht und warum dieses Verhalten mutig ist. Du kannst die Geschichte erfinden oder von einem Erlebnis erzählen.",
+  "teile": [
+   "Konfliktsituation aufbauen",
+   "Einsatz der Person erzählen",
+   "Deutlich machen, warum das mutig ist",
+   "Ausgang und Wirkung erzählen"
+  ]
+ },
+ {
+  "id": 52,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der neue Nachbar",
+  "auftrag": "In die Wohnung nebenan zieht jemand ein, über den bald alle reden. Erzähle eine Geschichte, in der sich zeigt, dass der erste Eindruck täuschen kann. Beschreibe die Person genau und mache nachvollziehbar, wie sich die Meinung über sie verändert.",
+  "teile": [
+   "Einzug und erste Eindrücke erzählen",
+   "Person genau beschreiben",
+   "Wendepunkt gestalten",
+   "Veränderte Sicht am Schluss zeigen"
+  ]
+ },
+ {
+  "id": 53,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Umweg",
+  "auftrag": "Erzähle eine Geschichte, in der jemand vom geplanten Weg abkommt, und gerade dadurch etwas Wichtiges erlebt. Im Laufe deines Textes muss nachvollziehbar werden, weshalb es zum Umweg kam, was dabei geschah und wie die Geschichte ausgeht.",
+  "teile": [
+   "Ursprünglichen Plan erzählen",
+   "Entstehung des Umwegs nachvollziehbar machen",
+   "Erlebnis auf dem Umweg erzählen",
+   "Schluss mit erkennbarem Gewinn"
+  ]
+ },
+ {
+  "id": 54,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Das Missverständnis",
+  "auftrag": "Erzähle eine Geschichte, die durch ein Missverständnis in Gang kommt. Mache deutlich, wie es dazu kam, wie sich das Missverständnis auswirkt und wie es sich schliesslich aufklärt, oder eben nicht. Achte auf einen sorgfältigen Spannungsaufbau.",
+  "teile": [
+   "Entstehung des Missverständnisses erzählen",
+   "Auswirkungen darstellen",
+   "Spannung steigern",
+   "Aufklärung oder offenes Ende gestalten"
+  ]
+ },
+ {
+  "id": 55,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Wettkampf",
+  "auftrag": "Erzähle von einem Wettkampf, bei dem für dich viel auf dem Spiel stand. Beschreibe die Vorbereitung, den entscheidenden Moment und dein Gefühl danach. Mache deutlich, was dieser Wettkampf für dich bedeutet hat.",
+  "teile": [
+   "Vorbereitung erzählen",
+   "Entscheidenden Moment ausführlich gestalten",
+   "Gefühle danach beschreiben",
+   "Bedeutung deutlich machen"
+  ]
+ },
+ {
+  "id": 56,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Ein unerwartetes Geschenk",
+  "auftrag": "Erzähle eine Geschichte, in der jemand ein Geschenk erhält, mit dem niemand gerechnet hat. Es muss nachvollziehbar werden, wer es gibt, warum, und was es bei der beschenkten Person auslöst. Baue deine Geschichte klar auf.",
+  "teile": [
+   "Ausgangslage erzählen",
+   "Übergabe des Geschenks gestalten",
+   "Beweggrund nachvollziehbar machen",
+   "Wirkung und Schluss erzählen"
+  ]
+ },
+ {
+  "id": 57,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Die letzte Chance",
+  "auftrag": "Erzähle eine Geschichte, in der eine Person nur noch einen einzigen Versuch hat. Zeige, was vorher schiefgegangen ist, und gestalte den entscheidenden Moment ausführlich. Der Schluss muss zur Geschichte passen. Ein gutes Ende ist nicht Pflicht.",
+  "teile": [
+   "Vorgeschichte erzählen",
+   "Druck der letzten Chance zeigen",
+   "Entscheidenden Moment ausführlich gestalten",
+   "Stimmiger Schluss"
+  ]
+ },
+ {
+  "id": 58,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Sturm",
+  "auftrag": "Ein Unwetter zieht auf und verändert einen ganz gewöhnlichen Tag. Erzähle, was geschieht. Beschreibe die Natur und die Stimmung genau und mache nachvollziehbar, wie die Personen in deiner Geschichte reagieren.",
+  "teile": [
+   "Gewöhnlichen Tag und aufziehendes Unwetter beschreiben",
+   "Natur und Stimmung anschaulich schildern",
+   "Reaktionen der Personen erzählen",
+   "Ausgang der Geschichte"
+  ]
+ },
+ {
+  "id": 59,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Schlüssel",
+  "auftrag": "Erzähle eine Geschichte, in der ein Schlüssel eine zentrale Rolle spielt. Er kann gefunden, verloren, geschenkt oder verweigert werden. Im Laufe deines Textes muss nachvollziehbar werden, wozu der Schlüssel gehört und was sich durch ihn verändert.",
+  "teile": [
+   "Schlüssel in die Handlung einführen",
+   "Bedeutung des Schlüssels aufbauen",
+   "Wendepunkt gestalten",
+   "Veränderung am Schluss zeigen"
+  ]
+ },
+ {
+  "id": 60,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Darauf bin ich stolz",
+  "auftrag": "Berichte kurz von einer bestimmten Situation, in der du gedacht hast: «Jetzt bin ich stolz auf mich.» Erläutere davon ausgehend im Hauptteil, was Stolz ausmacht und warum Menschen stolz sind. Beschreibe zum Schluss möglichst genau, wie sich Stolz für dich anfühlt.",
+  "teile": [
+   "Von der Situation kurz berichten",
+   "Ausführen, was Stolz ausmacht",
+   "Erklären, warum Menschen stolz sind",
+   "Gefühl des Stolzes genau beschreiben"
+  ]
+ },
+ {
+  "id": 61,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Anruf um vier",
+  "auftrag": "Erzähle die Geschichte aus der Sicht der Ich-Erzählerin oder des Ich-Erzählers weiter. Gehe auf alle wichtigen inhaltlichen Elemente des Textanfangs ein. Im Laufe deines Textes muss nachvollziehbar werden, was geschehen ist, weshalb es zu dieser Situation kam und wie die Geschichte ausgeht. Achte beim Erzählen genau auf die passenden Zeitformen.",
+  "teile": [
+   "Alle Elemente des Anfangs aufnehmen",
+   "In der Ich-Perspektive weitererzählen",
+   "Nachvollziehbar machen, was geschehen ist und warum",
+   "Die Geschichte zu einem Ende führen"
+  ],
+  "anfang": "Das Telefon klingelte um vier Uhr morgens. Niemand ruft um vier Uhr morgens an, dachte ich, während ich barfuss über die kalten Fliesen in den Flur tappte. Auf dem Display stand kein Name, nur eine Nummer mit einer Vorwahl, die ich nicht kannte. Ich nahm trotzdem ab."
+ },
+ {
+  "id": 62,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Die Kiste im Estrich",
+  "auftrag": "Schreibe zuerst den Erzählanfang Wort für Wort ab. Erzähle die Geschichte dann so weiter, dass sie zum vorgegebenen Anfang passt. Im Laufe deines Textes muss nachvollziehbar werden, was in der Kiste ist, wie es dazu kam und wie die Geschichte ausgeht.",
+  "teile": [
+   "Erzählanfang wörtlich abschreiben",
+   "Passend zum Anfang weitererzählen",
+   "Inhalt der Kiste und Vorgeschichte nachvollziehbar machen",
+   "Die Geschichte zu Ende erzählen"
+  ],
+  "anfang": "«Nimm alles, was du brauchen kannst», hatte meine Grossmutter gesagt, «der Rest kommt weg.» Der Estrich roch nach Staub und altem Papier. Hinter einem Stapel Zeitungen stand eine Holzkiste, die mit einem Seil zugebunden war. Auf dem Deckel klebte ein Zettel mit meinem Namen."
+ },
+ {
+  "id": 63,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Falscher Bus",
+  "auftrag": "Setze die Erzählung fort. Gehe auf alle wichtigen Elemente des Anfangs ein. Den falschen Bus, den leeren Akku und den Mann gegenüber. Im Laufe deines Textes muss nachvollziehbar werden, wie sich die Situation entwickelt und wie die Geschichte ausgeht.",
+  "teile": [
+   "Alle drei Elemente des Anfangs aufnehmen",
+   "Situation glaubwürdig entwickeln",
+   "Spannung aufbauen",
+   "Die Geschichte abschliessen"
+  ],
+  "anfang": "Erst nach der dritten Haltestelle merkte ich, dass ich im falschen Bus sass. Draussen zogen Häuser vorbei, die ich noch nie gesehen hatte. Mein Akku zeigte vier Prozent. Der Mann auf dem Sitz gegenüber sah mich an und lächelte, als hätte er auf diesen Moment gewartet."
+ },
+ {
+  "id": 64,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Sie sass auf meinem Platz",
+  "auftrag": "Erzähle die Geschichte aus der Sicht der Ich-Erzählerin oder des Ich-Erzählers weiter, sodass sie zum gesamten vorgegebenen Anfang passt. Im Laufe deines Textes muss nachvollziehbar werden, wer diese Person ist, was sich dadurch verändert und wie die Geschichte ausgeht.",
+  "teile": [
+   "In der Ich-Perspektive weitererzählen",
+   "Die neue Person einführen",
+   "Veränderung nachvollziehbar machen",
+   "Schluss, der zum Anfang passt"
+  ],
+  "anfang": "Sie sass auf meinem Platz. Nicht irgendwo im Zimmer, sondern genau dort, wo ich seit zwei Jahren jeden Morgen sass, links am Fenster, dritte Reihe. Niemand sagte etwas. Alle taten, als wäre das völlig normal, und vielleicht war es das für alle ausser für mich."
+ },
+ {
+  "id": 65,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Zwölf Minuten",
+  "auftrag": "Setze die Erzählung fort und schreibe die Geschichte zu Ende. Gehe auf die Elemente des Anfangs ein. Es muss nachvollziehbar werden, wie es zu dieser Lage gekommen ist, wie sich die beiden verhalten und wie die Geschichte ausgeht.",
+  "teile": [
+   "Elemente des Anfangs aufnehmen",
+   "Vorgeschichte einbauen",
+   "Verhalten der Figuren zeigen",
+   "Die Geschichte zu Ende erzählen"
+  ],
+  "anfang": "Zwölf Minuten. So lange dauerte es, bis ich begriff, dass wir nicht mehr zurückkonnten. Lena redete weiter, als wäre nichts, und ich nickte an den richtigen Stellen. Über uns knackte das Eis, ein Geräusch wie ein Ast, der bricht, nur viel weiter weg."
+ },
+ {
+  "id": 66,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Das Formular",
+  "auftrag": "Erzähle die Geschichte weiter. Gehe auf alle wichtigen inhaltlichen Elemente des Anfangs ein. Im Laufe deines Textes muss nachvollziehbar werden, was auf dem Formular steht, was seit gestern gilt und wie die Geschichte ausgeht.",
+  "teile": [
+   "Elemente des Anfangs aufnehmen",
+   "Inhalt des Formulars offenlegen",
+   "Konflikt entwickeln",
+   "Schluss gestalten"
+  ],
+  "anfang": "«Unterschreiben Sie hier», sagte die Frau hinter dem Schalter und schob mir ein Blatt zu. Ich las die Zeile über der Linie zweimal. «Das kann nicht stimmen», sagte ich. Sie sah mich an, ohne die Miene zu verziehen. «Doch. Das stimmt seit gestern.»"
+ },
+ {
+  "id": 67,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Der Hund vor der Tür",
+  "auftrag": "Setze die Erzählung fort. Gehe auf alle wichtigen Elemente des Anfangs ein. Es muss nachvollziehbar werden, warum die Mutter den Hund nicht sehen darf, wie sich die Sache entwickelt und wie die Geschichte ausgeht.",
+  "teile": [
+   "Elemente des Anfangs aufnehmen",
+   "Grund für das Verheimlichen nachvollziehbar machen",
+   "Handlung entwickeln",
+   "Die Geschichte abschliessen"
+  ],
+  "anfang": "Als ich am Montag von der Schule kam, sass der Hund wieder vor unserer Tür. Er gehörte niemandem im Haus, das hatten wir längst geklärt. Er hatte kein Halsband und keinen Namen, aber er hatte offenbar beschlossen, dass er hierher gehörte. Meine Mutter durfte ihn auf keinen Fall sehen."
+ },
+ {
+  "id": 68,
+  "slot": "erz",
+  "sorte": "Erzählung",
+  "titel": "Noch drei Stationen",
+  "auftrag": "Erzähle die Geschichte aus der Sicht der Ich-Erzählerin oder des Ich-Erzählers weiter, sodass sie zum gesamten vorgegebenen Anfang passt. Es muss nachvollziehbar werden, was gesagt werden muss, warum es so schwerfällt und wie die Geschichte ausgeht.",
+  "teile": [
+   "Ich-Perspektive konsequent durchhalten",
+   "Offenlegen, was gesagt werden muss",
+   "Zeigen, warum es schwerfällt",
+   "Ausgang der Geschichte erzählen"
+  ],
+  "anfang": "Noch drei Stationen, dann müsste ich es sagen. Ich hatte den Satz den ganzen Nachmittag geübt, im Kopf, immer wieder, und jetzt, wo es darauf ankam, war er weg. Neben mir zählte Samir die Fenster der Häuser, die vorbeizogen. Er wusste noch nichts."
+ },
+ {
+  "id": 69,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Morgens im Tram",
+  "auftrag": "Beschreibe zuerst genau, was auf dem Bild zu sehen ist. Erkläre danach, welche Botschaft das Bild hat und was dich daran interessiert. Erörtere anschliessend, was diese Art zu reisen mit uns macht, und begründe am Schluss, ob du damit einverstanden bist oder nicht.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Botschaft des Bildes erklären",
+   "Erörtern, was das mit uns macht",
+   "Begründet Stellung nehmen"
+  ],
+  "bild": "Ein Tram am frühen Morgen, gestochen scharf fotografiert. Vierzehn Personen sitzen und stehen dicht nebeneinander. Dreizehn von ihnen halten ein Handy in der Hand und blicken darauf hinunter; das Licht der Displays färbt ihre Gesichter blau. Eine ältere Frau am Fenster hält kein Gerät. Sie schaut nach draussen, wo es noch dunkel ist und sich die Innenbeleuchtung des Wagens in der Scheibe spiegelt. Niemand spricht."
+ },
+ {
+  "id": 70,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Der letzte Baum",
+  "auftrag": "Beschreibe genau, was du auf dem Bild siehst. Erläutere danach, welche Botschaft das Bild vermittelt. Führe mit Beispielen aus, was die Natur allgemein für uns Menschen bedeutet, und nimm am Schluss Stellung.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Botschaft erläutern",
+   "Bedeutung der Natur mit Beispielen ausführen",
+   "Stellung nehmen"
+  ],
+  "bild": "Eine Luftaufnahme eines Hügels. Der grösste Teil der Fläche ist gerodet: braune Erde, Reifenspuren, gestapelte Baumstämme am linken Bildrand. In der Mitte steht ein einzelner alter Baum mit weit ausladender Krone, deutlich grösser als die Stümpfe um ihn herum. Sein Schatten fällt lang über die kahle Fläche. Am oberen Bildrand beginnt wieder dichter Wald."
+ },
+ {
+  "id": 71,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Zwei auf einer Bank",
+  "auftrag": "Beschreibe das Bild genau. Erkläre anschliessend, was zwischen den beiden Personen geschehen sein könnte und woran du das festmachst. Führe zum Schluss aus, was gutes Zuhören ausmacht, und begründe deine Überlegungen.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Deuten, was zwischen den Personen geschieht",
+   "Deutung am Bild belegen",
+   "Über gutes Zuhören nachdenken und begründen"
+  ],
+  "bild": "Eine Schwarz-Weiss-Fotografie: eine Parkbank, von der Seite aufgenommen. Links sitzt ein junger Mann, vorgebeugt, die Hände in der Luft, offensichtlich mitten im Reden. Rechts sitzt eine ältere Frau, zurückgelehnt, die Handtasche auf den Knien. Sie schaut ihn nicht an, sondern geradeaus, aber ihr Kopf ist leicht zu ihm geneigt. Zwischen beiden liegt eine halbe Armlänge Platz. Im Hintergrund verschwommen ein Kieselweg und eine Hecke."
+ },
+ {
+  "id": 72,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Der Flohmarkt",
+  "auftrag": "Beschreibe genau, was auf dem Bild zu sehen ist. Erkläre, was dich an diesem Bild interessiert. Erörtere anschliessend, warum Menschen Dinge weitergeben statt wegwerfen, und halte am Schluss deine eigene Meinung fest.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Eigenes Interesse am Bild erklären",
+   "Erörtern, warum Dinge weitergegeben werden",
+   "Eigene Meinung festhalten"
+  ],
+  "bild": "Ein Flohmarktstand an einem sonnigen Samstag. Auf einer Wolldecke am Boden liegen dicht an dicht: ein Paar Kinderschuhe, ein Stapel Bücher mit vergilbten Rücken, eine Nähmaschine, drei Kaffeetassen, ein Puppenkopf ohne Körper, Kabel. Eine Frau kniet und ordnet die Tassen neu. Ein Junge von etwa zehn Jahren hockt daneben und hält eine alte Kamera in beiden Händen, ganz nah vor dem Gesicht. Hinter ihnen laufen Leute vorbei, ohne stehen zu bleiben."
+ },
+ {
+  "id": 73,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Spuren im Schnee",
+  "auftrag": "Beschreibe das Bild genau. Erläutere danach, welche Botschaft es haben könnte. Führe im Hauptteil aus, was es bedeutet, wenn sich Wege von Menschen trennen, und begründe am Schluss deine Überlegungen an einem Beispiel.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Mögliche Botschaft erläutern",
+   "Ausführen, was das Trennen von Wegen bedeutet",
+   "Überlegungen an einem Beispiel begründen"
+  ],
+  "bild": "Eine Aufnahme von einer Anhöhe herab auf ein verschneites Feld. Zwei Reihen Fussspuren führen nebeneinander vom unteren Bildrand her ins Feld hinein. Etwa in der Bildmitte trennen sie sich: eine Spur führt weiter geradeaus auf einen Waldrand zu, die andere biegt scharf nach rechts ab und verliert sich hinter einer Kuppe. Es schneit leicht, die älteren Abdrücke sind bereits weicher als die neueren."
+ },
+ {
+  "id": 74,
+  "slot": "bild",
+  "sorte": "Beschreibung",
+  "titel": "Vor dem Regal",
+  "auftrag": "Beschreibe genau, was du auf dem Bild siehst. Erkläre, welche Wirkung das Bild auf dich hat und wie sie zustande kommt. Erörtere anschliessend, welche Bedeutung Lesen heute noch hat, und formuliere am Schluss deine Meinung.",
+  "teile": [
+   "Bild genau beschreiben",
+   "Wirkung erklären und am Bild belegen",
+   "Bedeutung des Lesens erörtern",
+   "Eigene Meinung formulieren"
+  ],
+  "bild": "Eine Fotografie in einer Bibliothek. Ein Bücherregal reicht vom Boden bis unter die Decke, die obersten Reihen sind ohne Leiter unerreichbar. Davor steht ein Mädchen von vielleicht acht Jahren, den Kopf weit in den Nacken gelegt, ein einzelnes Buch an die Brust gedrückt. Neben ihr steht ein Rollwagen mit zurückgegebenen Büchern. Das Licht fällt schräg von einem hohen Fenster links ein und legt einen hellen Streifen über die unteren Regalbretter."
+ },
+ {
+  "id": 75,
+  "slot": "ref",
+  "sorte": "Schreibauftrag",
+  "titel": "Ein Tag ohne Bildschirm",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Ein Tag ohne Bildschirm». Führe in der Einleitung persönlich ans Thema heran, indem du auf einen konkreten Tag eingehst, an dem du längere Zeit ohne Handy und Bildschirm ausgekommen bist (rund 50 Wörter). Beschreibe im Hauptteil, was dir an diesem Tag gefehlt hat und was dir stattdessen aufgefallen ist; erkläre anschliessend, woran das gelegen haben könnte (rund 250 Wörter). Ziehe im Schlussteil eine persönliche Lehre und runde den Text ab (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: einen konkreten Tag schildern (ca. 50 Wörter)",
+   "Hauptteil: beschreiben, was gefehlt hat und was aufgefallen ist",
+   "Hauptteil: erklären, woran das gelegen haben könnte (zusammen ca. 250 Wörter)",
+   "Schluss: persönliche Lehre ziehen (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 76,
+  "slot": "erz",
+  "sorte": "Schreibauftrag",
+  "titel": "Als ich zum ersten Mal allein unterwegs war",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Als ich zum ersten Mal allein unterwegs war». Führe in der Einleitung ans Thema heran, indem du kurz schilderst, wohin du gefahren bist und weshalb (rund 50 Wörter). Erzähle im Hauptteil, was unterwegs geschehen ist, und beschreibe, wie du dich dabei gefühlt hast; erkläre anschliessend, was dir Sicherheit gegeben hat (rund 250 Wörter). Halte im Schlussteil fest, was dieser Tag verändert hat (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: Ziel und Anlass nennen (ca. 50 Wörter)",
+   "Hauptteil: erzählen, was unterwegs geschah",
+   "Hauptteil: beschreiben, was Sicherheit gegeben hat (zusammen ca. 250 Wörter)",
+   "Schluss: festhalten, was sich verändert hat (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 77,
+  "slot": "arg",
+  "sorte": "Schreibauftrag",
+  "titel": "Was ich an meinem Wohnort verändern würde",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Was ich an meinem Wohnort verändern würde». Führe in der Einleitung ans Thema heran, indem du eine Stelle in deinem Dorf oder Quartier beschreibst, die dich stört (rund 50 Wörter). Erkläre im Hauptteil, warum sie dich stört und wen es sonst noch betrifft; schlage anschliessend eine konkrete Veränderung vor und begründe sie (rund 250 Wörter). Wäge im Schlussteil kurz ab, was gegen deinen Vorschlag sprechen könnte, und runde den Text ab (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: die störende Stelle beschreiben (ca. 50 Wörter)",
+   "Hauptteil: erklären, warum sie stört und wen es betrifft",
+   "Hauptteil: eine konkrete Veränderung vorschlagen und begründen (zusammen ca. 250 Wörter)",
+   "Schluss: einen Einwand nennen und abrunden (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 78,
+  "slot": "ref",
+  "sorte": "Schreibauftrag",
+  "titel": "Die Entscheidung, die mir schwerfiel",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Die Entscheidung, die mir schwerfiel». Führe in der Einleitung persönlich ans Thema heran, indem du die Situation nennst, in der du dich entscheiden musstest (rund 50 Wörter). Beschreibe im Hauptteil die beiden Möglichkeiten, zwischen denen du gewählt hast, und erkläre, was für die eine und was für die andere sprach; halte anschliessend fest, wofür du dich entschieden hast und warum (rund 250 Wörter). Beurteile im Schlussteil rückblickend, ob es die richtige Wahl war (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: die Situation nennen (ca. 50 Wörter)",
+   "Hauptteil: beide Möglichkeiten mit ihren Gründen beschreiben",
+   "Hauptteil: die getroffene Wahl begründen (zusammen ca. 250 Wörter)",
+   "Schluss: rückblickend beurteilen (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 79,
+  "slot": "ref",
+  "sorte": "Schreibauftrag",
+  "titel": "Der Rat, den ich weitergeben würde",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Der Rat, den ich weitergeben würde». Führe in der Einleitung ans Thema heran, indem du eine Person nennst, die dir einmal etwas Nützliches gesagt hat (rund 50 Wörter). Gib im Hauptteil diesen Rat wieder und erkläre, in welcher Lage du damals warst; beschreibe anschliessend, wem du ihn heute weitergeben würdest und weshalb gerade dieser Person (rund 250 Wörter). Halte im Schlussteil fest, was einen guten Rat ausmacht (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: die Person nennen (ca. 50 Wörter)",
+   "Hauptteil: den Rat und die damalige Lage schildern",
+   "Hauptteil: erklären, wem du ihn heute weitergäbest (zusammen ca. 250 Wörter)",
+   "Schluss: festhalten, was einen guten Rat ausmacht (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 80,
+  "slot": "erz",
+  "sorte": "Schreibauftrag",
+  "titel": "Ein Streit und was danach kam",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Ein Streit und was danach kam». Führe in der Einleitung ans Thema heran, indem du kurz schilderst, worum es im Streit ging (rund 50 Wörter). Beschreibe im Hauptteil, wie der Streit verlief und was die andere Person dabei empfunden haben mag; erkläre anschliessend, wie es danach weiterging und was du heute anders sagen würdest (rund 250 Wörter). Ziehe im Schlussteil eine persönliche Lehre (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: den Anlass des Streits schildern (ca. 50 Wörter)",
+   "Hauptteil: den Verlauf und die Sicht der anderen Person beschreiben",
+   "Hauptteil: erklären, wie es weiterging und was du heute anders sagen würdest (zusammen ca. 250 Wörter)",
+   "Schluss: eine persönliche Lehre ziehen (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 81,
+  "slot": "ref",
+  "sorte": "Schreibauftrag",
+  "titel": "Was Zuhören verändert",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Was Zuhören verändert». Führe in der Einleitung persönlich ans Thema heran, indem du eine Situation nennst, in der dir jemand wirklich zugehört hat (rund 50 Wörter). Beschreibe im Hauptteil, woran du gemerkt hast, dass die Person zuhört, und erkläre, was das bei dir bewirkt hat; überlege anschliessend, warum echtes Zuhören selten geworden ist (rund 250 Wörter). Runde den Text im Schlussteil mit einem Vorsatz für dich selbst ab (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: eine konkrete Situation nennen (ca. 50 Wörter)",
+   "Hauptteil: beschreiben, woran man Zuhören merkt, und was es bewirkt",
+   "Hauptteil: überlegen, warum es selten geworden ist (zusammen ca. 250 Wörter)",
+   "Schluss: einen Vorsatz formulieren (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 82,
+  "slot": "arg",
+  "sorte": "Schreibauftrag",
+  "titel": "Wenn das Handy in der Box liegt",
+  "auftrag": "Schreibe einen zusammenhängenden, klar aufgebauten Text mit dem Titel «Wenn das Handy in der Box liegt». Führe in der Einleitung ans Thema heran, indem du beschreibst, wie an deiner Schule mit dem Handy umgegangen wird (rund 50 Wörter). Erkläre im Hauptteil, was sich ändert, wenn die Geräte während des Unterrichts eingesammelt werden, und was dabei verloren geht; wäge anschliessend ab, welche der beiden Wirkungen schwerer wiegt (rund 250 Wörter). Nimm im Schlussteil begründet Stellung (rund 50 Wörter).",
+  "teile": [
+   "Einleitung: die Handhabung an deiner Schule beschreiben (ca. 50 Wörter)",
+   "Hauptteil: Wirkungen und Verluste erklären",
+   "Hauptteil: abwägen, was schwerer wiegt (zusammen ca. 250 Wörter)",
+   "Schluss: begründet Stellung nehmen (ca. 50 Wörter)"
+  ]
+ },
+ {
+  "id": 83,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Der leere Pausenplatz",
+  "auftrag": "Stell dir folgendes Bild vor: Ein Pausenplatz an einem Montagmorgen, kurz nach acht. Der Platz ist leer bis auf eine Bank, auf der eine Schultasche steht, offen, mit einer Trinkflasche daneben. Im Hintergrund die geschlossene Eingangstür des Schulhauses, davor ein Basketballkorb ohne Netz. Auf dem Asphalt liegen Kreidereste eines Spielfelds, halb weggeregnet. Niemand ist zu sehen.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Vom Auffälligsten zum Nebensächlichen. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige zum Schluss mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Ein leerer Pausenplatz am Montagmorgen. Auf einer Bank steht eine offene Schultasche mit einer Trinkflasche daneben. Im Hintergrund die geschlossene Schulhaustür und ein Basketballkorb ohne Netz. Auf dem Asphalt halb weggeregnete Kreidereste eines Spielfelds. Kein Mensch ist zu sehen."
+ },
+ {
+  "id": 84,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Rucksäcke am Perron",
+  "auftrag": "Stell dir folgendes Bild vor: Ein Perron am frühen Abend. Sieben junge Leute stehen dicht beieinander, alle mit grossen Rucksäcken. Sechs von ihnen schauen auf ihr Handy, eine Person hält eine gefaltete Papierkarte und blickt auf die Anzeigetafel. Auf der Tafel steht in roter Schrift eine Verspätung. Am Rand des Bildes sitzt ein älterer Mann auf seinem Koffer und beobachtet die Gruppe.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Ein Perron am frühen Abend. Sieben junge Leute mit grossen Rucksäcken stehen dicht beieinander; sechs schauen aufs Handy, eine Person hält eine Papierkarte und blickt zur Anzeigetafel, auf der eine Verspätung in roter Schrift steht. Am Bildrand sitzt ein älterer Mann auf seinem Koffer und beobachtet die Gruppe."
+ },
+ {
+  "id": 85,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Zwei Velos im Regen",
+  "auftrag": "Stell dir folgendes Bild vor: Ein Veloständer vor einem Einkaufszentrum bei Regen. Zwei Velos stehen darin, beide sorgfältig angeschlossen. Rundherum ist der Ständer leer; auf dem Parkplatz dahinter reihen sich die Autos bis zum Bildrand. Über dem Veloständer hängt kein Dach, über dem Eingang für die Autos schon. Eine Person in Regenjacke schliesst gerade ihr Velo auf.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Ein Veloständer vor einem Einkaufszentrum bei Regen, darin nur zwei angeschlossene Velos. Dahinter ein voller Autoparkplatz bis zum Bildrand. Über dem Veloständer fehlt ein Dach, über dem Autoeingang gibt es eines. Eine Person in Regenjacke schliesst ihr Velo auf."
+ },
+ {
+  "id": 86,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Das Regal im Brockenhaus",
+  "auftrag": "Stell dir folgendes Bild vor: Ein Regal in einem Brockenhaus, von oben bis unten gefüllt mit Geräten: drei Kaffeemaschinen, ein Radio, zwei Drucker, ein Staubsauger, mehrere Handys in einer Kiste. An jedem Gerät klebt ein handgeschriebener Preiszettel. Auf dem obersten Brett steht ein Schild mit der Aufschrift «alles funktioniert». Vor dem Regal steht eine Frau mit verschränkten Armen und schaut hinauf.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Ein volles Regal in einem Brockenhaus: drei Kaffeemaschinen, ein Radio, zwei Drucker, ein Staubsauger, Handys in einer Kiste, jedes Gerät mit handgeschriebenem Preiszettel. Zuoberst ein Schild «alles funktioniert». Davor eine Frau mit verschränkten Armen, die hinaufschaut."
+ },
+ {
+  "id": 87,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Baustelle vor dem Schulhaus",
+  "auftrag": "Stell dir folgendes Bild vor: Vor einem Schulhaus ist die Strasse aufgerissen. Ein Bauzaun trennt den Gehweg ab, ein Pfeil auf einem gelben Schild weist auf einen Umweg über den Parkplatz. Zwei Kinder mit Leuchtwesten stehen vor dem Zaun und schauen nach links und rechts. Hinter ihnen wartet eine Reihe Autos mit laufendem Motor. Auf dem Bauzaun hängt ein Plakat, auf dem «Fertigstellung im Frühling» steht; die Jahreszahl ist überklebt.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Vor einem Schulhaus ist die Strasse aufgerissen. Ein Bauzaun trennt den Gehweg ab, ein gelbes Schild weist auf einen Umweg über den Parkplatz. Zwei Kinder mit Leuchtwesten stehen vor dem Zaun und schauen nach beiden Seiten. Dahinter eine Reihe wartender Autos mit laufendem Motor. Auf dem Zaun ein Plakat «Fertigstellung im Frühling», die Jahreszahl überklebt."
+ },
+ {
+  "id": 88,
+  "slot": "bild",
+  "sorte": "Bildimpuls",
+  "titel": "Der letzte Schnee",
+  "auftrag": "Stell dir folgendes Bild vor: Ein Skilift Ende Februar. Vom Hang zieht sich ein schmales weisses Band bis ins Tal, links und rechts davon braune Wiese. Auf dem Band fahren einzelne Personen hintereinander abwärts. Am Rand steht eine Schneekanone, an ihrem Schlauch hat sich eine Pfütze gebildet. Auf einem Schild am Liftmast steht der Preis für die Tageskarte.\n\nBeschreibe zuerst genau, was auf dem Bild zu sehen ist. Deute anschliessend, welche Problematik das Bild anspricht. Nimm danach begründet Stellung und zeige mögliche Lösungen auf. Gib deinem Text einen passenden Titel.",
+  "teile": [
+   "Das Bild genau beschreiben, geordnet vom Auffälligsten her",
+   "Deuten: welche Problematik spricht das Bild an?",
+   "Begründet Stellung nehmen",
+   "Lösungsmöglichkeiten aufzeigen",
+   "Einen passenden Titel setzen"
+  ],
+  "bild": "Ein Skilift Ende Februar: ein schmales weisses Schneeband zieht sich vom Hang ins Tal, links und rechts braune Wiese. Einzelne Personen fahren hintereinander abwärts. Am Rand eine Schneekanone mit einer Pfütze am Schlauch. Auf einem Schild am Liftmast der Preis für die Tageskarte."
+ },
+ {
+  "id": 89,
+  "slot": "ref",
+  "sorte": "Brief",
+  "titel": "Brief an eine jüngere Person vor dem Schulwechsel",
+  "auftrag": "Eine Person aus deiner Nachbarschaft wechselt nach den Sommerferien in die Sekundarstufe und hat Angst davor. Schreibe ihr einen Brief. Wähle eine Anrede, die zu ihr passt, und nenne im ersten Satz den Anlass. Gehe zuerst auf ihre Lage ein und zeige, dass du sie ernst nimmst. Gib ihr danach drei konkrete Tipps für die ersten Wochen und begründe jeden kurz. Schliesse mit einem Gruss, der zu deinem Ton passt.",
+  "teile": [
+   "Anrede und Anlass nennen",
+   "Auf die Lage der Person eingehen",
+   "Drei konkrete Tipps geben und begründen",
+   "Passenden Schluss und Gruss schreiben"
+  ]
+ },
+ {
+  "id": 90,
+  "slot": "arg",
+  "sorte": "Brief",
+  "titel": "E-Mail an die Schulleitung: die Mittagspause",
+  "auftrag": "An deiner Schule ist die Mittagspause auf vierzig Minuten verkürzt worden. Schreibe eine E-Mail an die Schulleitung. Nenne im Betreff und in der Anrede sachlich, worum es geht. Beschreibe zuerst, welche Folgen die kürzere Pause für dich und deine Klasse hat. Mache anschliessend einen konkreten Vorschlag und begründe ihn mit mindestens zwei Argumenten. Bleibe höflich und sachlich und schliesse mit einer angemessenen Grussformel.",
+  "teile": [
+   "Betreff und Anrede sachlich formulieren",
+   "Die Folgen der Verkürzung beschreiben",
+   "Einen konkreten Vorschlag machen",
+   "Mit zwei Argumenten begründen",
+   "Höflich schliessen"
+  ]
+ },
+ {
+  "id": 91,
+  "slot": "erz",
+  "sorte": "Brief",
+  "titel": "Brief an die Grosseltern über das Klassenlager",
+  "auftrag": "Du bist aus dem Klassenlager zurück. Schreibe einen Brief an deine Grosseltern, die wissen möchten, wie es war. Wähle eine passende Anrede und nenne den Anlass. Erzähle zuerst von einem Tag, der dir besonders in Erinnerung geblieben ist, und beschreibe ihn so, dass sie ihn vor sich sehen. Erkläre danach, was du im Lager über dich selbst gelernt hast. Schliesse mit einem persönlichen Gruss.",
+  "teile": [
+   "Anrede und Anlass nennen",
+   "Einen einzelnen Tag anschaulich erzählen",
+   "Erklären, was du über dich gelernt hast",
+   "Persönlichen Schluss und Gruss schreiben"
+  ]
+ },
+ {
+  "id": 92,
+  "slot": "ref",
+  "sorte": "Brief",
+  "titel": "E-Mail an einen Verein: eine Absage",
+  "auftrag": "Du hast zwei Jahre lang in einem Verein mitgemacht und möchtest aufhören. Schreibe eine E-Mail an die Leitung. Nenne in der Anrede und im ersten Satz klar den Anlass. Bedanke dich zuerst für die Zeit und nenne etwas Konkretes, das dir dort gefallen hat. Erkläre danach ehrlich und sachlich, warum du aufhörst. Biete zum Schluss an, was du noch übergeben oder zurückbringen willst, und schliesse höflich.",
+  "teile": [
+   "Anrede und Anlass klar nennen",
+   "Sich bedanken und Konkretes nennen",
+   "Den Grund sachlich erklären",
+   "Übergabe anbieten und höflich schliessen"
+  ]
+ },
+ {
+  "id": 93,
+  "slot": "ref",
+  "sorte": "Brief",
+  "titel": "Brief an eine Freundin, die aufhören will",
+  "auftrag": "Eine Freundin oder ein Freund trainiert seit Jahren in einem Sportverein und will nun aufhören, weil es zu viel neben der Schule ist. Schreibe einen Brief. Nenne in der Anrede und im ersten Satz den Anlass. Gehe zuerst auf die Lage ein und zeige, dass du sie verstehst, ohne sofort zu widersprechen. Nenne danach zwei Möglichkeiten, wie es weitergehen könnte, und sage begründet, welche du empfiehlst. Schliesse so, dass die Entscheidung bei ihr bleibt.",
+  "teile": [
+   "Anrede und Anlass nennen",
+   "Auf die Lage eingehen, ohne sofort zu widersprechen",
+   "Zwei Möglichkeiten nennen",
+   "Begründet eine empfehlen",
+   "So schliessen, dass die Entscheidung bei ihr bleibt"
+  ]
+ },
+ {
+  "id": 94,
+  "slot": "arg",
+  "sorte": "Brief",
+  "titel": "E-Mail an die Gemeinde: ein Treffpunkt für Jugendliche",
+  "auftrag": "In deiner Gemeinde gibt es keinen Ort, an dem sich Jugendliche am Abend aufhalten können. Schreibe eine E-Mail an die Gemeindeverwaltung. Nenne Betreff und Anlass sachlich. Beschreibe zuerst die heutige Lage und wo sich Jugendliche stattdessen treffen. Mache anschliessend einen konkreten Vorschlag, was, wo, für wen, und begründe ihn. Gehe kurz auf einen möglichen Einwand ein und schliesse höflich.",
+  "teile": [
+   "Betreff und Anlass sachlich nennen",
+   "Die heutige Lage beschreiben",
+   "Einen konkreten Vorschlag machen und begründen",
+   "Auf einen Einwand eingehen",
+   "Höflich schliessen"
+  ]
+ },
+ {
+  "id": 95,
+  "slot": "ref",
+  "sorte": "Brief",
+  "titel": "Brief an dich selbst in fünf Jahren",
+  "auftrag": "Schreibe einen Brief an dich selbst, der in fünf Jahren geöffnet wird. Beginne mit einer Anrede und nenne den Anlass, aus dem du gerade schreibst. Beschreibe zuerst, wie dein Leben heute aussieht. Schule, Alltag, das, was dich beschäftigt. Halte danach fest, was du dir für die fünf Jahre vorgenommen hast, und begründe, warum gerade das. Stelle zum Schluss zwei Fragen an dein späteres Ich und verabschiede dich.",
+  "teile": [
+   "Anrede und Anlass nennen",
+   "Das heutige Leben beschreiben",
+   "Vorhaben festhalten und begründen",
+   "Zwei Fragen an das spätere Ich stellen",
+   "Sich verabschieden"
+  ]
+ },
+ {
+  "id": 96,
+  "slot": "ref",
+  "sorte": "Brief",
+  "titel": "E-Mail an einen Betrieb: Anfrage für eine Schnupperlehre",
+  "auftrag": "Du möchtest in einem Betrieb schnuppern, den du im Internet gefunden hast. Schreibe eine E-Mail. Formuliere einen aussagekräftigen Betreff und eine Anrede, auch wenn du keinen Namen kennst. Nenne zuerst kurz, wer du bist und in welcher Klasse du bist. Erkläre danach, warum dich gerade dieser Beruf interessiert, und nenne etwas Konkretes, das du schon darüber weisst. Frage im dritten Teil nach einem möglichen Zeitraum und schliesse förmlich.",
+  "teile": [
+   "Betreff und Anrede formulieren",
+   "Sich kurz vorstellen",
+   "Das Interesse am Beruf begründen",
+   "Nach einem Zeitraum fragen",
+   "Förmlich schliessen"
+  ]
+ },
+ {
+  "id": 97,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Hausaufgaben abschaffen?",
+  "auftrag": "An immer mehr Schulen wird darüber diskutiert, Hausaufgaben abzuschaffen und die Übungszeit stattdessen in den Stundenplan zu legen. Erörtere die Frage, ob das sinnvoll wäre. Führe in der Einleitung an das Thema heran und kläre, was mit «abschaffen» genau gemeint sein könnte. Führe im Hauptteil die Argumente beider Seiten aus, je mit Begründung und Beispiel. Nimm anschliessend begründet Stellung und ziehe im Schluss ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 98,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Soziale Netzwerke erst ab sechzehn?",
+  "auftrag": "Mehrere Länder prüfen, den Zugang zu sozialen Netzwerken erst ab sechzehn Jahren zu erlauben. Erörtere, ob eine solche Altersgrenze sinnvoll ist. Führe in der Einleitung an das Thema heran und kläre, was eine Altersgrenze in der Praxis bedeuten würde. Führe im Hauptteil die Argumente dafür und dagegen aus, je mit Begründung und Beispiel. Nimm danach begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 99,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Ein Sozialjahr für alle?",
+  "auftrag": "Es wird vorgeschlagen, dass alle jungen Menschen nach der Schule ein Jahr lang in einem sozialen Bereich arbeiten, in der Pflege, im Umweltschutz oder in der Betreuung. Erörtere, ob eine solche Pflicht eingeführt werden soll. Kläre in der Einleitung, was «Pflicht» hier bedeuten würde und wen sie beträfe. Führe im Hauptteil beide Seiten aus, je mit Begründung und Beispiel. Nimm begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 100,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "«Wer nichts zu verbergen hat …»",
+  "auftrag": "Zur Diskussion über Überwachung im öffentlichen Raum hört man oft den Satz: «Wer nichts zu verbergen hat, muss Überwachung nicht fürchten.» Erörtere, ob dieser Satz überzeugt. Kläre in der Einleitung, was der Satz behauptet und was er stillschweigend voraussetzt. Führe im Hauptteil die Gründe aus, die für ihn sprechen, und danach die Gegengründe, je mit Begründung und Beispiel. Nimm begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 101,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Uniformen an der Schule?",
+  "auftrag": "Immer wieder wird vorgeschlagen, an Schulen eine einheitliche Kleidung einzuführen. Erörtere, ob das sinnvoll wäre. Kläre in der Einleitung, was mit einheitlicher Kleidung gemeint sein kann, von der vollen Uniform bis zu einzelnen Vorgaben. Führe im Hauptteil beide Seiten aus, je mit Begründung und Beispiel. Nimm danach begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 102,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Gratis unterwegs mit dem öffentlichen Verkehr?",
+  "auftrag": "Es wird gefordert, dass Jugendliche bis achtzehn den öffentlichen Verkehr gratis benutzen dürfen. Erörtere, ob das eingeführt werden soll. Kläre in der Einleitung, wer davon betroffen wäre und wer die Kosten trüge. Führe im Hauptteil die Argumente beider Seiten aus, je mit Begründung und Beispiel. Nimm anschliessend begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 103,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "Ein Austauschjahr während der Schulzeit?",
+  "auftrag": "Manche Jugendliche verbringen ein Jahr der Schulzeit in einer anderen Sprachregion oder im Ausland und verlieren dabei ein Schuljahr. Erörtere, ob sich das lohnt. Kläre in der Einleitung, was ein solches Jahr umfasst und was es kostet, an Zeit wie an Geld. Führe im Hauptteil beide Seiten aus, je mit Begründung und Beispiel. Nimm begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 104,
+  "slot": "arg",
+  "sorte": "Erörterung",
+  "titel": "«Man muss nichts mehr auswendig lernen»",
+  "auftrag": "Seit jede Information in Sekunden abrufbar ist, hört man den Satz: «Auswendiglernen ist überflüssig geworden.» Erörtere, ob das stimmt. Kläre in der Einleitung, was mit Auswendiglernen gemeint ist und wovon der Satz ausgeht. Führe im Hauptteil die Gründe dafür und dagegen aus, je mit Begründung und Beispiel. Nimm begründet Stellung und ziehe ein Fazit. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: ans Thema und an die Fragestellung heranführen",
+   "Klären, wie du die Frage verstehst",
+   "Argumente der einen Seite mit Begründung und Beispiel",
+   "Argumente der Gegenseite, ebenso ernst genommen",
+   "Begründet Stellung nehmen",
+   "Schluss: ein Fazit ziehen und einen prägnanten Titel setzen"
+  ]
+ },
+ {
+  "id": 105,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Das Wartezimmer",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nIm Wartezimmer hing eine Uhr ohne Zeiger. Sie hatte immer dort gehangen, sagte die Frau am Empfang, und niemand habe je gefragt, warum. Neben mir sass ein Mann, der alle zwei Minuten aufstand, zum Fenster ging und sich wieder setzte. Beim vierten Mal blieb er stehen und sagte: «Draussen wird es hell.» Es war halb acht am Abend. Ich schaute hinaus. Über dem Parkplatz ging eine Laterne an, dann die zweite, dann die dritte, bis der ganze Platz in einem gelben Licht lag, das aussah wie Morgen. Der Mann setzte sich, faltete die Hände und wartete weiter. Ich sah zur Uhr hinüber. Sie zeigte nichts an und ging trotzdem hörbar.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Erzählweise, die Bilder und den Aufbau: Wie wird die Zeit im Text dargestellt, und was bewirkt der Schlusssatz? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 106,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Der Umzug",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nWir trugen die Kisten hinunter, eine nach der anderen, und mit jeder wurde die Wohnung lauter. Zuletzt stand nur noch der Küchentisch da, an dem ich zwölf Jahre lang gegessen hatte. Mein Vater klopfte mit dem Knöchel auf die Platte, so wie er es immer getan hatte, wenn etwas entschieden war. «Der bleibt», sagte er. «Der gehört zur Wohnung.» Ich fragte, seit wann. Er antwortete nicht, sondern hob seine Seite an, und wir stellten den Tisch zurück an seinen Platz, genau in die vier hellen Vierecke, die der Boden sich gemerkt hatte. Dann schloss er die Tür ab und gab mir den Schlüssel, damit ich ihn in den Briefkasten werfe.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Erzählweise, die Bilder und den Aufbau: Was sagen die Gegenstände über die Figuren, und warum bleibt vieles ungesagt? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 107,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Die Bank am Fluss",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nAuf der Bank am Fluss stand seit Jahren ein Name eingeritzt, und daneben eine Jahreszahl, die niemand mehr las. Im Sommer sassen dort die Jungen, im Winter niemand. Einmal kam eine alte Frau, setzte sich genau auf den Namen und blieb bis zum Dunkelwerden. Sie hatte nichts dabei, kein Buch, keine Tasche, nur einen Mantel, der ihr zu gross war. Als sie ging, fuhr sie mit dem Daumen einmal über die Kerben, wie man über eine Narbe fährt. Am nächsten Morgen war die Bank frisch gestrichen. Der Name war noch da, jetzt unter der Farbe, als Erhebung, die man nur noch mit den Fingern fand.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Erzählweise, die Bilder und den Aufbau: Was bedeutet die frische Farbe, und wie verändert sie den Namen? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 108,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Novembermorgen",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nNovembermorgen\n\nDer Nebel steht bis an die Fenster,\nund was er nimmt, gibt er nicht zurück:\ndas Dach gegenüber, den Kirchturm, den Wald.\n\nWer hinausgeht, hört sich selber gehen.\nDrei Schritte weit ist die Welt vollständig,\nvier Schritte weit beginnt sie zu fehlen.\n\nAm Mittag reisst es auf, ganz kurz,\nund alles steht noch da, wo es gestanden hat,\nals hätte man es nie gebraucht, das Zusehen.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Bilder, den Aufbau der drei Strophen und die Sprache: Was geschieht in der letzten Zeile, und wie bereiten die ersten beiden Strophen sie vor? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 109,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Der Anruf",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nDas Telefon läutete um zwanzig nach elf. Meine Mutter nahm ab, sagte zweimal ja und einmal nein und legte auf. Dann ging sie in die Küche und begann, den Abwasch zu machen, den sie am Abend hatte stehen lassen. Ich stand in der Tür und wartete darauf, dass sie etwas sagte. Sie wusch jeden Teller einzeln, hielt ihn gegen das Licht und stellte ihn ab. Beim letzten drehte sie den Hahn zu, trocknete sich die Hände und sagte: «Morgen fahren wir hin.» Ich fragte nicht, wohin. Es war das erste Mal, dass ich etwas nicht wissen wollte.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Erzählweise, die Bilder und den Aufbau: Welche Rolle spielt das Abwaschen, und was leistet der letzte Satz? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 110,
+  "slot": "ref",
+  "sorte": "Interpretation",
+  "titel": "Fundbüro",
+  "auftrag": "Der folgende kurze Text ist eigens für diese Übung geschrieben worden; eine Verfasserin oder ein Verfasser wird nicht genannt.\n\nIm Fundbüro lagen die Dinge nach Wochen geordnet. Regal drei war der letzte November: vierzehn Handschuhe, alle einzeln, ein Schlüsselbund mit einem Anhänger in Form eines Hundes, eine Brille mit einem gesprungenen Glas. Der Mann hinter dem Schalter sagte, das Meiste hole niemand ab. Nach einem halben Jahr komme es weg. Ich fragte, ob es Dinge gebe, die jemand jedes Jahr wieder verliere. Er dachte nach und sagte: «Die Schirme kommen im Frühling und die Mützen im Frühling auch. Man verliert, was man nicht mehr braucht.» Dann schob er mir das Formular hin und wartete, dass ich beschrieb, was mir fehlte.\n\nSchreibe eine Interpretation für jemanden, der den Text nicht kennt. Führe in der Einleitung kurz in den Text ein. Lege danach dein Textverständnis dar und belege es mit Kurzzitaten und eigenen Worten. Untersuche anschliessend die Erzählweise, die Bilder und den Aufbau: Wie wirkt die Aufzählung im Anfang, und was bedeutet der Satz des Mannes über das Verlieren? Deute zum Schluss, worauf der Text hinausläuft, und fasse deine Deutung zusammen. Gib deinem Text einen prägnanten Titel.",
+  "teile": [
+   "Einleitung: kurz in den Text einführen",
+   "Textverständnis darlegen, mit Kurzzitaten belegt",
+   "Auffällige Aspekte untersuchen: Erzählweise, Bilder, Sprache, Aufbau",
+   "Deuten, worauf der Text hinausläuft",
+   "Schluss, der die Deutung zusammenfasst, und ein prägnanter Titel"
+  ]
+ },
+ {
+  "id": 111,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Handys in der Schulzeit",
+  "auftrag": "An deiner Schule wird darüber abgestimmt, ob die Handys während der ganzen Schulzeit in einer Box abgegeben werden sollen. Halte vor der Schülerinnen- und Schülerorganisation ein Votum. Sprich die Anwesenden an, nenne den Sachverhalt und beziehe klar Stellung. Begründe deine Haltung mit mindestens zwei Argumenten und je einem Beispiel. Gehe auf mindestens einen Einwand der Gegenseite ein und schliesse mit einem Appell.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 112,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Ein Mittagstisch für alle",
+  "auftrag": "Deine Gemeinde erwägt, an der Schule einen günstigen Mittagstisch einzuführen. Er würde von allen Steuerzahlenden mitfinanziert. Halte an der Gemeindeversammlung ein Votum. Sprich die Anwesenden an, schildere kurz die heutige Lage und nimm klar Stellung. Begründe mit zwei Argumenten und je einem Beispiel, gehe auf einen Einwand ein und schliesse mit einem Fazit.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 113,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Weniger Hausaufgaben",
+  "auftrag": "Eine Lehrperson schlägt vor, die Hausaufgaben zu streichen und die Übungszeit in den Stundenplan zu legen. Halte vor deiner Klasse ein Votum dazu. Sprich deine Mitschülerinnen und Mitschüler an, nenne den Vorschlag und beziehe Stellung. Führe zwei Argumente aus, entkräfte einen Einwand und schliesse mit einem Appell an die Klasse.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 114,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Ein Verbot für Motorfahrzeuge im Dorfkern",
+  "auftrag": "Der Gemeinderat will den Dorfkern für Motorfahrzeuge sperren. Halte an der Einwohnerversammlung ein Votum. Sprich die Anwesenden an, beschreibe die heutige Verkehrslage und nimm klar Stellung. Begründe mit zwei Argumenten und je einem Beispiel, gehe auf die Bedenken der Gewerbetreibenden ein und schliesse mit einem Appell.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 115,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Uniformen an unserer Schule",
+  "auftrag": "An deiner Schule wird über einheitliche Kleidung diskutiert. Halte vor dem Elternrat ein Votum. Sprich die Anwesenden an, kläre kurz, was mit einheitlicher Kleidung gemeint sein kann, und nimm klar Stellung. Begründe mit zwei Argumenten, nimm einen Gegeneinwand ernst und schliesse mit einem Fazit.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 116,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Das Schulhaus als Quartiertreffpunkt",
+  "auftrag": "Das Schulhaus soll am Abend und am Wochenende für das Quartier geöffnet werden. Halte an einer Quartierversammlung ein Votum. Sprich die Anwesenden an, schildere den Vorschlag und beziehe Stellung. Führe zwei Argumente mit Beispielen aus, gehe auf die Sorge um Lärm und Schäden ein und schliesse mit einem Appell.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 117,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Wählen ab sechzehn",
+  "auftrag": "In mehreren Kantonen wird darüber abgestimmt, das Stimmrechtsalter auf sechzehn zu senken. Halte vor einer Jugendsession ein Votum. Sprich die Anwesenden an, nenne die Vorlage und beziehe klar Stellung. Begründe mit zwei Argumenten und je einem Beispiel, nimm den Einwand mangelnder Erfahrung ernst und schliesse mit einem Fazit.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 118,
+  "slot": "arg",
+  "sorte": "Votum",
+  "titel": "Kein Fleisch mehr in der Schulmensa",
+  "auftrag": "Die Schulleitung erwägt, in der Mensa an zwei Tagen pro Woche nur noch vegetarische Menüs anzubieten. Halte vor der Schulkommission ein Votum. Sprich die Anwesenden an, schildere den Vorschlag und nimm Stellung. Begründe mit zwei Argumenten, gehe auf den Einwand der Wahlfreiheit ein und schliesse mit einem Appell.",
+  "teile": [
+   "Anrede: die Angesprochenen benennen",
+   "Einstieg: den Sachverhalt nennen",
+   "Behauptung: die eigene Position in einem Satz",
+   "Begründung und Erläuterung, mit Beispiel",
+   "Fremde Haltungen ernst nehmen und dazu Stellung beziehen",
+   "Fazit oder Appell und ein Abschluss"
+  ]
+ },
+ {
+  "id": 119,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Ein Zwischenfall auf dem Schulweg",
+  "auftrag": "Auf dem Schulweg ist es zu einem Zwischenfall gekommen: Ein Velo und ein Trottinett sind zusammengestossen. Du hast alles beobachtet. Verfasse für die Schulleitung einen sachlichen Bericht. Beantworte in der Einleitung die Fragen Wer, Was, Wann und Wo. Schildere im Hauptteil den Ablauf in der zeitlichen Reihenfolge. Nenne mögliche Ursachen und die Folgen. Schreibe im Präteritum und ohne eigene Wertung.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 120,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Der Anlass, der beinahe ins Wasser fiel",
+  "auftrag": "Euer Schulfest wäre wegen eines Unwetters fast abgesagt worden. Verfasse für die Schülerzeitung einen sachlichen Bericht. Beantworte in der Einleitung die sechs W-Fragen. Schildere im Hauptteil, wie sich die Lage entwickelte und welche Entscheidungen getroffen wurden. Nenne Ursachen und Folgen und bleibe durchgehend sachlich.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 121,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Wasserschaden im Schulhaus",
+  "auftrag": "In der Turnhalle ist in der Nacht ein Rohr geplatzt. Am Morgen stand das Wasser knöcheltief. Verfasse für die Gemeinde einen sachlichen Bericht. Nenne in der Einleitung Wer, Was, Wann und Wo. Beschreibe im Hauptteil den Ablauf, nenne die Ursache und die Folgen für den Unterricht. Verzichte auf jede persönliche Wertung.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 122,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Die verlorene Klassenkasse",
+  "auftrag": "Auf dem Klassenlager ist die Klassenkasse verschwunden und zwei Tage später wieder aufgetaucht. Verfasse für die Elternschaft einen sachlichen Bericht. Beantworte in der Einleitung die W-Fragen, schildere im Hauptteil den Ablauf in der richtigen Reihenfolge und nenne Ursachen und Folgen. Vermeide Verdächtigungen und Wertungen.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 123,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Ein Einsatz der Feuerwehr im Quartier",
+  "auftrag": "In deinem Quartier hat die Feuerwehr wegen eines brennenden Kübels ausrücken müssen. Du warst dabei. Verfasse für die Quartierzeitung einen sachlichen Bericht. Nenne in der Einleitung Wer, Was, Wann und Wo, schildere im Hauptteil den Ablauf und nenne Ursache und Folgen. Schreibe im Präteritum.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 124,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Der Sporttag musste verschoben werden",
+  "auftrag": "Der Sporttag eurer Schule wurde kurzfristig verschoben. Verfasse für die Schulleitung einen sachlichen Bericht. Beantworte in der Einleitung die W-Fragen, schildere im Hauptteil, wie es zur Verschiebung kam und wer wann informiert wurde, und nenne die Folgen für die Klassen. Bleibe sachlich und ohne Vorwurf.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 125,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Eine Panne auf der Klassenreise",
+  "auftrag": "Auf der Klassenreise blieb der Bus wegen einer Panne stehen. Die Klasse kam mit zwei Stunden Verspätung an. Verfasse für die Eltern einen sachlichen Bericht. Nenne in der Einleitung Wer, Was, Wann und Wo, schildere im Hauptteil den Ablauf und die getroffenen Massnahmen und nenne die Folgen.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 126,
+  "slot": "ref",
+  "sorte": "Bericht",
+  "titel": "Der neue Veloweg wurde eröffnet",
+  "auftrag": "In deiner Gemeinde ist ein neuer Veloweg eröffnet worden. Verfasse für die Gemeindeseite einen sachlichen Bericht. Beantworte in der Einleitung die W-Fragen, schildere im Hauptteil den Ablauf der Eröffnung und die wichtigsten Angaben zum Weg, und nenne die Folgen für den Verkehr. Verzichte auf Werbung und Wertung.",
+  "teile": [
+   "Einleitung: Wer? Was? Wann? Wo? in einem Satz",
+   "Hauptteil: Wie? in der zeitlichen Reihenfolge",
+   "Ursachen und Folgen nennen",
+   "Sachlich bleiben: keine Wertung, Präteritum",
+   "Schluss: Ergebnis oder Folgen"
+  ]
+ },
+ {
+  "id": 127,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Der letzte Bus",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nDer letzte Bus war weg. Jonas stand allein unter dem Vordach der Haltestelle und sah zu, wie der Regen die Strasse in ein schwarzes Band verwandelte. In seiner Jackentasche lag das Handy mit vier Prozent Akku. Er hatte zwei Möglichkeiten, und beide gefielen ihm nicht.",
+  "teile": [
+   "Den Anschluss finden: Wofür entscheidet sich Jonas?",
+   "Die Handlung weiterführen und zuspitzen",
+   "Eine Wendung einbauen, die aus dem Anfang folgt",
+   "Zu einem Schluss kommen, der nicht abbricht"
+  ]
+ },
+ {
+  "id": 128,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Was im Schrank lag",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nAls sie die Wohnung ihrer Grossmutter räumten, fand Alina den Schrank hinter dem Vorhang. Er war abgeschlossen, und niemand in der Familie wusste, wo der Schlüssel geblieben war. «Lass es», sagte ihr Vater, «da ist bestimmt nur altes Zeug drin.» Alina liess es nicht.",
+  "teile": [
+   "Den Faden aufnehmen: Wie geht Alina vor?",
+   "Die Suche erzählen und die Spannung halten",
+   "Den Fund und seine Wirkung darstellen",
+   "Einen Schluss finden, der zur Grossmutter zurückführt"
+  ]
+ },
+ {
+  "id": 129,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Zwei Minuten zu spät",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nDie Tür des Prüfungszimmers war schon zu. Elias sah durch das schmale Fenster: sechzehn Köpfe über sechzehn Blättern, und vorne die Lehrerin, die gerade auf die Uhr schaute. Er hob die Hand, um zu klopfen, und liess sie wieder sinken.",
+  "teile": [
+   "Den Moment vor der Tür weitererzählen",
+   "Die Entscheidung und ihre Folgen darstellen",
+   "Eine Zuspitzung einbauen",
+   "Einen Schluss schreiben, der den Anfang beantwortet"
+  ]
+ },
+ {
+  "id": 130,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Der Hund, der niemandem gehörte",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nSeit drei Tagen sass der Hund vor dem Eingang des Ladens. Er bellte nicht, er bettelte nicht, er sass einfach da und schaute jedem Kunden ins Gesicht. Am Donnerstag brachte Mira ihm Wasser. Am Freitag folgte er ihr bis zur Kreuzung und blieb dort stehen, als hätte jemand eine Linie gezogen.",
+  "teile": [
+   "Die Beziehung zwischen Mira und dem Hund weiterentwickeln",
+   "Herausfinden, was hinter der Linie an der Kreuzung steckt",
+   "Eine Wendung erzählen",
+   "Zu einem Schluss kommen"
+  ]
+ },
+ {
+  "id": 131,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Die falsche Nachricht",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nDie Nachricht war nicht für ihn bestimmt, so viel war klar. «Sag ihm nichts, er hält das nicht aus.» Darunter der Name seiner besten Freundin. Nico las den Satz dreimal und legte das Handy mit dem Bildschirm nach unten auf den Tisch.",
+  "teile": [
+   "Nicos nächste Schritte erzählen",
+   "Das Gespräch oder die Konfrontation gestalten",
+   "Eine Wendung einbauen, die den ersten Eindruck verändert",
+   "Einen Schluss finden, der die Freundschaft nicht offenlässt"
+  ]
+ },
+ {
+  "id": 132,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Nebel am See",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nVom Ufer aus war das andere Ende des Sees nicht zu sehen. Der Nebel lag so tief, dass selbst das Rufen der Vögel gedämpft klang. Sara schob das Boot ins Wasser, obwohl ihr Bruder gesagt hatte, sie solle warten. Nach zwanzig Ruderschlägen war das Ufer hinter ihr verschwunden.",
+  "teile": [
+   "Die Fahrt auf dem See weitererzählen",
+   "Die Stimmung und die wachsende Unsicherheit ausbauen",
+   "Ein Ereignis erzählen, das die Lage verändert",
+   "Zum Ufer und zu einem Schluss zurückfinden"
+  ]
+ },
+ {
+  "id": 133,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Der Ferienjob",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\nAm ersten Tag zeigte ihm der Chef die Lagerhalle, die Kaffeemaschine und die Karte an der Wand. «Und das da», sagte er und deutete auf eine Tür am Ende des Gangs, «geht dich nichts an.» Dann klingelte sein Telefon, und Timo stand allein im Gang.",
+  "teile": [
+   "Timos ersten Arbeitstag weitererzählen",
+   "Die Spannung um die Tür aufbauen",
+   "Auflösen, was es mit der Tür auf sich hat",
+   "Einen Schluss schreiben, der Timos Blick auf den Job zeigt"
+  ]
+ },
+ {
+  "id": 134,
+  "slot": "erz",
+  "sorte": "Erzählung weiterführen",
+  "titel": "Das Versprechen",
+  "auftrag": "Führe die begonnene Geschichte weiter und bringe sie zu einem Schluss. Behalte die Erzählzeit, die Perspektive und die Figuren des Anfangs bei; fange nicht neu an.\n\n«Niemandem», hatte Lea gesagt, «du sagst es niemandem.» Das war im Februar gewesen, auf dem Schulweg, im Schneematsch. Jetzt war es Juni, und vor Yannick sass die Klassenlehrerin und fragte zum zweiten Mal, ob er etwas wisse.",
+  "teile": [
+   "Die Szene im Lehrerzimmer weitererzählen",
+   "Yannicks Zwiespalt darstellen",
+   "Die Folgen seiner Entscheidung erzählen",
+   "Einen Schluss finden, der auf den Februar zurückblickt"
+  ]
+ },
+ {
+  "id": 135,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Der Pausenkiosk",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nDer Pausenkiosk der Schule\n\nSeit zwei Jahren führt die dritte Sekundarklasse in Amriswil den Pausenkiosk. Jeden Morgen um Viertel nach neun stehen vier Schülerinnen und Schüler hinter einem Tisch und verkaufen Brötchen, Früchte und Wasser. Der Gewinn geht in die Klassenkasse.\nAm Anfang war der Kiosk umstritten. Einzelne Lehrpersonen fürchteten, der Verkauf lenke vom Unterricht ab. Andere fanden, die Schule solle sich nicht ums Frühstück kümmern. «Wer Hunger hat, soll zu Hause essen», sagte ein Lehrer an der ersten Sitzung.\nHeute sieht es anders aus. Die Klasse hat gelernt, einzukaufen, zu rechnen und mit Reklamationen umzugehen. Zweimal hat sie zu viel bestellt und Ware weggeworfen — beim dritten Mal führte sie eine Liste. «Wir wissen jetzt, wie viele Gipfeli an einem Regentag weggehen», sagt Noemi, die den Einkauf macht.\nWas bleibt, ist der Streit ums Sortiment. Süssgetränke sind verboten, Schokoriegel erlaubt. Eine Elterngruppe hat verlangt, auch die Riegel zu streichen. Die Klasse rechnet vor, dass ohne sie ein Drittel des Umsatzes fehlt.\n\nSchreibaufträge:\n1) Beschreibe die Vor- und Nachteile eines von Schülerinnen und Schülern geführten Pausenkiosks und setze dich damit auseinander. Überwiegen deiner Meinung nach die Vorteile oder die Nachteile?\n2) Schreibe ein Gesuch an die Schulleitung deiner Schule, in dem du einen Pausenkiosk vorschlägst. Begründe, was er bringt, und schlage vor, wie er organisiert werden soll.\n3) Stell dir vor, du arbeitest seit einem halben Jahr im Kiosk. Erzähle von einem Morgen, an dem etwas schiefgegangen ist, und davon, wie die Sache ausgegangen ist.\n4) Verfasse einen Leserbrief an die Lokalzeitung zur Frage, ob Schokoriegel im Pausenkiosk verkauft werden dürfen. Nimm klar Stellung.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Sich mindestens zweimal auf den Text beziehen",
+   "Einen Text mit erkennbarem Anfang, Mittelteil und Schluss schreiben",
+   "Zum Schluss Rechtschreibung und Zeichensetzung durchgehen"
+  ]
+ },
+ {
+  "id": 136,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Ein Jahr ohne Bildschirm",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nEin Jahr ohne Bildschirm\n\nFamilie Bösch aus Weinfelden hat ein Jahr lang auf Fernsehen, Tablet und Spielkonsole verzichtet. Die Handys der beiden Töchter blieben erlaubt, aber nur für Nachrichten und Anrufe. Ausgedacht hatte sich das der Vater, nachdem er an einem Sonntag gezählt hatte, wie oft er selbst zum Telefon griff: vierundvierzig Mal.\n«Die ersten drei Wochen waren furchtbar», erzählt die ältere Tochter Rea, sechzehn. «Ich wusste abends nicht, was ich mit mir anfangen soll.» Danach wurde es leichter. Die Familie begann, gemeinsam zu kochen; Rea las in einem Jahr elf Bücher, so viele wie in den fünf Jahren davor zusammen.\nEs gab auch Verluste. Rea verpasste die Serie, über die ihre Freundinnen sprachen, und fühlte sich in den Pausen aussen vor. Ihre jüngere Schwester wurde von Mitschülern gefragt, ob die Familie arm sei.\nNach dem Jahr kamen die Geräte zurück, aber mit Regeln: keine Bildschirme am Esstisch und keine nach neun Uhr abends. «Wir sind nicht strenger geworden», sagt der Vater. «Wir haben nur gemerkt, dass es auch anders geht.»\n\nSchreibaufträge:\n1) Setze dich mit der Frage auseinander, ob ein solches Jahr sinnvoll ist. Was spricht dafür, was dagegen? Beziehe eigene Erfahrungen ein.\n2) Schreibe einen Tagebucheintrag aus Reas Sicht, entweder aus der zweiten Woche oder aus dem letzten Monat des Jahres.\n3) Verfasse einen Brief an deine Eltern, in dem du vorschlägst, ein solches Jahr auszuprobieren — oder in dem du begründest, warum ihr es nicht tun solltet.\n4) Erkläre einer Person, die den Text nicht kennt, in einem kurzen Zeitungsbericht, was die Familie gemacht hat und was dabei herauskam.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Den Bezug zum Text sichtbar machen",
+   "Die verlangte Adressatin oder Textsorte durchhalten",
+   "Zum Schluss den Text auf Zeichensetzung prüfen"
+  ]
+ },
+ {
+  "id": 137,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Der Verein, den niemand mehr führen will",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nDer Verein, den niemand mehr führen will\n\nDer Turnverein Bürglen sucht seit anderthalb Jahren einen Präsidenten. An der letzten Hauptversammlung meldete sich niemand. Die interimistische Leiterin, Frau Kuhn, hat das Amt eigentlich nur für ein halbes Jahr übernommen — jetzt sind es drei.\nDer Verein ist nicht klein: 210 Mitglieder, sieben Riegen, eine eigene Halle. Was fehlt, sind Menschen, die zwei Abende im Monat für Sitzungen aufwenden wollen. «Alle sagen, der Verein sei wichtig», sagt Frau Kuhn. «Aber wenn ich frage, wer den Kalender führt, schauen alle auf den Boden.»\nÄhnliches berichten die Musikgesellschaft und die Feuerwehr. Fachleute nennen das «Engagement auf Zeit»: Menschen helfen gerne, aber für ein Projekt, nicht für vier Jahre.\nIn Sirnach hat ein Verein deshalb das Präsidium geteilt — drei Personen, je ein Bereich, kein Chefposten. Seither ist die Stelle wieder besetzt.\n\nSchreibaufträge:\n1) Setze dich mit der Frage auseinander, warum es schwierig geworden ist, Ämter in Vereinen zu besetzen. Was könnte helfen?\n2) Schreibe einen Aufruf für das Mitteilungsblatt der Gemeinde, in dem du Menschen dazu bewegst, ein Vereinsamt zu übernehmen.\n3) Erzähle von einem Verein, einer Gruppe oder einem Team, in dem du selbst mitmachst oder mitgemacht hast. Was hält so etwas zusammen?\n4) Schreibe einen Brief an Frau Kuhn, in dem du ihr vorschlägst, was der Verein ändern könnte. Begründe deine Vorschläge.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Aussagen aus dem Text aufnehmen und weiterdenken",
+   "Den Text nachvollziehbar gliedern",
+   "Zum Schluss Grammatik und Rechtschreibung prüfen"
+  ]
+ },
+ {
+  "id": 138,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Die Bank am Bahnhof",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nDie Bank am Bahnhof\n\nAm Bahnhof von Romanshorn stand vierzig Jahre lang eine Holzbank. Im Frühling wurde sie ersetzt — durch drei Einzelsitze aus Metall, jeder mit einer Armlehne in der Mitte.\nDie Gemeinde begründet den Wechsel mit dem Unterhalt: Das Holz war morsch, Metall hält länger. Auf Nachfrage bestätigt sie aber auch, dass sich Anwohner über Menschen beschwert hatten, die auf der Bank übernachteten.\nSolche Sitzgelegenheiten haben einen Namen: abweisende Architektur. Dazu gehören Armlehnen, die das Liegen verhindern, schräge Flächen und Noppen auf Mauervorsprüngen. Städte in ganz Europa bauen so, meist ohne es zu erklären.\nEine Anwohnerin, 74, sagt: «Ich kann jetzt aufstehen, weil ich mich abstützen kann. Für mich ist es besser geworden.» Ein Jugendlicher aus dem Quartier sagt: «Früher sassen wir zu fünft auf der Bank. Jetzt sitzen drei, und jeder für sich.»\n\nSchreibaufträge:\n1) Beschreibe, was sich durch die neue Bank für verschiedene Menschen ändert, und setze dich damit auseinander. Findest du den Entscheid der Gemeinde richtig?\n2) Schreibe einen Kommentar für eine Zeitung zur Frage, wem der öffentliche Raum gehört. Beziehe dich auf den Text.\n3) Stell dir einen Ort in deiner Gemeinde vor, an dem du dich gerne aufhältst. Beschreibe ihn so, dass eine fremde Person versteht, was ihn ausmacht.\n4) Verfasse ein Schreiben an den Gemeinderat, in dem du entweder für die alte Bank oder für die neuen Sitze eintrittst.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Mindestens eine Stelle des Textes genau aufgreifen",
+   "Eine erkennbare Haltung einnehmen und begründen",
+   "Zum Schluss den Text ganz durchlesen"
+  ]
+ },
+ {
+  "id": 139,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Zwei Wochen Praktikum",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nZwei Wochen Praktikum\n\nIn der zweiten Sekundarklasse machen die meisten Jugendlichen im Thurgau ihre erste Schnupperlehre. Zwei Wochen, oft in einem Beruf, den sie kaum kennen.\nJill, 15, wollte Tierärztin werden. In der Praxis, in der sie schnupperte, half sie beim Halten der Tiere, füllte Formulare aus und putzte. Am siebten Tag musste sie zusehen, wie ein alter Hund eingeschläfert wurde. «Danach wusste ich zum ersten Mal, dass der Beruf auch das ist», sagt sie.\nSie hat den Berufswunsch behalten. Andere in ihrer Klasse haben ihren verloren — und das, sagt der Klassenlehrer, sei genauso wertvoll: «Ein Praktikum, nach dem jemand sagt ‹das ist es nicht›, hat sein Ziel erreicht.»\nNicht alle finden einen Platz. Wer keine Verbindung in einen Betrieb hat, schreibt zwanzig Bewerbungen und bekommt zwanzig Absagen. Die Schule hilft, aber sie kann keine Plätze schaffen.\n\nSchreibaufträge:\n1) Setze dich mit der Frage auseinander, was ein Praktikum leisten kann und was nicht. Beziehe eigene Erfahrungen oder Beobachtungen ein.\n2) Schreibe eine Bewerbung für eine Schnupperlehre in einem Beruf, der dich interessiert. Warum gerade dieser Beruf, und weshalb sollte man dich nehmen?\n3) Erzähle von zwei Wochen in einem Betrieb — erfunden oder erlebt. Lass erkennbar werden, was sich für die erzählende Person verändert hat.\n4) Schreibe einen Text für die Schülerzeitung, der jüngeren Schülerinnen und Schülern erklärt, worauf es bei der Suche nach einem Platz ankommt.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Den Text als Ausgangspunkt sichtbar machen",
+   "Die Adressatin des gewählten Auftrags im Blick behalten",
+   "Zum Schluss auf Zeitformen und Kommas achten"
+  ]
+ },
+ {
+  "id": 140,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Der Fluss, der zurückdarf",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nDer Fluss, der zurückdarf\n\nDie Thur floss hundert Jahre lang in einem geraden Kanal. Menschen hatten sie begradigt, um Land zu gewinnen und Hochwasser abzuleiten. Seit einigen Jahren wird sie stellenweise wieder freigelassen: Bagger tragen die Dämme ab, der Fluss darf sich verzweigen.\nDer Grund ist nicht Nostalgie, sondern Rechnen. Ein breiter Fluss nimmt bei Starkregen mehr Wasser auf als ein enger Kanal; der Schutz der Dörfer wird damit besser, nicht schlechter. Zugleich kehren Arten zurück, die im geraden Kanal keinen Platz hatten.\nBezahlt wird das mit Land. Bauernfamilien mussten Flächen abgeben, teils solche, die seit Generationen zum Hof gehören. «Für den Frosch soll ich Boden hergeben, den mein Grossvater urbar gemacht hat», sagte ein Landwirt an einer Informationsveranstaltung.\nDer Kanton zahlt Entschädigungen und tauscht Parzellen. Ein Teil der Betroffenen hält das für gerecht, ein Teil nicht.\n\nSchreibaufträge:\n1) Setze dich mit dem Widerspruch auseinander, den der Text beschreibt: Hochwasserschutz und Natur auf der einen Seite, Kulturland und Familien auf der anderen.\n2) Schreibe eine Rede, die du an einer Informationsveranstaltung halten würdest. Wähle, für welche Seite du sprichst.\n3) Beschreibe einen Ort in der Natur, den du kennst, und was sich dort in den letzten Jahren verändert hat.\n4) Verfasse einen sachlichen Bericht für die Gemeindezeitung, der beide Standpunkte fair wiedergibt.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Beide Seiten des Textes wahrnehmen",
+   "Den Text klar gliedern und zum Schluss führen",
+   "Zum Schluss Rechtschreibung und Satzbau prüfen"
+  ]
+ },
+ {
+  "id": 141,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Die Nachricht um halb zwölf",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nDie Nachricht um halb zwölf\n\nKurz vor Mitternacht schrieb Loris in die Klassengruppe: «Wer geht morgen wirklich an die Prüfung? Ich nicht.» Es war ein Scherz, halb jedenfalls. Innert zwanzig Minuten antworteten neun Personen, drei davon ernsthaft besorgt.\nAm nächsten Morgen fehlten zwei Schülerinnen. Eine hatte Fieber, die andere hatte, wie sich später zeigte, die Nacht wach verbracht und sich schliesslich krank gemeldet. Sie hatte gedacht, die halbe Klasse bleibe fern.\nLoris erfuhr davon erst am Nachmittag. «Ich habe nichts Böses gemeint», sagte er. «Es war ein Satz um halb zwölf.»\nDie Klassenlehrerin sprach die Sache am Freitag an, ohne Namen zu nennen. Sie sagte, in einer Gruppe von zwanzig Leuten habe jeder Satz zwanzig Bedeutungen. Danach war es still im Zimmer.\n\nSchreibaufträge:\n1) Setze dich mit der Frage auseinander, welche Verantwortung man in einer Gruppe für das trägt, was man schreibt.\n2) Schreibe die Geschichte aus der Sicht der Schülerin weiter, die zu Hause geblieben ist.\n3) Verfasse eine Nachricht, die Loris am nächsten Tag in die Gruppe hätte schreiben können, und erkläre in einem anschliessenden Text, warum du sie so formuliert hast.\n4) Schreibe einen Text für die Schülerzeitung darüber, wie eine Klassengruppe funktionieren sollte — mit konkreten Vorschlägen.",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Die Personen aus dem Text ernst nehmen, statt sie zu verurteilen",
+   "Einen nachvollziehbaren Verlauf schreiben",
+   "Zum Schluss die wörtliche Rede und ihre Zeichen prüfen"
+  ]
+ },
+ {
+  "id": 142,
+  "slot": "arg",
+  "sorte": "Textbezogenes Schreiben",
+  "titel": "Sechs Franken die Stunde",
+  "auftrag": "Lies den folgenden Text aufmerksam durch. Wähle danach EINEN der vier Aufträge und schreibe dazu einen Text. Beziehe dich inhaltlich auf das Gelesene.\n\nSechs Franken die Stunde\n\nIn vielen Gemeinden tragen Jugendliche Zeitungen aus, hüten Kinder oder helfen im Rebberg. Bezahlt wird unterschiedlich: Für das Hüten sind sechs bis zehn Franken die Stunde üblich, für das Austragen wird oft pro Route abgerechnet — wer langsam ist, verdient weniger.\nEin Vierzehnjähriger aus Sulgen trägt seit einem Jahr Zeitungen aus. Er braucht anderthalb Stunden und bekommt zwölf Franken. «Am Anfang waren es zwei Stunden», sagt er. «Jetzt kenne ich jeden Briefkasten.»\nDas Gesetz erlaubt leichte Arbeiten ab dreizehn Jahren, mit Einwilligung der Eltern und begrenzt auf wenige Stunden pro Woche. Wer arbeitet, lernt etwas, das keine Schulstunde vermittelt: dass Zeit und Geld zusammenhängen.\nNicht alle sehen das gleich. Eine Lehrerin gibt zu bedenken, dass Jugendliche, die zwei Nachmittage arbeiten, ihre Hausaufgaben abends machen — und morgens müde sind.\n\nSchreibaufträge:\n1) Setze dich mit der Frage auseinander, ob Jugendliche neben der Schule arbeiten sollen. Was spricht dafür, was dagegen?\n2) Beschreibe eine Arbeit, die du selbst gemacht hast oder machen möchtest, und was man dabei lernt.\n3) Schreibe einen Brief an eine Nachbarin, für die du arbeiten möchtest. Nenne, was du anbietest, und begründe deinen Preis.\n4) Verfasse einen Ratgebertext für Gleichaltrige: Worauf muss man achten, bevor man eine solche Arbeit annimmt?",
+  "teile": [
+   "Einen der vier Aufträge wählen und ihn ganz erfüllen",
+   "Zahlen und Aussagen aus dem Text nutzen",
+   "Den Text für die genannte Leserschaft schreiben",
+   "Zum Schluss auf Rechtschreibung und Zeichensetzung achten"
+  ]
+ },
+ {
+  "id": 143,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Der leere Stuhl",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern. Erzähle von einem Menschen, der an einem gewohnten Ort einen leeren Platz vorfindet, an dem sonst jemand sitzt. Beginne mitten in der Handlung, führe auf einen Höhepunkt zu und höre offen auf. Setze einen eigenen Titel und zähle am Schluss die Wörter.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Die persönliche Krise zeigen, nicht erklären",
+   "Auf einen Höhepunkt zuführen",
+   "Offen enden",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 144,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Zwei Minuten zu spät",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern über einen Menschen, der etwas Wichtiges um zwei Minuten verpasst. Halte dich an die fünf Merkmale der Kurzgeschichte und setze einen eigenen Titel. Zähle am Schluss die Wörter.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Alltägliche Figuren, keine Helden",
+   "Die Krise sichtbar machen",
+   "Höhepunkt und offener Schluss",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 145,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Das Paket vor der Tür",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern. Vor der Wohnungstür steht ein Paket, das niemand bestellt hat. Erzähle, was das mit der Person macht, die es findet. Beginne mitten in der Handlung und höre offen auf.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Nur eine Szene erzählen",
+   "Die innere Lage der Figur zeigen",
+   "Offen enden",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 146,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Die letzte Schicht",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern über jemanden, der zum letzten Mal an einen Arbeitsplatz geht. Halte dich an die fünf Merkmale der Kurzgeschichte und setze einen eigenen Titel.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Eine persönliche Krise darstellen",
+   "Höhepunkt setzen",
+   "Offener Schluss",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 147,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Am falschen Perron",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern. Eine Figur merkt zu spät, dass sie am falschen Perron steht. Erzähle die Szene mit Höhepunkt und offenem Ende und setze einen eigenen Titel.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Alltägliche Figur",
+   "Zuspitzung in einer Szene",
+   "Offen enden",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 148,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Was im Schrank blieb",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern über einen Menschen, der beim Aufräumen etwas findet, das er längst vergessen hatte. Halte dich an die fünf Merkmale der Kurzgeschichte.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Den Fund zum Höhepunkt führen",
+   "Die Krise nicht erklären, sondern zeigen",
+   "Offener Schluss",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 149,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Die Nachricht, die niemand liest",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern. Jemand schreibt eine Nachricht und schickt sie nicht ab. Erzähle diese Szene mit allen fünf Merkmalen der Kurzgeschichte und setze einen eigenen Titel.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Eine einzige Szene",
+   "Höhepunkt setzen",
+   "Offen enden",
+   "Titel setzen und Wörter zählen"
+  ]
+ },
+ {
+  "id": 150,
+  "slot": "erz",
+  "sorte": "Kurzgeschichte",
+  "titel": "Der Hund im Treppenhaus",
+  "auftrag": "Schreibe eine Kurzgeschichte von 150 bis 200 Wörtern. Im Treppenhaus sitzt ein fremder Hund, und niemand weiss, wem er gehört. Erzähle, was das bei der Hauptfigur auslöst. Beginne mitten in der Handlung und höre offen auf.",
+  "teile": [
+   "Mitten in der Handlung beginnen",
+   "Alltägliche Figuren",
+   "Die innere Lage zeigen",
+   "Höhepunkt und offener Schluss",
+   "Titel setzen und Wörter zählen"
+  ]
+ }
+]

@@ -1,0 +1,316 @@
+{
+ "fach": "mathematik-gr",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfungen der Bündner Mittelschulen",
+ "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Arithmetik",
+   "punkte": 12,
+   "anteil": 30,
+   "beschreibung": "Grundlage der 1G ist der Stoff der 5. und 6. Primarklasse, in der Einheitsprüfung kommen Brüche und Potenzen dazu.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen und Vorrangregeln",
+     "lernzielId": "MGR.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Schriftlich multiplizieren und dividieren",
+     "lernzielId": "MGR.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Teiler, Vielfache und Primzahlen",
+     "lernzielId": "MGR.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Brüche erweitern, kürzen und vergleichen",
+     "lernzielId": "MGR.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Grundoperationen mit Brüchen",
+     "lernzielId": "MGR.1.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ],
+     "voraussetzungen": [
+      "1.04"
+     ]
+    },
+    {
+     "code": "1.06",
+     "name": "Dezimalzahlen und Runden",
+     "lernzielId": "MGR.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Brüche, Dezimalzahlen und Prozente",
+     "lernzielId": "MGR.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Negative Zahlen",
+     "lernzielId": "MGR.1.08",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "1.09",
+     "name": "Potenzen und Quadratzahlen",
+     "lernzielId": "MGR.1.09",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "1.10",
+     "name": "Quadratwurzeln",
+     "lernzielId": "MGR.1.10",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ],
+     "voraussetzungen": [
+      "1.09"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Grössen und Sachrechnen",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Einheiten, Prozente, Massstab und Dreisatz — die Aufgaben, die in beiden Prüfungen vorkommen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Längen, Flächen und Volumen umrechnen",
+     "lernzielId": "MGR.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Gewichte und Hohlmasse",
+     "lernzielId": "MGR.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Zeitspannen berechnen",
+     "lernzielId": "MGR.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Prozentrechnen: Anteil und Grundwert",
+     "lernzielId": "MGR.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Dreisatz und Verhältnisse",
+     "lernzielId": "MGR.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "MGR.2.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ],
+     "voraussetzungen": [
+      "2.05"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Massstab",
+     "lernzielId": "MGR.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Durchschnitt",
+     "lernzielId": "MGR.2.08",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Algebra",
+   "punkte": 8,
+   "anteil": 20,
+   "beschreibung": "Erst in der Einheitsprüfung: Terme, Gleichungen und Formeln.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Terme aufstellen und einsetzen",
+     "lernzielId": "MGR.3.01",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.02",
+     "name": "Terme zusammenfassen und Klammern auflösen",
+     "lernzielId": "MGR.3.02",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Ausklammern",
+     "lernzielId": "MGR.3.03",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ],
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MGR.3.04",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Textaufgaben mit Gleichungen",
+     "lernzielId": "MGR.3.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ],
+     "voraussetzungen": [
+      "3.04"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Formeln umstellen",
+     "lernzielId": "MGR.3.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Zahlenrätsel und Zahlenfolgen",
+     "lernzielId": "MGR.3.07",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "D",
+   "name": "Geometrie",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Die Geometriethemen der Lehrmittel sind ausdrücklich Prüfungsstoff — auch in der 1G.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Winkel messen und berechnen",
+     "lernzielId": "MGR.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Dreiecke und ihre Eigenschaften",
+     "lernzielId": "MGR.4.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.03",
+     "name": "Vierecke und ihre Eigenschaften",
+     "lernzielId": "MGR.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Umfang und Fläche von Rechteck und Dreieck",
+     "lernzielId": "MGR.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Zusammengesetzte Flächen",
+     "lernzielId": "MGR.4.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.04"
+     ]
+    },
+    {
+     "code": "4.06",
+     "name": "Kreis: Umfang und Fläche",
+     "lernzielId": "MGR.4.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    },
+    {
+     "code": "4.07",
+     "name": "Symmetrie und Spiegelung",
+     "lernzielId": "MGR.4.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.08",
+     "name": "Würfel, Quader: Volumen und Oberfläche",
+     "lernzielId": "MGR.4.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.09",
+     "name": "Netze und Ansichten von Körpern",
+     "lernzielId": "MGR.4.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.10",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MGR.4.10",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gr-ep"
+     ]
+    }
+   ]
+  }
+ ]
+}

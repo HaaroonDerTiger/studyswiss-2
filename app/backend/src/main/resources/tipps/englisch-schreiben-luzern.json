@@ -1,0 +1,165 @@
+{
+ "bereich": "englisch-schreiben-lu",
+ "titel": "Writing",
+ "eyebrow": "Zweiter Teil der Englischprüfung",
+ "einleitung": "Du schreibst eine E-Mail von 100 bis 120 Wörtern zu einer vorgegebenen Situation, mit drei Punkten, die vorkommen müssen. Bewertet werden Inhalt, Aufbau und Sprache. Diese App korrigiert keine englischen Texte — was sie dir geben kann, ist der Bauplan, die Wendungen und die drei Fehler, die am meisten Punkte kosten.",
+ "grundlage": "Musterprüfung Englisch der zentralen Aufnahmeprüfung des Kantons Luzern, Teil «Writing»: 10 von 20 Punkten der Englischprüfung.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Aufgabe lesen und die drei Punkte markieren",
+   "dauer": "2 Minuten",
+   "text": "In der Box stehen drei Angaben, die vorkommen müssen. Markiere sie. Wer einen davon vergisst, verliert Punkte, auch wenn der Text sonst gut ist."
+  },
+  {
+   "nr": 2,
+   "titel": "Notizen machen",
+   "dauer": "3 Minuten",
+   "text": "Zu jedem der drei Punkte ein bis zwei Stichworte. Das Notizfeld wird nicht korrigiert — nutze es."
+  },
+  {
+   "nr": 3,
+   "titel": "Schreiben",
+   "dauer": "15 Minuten",
+   "text": "Anrede, ein Satz zum Anlass, dann je ein kurzer Abschnitt zu den drei Punkten, Schlusssatz, Grussformel."
+  },
+  {
+   "nr": 4,
+   "titel": "Wörter zählen",
+   "dauer": "2 Minuten",
+   "text": "100 bis 120 Wörter. Zähle nach. Zu kurz und zu lang geben beide Abzug."
+  },
+  {
+   "nr": 5,
+   "titel": "Durchlesen",
+   "dauer": "3 Minuten",
+   "text": "Drei Dinge prüfen: das -s in der dritten Person, die Zeitform, und ob jeder Satz ein Subjekt hat."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Der Aufbau ist vorgegeben",
+   "tipps": [
+    {
+     "regel": "Schreibe zu jedem der drei Punkte einen eigenen Abschnitt.",
+     "warum": "Die Korrektur sucht sie einzeln. Drei Abschnitte machen sichtbar, dass alle drei da sind."
+    },
+    {
+     "regel": "Anrede und Grussformel gehören dazu.",
+     "warum": "Eine E-Mail ohne «Dear …» und ohne «Best regards» ist keine E-Mail, sondern ein Textstück — das kostet beim Inhalt."
+    },
+    {
+     "regel": "Nenne im ersten Satz den Anlass.",
+     "warum": "«I am writing because …» sagt der lesenden Person sofort, worum es geht, und du kommst in den Schreibfluss."
+    }
+   ]
+  },
+  {
+   "titel": "Die Wortzahl ist eine Regel, keine Empfehlung",
+   "tipps": [
+    {
+     "regel": "Ziele auf 110 Wörter.",
+     "warum": "Dann bist du in der Mitte und hast Luft nach beiden Seiten, wenn du dich verzählt hast."
+    },
+    {
+     "regel": "Zähle in Fünferblöcken und schreib die Zahl an den Schluss.",
+     "warum": "Am Ende der Prüfung fehlt die Ruhe zum genauen Zählen; in Blöcken geht es in einer Minute."
+    },
+    {
+     "regel": "Streiche lieber einen Nebensatz, als einen der drei Punkte zu kürzen.",
+     "warum": "Fehlt ein Punkt, fehlt der Inhalt. Ein Nebensatz weniger merkt niemand."
+    }
+   ]
+  },
+  {
+   "titel": "Die drei Fehler, die am meisten kosten",
+   "tipps": [
+    {
+     "regel": "Das -s in der dritten Person Einzahl.",
+     "warum": "«He want» statt «he wants» ist der häufigste Fehler in Prüfungstexten und fällt jeder korrigierenden Person sofort auf."
+    },
+    {
+     "regel": "Bleib in einer Zeitform.",
+     "warum": "Was du bestellt hast, steht in der Vergangenheit; was du jetzt möchtest, in der Gegenwart. Ein Wechsel mitten im Satz macht den Text unklar."
+    },
+    {
+     "regel": "Jeder Satz braucht ein Subjekt.",
+     "warum": "Im Deutschen kann man es weglassen, im Englischen nicht: «Is very small» ist kein Satz, «It is very small» schon."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Anfang einer E-Mail",
+   "saetze": [
+    "Dear Sir or Madam,",
+    "Dear Mr Brown,",
+    "I am writing because I would like to return an item.",
+    "I ordered … on your website last week.",
+    "I am writing to ask about …"
+   ]
+  },
+  {
+   "zweck": "Einen Grund nennen",
+   "saetze": [
+    "Unfortunately, it is too small.",
+    "The colour is not the same as on the picture.",
+    "It does not fit at all.",
+    "The reason is that …",
+    "That is why I would like to …"
+   ]
+  },
+  {
+   "zweck": "Einen Wunsch äussern",
+   "saetze": [
+    "I would like to exchange it for …",
+    "Could you please send me …?",
+    "I would prefer …",
+    "Would it be possible to …?"
+   ]
+  },
+  {
+   "zweck": "Schluss",
+   "saetze": [
+    "I look forward to your reply.",
+    "Thank you very much in advance.",
+    "Best regards,",
+    "Kind regards,",
+    "Yours sincerely,"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "englisch-lu",
+   "unterthema": "1.06",
+   "name": "Zeitformen im Text",
+   "warum": "Beim Schreiben entscheidet die Zeitform darüber, ob der Text verständlich bleibt — dieselbe Frage wie im Use-of-English-Teil."
+  },
+  {
+   "bereich": "englisch-lu",
+   "unterthema": "1.03",
+   "name": "Präpositionen",
+   "warum": "«Send it back to you», «write to the shop»: Feste Verbindungen mit Präposition kommen in jeder E-Mail vor."
+  },
+  {
+   "bereich": "englisch-lu",
+   "unterthema": "1.02",
+   "name": "Verben mit fester Ergänzung",
+   "warum": "«Order something», «ask for something», «look forward to» — wer die Verbindungen kennt, schreibt schneller und richtiger."
+  },
+  {
+   "bereich": "englisch-lu",
+   "unterthema": "2.04",
+   "name": "Feste Wendungen",
+   "warum": "Die Grussformeln und Höflichkeitsfloskeln sind feste Wendungen; falsch zusammengesetzt fallen sie sofort auf."
+  },
+  {
+   "bereich": "englisch-lu",
+   "unterthema": "2.03",
+   "name": "Reisen und Umzug",
+   "warum": "Bestellen, verschicken, zurücksenden: der Wortschatz, aus dem die Schreibaufgaben gebaut sind."
+  }
+ ]
+}

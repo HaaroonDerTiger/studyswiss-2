@@ -1,0 +1,4325 @@
+[
+ {
+  "templateId": "so-brueche-grundoperationen",
+  "lernzielId": "MSO.1.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   },
+   {
+    "name": "prod",
+    "typ": "formel",
+    "ausdruck": "p*q/(a*b)"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=63",
+   "((p*b+q*a)%(a*b))!=0",
+   "((p*q)%(a*b))!=0",
+   "summe<2",
+   "summe!=prod",
+   "p/a!=q/b"
+  ],
+  "stamm": "Gegeben sind die Brüche {p:hoch}⁄{a:tief} und {q:hoch}⁄{b:tief}. Berechne beides und kürze vollständig.",
+  "felder": [
+   {
+    "name": "summe",
+    "label": "{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief}",
+    "ausdruck": "p/a+q/b",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "zaehler_und_nenner_addiert",
+      "ausdruck": "(p+q)/(a+b)",
+      "feedback": "Beim Addieren werden nicht Zähler zu Zähler und Nenner zu Nenner gerechnet. Sonst wäre ein Halbes plus ein Halbes zwei Viertel, also weniger als vorher."
+     },
+     {
+      "diagnoseId": "nicht_erweitert",
+      "ausdruck": "(p+q)/a",
+      "feedback": "Die beiden Nenner sind verschieden. Bevor du die Zähler zusammenzählst, müssen beide Brüche auf denselben Nenner."
+     },
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "p*q/(a*b)",
+      "feedback": "Das ist das Produkt. Zwischen den Brüchen steht ein Plus, also wird addiert, und dafür braucht es zuerst den gemeinsamen Nenner."
+     }
+    ]
+   },
+   {
+    "name": "prod",
+    "label": "{p:hoch}⁄{a:tief} · {q:hoch}⁄{b:tief}",
+    "ausdruck": "p*q/(a*b)",
+    "zahlformat": "bruch",
+    "fehler": [
+     {
+      "diagnoseId": "gleichnamig_gemacht",
+      "ausdruck": "(p*b+q*a)/(a*b)",
+      "feedback": "Gleichnamig machen brauchst du nur beim Addieren. Beim Multiplizieren rechnest du Zähler mal Zähler und Nenner mal Nenner."
+     },
+     {
+      "diagnoseId": "nur_zaehler",
+      "ausdruck": "p*q/a",
+      "feedback": "Der Nenner wird ebenfalls multipliziert: {a} · {b}, nicht nur {a}."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "p*b/(a*q)",
+      "feedback": "Gestürzt wird nur beim Dividieren. Hier steht ein Malpunkt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was brauchst du beim Addieren, was beim Multiplizieren?",
+   "Addieren: erst auf den gemeinsamen Nenner {a} · {b} bringen, dann nur die Zähler zusammenzählen.",
+   "Multiplizieren: Zähler mal Zähler, Nenner mal Nenner, und am Schluss kürzen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner ist {a} · {b}.",
+   "Summe: beide Brüche erweitern, dann die Zähler addieren.",
+   "Produkt: {p} · {q} über {a} · {b}.",
+   "Beides vollständig kürzen: {summe:bruch} und {prod:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-doppelbruch",
+  "lernzielId": "MSO.1.02",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "1.02",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "(p/a)/(q/b)"
+   },
+   {
+    "name": "zaehler",
+    "typ": "formel",
+    "ausdruck": "p*b"
+   },
+   {
+    "name": "nenner",
+    "typ": "formel",
+    "ausdruck": "a*q"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*q<=63",
+   "((p*b)%(a*q))!=0",
+   "wert<6",
+   "wert>0",
+   "p!=q"
+  ],
+  "stamm": "Schreibe den Doppelbruch als Division und berechne ihn. Kürze vollständig.\n\nDer Zähler ist {p:hoch}⁄{a:tief}, der Nenner ist {q:hoch}⁄{b:tief}.",
+  "loesung": "(p/a)/(q/b)",
+  "gegenprobe": "p*b/(a*q)",
+  "fehler": [
+   {
+    "diagnoseId": "nicht_gestuerzt",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Ein Doppelbruch ist eine Division: Der obere Bruch wird durch den unteren geteilt. Dabei wird der untere gestürzt, dann multipliziert."
+   },
+   {
+    "diagnoseId": "ersten_gestuerzt",
+    "ausdruck": "a*q/(p*b)",
+    "feedback": "Gestürzt wird der Bruch, durch den geteilt wird, also der untere. Der obere bleibt, wie er ist."
+   },
+   {
+    "diagnoseId": "aussen_durch_innen",
+    "ausdruck": "p*a/(q*b)",
+    "feedback": "Die Regel lautet: Zähler des oberen mal Nenner des unteren, geteilt durch Nenner des oberen mal Zähler des unteren."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "p/a+q/b",
+    "feedback": "Der grosse Bruchstrich bedeutet «geteilt durch», nicht «plus»."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet der grosse Bruchstrich zwischen den beiden Brüchen?",
+   "Ein Doppelbruch ist nichts anderes als {p:hoch}⁄{a:tief} geteilt durch {q:hoch}⁄{b:tief}.",
+   "Geteilt durch einen Bruch heisst: mal seinem Kehrwert. Der Kehrwert von {q:hoch}⁄{b:tief} ist {b:hoch}⁄{q:tief}."
+  ],
+  "loesungsweg": [
+   "Der grosse Bruchstrich ist ein Divisionszeichen.",
+   "Also: {p:hoch}⁄{a:tief} : {q:hoch}⁄{b:tief}.",
+   "Den zweiten Bruch stürzen und multiplizieren: {zaehler} über {nenner}.",
+   "Vollständig gekürzt ergibt das {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-dezimal-bruch-so",
+  "lernzielId": "MSO.1.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "1.03",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "lage",
+    "typ": "text",
+    "texte": [
+     [
+      "auf der Wanderkarte"
+     ],
+     [
+      "im Klassenzimmer"
+     ],
+     [
+      "auf dem Sportplatz"
+     ],
+     [
+      "in der Werkstatt"
+     ],
+     [
+      "im Labor"
+     ],
+     [
+      "auf der Baustelle"
+     ],
+     [
+      "im Schulgarten"
+     ],
+     [
+      "in der Küche"
+     ],
+     [
+      "im Estrich"
+     ],
+     [
+      "auf dem Pausenhof"
+     ]
+    ]
+   },
+   {
+    "name": "dez",
+    "typ": "formel",
+    "ausdruck": "p/q"
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "p*100/q"
+   }
+  ],
+  "bedingungen": [
+   "p<q",
+   "ggt(p,q)==1",
+   "dez<1"
+  ],
+  "stamm": "Bei einer Messung {lage} ergab sich der Anteil {p:hoch}⁄{q:tief}. Schreibe ihn als Dezimalbruch und als Prozentsatz.",
+  "felder": [
+   {
+    "name": "dez",
+    "label": "als Dezimalbruch",
+    "ausdruck": "p/q",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "q/p",
+      "feedback": "Der Bruchstrich heisst «geteilt durch»: Zähler durch Nenner, also {p} : {q}."
+     },
+     {
+      "diagnoseId": "prozent_eingetragen",
+      "ausdruck": "p*100/q",
+      "feedback": "Das ist der Prozentsatz. Der Dezimalbruch ist hundertmal kleiner."
+     },
+     {
+      "diagnoseId": "rest_zum_ganzen",
+      "ausdruck": "(q-p)/q",
+      "feedback": "Du hast ausgerechnet, was zum Ganzen fehlt. Gefragt ist der Anteil selbst."
+     }
+    ]
+   },
+   {
+    "name": "proz",
+    "label": "als Prozentsatz (nur die Zahl)",
+    "ausdruck": "p*100/q",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "dezimal_eingetragen",
+      "ausdruck": "p/q",
+      "feedback": "Das ist der Dezimalbruch. «Prozent» heisst «von hundert» Nimm ihn also mal 100."
+     },
+     {
+      "diagnoseId": "zaehler_als_prozent",
+      "ausdruck": "p",
+      "feedback": "Der Zähler allein ist kein Prozentsatz. Dafür müsste der Nenner 100 sein."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "q*100/p",
+      "feedback": "Zähler und Nenner sind vertauscht. Gerechnet wird {p} : {q} · 100."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Der Bruchstrich ist ein Divisionszeichen: {p} geteilt durch {q}.",
+   "Erweitere den Bruch im Kopf auf den Nenner 100. Dann steht der Prozentsatz oben.",
+   "Vom Dezimalbruch zum Prozentsatz: Komma zwei Stellen nach rechts."
+  ],
+  "loesungsweg": [
+   "{p} : {q} = {dez}.",
+   "Mal 100 ergibt {proz} %.",
+   "Probe: {proz} % von 1 sind wieder {dez}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-einheiten-so",
+  "lernzielId": "MSO.1.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "1.05",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 98,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 15,
+    "bis": 95,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 89,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 13,
+    "bis": 97,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "formel",
+    "ausdruck": "a/10000"
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "b*1000"
+   },
+   {
+    "name": "dm3",
+    "typ": "formel",
+    "ausdruck": "c/1000"
+   },
+   {
+    "name": "min",
+    "typ": "formel",
+    "ausdruck": "d*60"
+   }
+  ],
+  "bedingungen": [
+   "a%10!=0",
+   "b%10!=0",
+   "c%10!=0",
+   "d%10!=0",
+   "a!=b",
+   "c!=d",
+   "b!=d"
+  ],
+  "stamm": "Rechne in die verlangte Einheit um und trage die Zahl ein.",
+  "felder": [
+   {
+    "name": "m2",
+    "label": "{a} cm² in m²",
+    "ausdruck": "a/10000",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "a/100",
+      "feedback": "Zwischen Quadratzentimeter und Quadratmeter liegt der Faktor 10'000, nicht 100, bei Flächen wird der Längenfaktor quadriert."
+     },
+     {
+      "diagnoseId": "mal_statt_geteilt",
+      "ausdruck": "a*10000",
+      "feedback": "Quadratmeter sind viel grösser als Quadratzentimeter. Wenn die Einheit grösser wird, wird die Zahl kleiner."
+     },
+     {
+      "diagnoseId": "faktor_tausend",
+      "ausdruck": "a/1000",
+      "feedback": "Der Faktor 1000 gehört zu Volumen und Masse. Bei Flächen ist es 100 · 100 = 10'000."
+     }
+    ]
+   },
+   {
+    "name": "g",
+    "label": "{b} kg in g",
+    "ausdruck": "b*1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "b/1000",
+      "feedback": "Gramm sind kleiner als Kilogramm, die Zahl wird also grösser."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "b*100",
+      "feedback": "Zwischen Kilogramm und Gramm liegt der Faktor 1000, nicht 100."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "b",
+      "feedback": "Ein Kilogramm sind tausend Gramm. Die Zahl kann nicht gleich bleiben."
+     }
+    ]
+   },
+   {
+    "name": "dm3",
+    "label": "{c} cm³ in dm³",
+    "ausdruck": "c/1000",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "c/100",
+      "feedback": "Bei Volumen wird der Längenfaktor drittpotenziert: 10 · 10 · 10 = 1000."
+     },
+     {
+      "diagnoseId": "mal_statt_geteilt",
+      "ausdruck": "c*1000",
+      "feedback": "Ein Kubikdezimeter ist grösser als ein Kubikzentimeter. Die Zahl muss also kleiner werden."
+     },
+     {
+      "diagnoseId": "faktor_zehntausend",
+      "ausdruck": "c/10000",
+      "feedback": "Der Faktor 10'000 gehört zu den Flächen. Bei Volumen sind es 1000."
+     }
+    ]
+   },
+   {
+    "name": "min",
+    "label": "{d} Stunden in Minuten",
+    "ausdruck": "d*60",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "d/60",
+      "feedback": "Minuten sind kürzer als Stunden. Die Zahl wird also grösser."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "d*100",
+      "feedback": "Die Zeit rechnet nicht dezimal: Eine Stunde hat 60 Minuten, nicht 100."
+     },
+     {
+      "diagnoseId": "mal_dreitausendsechshundert",
+      "ausdruck": "d*3600",
+      "feedback": "Mal 3600 kämst du auf Sekunden. Für Minuten genügt mal 60."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wird die Einheit kleiner oder grösser? Danach richtet sich, ob die Zahl wächst oder schrumpft.",
+   "Bei Flächen wird der Längenfaktor quadriert, bei Volumen drittpotenziert: 100 → 10'000 → 1'000'000.",
+   "Die Zeit ist die Ausnahme: Dort gilt 60, nicht 10 oder 100."
+  ],
+  "loesungsweg": [
+   "{a} cm² : 10'000 = {m2} m². Flächen: Faktor 100 zum Quadrat.",
+   "{b} kg · 1000 = {g} g.",
+   "{c} cm³ : 1000 = {dm3} dm³. Volumen: Faktor 10 hoch drei.",
+   "{d} Stunden · 60 = {min} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-gleichung-linear",
+  "lernzielId": "MSO.3.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -15,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -11,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "rechts",
+    "typ": "formel",
+    "ausdruck": "a*x+c-b*x"
+   },
+   {
+    "name": "diff",
+    "typ": "formel",
+    "ausdruck": "a-b"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "x!=0",
+   "c!=0",
+   "rechts!=x",
+   "c!=x",
+   "rechts<=140",
+   "rechts>=-140",
+   "a!=c",
+   "b!=c",
+   "diff>=2"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Gib das Resultat als ganze Zahl an.\n\n{a}x + ({c}) = {b}x + ({rechts})",
+  "loesung": "x",
+  "gegenprobe": "(rechts-c)/(a-b)",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_beim_umstellen",
+    "ausdruck": "(rechts+c)/(a-b)",
+    "feedback": "Beim Wechsel auf die andere Seite kehrt sich das Vorzeichen um. Aus «+ ({c})» links wird «− ({c})» rechts."
+   },
+   {
+    "diagnoseId": "koeffizienten_addiert",
+    "ausdruck": "(rechts-c)/(a+b)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen, nicht zusammengezählt: {a}x − {b}x ergibt {diff}x."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "rechts-c",
+    "feedback": "Du bist bei {diff}x = einer Zahl stehen geblieben. Teile am Schluss noch durch {diff}."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "(c-rechts)/(a-b)",
+    "feedback": "Prüfe die Richtung: Die Zahl der rechten Seite kommt zuerst, die der linken wird abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Auf welche Seite bringst du die x-Glieder, auf welche die Zahlen?",
+   "Ziehe auf beiden Seiten {b}x ab. Links bleibt {diff}x.",
+   "Dann die Zahl auf die andere Seite bringen und durch {diff} teilen."
+  ],
+  "loesungsweg": [
+   "{b}x auf beiden Seiten abziehen: {diff}x + ({c}) = {rechts}.",
+   "({c}) auf beiden Seiten abziehen. Das Vorzeichen kehrt sich um.",
+   "Übrig bleibt {diff}x = {rechts} − ({c}).",
+   "Durch {diff} teilen ergibt x = {x}.",
+   "Probe: Beide Seiten ergeben mit x = {x} denselben Wert."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-gleichung-klammern-so",
+  "lernzielId": "MSO.3.02",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "3.02",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "innen",
+    "typ": "formel",
+    "ausdruck": "2*x+d"
+   },
+   {
+    "name": "rechts",
+    "typ": "formel",
+    "ausdruck": "(a*x+b-(c*x+d))/1"
+   },
+   {
+    "name": "links",
+    "typ": "formel",
+    "ausdruck": "a*x+b-c*x-d"
+   }
+  ],
+  "bedingungen": [
+   "a!=c",
+   "a>c",
+   "x!=0",
+   "b!=d",
+   "links<=160",
+   "links>=-160",
+   "x!=b",
+   "x!=d",
+   "links!=x",
+   "a!=b",
+   "c!=d"
+  ],
+  "stamm": "Löse die Gleichung nach x auf.\n\n{a}x + {b} − ({c}x + {d}) = {links}",
+  "loesung": "x",
+  "gegenprobe": "(links-b+d)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "minus_nicht_verteilt",
+    "ausdruck": "(links-b-d)/(a-c)",
+    "feedback": "Das Minus vor der Klammer gilt für BEIDE Glieder darin. Aus −({c}x + {d}) wird −{c}x − {d}, und beim Umstellen wird daraus +{d}."
+   },
+   {
+    "diagnoseId": "nur_erstes_glied",
+    "ausdruck": "(links-b+d)/(a+c)",
+    "feedback": "Das Minus vor der Klammer kehrt auch das Vorzeichen des x-Glieds um: Aus +{c}x wird −{c}x, also wird abgezogen."
+   },
+   {
+    "diagnoseId": "vorzeichen_der_zahl",
+    "ausdruck": "(links+b+d)/(a-c)",
+    "feedback": "Die {b} steht schon links und wechselt beim Umstellen die Seite. Sie wird abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "links-b+d",
+    "feedback": "Du bist bei ({a} − {c})x = einer Zahl stehen geblieben. Teile noch durch die Differenz der Koeffizienten."
+   }
+  ],
+  "hinweise": [
+   "Was passiert mit den Vorzeichen, wenn vor der Klammer ein Minus steht?",
+   "Aus −({c}x + {d}) wird −{c}x − {d}. Beide Vorzeichen drehen sich um.",
+   "Dann alle x-Glieder auf eine Seite, alle Zahlen auf die andere."
+  ],
+  "loesungsweg": [
+   "Klammer auflösen: {a}x + {b} − {c}x − {d} = {links}.",
+   "x-Glieder zusammenfassen und Zahlen zusammenfassen.",
+   "Die Zahlen auf die rechte Seite bringen.",
+   "Durch den Koeffizienten teilen ergibt x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-bruchgleichung-so",
+  "lernzielId": "MSO.3.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "3.03",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "t",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "p+n1*t"
+   },
+   {
+    "name": "q",
+    "typ": "formel",
+    "ausdruck": "(n2-n1)*t-p"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "n2>n1",
+   "x!=0",
+   "q!=0",
+   "p!=q",
+   "x<=99",
+   "q<=99",
+   "q>=-99",
+   "x!=p",
+   "x!=q",
+   "x!=t",
+   "x!=n1",
+   "x!=n2"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Grundmenge G = ℚ.\n\n(x − {p}) : {n1}  =  (x + ({q})) : {n2}",
+  "loesung": "p+n1*t",
+  "gegenprobe": "(n2*p+n1*q)/(n2-n1)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_einen_nenner",
+    "ausdruck": "(p+q)/(n2-n1)",
+    "feedback": "Beim Überkreuzmultiplizieren wird jede Seite mit dem Nenner der ANDEREN multipliziert. Beide Nenner müssen verschwinden."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(n2*p+n1*q)/(n1+n2)",
+    "feedback": "Die Koeffizienten werden voneinander abgezogen: Aus {n2}x − {n1}x wird die Differenz, nicht die Summe."
+   },
+   {
+    "diagnoseId": "nenner_ignoriert",
+    "ausdruck": "p-q",
+    "feedback": "Die Nenner {n1} und {n2} fallen nicht einfach weg. Multipliziere beide Seiten damit, bevor du weiterrechnest."
+   },
+   {
+    "diagnoseId": "vorzeichen_in_der_klammer",
+    "ausdruck": "p+n1*t-2*p",
+    "feedback": "Achte auf die Vorzeichen in den Klammern: links «x − {p}», rechts «x + ({q})». Sie bleiben beim Ausmultiplizieren erhalten."
+   }
+  ],
+  "hinweise": [
+   "Wie wirst du die beiden Nenner los?",
+   "Multipliziere über Kreuz: die linke Seite mal {n2}, die rechte mal {n1}.",
+   "Danach steht eine gewöhnliche lineare Gleichung da."
+  ],
+  "loesungsweg": [
+   "Über Kreuz: {n2} · (x − {p}) = {n1} · (x + ({q})).",
+   "Klammern auflösen und x-Glieder sammeln.",
+   "Aufgelöst ergibt das x = {x}.",
+   "Probe: Beide Seiten ergeben den Wert {t}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-textgleichung-so",
+  "lernzielId": "MSO.3.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "3.05",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Anouk"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Nevio"
+     ],
+     [
+      "Jasmin"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Céline"
+     ],
+     [
+      "Marek"
+     ],
+     [
+      "Sofia"
+     ],
+     [
+      "Linus"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Bretter",
+      "Bretter"
+     ],
+     [
+      "Ziegel",
+      "Ziegel"
+     ],
+     [
+      "Setzlinge",
+      "Setzlinge"
+     ],
+     [
+      "Bücher",
+      "Bücher"
+     ],
+     [
+      "Stühle",
+      "Stühle"
+     ],
+     [
+      "Kisten",
+      "Kisten"
+     ],
+     [
+      "Rollen Draht",
+      "Rollen"
+     ],
+     [
+      "Paletten",
+      "Paletten"
+     ]
+    ]
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "im Werkraum"
+     ],
+     [
+      "im Lager"
+     ],
+     [
+      "in der Gärtnerei"
+     ],
+     [
+      "in der Bibliothek"
+     ],
+     [
+      "in der Turnhalle"
+     ],
+     [
+      "auf dem Bauhof"
+     ]
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 80,
+    "schritt": 1
+   },
+   {
+    "name": "faktor",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "andere",
+    "typ": "formel",
+    "ausdruck": "faktor*x+d"
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "x+faktor*x+d"
+   }
+  ],
+  "bedingungen": [
+   "total<=340",
+   "x!=d",
+   "x!=total",
+   "x!=andere",
+   "andere!=total",
+   "d!=andere",
+   "x!=faktor",
+   "d!=faktor",
+   "andere<=280"
+  ],
+  "stamm": "{name} zählt {ort} insgesamt {total} {ware}. Auf dem zweiten Regal liegen {faktor}-mal so viele wie auf dem ersten und zusätzlich {d} Stück mehr. Wie viele {ware.1} liegen auf dem ersten Regal?",
+  "loesung": "x",
+  "gegenprobe": "(total-d)/(1+faktor)",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_abgezogen",
+    "ausdruck": "(total+d)/(1+faktor)",
+    "feedback": "Die {d} kommen zum {faktor}-fachen DAZU. In der Gleichung steht darum x + {faktor}x + {d} = {total}. Die {d} müssen also abgezogen werden, bevor geteilt wird."
+   },
+   {
+    "diagnoseId": "faktor_nicht_gezaehlt",
+    "ausdruck": "(total-d)/faktor",
+    "feedback": "Beide Regale gehören in die Summe: x und {faktor}x. Zusammen sind das {faktor} plus eins mal x."
+   },
+   {
+    "diagnoseId": "haelfte",
+    "ausdruck": "total/2",
+    "feedback": "Die beiden Regale tragen nicht gleich viel. Das zweite hat rund {faktor}-mal so viel wie das erste."
+   },
+   {
+    "diagnoseId": "anteil_des_anderen",
+    "ausdruck": "faktor*x+d",
+    "feedback": "Das ist die Anzahl auf dem zweiten Regal. Gefragt ist das erste."
+   }
+  ],
+  "hinweise": [
+   "Nenne die gesuchte Anzahl x. Wie schreibst du damit das zweite Regal auf?",
+   "Das zweite Regal trägt {faktor}x + {d} Stück.",
+   "Beide zusammen ergeben {total}: x + {faktor}x + {d} = {total}."
+  ],
+  "loesungsweg": [
+   "Gesucht ist x, die Anzahl auf dem ersten Regal.",
+   "Das zweite Regal: {faktor}x + {d}.",
+   "Zusammen: x + {faktor}x + {d} = {total}.",
+   "{d} abziehen, dann durch {faktor} plus eins teilen.",
+   "Das ergibt x = {x}; auf dem zweiten Regal liegen {andere}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-wertetabelle-gerade",
+  "lernzielId": "MSO.4.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Anouk"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Nevio"
+     ],
+     [
+      "Jasmin"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Céline"
+     ],
+     [
+      "Marek"
+     ],
+     [
+      "Sofia"
+     ],
+     [
+      "Linus"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "zweck",
+    "typ": "text",
+    "texte": [
+     [
+      "für das Physikprotokoll"
+     ],
+     [
+      "für die Projektwoche"
+     ],
+     [
+      "für das Mathematikheft"
+     ],
+     [
+      "für den Werkstattbericht"
+     ],
+     [
+      "zur Vorbereitung"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "q!=0",
+   "m!=q",
+   "m!=1",
+   "m!=-1"
+  ],
+  "stamm": "{name} zeichnet {zweck} den Graphen der linearen Funktion f mit f(x) = {m}x + ({q}). Tragen Sie die Wertepaare (x | f(x)) für x von −4 bis 4 in die Tabelle ein.",
+  "fehler": [
+   {
+    "diagnoseId": "steigung_und_abschnitt_vertauscht",
+    "kurz": "m und q vertauscht",
+    "feedback": "Du hast {q} als Steigung und {m} als Achsenabschnitt genommen. Die Steigung ist die Zahl VOR dem x, hier {m}."
+   },
+   {
+    "diagnoseId": "vorzeichen_bei_negativem_x",
+    "kurz": "Vorzeichen bei negativem x",
+    "feedback": "Bei negativen x-Werten dreht sich das Vorzeichen des Glieds {m}x um. Rechne {m} mal den x-Wert einzeln aus, bevor du ({q}) dazuzählst."
+   },
+   {
+    "diagnoseId": "abschnitt_vergessen",
+    "kurz": "q vergessen",
+    "feedback": "Das Glied ({q}) gehört zu jedem einzelnen Funktionswert dazu. Es verschiebt die ganze Gerade nach oben oder unten."
+   }
+  ],
+  "hinweise": [
+   "Setze jeden x-Wert einzeln in f(x) = {m}x + ({q}) ein.",
+   "Rechne zuerst {m} mal x, dann zähle ({q}) dazu.",
+   "Von einem x zum nächsten ändert sich der Wert immer um {m}. Das ist die Steigung."
+  ],
+  "loesungsweg": [
+   "Setze der Reihe nach x = −4, −3, … , 4 ein.",
+   "Beispiel x = −2: {m} · (−2) und dann + ({q}).",
+   "Von Zeile zu Zeile ändert sich der Wert stets um {m}.",
+   "Der Graph schneidet die y-Achse bei {q}."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "x",
+     "von": "-4",
+     "bis": "4"
+    },
+    {
+     "name": "y",
+     "kopf": "f(x)",
+     "von": "min(m*(-4)+q, m*4+q)-1",
+     "bis": "max(m*(-4)+q, m*4+q)+1"
+    }
+   ],
+   "bedingung": "y == m*x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-gerade-punkte",
+  "lernzielId": "MSO.4.02",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "4.02",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -11,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "x1",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "x2",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m*x1+q"
+   },
+   {
+    "name": "y2",
+    "typ": "formel",
+    "ausdruck": "m*x2+q"
+   },
+   {
+    "name": "dx",
+    "typ": "formel",
+    "ausdruck": "x2-x1"
+   },
+   {
+    "name": "dy",
+    "typ": "formel",
+    "ausdruck": "m*x2-m*x1"
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "q!=0",
+   "x1!=x2",
+   "x2>x1",
+   "m!=q",
+   "x1!=0",
+   "x2!=0",
+   "y1<=60",
+   "y1>=-60",
+   "y2<=60",
+   "y2>=-60",
+   "y1!=y2",
+   "m!=dx"
+  ],
+  "stamm": "Die Gerade g verläuft durch die Punkte A({x1} | {y1}) und B({x2} | {y2}). Bestimme die Steigung m und den y-Achsenabschnitt q.",
+  "felder": [
+   {
+    "name": "m",
+    "label": "Steigung m",
+    "ausdruck": "m",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "kehrwert",
+      "ausdruck": "(x2-x1)/(m*x2-m*x1)",
+      "feedback": "Du hast Δx durch Δy geteilt. Die Steigung sagt, um wie viel y wächst, wenn x um 1 wächst, also Δy geteilt durch Δx."
+     },
+     {
+      "diagnoseId": "nur_differenz",
+      "ausdruck": "m*x2-m*x1",
+      "feedback": "Das ist der Höhenunterschied zwischen A und B. Er verteilt sich auf {dx} Schritte in x-Richtung."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-m",
+      "feedback": "Der Betrag stimmt, das Vorzeichen nicht. Steigt y, wenn x wächst, ist m positiv."
+     }
+    ]
+   },
+   {
+    "name": "q",
+    "label": "y-Achsenabschnitt q",
+    "ausdruck": "q",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "y_von_a",
+      "ausdruck": "m*x1+q",
+      "feedback": "Das ist der y-Wert von A. Der Achsenabschnitt gehört zur Stelle x = 0."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-q",
+      "feedback": "Beim Einsetzen wechselt das Glied m · x die Seite und damit sein Vorzeichen."
+     },
+     {
+      "diagnoseId": "steigung_eingetragen",
+      "ausdruck": "m",
+      "feedback": "Das ist die Steigung. Der Achsenabschnitt ist die Zahl ohne x."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie stark ändert sich y, wenn x von {x1} auf {x2} wächst?",
+   "Steigung: Δy geteilt durch Δx, also ({y2} − ({y1})) : ({x2} − ({x1})).",
+   "Setze danach einen Punkt in y = mx + q ein und löse nach q auf."
+  ],
+  "loesungsweg": [
+   "Δy = {dy} und Δx = {dx}.",
+   "Steigung: m = {dy} : {dx} = {m}.",
+   "Punkt A einsetzen: {y1} = {m} · ({x1}) + q.",
+   "Aufgelöst ergibt das q = {q}.",
+   "Probe mit B: {m} · ({x2}) + ({q}) = {y2}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-schnittpunkt",
+  "lernzielId": "MSO.4.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "4.04",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "sx",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "sy",
+    "typ": "ganzzahl",
+    "von": -11,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "q1",
+    "typ": "formel",
+    "ausdruck": "sy-m1*sx"
+   },
+   {
+    "name": "q2",
+    "typ": "formel",
+    "ausdruck": "sy-m2*sx"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "m1!=0",
+   "m2!=0",
+   "m1!=1",
+   "m1!=-1",
+   "m2!=1",
+   "m2!=-1",
+   "q1!=0",
+   "q2!=0",
+   "sx!=0",
+   "sy!=0",
+   "q1!=q2",
+   "q1<=50",
+   "q1>=-50",
+   "q2<=50",
+   "q2>=-50",
+   "sx!=sy",
+   "m1!=q1",
+   "m2!=q2"
+  ],
+  "stamm": "Gegeben sind die Geraden f mit y = {m1}x + ({q1}) und g mit y = {m2}x + ({q2}). Bestimme den Schnittpunkt.",
+  "felder": [
+   {
+    "name": "sx",
+    "label": "x-Koordinate des Schnittpunkts",
+    "ausdruck": "sx",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "(q1-q2)/(m2-m1)*(-1)",
+      "feedback": "Beim Gleichsetzen kommen die x-Glieder auf die eine, die Zahlen auf die andere Seite. Prüfe, welche Differenz oben und welche unten steht."
+     },
+     {
+      "diagnoseId": "summe_statt_differenz",
+      "ausdruck": "(q1+q2)/(m1+m2)",
+      "feedback": "Beim Gleichsetzen wird subtrahiert: ({m1} − {m2})x = {q2} − {q1}."
+     },
+     {
+      "diagnoseId": "y_koordinate",
+      "ausdruck": "sy",
+      "feedback": "Das ist die y-Koordinate. Gefragt ist zuerst das x, bei dem beide Geraden denselben Wert haben."
+     }
+    ]
+   },
+   {
+    "name": "sy",
+    "label": "y-Koordinate des Schnittpunkts",
+    "ausdruck": "sy",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "x_koordinate",
+      "ausdruck": "sx",
+      "feedback": "Das ist die x-Koordinate. Setze sie in eine der Gleichungen ein, um y zu bekommen."
+     },
+     {
+      "diagnoseId": "nur_abschnitt",
+      "ausdruck": "q1",
+      "feedback": "Das ist der y-Achsenabschnitt von f, also der Wert bei x = 0. Der Schnittpunkt liegt bei x = {sx}."
+     },
+     {
+      "diagnoseId": "gemischt",
+      "ausdruck": "m2*sx+q1",
+      "feedback": "Sie haben die Steigung der einen mit dem Achsenabschnitt der anderen Geraden kombiniert. Setze x = {sx} in EINE Gleichung ein."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was gilt im Schnittpunkt für die beiden y-Werte?",
+   "Setze die Terme gleich: {m1}x + ({q1}) = {m2}x + ({q2}).",
+   "Löse nach x auf und setze das Ergebnis ein."
+  ],
+  "loesungsweg": [
+   "Gleichsetzen: {m1}x + ({q1}) = {m2}x + ({q2}).",
+   "x-Glieder nach links, Zahlen nach rechts.",
+   "Das ergibt x = {sx}.",
+   "Einsetzen in f: {m1} · ({sx}) + ({q1}) = {sy}.",
+   "Probe mit g: derselbe Wert."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-proportional",
+  "lernzielId": "MSO.4.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "4.05",
+   "4.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Anouk"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Nevio"
+     ],
+     [
+      "Jasmin"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Céline"
+     ],
+     [
+      "Marek"
+     ],
+     [
+      "Sofia"
+     ],
+     [
+      "Linus"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "arbeit",
+    "typ": "text",
+    "texte": [
+     [
+      "Kies für den Weg",
+      "Kubikmeter Kies",
+      "Arbeiterinnen"
+     ],
+     [
+      "Farbe für die Fassade",
+      "Liter Farbe",
+      "Malerinnen"
+     ],
+     [
+      "Platten für die Terrasse",
+      "Platten",
+      "Personen"
+     ],
+     [
+      "Ziegel für das Dach",
+      "Ziegel",
+      "Dachdecker"
+     ],
+     [
+      "Setzlinge für das Beet",
+      "Setzlinge",
+      "Helferinnen"
+     ]
+    ]
+   },
+   {
+    "name": "stueck",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     8,
+     9,
+     12,
+     15,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "proStueck",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     12
+    ]
+   },
+   {
+    "name": "neu",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "stunden",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     36,
+     48,
+     60,
+     72,
+     90,
+     120
+    ]
+   },
+   {
+    "name": "leute",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "preisNeu",
+    "typ": "formel",
+    "ausdruck": "neu*proStueck"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "stueck*proStueck"
+   },
+   {
+    "name": "doppelt",
+    "typ": "formel",
+    "ausdruck": "2*leute"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "stunden/2"
+   }
+  ],
+  "bedingungen": [
+   "neu!=stueck",
+   "gesamt<=240",
+   "preisNeu!=gesamt",
+   "(stunden%2)==0",
+   "dauer>=12",
+   "dauer!=leute",
+   "dauer!=stunden",
+   "preisNeu!=dauer",
+   "leute<=6",
+   "stueck!=neu",
+   "dauer!=doppelt"
+  ],
+  "stamm": "Auf dem Bauplatz wird gerechnet. {stueck} {arbeit.1} kosten Fr. {gesamt}.–. Getrennt davon gilt: {leute} {arbeit.2} brauchen für eine Arbeit zusammen {stunden} Minuten. Alle arbeiten gleich schnell.",
+  "felder": [
+   {
+    "name": "preisNeu",
+    "label": "Preis für {neu} {arbeit.1} in Franken",
+    "ausdruck": "neu*proStueck",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "gesamt+neu",
+      "feedback": "Der Preis ist direkt proportional zur Menge: doppelt so viel Material kostet doppelt so viel. Rechne zuerst den Preis für ein Stück aus."
+     },
+     {
+      "diagnoseId": "umgekehrt_gerechnet",
+      "ausdruck": "gesamt*stueck/neu",
+      "feedback": "Hier gilt die DIREKTE Proportionalität: mehr Material, mehr Geld. Umgekehrt proportional ist die zweite Aufgabe."
+     },
+     {
+      "diagnoseId": "gesamtpreis",
+      "ausdruck": "gesamt",
+      "feedback": "Das ist der Preis für {stueck} Stück. Gefragt sind {neu}."
+     }
+    ]
+   },
+   {
+    "name": "dauer",
+    "label": "Minuten, wenn {doppelt} statt {leute} mithelfen",
+    "ausdruck": "stunden/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "proportional_gerechnet",
+      "ausdruck": "stunden*2",
+      "feedback": "Hier ist es umgekehrt: Je mehr Leute mithelfen, desto kürzer dauert es. Das Produkt aus Anzahl und Zeit bleibt gleich."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "stunden-leute",
+      "feedback": "Bei umgekehrter Proportionalität wird geteilt, nicht abgezogen: Doppelt so viele Leute brauchen die halbe Zeit."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "stunden",
+      "feedback": "Mehr Leute ändern die Dauer sehr wohl. Bei {doppelt} statt {leute} Personen halbiert sie sich."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Bei welcher der beiden Aufgaben wächst die zweite Grösse mit, bei welcher schrumpft sie?",
+   "Material und Preis sind direkt proportional: erst den Preis für ein Stück, dann mal die neue Menge.",
+   "Leute und Zeit sind umgekehrt proportional: doppelt so viele Personen brauchen die halbe Zeit."
+  ],
+  "loesungsweg": [
+   "Ein Stück kostet Fr. {gesamt}.– : {stueck} = Fr. {proStueck}.–.",
+   "{neu} Stück kosten {neu} · {proStueck} = Fr. {preisNeu}.–.",
+   "Bei der Arbeit bleibt das Produkt aus Anzahl und Zeit gleich: {leute} · {stunden} ändert sich nicht.",
+   "{doppelt} statt {leute} Personen brauchen darum {stunden} : 2 = {dauer} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-prozent-grundwert",
+  "lernzielId": "MSO.5.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "5.01",
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Anouk"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Nevio"
+     ],
+     [
+      "Jasmin"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Céline"
+     ],
+     [
+      "Marek"
+     ],
+     [
+      "Sofia"
+     ],
+     [
+      "Linus"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Fahrradwerkstatt",
+      "Der Werkstattlohn"
+     ],
+     [
+      "ein Musikinstrument",
+      "Der Instrumentenpreis"
+     ],
+     [
+      "einen Occasionsroller",
+      "Der Rollerpreis"
+     ],
+     [
+      "eine Ferienwohnung",
+      "Der Wochenpreis"
+     ],
+     [
+      "einen Gebrauchtcomputer",
+      "Der Gerätepreis"
+     ],
+     [
+      "ein Skiabonnement",
+      "Der Abonnementspreis"
+     ]
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "ganzzahl",
+    "von": 80,
+    "bis": 600,
+    "schritt": 20
+   },
+   {
+    "name": "satz",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "grund*satz/100"
+   },
+   {
+    "name": "mehr",
+    "typ": "formel",
+    "ausdruck": "grund*(100+satz)/100"
+   },
+   {
+    "name": "weniger",
+    "typ": "formel",
+    "ausdruck": "grund-grund*satz/100"
+   }
+  ],
+  "bedingungen": [
+   "(grund*satz%100)==0",
+   "teil>=10",
+   "mehr<=900",
+   "grund!=satz",
+   "teil!=grund",
+   "weniger!=teil",
+   "mehr!=grund"
+  ],
+  "stamm": "{name} vergleicht Angebote für {sache}. {sache.1} beträgt Fr. {grund}.–. Rechne mit einem Satz von {satz} %.",
+  "felder": [
+   {
+    "name": "teil",
+    "label": "{satz} % von Fr. {grund}.– in Franken",
+    "ausdruck": "grund*satz/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "satz_als_franken",
+      "ausdruck": "satz",
+      "feedback": "Die {satz} sind Prozente, keine Franken. Ein Prozent ist ein Hundertstel des Grundwerts."
+     },
+     {
+      "diagnoseId": "geteilt_durch_satz",
+      "ausdruck": "grund/satz",
+      "feedback": "Prozent heisst «von hundert»: Der Grundwert wird durch 100 geteilt und dann mit {satz} multipliziert."
+     },
+     {
+      "diagnoseId": "ganzer_grundwert",
+      "ausdruck": "grund",
+      "feedback": "Das ist der ganze Grundwert, also 100 %. Gefragt sind {satz} %."
+     }
+    ]
+   },
+   {
+    "name": "mehr",
+    "label": "Preis nach einem Aufschlag von {satz} %",
+    "ausdruck": "grund*(100+satz)/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_der_aufschlag",
+      "ausdruck": "grund*satz/100",
+      "feedback": "Das ist der Aufschlag allein. Er kommt zum alten Preis DAZU."
+     },
+     {
+      "diagnoseId": "abgezogen",
+      "ausdruck": "grund-grund*satz/100",
+      "feedback": "Ein Aufschlag macht den Preis grösser, nicht kleiner."
+     },
+     {
+      "diagnoseId": "satz_addiert",
+      "ausdruck": "grund+satz",
+      "feedback": "Die {satz} sind Prozente, keine Franken. Rechne zuerst aus, wie viel {satz} % von Fr. {grund}.– sind."
+     }
+    ]
+   },
+   {
+    "name": "weniger",
+    "label": "Preis nach einem Rabatt von {satz} %",
+    "ausdruck": "grund-grund*satz/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "aufgeschlagen",
+      "ausdruck": "grund*(100+satz)/100",
+      "feedback": "Ein Rabatt senkt den Preis. Das Ergebnis muss kleiner sein als Fr. {grund}.–."
+     },
+     {
+      "diagnoseId": "nur_der_rabatt",
+      "ausdruck": "grund*satz/100",
+      "feedback": "Das ist der Rabatt selbst. Er muss noch vom Preis abgezogen werden."
+     },
+     {
+      "diagnoseId": "satz_abgezogen",
+      "ausdruck": "grund-satz",
+      "feedback": "Die {satz} sind Prozente, keine Franken."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher Betrag entspricht 100 %?",
+   "Ein Prozent ist ein Hundertstel des Grundwerts: Fr. {grund}.– durch 100.",
+   "Aufschlag heisst (100 + {satz}) %, Rabatt heisst (100 − {satz}) % des Grundwerts."
+  ],
+  "loesungsweg": [
+   "Fr. {grund}.– sind 100 %.",
+   "{satz} % davon: {grund} · {satz} : 100 = Fr. {teil}.–.",
+   "Mit Aufschlag: {grund} + {teil} = Fr. {mehr}.–.",
+   "Mit Rabatt: {grund} − {teil} = Fr. {weniger}.–."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-promille",
+  "lernzielId": "MSO.5.03",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "5.03",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "stoff",
+    "typ": "text",
+    "texte": [
+     [
+      "Salz im Meerwasser",
+      "Meerwasser",
+      "Salz"
+     ],
+     [
+      "Fett in der Milch",
+      "Milch",
+      "Fett"
+     ],
+     [
+      "Zucker im Sirup",
+      "Sirup",
+      "Zucker"
+     ],
+     [
+      "Kalk im Leitungswasser",
+      "Wasser",
+      "Kalk"
+     ],
+     [
+      "Silber in der Legierung",
+      "Legierung",
+      "Silber"
+     ]
+    ]
+   },
+   {
+    "name": "promille",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     12,
+     15,
+     20,
+     25,
+     32,
+     40
+    ]
+   },
+   {
+    "name": "kg",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 900,
+    "schritt": 20
+   },
+   {
+    "name": "gramm",
+    "typ": "formel",
+    "ausdruck": "kg*promille"
+   },
+   {
+    "name": "prozent",
+    "typ": "formel",
+    "ausdruck": "promille/10"
+   }
+  ],
+  "bedingungen": [
+   "gramm<=30000",
+   "gramm>=200",
+   "kg!=promille",
+   "gramm!=kg",
+   "prozent!=promille"
+  ],
+  "stamm": "In {kg} Kilogramm {stoff.1} stecken {promille} Promille {stoff.2}.",
+  "felder": [
+   {
+    "name": "gramm",
+    "label": "Menge {stoff.2} in Gramm",
+    "ausdruck": "kg*promille",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "wie_prozent",
+      "ausdruck": "kg*promille*10",
+      "feedback": "Promille heisst «von tausend», nicht «von hundert». Ein Promille ist ein Tausendstel. Zehnmal weniger als ein Prozent."
+     },
+     {
+      "diagnoseId": "in_kilogramm",
+      "ausdruck": "kg*promille/1000",
+      "feedback": "Das ist die Menge in Kilogramm. Gefragt sind Gramm, also tausendmal mehr."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "kg/promille",
+      "feedback": "Der Anteil wird multipliziert, nicht geteilt: {kg} kg mal {promille} Tausendstel."
+     }
+    ]
+   },
+   {
+    "name": "prozent",
+    "label": "{promille} Promille in Prozent",
+    "ausdruck": "promille/10",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "promille",
+      "feedback": "Promille und Prozent sind nicht dasselbe. Zehn Promille sind ein Prozent."
+     },
+     {
+      "diagnoseId": "mal_zehn",
+      "ausdruck": "promille*10",
+      "feedback": "Promille ist die kleinere Einheit. Die Prozentzahl muss also kleiner sein, nicht grösser."
+     },
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "promille/100",
+      "feedback": "Zwischen Promille und Prozent liegt der Faktor 10, nicht 100."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was heisst «Promille» wörtlich?",
+   "Prozent ist «von hundert», Promille ist «von tausend».",
+   "{promille} Promille von {kg} kg: erst {kg} durch 1000, dann mal {promille}, und das Ergebnis in Gramm."
+  ],
+  "loesungsweg": [
+   "Ein Promille von {kg} kg sind {kg} : 1000 kg, also {kg} Gramm.",
+   "{promille} Promille sind darum {kg} · {promille} = {gramm} Gramm.",
+   "Zehn Promille sind ein Prozent, also sind {promille} Promille gleich {prozent} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-zwei-bewegungen",
+  "lernzielId": "MSO.5.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "5.05",
+   "5.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Anouk"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Nevio"
+     ],
+     [
+      "Jasmin"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Céline"
+     ],
+     [
+      "Marek"
+     ],
+     [
+      "Sofia"
+     ],
+     [
+      "Linus"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Tobias"
+     ]
+    ]
+   },
+   {
+    "name": "zweite",
+    "typ": "text",
+    "texte": [
+     [
+      "Olivia"
+     ],
+     [
+      "Nora"
+     ],
+     [
+      "Fabienne"
+     ],
+     [
+      "Ladina"
+     ],
+     [
+      "Selma"
+     ],
+     [
+      "Rahel"
+     ]
+    ]
+   },
+   {
+    "name": "strecke",
+    "typ": "text",
+    "texte": [
+     [
+      "den beiden Dörfern"
+     ],
+     [
+      "dem Schulhaus und dem Ferienlager"
+     ],
+     [
+      "den zwei Bahnhöfen"
+     ],
+     [
+      "dem Hof und der Käserei"
+     ],
+     [
+      "dem Startort und dem Ziel"
+     ]
+    ]
+   },
+   {
+    "name": "km",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     30,
+     36,
+     42,
+     48,
+     54,
+     60
+    ]
+   },
+   {
+    "name": "v1",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "v2",
+    "typ": "auswahl",
+    "werte": [
+     16,
+     20,
+     25,
+     28,
+     30,
+     36
+    ]
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "v1+v2"
+   },
+   {
+    "name": "minuten",
+    "typ": "formel",
+    "ausdruck": "km*60/(v1+v2)"
+   },
+   {
+    "name": "std1",
+    "typ": "formel",
+    "ausdruck": "km*60/v1"
+   }
+  ],
+  "bedingungen": [
+   "v1<v2",
+   "istGanz(km*60/(v1+v2))==1",
+   "istGanz(km*60/v1)==1",
+   "minuten>=30",
+   "minuten<=150",
+   "std1<=300",
+   "minuten!=km",
+   "std1!=minuten",
+   "summe!=km"
+  ],
+  "stamm": "Zwischen {strecke} liegen {km} km. {name} fährt mit {v1} km/h los, {zweite} gleichzeitig von der anderen Seite mit {v2} km/h. Sie fahren einander entgegen.",
+  "felder": [
+   {
+    "name": "minuten",
+    "label": "Nach wie vielen Minuten begegnen sie einander?",
+    "ausdruck": "km*60/(v1+v2)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_eine_geschwindigkeit",
+      "ausdruck": "km*60/v1",
+      "feedback": "Beide fahren gleichzeitig, also nähern sie sich mit der SUMME der Geschwindigkeiten: {v1} + {v2} = {summe} km/h."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "km*60/(v2-v1)",
+      "feedback": "Die Differenz gälte, wenn eine die andere von hinten einholt. Hier fahren sie einander entgegen. Dann addieren sich die Tempi."
+     },
+     {
+      "diagnoseId": "in_stunden",
+      "ausdruck": "km/(v1+v2)",
+      "feedback": "Das ist die Zeit in Stunden. Gefragt sind Minuten, also mal 60."
+     }
+    ]
+   },
+   {
+    "name": "std1",
+    "label": "Wie viele Minuten bräuchte {name} für die ganze Strecke?",
+    "ausdruck": "km*60/v1",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "mit_summe",
+      "ausdruck": "km*60/(v1+v2)",
+      "feedback": "Für die ganze Strecke allein zählt nur {name}s Tempo von {v1} km/h, nicht die Summe."
+     },
+     {
+      "diagnoseId": "mal_statt_geteilt",
+      "ausdruck": "km*v1",
+      "feedback": "Zeit ist Weg geteilt durch Tempo, nicht Weg mal Tempo."
+     },
+     {
+      "diagnoseId": "mit_v2",
+      "ausdruck": "km*60/v2",
+      "feedback": "Das ist {zweite}s Zeit. {name} fährt mit {v1} km/h."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Mit welcher Geschwindigkeit nähern sich die beiden einander?",
+   "Wenn beide aufeinander zufahren, addieren sich die Geschwindigkeiten: {v1} + {v2} = {summe} km/h.",
+   "Zeit = Weg geteilt durch Geschwindigkeit, und am Schluss von Stunden in Minuten umrechnen."
+  ],
+  "loesungsweg": [
+   "Die beiden nähern sich mit {v1} + {v2} = {summe} km/h.",
+   "Zeit bis zur Begegnung: {km} : {summe} Stunden.",
+   "In Minuten: mal 60 ergibt {minuten} Minuten.",
+   "{name} allein bräuchte {km} : {v1} Stunden, also {std1} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-verhaeltnis",
+  "lernzielId": "MSO.5.07",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "5.07",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "mischung",
+    "typ": "text",
+    "texte": [
+     [
+      "Mörtel",
+      "Sand",
+      "Zement"
+     ],
+     [
+      "Sirup",
+      "Wasser",
+      "Konzentrat"
+     ],
+     [
+      "Vogelfutter",
+      "Körner",
+      "Nüsse"
+     ],
+     [
+      "Blumenerde",
+      "Kompost",
+      "Sand"
+     ],
+     [
+      "Müesli",
+      "Flocken",
+      "Trockenfrüchte"
+     ]
+    ]
+   },
+   {
+    "name": "v1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "v2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "einheit",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     8,
+     10,
+     12,
+     15,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "teile",
+    "typ": "formel",
+    "ausdruck": "v1+v2"
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "(v1+v2)*einheit"
+   },
+   {
+    "name": "a1",
+    "typ": "formel",
+    "ausdruck": "v1*einheit"
+   },
+   {
+    "name": "a2",
+    "typ": "formel",
+    "ausdruck": "v2*einheit"
+   },
+   {
+    "name": "proz1",
+    "typ": "formel",
+    "ausdruck": "v1*100/(v1+v2)"
+   }
+  ],
+  "bedingungen": [
+   "v1!=v2",
+   "v1>v2",
+   "total<=300",
+   "a1!=a2",
+   "a1!=total",
+   "a2!=total",
+   "teile!=einheit",
+   "proz1<=90",
+   "a1!=proz1"
+  ],
+  "stamm": "{mischung} wird aus {mischung.1} und {mischung.2} im Verhältnis {v1} : {v2} gemischt. Insgesamt werden {total} Kilogramm angerührt.",
+  "felder": [
+   {
+    "name": "a1",
+    "label": "{mischung.1} in Kilogramm",
+    "ausdruck": "v1*einheit",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "total/2",
+      "feedback": "Halbe-halbe gälte nur beim Verhältnis 1 : 1. Hier stehen {v1} Teile gegen {v2} Teile."
+     },
+     {
+      "diagnoseId": "durch_verhaeltniszahl",
+      "ausdruck": "total/v1",
+      "feedback": "Geteilt wird durch die SUMME der Verhältniszahlen, also durch {v1} + {v2} = {teile}. Das ergibt die Menge eines Teils."
+     },
+     {
+      "diagnoseId": "anderer_anteil",
+      "ausdruck": "v2*einheit",
+      "feedback": "Das ist der Anteil von {mischung.2}. Zu {mischung.1} gehören {v1} Teile."
+     }
+    ]
+   },
+   {
+    "name": "a2",
+    "label": "{mischung.2} in Kilogramm",
+    "ausdruck": "v2*einheit",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "total/2",
+      "feedback": "Verteilt wird nach dem Verhältnis {v1} : {v2}, nicht zu gleichen Teilen."
+     },
+     {
+      "diagnoseId": "anderer_anteil",
+      "ausdruck": "v1*einheit",
+      "feedback": "Das ist der Anteil von {mischung.1}. Zu {mischung.2} gehören {v2} Teile."
+     },
+     {
+      "diagnoseId": "verhaeltnis_als_bruch",
+      "ausdruck": "total*v2/v1",
+      "feedback": "Das Verhältnis {v1} : {v2} ist kein Bruch, den man auf die Gesamtmenge anwendet. Es sagt, in wie viele gleiche Teile zerlegt wird: {v1} + {v2} = {teile}."
+     }
+    ]
+   },
+   {
+    "name": "proz1",
+    "label": "Anteil {mischung.1} in Prozent",
+    "ausdruck": "v1*100/(v1+v2)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "verhaeltniszahl",
+      "ausdruck": "v1",
+      "feedback": "Die {v1} ist eine Verhältniszahl, kein Prozentsatz. Sie muss ins Verhältnis zur Summe {teile} gesetzt werden."
+     },
+     {
+      "diagnoseId": "gegen_den_anderen",
+      "ausdruck": "v1*100/v2",
+      "feedback": "Im Nenner steht die Summe aller Teile, nicht der andere Anteil."
+     },
+     {
+      "diagnoseId": "anderer_anteil",
+      "ausdruck": "v2*100/(v1+v2)",
+      "feedback": "Das ist der Prozentanteil von {mischung.2}."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "In wie viele gleiche Teile wird die Mischung insgesamt zerlegt?",
+   "{v1} + {v2} = {teile} Teile. Ein Teil wiegt {total} : {teile} kg.",
+   "Danach: {v1} Teile für {mischung.1}, {v2} Teile für {mischung.2}."
+  ],
+  "loesungsweg": [
+   "Zusammen sind es {v1} + {v2} = {teile} Teile.",
+   "Ein Teil wiegt {total} : {teile} = {einheit} kg.",
+   "{mischung.1}: {v1} · {einheit} = {a1} kg.",
+   "{mischung.2}: {v2} · {einheit} = {a2} kg.",
+   "Anteil {mischung.1}: {v1} von {teile}, also {proz1} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-winkel-dreieck",
+  "lernzielId": "MSO.6.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 22,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 26,
+    "bis": 84,
+    "schritt": 1
+   },
+   {
+    "name": "figur",
+    "typ": "text",
+    "texte": [
+     [
+      "einem Dachstuhl"
+     ],
+     [
+      "einer Fachwerkstrebe"
+     ],
+     [
+      "einem Segeldreieck"
+     ],
+     [
+      "einem Verkehrsschild"
+     ],
+     [
+      "einer Brückenstütze"
+     ],
+     [
+      "einem Zeltdach"
+     ]
+    ]
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "alpha+beta"
+   },
+   {
+    "name": "basis",
+    "typ": "formel",
+    "ausdruck": "(180-alpha)/2"
+   }
+  ],
+  "bedingungen": [
+   "gamma>=24",
+   "gamma<=112",
+   "alpha!=beta",
+   "beta!=gamma",
+   "alpha!=gamma",
+   "aussen!=gamma",
+   "istGanz((180-alpha)/2)==1",
+   "basis!=beta",
+   "basis!=gamma",
+   "basis!=alpha"
+  ],
+  "stamm": "An {figur} ist ein Dreieck ABC abgesteckt. Zwei Winkel sind bekannt: α = {alpha}° und β = {beta}°. Daneben liegt ein zweites, gleichschenkliges Dreieck; sein Spitzenwinkel misst ebenfalls {alpha}°.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "Winkel γ",
+    "ausdruck": "180-alpha-beta",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "summe_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck ist 180°, nicht 360°. Die 360° gelten für das Viereck oder für eine volle Drehung."
+     },
+     {
+      "diagnoseId": "nur_einen_abgezogen",
+      "ausdruck": "180-alpha",
+      "feedback": "Beide bekannten Winkel müssen weg: erst α, dann β."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "alpha-beta",
+      "feedback": "Die beiden gegebenen Winkel werden nicht voneinander abgezogen. Zusammen mit γ ergeben sie 180°."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel bei C",
+    "ausdruck": "alpha+beta",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "innenwinkel",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der Innenwinkel γ. Der Aussenwinkel ergänzt ihn zu 180° und ist so gross wie die beiden nicht anliegenden Innenwinkel zusammen."
+     },
+     {
+      "diagnoseId": "zu_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Ein Aussenwinkel am Dreieck ist immer kleiner als 180°."
+     },
+     {
+      "diagnoseId": "nur_alpha",
+      "ausdruck": "alpha",
+      "feedback": "Ein einzelner Innenwinkel genügt nicht. Es sind α und β zusammen."
+     }
+    ]
+   },
+   {
+    "name": "basis",
+    "label": "Basiswinkel des gleichschenkligen Dreiecks",
+    "ausdruck": "(180-alpha)/2",
+    "zahlformat": "ganz",
+    "einheit": "°",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "180-alpha",
+      "feedback": "Die beiden Basiswinkel teilen sich den Rest. Was von 180° übrig bleibt, wird durch 2 geteilt."
+     },
+     {
+      "diagnoseId": "gleich_spitze",
+      "ausdruck": "alpha",
+      "feedback": "Nur im gleichseitigen Dreieck sind alle Winkel gleich. Hier ist der Spitzenwinkel gegeben, die Basiswinkel sind der Rest, halbiert."
+     },
+     {
+      "diagnoseId": "spitze_halbiert",
+      "ausdruck": "alpha/2",
+      "feedback": "Halbiert wird nicht der Spitzenwinkel, sondern das, was von 180° nach Abzug der Spitze übrig bleibt. Die beiden Basiswinkel teilen sich diesen Rest."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme in einem Dreieck?",
+   "γ findet man mit 180° − α − β.",
+   "Im gleichschenkligen Dreieck sind die beiden Basiswinkel gleich gross: Sie teilen sich, was vom Spitzenwinkel übrig bleibt."
+  ],
+  "loesungsweg": [
+   "Winkelsumme: α + β + γ = 180°, also γ = {gamma}°.",
+   "Aussenwinkel bei C: {alpha}° + {beta}° = {aussen}°.",
+   "Gleichschenkliges Dreieck mit Spitze {alpha}°: 180° − {alpha}° bleibt für zwei gleiche Winkel.",
+   "Geteilt durch 2 ergibt das {basis}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-vierecke-flaechen",
+  "lernzielId": "MSO.6.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "6.04",
+   "6.05",
+   "6.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "para",
+    "typ": "formel",
+    "ausdruck": "a*h"
+   },
+   {
+    "name": "trapez",
+    "typ": "formel",
+    "ausdruck": "(a+c)*h/2"
+   },
+   {
+    "name": "drachen",
+    "typ": "formel",
+    "ausdruck": "e*f/2"
+   },
+   {
+    "name": "zusammen",
+    "typ": "formel",
+    "ausdruck": "a*h+(a+c)*h/2"
+   }
+  ],
+  "bedingungen": [
+   "a>c",
+   "((a+c)*h%2)==0",
+   "(e*f%2)==0",
+   "para<=380",
+   "trapez<=320",
+   "drachen<=280",
+   "para!=trapez",
+   "trapez!=drachen",
+   "para!=drachen",
+   "drachen>=24",
+   "e!=a",
+   "f!=h",
+   "zusammen<=700"
+  ],
+  "stamm": "Ein Grundstück ist aus drei Teilstücken zusammengesetzt. Berechne die Flächen einzeln.\nParallelogramm: Grundseite a = {a} m, Höhe h = {h} m.\nTrapez: parallele Seiten a = {a} m und c = {c} m, Höhe h = {h} m.\nDrachenviereck: Diagonalen e = {e} m und f = {f} m.",
+  "felder": [
+   {
+    "name": "para",
+    "label": "Fläche des Parallelogramms in m²",
+    "ausdruck": "a*h",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*h/2",
+      "feedback": "Halbiert wird beim Dreieck und beim Trapez. Ein Parallelogramm ist Grundseite mal Höhe. Es lässt sich zu einem Rechteck umlegen."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "2*(a+h)",
+      "feedback": "Grundseite und Höhe werden multipliziert. Was Sie gerechnet haben, wäre ein Umfang, und die Höhe ist ohnehin keine Seite."
+     },
+     {
+      "diagnoseId": "mit_c",
+      "ausdruck": "c*h",
+      "feedback": "Die Grundseite des Parallelogramms ist {a} m. Die Länge {c} m gehört zum Trapez."
+     }
+    ]
+   },
+   {
+    "name": "trapez",
+    "label": "Fläche des Trapezes in m²",
+    "ausdruck": "(a+c)*h/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "(a+c)*h",
+      "feedback": "Die Summe der beiden parallelen Seiten wird halbiert: (a + c) · h : 2."
+     },
+     {
+      "diagnoseId": "nur_a",
+      "ausdruck": "a*h",
+      "feedback": "Das ist das Parallelogramm. Beim Trapez zählen beide parallelen Seiten, {a} m und {c} m."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "(a-c)*h/2",
+      "feedback": "Die parallelen Seiten werden addiert, nicht subtrahiert. Sonst käme bei gleich langen Seiten null heraus."
+     }
+    ]
+   },
+   {
+    "name": "drachen",
+    "label": "Fläche des Drachenvierecks in m²",
+    "ausdruck": "e*f/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "e*f",
+      "feedback": "Das Produkt der Diagonalen ergibt das umschriebene Rechteck. Der Drachen ist genau halb so gross."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "(e+f)/2",
+      "feedback": "Die Diagonalen werden multipliziert, nicht addiert. Der Mittelwert zweier Längen ist keine Fläche."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "(e+f)*h/2",
+      "feedback": "Beim Drachen braucht es keine Höhe. Es zählen nur die beiden Diagonalen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Formel gehört zu welcher Figur?",
+   "Parallelogramm: Grundseite mal Höhe, ohne Halbieren.",
+   "Trapez: die beiden parallelen Seiten zusammenzählen, mal Höhe, durch 2. Drachen: die Diagonalen mal einander, durch 2."
+  ],
+  "loesungsweg": [
+   "Parallelogramm: {a} · {h} = {para} m².",
+   "Trapez: ({a} + {c}) · {h} : 2 = {trapez} m².",
+   "Drachen: {e} · {f} : 2 = {drachen} m².",
+   "Merken Sie sich, wo halbiert wird: Trapez und Drachen ja, Parallelogramm nein."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-pythagoras-quader",
+  "lernzielId": "MSO.7.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "7.01",
+   "7.02",
+   "7.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 48,
+    "schritt": 2
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 36,
+    "schritt": 2
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 32,
+    "schritt": 1
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "sqrt(l*l+b*b)"
+   },
+   {
+    "name": "raum",
+    "typ": "formel",
+    "ausdruck": "sqrt(l*l+b*b+h*h)"
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "l*b*h"
+   }
+  ],
+  "bedingungen": [
+   "l>b",
+   "b>h",
+   "vol<=48000",
+   "raum<=90",
+   "flaeche!=raum",
+   "flaeche>=8",
+   "vol!=raum"
+  ],
+  "stamm": "Gegeben ist ein Quader ABCDEFGH mit der Länge AB = {l} cm, der Breite AD = {b} cm und der Höhe AE = {h} cm. Runden Sie auf zwei Stellen nach dem Komma.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Flächendiagonale der Grundfläche in cm",
+    "ausdruck": "sqrt(l*l+b*b)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "l+b",
+      "feedback": "Die Seiten selbst werden nicht addiert. Erst quadrieren, dann addieren, dann die Wurzel ziehen."
+     },
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "sqrt(l*l+b*b+h*h)",
+      "feedback": "Das ist die Raumdiagonale. Die Flächendiagonale liegt in der Grundfläche. Die Höhe spielt dort keine Rolle."
+     },
+     {
+      "diagnoseId": "keine_wurzel",
+      "ausdruck": "l*l+b*b",
+      "feedback": "Sie sind bei a² + b² stehen geblieben. Das ist erst das Quadrat der Diagonale."
+     }
+    ]
+   },
+   {
+    "name": "raum",
+    "label": "Raumdiagonale in cm",
+    "ausdruck": "sqrt(l*l+b*b+h*h)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_flaechendiagonale",
+      "ausdruck": "sqrt(l*l+b*b)",
+      "feedback": "Das ist die Flächendiagonale. Für die Raumdiagonale kommt die Höhe dazu: Pythagoras ein zweites Mal, mit der Flächendiagonale als Kathete."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "l+b+h",
+      "feedback": "Die drei Kanten werden quadriert und addiert, nicht direkt zusammengezählt."
+     },
+     {
+      "diagnoseId": "keine_wurzel",
+      "ausdruck": "l*l+b*b+h*h",
+      "feedback": "Das ist das Quadrat der Raumdiagonale. Die Wurzel fehlt noch."
+     }
+    ]
+   },
+   {
+    "name": "vol",
+    "label": "Volumen in cm³",
+    "ausdruck": "l*b*h",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(l*b+l*h+b*h)",
+      "feedback": "Das ist die Oberfläche in cm². Das Volumen ist Länge mal Breite mal Höhe."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "l*b",
+      "feedback": "Das ist erst die Grundfläche. Sie muss noch mit der Höhe von {h} cm multipliziert werden."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "l+b+h",
+      "feedback": "Die drei Kanten werden multipliziert, nicht addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wo liegt die Flächendiagonale, wo die Raumdiagonale?",
+   "Flächendiagonale: Pythagoras mit Länge und Breite.",
+   "Raumdiagonale: Pythagoras noch einmal, mit der Flächendiagonale und der Höhe."
+  ],
+  "loesungsweg": [
+   "Flächendiagonale: {l}² + {b}², daraus die Wurzel = {flaeche:dezimal2} cm.",
+   "Raumdiagonale: {l}² + {b}² + {h}², daraus die Wurzel = {raum:dezimal2} cm.",
+   "Volumen: {l} · {b} · {h} = {vol} cm³.",
+   "Die Raumdiagonale ist immer länger als die Flächendiagonale."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-zylinder-oberflaeche",
+  "lernzielId": "MSO.7.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "7.04",
+   "7.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "stoff",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Regenfass"
+     ],
+     [
+      "eine Konservendose"
+     ],
+     [
+      "ein Farbkübel"
+     ],
+     [
+      "ein Ofenrohr"
+     ],
+     [
+      "eine Papierrolle"
+     ],
+     [
+      "ein Wassertank"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "hz",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "zylvol",
+    "typ": "formel",
+    "ausdruck": "r*r*hz"
+   },
+   {
+    "name": "mantel",
+    "typ": "formel",
+    "ausdruck": "2*r*hz"
+   },
+   {
+    "name": "ganz",
+    "typ": "formel",
+    "ausdruck": "2*r*hz+2*r*r"
+   }
+  ],
+  "bedingungen": [
+   "zylvol!=mantel",
+   "zylvol<=4200",
+   "mantel!=ganz",
+   "zylvol!=ganz",
+   "hz!=r",
+   "mantel>=40"
+  ],
+  "stamm": "Zylinderförmig ist auch {stoff}: Radius r = {r} cm, Höhe h = {hz} cm. Gib alle Ergebnisse als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "zylvol",
+    "label": "Volumen, Vielfaches von π (in cm³)",
+    "ausdruck": "r*r*hz",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "gedrittelt",
+      "ausdruck": "r*r*hz/3",
+      "feedback": "Gedrittelt wird bei Kegel und Pyramide, nicht beim Zylinder. Er ist Grundfläche mal Höhe."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "r*hz",
+      "feedback": "In der Grundfläche steht r², also {r} · {r}."
+     },
+     {
+      "diagnoseId": "mantel",
+      "ausdruck": "2*r*hz",
+      "feedback": "Das ist die Mantelfläche. Das Volumen ist die Grundfläche r² · π mal die Höhe."
+     }
+    ]
+   },
+   {
+    "name": "mantel",
+    "label": "Mantelfläche, Vielfaches von π (in cm²)",
+    "ausdruck": "2*r*hz",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "r*r*hz",
+      "feedback": "Das ist das Volumen. Der Mantel ist das aufgerollte Rechteck: Kreisumfang mal Höhe."
+     },
+     {
+      "diagnoseId": "ohne_zwei",
+      "ausdruck": "r*hz",
+      "feedback": "Der Mantel ist so breit wie der Kreisumfang, und der ist 2 · r · π."
+     },
+     {
+      "diagnoseId": "mit_deckeln",
+      "ausdruck": "2*r*hz+2*r*r",
+      "feedback": "Das wäre die ganze Oberfläche mit Deckel und Boden. Gefragt ist nur der Mantel."
+     }
+    ]
+   },
+   {
+    "name": "ganz",
+    "label": "Ganze Oberfläche, Vielfaches von π (in cm²)",
+    "ausdruck": "2*r*hz+2*r*r",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "2*r*hz",
+      "feedback": "Deckel und Boden fehlen. Beide sind Kreise mit der Fläche r² · π."
+     },
+     {
+      "diagnoseId": "nur_ein_deckel",
+      "ausdruck": "2*r*hz+r*r",
+      "feedback": "Ein Zylinder hat ZWEI Kreisflächen: oben und unten."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "r*r*hz",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche wird in cm² gemessen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Woraus setzt sich die Oberfläche eines Zylinders zusammen?",
+   "Volumen: Grundfläche r² · π mal Höhe. Mantel: Kreisumfang 2 · r · π mal Höhe.",
+   "Ganze Oberfläche: Mantel plus zwei Kreisflächen."
+  ],
+  "loesungsweg": [
+   "Volumen: {r} · {r} · {hz} = {zylvol}, also {zylvol}π cm³.",
+   "Mantel: 2 · {r} · {hz} = {mantel}, also {mantel}π cm².",
+   "Zwei Deckel: 2 · {r} · {r} = ihre Fläche zusammen.",
+   "Ganze Oberfläche: {ganz}π cm².",
+   "Merken Sie sich: Der Mantel ist ein Rechteck, seine eine Seite ist der Kreisumfang."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-strahlensatz",
+  "lernzielId": "MSO.7.06",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "7.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "astrich",
+    "typ": "formel",
+    "ausdruck": "a*k"
+   },
+   {
+    "name": "bstrich",
+    "typ": "formel",
+    "ausdruck": "b*k"
+   },
+   {
+    "name": "cstrich",
+    "typ": "formel",
+    "ausdruck": "c*k"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "astrich<=90",
+   "bstrich<=90",
+   "cstrich<=90",
+   "a!=k",
+   "b!=k",
+   "astrich!=b",
+   "bstrich!=c",
+   "cstrich!=a",
+   "astrich!=cstrich"
+  ],
+  "stamm": "Zwei Geraden schneiden sich im Punkt S. Zwei zueinander parallele Linien schneiden beide Geraden.\n\nAuf der ersten Geraden: von S bis zur ersten Parallelen {a} cm, von S bis zur zweiten Parallelen {astrich} cm.\nAuf der zweiten Geraden: von S bis zur ersten Parallelen {b} cm.\nAuf der ersten Parallelen liegt zwischen den beiden Geraden eine Strecke von {c} cm.",
+  "felder": [
+   {
+    "name": "bstrich",
+    "label": "x: von S bis zur zweiten Parallelen auf der zweiten Geraden, in cm",
+    "ausdruck": "b*k",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "addiert_statt_gestreckt",
+      "ausdruck": "b+astrich-a",
+      "feedback": "Beim Strahlensatz werden die Strecken nicht um denselben Betrag verlängert, sondern mit demselben Faktor gestreckt: {astrich} : {a} = {k}."
+     },
+     {
+      "diagnoseId": "faktor_gestuerzt",
+      "ausdruck": "b*a/(a*k)",
+      "feedback": "Der Streckfaktor ist {astrich} : {a}, nicht umgekehrt. Die längere Strecke steht im Zähler."
+     },
+     {
+      "diagnoseId": "falsche_strecke",
+      "ausdruck": "c*k",
+      "feedback": "Das ist die Strecke y auf der Parallelen. Für x zählt die Strecke von {b} cm auf der zweiten Geraden."
+     }
+    ]
+   },
+   {
+    "name": "cstrich",
+    "label": "y: Strecke zwischen den Geraden auf der zweiten Parallelen, in cm",
+    "ausdruck": "c*k",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "addiert_statt_gestreckt",
+      "ausdruck": "c+astrich-a",
+      "feedback": "Auch hier wird gestreckt, nicht addiert: alle entsprechenden Strecken wachsen um denselben FAKTOR {k}."
+     },
+     {
+      "diagnoseId": "falsche_strecke",
+      "ausdruck": "b*k",
+      "feedback": "Das ist die Strecke x auf der zweiten Geraden. Für y zählt die Strecke von {c} cm auf der ersten Parallelen."
+     },
+     {
+      "diagnoseId": "faktor_gestuerzt",
+      "ausdruck": "c*a/(a*k)",
+      "feedback": "Der Streckfaktor ist {astrich} : {a} = {k}. Sie haben mit dem Kehrwert gerechnet."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie stark wächst die erste Strecke von {a} cm auf {astrich} cm?",
+   "Der Streckfaktor ist {astrich} : {a} = {k}. Bei Parallelen gilt er für ALLE entsprechenden Strecken.",
+   "Also jede gegebene Strecke mal {k}."
+  ],
+  "loesungsweg": [
+   "Streckfaktor: {astrich} : {a} = {k}.",
+   "x = {b} · {k} = {bstrich} cm.",
+   "y = {c} · {k} = {cstrich} cm.",
+   "Probe: Alle Verhältnisse sind gleich. Das ist der Strahlensatz."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-kreis-figur",
+  "lernzielId": "MSO.8.01",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "8.01",
+   "8.02",
+   "8.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "winkel",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     45,
+     60,
+     72,
+     90,
+     120,
+     135,
+     180,
+     240
+    ]
+   },
+   {
+    "name": "teil",
+    "typ": "text",
+    "texte": [
+     [
+      "Eine Blechscheibe"
+     ],
+     [
+      "Ein Filzuntersetzer"
+     ],
+     [
+      "Eine Sperrholzronde"
+     ],
+     [
+      "Ein Metallplättchen"
+     ],
+     [
+      "Eine Kartonscheibe"
+     ],
+     [
+      "Ein Kunststoffdeckel"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "sektor",
+    "typ": "formel",
+    "ausdruck": "r*r*winkel/360"
+   },
+   {
+    "name": "bogen",
+    "typ": "formel",
+    "ausdruck": "2*r*winkel/360"
+   },
+   {
+    "name": "halbmond",
+    "typ": "formel",
+    "ausdruck": "r*r/2"
+   }
+  ],
+  "bedingungen": [
+   "flaeche!=umfang",
+   "sektor!=flaeche",
+   "sektor!=umfang",
+   "(r*r*winkel*100%360)==0",
+   "(2*r*winkel*100%360)==0",
+   "sektor>=1",
+   "bogen!=sektor",
+   "halbmond!=sektor"
+  ],
+  "stamm": "{teil} ist kreisrund mit dem Radius r = {r} cm. Daraus wird ein Sektor mit dem Mittelpunktswinkel {winkel}° geschnitten. Gib alle Ergebnisse als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche der ganzen Ronde, Vielfaches von π",
+    "ausdruck": "r*r",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "umfangsformel",
+      "ausdruck": "2*r",
+      "feedback": "Das ist der Umfang. Die Kreisfläche ist r · r · π und wächst mit dem Quadrat des Radius."
+     },
+     {
+      "diagnoseId": "durchmesser_quadriert",
+      "ausdruck": "4*r*r",
+      "feedback": "In der Flächenformel steht der Radius {r} cm, nicht der Durchmesser."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*r*r",
+      "feedback": "Der Radius wird quadriert, nicht verdoppelt: {r} · {r}."
+     }
+    ]
+   },
+   {
+    "name": "sektor",
+    "label": "Fläche des Sektors, Vielfaches von π",
+    "ausdruck": "r*r*winkel/360",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_kreis",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die ganze Fläche. Der Sektor ist nur der Anteil {winkel}° von 360° davon."
+     },
+     {
+      "diagnoseId": "bogenlaenge",
+      "ausdruck": "2*r*winkel/360",
+      "feedback": "Das ist die Länge des Bogens. Gefragt ist die Fläche des Sektors."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "r*r*winkel/720",
+      "feedback": "Beim Sektor wird nichts halbiert. Der Anteil ist {winkel} : 360 der ganzen Kreisfläche."
+     }
+    ]
+   },
+   {
+    "name": "bogen",
+    "label": "Länge des Kreisbogens, Vielfaches von π",
+    "ausdruck": "2*r*winkel/360",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "sektorflaeche",
+      "ausdruck": "r*r*winkel/360",
+      "feedback": "Das ist die Fläche des Sektors. Der Bogen ist eine Länge. Der Anteil {winkel} : 360 des UMFANGS."
+     },
+     {
+      "diagnoseId": "ganzer_umfang",
+      "ausdruck": "2*r",
+      "feedback": "Das ist der ganze Umfang. Der Bogen ist nur der Anteil {winkel}° davon."
+     },
+     {
+      "diagnoseId": "ohne_zwei",
+      "ausdruck": "r*winkel/360",
+      "feedback": "Der Umfang ist 2 · r · π. Die 2 fehlt. Sie haben mit dem Radius statt mit dem Durchmesser gerechnet."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher Anteil des ganzen Kreises sind {winkel}°?",
+   "Kreisfläche r · r · π, Kreisumfang 2 · r · π.",
+   "Sektor und Bogen sind beide der Anteil {winkel} : 360. Der eine von der Fläche, der andere vom Umfang."
+  ],
+  "loesungsweg": [
+   "Kreisfläche: {r} · {r} = {flaeche}, also {flaeche}π cm².",
+   "Kreisumfang: 2 · {r} = {umfang}, also {umfang}π cm.",
+   "Anteil des Sektors: {winkel} von 360.",
+   "Sektorfläche: {sektor}π cm², Bogenlänge: {bogen}π cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-teiler-vielfache",
+  "lernzielId": "MSO.1.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "anlass",
+    "typ": "text",
+    "texte": [
+     [
+      "Zwei Ampeln schalten in festen Abständen um"
+     ],
+     [
+      "Zwei Sportgruppen trainieren in festen Abständen"
+     ],
+     [
+      "Zwei Buslinien fahren in festen Abständen ab"
+     ],
+     [
+      "Zwei Maschinen laufen in festen Abständen an"
+     ],
+     [
+      "Zwei Glocken läuten in festen Abständen"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "p*r"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "q*r"
+   },
+   {
+    "name": "ggt_",
+    "typ": "formel",
+    "ausdruck": "ggt(p*r,q*r)"
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "p*r*q*r/ggt(p*r,q*r)"
+   }
+  ],
+  "bedingungen": [
+   "ggt(p,q)==1",
+   "p<q",
+   "a!=b",
+   "kgv<=400",
+   "a>=4",
+   "b>=6",
+   "ggt_!=a",
+   "ggt_!=b",
+   "kgv!=a",
+   "kgv!=b",
+   "r>=2"
+  ],
+  "stamm": "{anlass}: die eine alle {a} Minuten, die andere alle {b} Minuten. Gerade eben waren beide gleichzeitig dran.",
+  "felder": [
+   {
+    "name": "kgv",
+    "label": "Nach wie vielen Minuten sind wieder beide gleichzeitig dran?",
+    "ausdruck": "p*r*q*r/ggt(p*r,q*r)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt ist zwar ein gemeinsames Vielfaches, aber nicht das kleinste. Teilen Sie es durch den grössten gemeinsamen Teiler von {a} und {b}."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b",
+      "feedback": "Zusammenzählen hilft hier nicht. Gesucht ist die erste Zahl, die sowohl durch {a} als auch durch {b} teilbar ist."
+     },
+     {
+      "diagnoseId": "ggt_genommen",
+      "ausdruck": "ggt(p*r,q*r)",
+      "feedback": "Das ist der grösste gemeinsame TEILER. Gesucht ist das kleinste gemeinsame VIELFACHE. Es ist grösser als beide Zahlen."
+     }
+    ]
+   },
+   {
+    "name": "ggt_",
+    "label": "Grösster gemeinsamer Teiler von {a} und {b}",
+    "ausdruck": "ggt(p*r,q*r)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "kgv_genommen",
+      "ausdruck": "p*r*q*r/ggt(p*r,q*r)",
+      "feedback": "Das ist das kleinste gemeinsame Vielfache. Der grösste gemeinsame Teiler ist kleiner oder gleich der kleineren der beiden Zahlen."
+     },
+     {
+      "diagnoseId": "kleinere_zahl",
+      "ausdruck": "a",
+      "feedback": "Die kleinere Zahl ist nur dann der grösste gemeinsame Teiler, wenn sie die grössere auch wirklich teilt. Prüfe das nach."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "q*r-p*r",
+      "feedback": "Die Differenz ist nicht automatisch der grösste gemeinsame Teiler. Zerlegen Sie beide Zahlen in Primfaktoren und nehmen Sie, was in beiden vorkommt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was ist gesucht: eine Zahl, die BEIDE teilt, oder eine, die durch beide teilbar ist?",
+   "Zerlegen Sie {a} und {b} in Primfaktoren. Dann sehen Sie beides auf einen Blick.",
+   "Der grösste gemeinsame Teiler nimmt die gemeinsamen Faktoren, das kleinste gemeinsame Vielfache alle Faktoren."
+  ],
+  "loesungsweg": [
+   "{a} und {b} in Primfaktoren zerlegen.",
+   "Gemeinsame Faktoren ergeben den grössten gemeinsamen Teiler: {ggt_}.",
+   "Alle Faktoren zusammen ergeben das kleinste gemeinsame Vielfache: {kgv}.",
+   "Probe: {kgv} ist durch {a} und durch {b} teilbar."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-quader-gewicht",
+  "lernzielId": "MSO.7.05",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "7.05",
+   "7.03",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "dichte10",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     18,
+     7,
+     20,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 80,
+    "schritt": 10
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 60,
+    "schritt": 10
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 50,
+    "schritt": 10
+   },
+   {
+    "name": "dichte",
+    "typ": "formel",
+    "ausdruck": "dichte10/10"
+   },
+   {
+    "name": "cm3",
+    "typ": "formel",
+    "ausdruck": "l*b*h"
+   },
+   {
+    "name": "dm3",
+    "typ": "formel",
+    "ausdruck": "l*b*h/1000"
+   },
+   {
+    "name": "kg",
+    "typ": "formel",
+    "ausdruck": "l*b*h/1000*dichte10/10"
+   }
+  ],
+  "bedingungen": [
+   "l>b",
+   "b>=h",
+   "cm3<=240000",
+   "dm3>=8",
+   "kg<=500",
+   "(l*b*h*dichte10%10000)==0",
+   "kg!=dm3",
+   "cm3!=kg"
+  ],
+  "stamm": "Ein Quader misst {l} cm mal {b} cm mal {h} cm. Ein Kubikdezimeter des Werkstoffs wiegt {dichte:dezimal1} kg.",
+  "felder": [
+   {
+    "name": "dm3",
+    "label": "Volumen in dm³",
+    "ausdruck": "l*b*h/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "in_kubikzentimeter",
+      "ausdruck": "l*b*h",
+      "feedback": "Das ist das Volumen in cm³. Ein Kubikdezimeter sind 1000 Kubikzentimeter. Teilen Sie noch durch 1000."
+     },
+     {
+      "diagnoseId": "faktor_hundert",
+      "ausdruck": "l*b*h/100",
+      "feedback": "Bei Volumen wird der Längenfaktor drittpotenziert: 10 · 10 · 10 = 1000, nicht 100."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "l*b/1000",
+      "feedback": "Die Höhe von {h} cm fehlt. Ein Volumen braucht alle drei Kanten."
+     }
+    ]
+   },
+   {
+    "name": "kg",
+    "label": "Gewicht in Kilogramm",
+    "ausdruck": "l*b*h/1000*dichte10/10",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "mit_kubikzentimetern",
+      "ausdruck": "l*b*h*dichte10/10",
+      "feedback": "Das Gewicht gilt je Kubikdezimeter, nicht je Kubikzentimeter. Rechne zuerst das Volumen in dm³ um."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "l*b*h/1000/(dichte10/10)",
+      "feedback": "Volumen und Gewicht je Kubikdezimeter werden multipliziert, nicht geteilt."
+     },
+     {
+      "diagnoseId": "ohne_dichte",
+      "ausdruck": "l*b*h/1000",
+      "feedback": "Das ist das Volumen, nicht das Gewicht. Es muss noch mit {dichte:dezimal1} kg je dm³ multipliziert werden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "In welcher Einheit ist das Gewicht angegeben, je cm³ oder je dm³?",
+   "Rechne das Volumen zuerst in Kubikdezimeter um: durch 1000.",
+   "Dann Volumen in dm³ mal {dichte:dezimal1} kg."
+  ],
+  "loesungsweg": [
+   "Volumen: {l} · {b} · {h} = {cm3} cm³.",
+   "In Kubikdezimeter: {cm3} : 1000 = {dm3} dm³.",
+   "Gewicht: {dm3} · {dichte:dezimal1} = {kg} kg.",
+   "Achte darauf, dass Volumen und Dichte dieselbe Einheit benutzen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-abwicklung",
+  "lernzielId": "MSO.7.07",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "7.07",
+   "7.01",
+   "7.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Faden",
+      "Der Faden"
+     ],
+     [
+      "ein Klebeband",
+      "Das Klebeband"
+     ],
+     [
+      "eine Schnur",
+      "Die Schnur"
+     ],
+     [
+      "ein Draht",
+      "Der Draht"
+     ],
+     [
+      "ein Gummiband",
+      "Das Gummiband"
+     ]
+    ]
+   },
+   {
+    "name": "teilA",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 40,
+    "schritt": 2
+   },
+   {
+    "name": "teilB",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "kante1",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "kante2",
+    "typ": "formel",
+    "ausdruck": "2*m*n*k"
+   },
+   {
+    "name": "weglaenge",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   }
+  ],
+  "bedingungen": [
+   "m>n",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "kante1>0",
+   "weglaenge<=120",
+   "kante1!=kante2",
+   "kante1>=6",
+   "kante2>=6",
+   "kante1!=weglaenge",
+   "kante2!=weglaenge"
+  ],
+  "stamm": "Auf einem Quader wird {weg} gespannt: von einer Ecke über eine Kante zur gegenüberliegenden Ecke der Nachbarfläche. Wickelt man die beiden Flächen in die Ebene ab, entsteht ein Rechteck mit den Seiten {kante1} cm und {kante2} cm. Wie lang ist der kürzeste Weg?",
+  "loesung": "(m*m+n*n)*k",
+  "gegenprobe": "sqrt(kante1*kante1+kante2*kante2)",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "kante1+kante2",
+    "feedback": "Auf der abgewickelten Fläche ist der kürzeste Weg die Diagonale des Rechtecks, nicht die Summe der beiden Seiten. Über die Kante zu laufen wäre der Umweg."
+   },
+   {
+    "diagnoseId": "nur_eine_kante",
+    "ausdruck": "kante2",
+    "feedback": "Der Weg führt über beide Flächen. In der Abwicklung ist er die Diagonale eines Rechtecks von {kante1} cm mal {kante2} cm."
+   },
+   {
+    "diagnoseId": "keine_wurzel",
+    "ausdruck": "kante1*kante1+kante2*kante2",
+    "feedback": "Sie sind bei a² + b² stehen geblieben. Das ist das Quadrat der Diagonale. Die Wurzel fehlt noch."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "sqrt(max(kante2*kante2-kante1*kante1,0))",
+    "feedback": "Subtrahiert wird nur, wenn die Diagonale schon bekannt ist. Hier sind beide Seiten gegeben, also werden sie addiert."
+   }
+  ],
+  "hinweise": [
+   "Was wird aus dem Weg über die Kante, wenn man die beiden Flächen flach hinlegt?",
+   "In der Abwicklung liegen beide Flächen nebeneinander, und der kürzeste Weg ist eine gerade Strecke.",
+   "Diese Strecke ist die Diagonale eines Rechtecks von {kante1} cm mal {kante2} cm, also Pythagoras."
+  ],
+  "loesungsweg": [
+   "Die beiden Flächen in die Ebene abwickeln.",
+   "Der kürzeste Weg ist dort eine gerade Linie: die Diagonale des Rechtecks {kante1} cm mal {kante2} cm.",
+   "Pythagoras: {kante1}² + {kante2}², daraus die Wurzel.",
+   "{weg.1} ist {weglaenge} cm lang.",
+   "Über die Kante gemessen wäre der Weg {kante1} + {kante2} cm, also länger."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "so-diagramm-haushalte",
+  "lernzielId": "MSO.5.04",
+  "fach": "mathematik-so",
+  "unterthemen": [
+   "5.04",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "einer Gemeinde im Wasseramt"
+     ],
+     [
+      "einem Dorf im Thal"
+     ],
+     [
+      "einem Quartier in Olten"
+     ],
+     [
+      "einer Gemeinde im Bucheggberg"
+     ],
+     [
+      "einem Dorf im Schwarzbubenland"
+     ]
+    ]
+   },
+   {
+    "name": "h1",
+    "typ": "ganzzahl",
+    "von": 200,
+    "bis": 900,
+    "schritt": 50
+   },
+   {
+    "name": "h2",
+    "typ": "ganzzahl",
+    "von": 300,
+    "bis": 900,
+    "schritt": 50
+   },
+   {
+    "name": "h3",
+    "typ": "ganzzahl",
+    "von": 100,
+    "bis": 600,
+    "schritt": 50
+   },
+   {
+    "name": "h4",
+    "typ": "ganzzahl",
+    "von": 50,
+    "bis": 400,
+    "schritt": 50
+   },
+   {
+    "name": "h5",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 200,
+    "schritt": 10
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "h1+h2+h3+h4+h5"
+   },
+   {
+    "name": "personen",
+    "typ": "formel",
+    "ausdruck": "h1+2*h2+3*h3+4*h4+5*h5"
+   },
+   {
+    "name": "prozent2",
+    "typ": "formel",
+    "ausdruck": "h2*100/(h1+h2+h3+h4+h5)"
+   },
+   {
+    "name": "anteil5",
+    "typ": "formel",
+    "ausdruck": "5*h5*100/(h1+2*h2+3*h3+4*h4+5*h5)"
+   }
+  ],
+  "bedingungen": [
+   "h1!=h2",
+   "h2!=h3",
+   "h3!=h4",
+   "total<=2600",
+   "total>=800",
+   "personen<=6000",
+   "h5<h4",
+   "h4<h3",
+   "h1!=h3",
+   "prozent2!=anteil5",
+   "total!=personen"
+  ],
+  "stamm": "In {ort} wurden alle Haushalte gezählt. Es gibt {h1} Haushalte mit einer Person, {h2} mit zwei, {h3} mit drei, {h4} mit vier und {h5} mit fünf Personen.",
+  "felder": [
+   {
+    "name": "total",
+    "label": "Anzahl Haushalte insgesamt",
+    "ausdruck": "h1+h2+h3+h4+h5",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "personen_gezaehlt",
+      "ausdruck": "h1+2*h2+3*h3+4*h4+5*h5",
+      "feedback": "Das ist die Anzahl PERSONEN. Ein Haushalt mit vier Personen ist trotzdem nur ein Haushalt."
+     },
+     {
+      "diagnoseId": "ohne_kleinste",
+      "ausdruck": "h1+h2+h3+h4",
+      "feedback": "Die {h5} Haushalte mit fünf Personen gehören auch dazu."
+     },
+     {
+      "diagnoseId": "nur_groesste",
+      "ausdruck": "h2",
+      "feedback": "Gefragt ist die Summe aller Haushalte, nicht die grösste einzelne Gruppe."
+     }
+    ]
+   },
+   {
+    "name": "personen",
+    "label": "Anzahl Personen insgesamt",
+    "ausdruck": "h1+2*h2+3*h3+4*h4+5*h5",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "haushalte_gezaehlt",
+      "ausdruck": "h1+h2+h3+h4+h5",
+      "feedback": "Das ist die Anzahl HAUSHALTE. Jeder Haushalt zählt so viele Personen, wie seine Grösse angibt."
+     },
+     {
+      "diagnoseId": "ohne_gewichtung",
+      "ausdruck": "h1+h2+h3+h4+5*h5",
+      "feedback": "Jede Gruppe wird mit ihrer Haushaltsgrösse multipliziert: die Zweipersonenhaushalte mal 2, die Dreipersonenhaushalte mal 3 und so weiter."
+     },
+     {
+      "diagnoseId": "mittelwert",
+      "ausdruck": "(h1+h2+h3+h4+h5)*3",
+      "feedback": "Ein Mittelwert von drei Personen je Haushalt wäre geraten. Rechne jede Gruppe einzeln."
+     }
+    ]
+   },
+   {
+    "name": "prozent2",
+    "label": "Anteil der Zweipersonenhaushalte in Prozent",
+    "ausdruck": "h2*100/(h1+h2+h3+h4+h5)",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "an_personen",
+      "ausdruck": "2*h2*100/(h1+2*h2+3*h3+4*h4+5*h5)",
+      "feedback": "Gefragt ist der Anteil an den HAUSHALTEN, nicht an den Personen. Im Nenner steht {total}."
+     },
+     {
+      "diagnoseId": "ohne_hundert",
+      "ausdruck": "h2/(h1+h2+h3+h4+h5)",
+      "feedback": "Das ist der Anteil als Dezimalbruch. Für Prozent noch mal 100."
+     },
+     {
+      "diagnoseId": "anzahl",
+      "ausdruck": "h2",
+      "feedback": "Das ist die Anzahl Haushalte, kein Prozentsatz. Setze sie ins Verhältnis zur Gesamtzahl."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Unterscheiden Sie sauber: Haushalte oder Personen?",
+   "Für die Personenzahl wird jede Gruppe mit ihrer Haushaltsgrösse multipliziert.",
+   "Für den Prozentanteil kommt in den Nenner das, worauf sich der Anteil bezieht. Hier alle Haushalte."
+  ],
+  "loesungsweg": [
+   "Haushalte: {h1} + {h2} + {h3} + {h4} + {h5} = {total}.",
+   "Personen: {h1}·1 + {h2}·2 + {h3}·3 + {h4}·4 + {h5}·5 = {personen}.",
+   "Anteil der Zweipersonenhaushalte: {h2} von {total}.",
+   "Das sind {prozent2} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Solothurner Aufnahmeprüfungen BM/FMS/Gym 2019-2024 sowie die Prüfungseckwerte Mathematik ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

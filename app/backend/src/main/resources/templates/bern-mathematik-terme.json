@@ -1,0 +1,1379 @@
+[
+ {
+  "templateId": "be-brueche-rechnen",
+  "lernzielId": "MB.1.01",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.01",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Kürze zuerst, wo es geht, mit kleineren Zahlen rechnet es sich leichter.",
+   "Beim Addieren und Subtrahieren brauchst du denselben Nenner. Beim Multiplizieren und Dividieren nicht.",
+   "Durch einen Bruch teilen heisst mit seinem Kehrwert multiplizieren."
+  ],
+  "loesungsweg": [
+   "Kürzen, wo es geht.",
+   "Bei Plus und Minus auf den gemeinsamen Nenner bringen.",
+   "Bei Mal einfach Zähler mal Zähler und Nenner mal Nenner.",
+   "Bei Geteilt den hinteren Bruch umdrehen und multiplizieren.",
+   "Am Schluss vollständig kürzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n¹⁴⁄₂₁ − ⁵⁄₂₀",
+    "optionen": [
+     "⁵⁄₁₂",
+     "⁹⁄₁",
+     "¹⁹⁄₄₁",
+     "²⁄₃"
+    ],
+    "loesung": [
+     "⁵⁄₁₂"
+    ],
+    "erklaerung": "¹⁴⁄₂₁ kürzt sich zu ²⁄₃, ⁵⁄₂₀ zu ¹⁄₄. Der gemeinsame Nenner von 3 und 4 ist 12: ⁸⁄₁₂ − ³⁄₁₂ = ⁵⁄₁₂.",
+    "fehler": [
+     {
+      "antwort": "⁹⁄₁",
+      "diagnoseId": "zaehler_und_nenner_getrennt",
+      "feedback": "Du hast Zähler von Zähler und Nenner von Nenner abgezogen. Brüche werden erst auf denselben Nenner gebracht, dann werden nur die Zähler verrechnet."
+     },
+     {
+      "antwort": "²⁄₃",
+      "diagnoseId": "nur_gekuerzt",
+      "feedback": "Das ist ¹⁴⁄₂₁ gekürzt. Der zweite Bruch muss noch abgezogen werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁵⁵⁄₁₁ + ¹⁄₄",
+    "optionen": [
+     "²¹⁄₄",
+     "⁵⁶⁄₁₅",
+     "⁵⁄₄",
+     "²⁰⁄₄"
+    ],
+    "loesung": [
+     "²¹⁄₄"
+    ],
+    "erklaerung": "⁵⁵⁄₁₁ ist 5. Mit ¹⁄₄ zusammen ergibt das 5 + ¹⁄₄ = ²⁰⁄₄ + ¹⁄₄ = ²¹⁄₄.",
+    "fehler": [
+     {
+      "antwort": "⁵⁶⁄₁₅",
+      "diagnoseId": "zaehler_und_nenner_getrennt",
+      "feedback": "Du hast Zähler und Nenner einzeln addiert. So rechnet man mit Brüchen nicht. Erst auf denselben Nenner bringen."
+     },
+     {
+      "antwort": "²⁰⁄₄",
+      "diagnoseId": "summand_vergessen",
+      "feedback": "²⁰⁄₄ ist ⁵⁵⁄₁₁ als Viertel geschrieben. Das eine Viertel fehlt noch."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n³⁄₄ · ⁸⁄₉",
+    "optionen": [
+     "²⁄₃",
+     "²⁴⁄₃₆",
+     "¹¹⁄₁₃",
+     "²⁷⁄₃₂"
+    ],
+    "loesung": [
+     "²⁄₃"
+    ],
+    "erklaerung": "Beim Multiplizieren mal Zähler mit Zähler und Nenner mit Nenner: ²⁴⁄₃₆. Gekürzt mit 12 ergibt das ²⁄₃.",
+    "fehler": [
+     {
+      "antwort": "²⁴⁄₃₆",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Richtig gerechnet, aber nicht fertig. 24 und 36 haben den gemeinsamen Teiler 12. Gekürzt bleibt ²⁄₃."
+     },
+     {
+      "antwort": "¹¹⁄₁₃",
+      "diagnoseId": "addiert_statt_multipliziert",
+      "feedback": "Du hast Zähler und Nenner addiert. Multipliziert wird über Kreuz nicht. Einfach Zähler mal Zähler, Nenner mal Nenner."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁵⁄₆ : ⁵⁄₁₂",
+    "optionen": [
+     "2",
+     "²⁵⁄₇₂",
+     "¹⁄₂",
+     "¹⁰⁄₁₂"
+    ],
+    "loesung": [
+     "2"
+    ],
+    "erklaerung": "Durch einen Bruch teilen heisst mit seinem Kehrwert multiplizieren: ⁵⁄₆ · ¹²⁄₅ = ⁶⁰⁄₃₀ = 2.",
+    "fehler": [
+     {
+      "antwort": "²⁵⁄₇₂",
+      "diagnoseId": "statt_kehrwert_multipliziert",
+      "feedback": "Du hast die beiden Brüche multipliziert. Beim Teilen wird der zweite Bruch umgedreht, aus ⁵⁄₁₂ wird ¹²⁄₅."
+     },
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "kehrwert_beim_falschen",
+      "feedback": "Du hast den ersten Bruch umgedreht statt den zweiten. Gekehrt wird immer der Divisor, also der hintere."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n(³⁄₂ + ¹⁄₃) · (³⁄₂ − ¹⁄₃)",
+    "optionen": [
+     "⁷⁷⁄₃₆",
+     "⁹⁄₄",
+     "⁴⁄₅",
+     "¹¹⁄₆"
+    ],
+    "loesung": [
+     "⁷⁷⁄₃₆"
+    ],
+    "erklaerung": "³⁄₂ + ¹⁄₃ = ¹¹⁄₆ und ³⁄₂ − ¹⁄₃ = ⁷⁄₆. Das Produkt ist ⁷⁷⁄₃₆.",
+    "fehler": [
+     {
+      "antwort": "⁹⁄₄",
+      "diagnoseId": "nur_erste_klammer",
+      "feedback": "Du hast wohl ³⁄₂ mal ³⁄₂ gerechnet. Beide Klammern müssen zuerst einzeln ausgerechnet werden."
+     },
+     {
+      "antwort": "¹¹⁄₆",
+      "diagnoseId": "zweite_klammer_vergessen",
+      "feedback": "¹¹⁄₆ ist nur die erste Klammer. Sie muss noch mit der zweiten multipliziert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Schreibe als vollständig gekürzten gewöhnlichen Bruch:\n\n2.05",
+    "optionen": [
+     "⁴¹⁄₂₀",
+     "²⁰⁵⁄₁₀₀",
+     "²⁄₅",
+     "⁴¹⁄₁₀₀"
+    ],
+    "loesung": [
+     "⁴¹⁄₂₀"
+    ],
+    "erklaerung": "2.05 ist 205 Hundertstel. 205 und 100 haben den gemeinsamen Teiler 5. Gekürzt bleibt ⁴¹⁄₂₀.",
+    "fehler": [
+     {
+      "antwort": "²⁰⁵⁄₁₀₀",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Richtig aufgeschrieben, aber nicht gekürzt. Beide Zahlen sind durch 5 teilbar."
+     },
+     {
+      "antwort": "²⁄₅",
+      "diagnoseId": "nachkommastellen_verwechselt",
+      "feedback": "Du hast die 05 als Fünftel gelesen. Zwei Stellen nach dem Komma sind Hundertstel, nicht Fünftel."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n²⁄₃ von 45",
+    "optionen": [
+     "30",
+     "67.5",
+     "15",
+     "22.5"
+    ],
+    "loesung": [
+     "30"
+    ],
+    "erklaerung": "«von» heisst mal: 45 · ²⁄₃. Ein Drittel von 45 ist 15, zwei Drittel sind 30.",
+    "fehler": [
+     {
+      "antwort": "67.5",
+      "diagnoseId": "kehrwert_genommen",
+      "feedback": "Du hast mit ³⁄₂ multipliziert. Zwei Drittel sind weniger als das Ganze, nicht mehr."
+     },
+     {
+      "antwort": "15",
+      "diagnoseId": "nur_ein_drittel",
+      "feedback": "15 ist ein Drittel von 45. Gefragt sind zwei Drittel."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n⁷⁄₈ − ³⁄₈ + ¹⁄₄",
+    "optionen": [
+     "³⁄₄",
+     "⁵⁄₈",
+     "¹¹⁄₂₀",
+     "¹⁄₂"
+    ],
+    "loesung": [
+     "³⁄₄"
+    ],
+    "erklaerung": "⁷⁄₈ − ³⁄₈ = ⁴⁄₈ = ¹⁄₂. Dazu ¹⁄₄ ergibt ²⁄₄ + ¹⁄₄ = ³⁄₄.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₂",
+      "diagnoseId": "letzter_summand_vergessen",
+      "feedback": "¹⁄₂ ist das Ergebnis der ersten beiden Brüche. Das Viertel kommt noch dazu."
+     },
+     {
+      "antwort": "⁵⁄₈",
+      "diagnoseId": "nenner_nicht_angepasst",
+      "feedback": "Du hast ¹⁄₄ wie ¹⁄₈ behandelt. Ein Viertel sind zwei Achtel."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n0.4 · ⁴⁄₅",
+    "optionen": [
+     "0.32",
+     "1.6",
+     "0.5",
+     "3.2"
+    ],
+    "loesung": [
+     "0.32"
+    ],
+    "erklaerung": "⁴⁄₅ ist 0.8. Und 0.4 · 0.8 ergibt 0.32.",
+    "fehler": [
+     {
+      "antwort": "1.6",
+      "diagnoseId": "geteilt_statt_mal",
+      "feedback": "Du hast durch ⁴⁄₅ geteilt statt damit multipliziert. Mal einer Zahl unter 1 wird das Ergebnis kleiner."
+     },
+     {
+      "antwort": "0.5",
+      "diagnoseId": "addiert",
+      "feedback": "Du hast wohl addiert oder gemittelt. Gefragt ist das Produkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n(⁶⁴⁄₃₂ − ¹⁄₅) : 4",
+    "optionen": [
+     "⁹⁄₂₀",
+     "⁷⁄₅",
+     "⁹⁄₅",
+     "³⁶⁄₂₀"
+    ],
+    "loesung": [
+     "⁹⁄₂₀"
+    ],
+    "erklaerung": "⁶⁴⁄₃₂ ist 2. 2 − ¹⁄₅ = ⁹⁄₅. Geteilt durch 4 ergibt ⁹⁄₂₀.",
+    "fehler": [
+     {
+      "antwort": "⁹⁄₅",
+      "diagnoseId": "division_vergessen",
+      "feedback": "⁹⁄₅ ist das Ergebnis der Klammer. Es muss noch durch 4 geteilt werden."
+     },
+     {
+      "antwort": "³⁶⁄₂₀",
+      "diagnoseId": "mal_vier_statt_durch",
+      "feedback": "Du hast mit 4 multipliziert. Geteilt durch 4 heisst: der Nenner wird viermal so gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne und kürze vollständig:\n\n¹⁰⁰⁄₃₀₀ − ⁸⁰⁄₃₂₀",
+    "optionen": [
+     "¹⁄₁₂",
+     "20/-20",
+     "⁷⁄₁₂",
+     "¹⁄₄"
+    ],
+    "loesung": [
+     "¹⁄₁₂"
+    ],
+    "erklaerung": "¹⁰⁰⁄₃₀₀ ist ¹⁄₃, ⁸⁰⁄₃₂₀ ist ¹⁄₄. Auf Zwölftel gebracht: ⁴⁄₁₂ − ³⁄₁₂ = ¹⁄₁₂.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₄",
+      "diagnoseId": "nur_zweiter_bruch",
+      "feedback": "¹⁄₄ ist der zweite Bruch gekürzt. Er muss vom ersten abgezogen werden."
+     },
+     {
+      "antwort": "⁷⁄₁₂",
+      "diagnoseId": "addiert_statt_subtrahiert",
+      "feedback": "Du hast die beiden Brüche addiert. Im Term steht ein Minus."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n0.3 dl in cm³",
+    "optionen": [
+     "30",
+     "3",
+     "300",
+     "0.3"
+    ],
+    "loesung": [
+     "30"
+    ],
+    "erklaerung": "1 dl sind 100 cm³. Also sind 0.3 dl gleich 30 cm³.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "faktor_zehn_statt_hundert",
+      "feedback": "Zwischen Deziliter und Kubikzentimeter liegt der Faktor 100, nicht 10. Ein Liter sind 1000 cm³, ein Deziliter davon ein Zehntel."
+     },
+     {
+      "antwort": "300",
+      "diagnoseId": "faktor_tausend",
+      "feedback": "Du hast mit 1000 gerechnet. Das ist der Faktor von Liter zu Kubikzentimeter, nicht von Deziliter."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I, 8./9. Schuljahr, FMS); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Brüche",
+  "status": "review"
+ },
+ {
+  "templateId": "be-terme-gleichwertig",
+  "lernzielId": "MB.1.07",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "1.07",
+   "2.02"
+  ],
+  "format": "mehrfachauswahl",
+  "hinweise": [
+   "Rechne jeden Term aus und vergleiche die Werte. Das ist der sicherste Weg.",
+   "Bei Termen mit Variablen hilft es, eine Zahl einzusetzen. Stimmen zwei Terme für x = 2 nicht überein, sind sie nicht gleichwertig.",
+   "Achtung bei Potenzen: Beim Multiplizieren werden die Hochzahlen addiert, beim Potenzieren einer Potenz multipliziert."
+  ],
+  "loesungsweg": [
+   "Rechne den Ausgangsterm aus oder vereinfache ihn.",
+   "Prüfe jeden Term einzeln. Mehrere können richtig sein.",
+   "Bei Variablen eine Zahl einsetzen und vergleichen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  15 · ⁶⁄₅ ?\n\nWähle alle aus.",
+    "optionen": [
+     "⁶⁄₁₅ · 45",
+     "(45 · 3) : 5",
+     "⁴⁵⁄₅ · 3",
+     "¹⁵⁄₆ · 5"
+    ],
+    "loesung": [
+     "⁶⁄₁₅ · 45",
+     "(45 · 3) : 5"
+    ],
+    "erklaerung": "15 · ⁶⁄₅ ist 18. Auch ⁶⁄₁₅ · 45 ergibt 18, und (45 · 3) : 5 ebenfalls. ⁴⁵⁄₅ · 3 ist 27, und ¹⁵⁄₆ · 5 ist 12.5.",
+    "fehler": [
+     {
+      "antwort": "⁴⁵⁄₅ · 3",
+      "diagnoseId": "wert_nicht_geprueft",
+      "feedback": "⁴⁵⁄₅ ist 9, mal 3 ergibt 27. Der Ausgangsterm ist aber 18. Rechne beide Werte aus und vergleiche."
+     },
+     {
+      "antwort": "¹⁵⁄₆ · 5",
+      "diagnoseId": "bruch_umgedreht",
+      "feedback": "Du hast ⁶⁄₅ zu ¹⁵⁄₆ verdreht. Im Ausgangsterm steht 15 mal sechs Fünftel, nicht fünfzehn Sechstel mal 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  ⁵⁄₈ : 0.25 ?\n\nWähle alle aus.",
+    "optionen": [
+     "⁵⁄₈ · 4",
+     "⁵⁄₂",
+     "⁵⁄₈ · 0.25",
+     "⁵⁄₃₂"
+    ],
+    "loesung": [
+     "⁵⁄₈ · 4",
+     "⁵⁄₂"
+    ],
+    "erklaerung": "0.25 ist ein Viertel. Durch ein Viertel teilen heisst mit 4 multiplizieren: ⁵⁄₈ · 4 = ²⁰⁄₈ = ⁵⁄₂.",
+    "fehler": [
+     {
+      "antwort": "⁵⁄₈ · 0.25",
+      "diagnoseId": "statt_kehrwert_multipliziert",
+      "feedback": "Du hast mit 0.25 multipliziert statt durch 0.25 zu teilen. Beim Teilen wird mit dem Kehrwert multipliziert, also mit 4."
+     },
+     {
+      "antwort": "⁵⁄₃₂",
+      "diagnoseId": "ergebnis_der_multiplikation",
+      "feedback": "⁵⁄₃₂ ist das Ergebnis von ⁵⁄₈ · 0.25. Gefragt ist die Division."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  3(x + 4) ?\n\nWähle alle aus.",
+    "optionen": [
+     "3x + 12",
+     "x + x + x + 12",
+     "3x + 4",
+     "3x · 12"
+    ],
+    "loesung": [
+     "3x + 12",
+     "x + x + x + 12"
+    ],
+    "erklaerung": "Die 3 wird mit BEIDEN Gliedern der Klammer multipliziert: 3x + 12. Und 3x lässt sich als x + x + x schreiben.",
+    "fehler": [
+     {
+      "antwort": "3x + 4",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Du hast die 3 nur mit dem x multipliziert. Sie gilt für die ganze Klammer, also auch für die 4."
+     },
+     {
+      "antwort": "3x · 12",
+      "diagnoseId": "mal_statt_plus",
+      "feedback": "Zwischen den beiden Gliedern steht ein Plus, kein Mal."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  a² · a³ ?\n\nWähle alle aus.",
+    "optionen": [
+     "a⁵",
+     "a · a · a · a · a",
+     "a⁶",
+     "2a⁵"
+    ],
+    "loesung": [
+     "a⁵",
+     "a · a · a · a · a"
+    ],
+    "erklaerung": "Beim Multiplizieren von Potenzen mit gleicher Basis werden die Hochzahlen ADDIERT: 2 + 3 = 5.",
+    "fehler": [
+     {
+      "antwort": "a⁶",
+      "diagnoseId": "hochzahlen_multipliziert",
+      "feedback": "Du hast die Hochzahlen multipliziert. Das gilt beim Potenzieren einer Potenz. (a²)³ ist a⁶. Beim Malnehmen werden sie addiert."
+     },
+     {
+      "antwort": "2a⁵",
+      "diagnoseId": "basis_verdoppelt",
+      "feedback": "Die Basis a bleibt einfach stehen. Eine 2 davor entstünde nur beim Addieren: a⁵ + a⁵ = 2a⁵."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  (2a)² ?\n\nWähle alle aus.",
+    "optionen": [
+     "4a²",
+     "2a · 2a",
+     "2a²",
+     "4a"
+    ],
+    "loesung": [
+     "4a²",
+     "2a · 2a"
+    ],
+    "erklaerung": "Beim Quadrieren wird ALLES in der Klammer quadriert: 2² = 4 und a² = a². Zusammen 4a².",
+    "fehler": [
+     {
+      "antwort": "2a²",
+      "diagnoseId": "nur_variable_quadriert",
+      "feedback": "Du hast nur das a quadriert. Die 2 steht ebenfalls in der Klammer und wird mitquadriert."
+     },
+     {
+      "antwort": "4a",
+      "diagnoseId": "hochzahl_verloren",
+      "feedback": "Die 2 ist richtig quadriert, das a nicht. Beides steht in der Klammer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  (a + b)² − (a² + 2ab) ?\n\nWähle alle aus.",
+    "optionen": [
+     "b²",
+     "b · b",
+     "a² + b²",
+     "2ab"
+    ],
+    "loesung": [
+     "b²",
+     "b · b"
+    ],
+    "erklaerung": "(a + b)² ist a² + 2ab + b². Davon a² + 2ab abgezogen bleibt b².",
+    "fehler": [
+     {
+      "antwort": "a² + b²",
+      "diagnoseId": "binom_ohne_mittelglied",
+      "feedback": "Du hast (a + b)² als a² + b² gerechnet. Beim Quadrat einer Summe kommt das Mittelglied 2ab dazu."
+     },
+     {
+      "antwort": "2ab",
+      "diagnoseId": "falsches_glied_uebrig",
+      "feedback": "Das Mittelglied 2ab wird gerade abgezogen. Übrig bleibt b²."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  a/b : b/a ?\n\nWähle alle aus.",
+    "optionen": [
+     "a²/b²",
+     "a/b · a/b",
+     "1",
+     "b²/a²"
+    ],
+    "loesung": [
+     "a²/b²",
+     "a/b · a/b"
+    ],
+    "erklaerung": "Durch b/a teilen heisst mit a/b multiplizieren: a/b · a/b = a²/b².",
+    "fehler": [
+     {
+      "antwort": "1",
+      "diagnoseId": "gekuerzt_statt_gerechnet",
+      "feedback": "Du hast a/b · b/a gerechnet. Das ergäbe 1. Beim Teilen wird der zweite Bruch umgedreht."
+     },
+     {
+      "antwort": "b²/a²",
+      "diagnoseId": "kehrwert_beim_falschen",
+      "feedback": "Du hast den ersten Bruch gekehrt statt den zweiten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  −a + b − (a + b) ?\n\nWähle alle aus.",
+    "optionen": [
+     "−2a",
+     "−a − a",
+     "0",
+     "−2a + 2b"
+    ],
+    "loesung": [
+     "−2a",
+     "−a − a"
+    ],
+    "erklaerung": "Das Minus vor der Klammer dreht beide Vorzeichen: −a + b − a − b. Die b heben sich auf, es bleibt −2a.",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "alles_aufgehoben",
+      "feedback": "Nur die b heben sich auf. Die beiden a sind beide negativ und addieren sich zu −2a."
+     },
+     {
+      "antwort": "−2a + 2b",
+      "diagnoseId": "minus_nur_aufs_erste",
+      "feedback": "Das Minus vor der Klammer gilt für BEIDE Glieder. Aus −(a + b) wird −a − b, nicht −a + b."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  2a · 3b · 4c ?\n\nWähle alle aus.",
+    "optionen": [
+     "24abc",
+     "6ab · 4c",
+     "9abc",
+     "24 + abc"
+    ],
+    "loesung": [
+     "24abc",
+     "6ab · 4c"
+    ],
+    "erklaerung": "Die Zahlen werden multipliziert: 2 · 3 · 4 = 24. Die Variablen stehen nebeneinander: abc.",
+    "fehler": [
+     {
+      "antwort": "9abc",
+      "diagnoseId": "zahlen_addiert",
+      "feedback": "Du hast 2 + 3 + 4 gerechnet. Zwischen den Faktoren steht ein Mal."
+     },
+     {
+      "antwort": "24 + abc",
+      "diagnoseId": "zahl_und_variablen_getrennt",
+      "feedback": "Zahl und Variablen bleiben ein Produkt: 24abc heisst 24 mal a mal b mal c."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  (a − 2a²b) : (ab) ?\n\nWähle alle aus.",
+    "optionen": [
+     "1/b − 2a",
+     "(a : ab) − (2a²b : ab)",
+     "1 − 2a",
+     "a − 2a"
+    ],
+    "loesung": [
+     "1/b − 2a",
+     "(a : ab) − (2a²b : ab)"
+    ],
+    "erklaerung": "Jedes Glied wird einzeln geteilt: a : ab = 1/b, und 2a²b : ab = 2a.",
+    "fehler": [
+     {
+      "antwort": "1 − 2a",
+      "diagnoseId": "nenner_verschluckt",
+      "feedback": "Bei a : ab bleibt im Nenner ein b übrig. Das Ergebnis ist 1/b, nicht 1."
+     },
+     {
+      "antwort": "a − 2a",
+      "diagnoseId": "gar_nicht_geteilt",
+      "feedback": "Du hast nur den Zähler abgeschrieben. Beide Glieder müssen durch ab geteilt werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  ((2a)²)³ ?\n\nWähle alle aus.",
+    "optionen": [
+     "64a⁶",
+     "(4a²)³",
+     "8a⁵",
+     "2a⁶"
+    ],
+    "loesung": [
+     "64a⁶",
+     "(4a²)³"
+    ],
+    "erklaerung": "(2a)² ist 4a². Das hoch 3 ergibt 4³ = 64 und (a²)³ = a⁶, zusammen 64a⁶.",
+    "fehler": [
+     {
+      "antwort": "8a⁵",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Du hast die Hochzahlen addiert. Beim Potenzieren einer Potenz werden sie multipliziert: 2 · 3 = 6."
+     },
+     {
+      "antwort": "2a⁶",
+      "diagnoseId": "zahl_nicht_potenziert",
+      "feedback": "Die 2 wird mitpotenziert. Aus 2 wird erst 4, dann 64."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Terme sind gleichwertig mit  5a + 3b − 2a + 4b ?\n\nWähle alle aus.",
+    "optionen": [
+     "3a + 7b",
+     "a + a + a + 7b",
+     "3a + b",
+     "10ab"
+    ],
+    "loesung": [
+     "3a + 7b",
+     "a + a + a + 7b"
+    ],
+    "erklaerung": "Gleichartige Glieder zusammenfassen: 5a − 2a = 3a und 3b + 4b = 7b.",
+    "fehler": [
+     {
+      "antwort": "3a + b",
+      "diagnoseId": "vorzeichen_bei_b",
+      "feedback": "Bei den b hast du subtrahiert. Vor dem 4b steht ein Plus."
+     },
+     {
+      "antwort": "10ab",
+      "diagnoseId": "ungleichartig_zusammengefasst",
+      "feedback": "a und b lassen sich nicht zusammenfassen. Fünf Äpfel und drei Birnen sind nicht acht Äpfelbirnen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I, 8./9. Schuljahr, FMS); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Terme",
+  "status": "review"
+ },
+ {
+  "templateId": "be-ausmultiplizieren",
+  "lernzielId": "MB.2.03",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "2.03",
+   "2.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Ausmultiplizieren wird der Faktor mit JEDEM Glied der Klammer multipliziert. Auch mit dem hinteren.",
+   "Ein Minus vor der Klammer dreht die Vorzeichen ALLER Glieder darin.",
+   "Beim Ausklammern suchst du, was in allen Gliedern steckt: die grösste gemeinsame Zahl UND die gemeinsamen Variablen."
+  ],
+  "loesungsweg": [
+   "Prüfe, ob ausmultipliziert oder ausgeklammert wird.",
+   "Beim Ausmultiplizieren jedes Glied einzeln nehmen.",
+   "Beim Ausklammern den grössten gemeinsamen Teiler suchen. Zahl und Variablen.",
+   "Am Schluss gleichartige Glieder zusammenfassen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multipliziere aus:\n\n3(2x − 5)",
+    "optionen": [
+     "6x − 15",
+     "6x − 5",
+     "5x − 15",
+     "6x + 15"
+    ],
+    "loesung": [
+     "6x − 15"
+    ],
+    "erklaerung": "Die 3 wird mit beiden Gliedern multipliziert: 3 · 2x = 6x und 3 · (−5) = −15.",
+    "fehler": [
+     {
+      "antwort": "6x − 5",
+      "diagnoseId": "nur_erstes_glied",
+      "feedback": "Du hast die 3 nur mit dem 2x multipliziert. Sie gilt für die ganze Klammer."
+     },
+     {
+      "antwort": "6x + 15",
+      "diagnoseId": "vorzeichen_verloren",
+      "feedback": "In der Klammer steht −5. Mal 3 ergibt das −15, nicht +15."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n−2(3a − 4)",
+    "optionen": [
+     "−6a + 8",
+     "−6a − 8",
+     "6a + 8",
+     "−6a − 4"
+    ],
+    "loesung": [
+     "−6a + 8"
+    ],
+    "erklaerung": "Minus mal plus ergibt minus, minus mal minus ergibt plus: −2 · 3a = −6a und −2 · (−4) = +8.",
+    "fehler": [
+     {
+      "antwort": "−6a − 8",
+      "diagnoseId": "minus_mal_minus",
+      "feedback": "Minus mal minus ergibt plus. −2 · (−4) ist +8."
+     },
+     {
+      "antwort": "6a + 8",
+      "diagnoseId": "vorzeichen_ganz_verloren",
+      "feedback": "Das Minus vor der Klammer gilt auch für das erste Glied: −2 · 3a = −6a."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n12x + 18",
+    "optionen": [
+     "6(2x + 3)",
+     "6(2x + 18)",
+     "12(x + 6)",
+     "3(4x + 9)"
+    ],
+    "loesung": [
+     "6(2x + 3)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Teiler von 12 und 18 ist 6. Beide Glieder werden durch 6 geteilt.",
+    "fehler": [
+     {
+      "antwort": "3(4x + 9)",
+      "diagnoseId": "nicht_groesster_teiler",
+      "feedback": "Richtig ausgeklammert, aber nicht vollständig. 4 und 9 haben zwar keinen gemeinsamen Teiler mehr, aber 3 ist nicht der GRÖSSTE gemeinsame Teiler von 12 und 18; das ist 6."
+     },
+     {
+      "antwort": "6(2x + 18)",
+      "diagnoseId": "zweites_glied_nicht_geteilt",
+      "feedback": "Beim Ausklammern werden BEIDE Glieder geteilt. 18 : 6 ist 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x + 3)(x − 2)",
+    "optionen": [
+     "x² + x − 6",
+     "x² − 6",
+     "x² + 5x − 6",
+     "x² − x − 6"
+    ],
+    "loesung": [
+     "x² + x − 6"
+    ],
+    "erklaerung": "Jedes Glied der ersten Klammer mal jedes der zweiten: x² − 2x + 3x − 6. Zusammengefasst x² + x − 6.",
+    "fehler": [
+     {
+      "antwort": "x² − 6",
+      "diagnoseId": "mittelglieder_vergessen",
+      "feedback": "Du hast nur die äusseren Glieder multipliziert. Es gibt vier Produkte, nicht zwei."
+     },
+     {
+      "antwort": "x² − x − 6",
+      "diagnoseId": "mittelglied_vorzeichen",
+      "feedback": "−2x + 3x ergibt +x, nicht −x. Das grössere der beiden ist positiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(a + b)²",
+    "optionen": [
+     "a² + 2ab + b²",
+     "a² + b²",
+     "a² + ab + b²",
+     "a² − 2ab + b²"
+    ],
+    "loesung": [
+     "a² + 2ab + b²"
+    ],
+    "erklaerung": "Das Quadrat einer Summe: (a + b)(a + b) = a² + ab + ab + b² = a² + 2ab + b².",
+    "fehler": [
+     {
+      "antwort": "a² + b²",
+      "diagnoseId": "binom_ohne_mittelglied",
+      "feedback": "Das Mittelglied fehlt. Beim Ausmultiplizieren entstehen vier Produkte, und zwei davon sind ab."
+     },
+     {
+      "antwort": "a² − 2ab + b²",
+      "diagnoseId": "falsches_vorzeichen",
+      "feedback": "Das gilt für (a − b)². Bei einer Summe ist das Mittelglied positiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x − 4)(x + 4)",
+    "optionen": [
+     "x² − 16",
+     "x² + 16",
+     "x² − 8x − 16",
+     "x² − 8"
+    ],
+    "loesung": [
+     "x² − 16"
+    ],
+    "erklaerung": "Die dritte binomische Formel: Die Mittelglieder −4x und +4x heben sich auf, es bleibt x² − 16.",
+    "fehler": [
+     {
+      "antwort": "x² + 16",
+      "diagnoseId": "vorzeichen_am_ende",
+      "feedback": "Das letzte Produkt ist −4 mal +4, und das ergibt −16. Bei der dritten binomischen Formel bleibt am Schluss immer ein Minus stehen: (a + b)(a − b) = a² − b²."
+     },
+     {
+      "antwort": "x² − 8x − 16",
+      "diagnoseId": "mittelglieder_nicht_aufgehoben",
+      "feedback": "−4x und +4x heben sich gegenseitig auf. Übrig bleibt kein x-Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n5a² − 15a",
+    "optionen": [
+     "5a(a − 3)",
+     "5(a² − 3a)",
+     "5a(a − 15)",
+     "a(5a − 15)"
+    ],
+    "loesung": [
+     "5a(a − 3)"
+    ],
+    "erklaerung": "Gemeinsam sind die 5 und ein a. Beide werden ausgeklammert.",
+    "fehler": [
+     {
+      "antwort": "5(a² − 3a)",
+      "diagnoseId": "variable_nicht_ausgeklammert",
+      "feedback": "Auch das a ist in beiden Gliedern enthalten und lässt sich ausklammern."
+     },
+     {
+      "antwort": "a(5a − 15)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "Auch die 5 ist gemeinsam. Vollständig ausgeklammert heisst: alles, was in beiden Gliedern steckt."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n2x(3x − 1)",
+    "optionen": [
+     "6x² − 2x",
+     "6x − 2x",
+     "6x² − 1",
+     "5x² − 2x"
+    ],
+    "loesung": [
+     "6x² − 2x"
+    ],
+    "erklaerung": "2x · 3x = 6x² (die x werden mitmultipliziert) und 2x · (−1) = −2x.",
+    "fehler": [
+     {
+      "antwort": "6x − 2x",
+      "diagnoseId": "hochzahl_vergessen",
+      "feedback": "x mal x ergibt x². Beim Multiplizieren zweier x-Glieder entsteht ein Quadrat."
+     },
+     {
+      "antwort": "6x² − 1",
+      "diagnoseId": "zweites_glied_ohne_x",
+      "feedback": "Auch beim zweiten Glied wird mit 2x multipliziert: 2x · (−1) = −2x."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n7x − 3 − 4x + 8",
+    "optionen": [
+     "3x + 5",
+     "3x − 5",
+     "11x + 5",
+     "8x"
+    ],
+    "loesung": [
+     "3x + 5"
+    ],
+    "erklaerung": "Gleichartige Glieder zusammenfassen: 7x − 4x = 3x und −3 + 8 = 5.",
+    "fehler": [
+     {
+      "antwort": "3x − 5",
+      "diagnoseId": "vorzeichen_bei_zahlen",
+      "feedback": "−3 + 8 ergibt +5. Rechne am Zahlenstrahl: von −3 acht Schritte nach rechts."
+     },
+     {
+      "antwort": "11x + 5",
+      "diagnoseId": "vorzeichen_bei_x",
+      "feedback": "Vor dem 4x steht ein Minus. Es wird abgezogen, nicht addiert."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n4(a + 2) − 3(a − 1)",
+    "optionen": [
+     "a + 11",
+     "a + 5",
+     "7a + 11",
+     "a + 7"
+    ],
+    "loesung": [
+     "a + 11"
+    ],
+    "erklaerung": "4a + 8 − 3a + 3. Das Minus vor der zweiten Klammer dreht beide Vorzeichen. Zusammen a + 11.",
+    "fehler": [
+     {
+      "antwort": "a + 5",
+      "diagnoseId": "minus_nur_aufs_erste",
+      "feedback": "Das Minus gilt für die ganze zweite Klammer: −3 · (−1) ergibt +3, nicht −3."
+     },
+     {
+      "antwort": "7a + 11",
+      "diagnoseId": "addiert_statt_subtrahiert",
+      "feedback": "Die zweite Klammer wird abgezogen: 4a − 3a ergibt a."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n6xy + 9y",
+    "optionen": [
+     "3y(2x + 3)",
+     "3(2xy + 3y)",
+     "3y(2x + 9)",
+     "y(6x + 9)"
+    ],
+    "loesung": [
+     "3y(2x + 3)"
+    ],
+    "erklaerung": "Gemeinsam sind die 3 und das y.",
+    "fehler": [
+     {
+      "antwort": "3(2xy + 3y)",
+      "diagnoseId": "variable_nicht_ausgeklammert",
+      "feedback": "Das y steckt in beiden Gliedern und gehört mit vor die Klammer."
+     },
+     {
+      "antwort": "y(6x + 9)",
+      "diagnoseId": "zahl_nicht_ausgeklammert",
+      "feedback": "Auch die 3 ist gemeinsam: 6 und 9 sind beide durch 3 teilbar."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(3x)² − 3x²",
+    "optionen": [
+     "6x²",
+     "0",
+     "9x⁴",
+     "6x⁴"
+    ],
+    "loesung": [
+     "6x²"
+    ],
+    "erklaerung": "(3x)² ist 9x², denn beides in der Klammer wird quadriert. 9x² − 3x² = 6x².",
+    "fehler": [
+     {
+      "antwort": "0",
+      "diagnoseId": "klammer_nicht_quadriert",
+      "feedback": "Du hast (3x)² als 3x² gelesen. In der Klammer steht auch die 3 und wird mitquadriert: 3² = 9."
+     },
+     {
+      "antwort": "6x⁴",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Subtrahieren bleiben die Hochzahlen stehen. Nur die Zahlen davor werden verrechnet."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik I, 8./9. Schuljahr, FMS); Terme und Zahlen eigenentwickelt"
+  },
+  "thema": "Terme",
+  "status": "review"
+ },
+ {
+  "templateId": "be-wuerfelnetze",
+  "lernzielId": "MB.6.04",
+  "fach": "mathematik-bern",
+  "unterthemen": [
+   "6.04",
+   "6.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Die Viererreihe läuft beim Falten als Band um den Würfel. Von den vier Flächen liegen sich je die erste und die dritte sowie die zweite und die vierte gegenüber.",
+   "Die beiden angesetzten Flächen werden Deckel und Boden. Sie liegen sich gegenüber, ganz gleich, wo sie am Band ansetzen.",
+   "Zwei Flächen, die im Netz eine Kante teilen, liegen sich nie gegenüber. Sie grenzen im Würfel aneinander."
+  ],
+  "loesungsweg": [
+   "Suche die Viererreihe: Sie wird zum Band um den Würfel.",
+   "Steht die gesuchte Zahl im Band, liegt ihr die übernächste Bandfläche gegenüber.",
+   "Steht sie ausserhalb, ist sie Deckel oder Boden. Gegenüber liegt die andere angesetzte Fläche."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 5, 1, 3, 6. Über der zweiten Fläche der Reihe liegt die 2, unter der zweiten die 4.\n\nWelche Zahl liegt im gefalteten Würfel der 1 gegenüber?",
+    "optionen": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 1 steht an der zweiten Stelle, gegenüber liegt die 6.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 3 liegt im Band NEBEN der 1, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 2 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 1 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 2, 4, 6, 3. Über der ersten Fläche der Reihe liegt die 1, unter der dritten die 5.\n\nWelche Zahl liegt im gefalteten Würfel der 4 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "6"
+    ],
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 4 steht an der zweiten Stelle, gegenüber liegt die 3.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 6 liegt im Band NEBEN der 4, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 1 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 4 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 1, 5, 2, 4. Über der dritten Fläche der Reihe liegt die 6, unter der ersten die 3.\n\nWelche Zahl liegt im gefalteten Würfel der 5 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "4",
+     "6"
+    ],
+    "loesung": [
+     "4"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 5 steht an der zweiten Stelle, gegenüber liegt die 4.",
+    "fehler": [
+     {
+      "antwort": "2",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 2 liegt im Band NEBEN der 5, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 6 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 5 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 3, 6, 1, 2. Über der zweiten Fläche der Reihe liegt die 4, unter der vierten die 5.\n\nWelche Zahl liegt im gefalteten Würfel der 6 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "loesung": [
+     "2"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 6 steht an der zweiten Stelle, gegenüber liegt die 2.",
+    "fehler": [
+     {
+      "antwort": "1",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 1 liegt im Band NEBEN der 6, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "4",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 4 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 6 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 4, 2, 5, 1. Über der vierten Fläche der Reihe liegt die 3, unter der zweiten die 6.\n\nWelche Zahl liegt im gefalteten Würfel der 2 gegenüber?",
+    "optionen": [
+     "1",
+     "3",
+     "4",
+     "5"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 2 steht an der zweiten Stelle, gegenüber liegt die 1.",
+    "fehler": [
+     {
+      "antwort": "5",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 5 liegt im Band NEBEN der 2, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 3 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 2 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 6, 3, 4, 5. Über der ersten Fläche der Reihe liegt die 1, unter der zweiten die 2.\n\nWelche Zahl liegt im gefalteten Würfel der 3 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "4",
+     "5"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 3 steht an der zweiten Stelle, gegenüber liegt die 5.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 4 liegt im Band NEBEN der 3, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 1 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 3 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 2, 5, 4, 1. Über der zweiten Fläche der Reihe liegt die 6, unter der dritten die 3.\n\nWelche Zahl liegt im gefalteten Würfel der 5 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "4",
+     "6"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 5 steht an der zweiten Stelle, gegenüber liegt die 1.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 4 liegt im Band NEBEN der 5, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "6",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 6 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 5 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 1, 6, 3, 5. Über der vierten Fläche der Reihe liegt die 2, unter der ersten die 4.\n\nWelche Zahl liegt im gefalteten Würfel der 6 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 6 steht an der zweiten Stelle, gegenüber liegt die 5.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 3 liegt im Band NEBEN der 6, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 2 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 6 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 5, 2, 6, 4. Über der dritten Fläche der Reihe liegt die 1, unter der zweiten die 3.\n\nWelche Zahl liegt im gefalteten Würfel der 2 gegenüber?",
+    "optionen": [
+     "1",
+     "3",
+     "4",
+     "6"
+    ],
+    "loesung": [
+     "4"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 2 steht an der zweiten Stelle, gegenüber liegt die 4.",
+    "fehler": [
+     {
+      "antwort": "6",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 6 liegt im Band NEBEN der 2, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 1 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 2 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 3, 1, 4, 6. Über der ersten Fläche der Reihe liegt die 5, unter der vierten die 2.\n\nWelche Zahl liegt im gefalteten Würfel der 1 gegenüber?",
+    "optionen": [
+     "2",
+     "4",
+     "5",
+     "6"
+    ],
+    "loesung": [
+     "6"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 1 steht an der zweiten Stelle, gegenüber liegt die 6.",
+    "fehler": [
+     {
+      "antwort": "4",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 4 liegt im Band NEBEN der 1, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "5",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 5 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 1 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 6, 4, 2, 3. Über der zweiten Fläche der Reihe liegt die 5, unter der ersten die 1.\n\nWelche Zahl liegt im gefalteten Würfel der 4 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 4 steht an der zweiten Stelle, gegenüber liegt die 3.",
+    "fehler": [
+     {
+      "antwort": "2",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 2 liegt im Band NEBEN der 4, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "5",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 5 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 4 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 4, 3, 5, 2. Über der vierten Fläche der Reihe liegt die 1, unter der dritten die 6.\n\nWelche Zahl liegt im gefalteten Würfel der 3 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "4",
+     "5"
+    ],
+    "loesung": [
+     "2"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 3 steht an der zweiten Stelle, gegenüber liegt die 2.",
+    "fehler": [
+     {
+      "antwort": "5",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 5 liegt im Band NEBEN der 3, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "1",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 1 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 3 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 2, 6, 1, 5. Über der ersten Fläche der Reihe liegt die 3, unter der vierten die 4.\n\nWelche Zahl liegt im gefalteten Würfel der 6 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "loesung": [
+     "5"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 6 steht an der zweiten Stelle, gegenüber liegt die 5.",
+    "fehler": [
+     {
+      "antwort": "1",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 1 liegt im Band NEBEN der 6, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 3 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 6 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Würfelnetz besteht aus einer Viererreihe und zwei angesetzten Flächen.\n\nIn der Reihe liegen von links nach rechts: 5, 4, 3, 1. Über der dritten Fläche der Reihe liegt die 2, unter der zweiten die 6.\n\nWelche Zahl liegt im gefalteten Würfel der 4 gegenüber?",
+    "optionen": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "Die Viererreihe läuft als Band um den Würfel. Darum liegen sich die erste und die dritte Fläche gegenüber und ebenso die zweite und die vierte. Die 4 steht an der zweiten Stelle, gegenüber liegt die 1.",
+    "fehler": [
+     {
+      "antwort": "3",
+      "diagnoseId": "nachbar_statt_gegenueber",
+      "feedback": "Die 3 liegt im Band NEBEN der 4, nicht gegenüber. Gegenüber liegt immer die übernächste Fläche des Bandes. Eine dazwischen wird beim Falten zur Seitenwand."
+     },
+     {
+      "antwort": "2",
+      "diagnoseId": "flap_statt_band",
+      "feedback": "Die 2 ist eine angesetzte Fläche und wird zu Deckel oder Boden. Der 4 im Band liegt eine andere Bandfläche gegenüber."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfungen 2022-2026 (Mathematik II, Würfelnetze); Netze und Zahlen eigenentwickelt"
+  },
+  "thema": "Würfelnetze",
+  "status": "review"
+ }
+]

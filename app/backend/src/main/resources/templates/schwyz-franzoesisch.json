@@ -1,0 +1,1152 @@
+[
+ {
+  "templateId": "sz-fr-lesen",
+  "lernzielId": "FSZ.1.01",
+  "fach": "franzoesisch-sz",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text, ohne jedes Wort nachzuschlagen.",
+   "Suche zu jeder Frage die Stelle, an der das Schlüsselwort steht.",
+   "Bei Richtig-falsch-Aufgaben zählt an der Prüfung nur, wer die Stelle im Text belegen kann."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und das Schlüsselwort merken.",
+   "Die Stelle im französischen Text suchen.",
+   "Die Antwort am Wortlaut prüfen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wo wohnt Manon?",
+    "optionen": [
+     "In einem Dorf am See",
+     "In der Stadt",
+     "Auf einem Bauernhof",
+     "In der Bretagne"
+    ],
+    "loesung": [
+     "In einem Dorf am See"
+    ],
+    "erklaerung": "«J'habite dans un village au bord d'un lac» — in einem Dorf am Seeufer.",
+    "fehler": [
+     {
+      "antwort": "In der Stadt",
+      "diagnoseId": "ungenau",
+      "feedback": "Die Stadt ist zwanzig Minuten mit dem Zug entfernt; dort wohnt sie nicht."
+     },
+     {
+      "antwort": "Auf einem Bauernhof",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Bauernhof steht nichts im Text."
+     },
+     {
+      "antwort": "In der Bretagne",
+      "diagnoseId": "zukunft",
+      "feedback": "In die Bretagne möchte sie erst nächstes Jahr reisen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie weit ist es bis in die Stadt?",
+    "optionen": [
+     "Zwanzig Minuten mit dem Zug",
+     "Zwanzig Kilometer zu Fuss",
+     "Zwei Stunden mit dem Bus",
+     "Fünfzehn Minuten mit dem Velo"
+    ],
+    "loesung": [
+     "Zwanzig Minuten mit dem Zug"
+    ],
+    "erklaerung": "«à vingt minutes en train de la ville» — zwanzig Minuten mit dem Zug.",
+    "fehler": [
+     {
+      "antwort": "Zwanzig Kilometer zu Fuss",
+      "diagnoseId": "einheit",
+      "feedback": "«minutes» sind Minuten, nicht Kilometer."
+     },
+     {
+      "antwort": "Zwei Stunden mit dem Bus",
+      "diagnoseId": "zahl",
+      "feedback": "Von einem Bus ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "Fünfzehn Minuten mit dem Velo",
+      "diagnoseId": "zahl",
+      "feedback": "Der Text nennt zwanzig Minuten und den Zug."
+     }
+    ]
+   },
+   {
+    "stamm": "Wann beginnt Manons Arbeit am Samstag?",
+    "optionen": [
+     "Um halb sieben",
+     "Um sechs Uhr",
+     "Um elf Uhr",
+     "Um sieben Uhr"
+    ],
+    "loesung": [
+     "Um halb sieben"
+    ],
+    "erklaerung": "«Je commence à six heures et demie» — um halb sieben.",
+    "fehler": [
+     {
+      "antwort": "Um sechs Uhr",
+      "diagnoseId": "ungenau",
+      "feedback": "«six heures et demie» heisst halb sieben, nicht sechs."
+     },
+     {
+      "antwort": "Um elf Uhr",
+      "diagnoseId": "verwechselt",
+      "feedback": "Um elf Uhr hört sie auf; begonnen wird um halb sieben."
+     },
+     {
+      "antwort": "Um sieben Uhr",
+      "diagnoseId": "zahl",
+      "feedback": "Sieben Uhr wäre «sept heures»; im Text steht «six heures et demie»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wo arbeitet Manon?",
+    "optionen": [
+     "In der Bäckerei des Dorfes",
+     "In einem Zugsrestaurant",
+     "In einem Laden in der Stadt",
+     "Bei ihrer Cousine"
+    ],
+    "loesung": [
+     "In der Bäckerei des Dorfes"
+    ],
+    "erklaerung": "«je travaille à la boulangerie du village» — in der Dorfbäckerei.",
+    "fehler": [
+     {
+      "antwort": "In einem Zugsrestaurant",
+      "diagnoseId": "erfunden",
+      "feedback": "Der Zug kommt nur als Verkehrsmittel vor."
+     },
+     {
+      "antwort": "In einem Laden in der Stadt",
+      "diagnoseId": "ort",
+      "feedback": "Die Bäckerei liegt im Dorf, nicht in der Stadt."
+     },
+     {
+      "antwort": "Bei ihrer Cousine",
+      "diagnoseId": "erfunden",
+      "feedback": "Die Cousine kommt erst bei der geplanten Reise vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Richtig oder falsch? «Manon hatte am Anfang keine Angst.»",
+    "optionen": [
+     "falsch",
+     "richtig"
+    ],
+    "loesung": [
+     "falsch"
+    ],
+    "erklaerung": "Im Text steht: Au début, j'avais peur de faire des erreurs.",
+    "fehler": [
+     {
+      "antwort": "richtig",
+      "diagnoseId": "gegenteil",
+      "feedback": "«j'avais peur» heisst, dass sie Angst hatte."
+     }
+    ]
+   },
+   {
+    "stamm": "Welchen Fehler machte Manon am ersten Tag?",
+    "optionen": [
+     "Sie gab zu viel Wechselgeld zurück",
+     "Sie kam zu spät",
+     "Sie verlor den Schlüssel",
+     "Sie verwechselte zwei Brote"
+    ],
+    "loesung": [
+     "Sie gab zu viel Wechselgeld zurück"
+    ],
+    "erklaerung": "«j'ai rendu trop de monnaie à un client» — sie gab einem Kunden zu viel Wechselgeld.",
+    "fehler": [
+     {
+      "antwort": "Sie kam zu spät",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Zuspätkommen steht nichts im Text; erzählt wird vom Wechselgeld."
+     },
+     {
+      "antwort": "Sie verlor den Schlüssel",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Schlüssel kommt im Text nicht vor; der Fehler betraf das Wechselgeld."
+     },
+     {
+      "antwort": "Sie verwechselte zwei Brote",
+      "diagnoseId": "erfunden",
+      "feedback": "Von verwechselten Broten ist nirgends die Rede."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «rouge comme une tomate»?",
+    "optionen": [
+     "Sie schämte sich sehr",
+     "Sie war wütend",
+     "Sie war krank",
+     "Sie hatte Fieber"
+    ],
+    "loesung": [
+     "Sie schämte sich sehr"
+    ],
+    "erklaerung": "Die Wendung beschreibt das Erröten aus Verlegenheit.",
+    "fehler": [
+     {
+      "antwort": "Sie war wütend",
+      "diagnoseId": "bedeutung",
+      "feedback": "Wut kommt im Text nicht vor; es geht um einen peinlichen Fehler."
+     },
+     {
+      "antwort": "Sie war krank",
+      "diagnoseId": "zu_woertlich",
+      "feedback": "Die rote Farbe ist bildhaft gemeint, nicht als Zeichen einer Krankheit."
+     },
+     {
+      "antwort": "Sie hatte Fieber",
+      "diagnoseId": "zu_woertlich",
+      "feedback": "Von Fieber steht nichts im Text; die rote Farbe meint die Verlegenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Richtig oder falsch? «Manon kennt heute fast alle Kundinnen und Kunden.»",
+    "optionen": [
+     "richtig",
+     "falsch"
+    ],
+    "loesung": [
+     "richtig"
+    ],
+    "erklaerung": "Im Text steht: Maintenant, je connais presque tous les clients.",
+    "fehler": [
+     {
+      "antwort": "falsch",
+      "diagnoseId": "gegenteil",
+      "feedback": "«presque tous les clients» heisst fast alle Kundinnen und Kunden."
+     }
+    ]
+   },
+   {
+    "stamm": "Wofür braucht Manon ihr Geld?",
+    "optionen": [
+     "Für Zugbillette und zum Sparen",
+     "Für ein Velo",
+     "Für Kleider",
+     "Für ihre Cousine"
+    ],
+    "loesung": [
+     "Für Zugbillette und zum Sparen"
+    ],
+    "erklaerung": "«je paie mes billets de train et je mets le reste de côté» — Billette zahlen und den Rest zurücklegen.",
+    "fehler": [
+     {
+      "antwort": "Für ein Velo",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Velo kommt im Text nicht vor; sie zahlt Zugbillette und spart den Rest."
+     },
+     {
+      "antwort": "Für Kleider",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Kleidern steht nichts im Text; genannt werden Billette und das Sparen."
+     },
+     {
+      "antwort": "Für ihre Cousine",
+      "diagnoseId": "ungenau",
+      "feedback": "Mit der Cousine will sie verreisen; das Geld gibt sie ihr nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was möchte Manon nächstes Jahr tun?",
+    "optionen": [
+     "Zwei Wochen in die Bretagne reisen",
+     "Die Stelle wechseln",
+     "In die Stadt ziehen",
+     "Ein Velo kaufen"
+    ],
+    "loesung": [
+     "Zwei Wochen in die Bretagne reisen"
+    ],
+    "erklaerung": "«je voudrais partir deux semaines en Bretagne avec ma cousine».",
+    "fehler": [
+     {
+      "antwort": "Die Stelle wechseln",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einem Stellenwechsel ist nirgends die Rede."
+     },
+     {
+      "antwort": "In die Stadt ziehen",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Umzug kommt im Text nicht vor; geplant ist eine Reise in die Bretagne."
+     },
+     {
+      "antwort": "Ein Velo kaufen",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein Velo wird im Text nicht erwähnt; gespart wird für die Reise."
+     }
+    ]
+   },
+   {
+    "stamm": "Was sagen Manons Eltern?",
+    "optionen": [
+     "Sie muss zuerst die Prüfungen bestehen",
+     "Sie darf nicht verreisen",
+     "Sie soll mehr arbeiten",
+     "Sie soll das Geld ausgeben"
+    ],
+    "loesung": [
+     "Sie muss zuerst die Prüfungen bestehen"
+    ],
+    "erklaerung": "«ils disent que je dois d'abord réussir mes examens» — zuerst die Prüfungen bestehen.",
+    "fehler": [
+     {
+      "antwort": "Sie darf nicht verreisen",
+      "diagnoseId": "zu_streng",
+      "feedback": "Die Eltern finden die Idee gut; sie stellen nur eine Bedingung."
+     },
+     {
+      "antwort": "Sie soll mehr arbeiten",
+      "diagnoseId": "erfunden",
+      "feedback": "Von mehr Arbeit ist nirgends die Rede; genannt werden die Prüfungen."
+     },
+     {
+      "antwort": "Sie soll das Geld ausgeben",
+      "diagnoseId": "gegenteil",
+      "feedback": "Sie legt das Geld gerade zurück; ausgeben soll sie es nach den Eltern nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was möchte Manon von den Lesenden wissen?",
+    "optionen": [
+     "Ob sie am Wochenende arbeiten",
+     "Wo sie wohnen",
+     "Wie alt sie sind",
+     "Ob sie die Bretagne kennen"
+    ],
+    "loesung": [
+     "Ob sie am Wochenende arbeiten"
+    ],
+    "erklaerung": "«est-ce que vous travaillez pendant le week-end ?» — arbeitet ihr am Wochenende?",
+    "fehler": [
+     {
+      "antwort": "Wo sie wohnen",
+      "diagnoseId": "erfunden",
+      "feedback": "Nach dem Wohnort fragt sie nicht; ihre Frage betrifft die Wochenendarbeit."
+     },
+     {
+      "antwort": "Wie alt sie sind",
+      "diagnoseId": "erfunden",
+      "feedback": "Ihr eigenes Alter nennt sie, nach dem der anderen fragt sie nicht."
+     },
+     {
+      "antwort": "Ob sie die Bretagne kennen",
+      "diagnoseId": "erfunden",
+      "feedback": "Diese Frage stellt sie nicht; sie fragt nach der Arbeit am Wochenende."
+     }
+    ]
+   }
+  ],
+  "text": "Le blog de Manon\n\nSalut ! Je m'appelle Manon et j'ai quinze ans. J'habite dans un village au bord d'un lac, à vingt minutes en train de la ville.\n\nCette année, j'ai commencé quelque chose de nouveau : le samedi matin, je travaille à la boulangerie du village. Je commence à six heures et demie, ce qui est très tôt, mais je finis à onze heures et le reste du week-end est à moi.\n\nAu début, j'avais peur de faire des erreurs. La première fois, j'ai rendu trop de monnaie à un client, et il est revenu pour me le dire. J'étais rouge comme une tomate. Maintenant, je connais presque tous les clients et je sais ce qu'ils veulent avant qu'ils ouvrent la bouche.\n\nAvec l'argent, je paie mes billets de train et je mets le reste de côté. L'année prochaine, je voudrais partir deux semaines en Bretagne avec ma cousine. Mes parents trouvent que c'est une bonne idée, mais ils disent que je dois d'abord réussir mes examens.\n\nEt vous, est-ce que vous travaillez pendant le week-end ? Écrivez-moi dans les commentaires !",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Compréhension écrite",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-fr-grammatik",
+  "lernzielId": "FSZ.2.01",
+  "fach": "franzoesisch-sz",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Bei Verbformen zählt die Person: je, tu, il, nous, vous, ils.",
+   "Im passé composé nehmen Bewegungsverben «être», die meisten anderen «avoir».",
+   "Der Possessivbegleiter richtet sich nach dem Nomen, das folgt, nicht nach der Person."
+  ],
+  "loesungsweg": [
+   "Das Subjekt bestimmen.",
+   "Die passende Personalform wählen.",
+   "Beim passé composé das Hilfsverb prüfen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nJe ______ dans un village au bord du lac.",
+    "optionen": [
+     "habite",
+     "habites",
+     "habitons",
+     "habitent"
+    ],
+    "loesung": [
+     "habite"
+    ],
+    "erklaerung": "Nach «je» steht die erste Person Einzahl: j'habite.",
+    "fehler": [
+     {
+      "antwort": "habites",
+      "diagnoseId": "person",
+      "feedback": "«habites» gehört zu «tu», nicht zu «je»."
+     },
+     {
+      "antwort": "habitons",
+      "diagnoseId": "person",
+      "feedback": "«habitons» gehört zu «nous»; nach «je» steht «habite»."
+     },
+     {
+      "antwort": "habitent",
+      "diagnoseId": "person",
+      "feedback": "«habitent» gehört zu «ils» oder «elles»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous ______ à six heures et demie.",
+    "optionen": [
+     "commençons",
+     "commence",
+     "commencez",
+     "commencent"
+    ],
+    "loesung": [
+     "commençons"
+    ],
+    "erklaerung": "Nach «nous» steht die Endung «-ons»; vor dem o wird aus dem c ein ç.",
+    "fehler": [
+     {
+      "antwort": "commence",
+      "diagnoseId": "person",
+      "feedback": "«commence» gehört zu je, tu oder il; «nous» verlangt die Endung «-ons»."
+     },
+     {
+      "antwort": "commencez",
+      "diagnoseId": "person",
+      "feedback": "«commencez» gehört zu «vous»; hier steht «nous» als Subjekt."
+     },
+     {
+      "antwort": "commencent",
+      "diagnoseId": "person",
+      "feedback": "«commencent» gehört zu «ils» oder «elles»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle ______ à la boulangerie tous les samedis.",
+    "optionen": [
+     "travaille",
+     "travailles",
+     "travaillons",
+     "travaillez"
+    ],
+    "loesung": [
+     "travaille"
+    ],
+    "erklaerung": "Nach «elle» steht die dritte Person Einzahl: travaille.",
+    "fehler": [
+     {
+      "antwort": "travailles",
+      "diagnoseId": "person",
+      "feedback": "«travailles» gehört zu «tu»; nach «elle» steht «travaille»."
+     },
+     {
+      "antwort": "travaillons",
+      "diagnoseId": "person",
+      "feedback": "«travaillons» gehört zu «nous»; hier handelt eine einzelne Person."
+     },
+     {
+      "antwort": "travaillez",
+      "diagnoseId": "person",
+      "feedback": "«travaillez» gehört zu «vous»; hier steht «elle» als Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nHier, j'______ une erreur.",
+    "optionen": [
+     "ai fait",
+     "suis fait",
+     "ai faire",
+     "a fait"
+    ],
+    "loesung": [
+     "ai fait"
+    ],
+    "erklaerung": "«faire» bildet das passé composé mit «avoir»; das Partizip lautet «fait».",
+    "fehler": [
+     {
+      "antwort": "suis fait",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«faire» nimmt im passé composé «avoir», nicht «être»; es ist kein Bewegungsverb."
+     },
+     {
+      "antwort": "ai faire",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «ai» steht das Partizip «fait», nicht die Grundform."
+     },
+     {
+      "antwort": "a fait",
+      "diagnoseId": "person",
+      "feedback": "«a» gehört zu «il» oder «elle»; nach «je» steht «ai»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIl ______ pour me le dire.",
+    "optionen": [
+     "est revenu",
+     "a revenu",
+     "est revenir",
+     "a revenir"
+    ],
+    "loesung": [
+     "est revenu"
+    ],
+    "erklaerung": "«revenir» ist ein Bewegungsverb und bildet das passé composé mit «être».",
+    "fehler": [
+     {
+      "antwort": "a revenu",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Bewegungsverben wie «revenir» nehmen «être»."
+     },
+     {
+      "antwort": "est revenir",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «est» steht das Partizip «revenu», nicht die Grundform."
+     },
+     {
+      "antwort": "a revenir",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Hier stimmen weder das Hilfsverb noch die Form."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nNous ______ en Bretagne l'année dernière.",
+    "optionen": [
+     "sommes allés",
+     "avons allé",
+     "sommes aller",
+     "avons été aller"
+    ],
+    "loesung": [
+     "sommes allés"
+    ],
+    "erklaerung": "«aller» bildet das passé composé mit «être»; das Partizip richtet sich nach dem Subjekt.",
+    "fehler": [
+     {
+      "antwort": "avons allé",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«aller» nimmt im passé composé «être», weil es ein Bewegungsverb ist."
+     },
+     {
+      "antwort": "sommes aller",
+      "diagnoseId": "partizip",
+      "feedback": "Nach «sommes» steht das Partizip «allés»."
+     },
+     {
+      "antwort": "avons été aller",
+      "diagnoseId": "form",
+      "feedback": "Diese Verbindung gibt es im Französischen nicht; sie mischt zwei Hilfsverben."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nManon paie ______ billets de train.",
+    "optionen": [
+     "ses",
+     "son",
+     "sa",
+     "leurs"
+    ],
+    "loesung": [
+     "ses"
+    ],
+    "erklaerung": "«billets» steht in der Mehrzahl; der Possessivbegleiter lautet «ses».",
+    "fehler": [
+     {
+      "antwort": "son",
+      "diagnoseId": "zahl",
+      "feedback": "«son» steht vor einem männlichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "sa",
+      "diagnoseId": "zahl",
+      "feedback": "«sa» steht vor einem weiblichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "leurs",
+      "diagnoseId": "person",
+      "feedback": "«leurs» gehört zu mehreren Besitzenden; hier ist es Manon allein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nElle part avec ______ cousine.",
+    "optionen": [
+     "sa",
+     "son",
+     "ses",
+     "leur"
+    ],
+    "loesung": [
+     "sa"
+    ],
+    "erklaerung": "«cousine» ist weiblich und steht in der Einzahl: sa cousine.",
+    "fehler": [
+     {
+      "antwort": "son",
+      "diagnoseId": "geschlecht",
+      "feedback": "«son» steht vor männlichen Nomen; «cousine» ist weiblich."
+     },
+     {
+      "antwort": "ses",
+      "diagnoseId": "zahl",
+      "feedback": "«ses» steht vor einem Nomen in der Mehrzahl."
+     },
+     {
+      "antwort": "leur",
+      "diagnoseId": "person",
+      "feedback": "«leur» gehört zu mehreren Besitzenden; hier ist es Manon allein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ parents trouvent que c'est une bonne idée.",
+    "optionen": [
+     "Mes",
+     "Mon",
+     "Ma",
+     "Mien"
+    ],
+    "loesung": [
+     "Mes"
+    ],
+    "erklaerung": "«parents» steht in der Mehrzahl; der Possessivbegleiter lautet «mes».",
+    "fehler": [
+     {
+      "antwort": "Mon",
+      "diagnoseId": "zahl",
+      "feedback": "«mon» steht vor einem männlichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "Ma",
+      "diagnoseId": "zahl",
+      "feedback": "«ma» steht vor einem weiblichen Nomen in der Einzahl."
+     },
+     {
+      "antwort": "Mien",
+      "diagnoseId": "form",
+      "feedback": "«mien» steht allein, ohne Nomen dahinter, und meist mit Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nAu début, j'______ peur.",
+    "optionen": [
+     "avais",
+     "ai",
+     "avait",
+     "avons"
+    ],
+    "loesung": [
+     "avais"
+    ],
+    "erklaerung": "«Au début» beschreibt einen Zustand über längere Zeit — im imparfait heisst es «j'avais».",
+    "fehler": [
+     {
+      "antwort": "ai",
+      "diagnoseId": "zeit",
+      "feedback": "«j'ai peur» steht im Präsens; der Satz erzählt von damals."
+     },
+     {
+      "antwort": "avait",
+      "diagnoseId": "person",
+      "feedback": "«avait» gehört zu «il» oder «elle»; nach «je» steht «avais»."
+     },
+     {
+      "antwort": "avons",
+      "diagnoseId": "person",
+      "feedback": "«avons» gehört zu «nous»; hier spricht eine einzelne Person von sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nL'année prochaine, je ______ partir en Bretagne.",
+    "optionen": [
+     "voudrais",
+     "voulais",
+     "veux bien partir",
+     "ai voulu"
+    ],
+    "loesung": [
+     "voudrais"
+    ],
+    "erklaerung": "«je voudrais» drückt einen höflichen Wunsch für die Zukunft aus.",
+    "fehler": [
+     {
+      "antwort": "voulais",
+      "diagnoseId": "zeit",
+      "feedback": "«voulais» steht im imparfait und blickt zurück."
+     },
+     {
+      "antwort": "veux bien partir",
+      "diagnoseId": "form",
+      "feedback": "Damit stünde «partir» doppelt im Satz; das ergibt keinen gültigen Satzbau."
+     },
+     {
+      "antwort": "ai voulu",
+      "diagnoseId": "zeit",
+      "feedback": "Das passé composé blickt zurück; der Satz spricht vom nächsten Jahr."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nIls ______ que je dois réussir mes examens.",
+    "optionen": [
+     "disent",
+     "dit",
+     "disons",
+     "dites"
+    ],
+    "loesung": [
+     "disent"
+    ],
+    "erklaerung": "Nach «ils» steht die dritte Person Mehrzahl: disent.",
+    "fehler": [
+     {
+      "antwort": "dit",
+      "diagnoseId": "zahl",
+      "feedback": "«dit» gehört zur Einzahl; «ils» verlangt die Endung «-ent»."
+     },
+     {
+      "antwort": "disons",
+      "diagnoseId": "person",
+      "feedback": "«disons» gehört zu «nous»; hier steht «ils» als Subjekt."
+     },
+     {
+      "antwort": "dites",
+      "diagnoseId": "person",
+      "feedback": "«dites» gehört zu «vous»; hier steht «ils» als Subjekt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Verbformen und Possessivbegleiter",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-fr-fragen-pronomen",
+  "lernzielId": "FSZ.2.05",
+  "fach": "franzoesisch-sz",
+  "unterthemen": [
+   "2.05",
+   "2.06",
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Eine Frage lässt sich mit «est-ce que», mit der Intonation oder mit der Inversion bilden.",
+   "Das Objektpronomen steht vor dem gebeugten Verb.",
+   "Die Verneinung besteht aus zwei Teilen, die das Verb einklammern."
+  ],
+  "loesungsweg": [
+   "Die Struktur der Frage oder Verneinung bestimmen.",
+   "Das Pronomen an die richtige Stelle setzen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie lautet die Frage mit «est-ce que»?\n\nTu travailles le samedi.",
+    "optionen": [
+     "Est-ce que tu travailles le samedi ?",
+     "Est-ce tu travailles le samedi ?",
+     "Que est-ce tu travailles ?",
+     "Tu est-ce que travailles ?"
+    ],
+    "loesung": [
+     "Est-ce que tu travailles le samedi ?"
+    ],
+    "erklaerung": "«Est-ce que» steht vor dem ganzen Aussagesatz, der Rest bleibt unverändert.",
+    "fehler": [
+     {
+      "antwort": "Est-ce tu travailles le samedi ?",
+      "diagnoseId": "form",
+      "feedback": "Das «que» darf nicht fehlen; die Wendung lautet immer «est-ce que»."
+     },
+     {
+      "antwort": "Que est-ce tu travailles ?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die Wörter stehen in der falschen Reihenfolge."
+     },
+     {
+      "antwort": "Tu est-ce que travailles ?",
+      "diagnoseId": "wortstellung",
+      "feedback": "«Est-ce que» steht am Satzanfang, nicht in der Mitte."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage mit Inversion?\n\nVous habitez près du lac.",
+    "optionen": [
+     "Habitez-vous près du lac ?",
+     "Vous habitez-vous près du lac ?",
+     "Habitez vous-près du lac ?",
+     "Est-ce habitez-vous près du lac ?"
+    ],
+    "loesung": [
+     "Habitez-vous près du lac ?"
+    ],
+    "erklaerung": "Bei der Inversion tauschen Verb und Pronomen die Plätze, verbunden mit einem Bindestrich.",
+    "fehler": [
+     {
+      "antwort": "Vous habitez-vous près du lac ?",
+      "diagnoseId": "doppelt",
+      "feedback": "Das Pronomen steht doppelt im Satz; bei der Inversion kommt es nur hinter das Verb."
+     },
+     {
+      "antwort": "Habitez vous-près du lac ?",
+      "diagnoseId": "bindestrich",
+      "feedback": "Der Bindestrich verbindet Verb und Pronomen, nicht Pronomen und Präposition."
+     },
+     {
+      "antwort": "Est-ce habitez-vous près du lac ?",
+      "diagnoseId": "gemischt",
+      "feedback": "Hier sind zwei Fragearten vermischt: «est-ce que» und die Inversion schliessen einander aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Frage passt zur Antwort «À six heures et demie.»?",
+    "optionen": [
+     "À quelle heure est-ce que tu commences ?",
+     "Où est-ce que tu commences ?",
+     "Pourquoi est-ce que tu commences ?",
+     "Combien est-ce que tu commences ?"
+    ],
+    "loesung": [
+     "À quelle heure est-ce que tu commences ?"
+    ],
+    "erklaerung": "Die Antwort nennt eine Uhrzeit; gefragt wird mit «à quelle heure».",
+    "fehler": [
+     {
+      "antwort": "Où est-ce que tu commences ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«où» fragt nach dem Ort, nicht nach der Zeit."
+     },
+     {
+      "antwort": "Pourquoi est-ce que tu commences ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«pourquoi» fragt nach dem Grund; die Antwort nennt aber eine Uhrzeit."
+     },
+     {
+      "antwort": "Combien est-ce que tu commences ?",
+      "diagnoseId": "fragewort",
+      "feedback": "«combien» fragt nach einer Menge; die Antwort nennt eine Uhrzeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJe connais les clients. → Je ______ connais.",
+    "optionen": [
+     "les",
+     "leur",
+     "lui",
+     "y"
+    ],
+    "loesung": [
+     "les"
+    ],
+    "erklaerung": "«les clients» ist ein direktes Objekt in der Mehrzahl; das Pronomen lautet «les».",
+    "fehler": [
+     {
+      "antwort": "leur",
+      "diagnoseId": "form",
+      "feedback": "«leur» ersetzt ein indirektes Objekt mit «à»."
+     },
+     {
+      "antwort": "lui",
+      "diagnoseId": "zahl",
+      "feedback": "«lui» steht für eine einzelne Person als indirektes Objekt."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt eine Ortsangabe, nicht ein direktes Objekt wie «les clients»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nJe parle à ma cousine. → Je ______ parle.",
+    "optionen": [
+     "lui",
+     "la",
+     "les",
+     "y"
+    ],
+    "loesung": [
+     "lui"
+    ],
+    "erklaerung": "«parler à quelqu'un» verlangt ein indirektes Objekt; für eine Person in der Einzahl steht «lui».",
+    "fehler": [
+     {
+      "antwort": "la",
+      "diagnoseId": "form",
+      "feedback": "«la» ersetzt ein direktes Objekt ohne «à»."
+     },
+     {
+      "antwort": "les",
+      "diagnoseId": "zahl",
+      "feedback": "«les» steht in der Mehrzahl und für direkte Objekte."
+     },
+     {
+      "antwort": "y",
+      "diagnoseId": "form",
+      "feedback": "«y» ersetzt Orte oder Sachen, nicht Personen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Pronomen passt?\n\nElle va à la boulangerie. → Elle ______ va.",
+    "optionen": [
+     "y",
+     "en",
+     "la",
+     "lui"
+    ],
+    "loesung": [
+     "y"
+    ],
+    "erklaerung": "«y» ersetzt eine Ortsangabe mit «à».",
+    "fehler": [
+     {
+      "antwort": "en",
+      "diagnoseId": "form",
+      "feedback": "«en» ersetzt Angaben mit «de»; hier steht eine Ortsangabe mit «à»."
+     },
+     {
+      "antwort": "la",
+      "diagnoseId": "form",
+      "feedback": "«la» ersetzt ein direktes Objekt, keine Ortsangabe."
+     },
+     {
+      "antwort": "lui",
+      "diagnoseId": "form",
+      "feedback": "«lui» steht für Personen als indirektes Objekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Verneinung?\n\nElle travaille le dimanche.",
+    "optionen": [
+     "Elle ne travaille pas le dimanche.",
+     "Elle travaille ne pas le dimanche.",
+     "Elle pas travaille le dimanche.",
+     "Elle ne pas travaille le dimanche."
+    ],
+    "loesung": [
+     "Elle ne travaille pas le dimanche."
+    ],
+    "erklaerung": "«ne» steht vor dem gebeugten Verb, «pas» dahinter.",
+    "fehler": [
+     {
+      "antwort": "Elle travaille ne pas le dimanche.",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die beiden Teile der Verneinung klammern das Verb ein."
+     },
+     {
+      "antwort": "Elle pas travaille le dimanche.",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Das «ne» fehlt; die Verneinung besteht immer aus zwei Teilen."
+     },
+     {
+      "antwort": "Elle ne pas travaille le dimanche.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«pas» gehört hinter das gebeugte Verb, «ne» davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Verneinung passt?\n\nElle ______ fait ______ d'erreurs maintenant.",
+    "optionen": [
+     "ne … plus",
+     "ne … jamais",
+     "ne … rien",
+     "ne … personne"
+    ],
+    "loesung": [
+     "ne … plus"
+    ],
+    "erklaerung": "«ne … plus» heisst nicht mehr: Früher machte sie Fehler, jetzt nicht mehr.",
+    "fehler": [
+     {
+      "antwort": "ne … jamais",
+      "diagnoseId": "bedeutung",
+      "feedback": "«jamais» hiesse nie — auch nicht am Anfang, was dem Text widerspricht."
+     },
+     {
+      "antwort": "ne … rien",
+      "diagnoseId": "form",
+      "feedback": "«rien» heisst nichts und passt nicht vor «d'erreurs»."
+     },
+     {
+      "antwort": "ne … personne",
+      "diagnoseId": "bedeutung",
+      "feedback": "«personne» heisst niemand und meint Menschen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «mettre de côté»?",
+    "optionen": [
+     "auf die Seite legen, sparen",
+     "ausgeben",
+     "verlieren",
+     "verschenken"
+    ],
+    "loesung": [
+     "auf die Seite legen, sparen"
+    ],
+    "erklaerung": "Die Wendung meint das Zurücklegen von Geld.",
+    "fehler": [
+     {
+      "antwort": "ausgeben",
+      "diagnoseId": "gegenteil",
+      "feedback": "Ausgeben hiesse «dépenser» — das Gegenteil."
+     },
+     {
+      "antwort": "verlieren",
+      "diagnoseId": "bedeutung",
+      "feedback": "Verlieren hiesse «perdre»; «mettre de côté» meint das Zurücklegen."
+     },
+     {
+      "antwort": "verschenken",
+      "diagnoseId": "bedeutung",
+      "feedback": "Verschenken hiesse «offrir» oder «donner»."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «la monnaie» in diesem Text?",
+    "optionen": [
+     "das Wechselgeld",
+     "die Münzsammlung",
+     "der Lohn",
+     "das Portemonnaie"
+    ],
+    "loesung": [
+     "das Wechselgeld"
+    ],
+    "erklaerung": "«rendre la monnaie» heisst Wechselgeld herausgeben.",
+    "fehler": [
+     {
+      "antwort": "die Münzsammlung",
+      "diagnoseId": "bedeutung",
+      "feedback": "Eine Sammlung wäre «une collection de pièces»."
+     },
+     {
+      "antwort": "der Lohn",
+      "diagnoseId": "falscher_freund",
+      "feedback": "Der Lohn hiesse «le salaire»; «la monnaie» ist das Wechselgeld."
+     },
+     {
+      "antwort": "das Portemonnaie",
+      "diagnoseId": "falscher_freund",
+      "feedback": "Das Portemonnaie hiesse «le porte-monnaie», mit Bindestrich."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «réussir un examen»?",
+    "optionen": [
+     "eine Prüfung bestehen",
+     "eine Prüfung schreiben",
+     "eine Prüfung wiederholen",
+     "eine Prüfung verschieben"
+    ],
+    "loesung": [
+     "eine Prüfung bestehen"
+    ],
+    "erklaerung": "«réussir» heisst gelingen oder bestehen.",
+    "fehler": [
+     {
+      "antwort": "eine Prüfung schreiben",
+      "diagnoseId": "bedeutung",
+      "feedback": "Schreiben hiesse «passer un examen» — was noch nichts über den Erfolg sagt."
+     },
+     {
+      "antwort": "eine Prüfung wiederholen",
+      "diagnoseId": "bedeutung",
+      "feedback": "Wiederholen hiesse «repasser un examen»; «réussir» meint den Erfolg."
+     },
+     {
+      "antwort": "eine Prüfung verschieben",
+      "diagnoseId": "bedeutung",
+      "feedback": "Verschieben hiesse «reporter»; «réussir» sagt etwas über das Ergebnis."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «le week-end est à moi»?",
+    "optionen": [
+     "Das Wochenende gehört mir",
+     "Ich arbeite am Wochenende",
+     "Das Wochenende ist vorbei",
+     "Ich fahre am Wochenende weg"
+    ],
+    "loesung": [
+     "Das Wochenende gehört mir"
+    ],
+    "erklaerung": "«être à quelqu'un» heisst jemandem gehören.",
+    "fehler": [
+     {
+      "antwort": "Ich arbeite am Wochenende",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Satz sagt gerade, dass der Rest des Wochenendes frei ist."
+     },
+     {
+      "antwort": "Das Wochenende ist vorbei",
+      "diagnoseId": "bedeutung",
+      "feedback": "Vorbei hiesse «fini»; «être à moi» heisst mir gehören."
+     },
+     {
+      "antwort": "Ich fahre am Wochenende weg",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Wegfahren steht an dieser Stelle nichts."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Französisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Fragen, Pronomen, Verneinung und Wortschatz",
+  "status": "review"
+ }
+]

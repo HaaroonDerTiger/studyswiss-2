@@ -1,0 +1,1609 @@
+[
+ {
+  "templateId": "so-tv-dinge-inhalt",
+  "lernzielId": "TSO.1.01",
+  "fach": "textverstaendnis-so",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche zuerst die Stelle im Text, um die es geht.",
+   "Lies den Satz davor und danach mit, oft steht dort die Antwort.",
+   "Prüfe jede Auswahl einzeln gegen den Text. Was plausibel klingt, aber nicht dasteht, ist falsch."
+  ],
+  "loesungsweg": [
+   "Die Frage genau lesen: Wird nach einer Zahl, einem Grund oder einer Person gefragt?",
+   "Die passende Textstelle suchen.",
+   "Den ganzen Abschnitt lesen, nicht nur den einen Satz.",
+   "Jede Antwortmöglichkeit gegen den Text halten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie viele Gegenstände stehen laut Text in einem durchschnittlichen Schweizer Haushalt?",
+    "optionen": [
+     "rund zehntausend",
+     "rund tausend",
+     "rund hunderttausend",
+     "genau zehntausend"
+    ],
+    "loesung": [
+     "rund zehntausend"
+    ],
+    "erklaerung": "Der Text nennt «rund zehntausend Gegenstände» und stellt sie den dreizehn Minuten Bohrmaschinennutzung gegenüber.",
+    "fehler": [
+     {
+      "antwort": "rund tausend",
+      "diagnoseId": "zehnerpotenz",
+      "feedback": "Im Text steht zehntausend, nicht tausend. Die Zehnerpotenz macht hier den ganzen Punkt aus."
+     },
+     {
+      "antwort": "rund hunderttausend",
+      "diagnoseId": "zehnerpotenz_zwei",
+      "feedback": "Hunderttausend wäre zehnmal zu viel. Der Text nennt zehntausend."
+     },
+     {
+      "antwort": "genau zehntausend",
+      "diagnoseId": "rund_uebersehen",
+      "feedback": "Der Text sagt «rund» Das ist eine gerundete Angabe, keine genaue Zählung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist laut Text an der Zahl «dreizehn Minuten» bemerkenswert?",
+    "optionen": [
+     "Niemand weiss mehr, woher sie stammt",
+     "Sie stammt aus einer Studie des Bundes",
+     "Sie ist erwiesenermassen falsch",
+     "Sie gilt nur für die Schweiz"
+    ],
+    "loesung": [
+     "Niemand weiss mehr, woher sie stammt"
+    ],
+    "erklaerung": "Der Text sagt: Die Zahl «geistert seit Jahren durch Vorträge und Zeitungsartikel, und niemand weiss mehr genau, woher sie stammt».",
+    "fehler": [
+     {
+      "antwort": "Sie stammt aus einer Studie des Bundes",
+      "diagnoseId": "quelle_erfunden",
+      "feedback": "Gerade das steht nicht da: Die Herkunft der Zahl ist unbekannt."
+     },
+     {
+      "antwort": "Sie ist erwiesenermassen falsch",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text sagt nicht, sie sei falsch. Nur, dass ihre Herkunft unklar ist."
+     },
+     {
+      "antwort": "Sie gilt nur für die Schweiz",
+      "diagnoseId": "erfunden",
+      "feedback": "Über den Geltungsbereich sagt der Text nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "In wie vielen Schweizer Städten gibt es laut Text eine Bibliothek der Dinge?",
+    "optionen": [
+     "in über zwanzig",
+     "in genau zwanzig",
+     "in zwölf",
+     "in über hundert"
+    ],
+    "loesung": [
+     "in über zwanzig"
+    ],
+    "erklaerung": "Der Text nennt «über zwanzig Schweizer Städte».",
+    "fehler": [
+     {
+      "antwort": "in genau zwanzig",
+      "diagnoseId": "ueber_uebersehen",
+      "feedback": "Der Text sagt «über zwanzig», also mehr als zwanzig, nicht genau zwanzig."
+     },
+     {
+      "antwort": "in zwölf",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Die Zwölf gehört zum Raclette-Ofen für zwölf Personen."
+     },
+     {
+      "antwort": "in über hundert",
+      "diagnoseId": "zahl_erfunden",
+      "feedback": "Eine solche Zahl steht nicht im Text. Genannt werden über zwanzig Städte."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie hoch ist der Jahresbeitrag laut Text?",
+    "optionen": [
+     "zwischen dreissig und neunzig Franken",
+     "genau dreissig Franken",
+     "zwischen dreizehn und neunzig Franken",
+     "das steht nicht im Text"
+    ],
+    "loesung": [
+     "zwischen dreissig und neunzig Franken"
+    ],
+    "erklaerung": "Der Text: «Der Jahresbeitrag liegt je nach Trägerschaft zwischen dreissig und neunzig Franken.»",
+    "fehler": [
+     {
+      "antwort": "genau dreissig Franken",
+      "diagnoseId": "spanne_uebersehen",
+      "feedback": "Der Text nennt eine Spanne, keinen festen Betrag."
+     },
+     {
+      "antwort": "zwischen dreizehn und neunzig Franken",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Die Dreizehn gehört zu den dreizehn Minuten Bohrmaschinennutzung."
+     },
+     {
+      "antwort": "das steht nicht im Text",
+      "diagnoseId": "uebersehen",
+      "feedback": "Der Betrag steht am Ende des zweiten Abschnitts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welchen Grund nennen laut Ruth Aebi die meisten Leute für das Ausleihen?",
+    "optionen": [
+     "Sie haben keinen Platz mehr",
+     "Sie wollen Geld sparen",
+     "Sie wollen die Umwelt schonen",
+     "Sie wollen neue Leute kennenlernen"
+    ],
+    "loesung": [
+     "Sie haben keinen Platz mehr"
+    ],
+    "erklaerung": "Aebi sagt ausdrücklich: «Das stimmt für einen Teil. Aber die meisten sagen etwas anderes: Sie haben schlicht keinen Platz mehr.»",
+    "fehler": [
+     {
+      "antwort": "Sie wollen Geld sparen",
+      "diagnoseId": "teilweise_richtig",
+      "feedback": "Das Geld gilt laut Aebi nur «für einen Teil», und es war die anfängliche Vermutung, nicht der Hauptgrund."
+     },
+     {
+      "antwort": "Sie wollen die Umwelt schonen",
+      "diagnoseId": "erfunden",
+      "feedback": "Die Umwelt kommt im ganzen Text nicht vor."
+     },
+     {
+      "antwort": "Sie wollen neue Leute kennenlernen",
+      "diagnoseId": "spaeter_im_text",
+      "feedback": "Die Gespräche kommen erst im letzten Abschnitt vor, und als Beobachtung von Aebi, nicht als Grund der Ausleihenden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Geräte stehen laut Text im Frühling auf der Warteliste?",
+    "optionen": [
+     "Anhänger und Gartengeräte",
+     "Dörrapparate",
+     "Nähmaschinen",
+     "Raclette-Öfen"
+    ],
+    "loesung": [
+     "Anhänger und Gartengeräte"
+    ],
+    "erklaerung": "Der Text: «Im Frühling stehen die Anhänger und die Gartengeräte wochenlang auf der Warteliste, im November die Dörrapparate.»",
+    "fehler": [
+     {
+      "antwort": "Dörrapparate",
+      "diagnoseId": "jahreszeit_verwechselt",
+      "feedback": "Die Dörrapparate sind im November gefragt, nicht im Frühling."
+     },
+     {
+      "antwort": "Nähmaschinen",
+      "diagnoseId": "anderer_abschnitt",
+      "feedback": "Die Nähmaschine steht im zweiten Abschnitt als Beispiel für das Sortiment, nicht bei der Warteliste."
+     },
+     {
+      "antwort": "Raclette-Öfen",
+      "diagnoseId": "anderer_abschnitt_zwei",
+      "feedback": "Der Raclette-Ofen wird als Beispiel genannt, aber nicht bei den Engpässen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie beurteilt Ruth Aebi beschädigte Geräte?",
+    "optionen": [
+     "Sie hält es für verschmerzbar",
+     "Sie hält es für das Hauptproblem",
+     "Sie fordert höhere Bussen",
+     "Sie sagt dazu nichts"
+    ],
+    "loesung": [
+     "Sie hält es für verschmerzbar"
+    ],
+    "erklaerung": "Der Text: «Aebi hält das für verschmerzbar. ‹Ein Gerät darf kaputtgehen. Es ist ja dafür da, benutzt zu werden.›»",
+    "fehler": [
+     {
+      "antwort": "Sie hält es für das Hauptproblem",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das Hauptproblem sind laut Text die Geräte, die viele gleichzeitig wollen."
+     },
+     {
+      "antwort": "Sie fordert höhere Bussen",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Bussen ist im Text nirgends die Rede."
+     },
+     {
+      "antwort": "Sie sagt dazu nichts",
+      "diagnoseId": "uebersehen",
+      "feedback": "Sie äussert sich sogar wörtlich dazu, im vierten Abschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was beschäftigt Ruth Aebi laut Text am meisten?",
+    "optionen": [
+     "ob die Gespräche die Idee auf Dauer tragen",
+     "ob genügend Geräte beschafft werden können",
+     "ob die Mitgliederbeiträge reichen",
+     "ob die Geräte richtig zurückgegeben werden"
+    ],
+    "loesung": [
+     "ob die Gespräche die Idee auf Dauer tragen"
+    ],
+    "erklaerung": "Der letzte Abschnitt: Sie weiss nicht, ob die Gespräche reichen, «um die Idee zu tragen, wenn die Neugier einmal verflogen ist».",
+    "fehler": [
+     {
+      "antwort": "ob genügend Geräte beschafft werden können",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Beschaffung steht nichts im Text."
+     },
+     {
+      "antwort": "ob die Mitgliederbeiträge reichen",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Über die Finanzierung sagt der Text nichts."
+     },
+     {
+      "antwort": "ob die Geräte richtig zurückgegeben werden",
+      "diagnoseId": "frueherer_abschnitt",
+      "feedback": "Das gehört zum vierten Abschnitt, und dort nennt sie es ausdrücklich verschmerzbar."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist laut Text das Hauptproblem der Bibliothek der Dinge?",
+    "optionen": [
+     "Geräte, die viele gleichzeitig wollen",
+     "beschädigte Geräte",
+     "zu wenige Mitglieder",
+     "zu hohe Jahresbeiträge"
+    ],
+    "loesung": [
+     "Geräte, die viele gleichzeitig wollen"
+    ],
+    "erklaerung": "Der Text sagt es direkt: «Geräte, die viele gleichzeitig wollen, sind das Hauptproblem.»",
+    "fehler": [
+     {
+      "antwort": "beschädigte Geräte",
+      "diagnoseId": "zweitrangig",
+      "feedback": "Beschädigungen kommen vor, gelten Aebi aber ausdrücklich als verschmerzbar."
+     },
+     {
+      "antwort": "zu wenige Mitglieder",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Mitgliederzahl steht nichts im Text."
+     },
+     {
+      "antwort": "zu hohe Jahresbeiträge",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Die Beiträge werden genannt, aber nicht als Problem bezeichnet."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Monate steht ein zweimal jährlich gebrauchtes Gerät laut Aebi im Weg?",
+    "optionen": [
+     "elf",
+     "zwölf",
+     "zehn",
+     "zwei"
+    ],
+    "loesung": [
+     "elf"
+    ],
+    "erklaerung": "Aebi sagt, ein Gerät, das man zweimal im Jahr braucht, stehe «elf Monate im Weg».",
+    "fehler": [
+     {
+      "antwort": "zwölf",
+      "diagnoseId": "ganzes_jahr",
+      "feedback": "Zwölf wäre das ganze Jahr. Der Text nennt elf Monate. Die Nutzungszeit ist abgezogen."
+     },
+     {
+      "antwort": "zehn",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Der Text nennt elf, nicht zehn. Ein Monat bleibt für die Nutzung übrig."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "haeufigkeit_verwechselt",
+      "feedback": "Zweimal im Jahr wird das Gerät gebraucht. Im Weg steht es elf Monate."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Gegenstände nennt der Text als Beispiele für das Sortiment?",
+    "optionen": [
+     "Nähmaschine, Raclette-Ofen, Teigknetautomat, Schlagbohrmaschine",
+     "Bücher, Zeitschriften und Filme",
+     "Anhänger, Gartengeräte, Dörrapparate",
+     "Werkzeug jeder Art"
+    ],
+    "loesung": [
+     "Nähmaschine, Raclette-Ofen, Teigknetautomat, Schlagbohrmaschine"
+    ],
+    "erklaerung": "Der zweite Abschnitt zählt genau diese vier Gegenstände auf.",
+    "fehler": [
+     {
+      "antwort": "Bücher, Zeitschriften und Filme",
+      "diagnoseId": "gegenteil",
+      "feedback": "Bücher werden im Text ausdrücklich als das genannt, was man dort NICHT ausleiht."
+     },
+     {
+      "antwort": "Anhänger, Gartengeräte, Dörrapparate",
+      "diagnoseId": "anderer_abschnitt",
+      "feedback": "Diese drei stehen im vierten Abschnitt bei den Engpässen, nicht bei den Beispielen fürs Sortiment."
+     },
+     {
+      "antwort": "Werkzeug jeder Art",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Der Text nennt konkrete Gegenstände, und die meisten davon sind kein Werkzeug."
+     }
+    ]
+   },
+   {
+    "stamm": "Wer ist Ruth Aebi laut Text?",
+    "optionen": [
+     "Sie hat eine Ausleihe im Kanton Solothurn mit aufgebaut",
+     "Sie leitet alle Schweizer Ausleihen",
+     "Sie ist Bibliothekarin in einer Stadtbibliothek",
+     "Sie hat die Idee erfunden"
+    ],
+    "loesung": [
+     "Sie hat eine Ausleihe im Kanton Solothurn mit aufgebaut"
+    ],
+    "erklaerung": "Der Text stellt sie vor als jemand, «die eine solche Ausleihe im Kanton Solothurn mit aufgebaut hat».",
+    "fehler": [
+     {
+      "antwort": "Sie leitet alle Schweizer Ausleihen",
+      "diagnoseId": "zu_weit",
+      "feedback": "Der Text spricht von einer Ausleihe im Kanton Solothurn, nicht von allen."
+     },
+     {
+      "antwort": "Sie ist Bibliothekarin in einer Stadtbibliothek",
+      "diagnoseId": "verwechselt",
+      "feedback": "Die Bibliothek der Dinge ist keine Buchbibliothek, und ihr Beruf steht nicht im Text."
+     },
+     {
+      "antwort": "Sie hat die Idee erfunden",
+      "diagnoseId": "zu_stark",
+      "feedback": "Sie hat eine Ausleihe MIT aufgebaut. Von der Erfindung der Idee steht nichts."
+     }
+    ]
+   }
+  ],
+  "text": "Die Bibliothek der Dinge\n\nWer eine Schlagbohrmaschine kauft, benutzt sie im Schnitt dreizehn Minuten,\nüber ihr ganzes Leben gerechnet. Diese Zahl geistert seit Jahren durch\nVorträge und Zeitungsartikel, und niemand weiss mehr genau, woher sie stammt.\nBelegt ist etwas anderes: In einem durchschnittlichen Schweizer Haushalt\nstehen rund zehntausend Gegenstände, und die grosse Mehrheit davon wird\nseltener als einmal im Monat gebraucht.\n\nAus dieser Beobachtung ist eine Idee entstanden, die inzwischen in über\nzwanzig Schweizer Städten umgesetzt wird: die Bibliothek der Dinge. Sie\nfunktioniert wie eine gewöhnliche Bibliothek, nur dass man statt Büchern eine\nNähmaschine ausleiht, ein Raclette-Ofen für zwölf Personen, einen\nTeigknetautomaten oder eben jene Schlagbohrmaschine. Der Jahresbeitrag liegt\nje nach Trägerschaft zwischen dreissig und neunzig Franken.\n\n«Am Anfang dachten wir, die Leute kommen wegen des Geldes», sagt Ruth Aebi,\ndie eine solche Ausleihe im Kanton Solothurn mit aufgebaut hat. «Das stimmt\nfür einen Teil. Aber die meisten sagen etwas anderes: Sie haben schlicht\nkeinen Platz mehr.» Eine Zweizimmerwohnung habe keinen Estrich, und ein\nGerät, das man zweimal im Jahr braucht, stehe elf Monate im Weg.\n\nNicht alles funktioniert. Geräte, die viele gleichzeitig wollen, sind das\nHauptproblem: Im Frühling stehen die Anhänger und die Gartengeräte wochenlang\nauf der Warteliste, im November die Dörrapparate. Und manches kommt beschädigt\nzurück, ohne dass jemand es meldet. Aebi hält das für verschmerzbar. «Ein Gerät\ndarf kaputtgehen. Es ist ja dafür da, benutzt zu werden.»\n\nWas sie mehr beschäftigt, ist etwas anderes. Wer etwas ausleiht, muss es\nzurückbringen, und dabei redet man. «In der Bibliothek der Dinge entstehen\nGespräche, die im Baumarkt nicht entstehen», sagt Aebi. Ob das reicht, um die\nIdee zu tragen, wenn die Neugier einmal verflogen ist, weiss sie nicht. Sie\nsagt es auch so.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 1, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Informationen aus einem Sachtext entnehmen",
+  "status": "review"
+ },
+ {
+  "templateId": "so-tv-dinge-woerter",
+  "lernzielId": "TSO.2.01",
+  "fach": "textverstaendnis-so",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Gefragt ist nicht die Wörterbuchbedeutung, sondern die Bedeutung an DIESER Stelle.",
+   "Lies den ganzen Satz und den davor. Der Zusammenhang trägt die Bedeutung.",
+   "Bei bildlichen Wendungen: Was wäre gemeint, wenn man es nicht wörtlich nimmt?"
+  ],
+  "loesungsweg": [
+   "Das Wort im Text aufsuchen.",
+   "Den ganzen Satz lesen, in dem es steht.",
+   "Prüfen, ob es wörtlich oder bildlich gemeint ist.",
+   "Die Bedeutung in eigenen Worten formulieren und mit den Auswahlen vergleichen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was bedeutet «geistert» im Satz «Diese Zahl geistert seit Jahren durch Vorträge und Zeitungsartikel»?",
+    "optionen": [
+     "Sie wird immer wieder weitergegeben, ohne dass jemand sie prüft",
+     "Sie erschreckt die Leserinnen und Leser",
+     "Sie ist bewiesen und allgemein anerkannt",
+     "Sie stammt aus einer Geistergeschichte"
+    ],
+    "loesung": [
+     "Sie wird immer wieder weitergegeben, ohne dass jemand sie prüft"
+    ],
+    "erklaerung": "«Geistern» heisst hier bildlich: Die Zahl taucht immer wieder auf, ohne greifbaren Ursprung. Der nächste Halbsatz sagt es ausdrücklich.",
+    "fehler": [
+     {
+      "antwort": "Sie erschreckt die Leserinnen und Leser",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Das Wort ist bildlich gemeint. Von Erschrecken steht nichts im Text."
+     },
+     {
+      "antwort": "Sie ist bewiesen und allgemein anerkannt",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das Gegenteil ist gemeint: Niemand weiss, woher sie stammt."
+     },
+     {
+      "antwort": "Sie stammt aus einer Geistergeschichte",
+      "diagnoseId": "woertlich_genommen_zwei",
+      "feedback": "Das wäre die wörtliche Lesart. Gemeint ist das ziellose Umherwandern der Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Trägerschaft» im Satz über den Jahresbeitrag?",
+    "optionen": [
+     "die Organisation, die die Ausleihe betreibt",
+     "die Personen, die etwas tragen",
+     "die Höhe des Beitrags",
+     "die Anzahl der Mitglieder"
+    ],
+    "loesung": [
+     "die Organisation, die die Ausleihe betreibt"
+    ],
+    "erklaerung": "Der Beitrag liegt «je nach Trägerschaft» zwischen dreissig und neunzig Franken, also je nachdem, wer die Ausleihe betreibt.",
+    "fehler": [
+     {
+      "antwort": "die Personen, die etwas tragen",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "«Tragen» steckt im Wort, gemeint ist aber die verantwortliche Organisation."
+     },
+     {
+      "antwort": "die Höhe des Beitrags",
+      "diagnoseId": "zirkelschluss",
+      "feedback": "Der Beitrag hängt VON der Trägerschaft ab. Er ist nicht dasselbe wie sie."
+     },
+     {
+      "antwort": "die Anzahl der Mitglieder",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Mitgliederzahl steht nichts im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist ein «Estrich», wie ihn der Text erwähnt?",
+    "optionen": [
+     "der Dachboden eines Hauses",
+     "eine Art Bodenbelag",
+     "ein Kellerabteil",
+     "ein Nebenzimmer"
+    ],
+    "loesung": [
+     "der Dachboden eines Hauses"
+    ],
+    "erklaerung": "Aebi sagt, eine Zweizimmerwohnung habe keinen Estrich. Gemeint ist der Dachboden, wo man Selten-Gebrauchtes verstaut.",
+    "fehler": [
+     {
+      "antwort": "eine Art Bodenbelag",
+      "diagnoseId": "andere_bedeutung",
+      "feedback": "Das Wort hat auch diese Bedeutung. Im Text geht es aber um Stauraum, den eine Wohnung nicht hat."
+     },
+     {
+      "antwort": "ein Kellerabteil",
+      "diagnoseId": "aehnlich_aber_falsch",
+      "feedback": "Der Zweck ist ähnlich, das Wort meint aber den Raum unter dem Dach."
+     },
+     {
+      "antwort": "ein Nebenzimmer",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Ein Nebenzimmer wäre Wohnraum. Der Estrich ist ein Abstellraum unter dem Dach."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «verschmerzbar» in Aebis Beurteilung?",
+    "optionen": [
+     "man kann es hinnehmen, auch wenn es ärgert",
+     "es tut körperlich weh",
+     "es ist völlig gleichgültig",
+     "es lässt sich reparieren"
+    ],
+    "loesung": [
+     "man kann es hinnehmen, auch wenn es ärgert"
+    ],
+    "erklaerung": "«Verschmerzbar» heisst: Es ist ein Verlust, aber einer, mit dem man leben kann. Der nächste Satz begründet es.",
+    "fehler": [
+     {
+      "antwort": "es tut körperlich weh",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Der Schmerz im Wort ist bildlich gemeint, nicht körperlich."
+     },
+     {
+      "antwort": "es ist völlig gleichgültig",
+      "diagnoseId": "zu_stark",
+      "feedback": "Verschmerzbar heisst nicht gleichgültig. Es ärgert schon, ist aber tragbar."
+     },
+     {
+      "antwort": "es lässt sich reparieren",
+      "diagnoseId": "andere_sache",
+      "feedback": "Ob das Gerät repariert wird, sagt der Text nicht. Es geht um Aebis Haltung dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «wenn die Neugier einmal verflogen ist»?",
+    "optionen": [
+     "wenn das anfängliche Interesse nachgelassen hat",
+     "wenn die Leute weggezogen sind",
+     "wenn alle Geräte ausgeliehen sind",
+     "wenn die Bibliothek geschlossen wird"
+    ],
+    "loesung": [
+     "wenn das anfängliche Interesse nachgelassen hat"
+    ],
+    "erklaerung": "«Verfliegen» heisst hier: allmählich verschwinden. Gemeint ist der Reiz des Neuen.",
+    "fehler": [
+     {
+      "antwort": "wenn die Leute weggezogen sind",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Verflogen ist die Neugier, nicht die Menschen."
+     },
+     {
+      "antwort": "wenn alle Geräte ausgeliehen sind",
+      "diagnoseId": "erfunden",
+      "feedback": "Das wäre ein gutes Zeichen, kein Problem, und es steht nicht da."
+     },
+     {
+      "antwort": "wenn die Bibliothek geschlossen wird",
+      "diagnoseId": "folge_statt_bedingung",
+      "feedback": "Das wäre möglicherweise die Folge, nicht die Bedingung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was meint Aebi mit «Gespräche, die im Baumarkt nicht entstehen»?",
+    "optionen": [
+     "Beim Zurückbringen kommt man miteinander ins Reden",
+     "Im Baumarkt ist es zu laut zum Reden",
+     "Baumärkte verbieten Gespräche",
+     "Die Angestellten im Baumarkt sind unfreundlich"
+    ],
+    "loesung": [
+     "Beim Zurückbringen kommt man miteinander ins Reden"
+    ],
+    "erklaerung": "Der Satz davor sagt es: Wer etwas ausleiht, muss es zurückbringen, und dabei redet man. Beim Kauf im Baumarkt entfällt diese zweite Begegnung.",
+    "fehler": [
+     {
+      "antwort": "Im Baumarkt ist es zu laut zum Reden",
+      "diagnoseId": "erfunden",
+      "feedback": "Über die Lautstärke sagt der Text nichts."
+     },
+     {
+      "antwort": "Baumärkte verbieten Gespräche",
+      "diagnoseId": "unsinn",
+      "feedback": "Das behauptet der Text nirgends. Es fehlt dort schlicht der zweite Besuch."
+     },
+     {
+      "antwort": "Die Angestellten im Baumarkt sind unfreundlich",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Über die Angestellten steht nichts im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «umgesetzt» im Satz über die zwanzig Städte?",
+    "optionen": [
+     "verwirklicht",
+     "an einen anderen Ort gestellt",
+     "übersetzt",
+     "abgeschafft"
+    ],
+    "loesung": [
+     "verwirklicht"
+    ],
+    "erklaerung": "Eine Idee «umsetzen» heisst, sie in die Tat umsetzen. Hier: die Bibliothek der Dinge tatsächlich einrichten.",
+    "fehler": [
+     {
+      "antwort": "an einen anderen Ort gestellt",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Das wäre die wörtliche Bedeutung. Bei einer Idee heisst umsetzen: verwirklichen."
+     },
+     {
+      "antwort": "übersetzt",
+      "diagnoseId": "aehnlich_klingend",
+      "feedback": "Übersetzen und umsetzen sind zwei verschiedene Wörter."
+     },
+     {
+      "antwort": "abgeschafft",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das Gegenteil ist gemeint: Die Idee existiert dort inzwischen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was heisst «je nach Trägerschaft zwischen dreissig und neunzig Franken»?",
+    "optionen": [
+     "Der Betrag ist nicht überall gleich",
+     "Man zahlt sowohl dreissig als auch neunzig Franken",
+     "Der Betrag steigt jedes Jahr",
+     "Man darf den Betrag selbst wählen"
+    ],
+    "loesung": [
+     "Der Betrag ist nicht überall gleich"
+    ],
+    "erklaerung": "«Je nach» heisst: abhängig davon. Wer die Ausleihe betreibt, bestimmt die Höhe innerhalb dieser Spanne.",
+    "fehler": [
+     {
+      "antwort": "Man zahlt sowohl dreissig als auch neunzig Franken",
+      "diagnoseId": "summiert",
+      "feedback": "Die beiden Zahlen sind die Grenzen einer Spanne, keine Summanden."
+     },
+     {
+      "antwort": "Der Betrag steigt jedes Jahr",
+      "diagnoseId": "erfunden",
+      "feedback": "Von einer Steigerung steht nichts im Text."
+     },
+     {
+      "antwort": "Man darf den Betrag selbst wählen",
+      "diagnoseId": "falsch_verstanden",
+      "feedback": "Nicht die Ausleihenden bestimmen ihn, sondern die Trägerschaft."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Sie sagt es auch so» im letzten Satz?",
+    "optionen": [
+     "Sie spricht ihre Unsicherheit offen aus",
+     "Sie wiederholt sich",
+     "Sie sagt es besonders laut",
+     "Sie hat es schon einmal gesagt"
+    ],
+    "loesung": [
+     "Sie spricht ihre Unsicherheit offen aus"
+    ],
+    "erklaerung": "Der Satz davor sagt, sie wisse es nicht. «Sie sagt es auch so» heisst: Sie gibt es zu, statt es zu verbergen.",
+    "fehler": [
+     {
+      "antwort": "Sie wiederholt sich",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Es geht nicht um eine Wiederholung, sondern darum, dass sie zu ihrer Unsicherheit steht."
+     },
+     {
+      "antwort": "Sie sagt es besonders laut",
+      "diagnoseId": "erfunden",
+      "feedback": "Von der Lautstärke steht nichts im Text."
+     },
+     {
+      "antwort": "Sie hat es schon einmal gesagt",
+      "diagnoseId": "erfunden_zwei",
+      "feedback": "Das «so» verweist auf die Art, nicht auf eine frühere Gelegenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Hauptproblem» im vierten Abschnitt?",
+    "optionen": [
+     "die grösste der genannten Schwierigkeiten",
+     "die einzige Schwierigkeit",
+     "eine Schwierigkeit im Hauptgebäude",
+     "ein Problem, das gelöst ist"
+    ],
+    "loesung": [
+     "die grösste der genannten Schwierigkeiten"
+    ],
+    "erklaerung": "Der Text nennt mehrere Schwierigkeiten und hebt eine davon als die grösste hervor.",
+    "fehler": [
+     {
+      "antwort": "die einzige Schwierigkeit",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text nennt weitere: beschädigte Geräte und die offene Frage am Schluss."
+     },
+     {
+      "antwort": "eine Schwierigkeit im Hauptgebäude",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "«Haupt-» meint hier «wichtigst-», nicht ein Gebäude."
+     },
+     {
+      "antwort": "ein Problem, das gelöst ist",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text schildert es als bestehend, nicht als gelöst."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Beobachtung» im Satz «Aus dieser Beobachtung ist eine Idee entstanden»?",
+    "optionen": [
+     "die zuvor genannte Feststellung über ungenutzte Gegenstände",
+     "das Beobachten von Personen",
+     "eine wissenschaftliche Studie",
+     "die Überwachung der Ausleihe"
+    ],
+    "loesung": [
+     "die zuvor genannte Feststellung über ungenutzte Gegenstände"
+    ],
+    "erklaerung": "«Diese Beobachtung» verweist zurück auf den ersten Abschnitt: Zehntausend Gegenstände, die meisten selten gebraucht.",
+    "fehler": [
+     {
+      "antwort": "das Beobachten von Personen",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Beobachtet wurden keine Personen, sondern ein Zustand in den Haushalten. Die vielen ungenutzten Gegenstände."
+     },
+     {
+      "antwort": "eine wissenschaftliche Studie",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text nennt keine Studie. Die eine Zahl ist sogar ausdrücklich unbelegt."
+     },
+     {
+      "antwort": "die Überwachung der Ausleihe",
+      "diagnoseId": "erfunden",
+      "feedback": "Von Überwachung steht nichts im Text. Gemeint ist die Feststellung aus dem ersten Abschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet «Es ist ja dafür da, benutzt zu werden»?",
+    "optionen": [
+     "Ein Gerät hat seinen Zweck im Gebrauch, nicht im Aufbewahren",
+     "Ein Gerät muss möglichst schnell kaputtgehen",
+     "Man soll Geräte absichtlich beschädigen",
+     "Geräte sind nicht wertvoll"
+    ],
+    "loesung": [
+     "Ein Gerät hat seinen Zweck im Gebrauch, nicht im Aufbewahren"
+    ],
+    "erklaerung": "Aebi begründet damit, warum sie Schäden hinnimmt: Ein Gerät, das nie benutzt wird, erfüllt seinen Zweck ohnehin nicht.",
+    "fehler": [
+     {
+      "antwort": "Ein Gerät muss möglichst schnell kaputtgehen",
+      "diagnoseId": "zu_stark",
+      "feedback": "Sie sagt, ein Gerät DARF kaputtgehen, nicht, dass es soll."
+     },
+     {
+      "antwort": "Man soll Geräte absichtlich beschädigen",
+      "diagnoseId": "unsinn",
+      "feedback": "Das steht dem Satz diametral entgegen; es geht um Benutzen, nicht um Zerstören."
+     },
+     {
+      "antwort": "Geräte sind nicht wertvoll",
+      "diagnoseId": "zu_weit",
+      "feedback": "Über den Wert sagt sie nichts. Nur über den Zweck."
+     }
+    ]
+   }
+  ],
+  "text": "Die Bibliothek der Dinge\n\nWer eine Schlagbohrmaschine kauft, benutzt sie im Schnitt dreizehn Minuten,\nüber ihr ganzes Leben gerechnet. Diese Zahl geistert seit Jahren durch\nVorträge und Zeitungsartikel, und niemand weiss mehr genau, woher sie stammt.\nBelegt ist etwas anderes: In einem durchschnittlichen Schweizer Haushalt\nstehen rund zehntausend Gegenstände, und die grosse Mehrheit davon wird\nseltener als einmal im Monat gebraucht.\n\nAus dieser Beobachtung ist eine Idee entstanden, die inzwischen in über\nzwanzig Schweizer Städten umgesetzt wird: die Bibliothek der Dinge. Sie\nfunktioniert wie eine gewöhnliche Bibliothek, nur dass man statt Büchern eine\nNähmaschine ausleiht, ein Raclette-Ofen für zwölf Personen, einen\nTeigknetautomaten oder eben jene Schlagbohrmaschine. Der Jahresbeitrag liegt\nje nach Trägerschaft zwischen dreissig und neunzig Franken.\n\n«Am Anfang dachten wir, die Leute kommen wegen des Geldes», sagt Ruth Aebi,\ndie eine solche Ausleihe im Kanton Solothurn mit aufgebaut hat. «Das stimmt\nfür einen Teil. Aber die meisten sagen etwas anderes: Sie haben schlicht\nkeinen Platz mehr.» Eine Zweizimmerwohnung habe keinen Estrich, und ein\nGerät, das man zweimal im Jahr braucht, stehe elf Monate im Weg.\n\nNicht alles funktioniert. Geräte, die viele gleichzeitig wollen, sind das\nHauptproblem: Im Frühling stehen die Anhänger und die Gartengeräte wochenlang\nauf der Warteliste, im November die Dörrapparate. Und manches kommt beschädigt\nzurück, ohne dass jemand es meldet. Aebi hält das für verschmerzbar. «Ein Gerät\ndarf kaputtgehen. Es ist ja dafür da, benutzt zu werden.»\n\nWas sie mehr beschäftigt, ist etwas anderes. Wer etwas ausleiht, muss es\nzurückbringen, und dabei redet man. «In der Bibliothek der Dinge entstehen\nGespräche, die im Baumarkt nicht entstehen», sagt Aebi. Ob das reicht, um die\nIdee zu tragen, wenn die Neugier einmal verflogen ist, weiss sie nicht. Sie\nsagt es auch so.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 1, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Wörter im Textzusammenhang erklären",
+  "status": "review"
+ },
+ {
+  "templateId": "so-tv-dinge-pruefen",
+  "lernzielId": "TSO.3.01",
+  "fach": "textverstaendnis-so",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Die dritte Spalte ist der Kern: Was der Text nicht sagt, ist nicht falsch. Es steht bloss nicht da.",
+   "Falsche Antworten geben in dieser Aufgabe Abzug. Kreuze nur an, was du belegen kannst.",
+   "Achte auf «alle», «nie», «immer»: Ein einziges Gegenbeispiel macht die Aussage falsch."
+  ],
+  "loesungsweg": [
+   "Jede Zeile einzeln nehmen und die passende Textstelle suchen.",
+   "Steht es wörtlich oder sinngemäss da: stimmt.",
+   "Steht das Gegenteil da: stimmt nicht.",
+   "Findet sich gar nichts dazu: nicht erwähnt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (die Zahlen)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Die Zehntausend ist belegt, die Dreizehn ausdrücklich nicht. Wie viele Mitglieder eine Ausleihe hat, sagt der Text nirgends.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "In einem durchschnittlichen Schweizer Haushalt stehen rund zehntausend Gegenstände.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Die Herkunft der Zahl «dreizehn Minuten» ist bekannt.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Eine Ausleihe hat im Schnitt vierhundert Mitglieder.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Der Jahresbeitrag ist überall gleich hoch.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (das Sortiment)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Bücher werden ausdrücklich abgegrenzt. Ob es Bücher zusätzlich gibt, sagt der Text nicht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "In der Bibliothek der Dinge leiht man Nähmaschinen aus.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Die Bibliothek der Dinge verleiht auch Bücher.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Ein Raclette-Ofen für zwölf Personen gehört zum Sortiment.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Alle Geräte sind neu gekauft.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (Ruth Aebi)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Aebi hat eine Ausleihe mit aufgebaut, im Kanton Solothurn. Ihr Alter und ihr Beruf stehen nicht im Text.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Ruth Aebi hat eine Ausleihe im Kanton Solothurn mit aufgebaut.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Ruth Aebi ist von Beruf Bibliothekarin.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Ruth Aebi hält beschädigte Geräte für das grösste Problem.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Ruth Aebi ist sicher, dass die Idee dauerhaft trägt.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (die Gründe)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Platz ist der meistgenannte Grund, das Geld gilt nur für einen Teil. Die Umwelt kommt im Text nicht vor.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Die meisten leihen aus, weil ihnen der Platz fehlt.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Niemand leiht aus, um Geld zu sparen.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Der Umweltschutz ist ein wichtiger Grund für die Ausleihe.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Am Anfang vermutete man das Geld als Hauptgrund.",
+      "loesung": [
+       "stimmt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (die Engpässe)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Frühling und November stehen ausdrücklich im Text. Wie lange eine Warteliste genau ist, sagt er nicht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Im Frühling sind Anhänger und Gartengeräte stark gefragt.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Im November sind die Dörrapparate gefragt.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Eine Warteliste umfasst durchschnittlich acht Personen.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Alle Geräte sind das ganze Jahr gleich stark gefragt.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (Schäden)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Beschädigungen kommen vor und werden nicht immer gemeldet. Von Kosten oder Bussen steht nichts im Text.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Manche Geräte kommen beschädigt zurück.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Beschädigungen werden immer gemeldet.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Wer ein Gerät beschädigt, zahlt eine Busse.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Aebi findet, ein Gerät dürfe kaputtgehen.",
+      "loesung": [
+       "stimmt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (Verbreitung)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Über zwanzig Städte stehen im Text. Ob es die Idee auch im Ausland gibt, sagt er nicht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Die Idee ist in über zwanzig Schweizer Städten umgesetzt.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Es gibt die Bibliothek der Dinge nur in Solothurn.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Die Idee stammt ursprünglich aus dem Ausland.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Jede Stadt hat dieselbe Trägerschaft.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (die Wohnung)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Estrich steht im Text als Beispiel für fehlenden Stauraum. Über Mietpreise sagt der Text nichts.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Eine Zweizimmerwohnung hat laut Aebi keinen Estrich.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Ein selten gebrauchtes Gerät steht elf Monate im Weg.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Wohnungen sind in der Schweiz zu teuer geworden.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Aebi wohnt selbst in einer Zweizimmerwohnung.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (die Gespräche)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Die Gespräche entstehen laut Aebi beim Zurückbringen. Ob sie die Idee tragen, lässt der Text offen.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Beim Zurückbringen entstehen laut Aebi Gespräche.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Aebi weiss sicher, dass die Gespräche die Idee tragen.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Im Baumarkt entstehen laut Aebi dieselben Gespräche.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Die Ausleihe veranstaltet regelmässig Anlässe.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (Vergleich mit der Buchbibliothek)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der Text vergleicht ausdrücklich mit einer gewöhnlichen Bibliothek, über deren Ausleihfristen sagt er aber nichts.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Die Bibliothek der Dinge funktioniert wie eine gewöhnliche Bibliothek.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Man leiht dort Bücher statt Geräte aus.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Die Ausleihfrist beträgt zwei Wochen.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     },
+     {
+      "text": "Für die Ausleihe zahlt man einen Jahresbeitrag.",
+      "loesung": [
+       "stimmt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (Verallgemeinerungen)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Achte auf «alle», «nie», «immer». Der Text sagt «die grosse Mehrheit», nicht «alle».",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Alle Gegenstände in einem Haushalt werden selten gebraucht.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Die grosse Mehrheit der Gegenstände wird seltener als einmal im Monat gebraucht.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Nichts an der Idee funktioniert.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Alle Ausleihen in der Schweiz sind gleich gross.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ]
+   },
+   {
+    "stamm": "Entscheiden Sie bei jeder Aussage: stimmt, stimmt nicht oder nicht erwähnt?  (der Schluss)",
+    "optionen": null,
+    "loesung": [],
+    "erklaerung": "Der letzte Abschnitt lässt die Frage offen, und der Text sagt ausdrücklich, dass Aebi das auch so ausspricht.",
+    "fehler": [],
+    "zeilen": [
+     {
+      "text": "Aebi lässt offen, ob die Idee auf Dauer trägt.",
+      "loesung": [
+       "stimmt"
+      ]
+     },
+     {
+      "text": "Aebi verschweigt ihre Zweifel.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Der Text endet mit einer Prognose für die nächsten zehn Jahre.",
+      "loesung": [
+       "stimmt nicht"
+      ]
+     },
+     {
+      "text": "Die Ausleihe wird nächstes Jahr geschlossen.",
+      "loesung": [
+       "nicht erwähnt"
+      ]
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "stimmt",
+   "stimmt nicht",
+   "nicht erwähnt"
+  ],
+  "text": "Die Bibliothek der Dinge\n\nWer eine Schlagbohrmaschine kauft, benutzt sie im Schnitt dreizehn Minuten,\nüber ihr ganzes Leben gerechnet. Diese Zahl geistert seit Jahren durch\nVorträge und Zeitungsartikel, und niemand weiss mehr genau, woher sie stammt.\nBelegt ist etwas anderes: In einem durchschnittlichen Schweizer Haushalt\nstehen rund zehntausend Gegenstände, und die grosse Mehrheit davon wird\nseltener als einmal im Monat gebraucht.\n\nAus dieser Beobachtung ist eine Idee entstanden, die inzwischen in über\nzwanzig Schweizer Städten umgesetzt wird: die Bibliothek der Dinge. Sie\nfunktioniert wie eine gewöhnliche Bibliothek, nur dass man statt Büchern eine\nNähmaschine ausleiht, ein Raclette-Ofen für zwölf Personen, einen\nTeigknetautomaten oder eben jene Schlagbohrmaschine. Der Jahresbeitrag liegt\nje nach Trägerschaft zwischen dreissig und neunzig Franken.\n\n«Am Anfang dachten wir, die Leute kommen wegen des Geldes», sagt Ruth Aebi,\ndie eine solche Ausleihe im Kanton Solothurn mit aufgebaut hat. «Das stimmt\nfür einen Teil. Aber die meisten sagen etwas anderes: Sie haben schlicht\nkeinen Platz mehr.» Eine Zweizimmerwohnung habe keinen Estrich, und ein\nGerät, das man zweimal im Jahr braucht, stehe elf Monate im Weg.\n\nNicht alles funktioniert. Geräte, die viele gleichzeitig wollen, sind das\nHauptproblem: Im Frühling stehen die Anhänger und die Gartengeräte wochenlang\nauf der Warteliste, im November die Dörrapparate. Und manches kommt beschädigt\nzurück, ohne dass jemand es meldet. Aebi hält das für verschmerzbar. «Ein Gerät\ndarf kaputtgehen. Es ist ja dafür da, benutzt zu werden.»\n\nWas sie mehr beschäftigt, ist etwas anderes. Wer etwas ausleiht, muss es\nzurückbringen, und dabei redet man. «In der Bibliothek der Dinge entstehen\nGespräche, die im Baumarkt nicht entstehen», sagt Aebi. Ob das reicht, um die\nIdee zu tragen, wenn die Neugier einmal verflogen ist, weiss sie nicht. Sie\nsagt es auch so.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 1, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Aussagen prüfen: stimmt, stimmt nicht oder nicht erwähnt",
+  "status": "review"
+ },
+ {
+  "templateId": "so-tv-dinge-deutung",
+  "lernzielId": "TSO.4.01",
+  "fach": "textverstaendnis-so",
+  "unterthemen": [
+   "4.01",
+   "4.02",
+   "4.03",
+   "4.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Titel arbeitet oft mit einem Widerspruch oder einer Übertragung. Fragen Sie, was daran nicht wörtlich stimmt.",
+   "Die Textsorte erkennen Sie an Zitaten, Zahlen und daran, ob eine Meinung vertreten wird.",
+   "Absicht: Will der Text informieren, überzeugen oder unterhalten?"
+  ],
+  "loesungsweg": [
+   "Den Text in einem Satz zusammenfassen.",
+   "Prüfen, ob eine Meinung vertreten wird oder Personen zu Wort kommen.",
+   "Nach der Wirkung fragen: Was soll die lesende Person danach wissen oder tun?",
+   "Beim Titel: Welches Wort ist übertragen gebraucht?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Erkläre den Titel «Die Bibliothek der Dinge». Was ist daran besonders?",
+    "optionen": [
+     "Das Wort «Bibliothek» wird auf Gegenstände statt auf Bücher übertragen",
+     "Es geht um eine Bibliothek, die auch Dinge sammelt",
+     "Der Titel ist wörtlich gemeint",
+     "Der Titel spielt auf ein bekanntes Buch an"
+    ],
+    "loesung": [
+     "Das Wort «Bibliothek» wird auf Gegenstände statt auf Bücher übertragen"
+    ],
+    "erklaerung": "Eine Bibliothek verleiht normalerweise Bücher. Der Titel überträgt das Prinzip, Ausleihen statt Besitzen, auf Gegenstände.",
+    "fehler": [
+     {
+      "antwort": "Es geht um eine Bibliothek, die auch Dinge sammelt",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Der Text sagt ausdrücklich: statt Büchern. Es ist keine erweiterte Buchbibliothek."
+     },
+     {
+      "antwort": "Der Titel ist wörtlich gemeint",
+      "diagnoseId": "uebertragung_uebersehen",
+      "feedback": "Wörtlich wäre eine Bibliothek ein Ort für Bücher. Genau darin liegt der Reiz des Titels."
+     },
+     {
+      "antwort": "Der Titel spielt auf ein bekanntes Buch an",
+      "diagnoseId": "erfunden",
+      "feedback": "Ein solcher Bezug wird im Text nirgends hergestellt."
+     }
+    ]
+   },
+   {
+    "stamm": "Um welche Textsorte handelt es sich?",
+    "optionen": [
+     "einen Zeitungsartikel",
+     "eine Erzählung",
+     "eine Gebrauchsanweisung",
+     "einen Kommentar"
+    ],
+    "loesung": [
+     "einen Zeitungsartikel"
+    ],
+    "erklaerung": "Zahlen, ein Ortsbezug, eine namentlich genannte Fachperson mit wörtlichen Zitaten. Das ist die Machart eines Zeitungsartikels.",
+    "fehler": [
+     {
+      "antwort": "eine Erzählung",
+      "diagnoseId": "erzaehlung_verwechselt",
+      "feedback": "Es gibt keine Handlung und keine erfundenen Figuren, sondern Angaben und Zitate."
+     },
+     {
+      "antwort": "eine Gebrauchsanweisung",
+      "diagnoseId": "anweisung_verwechselt",
+      "feedback": "Der Text erklärt nicht Schritt für Schritt, wie etwas zu tun ist."
+     },
+     {
+      "antwort": "einen Kommentar",
+      "diagnoseId": "kommentar_verwechselt",
+      "feedback": "Ein Kommentar vertritt eine eigene Meinung. Hier meldet der Text, was ist. Die Wertungen stammen von Aebi."
+     }
+    ]
+   },
+   {
+    "stamm": "Was will der Text vor allem erreichen?",
+    "optionen": [
+     "über eine Idee informieren und ihre offenen Fragen zeigen",
+     "die Lesenden zum Beitritt überreden",
+     "vor der Bibliothek der Dinge warnen",
+     "die Lesenden unterhalten"
+    ],
+    "loesung": [
+     "über eine Idee informieren und ihre offenen Fragen zeigen"
+    ],
+    "erklaerung": "Der Text nennt Zahlen, Beispiele und Schwierigkeiten und lässt am Schluss ausdrücklich offen, ob die Idee trägt.",
+    "fehler": [
+     {
+      "antwort": "die Lesenden zum Beitritt überreden",
+      "diagnoseId": "werbung_verwechselt",
+      "feedback": "Dafür wäre der letzte Abschnitt ungeeignet. Er nennt gerade die Unsicherheit."
+     },
+     {
+      "antwort": "vor der Bibliothek der Dinge warnen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text schildert die Idee eher wohlwollend; er warnt nicht."
+     },
+     {
+      "antwort": "die Lesenden unterhalten",
+      "diagnoseId": "zweck_verkannt",
+      "feedback": "Unterhaltung ist nicht der Zweck; der Text bringt Angaben und Aussagen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Funktion hat der erste Abschnitt mit den dreizehn Minuten?",
+    "optionen": [
+     "Er weckt Interesse und führt zum eigentlichen Thema hin",
+     "Er beweist die These des Textes",
+     "Er widerlegt die Bibliothek der Dinge",
+     "Er ist ein Einschub ohne Bezug"
+    ],
+    "loesung": [
+     "Er weckt Interesse und führt zum eigentlichen Thema hin"
+    ],
+    "erklaerung": "Die auffällige Zahl zieht die Aufmerksamkeit an; gleich danach relativiert der Text sie und liefert eine belegte Zahl nach.",
+    "fehler": [
+     {
+      "antwort": "Er beweist die These des Textes",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text sagt selbst, die Zahl sei unbelegt. Bewiesen wird damit nichts."
+     },
+     {
+      "antwort": "Er widerlegt die Bibliothek der Dinge",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Abschnitt führt zur Idee hin, statt sie zu widerlegen."
+     },
+     {
+      "antwort": "Er ist ein Einschub ohne Bezug",
+      "diagnoseId": "zusammenhang_uebersehen",
+      "feedback": "Der zweite Abschnitt knüpft ausdrücklich mit «Aus dieser Beobachtung» an."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum nennt der Text die Herkunft der Zahl «dreizehn Minuten» als unbekannt?",
+    "optionen": [
+     "Um sie einzuordnen, ohne sie ganz zu verwerfen",
+     "Um die Leserinnen und Leser zu verwirren",
+     "Weil die Zahl erfunden ist",
+     "Weil der Text keine Zahlen verwenden will"
+    ],
+    "loesung": [
+     "Um sie einzuordnen, ohne sie ganz zu verwerfen"
+    ],
+    "erklaerung": "Der Text nennt die Zahl, markiert sie aber als unbelegt und stellt ihr eine belegte Angabe gegenüber. Das ist sorgfältiges Berichten.",
+    "fehler": [
+     {
+      "antwort": "Um die Leserinnen und Leser zu verwirren",
+      "diagnoseId": "absicht_verkannt",
+      "feedback": "Die Einordnung schafft Klarheit, keine Verwirrung."
+     },
+     {
+      "antwort": "Weil die Zahl erfunden ist",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text behauptet nicht, sie sei erfunden. Nur, dass ihre Quelle unbekannt ist."
+     },
+     {
+      "antwort": "Weil der Text keine Zahlen verwenden will",
+      "diagnoseId": "widerspruch",
+      "feedback": "Der Text verwendet mehrere Zahlen, unter anderem die zehntausend Gegenstände."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lässt sich die Haltung des Textes gegenüber der Idee beschreiben?",
+    "optionen": [
+     "interessiert, aber nicht unkritisch",
+     "durchwegs begeistert",
+     "ablehnend",
+     "gleichgültig"
+    ],
+    "loesung": [
+     "interessiert, aber nicht unkritisch"
+    ],
+    "erklaerung": "Der Text schildert die Idee ausführlich und nennt zugleich die Schwierigkeiten und die offene Frage am Schluss.",
+    "fehler": [
+     {
+      "antwort": "durchwegs begeistert",
+      "diagnoseId": "haelfte_uebersehen",
+      "feedback": "Der vierte und der fünfte Abschnitt nennen Probleme und Zweifel."
+     },
+     {
+      "antwort": "ablehnend",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text stellt die Idee ausführlich und wohlwollend dar."
+     },
+     {
+      "antwort": "gleichgültig",
+      "diagnoseId": "ton_verkannt",
+      "feedback": "Gleichgültig wäre ein Text ohne Zitate und ohne diesen nachdenklichen Schluss."
+     }
+    ]
+   },
+   {
+    "stamm": "Welchen Zweck haben die wörtlichen Zitate von Ruth Aebi?",
+    "optionen": [
+     "Sie belegen die Aussagen und geben dem Text eine Stimme",
+     "Sie füllen den Text auf",
+     "Sie ersetzen fehlende Zahlen",
+     "Sie zeigen, dass der Text eine Erzählung ist"
+    ],
+    "loesung": [
+     "Sie belegen die Aussagen und geben dem Text eine Stimme"
+    ],
+    "erklaerung": "Zitate machen eine Behauptung überprüfbar und verankern sie bei einer Person, die es wissen muss.",
+    "fehler": [
+     {
+      "antwort": "Sie füllen den Text auf",
+      "diagnoseId": "zweck_verkannt",
+      "feedback": "Jedes Zitat trägt eine eigene Aussage. Keines ist blosse Füllung."
+     },
+     {
+      "antwort": "Sie ersetzen fehlende Zahlen",
+      "diagnoseId": "falsch",
+      "feedback": "Der Text bringt beides: Zahlen UND Zitate."
+     },
+     {
+      "antwort": "Sie zeigen, dass der Text eine Erzählung ist",
+      "diagnoseId": "textsorte_verwechselt",
+      "feedback": "Zitate sind gerade typisch für den Zeitungsartikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Was lässt sich aus dem letzten Abschnitt über die Zukunft der Idee schliessen?",
+    "optionen": [
+     "Sie ist offen. Auch für die Fachfrau",
+     "Die Idee wird sicher scheitern",
+     "Die Idee wird sicher gelingen",
+     "Der Text macht dazu keine Aussage"
+    ],
+    "loesung": [
+     "Sie ist offen. Auch für die Fachfrau"
+    ],
+    "erklaerung": "Aebi weiss es «nicht» und «sagt es auch so». Das ist eine Aussage über die Zukunft: Sie ist unentschieden.",
+    "fehler": [
+     {
+      "antwort": "Die Idee wird sicher scheitern",
+      "diagnoseId": "zu_stark",
+      "feedback": "Von Scheitern steht nichts. Es geht um Ungewissheit, nicht um ein Urteil."
+     },
+     {
+      "antwort": "Die Idee wird sicher gelingen",
+      "diagnoseId": "zu_stark_zwei",
+      "feedback": "Auch das sagt der Text nicht. Gerade darum steht der Zweifel am Schluss."
+     },
+     {
+      "antwort": "Der Text macht dazu keine Aussage",
+      "diagnoseId": "uebersehen",
+      "feedback": "Doch: Er sagt ausdrücklich, dass die Frage offen ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Satz gibt die Kernaussage des Textes am besten wieder?",
+    "optionen": [
+     "Ausleihen statt besitzen löst ein Platzproblem. Ob es trägt, ist offen",
+     "Schlagbohrmaschinen werden zu selten benutzt",
+     "Bibliotheken sollten mehr als Bücher verleihen",
+     "Geräte gehen beim Ausleihen häufig kaputt"
+    ],
+    "loesung": [
+     "Ausleihen statt besitzen löst ein Platzproblem. Ob es trägt, ist offen"
+    ],
+    "erklaerung": "Der Text führt vom Platzproblem über die Lösung zu der Frage, ob sie dauerhaft funktioniert.",
+    "fehler": [
+     {
+      "antwort": "Schlagbohrmaschinen werden zu selten benutzt",
+      "diagnoseId": "einstieg_verwechselt",
+      "feedback": "Das ist der Aufhänger im ersten Abschnitt, nicht die Kernaussage."
+     },
+     {
+      "antwort": "Bibliotheken sollten mehr als Bücher verleihen",
+      "diagnoseId": "forderung_erfunden",
+      "feedback": "Der Text fordert nichts; er berichtet, was es gibt, und nennt die offenen Fragen dazu."
+     },
+     {
+      "antwort": "Geräte gehen beim Ausleihen häufig kaputt",
+      "diagnoseId": "nebensache",
+      "feedback": "Das ist ein Nebenaspekt, den Aebi ausdrücklich für verschmerzbar hält."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum steht die belegte Zahl «zehntausend Gegenstände» direkt nach der unbelegten «dreizehn Minuten»?",
+    "optionen": [
+     "Um zu zeigen, dass das Problem auch ohne die zweifelhafte Zahl besteht",
+     "Um die erste Zahl zu bestätigen",
+     "Weil beide Zahlen aus derselben Quelle stammen",
+     "Um den Text länger zu machen"
+    ],
+    "loesung": [
+     "Um zu zeigen, dass das Problem auch ohne die zweifelhafte Zahl besteht"
+    ],
+    "erklaerung": "Der Text sagt: «Belegt ist etwas anderes.» Er ersetzt die schwache Grundlage durch eine tragfähige.",
+    "fehler": [
+     {
+      "antwort": "Um die erste Zahl zu bestätigen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text stellt sie gerade nicht in Frage. Er stellt eine andere daneben."
+     },
+     {
+      "antwort": "Weil beide Zahlen aus derselben Quelle stammen",
+      "diagnoseId": "widerspruch",
+      "feedback": "Die Quelle der ersten Zahl ist ja gerade unbekannt."
+     },
+     {
+      "antwort": "Um den Text länger zu machen",
+      "diagnoseId": "zweck_verkannt",
+      "feedback": "Der Satz trägt eine eigene Aussage: Das Problem ist belegbar."
+     }
+    ]
+   },
+   {
+    "stamm": "An wen richtet sich der Text vor allem?",
+    "optionen": [
+     "an eine allgemeine Leserschaft ohne Vorwissen",
+     "an Fachleute für Kreislaufwirtschaft",
+     "an Mitglieder einer Bibliothek der Dinge",
+     "an Kinder im Primarschulalter"
+    ],
+    "loesung": [
+     "an eine allgemeine Leserschaft ohne Vorwissen"
+    ],
+    "erklaerung": "Der Text erklärt die Idee von Grund auf, verwendet Alltagsbeispiele und verzichtet auf Fachbegriffe.",
+    "fehler": [
+     {
+      "antwort": "an Fachleute für Kreislaufwirtschaft",
+      "diagnoseId": "zu_eng",
+      "feedback": "Für Fachleute wäre die Erklärung überflüssig, und es fehlten die Fachbegriffe."
+     },
+     {
+      "antwort": "an Mitglieder einer Bibliothek der Dinge",
+      "diagnoseId": "zu_eng_zwei",
+      "feedback": "Mitglieder wüssten bereits, wie die Ausleihe funktioniert."
+     },
+     {
+      "antwort": "an Kinder im Primarschulalter",
+      "diagnoseId": "zu_jung",
+      "feedback": "Wortwahl und Satzbau richten sich an Erwachsene und Jugendliche."
+     }
+    ]
+   },
+   {
+    "stamm": "Was ist mit «Nicht alles funktioniert» am Anfang des vierten Abschnitts gemeint?",
+    "optionen": [
+     "Eine Überleitung zu den Schwierigkeiten",
+     "Die Geräte sind technisch defekt",
+     "Die Idee ist gescheitert",
+     "Der Text widerspricht sich"
+    ],
+    "loesung": [
+     "Eine Überleitung zu den Schwierigkeiten"
+    ],
+    "erklaerung": "Der kurze Satz kündigt den Wechsel an: Bisher ging es um die Idee, jetzt kommen ihre Probleme.",
+    "fehler": [
+     {
+      "antwort": "Die Geräte sind technisch defekt",
+      "diagnoseId": "woertlich_genommen",
+      "feedback": "Um Defekte geht es erst weiter unten. Der Satz meint die Idee als Ganzes."
+     },
+     {
+      "antwort": "Die Idee ist gescheitert",
+      "diagnoseId": "zu_stark",
+      "feedback": "«Nicht alles» heisst gerade nicht «nichts». Vieles funktioniert."
+     },
+     {
+      "antwort": "Der Text widerspricht sich",
+      "diagnoseId": "funktion_verkannt",
+      "feedback": "Es ist kein Widerspruch, sondern der übliche Aufbau: erst die Idee, dann ihre Grenzen."
+     }
+    ]
+   }
+  ],
+  "text": "Die Bibliothek der Dinge\n\nWer eine Schlagbohrmaschine kauft, benutzt sie im Schnitt dreizehn Minuten,\nüber ihr ganzes Leben gerechnet. Diese Zahl geistert seit Jahren durch\nVorträge und Zeitungsartikel, und niemand weiss mehr genau, woher sie stammt.\nBelegt ist etwas anderes: In einem durchschnittlichen Schweizer Haushalt\nstehen rund zehntausend Gegenstände, und die grosse Mehrheit davon wird\nseltener als einmal im Monat gebraucht.\n\nAus dieser Beobachtung ist eine Idee entstanden, die inzwischen in über\nzwanzig Schweizer Städten umgesetzt wird: die Bibliothek der Dinge. Sie\nfunktioniert wie eine gewöhnliche Bibliothek, nur dass man statt Büchern eine\nNähmaschine ausleiht, ein Raclette-Ofen für zwölf Personen, einen\nTeigknetautomaten oder eben jene Schlagbohrmaschine. Der Jahresbeitrag liegt\nje nach Trägerschaft zwischen dreissig und neunzig Franken.\n\n«Am Anfang dachten wir, die Leute kommen wegen des Geldes», sagt Ruth Aebi,\ndie eine solche Ausleihe im Kanton Solothurn mit aufgebaut hat. «Das stimmt\nfür einen Teil. Aber die meisten sagen etwas anderes: Sie haben schlicht\nkeinen Platz mehr.» Eine Zweizimmerwohnung habe keinen Estrich, und ein\nGerät, das man zweimal im Jahr braucht, stehe elf Monate im Weg.\n\nNicht alles funktioniert. Geräte, die viele gleichzeitig wollen, sind das\nHauptproblem: Im Frühling stehen die Anhänger und die Gartengeräte wochenlang\nauf der Warteliste, im November die Dörrapparate. Und manches kommt beschädigt\nzurück, ohne dass jemand es meldet. Aebi hält das für verschmerzbar. «Ein Gerät\ndarf kaputtgehen. Es ist ja dafür da, benutzt zu werden.»\n\nWas sie mehr beschäftigt, ist etwas anderes. Wer etwas ausleiht, muss es\nzurückbringen, und dabei redet man. «In der Bibliothek der Dinge entstehen\nGespräche, die im Baumarkt nicht entstehen», sagt Aebi. Ob das reicht, um die\nIdee zu tragen, wenn die Neugier einmal verflogen ist, weiss sie nicht. Sie\nsagt es auch so.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen des Solothurner Sprachbogens 2019-2024, Teil 1, sowie die Prüfungseckwerte Deutsch ab 2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Titel, Textsorte, Absicht und Deutung",
+  "status": "review"
+ }
+]

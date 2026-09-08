@@ -1,0 +1,728 @@
+[
+ {
+  "templateId": "synonym-im-satz",
+  "lernzielId": "D2.1.04",
+  "unterthemen": [
+   "1.04",
+   "1.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Setze jedes Wort probeweise in den Satz ein. Welches klingt dort nicht nur ähnlich, sondern passt auch?",
+   "Zwei Wörter können dasselbe bedeuten und trotzdem nicht in denselben Satz passen. Achte auf den Zusammenhang.",
+   "Streiche zuerst die Wörter, die zwar ähnlich klingen, aber etwas anderes heissen."
+  ],
+  "loesungsweg": [
+   "Ein Synonym muss an derselben Stelle stehen können, ohne dass sich der Sinn ändert.",
+   "Setze die Wörter der Reihe nach ein und lies den Satz laut."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort kann «schippen» ersetzen?\n\nIm Winter muss Frau Bühler jeden Morgen Schnee schippen.",
+    "optionen": [
+     "schaufeln",
+     "schippern",
+     "schöpfen",
+     "schleifen"
+    ],
+    "loesung": [
+     "schaufeln"
+    ],
+    "erklaerung": "«Schippe» und «Schaufel» sind dasselbe Gerät. Beide Wörter beschreiben dieselbe Arbeit.",
+    "fehler": [
+     {
+      "antwort": "schippern",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«schippern» klingt fast gleich, heisst aber «mit dem Schiff fahren». Lass dich nicht vom Klang leiten. Prüfe, ob das Wort im Satz auch Sinn ergibt."
+     },
+     {
+      "antwort": "schöpfen",
+      "diagnoseId": "aehnliche_taetigkeit",
+      "feedback": "«schöpfen» macht man mit Flüssigkeit, nicht mit Schnee. Die Bewegung ist ähnlich, das Wort passt trotzdem nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «arglos» ersetzen?\n\nDer Junge stieg arglos in den fremden Wagen.",
+    "optionen": [
+     "ahnungslos",
+     "harmlos",
+     "hilflos",
+     "ratlos"
+    ],
+    "loesung": [
+     "ahnungslos"
+    ],
+    "erklaerung": "«arglos» heisst: ohne Verdacht, ohne etwas Böses zu ahnen. Genau das sagt «ahnungslos».",
+    "fehler": [
+     {
+      "antwort": "harmlos",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«harmlos» beschreibt, dass von jemandem keine Gefahr ausgeht. «arglos» sagt umgekehrt, dass jemand keine Gefahr erwartet. Frage dich: Wer ist gemeint. Der Handelnde oder der Betroffene?"
+     },
+     {
+      "antwort": "hilflos",
+      "diagnoseId": "endung_verallgemeinert",
+      "feedback": "Die Endung «-los» heisst nur «ohne». Ohne was, sagt der erste Wortteil: «Arg» ist der Verdacht, «Hilfe» etwas ganz anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «Runzeln» ersetzen?\n\nDie Tränen verschwanden in den tiefen Runzeln ihres Gesichts.",
+    "optionen": [
+     "Falten",
+     "Narben",
+     "Grübchen",
+     "Poren"
+    ],
+    "loesung": [
+     "Falten"
+    ],
+    "erklaerung": "Runzeln sind Falten in der Haut, wie sie im Alter entstehen.",
+    "fehler": [
+     {
+      "antwort": "Narben",
+      "diagnoseId": "aehnliche_taetigkeit",
+      "feedback": "Eine Narbe bleibt nach einer Verletzung zurück. Runzeln entstehen ohne Verletzung, einfach mit der Zeit."
+     },
+     {
+      "antwort": "Grübchen",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "Grübchen sind kleine Vertiefungen beim Lachen, meist bei jungen Gesichtern. Das Wort trägt eine ganz andere Stimmung als «Runzeln»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «verfressen» ersetzen?\n\nDer verfressene Kater sass schon wieder vor dem Napf.",
+    "optionen": [
+     "gefrässige",
+     "verschlungene",
+     "verdorbene",
+     "gefrorene"
+    ],
+    "loesung": [
+     "gefrässige"
+    ],
+    "erklaerung": "«verfressen» und «gefrässig» beschreiben beide jemanden, der übermässig viel isst.",
+    "fehler": [
+     {
+      "antwort": "verschlungene",
+      "diagnoseId": "partizip_verwechselt",
+      "feedback": "«verschlungen» ist das Partizip von «verschlingen» und beschreibt, was gegessen wurde, nicht den, der isst. Achte darauf, wer oder was gemeint ist."
+     },
+     {
+      "antwort": "verdorbene",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«verdorben» heisst «nicht mehr geniessbar» und beschreibt das Essen, nicht den Esser."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «beschwerlich» ersetzen?\n\nDer Aufstieg zur Hütte war beschwerlich.",
+    "optionen": [
+     "mühsam",
+     "beschwert",
+     "beschwichtigend",
+     "bedenklich"
+    ],
+    "loesung": [
+     "mühsam"
+    ],
+    "erklaerung": "«beschwerlich» heisst: mit Mühe verbunden, anstrengend.",
+    "fehler": [
+     {
+      "antwort": "beschwert",
+      "diagnoseId": "partizip_verwechselt",
+      "feedback": "«beschwert» heisst «mit einem Gewicht versehen». Gleiche Wortfamilie, andere Bedeutung. Die Endung entscheidet."
+     },
+     {
+      "antwort": "bedenklich",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«bedenklich» heisst «Sorgen machend». Ein Aufstieg kann anstrengend sein, ohne bedenklich zu sein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «hastig» ersetzen?\n\nSie packte hastig ihre Sachen zusammen.",
+    "optionen": [
+     "eilig",
+     "heftig",
+     "haltlos",
+     "hässig"
+    ],
+    "loesung": [
+     "eilig"
+    ],
+    "erklaerung": "«hastig» beschreibt ein schnelles, gedrängtes Tempo. Genau wie «eilig».",
+    "fehler": [
+     {
+      "antwort": "heftig",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«heftig» sagt etwas über die Stärke, nicht über das Tempo. Man kann etwas heftig und trotzdem langsam tun."
+     },
+     {
+      "antwort": "hässig",
+      "diagnoseId": "mundart",
+      "feedback": "«hässig» ist Mundart für «wütend». In einem Prüfungstext schreibst du Hochdeutsch, und die Bedeutung passt hier ohnehin nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «kärglich» ersetzen?\n\nDas Frühstück im Lager war kärglich.",
+    "optionen": [
+     "dürftig",
+     "kräftig",
+     "kärntnerisch",
+     "köstlich"
+    ],
+    "loesung": [
+     "dürftig"
+    ],
+    "erklaerung": "«kärglich» heisst: sehr wenig, knapp bemessen. «Dürftig» sagt dasselbe.",
+    "fehler": [
+     {
+      "antwort": "köstlich",
+      "diagnoseId": "gegenteil_gewaehlt",
+      "feedback": "«köstlich» lobt den Geschmack. «Kärglich» sagt nichts über den Geschmack, sondern über die Menge, und zwar, dass es zu wenig war."
+     },
+     {
+      "antwort": "kräftig",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "Nur weil zwei Wörter mit demselben Buchstaben beginnen, bedeuten sie nicht dasselbe. «Kräftig» wäre fast das Gegenteil."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «zögern» ersetzen?\n\nEr zögerte, bevor er die Tür öffnete.",
+    "optionen": [
+     "zaudern",
+     "zittern",
+     "zögern lassen",
+     "zielen"
+    ],
+    "loesung": [
+     "zaudern"
+    ],
+    "erklaerung": "«zaudern» heisst wie «zögern»: unschlüssig warten, statt zu handeln.",
+    "fehler": [
+     {
+      "antwort": "zittern",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«zittern» beschreibt eine Bewegung des Körpers. Man kann zögern, ohne zu zittern."
+     },
+     {
+      "antwort": "zögern lassen",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«jemanden zögern lassen» ist etwas anderes als selbst zögern. Da handelt eine andere Person."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «gelassen» ersetzen?\n\nSie nahm die Absage gelassen auf.",
+    "optionen": [
+     "ruhig",
+     "verlassen",
+     "nachlässig",
+     "losgelassen"
+    ],
+    "loesung": [
+     "ruhig"
+    ],
+    "erklaerung": "«gelassen» beschreibt eine innere Ruhe: ohne Aufregung.",
+    "fehler": [
+     {
+      "antwort": "nachlässig",
+      "diagnoseId": "wertung_verschoben",
+      "feedback": "«nachlässig» heisst «zu wenig sorgfältig» und wertet negativ. «Gelassen» ist ein Lob."
+     },
+     {
+      "antwort": "verlassen",
+      "diagnoseId": "partizip_verwechselt",
+      "feedback": "Gleiche Wortfamilie, andere Vorsilbe: «ver-» und «ge-» ändern die Bedeutung vollständig."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «behutsam» ersetzen?\n\nEr legte das Kaninchen behutsam in die Kiste.",
+    "optionen": [
+     "vorsichtig",
+     "behäbig",
+     "behütet",
+     "hastig"
+    ],
+    "loesung": [
+     "vorsichtig"
+    ],
+    "erklaerung": "«behutsam» heisst: mit Sorgfalt und Rücksicht, damit nichts kaputtgeht.",
+    "fehler": [
+     {
+      "antwort": "behäbig",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«behäbig» heisst «schwerfällig, langsam». Behutsam kann auch schnell sein. Es geht um die Sorgfalt, nicht um das Tempo."
+     },
+     {
+      "antwort": "behütet",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«behütet» beschreibt den, der beschützt wird. Hier ist gefragt, wie die Person handelt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «verwünschen» ersetzen?\n\nSie verwünschte den Tag, an dem sie zugesagt hatte.",
+    "optionen": [
+     "verfluchen",
+     "verwöhnen",
+     "wünschen",
+     "verwischen"
+    ],
+    "loesung": [
+     "verfluchen"
+    ],
+    "erklaerung": "«verwünschen» heisst: mit einem Fluch belegen, verfluchen.",
+    "fehler": [
+     {
+      "antwort": "wünschen",
+      "diagnoseId": "vorsilbe_uebersehen",
+      "feedback": "Die Vorsilbe «ver-» dreht die Bedeutung ins Negative. «Wünschen» und «verwünschen» sind fast Gegenteile."
+     },
+     {
+      "antwort": "verwöhnen",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«verwöhnen» heisst «zu gut behandeln». Nur ein Buchstabe Unterschied, und die Bedeutung kippt ins Gegenteil."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «unentwegt» ersetzen?\n\nDer Regen fiel unentwegt gegen die Scheibe.",
+    "optionen": [
+     "unaufhörlich",
+     "unentschlossen",
+     "unerwartet",
+     "unentgeltlich"
+    ],
+    "loesung": [
+     "unaufhörlich"
+    ],
+    "erklaerung": "«unentwegt» heisst: ohne Unterbruch, immer weiter.",
+    "fehler": [
+     {
+      "antwort": "unentschlossen",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«unentschlossen» sagt etwas über eine Person, die sich nicht entscheiden kann. Regen kann nicht unentschlossen sein."
+     },
+     {
+      "antwort": "unerwartet",
+      "diagnoseId": "aehnliche_taetigkeit",
+      "feedback": "«unerwartet» heisst «überraschend» und sagt nichts darüber, wie lange etwas dauert."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «spärlich» ersetzen?\n\nDas Licht der einen Lampe war spärlich.",
+    "optionen": [
+     "schwach",
+     "sparsam",
+     "spurlos",
+     "sperrig"
+    ],
+    "loesung": [
+     "schwach"
+    ],
+    "erklaerung": "«spärlich» heisst: nur in geringem Mass vorhanden.",
+    "fehler": [
+     {
+      "antwort": "sparsam",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«Sparsam» beschreibt jemanden, der bewusst wenig verbraucht. Eine Lampe hat keine Absicht. Sie gibt einfach wenig Licht."
+     },
+     {
+      "antwort": "spurlos",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«spurlos» heisst «ohne eine Spur zu hinterlassen». Der Anfang der beiden Wörter ist gleich, mehr nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort kann «erörtern» ersetzen?\n\nIm Hauptteil sollst du beide Seiten erörtern.",
+    "optionen": [
+     "abwägen",
+     "erwähnen",
+     "erörtern lassen",
+     "ergänzen"
+    ],
+    "loesung": [
+     "abwägen"
+    ],
+    "erklaerung": "«Erörtern» heisst: eine Frage von mehreren Seiten betrachten und die Gründe gegeneinander abwägen.",
+    "fehler": [
+     {
+      "antwort": "erwähnen",
+      "diagnoseId": "zu_schwach",
+      "feedback": "«Erwähnen» heisst nur, etwas kurz zu nennen. Erörtern verlangt mehr: Gründe nennen und gegeneinander abwägen. Diesen Unterschied prüft die Aufsatzaufgabe."
+     },
+     {
+      "antwort": "ergänzen",
+      "diagnoseId": "aehnliche_taetigkeit",
+      "feedback": "«Ergänzen» heisst «etwas hinzufügen». Beim Erörtern fügst du nichts an, sondern du wägst ab."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "antonym-im-satz",
+  "lernzielId": "D2.1.05",
+  "unterthemen": [
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Was wäre der Satz, wenn genau das Gegenteil zuträfe?",
+   "Ein Gegenteil muss in dieselbe Wortart gehören. Suche zuerst die Wörter mit der falschen Wortart heraus.",
+   "Prüfe jedes Wort: Widerspricht es dem markierten Wort wirklich, oder ist es bloss etwas anderes?"
+  ],
+  "loesungsweg": [
+   "Ein Antonym drückt das Gegenteil aus und steht in derselben Wortart.",
+   "Setze es probeweise ein. Der Satz muss das Gegenteil behaupten, nicht etwas Fremdes."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «schweigend»?\n\nSchweigend gingen sie den Weg hinauf.",
+    "optionen": [
+     "redend",
+     "hörend",
+     "leise",
+     "stumm"
+    ],
+    "loesung": [
+     "redend"
+    ],
+    "erklaerung": "«Schweigen» heisst «nicht sprechen». Das Gegenteil ist «sprechen» oder «reden».",
+    "fehler": [
+     {
+      "antwort": "stumm",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Stumm» heisst dasselbe wie «schweigend» Das ist ein Synonym, kein Gegenteil. Gefragt ist das Gegenteil."
+     },
+     {
+      "antwort": "hörend",
+      "diagnoseId": "anderes_paar",
+      "feedback": "Das Gegenteil von «hören» wäre «nicht hören». Sprechen und Hören sind zwei verschiedene Tätigkeiten, keine Gegensätze."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «frühmorgens»?\n\nFrühmorgens war sie schon auf den Beinen.",
+    "optionen": [
+     "spätabends",
+     "mittags",
+     "morgens",
+     "frühzeitig"
+    ],
+    "loesung": [
+     "spätabends"
+    ],
+    "erklaerung": "Der Gegensatz zu «früh am Morgen» ist «spät am Abend» Beide Teile werden umgekehrt.",
+    "fehler": [
+     {
+      "antwort": "mittags",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "«Mittags» liegt bloss später am Tag. Ein Gegenteil dreht um, es verschiebt nicht nur."
+     },
+     {
+      "antwort": "morgens",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Morgens» ist ein Teil des Ausgangsworts. Beide Teile müssen umgekehrt werden: früh wird spät, Morgen wird Abend."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «grosszügig»?\n\nDer Wirt war grosszügig mit den Portionen.",
+    "optionen": [
+     "geizig",
+     "genau",
+     "gross",
+     "kleinlaut"
+    ],
+    "loesung": [
+     "geizig"
+    ],
+    "erklaerung": "«Grosszügig» gibt reichlich, «geizig» gibt möglichst wenig.",
+    "fehler": [
+     {
+      "antwort": "genau",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "«Genau» heisst «exakt abgemessen». Das ist weniger als grosszügig, aber noch nicht das Gegenteil."
+     },
+     {
+      "antwort": "gross",
+      "diagnoseId": "wortteil_isoliert",
+      "feedback": "Du hast nur den ersten Wortteil angeschaut. «Grosszügig» hat mit Grösse nichts zu tun, sondern mit Freigebigkeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «zunehmen»?\n\nDie Zahl der Anmeldungen nahm zu.",
+    "optionen": [
+     "abnehmen",
+     "aufnehmen",
+     "annehmen",
+     "festnehmen"
+    ],
+    "loesung": [
+     "abnehmen"
+    ],
+    "erklaerung": "Bei zusammengesetzten Verben trägt die Vorsilbe die Richtung: «zu-» hinauf, «ab-» hinunter.",
+    "fehler": [
+     {
+      "antwort": "annehmen",
+      "diagnoseId": "vorsilbe_geraten",
+      "feedback": "Alle vier Wörter haben denselben Stamm. Entscheidend ist die Vorsilbe. «an-» kehrt «zu-» nicht um."
+     },
+     {
+      "antwort": "aufnehmen",
+      "diagnoseId": "vorsilbe_geraten",
+      "feedback": "«auf-» zeigt nach oben, wie «zu-». Gesucht ist die Vorsilbe, die nach unten zeigt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «vorläufig»?\n\nDie Regelung gilt vorläufig.",
+    "optionen": [
+     "endgültig",
+     "vorher",
+     "nachträglich",
+     "dauerhaft läufig"
+    ],
+    "loesung": [
+     "endgültig"
+    ],
+    "erklaerung": "«Vorläufig» heisst «bis auf Weiteres». Das Gegenteil ist «endgültig» Es ändert sich nichts mehr.",
+    "fehler": [
+     {
+      "antwort": "nachträglich",
+      "diagnoseId": "anderes_paar",
+      "feedback": "«Nachträglich» ist das Gegenteil von «im Voraus» und sagt etwas über den Zeitpunkt. Hier geht es aber darum, ob etwas noch geändert wird."
+     },
+     {
+      "antwort": "vorher",
+      "diagnoseId": "wortteil_isoliert",
+      "feedback": "Du hast nur die Vorsilbe «vor-» angeschaut. Sie gehört hier nicht zur Zeitangabe, sondern zu «vorläufig» als Ganzem."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «freiwillig»?\n\nSie meldete sich freiwillig.",
+    "optionen": [
+     "gezwungen",
+     "unwillig",
+     "willenlos",
+     "freizügig"
+    ],
+    "loesung": [
+     "gezwungen"
+    ],
+    "erklaerung": "«Freiwillig» heisst «aus eigenem Willen». Das Gegenteil ist, dass jemand dazu gezwungen wird.",
+    "fehler": [
+     {
+      "antwort": "unwillig",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "«Unwillig» beschreibt die Stimmung. Man kann unwillig und trotzdem freiwillig etwas tun. Gefragt ist, wer entscheidet."
+     },
+     {
+      "antwort": "willenlos",
+      "diagnoseId": "wortteil_isoliert",
+      "feedback": "«Willenlos» heisst «ohne eigenen Willen» und beschreibt einen Zustand, nicht den Gegensatz zur freien Entscheidung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «sauber»?\n\nDas Hemd war noch sauber.",
+    "optionen": [
+     "schmutzig",
+     "sauer",
+     "säuberlich",
+     "staubig"
+    ],
+    "loesung": [
+     "schmutzig"
+    ],
+    "erklaerung": "«Sauber» und «schmutzig» sind das klassische Gegensatzpaar.",
+    "fehler": [
+     {
+      "antwort": "staubig",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "«Staubig» ist eine bestimmte Art von schmutzig. Für das Gegenteil brauchst du das allgemeine Wort, nicht einen Sonderfall."
+     },
+     {
+      "antwort": "sauer",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«Sauer» beschreibt einen Geschmack. Der Wortanfang ist gleich, die Bedeutung hat nichts miteinander zu tun."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «verschwenderisch»?\n\nSie ging verschwenderisch mit dem Wasser um.",
+    "optionen": [
+     "sparsam",
+     "arm",
+     "verschwiegen",
+     "reichlich"
+    ],
+    "loesung": [
+     "sparsam"
+    ],
+    "erklaerung": "Wer verschwendet, braucht mehr als nötig. Wer sparsam ist, braucht so wenig wie möglich.",
+    "fehler": [
+     {
+      "antwort": "arm",
+      "diagnoseId": "anderes_paar",
+      "feedback": "«Arm» sagt, wie viel jemand hat. «Sparsam» sagt, wie jemand damit umgeht. Ein reicher Mensch kann sparsam sein."
+     },
+     {
+      "antwort": "reichlich",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Reichlich» geht in dieselbe Richtung wie «verschwenderisch». Gefragt ist die Gegenrichtung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «Aufstieg»?\n\nDer Aufstieg dauerte drei Stunden.",
+    "optionen": [
+     "Abstieg",
+     "Absturz",
+     "Anstieg",
+     "Aufgang"
+    ],
+    "loesung": [
+     "Abstieg"
+    ],
+    "erklaerung": "«Auf-» und «ab-» kehren die Richtung um: hinauf und hinunter.",
+    "fehler": [
+     {
+      "antwort": "Absturz",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "Ein Absturz ist ein unkontrolliertes Fallen. Das Gegenteil vom Hinaufgehen ist das Hinuntergehen, nicht das Fallen."
+     },
+     {
+      "antwort": "Anstieg",
+      "diagnoseId": "vorsilbe_geraten",
+      "feedback": "«Anstieg» zeigt in dieselbe Richtung wie «Aufstieg». Nur «ab-» kehrt um."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «offen»?\n\nSie sprach offen über ihre Zweifel.",
+    "optionen": [
+     "verschlossen",
+     "offensichtlich",
+     "offiziell",
+     "geöffnet"
+    ],
+    "loesung": [
+     "verschlossen"
+    ],
+    "erklaerung": "Hier geht es nicht um eine Tür, sondern um einen Menschen: «offen» heisst «mitteilsam», das Gegenteil ist «verschlossen».",
+    "fehler": [
+     {
+      "antwort": "geöffnet",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Geöffnet» heisst dasselbe wie «offen», und passt hier ohnehin nicht, weil es um einen Menschen geht, nicht um eine Tür."
+     },
+     {
+      "antwort": "offensichtlich",
+      "diagnoseId": "wortteil_isoliert",
+      "feedback": "Du hast auf den Wortanfang geschaut. «Offensichtlich» heisst «klar erkennbar» und ist kein Gegenteil."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «hell»?\n\nDer Gang war hell erleuchtet.",
+    "optionen": [
+     "dunkel",
+     "matt",
+     "hellhörig",
+     "farblos"
+    ],
+    "loesung": [
+     "dunkel"
+    ],
+    "erklaerung": "«Hell» und «dunkel» sind das Gegensatzpaar für Licht.",
+    "fehler": [
+     {
+      "antwort": "matt",
+      "diagnoseId": "nur_verschoben",
+      "feedback": "«Matt» heisst «ohne Glanz» und liegt zwischen hell und dunkel. Ein Gegenteil steht am anderen Ende."
+     },
+     {
+      "antwort": "farblos",
+      "diagnoseId": "anderes_paar",
+      "feedback": "«Farblos» ist das Gegenteil von «farbig». Hier geht es um Licht, nicht um Farbe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «befestigen»?\n\nEr befestigte das Schild an der Wand.",
+    "optionen": [
+     "lösen",
+     "festhalten",
+     "befeuchten",
+     "festigen"
+    ],
+    "loesung": [
+     "lösen"
+    ],
+    "erklaerung": "«Befestigen» heisst «festmachen». Das Gegenteil ist «lösen» oder «abnehmen».",
+    "fehler": [
+     {
+      "antwort": "festigen",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Festigen» geht in dieselbe Richtung: noch fester machen. Gesucht ist das Losmachen."
+     },
+     {
+      "antwort": "festhalten",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Festhalten» ist ebenfalls das Gegenteil von Loslassen, also dieselbe Richtung wie «befestigen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Wort ist das Gegenteil von «Mehrheit»?\n\nDie Mehrheit stimmte zu.",
+    "optionen": [
+     "Minderheit",
+     "Wenigkeit",
+     "Mehrzahl",
+     "Einzelheit"
+    ],
+    "loesung": [
+     "Minderheit"
+    ],
+    "erklaerung": "«Mehrheit» und «Minderheit» sind das Begriffspaar für Abstimmungen.",
+    "fehler": [
+     {
+      "antwort": "Mehrzahl",
+      "diagnoseId": "synonym_statt_antonym",
+      "feedback": "«Mehrzahl» heisst dasselbe wie «Mehrheit», oder in der Grammatik den Plural. Ein Gegenteil ist es nie."
+     },
+     {
+      "antwort": "Einzelheit",
+      "diagnoseId": "klang_statt_bedeutung",
+      "feedback": "«Einzelheit» heisst «Detail». Die Endung «-heit» ist gleich, mehr nicht."
+     }
+    ]
+   }
+  ],
+  "fach": "sprachbetrachtung",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

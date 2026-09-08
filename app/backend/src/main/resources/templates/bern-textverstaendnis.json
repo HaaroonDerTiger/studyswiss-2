@@ -1,0 +1,3373 @@
+[
+ {
+  "templateId": "be-tv-worterklaerung-warten",
+  "lernzielId": "DBT.1.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies den Satz noch einmal ganz. Der Ausdruck allein sagt zu wenig. Was passiert davor, was danach?",
+   "Setze jede der vier Bedeutungen probeweise in den Satz ein. Meist bleiben zwei übrig, die beide gehen könnten.",
+   "Bei den letzten zwei entscheidet der Ton des Abschnitts: Ist die Stelle sachlich, kritisch oder eher wohlwollend gemeint?"
+  ],
+  "text": "Warum Warten so schwerfällt\nA\n  1  Elf Sekunden. So lange dauert es im Schnitt, bis eine Person an der\n     Bushaltestelle zum ersten Mal aufs Handy schaut. Das hat eine Gruppe von\n     Studierenden in Bern herausgefunden, die einen Nachmittag lang gezählt hat,\n     wer wann in die Tasche greift. Wer wartet, hält die Leere kaum aus. Dabei\n  5  warten wir jeden Tag: an der Kasse, vor dem Schulzimmer, auf eine Antwort, die\n     nicht kommt.\n\nB\n     Dass sich Warten zäh anfühlt, ist keine Einbildung. In Versuchen schätzen\n     Menschen leere Zeit regelmässig länger ein, als sie ist, im Schnitt um gut\n     ein Drittel. Ist die Zeit dagegen gefüllt, etwa mit einem Gespräch oder einer\n 10  Aufgabe, schrumpft sie im Rückblick zusammen. Unser Zeitgefühl misst nicht\n     Minuten, sondern Ereignisse. Wo nichts geschieht, gibt es nichts zu messen,\n     und der Kopf füllt die Lücke mit Ungeduld.\n\nC\n     Entscheidend ist weniger die Dauer als die Auskunft. Eine Anzeigetafel, die\n     «noch 4 Minuten» meldet, macht das Warten erträglich, obwohl sie es um keine\n 15  Sekunde verkürzt. Fehlt die Anzeige, wird aus vier Minuten ein offenes Ende.\n     Verkehrsbetriebe wissen das seit Langem: Die Tafel am Perron ist keine\n     technische Spielerei, sondern das billigste Mittel gegen Beschwerden, das sie\n     haben.\n\nD\n     Am schwersten wiegt die Ungewissheit. Wer weiss, dass der Zug zwanzig Minuten\n 20  Verspätung hat, richtet sich ein und kauft sich einen Kaffee. Wer nur hört,\n     der Zug verspäte sich «auf unbestimmte Zeit», bleibt stehen und starrt auf die\n     Gleise. Psychologinnen nennen das den Unterschied zwischen einem geschlossenen\n     und einem offenen Warten. Das offene kostet mehr Kraft, weil man sich nicht\n     entscheiden kann, ob man bleibt oder geht.\n\nE\n 25  Aus diesem Wissen ist längst ein Handwerk geworden. An manchen Flughäfen führt\n     der Weg vom Flugzeug zum Gepäckband einen Umweg. Die Reisenden gehen sieben\n     Minuten und warten dann eine, statt eine Minute zu gehen und sieben zu warten.\n     Die Gesamtzeit bleibt gleich, die Beschwerden gehen zurück. In Freizeitparks\n     stehen entlang der Schlange Spiegel, Bildschirme und kleine Rätsel. Nichts\n 30  davon macht die Schlange kürzer.\n\nF\n     Man kann das für einen Trick halten. Man kann es auch nüchtern betrachten: Wer\n     wartet, leidet nicht an der Zeit, sondern an der Leere und am Nichtwissen.\n     Beides lässt sich füllen, ohne jemanden zu täuschen. Wer das nächste Mal an\n     der Haltestelle steht, kann es selbst ausprobieren, nicht aufs Handy schauen,\n 35  sondern auf die Uhr, und danach schätzen, wie lange es gedauert hat. Die\n     meisten liegen deutlich daneben.",
+  "loesungsweg": [
+   "Suche den Ausdruck im Text und lies den ganzen Satz.",
+   "Setze jede Bedeutung probeweise ein und streiche, was nicht passt.",
+   "Entscheide zwischen den letzten beiden über den Zusammenhang, nicht über das Wörterbuch. Geprüft wird die Bedeutung an dieser Stelle."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«hält die Leere kaum aus» (Abschnitt A)",
+    "optionen": [
+     "erträgt es schlecht, wenn nichts geschieht",
+     "hat zu wenig Platz um sich herum",
+     "kann sich nichts merken",
+     "möchte gern allein sein"
+    ],
+    "loesung": [
+     "erträgt es schlecht, wenn nichts geschieht"
+    ],
+    "erklaerung": "Gemeint ist die inhaltliche Leere der Wartezeit, nicht Platz im Raum. Der Satz steht direkt nach der Beobachtung, dass alle sofort zum Handy greifen.",
+    "fehler": [
+     {
+      "antwort": "hat zu wenig Platz um sich herum",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Du hast «Leere» räumlich verstanden. Hier geht es nicht um Platz an der Haltestelle, sondern um die Zeit, in der nichts passiert. Darum greifen die Leute ja zum Handy."
+     },
+     {
+      "antwort": "möchte gern allein sein",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das ist beinahe das Gegenteil. Wer die Leere nicht aushält, sucht Beschäftigung, statt sie zu suchen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«im Schnitt» (Abschnitt A)",
+    "optionen": [
+     "durchschnittlich",
+     "mindestens",
+     "höchstens",
+     "an einem Schnittpunkt"
+    ],
+    "loesung": [
+     "durchschnittlich"
+    ],
+    "erklaerung": "«Im Schnitt» ist die Kurzform von «im Durchschnitt». Es nennt einen Mittelwert, keine Grenze nach oben oder unten.",
+    "fehler": [
+     {
+      "antwort": "mindestens",
+      "diagnoseId": "grenze_statt_mittel",
+      "feedback": "«Im Schnitt» nennt keinen kleinsten Wert. Einzelne schauen früher hin, andere später. Elf Sekunden liegen dazwischen."
+     },
+     {
+      "antwort": "an einem Schnittpunkt",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Du hast an das Schneiden gedacht. «Im Schnitt» ist eine feste Wendung und meint den Durchschnitt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«ist keine Einbildung» (Abschnitt B)",
+    "optionen": [
+     "beruht auf etwas Nachprüfbarem",
+     "ist nicht vorstellbar",
+     "ist gut ausgedacht",
+     "lässt sich nicht erklären"
+    ],
+    "loesung": [
+     "beruht auf etwas Nachprüfbarem"
+    ],
+    "erklaerung": "Der Satz wehrt den Verdacht ab, das Gefühl sei bloss subjektiv. Direkt danach folgen Versuchsergebnisse. Genau das ist das Nachprüfbare.",
+    "fehler": [
+     {
+      "antwort": "ist nicht vorstellbar",
+      "diagnoseId": "wortverwandtschaft",
+      "feedback": "Du hast «Einbildung» mit «Vorstellung» gleichgesetzt. Eine Einbildung ist etwas, das nur im Kopf besteht und dort falsch ist."
+     },
+     {
+      "antwort": "lässt sich nicht erklären",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Abschnitt erklärt es gerade: Leere Zeit wird länger geschätzt. Der Satz kündigt die Erklärung an, statt sie zu verweigern."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«schrumpft sie im Rückblick zusammen» (Abschnitt B)",
+    "optionen": [
+     "erscheint sie nachträglich kürzer",
+     "vergeht sie langsamer",
+     "wird sie tatsächlich kürzer",
+     "kann man sich nicht mehr an sie erinnern"
+    ],
+    "loesung": [
+     "erscheint sie nachträglich kürzer"
+    ],
+    "erklaerung": "«Im Rückblick» heisst: wenn man später darauf zurückschaut. Gemeint ist die Einschätzung, nicht die gemessene Dauer.",
+    "fehler": [
+     {
+      "antwort": "wird sie tatsächlich kürzer",
+      "diagnoseId": "schaetzung_und_messung",
+      "feedback": "Die Zeit selbst ändert sich nicht. Nur wie lang sie einem vorkommt. Genau diesen Unterschied macht der ganze Abschnitt."
+     },
+     {
+      "antwort": "vergeht sie langsamer",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das ist die andere Richtung. Gefüllte Zeit kommt einem kürzer vor, nicht länger."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«füllt die Lücke mit Ungeduld» (Abschnitt B)",
+    "optionen": [
+     "setzt an die Stelle des Nichtstuns ein unangenehmes Gefühl",
+     "nutzt die freie Zeit sinnvoll",
+     "wartet geduldig ab",
+     "vergisst, worauf es gewartet hat"
+    ],
+    "loesung": [
+     "setzt an die Stelle des Nichtstuns ein unangenehmes Gefühl"
+    ],
+    "erklaerung": "Die «Lücke» ist die ereignislose Zeit aus dem Satz davor. Der Kopf lässt sie nicht leer, sondern besetzt sie, und zwar mit etwas Unangenehmem.",
+    "fehler": [
+     {
+      "antwort": "nutzt die freie Zeit sinnvoll",
+      "diagnoseId": "gegenteil",
+      "feedback": "«Ungeduld» ist nichts Sinnvolles, sondern das Gegenteil. Der Satz erklärt, warum Warten anstrengt."
+     },
+     {
+      "antwort": "wartet geduldig ab",
+      "diagnoseId": "gegenteil",
+      "feedback": "Da steht Ungeduld, nicht Geduld. Der Kopf hält die Leere gerade nicht aus."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Entscheidend ist weniger die Dauer als die Auskunft» (Abschnitt C)",
+    "optionen": [
+     "Wichtiger als die Länge ist, dass man Bescheid weiss",
+     "Die Dauer spielt überhaupt keine Rolle",
+     "Auskünfte sind meistens falsch",
+     "Lange Auskünfte sind besser als kurze"
+    ],
+    "loesung": [
+     "Wichtiger als die Länge ist, dass man Bescheid weiss"
+    ],
+    "erklaerung": "«Weniger … als» stellt zwei Dinge gegeneinander und gewichtet sie. Die Dauer zählt also schon, nur weniger als die Information.",
+    "fehler": [
+     {
+      "antwort": "Die Dauer spielt überhaupt keine Rolle",
+      "diagnoseId": "zu_stark",
+      "feedback": "«Weniger als» heisst nicht «gar nicht». Der Text sagt, dass die Auskunft schwerer wiegt, nicht, dass die Dauer gleichgültig ist."
+     },
+     {
+      "antwort": "Lange Auskünfte sind besser als kurze",
+      "diagnoseId": "wort_verschoben",
+      "feedback": "Du hast «Dauer» auf die Auskunft bezogen. Gemeint ist die Dauer des Wartens, nicht die Länge der Durchsage."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«keine technische Spielerei» (Abschnitt C)",
+    "optionen": [
+     "keine überflüssige Nebensache",
+     "kein einfaches Gerät",
+     "kein Spielzeug für Kinder",
+     "keine neue Erfindung"
+    ],
+    "loesung": [
+     "keine überflüssige Nebensache"
+    ],
+    "erklaerung": "Eine «Spielerei» ist etwas, das man auch weglassen könnte. Der Satz sagt das Gegenteil: Die Tafel ist nützlich und wirkt.",
+    "fehler": [
+     {
+      "antwort": "kein Spielzeug für Kinder",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "«Spielerei» meint hier nichts zum Spielen, sondern etwas Entbehrliches. Eine hübsche Zutat ohne Nutzen."
+     },
+     {
+      "antwort": "keine neue Erfindung",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "Um alt oder neu geht es nicht. Der Satz verteidigt den Nutzen der Tafel, nicht ihr Alter."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«richtet sich ein» (Abschnitt D)",
+    "optionen": [
+     "stellt sich auf die Lage ein und macht etwas daraus",
+     "möbliert seine Wohnung",
+     "gibt auf und geht nach Hause",
+     "beschwert sich beim Personal"
+    ],
+    "loesung": [
+     "stellt sich auf die Lage ein und macht etwas daraus"
+    ],
+    "erklaerung": "Der Satz danach nennt das Beispiel: Man kauft sich einen Kaffee. Genau das ist das Sich-Einrichten. Man nimmt die Wartezeit als gegeben.",
+    "fehler": [
+     {
+      "antwort": "möbliert seine Wohnung",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Das ist die wörtliche Bedeutung. Hier richtet sich jemand nicht in einer Wohnung ein, sondern in einer Lage."
+     },
+     {
+      "antwort": "gibt auf und geht nach Hause",
+      "diagnoseId": "gegenteil",
+      "feedback": "Wer sich einrichtet, bleibt gerade. Das Aufgeben beschreibt der Text im nächsten Satz für den anderen Fall."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«auf unbestimmte Zeit» (Abschnitt D)",
+    "optionen": [
+     "ohne dass ein Ende genannt wird",
+     "für sehr lange Zeit",
+     "für höchstens eine Stunde",
+     "zu einem falschen Zeitpunkt"
+    ],
+    "loesung": [
+     "ohne dass ein Ende genannt wird"
+    ],
+    "erklaerung": "«Unbestimmt» heisst: nicht festgelegt. Ob es lang oder kurz wird, ist gerade offen, und genau das ist die Belastung, die der Abschnitt beschreibt.",
+    "fehler": [
+     {
+      "antwort": "für sehr lange Zeit",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "Unbestimmt ist nicht dasselbe wie lang. Es könnten fünf Minuten werden. Man weiss es bloss nicht."
+     },
+     {
+      "antwort": "für höchstens eine Stunde",
+      "diagnoseId": "gegenteil",
+      "feedback": "Eine Obergrenze wäre schon eine Auskunft. Das offene Warten hat keine."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«ist längst ein Handwerk geworden» (Abschnitt E)",
+    "optionen": [
+     "wird planmässig und mit Erfahrung angewendet",
+     "wird von Hand hergestellt",
+     "ist ein anerkannter Lehrberuf",
+     "gerät langsam in Vergessenheit"
+    ],
+    "loesung": [
+     "wird planmässig und mit Erfahrung angewendet"
+    ],
+    "erklaerung": "«Handwerk» steht hier für ein Können, das man gezielt einsetzt. Die Beispiele danach, Umwege, Spiegel, Rätsel, sind der Beleg dafür.",
+    "fehler": [
+     {
+      "antwort": "ist ein anerkannter Lehrberuf",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Es gibt keine Lehre im Wartenlassen. «Handwerk» meint hier eine geübte Fertigkeit, nicht einen Beruf."
+     },
+     {
+      "antwort": "gerät langsam in Vergessenheit",
+      "diagnoseId": "gegenteil",
+      "feedback": "«Längst geworden» heisst: schon lange so und weiterhin. Der Abschnitt zeigt, wie verbreitet es ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«nüchtern betrachten» (Abschnitt F)",
+    "optionen": [
+     "sachlich ansehen, ohne sich aufzuregen",
+     "ohne etwas gegessen zu haben ansehen",
+     "mit Misstrauen ansehen",
+     "nur kurz ansehen"
+    ],
+    "loesung": [
+     "sachlich ansehen, ohne sich aufzuregen"
+    ],
+    "erklaerung": "Der Satz stellt zwei Möglichkeiten gegeneinander: es für einen Trick halten, oder sachlich hinschauen. «Nüchtern» ist hier die ruhige, sachliche Sicht.",
+    "fehler": [
+     {
+      "antwort": "ohne etwas gegessen zu haben ansehen",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Das ist die wörtliche Bedeutung von «nüchtern». Übertragen meint das Wort: sachlich, ohne Aufregung."
+     },
+     {
+      "antwort": "mit Misstrauen ansehen",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "Das Misstrauen steckt in der anderen Möglichkeit. «einen Trick». «Nüchtern» ist gerade die unvoreingenommene Sicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«liegen deutlich daneben» (Abschnitt F)",
+    "optionen": [
+     "schätzen weit ungenau",
+     "stehen zu nahe beieinander",
+     "haben recht",
+     "geben keine Antwort"
+    ],
+    "loesung": [
+     "schätzen weit ungenau"
+    ],
+    "erklaerung": "Der Satz schliesst den Selbstversuch ab: Man schätzt die Dauer und vergleicht. «Danebenliegen» heisst hier, dass die Schätzung nicht stimmt.",
+    "fehler": [
+     {
+      "antwort": "haben recht",
+      "diagnoseId": "gegenteil",
+      "feedback": "Danebenliegen heisst gerade, dass die Schätzung nicht stimmt. Das ist die Pointe des ganzen Textes."
+     },
+     {
+      "antwort": "stehen zu nahe beieinander",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Du hast «daneben» räumlich gelesen. Es geht um die Schätzung, nicht um den Standort."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«das billigste Mittel gegen Beschwerden» (Abschnitt C)",
+    "optionen": [
+     "die kostengünstigste Massnahme gegen Klagen",
+     "ein Medikament gegen Schmerzen",
+     "eine Ausrede von schlechter Qualität",
+     "die häufigste Ursache von Klagen"
+    ],
+    "loesung": [
+     "die kostengünstigste Massnahme gegen Klagen"
+    ],
+    "erklaerung": "«Mittel gegen» heisst hier Massnahme, «Beschwerden» sind Klagen der Fahrgäste. Der Abschnitt spricht von Verkehrsbetrieben, nicht von Gesundheit.",
+    "fehler": [
+     {
+      "antwort": "ein Medikament gegen Schmerzen",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Beide Wörter haben auch eine Bedeutung aus der Medizin. Hier geht es um Verkehrsbetriebe und um Fahrgäste, die sich beklagen."
+     },
+     {
+      "antwort": "die häufigste Ursache von Klagen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Tafel verursacht keine Beschwerden, sie verhindert sie. «Mittel gegen» zeigt die Richtung an."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Worterklärungen",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-worterklaerung-nachtzug",
+  "lernzielId": "DBT.1.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies den Satz noch einmal ganz. Der Ausdruck allein sagt zu wenig. Was passiert davor, was danach?",
+   "Setze jede der vier Bedeutungen probeweise in den Satz ein. Meist bleiben zwei übrig, die beide gehen könnten.",
+   "Bei den letzten zwei entscheidet der Ton des Abschnitts: Ist die Stelle sachlich, kritisch oder eher wohlwollend gemeint?"
+  ],
+  "text": "Die Rückkehr der Nachtzüge\nA\n  1  Um zwanzig nach neun schliessen sich in Basel die Türen, am Morgen um sieben\n     öffnen sie sich in Amsterdam. Dazwischen liegen ein Abendessen im Speisewagen,\n     ein schmales Bett und ein Frühstück, das an der Tür abgestellt wird. Wer so\n     reist, verliert keinen Ferientag und braucht kein Hotel. Vor zwanzig Jahren\n  5  hätte man dieses Angebot für ein Auslaufmodell gehalten.\n\nB\n     Denn genau das war es. Zwischen 2000 und 2016 verschwand eine Nachtverbindung\n     nach der anderen. Der Grund lag weniger an den Reisenden als an der Rechnung:\n     Ein Schlafwagen kostet im Betrieb ein Mehrfaches eines Sitzwagens, trägt aber\n     nur einen Bruchteil der Personen. Gleichzeitig wurden Flüge innerhalb Europas\n 10  so günstig, dass eine Nacht im Zug teurer war als ein Flug am Morgen. Die\n     Bahnen zogen die Wagen ab und verkauften sie ins Ausland.\n\nC\n     Zurückgekommen sind die Nachtzüge nicht wegen der Technik, sondern wegen einer\n     veränderten Stimmung. Seit etwa 2018 fragen mehr Menschen danach, was eine\n     Reise an Treibhausgasen kostet, und eine Bahnfahrt von Zürich nach Berlin\n 15  verursacht davon rund einen Zwanzigstel dessen, was der Flug verursacht.\n     Österreich hat als erstes Land wieder in Wagen investiert, andere Bahnen sind\n     gefolgt. Die Züge sind heute regelmässig ausgebucht.\n\nD\n     Von einem Selbstläufer kann trotzdem keine Rede sein. Ein Nachtzug fährt durch\n     vier oder fünf Länder, und jedes Land verlangt eigene Zulassungen, eigene\n 20  Sicherheitsnachweise und eine eigene Gebühr für die Benützung der Gleise.\n     Kommt eine Strecke wegen Bauarbeiten nicht infrage, fällt die ganze Verbindung\n     aus, weil es keinen zweiten Weg gibt. Und ein neuer Schlafwagen kostet rund\n     vier Millionen Franken und wird vierzig Jahre eingesetzt. Wer ihn bestellt,\n     wettet auf eine lange Zukunft.\n\nE\n 25  Betrieben werden die Linien darum meist von mehreren Bahnen gemeinsam,\n     seltener von kleinen Gesellschaften, die einzelne Strecken übernehmen. Diese\n     Kleinen sind beweglicher, aber verletzlicher: Fällt ein Wagen aus, haben sie\n     keinen Ersatz. Zwei solche Gesellschaften haben in den letzten Jahren wieder\n     aufgegeben, nachdem sie mit grosser Aufmerksamkeit gestartet waren.\n\nF\n 30  Wie es weitergeht, hängt an einer nüchternen Zahl: dem Preis. Solange ein Flug\n     nach Wien vierzig Franken kostet und ein Bett im Nachtzug hundert-vierzig,\n     entscheidet sich ein Teil der Reisenden gegen den Zug, auch wenn er ihn lieber\n     nähme. Ändert sich daran etwas, durch Abgaben auf den Flugverkehr oder durch\n     günstigere Gleisgebühren, wird aus der Rückkehr mehr als eine schöne\n 35  Geschichte.",
+  "loesungsweg": [
+   "Suche den Ausdruck im Text und lies den ganzen Satz.",
+   "Setze jede Bedeutung probeweise ein und streiche, was nicht passt.",
+   "Entscheide zwischen den letzten beiden über den Zusammenhang, nicht über das Wörterbuch. Geprüft wird die Bedeutung an dieser Stelle."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«ein Auslaufmodell» (Abschnitt A)",
+    "optionen": [
+     "etwas, das bald verschwindet",
+     "ein Fahrzeug, das ausläuft",
+     "ein besonders günstiges Angebot",
+     "ein Vorbild für andere"
+    ],
+    "loesung": [
+     "etwas, das bald verschwindet"
+    ],
+    "erklaerung": "Ein Auslaufmodell wird nicht mehr hergestellt und läuft aus dem Angebot. Der Abschnitt endet mit dieser Erwartung, die der Text danach widerlegt.",
+    "fehler": [
+     {
+      "antwort": "ein Fahrzeug, das ausläuft",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "«Auslaufen» meint hier nicht, dass etwas ausfliesst, sondern dass es aus dem Angebot verschwindet."
+     },
+     {
+      "antwort": "ein Vorbild für andere",
+      "diagnoseId": "gegenteil",
+      "feedback": "Ein Vorbild wäre ein Modell im ganz anderen Sinn. Ein Auslaufmodell hat seine Zeit hinter sich."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«trägt aber nur einen Bruchteil der Personen» (Abschnitt B)",
+    "optionen": [
+     "bringt viel weniger Leute unter",
+     "ist für die Fahrgäste zerbrechlich",
+     "befördert nur zerbrochene Ware",
+     "nimmt genau die Hälfte der Leute auf"
+    ],
+    "loesung": [
+     "bringt viel weniger Leute unter"
+    ],
+    "erklaerung": "Ein Bruchteil ist ein kleiner Anteil vom Ganzen. Der Satz vergleicht den Schlafwagen mit dem Sitzwagen: teurer im Betrieb, weniger Plätze.",
+    "fehler": [
+     {
+      "antwort": "nimmt genau die Hälfte der Leute auf",
+      "diagnoseId": "zu_genau",
+      "feedback": "«Bruchteil» nennt keinen bestimmten Anteil, sondern sagt nur: deutlich weniger. Eine Hälfte wäre eine feste Zahl."
+     },
+     {
+      "antwort": "ist für die Fahrgäste zerbrechlich",
+      "diagnoseId": "wortverwandtschaft",
+      "feedback": "Du hast an «brechen» gedacht. «Bruchteil» kommt vom Bruch als Zahl. Ein Teil eines Ganzen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«kann trotzdem keine Rede sein» (Abschnitt D)",
+    "optionen": [
+     "das trifft gerade nicht zu",
+     "darüber wird nicht gesprochen",
+     "das muss man laut sagen",
+     "darüber wird zu viel gesprochen"
+    ],
+    "loesung": [
+     "das trifft gerade nicht zu"
+    ],
+    "erklaerung": "«Davon kann keine Rede sein» ist eine feste Wendung und bedeutet: Das stimmt nicht. Der Abschnitt nennt danach die Gründe.",
+    "fehler": [
+     {
+      "antwort": "darüber wird nicht gesprochen",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Du hast «Rede» wörtlich genommen. Die Wendung heisst: Das trifft nicht zu, und der Text spricht ja gerade darüber."
+     },
+     {
+      "antwort": "das muss man laut sagen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Die Wendung bestreitet etwas, sie betont es nicht. Sie leitet die Einwände ein, die danach folgen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«wer ihn bestellt, wettet auf eine lange Zukunft» (Abschnitt D)",
+    "optionen": [
+     "geht ein Risiko ein, weil er auf viele Jahre voraus entscheidet",
+     "schliesst eine Wette mit der Bahn ab",
+     "ist sich der Zukunft ganz sicher",
+     "kann den Wagen jederzeit zurückgeben"
+    ],
+    "loesung": [
+     "geht ein Risiko ein, weil er auf viele Jahre voraus entscheidet"
+    ],
+    "erklaerung": "Der Satz davor nennt Preis und Einsatzdauer: vier Millionen Franken, vierzig Jahre. «Wetten» heisst hier: sich auf etwas Unsicheres festlegen.",
+    "fehler": [
+     {
+      "antwort": "ist sich der Zukunft ganz sicher",
+      "diagnoseId": "gegenteil",
+      "feedback": "Wer wettet, weiss es gerade nicht. Genau deshalb steht das Wort da. Es betont das Risiko."
+     },
+     {
+      "antwort": "schliesst eine Wette mit der Bahn ab",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Es gibt keinen Wettpartner. «Wetten auf» heisst hier bildlich: auf eine unsichere Entwicklung setzen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Von einem Selbstläufer» (Abschnitt D)",
+    "optionen": [
+     "von etwas, das ohne Anstrengung gelingt",
+     "von einem sportlichen Wettkampf",
+     "von einer selbstfahrenden Lokomotive",
+     "von einem Vorhaben, das scheitert"
+    ],
+    "loesung": [
+     "von etwas, das ohne Anstrengung gelingt"
+    ],
+    "erklaerung": "Ein Selbstläufer läuft von allein. Es braucht kein Zutun. Der Abschnitt bestreitet genau das und zählt danach Hürden auf.",
+    "fehler": [
+     {
+      "antwort": "von einer selbstfahrenden Lokomotive",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Bei einem Text über Züge liegt das nahe, ist aber nicht gemeint. Ein Selbstläufer ist eine Sache, die von allein gelingt."
+     },
+     {
+      "antwort": "von einem Vorhaben, das scheitert",
+      "diagnoseId": "gegenteil",
+      "feedback": "Ein Selbstläufer gelingt gerade mühelos. Erst die Verneinung im Satz macht daraus die Schwierigkeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«beweglicher, aber verletzlicher» (Abschnitt E)",
+    "optionen": [
+     "können schneller reagieren, geraten aber leichter in Not",
+     "fahren schneller, halten aber weniger aus",
+     "sind kleiner, aber freundlicher",
+     "wechseln oft die Strecke und die Preise"
+    ],
+    "loesung": [
+     "können schneller reagieren, geraten aber leichter in Not"
+    ],
+    "erklaerung": "Der Satz danach erklärt beides in einem Bild: Fällt ein Wagen aus, gibt es keinen Ersatz. Gemeint sind die Gesellschaften, nicht die Züge.",
+    "fehler": [
+     {
+      "antwort": "fahren schneller, halten aber weniger aus",
+      "diagnoseId": "wort_verschoben",
+      "feedback": "Du hast die Eigenschaften auf die Züge bezogen. Gemeint sind die kleinen Gesellschaften, die sie betreiben."
+     },
+     {
+      "antwort": "sind kleiner, aber freundlicher",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "Um Freundlichkeit geht es nicht. «Verletzlich» meint: Ein einziger Ausfall bringt sie in Not."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«hängt an einer nüchternen Zahl» (Abschnitt F)",
+    "optionen": [
+     "entscheidet sich an einem schlichten Rechenwert",
+     "ist von einer geheimen Zahl abhängig",
+     "lässt sich gar nicht berechnen",
+     "ist eine Frage des Geschmacks"
+    ],
+    "loesung": [
+     "entscheidet sich an einem schlichten Rechenwert"
+    ],
+    "erklaerung": "Der Doppelpunkt danach nennt die Zahl beim Namen: der Preis. «Nüchtern» heisst hier: ohne Beiwerk, rein sachlich.",
+    "fehler": [
+     {
+      "antwort": "ist eine Frage des Geschmacks",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Satz sagt gerade, dass der Geschmack nicht entscheidet, sondern der Preis. Auch bei Leuten, die den Zug lieber nähmen."
+     },
+     {
+      "antwort": "lässt sich gar nicht berechnen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Eine Zahl ist gerade das Berechenbare. Der Text nennt sie danach: vierzig Franken gegen hundertvierzig."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«eine veränderte Stimmung» (Abschnitt C)",
+    "optionen": [
+     "eine andere Haltung in der Bevölkerung",
+     "besseres Wetter für das Reisen",
+     "eine neue Musik in den Zügen",
+     "schlechte Laune bei den Bahnen"
+    ],
+    "loesung": [
+     "eine andere Haltung in der Bevölkerung"
+    ],
+    "erklaerung": "Der Satz danach sagt, worin die Stimmung besteht: Mehr Menschen fragen nach den Treibhausgasen einer Reise.",
+    "fehler": [
+     {
+      "antwort": "schlechte Laune bei den Bahnen",
+      "diagnoseId": "wort_verschoben",
+      "feedback": "Es geht um die Haltung der Reisenden, nicht um die Laune der Bahnen. Diese haben ja gerade wieder investiert."
+     },
+     {
+      "antwort": "besseres Wetter für das Reisen",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "«Stimmung» meint hier nicht das Wetter, sondern wie die Leute über eine Sache denken."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«rund einen Zwanzigstel dessen» (Abschnitt C)",
+    "optionen": [
+     "etwa den zwanzigsten Teil davon",
+     "rund zwanzigmal so viel",
+     "etwa zwanzig Prozent davon",
+     "genau ein Zwanzigstel davon"
+    ],
+    "loesung": [
+     "etwa den zwanzigsten Teil davon"
+    ],
+    "erklaerung": "Ein Zwanzigstel ist 1 geteilt durch 20, also fünf Prozent. Das Wort «rund» sagt zusätzlich, dass die Zahl gerundet ist.",
+    "fehler": [
+     {
+      "antwort": "rund zwanzigmal so viel",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Du hast die Richtung umgedreht. Die Bahn verursacht weniger, nicht mehr. Sonst ergäbe der ganze Abschnitt keinen Sinn."
+     },
+     {
+      "antwort": "etwa zwanzig Prozent davon",
+      "diagnoseId": "bruch_und_prozent",
+      "feedback": "Ein Zwanzigstel sind fünf Prozent, nicht zwanzig. Zwanzig Prozent wären ein Fünftel."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«die Bahnen zogen die Wagen ab» (Abschnitt B)",
+    "optionen": [
+     "nahmen sie aus dem Betrieb",
+     "schleppten sie an einem Seil",
+     "kauften neue Wagen dazu",
+     "reinigten sie gründlich"
+    ],
+    "loesung": [
+     "nahmen sie aus dem Betrieb"
+    ],
+    "erklaerung": "«Abziehen» heisst hier: aus dem Einsatz nehmen. Der Halbsatz danach, «und verkauften sie ins Ausland», bestätigt es.",
+    "fehler": [
+     {
+      "antwort": "schleppten sie an einem Seil",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Du hast «abziehen» als Ziehen verstanden. Gemeint ist: Die Wagen kamen aus dem Verkehr."
+     },
+     {
+      "antwort": "kauften neue Wagen dazu",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das wäre die Gegenrichtung. Der ganze Abschnitt beschreibt, wie das Angebot verschwand."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Zurückgekommen sind die Nachtzüge nicht wegen der Technik» (Abschnitt C)",
+    "optionen": [
+     "die Technik war nicht der Grund für die Rückkehr",
+     "die Technik hat die Rückkehr verhindert",
+     "die Züge sind technisch unverändert geblieben",
+     "die Technik kam später zurück als die Züge"
+    ],
+    "loesung": [
+     "die Technik war nicht der Grund für die Rückkehr"
+    ],
+    "erklaerung": "«Nicht wegen X, sondern wegen Y» nennt den wahren Grund. Y steht direkt danach: die veränderte Stimmung.",
+    "fehler": [
+     {
+      "antwort": "die Technik hat die Rückkehr verhindert",
+      "diagnoseId": "zu_stark",
+      "feedback": "«Nicht wegen» heisst nicht «dagegen». Die Technik spielte für die Rückkehr bloss keine Rolle."
+     },
+     {
+      "antwort": "die Züge sind technisch unverändert geblieben",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "Darüber sagt der Satz nichts. Er nennt nur den Grund der Rückkehr, und das ist nicht die Technik."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Ein Nachtzug fährt durch vier oder fünf Länder» (Abschnitt D)",
+    "optionen": [
+     "er überquert mehrere Landesgrenzen",
+     "er hält in vier oder fünf Ländern nicht",
+     "er gehört vier oder fünf Ländern",
+     "er fährt viermal oder fünfmal pro Nacht"
+    ],
+    "loesung": [
+     "er überquert mehrere Landesgrenzen"
+    ],
+    "erklaerung": "Der Satz leitet die Aufzählung der Hürden ein: Jedes Land verlangt eigene Zulassungen und Gebühren. Genau deshalb sind es Grenzen.",
+    "fehler": [
+     {
+      "antwort": "er gehört vier oder fünf Ländern",
+      "diagnoseId": "wort_verschoben",
+      "feedback": "Vom Eigentum ist keine Rede. Der Satz beschreibt den Weg des Zuges, nicht, wem er gehört."
+     },
+     {
+      "antwort": "er fährt viermal oder fünfmal pro Nacht",
+      "diagnoseId": "wort_verschoben",
+      "feedback": "Du hast die Zahl auf die Fahrten bezogen. Sie zählt die Länder, durch die eine einzige Fahrt führt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Worterklärungen",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-wendungen",
+  "lernzielId": "DBT.1.03",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "1.03",
+   "1.01"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Eine Wendung bedeutet meist etwas anderes als die Summe ihrer Wörter. Frage dich: Was will der Satz sagen?",
+   "Prüfe, welche der Bedeutungen in den Satz DAVOR und DANACH passt.",
+   "Der häufigste Fehler ist, die Wendung wörtlich zu nehmen. Genau diese Bedeutung steht meist als Ablenker da."
+  ],
+  "loesungsweg": [
+   "Lies den ganzen Satz und den Satz davor.",
+   "Nimm die Wendung nicht wörtlich. Frage nach ihrem Sinn.",
+   "Setze die verbliebenen Bedeutungen ein und prüfe, welche zum Zusammenhang passt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Namen sind langlebiger als Häuser» (Abschnitt A, «Was Ortsnamen erzählen»)",
+    "optionen": [
+     "Namen bleiben länger erhalten als Bauten",
+     "Namen sind älter als die Häuser, an denen sie hängen",
+     "Häuser werden nach Namen benannt",
+     "Namen halten Häuser zusammen"
+    ],
+    "loesung": [
+     "Namen bleiben länger erhalten als Bauten"
+    ],
+    "erklaerung": "«Langlebig» heisst: lange bestehend. Der Satz begründet, warum eine Landkarte Geschichte erzählt: Die Bauten verschwinden, die Namen bleiben.",
+    "fehler": [
+     {
+      "antwort": "Namen sind älter als die Häuser, an denen sie hängen",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Das trifft es beinahe, verschiebt aber den Sinn: Es geht nicht darum, was zuerst da war, sondern was länger bleibt."
+     },
+     {
+      "antwort": "Häuser werden nach Namen benannt",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Die Richtung stimmt nicht. Der Satz vergleicht die Haltbarkeit, er erklärt keine Benennung."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«liest eine Geschichte, ohne es zu merken» (Abschnitt A, «Was Ortsnamen erzählen»)",
+    "optionen": [
+     "erfährt etwas über die Vergangenheit, ohne es zu beabsichtigen",
+     "liest ein spannendes Buch",
+     "vergisst, was er gelesen hat",
+     "liest zu schnell, um etwas zu verstehen"
+    ],
+    "loesung": [
+     "erfährt etwas über die Vergangenheit, ohne es zu beabsichtigen"
+    ],
+    "erklaerung": "«Eine Geschichte lesen» steht hier für die Geschichte einer Gegend, nicht für eine Erzählung. Der ganze Text handelt davon, was Namen verraten.",
+    "fehler": [
+     {
+      "antwort": "liest ein spannendes Buch",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "«Geschichte» meint hier die Vergangenheit, nicht eine Erzählung. Die Karte ist kein Buch."
+     },
+     {
+      "antwort": "vergisst, was er gelesen hat",
+      "diagnoseId": "nebenbedeutung",
+      "feedback": "«Ohne es zu merken» heisst nicht vergessen, sondern unabsichtlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«wird es besonders reizvoll» (Abschnitt C, «Was Ortsnamen erzählen»)",
+    "optionen": [
+     "wird es besonders interessant",
+     "wird es besonders schwierig",
+     "entsteht Streit",
+     "wird die Landschaft besonders schön"
+    ],
+    "loesung": [
+     "wird es besonders interessant"
+    ],
+    "erklaerung": "«Reizvoll» heisst hier anziehend im Sinne von spannend. Der Abschnitt beschreibt danach, was an der Sprachgrenze zu entdecken ist.",
+    "fehler": [
+     {
+      "antwort": "wird es besonders schwierig",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Schwierig und reizvoll sind nicht dasselbe. Der Abschnitt lädt zum Hinschauen ein, er warnt nicht."
+     },
+     {
+      "antwort": "wird die Landschaft besonders schön",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Von der Landschaft ist keine Rede, sondern von den Namen darauf."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«der Versuchung widerstehen, sie sich zurechtzulegen» (Abschnitt F, «Was Ortsnamen erzählen»)",
+    "optionen": [
+     "nicht die Erklärung wählen, die einem gerade passt",
+     "Namen nicht nachschlagen",
+     "Karten nicht falten",
+     "sich nicht auf Fachleute verlassen"
+    ],
+    "loesung": [
+     "nicht die Erklärung wählen, die einem gerade passt"
+    ],
+    "erklaerung": "«Sich etwas zurechtlegen» heisst: es sich passend machen. Der Satz warnt vor genau dem, was Abschnitt E als Volksdeutung beschrieben hat.",
+    "fehler": [
+     {
+      "antwort": "sich nicht auf Fachleute verlassen",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text empfiehlt gerade das Vorgehen der Fachleute: erst die alten Schreibweisen, dann der heutige Klang."
+     },
+     {
+      "antwort": "Namen nicht nachschlagen",
+      "diagnoseId": "gegenteil",
+      "feedback": "Nachschlagen ist erwünscht. Gewarnt wird vor dem Erfinden einer passenden Geschichte."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«ist wahrscheinlich der meistgesagte Satz» (Abschnitt A, «Der verschobene Schlaf der Jugendlichen»)",
+    "optionen": [
+     "wird in solchen Familien besonders oft ausgesprochen",
+     "ist der wichtigste Satz für Jugendliche",
+     "wird immer besonders laut gesagt",
+     "ist ein bekannter Ausspruch aus einem Buch"
+    ],
+    "loesung": [
+     "wird in solchen Familien besonders oft ausgesprochen"
+    ],
+    "erklaerung": "«Meistgesagt» heisst schlicht: am häufigsten gesagt. Der nächste Satz fügt hinzu, dass er trotzdem selten hilft.",
+    "fehler": [
+     {
+      "antwort": "ist der wichtigste Satz für Jugendliche",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Häufig und wichtig ist nicht dasselbe. Der Text sagt sogar, dass der Satz selten hilft."
+     },
+     {
+      "antwort": "ist ein bekannter Ausspruch aus einem Buch",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von einem Buch steht nichts da. Gemeint ist, was Eltern zu Hause sagen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«ist nicht bockig, sondern folgt einer inneren Uhr» (Abschnitt A, «Der verschobene Schlaf der Jugendlichen»)",
+    "optionen": [
+     "verhält sich nicht trotzig, sondern körperlich bedingt",
+     "ist nicht müde, sondern hat zu viel geschlafen",
+     "ist nicht krank, sondern nur unpünktlich",
+     "hat keine Uhr, sondern schätzt die Zeit"
+    ],
+    "loesung": [
+     "verhält sich nicht trotzig, sondern körperlich bedingt"
+    ],
+    "erklaerung": "Der Satz weist eine Deutung zurück (Trotz) und stellt eine andere daneben (Biologie). Genau das führt der ganze Text danach aus.",
+    "fehler": [
+     {
+      "antwort": "ist nicht krank, sondern nur unpünktlich",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Weder von Krankheit noch von Unpünktlichkeit ist die Rede. Zurückgewiesen wird der Vorwurf des Trotzes."
+     },
+     {
+      "antwort": "hat keine Uhr, sondern schätzt die Zeit",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Die «innere Uhr» ist keine Uhr, sondern der körpereigene Tagesrhythmus."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«kommt damit rechnerisch nicht hin» (Abschnitt B, «Der verschobene Schlaf der Jugendlichen»)",
+    "optionen": [
+     "erreicht die nötige Stundenzahl nicht",
+     "kann nicht rechnen",
+     "kommt zu spät zur Schule",
+     "braucht länger für den Schulweg"
+    ],
+    "loesung": [
+     "erreicht die nötige Stundenzahl nicht"
+    ],
+    "erklaerung": "Neun Stunden Bedarf, Einschlafen gegen Mitternacht, Aufstehen um sieben: Die Rechnung geht nicht auf. «Nicht hinkommen» heisst hier: es reicht nicht.",
+    "fehler": [
+     {
+      "antwort": "kommt zu spät zur Schule",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Verspätungen kommen später im Text vor. Hier geht es um die Stundenzahl, die nicht aufgeht."
+     },
+     {
+      "antwort": "kann nicht rechnen",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "«Rechnerisch nicht hinkommen» sagt nichts über die Fähigkeit, sondern über das Ergebnis."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«was leicht als Faulheit gedeutet wird» (Abschnitt C, «Der verschobene Schlaf der Jugendlichen»)",
+    "optionen": [
+     "was von aussen schnell falsch verstanden wird",
+     "was tatsächlich Faulheit ist",
+     "was niemandem auffällt",
+     "was zu einer schlechten Note führt"
+    ],
+    "loesung": [
+     "was von aussen schnell falsch verstanden wird"
+    ],
+    "erklaerung": "«Deuten als» heisst auslegen. Der Satz sagt, dass die Auslegung naheliegt, nicht, dass sie stimmt.",
+    "fehler": [
+     {
+      "antwort": "was tatsächlich Faulheit ist",
+      "diagnoseId": "zu_stark",
+      "feedback": "«Gedeutet als» sagt gerade nicht, dass es so ist. Der ganze Text erklärt ja eine körperliche Ursache."
+     },
+     {
+      "antwort": "was niemandem auffällt",
+      "diagnoseId": "gegenteil",
+      "feedback": "Es fällt sehr wohl auf. Es wird nur falsch erklärt."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Ein Buch endet auf jeder Seite, ein Feed nie» (Abschnitt D, «Der verschobene Schlaf der Jugendlichen»)",
+    "optionen": [
+     "Beim Buch gibt es laufend natürliche Haltepunkte, beim Feed keine",
+     "Bücher sind kürzer als Feeds",
+     "Bücher haben ein Ende, Feeds werden gelöscht",
+     "Beim Buch schläft man schneller ein"
+    ],
+    "loesung": [
+     "Beim Buch gibt es laufend natürliche Haltepunkte, beim Feed keine"
+    ],
+    "erklaerung": "Der Satz erklärt bildlich, warum der Bildschirm wach hält: Es fehlt der Punkt, an dem man von selbst aufhört.",
+    "fehler": [
+     {
+      "antwort": "Bücher sind kürzer als Feeds",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Um die Länge geht es nicht, sondern um die Haltepunkte."
+     },
+     {
+      "antwort": "Beim Buch schläft man schneller ein",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Das behauptet der Text nicht. Er sagt nur, dass ein Buch Gelegenheiten zum Aufhören bietet."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Bequemer geht es nicht» (Abschnitt A, «Der Preis der Bequemlichkeit»)",
+    "optionen": [
+     "einfacher lässt es sich kaum einrichten",
+     "es ist zu bequem geworden",
+     "es könnte noch bequemer werden",
+     "die Bequemlichkeit ist unangenehm"
+    ],
+    "loesung": [
+     "einfacher lässt es sich kaum einrichten"
+    ],
+    "erklaerung": "Der Satz schliesst die Aufzählung ab: Paket am Abend, Etikett liegt bei. Erst der Titel des Textes deutet an, dass dieses Angenehme einen Preis hat.",
+    "fehler": [
+     {
+      "antwort": "es könnte noch bequemer werden",
+      "diagnoseId": "gegenteil",
+      "feedback": "«Bequemer geht es nicht» heisst: mehr ist kaum möglich."
+     },
+     {
+      "antwort": "es ist zu bequem geworden",
+      "diagnoseId": "zu_stark",
+      "feedback": "Diese Wertung folgt erst später. Der Satz stellt zunächst nur fest, wie einfach es ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Die Wege summieren sich» (Abschnitt B, «Der Preis der Bequemlichkeit»)",
+    "optionen": [
+     "die einzelnen Fahrten ergeben zusammen eine grosse Menge",
+     "die Wege werden immer länger",
+     "die Wege werden zusammengelegt",
+     "die Wege kosten immer mehr"
+    ],
+    "loesung": [
+     "die einzelnen Fahrten ergeben zusammen eine grosse Menge"
+    ],
+    "erklaerung": "«Sich summieren» heisst: sich aufaddieren. Der Satz danach sagt, dass sich niemand diese Summe vorstellt.",
+    "fehler": [
+     {
+      "antwort": "die Wege werden immer länger",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Der einzelne Weg bleibt gleich lang. Es sind die vielen Wege zusammen, die ins Gewicht fallen."
+     },
+     {
+      "antwort": "die Wege werden zusammengelegt",
+      "diagnoseId": "wortsinn_statt_uebertragung",
+      "feedback": "Zusammengelegt wird nichts. Addiert wird nur beim Rechnen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was bedeutet der Ausdruck im Textzusammenhang?\n\n«Die zweite hat einen Preis, den nur nicht sie selbst bezahlt» (Abschnitt F, «Der Preis der Bequemlichkeit»)",
+    "optionen": [
+     "Die Kosten dieser Entscheidung tragen andere",
+     "Die zweite Möglichkeit ist teurer für sie",
+     "Der Preis wird erst später fällig",
+     "Der Laden bezahlt am Ende alles"
+    ],
+    "loesung": [
+     "Die Kosten dieser Entscheidung tragen andere"
+    ],
+    "erklaerung": "Der Schlusssatz nimmt Abschnitt D wieder auf: Der Aufwand wird auf alle umgelegt. Wer aus Bequemlichkeit bestellt, lässt andere zahlen.",
+    "fehler": [
+     {
+      "antwort": "Die zweite Möglichkeit ist teurer für sie",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«Nur nicht sie selbst» dreht es gerade um: Für sie ist es billig, für die anderen nicht."
+     },
+     {
+      "antwort": "Der Preis wird erst später fällig",
+      "diagnoseId": "nah_daneben",
+      "feedback": "Nicht die Zeit ist der Punkt, sondern wer bezahlt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Wendungen",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-ueberschrift",
+  "lernzielId": "DBT.2.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "2.01",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ersten und den letzten Satz des Abschnitts. Meist steht die Hauptsache in einem der beiden.",
+   "Eine Überschrift muss den GANZEN Abschnitt decken, nicht nur ein hübsches Beispiel daraus.",
+   "Streiche zuerst, was zwar im Text vorkommt, aber in einem anderen Abschnitt steht. Das ist der häufigste Ablenker."
+  ],
+  "loesungsweg": [
+   "Suche im Abschnitt den Satz, der die Hauptsache nennt.",
+   "Prüfe bei jeder Überschrift: Deckt sie den ganzen Abschnitt oder nur einen Teil?",
+   "Wirf weg, was auf einen anderen Abschnitt passt. Auch wenn es richtig klingt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nElf Sekunden. So lange dauert es im Schnitt, bis eine Person an der Bushaltestelle zum ersten Mal aufs Handy schaut. Das hat eine Gruppe von Studierenden in Bern herausgefunden, die einen Nachmittag lang gezählt hat, wer wann in die Tasche greift. Wer wartet, hält die Leere kaum aus. Dabei warten wir jeden Tag: an der Kasse, vor dem Schulzimmer, auf eine Antwort, die nicht kommt.",
+    "optionen": [
+     "Wie schnell wir zum Handy greifen",
+     "Warum leere Zeit länger scheint",
+     "Was Anzeigetafeln bewirken",
+     "Wie Flughäfen das Warten gestalten"
+    ],
+    "loesung": [
+     "Wie schnell wir zum Handy greifen"
+    ],
+    "erklaerung": "Der Abschnitt bringt die Beobachtung und die Zahl: elf Sekunden bis zum ersten Blick aufs Handy. Die Erklärung dafür kommt erst danach.",
+    "fehler": [
+     {
+      "antwort": "Warum leere Zeit länger scheint",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das ist der nächste Abschnitt. Hier wird nur beobachtet und gezählt, noch nichts erklärt."
+     },
+     {
+      "antwort": "Was Anzeigetafeln bewirken",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Von Anzeigetafeln steht hier kein Wort. Sie kommen weiter hinten, wo es um die Auskunft geht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nDass sich Warten zäh anfühlt, ist keine Einbildung. In Versuchen schätzen Menschen leere Zeit regelmässig länger ein, als sie ist, im Schnitt um gut ein Drittel. Ist die Zeit dagegen gefüllt, etwa mit einem Gespräch oder einer Aufgabe, schrumpft sie im Rückblick zusammen. Unser Zeitgefühl misst nicht Minuten, sondern Ereignisse. Wo nichts geschieht, gibt es nichts zu messen, und der Kopf füllt die Lücke mit Ungeduld.",
+    "optionen": [
+     "Warum leere Zeit länger vorkommt",
+     "Elf Sekunden bis zum Handy",
+     "Warum Ungewissheit besonders anstrengt",
+     "Wie man die Wartezeit sinnvoll nutzt"
+    ],
+    "loesung": [
+     "Warum leere Zeit länger vorkommt"
+    ],
+    "erklaerung": "Hier steht das Kernstück: Menschen schätzen leere Zeit um gut ein Drittel zu lang, weil das Zeitgefühl Ereignisse zählt und nicht Minuten.",
+    "fehler": [
+     {
+      "antwort": "Warum Ungewissheit besonders anstrengt",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Ungewissheit ist der übernächste Abschnitt. Hier geht es erst um leere gegen gefüllte Zeit."
+     },
+     {
+      "antwort": "Wie man die Wartezeit sinnvoll nutzt",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Ratschläge gibt der Abschnitt keine. Er erklärt nur, warum sich Warten zäh anfühlt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nAm schwersten wiegt die Ungewissheit. Wer weiss, dass der Zug zwanzig Minuten Verspätung hat, richtet sich ein und kauft sich einen Kaffee. Wer nur hört, der Zug verspäte sich «auf unbestimmte Zeit», bleibt stehen und starrt auf die Gleise. Psychologinnen nennen das den Unterschied zwischen einem geschlossenen und einem offenen Warten. Das offene kostet mehr Kraft, weil man sich nicht entscheiden kann, ob man bleibt oder geht.",
+    "optionen": [
+     "Warum Ungewissheit am schwersten wiegt",
+     "Warum leere Zeit länger vorkommt",
+     "Wie Anzeigetafeln Beschwerden senken",
+     "Warum ein Kaffee die Wartezeit verkürzt"
+    ],
+    "loesung": [
+     "Warum Ungewissheit am schwersten wiegt"
+    ],
+    "erklaerung": "Der Abschnitt stellt geschlossenes und offenes Warten gegeneinander. Nicht die Dauer kostet Kraft, sondern das Nichtwissen, ob man bleiben soll.",
+    "fehler": [
+     {
+      "antwort": "Warum ein Kaffee die Wartezeit verkürzt",
+      "diagnoseId": "teildeckung",
+      "feedback": "Der Kaffee ist ein Beispiel in einem Nebensatz. Die Überschrift muss den ganzen Abschnitt decken."
+     },
+     {
+      "antwort": "Wie Anzeigetafeln Beschwerden senken",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Tafeln standen im Abschnitt davor. Hier geht es um den Fall, in dem gerade keine Auskunft kommt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nAus diesem Wissen ist längst ein Handwerk geworden. An manchen Flughäfen führt der Weg vom Flugzeug zum Gepäckband einen Umweg. Die Reisenden gehen sieben Minuten und warten dann eine, statt eine Minute zu gehen und sieben zu warten. Die Gesamtzeit bleibt gleich, die Beschwerden gehen zurück. In Freizeitparks stehen entlang der Schlange Spiegel, Bildschirme und kleine Rätsel. Nichts davon macht die Schlange kürzer.",
+    "optionen": [
+     "Warten wird planmässig gestaltet",
+     "Warum Flughäfen zu wenig Gepäckbänder haben",
+     "Wie man Reisende in die Irre führt",
+     "Warum Freizeitparks so beliebt sind"
+    ],
+    "loesung": [
+     "Warten wird planmässig gestaltet"
+    ],
+    "erklaerung": "Umweg zum Gepäckband, Spiegel und Rätsel in der Schlange: Der Abschnitt zeigt, dass aus dem Wissen über das Warten ein Handwerk geworden ist.",
+    "fehler": [
+     {
+      "antwort": "Wie man Reisende in die Irre führt",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Das wertet stärker, als der Abschnitt es tut. Er berichtet zuerst nur, was gemacht wird; die Frage nach dem Trick stellt erst der Schluss."
+     },
+     {
+      "antwort": "Warum Flughäfen zu wenig Gepäckbänder haben",
+      "diagnoseId": "teildeckung",
+      "feedback": "Von zu wenigen Bändern steht nichts da. Der Weg dorthin ist absichtlich länger, das ist etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nDenn genau das war es. Zwischen 2000 und 2016 verschwand eine Nachtverbindung nach der anderen. Der Grund lag weniger an den Reisenden als an der Rechnung: Ein Schlafwagen kostet im Betrieb ein Mehrfaches eines Sitzwagens, trägt aber nur einen Bruchteil der Personen. Gleichzeitig wurden Flüge innerhalb Europas so günstig, dass eine Nacht im Zug teurer war als ein Flug am Morgen. Die Bahnen zogen die Wagen ab und verkauften sie ins Ausland.",
+    "optionen": [
+     "Warum die Nachtzüge verschwanden",
+     "Warum die Nachtzüge zurückkehrten",
+     "Wie ein Nachtzug heute fährt",
+     "Wer die Nachtzüge betreibt"
+    ],
+    "loesung": [
+     "Warum die Nachtzüge verschwanden"
+    ],
+    "erklaerung": "Zwei Gründe stehen hier: der teure Betrieb eines Schlafwagens und die sehr günstigen Flüge. Beides zusammen erklärt das Verschwinden.",
+    "fehler": [
+     {
+      "antwort": "Warum die Nachtzüge zurückkehrten",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das ist die Gegenrichtung und steht im nächsten Abschnitt. Hier geht es um die Jahre bis 2016."
+     },
+     {
+      "antwort": "Wer die Nachtzüge betreibt",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Betreiber kommen erst weiter hinten vor. Hier ist von Kosten und Flugpreisen die Rede."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nVon einem Selbstläufer kann trotzdem keine Rede sein. Ein Nachtzug fährt durch vier oder fünf Länder, und jedes Land verlangt eigene Zulassungen, eigene Sicherheitsnachweise und eine eigene Gebühr für die Benützung der Gleise. Kommt eine Strecke wegen Bauarbeiten nicht infrage, fällt die ganze Verbindung aus, weil es keinen zweiten Weg gibt. Und ein neuer Schlafwagen kostet rund vier Millionen Franken und wird vierzig Jahre eingesetzt. Wer ihn bestellt, wettet auf eine lange Zukunft.",
+    "optionen": [
+     "Was den Betrieb bis heute erschwert",
+     "Warum Nachtzüge wieder gefragt sind",
+     "Wie viel ein Schlafwagen kostet",
+     "Welche Länder Nachtzüge führen"
+    ],
+    "loesung": [
+     "Was den Betrieb bis heute erschwert"
+    ],
+    "erklaerung": "Zulassungen, Gebühren, ein einziger Fahrweg und ein Wagen für vier Millionen Franken: Der Abschnitt sammelt die Hürden.",
+    "fehler": [
+     {
+      "antwort": "Wie viel ein Schlafwagen kostet",
+      "diagnoseId": "teildeckung",
+      "feedback": "Der Preis ist eine von mehreren Hürden. Eine Überschrift über den Preis liesse die Zulassungen und die Gebühren weg."
+     },
+     {
+      "antwort": "Warum Nachtzüge wieder gefragt sind",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das war der Abschnitt davor. Dieser hier zählt auf, was dagegen spricht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nWie es weitergeht, hängt an einer nüchternen Zahl: dem Preis. Solange ein Flug nach Wien vierzig Franken kostet und ein Bett im Nachtzug hundert-vierzig, entscheidet sich ein Teil der Reisenden gegen den Zug, auch wenn er ihn lieber nähme. Ändert sich daran etwas, durch Abgaben auf den Flugverkehr oder durch günstigere Gleisgebühren, wird aus der Rückkehr mehr als eine schöne Geschichte.",
+    "optionen": [
+     "Am Ende entscheidet der Preis",
+     "Warum Fliegen bequemer ist",
+     "Wie viele Länder ein Nachtzug durchquert",
+     "Wer künftig Nachtzüge bauen wird"
+    ],
+    "loesung": [
+     "Am Ende entscheidet der Preis"
+    ],
+    "erklaerung": "Vierzig Franken für den Flug, hundertvierzig für ein Bett: Solange dieser Abstand bleibt, entscheidet ein Teil der Reisenden gegen den Zug.",
+    "fehler": [
+     {
+      "antwort": "Warum Fliegen bequemer ist",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Von Bequemlichkeit spricht der Abschnitt nicht, im Gegenteil, er sagt, viele nähmen den Zug lieber."
+     },
+     {
+      "antwort": "Wer künftig Nachtzüge bauen wird",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Betreiber standen im Abschnitt davor. Hier geht es allein um den Preis."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nWas danach mit der Ware geschieht, überrascht viele. Jede Rücksendung muss von Hand geöffnet, geprüft, gereinigt und neu verpackt werden. Das kostet je nach Betrieb zwischen fünf und fünfzehn Franken. Liegt der Verkaufs-preis darunter, lohnt sich die Prüfung nicht, und ein Teil der Ware wird verbilligt weitergegeben oder vernichtet. In der Schweiz ist das Vernichten von Neuware nicht verboten, in einzelnen Nachbarländern inzwischen schon.",
+    "optionen": [
+     "Was mit zurückgeschickter Ware geschieht",
+     "Wie viel Ware zurückgeschickt wird",
+     "Warum die Rücksendung gratis ist",
+     "Was einzelne Läden dagegen tun"
+    ],
+    "loesung": [
+     "Was mit zurückgeschickter Ware geschieht"
+    ],
+    "erklaerung": "Öffnen, prüfen, reinigen, neu verpacken, und wenn das mehr kostet als die Ware wert ist, wird sie verbilligt oder vernichtet.",
+    "fehler": [
+     {
+      "antwort": "Wie viel Ware zurückgeschickt wird",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Mengen standen im Abschnitt davor. Hier geht es um das, was danach passiert."
+     },
+     {
+      "antwort": "Warum die Rücksendung gratis ist",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Der nächste Abschnitt bestreitet gerade, dass sie gratis ist. Hier geht es um den Aufwand im Lager."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nGratis ist die Rücksendung deshalb nie. Sie ist eingepreist: Ein Laden, bei dem jedes zweite Stück zurückkommt, muss den Aufwand auf alle verkauften Stücke umlegen. Wer selten zurückschickt, zahlt also für jene mit, die regelmässig fünf Stück bestellen und vier zurückgeben. Genau darum haben einzelne Häuser damit begonnen, Kundinnen und Kunden mit sehr hohen Rücksendequoten zu sperren.",
+    "optionen": [
+     "Warum die Rücksendung nie wirklich gratis ist",
+     "Wie eine Rücksendung im Lager abläuft",
+     "Warum Läden mehr Bilder zeigen sollten",
+     "Wer besonders oft zurückschickt"
+    ],
+    "loesung": [
+     "Warum die Rücksendung nie wirklich gratis ist"
+    ],
+    "erklaerung": "Der Aufwand wird auf alle verkauften Stücke umgelegt. Wer selten zurückschickt, zahlt also für die anderen mit.",
+    "fehler": [
+     {
+      "antwort": "Wer besonders oft zurückschickt",
+      "diagnoseId": "teildeckung",
+      "feedback": "Das steht nur im letzten Satz. Die Hauptsache ist, dass der Aufwand im Preis aller steckt."
+     },
+     {
+      "antwort": "Wie eine Rücksendung im Lager abläuft",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Der Ablauf stand im Abschnitt davor. Hier geht es darum, wer ihn bezahlt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nDieselbe Eigenschaft erklärt den Ohrwurm. Besonders hartnäckig sind Lieder mit einfacher Melodie, mittlerem Tempo und einer kleinen Unregelmässigkeit. Einem Sprung, der nicht ganz dorthin geht, wo man ihn erwartet. Das Gehirn spielt die Stelle weiter, weil es sie zu Ende bringen will. Wer den Ohrwurm loswerden will, hört das Lied darum am besten ganz an, statt es zu verdrängen.",
+    "optionen": [
+     "Warum manche Lieder im Kopf hängen bleiben",
+     "Warum Musik Erinnerungen weckt",
+     "Ob Musik beim Lernen hilft",
+     "Wie Musik das Laufen leichter macht"
+    ],
+    "loesung": [
+     "Warum manche Lieder im Kopf hängen bleiben"
+    ],
+    "erklaerung": "Einfache Melodie, mittleres Tempo, eine kleine Unregelmässigkeit, und das Gehirn spielt weiter, weil es die Stelle zu Ende bringen will.",
+    "fehler": [
+     {
+      "antwort": "Warum Musik Erinnerungen weckt",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das war der Abschnitt davor. Hier geht es um den Ohrwurm, also um das Hängenbleiben."
+     },
+     {
+      "antwort": "Ob Musik beim Lernen hilft",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das Lernen kommt erst danach. Dieser Abschnitt bleibt beim Ohrwurm."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nDiese Verschiebung ist gut belegt. In der Pubertät wird das Schlafhormon Melatonin rund zwei Stunden später ausgeschüttet als in der Kindheit. Der Körper meldet also erst gegen Mitternacht, dass es Zeit wäre. Das Bedürfnis nach Schlaf bleibt dabei gleich gross: Neun Stunden gelten weiterhin als angemessen. Wer um sieben aufstehen muss, kommt damit rechnerisch nicht hin.",
+    "optionen": [
+     "Warum die innere Uhr sich verschiebt",
+     "Warum Jugendliche abends streiten",
+     "Was Schlafmangel in der Schule anrichtet",
+     "Warum Bildschirme wach halten"
+    ],
+    "loesung": [
+     "Warum die innere Uhr sich verschiebt"
+    ],
+    "erklaerung": "Melatonin wird in der Pubertät rund zwei Stunden später ausgeschüttet, während das Schlafbedürfnis gleich gross bleibt. Das ist die Erklärung für alles Weitere.",
+    "fehler": [
+     {
+      "antwort": "Was Schlafmangel in der Schule anrichtet",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Folgen kommen im nächsten Abschnitt. Hier steht erst die Ursache."
+     },
+     {
+      "antwort": "Warum Bildschirme wach halten",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Von Bildschirmen ist hier nicht die Rede. Sie kommen zwei Abschnitte später."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Überschrift passt zu diesem Abschnitt?\n\nAm ältesten sind die Gewässernamen. Flüsse behalten ihren Namen über Sprachwechsel hinweg, weil ein Fluss nicht neu benannt werden muss, wenn neue Menschen kommen. Er ist ja schon da und alle wissen, welcher gemeint ist. Einige Namen von Flüssen im Mittelland stammen aus einer Sprache, die vor den Römern gesprochen wurde und von der sonst kaum etwas übrig ist.",
+    "optionen": [
+     "Flussnamen überdauern den Sprachwechsel",
+     "Woran man das Alter einer Siedlung erkennt",
+     "Warum an der Sprachgrenze zwei Namen stehen",
+     "Wie Volksdeutungen entstehen"
+    ],
+    "loesung": [
+     "Flussnamen überdauern den Sprachwechsel"
+    ],
+    "erklaerung": "Ein Fluss wird nicht neu benannt, wenn neue Menschen kommen. Er ist ja schon da. Darum sind Gewässernamen die ältesten.",
+    "fehler": [
+     {
+      "antwort": "Woran man das Alter einer Siedlung erkennt",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Das waren die Endungen im Abschnitt B. Hier geht es um Gewässer, nicht um Siedlungen."
+     },
+     {
+      "antwort": "Wie Volksdeutungen entstehen",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Die Volksdeutungen kommen im nächsten Abschnitt. Hier ist von ihnen noch nicht die Rede."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Gliederung",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-gliederung-tabelle",
+  "lernzielId": "DBT.2.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.04"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Lies zuerst den ersten und den letzten Satz des Abschnitts. Meist steht die Hauptsache in einem der beiden.",
+   "Eine Überschrift muss den GANZEN Abschnitt decken, nicht nur ein hübsches Beispiel daraus.",
+   "Streiche zuerst, was zwar im Text vorkommt, aber in einem anderen Abschnitt steht. Das ist der häufigste Ablenker."
+  ],
+  "loesungsweg": [
+   "Suche im Abschnitt den Satz, der die Hauptsache nennt.",
+   "Prüfe bei jeder Überschrift: Deckt sie den ganzen Abschnitt oder nur einen Teil?",
+   "Wirf weg, was auf einen anderen Abschnitt passt. Auch wenn es richtig klingt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Warum Warten so schwerfällt» · Abschnitte A-C",
+    "optionen": [
+     "Auskunft hilft mehr als Kürze",
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Warum leere Zeit länger vorkommt",
+     "Was gute Karten von schlechten unterscheidet",
+     "Wie schnell wir zum Handy greifen"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: Elf Sekunden. So lange dauert es im Schnitt, bis eine Person an der Bushaltestelle zum ersten Mal aufs Handy schaut. Das hat eine Gruppe von Studierenden in Bern herausgefunden, die einen Nachmittag lang gezählt hat, wer wann in die Tasche greift. Wer wartet, hält die Leere kaum aus. Dabei warten wir jeden Tag: an der Kasse, vor dem Schulzimmer, auf eine Antwort, die nicht kommt.",
+      "loesung": [
+       "Wie schnell wir zum Handy greifen"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Dass sich Warten zäh anfühlt, ist keine Einbildung. In Versuchen schätzen Menschen leere Zeit regelmässig länger ein, als sie ist, im Schnitt um gut ein Drittel. Ist die Zeit dagegen gefüllt, etwa mit einem Gespräch oder einer Aufgabe, schrumpft sie im Rückblick zusammen. Unser Zeitgefühl misst nicht Minuten, sondern Ereignisse. Wo nichts geschieht, gibt es nichts zu messen, und der Kopf füllt die Lücke mit Ungeduld.",
+      "loesung": [
+       "Warum leere Zeit länger vorkommt"
+      ]
+     },
+     {
+      "text": "Abschnitt C: Entscheidend ist weniger die Dauer als die Auskunft. Eine Anzeigetafel, die «noch 4 Minuten» meldet, macht das Warten erträglich, obwohl sie es um keine Sekunde verkürzt. Fehlt die Anzeige, wird aus vier Minuten ein offenes Ende. Verkehrsbetriebe wissen das seit Langem: Die Tafel am Perron ist keine technische Spielerei, sondern das billigste Mittel gegen Beschwerden, das sie haben.",
+      "loesung": [
+       "Auskunft hilft mehr als Kürze"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Warum Warten so schwerfällt» · Abschnitte D-F",
+    "optionen": [
+     "Warten wird planmässig gestaltet",
+     "Warum Ungewissheit am schwersten wiegt",
+     "Warum Wörterbücher immer dicker werden",
+     "Was daraus für den Alltag folgt",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Am schwersten wiegt die Ungewissheit. Wer weiss, dass der Zug zwanzig Minuten Verspätung hat, richtet sich ein und kauft sich einen Kaffee. Wer nur hört, der Zug verspäte sich «auf unbestimmte Zeit», bleibt stehen und starrt auf die Gleise. Psychologinnen nennen das den Unterschied zwischen einem geschlossenen und einem offenen Warten. Das offene kostet mehr Kraft, weil man sich nicht entscheiden kann, ob man bleibt oder geht.",
+      "loesung": [
+       "Warum Ungewissheit am schwersten wiegt"
+      ]
+     },
+     {
+      "text": "Abschnitt E: Aus diesem Wissen ist längst ein Handwerk geworden. An manchen Flughäfen führt der Weg vom Flugzeug zum Gepäckband einen Umweg. Die Reisenden gehen sieben Minuten und warten dann eine, statt eine Minute zu gehen und sieben zu warten. Die Gesamtzeit bleibt gleich, die Beschwerden gehen zurück. In Freizeitparks stehen entlang der Schlange Spiegel, Bildschirme und kleine Rätsel. Nichts davon macht die Schlange kürzer.",
+      "loesung": [
+       "Warten wird planmässig gestaltet"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Man kann das für einen Trick halten. Man kann es auch nüchtern betrachten: Wer wartet, leidet nicht an der Zeit, sondern an der Leere und am Nichtwissen. Beides lässt sich füllen, ohne jemanden zu täuschen. Wer das nächste Mal an der Haltestelle steht, kann es selbst ausprobieren, nicht aufs Handy schauen, sondern auf die Uhr, und danach schätzen, wie lange es gedauert hat. Die meisten liegen deutlich daneben.",
+      "loesung": [
+       "Was daraus für den Alltag folgt"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Die Rückkehr der Nachtzüge» · Abschnitte A-C",
+    "optionen": [
+     "Eine Nacht zwischen Basel und Amsterdam",
+     "Warum Werbung immer lauter wird",
+     "Warum die Nachtzüge verschwanden",
+     "Warum sie zurückkamen",
+     "Wie man ein Instrument am besten lernt"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: Um zwanzig nach neun schliessen sich in Basel die Türen, am Morgen um sieben öffnen sie sich in Amsterdam. Dazwischen liegen ein Abendessen im Speisewagen, ein schmales Bett und ein Frühstück, das an der Tür abgestellt wird. Wer so reist, verliert keinen Ferientag und braucht kein Hotel. Vor zwanzig Jahren hätte man dieses Angebot für ein Auslaufmodell gehalten.",
+      "loesung": [
+       "Eine Nacht zwischen Basel und Amsterdam"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Denn genau das war es. Zwischen 2000 und 2016 verschwand eine Nachtverbindung nach der anderen. Der Grund lag weniger an den Reisenden als an der Rechnung: Ein Schlafwagen kostet im Betrieb ein Mehrfaches eines Sitzwagens, trägt aber nur einen Bruchteil der Personen. Gleichzeitig wurden Flüge innerhalb Europas so günstig, dass eine Nacht im Zug teurer war als ein Flug am Morgen. Die Bahnen zogen die Wagen ab und verkauften sie ins Ausland.",
+      "loesung": [
+       "Warum die Nachtzüge verschwanden"
+      ]
+     },
+     {
+      "text": "Abschnitt C: Zurückgekommen sind die Nachtzüge nicht wegen der Technik, sondern wegen einer veränderten Stimmung. Seit etwa 2018 fragen mehr Menschen danach, was eine Reise an Treibhausgasen kostet, und eine Bahnfahrt von Zürich nach Berlin verursacht davon rund einen Zwanzigstel dessen, was der Flug verursacht. Österreich hat als erstes Land wieder in Wagen investiert, andere Bahnen sind gefolgt. Die Züge sind heute regelmässig ausgebucht.",
+      "loesung": [
+       "Warum sie zurückkamen"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Die Rückkehr der Nachtzüge» · Abschnitte D-F",
+    "optionen": [
+     "Am Ende entscheidet der Preis",
+     "Warum Ferien zu schnell vorbeigehen",
+     "Was den Betrieb bis heute erschwert",
+     "Wer die Linien betreibt",
+     "Wie Vereine neue Mitglieder finden"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Von einem Selbstläufer kann trotzdem keine Rede sein. Ein Nachtzug fährt durch vier oder fünf Länder, und jedes Land verlangt eigene Zulassungen, eigene Sicherheitsnachweise und eine eigene Gebühr für die Benützung der Gleise. Kommt eine Strecke wegen Bauarbeiten nicht infrage, fällt die ganze Verbindung aus, weil es keinen zweiten Weg gibt. Und ein neuer Schlafwagen kostet rund vier Millionen Franken und wird vierzig Jahre eingesetzt. Wer ihn bestellt, wettet auf eine lange Zukunft.",
+      "loesung": [
+       "Was den Betrieb bis heute erschwert"
+      ]
+     },
+     {
+      "text": "Abschnitt E: Betrieben werden die Linien darum meist von mehreren Bahnen gemeinsam, seltener von kleinen Gesellschaften, die einzelne Strecken übernehmen. Diese Kleinen sind beweglicher, aber verletzlicher: Fällt ein Wagen aus, haben sie keinen Ersatz. Zwei solche Gesellschaften haben in den letzten Jahren wieder aufgegeben, nachdem sie mit grosser Aufmerksamkeit gestartet waren.",
+      "loesung": [
+       "Wer die Linien betreibt"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Wie es weitergeht, hängt an einer nüchternen Zahl: dem Preis. Solange ein Flug nach Wien vierzig Franken kostet und ein Bett im Nachtzug hundert-vierzig, entscheidet sich ein Teil der Reisenden gegen den Zug, auch wenn er ihn lieber nähme. Ändert sich daran etwas, durch Abgaben auf den Flugverkehr oder durch günstigere Gleisgebühren, wird aus der Rückkehr mehr als eine schöne Geschichte.",
+      "loesung": [
+       "Am Ende entscheidet der Preis"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Der Preis der Bequemlichkeit» · Abschnitte A-C",
+    "optionen": [
+     "Drei Grössen bestellen ist selbstverständlich",
+     "Was mit der Ware danach geschieht",
+     "Weshalb Sammeln glücklich macht",
+     "Wie eine Klasse einen Ausflug plant",
+     "Wie viel zurückgeschickt wird"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: Drei Grössen bestellt, eine behalten, zwei zurück. Wer online Kleider kauft, macht das selbstverständlich, und die Läden laden geradezu dazu ein: «Rücksendung gratis» steht in grossen Buchstaben neben dem Knopf zum Bestellen. Das Paket steht am Abend vor der Tür, das Rücksendeetikett liegt bei. Bequemer geht es nicht.",
+      "loesung": [
+       "Drei Grössen bestellen ist selbstverständlich"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Wie viel zurückgeht, hängt stark von der Ware ab. Bei Elektronik sind es wenige Prozente, bei Schuhen und Kleidern in manchen Sortimenten mehr als die Hälfte. Ein einziges Paar Schuhe kann so dreimal quer durch das Land fahren, bevor es jemandem passt. Die Wege summieren sich zu Zahlen, die sich niemand vorstellt, wenn er auf «bestellen» tippt.",
+      "loesung": [
+       "Wie viel zurückgeschickt wird"
+      ]
+     },
+     {
+      "text": "Abschnitt C: Was danach mit der Ware geschieht, überrascht viele. Jede Rücksendung muss von Hand geöffnet, geprüft, gereinigt und neu verpackt werden. Das kostet je nach Betrieb zwischen fünf und fünfzehn Franken. Liegt der Verkaufs-preis darunter, lohnt sich die Prüfung nicht, und ein Teil der Ware wird verbilligt weitergegeben oder vernichtet. In der Schweiz ist das Vernichten von Neuware nicht verboten, in einzelnen Nachbarländern inzwischen schon.",
+      "loesung": [
+       "Was mit der Ware danach geschieht"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Der Preis der Bequemlichkeit» · Abschnitte D-F",
+    "optionen": [
+     "Warum gratis nie gratis ist",
+     "Was gute Karten von schlechten unterscheidet",
+     "Was jede einzelne Person entscheidet",
+     "Weshalb alte Fotos verblassen",
+     "Womit die Läden es zuerst versuchen"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Gratis ist die Rücksendung deshalb nie. Sie ist eingepreist: Ein Laden, bei dem jedes zweite Stück zurückkommt, muss den Aufwand auf alle verkauften Stücke umlegen. Wer selten zurückschickt, zahlt also für jene mit, die regelmässig fünf Stück bestellen und vier zurückgeben. Genau darum haben einzelne Häuser damit begonnen, Kundinnen und Kunden mit sehr hohen Rücksendequoten zu sperren.",
+      "loesung": [
+       "Warum gratis nie gratis ist"
+      ]
+     },
+     {
+      "text": "Abschnitt E: Die Läden versuchen es zuerst mit sanfteren Mitteln. Genauere Massangaben, Bilder an echten Menschen statt an Puppen, Bewertungen zur Passform, manchmal ein Hinweis wie «fällt klein aus». Wo solche Angaben eingeführt wurden, sank die Rücksendequote in einzelnen Sortimenten um mehrere Prozentpunkte. Das klingt wenig, ist bei Millionen von Bestellungen aber viel.",
+      "loesung": [
+       "Womit die Läden es zuerst versuchen"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Für die einzelne Person bleibt eine einfache Frage: Bestelle ich drei Grössen, weil ich die richtige nicht kenne, oder weil ich zwei Minuten sparen will? Die erste Antwort ist verständlich. Die zweite hat einen Preis, den nur nicht sie selbst bezahlt.",
+      "loesung": [
+       "Was jede einzelne Person entscheidet"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Was Musik im Kopf anrichtet» · Abschnitte A-C",
+    "optionen": [
+     "Ein Lied holt einen ganzen Sommer zurück",
+     "Warum Lieder im Kopf hängen bleiben",
+     "Warum Musik so viele Wege ins Gedächtnis hat",
+     "Warum Sprichwörter oft nicht stimmen",
+     "Warum Wörterbücher immer dicker werden"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: Es braucht selten mehr als drei Takte. Ein Lied setzt ein, und plötzlich steht der Sommer vor drei Jahren wieder da, mit dem Geruch des Freibads und dem Namen einer Person, an die man lange nicht gedacht hat. Kaum ein anderer Sinneseindruck holt Erinnerungen so vollständig zurück wie Musik.",
+      "loesung": [
+       "Ein Lied holt einen ganzen Sommer zurück"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Der Grund liegt darin, wie Musik im Gehirn abgelegt wird. Ein Lied läuft nicht durch eine Stelle, sondern durch viele gleichzeitig: für Rhythmus, für Tonhöhe, für Sprache, für Gefühl, für Bewegung. Jede dieser Stellen kann später als Einstieg dienen. Eine Erinnerung, die an fünf Fäden hängt, reisst nicht so schnell ab wie eine, die an einem hängt.",
+      "loesung": [
+       "Warum Musik so viele Wege ins Gedächtnis hat"
+      ]
+     },
+     {
+      "text": "Abschnitt C: Dieselbe Eigenschaft erklärt den Ohrwurm. Besonders hartnäckig sind Lieder mit einfacher Melodie, mittlerem Tempo und einer kleinen Unregelmässigkeit. Einem Sprung, der nicht ganz dorthin geht, wo man ihn erwartet. Das Gehirn spielt die Stelle weiter, weil es sie zu Ende bringen will. Wer den Ohrwurm loswerden will, hört das Lied darum am besten ganz an, statt es zu verdrängen.",
+      "loesung": [
+       "Warum Lieder im Kopf hängen bleiben"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Was Musik im Kopf anrichtet» · Abschnitte D-F",
+    "optionen": [
+     "Musik macht das Laufen leichter",
+     "Ob Musik beim Lernen hilft",
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Weder Wundermittel noch blosse Unterhaltung",
+     "Wie man ein Instrument am besten lernt"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Beim Lernen ist die Wirkung weniger eindeutig, als viele hoffen. Musik mit Text nimmt genau jenen Teil des Gehirns in Anspruch, den man zum Lesen braucht; wer einen Sachtext liest und gleichzeitig einem Liedtext zuhört, versteht messbar weniger. Bei Musik ohne Text und bei gleichförmigen Tätigkeiten sieht es anders aus: Dort kann sie helfen, weil sie Störgeräusche überdeckt und die Stimmung hebt.",
+      "loesung": [
+       "Ob Musik beim Lernen hilft"
+      ]
+     },
+     {
+      "text": "Abschnitt E: Am deutlichsten ist der Zusammenhang zwischen Musik und Bewegung. Wer im Takt läuft, verbraucht bei gleicher Geschwindigkeit weniger Kraft, und die Anstrengung fühlt sich geringer an. Sportlerinnen und Sportler nutzen das seit Jahrzehnten. An Wettkämpfen ist Musik im Ohr deshalb häufig verboten, nicht aus Strenge, sondern weil sie einen messbaren Vorteil verschafft.",
+      "loesung": [
+       "Musik macht das Laufen leichter"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Musik ist also weder ein Wundermittel noch bloss Unterhaltung. Sie greift in Gedächtnis, Aufmerksamkeit und Bewegung ein, und sie tut es nicht immer zu unserem Vorteil. Wer weiss, wann sie hilft und wann sie stört, hat ein erstaunlich wirksames Werkzeug in der Hosentasche.",
+      "loesung": [
+       "Weder Wundermittel noch blosse Unterhaltung"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Abschnitte A-C",
+    "optionen": [
+     "Der Satz, der nie hilft",
+     "Warum Ferien zu schnell vorbeigehen",
+     "Warum die innere Uhr sich verschiebt",
+     "Was zu wenig Schlaf anrichtet",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: «Geh endlich ins Bett» ist wahrscheinlich der meistgesagte Satz in Familien mit Jugendlichen. Er hilft selten. Wer mit vierzehn um zehn Uhr im Bett liegt und nicht müde wird, ist nicht bockig, sondern folgt einer inneren Uhr, die sich in diesen Jahren verstellt.",
+      "loesung": [
+       "Der Satz, der nie hilft"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Diese Verschiebung ist gut belegt. In der Pubertät wird das Schlafhormon Melatonin rund zwei Stunden später ausgeschüttet als in der Kindheit. Der Körper meldet also erst gegen Mitternacht, dass es Zeit wäre. Das Bedürfnis nach Schlaf bleibt dabei gleich gross: Neun Stunden gelten weiterhin als angemessen. Wer um sieben aufstehen muss, kommt damit rechnerisch nicht hin.",
+      "loesung": [
+       "Warum die innere Uhr sich verschiebt"
+      ]
+     },
+     {
+      "text": "Abschnitt C: Die Folgen sind gut messbar. Schlafmangel trifft zuerst jene Fähigkeiten, die in der Schule am meisten zählen: das Behalten von Neuem, die Konzentration über längere Zeit und die Beherrschung der eigenen Stimmung. Ein Kind, das dauerhaft zu wenig schläft, wirkt oft nicht müde, sondern gereizt und unaufmerksam. Was leicht als Faulheit gedeutet wird.",
+      "loesung": [
+       "Was zu wenig Schlaf anrichtet"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Abschnitte D-F",
+    "optionen": [
+     "Warum Werbung immer lauter wird",
+     "Warum der Bildschirm wach hält",
+     "Was daraus folgt",
+     "Was ein späterer Schulbeginn bewirkt",
+     "Wie eine Klasse einen Ausflug plant"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Der Bildschirm am Abend macht es schlimmer, aber anders, als man denkt. Das Licht spielt eine kleinere Rolle als lange angenommen. Schwerer wiegt, was auf dem Bildschirm geschieht: Ein Video, das automatisch weiterläuft, oder eine Nachricht, auf die man antworten möchte, hält wach, weil sie immer wieder einen neuen Anfang setzt. Ein Buch endet auf jeder Seite, ein Feed nie.",
+      "loesung": [
+       "Warum der Bildschirm wach hält"
+      ]
+     },
+     {
+      "text": "Abschnitt E: In mehreren Ländern haben Schulen den Unterrichtsbeginn deshalb um dreissig bis sechzig Minuten nach hinten verschoben. Wo das geschah, stiegen die Leistungen leicht, die Zahl der Verspätungen sank deutlich, und die Jugendlichen schliefen tatsächlich länger. Sie gingen nicht einfach später ins Bett. Gegen die Verschiebung sprechen der Fahrplan, der Sport am Nachmittag und die Arbeitszeiten der Eltern.",
+      "loesung": [
+       "Was ein späterer Schulbeginn bewirkt"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Ein späterer Schulbeginn löst das Problem nicht allein. Aber er zeigt, dass die innere Uhr keine Frage der Erziehung ist. Wer sie kennt, streitet abends über andere Dinge, und legt das Handy vielleicht früher weg, weil er weiss, warum.",
+      "loesung": [
+       "Was daraus folgt"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Was Ortsnamen erzählen» · Abschnitte A-C",
+    "optionen": [
+     "Eine Landkarte als Geschichtsbuch",
+     "Endungen verraten das Alter",
+     "Weshalb alte Fotos verblassen",
+     "Wie Vereine neue Mitglieder finden",
+     "Zwei Namen an der Sprachgrenze"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt A: Wer im Kanton Bern eine Landkarte aufschlägt, liest eine Geschichte, ohne es zu merken. Zwischen Thun und Freiburg wechseln die Namen innerhalb weniger Kilometer die Sprache, und mitten in deutschsprachigem Gebiet stehen Dörfer, deren Namen weder deutsch noch französisch klingen. Namen sind langlebiger als Häuser.",
+      "loesung": [
+       "Eine Landkarte als Geschichtsbuch"
+      ]
+     },
+     {
+      "text": "Abschnitt B: Viele Endungen lassen sich lesen wie ein Datum. Orte auf -ingen gehen meist auf eine Sippe zurück, die sich dort niedergelassen hat; die Endung -wil oder -weil deutet auf einen einzelnen Hof, -bach und -matt auf das Wasser und die Wiese daneben. Wer eine Karte nach solchen Endungen ordnet, sieht grob, in welcher Reihenfolge eine Gegend besiedelt wurde.",
+      "loesung": [
+       "Endungen verraten das Alter"
+      ]
+     },
+     {
+      "text": "Abschnitt C: An der Sprachgrenze wird es besonders reizvoll. Manche Orte tragen zwei Namen, die nicht dasselbe bedeuten, sondern denselben Ort verschieden beschreiben. Andere tragen einen einzigen Namen, den beide Seiten verschieden aussprechen, bis er in der Schrift auseinanderfällt. Wo die Grenze früher verlief, lässt sich an den Namen oft genauer ablesen als an alten Urkunden.",
+      "loesung": [
+       "Zwei Namen an der Sprachgrenze"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   },
+   {
+    "stamm": "Ordne jedem Abschnitt seine Überschrift zu. Zwei Überschriften gehören zu keinem Abschnitt.\n\nAus: «Was Ortsnamen erzählen» · Abschnitte D-F",
+    "optionen": [
+     "Eine Quelle, die offen daliegt",
+     "Flussnamen überdauern alles",
+     "Warum Sprichwörter oft nicht stimmen",
+     "Wenn die einleuchtende Erklärung falsch ist",
+     "Weshalb Sammeln glücklich macht"
+    ],
+    "zeilen": [
+     {
+      "text": "Abschnitt D: Am ältesten sind die Gewässernamen. Flüsse behalten ihren Namen über Sprachwechsel hinweg, weil ein Fluss nicht neu benannt werden muss, wenn neue Menschen kommen. Er ist ja schon da und alle wissen, welcher gemeint ist. Einige Namen von Flüssen im Mittelland stammen aus einer Sprache, die vor den Römern gesprochen wurde und von der sonst kaum etwas übrig ist.",
+      "loesung": [
+       "Flussnamen überdauern alles"
+      ]
+     },
+     {
+      "text": "Abschnitt E: Nicht jede Erklärung, die einleuchtet, stimmt. Volksdeutungen erfinden zu einem Namen nachträglich eine Geschichte, die zum heutigen Klang passt. Ein Ort mit «Bär» im Namen bekommt eine Bärensage, obwohl der Name von einem ganz anderen Wort kommt. Fachleute prüfen darum zuerst die ältesten Schreibweisen in Urkunden und erst danach, was der Name heute zu bedeuten scheint.",
+      "loesung": [
+       "Wenn die einleuchtende Erklärung falsch ist"
+      ]
+     },
+     {
+      "text": "Abschnitt F: Ortsnamen sind damit eine Quelle wie Scherben oder Mauerreste, nur billiger zu haben. Sie liegen offen auf jeder Karte und in jedem Fahrplan. Man muss sie bloss lesen, und der Versuchung widerstehen, sie sich zurechtzulegen.",
+      "loesung": [
+       "Eine Quelle, die offen daliegt"
+      ]
+     }
+    ],
+    "erklaerung": "Jede Überschrift muss den ganzen Abschnitt decken. Wer bei einem Abschnitt sicher ist, streicht dessen Überschrift und hat es bei den übrigen leichter. Die zwei überzähligen fallen dann von selbst heraus."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Gliederung",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-ueberzaehlige-ueberschrift",
+  "lernzielId": "DBT.2.02",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "2.02"
+  ],
+  "format": "mehrfachauswahl",
+  "hinweise": [
+   "Ordne zuerst die Überschriften zu, bei denen du sicher bist.",
+   "Was danach übrig bleibt, gehört zu keinem Abschnitt. Auch wenn es zum Thema passt.",
+   "Achtung: Eine überzählige Überschrift klingt oft völlig vernünftig. Entscheidend ist nur, ob ein Abschnitt dazu gehört."
+  ],
+  "loesungsweg": [
+   "Ordne die sicheren Überschriften zuerst zu.",
+   "Prüfe die übrigen einzeln: Gibt es einen Abschnitt, der genau davon handelt?",
+   "Was keinen Abschnitt findet, ist überzählig."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: Elf Sekunden. So lange dauert es im Schnitt, bis eine Person an der Bushaltestelle zum ersten Mal aufs Handy schaut. Das hat eine Gruppe von Studierenden in Bern herausgefunden, die einen Nachmittag lang gezählt hat, wer wann in die Tasche greift. Wer wartet, hält die Leere kaum aus. Dabei warten wir jeden Tag: an der Kasse, vor dem Schulzimmer, auf eine Antwort, die nicht kommt.\n\nAbschnitt B: Dass sich Warten zäh anfühlt, ist keine Einbildung. In Versuchen schätzen Menschen leere Zeit regelmässig länger ein, als sie ist, im Schnitt um gut ein Drittel. Ist die Zeit dagegen gefüllt, etwa mit einem Gespräch oder einer Aufgabe, schrumpft sie im Rückblick zusammen. Unser Zeitgefühl misst nicht Minuten, sondern Ereignisse. Wo nichts geschieht, gibt es nichts zu messen, und der Kopf füllt die Lücke mit Ungeduld.\n\nAbschnitt C: Entscheidend ist weniger die Dauer als die Auskunft. Eine Anzeigetafel, die «noch 4 Minuten» meldet, macht das Warten erträglich, obwohl sie es um keine Sekunde verkürzt. Fehlt die Anzeige, wird aus vier Minuten ein offenes Ende. Verkehrsbetriebe wissen das seit Langem: Die Tafel am Perron ist keine technische Spielerei, sondern das billigste Mittel gegen Beschwerden, das sie haben.",
+    "optionen": [
+     "Auskunft hilft mehr als Kürze",
+     "Warum Werbung immer lauter wird",
+     "Warum leere Zeit länger vorkommt",
+     "Wie man ein Instrument am besten lernt",
+     "Wie schnell wir zum Handy greifen"
+    ],
+    "loesung": [
+     "Warum Werbung immer lauter wird",
+     "Wie man ein Instrument am besten lernt"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Wie schnell wir zum Handy greifen",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Auskunft hilft mehr als Kürze",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Am schwersten wiegt die Ungewissheit. Wer weiss, dass der Zug zwanzig Minuten Verspätung hat, richtet sich ein und kauft sich einen Kaffee. Wer nur hört, der Zug verspäte sich «auf unbestimmte Zeit», bleibt stehen und starrt auf die Gleise. Psychologinnen nennen das den Unterschied zwischen einem geschlossenen und einem offenen Warten. Das offene kostet mehr Kraft, weil man sich nicht entscheiden kann, ob man bleibt oder geht.\n\nAbschnitt E: Aus diesem Wissen ist längst ein Handwerk geworden. An manchen Flughäfen führt der Weg vom Flugzeug zum Gepäckband einen Umweg. Die Reisenden gehen sieben Minuten und warten dann eine, statt eine Minute zu gehen und sieben zu warten. Die Gesamtzeit bleibt gleich, die Beschwerden gehen zurück. In Freizeitparks stehen entlang der Schlange Spiegel, Bildschirme und kleine Rätsel. Nichts davon macht die Schlange kürzer.\n\nAbschnitt F: Man kann das für einen Trick halten. Man kann es auch nüchtern betrachten: Wer wartet, leidet nicht an der Zeit, sondern an der Leere und am Nichtwissen. Beides lässt sich füllen, ohne jemanden zu täuschen. Wer das nächste Mal an der Haltestelle steht, kann es selbst ausprobieren, nicht aufs Handy schauen, sondern auf die Uhr, und danach schätzen, wie lange es gedauert hat. Die meisten liegen deutlich daneben.",
+    "optionen": [
+     "Warten wird planmässig gestaltet",
+     "Warum Ferien zu schnell vorbeigehen",
+     "Warum Ungewissheit am schwersten wiegt",
+     "Was daraus für den Alltag folgt",
+     "Wie Vereine neue Mitglieder finden"
+    ],
+    "loesung": [
+     "Warum Ferien zu schnell vorbeigehen",
+     "Wie Vereine neue Mitglieder finden"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Warum Ungewissheit am schwersten wiegt",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Was daraus für den Alltag folgt",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: Um zwanzig nach neun schliessen sich in Basel die Türen, am Morgen um sieben öffnen sie sich in Amsterdam. Dazwischen liegen ein Abendessen im Speisewagen, ein schmales Bett und ein Frühstück, das an der Tür abgestellt wird. Wer so reist, verliert keinen Ferientag und braucht kein Hotel. Vor zwanzig Jahren hätte man dieses Angebot für ein Auslaufmodell gehalten.\n\nAbschnitt B: Denn genau das war es. Zwischen 2000 und 2016 verschwand eine Nachtverbindung nach der anderen. Der Grund lag weniger an den Reisenden als an der Rechnung: Ein Schlafwagen kostet im Betrieb ein Mehrfaches eines Sitzwagens, trägt aber nur einen Bruchteil der Personen. Gleichzeitig wurden Flüge innerhalb Europas so günstig, dass eine Nacht im Zug teurer war als ein Flug am Morgen. Die Bahnen zogen die Wagen ab und verkauften sie ins Ausland.\n\nAbschnitt C: Zurückgekommen sind die Nachtzüge nicht wegen der Technik, sondern wegen einer veränderten Stimmung. Seit etwa 2018 fragen mehr Menschen danach, was eine Reise an Treibhausgasen kostet, und eine Bahnfahrt von Zürich nach Berlin verursacht davon rund einen Zwanzigstel dessen, was der Flug verursacht. Österreich hat als erstes Land wieder in Wagen investiert, andere Bahnen sind gefolgt. Die Züge sind heute regelmässig ausgebucht.",
+    "optionen": [
+     "Eine Nacht zwischen Basel und Amsterdam",
+     "Warum die Nachtzüge verschwanden",
+     "Warum sie zurückkamen",
+     "Weshalb Sammeln glücklich macht",
+     "Wie eine Klasse einen Ausflug plant"
+    ],
+    "loesung": [
+     "Weshalb Sammeln glücklich macht",
+     "Wie eine Klasse einen Ausflug plant"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Eine Nacht zwischen Basel und Amsterdam",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Warum sie zurückkamen",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Von einem Selbstläufer kann trotzdem keine Rede sein. Ein Nachtzug fährt durch vier oder fünf Länder, und jedes Land verlangt eigene Zulassungen, eigene Sicherheitsnachweise und eine eigene Gebühr für die Benützung der Gleise. Kommt eine Strecke wegen Bauarbeiten nicht infrage, fällt die ganze Verbindung aus, weil es keinen zweiten Weg gibt. Und ein neuer Schlafwagen kostet rund vier Millionen Franken und wird vierzig Jahre eingesetzt. Wer ihn bestellt, wettet auf eine lange Zukunft.\n\nAbschnitt E: Betrieben werden die Linien darum meist von mehreren Bahnen gemeinsam, seltener von kleinen Gesellschaften, die einzelne Strecken übernehmen. Diese Kleinen sind beweglicher, aber verletzlicher: Fällt ein Wagen aus, haben sie keinen Ersatz. Zwei solche Gesellschaften haben in den letzten Jahren wieder aufgegeben, nachdem sie mit grosser Aufmerksamkeit gestartet waren.\n\nAbschnitt F: Wie es weitergeht, hängt an einer nüchternen Zahl: dem Preis. Solange ein Flug nach Wien vierzig Franken kostet und ein Bett im Nachtzug hundert-vierzig, entscheidet sich ein Teil der Reisenden gegen den Zug, auch wenn er ihn lieber nähme. Ändert sich daran etwas, durch Abgaben auf den Flugverkehr oder durch günstigere Gleisgebühren, wird aus der Rückkehr mehr als eine schöne Geschichte.",
+    "optionen": [
+     "Am Ende entscheidet der Preis",
+     "Was den Betrieb bis heute erschwert",
+     "Was gute Karten von schlechten unterscheidet",
+     "Wer die Linien betreibt",
+     "Weshalb alte Fotos verblassen"
+    ],
+    "loesung": [
+     "Was gute Karten von schlechten unterscheidet",
+     "Weshalb alte Fotos verblassen"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Was den Betrieb bis heute erschwert",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Am Ende entscheidet der Preis",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: Drei Grössen bestellt, eine behalten, zwei zurück. Wer online Kleider kauft, macht das selbstverständlich, und die Läden laden geradezu dazu ein: «Rücksendung gratis» steht in grossen Buchstaben neben dem Knopf zum Bestellen. Das Paket steht am Abend vor der Tür, das Rücksendeetikett liegt bei. Bequemer geht es nicht.\n\nAbschnitt B: Wie viel zurückgeht, hängt stark von der Ware ab. Bei Elektronik sind es wenige Prozente, bei Schuhen und Kleidern in manchen Sortimenten mehr als die Hälfte. Ein einziges Paar Schuhe kann so dreimal quer durch das Land fahren, bevor es jemandem passt. Die Wege summieren sich zu Zahlen, die sich niemand vorstellt, wenn er auf «bestellen» tippt.\n\nAbschnitt C: Was danach mit der Ware geschieht, überrascht viele. Jede Rücksendung muss von Hand geöffnet, geprüft, gereinigt und neu verpackt werden. Das kostet je nach Betrieb zwischen fünf und fünfzehn Franken. Liegt der Verkaufs-preis darunter, lohnt sich die Prüfung nicht, und ein Teil der Ware wird verbilligt weitergegeben oder vernichtet. In der Schweiz ist das Vernichten von Neuware nicht verboten, in einzelnen Nachbarländern inzwischen schon.",
+    "optionen": [
+     "Drei Grössen bestellen ist selbstverständlich",
+     "Warum Sprichwörter oft nicht stimmen",
+     "Warum Wörterbücher immer dicker werden",
+     "Was mit der Ware danach geschieht",
+     "Wie viel zurückgeschickt wird"
+    ],
+    "loesung": [
+     "Warum Sprichwörter oft nicht stimmen",
+     "Warum Wörterbücher immer dicker werden"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Drei Grössen bestellen ist selbstverständlich",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Was mit der Ware danach geschieht",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Gratis ist die Rücksendung deshalb nie. Sie ist eingepreist: Ein Laden, bei dem jedes zweite Stück zurückkommt, muss den Aufwand auf alle verkauften Stücke umlegen. Wer selten zurückschickt, zahlt also für jene mit, die regelmässig fünf Stück bestellen und vier zurückgeben. Genau darum haben einzelne Häuser damit begonnen, Kundinnen und Kunden mit sehr hohen Rücksendequoten zu sperren.\n\nAbschnitt E: Die Läden versuchen es zuerst mit sanfteren Mitteln. Genauere Massangaben, Bilder an echten Menschen statt an Puppen, Bewertungen zur Passform, manchmal ein Hinweis wie «fällt klein aus». Wo solche Angaben eingeführt wurden, sank die Rücksendequote in einzelnen Sortimenten um mehrere Prozentpunkte. Das klingt wenig, ist bei Millionen von Bestellungen aber viel.\n\nAbschnitt F: Für die einzelne Person bleibt eine einfache Frage: Bestelle ich drei Grössen, weil ich die richtige nicht kenne, oder weil ich zwei Minuten sparen will? Die erste Antwort ist verständlich. Die zweite hat einen Preis, den nur nicht sie selbst bezahlt.",
+    "optionen": [
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Warum gratis nie gratis ist",
+     "Was jede einzelne Person entscheidet",
+     "Wie man ein Instrument am besten lernt",
+     "Womit die Läden es zuerst versuchen"
+    ],
+    "loesung": [
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Wie man ein Instrument am besten lernt"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Warum gratis nie gratis ist",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Was jede einzelne Person entscheidet",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: Es braucht selten mehr als drei Takte. Ein Lied setzt ein, und plötzlich steht der Sommer vor drei Jahren wieder da, mit dem Geruch des Freibads und dem Namen einer Person, an die man lange nicht gedacht hat. Kaum ein anderer Sinneseindruck holt Erinnerungen so vollständig zurück wie Musik.\n\nAbschnitt B: Der Grund liegt darin, wie Musik im Gehirn abgelegt wird. Ein Lied läuft nicht durch eine Stelle, sondern durch viele gleichzeitig: für Rhythmus, für Tonhöhe, für Sprache, für Gefühl, für Bewegung. Jede dieser Stellen kann später als Einstieg dienen. Eine Erinnerung, die an fünf Fäden hängt, reisst nicht so schnell ab wie eine, die an einem hängt.\n\nAbschnitt C: Dieselbe Eigenschaft erklärt den Ohrwurm. Besonders hartnäckig sind Lieder mit einfacher Melodie, mittlerem Tempo und einer kleinen Unregelmässigkeit. Einem Sprung, der nicht ganz dorthin geht, wo man ihn erwartet. Das Gehirn spielt die Stelle weiter, weil es sie zu Ende bringen will. Wer den Ohrwurm loswerden will, hört das Lied darum am besten ganz an, statt es zu verdrängen.",
+    "optionen": [
+     "Ein Lied holt einen ganzen Sommer zurück",
+     "Warum Ferien zu schnell vorbeigehen",
+     "Warum Lieder im Kopf hängen bleiben",
+     "Warum Musik so viele Wege ins Gedächtnis hat",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "loesung": [
+     "Warum Ferien zu schnell vorbeigehen",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Ein Lied holt einen ganzen Sommer zurück",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Warum Lieder im Kopf hängen bleiben",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Beim Lernen ist die Wirkung weniger eindeutig, als viele hoffen. Musik mit Text nimmt genau jenen Teil des Gehirns in Anspruch, den man zum Lesen braucht; wer einen Sachtext liest und gleichzeitig einem Liedtext zuhört, versteht messbar weniger. Bei Musik ohne Text und bei gleichförmigen Tätigkeiten sieht es anders aus: Dort kann sie helfen, weil sie Störgeräusche überdeckt und die Stimmung hebt.\n\nAbschnitt E: Am deutlichsten ist der Zusammenhang zwischen Musik und Bewegung. Wer im Takt läuft, verbraucht bei gleicher Geschwindigkeit weniger Kraft, und die Anstrengung fühlt sich geringer an. Sportlerinnen und Sportler nutzen das seit Jahrzehnten. An Wettkämpfen ist Musik im Ohr deshalb häufig verboten, nicht aus Strenge, sondern weil sie einen messbaren Vorteil verschafft.\n\nAbschnitt F: Musik ist also weder ein Wundermittel noch bloss Unterhaltung. Sie greift in Gedächtnis, Aufmerksamkeit und Bewegung ein, und sie tut es nicht immer zu unserem Vorteil. Wer weiss, wann sie hilft und wann sie stört, hat ein erstaunlich wirksames Werkzeug in der Hosentasche.",
+    "optionen": [
+     "Musik macht das Laufen leichter",
+     "Ob Musik beim Lernen hilft",
+     "Warum Werbung immer lauter wird",
+     "Weder Wundermittel noch blosse Unterhaltung",
+     "Wie eine Klasse einen Ausflug plant"
+    ],
+    "loesung": [
+     "Warum Werbung immer lauter wird",
+     "Wie eine Klasse einen Ausflug plant"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Ob Musik beim Lernen hilft",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Weder Wundermittel noch blosse Unterhaltung",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: «Geh endlich ins Bett» ist wahrscheinlich der meistgesagte Satz in Familien mit Jugendlichen. Er hilft selten. Wer mit vierzehn um zehn Uhr im Bett liegt und nicht müde wird, ist nicht bockig, sondern folgt einer inneren Uhr, die sich in diesen Jahren verstellt.\n\nAbschnitt B: Diese Verschiebung ist gut belegt. In der Pubertät wird das Schlafhormon Melatonin rund zwei Stunden später ausgeschüttet als in der Kindheit. Der Körper meldet also erst gegen Mitternacht, dass es Zeit wäre. Das Bedürfnis nach Schlaf bleibt dabei gleich gross: Neun Stunden gelten weiterhin als angemessen. Wer um sieben aufstehen muss, kommt damit rechnerisch nicht hin.\n\nAbschnitt C: Die Folgen sind gut messbar. Schlafmangel trifft zuerst jene Fähigkeiten, die in der Schule am meisten zählen: das Behalten von Neuem, die Konzentration über längere Zeit und die Beherrschung der eigenen Stimmung. Ein Kind, das dauerhaft zu wenig schläft, wirkt oft nicht müde, sondern gereizt und unaufmerksam. Was leicht als Faulheit gedeutet wird.",
+    "optionen": [
+     "Der Satz, der nie hilft",
+     "Warum die innere Uhr sich verschiebt",
+     "Was zu wenig Schlaf anrichtet",
+     "Weshalb alte Fotos verblassen",
+     "Wie Vereine neue Mitglieder finden"
+    ],
+    "loesung": [
+     "Weshalb alte Fotos verblassen",
+     "Wie Vereine neue Mitglieder finden"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Der Satz, der nie hilft",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Was zu wenig Schlaf anrichtet",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Der Bildschirm am Abend macht es schlimmer, aber anders, als man denkt. Das Licht spielt eine kleinere Rolle als lange angenommen. Schwerer wiegt, was auf dem Bildschirm geschieht: Ein Video, das automatisch weiterläuft, oder eine Nachricht, auf die man antworten möchte, hält wach, weil sie immer wieder einen neuen Anfang setzt. Ein Buch endet auf jeder Seite, ein Feed nie.\n\nAbschnitt E: In mehreren Ländern haben Schulen den Unterrichtsbeginn deshalb um dreissig bis sechzig Minuten nach hinten verschoben. Wo das geschah, stiegen die Leistungen leicht, die Zahl der Verspätungen sank deutlich, und die Jugendlichen schliefen tatsächlich länger. Sie gingen nicht einfach später ins Bett. Gegen die Verschiebung sprechen der Fahrplan, der Sport am Nachmittag und die Arbeitszeiten der Eltern.\n\nAbschnitt F: Ein späterer Schulbeginn löst das Problem nicht allein. Aber er zeigt, dass die innere Uhr keine Frage der Erziehung ist. Wer sie kennt, streitet abends über andere Dinge, und legt das Handy vielleicht früher weg, weil er weiss, warum.",
+    "optionen": [
+     "Warum Sprichwörter oft nicht stimmen",
+     "Warum der Bildschirm wach hält",
+     "Was daraus folgt",
+     "Was ein späterer Schulbeginn bewirkt",
+     "Weshalb Sammeln glücklich macht"
+    ],
+    "loesung": [
+     "Warum Sprichwörter oft nicht stimmen",
+     "Weshalb Sammeln glücklich macht"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Warum der Bildschirm wach hält",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Was daraus folgt",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt A: Wer im Kanton Bern eine Landkarte aufschlägt, liest eine Geschichte, ohne es zu merken. Zwischen Thun und Freiburg wechseln die Namen innerhalb weniger Kilometer die Sprache, und mitten in deutschsprachigem Gebiet stehen Dörfer, deren Namen weder deutsch noch französisch klingen. Namen sind langlebiger als Häuser.\n\nAbschnitt B: Viele Endungen lassen sich lesen wie ein Datum. Orte auf -ingen gehen meist auf eine Sippe zurück, die sich dort niedergelassen hat; die Endung -wil oder -weil deutet auf einen einzelnen Hof, -bach und -matt auf das Wasser und die Wiese daneben. Wer eine Karte nach solchen Endungen ordnet, sieht grob, in welcher Reihenfolge eine Gegend besiedelt wurde.\n\nAbschnitt C: An der Sprachgrenze wird es besonders reizvoll. Manche Orte tragen zwei Namen, die nicht dasselbe bedeuten, sondern denselben Ort verschieden beschreiben. Andere tragen einen einzigen Namen, den beide Seiten verschieden aussprechen, bis er in der Schrift auseinanderfällt. Wo die Grenze früher verlief, lässt sich an den Namen oft genauer ablesen als an alten Urkunden.",
+    "optionen": [
+     "Eine Landkarte als Geschichtsbuch",
+     "Endungen verraten das Alter",
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Was gute Karten von schlechten unterscheidet",
+     "Zwei Namen an der Sprachgrenze"
+    ],
+    "loesung": [
+     "Warum Fahrpläne so schwer zu lesen sind",
+     "Was gute Karten von schlechten unterscheidet"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Eine Landkarte als Geschichtsbuch",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Zwei Namen an der Sprachgrenze",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche zwei Überschriften passen zu KEINEM der drei Abschnitte?\n\nAbschnitt D: Am ältesten sind die Gewässernamen. Flüsse behalten ihren Namen über Sprachwechsel hinweg, weil ein Fluss nicht neu benannt werden muss, wenn neue Menschen kommen. Er ist ja schon da und alle wissen, welcher gemeint ist. Einige Namen von Flüssen im Mittelland stammen aus einer Sprache, die vor den Römern gesprochen wurde und von der sonst kaum etwas übrig ist.\n\nAbschnitt E: Nicht jede Erklärung, die einleuchtet, stimmt. Volksdeutungen erfinden zu einem Namen nachträglich eine Geschichte, die zum heutigen Klang passt. Ein Ort mit «Bär» im Namen bekommt eine Bärensage, obwohl der Name von einem ganz anderen Wort kommt. Fachleute prüfen darum zuerst die ältesten Schreibweisen in Urkunden und erst danach, was der Name heute zu bedeuten scheint.\n\nAbschnitt F: Ortsnamen sind damit eine Quelle wie Scherben oder Mauerreste, nur billiger zu haben. Sie liegen offen auf jeder Karte und in jedem Fahrplan. Man muss sie bloss lesen, und der Versuchung widerstehen, sie sich zurechtzulegen.",
+    "optionen": [
+     "Eine Quelle, die offen daliegt",
+     "Flussnamen überdauern alles",
+     "Warum Wörterbücher immer dicker werden",
+     "Wenn die einleuchtende Erklärung falsch ist",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "loesung": [
+     "Warum Wörterbücher immer dicker werden",
+     "Wie man eine Reise am besten bezahlt"
+    ],
+    "erklaerung": "Die überzählige Überschrift erkennt man nicht daran, dass sie falsch klingt, sondern daran, dass zu ihr kein Abschnitt gehört. Ordne zuerst die sicheren zu; was übrig bleibt, ist die Antwort.",
+    "fehler": [
+     {
+      "antwort": "Flussnamen überdauern alles",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Diese Überschrift gehört zu einem der drei Abschnitte. Lies ihn noch einmal von vorn. Die Hauptsache steht meist im ersten oder letzten Satz."
+     },
+     {
+      "antwort": "Eine Quelle, die offen daliegt",
+      "diagnoseId": "abschnitt_uebersehen",
+      "feedback": "Zu dieser Überschrift gibt es sehr wohl einen Abschnitt. Gesucht sind die beiden, zu denen keiner passt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Gliederung",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-belegstelle",
+  "lernzielId": "DBT.3.02",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "3.02",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "optionen": [
+   "Abschnitt A",
+   "Abschnitt B",
+   "Abschnitt C",
+   "Abschnitt D",
+   "Abschnitt E",
+   "Abschnitt F"
+  ],
+  "hinweise": [
+   "Suche im Text die Stelle, an der die Aussage steht, nicht die, an der sie hinpassen würde.",
+   "Die Abschnitte folgen einer Ordnung: erst die Beobachtung, dann die Erklärung, dann die Beispiele, zuletzt das Fazit.",
+   "Wenn zwei Abschnitte in Frage kommen, entscheidet, welcher die Aussage BELEGT und welcher sie nur streift."
+  ],
+  "loesungsweg": [
+   "Ordne den Text grob: Wo steht die Beobachtung, wo die Erklärung, wo das Beispiel?",
+   "Suche das Stichwort der Aussage im Text.",
+   "Prüfe, ob der Abschnitt die Aussage wirklich trägt oder sie nur berührt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Warum Warten so schwerfällt»\n\nEine Auskunft hilft mehr als eine kürzere Wartezeit.",
+    "loesung": [
+     "Abschnitt C"
+    ],
+    "erklaerung": "Der Abschnitt über die Anzeigetafel sagt es in einem Satz: Sie verkürzt nichts, macht das Warten aber erträglich.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt B",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt B erklärt, warum leere Zeit länger scheint. Von Auskunft ist dort noch nicht die Rede."
+     },
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt D geht einen Schritt weiter: Dort fehlt die Auskunft ganz. Hier steht noch, was sie bewirkt, wenn sie da ist."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Warum Warten so schwerfällt»\n\nEin längerer Fussweg kann Beschwerden senken.",
+    "loesung": [
+     "Abschnitt E"
+    ],
+    "erklaerung": "Das Beispiel vom Gepäckband steht dort, wo aus dem Wissen über das Warten ein Handwerk wird.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "In Abschnitt C geht es um die Anzeigetafel, also um Auskunft, nicht um den Weg."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F zieht bloss das Fazit. Das Beispiel selbst steht davor."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Warum Warten so schwerfällt»\n\nMenschen schätzen leere Zeit um gut ein Drittel zu lang.",
+    "loesung": [
+     "Abschnitt B"
+    ],
+    "erklaerung": "Die Zahl steht in dem Abschnitt, der das Zeitgefühl erklärt.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt A",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt A nennt die elf Sekunden bis zum Handy. Eine andere Zahl."
+     },
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt D handelt von der Ungewissheit, nicht von der Schätzung der Dauer."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Die Rückkehr der Nachtzüge»\n\nEin Schlafwagen kostet im Betrieb ein Mehrfaches eines Sitzwagens.",
+    "loesung": [
+     "Abschnitt B"
+    ],
+    "erklaerung": "Diese Rechnung erklärt, warum die Nachtzüge verschwanden.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "In Abschnitt D steht der Preis eines neuen Wagens. Vier Millionen Franken. Das ist eine andere Zahl mit einem anderen Zweck."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F vergleicht Flug- und Bettpreis für die Reisenden, nicht die Betriebskosten der Bahn."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Die Rückkehr der Nachtzüge»\n\nJedes durchfahrene Land verlangt eigene Zulassungen.",
+    "loesung": [
+     "Abschnitt D"
+    ],
+    "erklaerung": "Das steht dort, wo der Text die Hürden des Betriebs aufzählt.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt B",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt B nennt die Gründe für das Verschwinden. Kosten und billige Flüge, nicht Zulassungen."
+     },
+     {
+      "antwort": "Abschnitt E",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt E handelt von den Betreibern, nicht von den Vorschriften."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Die Rückkehr der Nachtzüge»\n\nSeit etwa 2018 fragen mehr Menschen nach den Treibhausgasen einer Reise.",
+    "loesung": [
+     "Abschnitt C"
+    ],
+    "erklaerung": "Die Jahreszahl steht in dem Abschnitt, der die Rückkehr erklärt.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt B",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt B nennt die Jahre 2000 bis 2016. Die Zeit des Verschwindens."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F blickt nach vorn und nennt keine Jahreszahl."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Der Preis der Bequemlichkeit»\n\nEine Rücksendung kostet den Betrieb zwischen fünf und fünfzehn Franken.",
+    "loesung": [
+     "Abschnitt C"
+    ],
+    "erklaerung": "Der Betrag steht dort, wo beschrieben wird, was mit der Ware nach der Rücksendung geschieht.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt B",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt B nennt Anteile in Prozent, keine Frankenbeträge."
+     },
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt D erklärt, wer diesen Aufwand bezahlt. Beziffert wird er im Abschnitt davor."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Der Preis der Bequemlichkeit»\n\nEin Hinweis wie «fällt klein aus» soll Rücksendungen verhindern.",
+    "loesung": [
+     "Abschnitt E"
+    ],
+    "erklaerung": "Solche Angaben zählt der Text unter den sanfteren Mitteln der Läden auf.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "In Abschnitt D geht es ums Geld und um gesperrte Kundschaft, nicht um Angaben zur Passform."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F wendet sich an die einzelne Person, nicht an die Läden."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Was Musik im Kopf anrichtet»\n\nEin Liedtext beansprucht denselben Teil des Gehirns wie das Lesen.",
+    "loesung": [
+     "Abschnitt D"
+    ],
+    "erklaerung": "Das ist die Begründung dafür, dass Musik mit Text beim Lernen stört.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt B",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt B erklärt, warum Musik Erinnerungen weckt. Mehrere Wege ins Gedächtnis, nicht das Lesen."
+     },
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt C handelt vom Ohrwurm, also davon, warum eine Melodie hängen bleibt. Vom Lesen und vom Lernen ist dort nicht die Rede."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Was Musik im Kopf anrichtet»\n\nWer im Takt läuft, verbraucht bei gleicher Geschwindigkeit weniger Kraft.",
+    "loesung": [
+     "Abschnitt E"
+    ],
+    "erklaerung": "Der Satz steht dort, wo Musik und Bewegung zusammenkommen.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt D handelt vom Lernen, nicht vom Laufen."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F fasst zusammen und bringt keine neue Beobachtung."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Der verschobene Schlaf der Jugendlichen»\n\nMelatonin wird in der Pubertät rund zwei Stunden später ausgeschüttet.",
+    "loesung": [
+     "Abschnitt B"
+    ],
+    "erklaerung": "Das ist die biologische Erklärung, auf der alles Weitere aufbaut.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt C nennt die Folgen des Schlafmangels, nicht seine Ursache."
+     },
+     {
+      "antwort": "Abschnitt E",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt E berichtet von Schulen, die den Beginn verschoben haben."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Der verschobene Schlaf der Jugendlichen»\n\nWo der Unterricht später begann, sank die Zahl der Verspätungen deutlich.",
+    "loesung": [
+     "Abschnitt E"
+    ],
+    "erklaerung": "Diese Beobachtung stammt aus dem Abschnitt über die Schulen, die den Beginn verschoben haben.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt C zählt auf, was Schlafmangel anrichtet. Verspätungen gehören nicht dazu."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F zieht das Fazit und nennt keine Zahlen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Was Ortsnamen erzählen»\n\nDie Endung -wil deutet auf einen einzelnen Hof.",
+    "loesung": [
+     "Abschnitt B"
+    ],
+    "erklaerung": "Die Zuordnung der Endungen steht in dem Abschnitt, der die Namen wie ein Datum lesen lässt.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt C handelt von der Sprachgrenze und von Orten mit zwei Namen."
+     },
+     {
+      "antwort": "Abschnitt D",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt D handelt von Gewässernamen, nicht von Siedlungen. Die Endungen der Ortsnamen stehen einen Abschnitt weiter vorn."
+     }
+    ]
+   },
+   {
+    "stamm": "In welchem Abschnitt steht das?\n\nAus: «Was Ortsnamen erzählen»\n\nZu einem Ort mit «Bär» im Namen wird nachträglich eine Sage erfunden.",
+    "loesung": [
+     "Abschnitt E"
+    ],
+    "erklaerung": "Das Beispiel steht dort, wo der Text vor einleuchtenden, aber falschen Erklärungen warnt.",
+    "fehler": [
+     {
+      "antwort": "Abschnitt C",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt C erklärt, wie an der Sprachgrenze zwei Namen entstehen."
+     },
+     {
+      "antwort": "Abschnitt F",
+      "diagnoseId": "nachbarabschnitt",
+      "feedback": "Abschnitt F zieht das Fazit. Die Warnung selbst steht davor."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Belegstelle",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-aussagen-1",
+  "lernzielId": "DBT.3.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "3.01",
+   "3.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies alle vier Aussagen, bevor du dich entscheidest, oft schliessen sich zwei gegenseitig aus, und eine davon ist die richtige.",
+   "Suche zu jeder Aussage die Stelle im Text. Findest du keine, ist die Aussage falsch, auch wenn sie vernünftig klingt.",
+   "Achte auf Wörter wie «alle», «nur», «immer», «nie». Sie machen aus einer richtigen Aussage oft eine falsche."
+  ],
+  "loesungsweg": [
+   "Suche zu jeder Aussage die Stelle im Text.",
+   "Streiche, was dort nicht steht. Auch wenn es einleuchtet.",
+   "Prüfe bei den übrigen, ob eine Verstärkung wie «alle» oder «nur» hineingeschmuggelt wurde."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Warum Warten so schwerfällt» · Frage 1",
+    "optionen": [
+     "Das Zeitgefühl richtet sich nach Ereignissen, nicht nach Minuten.",
+     "Leere Zeit vergeht messbar langsamer als gefüllte.",
+     "Menschen schätzen jede Wartezeit um genau ein Drittel zu lang.",
+     "Wer wartet, wird immer ungeduldig."
+    ],
+    "loesung": [
+     "Das Zeitgefühl richtet sich nach Ereignissen, nicht nach Minuten."
+    ],
+    "erklaerung": "Der Text sagt es in Abschnitt B ausdrücklich: Wo nichts geschieht, gibt es nichts zu messen. Nicht die Zeit ändert sich, sondern die Schätzung.",
+    "fehler": [
+     {
+      "antwort": "Leere Zeit vergeht messbar langsamer als gefüllte.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Die Zeit selbst vergeht gleich schnell. Nur die Schätzung fällt anders aus. Genau das ist der Unterschied, um den es im ganzen Abschnitt geht."
+     },
+     {
+      "antwort": "Menschen schätzen jede Wartezeit um genau ein Drittel zu lang.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Im Text steht «im Schnitt um gut ein Drittel». Das ist ein Durchschnitt über viele Versuche, kein Wert, der bei jeder Wartezeit gilt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Warum Warten so schwerfällt» · Frage 2",
+    "optionen": [
+     "Eine Anzeigetafel verkürzt das Warten nicht, macht es aber erträglicher.",
+     "Eine Anzeigetafel verkürzt die Wartezeit um mehrere Minuten.",
+     "Verkehrsbetriebe stellen Tafeln auf, weil das Gesetz es verlangt.",
+     "Ohne Anzeigetafel gibt es keine Beschwerden."
+    ],
+    "loesung": [
+     "Eine Anzeigetafel verkürzt das Warten nicht, macht es aber erträglicher."
+    ],
+    "erklaerung": "Abschnitt C sagt beides in einem Satz: Die Tafel verkürzt das Warten um keine Sekunde, ist aber das billigste Mittel gegen Beschwerden.",
+    "fehler": [
+     {
+      "antwort": "Eine Anzeigetafel verkürzt die Wartezeit um mehrere Minuten.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text sagt ausdrücklich das Gegenteil: um keine Sekunde. Sie ändert nur, wie das Warten sich anfühlt."
+     },
+     {
+      "antwort": "Ohne Anzeigetafel gibt es keine Beschwerden.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Umgekehrt: Gerade ohne Tafel gibt es mehr Beschwerden. Deshalb lohnt sie sich für die Betriebe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Warum Warten so schwerfällt» · Frage 3",
+    "optionen": [
+     "Offenes Warten kostet mehr Kraft als Warten mit bekannter Dauer.",
+     "Zwanzig Minuten Verspätung sind schlimmer als eine unbestimmte Wartezeit.",
+     "Wer einen Kaffee kauft, wartet nachweislich kürzer.",
+     "Ungewissheit stört nur Menschen, die es eilig haben."
+    ],
+    "loesung": [
+     "Offenes Warten kostet mehr Kraft als Warten mit bekannter Dauer."
+    ],
+    "erklaerung": "Abschnitt D nennt den Grund: Beim offenen Warten kann man sich nicht entscheiden, ob man bleibt oder geht. Diese Unentschiedenheit zehrt.",
+    "fehler": [
+     {
+      "antwort": "Zwanzig Minuten Verspätung sind schlimmer als eine unbestimmte Wartezeit.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Genau umgekehrt. Wer die zwanzig Minuten kennt, richtet sich ein; wer nichts weiss, bleibt stehen."
+     },
+     {
+      "antwort": "Ungewissheit stört nur Menschen, die es eilig haben.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von Eile ist im Abschnitt keine Rede. Der Unterschied liegt zwischen geschlossenem und offenem Warten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Warum Warten so schwerfällt» · Frage 4",
+    "optionen": [
+     "Der Umweg zum Gepäckband ändert die Gesamtzeit nicht, senkt aber die Klagen.",
+     "Der Umweg zum Gepäckband spart den Reisenden sechs Minuten.",
+     "Flughäfen bauen Umwege, um mehr Läden unterzubringen.",
+     "Freizeitparks verkürzen die Schlangen mit Spiegeln."
+    ],
+    "loesung": [
+     "Der Umweg zum Gepäckband ändert die Gesamtzeit nicht, senkt aber die Klagen."
+    ],
+    "erklaerung": "Abschnitt E rechnet es vor: sieben Minuten gehen und eine warten statt einer gehen und sieben warten. Die Summe bleibt acht.",
+    "fehler": [
+     {
+      "antwort": "Der Umweg zum Gepäckband spart den Reisenden sechs Minuten.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Gespart wird nichts. Der Text sagt ausdrücklich: Die Gesamtzeit bleibt gleich."
+     },
+     {
+      "antwort": "Freizeitparks verkürzen die Schlangen mit Spiegeln.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der letzte Satz des Abschnitts sagt das Gegenteil: Nichts davon macht die Schlange kürzer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Die Rückkehr der Nachtzüge» · Frage 1",
+    "optionen": [
+     "Nachtzüge verschwanden vor allem, weil sie sich nicht rechneten.",
+     "Nachtzüge verschwanden, weil niemand mehr nachts reisen wollte.",
+     "Nachtzüge wurden verboten, als die Flüge billiger wurden.",
+     "Nachtzüge verschwanden, weil die Wagen technisch veraltet waren."
+    ],
+    "loesung": [
+     "Nachtzüge verschwanden vor allem, weil sie sich nicht rechneten."
+    ],
+    "erklaerung": "Abschnitt B nennt den Grund ausdrücklich: Er lag weniger an den Reisenden als an der Rechnung. Teurer Betrieb, wenige Plätze, billige Flüge.",
+    "fehler": [
+     {
+      "antwort": "Nachtzüge verschwanden, weil niemand mehr nachts reisen wollte.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Text schliesst genau das aus: «weniger an den Reisenden als an der Rechnung»."
+     },
+     {
+      "antwort": "Nachtzüge wurden verboten, als die Flüge billiger wurden.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von einem Verbot steht nichts da. Die Bahnen zogen die Wagen von sich aus ab, weil sie sich nicht lohnten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Die Rückkehr der Nachtzüge» · Frage 2",
+    "optionen": [
+     "Ein Nachtzug fällt ganz aus, wenn eine Strecke wegen Bauarbeiten gesperrt ist.",
+     "Bei Bauarbeiten wird der Nachtzug über eine Ersatzstrecke geführt.",
+     "Bauarbeiten verzögern den Nachtzug um einige Stunden.",
+     "Nachtzüge fahren nur auf Strecken ohne Bauarbeiten."
+    ],
+    "loesung": [
+     "Ein Nachtzug fällt ganz aus, wenn eine Strecke wegen Bauarbeiten gesperrt ist."
+    ],
+    "erklaerung": "Abschnitt D begründet es: Es gibt keinen zweiten Weg. Darum fällt die ganze Verbindung aus statt bloss ein Halt.",
+    "fehler": [
+     {
+      "antwort": "Bei Bauarbeiten wird der Nachtzug über eine Ersatzstrecke geführt.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text sagt gerade, dass es keinen zweiten Weg gibt. Genau das macht die Sache so heikel."
+     },
+     {
+      "antwort": "Bauarbeiten verzögern den Nachtzug um einige Stunden.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Von Verspätung ist nicht die Rede, sondern vom Ausfall der ganzen Verbindung."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Die Rückkehr der Nachtzüge» · Frage 3",
+    "optionen": [
+     "Kleine Bahngesellschaften sind wendiger, halten Rückschläge aber schlechter aus.",
+     "Kleine Bahngesellschaften betreiben heute die meisten Nachtzüge.",
+     "Kleine Bahngesellschaften haben mehr Ersatzwagen als grosse.",
+     "Kleine Bahngesellschaften bekommen keine Zulassungen."
+    ],
+    "loesung": [
+     "Kleine Bahngesellschaften sind wendiger, halten Rückschläge aber schlechter aus."
+    ],
+    "erklaerung": "Abschnitt E sagt beides: beweglicher, aber verletzlicher, und nennt den Grund, dass ein einziger ausgefallener Wagen nicht ersetzt werden kann.",
+    "fehler": [
+     {
+      "antwort": "Kleine Bahngesellschaften betreiben heute die meisten Nachtzüge.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Im Text steht «seltener». Die Linien werden meist von mehreren grossen Bahnen gemeinsam betrieben."
+     },
+     {
+      "antwort": "Kleine Bahngesellschaften haben mehr Ersatzwagen als grosse.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Genau umgekehrt: Fällt ein Wagen aus, haben sie keinen Ersatz. Das ist ihre Verletzlichkeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Die Rückkehr der Nachtzüge» · Frage 4",
+    "optionen": [
+     "Ein Teil der Reisenden nimmt den Flug, obwohl er den Zug vorzöge.",
+     "Alle Reisenden entscheiden sich nach dem Preis.",
+     "Der Nachtzug ist inzwischen günstiger als der Flug.",
+     "Wer den Zug lieber nimmt, bezahlt auch mehr dafür."
+    ],
+    "loesung": [
+     "Ein Teil der Reisenden nimmt den Flug, obwohl er den Zug vorzöge."
+    ],
+    "erklaerung": "Abschnitt F sagt es fast wörtlich: Ein Teil entscheidet sich gegen den Zug, auch wenn er ihn lieber nähme.",
+    "fehler": [
+     {
+      "antwort": "Alle Reisenden entscheiden sich nach dem Preis.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Im Text steht «ein Teil der Reisenden». «Alle» macht daraus eine Behauptung, die der Text nicht deckt."
+     },
+     {
+      "antwort": "Wer den Zug lieber nimmt, bezahlt auch mehr dafür.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Satz sagt gerade, dass viele es eben nicht tun. Der Preis entscheidet gegen die eigene Vorliebe."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der Preis der Bequemlichkeit» · Frage 1",
+    "optionen": [
+     "Die Kosten der Rücksendungen stecken im Preis aller verkauften Stücke.",
+     "Rücksendungen sind für den Laden kostenlos.",
+     "Nur wer zurückschickt, bezahlt für die Rücksendungen.",
+     "Rücksendungen werden vom Postbetrieb bezahlt."
+    ],
+    "loesung": [
+     "Die Kosten der Rücksendungen stecken im Preis aller verkauften Stücke."
+    ],
+    "erklaerung": "Abschnitt D erklärt es: Ein Laden muss den Aufwand umlegen. Wer selten zurückschickt, zahlt für jene mit, die es oft tun.",
+    "fehler": [
+     {
+      "antwort": "Nur wer zurückschickt, bezahlt für die Rücksendungen.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text sagt das Gegenteil: Gerade wer selten zurückschickt, zahlt für die anderen mit."
+     },
+     {
+      "antwort": "Rücksendungen sind für den Laden kostenlos.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Fünf bis fünfzehn Franken je Rücksendung nennt Abschnitt C. Gratis ist sie nur für die Kundschaft, und auch das nur scheinbar."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der Preis der Bequemlichkeit» · Frage 2",
+    "optionen": [
+     "Ware wird vernichtet, wenn die Prüfung mehr kostet, als sie einbringt.",
+     "Ware wird vernichtet, weil sie beschädigt zurückkommt.",
+     "In der Schweiz ist das Vernichten von Neuware verboten.",
+     "Jede Rücksendung wird geprüft und wieder verkauft."
+    ],
+    "loesung": [
+     "Ware wird vernichtet, wenn die Prüfung mehr kostet, als sie einbringt."
+    ],
+    "erklaerung": "Abschnitt C nennt die Rechnung: fünf bis fünfzehn Franken Aufwand. Liegt der Verkaufspreis darunter, lohnt sich die Prüfung nicht.",
+    "fehler": [
+     {
+      "antwort": "In der Schweiz ist das Vernichten von Neuware verboten.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Text sagt: in der Schweiz nicht verboten, in einzelnen Nachbarländern inzwischen schon. Du hast die beiden vertauscht."
+     },
+     {
+      "antwort": "Ware wird vernichtet, weil sie beschädigt zurückkommt.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von Beschädigung steht nichts da. Entscheidend ist allein, ob sich der Aufwand lohnt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Musik im Kopf anrichtet» · Frage 1",
+    "optionen": [
+     "Musik hat viele Zugänge zum Gedächtnis, weil sie mehrere Hirnbereiche zugleich beansprucht.",
+     "Musik wird im Gehirn an einer einzigen Stelle gespeichert.",
+     "Musik weckt nur bei jungen Menschen Erinnerungen.",
+     "Erinnerungen an Musik verblassen schneller als andere."
+    ],
+    "loesung": [
+     "Musik hat viele Zugänge zum Gedächtnis, weil sie mehrere Hirnbereiche zugleich beansprucht."
+    ],
+    "erklaerung": "Abschnitt B nennt das Bild: Eine Erinnerung, die an fünf Fäden hängt, reisst nicht so schnell ab wie eine, die an einem hängt.",
+    "fehler": [
+     {
+      "antwort": "Musik wird im Gehirn an einer einzigen Stelle gespeichert.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Abschnitt sagt ausdrücklich: nicht durch eine Stelle, sondern durch viele gleichzeitig."
+     },
+     {
+      "antwort": "Erinnerungen an Musik verblassen schneller als andere.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Das Bild von den fünf Fäden sagt das Gegenteil: Sie halten besser."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Musik im Kopf anrichtet» · Frage 2",
+    "optionen": [
+     "Wer einen Sachtext liest und dabei einen Liedtext hört, versteht weniger.",
+     "Musik beim Lernen hilft immer, wenn sie leise ist.",
+     "Musik ohne Text stört beim Lernen genauso wie Musik mit Text.",
+     "Wer beim Lernen Musik hört, merkt sich mehr."
+    ],
+    "loesung": [
+     "Wer einen Sachtext liest und dabei einen Liedtext hört, versteht weniger."
+    ],
+    "erklaerung": "Abschnitt D nennt den Grund: Der Liedtext beansprucht genau den Teil des Gehirns, den man zum Lesen braucht.",
+    "fehler": [
+     {
+      "antwort": "Musik ohne Text stört beim Lernen genauso wie Musik mit Text.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Text unterscheidet die beiden Fälle ausdrücklich: Ohne Text kann Musik sogar helfen."
+     },
+     {
+      "antwort": "Musik beim Lernen hilft immer, wenn sie leise ist.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von der Lautstärke steht nichts da. Entscheidend ist, ob die Musik Text hat und was man gerade tut."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Aussagen zum Text",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-aussagen-2",
+  "lernzielId": "DBT.3.01",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "3.01",
+   "3.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies alle vier Aussagen, bevor du dich entscheidest, oft schliessen sich zwei gegenseitig aus, und eine davon ist die richtige.",
+   "Suche zu jeder Aussage die Stelle im Text. Findest du keine, ist die Aussage falsch, auch wenn sie vernünftig klingt.",
+   "Achte auf Wörter wie «alle», «nur», «immer», «nie». Sie machen aus einer richtigen Aussage oft eine falsche."
+  ],
+  "loesungsweg": [
+   "Suche zu jeder Aussage die Stelle im Text.",
+   "Streiche, was dort nicht steht. Auch wenn es einleuchtet.",
+   "Prüfe bei den übrigen, ob eine Verstärkung wie «alle» oder «nur» hineingeschmuggelt wurde."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Musik im Kopf anrichtet» · Frage 3",
+    "optionen": [
+     "An Wettkämpfen ist Musik im Ohr oft verboten, weil sie einen messbaren Vorteil bringt.",
+     "An Wettkämpfen ist Musik verboten, weil sie andere stört.",
+     "Musik beim Laufen erhöht den Kraftverbrauch.",
+     "Musik hilft beim Sport nur Anfängerinnen und Anfängern."
+    ],
+    "loesung": [
+     "An Wettkämpfen ist Musik im Ohr oft verboten, weil sie einen messbaren Vorteil bringt."
+    ],
+    "erklaerung": "Abschnitt E sagt es ausdrücklich: nicht aus Strenge, sondern weil sie einen messbaren Vorteil verschafft.",
+    "fehler": [
+     {
+      "antwort": "Musik beim Laufen erhöht den Kraftverbrauch.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text sagt das Gegenteil: Wer im Takt läuft, verbraucht bei gleicher Geschwindigkeit weniger Kraft."
+     },
+     {
+      "antwort": "An Wettkämpfen ist Musik verboten, weil sie andere stört.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von Störung steht nichts da. Der Grund ist der Vorteil, den sie verschafft."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Musik im Kopf anrichtet» · Frage 4",
+    "optionen": [
+     "Einen Ohrwurm wird man eher los, wenn man das Lied ganz anhört.",
+     "Einen Ohrwurm wird man los, indem man an etwas anderes denkt.",
+     "Ohrwürmer entstehen vor allem bei sehr schnellen Liedern.",
+     "Ohrwürmer sind Lieder, die man besonders oft gehört hat."
+    ],
+    "loesung": [
+     "Einen Ohrwurm wird man eher los, wenn man das Lied ganz anhört."
+    ],
+    "erklaerung": "Abschnitt C begründet es: Das Gehirn will die Stelle zu Ende bringen. Wer das Lied ganz hört, gibt ihm genau das.",
+    "fehler": [
+     {
+      "antwort": "Einen Ohrwurm wird man los, indem man an etwas anderes denkt.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text rät ausdrücklich davon ab: hören statt verdrängen."
+     },
+     {
+      "antwort": "Ohrwürmer entstehen vor allem bei sehr schnellen Liedern.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Im Text steht «mittlerem Tempo», nicht schnell."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Frage 1",
+    "optionen": [
+     "Das Schlafbedürfnis Jugendlicher bleibt gleich gross, obwohl die innere Uhr sich verschiebt.",
+     "Jugendliche brauchen weniger Schlaf als Kinder.",
+     "Jugendliche gehen später ins Bett, weil sie mehr zu tun haben.",
+     "Die innere Uhr verschiebt sich um rund vier Stunden."
+    ],
+    "loesung": [
+     "Das Schlafbedürfnis Jugendlicher bleibt gleich gross, obwohl die innere Uhr sich verschiebt."
+    ],
+    "erklaerung": "Abschnitt B nennt beide Zahlen: rund zwei Stunden Verschiebung, weiterhin neun Stunden Bedarf. Aus diesem Widerspruch entsteht das Problem.",
+    "fehler": [
+     {
+      "antwort": "Jugendliche brauchen weniger Schlaf als Kinder.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text sagt ausdrücklich, das Bedürfnis bleibe gleich gross. Verschoben ist nur der Zeitpunkt."
+     },
+     {
+      "antwort": "Die innere Uhr verschiebt sich um rund vier Stunden.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Im Text stehen rund zwei Stunden. Vier wäre das Doppelte."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Frage 2",
+    "optionen": [
+     "Schlafmangel zeigt sich oft als Gereiztheit statt als Müdigkeit.",
+     "Schlafmangel macht Jugendliche vor allem sichtbar müde.",
+     "Schlafmangel wirkt sich kaum auf das Gedächtnis aus.",
+     "Wer schlecht schläft, ist am Morgen besonders ruhig."
+    ],
+    "loesung": [
+     "Schlafmangel zeigt sich oft als Gereiztheit statt als Müdigkeit."
+    ],
+    "erklaerung": "Abschnitt C sagt es ausdrücklich: Ein Kind, das zu wenig schläft, wirkt oft nicht müde, sondern gereizt, und das wird leicht als Faulheit gedeutet.",
+    "fehler": [
+     {
+      "antwort": "Schlafmangel macht Jugendliche vor allem sichtbar müde.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text hebt gerade hervor, dass die Müdigkeit oft NICHT sichtbar ist. Genau darum wird sie verkannt."
+     },
+     {
+      "antwort": "Schlafmangel wirkt sich kaum auf das Gedächtnis aus.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Das Behalten von Neuem steht an erster Stelle der aufgezählten Folgen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Frage 3",
+    "optionen": [
+     "Beim Bildschirm am Abend wiegt der Inhalt schwerer als das Licht.",
+     "Das Licht des Bildschirms ist die Hauptursache für schlechten Schlaf.",
+     "Bildschirme am Abend haben keinen Einfluss auf den Schlaf.",
+     "Ein Buch am Abend hält genauso wach wie ein Video."
+    ],
+    "loesung": [
+     "Beim Bildschirm am Abend wiegt der Inhalt schwerer als das Licht."
+    ],
+    "erklaerung": "Abschnitt D sagt es klar: Das Licht spielt eine kleinere Rolle als lange angenommen. Schwerer wiegt, was auf dem Bildschirm geschieht.",
+    "fehler": [
+     {
+      "antwort": "Das Licht des Bildschirms ist die Hauptursache für schlechten Schlaf.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Genau diese verbreitete Meinung berichtigt der Abschnitt. Er nennt sie und stellt sie richtig."
+     },
+     {
+      "antwort": "Ein Buch am Abend hält genauso wach wie ein Video.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der letzte Satz stellt beides gegeneinander: Ein Buch endet auf jeder Seite, ein Feed nie."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Frage 4",
+    "optionen": [
+     "Wo der Unterricht später begann, schliefen die Jugendlichen tatsächlich länger.",
+     "Wo der Unterricht später begann, gingen die Jugendlichen einfach später ins Bett.",
+     "Ein späterer Schulbeginn hat sich nirgends bewährt.",
+     "Ein späterer Schulbeginn löst das Problem vollständig."
+    ],
+    "loesung": [
+     "Wo der Unterricht später begann, schliefen die Jugendlichen tatsächlich länger."
+    ],
+    "erklaerung": "Abschnitt E hält genau das fest, und zwar ausdrücklich gegen die naheliegende Vermutung, sie würden bloss später ins Bett gehen.",
+    "fehler": [
+     {
+      "antwort": "Wo der Unterricht später begann, gingen die Jugendlichen einfach später ins Bett.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Der Text nennt diesen Einwand und weist ihn zurück: Sie gingen nicht später ins Bett."
+     },
+     {
+      "antwort": "Ein späterer Schulbeginn löst das Problem vollständig.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Abschnitt F sagt ausdrücklich, er löse es nicht allein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Ortsnamen erzählen» · Frage 1",
+    "optionen": [
+     "Gewässernamen sind meist älter als Siedlungsnamen.",
+     "Gewässernamen wurden bei jedem Sprachwechsel neu vergeben.",
+     "Gewässernamen sind die jüngste Schicht auf der Karte.",
+     "Gewässernamen stammen fast alle aus dem Lateinischen."
+    ],
+    "loesung": [
+     "Gewässernamen sind meist älter als Siedlungsnamen."
+    ],
+    "erklaerung": "Abschnitt D begründet es: Ein Fluss muss nicht neu benannt werden, wenn neue Menschen kommen. Er ist schon da, und alle wissen, welcher gemeint ist.",
+    "fehler": [
+     {
+      "antwort": "Gewässernamen wurden bei jedem Sprachwechsel neu vergeben.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Genau das Gegenteil steht im Text: Sie überdauern den Sprachwechsel."
+     },
+     {
+      "antwort": "Gewässernamen stammen fast alle aus dem Lateinischen.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Der Text nennt eine Sprache VOR den Römern, und das nur für einige Namen im Mittelland."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Ortsnamen erzählen» · Frage 2",
+    "optionen": [
+     "Fachleute prüfen zuerst die ältesten Schreibweisen und erst danach den heutigen Klang.",
+     "Fachleute gehen vom heutigen Klang eines Namens aus.",
+     "Volksdeutungen sind meistens richtig.",
+     "Über die Herkunft der meisten Namen ist nichts bekannt."
+    ],
+    "loesung": [
+     "Fachleute prüfen zuerst die ältesten Schreibweisen und erst danach den heutigen Klang."
+    ],
+    "erklaerung": "Abschnitt E nennt die Reihenfolge ausdrücklich. Genau darum, weil Volksdeutungen zum heutigen Klang eine passende Geschichte erfinden.",
+    "fehler": [
+     {
+      "antwort": "Fachleute gehen vom heutigen Klang eines Namens aus.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text nennt die umgekehrte Reihenfolge. Der heutige Klang kommt zuletzt, weil er in die Irre führen kann."
+     },
+     {
+      "antwort": "Volksdeutungen sind meistens richtig.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Abschnitt führt sie gerade als Beispiel für eine einleuchtende, aber falsche Erklärung an."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Was Ortsnamen erzählen» · Frage 3",
+    "optionen": [
+     "Die Endung eines Ortsnamens gibt einen Hinweis darauf, wie eine Gegend besiedelt wurde.",
+     "Alle Orte auf -ingen wurden im selben Jahr gegründet.",
+     "Ortsnamen sagen nichts über die Geschichte einer Gegend aus.",
+     "Die Endung -bach zeigt an, dass dort eine Sippe lebte."
+    ],
+    "loesung": [
+     "Die Endung eines Ortsnamens gibt einen Hinweis darauf, wie eine Gegend besiedelt wurde."
+    ],
+    "erklaerung": "Abschnitt B ordnet die Endungen zu: -ingen einer Sippe, -wil einem einzelnen Hof, -bach und -matt dem Wasser und der Wiese. Wer danach ordnet, sieht grob die Reihenfolge.",
+    "fehler": [
+     {
+      "antwort": "Die Endung -bach zeigt an, dass dort eine Sippe lebte.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Du hast zwei Endungen vertauscht: -ingen steht für die Sippe, -bach für das Wasser."
+     },
+     {
+      "antwort": "Alle Orte auf -ingen wurden im selben Jahr gegründet.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Der Text spricht von einer groben Reihenfolge, nicht von einem Jahr, und schon gar nicht für alle."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der Preis der Bequemlichkeit» · Frage 3",
+    "optionen": [
+     "Bessere Angaben zur Passform senkten die Rücksendequote in einzelnen Sortimenten.",
+     "Bessere Angaben zur Passform halbierten die Rücksendequote.",
+     "Läden verzichten inzwischen auf Bilder an Puppen, weil das Gesetz es verlangt.",
+     "Genauere Angaben haben keine messbare Wirkung."
+    ],
+    "loesung": [
+     "Bessere Angaben zur Passform senkten die Rücksendequote in einzelnen Sortimenten."
+    ],
+    "erklaerung": "Abschnitt E nennt das Mass: um mehrere Prozentpunkte. Das klingt wenig, ist bei Millionen von Bestellungen aber viel.",
+    "fehler": [
+     {
+      "antwort": "Bessere Angaben zur Passform halbierten die Rücksendequote.",
+      "diagnoseId": "zu_stark",
+      "feedback": "Im Text stehen «mehrere Prozentpunkte», nicht die Hälfte. Der Abschnitt betont sogar, dass es nach wenig klingt."
+     },
+     {
+      "antwort": "Genauere Angaben haben keine messbare Wirkung.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der Text nennt eine messbare Wirkung. Sie ist nur kleiner, als man erwarten würde."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Der Preis der Bequemlichkeit» · Frage 4",
+    "optionen": [
+     "Bei Kleidern und Schuhen gehen in manchen Sortimenten mehr als die Hälfte der Stücke zurück.",
+     "Bei Elektronik gehen mehr als die Hälfte der Stücke zurück.",
+     "Über alle Waren hinweg geht die Hälfte zurück.",
+     "Die Rücksendequote ist bei allen Waren etwa gleich hoch."
+    ],
+    "loesung": [
+     "Bei Kleidern und Schuhen gehen in manchen Sortimenten mehr als die Hälfte der Stücke zurück."
+    ],
+    "erklaerung": "Abschnitt B unterscheidet ausdrücklich: bei Elektronik wenige Prozente, bei Schuhen und Kleidern in manchen Sortimenten über die Hälfte.",
+    "fehler": [
+     {
+      "antwort": "Bei Elektronik gehen mehr als die Hälfte der Stücke zurück.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Du hast die beiden Warengruppen vertauscht. Bei Elektronik sind es wenige Prozente."
+     },
+     {
+      "antwort": "Die Rücksendequote ist bei allen Waren etwa gleich hoch.",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "Der erste Satz des Abschnitts sagt das Gegenteil: Es hängt stark von der Ware ab."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage stimmt im Sinne des Textes? Genau eine ist richtig.\n\nAus: «Warum Warten so schwerfällt» · Frage 5",
+    "optionen": [
+     "Die Zahl von elf Sekunden stammt aus einer eigenen Zählung von Studierenden.",
+     "Die Zahl von elf Sekunden stammt aus einer grossen Umfrage.",
+     "Elf Sekunden ist die durchschnittliche Wartezeit an der Haltestelle.",
+     "Nach elf Sekunden kommt im Schnitt der Bus."
+    ],
+    "loesung": [
+     "Die Zahl von elf Sekunden stammt aus einer eigenen Zählung von Studierenden."
+    ],
+    "erklaerung": "Abschnitt A nennt die Quelle: eine Gruppe Studierender in Bern, die einen Nachmittag lang gezählt hat, wer wann in die Tasche greift.",
+    "fehler": [
+     {
+      "antwort": "Elf Sekunden ist die durchschnittliche Wartezeit an der Haltestelle.",
+      "diagnoseId": "verwechselt",
+      "feedback": "Die elf Sekunden zählen bis zum ersten Blick aufs Handy, nicht bis zum Bus."
+     },
+     {
+      "antwort": "Die Zahl von elf Sekunden stammt aus einer grossen Umfrage.",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Es war keine Umfrage, sondern eine Beobachtung: Die Gruppe hat gezählt, nicht gefragt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Aussagen zum Text",
+  "status": "review"
+ },
+ {
+  "templateId": "be-tv-richtig-falsch",
+  "lernzielId": "DBT.3.03",
+  "fach": "textverstaendnis-bern",
+  "unterthemen": [
+   "3.03",
+   "3.01"
+  ],
+  "format": "tabelle_auswahl",
+  "optionen": [
+   "richtig",
+   "falsch"
+  ],
+  "hinweise": [
+   "Prüfe jede Zeile für sich. Eine falsche Zeile macht die anderen nicht falsch.",
+   "Falsche Aussagen sind selten frei erfunden, meist ist eine Zahl, eine Richtung oder eine Person vertauscht.",
+   "Wenn du eine Stelle im Text findest, die das Gegenteil sagt, ist die Aussage falsch. Findest du gar nichts, ist sie es meistens auch."
+  ],
+  "loesungsweg": [
+   "Nimm eine Zeile nach der anderen.",
+   "Suche die Stelle im Text, die sie stützt oder widerlegt.",
+   "Achte besonders auf vertauschte Zahlen, Personen und Richtungen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Warum Warten so schwerfällt» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Menschen schätzen leere Zeit im Schnitt länger ein, als sie ist.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Eine Anzeigetafel verkürzt die tatsächliche Wartezeit.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Offenes Warten kostet mehr Kraft als geschlossenes.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Bei der zweiten Zeile steht im Text ausdrücklich, dass die Tafel das Warten «um keine Sekunde» verkürzt. Sie verändert nur das Empfinden."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Warum Warten so schwerfällt» · Satz 2",
+    "zeilen": [
+     {
+      "text": "Die elf Sekunden wurden in Bern gezählt, nicht erfragt.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Umweg am Flughafen spart den Reisenden Zeit.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Spiegel in der Schlange machen die Schlange kürzer.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "Beide falschen Zeilen behaupten eine Zeitersparnis. Der Text sagt zweimal ausdrücklich, dass sich an der Dauer nichts ändert."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Warum Warten so schwerfällt» · Satz 3",
+    "zeilen": [
+     {
+      "text": "Das Zeitgefühl misst Ereignisse statt Minuten.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Wer zwanzig Minuten Verspätung kennt, richtet sich eher ein.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Wartende leiden vor allem an der Länge der Zeit.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "Die dritte Zeile fasst zusammen, was der Text gerade bestreitet: Man leidet an der Leere und am Nichtwissen, nicht an der Dauer."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Die Rückkehr der Nachtzüge» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Nachtzüge verschwanden vor allem aus Kostengründen.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Nachtzüge wurden in mehreren Ländern verboten.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Ein neuer Schlafwagen kostet rund vier Millionen Franken.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Ein Verbot kommt im Text nirgends vor. Die Bahnen zogen die Wagen von sich aus ab, weil die Rechnung nicht aufging."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Die Rückkehr der Nachtzüge» · Satz 2",
+    "zeilen": [
+     {
+      "text": "Kleine Bahngesellschaften haben bei Ausfällen keinen Ersatz.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Nachtzug ist heute günstiger als der Flug.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Österreich hat als erstes Land wieder in Wagen investiert.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Im letzten Abschnitt stehen die beiden Preise nebeneinander: vierzig Franken für den Flug, hundertvierzig für ein Bett."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Die Rückkehr der Nachtzüge» · Satz 3",
+    "zeilen": [
+     {
+      "text": "Eine Bahnfahrt Zürich-Berlin verursacht etwa einen Zwanzigstel der Treibhausgase des Flugs.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Zwei kleine Gesellschaften haben wieder aufgegeben.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Bei Bauarbeiten wird der Nachtzug umgeleitet.",
+      "loesung": [
+       "falsch"
+      ]
+     }
+    ],
+    "erklaerung": "Der Text nennt als Grund, dass es keinen zweiten Weg gibt. Deshalb fällt die ganze Verbindung aus."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Der Preis der Bequemlichkeit» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Bei Elektronik ist die Rücksendequote niedrig.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "In der Schweiz ist das Vernichten von Neuware verboten.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Der Aufwand für Rücksendungen steckt im Preis aller Stücke.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Der Text unterscheidet ausdrücklich: In der Schweiz nicht verboten, in einzelnen Nachbarländern inzwischen schon."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Der Preis der Bequemlichkeit» · Satz 2",
+    "zeilen": [
+     {
+      "text": "Einzelne Häuser sperren Kundschaft mit sehr hohen Rücksendequoten.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Genauere Massangaben haben die Rücksendequote halbiert.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Jede Rücksendung wird von Hand geprüft.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Im Text stehen «mehrere Prozentpunkte». Der Abschnitt betont sogar, dass das nach wenig klingt, und trotzdem viel ist."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Was Musik im Kopf anrichtet» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Musik läuft im Gehirn durch mehrere Stellen gleichzeitig.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Ohrwürmer sind meist sehr schnelle Lieder.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Musik ohne Text kann beim Lernen helfen.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Der Text nennt beim Ohrwurm ausdrücklich ein mittleres Tempo, nicht ein hohes."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Was Musik im Kopf anrichtet» · Satz 2",
+    "zeilen": [
+     {
+      "text": "An Wettkämpfen ist Musik im Ohr häufig verboten.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Wer im Takt läuft, braucht mehr Kraft.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Wer einen Ohrwurm loswerden will, hört das Lied am besten ganz.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Der Text sagt das Gegenteil der zweiten Zeile: weniger Kraft bei gleicher Geschwindigkeit. Genau deshalb ist Musik am Wettkampf ein Vorteil."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Der verschobene Schlaf der Jugendlichen» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Das Schlafbedürfnis Jugendlicher sinkt in der Pubertät.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Schlafmangel zeigt sich oft als Gereiztheit.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Der Inhalt des Bildschirms wiegt schwerer als sein Licht.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Der Text hält ausdrücklich fest, dass das Bedürfnis gleich gross bleibt. Verschoben ist nur der Zeitpunkt."
+   },
+   {
+    "stamm": "Stimmen diese Aussagen im Sinne des Textes?\n\nAus: «Was Ortsnamen erzählen» · Satz 1",
+    "zeilen": [
+     {
+      "text": "Gewässernamen überdauern einen Sprachwechsel.",
+      "loesung": [
+       "richtig"
+      ]
+     },
+     {
+      "text": "Volksdeutungen stützen sich auf alte Urkunden.",
+      "loesung": [
+       "falsch"
+      ]
+     },
+     {
+      "text": "Die Endung -ingen deutet meist auf eine Sippe.",
+      "loesung": [
+       "richtig"
+      ]
+     }
+    ],
+    "erklaerung": "Volksdeutungen gehen gerade vom heutigen Klang aus. Die Urkunden prüfen die Fachleute, und zwar zuerst."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabenform der Berner Deutschprüfungen 2022-2026 (Aufgaben 1 bis 3); Lesetexte, Fragen und Ablenker eigenentwickelt"
+  },
+  "thema": "Aussagen prüfen",
+  "status": "review"
+ }
+]

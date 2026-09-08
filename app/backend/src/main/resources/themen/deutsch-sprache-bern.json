@@ -1,0 +1,141 @@
+{
+ "fach": "sprache-bern",
+ "name": "Deutsch Sprache",
+ "pruefung": "Aufnahmeprüfung GYM 1 Bern",
+ "quelle": "Aufgabe 4 der Deutschprüfungen Kanton Bern 2022-2026 (8. und 9. Schuljahr)",
+ "punkteTotal": 8,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "4.1",
+   "name": "Rechtschreibung",
+   "punkte": 5,
+   "anteil": 63,
+   "beschreibung": "Zehn falsch geschriebene Wörter finden und richtig schreiben. Steht in jedem Jahrgang.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Falsch geschriebene Wörter erkennen",
+     "lernzielId": "DBS.1.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.02",
+     "name": "Doppelkonsonant oder langer Vokal",
+     "lernzielId": "DBS.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "das oder dass",
+     "lernzielId": "DBS.1.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.04",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "DBS.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "s, ss und Endungen wie -ant, -ent, -ig, -lich",
+     "lernzielId": "DBS.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Getrennt oder zusammen",
+     "lernzielId": "DBS.1.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "4.2",
+   "name": "Verbformen",
+   "punkte": 2,
+   "anteil": 25,
+   "beschreibung": "In fünf von zehn Prüfungen der Jahre 2022-2026 stand hier eine Aufgabe zu den Verben.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Infinitive im Satz finden",
+     "lernzielId": "DBS.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Verbale Teile markieren",
+     "lernzielId": "DBS.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Zeitformen bestimmen",
+     "lernzielId": "DBS.2.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.02"
+     ]
+    },
+    {
+     "code": "2.04",
+     "name": "Die richtige Verbform wählen",
+     "lernzielId": "DBS.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Konjunktiv in der indirekten Rede",
+     "lernzielId": "DBS.2.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "4.3",
+   "name": "Wortarten, Fälle und Satzbau",
+   "punkte": 1,
+   "anteil": 12,
+   "beschreibung": "Fälle bestimmen, Nomen finden, Sätze verknüpfen, je nach Jahrgang.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Fälle bestimmen: Nominativ, Genitiv, Dativ, Akkusativ",
+     "lernzielId": "DBS.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Nomen im Akkusativ finden",
+     "lernzielId": "DBS.3.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Wortarten bestimmen",
+     "lernzielId": "DBS.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Sätze mit Konnektoren verknüpfen",
+     "lernzielId": "DBS.3.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Kommas setzen",
+     "lernzielId": "DBS.3.05",
+     "pflichtset": 14
+    }
+   ]
+  }
+ ]
+}

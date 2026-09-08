@@ -1,0 +1,255 @@
+{
+ "fach": "mathematik-lu",
+ "name": "Mathematik",
+ "pruefung": "Zentrale Aufnahmeprüfung des Kantons Luzern",
+ "quelle": "Stoffplan für die Aufnahmeprüfung an die Berufsmaturitäts-, Fach-, Gesundheits-, Wirtschafts- und Informatikmittelschulen des Kantons Luzern vom 22. Mai 2026 sowie die Musterprüfung ab 2024 und die Prüfungsserien 2017 bis 2023",
+ "punkteTotal": 24,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Zahl und Variable",
+   "punkte": 9,
+   "anteil": 38,
+   "beschreibung": "Der grösste Teil der Prüfung: Terme umformen, Gleichungen lösen, Zahlenfolgen verallgemeinern. Wurzelterme und Gleichungssysteme mit zwei Unbekannten kommen nicht vor.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Rationale Zahlen: die vier Grundoperationen",
+     "lernzielId": "MLU.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Potenzen mit ganzzahligem Exponenten",
+     "lernzielId": "MLU.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Quadratwurzeln",
+     "lernzielId": "MLU.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Brüche mit Variablen",
+     "lernzielId": "MLU.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Terme zusammenfassen",
+     "lernzielId": "MLU.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Klammern auflösen und Vorzeichen beachten",
+     "lernzielId": "MLU.1.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.07",
+     "name": "Ausmultiplizieren, auch mit Binomen",
+     "lernzielId": "MLU.1.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.08",
+     "name": "Ausklammern (Faktorzerlegung)",
+     "lernzielId": "MLU.1.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.09",
+     "name": "Binomische Formeln erkennen und anwenden",
+     "lernzielId": "MLU.1.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "Bruchterme kürzen und erweitern",
+     "lernzielId": "MLU.1.10",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.11",
+     "name": "Gleichungen lösen und überprüfen",
+     "lernzielId": "MLU.1.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.12",
+     "name": "Gleichungen mit Brüchen",
+     "lernzielId": "MLU.1.12",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.13",
+     "name": "Zahlen- und Figurenfolgen als Term",
+     "lernzielId": "MLU.1.13",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.14",
+     "name": "Terme aufstellen und Werte einsetzen",
+     "lernzielId": "MLU.1.14",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Form und Raum",
+   "punkte": 9,
+   "anteil": 37,
+   "beschreibung": "Figuren und Körper berechnen, Winkel bestimmen, Ansichten und Netze lesen. Ein Formelblatt liegt bei; die Formeln muss man nicht auswendig können, aber anwenden.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Winkel an Geraden und im Dreieck",
+     "lernzielId": "MLU.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Dreieck: Umfang und Fläche",
+     "lernzielId": "MLU.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Trapez und Parallelogramm",
+     "lernzielId": "MLU.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Rechteck, Quadrat und Rhombus",
+     "lernzielId": "MLU.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Vielecke durch Zerlegung in Dreiecke",
+     "lernzielId": "MLU.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Kreis: Umfang und Fläche",
+     "lernzielId": "MLU.2.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.07",
+     "name": "Kreisbogen und Kreissektor",
+     "lernzielId": "MLU.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MLU.2.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.09",
+     "name": "Quader: Oberfläche und Volumen",
+     "lernzielId": "MLU.2.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.10",
+     "name": "Ansicht, Schrägbild und Netz",
+     "lernzielId": "MLU.2.10",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.11",
+     "name": "Koordinaten von Figuren",
+     "lernzielId": "MLU.2.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.12",
+     "name": "Punkt- und Achsenspiegelung",
+     "lernzielId": "MLU.2.12",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.13",
+     "name": "Mittelsenkrechte, Winkelhalbierende, Um- und Inkreis",
+     "lernzielId": "MLU.2.13",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Daten, Grössen und Zufall",
+   "punkte": 6,
+   "anteil": 25,
+   "beschreibung": "Sachsituationen rechnen: Grössen umwandeln, Proportionalität, Prozente und Zinsen, Mittelwert und Wahrscheinlichkeit. Zinseszins und Marchzins kommen nicht vor.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Grössen umwandeln und runden",
+     "lernzielId": "MLU.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Proportionalität",
+     "lernzielId": "MLU.3.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.03",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "MLU.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Prozentrechnen: Grundwert, Prozentwert, Prozentsatz",
+     "lernzielId": "MLU.3.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Zinsrechnen",
+     "lernzielId": "MLU.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Lineare Funktionen: Graph und Wertetabelle",
+     "lernzielId": "MLU.3.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.07",
+     "name": "Mittelwert und Häufigkeit",
+     "lernzielId": "MLU.3.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.08",
+     "name": "Wahrscheinlichkeit",
+     "lernzielId": "MLU.3.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.09",
+     "name": "Sachaufgaben mit Tabellen und Grafiken",
+     "lernzielId": "MLU.3.09",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

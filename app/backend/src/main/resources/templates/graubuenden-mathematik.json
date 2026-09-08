@@ -1,0 +1,4943 @@
+[
+ {
+  "templateId": "gr-kopf-neuner",
+  "lernzielId": "KGR.1.04",
+  "fach": "kopfrechnen-gr",
+  "unterthemen": [
+   "1.04",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "auswahl",
+    "werte": [
+     9,
+     19,
+     29,
+     49,
+     99
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 89,
+    "schritt": 1
+   },
+   {
+    "name": "rund",
+    "typ": "formel",
+    "ausdruck": "f+1"
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "f*b"
+   }
+  ],
+  "bedingungen": [
+   "wert<9000",
+   "b!=f",
+   "wert!=b"
+  ],
+  "stamm": "Rechne im Kopf, ohne etwas aufzuschreiben.\n\n{f} · {b} =",
+  "loesung": "f*b",
+  "gegenprobe": "(f+1)*b-b",
+  "fehler": [
+   {
+    "diagnoseId": "aufgerundet",
+    "ausdruck": "(f+1)*b",
+    "feedback": "Der Trick besteht aus zwei Schritten: erst {rund} · {b} rechnen, dann einmal {b} abziehen. Der zweite Schritt fehlt."
+   },
+   {
+    "diagnoseId": "zu_viel_abgezogen",
+    "ausdruck": "(f+1)*b-2*b",
+    "feedback": "Abgezogen wird {b} genau EINMAL, denn {f} ist um eins kleiner als {rund}."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(f+1)*b+b",
+    "feedback": "{f} ist kleiner als {rund}, also wird abgezogen, nicht dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl in der Nähe von {f} rechnet sich leichter?",
+   "{rund}. Rechne zuerst {rund} · {b}.",
+   "Weil {f} um eins kleiner ist, ziehst du danach einmal {b} ab."
+  ],
+  "loesungsweg": [
+   "{rund} · {b} ist leicht im Kopf zu rechnen.",
+   "{f} ist um eins kleiner als {rund}.",
+   "Also einmal {b} abziehen.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden nach Armin Kuratle; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-kopf-verdoppeln",
+  "lernzielId": "KGR.1.02",
+  "fach": "kopfrechnen-gr",
+  "unterthemen": [
+   "1.02",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     25,
+     50
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 96,
+    "schritt": 2
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "f*b"
+   },
+   {
+    "name": "halb",
+    "typ": "formel",
+    "ausdruck": "b/2"
+   }
+  ],
+  "bedingungen": [
+   "b%2==0",
+   "wert<5000",
+   "b!=f",
+   "wert!=b"
+  ],
+  "stamm": "Rechne im Kopf, ohne etwas aufzuschreiben.\n\n{f} · {b} =",
+  "loesung": "f*b",
+  "gegenprobe": "b/2*f*2",
+  "fehler": [
+   {
+    "diagnoseId": "halbiert",
+    "ausdruck": "f*b/2",
+    "feedback": "Halbieren allein genügt nicht: Wer {b} halbiert, muss den anderen Faktor verdoppeln, damit das Produkt gleich bleibt."
+   },
+   {
+    "diagnoseId": "verdoppelt",
+    "ausdruck": "f*b*2",
+    "feedback": "Hier wurde verdoppelt, ohne auf der anderen Seite zu halbieren."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "f+b",
+    "feedback": "Zwischen den Zahlen steht ein Malpunkt, kein Pluszeichen."
+   }
+  ],
+  "hinweise": [
+   "Wie lässt sich {f} bequemer schreiben?",
+   "5 ist die Hälfte von 10, 25 ein Viertel von 100, 50 die Hälfte von 100.",
+   "Rechne mit der runden Zahl und teile am Schluss."
+  ],
+  "loesungsweg": [
+   "{b} halbieren ergibt {halb}.",
+   "Den anderen Faktor entsprechend verdoppeln.",
+   "So bleibt das Produkt gleich, wird aber leichter.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden nach Armin Kuratle; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-kopf-prozente",
+  "lernzielId": "KGR.1.08",
+  "fach": "kopfrechnen-gr",
+  "unterthemen": [
+   "1.08",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 2000,
+    "schritt": 20
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Franken"
+     ],
+     [
+      "Metern"
+     ],
+     [
+      "Kilogramm"
+     ],
+     [
+      "Litern"
+     ],
+     [
+      "Minuten"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Broten"
+     ],
+     [
+      "Setzlingen"
+     ],
+     [
+      "Steinen"
+     ],
+     [
+      "Seiten"
+     ],
+     [
+      "Bechern"
+     ],
+     [
+      "Nägeln"
+     ]
+    ]
+   },
+   {
+    "name": "zehn",
+    "typ": "formel",
+    "ausdruck": "g/10"
+   },
+   {
+    "name": "fuenfundzwanzig",
+    "typ": "formel",
+    "ausdruck": "g/4"
+   }
+  ],
+  "bedingungen": [
+   "g%20==0",
+   "g%4==0",
+   "zehn!=fuenfundzwanzig",
+   "g%8!=0"
+  ],
+  "stamm": "{name} rechnet im Kopf, ohne etwas aufzuschreiben: Von {g} {sache} sollen 10 % und 25 % bestimmt werden.",
+  "felder": [
+   {
+    "name": "zehn",
+    "label": "10 % von {g}",
+    "ausdruck": "g/10",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "g/100",
+      "feedback": "Ein Prozent wäre ein Hundertstel. Zehn Prozent sind ein Zehntel."
+     },
+     {
+      "diagnoseId": "mal_zehn",
+      "ausdruck": "g*10",
+      "feedback": "Ein Anteil ist kleiner als das Ganze: Bei 10 % wird geteilt."
+     },
+     {
+      "diagnoseId": "viertel",
+      "ausdruck": "g/4",
+      "feedback": "Das ist ein Viertel, also 25 % — gefragt waren zehn Prozent."
+     }
+    ]
+   },
+   {
+    "name": "fuenfundzwanzig",
+    "label": "25 % von {g}",
+    "ausdruck": "g/4",
+    "fehler": [
+     {
+      "diagnoseId": "zehntel",
+      "ausdruck": "g/10",
+      "feedback": "Das sind 10 %. Fünfundzwanzig Prozent sind ein Viertel."
+     },
+     {
+      "diagnoseId": "durch_25",
+      "ausdruck": "g/25",
+      "feedback": "Geteilt wird durch 4, nicht durch 25: 25 % sind ein Viertel."
+     },
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "g/2",
+      "feedback": "Die Hälfte wären 50 %, also doppelt so viel wie gefragt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher Bruchteil ist 10 %, welcher 25 %?",
+   "10 % sind ein Zehntel, 25 % ein Viertel.",
+   "Ein Viertel findest du, indem du zweimal halbierst."
+  ],
+  "loesungsweg": [
+   "10 % von {g}: das Komma um eine Stelle verschieben.",
+   "Das ergibt {zehn}.",
+   "25 % von {g}: zweimal halbieren.",
+   "Das ergibt {fuenfundzwanzig}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden nach Armin Kuratle; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-grundoperationen",
+  "lernzielId": "MGR.1.01",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 980,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 89,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*b-c*b"
+   }
+  ],
+  "bedingungen": [
+   "a>c",
+   "wert>0",
+   "wert<9000",
+   "a!=c",
+   "wert!=a",
+   "wert!=c"
+  ],
+  "stamm": "{name} rechnet schriftlich.\n\n{a} · {b} − {c} · {b} =",
+  "loesung": "a*b-c*b",
+  "gegenprobe": "(a-c)*b",
+  "fehler": [
+   {
+    "diagnoseId": "nur_erstes",
+    "ausdruck": "a*b",
+    "feedback": "Das zweite Produkt gehört abgezogen: {c} · {b}."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "a*b+c*b",
+    "feedback": "Zwischen den beiden Produkten steht ein Minus."
+   },
+   {
+    "diagnoseId": "faktor_vergessen",
+    "ausdruck": "a*b-c",
+    "feedback": "Auch die zweite Zahl wird mit {b} multipliziert, bevor sie abgezogen wird."
+   }
+  ],
+  "hinweise": [
+   "Was haben die beiden Produkte gemeinsam?",
+   "Beide enthalten den Faktor {b} — den kann man ausklammern.",
+   "({a} − {c}) · {b} ist einfacher zu rechnen."
+  ],
+  "loesungsweg": [
+   "Beide Produkte enthalten {b}.",
+   "Ausklammern: ({a} − {c}) · {b}.",
+   "Die Klammer zuerst ausrechnen.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-groessen-gr",
+  "lernzielId": "MGR.2.01",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.01",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "kg",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 50,
+    "bis": 950,
+    "schritt": 50
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 90,
+    "schritt": 10
+   },
+   {
+    "name": "gramm",
+    "typ": "formel",
+    "ausdruck": "kg*1000+g"
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "m+cm/100"
+   }
+  ],
+  "bedingungen": [
+   "g%50==0",
+   "cm%10==0",
+   "kg!=m",
+   "gramm<10000"
+  ],
+  "stamm": "{name} notiert zwei Angaben: {kg} kg {g} g und {m} m {cm} cm.\n\nGib das Gewicht in Gramm und die Länge in Metern an.",
+  "felder": [
+   {
+    "name": "gramm",
+    "label": "Gewicht in g",
+    "ausdruck": "kg*1000+g",
+    "fehler": [
+     {
+      "diagnoseId": "kilo_falsch",
+      "ausdruck": "kg*100+g",
+      "feedback": "Ein Kilogramm sind 1000 Gramm, nicht 100."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "kg+g",
+      "feedback": "Die {kg} Kilogramm müssen zuerst in Gramm umgerechnet werden."
+     },
+     {
+      "diagnoseId": "nur_kilo",
+      "ausdruck": "kg*1000",
+      "feedback": "Die zusätzlichen {g} Gramm gehören dazu und werden addiert."
+     }
+    ]
+   },
+   {
+    "name": "meter",
+    "label": "Länge in m",
+    "ausdruck": "m+cm/100",
+    "fehler": [
+     {
+      "diagnoseId": "cm_falsch",
+      "ausdruck": "m+cm/10",
+      "feedback": "Ein Zentimeter ist ein Hundertstel Meter, nicht ein Zehntel."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "m+cm",
+      "feedback": "Meter und Zentimeter lassen sich nicht direkt addieren."
+     },
+     {
+      "diagnoseId": "nur_meter",
+      "ausdruck": "m",
+      "feedback": "Die {cm} Zentimeter gehören dazu; sie ergeben den Rest des Meters."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Gramm sind ein Kilogramm?",
+   "1000. Und ein Meter hat 100 Zentimeter.",
+   "Zuerst alles in dieselbe Einheit bringen, dann addieren."
+  ],
+  "loesungsweg": [
+   "{kg} kg sind {kg} · 1000 g.",
+   "Dazu {g} g ergibt {gramm} g.",
+   "{cm} cm sind {cm} : 100 m.",
+   "Dazu {m} m ergibt {meter} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-flaeche-rechteck",
+  "lernzielId": "MGR.4.04",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.04",
+   "4.05",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Schulzimmer"
+     ],
+     [
+      "ein Gartenbeet"
+     ],
+     [
+      "ein Vorplatz"
+     ],
+     [
+      "eine Terrasse"
+     ],
+     [
+      "ein Werkraum"
+     ],
+     [
+      "ein Estrich"
+     ],
+     [
+      "ein Kellerraum"
+     ],
+     [
+      "ein Balkonboden"
+     ],
+     [
+      "ein Zeltplatz"
+     ],
+     [
+      "ein Spielfeld"
+     ],
+     [
+      "ein Hofstück"
+     ],
+     [
+      "ein Lagerraum"
+     ]
+    ]
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "klein",
+    "typ": "formel",
+    "ausdruck": "c*c"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "a*b-c*c"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*a+2*b"
+   }
+  ],
+  "bedingungen": [
+   "c<b",
+   "rest>20",
+   "gross<700",
+   "a!=b",
+   "rest!=umfang",
+   "a!=c"
+  ],
+  "stamm": "{ort} misst {a} m mal {b} m. In einer Ecke steht ein quadratischer Pfeiler mit {c} m Seitenlänge.\n\nBerechne die freie Bodenfläche und den Umfang des Raums.",
+  "felder": [
+   {
+    "name": "rest",
+    "label": "freie Fläche in m²",
+    "ausdruck": "a*b-c*c",
+    "fehler": [
+     {
+      "diagnoseId": "pfeiler_vergessen",
+      "ausdruck": "a*b",
+      "feedback": "Der Pfeiler steht auf dem Boden; seine Grundfläche bleibt nicht frei."
+     },
+     {
+      "diagnoseId": "seite_abgezogen",
+      "ausdruck": "a*b-c",
+      "feedback": "Abgezogen wird eine FLÄCHE: {c} · {c} Quadratmeter."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a*b+c*c",
+      "feedback": "Der Pfeiler nimmt Platz weg; seine Fläche wird abgezogen."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang des Raums in m",
+    "ausdruck": "2*a+2*b",
+    "fehler": [
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a+b",
+      "feedback": "Ein Rechteck hat vier Seiten: Länge und Breite je zweimal."
+     },
+     {
+      "diagnoseId": "mit_pfeiler",
+      "ausdruck": "2*a+2*b+4*c",
+      "feedback": "Der Pfeiler steht innen; er verändert den Umfang des Raums nicht."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in m². Der Umfang ist eine Länge."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross wäre der Boden ohne den Pfeiler?",
+   "{a} · {b} Quadratmeter.",
+   "Davon die Grundfläche des Pfeilers abziehen: {c} · {c}."
+  ],
+  "loesungsweg": [
+   "Ganzer Boden: {a} · {b} = {gross} m².",
+   "Pfeiler: {c} · {c} = {klein} m².",
+   "Frei bleiben {rest} m².",
+   "Der Umfang misst 2 · {a} + 2 · {b} = {umfang} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-wuerfel-netz",
+  "lernzielId": "MGR.4.08",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.08",
+   "4.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Bauklotz"
+     ],
+     [
+      "ein Würfelmodell"
+     ],
+     [
+      "eine Schachtel"
+     ],
+     [
+      "ein Spielwürfel"
+     ],
+     [
+      "ein Karton"
+     ],
+     [
+      "ein Holzwürfel"
+     ],
+     [
+      "ein Kunststoffwürfel"
+     ],
+     [
+      "ein Setzkasten"
+     ],
+     [
+      "ein Eiswürfelmodell"
+     ],
+     [
+      "ein Papierwürfel"
+     ],
+     [
+      "ein Metallwürfel"
+     ],
+     [
+      "ein Modellblock"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "pow(k,3)"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "6*pow(k,2)"
+   },
+   {
+    "name": "kanten",
+    "typ": "formel",
+    "ausdruck": "12*k"
+   }
+  ],
+  "bedingungen": [
+   "v<4000",
+   "k!=6",
+   "o!=v",
+   "kanten!=o"
+  ],
+  "stamm": "Im Werkraum liegt {sache} in Form eines Würfels mit {k} cm Kantenlänge.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "pow(k,3)",
+    "fehler": [
+     {
+      "diagnoseId": "quadriert",
+      "ausdruck": "pow(k,2)",
+      "feedback": "Das ist eine Fläche. Beim Volumen wird die Kante dreimal multipliziert."
+     },
+     {
+      "diagnoseId": "mal_drei",
+      "ausdruck": "3*k",
+      "feedback": "«Hoch drei» heisst dreimal mit sich selbst multiplizieren, nicht mal drei."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "6*pow(k,2)",
+      "feedback": "Das ist die Oberfläche in cm², also eine Fläche statt eines Rauminhalts."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "6*pow(k,2)",
+    "fehler": [
+     {
+      "diagnoseId": "eine_flaeche",
+      "ausdruck": "pow(k,2)",
+      "feedback": "Ein Würfel hat sechs gleiche Flächen; eine allein genügt nicht."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "pow(k,3)",
+      "feedback": "Das ist das Volumen in cm³, ein Rauminhalt."
+     },
+     {
+      "diagnoseId": "kantensumme",
+      "ausdruck": "12*k",
+      "feedback": "Das ist die Summe aller zwölf Kanten, also eine Länge."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Würfel, und wie gross ist jede?",
+   "Sechs Quadrate mit der Seite {k} cm.",
+   "Das Volumen ist {k} · {k} · {k}."
+  ],
+  "loesungsweg": [
+   "Volumen: {k} · {k} · {k} = {v} cm³.",
+   "Eine Fläche: {k} · {k} cm².",
+   "Sechs Flächen ergeben {o} cm².",
+   "Die zwölf Kanten zusammen wären {kanten} cm lang."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-kopf-zerlegen",
+  "lernzielId": "KGR.1.05",
+  "fach": "kopfrechnen-gr",
+  "unterthemen": [
+   "1.05",
+   "1.06",
+   "1.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 49,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 99,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "z*b"
+   },
+   {
+    "name": "zehner",
+    "typ": "formel",
+    "ausdruck": "floor(z/10)*10"
+   },
+   {
+    "name": "einer",
+    "typ": "formel",
+    "ausdruck": "z%10"
+   }
+  ],
+  "bedingungen": [
+   "wert<4000",
+   "z%10!=0",
+   "b!=z",
+   "einer>1",
+   "wert!=b"
+  ],
+  "stamm": "Rechne im Kopf, ohne etwas aufzuschreiben.\n\n{z} · {b} =",
+  "loesung": "z*b",
+  "gegenprobe": "(floor(z/10)*10)*b+(z%10)*b",
+  "fehler": [
+   {
+    "diagnoseId": "nur_zehner",
+    "ausdruck": "floor(z/10)*10*b",
+    "feedback": "Zerlegt wird {z} in {zehner} und {einer}. Beide Teile werden mit {b} multipliziert und dann addiert — der zweite fehlt."
+   },
+   {
+    "diagnoseId": "nur_einer",
+    "ausdruck": "(z%10)*b",
+    "feedback": "Der Zehnerteil {zehner} gehört ebenfalls dazu."
+   },
+   {
+    "diagnoseId": "addiert_statt_multipliziert",
+    "ausdruck": "z+b",
+    "feedback": "Zwischen den Zahlen steht ein Malpunkt, kein Pluszeichen."
+   }
+  ],
+  "hinweise": [
+   "Wie lässt sich {z} in zwei bequeme Teile zerlegen?",
+   "In {zehner} und {einer}.",
+   "Beide Teile mit {b} multiplizieren und die Ergebnisse addieren."
+  ],
+  "loesungsweg": [
+   "{z} = {zehner} + {einer}.",
+   "{zehner} · {b} ist leicht zu rechnen.",
+   "Dazu {einer} · {b}.",
+   "Zusammen ergibt das {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden nach Armin Kuratle; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-kopf-ueberschlag",
+  "lernzielId": "KGR.1.09",
+  "fach": "kopfrechnen-gr",
+  "unterthemen": [
+   "1.09",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 180,
+    "bis": 980,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "genau",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "rund",
+    "typ": "formel",
+    "ausdruck": "floor((a+50)/100)*100*b"
+   }
+  ],
+  "bedingungen": [
+   "genau<9000",
+   "a%100!=0",
+   "rund!=genau",
+   "a!=b"
+  ],
+  "stamm": "{name} überschlägt zuerst und rechnet dann genau.\n\n{a} · {b} — gib den Überschlag mit gerundetem ersten Faktor und das genaue Ergebnis an.",
+  "felder": [
+   {
+    "name": "rund",
+    "label": "Überschlag",
+    "ausdruck": "floor((a+50)/100)*100*b",
+    "fehler": [
+     {
+      "diagnoseId": "abgerundet",
+      "ausdruck": "floor(a/100)*100*b",
+      "feedback": "Gerundet wird auf den nächsten Hunderter — also je nach Zehnerstelle auf oder ab."
+     },
+     {
+      "diagnoseId": "genau",
+      "ausdruck": "a*b",
+      "feedback": "Das ist das genaue Ergebnis. Beim Überschlag wird zuerst gerundet."
+     },
+     {
+      "diagnoseId": "nur_gerundet",
+      "ausdruck": "floor((a+50)/100)*100",
+      "feedback": "Nach dem Runden wird noch mit {b} multipliziert."
+     }
+    ]
+   },
+   {
+    "name": "genau",
+    "label": "genaues Ergebnis",
+    "ausdruck": "a*b",
+    "fehler": [
+     {
+      "diagnoseId": "ueberschlag",
+      "ausdruck": "floor((a+50)/100)*100*b",
+      "feedback": "Das ist der Überschlag. Gefragt ist jetzt das genaue Ergebnis."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Zwischen den Zahlen steht ein Malpunkt, kein Pluszeichen."
+     },
+     {
+      "diagnoseId": "stellen_vertauscht",
+      "ausdruck": "a*b/10",
+      "feedback": "Prüfe die Grössenordnung mit dem Überschlag: Das Ergebnis muss in dessen Nähe liegen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Auf welchen Hunderter liegt {a} am nächsten?",
+   "Runde zuerst und multipliziere dann mit {b}.",
+   "Der Überschlag zeigt, in welcher Grössenordnung das genaue Ergebnis liegen muss."
+  ],
+  "loesungsweg": [
+   "{a} auf den nächsten Hunderter runden.",
+   "Mit {b} multiplizieren ergibt den Überschlag {rund}.",
+   "Genau gerechnet: {a} · {b} = {genau}.",
+   "Beide Zahlen liegen nahe beieinander — die Probe stimmt."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Erläuterungen zum fixierenden Kopfrechnen» des Amts für Höhere Bildung Graubünden nach Armin Kuratle; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-brueche-gr",
+  "lernzielId": "MGR.1.05",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.05",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=72",
+   "((p*b+q*a)%(a*b))!=0",
+   "wert<2",
+   "p/a!=q/b"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner. Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} =",
+  "loesung": "p/a+q/b",
+  "gegenprobe": "(p*b+q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "ueber_kreuz",
+    "ausdruck": "(p+q)/(a+b)",
+    "feedback": "Zähler zu Zähler und Nenner zu Nenner ergibt einen falschen Wert: Sonst wäre ein Halbes plus ein Halbes zwei Viertel."
+   },
+   {
+    "diagnoseId": "nenner_beibehalten",
+    "ausdruck": "(p+q)/a",
+    "feedback": "Die Nenner sind verschieden; erst nach dem Erweitern darf man die Zähler addieren."
+   },
+   {
+    "diagnoseId": "multipliziert",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Das wäre das Produkt; zwischen den Brüchen steht ein Plus."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie addiert?",
+   "Den gemeinsamen Nenner {a} · {b}.",
+   "Dann nur die Zähler addieren und am Schluss kürzen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern.",
+   "Zähler addieren.",
+   "Kürzen ergibt {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-gleichung-gr",
+  "lernzielId": "MGR.3.04",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "3.04",
+   "3.02",
+   "3.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -15,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "a*x+b-c*x"
+   }
+  ],
+  "bedingungen": [
+   "a!=c",
+   "x!=0",
+   "abs(d)<150",
+   "abs(a-c)>1",
+   "x!=b",
+   "x!=d",
+   "x!=a",
+   "x!=c"
+  ],
+  "stamm": "{name} löst die Gleichung nach x auf.\n\n{a}x + {b} = {c}x + {d}",
+  "loesung": "x",
+  "gegenprobe": "(d-b)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_eine_seite",
+    "ausdruck": "(d-b)/a",
+    "feedback": "Auf beiden Seiten steht ein x. Zuerst werden sie zusammengefasst: ({a} − {c})x."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "(b-d)/(a-c)",
+    "feedback": "Beim Verschieben über das Gleichheitszeichen wechselt das Vorzeichen."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(d-b)/(a+c)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen, nicht addiert."
+   }
+  ],
+  "hinweise": [
+   "Auf welcher Seite willst du das x haben?",
+   "Ziehe {c}x auf beiden Seiten ab.",
+   "Danach die Zahlen verschieben und durch den Faktor teilen."
+  ],
+  "loesungsweg": [
+   "x-Glieder auf eine Seite: ({a} − {c})x.",
+   "Zahlen auf die andere Seite.",
+   "Durch den Faktor teilen.",
+   "Ergebnis: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-winkel-gr",
+  "lernzielId": "MGR.4.01",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.01",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 25,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 25,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "alpha+beta"
+   }
+  ],
+  "bedingungen": [
+   "gamma>20",
+   "gamma<130",
+   "alpha!=beta",
+   "gamma!=alpha",
+   "gamma!=beta",
+   "aussen<160"
+  ],
+  "stamm": "{name} misst in einem Dreieck zwei Winkel: {alpha}° und {beta}°.\n\nBerechne den dritten Winkel und den Aussenwinkel bei ihm.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "dritter Winkel in Grad",
+    "ausdruck": "180-alpha-beta",
+    "fehler": [
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°; 360° gilt im Viereck."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "alpha+beta",
+      "feedback": "Das ist die Summe der beiden gemessenen Winkel."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "abs(alpha-beta)",
+      "feedback": "Die beiden Winkel werden von 180° abgezogen, nicht voneinander."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel in Grad",
+    "ausdruck": "alpha+beta",
+    "fehler": [
+     {
+      "diagnoseId": "innenwinkel",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der Innenwinkel. Der Aussenwinkel ergänzt ihn auf 180°."
+     },
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Der Aussenwinkel ist der Nebenwinkel des Innenwinkels: 180° minus dieser."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "(alpha+beta)/2",
+      "feedback": "Halbiert wird hier nichts; der Aussenwinkel ist so gross wie die Summe der beiden anderen Innenwinkel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Dreieck?",
+   "180°. Der dritte Winkel ist der Rest.",
+   "Der Aussenwinkel ergänzt den Innenwinkel auf 180° — und ist damit so gross wie die Summe der beiden anderen."
+  ],
+  "loesungsweg": [
+   "Dritter Winkel: 180° − {alpha}° − {beta}° = {gamma}°.",
+   "Der Aussenwinkel ist 180° − {gamma}°.",
+   "Das ergibt {aussen}°.",
+   "Probe: {aussen}° ist genau {alpha}° + {beta}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-massstab-gr",
+  "lernzielId": "MGR.2.07",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.07",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     25000,
+     50000
+    ]
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wanderweg"
+     ],
+     [
+      "ein Alpweg"
+     ],
+     [
+      "eine Passstrasse"
+     ],
+     [
+      "ein Talweg"
+     ],
+     [
+      "ein Höhenweg"
+     ],
+     [
+      "ein Uferweg"
+     ],
+     [
+      "ein Bergpfad"
+     ],
+     [
+      "ein Verbindungsweg"
+     ],
+     [
+      "ein Rundweg"
+     ],
+     [
+      "ein Zufahrtsweg"
+     ],
+     [
+      "ein Waldweg"
+     ],
+     [
+      "ein Panoramaweg"
+     ]
+    ]
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "cm*m/100"
+   },
+   {
+    "name": "km",
+    "typ": "formel",
+    "ausdruck": "cm*m/100000"
+   }
+  ],
+  "bedingungen": [
+   "km>0.4",
+   "km<16",
+   "cm!=m"
+  ],
+  "stamm": "Auf der Landeskarte im Massstab 1 : {m} ist {weg} {cm} cm lang.\n\nWie lang ist er in Metern und in Kilometern?",
+  "felder": [
+   {
+    "name": "meter",
+    "label": "Länge in m",
+    "ausdruck": "cm*m/100",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "cm*m",
+      "feedback": "Diese Zahl steht in Zentimetern; für Meter wird durch 100 geteilt."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "cm/m",
+      "feedback": "In Wirklichkeit ist der Weg {m}-mal länger als auf der Karte."
+     },
+     {
+      "diagnoseId": "kilometer",
+      "ausdruck": "cm*m/100000",
+      "feedback": "Das ist die Länge in Kilometern, also tausendmal kleiner."
+     }
+    ]
+   },
+   {
+    "name": "km",
+    "label": "Länge in km",
+    "ausdruck": "cm*m/100000",
+    "fehler": [
+     {
+      "diagnoseId": "meter",
+      "ausdruck": "cm*m/100",
+      "feedback": "Das ist die Länge in Metern; ein Kilometer sind 1000 Meter."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "cm*m/1000",
+      "feedback": "Von Zentimetern zu Kilometern sind es fünf Nullen: 100 mal 1000."
+     },
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "cm*m",
+      "feedback": "Diese Zahl steht noch in Zentimetern und ist viel zu gross."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet 1 : {m}?",
+   "Ein Zentimeter auf der Karte sind {m} Zentimeter in Wirklichkeit.",
+   "Dann in Meter und Kilometer umrechnen."
+  ],
+  "loesungsweg": [
+   "{cm} · {m} ergibt die wahre Länge in Zentimetern.",
+   "Durch 100 geteilt: {meter} m.",
+   "Durch weitere 1000 geteilt: {km} km.",
+   "Auf der Landeskarte 1 : 25 000 sind vier Zentimeter ein Kilometer."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-gemeinsame-teiler",
+  "lernzielId": "MGR.1.03",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.03",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "loesungsmenge",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     8,
+     9,
+     10,
+     12,
+     14,
+     15,
+     16,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*p"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*q"
+   }
+  ],
+  "bedingungen": [
+   "ggt(p,q)==1",
+   "ggt(g,p)==1",
+   "ggt(g,q)==1",
+   "a<=160",
+   "b<=160",
+   "a!=b",
+   "p!=q"
+  ],
+  "stamm": "{name} sucht alle Zahlen von 1 bis 20, durch die sowohl {a} als auch {b} ohne Rest teilbar sind.\n\nWähle alle aus.",
+  "fehler": [
+   {
+    "diagnoseId": "nur_erste_zahl",
+    "feedback": "Du hast Teiler von {a} gewählt, die {b} nicht teilen. Gefragt sind nur die Zahlen, die in beiden aufgehen — probiere jede an beiden aus.",
+    "bedingung": "a % k == 0",
+    "kurz": "nur Teiler von {a}"
+   },
+   {
+    "diagnoseId": "nur_zweite_zahl",
+    "feedback": "Du hast Teiler von {b} gewählt, die {a} nicht teilen. Ein gemeinsamer Teiler muss in beiden Zahlen ohne Rest aufgehen.",
+    "bedingung": "b % k == 0",
+    "kurz": "nur Teiler von {b}"
+   },
+   {
+    "diagnoseId": "nur_primzahlen",
+    "feedback": "Du hast nur die Primzahlen darunter gewählt. Auch zusammengesetzte Zahlen wie 4, 6 oder 12 können gemeinsame Teiler sein, und die 1 teilt jede Zahl.",
+    "bedingung": "a % k == 0 && b % k == 0 && (k==2||k==3||k==5||k==7||k==11||k==13||k==17||k==19)",
+    "kurz": "Primteiler allein"
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl teilt jede der beiden Zahlen bestimmt?",
+   "Die 1 gehört immer dazu. Prüfe danach 2, 3, 4 und so weiter.",
+   "Eine Zahl gehört nur dann dazu, wenn sie in beiden ohne Rest aufgeht."
+  ],
+  "loesungsweg": [
+   "Zuerst alle Teiler von {a} bis 20 aufschreiben.",
+   "Dann prüfen, welche davon auch {b} teilen.",
+   "Die 1 nicht vergessen.",
+   "Übrig bleiben die gemeinsamen Teiler."
+  ],
+  "loesungsmenge": {
+   "kandidatenVariable": "k",
+   "von": "1",
+   "bis": "20",
+   "bedingung": "a % k == 0 && b % k == 0"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-runden-gr",
+  "lernzielId": "MGR.1.06",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 120,
+    "bis": 980,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "geraet",
+    "typ": "text",
+    "texte": [
+     [
+      "die Waage"
+     ],
+     [
+      "das Messband"
+     ],
+     [
+      "der Messstab"
+     ],
+     [
+      "die Digitalwaage"
+     ],
+     [
+      "das Thermometer"
+     ],
+     [
+      "der Zähler"
+     ],
+     [
+      "die Anzeige"
+     ],
+     [
+      "das Höhenmessgerät"
+     ],
+     [
+      "der Regenmesser"
+     ],
+     [
+      "die Küchenwaage"
+     ],
+     [
+      "das Bandmass"
+     ],
+     [
+      "der Schrittzähler"
+     ]
+    ]
+   },
+   {
+    "name": "auf",
+    "typ": "formel",
+    "ausdruck": "d>=5 ? 1 : 0"
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "h+(d>=5 ? 1 : 0)"
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "(h*10+d)/1000"
+   }
+  ],
+  "bedingungen": [
+   "r%10!=0",
+   "h%10!=0",
+   "r!=h*10+d"
+  ],
+  "stamm": "{name} liest ab: {geraet} zeigt den Wert {wert}.\n\nRunde diesen Wert auf zwei Stellen nach dem Komma.",
+  "loesung": "r/100",
+  "gegenprobe": "(h*10+d+(d>=5 ? 10-d : 0-d))/1000",
+  "fehler": [
+   {
+    "diagnoseId": "falsche_richtung",
+    "ausdruck": "(h+(d>=5 ? 0 : 1))/100",
+    "feedback": "Gerundet wird nach der dritten Stelle nach dem Komma: Ist sie 5 oder grösser, geht es aufwärts, sonst abwärts. Hier ist es umgekehrt gelaufen."
+   },
+   {
+    "diagnoseId": "eine_stelle_zu_wenig",
+    "ausdruck": "floor(r/10+0.5)/10",
+    "feedback": "Das ist auf eine Stelle nach dem Komma gerundet. Verlangt sind zwei Stellen, also eine Ziffer mehr."
+   },
+   {
+    "diagnoseId": "komma_verschoben",
+    "ausdruck": "r/10",
+    "feedback": "Die Ziffern stimmen, das Komma steht eine Stelle zu weit rechts. Vergleiche die Grössenordnung mit dem abgelesenen Wert."
+   }
+  ],
+  "hinweise": [
+   "Welche Ziffer entscheidet beim Runden auf zwei Stellen?",
+   "Die dritte Stelle nach dem Komma.",
+   "Ist sie 5 oder grösser, wird die zweite Stelle um 1 erhöht."
+  ],
+  "loesungsweg": [
+   "Die zweite Stelle nach dem Komma suchen.",
+   "Die Ziffer danach anschauen.",
+   "Ab 5 aufrunden, sonst abrunden.",
+   "Das Ergebnis lautet {r:dezimal2}, geteilt durch 100."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-bruch-prozent",
+  "lernzielId": "MGR.1.07",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.07",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     10,
+     20,
+     25,
+     50
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 49,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "der Klasse"
+     ],
+     [
+      "der Bahnkarten"
+     ],
+     [
+      "der Sitzplätze"
+     ],
+     [
+      "der Anmeldungen"
+     ],
+     [
+      "der Bücher"
+     ],
+     [
+      "der Fahrten"
+     ],
+     [
+      "der Zimmer"
+     ],
+     [
+      "der Karten"
+     ],
+     [
+      "der Startplätze"
+     ],
+     [
+      "der Betten"
+     ],
+     [
+      "der Tickets"
+     ],
+     [
+      "der Plätze"
+     ]
+    ]
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "z*100/n"
+   },
+   {
+    "name": "dez",
+    "typ": "formel",
+    "ausdruck": "z/n"
+   }
+  ],
+  "bedingungen": [
+   "z<n",
+   "ggt(z,n)==1",
+   "z>1",
+   "proz!=z",
+   "proz!=n"
+  ],
+  "stamm": "{name} liest in einem Bericht, dass {z:hoch}⁄{n:tief} {sache} reserviert sind.\n\nGib denselben Anteil in Prozent und als Dezimalzahl an.",
+  "felder": [
+   {
+    "name": "proz",
+    "label": "Anteil in Prozent",
+    "ausdruck": "z*100/n",
+    "fehler": [
+     {
+      "diagnoseId": "zaehler_genommen",
+      "ausdruck": "z",
+      "feedback": "Der Zähler allein ist noch kein Prozentsatz. Erweitere den Bruch so, dass im Nenner 100 steht."
+     },
+     {
+      "diagnoseId": "nenner_genommen",
+      "ausdruck": "n",
+      "feedback": "Der Nenner sagt, in wie viele Teile das Ganze zerlegt ist, nicht wie viel Prozent es sind."
+     },
+     {
+      "diagnoseId": "umgekehrt",
+      "ausdruck": "n*100/z",
+      "feedback": "Zähler und Nenner sind vertauscht. Der Anteil ist {z} von {n}, nicht {n} von {z}."
+     }
+    ]
+   },
+   {
+    "name": "dez",
+    "label": "Anteil als Dezimalzahl",
+    "ausdruck": "z/n",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "prozentzahl",
+      "ausdruck": "z*100/n",
+      "feedback": "Das ist der Prozentwert. Für die Dezimalzahl wird er durch 100 geteilt."
+     },
+     {
+      "diagnoseId": "umgekehrt_geteilt",
+      "ausdruck": "n/z",
+      "feedback": "Geteilt wird der Zähler durch den Nenner, nicht umgekehrt."
+     },
+     {
+      "diagnoseId": "faktor_zehn",
+      "ausdruck": "z*10/n",
+      "feedback": "Das Komma steht eine Stelle zu weit rechts; vergleiche mit dem Prozentwert geteilt durch 100."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Auf welchen Nenner muss der Bruch erweitert werden, damit man Prozent ablesen kann?",
+   "Auf 100. Dann steht der Prozentsatz direkt im Zähler.",
+   "Die Dezimalzahl ist derselbe Wert, nur ohne das Prozentzeichen: Zähler durch Nenner."
+  ],
+  "loesungsweg": [
+   "Den Bruch auf den Nenner 100 erweitern.",
+   "Der neue Zähler ist der Prozentsatz.",
+   "Für die Dezimalzahl {z} durch {n} teilen.",
+   "Beide Werte beschreiben denselben Anteil."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-negative-gr",
+  "lernzielId": "MGR.1.08",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "°C",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "auf dem Julierpass"
+     ],
+     [
+      "in Samedan"
+     ],
+     [
+      "auf der Lenzerheide"
+     ],
+     [
+      "in Zuoz"
+     ],
+     [
+      "auf dem Flüelapass"
+     ],
+     [
+      "in Sils"
+     ],
+     [
+      "auf der Alp Flix"
+     ],
+     [
+      "in Bergün"
+     ],
+     [
+      "auf dem Albulapass"
+     ],
+     [
+      "in Splügen"
+     ],
+     [
+      "auf der Diavolezza"
+     ],
+     [
+      "in Davos"
+     ]
+    ]
+   },
+   {
+    "name": "mittag",
+    "typ": "formel",
+    "ausdruck": "0-a+b"
+   },
+   {
+    "name": "nacht",
+    "typ": "formel",
+    "ausdruck": "0-a+b-c"
+   }
+  ],
+  "bedingungen": [
+   "b!=a",
+   "c!=b",
+   "mittag!=0",
+   "nacht!=0",
+   "nacht!=0-a",
+   "abs(nacht)<40",
+   "mittag!=0-a",
+   "nacht!=mittag",
+   "nacht!=b",
+   "nacht!=c",
+   "nacht!=0-c",
+   "nacht!=a",
+   "nacht!=0-b",
+   "abs(nacht)!=a",
+   "abs(nacht)!=b",
+   "abs(nacht)!=c"
+  ],
+  "stamm": "Am frühen Morgen zeigt das Thermometer {ort} −{a} °C. Bis zum Mittag steigt die Temperatur um {b} Grad, in der Nacht sinkt sie wieder um {c} Grad.\n\nWelche Temperatur zeigt das Thermometer in der Nacht?",
+  "loesung": "0-a+b-c",
+  "gegenprobe": "(b-c)-a",
+  "fehler": [
+   {
+    "diagnoseId": "minus_uebersehen",
+    "ausdruck": "a+b-c",
+    "feedback": "Der Morgenwert liegt unter null. Ein Minuszeichen davor ändert die ganze Rechnung — der Startpunkt ist −{a} °C."
+   },
+   {
+    "diagnoseId": "beides_addiert",
+    "ausdruck": "0-a+b+c",
+    "feedback": "In der Nacht sinkt die Temperatur; die {c} Grad werden abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "0-a-b+c",
+    "feedback": "Am Mittag steigt die Temperatur und in der Nacht sinkt sie — hier sind die beiden Richtungen vertauscht."
+   }
+  ],
+  "hinweise": [
+   "Wo auf dem Zahlenstrahl liegt der Startwert?",
+   "Links von der Null, bei −{a}.",
+   "Steigen heisst nach rechts, sinken nach links."
+  ],
+  "loesungsweg": [
+   "Start bei −{a} °C.",
+   "Um {b} Grad nach oben ergibt {mittag} °C.",
+   "Um {c} Grad nach unten.",
+   "In der Nacht sind es {nacht} °C."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-potenz-wurzel",
+  "lernzielId": "MGR.1.09",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "1.09",
+   "1.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 29,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "quadrat",
+    "typ": "formel",
+    "ausdruck": "q*q"
+   },
+   {
+    "name": "radikand",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   }
+  ],
+  "bedingungen": [
+   "q!=r",
+   "q!=r*r",
+   "r!=q*q",
+   "abs(q-r)>1"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\nBerechne {q}² und die Quadratwurzel aus {radikand}.",
+  "felder": [
+   {
+    "name": "quadrat",
+    "label": "{q}²",
+    "ausdruck": "q*q",
+    "fehler": [
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*q",
+      "feedback": "Eine Hochzahl bedeutet nicht verdoppeln: {q}² heisst {q} mal {q}."
+     },
+     {
+      "diagnoseId": "um_eins_daneben",
+      "ausdruck": "(q+1)*(q+1)",
+      "feedback": "Hier ist mit einer um 1 zu grossen Zahl gerechnet worden. Prüfe die Endziffer: Sie verrät die letzte Stelle des Quadrats."
+     },
+     {
+      "diagnoseId": "zehner_plus_einer",
+      "ausdruck": "(floor(q/10)*10)*(floor(q/10)*10)+(q%10)*(q%10)",
+      "feedback": "Beim Quadrieren darf man die Zahl nicht in Zehner und Einer zerlegen und beide Teile einzeln quadrieren — die gemischten Glieder fehlen dabei."
+     }
+    ]
+   },
+   {
+    "name": "wurzel",
+    "label": "Quadratwurzel aus {radikand}",
+    "ausdruck": "r",
+    "fehler": [
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "radikand/2",
+      "feedback": "Die Wurzel ist nicht die Hälfte: Gesucht ist die Zahl, die mit sich selbst malgenommen {radikand} ergibt."
+     },
+     {
+      "diagnoseId": "quadriert",
+      "ausdruck": "radikand*radikand",
+      "feedback": "Das ist das Quadrat statt der Wurzel — die Rechnung geht in die falsche Richtung."
+     },
+     {
+      "diagnoseId": "zehntel",
+      "ausdruck": "radikand/10",
+      "feedback": "Ein Zehntel ist keine Wurzel. Suche die Zahl, deren Quadrat {radikand} ergibt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet die kleine Zwei über der Zahl?",
+   "Die Zahl wird mit sich selbst multipliziert.",
+   "Die Wurzel geht den umgekehrten Weg: Welche Zahl ergibt mit sich selbst {radikand}?"
+  ],
+  "loesungsweg": [
+   "{q}² heisst {q} · {q}.",
+   "Das ergibt {quadrat}.",
+   "Für die Wurzel die Zahl suchen, deren Quadrat {radikand} ist.",
+   "Das ist {r}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-zeitspanne-gr",
+  "lernzielId": "MGR.2.03",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.03",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "min",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "h1",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "m1",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     35,
+     40,
+     45,
+     50,
+     55
+    ]
+   },
+   {
+    "name": "dh",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     35,
+     40,
+     45,
+     50,
+     55
+    ]
+   },
+   {
+    "name": "strecke",
+    "typ": "text",
+    "texte": [
+     [
+      "von Chur nach Arosa"
+     ],
+     [
+      "von Landquart nach Davos"
+     ],
+     [
+      "von Chur nach Thusis"
+     ],
+     [
+      "von Samedan nach Scuol"
+     ],
+     [
+      "von Ilanz nach Disentis"
+     ],
+     [
+      "von Chur nach Ilanz"
+     ],
+     [
+      "von Davos nach Filisur"
+     ],
+     [
+      "von Bever nach Zernez"
+     ],
+     [
+      "von Thusis nach Tiefencastel"
+     ],
+     [
+      "von Chur nach Domat"
+     ],
+     [
+      "von Klosters nach Küblis"
+     ],
+     [
+      "von Zuoz nach Pontresina"
+     ]
+    ]
+   },
+   {
+    "name": "h2",
+    "typ": "formel",
+    "ausdruck": "h1+dh"
+   },
+   {
+    "name": "start",
+    "typ": "formel",
+    "ausdruck": "h1*60+m1"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "(h1+dh)*60+m2"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "(h1+dh)*60+m2-(h1*60+m1)"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "dauer>45",
+   "dauer<230",
+   "h2<15",
+   "dauer!=m1",
+   "dauer!=m2",
+   "dauer!=h1",
+   "dauer!=h2"
+  ],
+  "stamm": "Der Zug {strecke} fährt um {h1}:{m1} Uhr ab und kommt um {h2}:{m2} Uhr an.\n\nWie lange dauert die Fahrt in Minuten?",
+  "loesung": "(h1+dh)*60+m2-(h1*60+m1)",
+  "gegenprobe": "dh*60+(m2-m1)",
+  "fehler": [
+   {
+    "diagnoseId": "minuten_falsch_abgezogen",
+    "ausdruck": "dh*60+abs(m2-m1)",
+    "feedback": "Wenn die Ankunftsminuten kleiner sind als die Abfahrtsminuten, darf man nicht einfach die kleinere von der grösseren abziehen — dann fehlt der Übertrag aus der Stunde."
+   },
+   {
+    "diagnoseId": "nur_stunden",
+    "ausdruck": "dh*60",
+    "feedback": "Die vollen Stunden allein genügen nicht; die Minuten gehören dazu."
+   },
+   {
+    "diagnoseId": "stunden_und_minuten_addiert",
+    "ausdruck": "dh+m2-m1",
+    "feedback": "Hier sind Stunden und Minuten vermischt worden. Rechne alles in Minuten um, bevor du subtrahierst."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Minuten hat eine Stunde?",
+   "Rechne beide Zeiten in Minuten seit Mitternacht um.",
+   "Dann die Abfahrt von der Ankunft abziehen."
+  ],
+  "loesungsweg": [
+   "Abfahrt in Minuten: {h1} · 60 + {m1}.",
+   "Ankunft in Minuten: {h2} · 60 + {m2}.",
+   "Die Differenz bilden.",
+   "Die Fahrt dauert {dauer} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-prozent-gr",
+  "lernzielId": "MGR.2.04",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.04",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "voll",
+    "typ": "auswahl",
+    "werte": [
+     120,
+     140,
+     160,
+     180,
+     200,
+     220,
+     240,
+     260,
+     280,
+     300,
+     320,
+     360
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     40,
+     50,
+     60,
+     75,
+     80
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Halbtax-Abo"
+     ],
+     [
+      "einen Skipass"
+     ],
+     [
+      "einen Kurs"
+     ],
+     [
+      "einen Veloservice"
+     ],
+     [
+      "eine Jahreskarte"
+     ],
+     [
+      "einen Zeltplatz"
+     ],
+     [
+      "eine Klassenkasse"
+     ],
+     [
+      "einen Musikkurs"
+     ],
+     [
+      "ein Lager"
+     ],
+     [
+      "ein Schwimmabo"
+     ],
+     [
+      "eine Kletterkarte"
+     ],
+     [
+      "ein Kurspaket"
+     ]
+    ]
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "voll*p/100"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "voll-voll*p/100"
+   }
+  ],
+  "bedingungen": [
+   "voll%20==0",
+   "teil!=voll",
+   "teil!=p",
+   "rest!=teil",
+   "rest!=p",
+   "voll!=p",
+   "teil>50"
+  ],
+  "stamm": "{name} zahlt für {ware} {teil} Fr. Das sind {p} % des vollen Preises.\n\nWie hoch ist der volle Preis, und wie viel wird gespart?",
+  "felder": [
+   {
+    "name": "voll",
+    "label": "voller Preis in Fr.",
+    "ausdruck": "teil*100/p",
+    "fehler": [
+     {
+      "diagnoseId": "prozent_vom_teil",
+      "ausdruck": "teil*p/100",
+      "feedback": "So wären {p} % vom bezahlten Betrag gerechnet. Der bezahlte Betrag ist aber selbst schon der Anteil — gesucht ist das Ganze."
+     },
+     {
+      "diagnoseId": "rest_addiert",
+      "ausdruck": "teil+p",
+      "feedback": "Der Prozentsatz ist keine Zahl in Franken; er lässt sich nicht dazuzählen."
+     },
+     {
+      "diagnoseId": "gegensatz",
+      "ausdruck": "teil*100/(100-p)",
+      "feedback": "Hier wurde mit dem fehlenden Anteil gerechnet. Die {teil} Fr. entsprechen {p} %, nicht {100-p} %."
+     }
+    ]
+   },
+   {
+    "name": "rest",
+    "label": "Ersparnis in Fr.",
+    "ausdruck": "teil*100/p-teil",
+    "fehler": [
+     {
+      "diagnoseId": "voller_preis",
+      "ausdruck": "teil*100/p",
+      "feedback": "Das ist der volle Preis. Gespart wird die Differenz zum bezahlten Betrag."
+     },
+     {
+      "diagnoseId": "bezahlt",
+      "ausdruck": "teil",
+      "feedback": "Das ist der bezahlte Betrag, nicht die Ersparnis."
+     },
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "Der Prozentsatz beschreibt den Anteil; gefragt ist ein Betrag in Franken."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl entspricht 100 %?",
+   "Der volle Preis — er ist gesucht.",
+   "Aus {p} % lässt sich zuerst 1 % berechnen, dann 100 %."
+  ],
+  "loesungsweg": [
+   "{teil} Fr. entsprechen {p} %.",
+   "Ein Prozent ist {teil} geteilt durch {p}.",
+   "Mal 100 ergibt den vollen Preis {voll} Fr.",
+   "Die Ersparnis ist {voll} Fr. − {teil} Fr. = {rest} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-dreisatz-gr",
+  "lernzielId": "MGR.2.05",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.05",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "einzel",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 7,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Kilogramm Bergkäse"
+     ],
+     [
+      "Kilogramm Kastanien"
+     ],
+     [
+      "Bündner Nusstorten"
+     ],
+     [
+      "Dachziegel"
+     ],
+     [
+      "Setzlinge"
+     ],
+     [
+      "Heuballen"
+     ],
+     [
+      "Päckchen Alpbutter"
+     ],
+     [
+      "Wanderkarten"
+     ],
+     [
+      "Bündel Holzscheite"
+     ],
+     [
+      "Päckchen Bergtee"
+     ],
+     [
+      "Flaschen Apfelsaft"
+     ],
+     [
+      "Bienenwachskerzen"
+     ]
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "formel",
+    "ausdruck": "einzel*k"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "einzel*m"
+   }
+  ],
+  "bedingungen": [
+   "m!=k",
+   "gesamt<160",
+   "preis!=gesamt",
+   "gesamt!=m",
+   "gesamt!=k",
+   "preis!=m",
+   "einzel!=m"
+  ],
+  "stamm": "{k} {ware} kosten {preis} Fr.\n\nWie viel kosten {m} {ware} zum gleichen Preis?",
+  "loesung": "preis*m/k",
+  "gegenprobe": "einzel*m",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_teilen",
+    "ausdruck": "preis*m",
+    "feedback": "Hier ist der Gesamtpreis mit {m} multipliziert worden. Zuerst muss der Preis für ein einziges Stück berechnet werden."
+   },
+   {
+    "diagnoseId": "umgekehrt",
+    "ausdruck": "preis*k/m",
+    "feedback": "Multiplikator und Divisor sind vertauscht. Geteilt wird durch die gegebene Anzahl {k}, multipliziert mit der gesuchten Anzahl {m}."
+   },
+   {
+    "diagnoseId": "additiv",
+    "ausdruck": "preis+(m-k)",
+    "feedback": "Der Preis wächst nicht um so viele Franken, wie Stücke dazukommen. Jedes zusätzliche Stück kostet den Einzelpreis."
+   }
+  ],
+  "hinweise": [
+   "Was kostet ein einziges Stück?",
+   "Den Gesamtpreis durch {k} teilen.",
+   "Dann mit {m} multiplizieren."
+  ],
+  "loesungsweg": [
+   "{preis} Fr. geteilt durch {k} ergibt den Einzelpreis.",
+   "Das sind {einzel} Fr.",
+   "Mal {m} gerechnet.",
+   "Zusammen {gesamt} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-umgekehrt-gr",
+  "lernzielId": "MGR.2.06",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.06",
+   "2.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "werk",
+    "typ": "auswahl",
+    "werte": [
+     24,
+     36,
+     48,
+     60,
+     72,
+     84,
+     90,
+     96,
+     120,
+     144,
+     180,
+     240
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Sensen",
+      "Stunden"
+     ],
+     [
+      "Melkmaschinen",
+      "Minuten"
+     ],
+     [
+      "Schneefräsen",
+      "Stunden"
+     ],
+     [
+      "Helferinnen",
+      "Stunden"
+     ],
+     [
+      "Pumpen",
+      "Minuten"
+     ],
+     [
+      "Traktoren",
+      "Stunden"
+     ],
+     [
+      "Seilwinden",
+      "Minuten"
+     ],
+     [
+      "Öfen",
+      "Stunden"
+     ],
+     [
+      "Nähmaschinen",
+      "Minuten"
+     ],
+     [
+      "Kopiergeräte",
+      "Minuten"
+     ],
+     [
+      "Freiwillige",
+      "Stunden"
+     ],
+     [
+      "Bagger",
+      "Tage"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "werk>=24"
+  ],
+  "stamm": "Je mehr {sache} im Einsatz sind, desto weniger {sache.1} dauert die Arbeit. Eine einzelne Einheit allein bräuchte {werk} {sache.1}.\n\nTrage alle Paare ein, bei denen die Arbeit genau aufgeht. Anzahl {sache} von 1 bis 12.",
+  "fehler": [
+   {
+    "diagnoseId": "proportional",
+    "feedback": "Hier ist gerechnet worden, als würde die Dauer mit der Anzahl wachsen. Mehr {sache} bedeuten aber weniger {sache.1}: Das Produkt bleibt gleich, nicht der Quotient.",
+    "kurz": "proportional statt umgekehrt"
+   },
+   {
+    "diagnoseId": "summe_konstant",
+    "feedback": "Hier ist die Summe aus Anzahl und Dauer gleich gehalten worden. Massgebend ist aber das Produkt: Anzahl mal Dauer ergibt immer die gleiche Gesamtarbeit.",
+    "kurz": "Summe statt Produkt"
+   },
+   {
+    "diagnoseId": "nur_teiler_vergessen",
+    "feedback": "Es fehlen Paare. Jede Anzahl von 1 bis 12, die {werk} ohne Rest teilt, gehört dazu — auch die grösseren.",
+    "kurz": "Paare übersehen"
+   }
+  ],
+  "hinweise": [
+   "Was bleibt bei zwei Einheiten von der Dauer übrig?",
+   "Die Hälfte — Anzahl mal Dauer ist immer gleich.",
+   "Suche alle Zahlen von 1 bis 12, die {werk} ohne Rest teilen."
+  ],
+  "loesungsweg": [
+   "Die gesamte Arbeit beträgt {werk} Einheiten.",
+   "Anzahl mal Dauer muss immer {werk} ergeben.",
+   "Alle Teiler von {werk} bis 12 suchen.",
+   "Zu jedem Teiler die passende Dauer eintragen."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "n",
+     "kopf": "Anzahl",
+     "von": "1",
+     "bis": "12"
+    },
+    {
+     "name": "d",
+     "kopf": "Dauer",
+     "von": "1",
+     "bis": "werk"
+    }
+   ],
+   "bedingung": "n * d == werk"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-durchschnitt-gr",
+  "lernzielId": "MGR.2.08",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "2.08",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 340,
+    "bis": 520,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 340,
+    "bis": 520,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 340,
+    "bis": 520,
+    "schritt": 1
+   },
+   {
+    "name": "z",
+    "typ": "auswahl",
+    "werte": [
+     400,
+     410,
+     420,
+     430,
+     440,
+     450,
+     460,
+     470,
+     480
+    ]
+   },
+   {
+    "name": "sport",
+    "typ": "text",
+    "texte": [
+     [
+      "im Weitsprung"
+     ],
+     [
+      "im Standweitsprung"
+     ],
+     [
+      "beim Weitsprungtest"
+     ],
+     [
+      "im Sprunggarten"
+     ],
+     [
+      "auf der Sprunganlage"
+     ],
+     [
+      "beim Sporttag"
+     ],
+     [
+      "im Training"
+     ],
+     [
+      "am Schulsporttag"
+     ],
+     [
+      "in der Turnstunde"
+     ],
+     [
+      "beim Vereinstraining"
+     ],
+     [
+      "an der Vereinsmeisterschaft"
+     ],
+     [
+      "im Wettkampf"
+     ]
+    ]
+   },
+   {
+    "name": "vierter",
+    "typ": "formel",
+    "ausdruck": "4*z-(a+b+c)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "vierter>330",
+   "vierter<560",
+   "vierter!=a",
+   "vierter!=b",
+   "vierter!=c",
+   "vierter!=z",
+   "(a+b+c)%3!=0"
+  ],
+  "stamm": "{name} springt {sport} dreimal: {a} cm, {b} cm und {c} cm.\n\nWie weit muss der vierte Sprung sein, damit der Durchschnitt aller vier Sprünge genau {z} cm beträgt?",
+  "loesung": "4*z-(a+b+c)",
+  "gegenprobe": "(z-a)+(z-b)+(z-c)+z",
+  "fehler": [
+   {
+    "diagnoseId": "faktor_drei",
+    "ausdruck": "3*z-(a+b+c)",
+    "feedback": "Der Durchschnitt wird über vier Sprünge gebildet, nicht über drei. Die Gesamtweite muss darum viermal {z} cm betragen."
+   },
+   {
+    "diagnoseId": "mittel_der_drei",
+    "ausdruck": "(a+b+c)/3",
+    "feedback": "Das ist der Durchschnitt der ersten drei Sprünge. Gefragt ist, was der vierte beitragen muss."
+   },
+   {
+    "diagnoseId": "differenz_zum_ziel",
+    "ausdruck": "z-(a+b+c)/3",
+    "feedback": "Hier ist nur die Lücke zwischen dem bisherigen und dem gewünschten Durchschnitt gerechnet. Der vierte Sprung muss diese Lücke aber für alle vier Sprünge ausgleichen."
+   }
+  ],
+  "hinweise": [
+   "Wie gross muss die Summe aller vier Weiten sein?",
+   "Viermal der gewünschte Durchschnitt.",
+   "Davon die drei bekannten Weiten abziehen."
+  ],
+  "loesungsweg": [
+   "Gesamtweite für den Durchschnitt {z} cm: 4 · {z}.",
+   "Die drei bekannten Weiten addieren.",
+   "Die Summe von der Gesamtweite abziehen.",
+   "Der vierte Sprung muss {vierter} cm weit sein."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-kreis-gr",
+  "lernzielId": "MGR.4.06",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.06",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Brunnenrand"
+     ],
+     [
+      "ein Kreisbeet"
+     ],
+     [
+      "eine Zielscheibe"
+     ],
+     [
+      "einen Deckel"
+     ],
+     [
+      "eine Sitzplatte"
+     ],
+     [
+      "ein Rondell"
+     ],
+     [
+      "einen Käselaib"
+     ],
+     [
+      "eine Trommelfläche"
+     ],
+     [
+      "ein Uhrenzifferblatt"
+     ],
+     [
+      "eine Herdplatte"
+     ],
+     [
+      "einen Springbrunnen"
+     ],
+     [
+      "ein Tischblatt"
+     ]
+    ]
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   }
+  ],
+  "bedingungen": [
+   "r!=2",
+   "fl!=u",
+   "fl!=r",
+   "u!=r"
+  ],
+  "stamm": "{name} zeichnet {ding} als Kreis mit dem Radius {r} cm.\n\nGib Umfang und Fläche als Vielfaches von π an — trage also nur die Zahl vor dem π ein.",
+  "felder": [
+   {
+    "name": "u",
+    "label": "Umfang: Zahl vor π (in cm)",
+    "ausdruck": "2*r",
+    "fehler": [
+     {
+      "diagnoseId": "flaeche_statt_umfang",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Zahl für die Fläche. Der Umfang ist 2 · π · r, also das Doppelte des Radius vor dem π."
+     },
+     {
+      "diagnoseId": "nur_radius",
+      "ausdruck": "r",
+      "feedback": "Der Radius allein reicht nicht: Der Umfang ist zweimal so gross, weil der Durchmesser zweimal der Radius ist."
+     },
+     {
+      "diagnoseId": "durchmesser_verdoppelt",
+      "ausdruck": "4*r",
+      "feedback": "Hier ist der Durchmesser noch einmal verdoppelt worden. Der Umfang ist π mal Durchmesser, also π · 2r."
+     }
+    ]
+   },
+   {
+    "name": "fl",
+    "label": "Fläche: Zahl vor π (in cm²)",
+    "ausdruck": "r*r",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*r",
+      "feedback": "Das ist die Zahl für den Umfang. Die Fläche ist π · r², also der Radius mit sich selbst multipliziert."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*r*r",
+      "feedback": "Beim Quadrieren wird nicht verdoppelt: r² heisst r mal r."
+     },
+     {
+      "diagnoseId": "mit_durchmesser",
+      "ausdruck": "(2*r)*(2*r)",
+      "feedback": "Hier ist mit dem Durchmesser statt mit dem Radius gerechnet worden — das ergibt die vierfache Fläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie heissen die beiden Formeln für den Kreis?",
+   "Umfang 2 · π · r und Fläche π · r².",
+   "Gefragt ist nur die Zahl, die vor dem π steht."
+  ],
+  "loesungsweg": [
+   "Umfang: 2 · π · {r} cm.",
+   "Vor dem π steht also {u}.",
+   "Fläche: π · {r}² cm².",
+   "Vor dem π steht {fl}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-pythagoras-gr",
+  "lernzielId": "MGR.4.10",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.10",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "s",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Strecke in der Skizze"
+     ],
+     [
+      "eine Rampe im Modell"
+     ],
+     [
+      "ein gespannter Faden"
+     ],
+     [
+      "die Diagonale eines Rechtecks"
+     ],
+     [
+      "eine Strebe am Modell"
+     ],
+     [
+      "ein Draht über der Ecke"
+     ],
+     [
+      "eine Linie im Plan"
+     ],
+     [
+      "eine Schrägstrebe am Modell"
+     ],
+     [
+      "die Kante der Zeichnung"
+     ],
+     [
+      "eine Schräge am Bastelmodell"
+     ],
+     [
+      "ein Diagonalbrett"
+     ],
+     [
+      "die längste Seite der Skizze"
+     ]
+    ]
+   },
+   {
+    "name": "kat1",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*s"
+   },
+   {
+    "name": "kat2",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*s"
+   },
+   {
+    "name": "hyp",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*s"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "hyp<=130",
+   "kat1>5",
+   "kat1!=kat2",
+   "hyp!=kat1+kat2",
+   "hyp!=m",
+   "hyp!=n",
+   "hyp!=s"
+  ],
+  "stamm": "In einem rechtwinkligen Dreieck bildet {ding} die Hypotenuse. Die beiden Katheten messen {kat1} cm und {kat2} cm.\n\nWie lang ist die Hypotenuse?",
+  "loesung": "(m*m+n*n)*s",
+  "gegenprobe": "sqrt(((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s))",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(m*m-n*n)*s+(2*m*n)*s",
+    "feedback": "Die beiden Katheten werden nicht addiert. Erst werden ihre Quadrate addiert, und aus der Summe wird die Wurzel gezogen."
+   },
+   {
+    "diagnoseId": "ohne_wurzel",
+    "ausdruck": "((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s)",
+    "feedback": "Das ist die Summe der Quadrate — also c². Die Länge selbst ist die Wurzel daraus."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "sqrt(abs(((2*m*n)*s)*((2*m*n)*s)-((m*m-n*n)*s)*((m*m-n*n)*s)))",
+    "feedback": "Subtrahiert wird nur, wenn eine Kathete gesucht ist. Bei der Hypotenuse werden die Quadrate addiert."
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber?",
+   "Die Hypotenuse — sie ist die längste Seite.",
+   "Es gilt a² + b² = c²; ziehe zum Schluss die Wurzel."
+  ],
+  "loesungsweg": [
+   "{kat1}² + {kat2}² berechnen.",
+   "Die beiden Quadrate addieren.",
+   "Aus der Summe die Wurzel ziehen.",
+   "Die Hypotenuse misst {hyp} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-symmetrie-gr",
+  "lernzielId": "MGR.4.07",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.07",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "xa!=xb",
+   "ya!=yb",
+   "xa!=0",
+   "xb!=0",
+   "abs(xa)!=abs(xb)"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) an der y-Achse.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "0-xa",
+  "gegenprobe": "(0-1)*xa",
+  "fehler": [
+   {
+    "diagnoseId": "an_x_achse",
+    "ausdruck": "xa",
+    "feedback": "Bei der Spiegelung an der y-Achse wechselt der x-Wert das Vorzeichen, der y-Wert bleibt stehen. Hier ist es umgekehrt gemacht worden."
+   },
+   {
+    "diagnoseId": "beide_gewechselt",
+    "ausdruck": "0-xa",
+    "feedback": "Beide Koordinaten wechseln nur bei der Spiegelung am Nullpunkt. An der y-Achse ändert sich allein der x-Wert."
+   },
+   {
+    "diagnoseId": "nicht_gespiegelt",
+    "ausdruck": "xa*1",
+    "feedback": "So bleibt der Punkt an seiner Stelle. Beim Spiegeln wandert er auf die andere Seite der Achse, gleich weit entfernt."
+   }
+  ],
+  "hinweise": [
+   "Welche Koordinate ändert sich bei der Spiegelung an der y-Achse?",
+   "Nur der x-Wert wechselt das Vorzeichen.",
+   "Der Abstand zur Achse bleibt in beiden Fällen gleich."
+  ],
+  "loesungsweg": [
+   "A liegt {xa} Einheiten neben der y-Achse.",
+   "Der Bildpunkt liegt gleich weit auf der anderen Seite.",
+   "Der y-Wert bleibt unverändert.",
+   "Ebenso für B."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "0-xa",
+      "ya"
+     ],
+     [
+      "0-xb",
+      "yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-parallelogramm-gr",
+  "lernzielId": "MGR.4.03",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "4.03",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 26,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Sitzkissen"
+     ],
+     [
+      "eine Fahne"
+     ],
+     [
+      "ein Fensterladen"
+     ],
+     [
+      "eine Bodenplatte"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Wandtuch"
+     ],
+     [
+      "eine Holzplatte"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "ein Papierstück"
+     ],
+     [
+      "eine Filzmatte"
+     ],
+     [
+      "ein Pflasterstein"
+     ],
+     [
+      "eine Blechtafel"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "g*h"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*(g+b)"
+   }
+  ],
+  "bedingungen": [
+   "h<b",
+   "h*10>=b*6",
+   "g!=b",
+   "fl!=u",
+   "g!=h",
+   "b!=h",
+   "fl<520"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines Parallelogramms mit der Grundseite {g} cm, der zugehörigen Höhe {h} cm und der schrägen Seite {b} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "g*h",
+    "fehler": [
+     {
+      "diagnoseId": "mit_schraeger_seite",
+      "ausdruck": "g*b",
+      "feedback": "Für die Fläche zählt die Höhe, nicht die schräge Seite. Die Höhe steht senkrecht auf der Grundseite."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "g*h/2",
+      "feedback": "Halbiert wird beim Dreieck. Ein Parallelogramm ist doppelt so gross wie das Dreieck mit derselben Grundseite und Höhe."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "g+h",
+      "feedback": "Für die Fläche werden Grundseite und Höhe multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "2*(g+b)",
+    "fehler": [
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "2*(g+h)",
+      "feedback": "Die Höhe ist keine Seite des Parallelogramms. Zum Umfang gehören die beiden Grundseiten und die beiden schrägen Seiten."
+     },
+     {
+      "diagnoseId": "nur_einmal",
+      "ausdruck": "g+b",
+      "feedback": "Jede der beiden Seitenlängen kommt zweimal vor — gegenüberliegende Seiten sind gleich lang."
+     },
+     {
+      "diagnoseId": "alle_vier_gleich",
+      "ausdruck": "4*g",
+      "feedback": "Nur beim Rhombus sind alle vier Seiten gleich lang. Hier sind zwei Seiten {g} cm und zwei Seiten {b} cm lang."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche der drei Längen steht senkrecht auf der Grundseite?",
+   "Die Höhe {h} cm — sie gehört in die Flächenformel.",
+   "Für den Umfang zählen dagegen die beiden echten Seitenlängen."
+  ],
+  "loesungsweg": [
+   "Fläche: Grundseite mal Höhe.",
+   "{g} · {h} ergibt {fl} cm².",
+   "Umfang: beide Seitenpaare addieren.",
+   "2 · ({g} + {b}) ergibt {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "gr-zahlenfolge-gr",
+  "lernzielId": "MGR.3.07",
+  "fach": "mathematik-gr",
+  "unterthemen": [
+   "3.07",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Ladina"
+     ],
+     [
+      "Curdin"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Gian"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Flurin"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Andri"
+     ],
+     [
+      "Marla"
+     ],
+     [
+      "Reto"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Linard"
+     ]
+    ]
+   },
+   {
+    "name": "a1",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "folge",
+    "typ": "text",
+    "texte": [
+     [
+      "in einem Rätselheft"
+     ],
+     [
+      "an der Wandtafel"
+     ],
+     [
+      "in einem alten Heft"
+     ],
+     [
+      "auf einem Zettel"
+     ],
+     [
+      "in einer Knobelaufgabe"
+     ],
+     [
+      "im Schulbuch"
+     ],
+     [
+      "auf dem Arbeitsblatt"
+     ],
+     [
+      "in einer Sammlung"
+     ],
+     [
+      "auf einer Karteikarte"
+     ],
+     [
+      "in einem Quiz"
+     ],
+     [
+      "auf einem Plakat"
+     ],
+     [
+      "im Übungsheft"
+     ]
+    ]
+   },
+   {
+    "name": "g2",
+    "typ": "formel",
+    "ausdruck": "a1+d"
+   },
+   {
+    "name": "g3",
+    "typ": "formel",
+    "ausdruck": "a1+2*d"
+   },
+   {
+    "name": "g4",
+    "typ": "formel",
+    "ausdruck": "a1+3*d"
+   },
+   {
+    "name": "g5",
+    "typ": "formel",
+    "ausdruck": "a1+4*d"
+   },
+   {
+    "name": "g10",
+    "typ": "formel",
+    "ausdruck": "a1+9*d"
+   }
+  ],
+  "bedingungen": [
+   "a1!=0",
+   "a1!=d",
+   "g5!=g10",
+   "g10<160",
+   "g5!=d",
+   "g10!=d",
+   "g5!=a1",
+   "g10!=a1",
+   "g5!=g4"
+  ],
+  "stamm": "{name} findet {folge} diese Zahlenfolge:\n\n{a1}, {g2}, {g3}, {g4}, …\n\nJede Zahl entsteht aus der vorherigen nach derselben Regel. Bestimme das fünfte und das zehnte Glied.",
+  "felder": [
+   {
+    "name": "g5",
+    "label": "fünftes Glied",
+    "ausdruck": "a1+4*d",
+    "fehler": [
+     {
+      "diagnoseId": "ein_schritt_zu_wenig",
+      "ausdruck": "a1+3*d",
+      "feedback": "Das ist das vierte Glied — es steht schon in der Folge. Ein Schritt fehlt noch."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "(a1+3*d)*2",
+      "feedback": "Die Folge wächst um einen festen Betrag, nicht auf das Doppelte. Vergleiche die Abstände zwischen den ersten Zahlen."
+     },
+     {
+      "diagnoseId": "differenz_falsch",
+      "ausdruck": "a1+4*(d+1)",
+      "feedback": "Die Schrittweite stimmt nicht. Berechne sie als Differenz zweier benachbarter Glieder."
+     }
+    ]
+   },
+   {
+    "name": "g10",
+    "label": "zehntes Glied",
+    "ausdruck": "a1+9*d",
+    "fehler": [
+     {
+      "diagnoseId": "zehn_schritte",
+      "ausdruck": "a1+10*d",
+      "feedback": "Vom ersten zum zehnten Glied sind es neun Schritte, nicht zehn — das erste Glied ist schon da."
+     },
+     {
+      "diagnoseId": "mal_zehn",
+      "ausdruck": "a1*10",
+      "feedback": "Multipliziert wird die Schrittweite, nicht das erste Glied."
+     },
+     {
+      "diagnoseId": "doppeltes_fuenftes",
+      "ausdruck": "(a1+4*d)*2",
+      "feedback": "Das zehnte Glied ist nicht das Doppelte des fünften; nur die Schrittzahl verdoppelt sich, nicht der Wert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist der Abstand zwischen zwei benachbarten Zahlen?",
+   "Bilde die Differenz {g2} − {a1}.",
+   "Das zehnte Glied liegt neun Schritte hinter dem ersten."
+  ],
+  "loesungsweg": [
+   "Schrittweite: {g2} − {a1} = {d}.",
+   "Fünftes Glied: {a1} + 4 · {d}.",
+   "Zehntes Glied: {a1} + 9 · {d}.",
+   "Das ergibt {g5} und {g10}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

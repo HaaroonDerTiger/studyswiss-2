@@ -1,0 +1,1431 @@
+[
+ {
+  "templateId": "sz-en-lesen",
+  "lernzielId": "ESZ.1.01",
+  "fach": "englisch-sz",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03",
+   "1.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text, ohne jedes Wort nachzuschlagen.",
+   "Suche zu jeder Frage die Stelle, an der das Schlüsselwort steht.",
+   "Bei einer Deutungsfrage zählt, was der Text nahelegt, nicht deine eigene Meinung."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und das Schlüsselwort merken.",
+   "Die Stelle im Text suchen.",
+   "Die Antwort am Wortlaut prüfen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "What is the main idea of the text?",
+    "optionen": [
+     "Walking to school has benefits that are often overlooked",
+     "Cars are always dangerous",
+     "Schools should start later",
+     "Children today are less healthy than before"
+    ],
+    "loesung": [
+     "Walking to school has benefits that are often overlooked"
+    ],
+    "erklaerung": "Der Text nennt den Teufelskreis, ein Gegenbeispiel und mehrere Vorteile des Gehens.",
+    "fehler": [
+     {
+      "antwort": "Cars are always dangerous",
+      "diagnoseId": "zu_absolut",
+      "feedback": "Der Text sagt ausdrücklich, dass manche Familien auf das Auto angewiesen sind."
+     },
+     {
+      "antwort": "Schools should start later",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über den Beginn des Unterrichts steht nichts im Text."
+     },
+     {
+      "antwort": "Children today are less healthy than before",
+      "diagnoseId": "zu_weit",
+      "feedback": "Über die Gesundheit im Allgemeinen sagt der Text nichts; es geht um den Schulweg."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the «vicious circle» the text describes?",
+    "optionen": [
+     "More cars make the roads more dangerous, so more parents drive",
+     "Children walk more slowly every year",
+     "Parents work longer and longer hours",
+     "Schools move further away from the houses"
+    ],
+    "loesung": [
+     "More cars make the roads more dangerous, so more parents drive"
+    ],
+    "erklaerung": "Der zweite Teil des ersten Abschnitts erklärt genau diesen Kreislauf.",
+    "fehler": [
+     {
+      "antwort": "Children walk more slowly every year",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Vom Tempo der Kinder ist nirgends die Rede."
+     },
+     {
+      "antwort": "Parents work longer and longer hours",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Die Arbeitszeiten kommen erst am Schluss und nicht als Teil des Kreislaufs vor."
+     },
+     {
+      "antwort": "Schools move further away from the houses",
+      "diagnoseId": "verwechselt",
+      "feedback": "Nicht die Schule zieht weg, sondern der Halteplatz wurde verlegt."
+     }
+    ]
+   },
+   {
+    "stamm": "What did the Swiss village change?",
+    "optionen": [
+     "It moved the drop-off point away from the school gate",
+     "It banned cars completely",
+     "It built a new road",
+     "It changed the timetable"
+    ],
+    "loesung": [
+     "It moved the drop-off point away from the school gate"
+    ],
+    "erklaerung": "Der Halteplatz liegt jetzt vierhundert Meter vom Tor entfernt; das letzte Stück wird gegangen.",
+    "fehler": [
+     {
+      "antwort": "It banned cars completely",
+      "diagnoseId": "zu_absolut",
+      "feedback": "Der Text sagt: Eltern dürfen weiterhin fahren, nur nicht bis zum Tor."
+     },
+     {
+      "antwort": "It built a new road",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von einer neuen Strasse steht nichts im Text."
+     },
+     {
+      "antwort": "It changed the timetable",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Der Stundenplan kommt im Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "How far away is the new drop-off point?",
+    "optionen": [
+     "400 metres",
+     "4 kilometres",
+     "40 metres",
+     "one kilometre"
+    ],
+    "loesung": [
+     "400 metres"
+    ],
+    "erklaerung": "Im Text steht: four hundred metres away from the gate.",
+    "fehler": [
+     {
+      "antwort": "4 kilometres",
+      "diagnoseId": "zahl",
+      "feedback": "Der Text nennt vierhundert Meter, nicht vier Kilometer."
+     },
+     {
+      "antwort": "40 metres",
+      "diagnoseId": "zahl",
+      "feedback": "Vierzig Meter wären «forty metres»; im Text steht «four hundred»."
+     },
+     {
+      "antwort": "one kilometre",
+      "diagnoseId": "zahl",
+      "feedback": "Ein Kilometer kommt im letzten Abschnitt vor, aber in anderem Zusammenhang."
+     }
+    ]
+   },
+   {
+    "stamm": "By how much did the number of cars fall?",
+    "optionen": [
+     "By two thirds",
+     "By a half",
+     "By a quarter",
+     "By ten per cent"
+    ],
+    "loesung": [
+     "By two thirds"
+    ],
+    "erklaerung": "Der Text sagt: fallen by two thirds — um zwei Drittel.",
+    "fehler": [
+     {
+      "antwort": "By a half",
+      "diagnoseId": "zahl",
+      "feedback": "Die Hälfte wäre «a half»; im Text steht «two thirds»."
+     },
+     {
+      "antwort": "By a quarter",
+      "diagnoseId": "zahl",
+      "feedback": "Ein Viertel wird im Text nicht genannt; dort stehen zwei Drittel."
+     },
+     {
+      "antwort": "By ten per cent",
+      "diagnoseId": "zahl",
+      "feedback": "Eine Prozentangabe kommt im Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "What did the teachers notice?",
+    "optionen": [
+     "The children arrived calmer",
+     "The children arrived later",
+     "The children were more tired",
+     "Fewer children came to school"
+    ],
+    "loesung": [
+     "The children arrived calmer"
+    ],
+    "erklaerung": "Der Text sagt: teachers reported that the children arrived calmer than before.",
+    "fehler": [
+     {
+      "antwort": "The children arrived later",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über die Ankunftszeit sagt der Text nichts."
+     },
+     {
+      "antwort": "The children were more tired",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt gerade, dass sie wacher ankommen."
+     },
+     {
+      "antwort": "Fewer children came to school",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Die Zahl der Kinder änderte sich nicht; die Zahl der Autos sank."
+     }
+    ]
+   },
+   {
+    "stamm": "According to the text, what do children who walk know better?",
+    "optionen": [
+     "Their own neighbourhood",
+     "The traffic rules",
+     "The school building",
+     "The names of their teachers"
+    ],
+    "loesung": [
+     "Their own neighbourhood"
+    ],
+    "erklaerung": "Sie können sagen, wo die Bäckerei ist und welche Strasse steil ist.",
+    "fehler": [
+     {
+      "antwort": "The traffic rules",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von Verkehrsregeln ist im Text nicht die Rede."
+     },
+     {
+      "antwort": "The school building",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über das Schulhaus sagt der Text nichts."
+     },
+     {
+      "antwort": "The names of their teachers",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Die Lehrpersonen kommen nur als Beobachtende vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Why does a short walk in daylight help?",
+    "optionen": [
+     "It tells the body that the day has begun",
+     "It makes children hungry",
+     "It saves money",
+     "It replaces sport lessons"
+    ],
+    "loesung": [
+     "It tells the body that the day has begun"
+    ],
+    "erklaerung": "Der Text sagt: A short walk in daylight helps the body to understand that the day has begun.",
+    "fehler": [
+     {
+      "antwort": "It makes children hungry",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Vom Hunger steht nichts im Text; genannt wird das Wachwerden am Tageslicht."
+     },
+     {
+      "antwort": "It saves money",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über Kosten sagt der Text nichts; es geht um das Tageslicht und den Körper."
+     },
+     {
+      "antwort": "It replaces sport lessons",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Der Sportunterricht kommt im Text nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "What does the writer think about families who need a car?",
+    "optionen": [
+     "The writer accepts that some families have no choice",
+     "The writer blames them",
+     "The writer ignores them",
+     "The writer says they should move house"
+    ],
+    "loesung": [
+     "The writer accepts that some families have no choice"
+    ],
+    "erklaerung": "Der letzte Abschnitt beginnt mit: None of this means that every family can manage without a car.",
+    "fehler": [
+     {
+      "antwort": "The writer blames them",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text nennt ausdrücklich Gründe, die er gelten lässt."
+     },
+     {
+      "antwort": "The writer ignores them",
+      "diagnoseId": "gegenteil",
+      "feedback": "Ein ganzer Abschnitt ist ihnen gewidmet."
+     },
+     {
+      "antwort": "The writer says they should move house",
+      "diagnoseId": "erfunden",
+      "feedback": "Vom Umziehen steht nichts im Text; der Autor lässt die genannten Gründe gelten."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «vicious» mean in «a vicious circle»?",
+    "optionen": [
+     "harmful and self-repeating",
+     "friendly",
+     "expensive",
+     "very fast"
+    ],
+    "loesung": [
+     "harmful and self-repeating"
+    ],
+    "erklaerung": "Ein Teufelskreis verstärkt sich selbst und richtet Schaden an — genau das beschreibt der Text.",
+    "fehler": [
+     {
+      "antwort": "friendly",
+      "diagnoseId": "gegenteil",
+      "feedback": "«vicious» ist das Gegenteil von freundlich."
+     },
+     {
+      "antwort": "expensive",
+      "diagnoseId": "bedeutung",
+      "feedback": "Mit Kosten hat das Wort nichts zu tun; es beschreibt eine schädliche Wirkung."
+     },
+     {
+      "antwort": "very fast",
+      "diagnoseId": "bedeutung",
+      "feedback": "Über das Tempo sagt das Wort nichts; gemeint ist der schädliche Kreislauf."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «overlook» mean in «effects that are easy to overlook»?",
+    "optionen": [
+     "not to notice",
+     "to look down on",
+     "to control",
+     "to repeat"
+    ],
+    "loesung": [
+     "not to notice"
+    ],
+    "erklaerung": "«overlook» heisst hier übersehen: Diese Wirkungen bemerkt man leicht nicht.",
+    "fehler": [
+     {
+      "antwort": "to look down on",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«look down on» heisst verachten und ist etwas anderes."
+     },
+     {
+      "antwort": "to control",
+      "diagnoseId": "bedeutung",
+      "feedback": "Kontrollieren hiesse «to check» oder «to control»."
+     },
+     {
+      "antwort": "to repeat",
+      "diagnoseId": "bedeutung",
+      "feedback": "Wiederholen hiesse «to repeat»; «overlook» heisst dagegen übersehen."
+     }
+    ]
+   },
+   {
+    "stamm": "What does the last sentence mean?",
+    "optionen": [
+     "The walk is time the children have for themselves",
+     "The walk belongs to the school",
+     "The walk costs the family nothing",
+     "The walk is the shortest part of the day"
+    ],
+    "loesung": [
+     "The walk is time the children have for themselves"
+    ],
+    "erklaerung": "«the only part of the day that belongs entirely to them» — es ist ihre eigene Zeit.",
+    "fehler": [
+     {
+      "antwort": "The walk belongs to the school",
+      "diagnoseId": "gegenteil",
+      "feedback": "Der Text sagt gerade, dass diese Zeit den Kindern gehört."
+     },
+     {
+      "antwort": "The walk costs the family nothing",
+      "diagnoseId": "zu_woertlich",
+      "feedback": "Von Geld ist im letzten Satz nicht die Rede."
+     },
+     {
+      "antwort": "The walk is the shortest part of the day",
+      "diagnoseId": "erfunden",
+      "feedback": "Über die Länge sagt der Satz nichts; er spricht davon, wem diese Zeit gehört."
+     }
+    ]
+   }
+  ],
+  "text": "Walking to School\n\nTwenty years ago, most children in Europe walked or cycled to school. Today, in many countries, fewer than half of them do. Parents drive their children because they worry about traffic — and by driving, they make the traffic worse. Researchers call this a vicious circle: the more parents drive, the more dangerous the roads outside schools become, and the more parents decide to drive.\n\nSome towns have tried to break the circle. In one Swiss village, the school moved the drop-off point four hundred metres away from the gate. Parents may still drive, but the last part of the journey has to be walked. Within a year, the number of cars in front of the school had fallen by two thirds, and teachers reported that the children arrived calmer than before.\n\nWalking has other effects that are easy to overlook. Children who walk to school know their neighbourhood better; they can describe where the bakery is, which street is steep, where the water runs after heavy rain. They also arrive more awake. A short walk in daylight helps the body to understand that the day has begun — something no alarm clock can do on its own.\n\nNone of this means that every family can manage without a car. Some children live far away, some parents leave for work at six. But for the many who live within a kilometre of their school, the walk is not lost time. It is the only part of the day that belongs entirely to them.",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Reading Comprehension",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-en-transformation",
+  "lernzielId": "ESZ.2.01",
+  "fach": "englisch-sz",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Bei einer Umformung darf sich die Bedeutung nicht ändern.",
+   "Zähle die vorgegebenen Lücken: Sie sagen dir, wie viele Wörter erwartet werden.",
+   "Bei der Wortbildung fragst du zuerst: Braucht es ein Nomen, ein Adjektiv oder ein Adverb?"
+  ],
+  "loesungsweg": [
+   "Den Ausgangssatz genau lesen.",
+   "Die verlangte Struktur erkennen.",
+   "Umformen, ohne die Bedeutung zu verändern.",
+   "Zum Schluss laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Complete the second sentence so that it means the same as the first.\n\nThe walk is twenty minutes long.\n\nIt ______________ twenty minutes to walk to school.",
+    "loesung": [
+     "takes"
+    ],
+    "erklaerung": "«It takes … to do something» ist die feste Wendung für eine Zeitdauer.",
+    "fehler": [
+     {
+      "antwort": "needs",
+      "diagnoseId": "wendung",
+      "feedback": "«need» braucht ein persönliches Subjekt: I need twenty minutes."
+     },
+     {
+      "antwort": "lasts",
+      "diagnoseId": "wendung",
+      "feedback": "«last» steht ohne «it»: The walk lasts twenty minutes."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the second sentence.\n\nThey started the project two years ago.\n\nThey ______________ working on the project for two years.",
+    "loesung": [
+     "have been"
+    ],
+    "erklaerung": "«for two years» mit einer bis heute laufenden Handlung verlangt das present perfect continuous.",
+    "fehler": [
+     {
+      "antwort": "are",
+      "diagnoseId": "zeit",
+      "feedback": "«are working» sagt nur, dass sie gerade arbeiten, nicht wie lange schon."
+     },
+     {
+      "antwort": "were",
+      "diagnoseId": "zeit",
+      "feedback": "«were» stünde in der Vergangenheit und passte nicht zu «for two years» bis heute."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the second sentence.\n\nSomebody moved the drop-off point.\n\nThe drop-off point ______________ moved.",
+    "loesung": [
+     "was"
+    ],
+    "erklaerung": "Im Passiv der Vergangenheit steht «was» plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "is",
+      "diagnoseId": "zeit",
+      "feedback": "Der Ausgangssatz steht in der Vergangenheit; das Passiv muss es ebenfalls."
+     },
+     {
+      "antwort": "has",
+      "diagnoseId": "form",
+      "feedback": "Nach «has» müsste «been» folgen: has been moved."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the second sentence.\n\nThe children are calmer than before.\n\nThe children are not ______________ nervous as before.",
+    "loesung": [
+     "as"
+    ],
+    "erklaerung": "«not as … as» ist die Form für einen Vergleich, in dem etwas geringer ist.",
+    "fehler": [
+     {
+      "antwort": "so much",
+      "diagnoseId": "form",
+      "feedback": "Vor einem Adjektiv steht «as», nicht «so much»."
+     },
+     {
+      "antwort": "more",
+      "diagnoseId": "form",
+      "feedback": "«more … as» gibt es nicht; der Vergleich mit «more» braucht «than»."
+     }
+    ]
+   },
+   {
+    "stamm": "Form a noun from «safe».\n\nThe town improved the ______________ of the school route.",
+    "loesung": [
+     "safety"
+    ],
+    "erklaerung": "Aus dem Adjektiv «safe» wird das Nomen «safety».",
+    "fehler": [
+     {
+      "antwort": "safely",
+      "diagnoseId": "wortart",
+      "feedback": "«safely» ist ein Adverb; nach «the» steht ein Nomen."
+     },
+     {
+      "antwort": "safeness",
+      "diagnoseId": "form",
+      "feedback": "Diese Form ist ungebräuchlich; das Nomen lautet «safety»."
+     }
+    ]
+   },
+   {
+    "stamm": "Form an adjective from «danger».\n\nThe road in front of the school was ______________ .",
+    "loesung": [
+     "dangerous"
+    ],
+    "erklaerung": "Aus dem Nomen «danger» wird das Adjektiv «dangerous».",
+    "fehler": [
+     {
+      "antwort": "dangerly",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es nicht; das Adjektiv lautet «dangerous»."
+     },
+     {
+      "antwort": "danger",
+      "diagnoseId": "wortart",
+      "feedback": "Nach «was» steht hier ein Adjektiv, kein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Form an adverb from «easy».\n\nThese effects are ______________ overlooked.",
+    "loesung": [
+     "easily"
+    ],
+    "erklaerung": "Aus «easy» wird das Adverb «easily»; das y wird zu i.",
+    "fehler": [
+     {
+      "antwort": "easyly",
+      "diagnoseId": "rechtschreibung",
+      "feedback": "Vor der Endung «-ly» wird das y zu i: easily."
+     },
+     {
+      "antwort": "easy",
+      "diagnoseId": "wortart",
+      "feedback": "Hier wird ein Verb näher bestimmt; dafür braucht es ein Adverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Form a noun from «decide».\n\nIt was a difficult ______________ for the parents.",
+    "loesung": [
+     "decision"
+    ],
+    "erklaerung": "Aus dem Verb «decide» wird das Nomen «decision».",
+    "fehler": [
+     {
+      "antwort": "deciding",
+      "diagnoseId": "wortart",
+      "feedback": "«deciding» ist die ing-Form; nach «a difficult» steht hier ein Nomen."
+     },
+     {
+      "antwort": "decidement",
+      "diagnoseId": "form",
+      "feedback": "Diese Form gibt es im Englischen nicht; das Nomen zu «decide» lautet «decision»."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the sentence with the correct form of «go».\n\nShe has ______________ to school on foot since September.",
+    "loesung": [
+     "gone"
+    ],
+    "erklaerung": "Nach «has» steht das past participle: go – went – gone.",
+    "fehler": [
+     {
+      "antwort": "went",
+      "diagnoseId": "form",
+      "feedback": "«went» ist die zweite Form; nach «has» braucht es «gone»."
+     },
+     {
+      "antwort": "going",
+      "diagnoseId": "form",
+      "feedback": "«going» bräuchte «been»: has been going."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the sentence with the correct form of «leave».\n\nSome parents ______________ for work at six every morning.",
+    "loesung": [
+     "leave"
+    ],
+    "erklaerung": "«every morning» steht für eine Gewohnheit; im present simple bleibt die Form in der Mehrzahl unverändert.",
+    "fehler": [
+     {
+      "antwort": "leaves",
+      "diagnoseId": "person",
+      "feedback": "«some parents» ist Mehrzahl; das -s gehört zur dritten Person Einzahl."
+     },
+     {
+      "antwort": "left",
+      "diagnoseId": "zeit",
+      "feedback": "«left» liegt in der Vergangenheit; der Satz spricht von jedem Morgen."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the sentence with the correct form of «be».\n\nTwenty years ago, most children ______________ walking to school.",
+    "loesung": [
+     "were"
+    ],
+    "erklaerung": "«most children» ist Mehrzahl, der Satz spielt in der Vergangenheit: were.",
+    "fehler": [
+     {
+      "antwort": "was",
+      "diagnoseId": "zahl",
+      "feedback": "«was» gehört zur Einzahl; «most children» verlangt «were»."
+     },
+     {
+      "antwort": "are",
+      "diagnoseId": "zeit",
+      "feedback": "«are» steht im Präsens; die Zeitangabe zeigt die Vergangenheit an."
+     }
+    ]
+   },
+   {
+    "stamm": "Complete the second sentence.\n\n«Don't drive up to the gate», the school said.\n\nThe school told the parents ______________ drive up to the gate.",
+    "loesung": [
+     "not to"
+    ],
+    "erklaerung": "In der indirekten Aufforderung steht «told somebody not to do something».",
+    "fehler": [
+     {
+      "antwort": "to not",
+      "diagnoseId": "wortstellung",
+      "feedback": "Die übliche Reihenfolge ist «not to», nicht «to not»."
+     },
+     {
+      "antwort": "don't",
+      "diagnoseId": "form",
+      "feedback": "In der indirekten Rede steht kein «don't», sondern die Form mit «to»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Sentence transformation und word formation",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-en-grammatik-sz",
+  "lernzielId": "ESZ.2.03",
+  "fach": "englisch-sz",
+  "unterthemen": [
+   "2.03",
+   "2.04",
+   "2.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Signalwörter helfen: every day, usually, always stehen für das present simple.",
+   "Im Konditionalsatz mit «if» steht nach «would» nie ein zweites «would».",
+   "Im Passiv steht eine Form von «be» plus past participle."
+  ],
+  "loesungsweg": [
+   "Das Signalwort oder die Struktur erkennen.",
+   "Die passende Zeit oder Form wählen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which form fits?\n\nMost children ______ to school on foot twenty years ago.",
+    "optionen": [
+     "went",
+     "go",
+     "have gone",
+     "are going"
+    ],
+    "loesung": [
+     "went"
+    ],
+    "erklaerung": "«twenty years ago» verlangt das simple past.",
+    "fehler": [
+     {
+      "antwort": "go",
+      "diagnoseId": "zeit",
+      "feedback": "«go» steht im Präsens; die Zeitangabe zeigt die Vergangenheit an."
+     },
+     {
+      "antwort": "have gone",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verträgt kein «ago»."
+     },
+     {
+      "antwort": "are going",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt den Augenblick, nicht die Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nLook! The bus ______ round the corner.",
+    "optionen": [
+     "is coming",
+     "comes",
+     "came",
+     "has come"
+    ],
+    "loesung": [
+     "is coming"
+    ],
+    "erklaerung": "«Look!» zeigt an, dass etwas gerade jetzt geschieht — present continuous.",
+    "fehler": [
+     {
+      "antwort": "comes",
+      "diagnoseId": "zeit",
+      "feedback": "Das present simple beschreibt Gewohnheiten, nicht diesen Augenblick."
+     },
+     {
+      "antwort": "came",
+      "diagnoseId": "zeit",
+      "feedback": "«came» liegt in der Vergangenheit; «Look!» weist auf diesen Augenblick hin."
+     },
+     {
+      "antwort": "has come",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect blickt auf ein Ergebnis zurück."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nThe school ______ the drop-off point last year.",
+    "optionen": [
+     "moved",
+     "has moved",
+     "moves",
+     "was moving"
+    ],
+    "loesung": [
+     "moved"
+    ],
+    "erklaerung": "«last year» verlangt das simple past.",
+    "fehler": [
+     {
+      "antwort": "has moved",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verträgt keine abgeschlossene Zeitangabe wie «last year»."
+     },
+     {
+      "antwort": "moves",
+      "diagnoseId": "zeit",
+      "feedback": "«moves» steht im Präsens; «last year» verlangt eine Vergangenheitsform."
+     },
+     {
+      "antwort": "was moving",
+      "diagnoseId": "form",
+      "feedback": "Die Verlaufsform passt nicht zu einer einmaligen Massnahme."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nIf the road ______ safer, more children would walk.",
+    "optionen": [
+     "were",
+     "would be",
+     "is",
+     "will be"
+    ],
+    "loesung": [
+     "were"
+    ],
+    "erklaerung": "Im Bedingungssatz vom Typ zwei steht «were»; «would» gehört in den Hauptsatz.",
+    "fehler": [
+     {
+      "antwort": "would be",
+      "diagnoseId": "doppeltes_would",
+      "feedback": "Nach «if» steht kein «would»; es gehört in den anderen Satzteil."
+     },
+     {
+      "antwort": "is",
+      "diagnoseId": "typ",
+      "feedback": "Mit «is» und «would» passen die beiden Satzteile nicht zusammen."
+     },
+     {
+      "antwort": "will be",
+      "diagnoseId": "typ",
+      "feedback": "Nach «if» steht im Englischen kein «will»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nIf it rains tomorrow, we ______ the bus.",
+    "optionen": [
+     "will take",
+     "would take",
+     "took",
+     "take"
+    ],
+    "loesung": [
+     "will take"
+    ],
+    "erklaerung": "Bedingungssatz vom Typ eins: «if» plus Präsens, Hauptsatz mit «will».",
+    "fehler": [
+     {
+      "antwort": "would take",
+      "diagnoseId": "typ",
+      "feedback": "«would» gehört zum Typ zwei, der eine unwahrscheinliche Bedingung beschreibt."
+     },
+     {
+      "antwort": "took",
+      "diagnoseId": "zeit",
+      "feedback": "«took» liegt in der Vergangenheit; der Satz blickt nach vorn."
+     },
+     {
+      "antwort": "take",
+      "diagnoseId": "form",
+      "feedback": "Ohne «will» fehlt der Bezug auf die Zukunft."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nThe new path ______ last spring.",
+    "optionen": [
+     "was built",
+     "built",
+     "is built",
+     "has built"
+    ],
+    "loesung": [
+     "was built"
+    ],
+    "erklaerung": "Der Weg wurde gebaut; im Passiv der Vergangenheit steht «was built».",
+    "fehler": [
+     {
+      "antwort": "built",
+      "diagnoseId": "aktiv",
+      "feedback": "Im Aktiv müsste jemand genannt sein, der den Weg baute."
+     },
+     {
+      "antwort": "is built",
+      "diagnoseId": "zeit",
+      "feedback": "«is built» steht im Präsens; die Zeitangabe zeigt die Vergangenheit."
+     },
+     {
+      "antwort": "has built",
+      "diagnoseId": "aktiv",
+      "feedback": "Das ist ein Aktiv im present perfect und passt nicht zum Subjekt «the path»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nThe children ______ by their parents every morning.",
+    "optionen": [
+     "are driven",
+     "drive",
+     "are driving",
+     "have driven"
+    ],
+    "loesung": [
+     "are driven"
+    ],
+    "erklaerung": "Die Kinder werden gefahren; im Passiv des Präsens steht «are driven».",
+    "fehler": [
+     {
+      "antwort": "drive",
+      "diagnoseId": "aktiv",
+      "feedback": "Im Aktiv führen die Kinder die Handlung aus — hier tun es die Eltern."
+     },
+     {
+      "antwort": "are driving",
+      "diagnoseId": "aktiv",
+      "feedback": "Auch das ist ein Aktiv und sagt, dass die Kinder selbst fahren."
+     },
+     {
+      "antwort": "have driven",
+      "diagnoseId": "aktiv",
+      "feedback": "Das ist ein Aktiv im present perfect; gefragt ist ein Passiv im Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThey live within a kilometre ______ the school.",
+    "optionen": [
+     "of",
+     "from",
+     "to",
+     "at"
+    ],
+    "loesung": [
+     "of"
+    ],
+    "erklaerung": "«within a kilometre of» ist die feste Verbindung für eine Entfernung.",
+    "fehler": [
+     {
+      "antwort": "from",
+      "diagnoseId": "wendung",
+      "feedback": "«a kilometre from the school» ginge ohne «within»; mit «within» steht «of»."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "praeposition",
+      "feedback": "«to» gibt eine Richtung an, keine Entfernung."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "praeposition",
+      "feedback": "«at» nennt einen Punkt, keine Entfernung."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe number of cars fell ______ two thirds.",
+    "optionen": [
+     "by",
+     "with",
+     "of",
+     "from"
+    ],
+    "loesung": [
+     "by"
+    ],
+    "erklaerung": "«fall by» nennt das Ausmass der Abnahme.",
+    "fehler": [
+     {
+      "antwort": "with",
+      "diagnoseId": "praeposition",
+      "feedback": "«with» beschreibt eine Begleitung oder ein Mittel."
+     },
+     {
+      "antwort": "of",
+      "diagnoseId": "praeposition",
+      "feedback": "«the number of cars» hat schon sein «of»; für die Abnahme steht «by»."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "praeposition",
+      "feedback": "«from … to …» nennt Anfangs- und Endwert, nicht das Ausmass."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nParents worry ______ the traffic.",
+    "optionen": [
+     "about",
+     "for",
+     "on",
+     "of"
+    ],
+    "loesung": [
+     "about"
+    ],
+    "erklaerung": "«worry about something» ist die feste Verbindung.",
+    "fehler": [
+     {
+      "antwort": "for",
+      "diagnoseId": "wendung",
+      "feedback": "«worry for» ist ungebräuchlich; üblich ist «worry about»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "praeposition",
+      "feedback": "«on» passt nicht zu «worry»; die feste Verbindung lautet «worry about»."
+     },
+     {
+      "antwort": "of",
+      "diagnoseId": "praeposition",
+      "feedback": "«of» steht bei «think of», nicht bei «worry»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nThe teachers said the children ______ calmer than before.",
+    "optionen": [
+     "arrived",
+     "arrive",
+     "will arrive",
+     "are arriving"
+    ],
+    "loesung": [
+     "arrived"
+    ],
+    "erklaerung": "In der indirekten Rede rückt die Zeitform eine Stufe zurück: aus «arrive» wird «arrived».",
+    "fehler": [
+     {
+      "antwort": "arrive",
+      "diagnoseId": "zeitverschiebung",
+      "feedback": "Nach einem Einleitungsverb in der Vergangenheit rückt die Zeit zurück."
+     },
+     {
+      "antwort": "will arrive",
+      "diagnoseId": "zeit",
+      "feedback": "«will» passt nicht zu einer Beobachtung aus der Vergangenheit."
+     },
+     {
+      "antwort": "are arriving",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt den Augenblick des Sprechens."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form fits?\n\nShe has lived here ______ September.",
+    "optionen": [
+     "since",
+     "for",
+     "from",
+     "during"
+    ],
+    "loesung": [
+     "since"
+    ],
+    "erklaerung": "«since» nennt den Anfangszeitpunkt, «for» die Dauer.",
+    "fehler": [
+     {
+      "antwort": "for",
+      "diagnoseId": "zeitangabe",
+      "feedback": "«for» stünde vor einer Dauer: for three months."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "form",
+      "feedback": "«from» bräuchte ein «to»: from September to June."
+     },
+     {
+      "antwort": "during",
+      "diagnoseId": "form",
+      "feedback": "«during» steht vor einem Zeitraum als Ganzem: during the summer."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Text completion, tenses and conditionals",
+  "status": "review"
+ },
+ {
+  "templateId": "sz-en-struktur",
+  "lernzielId": "ESZ.2.07",
+  "fach": "englisch-sz",
+  "unterthemen": [
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Das Passiv besteht aus einer Form von «be» und dem dritten Verb.",
+   "Die handelnde Person steht mit «by», wenn sie überhaupt genannt wird.",
+   "Feste Wendungen mit Präpositionen lernt man als Ganzes."
+  ],
+  "loesungsweg": [
+   "Die Zeitstufe bestimmen.",
+   "Die passende Form von «be» wählen.",
+   "Das dritte Verb anhängen.",
+   "Bei Präpositionen die feste Wendung prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which passive form is correct?\n\nThey clean the room every day.",
+    "optionen": [
+     "The room is cleaned every day.",
+     "The room cleans every day.",
+     "The room is cleaning every day.",
+     "The room was cleaned every day."
+    ],
+    "loesung": [
+     "The room is cleaned every day."
+    ],
+    "erklaerung": "Present simple passive: is plus dritte Verbform.",
+    "fehler": [
+     {
+      "antwort": "The room cleans every day.",
+      "diagnoseId": "aktiv",
+      "feedback": "Das ist Aktiv; das Zimmer putzt nicht selbst."
+     },
+     {
+      "antwort": "The room is cleaning every day.",
+      "diagnoseId": "form",
+      "feedback": "Die ing-Form ergäbe ein Aktiv. Richtig ist «The room is cleaned every day.»."
+     },
+     {
+      "antwort": "The room was cleaned every day.",
+      "diagnoseId": "zeit",
+      "feedback": "«was» steht in der Vergangenheit. Richtig ist «The room is cleaned every day.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which passive form is correct?\n\nSomeone stole my bike last week.",
+    "optionen": [
+     "My bike was stolen last week.",
+     "My bike is stolen last week.",
+     "My bike was stole last week.",
+     "My bike has stolen last week."
+    ],
+    "loesung": [
+     "My bike was stolen last week."
+    ],
+    "erklaerung": "Past simple passive: was plus dritte Verbform «stolen».",
+    "fehler": [
+     {
+      "antwort": "My bike is stolen last week.",
+      "diagnoseId": "zeit",
+      "feedback": "«last week» verlangt die Vergangenheit. Richtig ist «My bike was stolen last week.»."
+     },
+     {
+      "antwort": "My bike was stole last week.",
+      "diagnoseId": "form",
+      "feedback": "Die dritte Verbform lautet «stolen». Richtig ist «My bike was stolen last week.»."
+     },
+     {
+      "antwort": "My bike has stolen last week.",
+      "diagnoseId": "form",
+      "feedback": "«has stolen» wäre Aktiv im Present perfect."
+     }
+    ]
+   },
+   {
+    "stamm": "Which passive form is correct?\n\nThey will finish the bridge next year.",
+    "optionen": [
+     "The bridge will be finished next year.",
+     "The bridge will finished next year.",
+     "The bridge will finish next year.",
+     "The bridge is finished next year."
+    ],
+    "loesung": [
+     "The bridge will be finished next year."
+    ],
+    "erklaerung": "Future passive: will be plus dritte Verbform.",
+    "fehler": [
+     {
+      "antwort": "The bridge will finished next year.",
+      "diagnoseId": "form",
+      "feedback": "Das «be» fehlt. Richtig ist «The bridge will be finished next year.»."
+     },
+     {
+      "antwort": "The bridge will finish next year.",
+      "diagnoseId": "aktiv",
+      "feedback": "Das ist Aktiv; die Brücke beendet nichts."
+     },
+     {
+      "antwort": "The bridge is finished next year.",
+      "diagnoseId": "zeit",
+      "feedback": "«next year» verlangt die Zukunft. Richtig ist «The bridge will be finished next year.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which passive form is correct?\n\nThey have repaired the roof.",
+    "optionen": [
+     "The roof has been repaired.",
+     "The roof has repaired.",
+     "The roof is been repaired.",
+     "The roof have been repaired."
+    ],
+    "loesung": [
+     "The roof has been repaired."
+    ],
+    "erklaerung": "Present perfect passive: has been plus dritte Verbform.",
+    "fehler": [
+     {
+      "antwort": "The roof has repaired.",
+      "diagnoseId": "aktiv",
+      "feedback": "Das wäre Aktiv; das Dach repariert nichts."
+     },
+     {
+      "antwort": "The roof is been repaired.",
+      "diagnoseId": "form",
+      "feedback": "Nach «is» steht kein «been». Richtig ist «The roof has been repaired.»."
+     },
+     {
+      "antwort": "The roof have been repaired.",
+      "diagnoseId": "person",
+      "feedback": "«roof» ist Einzahl; darum «has». Richtig ist «The roof has been repaired.»."
+     }
+    ]
+   },
+   {
+    "stamm": "Where does the agent go?\n\nThe letter was written ______ my sister.",
+    "optionen": [
+     "by",
+     "from",
+     "of",
+     "with"
+    ],
+    "loesung": [
+     "by"
+    ],
+    "erklaerung": "Die handelnde Person steht im Passiv mit «by».",
+    "fehler": [
+     {
+      "antwort": "from",
+      "diagnoseId": "praeposition",
+      "feedback": "«from» nennt die Herkunft, nicht die handelnde Person."
+     },
+     {
+      "antwort": "of",
+      "diagnoseId": "praeposition",
+      "feedback": "«of» drückt eine Zugehörigkeit aus. Richtig ist «by»."
+     },
+     {
+      "antwort": "with",
+      "diagnoseId": "praeposition",
+      "feedback": "«with» nennt das Werkzeug: written with a pen."
+     }
+    ]
+   },
+   {
+    "stamm": "Why is the passive often used?",
+    "optionen": [
+     "Because the agent is unknown or unimportant",
+     "Because it is shorter",
+     "Because it sounds more polite",
+     "Because it avoids verbs"
+    ],
+    "loesung": [
+     "Because the agent is unknown or unimportant"
+    ],
+    "erklaerung": "Im Passiv rückt die Handlung in den Mittelpunkt.",
+    "fehler": [
+     {
+      "antwort": "Because it is shorter",
+      "diagnoseId": "grund",
+      "feedback": "Passivsätze sind meist länger. Richtig ist «Because the agent is unknown or unimportant»."
+     },
+     {
+      "antwort": "Because it sounds more polite",
+      "diagnoseId": "grund",
+      "feedback": "Höflichkeit ist nicht der Grund. Richtig ist «Because the agent is unknown or unimportant»."
+     },
+     {
+      "antwort": "Because it avoids verbs",
+      "diagnoseId": "grund",
+      "feedback": "Auch das Passiv braucht Verben. Richtig ist «Because the agent is unknown or unimportant»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe meeting was postponed ______ Friday.",
+    "optionen": [
+     "until",
+     "since",
+     "for",
+     "during"
+    ],
+    "loesung": [
+     "until"
+    ],
+    "erklaerung": "«until Friday» nennt den neuen Zeitpunkt.",
+    "fehler": [
+     {
+      "antwort": "since",
+      "diagnoseId": "zeit",
+      "feedback": "«since» steht bei einem Anfangspunkt in der Vergangenheit."
+     },
+     {
+      "antwort": "for",
+      "diagnoseId": "zeit",
+      "feedback": "«for» steht bei einer Dauer. Richtig ist «until»."
+     },
+     {
+      "antwort": "during",
+      "diagnoseId": "zeit",
+      "feedback": "«during» steht vor einem Ereignis. Richtig ist «until»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nShe apologised ______ being late.",
+    "optionen": [
+     "for",
+     "of",
+     "to",
+     "about"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«apologise for something» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "of",
+      "diagnoseId": "wendung",
+      "feedback": "«of» steht bei «afraid of». Richtig ist «for»."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "wendung",
+      "feedback": "«apologise to somebody» steht bei der Person, nicht bei der Sache."
+     },
+     {
+      "antwort": "about",
+      "diagnoseId": "wendung",
+      "feedback": "«about» steht bei «talk about». Richtig ist «for»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe result depends ______ the weather.",
+    "optionen": [
+     "on",
+     "of",
+     "from",
+     "in"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "«depend on» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "of",
+      "diagnoseId": "wendung",
+      "feedback": "«of» steht bei «afraid of». Richtig ist «on»."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "wendung",
+      "feedback": "«from» steht bei «different from». Richtig ist «on»."
+     },
+     {
+      "antwort": "in",
+      "diagnoseId": "wendung",
+      "feedback": "«in» steht bei «interested in». Richtig ist «on»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nHe is responsible ______ the whole project.",
+    "optionen": [
+     "for",
+     "of",
+     "to",
+     "with"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«responsible for» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "of",
+      "diagnoseId": "wendung",
+      "feedback": "«of» passt hier nicht. Richtig ist «for»."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "wendung",
+      "feedback": "«responsible to somebody» meint die Person, der man Rechenschaft schuldet."
+     },
+     {
+      "antwort": "with",
+      "diagnoseId": "wendung",
+      "feedback": "«with» passt hier nicht. Richtig ist «for»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThis book is different ______ the one I read last year.",
+    "optionen": [
+     "from",
+     "than",
+     "as",
+     "of"
+    ],
+    "loesung": [
+     "from"
+    ],
+    "erklaerung": "«different from» ist die übliche Wendung.",
+    "fehler": [
+     {
+      "antwort": "than",
+      "diagnoseId": "wendung",
+      "feedback": "«than» gehört zur Steigerung mit «-er». Richtig ist «from»."
+     },
+     {
+      "antwort": "as",
+      "diagnoseId": "wendung",
+      "feedback": "«as … as» drückt Gleichheit aus. Richtig ist «from»."
+     },
+     {
+      "antwort": "of",
+      "diagnoseId": "wendung",
+      "feedback": "«of» passt hier nicht. Richtig ist «from»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nWe are looking forward ______ the trip.",
+    "optionen": [
+     "to",
+     "for",
+     "on",
+     "at"
+    ],
+    "loesung": [
+     "to"
+    ],
+    "erklaerung": "«look forward to» ist die feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "for",
+      "diagnoseId": "wendung",
+      "feedback": "«look for» heisst suchen. Richtig ist «to»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "wendung",
+      "feedback": "«look on» heisst zuschauen. Richtig ist «to»."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "wendung",
+      "feedback": "«look at» heisst anschauen. Richtig ist «to»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Passive and prepositions",
+  "status": "review"
+ }
+]

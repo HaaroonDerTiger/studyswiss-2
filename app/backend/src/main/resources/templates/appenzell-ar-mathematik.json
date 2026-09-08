@@ -1,0 +1,3030 @@
+[
+ {
+  "templateId": "ar-klammern-gesetze",
+  "lernzielId": "MAR.1.01",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "1.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*(b+c)-b*(a-c)"
+   }
+  ],
+  "bedingungen": [
+   "a>c",
+   "b!=c",
+   "wert>0",
+   "wert<250",
+   "a!=b",
+   "a*(b+c)!=b*(a-c)",
+   "wert!=a",
+   "wert!=b"
+  ],
+  "stamm": "Berechne mit möglichst wenig Rechenaufwand.\n\n{a} · ({b} + {c}) − {b} · ({a} − {c}) =",
+  "loesung": "a*(b+c)-b*(a-c)",
+  "gegenprobe": "a*b+a*c-b*a+b*c",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_nicht_verteilt",
+    "ausdruck": "a*b+c-b*a-c",
+    "feedback": "Der Faktor vor der Klammer wird mit BEIDEN Gliedern multipliziert — sonst geht der zweite Summand verloren."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "a*(b+c)+b*(a-c)",
+    "feedback": "Vor dem zweiten Produkt steht ein Minus. Es wird abgezogen."
+   },
+   {
+    "diagnoseId": "innere_vorzeichen",
+    "ausdruck": "a*(b+c)-b*(a+c)",
+    "feedback": "In der zweiten Klammer steht ein Minus: {a} − {c}."
+   }
+  ],
+  "hinweise": [
+   "Was steht vor jeder Klammer?",
+   "Multipliziere jede Klammer aus und achte auf die Vorzeichen.",
+   "Nach dem Ausmultiplizieren heben sich zwei Glieder auf."
+  ],
+  "loesungsweg": [
+   "Erste Klammer ausmultiplizieren: {a}·{b} + {a}·{c}.",
+   "Zweite Klammer: {b}·{a} − {b}·{c}, davor ein Minus.",
+   "{a}·{b} und {b}·{a} heben sich auf.",
+   "Übrig bleibt {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-primfaktoren-potenz",
+  "lernzielId": "MAR.1.07",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "1.07",
+   "1.06",
+   "1.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     7,
+     11,
+     13,
+     17,
+     19,
+     23
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "pow(p,e)*q"
+   },
+   {
+    "name": "anzahl",
+    "typ": "formel",
+    "ausdruck": "(e+1)*2"
+   }
+  ],
+  "bedingungen": [
+   "p!=q",
+   "n>40",
+   "n<900"
+  ],
+  "stamm": "{name} zerlegt die Zahl {n} in Primfaktoren.\n\nWie lautet der grösste Primfaktor, und wie viele Teiler hat {n} insgesamt?",
+  "felder": [
+   {
+    "name": "q",
+    "label": "grösster Primfaktor",
+    "ausdruck": "q",
+    "fehler": [
+     {
+      "diagnoseId": "kleinster",
+      "ausdruck": "p",
+      "feedback": "{p} ist der KLEINSTE Primfaktor; er kommt mehrfach vor. Gefragt ist der grösste."
+     },
+     {
+      "diagnoseId": "zahl_selbst",
+      "ausdruck": "n",
+      "feedback": "{n} ist keine Primzahl — sie zerfällt in mehrere Faktoren."
+     },
+     {
+      "diagnoseId": "potenz",
+      "ausdruck": "pow(p,e)",
+      "feedback": "Das ist die Potenz des kleinsten Primfaktors, keine Primzahl."
+     }
+    ]
+   },
+   {
+    "name": "anzahl",
+    "label": "Anzahl aller Teiler",
+    "ausdruck": "(e+1)*2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_primfaktoren",
+      "ausdruck": "e+1",
+      "feedback": "Zu den Teilern gehören auch die Eins, die Zahl selbst und die Kombinationen der Primfaktoren."
+     },
+     {
+      "diagnoseId": "zwei",
+      "ausdruck": "2",
+      "feedback": "Zwei Teiler hat nur eine Primzahl. {n} ist zusammengesetzt."
+     },
+     {
+      "diagnoseId": "summe_exponenten",
+      "ausdruck": "e+2",
+      "feedback": "Die Zahl der Teiler ist das PRODUKT der um eins erhöhten Exponenten, nicht ihre Summe."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Teile {n} fortlaufend durch die kleinste mögliche Primzahl.",
+   "Schreibe die Zerlegung in Potenzschreibweise.",
+   "Für die Teilerzahl: jeden Exponenten um eins erhöhen und die Ergebnisse multiplizieren."
+  ],
+  "loesungsweg": [
+   "{n} = {p} hoch {e} · {q}.",
+   "Der grösste Primfaktor ist {q}.",
+   "Teilerzahl: ({e} + 1) · (1 + 1).",
+   "Das ergibt {anzahl} Teiler."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-negative-potenzen",
+  "lernzielId": "MAR.1.10",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "1.10",
+   "1.11",
+   "1.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": -2,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "prod",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "pot",
+    "typ": "formel",
+    "ausdruck": "pow(a,n)"
+   }
+  ],
+  "bedingungen": [
+   "abs(pot)<3000",
+   "prod!=pot",
+   "n!=b",
+   "abs(a)!=b"
+  ],
+  "stamm": "Gegeben sind die Zahlen {a} und {b}.\n\nBerechne das Produkt {a} · {b} und die Potenz ({a}){n:hoch}.",
+  "felder": [
+   {
+    "name": "prod",
+    "label": "{a} · {b}",
+    "ausdruck": "a*b",
+    "fehler": [
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "abs(a)*b",
+      "feedback": "Minus mal Plus ergibt Minus. Das Produkt ist negativ."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Zwischen den Zahlen steht ein Malpunkt, kein Pluszeichen."
+     },
+     {
+      "diagnoseId": "nur_erste_zahl",
+      "ausdruck": "a",
+      "feedback": "Der zweite Faktor fehlt: Multipliziert wird mit {b}."
+     }
+    ]
+   },
+   {
+    "name": "pot",
+    "label": "({a}){n:hoch}",
+    "ausdruck": "pow(a,n)",
+    "fehler": [
+     {
+      "diagnoseId": "vorzeichen_falsch",
+      "ausdruck": "0-pow(a,n)",
+      "feedback": "Bei einer negativen Basis entscheidet der Exponent: Ist er gerade, wird das Ergebnis positiv, ist er ungerade, bleibt es negativ."
+     },
+     {
+      "diagnoseId": "mal_exponent",
+      "ausdruck": "a*n",
+      "feedback": "Eine Potenz ist keine Multiplikation mit dem Exponenten: ({a}){n:hoch} heisst {a} mal sich selbst, {n}-mal."
+     },
+     {
+      "diagnoseId": "ein_faktor_zu_wenig",
+      "ausdruck": "pow(a,n-1)",
+      "feedback": "Zähle die Faktoren nach: ({a}){n:hoch} heisst {n}-mal die Zahl {a}, nicht {n} − 1 Mal."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welches Vorzeichen hat ein Produkt aus einer negativen und einer positiven Zahl?",
+   "Minus mal Plus ergibt Minus.",
+   "Bei der Potenz zählt, ob der Exponent gerade oder ungerade ist."
+  ],
+  "loesungsweg": [
+   "Produkt: {a} · {b} = {prod}.",
+   "Potenz: {a} mal sich selbst, {n}-mal.",
+   "Der Exponent {n} entscheidet über das Vorzeichen.",
+   "Ergebnis: {pot}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-bruch-anteil",
+  "lernzielId": "MAR.2.07",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.07",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "ganz",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 600,
+    "schritt": 20
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Liter Milch"
+     ],
+     [
+      "Kilogramm Käse"
+     ],
+     [
+      "Franken"
+     ],
+     [
+      "Minuten"
+     ],
+     [
+      "Meter Draht"
+     ],
+     [
+      "Blätter Papier"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Setzlinge"
+     ],
+     [
+      "Steine"
+     ],
+     [
+      "Kilogramm Mehl"
+     ],
+     [
+      "Becher"
+     ],
+     [
+      "Bretter"
+     ]
+    ]
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "ganz*z/n"
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "z*100/n"
+   }
+  ],
+  "bedingungen": [
+   "z<n",
+   "ggt(z,n)==1",
+   "(ganz*z)%n==0",
+   "(z*100)%n==0",
+   "teil>5",
+   "teil!=proz",
+   "teil!=ganz",
+   "proz!=z"
+  ],
+  "stamm": "Von {ganz} {sache} sind {z:hoch}⁄{n:tief} bereits verbraucht.\n\nWie viele {sache} sind das, und wie viel Prozent des Ganzen?",
+  "felder": [
+   {
+    "name": "teil",
+    "label": "verbrauchte Menge",
+    "ausdruck": "ganz*z/n",
+    "fehler": [
+     {
+      "diagnoseId": "rest",
+      "ausdruck": "ganz-ganz*z/n",
+      "feedback": "Das ist der Rest. Gefragt ist der verbrauchte Teil."
+     },
+     {
+      "diagnoseId": "nur_geteilt",
+      "ausdruck": "ganz/n",
+      "feedback": "Das ist ein {n}-tel. Davon sind {z} Stück gemeint."
+     },
+     {
+      "diagnoseId": "mal_nenner",
+      "ausdruck": "ganz*n/z",
+      "feedback": "Multipliziert wird mit dem Zähler und geteilt durch den Nenner."
+     }
+    ]
+   },
+   {
+    "name": "proz",
+    "label": "Anteil in Prozent",
+    "ausdruck": "z*100/n",
+    "einheit": "%",
+    "fehler": [
+     {
+      "diagnoseId": "bruch_hingeschrieben",
+      "ausdruck": "z/n",
+      "feedback": "Das ist der Anteil als Dezimalzahl. Für Prozent kommt der Faktor 100 dazu."
+     },
+     {
+      "diagnoseId": "zaehler",
+      "ausdruck": "z",
+      "feedback": "Der Zähler allein sagt nichts über den Anteil; erst das Verhältnis zum Nenner {n} ergibt Prozent."
+     },
+     {
+      "diagnoseId": "rest_prozent",
+      "ausdruck": "100-z*100/n",
+      "feedback": "Das ist der Anteil des Rests, nicht des verbrauchten Teils."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet der Bruch {z:hoch}⁄{n:tief} von {ganz}?",
+   "Zuerst durch {n} teilen, dann mit {z} multiplizieren.",
+   "Für Prozent: den Bruch mal 100 nehmen."
+  ],
+  "loesungsweg": [
+   "Ein {n}-tel von {ganz} ist {ganz} : {n}.",
+   "Davon {z} Stück ergibt {teil}.",
+   "Als Prozentzahl: {z} : {n} · 100 = {proz} %.",
+   "Beide Wege beschreiben denselben Anteil."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-gleichung-textaufgabe",
+  "lernzielId": "MAR.2.10",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.10",
+   "2.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Laibe"
+     ],
+     [
+      "Kisten"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Bretter"
+     ],
+     [
+      "Säcke"
+     ],
+     [
+      "Ballen"
+     ],
+     [
+      "Eimer"
+     ],
+     [
+      "Kannen"
+     ],
+     [
+      "Formen"
+     ],
+     [
+      "Rechen"
+     ],
+     [
+      "Körbe"
+     ],
+     [
+      "Latten"
+     ]
+    ]
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "f*x+d"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "f*x+d+x"
+   }
+  ],
+  "bedingungen": [
+   "gross<200",
+   "summe<250",
+   "x!=d",
+   "x!=gross",
+   "d!=f",
+   "summe!=gross",
+   "x!=f"
+  ],
+  "stamm": "{name} zählt in zwei Lagern {sache}. Im grossen Lager sind {d} {sache} mehr als das {f}-Fache des kleinen Lagers. Zusammen sind es {summe} {sache}.\n\nWie viele {sache} liegen im kleinen Lager?",
+  "loesung": "(summe-d)/(f+1)",
+  "gegenprobe": "summe-(f*((summe-d)/(f+1))+d)",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_vergessen",
+    "ausdruck": "summe/(f+1)",
+    "feedback": "Die {d} zusätzlichen {sache} gehören abgezogen, bevor durch ({f} + 1) geteilt wird."
+   },
+   {
+    "diagnoseId": "grosses_lager",
+    "ausdruck": "summe-(summe-d)/(f+1)",
+    "feedback": "Das ist das grosse Lager. Gefragt ist das kleine."
+   },
+   {
+    "diagnoseId": "nur_geteilt",
+    "ausdruck": "summe/f",
+    "feedback": "Es sind {f} + 1 Teile: {f} für das grosse Lager und einer für das kleine."
+   }
+  ],
+  "hinweise": [
+   "Nenne die Zahl im kleinen Lager x. Wie viele sind dann im grossen?",
+   "{f}x + {d}. Zusammen ergibt das {summe}.",
+   "Also x + {f}x + {d} = {summe}."
+  ],
+  "loesungsweg": [
+   "Kleines Lager: x. Grosses Lager: {f}x + {d}.",
+   "Gleichung: x + {f}x + {d} = {summe}.",
+   "{d} abziehen und durch ({f} + 1) teilen.",
+   "Das kleine Lager enthält {x} {sache}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-wurzelterm",
+  "lernzielId": "MAR.2.12",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.12",
+   "2.13"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a*a+sqrt(b*b*c*c)-c"
+   }
+  ],
+  "bedingungen": [
+   "b!=c",
+   "wert>0",
+   "wert<250",
+   "a!=b",
+   "a!=c",
+   "wert!=a"
+  ],
+  "stamm": "Berechne ohne Taschenrechner.\n\n{a}² + √({b}² · {c}²) − {c} =",
+  "loesung": "a*a+b*c-c",
+  "gegenprobe": "pow(a,2)+c*(b-1)",
+  "fehler": [
+   {
+    "diagnoseId": "wurzel_addiert",
+    "ausdruck": "a*a+b+c-c",
+    "feedback": "Die Wurzel aus einem Produkt ist das Produkt der Wurzeln: √({b}² · {c}²) = {b} · {c}."
+   },
+   {
+    "diagnoseId": "quadrat_verdoppelt",
+    "ausdruck": "a*2+b*c-c",
+    "feedback": "{a}² heisst {a} · {a}, nicht {a} · 2 — die Hochzahl ist keine Multiplikation."
+   },
+   {
+    "diagnoseId": "wurzel_ganz",
+    "ausdruck": "a*a+b*c*c-c",
+    "feedback": "Aus {c}² wird unter der Wurzel ein einfaches {c}."
+   }
+  ],
+  "hinweise": [
+   "Was steht unter der Wurzel?",
+   "Ein Produkt zweier Quadrate — die Wurzel daraus ist das Produkt der beiden Zahlen.",
+   "Danach nur noch Punkt vor Strich beachten."
+  ],
+  "loesungsweg": [
+   "{a}² = {a} · {a}.",
+   "√({b}² · {c}²) = {b} · {c}.",
+   "Zum Schluss {c} abziehen.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-spiegelung-koordinaten",
+  "lernzielId": "MAR.4.01",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "4.01",
+   "4.03",
+   "6.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   }
+  ],
+  "bedingungen": [
+   "xa!=xb",
+   "ya!=yb",
+   "abs(xa)!=ya",
+   "abs(yb)!=xb"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) an der y-Achse.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "0-xa",
+  "gegenprobe": "(0-1)*xa",
+  "fehler": [
+   {
+    "diagnoseId": "an_x_achse",
+    "ausdruck": "xa",
+    "feedback": "Bei einer Spiegelung an der y-Achse wechselt der x-Wert das Vorzeichen, der y-Wert bleibt."
+   },
+   {
+    "diagnoseId": "beide_gespiegelt",
+    "ausdruck": "0-xa",
+    "feedback": "Am Nullpunkt würden beide Koordinaten das Vorzeichen wechseln. Hier wird nur an der y-Achse gespiegelt."
+   },
+   {
+    "diagnoseId": "nicht_gespiegelt",
+    "ausdruck": "xa*1",
+    "feedback": "Der Punkt bleibt so an derselben Stelle. Bei der Spiegelung wechselt er die Seite."
+   }
+  ],
+  "hinweise": [
+   "Welche Koordinate ändert sich bei der Spiegelung an der y-Achse?",
+   "Nur der x-Wert wechselt das Vorzeichen.",
+   "Der Abstand zur Achse bleibt gleich, die Seite wechselt."
+  ],
+  "loesungsweg": [
+   "A({xa}|{ya}) liegt links der y-Achse.",
+   "Der Bildpunkt liegt gleich weit rechts davon.",
+   "Der y-Wert bleibt unverändert.",
+   "Ebenso für B."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "0-xa",
+      "ya"
+     ],
+     [
+      "0-xb",
+      "yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-viereck-groessen",
+  "lernzielId": "MAR.4.07",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "4.07",
+   "4.06",
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "figur",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Parallelogramm"
+     ],
+     [
+      "ein Wandstück"
+     ],
+     [
+      "ein Beetstück"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "ein Terrassenfeld"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Segeltuch"
+     ],
+     [
+      "ein Kachelmuster"
+     ],
+     [
+      "ein Holzstück"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "ein Fensterelement"
+     ],
+     [
+      "ein Bodenfeld"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "a*h"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*a+2*b"
+   }
+  ],
+  "bedingungen": [
+   "h<b",
+   "2*h>b",
+   "a!=b",
+   "flaeche<500",
+   "flaeche!=umfang",
+   "b!=h",
+   "a!=h"
+  ],
+  "stamm": "Auf dem Plan ist {figur} als Parallelogramm gezeichnet: Die Grundseite misst {a} cm, die Nachbarseite {b} cm, die Höhe zur Grundseite {h} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche in cm²",
+    "ausdruck": "a*h",
+    "fehler": [
+     {
+      "diagnoseId": "mit_nachbarseite",
+      "ausdruck": "a*b",
+      "feedback": "Multipliziert wird die Grundseite mit der HÖHE, nicht mit der Nachbarseite. Nur beim Rechteck sind die beiden dasselbe."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*h/2",
+      "feedback": "Halbiert wird beim Dreieck. Das Parallelogramm hat die doppelte Fläche."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "2*a+2*b",
+      "feedback": "Das ist der Umfang in cm. Die Fläche wird in cm² gemessen."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang in cm",
+    "ausdruck": "2*a+2*b",
+    "fehler": [
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "2*a+2*h",
+      "feedback": "Zum Umfang gehören die vier SEITEN. Die Höhe ist keine Seite."
+     },
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a+b",
+      "feedback": "Jede der beiden Seitenlängen kommt zweimal vor."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "a*h",
+      "feedback": "Das ist die Fläche. Der Umfang ist eine Länge und wird addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Womit wird beim Parallelogramm die Grundseite multipliziert?",
+   "Mit der Höhe, die senkrecht auf ihr steht.",
+   "Der Umfang zählt alle vier Seiten: zweimal {a} und zweimal {b}."
+  ],
+  "loesungsweg": [
+   "Fläche: {a} · {h} = {flaeche} cm².",
+   "Umfang: 2 · {a} + 2 · {b} = {umfang} cm.",
+   "Die Nachbarseite gehört zum Umfang, nicht zur Fläche.",
+   "Die Höhe gehört zur Fläche, nicht zum Umfang."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-thales-winkel",
+  "lernzielId": "MAR.4.10",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "4.10",
+   "4.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 68,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "formel",
+    "ausdruck": "90-alpha"
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "2*alpha"
+   }
+  ],
+  "bedingungen": [
+   "beta>20",
+   "alpha!=beta",
+   "mittel<140",
+   "mittel!=beta"
+  ],
+  "stamm": "{name} zeichnet über der Strecke AB den Thaleskreis. Der Punkt C liegt auf dem Kreis, und der Winkel bei A misst {alpha}°.\n\nBerechne den Winkel bei B und den Mittelpunktswinkel über der Sehne AC.",
+  "felder": [
+   {
+    "name": "beta",
+    "label": "Winkel bei B in Grad",
+    "ausdruck": "90-alpha",
+    "fehler": [
+     {
+      "diagnoseId": "mit_180",
+      "ausdruck": "180-alpha",
+      "feedback": "Im Dreieck ABC ist der Winkel bei C nach Thales ein rechter. Für die beiden anderen bleiben zusammen 90°."
+     },
+     {
+      "diagnoseId": "gleich",
+      "ausdruck": "alpha",
+      "feedback": "Nur bei 45° wären beide Winkel gleich gross."
+     },
+     {
+      "diagnoseId": "rechter_winkel",
+      "ausdruck": "90",
+      "feedback": "Der rechte Winkel liegt bei C, dem Punkt auf dem Kreis."
+     }
+    ]
+   },
+   {
+    "name": "mittel",
+    "label": "Mittelpunktswinkel über AC in Grad",
+    "ausdruck": "2*alpha",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_umfangswinkel",
+      "ausdruck": "alpha",
+      "feedback": "Der Mittelpunktswinkel ist doppelt so gross wie der Umfangswinkel über derselben Sehne."
+     },
+     {
+      "diagnoseId": "haelfte",
+      "ausdruck": "alpha/2",
+      "feedback": "Halbiert wird in die andere Richtung: Der Umfangswinkel ist die Hälfte des Mittelpunktswinkels."
+     },
+     {
+      "diagnoseId": "ergaenzung",
+      "ausdruck": "180-2*alpha",
+      "feedback": "Das wäre der Restwinkel am Mittelpunkt, nicht der gesuchte."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welchen Winkel hat das Dreieck bei C?",
+   "Nach dem Satz von Thales ist er ein rechter Winkel — also 90°.",
+   "Der Mittelpunktswinkel ist doppelt so gross wie der Umfangswinkel über derselben Sehne."
+  ],
+  "loesungsweg": [
+   "Bei C liegt ein rechter Winkel (Thales).",
+   "Winkelsumme: {alpha}° + β + 90° = 180°.",
+   "Also β = {beta}°.",
+   "Der Mittelpunktswinkel über AC misst 2 · {alpha}° = {mittel}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-quader-volumen",
+  "lernzielId": "MAR.5.04",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "5.04",
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Kiste"
+     ],
+     [
+      "ein Trog"
+     ],
+     [
+      "ein Behälter"
+     ],
+     [
+      "ein Kasten"
+     ],
+     [
+      "ein Becken"
+     ],
+     [
+      "ein Fach"
+     ],
+     [
+      "ein Sockel"
+     ],
+     [
+      "ein Block"
+     ],
+     [
+      "ein Container"
+     ],
+     [
+      "ein Silo"
+     ],
+     [
+      "ein Tank"
+     ],
+     [
+      "ein Rahmen"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "a*b*c+pow(k,3)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "gesamt<9000",
+   "v>50",
+   "pow(k,3)<v",
+   "k!=c"
+  ],
+  "stamm": "Im Lager steht {sache} in Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm. Darauf liegt ein Würfel mit {k} cm Kante.\n\nBerechne das Volumen des Quaders und das Gesamtvolumen.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen des Quaders in cm³",
+    "ausdruck": "a*b*c",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+c",
+      "feedback": "Das Volumen entsteht durch Multiplizieren der drei Kanten."
+     },
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in cm². Die dritte Kante fehlt."
+     },
+     {
+      "diagnoseId": "mit_wuerfel",
+      "ausdruck": "a*b*c+pow(k,3)",
+      "feedback": "Das ist das Gesamtvolumen. Gefragt war zuerst nur der Quader."
+     }
+    ]
+   },
+   {
+    "name": "gesamt",
+    "label": "Gesamtvolumen in cm³",
+    "ausdruck": "a*b*c+pow(k,3)",
+    "fehler": [
+     {
+      "diagnoseId": "wuerfel_vergessen",
+      "ausdruck": "a*b*c",
+      "feedback": "Der Würfel mit {k} cm Kante hat ebenfalls ein Volumen: {k} · {k} · {k}."
+     },
+     {
+      "diagnoseId": "wuerfel_flaeche",
+      "ausdruck": "a*b*c+pow(k,2)",
+      "feedback": "{k}² wäre eine Fläche. Beim Würfel wird die Kante dreimal multipliziert."
+     },
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "a*b*c*pow(k,3)",
+      "feedback": "Die beiden Körper liegen nebeneinander; ihre Volumen werden addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie berechnet man das Volumen eines Quaders?",
+   "Länge mal Breite mal Höhe.",
+   "Beim Würfel ist es die Kante hoch drei — und beide Volumen werden addiert."
+  ],
+  "loesungsweg": [
+   "Quader: {a} · {b} · {c} = {v} cm³.",
+   "Würfel: {k} · {k} · {k}.",
+   "Beides addieren.",
+   "Gesamtvolumen: {gesamt} cm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-massstab-karte",
+  "lernzielId": "MAR.6.04",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "6.04",
+   "2.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     5000,
+     10000,
+     25000,
+     50000
+    ]
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "weg",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wanderweg"
+     ],
+     [
+      "ein Velostreifen"
+     ],
+     [
+      "ein Waldweg"
+     ],
+     [
+      "ein Feldweg"
+     ],
+     [
+      "eine Uferpromenade"
+     ],
+     [
+      "ein Höhenweg"
+     ],
+     [
+      "ein Verbindungsweg"
+     ],
+     [
+      "ein Panoramaweg"
+     ],
+     [
+      "ein Zufahrtsweg"
+     ],
+     [
+      "ein Rundweg"
+     ],
+     [
+      "ein Spazierweg"
+     ],
+     [
+      "ein Wirtschaftsweg"
+     ]
+    ]
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "cm*m/100"
+   },
+   {
+    "name": "km",
+    "typ": "formel",
+    "ausdruck": "cm*m/100000"
+   }
+  ],
+  "bedingungen": [
+   "meter>200",
+   "km<20",
+   "cm!=m"
+  ],
+  "stamm": "Auf einer Karte im Massstab 1 : {m} ist {weg} {cm} cm lang.\n\nWie lang ist er in Metern und in Kilometern?",
+  "felder": [
+   {
+    "name": "meter",
+    "label": "Länge in m",
+    "ausdruck": "cm*m/100",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "cm*m",
+      "feedback": "Das Ergebnis der Multiplikation steht in Zentimetern; für Meter wird durch 100 geteilt."
+     },
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "cm/m",
+      "feedback": "In Wirklichkeit ist die Strecke {m}-mal LÄNGER als auf der Karte."
+     },
+     {
+      "diagnoseId": "kilometer",
+      "ausdruck": "cm*m/100000",
+      "feedback": "Das ist die Länge in Kilometern, also tausendmal kleiner."
+     }
+    ]
+   },
+   {
+    "name": "km",
+    "label": "Länge in km",
+    "ausdruck": "cm*m/100000",
+    "fehler": [
+     {
+      "diagnoseId": "meter",
+      "ausdruck": "cm*m/100",
+      "feedback": "Das ist die Länge in Metern. Ein Kilometer sind 1000 Meter."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "cm*m/1000",
+      "feedback": "Von Zentimetern zu Kilometern sind es fünf Nullen: 100 · 1000."
+     },
+     {
+      "diagnoseId": "ohne_umrechnung",
+      "ausdruck": "cm*m",
+      "feedback": "Diese Zahl steht noch in Zentimetern und ist viel zu gross."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet 1 : {m}?",
+   "Ein Zentimeter auf der Karte sind {m} Zentimeter in Wirklichkeit.",
+   "Danach umrechnen: 100 cm sind ein Meter, 1000 m ein Kilometer."
+  ],
+  "loesungsweg": [
+   "{cm} cm · {m} ergibt die wahre Länge in Zentimetern.",
+   "Geteilt durch 100 ergibt das {meter} m.",
+   "Geteilt durch weitere 1000 ergibt das {km} km.",
+   "Der Massstab wirkt in beide Richtungen."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-potenzen-einsetzen",
+  "lernzielId": "MAR.1.03",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "1.03",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "term",
+    "typ": "formel",
+    "ausdruck": "a*a*b+c"
+   },
+   {
+    "name": "quadrat",
+    "typ": "formel",
+    "ausdruck": "pow(a*b,2)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "quadrat<900",
+   "term!=quadrat",
+   "c!=a",
+   "c!=b",
+   "term>8"
+  ],
+  "stamm": "Setze a = {a}, b = {b} und c = {c} ein.\n\nBerechne a² · b + c und (a · b)².",
+  "felder": [
+   {
+    "name": "term",
+    "label": "a² · b + c",
+    "ausdruck": "a*a*b+c",
+    "fehler": [
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "a*2*b+c",
+      "feedback": "a² heisst a · a, nicht a · 2 — die Hochzahl ist keine Multiplikation."
+     },
+     {
+      "diagnoseId": "alles_quadriert",
+      "ausdruck": "pow(a*b,2)+c",
+      "feedback": "Die Hochzahl gehört nur zum a, nicht zum ganzen Produkt."
+     },
+     {
+      "diagnoseId": "c_vergessen",
+      "ausdruck": "a*a*b",
+      "feedback": "Das c am Schluss gehört dazu und wird addiert."
+     }
+    ]
+   },
+   {
+    "name": "quadrat",
+    "label": "(a · b)²",
+    "ausdruck": "pow(a*b,2)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_a_quadriert",
+      "ausdruck": "a*a*b",
+      "feedback": "Die Klammer sagt: Zuerst multiplizieren, dann quadrieren. Beide Faktoren werden quadriert."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "a*b*2",
+      "feedback": "Quadrieren heisst mit sich selbst multiplizieren, nicht mit zwei."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "pow(a,2)+pow(b,2)",
+      "feedback": "(a · b)² ist nicht a² + b². Die Klammer enthält ein Produkt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet die Hochzahl 2?",
+   "Die Zahl wird mit sich selbst multipliziert.",
+   "Achte darauf, wozu die Klammer gehört."
+  ],
+  "loesungsweg": [
+   "a² = {a} · {a}.",
+   "Mal b und plus c ergibt {term}.",
+   "(a · b) = {a} · {b}; das Ergebnis wird quadriert.",
+   "Das ergibt {quadrat}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-zehnerpotenz-schreibweise",
+  "lernzielId": "MAR.1.04",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "1.04",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 99,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Bakterien"
+     ],
+     [
+      "Lichtjahre"
+     ],
+     [
+      "Zellen"
+     ],
+     [
+      "Datenpunkte"
+     ],
+     [
+      "Körner"
+     ],
+     [
+      "Tropfen"
+     ],
+     [
+      "Fasern"
+     ],
+     [
+      "Partikel"
+     ],
+     [
+      "Kristalle"
+     ],
+     [
+      "Sandkörner"
+     ],
+     [
+      "Wassermoleküle"
+     ],
+     [
+      "Halme"
+     ]
+    ]
+   },
+   {
+    "name": "vor",
+    "typ": "formel",
+    "ausdruck": "v/10"
+   },
+   {
+    "name": "exp",
+    "typ": "formel",
+    "ausdruck": "n+1"
+   }
+  ],
+  "bedingungen": [
+   "v%10!=0",
+   "n>3",
+   "n<10"
+  ],
+  "stamm": "Eine Messung ergibt {v} · 10{n:hoch} {sache}.\n\nSchreibe die Zahl in wissenschaftlicher Schreibweise: eine Zahl zwischen 1 und 10 mal eine Zehnerpotenz.",
+  "felder": [
+   {
+    "name": "vor",
+    "label": "Vorfaktor",
+    "ausdruck": "v/10",
+    "zahlformat": "dezimal1",
+    "fehler": [
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "v",
+      "feedback": "In der wissenschaftlichen Schreibweise steht vor der Zehnerpotenz eine Zahl zwischen 1 und 10. {v} ist zu gross."
+     },
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "v/100",
+      "feedback": "Verschoben wird das Komma um eine Stelle, nicht um zwei."
+     },
+     {
+      "diagnoseId": "gerundet",
+      "ausdruck": "floor(v/10)",
+      "feedback": "Die Nachkommastelle gehört dazu, sonst ändert sich der Wert."
+     }
+    ]
+   },
+   {
+    "name": "exp",
+    "label": "Exponent",
+    "ausdruck": "n+1",
+    "fehler": [
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "n",
+      "feedback": "Wenn der Vorfaktor um eine Stelle kleiner wird, muss der Exponent um eins wachsen — sonst stimmt der Wert nicht mehr."
+     },
+     {
+      "diagnoseId": "kleiner",
+      "ausdruck": "n-1",
+      "feedback": "Die Verschiebung geht in die andere Richtung: Vorfaktor kleiner, Exponent grösser."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*n",
+      "feedback": "Der Exponent ändert sich um genau eins, nicht auf das Doppelte."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross darf der Vorfaktor sein?",
+   "Zwischen 1 und 10. Also wird {v} durch 10 geteilt.",
+   "Was man beim Vorfaktor wegnimmt, gibt man dem Exponenten dazu."
+  ],
+  "loesungsweg": [
+   "{v} wird zu {vor}, also durch 10 geteilt.",
+   "Damit der Wert gleich bleibt, wächst der Exponent um eins.",
+   "Aus 10{n:hoch} wird 10 hoch {exp}.",
+   "Ergebnis: {vor} · 10 hoch {exp}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-brueche-ordnen",
+  "lernzielId": "MAR.2.03",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.03",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "sortieren",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "c",
+    "typ": "auswahl",
+    "werte": [
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "z1",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "z2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "z3",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "w1",
+    "typ": "formel",
+    "ausdruck": "z1/a"
+   },
+   {
+    "name": "w2",
+    "typ": "formel",
+    "ausdruck": "z2/b"
+   },
+   {
+    "name": "w3",
+    "typ": "formel",
+    "ausdruck": "z3/c"
+   }
+  ],
+  "bedingungen": [
+   "z1<a",
+   "z2<b",
+   "z3<c",
+   "w1!=w2",
+   "w2!=w3",
+   "w1!=w3",
+   "abs(w1-w2)>0.05",
+   "abs(w2-w3)>0.05",
+   "abs(w1-w3)>0.05"
+  ],
+  "stamm": "{name} soll vier Zahlen der Grösse nach ordnen — ohne Taschenrechner.\n\nBeginne mit der kleinsten.",
+  "loesung": "w1",
+  "gegenprobe": "z1/a",
+  "fehler": [
+   {
+    "diagnoseId": "nach_zaehler",
+    "ausdruck": "z1",
+    "feedback": "Ein grösserer Zähler bedeutet nicht automatisch einen grösseren Bruch. Auch der Nenner zählt."
+   },
+   {
+    "diagnoseId": "nach_nenner",
+    "ausdruck": "a",
+    "feedback": "Ein grösserer Nenner macht den Bruch KLEINER, wenn der Zähler gleich bleibt."
+   },
+   {
+    "diagnoseId": "dezimal_zuletzt",
+    "ausdruck": "0.5",
+    "feedback": "Die Dezimalzahl gehört mitten in die Reihe: 0.5 ist genau ein Halbes."
+   }
+  ],
+  "hinweise": [
+   "Wie vergleichst du zwei Brüche ohne Taschenrechner?",
+   "Erweitere sie auf denselben Nenner — oder vergleiche jeden mit einem Halben.",
+   "0.5 ist ein Halbes; das hilft beim Einordnen."
+  ],
+  "loesungsweg": [
+   "Jeden Bruch mit einem Halben vergleichen.",
+   "Wer mehr als die Hälfte des Nenners im Zähler hat, ist grösser als 0.5.",
+   "Die übrigen auf einen gemeinsamen Nenner bringen.",
+   "So ergibt sich die Reihenfolge."
+  ],
+  "sortieren": {
+   "richtung": "aufsteigend",
+   "elemente": [
+    {
+     "text": "{z1:hoch}⁄{a:tief}"
+    },
+    {
+     "text": "{z2:hoch}⁄{b:tief}"
+    },
+    {
+     "text": "{z3:hoch}⁄{c:tief}"
+    },
+    {
+     "text": "0.5"
+    }
+   ],
+   "werte": [
+    "z1/a",
+    "z2/b",
+    "z3/c",
+    "0.5"
+   ]
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-bruchterm-kuerzen",
+  "lernzielId": "MAR.2.02",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.02",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "zg",
+    "typ": "formel",
+    "ausdruck": "z*k"
+   },
+   {
+    "name": "ng",
+    "typ": "formel",
+    "ausdruck": "n*k"
+   }
+  ],
+  "bedingungen": [
+   "ggt(z,n)==1",
+   "z!=n",
+   "zg<70",
+   "ng<70",
+   "k!=z",
+   "k!=n"
+  ],
+  "stamm": "Kürze den Bruchterm vollständig.\n\n{zg}a{e:hoch}b über {ng}ab\n\nGib den Zahlenfaktor des Zählers und des Nenners nach dem Kürzen an.",
+  "felder": [
+   {
+    "name": "z",
+    "label": "Zahl im Zähler",
+    "ausdruck": "z",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gekuerzt",
+      "ausdruck": "zg",
+      "feedback": "{zg} und {ng} haben den gemeinsamen Teiler {k}."
+     },
+     {
+      "diagnoseId": "nur_halbiert",
+      "ausdruck": "zg/2",
+      "feedback": "Geteilt wird durch den GRÖSSTEN gemeinsamen Teiler, hier {k}."
+     },
+     {
+      "diagnoseId": "nenner",
+      "ausdruck": "n",
+      "feedback": "Das ist die Zahl im Nenner; gefragt war der Zähler."
+     }
+    ]
+   },
+   {
+    "name": "n",
+    "label": "Zahl im Nenner",
+    "ausdruck": "n",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gekuerzt",
+      "ausdruck": "ng",
+      "feedback": "Auch der Nenner wird durch {k} geteilt, sonst ändert sich der Wert."
+     },
+     {
+      "diagnoseId": "unveraendert_eins",
+      "ausdruck": "1",
+      "feedback": "Der Nenner verschwindet nicht: {ng} : {k} ergibt {n}."
+     },
+     {
+      "diagnoseId": "zaehler",
+      "ausdruck": "z",
+      "feedback": "Das ist die Zahl im Zähler; gefragt war der Nenner."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl teilt {zg} und {ng} beide?",
+   "Kürze zuerst die Zahlen, dann die Buchstaben.",
+   "Bei den Potenzen werden die Exponenten voneinander abgezogen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Teiler der Zahlen: {k}.",
+   "{zg} : {k} = {z} und {ng} : {k} = {n}.",
+   "Bei den Buchstaben: a{e:hoch} : a lässt a hoch ({e} − 1), und b kürzt sich ganz weg.",
+   "Übrig bleibt {z}a hoch ({e} − 1) über {n}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-bruchgleichung",
+  "lernzielId": "MAR.2.09",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.09",
+   "2.08",
+   "2.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -40,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "x/n1+k-x/n2"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "x!=0",
+   "x%n1==0",
+   "x%n2==0",
+   "abs(x)>3",
+   "abs(r)<70",
+   "r!=x",
+   "r!=k",
+   "(x/n1)!=(x/n2)"
+  ],
+  "stamm": "{name} löst diese Gleichung nach x auf.\n\nx⁄{n1:tief} + {k} − x⁄{n2:tief} = {r}",
+  "loesung": "x",
+  "gegenprobe": "(r-k)*n1*n2/(n2-n1)",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(r-k)*(n1+n2)",
+    "feedback": "Die Nenner werden nicht addiert. Multipliziere die ganze Gleichung mit {n1} · {n2}."
+   },
+   {
+    "diagnoseId": "konstante_falsch",
+    "ausdruck": "(r+k)*n1*n2/(n2-n1)",
+    "feedback": "Die {k} steht links mit einem Plus; beim Verschieben wird sie abgezogen."
+   },
+   {
+    "diagnoseId": "richtung",
+    "ausdruck": "(r-k)*n1*n2/(n1-n2)",
+    "feedback": "Achte auf die Reihenfolge: Der zweite Bruch wird vom ersten abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Wie wirst du die Nenner los?",
+   "Multipliziere jeden Summanden mit {n1} · {n2}.",
+   "Danach ist es eine gewöhnliche lineare Gleichung."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {n1} · {n2}.",
+   "Die ganze Gleichung damit multiplizieren.",
+   "Zusammenfassen und nach x auflösen.",
+   "Ergebnis: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-pythagoras-flaeche",
+  "lernzielId": "MAR.4.11",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "4.11",
+   "4.09",
+   "4.12"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "trip",
+    "typ": "auswahl",
+    "werte": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wegdreieck"
+     ],
+     [
+      "ein Grundstück"
+     ],
+     [
+      "ein Segel"
+     ],
+     [
+      "ein Blechwinkel"
+     ],
+     [
+      "ein Beetstück"
+     ],
+     [
+      "ein Giebel"
+     ],
+     [
+      "ein Werkstück"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Holzkeil"
+     ],
+     [
+      "ein Feldstück"
+     ],
+     [
+      "ein Kartenausschnitt"
+     ],
+     [
+      "ein Modellteil"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?3:(trip==1?5:8))"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?4:(trip==1?12:15))"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?5:(trip==1?13:17))"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "f*f*(trip==0?6:(trip==1?30:60))"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?12:(trip==1?30:40))"
+   }
+  ],
+  "bedingungen": [
+   "c<110",
+   "flaeche<2000",
+   "a!=b"
+  ],
+  "stamm": "Auf dem Plan ist {sache} ein rechtwinkliges Dreieck. Die beiden Katheten messen {a} m und {b} m.\n\nBerechne die Hypotenuse und den Flächeninhalt.",
+  "felder": [
+   {
+    "name": "c",
+    "label": "Hypotenuse in m",
+    "ausdruck": "sqrt(a*a+b*b)",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Die Hypotenuse ist kürzer als die Summe der Katheten — sonst wäre der Umweg gleich lang wie der direkte Weg."
+     },
+     {
+      "diagnoseId": "subtrahiert",
+      "ausdruck": "b-a",
+      "feedback": "Subtrahiert wird nur, wenn die Hypotenuse gegeben ist und eine Kathete gesucht wird."
+     },
+     {
+      "diagnoseId": "ohne_wurzel",
+      "ausdruck": "a*a+b*b",
+      "feedback": "Das ist das Quadrat der Hypotenuse. Am Schluss fehlt die Wurzel."
+     }
+    ]
+   },
+   {
+    "name": "flaeche",
+    "label": "Fläche in m²",
+    "ausdruck": "a*b/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbierung",
+      "ausdruck": "a*b",
+      "feedback": "Das wäre das Rechteck aus beiden Katheten. Das Dreieck ist die Hälfte davon."
+     },
+     {
+      "diagnoseId": "mit_hypotenuse",
+      "ausdruck": "a*sqrt(a*a+b*b)/2",
+      "feedback": "Grundlinie und Höhe sind die beiden Katheten; die Hypotenuse steht auf keiner von ihnen senkrecht."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "a+b+sqrt(a*a+b*b)",
+      "feedback": "Das ist der Umfang. Die Fläche wird in Quadratmetern gemessen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber?",
+   "Die Hypotenuse. Es gilt a² + b² = c².",
+   "Die Fläche ist Kathete mal Kathete geteilt durch zwei."
+  ],
+  "loesungsweg": [
+   "c² = {a}² + {b}².",
+   "Die Wurzel daraus ergibt {c} m.",
+   "Fläche: {a} · {b} : 2 = {flaeche} m².",
+   "Der Umfang wäre {umfang} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ar-brueche-negativ",
+  "lernzielId": "MAR.2.05",
+  "fach": "mathematik-ar",
+  "unterthemen": [
+   "2.05",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Silas"
+     ],
+     [
+      "Norina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Aline"
+     ],
+     [
+      "Remo"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anja"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nadja"
+     ],
+     [
+      "Yves"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "0-p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=72",
+   "((q*a-p*b)%(a*b))!=0",
+   "abs(wert)<2",
+   "p/a!=q/b"
+  ],
+  "stamm": "{name} rechnet mit negativen Brüchen. Berechne und kürze vollständig.\n\n−{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} =",
+  "loesung": "0-p/a+q/b",
+  "gegenprobe": "(q*a-p*b)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_ignoriert",
+    "ausdruck": "p/a+q/b",
+    "feedback": "Das Minus vor dem ersten Bruch gehört zur Rechnung: Der erste Bruch wird abgezogen, nicht addiert."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(q-p)/(a+b)",
+    "feedback": "Nenner werden nie addiert. Beide Brüche kommen zuerst auf den gemeinsamen Nenner {a} · {b}."
+   },
+   {
+    "diagnoseId": "beide_negativ",
+    "ausdruck": "0-p/a-q/b",
+    "feedback": "Nur der erste Bruch ist negativ. Vor dem zweiten steht ein Plus."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie verrechnen kann?",
+   "Den gemeinsamen Nenner {a} · {b}.",
+   "Das Vorzeichen des ersten Bruchs bleibt beim Erweitern erhalten."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern, das Vorzeichen mitnehmen.",
+   "Zähler verrechnen.",
+   "Vollständig kürzen: {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Angaben zum Prüfungsstoff der Kantonsschule Trogen für das Schuljahr 2026/27 — Gymnasium und nichtgymnasiale Maturitätslehrgänge — sowie die Prüfungsserien 2010-2025, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

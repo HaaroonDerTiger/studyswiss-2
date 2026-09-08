@@ -1,0 +1,453 @@
+{
+ "fach": "mathematik-ag",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfungen der Mittelschulen Aargau",
+ "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau",
+ "punkteTotal": 36,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Arithmetik: Zahlen und Grössen",
+   "punkte": 5,
+   "anteil": 14,
+   "beschreibung": "Die Grundlage. Der Taschenrechner ist erlaubt, nimmt einem das Umrechnen und das Kürzen aber nicht ab.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen und Vorrangregeln",
+     "lernzielId": "MAG.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Brüche erweitern, kürzen und ordnen",
+     "lernzielId": "MAG.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Grundoperationen mit Brüchen",
+     "lernzielId": "MAG.1.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.02"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "Dezimalzahlen, Runden und Genauigkeit",
+     "lernzielId": "MAG.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Teiler, Vielfache, kgV und ggT",
+     "lernzielId": "MAG.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Potenzen und Potenzgesetze",
+     "lernzielId": "MAG.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Quadratwurzeln vereinfachen",
+     "lernzielId": "MAG.1.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.06"
+     ]
+    },
+    {
+     "code": "1.08",
+     "name": "Wissenschaftliche Schreibweise und Zehnerpotenzen",
+     "lernzielId": "MAG.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Einheiten umrechnen: Länge, Fläche, Volumen, Zeit",
+     "lernzielId": "MAG.1.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "Prozente, Zinsen und Mehrwertsteuer",
+     "lernzielId": "MAG.1.10",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Algebra: Terme und Gleichungen",
+   "punkte": 13,
+   "anteil": 36,
+   "beschreibung": "Der grösste Teil der Prüfung. Bewertet wird der Weg: jede Umformung muss nachvollziehbar dastehen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Terme aufstellen und Werte einsetzen",
+     "lernzielId": "MAG.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Klammern auflösen und zusammenfassen",
+     "lernzielId": "MAG.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Ausklammern und gemeinsame Faktoren",
+     "lernzielId": "MAG.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Binomische Formeln anwenden",
+     "lernzielId": "MAG.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Trinome und Differenzen von Quadraten faktorisieren",
+     "lernzielId": "MAG.2.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.04"
+     ]
+    },
+    {
+     "code": "2.06",
+     "name": "Bruchterme kürzen",
+     "lernzielId": "MAG.2.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.05"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Bruchterme addieren und subtrahieren",
+     "lernzielId": "MAG.2.07",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.06"
+     ]
+    },
+    {
+     "code": "2.08",
+     "name": "Bruchterme multiplizieren und dividieren",
+     "lernzielId": "MAG.2.08",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.06"
+     ]
+    },
+    {
+     "code": "2.09",
+     "name": "Doppelbrüche vereinfachen",
+     "lernzielId": "MAG.2.09",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ag-gym"
+     ],
+     "voraussetzungen": [
+      "2.08"
+     ]
+    },
+    {
+     "code": "2.10",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MAG.2.10",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.11",
+     "name": "Gleichungen mit Brüchen und Nennern",
+     "lernzielId": "MAG.2.11",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.12",
+     "name": "Bruchgleichungen und Definitionslücken",
+     "lernzielId": "MAG.2.12",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ag-gym"
+     ],
+     "voraussetzungen": [
+      "2.11"
+     ]
+    },
+    {
+     "code": "2.13",
+     "name": "Textaufgaben in Gleichungen übersetzen",
+     "lernzielId": "MAG.2.13",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.10"
+     ]
+    },
+    {
+     "code": "2.14",
+     "name": "Formeln nach einer Variablen auflösen",
+     "lernzielId": "MAG.2.14",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.15",
+     "name": "Lineare Gleichungssysteme mit zwei Unbekannten",
+     "lernzielId": "MAG.2.15",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "ag-gym"
+     ],
+     "voraussetzungen": [
+      "2.10"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "C",
+   "name": "Funktionen und Zuordnungen",
+   "punkte": 5,
+   "anteil": 14,
+   "beschreibung": "Proportionalität, Geraden und Wachstum — meist eingebettet in eine Sachaufgabe.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Proportional und umgekehrt proportional unterscheiden",
+     "lernzielId": "MAG.3.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.02",
+     "name": "Dreisatz und Verhältnisgleichungen",
+     "lernzielId": "MAG.3.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.03",
+     "name": "Wertetabelle, Graph und Term aufeinander beziehen",
+     "lernzielId": "MAG.3.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.04",
+     "name": "Steigung und y-Achsenabschnitt einer Geraden",
+     "lernzielId": "MAG.3.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.05",
+     "name": "Geradengleichung aus zwei Punkten bestimmen",
+     "lernzielId": "MAG.3.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.04"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Schnittpunkt zweier Geraden",
+     "lernzielId": "MAG.3.06",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "ag-gym"
+     ],
+     "voraussetzungen": [
+      "3.05"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Lineares und exponentielles Wachstum",
+     "lernzielId": "MAG.3.07",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "D",
+   "name": "Geometrie: Berechnungen",
+   "punkte": 8,
+   "anteil": 22,
+   "beschreibung": "Flächen, Körper und der Satz des Pythagoras — mit exakten Ergebnissen, auch wenn Wurzeln stehen bleiben.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Winkel an Geraden und im Dreieck",
+     "lernzielId": "MAG.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Flächen von Dreieck, Viereck und Trapez",
+     "lernzielId": "MAG.4.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.03",
+     "name": "Zusammengesetzte und unregelmässige Flächen",
+     "lernzielId": "MAG.4.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Kreis: Umfang, Fläche und Kreissektor",
+     "lernzielId": "MAG.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MAG.4.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.06",
+     "name": "Pythagoras in Körpern und im Koordinatensystem",
+     "lernzielId": "MAG.4.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.05"
+     ]
+    },
+    {
+     "code": "4.07",
+     "name": "Prisma und Zylinder: Volumen und Oberfläche",
+     "lernzielId": "MAG.4.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.08",
+     "name": "Pyramide und Kegel: Volumen und Oberfläche",
+     "lernzielId": "MAG.4.08",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "ag-gym"
+     ]
+    },
+    {
+     "code": "4.09",
+     "name": "Ähnlichkeit und Streckfaktor",
+     "lernzielId": "MAG.4.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.10",
+     "name": "Massstab und Vergrösserungsfaktoren",
+     "lernzielId": "MAG.4.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.09"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "E",
+   "name": "Konstruktionen",
+   "punkte": 3,
+   "anteil": 8,
+   "beschreibung": "Zirkel und Geodreieck sind zugelassen, und die Prüfung bewertet die Konstruktionsschritte. Auf dem Telefon lässt sich das nicht nachstellen — geübt wird, was man dafür wissen muss.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Ortslinien: Mittelsenkrechte, Winkelhalbierende, Parallele",
+     "lernzielId": "MAG.5.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.02",
+     "name": "Konstruktionsschritte in die richtige Reihenfolge bringen",
+     "lernzielId": "MAG.5.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.03",
+     "name": "Anzahl der Lösungen einer Konstruktion beurteilen",
+     "lernzielId": "MAG.5.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.04",
+     "name": "Dreieckskonstruktionen: welche Angaben genügen?",
+     "lernzielId": "MAG.5.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.05",
+     "name": "Thaleskreis als Konstruktionshilfe",
+     "lernzielId": "MAG.5.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "F",
+   "name": "Stochastik",
+   "punkte": 2,
+   "anteil": 6,
+   "beschreibung": "Wahrscheinlichkeiten mit und ohne Zurücklegen — 2026 stand dazu eine Aufgabe mit goldenen, silbernen und schwarzen Kugeln.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Wahrscheinlichkeit als Anteil, Bruch und Prozentzahl",
+     "lernzielId": "MAG.6.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.02",
+     "name": "Mehrstufige Versuche mit Zurücklegen",
+     "lernzielId": "MAG.6.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.01"
+     ]
+    },
+    {
+     "code": "6.03",
+     "name": "Mehrstufige Versuche ohne Zurücklegen",
+     "lernzielId": "MAG.6.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "6.02"
+     ]
+    },
+    {
+     "code": "6.04",
+     "name": "Baumdiagramm zeichnen und auswerten",
+     "lernzielId": "MAG.6.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.05",
+     "name": "Mittelwert, Zentralwert und Spannweite",
+     "lernzielId": "MAG.6.05",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

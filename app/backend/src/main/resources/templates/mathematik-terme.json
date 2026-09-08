@@ -1,0 +1,982 @@
+[
+ {
+  "templateId": "term-aus-text",
+  "lernzielId": "M2.2.01",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.01",
+   "2.13"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Was ist die unbekannte Grösse? Gib ihr einen Namen, bevor du rechnest.",
+   "Lies den Satz Schritt für Schritt und übersetze jedes Stück einzeln.",
+   "Mach die Probe mit einer einfachen Zahl: Setze x = 1 in den Satz und in deinen Term ein. Beides muss dasselbe ergeben."
+  ],
+  "loesungsweg": [
+   "Bestimme zuerst, wofür x steht.",
+   "Übersetze den Satz Stück für Stück in Rechenzeichen.",
+   "Prüfe mit einer Probezahl, ob Satz und Term dasselbe sagen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welcher Term passt?\n\nEine Zahl x wird um 5 vergrössert und das Ergebnis verdoppelt.",
+    "optionen": [
+     "2(x + 5)",
+     "2x + 5",
+     "x + 10",
+     "2x + 10x"
+    ],
+    "loesung": [
+     "2(x + 5)"
+    ],
+    "erklaerung": "Zuerst wird 5 addiert, dann das ganze Ergebnis verdoppelt. Dafür braucht es die Klammer.",
+    "fehler": [
+     {
+      "antwort": "2x + 5",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Hier wird nur das x verdoppelt und erst dann 5 addiert. Der Satz sagt aber, dass das Ergebnis verdoppelt wird, also gehört eine Klammer darum."
+     },
+     {
+      "antwort": "x + 10",
+      "diagnoseId": "reihenfolge_vertauscht",
+      "feedback": "Du hast nur die 5 verdoppelt. Verdoppelt wird die ganze Summe, nicht nur ein Teil."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Buch kostet x Franken. Wie viel kosten sieben Bücher und ein Heft zu Fr. 3.–?",
+    "optionen": [
+     "7x + 3",
+     "7(x + 3)",
+     "x + 7 + 3",
+     "7x · 3"
+    ],
+    "loesung": [
+     "7x + 3"
+    ],
+    "erklaerung": "Sieben Bücher kosten 7x, dazu kommen 3 Franken für das Heft.",
+    "fehler": [
+     {
+      "antwort": "7(x + 3)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "So würden sieben Hefte mitgerechnet. Das Heft gibt es nur einmal. Die 3 gehört nicht in die Klammer."
+     },
+     {
+      "antwort": "x + 7 + 3",
+      "diagnoseId": "anzahl_addiert",
+      "feedback": "Du hast die Anzahl addiert statt multipliziert. Sieben Bücher zu je x Franken kosten 7 · x."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Rechteck ist x cm breit und 3 cm länger als breit. Wie gross ist sein Umfang?",
+    "optionen": [
+     "4x + 6",
+     "2x + 3",
+     "x(x + 3)",
+     "2x + 6"
+    ],
+    "loesung": [
+     "4x + 6"
+    ],
+    "erklaerung": "Die Länge ist x + 3. Der Umfang ist 2 · x + 2 · (x + 3) = 4x + 6.",
+    "fehler": [
+     {
+      "antwort": "x(x + 3)",
+      "diagnoseId": "flaeche_statt_umfang",
+      "feedback": "Das ist die Fläche. Der Umfang ist der Weg rundherum: zweimal die Breite plus zweimal die Länge."
+     },
+     {
+      "antwort": "2x + 3",
+      "diagnoseId": "nur_eine_seite",
+      "feedback": "Du hast nur zwei Seiten gerechnet. Ein Rechteck hat vier. Jede Länge und jede Breite kommt zweimal vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nVon einer Zahl x wird das Dreifache abgezogen und dann 8 addiert.",
+    "optionen": [
+     "x − 3x + 8",
+     "3x − x + 8",
+     "x − 3 + 8",
+     "3(x − 8)"
+    ],
+    "loesung": [
+     "x − 3x + 8"
+    ],
+    "erklaerung": "Von x wird 3x abgezogen, danach kommen 8 dazu.",
+    "fehler": [
+     {
+      "antwort": "3x − x + 8",
+      "diagnoseId": "reihenfolge_vertauscht",
+      "feedback": "Du hast die Reihenfolge umgedreht. Der Satz sagt: von x wird das Dreifache abgezogen, also x − 3x."
+     },
+     {
+      "antwort": "x − 3 + 8",
+      "diagnoseId": "vielfaches_uebersehen",
+      "feedback": "«Das Dreifache» heisst 3x, nicht 3. Abgezogen wird dreimal die Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nLena ist x Jahre alt. Ihr Bruder ist halb so alt. Wie alt sind beide zusammen?",
+    "optionen": [
+     "x + x/2",
+     "x + 2x",
+     "x/2",
+     "2x"
+    ],
+    "loesung": [
+     "x + x/2"
+    ],
+    "erklaerung": "Der Bruder ist x ÷ 2 alt. Zusammen sind es x + x/2.",
+    "fehler": [
+     {
+      "antwort": "x + 2x",
+      "diagnoseId": "richtung_vertauscht",
+      "feedback": "«Halb so alt» heisst geteilt durch 2, nicht mal 2. Der Bruder ist jünger, nicht älter."
+     },
+     {
+      "antwort": "2x",
+      "diagnoseId": "gleich_alt_angenommen",
+      "feedback": "Das wäre richtig, wenn beide gleich alt wären. Der Bruder ist aber nur halb so alt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Taxi kostet Fr. 6.– Grundgebühr und Fr. 4.– pro Kilometer. Was kostet eine Fahrt über x Kilometer?",
+    "optionen": [
+     "4x + 6",
+     "6x + 4",
+     "10x",
+     "4(x + 6)"
+    ],
+    "loesung": [
+     "4x + 6"
+    ],
+    "erklaerung": "Pro Kilometer 4 Franken, das sind 4x. Dazu kommt einmal die Grundgebühr von 6.",
+    "fehler": [
+     {
+      "antwort": "6x + 4",
+      "diagnoseId": "vertauscht",
+      "feedback": "Du hast die beiden Beträge vertauscht. Die 6 fällt nur einmal an, die 4 dagegen für jeden Kilometer."
+     },
+     {
+      "antwort": "10x",
+      "diagnoseId": "zusammengezaehlt",
+      "feedback": "Du hast Grundgebühr und Kilometerpreis addiert und mit x multipliziert. Damit würde die Grundgebühr für jeden Kilometer verlangt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nIn einer Klasse sind x Mädchen und drei Jungen mehr als Mädchen. Wie viele Kinder sind es zusammen?",
+    "optionen": [
+     "2x + 3",
+     "x + 3",
+     "2x",
+     "x + 3x"
+    ],
+    "loesung": [
+     "2x + 3"
+    ],
+    "erklaerung": "Jungen: x + 3. Zusammen: x + (x + 3) = 2x + 3.",
+    "fehler": [
+     {
+      "antwort": "x + 3",
+      "diagnoseId": "nur_eine_gruppe",
+      "feedback": "Das ist nur die Anzahl der Jungen. Gefragt sind alle Kinder. Die Mädchen kommen dazu."
+     },
+     {
+      "antwort": "x + 3x",
+      "diagnoseId": "vielfaches_statt_mehr",
+      "feedback": "«Drei mehr» heisst plus 3, nicht mal 3. «Dreimal so viele» wäre 3x."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEine Zahl x wird um 4 verkleinert, das Ergebnis durch 3 geteilt.",
+    "optionen": [
+     "(x − 4)/3",
+     "x/3 − 4",
+     "x − ⁴⁄₃",
+     "3(x − 4)"
+    ],
+    "loesung": [
+     "(x − 4)/3"
+    ],
+    "erklaerung": "Erst subtrahieren, dann das ganze Ergebnis teilen. Dafür braucht es die Klammer.",
+    "fehler": [
+     {
+      "antwort": "x/3 − 4",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "Hier wird zuerst geteilt und dann 4 abgezogen. Der Satz sagt aber, dass das Ergebnis der Subtraktion geteilt wird."
+     },
+     {
+      "antwort": "x − ⁴⁄₃",
+      "diagnoseId": "klammer_fehlt",
+      "feedback": "So würde nur die 4 durch 3 geteilt. Geteilt wird der ganze Ausdruck davor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Quadrat hat die Seitenlänge x. Wie gross ist seine Fläche?",
+    "optionen": [
+     "x²",
+     "4x",
+     "2x",
+     "x + x"
+    ],
+    "loesung": [
+     "x²"
+    ],
+    "erklaerung": "Die Fläche eines Quadrats ist Seite mal Seite, also x · x = x².",
+    "fehler": [
+     {
+      "antwort": "4x",
+      "diagnoseId": "umfang_statt_flaeche",
+      "feedback": "Das ist der Umfang: vier gleich lange Seiten. Die Fläche ist Seite mal Seite."
+     },
+     {
+      "antwort": "2x",
+      "diagnoseId": "potenz_als_faktor",
+      "feedback": "x² heisst x mal x, nicht x mal 2. Die Hochzahl sagt, wie oft der Wert als Faktor vorkommt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Abo kostet Fr. 19.– pro Monat. Wie viel kostet es für x Monate, wenn im ersten Monat Fr. 5.– Rabatt abgezogen werden?",
+    "optionen": [
+     "19x − 5",
+     "19x − 5x",
+     "19(x − 5)",
+     "19x + 5"
+    ],
+    "loesung": [
+     "19x − 5"
+    ],
+    "erklaerung": "19 Franken mal x Monate, davon einmal 5 Franken Rabatt.",
+    "fehler": [
+     {
+      "antwort": "19x − 5x",
+      "diagnoseId": "einmalig_als_monatlich",
+      "feedback": "So würde der Rabatt jeden Monat abgezogen. Er gilt nur im ersten Monat, also nur einmal."
+     },
+     {
+      "antwort": "19(x − 5)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "So würden fünf Monate weniger berechnet. Die 5 sind Franken, keine Monate."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nDrei aufeinanderfolgende ganze Zahlen. Die kleinste heisst x. Wie gross ist ihre Summe?",
+    "optionen": [
+     "3x + 3",
+     "3x",
+     "x + 3",
+     "3x + 6"
+    ],
+    "loesung": [
+     "3x + 3"
+    ],
+    "erklaerung": "Die drei Zahlen sind x, x + 1 und x + 2. Zusammen: 3x + 3.",
+    "fehler": [
+     {
+      "antwort": "3x",
+      "diagnoseId": "nachbarn_vergessen",
+      "feedback": "Du hast alle drei Zahlen als x gerechnet. Die zweite ist x + 1, die dritte x + 2. Zusammen kommen 3 dazu."
+     },
+     {
+      "antwort": "3x + 6",
+      "diagnoseId": "abstand_falsch",
+      "feedback": "Aufeinanderfolgende Zahlen unterscheiden sich um 1, nicht um 2. Also x, x + 1, x + 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term passt?\n\nEin Hallenbad kostet Fr. 8.– Eintritt. Für x Personen mit einem Gruppenrabatt von insgesamt Fr. 10.–:",
+    "optionen": [
+     "8x − 10",
+     "8(x − 10)",
+     "8x − 10x",
+     "8 − 10x"
+    ],
+    "loesung": [
+     "8x − 10"
+    ],
+    "erklaerung": "Acht Franken je Person, davon einmal 10 Franken Rabatt für die ganze Gruppe.",
+    "fehler": [
+     {
+      "antwort": "8x − 10x",
+      "diagnoseId": "einmalig_als_monatlich",
+      "feedback": "So bekäme jede Person 10 Franken Rabatt. Der Rabatt gilt für die Gruppe insgesamt, also nur einmal."
+     },
+     {
+      "antwort": "8(x − 10)",
+      "diagnoseId": "klammer_zu_viel",
+      "feedback": "So würden zehn Personen weniger gezählt. Die 10 sind Franken, keine Personen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP3-Mathematikprüfungen 2015-2025; Terme und Kontexte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "terme-zusammenfassen",
+  "lernzielId": "M2.2.03",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Welche Glieder sind gleichartig? Nur solche mit genau derselben Variablen und derselben Hochzahl darfst du zusammenfassen.",
+   "Sortiere die Glieder zuerst nach Art: erst alle x², dann alle x, dann die reinen Zahlen.",
+   "Achte auf die Vorzeichen. Das Minus gehört zum Glied dahinter."
+  ],
+  "loesungsweg": [
+   "Gleichartig sind Glieder mit derselben Variablen und derselben Hochzahl.",
+   "Zähle ihre Vorzahlen zusammen, die Variable bleibt unverändert.",
+   "Ungleichartige Glieder bleiben nebeneinander stehen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Fasse zusammen:\n\n5a + 3b − 2a + 4b",
+    "optionen": [
+     "3a + 7b",
+     "3a + b",
+     "7a + 7b",
+     "10ab"
+    ],
+    "loesung": [
+     "3a + 7b"
+    ],
+    "erklaerung": "5a − 2a = 3a, und 3b + 4b = 7b. a und b sind ungleichartig und bleiben getrennt.",
+    "fehler": [
+     {
+      "antwort": "10ab",
+      "diagnoseId": "ungleichartig_zusammengefasst",
+      "feedback": "Du hast a und b zusammengezählt. Das geht nicht: 5 Äpfel und 3 Birnen sind nicht 8 Äpfelbirnen. Nur Glieder mit derselben Variablen darfst du zusammenfassen."
+     },
+     {
+      "antwort": "3a + b",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den b hast du subtrahiert statt addiert. Vor dem 4b steht ein Plus. Nur das 2a wird abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n7x − 3 − 4x + 8",
+    "optionen": [
+     "3x + 5",
+     "3x − 5",
+     "11x + 5",
+     "8x"
+    ],
+    "loesung": [
+     "3x + 5"
+    ],
+    "erklaerung": "Zusammenfassen darfst du nur gleichartige Glieder. Solche mit genau derselben Variablen und derselben Hochzahl. Die Zahlen davor werden addiert oder subtrahiert, die Variable bleibt unverändert. Das Vorzeichen gehört immer zum Glied dahinter. 7x − 4x = 3x, und −3 + 8 = 5.",
+    "fehler": [
+     {
+      "antwort": "3x − 5",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den Zahlen hast du das Vorzeichen verwechselt: −3 + 8 ergibt +5, nicht −5. Rechne am Zahlenstrahl: von −3 acht Schritte nach rechts."
+     },
+     {
+      "antwort": "11x + 5",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Du hast 7x und 4x addiert. Vor dem 4x steht ein Minus. Es wird abgezogen."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n2x² + 5x − x² + 3x",
+    "optionen": [
+     "x² + 8x",
+     "x² + 15x",
+     "9x³",
+     "3x² + 8x"
+    ],
+    "loesung": [
+     "x² + 8x"
+    ],
+    "erklaerung": "2x² − x² = x², und 5x + 3x = 8x. x² und x sind ungleichartig.",
+    "fehler": [
+     {
+      "antwort": "9x³",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Du hast alles zusammengezählt und die Hochzahlen addiert. Beim Addieren bleiben die Hochzahlen unverändert, und x² und x sind gar nicht gleichartig."
+     },
+     {
+      "antwort": "3x² + 8x",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den x² hast du addiert. Vor dem x² steht ein Minus: 2x² − x² = x²."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n4m − 6n − m + 6n",
+    "optionen": [
+     "3m",
+     "3m + 12n",
+     "5m",
+     "3m − 12n"
+    ],
+    "loesung": [
+     "3m"
+    ],
+    "erklaerung": "4m − m = 3m, und −6n + 6n = 0. Die n heben sich auf und verschwinden.",
+    "fehler": [
+     {
+      "antwort": "3m + 12n",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Du hast die n addiert statt aufgehoben. −6n + 6n ergibt null. Die beiden Glieder heben sich gegenseitig auf."
+     },
+     {
+      "antwort": "5m",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den m hast du addiert: 4m − m ist 3m, nicht 5m. Vor dem m steht ein Minus, und es gilt als 1m."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n3(a + 2) − a",
+    "optionen": [
+     "2a + 6",
+     "3a + 6",
+     "2a + 2",
+     "4a + 6"
+    ],
+    "loesung": [
+     "2a + 6"
+    ],
+    "erklaerung": "Erst ausmultiplizieren: 3a + 6. Dann −a: bleibt 2a + 6.",
+    "fehler": [
+     {
+      "antwort": "3a + 6",
+      "diagnoseId": "letzten_teil_vergessen",
+      "feedback": "Du hast die Klammer richtig aufgelöst, das −a aber vergessen. Nach dem Ausmultiplizieren steht 3a + 6 − a."
+     },
+     {
+      "antwort": "2a + 2",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Du hast die 3 nur mit dem a multipliziert. Sie gehört zu beiden Gliedern in der Klammer: 3 · a und 3 · 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n−2y + 7 + 5y − 9",
+    "optionen": [
+     "3y − 2",
+     "3y + 2",
+     "7y − 2",
+     "−3y − 2"
+    ],
+    "loesung": [
+     "3y − 2"
+    ],
+    "erklaerung": "−2y + 5y = 3y, und 7 − 9 = −2.",
+    "fehler": [
+     {
+      "antwort": "3y + 2",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den Zahlen: 7 − 9 ergibt −2, nicht +2. Wenn du mehr abziehst, als da ist, wird das Ergebnis negativ."
+     },
+     {
+      "antwort": "−3y − 2",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Bei den y: −2y + 5y ergibt +3y. Fünf nach rechts von minus zwei landet bei plus drei."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n6ab + 2a − 4ab",
+    "optionen": [
+     "2ab + 2a",
+     "4a",
+     "2ab + 2ab",
+     "8ab − 4a"
+    ],
+    "loesung": [
+     "2ab + 2a"
+    ],
+    "erklaerung": "6ab − 4ab = 2ab. Das 2a ist ungleichartig und bleibt stehen.",
+    "fehler": [
+     {
+      "antwort": "4a",
+      "diagnoseId": "ungleichartig_zusammengefasst",
+      "feedback": "Du hast ab und a zusammengefasst. Sie sind nicht gleichartig: ab enthält zwei Variablen, a nur eine."
+     },
+     {
+      "antwort": "2ab + 2ab",
+      "diagnoseId": "variable_verwechselt",
+      "feedback": "Das zweite Glied heisst 2a, nicht 2ab. Schreib die Variablen genau ab, bevor du rechnest."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n8k − (3k − 5)",
+    "optionen": [
+     "5k + 5",
+     "5k − 5",
+     "11k − 5",
+     "5k"
+    ],
+    "loesung": [
+     "5k + 5"
+    ],
+    "erklaerung": "Das Minus vor der Klammer dreht beide Vorzeichen um: 8k − 3k + 5 = 5k + 5.",
+    "fehler": [
+     {
+      "antwort": "5k − 5",
+      "diagnoseId": "klammer_vorzeichen",
+      "feedback": "Das Minus vor der Klammer gilt für alles darin. Aus −(−5) wird +5, nicht −5. Diese Stelle ist die häufigste Fehlerquelle beim Klammerauflösen."
+     },
+     {
+      "antwort": "11k − 5",
+      "diagnoseId": "klammer_vorzeichen",
+      "feedback": "Du hast das Minus vor der Klammer übersehen. Es kehrt die Vorzeichen um: aus 3k wird −3k."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n9p + 4q − 9p − 4q",
+    "optionen": [
+     "0",
+     "18p + 8q",
+     "p + q",
+     "−18p"
+    ],
+    "loesung": [
+     "0"
+    ],
+    "erklaerung": "Beide Paare heben sich auf: 9p − 9p = 0 und 4q − 4q = 0.",
+    "fehler": [
+     {
+      "antwort": "18p + 8q",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Du hast alle Glieder addiert. Die hinteren beiden werden abgezogen. Jedes Paar hebt sich auf."
+     },
+     {
+      "antwort": "p + q",
+      "diagnoseId": "vorzahlen_ignoriert",
+      "feedback": "Du hast die Vorzahlen weggelassen. 9p − 9p ergibt null, nicht p."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n2(3x − 1) + 4",
+    "optionen": [
+     "6x + 2",
+     "6x − 2",
+     "6x + 3",
+     "5x + 2"
+    ],
+    "loesung": [
+     "6x + 2"
+    ],
+    "erklaerung": "Ausmultiplizieren ergibt 6x − 2, plus 4 macht 6x + 2.",
+    "fehler": [
+     {
+      "antwort": "6x − 2",
+      "diagnoseId": "letzten_teil_vergessen",
+      "feedback": "Die Klammer hast du richtig aufgelöst, dann aber die +4 vergessen: −2 + 4 = +2."
+     },
+     {
+      "antwort": "6x + 3",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Du hast die 2 nur mit dem 3x multipliziert. Sie gehört auch zur −1: 2 · (−1) = −2."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n5r² − 2r + r² + 2r",
+    "optionen": [
+     "6r²",
+     "6r² + 4r",
+     "6r⁴",
+     "4r²"
+    ],
+    "loesung": [
+     "6r²"
+    ],
+    "erklaerung": "Zusammenfassen darfst du nur gleichartige Glieder. Solche mit genau derselben Variablen und derselben Hochzahl. Die Zahlen davor werden addiert oder subtrahiert, die Variable bleibt unverändert. Das Vorzeichen gehört immer zum Glied dahinter. 5r² + r² = 6r², und −2r + 2r = 0.",
+    "fehler": [
+     {
+      "antwort": "6r² + 4r",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Die beiden r-Glieder heben sich auf: −2r + 2r ergibt null, nicht 4r."
+     },
+     {
+      "antwort": "6r⁴",
+      "diagnoseId": "hochzahlen_addiert",
+      "feedback": "Beim Addieren bleiben die Hochzahlen unverändert. 5r² + r² sind sechs Stück r², also 6r², nicht r⁴."
+     }
+    ]
+   },
+   {
+    "stamm": "Fasse zusammen:\n\n−(2t + 3) + 5t",
+    "optionen": [
+     "3t − 3",
+     "3t + 3",
+     "7t + 3",
+     "−7t − 3"
+    ],
+    "loesung": [
+     "3t − 3"
+    ],
+    "erklaerung": "Das Minus vor der Klammer dreht beide Vorzeichen: −2t − 3 + 5t = 3t − 3.",
+    "fehler": [
+     {
+      "antwort": "3t + 3",
+      "diagnoseId": "klammer_vorzeichen",
+      "feedback": "Das Minus vor der Klammer gilt auch für die 3: Aus +3 wird −3."
+     },
+     {
+      "antwort": "7t + 3",
+      "diagnoseId": "klammer_vorzeichen",
+      "feedback": "Du hast das Minus vor der Klammer ganz übersehen. Es kehrt beide Vorzeichen darin um."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP3-Mathematikprüfungen 2015-2025; Terme und Kontexte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "ausmultiplizieren-ausklammern",
+  "lernzielId": "M2.2.04",
+  "fach": "mathematik",
+  "unterthemen": [
+   "2.04",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Beim Ausmultiplizieren wird der Faktor mit jedem Glied in der Klammer multipliziert, mit jedem, nicht nur mit dem ersten.",
+   "Beim Ausklammern suchst du, was in allen Gliedern steckt: Zahlen und Variablen.",
+   "Mach die Probe: Multipliziere dein Ergebnis wieder aus. Es muss der Ausgangsterm herauskommen."
+  ],
+  "loesungsweg": [
+   "Ausmultiplizieren: Der Faktor vor der Klammer trifft jedes Glied darin.",
+   "Ausklammern: Suche den grössten gemeinsamen Faktor aller Glieder.",
+   "Probe: Das Ergebnis wieder ausmultiplizieren muss zurückführen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multipliziere aus:\n\n4(2x + 3)",
+    "optionen": [
+     "8x + 12",
+     "8x + 3",
+     "6x + 7",
+     "8x + 34"
+    ],
+    "loesung": [
+     "8x + 12"
+    ],
+    "erklaerung": "Beim Ausmultiplizieren wird der Faktor mit jedem Glied in der Klammer multipliziert, mit jedem, nicht nur mit dem ersten. Steht ein Minus vor der Klammer, drehen sich alle Vorzeichen darin um. Die Probe: Klammere dein Ergebnis wieder aus. 4 · 2x = 8x und 4 · 3 = 12.",
+    "fehler": [
+     {
+      "antwort": "8x + 3",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Du hast die 4 nur mit dem 2x multipliziert. Der Faktor vor der Klammer trifft jedes Glied darin, auch die 3."
+     },
+     {
+      "antwort": "6x + 7",
+      "diagnoseId": "addiert_statt_multipliziert",
+      "feedback": "Du hast die 4 addiert statt multipliziert. Zwischen der Zahl und der Klammer steht ein unsichtbares Mal."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n−3(a − 5)",
+    "optionen": [
+     "−3a + 15",
+     "−3a − 15",
+     "3a − 15",
+     "−3a − 5"
+    ],
+    "loesung": [
+     "−3a + 15"
+    ],
+    "erklaerung": "−3 · a = −3a und −3 · (−5) = +15. Minus mal Minus ergibt Plus.",
+    "fehler": [
+     {
+      "antwort": "−3a − 15",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Minus mal Minus ergibt Plus: −3 · (−5) = +15, nicht −15. Diese Regel wird beim Ausmultiplizieren am häufigsten vergessen."
+     },
+     {
+      "antwort": "−3a − 5",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Die −3 gehört zu beiden Gliedern. Auch die −5 muss damit multipliziert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n6x + 9",
+    "optionen": [
+     "3(2x + 3)",
+     "3(2x + 9)",
+     "6(x + 3)",
+     "3(6x + 9)"
+    ],
+    "loesung": [
+     "3(2x + 3)"
+    ],
+    "erklaerung": "In 6 und 9 steckt beides Mal die 3. Übrig bleiben 2x und 3.",
+    "fehler": [
+     {
+      "antwort": "6(x + 3)",
+      "diagnoseId": "rest_falsch",
+      "feedback": "6 lässt sich nicht aus der 9 ausklammern. Mach die Probe: 6 · 3 = 18, nicht 9. Der gemeinsame Faktor ist die 3."
+     },
+     {
+      "antwort": "3(2x + 9)",
+      "diagnoseId": "rest_falsch",
+      "feedback": "Beim Ausklammern wird jedes Glied geteilt. 9 ÷ 3 = 3, nicht 9. Probe: 3 · 9 = 27."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n5a² + 10a",
+    "optionen": [
+     "5a(a + 2)",
+     "5a(a + 10)",
+     "5(a² + 2a)",
+     "a(5a + 10)"
+    ],
+    "loesung": [
+     "5a(a + 2)"
+    ],
+    "erklaerung": "In beiden Gliedern stecken die 5 und ein a. Übrig bleiben a und 2.",
+    "fehler": [
+     {
+      "antwort": "5(a² + 2a)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das stimmt zwar, ist aber nicht vollständig: In der Klammer steckt noch ein gemeinsames a. Klammere so weit aus wie möglich."
+     },
+     {
+      "antwort": "a(5a + 10)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Auch das stimmt, ist aber nicht fertig: In 5a und 10 steckt noch die 5."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n2x(x + 4)",
+    "optionen": [
+     "2x² + 8x",
+     "2x² + 4",
+     "2x + 8x",
+     "2x² + 8"
+    ],
+    "loesung": [
+     "2x² + 8x"
+    ],
+    "erklaerung": "Beim Ausmultiplizieren wird der Faktor mit jedem Glied in der Klammer multipliziert, mit jedem, nicht nur mit dem ersten. Steht ein Minus vor der Klammer, drehen sich alle Vorzeichen darin um. Die Probe: Klammere dein Ergebnis wieder aus. 2x · x = 2x² und 2x · 4 = 8x.",
+    "fehler": [
+     {
+      "antwort": "2x² + 4",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Die 4 muss ebenfalls mit 2x multipliziert werden: 2x · 4 = 8x."
+     },
+     {
+      "antwort": "2x² + 8",
+      "diagnoseId": "variable_verloren",
+      "feedback": "Beim Multiplizieren von 2x mit 4 bleibt das x erhalten: 8x, nicht 8."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(x + 2)(x + 3)",
+    "optionen": [
+     "x² + 5x + 6",
+     "x² + 6",
+     "x² + 5x",
+     "x² + 6x + 5"
+    ],
+    "loesung": [
+     "x² + 5x + 6"
+    ],
+    "erklaerung": "Jedes Glied der ersten Klammer mal jedes der zweiten: x² + 3x + 2x + 6 = x² + 5x + 6.",
+    "fehler": [
+     {
+      "antwort": "x² + 6",
+      "diagnoseId": "nur_aussen_und_innen",
+      "feedback": "Du hast nur die ersten und die letzten Glieder multipliziert. Bei zwei Klammern sind es vier Produkte, nicht zwei."
+     },
+     {
+      "antwort": "x² + 6x + 5",
+      "diagnoseId": "vertauscht",
+      "feedback": "Du hast Summe und Produkt vertauscht: 2 + 3 = 5 gehört zum x, und 2 · 3 = 6 ist die reine Zahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n12y − 8",
+    "optionen": [
+     "4(3y − 2)",
+     "4(3y − 8)",
+     "2(6y − 4)",
+     "4(3y + 2)"
+    ],
+    "loesung": [
+     "4(3y − 2)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor von 12 und 8 ist 4.",
+    "fehler": [
+     {
+      "antwort": "2(6y − 4)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das stimmt, ist aber nicht vollständig: In 6 und 4 steckt noch eine 2. Klammere den grössten gemeinsamen Faktor aus."
+     },
+     {
+      "antwort": "4(3y + 2)",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Das Minus bleibt beim Ausklammern erhalten: 12y − 8 wird zu 4(3y − 2). Probe: 4 · (−2) = −8."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(a − 3)(a + 3)",
+    "optionen": [
+     "a² − 9",
+     "a² + 9",
+     "a² − 6a − 9",
+     "a² − 6a + 9"
+    ],
+    "loesung": [
+     "a² − 9"
+    ],
+    "erklaerung": "Die mittleren Glieder heben sich auf: +3a − 3a = 0. Übrig bleibt a² − 9.",
+    "fehler": [
+     {
+      "antwort": "a² + 9",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Am Schluss steht −3 · +3 = −9, nicht +9. Bei dieser Form, Plus mal Minus, bleibt immer ein Minus stehen."
+     },
+     {
+      "antwort": "a² − 6a + 9",
+      "diagnoseId": "binom_verwechselt",
+      "feedback": "Das ist (a − 3)². Hier stehen aber ein Plus und ein Minus, deshalb heben sich die mittleren Glieder auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n5(2b − 1) − 3b",
+    "optionen": [
+     "7b − 5",
+     "13b − 5",
+     "7b − 1",
+     "7b + 5"
+    ],
+    "loesung": [
+     "7b − 5"
+    ],
+    "erklaerung": "Erst ausmultiplizieren: 10b − 5. Dann das 3b abziehen: 10b − 3b = 7b, also 7b − 5.",
+    "fehler": [
+     {
+      "antwort": "13b − 5",
+      "diagnoseId": "vorzeichen_falsch",
+      "feedback": "Das 3b wird abgezogen: 10b − 3b = 7b, nicht 13b."
+     },
+     {
+      "antwort": "7b − 1",
+      "diagnoseId": "nur_ersten_multipliziert",
+      "feedback": "Die 5 gehört auch zur −1: 5 · (−1) = −5, nicht −1."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n3x² + 6xy",
+    "optionen": [
+     "3x(x + 2y)",
+     "3x(x + 6y)",
+     "3(x² + 2xy)",
+     "x(3x + 6y)"
+    ],
+    "loesung": [
+     "3x(x + 2y)"
+    ],
+    "erklaerung": "In beiden Gliedern stecken die 3 und ein x.",
+    "fehler": [
+     {
+      "antwort": "3(x² + 2xy)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Richtig gerechnet, aber nicht fertig: In x² und 2xy steckt noch ein gemeinsames x."
+     },
+     {
+      "antwort": "x(3x + 6y)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Auch das stimmt, doch in 3 und 6 steckt noch die 3."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n−2(3 − x)",
+    "optionen": [
+     "−6 + 2x",
+     "−6 − 2x",
+     "6 − 2x",
+     "−6 + x"
+    ],
+    "loesung": [
+     "−6 + 2x"
+    ],
+    "erklaerung": "Beim Ausmultiplizieren wird der Faktor mit jedem Glied in der Klammer multipliziert, mit jedem, nicht nur mit dem ersten. Steht ein Minus vor der Klammer, drehen sich alle Vorzeichen darin um. Die Probe: Klammere dein Ergebnis wieder aus. −2 · 3 = −6 und −2 · (−x) = +2x.",
+    "fehler": [
+     {
+      "antwort": "−6 − 2x",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Minus mal Minus ergibt Plus: −2 · (−x) = +2x."
+     },
+     {
+      "antwort": "6 − 2x",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Minus mal Plus ergibt Minus: −2 · 3 = −6, nicht +6."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(2x + 1)(x − 4)",
+    "optionen": [
+     "2x² − 7x − 4",
+     "2x² − 4",
+     "2x² + 7x − 4",
+     "2x² − 9x − 4"
+    ],
+    "loesung": [
+     "2x² − 7x − 4"
+    ],
+    "erklaerung": "Beim Ausmultiplizieren wird der Faktor mit jedem Glied in der Klammer multipliziert, mit jedem, nicht nur mit dem ersten. Steht ein Minus vor der Klammer, drehen sich alle Vorzeichen darin um. Die Probe: Klammere dein Ergebnis wieder aus. 2x² − 8x + x − 4 = 2x² − 7x − 4.",
+    "fehler": [
+     {
+      "antwort": "2x² − 4",
+      "diagnoseId": "nur_aussen_und_innen",
+      "feedback": "Es fehlen die mittleren Produkte. Bei zwei Klammern entstehen vier Produkte, und zwei davon enthalten x."
+     },
+     {
+      "antwort": "2x² + 7x − 4",
+      "diagnoseId": "vorzeichenregel",
+      "feedback": "Bei den mittleren Gliedern: −8x + x ergibt −7x, nicht +7x."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP3-Mathematikprüfungen 2015-2025; Terme und Kontexte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

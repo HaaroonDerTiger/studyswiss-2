@@ -1,0 +1,4707 @@
+{
+ "kantone": [
+  {
+   "kuerzel": "ZH",
+   "name": "Zürich",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "BE",
+   "name": "Bern",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "BS",
+   "name": "Basel-Stadt",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "SG",
+   "name": "St. Gallen",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "AG",
+   "name": "Aargau",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "LU",
+   "name": "Luzern",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "TG",
+   "name": "Thurgau",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "SO",
+   "name": "Solothurn",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "AR",
+   "name": "Appenzell Ausserrhoden",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "GL",
+   "name": "Glarus",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "GR",
+   "name": "Graubünden",
+   "aktiv": true
+  },
+  {
+   "kuerzel": "SZ",
+   "name": "Schwyz",
+   "aktiv": true
+  }
+ ],
+ "pruefungen": [
+  {
+   "id": "zh-zap1",
+   "kanton": "ZH",
+   "kuerzel": "ZAP 1",
+   "name": "Zentrale Aufnahmeprüfung ins Langgymnasium",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 40,
+     "anzahlAufgaben": 16,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprachbetrachtung",
+      "textverstaendnis",
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 40,
+     "anzahlAufgaben": 16,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson im Kanton Zürich",
+    "teilname": "den Prüfungsteil «Deutsch: Text verfassen» der Zentralen Aufnahmeprüfung",
+    "grundlage": "Prüfungsanforderungen ZAP1 der Bildungsdirektion Kanton Zürich, gültig ab 1. August 2022",
+    "anforderungen": [
+     "1.1 Auftrag: Erlebtes, Beobachtetes, Rezipiertes, Reflektiertes oder Erfundenes auf Aufgabenstellung und Thema ausgerichtet niederschreiben; einen längeren, logisch zusammenhängenden und sprachlich korrekten Text verfassen; das Textmuster der Textsorte umsetzen.",
+     "1.2 Grundfertigkeiten: Thema und Aufgabenstellung umsetzen; einen Sachverhalt nachvollziehbar darlegen und mit Beispielen ergänzen; Meinungen äussern und begründen; Inhalte reflektieren und in einen grösseren Zusammenhang stellen.",
+     "1.3 Planen: die Aspekte des Themas sinnvoll gewichten.",
+     "1.4 Formulieren: den Text strukturieren und logisch aufbauen; adressatenbezogen schreiben; sich begrifflich präzise und abwechslungsreich ausdrücken; Kongruenz und Zeitverhältnisse beherrschen.",
+     "1.5 Überarbeiten: orthografisch und grammatikalisch korrekte Schlussfassung; richtig gesetzte Satzzeichen; keine Wiederholungen und Widersprüche."
+    ],
+    "rahmen": "60 Minuten, handschriftlich, einziges Hilfsmittel ist ein Rechtschreibwörterbuch.",
+    "woerterVon": 300,
+    "woerterBis": 500
+   }
+  },
+  {
+   "id": "zh-zap2",
+   "kanton": "ZH",
+   "kuerzel": "ZAP 2",
+   "name": "Zentrale Aufnahmeprüfung ins Kurzgymnasium",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 40,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprachbetrachtung",
+      "textverstaendnis",
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 82,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "argumentation",
+    "beschreibung"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson im Kanton Zürich",
+    "teilname": "den Prüfungsteil «Deutsch: Text verfassen» der Zentralen Aufnahmeprüfung",
+    "grundlage": "Prüfungsanforderungen ZAP2 der Bildungsdirektion Kanton Zürich, gültig ab 1. August 2022",
+    "anforderungen": [
+     "1.1 Auftrag: Erlebtes, Beobachtetes, Rezipiertes, Reflektiertes oder Erfundenes auf Aufgabenstellung und Thema ausgerichtet niederschreiben; einen längeren, logisch zusammenhängenden und sprachlich korrekten Text verfassen; das Textmuster der Textsorte umsetzen.",
+     "1.2 Grundfertigkeiten: Thema und Aufgabenstellung umsetzen; einen Sachverhalt nachvollziehbar darlegen und mit Beispielen ergänzen; Meinungen äussern und begründen; Inhalte reflektieren und in einen grösseren Zusammenhang stellen.",
+     "1.3 Planen: die Aspekte des Themas sinnvoll gewichten.",
+     "1.4 Formulieren: den Text strukturieren und logisch aufbauen; adressatenbezogen schreiben; sich begrifflich präzise und abwechslungsreich ausdrücken; Kongruenz und Zeitverhältnisse beherrschen.",
+     "1.5 Überarbeiten: orthografisch und grammatikalisch korrekte Schlussfassung; richtig gesetzte Satzzeichen; keine Wiederholungen und Widersprüche."
+    ],
+    "rahmen": "90 Minuten, handschriftlich, einziges Hilfsmittel ist ein Rechtschreibwörterbuch.",
+    "woerterVon": 450,
+    "woerterBis": 700
+   }
+  },
+  {
+   "id": "zh-zap3",
+   "kanton": "ZH",
+   "kuerzel": "ZAP 3",
+   "name": "Zentrale Aufnahmeprüfung in FMS, HMS und IMS",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 40,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprachbetrachtung",
+      "textverstaendnis",
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 82,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "argumentation",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson im Kanton Zürich",
+    "teilname": "den Prüfungsteil «Deutsch: Text verfassen» der Zentralen Aufnahmeprüfung",
+    "grundlage": "Prüfungsanforderungen ZAP3 der Bildungsdirektion Kanton Zürich, gültig ab 1. August 2022",
+    "anforderungen": [
+     "1.1 Auftrag: Erlebtes, Beobachtetes, Rezipiertes, Reflektiertes oder Erfundenes auf Aufgabenstellung und Thema ausgerichtet niederschreiben; einen längeren, logisch zusammenhängenden und sprachlich korrekten Text verfassen; das Textmuster der Textsorte umsetzen.",
+     "1.2 Grundfertigkeiten: Thema und Aufgabenstellung umsetzen; einen Sachverhalt nachvollziehbar darlegen und mit Beispielen ergänzen; Meinungen äussern und begründen; Inhalte reflektieren und in einen grösseren Zusammenhang stellen.",
+     "1.3 Planen: die Aspekte des Themas sinnvoll gewichten.",
+     "1.4 Formulieren: den Text strukturieren und logisch aufbauen; adressatenbezogen schreiben; sich begrifflich präzise und abwechslungsreich ausdrücken; Kongruenz und Zeitverhältnisse beherrschen.",
+     "1.5 Überarbeiten: orthografisch und grammatikalisch korrekte Schlussfassung; richtig gesetzte Satzzeichen; keine Wiederholungen und Widersprüche."
+    ],
+    "rahmen": "90 Minuten, handschriftlich, einziges Hilfsmittel ist ein Rechtschreibwörterbuch.",
+    "woerterVon": 450,
+    "woerterBis": 700
+   }
+  },
+  {
+   "id": "be-gym1",
+   "kanton": "BE",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung für das 1. Jahr des gymnasialen Bildungsgangs",
+   "teile": [
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-bern"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 30,
+     "anzahlAufgaben": 9,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Operieren und Benennen, ohne Taschenrechner",
+     "angeboten": true
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-bern"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 31,
+     "anzahlAufgaben": 9,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Erforschen, Argumentieren, Mathematisieren und Darstellen",
+     "angeboten": true
+    },
+    {
+     "id": "deutsch-aufgaben",
+     "name": "Deutsch: Textverständnis und Sprache",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-bern",
+      "sprache-bern"
+     ],
+     "dauerMinuten": 40,
+     "punkte": 28,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Aufgaben 1 bis 4. Ein Viertel der Note",
+     "angeboten": true
+    },
+    {
+     "id": "deutsch-schreibauftrag",
+     "name": "Deutsch: Schreibauftrag",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 80,
+     "punkte": 28,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Aufgabe 5. Dreifach gewichtet, drei Viertel der Note",
+     "angeboten": true
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch",
+      "franzoesisch-bildimpuls-be"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 60,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "wahlgruppe": "fremdsprache",
+     "bemerkung": "Leseverstehen und Rédaction; dazu eine mündliche Prüfung in der Dreiergruppe mit 5 Minuten Vorbereitung",
+     "angeboten": true
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [],
+     "dauerMinuten": 60,
+     "punkte": 60,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "wahlgruppe": "fremdsprache",
+     "bemerkung": "Sonderprüfung anstelle von Französisch, in der App noch nicht hinterlegt",
+     "angeboten": false
+    }
+   ],
+   "wahl": [
+    {
+     "id": "fremdsprache",
+     "name": "Fremdsprache",
+     "frage": "Welche Fremdsprache prüfst du?",
+     "aus": [
+      "franzoesisch",
+      "englisch"
+     ],
+     "standard": "franzoesisch"
+    }
+   ],
+   "aufsatzarten": [
+    "schreibauftrag",
+    "argumentation",
+    "erzaehlung"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einem Gymnasium des Kantons Bern",
+    "teilname": "den Schreibauftrag der Aufnahmeprüfung für den gymnasialen Bildungsgang",
+    "grundlage": "Beurteilungskriterien Textproduktion der Aufnahmeprüfungen Gymnasium Kanton Bern (28 Punkte, dreifach gewichtet)",
+    "anforderungen": [
+     "Inhalt (14 Punkte): Führt die Einleitung persönlich ans Thema heran und passt die konkrete Situation? Werden im Hauptteil so viele Punkte behandelt, wie der Auftrag verlangt? Sind die Beispiele überzeugend und die Begründung klar, relevant und aussagekräftig? Rundet der Schlussteil den Text passend ab?",
+     "Form und Aufbau (6 Punkte): Ist ein roter Faden vorhanden und der Text klar gegliedert? Entsprechen die Teile ungefähr der vorgegebenen Länge? Werden Verknüpfungs-, Verweis- und Strukturierungsmittel bewusst eingesetzt?",
+     "Wortschatz und sprachliche Korrektheit (8 Punkte): Ist die Wortwahl präzise, variantenreich und stilistisch angemessen? Ist der Text grammatisch und orthografisch korrekt und richtig interpunktiert?",
+     "Die vorgegebenen Längen der Teile sind Teil des Auftrags. Wer einen Teil auslässt oder stark verfehlt, erfüllt den Auftrag nicht. Auch wenn der Text sonst gut ist."
+    ],
+    "rahmen": "80 Minuten für den Schreibauftrag, handschriftlich, ohne Hilfsmittel. Der Auftrag gibt die Teile und ihre ungefähre Länge vor.",
+    "woerterVon": 300,
+    "woerterBis": 400
+   }
+  },
+  {
+   "id": "be-fms",
+   "kanton": "BE",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung für das 1. Jahr des FMS-Bildungsgangs",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-bern"
+     ],
+     "dauerMinuten": 120,
+     "punkte": 35,
+     "anzahlAufgaben": 9,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 120,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Ein Schreibauftrag aus drei Themen zur Wahl. Sonst nichts",
+     "angeboten": true
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-be",
+      "franzoesisch"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Mündliche Einzelprüfung von 15 Minuten anhand eines Textes von 20 bis 30 Zeilen",
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "bildimpuls",
+    "erzaehlung",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Fachmittelschule des Kantons Bern",
+    "teilname": "die Aufnahmeprüfung Deutsch der FMS, die aus einem einzigen Text besteht",
+    "grundlage": "Aufnahmeprüfung FMS Kanton Bern: Der Aufsatz wird sowohl inhaltlich als auch sprachlich beurteilt",
+    "anforderungen": [
+     "Der Auftrag besteht aus zwei Teilen, und der zweite ist der längere. Prüfe zuerst, ob beide Teile bearbeitet und richtig gewichtet sind.",
+     "Die Merkmale der verlangten Textsorte müssen eingehalten sein. Eine Bildbeschreibung beschreibt zuerst, eine E-Mail hat Anrede und Gruss, eine Erzählung steht in der Vergangenheit und in der Ich-Form.",
+     "Ein eigener, passender Titel gehört dazu, wo der Auftrag ihn verlangt.",
+     "Beurteilt werden Inhalt, Aufbau, Ausdruck und Sprachrichtigkeit gleichermassen."
+    ],
+    "rahmen": "120 Minuten, handschriftlich, keine Hilfsmittel. Auch kein Wörterbuch. Drei Themen stehen zur Wahl, eines wird bearbeitet.",
+    "woerterVon": 500,
+    "woerterBis": 800
+   }
+  },
+  {
+   "id": "be-gym3",
+   "kanton": "BE",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung für das 3. Jahr des gymnasialen Bildungsgangs",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-bern-gym3"
+     ],
+     "dauerMinuten": 120,
+     "punkte": 59,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": true,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 120,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Ein Aufsatz aus drei Themen zur Wahl",
+     "angeboten": true
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-be",
+      "franzoesisch"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Mündliche Einzelprüfung von 15 Minuten anhand eines Textes von 20 bis 30 Zeilen",
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "eroerterung",
+    "interpretation",
+    "argumentation"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einem Gymnasium des Kantons Bern",
+    "teilname": "die kantonale Prüfung Deutsch für den Übertritt in eine Maturitätsschule",
+    "grundlage": "Beurteilungskriterien der kantonalen Prüfung Deutsch für den Übertritt in eine Maturitätsschule, Kanton Bern",
+    "anforderungen": [
+     "Inhaltliche Korrektheit, Themenbezug, inhaltliche Differenzierung und gedankliche Tiefe.",
+     "Logik und Stichhaltigkeit der Argumentation.",
+     "Gedankliche Kohärenz.",
+     "Sinnvoller Aufbau und klare Gliederung in Einleitung, Hauptteil und Schluss.",
+     "Sprachlicher Ausdruck und Stil. Wortwahl, Satzbau.",
+     "Sprachrichtigkeit: Grammatik, Orthografie, Interpunktion.",
+     "Ein prägnanter, zum Text passender Titel ist verlangt."
+    ],
+    "rahmen": "120 Minuten, handschriftlich. Drei Themen stehen zur Wahl, eines wird bearbeitet. Bei einer Interpretation wird mit Kurzzitaten belegt.",
+    "woerterVon": 600,
+    "woerterBis": 900
+   }
+  },
+  {
+   "id": "bs-sek2",
+   "kanton": "BS",
+   "kuerzel": "",
+   "name": "Freiwillige Aufnahmeprüfung in die Sekundarstufe II",
+   "teile": [
+    {
+     "id": "deutsch-lesen",
+     "name": "Deutsch: Lesen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-bs"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 28,
+     "anzahlAufgaben": 28,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Lesetexte, ein literarischer und ein Sachtext, mit Einfachauswahl, Mehrfachauswahl und Richtig-falsch-Tabellen."
+    },
+    {
+     "id": "deutsch-schreiben",
+     "name": "Deutsch: Schreiben",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 24,
+     "anzahlAufgaben": 2,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Schreibaufträge zu je 12 Punkten, beide sind zu schreiben. Drei Korrigierende bewerten Inhalt und Aufbau, sprachliche Gestaltung und Sprachrichtigkeit."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-bs"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 69,
+     "anzahlAufgaben": 17,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Sechs Teile A bis F. Der Lösungsweg muss nachvollziehbar sein, das Endresultat wird doppelt unterstrichen und auf zwei Stellen gerundet."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "bericht",
+    "beschreibung",
+    "brief",
+    "argumentation"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Mittelschule des Kantons Basel-Stadt",
+    "teilname": "den Prüfungsteil «Schreiben» der freiwilligen Aufnahmeprüfung in die Sekundarstufe II",
+    "grundlage": "Prüfungsanforderungen Deutsch 2026 des Erziehungsdepartements Basel-Stadt und das Bewertungsraster der Musterprüfungen 2021 und 2022",
+    "anforderungen": [
+     "Bewerte in drei Bereichen, die gleich stark zählen: Inhalt und Aufbau, sprachliche Gestaltung, Sprachrichtigkeit. Das ist das Raster, nach dem in Basel-Stadt drei Lehrpersonen unabhängig voneinander korrigieren.",
+     "Der Auftrag nennt drei bis vier Vorgaben. Textsorte, Erzählperspektive, Zeitform, verlangte Inhaltspunkte. Prüfe jede einzeln: Eine verfehlte Vorgabe kostet in Basel-Stadt mehr als ein schwacher Satz.",
+     "Textverknüpfung wird eigens verlangt: Die Gedanken müssen so verbunden sein, dass die Lesenden geführt werden. Benenne, wo der Faden abreisst.",
+     "Wer eine Meinung äussert, belegt sie mit einem Beispiel. Eine Behauptung ohne Beispiel bleibt unbelegt.",
+     "Rechtschreibung, Zeichensetzung und Grammatik werden hier nicht separat geprüft, sondern in der Anwendung. Sie zählen als ein Drittel der Note mit."
+    ],
+    "rahmen": "45 Minuten für zwei Schreibaufträge zu je 12 Punkten, handschriftlich. Es sind keine Hilfsmittel erlaubt.",
+    "woerterVon": 180,
+    "woerterBis": 300
+   }
+  },
+  {
+   "id": "sg-gym",
+   "kanton": "SG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung Gymnasium",
+   "teile": [
+    {
+     "id": "deutsch-sprache",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-sg",
+      "sprache-sg"
+     ],
+     "dauerMinuten": 80,
+     "punkte": 71,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Teil A Textverständnis 27 Punkte, Teil B Sprachaufgaben 44 Punkte",
+     "angeboten": true
+    },
+    {
+     "id": "deutsch-textproduktion",
+     "name": "Deutsch: Textproduktion",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Drei Themen zur Wahl, 250 bis 350 Wörter",
+     "angeboten": true
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-sg",
+      "franzoesisch-hoeren-sg"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 100,
+     "anzahlAufgaben": 40,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Fünf Teile zu je 20 Punkten; Teil A Hören und Sehen und Teil E Schreiben sind in der App noch nicht abgebildet",
+     "angeboten": true
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sg"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 55,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "ohne Taschenrechner",
+     "angeboten": true
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sg"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 51,
+     "anzahlAufgaben": 11,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "mit schulüblichem Taschenrechner",
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "bericht",
+    "votum",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Mittelschule des Kantons St. Gallen",
+    "teilname": "den Prüfungsteil «Textproduktion» der Aufnahmeprüfung ans Gymnasium",
+    "grundlage": "Kriterienraster Textproduktion der St. Gallischen Kantonsschulen, Stand November 2025",
+    "anforderungen": [
+     "Verlangt sind vier Textsorten: Erzählung, Bericht, Votum und persönlicher Brief. Prüfe zuerst, ob die Merkmale der gewählten Sorte eingehalten sind. Sie zählen gleich stark wie der Inhalt.",
+     "Erzählung: Spannung mit Höhepunkt oder Pointe, chronologisch nachvollziehbar, klarer Einstieg und Abschluss, Präteritum oder Präsens durchgehalten.",
+     "Bericht: sachlich und frei von persönlicher Wertung, die sechs W-Fragen beantwortet, kurze klare Sätze, Präteritum.",
+     "Votum: klare Stellungnahme, Behauptung mit Begründung und Erläuterung, Adressatenanrede, roter Faden, Fazit oder Appell am Schluss, Präsens.",
+     "Persönlicher Brief: Schreibanlass geklärt, Anrede und Grussformel, Gedanken und Gefühle schlüssig dargelegt, ein Wunsch an die lesende Person formuliert.",
+     "Der Text muss den sprachformalen Anforderungen genügen: Rechtschreibung, Grammatik, Interpunktion."
+    ],
+    "rahmen": "60 Minuten, handschriftlich. Ein Rechtschreibewörterbuch ist erlaubt. Drei Themen stehen zur Wahl, eines wird bearbeitet.",
+    "woerterVon": 250,
+    "woerterBis": 350
+   }
+  },
+  {
+   "id": "sg-fms-wms-ims",
+   "kanton": "SG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung FMS, WMS und IMS",
+   "teile": [
+    {
+     "id": "deutsch-sprache",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-sg",
+      "sprache-sg"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 55,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Teil A Textverständnis 20 Punkte, Teil B Sprachaufgaben 35 Punkte",
+     "angeboten": true
+    },
+    {
+     "id": "deutsch-textproduktion",
+     "name": "Deutsch: Textproduktion",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Drei Themen zur Wahl, 250 bis 350 Wörter",
+     "angeboten": true
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-sg",
+      "franzoesisch-hoeren-sg"
+     ],
+     "dauerMinuten": 75,
+     "punkte": 75,
+     "anzahlAufgaben": 30,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "Fünf Teile zu je 15 Punkten; Teil A Hören und Sehen und Teil E Schreiben sind in der App noch nicht abgebildet",
+     "angeboten": true
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sg"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 41,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "ohne Taschenrechner",
+     "angeboten": true
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sg"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 41,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "bemerkung": "mit schulüblichem Taschenrechner",
+     "angeboten": true
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "bericht",
+    "votum",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Mittelschule des Kantons St. Gallen",
+    "teilname": "den Prüfungsteil «Textproduktion» der Einheitsaufnahmeprüfung für WMS, IMS und FMS",
+    "grundlage": "Kriterienraster Textproduktion der St. Gallischen Kantonsschulen, Stand November 2025",
+    "anforderungen": [
+     "Verlangt sind vier Textsorten: Erzählung, Bericht, Votum und persönlicher Brief. Prüfe zuerst, ob die Merkmale der gewählten Sorte eingehalten sind. Sie zählen gleich stark wie der Inhalt.",
+     "Erzählung: Spannung mit Höhepunkt oder Pointe, chronologisch nachvollziehbar, klarer Einstieg und Abschluss, Präteritum oder Präsens durchgehalten.",
+     "Bericht: sachlich und frei von persönlicher Wertung, die sechs W-Fragen beantwortet, kurze klare Sätze, Präteritum.",
+     "Votum: klare Stellungnahme, Behauptung mit Begründung und Erläuterung, Adressatenanrede, roter Faden, Fazit oder Appell am Schluss, Präsens.",
+     "Persönlicher Brief: Schreibanlass geklärt, Anrede und Grussformel, Gedanken und Gefühle schlüssig dargelegt, ein Wunsch an die lesende Person formuliert.",
+     "Der Text muss den sprachformalen Anforderungen genügen: Rechtschreibung, Grammatik, Interpunktion."
+    ],
+    "rahmen": "60 Minuten, handschriftlich. Ein Rechtschreibewörterbuch ist erlaubt. Drei Themen stehen zur Wahl, eines wird bearbeitet.",
+    "woerterVon": 250,
+    "woerterBis": 350
+   }
+  },
+  {
+   "id": "so-ap",
+   "kanton": "SO",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung BM, FMS und Gymnasium",
+   "teile": [
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Aufsatz",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Themen stehen zur Wahl: freie Erörterung, Stellungnahme und eine begonnene Erzählung weiterführen. Aufsatz und Sprachbogen werden zusammen in zwei Stunden geschrieben."
+    },
+    {
+     "id": "deutsch-sprachbogen",
+     "name": "Deutsch: Sprachbogen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-so",
+      "sprache-so"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 20,
+     "anzahlAufgaben": 11,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 1 fragt zum Lesetext, Teil 2 prüft Kommasetzung, Rechtschreibung, Wortarten und die indirekte Rede. Falsche Antworten geben bei der Richtig-falsch-Tabelle Abzug."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-so",
+      "englisch-hoeren-so"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 55,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Listening 15, Reading 20 und Writing 20 Punkte."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-so"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 35,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Acht Aufgaben: sechs aus dem Bereich Algebra, zwei aus dem Bereich Geometrie. Für die volle Punktzahl wird ein vollständiger Lösungsweg verlangt; steht mehr als ein Lösungsweg da, wird die Aufgabe nicht bewertet."
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-so",
+      "franzoesisch-hoeren-so"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 43,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Compréhension auditive 14, Compréhension de texte 14 und Production de texte mit Vocabulaire 15 Punkte."
+    }
+   ],
+   "aufsatzarten": [
+    "eroerterung",
+    "argumentation",
+    "weitererzaehlen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer kantonalen Schule der Sekundarstufe II im Kanton Solothurn",
+    "teilname": "den Prüfungsteil «Aufsatz» der Aufnahmeprüfung für Berufsmaturität, Fachmittelschule und Gymnasium",
+    "grundlage": "Prüfungseckwerte Deutsch für die Aufnahmeprüfungen ab 2026 der Kantonalen Schulen Sek II Olten und Solothurn",
+    "anforderungen": [
+     "Verlangt ist ein inhaltlich gegliederter Text mit Einleitung, Hauptteil und Schluss. Prüfe zuerst, ob diese drei Teile wirklich unterscheidbar sind. Die Eckwerte nennen das zuerst.",
+     "Die Eckwerte verlangen ausdrücklich Mut: «Sie wagen auf inhaltlicher Ebene viel und lassen originelle Einfälle, eigene Erlebnisse und Beobachtungen oder kreative Ideen in den Text einfliessen.» Ein korrekter, aber blasser Text erfüllt das nicht.",
+     "Die Sätze und Abschnitte müssen aus verständlichen und logischen Gedankengängen bestehen und auch sprachlich verbunden sein. Benenne, wo der Faden abreisst.",
+     "Freie Erörterung: eine Frage von mehreren Seiten durchdenken und erst danach Stellung beziehen. Stellungnahme: von Anfang an Position beziehen und sie belegen. Erzählung weiterführen: die vorgegebenen Handlungsstränge aufnehmen und geschickt weiterführen, nicht eine neue Geschichte beginnen.",
+     "Aus sprachformaler Sicht dürfen die Texte «nur noch wenige Fehler» enthalten. Zähle sie nicht auf, sondern nenne die Muster."
+    ],
+    "rahmen": "90 Minuten, handschriftlich, ohne Hilfsmittel. Drei Themen stehen zur Wahl, eines wird bearbeitet.",
+    "woerterVon": 350,
+    "woerterBis": 600
+   }
+  },
+  {
+   "id": "tg-gms2",
+   "kanton": "TG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Gymnasiale Maturitätsschule, aus der 2. Sek",
+   "teile": [
+    {
+     "id": "deutsch-sprachpruefung",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-tg",
+      "sprache-tg"
+     ],
+     "dauerMinuten": 40,
+     "punkte": 75,
+     "anzahlAufgaben": 24,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 1 der Deutschprüfung. Sie zählt einfach, die Schreibaufgabe doppelt. Zuerst stehen Fragen zu einem literarischen Text oder Sachtext, danach Wortschatz, Grammatik und Zeichensetzung. Bei den Aufzählungsaufgaben gibt eine falsche Lösung Punkteabzug."
+    },
+    {
+     "id": "deutsch-schreibaufgabe",
+     "name": "Deutsch: Schreibaufgabe",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 75,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 2 der Deutschprüfung und doppelt gewichtet. Zu einem vorgelegten Text stehen vier Aufträge zur Wahl; bearbeitet wird einer. Der eigene Text muss sich inhaltlich auf den vorgelegten beziehen."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 24,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, ohne Taschenrechner. Der Lösungsweg muss bei jeder Aufgabe nachvollziehbar dastehen. Für die Bestnote braucht es nicht die volle Punktzahl."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 24,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, mit Taschenrechner. Beide Teile zählen je die Hälfte der Mathematiknote."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-tg"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Nur für Kandidatinnen und Kandidaten, welche die schriftliche Prüfung nicht bestanden und mindestens einen Schnitt von 3.5 erreicht haben. 15 Minuten Vorbereitung, 15 Minuten Prüfung in drei gleich gewichteten Teilen zu je fünf Minuten. Vorausgesetzt werden die Französischkenntnisse aus der 2. Sekundarschule."
+    }
+   ],
+   "aufsatzarten": [
+    "textbezogen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Thurgauer Kantonsschule",
+    "teilname": "den Prüfungsteil «Schreibaufgabe» der Aufnahmeprüfung an die Thurgauer Mittelschulen",
+    "grundlage": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Abschnitt Prüfungsfach Deutsch, und der Kommentar der Kantonsschule Frauenfeld zur neuen Form der Schreibaufgabe",
+    "anforderungen": [
+     "Die Schreibaufgabe geht IMMER von einem vorgelegten Text aus. Prüfe zuerst, ob der Text sich inhaltlich wirklich auf ihn bezieht — ein Text, der das Thema nur streift und den Inputtext nicht aufnimmt, erfüllt den Auftrag nicht, so gut er sonst geschrieben sein mag.",
+     "Massgeblich ist die Textfunktion, nicht die Form: Informieren, erklären, argumentieren. Der Kommentar sagt das ausdrücklich — die formalen Merkmale einer Textsorte sind zweitrangig.",
+     "Aufbau: ein inhaltlich und formal gut strukturierter Text, dessen Verlauf für die Leserin nachvollziehbar ist. Benenne, wo der Faden abreisst.",
+     "Sprachlicher Ausdruck: ein der Aufgabe angemessener Wortschatz, ein schriftlicher Ausdruck und ein differenzierter Satzbau. Gesprochene Wendungen fallen hier auf.",
+     "Grammatik, Rechtschreibung und Zeichensetzung werden mitbewertet. Nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Aufgabe verlangt oft eine Adressatin: eine Bewerbung, ein Brief, ein Gesuch an die Schulleitung. Prüfe, ob der Text diese Person wirklich anspricht."
+    ],
+    "rahmen": "75 Minuten, handschriftlich, ohne Hilfsmittel. Vier Aufträge zum vorgelegten Text stehen zur Wahl, einer wird bearbeitet. Die Schreibaufgabe zählt zwei Drittel der Deutschnote."
+   }
+  },
+  {
+   "id": "tg-gms3",
+   "kanton": "TG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Gymnasiale Maturitätsschule, aus der 3. Sek",
+   "teile": [
+    {
+     "id": "deutsch-sprachpruefung",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-tg",
+      "sprache-tg"
+     ],
+     "dauerMinuten": 40,
+     "punkte": 58,
+     "anzahlAufgaben": 17,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 1 der Deutschprüfung. Sie zählt einfach, die Schreibaufgabe doppelt. Zuerst stehen Fragen zu einem literarischen Text oder Sachtext, danach Wortschatz, Grammatik und Zeichensetzung. Bei den Aufzählungsaufgaben gibt eine falsche Lösung Punkteabzug."
+    },
+    {
+     "id": "deutsch-schreibaufgabe",
+     "name": "Deutsch: Schreibaufgabe",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 75,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 2 der Deutschprüfung und doppelt gewichtet. Zu einem vorgelegten Text stehen vier Aufträge zur Wahl; bearbeitet wird einer. Der eigene Text muss sich inhaltlich auf den vorgelegten beziehen."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 50,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, ohne Taschenrechner. Der Lösungsweg muss bei jeder Aufgabe nachvollziehbar dastehen. Für die Bestnote braucht es nicht die volle Punktzahl."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 50,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, mit Taschenrechner. Beide Teile zählen je die Hälfte der Mathematiknote."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-tg"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Nur für Kandidatinnen und Kandidaten, welche die schriftliche Prüfung nicht bestanden und mindestens einen Schnitt von 3.5 erreicht haben. 15 Minuten Vorbereitung, 15 Minuten Prüfung in drei gleich gewichteten Teilen zu je fünf Minuten. Vorausgesetzt werden die Französischkenntnisse aus der 3. Sekundarschule."
+    }
+   ],
+   "aufsatzarten": [
+    "textbezogen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Thurgauer Kantonsschule",
+    "teilname": "den Prüfungsteil «Schreibaufgabe» der Aufnahmeprüfung an die Thurgauer Mittelschulen",
+    "grundlage": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Abschnitt Prüfungsfach Deutsch, und der Kommentar der Kantonsschule Frauenfeld zur neuen Form der Schreibaufgabe",
+    "anforderungen": [
+     "Die Schreibaufgabe geht IMMER von einem vorgelegten Text aus. Prüfe zuerst, ob der Text sich inhaltlich wirklich auf ihn bezieht — ein Text, der das Thema nur streift und den Inputtext nicht aufnimmt, erfüllt den Auftrag nicht, so gut er sonst geschrieben sein mag.",
+     "Massgeblich ist die Textfunktion, nicht die Form: Informieren, erklären, argumentieren. Der Kommentar sagt das ausdrücklich — die formalen Merkmale einer Textsorte sind zweitrangig.",
+     "Aufbau: ein inhaltlich und formal gut strukturierter Text, dessen Verlauf für die Leserin nachvollziehbar ist. Benenne, wo der Faden abreisst.",
+     "Sprachlicher Ausdruck: ein der Aufgabe angemessener Wortschatz, ein schriftlicher Ausdruck und ein differenzierter Satzbau. Gesprochene Wendungen fallen hier auf.",
+     "Grammatik, Rechtschreibung und Zeichensetzung werden mitbewertet. Nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Aufgabe verlangt oft eine Adressatin: eine Bewerbung, ein Brief, ein Gesuch an die Schulleitung. Prüfe, ob der Text diese Person wirklich anspricht."
+    ],
+    "rahmen": "75 Minuten, handschriftlich, ohne Hilfsmittel. Vier Aufträge zum vorgelegten Text stehen zur Wahl, einer wird bearbeitet. Die Schreibaufgabe zählt zwei Drittel der Deutschnote."
+   }
+  },
+  {
+   "id": "tg-fms2",
+   "kanton": "TG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Fachmittelschule, aus der 2. Sek",
+   "teile": [
+    {
+     "id": "deutsch-sprachpruefung",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-tg",
+      "sprache-tg"
+     ],
+     "dauerMinuten": 40,
+     "punkte": 72,
+     "anzahlAufgaben": 24,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 1 der Deutschprüfung. Sie zählt einfach, die Schreibaufgabe doppelt. Zuerst stehen Fragen zu einem literarischen Text oder Sachtext, danach Wortschatz, Grammatik und Zeichensetzung. Bei den Aufzählungsaufgaben gibt eine falsche Lösung Punkteabzug."
+    },
+    {
+     "id": "deutsch-schreibaufgabe",
+     "name": "Deutsch: Schreibaufgabe",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 75,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 2 der Deutschprüfung und doppelt gewichtet. Zu einem vorgelegten Text stehen vier Aufträge zur Wahl; bearbeitet wird einer. Der eigene Text muss sich inhaltlich auf den vorgelegten beziehen."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 30,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, ohne Taschenrechner. Der Lösungsweg muss bei jeder Aufgabe nachvollziehbar dastehen. Für die Bestnote braucht es nicht die volle Punktzahl."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 29,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, mit Taschenrechner. Beide Teile zählen je die Hälfte der Mathematiknote."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-tg"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Nur für Kandidatinnen und Kandidaten, welche die schriftliche Prüfung nicht bestanden und mindestens einen Schnitt von 3.5 erreicht haben. 15 Minuten Vorbereitung, 15 Minuten Prüfung in drei gleich gewichteten Teilen zu je fünf Minuten. Vorausgesetzt werden die Französischkenntnisse aus der 2. Sekundarschule."
+    }
+   ],
+   "aufsatzarten": [
+    "textbezogen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Thurgauer Kantonsschule",
+    "teilname": "den Prüfungsteil «Schreibaufgabe» der Aufnahmeprüfung an die Thurgauer Mittelschulen",
+    "grundlage": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Abschnitt Prüfungsfach Deutsch, und der Kommentar der Kantonsschule Frauenfeld zur neuen Form der Schreibaufgabe",
+    "anforderungen": [
+     "Die Schreibaufgabe geht IMMER von einem vorgelegten Text aus. Prüfe zuerst, ob der Text sich inhaltlich wirklich auf ihn bezieht — ein Text, der das Thema nur streift und den Inputtext nicht aufnimmt, erfüllt den Auftrag nicht, so gut er sonst geschrieben sein mag.",
+     "Massgeblich ist die Textfunktion, nicht die Form: Informieren, erklären, argumentieren. Der Kommentar sagt das ausdrücklich — die formalen Merkmale einer Textsorte sind zweitrangig.",
+     "Aufbau: ein inhaltlich und formal gut strukturierter Text, dessen Verlauf für die Leserin nachvollziehbar ist. Benenne, wo der Faden abreisst.",
+     "Sprachlicher Ausdruck: ein der Aufgabe angemessener Wortschatz, ein schriftlicher Ausdruck und ein differenzierter Satzbau. Gesprochene Wendungen fallen hier auf.",
+     "Grammatik, Rechtschreibung und Zeichensetzung werden mitbewertet. Nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Aufgabe verlangt oft eine Adressatin: eine Bewerbung, ein Brief, ein Gesuch an die Schulleitung. Prüfe, ob der Text diese Person wirklich anspricht."
+    ],
+    "rahmen": "75 Minuten, handschriftlich, ohne Hilfsmittel. Vier Aufträge zum vorgelegten Text stehen zur Wahl, einer wird bearbeitet. Die Schreibaufgabe zählt zwei Drittel der Deutschnote."
+   }
+  },
+  {
+   "id": "tg-fms3",
+   "kanton": "TG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Fachmittelschule, aus der 3. Sek",
+   "teile": [
+    {
+     "id": "deutsch-sprachpruefung",
+     "name": "Deutsch: Sprachprüfung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-tg",
+      "sprache-tg"
+     ],
+     "dauerMinuten": 40,
+     "punkte": 73,
+     "anzahlAufgaben": 17,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 1 der Deutschprüfung. Sie zählt einfach, die Schreibaufgabe doppelt. Zuerst stehen Fragen zu einem literarischen Text oder Sachtext, danach Wortschatz, Grammatik und Zeichensetzung. Bei den Aufzählungsaufgaben gibt eine falsche Lösung Punkteabzug."
+    },
+    {
+     "id": "deutsch-schreibaufgabe",
+     "name": "Deutsch: Schreibaufgabe",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 75,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil 2 der Deutschprüfung und doppelt gewichtet. Zu einem vorgelegten Text stehen vier Aufträge zur Wahl; bearbeitet wird einer. Der eigene Text muss sich inhaltlich auf den vorgelegten beziehen."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 31,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, ohne Taschenrechner. Der Lösungsweg muss bei jeder Aufgabe nachvollziehbar dastehen. Für die Bestnote braucht es nicht die volle Punktzahl."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-tg"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 32,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, mit Taschenrechner. Beide Teile zählen je die Hälfte der Mathematiknote."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-tg"
+     ],
+     "dauerMinuten": 15,
+     "punkte": 0,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Nur für Kandidatinnen und Kandidaten, welche die schriftliche Prüfung nicht bestanden und mindestens einen Schnitt von 3.5 erreicht haben. 15 Minuten Vorbereitung, 15 Minuten Prüfung in drei gleich gewichteten Teilen zu je fünf Minuten. Vorausgesetzt werden die Französischkenntnisse aus der 3. Sekundarschule."
+    }
+   ],
+   "aufsatzarten": [
+    "textbezogen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Thurgauer Kantonsschule",
+    "teilname": "den Prüfungsteil «Schreibaufgabe» der Aufnahmeprüfung an die Thurgauer Mittelschulen",
+    "grundlage": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Abschnitt Prüfungsfach Deutsch, und der Kommentar der Kantonsschule Frauenfeld zur neuen Form der Schreibaufgabe",
+    "anforderungen": [
+     "Die Schreibaufgabe geht IMMER von einem vorgelegten Text aus. Prüfe zuerst, ob der Text sich inhaltlich wirklich auf ihn bezieht — ein Text, der das Thema nur streift und den Inputtext nicht aufnimmt, erfüllt den Auftrag nicht, so gut er sonst geschrieben sein mag.",
+     "Massgeblich ist die Textfunktion, nicht die Form: Informieren, erklären, argumentieren. Der Kommentar sagt das ausdrücklich — die formalen Merkmale einer Textsorte sind zweitrangig.",
+     "Aufbau: ein inhaltlich und formal gut strukturierter Text, dessen Verlauf für die Leserin nachvollziehbar ist. Benenne, wo der Faden abreisst.",
+     "Sprachlicher Ausdruck: ein der Aufgabe angemessener Wortschatz, ein schriftlicher Ausdruck und ein differenzierter Satzbau. Gesprochene Wendungen fallen hier auf.",
+     "Grammatik, Rechtschreibung und Zeichensetzung werden mitbewertet. Nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Aufgabe verlangt oft eine Adressatin: eine Bewerbung, ein Brief, ein Gesuch an die Schulleitung. Prüfe, ob der Text diese Person wirklich anspricht."
+    ],
+    "rahmen": "75 Minuten, handschriftlich, ohne Hilfsmittel. Vier Aufträge zum vorgelegten Text stehen zur Wahl, einer wird bearbeitet. Die Schreibaufgabe zählt zwei Drittel der Deutschnote."
+   }
+  },
+  {
+   "id": "ag-gym",
+   "kanton": "AG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an das Gymnasium",
+   "teile": [
+    {
+     "id": "deutsch-text",
+     "name": "Deutsch: Textverständnis und Sprachbetrachtung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-ag",
+      "sprache-ag"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 40,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil der Deutschprüfung. Textteil und Kurzaufsatz dauern zusammen 90 Minuten; empfohlen sind 45 Minuten für diesen Teil. Rechtschreib-, Grammatik- und Ausdrucksfehler in den Antworten geben Punkteabzug."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Kurzaufsatz",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 20,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil der Deutschprüfung. Zwei Schreibaufgaben stehen zur Wahl, eine wird bearbeitet; beide beziehen sich auf den Text aus dem ersten Teil. Mindestens 250 Wörter."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ag"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 36,
+     "anzahlAufgaben": 6,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Bewertet wird vor allem der Lösungsweg: die Argumentation, die algebraischen Umformungen und die Konstruktionsschritte. Ergebnisse ohne Weg zählen nicht, und Einheiten gehören dazu."
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-ag"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 74,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile, die je einen Drittel zählen: Leseverstehen, Wortschatz mit Grammatik und ein eigener Text von 130 bis 150 Wörtern."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-ag"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 74,
+     "anzahlAufgaben": 3,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile, die je einen Drittel zählen: Reading Comprehension, Vocabulary and Grammar und Writing. Der Durchschnitt aus Englisch und Französisch ergibt die Fachnote Fremdsprachen."
+    }
+   ],
+   "aufsatzarten": [
+    "argumentation",
+    "erzaehlung",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Aargauer Kantonsschule",
+    "teilname": "den Prüfungsteil «Kurzaufsatz» der Aufnahmeprüfung an das Gymnasium Aargau",
+    "grundlage": "Merkblatt «Aufnahmeprüfung an das Gymnasium Aargau» des Departements Bildung, Kultur und Sport vom 28. Februar 2024 sowie die Prüfungsserien 2023-2026",
+    "anforderungen": [
+     "Der Kurzaufsatz ist kurz: mindestens 250 Wörter, geschrieben in gut 45 Minuten. Prüfe zuerst, ob der Text in dieser Länge zu einem Schluss kommt — ein abgebrochener Text ist der häufigste Fehler.",
+     "Die Aufsatzthemen beziehen sich auf den Text aus dem ersten Prüfungsteil. Der eigene Text muss diesen Bezug erkennbar aufnehmen.",
+     "Zur Wahl stehen zwei Textsorten. Prüfe, ob die gewählte wirklich durchgehalten wird: Eine Argumentation, die zur Erzählung wird, erfüllt die Aufgabe nur halb.",
+     "Rechtschreibung, Grammatik und Ausdruck werden gezählt und geben Abzug. Nenne die Muster, nicht jede Einzelstelle.",
+     "Bewertet werden 20 von 60 Punkten der Deutschnote — ein Drittel. Sag der Schülerin, was den grössten Unterschied macht, nicht alles auf einmal."
+    ],
+    "rahmen": "Rund 45 Minuten innerhalb der 90-minütigen Deutschprüfung, handschriftlich, ohne Hilfsmittel. Mindestens 250 Wörter."
+   }
+  },
+  {
+   "id": "ag-fms",
+   "kanton": "AG",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an FMS, WMS und IMS",
+   "teile": [
+    {
+     "id": "deutsch-text",
+     "name": "Deutsch: Textverständnis und Sprachbetrachtung",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-ag",
+      "sprache-ag"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 38,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil der Deutschprüfung. Textteil und Kurzaufsatz dauern zusammen 90 Minuten; empfohlen sind 45 Minuten für diesen Teil. Rechtschreib-, Grammatik- und Ausdrucksfehler in den Antworten geben Punkteabzug."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Kurzaufsatz",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 20,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil der Deutschprüfung. Zwei Schreibaufgaben stehen zur Wahl, eine wird bearbeitet; beide beziehen sich auf den Text aus dem ersten Teil. Mindestens 250 Wörter."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ag"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 18,
+     "anzahlAufgaben": 7,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Der Lösungsweg und die Zwischenrechnungen müssen bei jeder Aufgabe ersichtlich sein; Ergebnisse ohne Lösungsweg werden nicht bewertet."
+    }
+   ],
+   "aufsatzarten": [
+    "argumentation",
+    "erzaehlung",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Aargauer Mittelschule",
+    "teilname": "den Prüfungsteil «Kurzaufsatz» der Aufnahmeprüfung an FMS, WMS und IMS Aargau",
+    "grundlage": "Merkblatt «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» vom 8. Juni 2026 sowie die Prüfungsserien 2024-2026",
+    "anforderungen": [
+     "Der Umfang ist eng gesetzt: 250 bis 300 Wörter. Ein Text, der deutlich darunter oder darüber liegt, verfehlt die Vorgabe.",
+     "Eine der beiden Schreibaufgaben verlangt IMMER einen argumentierenden Text. Wurde diese gewählt, prüfe zuerst, ob wirklich argumentiert und nicht bloss erzählt wird.",
+     "Die Themen beziehen sich auf den Text aus dem ersten Teil; der Bezug muss im Aufsatz sichtbar sein.",
+     "Der Kurzaufsatz macht die Hälfte der Schlussnote aus. Halte die Rückmeldung entsprechend gewichtig, aber auf höchstens drei Punkte begrenzt.",
+     "Rechtschreibung, Grammatik und Ausdruck zählen mit."
+    ],
+    "rahmen": "Rund 45 Minuten innerhalb der 90-minütigen Deutschprüfung, handschriftlich, ohne Hilfsmittel. 250 bis 300 Wörter."
+   }
+  },
+  {
+   "id": "ar-gym",
+   "kanton": "AR",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung Gymnasium Kantonsschule Trogen",
+   "teile": [
+    {
+     "id": "deutsch-text",
+     "name": "Deutsch: Textverständnis",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Textverständnis und Textproduktion zählen zusammen 70 % der Deutschnote, die Grammatik 30 %. Geprüft werden Sachtexte, literarische Texte und Gedichte."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Textproduktion",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Gefordert ist unter anderem, die Innensicht und die Gedanken von Figuren sprachlich zu gestalten — die Textproduktion knüpft am gelesenen Text an."
+    },
+    {
+     "id": "deutsch-grammatik",
+     "name": "Deutsch: Grammatik",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprache-ar"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "30 % der Deutschnote: Satzglieder mit den vier Proben, Wortarten, Zeitformen, Fälle, Morpheme und die Rechtschreibregeln."
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-ar",
+      "franzoesisch-hoeren-ar"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 5,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Grundlage sind «dis donc!» 7, Unités 1 bis 6, und «dis donc!» 8, Unité 1, dazu eine feste Verbenliste. Die Prüfung enthält ein Hörverständnis und eine Wortschatzübung."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, MIT Taschenrechner — anders als in den meisten Kantonen kommt der Rechnerteil zuerst. Erlaubt sind Geodreieck und Lineal, kein CAS-Rechner."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, ohne Taschenrechner. Zusammen mit dem ersten Teil dauert die Mathematikprüfung 90 Minuten."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "bericht",
+    "argumentation"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an der Kantonsschule Trogen",
+    "teilname": "den Prüfungsteil «Textproduktion» der Aufnahmeprüfung ins Gymnasium",
+    "grundlage": "Angaben zum Prüfungsstoff der Aufnahmeprüfung Gymnasium Kantonsschule Trogen für das Schuljahr 2026/27, gestützt auf den Lehrplan der Volksschule Appenzell Ausserrhoden",
+    "anforderungen": [
+     "Der Prüfungsstoff nennt ausdrücklich: «die Innensicht und Gedanken von Figuren in eindeutigen Situationen erkennen und sprachlich gestalten». Prüfe zuerst, ob die Figuren von innen gezeigt werden — nicht nur von aussen beschrieben.",
+     "Textverständnis und Textproduktion zählen zusammen 70 % der Deutschnote. Der geschriebene Text darf den gelesenen aufnehmen, muss aber eigenständig sein.",
+     "Verlangt wird, Wörter und Wendungen Sprachregistern zuzuordnen. Achte darum auf Brüche im Register: Umgangssprache mitten in einem hochsprachlichen Text fällt auf.",
+     "Die Rechtschreibregeln sind im Prüfungsstoff einzeln aufgeführt — ie-Regel, f/v-Regel, Doppelkonsonanten, Kommas bei Aufzählungen und zwischen Verbgruppen. Nenne die Muster, die im Text auffallen.",
+     "Bewertet wird ohne Hilfsmittel geschrieben. Erwarte keine perfekte Rechtschreibung, aber benenne, was sich mit einer der genannten Regeln hätte vermeiden lassen."
+    ],
+    "rahmen": "Teil der 90-minütigen Deutschprüfung, handschriftlich, ohne Hilfsmittel."
+   }
+  },
+  {
+   "id": "ar-nichtgym",
+   "kanton": "AR",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die nichtgymnasialen Maturitätslehrgänge",
+   "teile": [
+    {
+     "id": "deutsch-text",
+     "name": "Deutsch: Textverständnis",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Der Prüfungsstoff verlangt auch Arbeitstechniken zur Überarbeitung von Texten: Ersatz-, Einsetz-, Verschiebe-, Weglass- und Erweiterungsprobe."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Textproduktion",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Verlangt sind Stilmittel je nach Textsorte, Adressat und Absicht: bildhafte Ausdrücke, Vergleiche, Redewendungen und verschiedene Satzarten."
+    },
+    {
+     "id": "deutsch-grammatik",
+     "name": "Deutsch: Grammatik",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprache-ar"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Der Stoff geht weiter als am Gymnasium: Futur II, Gleichsetzungsnominativ, Präpositionalobjekt und das Satzfragment gehören dazu."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-ar",
+      "englisch-hoeren-ar"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 4,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Vier Teile mit fester Gewichtung: Reading 25 %, Listening 25 %, Writing 20 % und Grammar 30 %. Grundlage sind die Lehrmittel «Voices» und «Open World» sowie eine Liste unregelmässiger Verben."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik I",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster Teil, MIT Taschenrechner — anders als in den meisten Kantonen kommt der Rechnerteil zuerst. Erlaubt sind Geodreieck und Lineal, kein CAS-Rechner."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik II",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-ar"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 0,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Teil, ohne Taschenrechner. Zusammen mit dem ersten Teil dauert die Mathematikprüfung 90 Minuten."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "bericht",
+    "argumentation",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an der Kantonsschule Trogen",
+    "teilname": "den Prüfungsteil «Textproduktion» der Aufnahmeprüfung an die nichtgymnasialen Maturitätslehrgänge",
+    "grundlage": "Prüfungsstoff «Aufnahmeprüfungen an nichtgymnasiale Maturitätslehrgänge» der Kantonsschule Trogen für das Schuljahr 2026/27",
+    "anforderungen": [
+     "Der Prüfungsstoff nennt Stilmittel ausdrücklich: bildhafte Ausdrücke, Metaphern, Vergleiche und Redewendungen, dazu verschiedene Satzarten — Aussage, Frage, Befehl, Ausruf. Prüfe, ob der Text davon Gebrauch macht.",
+     "Wortwahl wird als eigener Punkt geführt: Nomen, Verben und Adjektive sollen zur Textsorte und zur Adressatin passen. Blasse Verben sind hier ein echter Mangel.",
+     "Die Rechtschreibliste ist lang und genau: Gross- und Kleinschreibung, Anredepronomen in Briefen, Wortstammregel, Satzzeichen bei direkter Rede, Kommas bei Aufzählungen, bei Einschüben und zwischen Teilsätzen.",
+     "Verlangt sind auch Arbeitstechniken zur Überarbeitung. Zeige an einer Stelle, wie sich der eigene Text mit der Ersatz- oder Weglassprobe verbessern liesse.",
+     "Bewertet wird ohne Hilfsmittel geschrieben, in etwa 45 Minuten. Halte die Rückmeldung auf drei Punkte begrenzt."
+    ],
+    "rahmen": "Teil der 90-minütigen Deutschprüfung, handschriftlich, ohne Hilfsmittel."
+   }
+  },
+  {
+   "id": "gl-gym1",
+   "kanton": "GL",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung in die 1. Klasse des Gymnasiums",
+   "teile": [
+    {
+     "id": "deutsch-sprachkunde",
+     "name": "Deutsch: Sprachkunde",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-gl",
+      "sprache-gl"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 47,
+     "anzahlAufgaben": 21,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: A Textverständnis (17 Punkte), B Wortschatz und Wortarten (10.5), C Grammatik und Rechtschreibung (19.5). Die Aufgaben beziehen sich in der Regel auf einen beiliegenden Text."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Text verfassen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Ein Rechtschreibeduden ist erlaubt — als einziges Hilfsmittel der ganzen Prüfung. Die Schrift muss gut leserlich sein; Gross- und Kleinschreibung sowie Getrennt- und Zusammenschreibung müssen klar erkennbar sein."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-gl"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 22,
+     "anzahlAufgaben": 9,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Kein Taschenrechner, aber Geodreieck und Zirkel. Alle Resultate doppelt unterstreichen; die Aufgaben 1 bis 5 geben je 2 Punkte, die Aufgaben 6 bis 9 je 3."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "argumentation",
+    "weitererzaehlen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an der Kantonsschule Glarus",
+    "teilname": "den Prüfungsteil «Text verfassen» der Aufnahmeprüfung",
+    "grundlage": "Aufnahmeprüfungen der Kantonsschule Glarus, Prüfungsteil «Deutsch: Text verfassen», Serien 2019 bis 2026",
+    "anforderungen": [
+     "Zur Wahl stehen mehrere Themen unterschiedlicher Art: eine begonnene Geschichte weiterführen, eine Position begründen, eine Situation ausgestalten. Prüfe zuerst, ob die gewählte Aufgabe wirklich erfüllt ist — bei einer Weiterführung etwa, ob Figuren und Ton des Anfangs übernommen werden.",
+     "Wo ein eigener Titel verlangt ist, gehört er dazu und wird mitbewertet.",
+     "Ein Rechtschreibeduden ist erlaubt. Rechtschreibfehler wiegen darum schwerer als anderswo — nenne aber die Muster, nicht jede Stelle.",
+     "Die Prüfung verlangt ausdrücklich eine gut leserliche Schrift mit klarer Gross- und Kleinschreibung. Diesen Punkt kannst du nicht beurteilen; lass ihn weg, statt darüber zu spekulieren.",
+     "Die Aufsatzzeit ist grosszügig: 60 bis 90 Minuten. Erwarte einen ausgeführten Text mit Anfang, Mitte und Schluss."
+    ],
+    "rahmen": "60 Minuten (1. Klasse) beziehungsweise 90 Minuten (3. Klasse und FMS), handschriftlich, Rechtschreibeduden erlaubt."
+   }
+  },
+  {
+   "id": "gl-gym3",
+   "kanton": "GL",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung in die 3. Klasse des Gymnasiums",
+   "teile": [
+    {
+     "id": "deutsch-sprachkunde",
+     "name": "Deutsch: Sprachkunde",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-gl",
+      "sprache-gl"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 48,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: A Textverständnis (17 Punkte), B Wortschatz (11), C Grammatik und Rechtschreibung (20). Die Aufgaben beziehen sich in der Regel auf den beiliegenden Text."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Text verfassen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Ein Rechtschreibeduden ist erlaubt — als einziges Hilfsmittel der ganzen Prüfung. Die Schrift muss gut leserlich sein; Gross- und Kleinschreibung sowie Getrennt- und Zusammenschreibung müssen klar erkennbar sein."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-gl"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "einfach",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erlaubt sind Geodreieck, Zirkel und ein einfacher Taschenrechner — die Prüfung nennt sogar die beiden zugelassenen Modelle. Der Lösungsweg muss ersichtlich sein."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "argumentation",
+    "weitererzaehlen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an der Kantonsschule Glarus",
+    "teilname": "den Prüfungsteil «Text verfassen» der Aufnahmeprüfung",
+    "grundlage": "Aufnahmeprüfungen der Kantonsschule Glarus, Prüfungsteil «Deutsch: Text verfassen», Serien 2019 bis 2026",
+    "anforderungen": [
+     "Zur Wahl stehen mehrere Themen unterschiedlicher Art: eine begonnene Geschichte weiterführen, eine Position begründen, eine Situation ausgestalten. Prüfe zuerst, ob die gewählte Aufgabe wirklich erfüllt ist — bei einer Weiterführung etwa, ob Figuren und Ton des Anfangs übernommen werden.",
+     "Wo ein eigener Titel verlangt ist, gehört er dazu und wird mitbewertet.",
+     "Ein Rechtschreibeduden ist erlaubt. Rechtschreibfehler wiegen darum schwerer als anderswo — nenne aber die Muster, nicht jede Stelle.",
+     "Die Prüfung verlangt ausdrücklich eine gut leserliche Schrift mit klarer Gross- und Kleinschreibung. Diesen Punkt kannst du nicht beurteilen; lass ihn weg, statt darüber zu spekulieren.",
+     "Die Aufsatzzeit ist grosszügig: 60 bis 90 Minuten. Erwarte einen ausgeführten Text mit Anfang, Mitte und Schluss."
+    ],
+    "rahmen": "60 Minuten (1. Klasse) beziehungsweise 90 Minuten (3. Klasse und FMS), handschriftlich, Rechtschreibeduden erlaubt."
+   }
+  },
+  {
+   "id": "gl-fms",
+   "kanton": "GL",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Fachmittelschule",
+   "teile": [
+    {
+     "id": "deutsch-sprachkunde",
+     "name": "Deutsch: Sprachkunde",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-gl",
+      "sprache-gl"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 40,
+     "anzahlAufgaben": 17,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: A Textverständnis (16 Punkte), B Wortschatz (8), C Grammatik und Rechtschreibung. Die Teile A und B beziehen sich auf den beiliegenden Text."
+    },
+    {
+     "id": "deutsch-aufsatz",
+     "name": "Deutsch: Text verfassen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Ein Rechtschreibeduden ist erlaubt — als einziges Hilfsmittel der ganzen Prüfung. Die Schrift muss gut leserlich sein; Gross- und Kleinschreibung sowie Getrennt- und Zusammenschreibung müssen klar erkennbar sein."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-gl"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei gleich gewichtete Teile: ein Basistest und Anwendungsaufgaben. Der Taschenrechner ist bei BEIDEN Teilen nicht erlaubt. Der Schwierigkeitsgrad steigt nicht zwingend mit der Aufgabennummer."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "argumentation",
+    "weitererzaehlen"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an der Kantonsschule Glarus",
+    "teilname": "den Prüfungsteil «Text verfassen» der Aufnahmeprüfung",
+    "grundlage": "Aufnahmeprüfungen der Kantonsschule Glarus, Prüfungsteil «Deutsch: Text verfassen», Serien 2019 bis 2026",
+    "anforderungen": [
+     "Zur Wahl stehen mehrere Themen unterschiedlicher Art: eine begonnene Geschichte weiterführen, eine Position begründen, eine Situation ausgestalten. Prüfe zuerst, ob die gewählte Aufgabe wirklich erfüllt ist — bei einer Weiterführung etwa, ob Figuren und Ton des Anfangs übernommen werden.",
+     "Wo ein eigener Titel verlangt ist, gehört er dazu und wird mitbewertet.",
+     "Ein Rechtschreibeduden ist erlaubt. Rechtschreibfehler wiegen darum schwerer als anderswo — nenne aber die Muster, nicht jede Stelle.",
+     "Die Prüfung verlangt ausdrücklich eine gut leserliche Schrift mit klarer Gross- und Kleinschreibung. Diesen Punkt kannst du nicht beurteilen; lass ihn weg, statt darüber zu spekulieren.",
+     "Die Aufsatzzeit ist grosszügig: 60 bis 90 Minuten. Erwarte einen ausgeführten Text mit Anfang, Mitte und Schluss."
+    ],
+    "rahmen": "60 Minuten (1. Klasse) beziehungsweise 90 Minuten (3. Klasse und FMS), handschriftlich, Rechtschreibeduden erlaubt."
+   }
+  },
+  {
+   "id": "gr-1g",
+   "kanton": "GR",
+   "kuerzel": "1G",
+   "name": "Aufnahmeprüfung 1G ins sechsjährige Gymnasium",
+   "teile": [
+    {
+     "id": "erstsprache-lesen",
+     "name": "Erstsprache: Lesen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-gr"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil der 90-minütigen Erstsprachprüfung. Geprüft werden Textverständnis und Wortschatz nach dem Lehrplan 21, Zyklus 2."
+    },
+    {
+     "id": "erstsprache-schreiben",
+     "name": "Erstsprache: Schreiben",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Verlangt ist ein kohärenter Text zu einem altersentsprechenden Thema. Keine Hilfsmittel, auch kein Wörterbuch."
+    },
+    {
+     "id": "erstsprache-fokus",
+     "name": "Erstsprache: Sprache im Fokus",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprache-gr"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Grammatik, Rechtschreibung und Sprachreflexion — im Bündner Prüfungsdeutsch heisst dieser Bereich «Sprache im Fokus»."
+    },
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik Teil 1",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-gr"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 0,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Schriftlicher Teil. Vorausgesetzt sind die Mathematiklehrmittel der 5. und 6. Primarklasse, einschliesslich der Geometriethemen und der Aufgaben «zum Weiterdenken»."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik Teil 2: fixierendes Kopfrechnen",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "kopfrechnen-gr"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Die Aufgaben stehen sichtbar da, aber Zwischenergebnisse aufzuschreiben ist untersagt. Die Rechnungen sind so gebaut, dass ein Trick zum Ziel führt: 19 · 45 rechnet man als 20 · 45 minus 45."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Bündner Mittelschule",
+    "teilname": "den Schreibteil der Aufnahmeprüfung an eine Bündner Mittelschule",
+    "grundlage": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung, gestützt auf den Lehrplan 21 des Kantons Graubünden",
+    "anforderungen": [
+     "Verlangt ist die «Produktion eines kohärenten Textes ausgehend von einem altersentsprechenden Thema». Kohärenz ist der Kern: Prüfe zuerst, ob die Teile des Textes wirklich aufeinander aufbauen.",
+     "Die Anforderungen nennen die drei Bereiche Lesen, Schreiben und «Sprache im Fokus» nebeneinander. Rechtschreibung und Grammatik werden also auch im eigenen Text gewichtet.",
+     "Es sind keinerlei Hilfsmittel erlaubt — weder ein- noch zweisprachige Wörterbücher. Beurteile die Rechtschreibung entsprechend nachsichtig, aber benenne die Muster.",
+     "Die Prüfung dauert insgesamt 90 Minuten für alle Teile der Erstsprache zusammen. Der Schreibteil ist entsprechend kurz; ein knapper, sauber gebauter Text ist besser als ein langer ohne Schluss.",
+     "Die Prüfung wird in Deutsch, Rumantsch oder Italiano abgelegt — je nach deklarierter Erstsprache. Beurteile nur den vorliegenden deutschen Text."
+    ],
+    "rahmen": "Teil der 90-minütigen Erstsprachprüfung, handschriftlich, ohne jedes Hilfsmittel."
+   }
+  },
+  {
+   "id": "gr-ep",
+   "kanton": "GR",
+   "kuerzel": "EP",
+   "name": "Einheitsprüfung für Gymnasium, HMS, FMS und IMS",
+   "teile": [
+    {
+     "id": "erstsprache-lesen",
+     "name": "Erstsprache: Lesen",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-gr"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil der 90-minütigen Erstsprachprüfung, nach Lehrplan 21, Zyklus 3. Referenzlehrwerke sind «Die Sprachstarken» 7 und 8."
+    },
+    {
+     "id": "erstsprache-schreiben",
+     "name": "Erstsprache: Schreiben",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Ein kohärenter Text zu einem vorgegebenen Thema, ohne Hilfsmittel."
+    },
+    {
+     "id": "erstsprache-fokus",
+     "name": "Erstsprache: Sprache im Fokus",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "sprache-gr"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 0,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Das Amt veröffentlicht dazu eine Detailliste «Sprache im Fokus» auf der Grundlage der Sprachstarken 7 und 8."
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-gr"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 0,
+     "anzahlAufgaben": 14,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Gebiete: Arithmetik und Algebra sowie Geometrie. Die Prüfung wird in der bei der Anmeldung gewählten Kantonssprache abgegeben."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-gr"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 0,
+     "anzahlAufgaben": 12,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Grundlage sind «New World» 1 und 2 sowie eine Liste von 70 unregelmässigen Verben, die das Amt veröffentlicht — sie sind Prüfungsstoff."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "bericht",
+    "argumentation"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Bündner Mittelschule",
+    "teilname": "den Schreibteil der Aufnahmeprüfung an eine Bündner Mittelschule",
+    "grundlage": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung, gestützt auf den Lehrplan 21 des Kantons Graubünden",
+    "anforderungen": [
+     "Verlangt ist die «Produktion eines kohärenten Textes ausgehend von einem altersentsprechenden Thema». Kohärenz ist der Kern: Prüfe zuerst, ob die Teile des Textes wirklich aufeinander aufbauen.",
+     "Die Anforderungen nennen die drei Bereiche Lesen, Schreiben und «Sprache im Fokus» nebeneinander. Rechtschreibung und Grammatik werden also auch im eigenen Text gewichtet.",
+     "Es sind keinerlei Hilfsmittel erlaubt — weder ein- noch zweisprachige Wörterbücher. Beurteile die Rechtschreibung entsprechend nachsichtig, aber benenne die Muster.",
+     "Die Prüfung dauert insgesamt 90 Minuten für alle Teile der Erstsprache zusammen. Der Schreibteil ist entsprechend kurz; ein knapper, sauber gebauter Text ist besser als ein langer ohne Schluss.",
+     "Die Prüfung wird in Deutsch, Rumantsch oder Italiano abgelegt — je nach deklarierter Erstsprache. Beurteile nur den vorliegenden deutschen Text."
+    ],
+    "rahmen": "Teil der 90-minütigen Erstsprachprüfung, handschriftlich, ohne jedes Hilfsmittel."
+   }
+  },
+  {
+   "id": "lu-ap-herbst",
+   "kanton": "LU",
+   "kuerzel": "",
+   "name": "Zentrale Aufnahmeprüfung, Herbstprüfung",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-lu"
+     ],
+     "dauerMinuten": 100,
+     "punkte": 24,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": true,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Acht Aufgaben zu je 3 Punkten. Der Rechenweg muss nachvollziehbar sein; Ergebnisse ohne Weg zählen nicht. Wenn nichts anderes verlangt ist, wird auf zwei Stellen nach dem Komma gerundet. Das Formelblatt wird abgegeben."
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-hoeren-lu",
+      "franzoesisch-lu"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 30,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Teile zu je 15 Punkten: Hörverstehen und Leseverstehen. Kein Wörterbuch. Beim Hörverstehen läuft jede Aufnahme zweimal; beim Richtig-falsch-Teil zählt nur eine Antwort, die mit Wörtern aus dem Text belegt ist."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-lu",
+      "englisch-schreiben-lu"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 20,
+     "anzahlAufgaben": 11,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Teile zu je 10 Punkten: Use of English mit zehn Lücken im Text und Writing, eine E-Mail von 100 bis 120 Wörtern. Wer die Wortzahl über- oder unterschreitet, verliert Punkte."
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-lu",
+      "sprache-lu",
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 50,
+     "anzahlAufgaben": 14,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: Verstehen literarischer Texte 15 Punkte, Sprachreflexion 15 Punkte, Textproduktion 20 Punkte. Erlaubt ist ein Rechtschreibwörterbuch ohne Grammatikteil. Bei den Kommas gibt es für jedes falsch oder nicht gesetzte Komma einen Punkt Abzug."
+    }
+   ],
+   "aufsatzarten": [
+    "kurzgeschichte",
+    "erzaehlung",
+    "argumentation",
+    "bericht",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Luzerner Mittelschule",
+    "teilname": "den Prüfungsteil «Textproduktion» der zentralen Aufnahmeprüfung",
+    "grundlage": "Musterprüfung Deutsch der Aufnahmeprüfung an die Berufsmaturitäts- und Fachmittelschulen des Kantons Luzern sowie der Stoffplan der Dienststelle Volksschulbildung vom Mai 2026",
+    "anforderungen": [
+     "Bewerte vier Bereiche zu je 5 Punkten: Gliederung, Inhalt, sprachliche Gestaltung, formale Korrektheit. Sage zu jedem Bereich, was erreicht ist und was fehlt.",
+     "Der Umfang ist vorgeschrieben — meist 150 bis 200 Wörter. Zähle nach und sag es, wenn der Text darüber oder darunter liegt: An der Prüfung kostet das Punkte.",
+     "Ein eigener Titel gehört dazu, wenn die Aufgabe einen verlangt.",
+     "Bei einer Kurzgeschichte gelten fünf Merkmale: mitten in der Handlung beginnen, ein Höhepunkt, ein offenes Ende, alltägliche Figuren, eine persönliche Krise. Prüfe sie einzeln.",
+     "Ein Rechtschreibwörterbuch ist erlaubt. Rechtschreibfehler wiegen darum schwerer — nenne die Muster, nicht jede einzelne Stelle."
+    ],
+    "rahmen": "Teil der 60-minütigen Deutschprüfung, handschriftlich, Rechtschreibwörterbuch ohne Grammatikteil erlaubt."
+   }
+  },
+  {
+   "id": "lu-ap-fruehling",
+   "kanton": "LU",
+   "kuerzel": "",
+   "name": "Zentrale Aufnahmeprüfung, Frühlingsprüfung",
+   "teile": [
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-lu"
+     ],
+     "dauerMinuten": 100,
+     "punkte": 24,
+     "anzahlAufgaben": 8,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": true,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Acht Aufgaben zu je 3 Punkten. Der Rechenweg muss nachvollziehbar sein; Ergebnisse ohne Weg zählen nicht. Wenn nichts anderes verlangt ist, wird auf zwei Stellen nach dem Komma gerundet. Das Formelblatt wird abgegeben."
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-hoeren-lu",
+      "franzoesisch-lu"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 30,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Teile zu je 15 Punkten: Hörverstehen und Leseverstehen. Kein Wörterbuch. Beim Hörverstehen läuft jede Aufnahme zweimal; beim Richtig-falsch-Teil zählt nur eine Antwort, die mit Wörtern aus dem Text belegt ist."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-lu",
+      "englisch-schreiben-lu"
+     ],
+     "dauerMinuten": 30,
+     "punkte": 20,
+     "anzahlAufgaben": 11,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Teile zu je 10 Punkten: Use of English mit zehn Lücken im Text und Writing, eine E-Mail von 100 bis 120 Wörtern. Wer die Wortzahl über- oder unterschreitet, verliert Punkte."
+    },
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-lu",
+      "sprache-lu",
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 50,
+     "anzahlAufgaben": 14,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: Verstehen literarischer Texte 15 Punkte, Sprachreflexion 15 Punkte, Textproduktion 20 Punkte. Erlaubt ist ein Rechtschreibwörterbuch ohne Grammatikteil. Bei den Kommas gibt es für jedes falsch oder nicht gesetzte Komma einen Punkt Abzug."
+    }
+   ],
+   "aufsatzarten": [
+    "kurzgeschichte",
+    "erzaehlung",
+    "argumentation",
+    "bericht",
+    "brief"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Luzerner Mittelschule",
+    "teilname": "den Prüfungsteil «Textproduktion» der zentralen Aufnahmeprüfung",
+    "grundlage": "Musterprüfung Deutsch der Aufnahmeprüfung an die Berufsmaturitäts- und Fachmittelschulen des Kantons Luzern sowie der Stoffplan der Dienststelle Volksschulbildung vom Mai 2026",
+    "anforderungen": [
+     "Bewerte vier Bereiche zu je 5 Punkten: Gliederung, Inhalt, sprachliche Gestaltung, formale Korrektheit. Sage zu jedem Bereich, was erreicht ist und was fehlt.",
+     "Der Umfang ist vorgeschrieben — meist 150 bis 200 Wörter. Zähle nach und sag es, wenn der Text darüber oder darunter liegt: An der Prüfung kostet das Punkte.",
+     "Ein eigener Titel gehört dazu, wenn die Aufgabe einen verlangt.",
+     "Bei einer Kurzgeschichte gelten fünf Merkmale: mitten in der Handlung beginnen, ein Höhepunkt, ein offenes Ende, alltägliche Figuren, eine persönliche Krise. Prüfe sie einzeln.",
+     "Ein Rechtschreibwörterbuch ist erlaubt. Rechtschreibfehler wiegen darum schwerer — nenne die Muster, nicht jede einzelne Stelle."
+    ],
+    "rahmen": "Teil der 60-minütigen Deutschprüfung, handschriftlich, Rechtschreibwörterbuch ohne Grammatikteil erlaubt."
+   }
+  },
+  {
+   "id": "sz-gym",
+   "kanton": "SZ",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Gymnasien",
+   "teile": [
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-sz",
+      "sprache-sz",
+      "aufsatz"
+     ],
+     "dauerMinuten": 130,
+     "punkte": 60,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei Teile: Sprachprüfung 65 Minuten mit 60 Punkten (Textverständnis 20, Sprache als Ausdrucksmittel 20, Sprache im Fokus 20) und Textproduktion 65 Minuten. Teil II wird erst nach Abschluss von Teil I abgegeben. Keine Hilfsmittel; die Rechtschreibung wird bei einzelnen Aufgaben mitbewertet."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-hoeren-sz",
+      "englisch-sz"
+     ],
+     "dauerMinuten": 70,
+     "punkte": 100,
+     "anzahlAufgaben": 40,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Vier Teile: Listening 16 Punkte, Reading 13, Grammar und Vocabulary 43, Writing 28. Keine Hilfsmittel. Die Hörtexte laufen zweimal.",
+     "wahlgruppe": "fremdsprache"
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-hoeren-sz",
+      "franzoesisch-sz"
+     ],
+     "dauerMinuten": 70,
+     "punkte": 97,
+     "anzahlAufgaben": 40,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Vier Teile: Compréhension orale 20 Punkte, Compréhension écrite 20, Grammaire und Vocabulaire 33, Expression écrite 24. Keine Hilfsmittel. Die Hörtexte laufen zweimal, mit drei Minuten Pause dazwischen.",
+     "wahlgruppe": "fremdsprache"
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sz"
+     ],
+     "dauerMinuten": 120,
+     "punkte": 45,
+     "anzahlAufgaben": 15,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Fünfzehn Aufgaben in drei Schwierigkeitsgraden: die Aufgaben 1 bis 5 geben je 2 Punkte, 6 bis 10 je 3 Punkte, 11 bis 15 je 4 Punkte. Der Lösungsweg muss ersichtlich sein, Ergebnisse werden auf zwei Stellen gerundet."
+    },
+    {
+     "id": "englisch-muendlich",
+     "name": "Englisch mündlich",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-muendlich-sz"
+     ],
+     "dauerMinuten": 10,
+     "punkte": 6,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "wahlgruppe": "fremdsprache-muendlich",
+     "bemerkung": "Zehn Minuten Einzelprüfung mit zehn Minuten Vorbereitungszeit, in der Sprache, die nicht schriftlich geprüft wird. Drei von vier Teilen: Unterhaltung, Rollenspiel, Bildbeschreibung, Text mit Fragen. Bewertet werden sprachlicher Ausdruck und Verständnis; die Note wird auf eine Viertelnote gerundet."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-sz"
+     ],
+     "dauerMinuten": 10,
+     "punkte": 6,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "wahlgruppe": "fremdsprache-muendlich",
+     "bemerkung": "Zehn Minuten Einzelprüfung mit zehn Minuten Vorbereitungszeit, in der Sprache, die nicht schriftlich geprüft wird. Drei von vier Teilen: Unterhaltung, Rollenspiel, Bildbeschreibung, Text mit Fragen. Bewertet werden sprachlicher Ausdruck und Verständnis; die Note wird auf eine Viertelnote gerundet."
+    }
+   ],
+   "wahl": [
+    {
+     "id": "fremdsprache",
+     "name": "Fremdsprache",
+     "frage": "Welche Fremdsprache schreibst du schriftlich?",
+     "aus": [
+      "franzoesisch",
+      "englisch"
+     ],
+     "standard": "englisch"
+    },
+    {
+     "id": "fremdsprache-muendlich",
+     "name": "Fremdsprache mündlich",
+     "frage": "Welche Fremdsprache prüfst du mündlich?",
+     "aus": [
+      "franzoesisch",
+      "englisch"
+     ],
+     "standard": "franzoesisch"
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "argumentation",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Schwyzer Mittelschule",
+    "teilname": "den Prüfungsteil «Texte gestalten» der Aufnahmeprüfung",
+    "grundlage": "Musterprüfungen Deutsch der Aufnahmeprüfungen an die gymnasialen Maturitätsschulen und die Fachmittelschulen des Kantons Schwyz sowie der Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen»",
+    "anforderungen": [
+     "Aus drei Themen wird eines bearbeitet. Prüfe zuerst, ob die gewählte Aufgabe wirklich erfüllt ist — eine schöne Geschichte am Thema vorbei bringt keine Punkte.",
+     "Eingesammelt wird nur die Reinschrift. Plane deshalb, bevor du schreibst; nachträgliches Umstellen ist teuer.",
+     "Es sind keine Hilfsmittel erlaubt. Rechtschreibung und Zeichensetzung zählen darum stärker — nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Note für die Textgestaltung wird auf eine Viertelnote gerundet; an der FMS zählt sie doppelt. Sag darum deutlich, welches Kriterium den Ausschlag gibt.",
+     "Für die Textgestaltung stehen 45 bis 65 Minuten zur Verfügung. Erwarte einen ausgeführten Text mit Anfang, Mitte und Schluss."
+    ],
+    "rahmen": "45 Minuten an der FMS, 65 Minuten am Gymnasium, handschriftlich, keine Hilfsmittel; eingesammelt wird nur die Reinschrift."
+   }
+  },
+  {
+   "id": "sz-fms",
+   "kanton": "SZ",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung an die Fachmittelschulen",
+   "teile": [
+    {
+     "id": "deutsch",
+     "name": "Deutsch",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-sz",
+      "sprache-sz",
+      "aufsatz"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 72,
+     "anzahlAufgaben": 18,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Teil A Sprachübung 45 Minuten mit 72 Punkten (Textverständnis und Wortschatz 26, Grammatik 46; 70 gelten als Maximum), Teil B Aufsatz 45 Minuten mit 24 Punkten. Die Aufsatznote zählt doppelt. Keine Hilfsmittel."
+    },
+    {
+     "id": "englisch",
+     "name": "Englisch",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-sz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 76,
+     "anzahlAufgaben": 30,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Drei Teile: Reading 14 Punkte, Grammar 42, Writing 20. Kein Hörverstehen. Keine Hilfsmittel.",
+     "wahlgruppe": "fremdsprache"
+    },
+    {
+     "id": "franzoesisch",
+     "name": "Französisch",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-sz"
+     ],
+     "dauerMinuten": 45,
+     "punkte": 61,
+     "anzahlAufgaben": 30,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Vier Teile: Compréhension écrite 15 Punkte, Vocabulaire 7, Grammaire 26, Production écrite 13. Kein Hörverstehen. Keine Hilfsmittel.",
+     "wahlgruppe": "fremdsprache"
+    },
+    {
+     "id": "mathematik",
+     "name": "Mathematik",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-sz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 36,
+     "anzahlAufgaben": 7,
+     "hilfsmittel": {
+      "taschenrechner": "nicht_cas",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Sieben Aufgaben zu 4 bis 6 Punkten, zusammen 36. Der ganze Lösungsweg gehört dazu, Resultate werden auf zwei Stellen gerundet und doppelt unterstrichen."
+    },
+    {
+     "id": "englisch-muendlich",
+     "name": "Englisch mündlich",
+     "pruefungsfach": "englisch",
+     "bereiche": [
+      "englisch-muendlich-sz"
+     ],
+     "dauerMinuten": 10,
+     "punkte": 6,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "wahlgruppe": "fremdsprache-muendlich",
+     "bemerkung": "Zehn Minuten Einzelprüfung mit zehn Minuten Vorbereitungszeit, in der Sprache, die nicht schriftlich geprüft wird. Drei von vier Teilen: Unterhaltung, Rollenspiel, Bildbeschreibung, Text mit Fragen. Bewertet werden sprachlicher Ausdruck und Verständnis; die Note wird auf eine Viertelnote gerundet."
+    },
+    {
+     "id": "franzoesisch-muendlich",
+     "name": "Französisch mündlich",
+     "pruefungsfach": "franzoesisch",
+     "bereiche": [
+      "franzoesisch-muendlich-sz"
+     ],
+     "dauerMinuten": 10,
+     "punkte": 6,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": false,
+     "uhrPausiert": false,
+     "hinweise": false,
+     "angeboten": true,
+     "wahlgruppe": "fremdsprache-muendlich",
+     "bemerkung": "Zehn Minuten Einzelprüfung mit zehn Minuten Vorbereitungszeit, in der Sprache, die nicht schriftlich geprüft wird. Drei von vier Teilen: Unterhaltung, Rollenspiel, Bildbeschreibung, Text mit Fragen. Bewertet werden sprachlicher Ausdruck und Verständnis; die Note wird auf eine Viertelnote gerundet."
+    }
+   ],
+   "wahl": [
+    {
+     "id": "fremdsprache",
+     "name": "Fremdsprache",
+     "frage": "Welche Fremdsprache schreibst du schriftlich?",
+     "aus": [
+      "franzoesisch",
+      "englisch"
+     ],
+     "standard": "englisch"
+    },
+    {
+     "id": "fremdsprache-muendlich",
+     "name": "Fremdsprache mündlich",
+     "frage": "Welche Fremdsprache prüfst du mündlich?",
+     "aus": [
+      "franzoesisch",
+      "englisch"
+     ],
+     "standard": "franzoesisch"
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "argumentation",
+    "beschreibung",
+    "bericht"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson an einer Schwyzer Mittelschule",
+    "teilname": "den Prüfungsteil «Texte gestalten» der Aufnahmeprüfung",
+    "grundlage": "Musterprüfungen Deutsch der Aufnahmeprüfungen an die gymnasialen Maturitätsschulen und die Fachmittelschulen des Kantons Schwyz sowie der Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen»",
+    "anforderungen": [
+     "Aus drei Themen wird eines bearbeitet. Prüfe zuerst, ob die gewählte Aufgabe wirklich erfüllt ist — eine schöne Geschichte am Thema vorbei bringt keine Punkte.",
+     "Eingesammelt wird nur die Reinschrift. Plane deshalb, bevor du schreibst; nachträgliches Umstellen ist teuer.",
+     "Es sind keine Hilfsmittel erlaubt. Rechtschreibung und Zeichensetzung zählen darum stärker — nenne die Muster, nicht jede einzelne Stelle.",
+     "Die Note für die Textgestaltung wird auf eine Viertelnote gerundet; an der FMS zählt sie doppelt. Sag darum deutlich, welches Kriterium den Ausschlag gibt.",
+     "Für die Textgestaltung stehen 45 bis 65 Minuten zur Verfügung. Erwarte einen ausgeführten Text mit Anfang, Mitte und Schluss."
+    ],
+    "rahmen": "45 Minuten an der FMS, 65 Minuten am Gymnasium, handschriftlich, keine Hilfsmittel; eingesammelt wird nur die Reinschrift."
+   }
+  },
+  {
+   "id": "sz-einsiedeln",
+   "kanton": "SZ",
+   "kuerzel": "",
+   "name": "Aufnahmeprüfung in die 1. Klasse des Untergymnasiums",
+   "teile": [
+    {
+     "id": "mathematik-1",
+     "name": "Mathematik 1: Zahl, Variable, Grössen und Daten",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "mathematik-einsiedeln"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 40,
+     "anzahlAufgaben": 20,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Erster von zwei Mathematikteilen, gewichtet mit zwei Dritteln. Kein Taschenrechner; Geodreieck und Zirkel sind mitzubringen. Die Punktzahl hier bildet die Gewichtung ab, die Prüfung selbst rechnet in Anteilen."
+    },
+    {
+     "id": "mathematik-2",
+     "name": "Mathematik 2: Form und Raum",
+     "pruefungsfach": "mathematik",
+     "bereiche": [
+      "geometrie-einsiedeln"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 20,
+     "anzahlAufgaben": 10,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": true,
+      "zirkel": true,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zweiter Mathematikteil, gewichtet mit einem Drittel: Figuren und Körper, Netze, Spiegelung, Umfang und Flächeninhalt. Kein Taschenrechner."
+    },
+    {
+     "id": "deutsch-schreiben",
+     "name": "Deutsch 1: Text schreiben",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "aufsatz"
+     ],
+     "dauerMinuten": 60,
+     "punkte": 20,
+     "anzahlAufgaben": 1,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": true
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Ein Text von 70 bis 100 Wörtern samt Titel. Die Wortzahl muss genau eingehalten werden. Nur für diesen Teil ist ein Rechtschreibwörterbuch erlaubt."
+    },
+    {
+     "id": "deutsch-verstehen",
+     "name": "Deutsch 2: Textverständnis, Wortschatz und Grammatik",
+     "pruefungsfach": "deutsch",
+     "bereiche": [
+      "textverstaendnis-einsiedeln",
+      "sprache-einsiedeln"
+     ],
+     "dauerMinuten": 90,
+     "punkte": 40,
+     "anzahlAufgaben": 25,
+     "hilfsmittel": {
+      "taschenrechner": "keiner",
+      "formelsammlung": false,
+      "geodreieck": false,
+      "zirkel": false,
+      "woerterbuch": false
+     },
+     "zurueckblaettern": true,
+     "uhrPausiert": true,
+     "hinweise": false,
+     "angeboten": true,
+     "bemerkung": "Zwei gleich gewichtete Hälften: Textverständnis sowie Wortschatz, Grammatik und Rechtschreibung. Keine Hilfsmittel."
+    }
+   ],
+   "aufsatzarten": [
+    "erzaehlung",
+    "beschreibung",
+    "bildimpuls"
+   ],
+   "aufsatzrahmen": {
+    "rolle": "eine erfahrene Deutschlehrperson am Untergymnasium der Stiftsschule Einsiedeln",
+    "teilname": "den Prüfungsteil «Text schreiben» der Aufnahmeprüfung in die 1. Klasse",
+    "grundlage": "Prüfungsstoff der Aufnahmeprüfung 2026 der Stiftsschule Einsiedeln und der Lehrplan 21 des Kantons Schwyz, 2. Zyklus",
+    "anforderungen": [
+     "Der Text umfasst 70 bis 100 Wörter samt Titel, und die Wortzahl muss genau eingehalten werden. Zähle nach und sag es, wenn der Text darüber oder darunter liegt.",
+     "Ein eigener Titel gehört dazu und zählt zu den Wörtern.",
+     "Erwartet wird eine Erlebniserzählung, eine Beschreibung oder ein Text zu einem Bildimpuls. Prüfe, ob die Erzählperspektive durchgehalten ist.",
+     "Geprüft werden auch die Wortstammregel, die Doppelkonsonantenregel, die Grossschreibung und die Zeichen der direkten Rede.",
+     "Die Schreibenden sind erst in der 6. Klasse. Formuliere die Rückmeldung entsprechend einfach und ermutigend, ohne Fachwörter, die sie nicht kennen."
+    ],
+    "rahmen": "60 Minuten, handschriftlich, Rechtschreibwörterbuch erlaubt, 70 bis 100 Wörter samt Titel."
+   }
+  }
+ ],
+ "schultypen": {
+  "ZH": [
+   {
+    "id": "kurzgymnasium",
+    "name": "Kurzgymnasium",
+    "pruefung": "zh-zap2"
+   },
+   {
+    "id": "langgymnasium",
+    "name": "Langgymnasium",
+    "pruefung": "zh-zap1"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "zh-zap3"
+   },
+   {
+    "id": "hms",
+    "name": "Handelsmittelschule (HMS)",
+    "pruefung": "zh-zap3"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "zh-zap3"
+   }
+  ],
+  "BE": [
+   {
+    "id": "gym1-8sj",
+    "name": "Gymnasium, Übertritt aus dem 8. Schuljahr",
+    "pruefung": "be-gym1"
+   },
+   {
+    "id": "gym1-9sj",
+    "name": "Gymnasium, Übertritt aus dem 9. Schuljahr",
+    "pruefung": "be-gym1"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "be-fms"
+   },
+   {
+    "id": "gym3",
+    "name": "Gymnasium, Übertritt ins 11. Schuljahr",
+    "pruefung": "be-gym3"
+   }
+  ],
+  "BS": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium",
+    "pruefung": "bs-sek2"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmaturitätsschule (FMS)",
+    "pruefung": "bs-sek2"
+   },
+   {
+    "id": "wms",
+    "name": "Wirtschaftsmittelschule (WMS)",
+    "pruefung": "bs-sek2"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "bs-sek2"
+   },
+   {
+    "id": "bm1",
+    "name": "Berufsmaturität (BM 1)",
+    "pruefung": "bs-sek2"
+   }
+  ],
+  "SG": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium",
+    "pruefung": "sg-gym"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "sg-fms-wms-ims"
+   },
+   {
+    "id": "wms",
+    "name": "Wirtschaftsmittelschule (WMS)",
+    "pruefung": "sg-fms-wms-ims"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "sg-fms-wms-ims"
+   }
+  ],
+  "SO": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium",
+    "pruefung": "so-ap"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "so-ap"
+   },
+   {
+    "id": "bm",
+    "name": "Berufsmaturität (BM)",
+    "pruefung": "so-ap"
+   }
+  ],
+  "TG": [
+   {
+    "id": "gms-2sek",
+    "name": "Gymnasiale Maturitätsschule (aus der 2. Sek)",
+    "pruefung": "tg-gms2"
+   },
+   {
+    "id": "gms-3sek",
+    "name": "Gymnasiale Maturitätsschule und PMS (aus der 3. Sek)",
+    "pruefung": "tg-gms3"
+   },
+   {
+    "id": "fms-2sek",
+    "name": "Fachmittelschule (aus der 2. Sek)",
+    "pruefung": "tg-fms2"
+   },
+   {
+    "id": "fms-3sek",
+    "name": "Fachmittelschule (aus der 3. Sek)",
+    "pruefung": "tg-fms3"
+   }
+  ],
+  "AG": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium",
+    "pruefung": "ag-gym"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "ag-fms"
+   },
+   {
+    "id": "wms",
+    "name": "Wirtschaftsmittelschule (WMS)",
+    "pruefung": "ag-fms"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "ag-fms"
+   }
+  ],
+  "AR": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium Kantonsschule Trogen",
+    "pruefung": "ar-gym"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "ar-nichtgym"
+   },
+   {
+    "id": "wms",
+    "name": "Wirtschaftsmittelschule (WMS)",
+    "pruefung": "ar-nichtgym"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "ar-nichtgym"
+   },
+   {
+    "id": "bm",
+    "name": "Berufsmaturität (BM)",
+    "pruefung": "ar-nichtgym"
+   }
+  ],
+  "GL": [
+   {
+    "id": "gym1",
+    "name": "Gymnasium (Eintritt 1. Klasse)",
+    "pruefung": "gl-gym1"
+   },
+   {
+    "id": "gym3",
+    "name": "Gymnasium (Eintritt 3. Klasse)",
+    "pruefung": "gl-gym3"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "gl-fms"
+   }
+  ],
+  "GR": [
+   {
+    "id": "gym1",
+    "name": "Sechsjähriges Gymnasium (1. Klasse)",
+    "pruefung": "gr-1g"
+   },
+   {
+    "id": "gym3",
+    "name": "Gymnasium (3. Klasse)",
+    "pruefung": "gr-ep"
+   },
+   {
+    "id": "hms",
+    "name": "Handelsmittelschule (HMS)",
+    "pruefung": "gr-ep"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "gr-ep"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "gr-ep"
+   }
+  ],
+  "LU": [
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "lu-ap-herbst"
+   },
+   {
+    "id": "wms",
+    "name": "Wirtschaftsmittelschule (WMS)",
+    "pruefung": "lu-ap-herbst"
+   },
+   {
+    "id": "ims",
+    "name": "Informatikmittelschule (IMS)",
+    "pruefung": "lu-ap-herbst"
+   },
+   {
+    "id": "gms",
+    "name": "Gesundheitsmittelschule (GMS)",
+    "pruefung": "lu-ap-herbst"
+   },
+   {
+    "id": "bm",
+    "name": "Berufsmaturitätsschule (BM)",
+    "pruefung": "lu-ap-fruehling"
+   }
+  ],
+  "SZ": [
+   {
+    "id": "gymnasium",
+    "name": "Gymnasium (Eintritt 2. oder 3. Sek)",
+    "pruefung": "sz-gym"
+   },
+   {
+    "id": "fms",
+    "name": "Fachmittelschule (FMS)",
+    "pruefung": "sz-fms"
+   },
+   {
+    "id": "untergymnasium",
+    "name": "Stiftsschule Einsiedeln, Untergymnasium",
+    "pruefung": "sz-einsiedeln"
+   }
+  ]
+ },
+ "termine": [
+  {
+   "pruefung": "zh-zap1",
+   "session": "fruehling",
+   "datum": "2027-03-06",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "zh-zap2",
+   "session": "fruehling",
+   "datum": "2027-03-06",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "zh-zap3",
+   "session": "fruehling",
+   "datum": "2027-03-07",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "be-gym1",
+   "session": "fruehling",
+   "datum": "2027-03-02",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "be-fms",
+   "session": "fruehling",
+   "datum": "2027-03-03",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "be-gym3",
+   "session": "fruehling",
+   "datum": "2027-03-03",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "bs-sek2",
+   "session": "fruehling",
+   "von": "2027-03-01",
+   "bis": "2027-03-31",
+   "bemerkung": "Genaues Datum noch nicht veröffentlicht. Die Prüfung findet zwischen den Sportferien und den Frühjahrsferien statt."
+  },
+  {
+   "pruefung": "sg-gym",
+   "session": "fruehling",
+   "datum": "2027-03-08",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "sg-gym",
+   "session": "herbst",
+   "datum": "2026-11-16",
+   "bemerkung": "Herbstprüfung"
+  },
+  {
+   "pruefung": "sg-fms-wms-ims",
+   "session": "fruehling",
+   "datum": "2027-03-08",
+   "bemerkung": "Nächster Prüfungstermin"
+  },
+  {
+   "pruefung": "so-ap",
+   "session": "fruehling",
+   "datum": "2027-03-08",
+   "bemerkung": "Montag und Dienstag, 8. und 9. März 2027, an den Standorten Olten und Solothurn"
+  },
+  {
+   "pruefung": "tg-gms2",
+   "session": "fruehling",
+   "datum": "2027-03-05",
+   "bemerkung": "Freitag und Samstag, 5. und 6. März 2027, an den Kantonsschulen Frauenfeld, Kreuzlingen und Romanshorn; die mündliche Prüfung folgt am 22. März"
+  },
+  {
+   "pruefung": "tg-fms2",
+   "session": "fruehling",
+   "datum": "2027-03-05",
+   "bemerkung": "Freitag und Samstag, 5. und 6. März 2027, an den Kantonsschulen Frauenfeld und Romanshorn; die mündliche Prüfung folgt am 22. März"
+  },
+  {
+   "pruefung": "tg-gms3",
+   "session": "winter",
+   "datum": "2027-01-04",
+   "bemerkung": "Montag und Dienstag, 4. und 5. Januar 2027, an der Pädagogischen Maturitätsschule Kreuzlingen; die mündliche Prüfung folgt am 22. Januar"
+  },
+  {
+   "pruefung": "tg-fms3",
+   "session": "winter",
+   "datum": "2027-01-04",
+   "bemerkung": "Montag und Dienstag, 4. und 5. Januar 2027, an der Pädagogischen Maturitätsschule Kreuzlingen; die mündliche Prüfung folgt am 22. Januar"
+  },
+  {
+   "pruefung": "ag-gym",
+   "session": "fruehling",
+   "von": "2027-03-15",
+   "bis": "2027-03-19",
+   "bemerkung": "Kalenderwoche 11, an zwei Tagen; die prüfende Mittelschule steht im Prüfungsaufgebot"
+  },
+  {
+   "pruefung": "ag-fms",
+   "session": "fruehling",
+   "von": "2027-03-15",
+   "bis": "2027-03-19",
+   "bemerkung": "Kalenderwoche 11, an einem Tag; die prüfende Mittelschule steht im Prüfungsaufgebot"
+  },
+  {
+   "pruefung": "ar-gym",
+   "session": "fruehling",
+   "datum": "2027-03-15",
+   "bemerkung": "Montag, 15. März 2027, an der Kantonsschule Trogen; Anmeldeschluss 29. Januar 2027"
+  },
+  {
+   "pruefung": "ar-nichtgym",
+   "session": "fruehling",
+   "datum": "2027-03-08",
+   "bemerkung": "Montag, 8. März 2027, 8.00 bis 14.45 Uhr, im BBZ Herisau; Anmeldeschluss 29. Januar 2027"
+  },
+  {
+   "pruefung": "gl-gym1",
+   "session": "fruehling",
+   "datum": "2027-03-10",
+   "bemerkung": "Mittwoch, 10. März 2027, an der Kantonsschule Glarus"
+  },
+  {
+   "pruefung": "gl-gym3",
+   "session": "fruehling",
+   "datum": "2027-03-10",
+   "bemerkung": "Mittwoch, 10. März 2027, an der Kantonsschule Glarus"
+  },
+  {
+   "pruefung": "gl-fms",
+   "session": "fruehling",
+   "datum": "2027-03-11",
+   "bemerkung": "Donnerstag, 11. März 2027, an der Kantonsschule Glarus"
+  },
+  {
+   "pruefung": "gr-1g",
+   "session": "winter",
+   "datum": "2027-02-16",
+   "bemerkung": "Dienstag, 16. Februar 2027; Anmeldung vom 1. Oktober bis 14. Dezember 2026, Entscheid am 4. März 2027"
+  },
+  {
+   "pruefung": "gr-ep",
+   "session": "fruehling",
+   "datum": "2027-03-16",
+   "bemerkung": "Dienstag, 16. März 2027; Anmeldung vom 2. November 2026 bis 18. Januar 2027, Entscheid am 6. April 2027"
+  },
+  {
+   "pruefung": "lu-ap-herbst",
+   "session": "herbst",
+   "von": "2026-10-01",
+   "bis": "2026-10-31",
+   "bemerkung": "Die Herbstprüfung für FMS, WMS, IMS, GMS und die Fachklasse Grafik findet im Oktober statt; das genaue Datum gibt die Dienststelle Berufs- und Weiterbildung bekannt."
+  },
+  {
+   "pruefung": "lu-ap-fruehling",
+   "session": "fruehling",
+   "von": "2027-03-01",
+   "bis": "2027-03-31",
+   "bemerkung": "Die Frühlingsprüfung für die Berufsmaturitätsschulen findet im März statt, in den vergangenen Jahren jeweils an einem Samstag Mitte März."
+  },
+  {
+   "pruefung": "sz-gym",
+   "session": "fruehling",
+   "von": "2027-03-01",
+   "bis": "2027-03-31",
+   "bemerkung": "Zwei aufeinanderfolgende Prüfungstage im März: am ersten Tag Deutsch und die schriftliche Fremdsprache, am zweiten Mathematik. Die Prüfung findet für alle Gymnasien am gleichen Tag statt; das genaue Datum gibt das Amt für Mittel- und Hochschulen bekannt."
+  },
+  {
+   "pruefung": "sz-fms",
+   "session": "fruehling",
+   "von": "2027-03-01",
+   "bis": "2027-03-31",
+   "bemerkung": "Zwei Prüfungstage im März: am ersten Tag Deutsch und die schriftliche Fremdsprache, am zweiten Mathematik. Das genaue Datum gibt das Amt für Mittel- und Hochschulen bekannt."
+  },
+  {
+   "pruefung": "sz-einsiedeln",
+   "session": "fruehling",
+   "von": "2027-03-25",
+   "bis": "2027-04-07",
+   "bemerkung": "Zwei Vormittage Ende März oder Anfang April; 2026 waren es der 31. März und der 1. April. Das genaue Datum gibt die Stiftsschule bekannt."
+  }
+ ],
+ "pruefungsfaecher": [
+  {
+   "id": "mathematik",
+   "name": "Mathematik",
+   "untertitel": "Algebra · Geometrie · Grössen",
+   "icon": "rechner"
+  },
+  {
+   "id": "deutsch",
+   "name": "Deutsch",
+   "untertitel": "Sprachbetrachtung · Textverständnis · Aufsatz",
+   "icon": "buch"
+  },
+  {
+   "id": "franzoesisch",
+   "name": "Französisch",
+   "untertitel": "Leseverstehen · Wortschatz · Grammatik",
+   "icon": "buch"
+  },
+  {
+   "id": "englisch",
+   "name": "Englisch",
+   "untertitel": "Wortschatz · Grammatik · Verstehen",
+   "icon": "buch"
+  }
+ ],
+ "bereiche": [
+  {
+   "id": "mathematik",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Algebra · Geometrie · Grössen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprachbetrachtung",
+   "name": "Deutsch Sprachbetrachtung",
+   "kurzname": "Sprachbetrachtung",
+   "untertitel": "Wortschatz · Grammatik · Satzbau",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Lesen · Verstehen · Deuten",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "aufsatz",
+   "name": "Deutsch Aufsatz",
+   "kurzname": "Aufsatz",
+   "untertitel": "Schreiben und korrigieren lassen",
+   "pruefungsfach": "deutsch",
+   "art": "aufsatz"
+  },
+  {
+   "id": "franzoesisch",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "Wortschatz · Grammatik · Verstehen",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-bern",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Rechnen · Terme · Geometrie · Erforschen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-bern-gym3",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Gleichungen · Funktionen · Geometrie",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-bern",
+   "name": "Deutsch Sprache",
+   "kurzname": "Sprache",
+   "untertitel": "Rechtschreibung · Verbformen · Satzbau",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-bern",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Worterklärungen · Gliederung · Aussagen",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-sg",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Zahl · Terme · Geometrie · Grössen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-sg",
+   "name": "Deutsch Sprache",
+   "kurzname": "Sprache",
+   "untertitel": "Rechtschreibung · Satzglieder · Zeitformen",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-sg",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Lesen · Stilmittel · Figuren deuten",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-sg",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "Lesen · Wortschatz · Grammatik",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-muendlich-be",
+   "name": "Französisch mündlich",
+   "kurzname": "Mündlich",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "franzoesisch-bildimpuls-be",
+   "name": "Französisch mündlich: Bild und Gespräch",
+   "kurzname": "Mündlich",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "franzoesisch-hoeren-sg",
+   "name": "Französisch Hören und Sehen",
+   "kurzname": "Hören und Sehen",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-bs",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Bruchrechnen · Algebra · Geometrie · Grössen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-bs",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Sachtexte · literarische Texte · Reflexion",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-so",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Algebra · Geometrie · Sachrechnen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-so",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Sprachbogen, Teil 1",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-so",
+   "name": "Deutsch Sprache",
+   "kurzname": "Sprache",
+   "untertitel": "Sprachbogen, Teil 2: Grammatik und Rechtschreibung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-so",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "Leseverstehen · Wortschatz · Grammatik",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-so",
+   "name": "Englisch",
+   "kurzname": "Englisch",
+   "untertitel": "Reading · Vocabulary · Grammar",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-hoeren-so",
+   "name": "Französisch Hörverstehen",
+   "kurzname": "Hörverstehen",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "englisch-hoeren-so",
+   "name": "Englisch Listening",
+   "kurzname": "Listening",
+   "untertitel": "Ablauf, Tipps und Wendungen",
+   "pruefungsfach": "englisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-tg",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Arithmetik · Algebra · Geometrie · Stochastik",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-tg",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Sprachprüfung, erster Teil",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-tg",
+   "name": "Deutsch Sprache",
+   "kurzname": "Sprache",
+   "untertitel": "Sprachprüfung: Wortschatz, Grammatik, Zeichensetzung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-muendlich-tg",
+   "name": "Französisch mündlich",
+   "kurzname": "Mündlich",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-ag",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Arithmetik · Algebra · Geometrie · Stochastik",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-ag",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Erster Prüfungsteil, zum vorgelegten Text",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-ag",
+   "name": "Deutsch Sprachbetrachtung",
+   "kurzname": "Sprachbetrachtung",
+   "untertitel": "Grammatik · Rechtschreibung · Wortschatz",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-ag",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "Leseverstehen · Wortschatz und Grammatik · Schreiben",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-ag",
+   "name": "Englisch",
+   "kurzname": "Englisch",
+   "untertitel": "Reading · Vocabulary and Grammar · Writing",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-ar",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Arithmetik · Algebra · Geometrie · Körper",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-ar",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Sachtexte, Geschichten und Gedichte",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-ar",
+   "name": "Deutsch Grammatik",
+   "kurzname": "Grammatik",
+   "untertitel": "Satzglieder · Wortarten · Rechtschreibung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-ar",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "dis donc! 7 und 8 · Verbenliste · Wortschatz",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-ar",
+   "name": "Englisch",
+   "kurzname": "Englisch",
+   "untertitel": "Reading · Writing · Grammar",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-hoeren-ar",
+   "name": "Französisch Hörverständnis",
+   "kurzname": "Hörverständnis",
+   "untertitel": "Ablauf, Tipps und Redemittel",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "englisch-hoeren-ar",
+   "name": "Englisch Listening",
+   "kurzname": "Listening",
+   "untertitel": "Ablauf, Tipps und Wendungen",
+   "pruefungsfach": "englisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-gl",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Basistest · Anwendungsaufgaben · Geometrie",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-gl",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Sprachkunde, Teil A",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-gl",
+   "name": "Deutsch Sprachkunde",
+   "kurzname": "Sprachkunde",
+   "untertitel": "Wortschatz · Grammatik · Rechtschreibung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-gr",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Arithmetik · Algebra · Geometrie",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "kopfrechnen-gr",
+   "name": "Fixierendes Kopfrechnen",
+   "kurzname": "Kopfrechnen",
+   "untertitel": "Rechnen mit Tricks, ohne Notizen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-gr",
+   "name": "Erstsprache: Lesen",
+   "kurzname": "Lesen",
+   "untertitel": "Textverständnis und Wortschatz",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-gr",
+   "name": "Sprache im Fokus",
+   "kurzname": "Sprache im Fokus",
+   "untertitel": "Grammatik · Rechtschreibung · Sprachreflexion",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-gr",
+   "name": "Englisch",
+   "kurzname": "Englisch",
+   "untertitel": "New World 1 und 2 · 70 unregelmässige Verben",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "mathematik-lu",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Zahl und Variable · Form und Raum · Grössen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-lu",
+   "name": "Deutsch Leseverstehen",
+   "kurzname": "Leseverstehen",
+   "untertitel": "Literarische Texte und Sachtexte",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-lu",
+   "name": "Deutsch Sprachreflexion",
+   "kurzname": "Sprachreflexion",
+   "untertitel": "Sprachliche Mittel · Grammatik · Kommas",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-lu",
+   "name": "Französisch Leseverstehen",
+   "kurzname": "Französisch",
+   "untertitel": "Compréhension écrite und Sprachreflexion",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-hoeren-lu",
+   "name": "Französisch Hörverstehen",
+   "kurzname": "Hörverstehen",
+   "untertitel": "Compréhension orale",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "englisch-lu",
+   "name": "Use of English",
+   "kurzname": "Use of English",
+   "untertitel": "Wortwahl · Grammatik · Wortschatz",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-schreiben-lu",
+   "name": "English Writing",
+   "kurzname": "Writing",
+   "untertitel": "Eine E-Mail von 100 bis 120 Wörtern",
+   "pruefungsfach": "englisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-sz",
+   "name": "Mathematik",
+   "kurzname": "Mathematik",
+   "untertitel": "Zahl und Variable · Form und Raum · Grössen",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-sz",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Teil der Sprachprüfung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-sz",
+   "name": "Deutsch Sprache im Fokus",
+   "kurzname": "Sprache im Fokus",
+   "untertitel": "Ausdruck · Wortschatz · Grammatik",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-sz",
+   "name": "Englisch",
+   "kurzname": "Englisch",
+   "untertitel": "Reading · Grammar · Vocabulary",
+   "pruefungsfach": "englisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-hoeren-sz",
+   "name": "Englisch Hörverstehen",
+   "kurzname": "Listening",
+   "untertitel": "Listening Comprehension",
+   "pruefungsfach": "englisch",
+   "art": "tipps"
+  },
+  {
+   "id": "franzoesisch-sz",
+   "name": "Französisch",
+   "kurzname": "Französisch",
+   "untertitel": "Compréhension écrite · Grammaire · Vocabulaire",
+   "pruefungsfach": "franzoesisch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "franzoesisch-hoeren-sz",
+   "name": "Französisch Hörverstehen",
+   "kurzname": "Hörverstehen",
+   "untertitel": "Compréhension orale",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  },
+  {
+   "id": "mathematik-einsiedeln",
+   "name": "Mathematik: Zahl, Variable und Grössen",
+   "kurzname": "Zahl und Grössen",
+   "untertitel": "Erster Mathematikteil",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "geometrie-einsiedeln",
+   "name": "Mathematik: Form und Raum",
+   "kurzname": "Form und Raum",
+   "untertitel": "Zweiter Mathematikteil",
+   "pruefungsfach": "mathematik",
+   "art": "themenbaum"
+  },
+  {
+   "id": "textverstaendnis-einsiedeln",
+   "name": "Deutsch Textverständnis",
+   "kurzname": "Textverständnis",
+   "untertitel": "Lesen und verstehen",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "sprache-einsiedeln",
+   "name": "Deutsch Sprache im Fokus",
+   "kurzname": "Sprache im Fokus",
+   "untertitel": "Wortschatz · Grammatik · Rechtschreibung",
+   "pruefungsfach": "deutsch",
+   "art": "themenbaum"
+  },
+  {
+   "id": "englisch-muendlich-sz",
+   "name": "Englisch mündlich",
+   "kurzname": "Mündlich",
+   "untertitel": "Zehn Minuten Einzelprüfung",
+   "pruefungsfach": "englisch",
+   "art": "tipps"
+  },
+  {
+   "id": "franzoesisch-muendlich-sz",
+   "name": "Französisch mündlich",
+   "kurzname": "Mündlich",
+   "untertitel": "Zehn Minuten Einzelprüfung",
+   "pruefungsfach": "franzoesisch",
+   "art": "tipps"
+  }
+ ]
+}

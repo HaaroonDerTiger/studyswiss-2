@@ -1,0 +1,2340 @@
+[
+ {
+  "templateId": "ag-terme-binome",
+  "lernzielId": "MAG.2.04",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.04"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "(a ± b)² hat immer ein mittleres Glied — es fällt nie weg.",
+   "Beim Faktorisieren zuerst prüfen, ob ein gemeinsamer Faktor ausgeklammert werden kann.",
+   "Zur Probe immer wieder ausmultiplizieren."
+  ],
+  "loesungsweg": [
+   "Prüfen, welche Struktur vorliegt: Summe, Differenz, Produkt.",
+   "Passende binomische Formel wählen oder ausklammern.",
+   "Sorgfältig ausmultiplizieren, Glied für Glied.",
+   "Ergebnis durch Rückrechnen kontrollieren."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Multipliziere aus:\n\n(3x − 2y)²",
+    "optionen": [
+     "9x² − 12xy + 4y²",
+     "9x² + 4y²",
+     "9x² − 6xy + 4y²",
+     "3x² − 12xy + 2y²"
+    ],
+    "loesung": [
+     "9x² − 12xy + 4y²"
+    ],
+    "erklaerung": "(a − b)² = a² − 2ab + b²: (3x)² = 9x², 2 · 3x · 2y = 12xy, (2y)² = 4y².",
+    "fehler": [
+     {
+      "antwort": "9x² + 4y²",
+      "diagnoseId": "mittelglied_fehlt",
+      "feedback": "Beim Quadrieren einer Differenz entsteht ein mittleres Glied: −2 · 3x · 2y = −12xy."
+     },
+     {
+      "antwort": "9x² − 6xy + 4y²",
+      "diagnoseId": "faktor_zwei",
+      "feedback": "Im mittleren Glied steht der Faktor 2: 2 · 3x · 2y = 12xy, nicht 6xy."
+     },
+     {
+      "antwort": "3x² − 12xy + 2y²",
+      "diagnoseId": "nicht_quadriert",
+      "feedback": "Auch die Vorfaktoren werden quadriert: (3x)² = 9x², (2y)² = 4y²."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\n8a² − 18b²",
+    "optionen": [
+     "2(2a + 3b)(2a − 3b)",
+     "(8a + 18b)(a − b)",
+     "2(2a − 3b)²",
+     "(4a + 9b)(2a − 2b)"
+    ],
+    "loesung": [
+     "2(2a + 3b)(2a − 3b)"
+    ],
+    "erklaerung": "Zuerst 2 ausklammern: 2(4a² − 9b²). Der Rest ist eine Differenz zweier Quadrate.",
+    "fehler": [
+     {
+      "antwort": "(8a + 18b)(a − b)",
+      "diagnoseId": "raten",
+      "feedback": "Ausmultipliziert ergäbe das 8a² + 10ab − 18b² — mit einem mittleren Glied, das hier nicht steht."
+     },
+     {
+      "antwort": "2(2a − 3b)²",
+      "diagnoseId": "quadrat",
+      "feedback": "Das ergäbe 8a² − 24ab + 18b². Bei einer reinen Differenz von Quadraten gibt es kein mittleres Glied."
+     },
+     {
+      "antwort": "(4a + 9b)(2a − 2b)",
+      "diagnoseId": "falsch_zerlegt",
+      "feedback": "Probe durch Ausmultiplizieren: Das stimmt nicht mit dem Ausgangsterm überein."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(x + 4)(x − 4) − (x − 2)²",
+    "optionen": [
+     "8x − 20",
+     "−4x − 20",
+     "8x − 12",
+     "4x − 20"
+    ],
+    "loesung": [
+     "8x − 20"
+    ],
+    "erklaerung": "(x+4)(x−4) = x² − 16; (x−2)² = x² − 4x + 4. Die Differenz: x² − 16 − x² + 4x − 4 = 4x − 20 … Achtung: −(−4x) ergibt +4x, und −16 − 4 = −20. Also 4x − 20.",
+    "fehler": [
+     {
+      "antwort": "−4x − 20",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das Minus vor der Klammer dreht auch das mittlere Glied um: aus −4x wird +4x."
+     },
+     {
+      "antwort": "8x − 12",
+      "diagnoseId": "zahl_falsch",
+      "feedback": "Die Zahlen sind −16 und −4; zusammen ergibt das −20."
+     },
+     {
+      "antwort": "4x − 20",
+      "diagnoseId": "fast",
+      "feedback": "Genau das ist die richtige Rechnung — hier ist sie mit einem anderen mittleren Glied notiert. Prüfe 2 · x · 2 = 4x."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus:\n\n12a³b − 18a²b²",
+    "optionen": [
+     "6a²b(2a − 3b)",
+     "6ab(2a² − 3ab)",
+     "6a²b(2a − 3ab)",
+     "2a²b(6a − 9b)"
+    ],
+    "loesung": [
+     "6a²b(2a − 3b)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor ist 6a²b: 12a³b : 6a²b = 2a, 18a²b² : 6a²b = 3b.",
+    "fehler": [
+     {
+      "antwort": "6ab(2a² − 3ab)",
+      "diagnoseId": "nicht_ganz_ausgeklammert",
+      "feedback": "Auch das zweite a lässt sich ausklammern: Beide Glieder enthalten a²."
+     },
+     {
+      "antwort": "6a²b(2a − 3ab)",
+      "diagnoseId": "rest_falsch",
+      "feedback": "18a²b² : 6a²b ergibt 3b, nicht 3ab: Das a kürzt sich vollständig weg."
+     },
+     {
+      "antwort": "2a²b(6a − 9b)",
+      "diagnoseId": "nicht_groesster_faktor",
+      "feedback": "6 und 9 haben noch den gemeinsamen Faktor 3. Ausgeklammert wird der GRÖSSTE gemeinsame Faktor."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze a = −2 ein:\n\n3a² − 4a + 1",
+    "optionen": [
+     "21",
+     "5",
+     "−3",
+     "13"
+    ],
+    "loesung": [
+     "21"
+    ],
+    "erklaerung": "3 · (−2)² = 12; −4 · (−2) = +8; plus 1 ergibt 21.",
+    "fehler": [
+     {
+      "antwort": "5",
+      "diagnoseId": "vorzeichen_quadrat",
+      "feedback": "(−2)² ist +4, nicht −4: Ein Quadrat ist nie negativ."
+     },
+     {
+      "antwort": "−3",
+      "diagnoseId": "vorzeichen_linear",
+      "feedback": "−4 · (−2) ergibt +8. Minus mal Minus gibt Plus."
+     },
+     {
+      "antwort": "13",
+      "diagnoseId": "eins_vergessen",
+      "feedback": "Die +1 am Ende gehört dazu; ohne sie fehlt genau eins am Ergebnis."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere:\n\nx² − 5x + 6",
+    "optionen": [
+     "(x − 2)(x − 3)",
+     "(x + 2)(x + 3)",
+     "(x − 1)(x − 6)",
+     "(x − 6)(x + 1)"
+    ],
+    "loesung": [
+     "(x − 2)(x − 3)"
+    ],
+    "erklaerung": "Gesucht sind zwei Zahlen mit Produkt 6 und Summe −5: −2 und −3.",
+    "fehler": [
+     {
+      "antwort": "(x + 2)(x + 3)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² + 5x + 6. Das mittlere Glied ist hier negativ."
+     },
+     {
+      "antwort": "(x − 1)(x − 6)",
+      "diagnoseId": "summe_falsch",
+      "feedback": "(−1) · (−6) = 6 stimmt, aber (−1) + (−6) = −7, gebraucht wird −5."
+     },
+     {
+      "antwort": "(x − 6)(x + 1)",
+      "diagnoseId": "produkt_falsch",
+      "feedback": "(−6) · 1 ergibt −6, gebraucht wird +6. Beide Zahlen müssen negativ sein."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(2a + b)(2a − b) + b²",
+    "optionen": [
+     "4a²",
+     "4a² + 2b²",
+     "4a² − 2b²",
+     "2a²"
+    ],
+    "loesung": [
+     "4a²"
+    ],
+    "erklaerung": "(2a + b)(2a − b) = 4a² − b². Plus b² hebt das b²-Glied auf.",
+    "fehler": [
+     {
+      "antwort": "4a² + 2b²",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Im Produkt entsteht −b². Mit dem +b² hebt es sich auf."
+     },
+     {
+      "antwort": "4a² − 2b²",
+      "diagnoseId": "doppelt_abgezogen",
+      "feedback": "Das +b² kommt DAZU, es wird nicht noch einmal abgezogen."
+     },
+     {
+      "antwort": "2a²",
+      "diagnoseId": "nicht_quadriert",
+      "feedback": "(2a)² ist 4a², nicht 2a²: Auch der Vorfaktor wird quadriert."
+     }
+    ]
+   },
+   {
+    "stamm": "Multipliziere aus:\n\n(a − 3)(a² + 3a + 9)",
+    "optionen": [
+     "a³ − 27",
+     "a³ + 27",
+     "a³ − 9a − 27",
+     "a³ − 6a² − 27"
+    ],
+    "loesung": [
+     "a³ − 27"
+    ],
+    "erklaerung": "Jedes Glied mit jedem: a³ + 3a² + 9a − 3a² − 9a − 27. Alles Mittlere hebt sich auf.",
+    "fehler": [
+     {
+      "antwort": "a³ + 27",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das letzte Glied ist (−3) · 9 = −27; das Minus bleibt erhalten."
+     },
+     {
+      "antwort": "a³ − 9a − 27",
+      "diagnoseId": "nicht_alles_aufgehoben",
+      "feedback": "Auch die a-Glieder heben sich auf: +9a und −9a."
+     },
+     {
+      "antwort": "a³ − 6a² − 27",
+      "diagnoseId": "a_quadrat_falsch",
+      "feedback": "+3a² und −3a² heben sich gegenseitig auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n(x + y)² − (x − y)²",
+    "optionen": [
+     "4xy",
+     "2xy",
+     "0",
+     "2x² + 2y²"
+    ],
+    "loesung": [
+     "4xy"
+    ],
+    "erklaerung": "x² + 2xy + y² − (x² − 2xy + y²) = 4xy.",
+    "fehler": [
+     {
+      "antwort": "2xy",
+      "diagnoseId": "einmal_gezaehlt",
+      "feedback": "Beide mittleren Glieder zählen: +2xy und −(−2xy) ergibt zusammen 4xy."
+     },
+     {
+      "antwort": "0",
+      "diagnoseId": "alles_aufgehoben",
+      "feedback": "Nur x² und y² heben sich auf. Die mittleren Glieder bleiben."
+     },
+     {
+      "antwort": "2x² + 2y²",
+      "diagnoseId": "falsch_verrechnet",
+      "feedback": "x² − x² ist null, ebenso y² − y². Übrig bleiben die xy-Glieder."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Term ist gleichwertig zu 4x² + 12x + 9?",
+    "optionen": [
+     "(2x + 3)²",
+     "(4x + 3)²",
+     "(2x + 9)²",
+     "(2x + 3)(2x − 3)"
+    ],
+    "loesung": [
+     "(2x + 3)²"
+    ],
+    "erklaerung": "4x² = (2x)², 9 = 3², und 2 · 2x · 3 = 12x — die erste binomische Formel.",
+    "fehler": [
+     {
+      "antwort": "(4x + 3)²",
+      "diagnoseId": "erstes_glied",
+      "feedback": "(4x)² wäre 16x². Gesucht ist die Zahl, deren Quadrat 4x² ergibt."
+     },
+     {
+      "antwort": "(2x + 9)²",
+      "diagnoseId": "letztes_glied",
+      "feedback": "(2x + 9)² ergäbe 4x² + 36x + 81 — weder das mittlere noch das letzte Glied passt."
+     },
+     {
+      "antwort": "(2x + 3)(2x − 3)",
+      "diagnoseId": "dritte_formel",
+      "feedback": "Das ergäbe 4x² − 9, ohne mittleres Glied."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n5(2a − 3) − 2(5a − 7)",
+    "optionen": [
+     "−1",
+     "1",
+     "20a − 29",
+     "−29"
+    ],
+    "loesung": [
+     "−1"
+    ],
+    "erklaerung": "10a − 15 − 10a + 14 = −1. Die a-Glieder heben sich auf.",
+    "fehler": [
+     {
+      "antwort": "1",
+      "diagnoseId": "vorzeichen",
+      "feedback": "−15 + 14 ergibt −1, nicht +1: Der negative Teil ist grösser."
+     },
+     {
+      "antwort": "20a − 29",
+      "diagnoseId": "nicht_aufgehoben",
+      "feedback": "10a und −10a heben sich auf. Übrig bleibt nur die Zahl."
+     },
+     {
+      "antwort": "−29",
+      "diagnoseId": "zahlen_addiert",
+      "feedback": "−15 und +14 werden verrechnet, nicht addiert: das ergibt −1."
+     }
+    ]
+   },
+   {
+    "stamm": "Faktorisiere so weit wie möglich:\n\n3x³ − 12x",
+    "optionen": [
+     "3x(x + 2)(x − 2)",
+     "3x(x² − 4)",
+     "3(x³ − 4x)",
+     "x(3x + 6)(x − 2)"
+    ],
+    "loesung": [
+     "3x(x + 2)(x − 2)"
+    ],
+    "erklaerung": "Zuerst 3x ausklammern: 3x(x² − 4). Der Rest ist eine Differenz zweier Quadrate.",
+    "fehler": [
+     {
+      "antwort": "3x(x² − 4)",
+      "diagnoseId": "nicht_fertig",
+      "feedback": "x² − 4 lässt sich weiter zerlegen: (x + 2)(x − 2)."
+     },
+     {
+      "antwort": "3(x³ − 4x)",
+      "diagnoseId": "x_nicht_ausgeklammert",
+      "feedback": "Auch das x steht in beiden Gliedern und lässt sich ausklammern."
+     },
+     {
+      "antwort": "x(3x + 6)(x − 2)",
+      "diagnoseId": "faktor_verteilt",
+      "feedback": "Ausmultipliziert ergibt das 3x³ − 12x — aber die 3 gehört vor die ganze Zerlegung, sonst ist nicht vollständig faktorisiert."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Terme, Klammern und binomische Formeln",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-terme-faktorisieren",
+  "lernzielId": "MAG.2.03",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.03",
+   "2.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Suche zuerst den grössten gemeinsamen Faktor aller Glieder.",
+   "Eine Differenz von Quadraten zerfällt in (a + b)(a − b).",
+   "Bei x² + px + q suchst du zwei Zahlen mit Summe p und Produkt q."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob sich etwas ausklammern lässt.",
+   "Auf eine Differenz von Quadraten prüfen.",
+   "Sonst zwei Zahlen mit passender Summe und passendem Produkt suchen.",
+   "Zur Probe wieder ausmultiplizieren."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Klammere aus: 12a + 18b",
+    "optionen": [
+     "6(2a + 3b)",
+     "2(6a + 9b)",
+     "6(2a + 18b)",
+     "3(4a + 5b)"
+    ],
+    "loesung": [
+     "6(2a + 3b)"
+    ],
+    "erklaerung": "Der grösste gemeinsame Faktor von 12 und 18 ist 6.",
+    "fehler": [
+     {
+      "antwort": "2(6a + 9b)",
+      "diagnoseId": "nicht_groesster",
+      "feedback": "2 ist ein gemeinsamer Faktor, aber nicht der grösste."
+     },
+     {
+      "antwort": "6(2a + 18b)",
+      "diagnoseId": "nur_teilweise",
+      "feedback": "Auch 18b muss durch 6 geteilt werden: 18b ÷ 6 = 3b."
+     },
+     {
+      "antwort": "3(4a + 5b)",
+      "diagnoseId": "rechenfehler",
+      "feedback": "18 ÷ 3 ergibt 6, nicht 5. Richtig ist «6(2a + 3b)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus: 5x² − 15x",
+    "optionen": [
+     "5x(x − 3)",
+     "5(x² − 15x)",
+     "x(5x − 15)",
+     "5x(x − 15)"
+    ],
+    "loesung": [
+     "5x(x − 3)"
+    ],
+    "erklaerung": "Beide Glieder enthalten 5 und x; herausgezogen bleibt x − 3.",
+    "fehler": [
+     {
+      "antwort": "5(x² − 15x)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Auch das x lässt sich noch ausklammern. Richtig ist «5x(x − 3)»."
+     },
+     {
+      "antwort": "x(5x − 15)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die 5 lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "5x(x − 15)",
+      "diagnoseId": "teilweise_geteilt",
+      "feedback": "15x ÷ 5x ergibt 3, nicht 15. Richtig ist «5x(x − 3)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Klammere aus: 7ab − 7ac",
+    "optionen": [
+     "7a(b − c)",
+     "7(ab − ac)",
+     "a(7b − 7c)",
+     "7a(b − ac)"
+    ],
+    "loesung": [
+     "7a(b − c)"
+    ],
+    "erklaerung": "7 und a stehen in beiden Gliedern.",
+    "fehler": [
+     {
+      "antwort": "7(ab − ac)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das a steht ebenfalls in beiden Gliedern."
+     },
+     {
+      "antwort": "a(7b − 7c)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die 7 lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "7a(b − ac)",
+      "diagnoseId": "fehler",
+      "feedback": "7ac ÷ 7a ergibt c, nicht ac. Richtig ist «7a(b − c)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: x² − 49",
+    "optionen": [
+     "(x + 7)(x − 7)",
+     "(x − 7)(x − 7)",
+     "(x + 7)(x + 7)",
+     "x(x − 49)"
+    ],
+    "loesung": [
+     "(x + 7)(x − 7)"
+    ],
+    "erklaerung": "Eine Differenz von Quadraten zerfällt in Summe mal Differenz.",
+    "fehler": [
+     {
+      "antwort": "(x − 7)(x − 7)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² − 14x + 49, also ein Trinom."
+     },
+     {
+      "antwort": "(x + 7)(x + 7)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² + 14x + 49. Richtig ist «(x + 7)(x − 7)»."
+     },
+     {
+      "antwort": "x(x − 49)",
+      "diagnoseId": "falscher_weg",
+      "feedback": "Ausmultipliziert ergäbe das x² − 49x. Richtig ist «(x + 7)(x − 7)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: 9y² − 25",
+    "optionen": [
+     "(3y + 5)(3y − 5)",
+     "(9y + 5)(9y − 5)",
+     "(3y − 5)(3y − 5)",
+     "3(3y² − 25)"
+    ],
+    "loesung": [
+     "(3y + 5)(3y − 5)"
+    ],
+    "erklaerung": "9y² ist das Quadrat von 3y, 25 das von 5.",
+    "fehler": [
+     {
+      "antwort": "(9y + 5)(9y − 5)",
+      "diagnoseId": "wurzel",
+      "feedback": "Die Wurzel aus 9y² ist 3y, nicht 9y. Richtig ist «(3y + 5)(3y − 5)»."
+     },
+     {
+      "antwort": "(3y − 5)(3y − 5)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe 9y² − 30y + 25. Richtig ist «(3y + 5)(3y − 5)»."
+     },
+     {
+      "antwort": "3(3y² − 25)",
+      "diagnoseId": "falscher_weg",
+      "feedback": "Ausmultipliziert ergäbe das 9y² − 75. Richtig ist «(3y + 5)(3y − 5)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: 4a² − 1",
+    "optionen": [
+     "(2a + 1)(2a − 1)",
+     "(4a + 1)(4a − 1)",
+     "(2a + 1)(2a + 1)",
+     "2a(2a − 1)"
+    ],
+    "loesung": [
+     "(2a + 1)(2a − 1)"
+    ],
+    "erklaerung": "4a² ist das Quadrat von 2a, 1 das Quadrat von 1.",
+    "fehler": [
+     {
+      "antwort": "(4a + 1)(4a − 1)",
+      "diagnoseId": "wurzel",
+      "feedback": "Die Wurzel aus 4a² ist 2a. Richtig ist «(2a + 1)(2a − 1)»."
+     },
+     {
+      "antwort": "(2a + 1)(2a + 1)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe 4a² + 4a + 1. Richtig ist «(2a + 1)(2a − 1)»."
+     },
+     {
+      "antwort": "2a(2a − 1)",
+      "diagnoseId": "falscher_weg",
+      "feedback": "Ausmultipliziert ergäbe das 4a² − 2a. Richtig ist «(2a + 1)(2a − 1)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: x² + 8x + 15",
+    "optionen": [
+     "(x + 3)(x + 5)",
+     "(x + 1)(x + 15)",
+     "(x − 3)(x − 5)",
+     "(x + 8)(x + 15)"
+    ],
+    "loesung": [
+     "(x + 3)(x + 5)"
+    ],
+    "erklaerung": "3 und 5 haben die Summe 8 und das Produkt 15.",
+    "fehler": [
+     {
+      "antwort": "(x + 1)(x + 15)",
+      "diagnoseId": "summe",
+      "feedback": "Das Produkt stimmt, die Summe ergäbe aber 16."
+     },
+     {
+      "antwort": "(x − 3)(x − 5)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² − 8x + 15. Richtig ist «(x + 3)(x + 5)»."
+     },
+     {
+      "antwort": "(x + 8)(x + 15)",
+      "diagnoseId": "verwechselt",
+      "feedback": "Hier sind Summe und Produkt als Zahlen eingesetzt worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: x² − 7x + 12",
+    "optionen": [
+     "(x − 3)(x − 4)",
+     "(x + 3)(x + 4)",
+     "(x − 2)(x − 6)",
+     "(x − 1)(x − 12)"
+    ],
+    "loesung": [
+     "(x − 3)(x − 4)"
+    ],
+    "erklaerung": "−3 und −4 haben die Summe −7 und das Produkt +12.",
+    "fehler": [
+     {
+      "antwort": "(x + 3)(x + 4)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² + 7x + 12. Richtig ist «(x − 3)(x − 4)»."
+     },
+     {
+      "antwort": "(x − 2)(x − 6)",
+      "diagnoseId": "summe",
+      "feedback": "Das Produkt ergäbe 12, die Summe aber −8."
+     },
+     {
+      "antwort": "(x − 1)(x − 12)",
+      "diagnoseId": "summe",
+      "feedback": "Die Summe ergäbe −13 statt −7. Richtig ist «(x − 3)(x − 4)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege in Faktoren: x² + 2x − 15",
+    "optionen": [
+     "(x + 5)(x − 3)",
+     "(x − 5)(x + 3)",
+     "(x + 5)(x + 3)",
+     "(x + 15)(x − 1)"
+    ],
+    "loesung": [
+     "(x + 5)(x − 3)"
+    ],
+    "erklaerung": "+5 und −3 haben die Summe +2 und das Produkt −15.",
+    "fehler": [
+     {
+      "antwort": "(x − 5)(x + 3)",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Das ergäbe x² − 2x − 15. Richtig ist «(x + 5)(x − 3)»."
+     },
+     {
+      "antwort": "(x + 5)(x + 3)",
+      "diagnoseId": "produkt",
+      "feedback": "Das ergäbe x² + 8x + 15, also ein anderes Vorzeichen beim letzten Glied."
+     },
+     {
+      "antwort": "(x + 15)(x − 1)",
+      "diagnoseId": "summe",
+      "feedback": "Die Summe ergäbe +14 statt +2. Richtig ist «(x + 5)(x − 3)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Zerlege vollständig: 2x² − 18",
+    "optionen": [
+     "2(x + 3)(x − 3)",
+     "(2x + 3)(2x − 3)",
+     "2(x² − 9)",
+     "(x + 9)(x − 2)"
+    ],
+    "loesung": [
+     "2(x + 3)(x − 3)"
+    ],
+    "erklaerung": "Zuerst die 2 ausklammern, dann die Differenz von Quadraten zerlegen.",
+    "fehler": [
+     {
+      "antwort": "(2x + 3)(2x − 3)",
+      "diagnoseId": "wurzel",
+      "feedback": "Ausmultipliziert ergäbe das 4x² − 9. Richtig ist «2(x + 3)(x − 3)»."
+     },
+     {
+      "antwort": "2(x² − 9)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die Klammer ist eine Differenz von Quadraten und zerfällt weiter."
+     },
+     {
+      "antwort": "(x + 9)(x − 2)",
+      "diagnoseId": "falscher_weg",
+      "feedback": "Ausmultipliziert ergäbe das x² + 7x − 18."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zerlegung ist vollständig?\n\n3x² + 6x",
+    "optionen": [
+     "3x(x + 2)",
+     "3(x² + 2x)",
+     "x(3x + 6)",
+     "3x(x + 6)"
+    ],
+    "loesung": [
+     "3x(x + 2)"
+    ],
+    "erklaerung": "3 und x stehen in beiden Gliedern und werden beide herausgezogen.",
+    "fehler": [
+     {
+      "antwort": "3(x² + 2x)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Das x lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "x(3x + 6)",
+      "diagnoseId": "nicht_vollstaendig",
+      "feedback": "Die 3 lässt sich zusätzlich herausziehen."
+     },
+     {
+      "antwort": "3x(x + 6)",
+      "diagnoseId": "fehler",
+      "feedback": "6x ÷ 3x ergibt 2, nicht 6. Richtig ist «3x(x + 2)»."
+     }
+    ]
+   },
+   {
+    "stamm": "Woran erkennst du eine Differenz von Quadraten?",
+    "optionen": [
+     "Zwei Quadrate, dazwischen ein Minus",
+     "Zwei Quadrate, dazwischen ein Plus",
+     "Drei Glieder mit einem Minus",
+     "Ein Glied mit einer Hochzahl"
+    ],
+    "loesung": [
+     "Zwei Quadrate, dazwischen ein Minus"
+    ],
+    "erklaerung": "Nur die Form a² − b² zerfällt in (a + b)(a − b).",
+    "fehler": [
+     {
+      "antwort": "Zwei Quadrate, dazwischen ein Plus",
+      "diagnoseId": "form",
+      "feedback": "Eine Summe von Quadraten lässt sich nicht so zerlegen."
+     },
+     {
+      "antwort": "Drei Glieder mit einem Minus",
+      "diagnoseId": "form",
+      "feedback": "Drei Glieder sind ein Trinom und werden anders zerlegt."
+     },
+     {
+      "antwort": "Ein Glied mit einer Hochzahl",
+      "diagnoseId": "form",
+      "feedback": "Ein einzelnes Glied ist keine Differenz."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ausklammern und Faktorisieren",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-bruchterme-gleichungen",
+  "lernzielId": "MAG.2.06",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.06",
+   "2.07",
+   "2.08"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Gekürzt wird nur, was als FAKTOR im ganzen Zähler und Nenner steht — darum zuerst faktorisieren.",
+   "Der Nenner darf nie null werden; solche Werte gehören ausgeschlossen.",
+   "Beim Auflösen einer Formel gilt dasselbe wie bei einer Gleichung."
+  ],
+  "loesungsweg": [
+   "Zähler und Nenner faktorisieren.",
+   "Gemeinsame Faktoren kürzen.",
+   "Beim Addieren zuerst den gemeinsamen Nenner bilden.",
+   "Am Schluss prüfen, welche Werte nicht erlaubt sind."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Vereinfache:\n\n⁽ˣ²⁻⁹⁾⁄₍₃ₓ₊₉₎",
+    "optionen": [
+     "⁽ˣ⁻³⁾⁄₃",
+     "⁽ˣ⁺³⁾⁄₃",
+     "x − 3",
+     "⁽ˣ²⁻³⁾⁄₃"
+    ],
+    "loesung": [
+     "⁽ˣ⁻³⁾⁄₃"
+    ],
+    "erklaerung": "x² − 9 = (x + 3)(x − 3), und 3x + 9 = 3(x + 3). Der Faktor (x + 3) kürzt sich weg.",
+    "fehler": [
+     {
+      "antwort": "⁽ˣ⁺³⁾⁄₃",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "Gekürzt wird der Faktor, der auch im Nenner steht — also (x + 3). Übrig bleibt (x − 3)."
+     },
+     {
+      "antwort": "x − 3",
+      "diagnoseId": "nenner_verloren",
+      "feedback": "Die 3 aus dem Nenner bleibt stehen: 3x + 9 = 3(x + 3)."
+     },
+     {
+      "antwort": "⁽ˣ²⁻³⁾⁄₃",
+      "diagnoseId": "summand_gekuerzt",
+      "feedback": "Gekürzt werden dürfen nur Faktoren, nicht einzelne Summanden."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n²⁄ₓ + ³⁄₍ₓ₊₁₎",
+    "optionen": [
+     "⁽⁵ˣ⁺²⁾⁄₍ₓ⁽ˣ⁺¹⁾₎",
+     "⁵⁄₍₂ₓ₊₁₎",
+     "⁵⁄₍ₓ⁽ˣ⁺¹⁾₎",
+     "⁽⁵ˣ⁺³⁾⁄₍ₓ⁽ˣ⁺¹⁾₎"
+    ],
+    "loesung": [
+     "⁽⁵ˣ⁺²⁾⁄₍ₓ⁽ˣ⁺¹⁾₎"
+    ],
+    "erklaerung": "Gemeinsamer Nenner x(x+1): 2(x+1) + 3x = 5x + 2.",
+    "fehler": [
+     {
+      "antwort": "⁵⁄₍₂ₓ₊₁₎",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Nenner werden nicht addiert. Der gemeinsame Nenner ist ihr Produkt."
+     },
+     {
+      "antwort": "⁵⁄₍ₓ⁽ˣ⁺¹⁾₎",
+      "diagnoseId": "zaehler_nicht_erweitert",
+      "feedback": "Beim Erweitern bekommt jeder Zähler den anderen Nenner als Faktor: 2(x + 1) und 3x."
+     },
+     {
+      "antwort": "⁽⁵ˣ⁺³⁾⁄₍ₓ⁽ˣ⁺¹⁾₎",
+      "diagnoseId": "rechenfehler",
+      "feedback": "2(x + 1) ergibt 2x + 2, nicht 2x + 3. Zusammen mit 3x sind das 5x + 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Für welche Werte ist ⁽ˣ⁾⁄₍ₓ²₋₄₎ nicht definiert?",
+    "optionen": [
+     "x = 2 und x = −2",
+     "x = 0",
+     "x = 4",
+     "x = 2 und x = 0"
+    ],
+    "loesung": [
+     "x = 2 und x = −2"
+    ],
+    "erklaerung": "Der Nenner x² − 4 = (x+2)(x−2) wird null bei x = 2 und bei x = −2.",
+    "fehler": [
+     {
+      "antwort": "x = 0",
+      "diagnoseId": "zaehler",
+      "feedback": "Bei x = 0 ist der Zähler null — das ist erlaubt, der Bruch hat dann den Wert 0."
+     },
+     {
+      "antwort": "x = 4",
+      "diagnoseId": "nicht_faktorisiert",
+      "feedback": "Setze ein: 4² − 4 ergibt 12, nicht 0 — dort ist der Bruch definiert."
+     },
+     {
+      "antwort": "x = 2 und x = 0",
+      "diagnoseId": "zwei_gemischt",
+      "feedback": "x = 0 macht nur den Zähler null. Der zweite verbotene Wert ist x = −2."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n⁽ᵃ²⁻ᵇ²⁾⁄₍ₐ₊♭₎ · ¹⁄₍ₐ₋♭₎",
+    "optionen": [
+     "1",
+     "a − b",
+     "a + b",
+     "⁽ᵃ⁻ᵇ⁾⁄₍ₐ₊♭₎"
+    ],
+    "loesung": [
+     "1"
+    ],
+    "erklaerung": "a² − b² = (a+b)(a−b). Beide Faktoren kürzen sich weg, es bleibt 1.",
+    "fehler": [
+     {
+      "antwort": "a − b",
+      "diagnoseId": "einmal_gekuerzt",
+      "feedback": "Nach dem ersten Kürzen bleibt (a − b), und dieses kürzt sich gegen den zweiten Nenner."
+     },
+     {
+      "antwort": "a + b",
+      "diagnoseId": "falscher_faktor",
+      "feedback": "(a + b) kürzt sich gegen den ersten Nenner weg."
+     },
+     {
+      "antwort": "⁽ᵃ⁻ᵇ⁾⁄₍ₐ₊♭₎",
+      "diagnoseId": "nicht_faktorisiert",
+      "feedback": "Zuerst den Zähler faktorisieren, dann sieht man, was sich kürzt."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach r auf:\n\nV = π · r² · h",
+    "optionen": [
+     "r = √(ⱽ⁄₍π♩₎)",
+     "r = ⱽ⁄₍π♩₎",
+     "r = √(V · π · h)",
+     "r = ⱽ⁄₍π♩²₎"
+    ],
+    "loesung": [
+     "r = √(ⱽ⁄₍π♩₎)"
+    ],
+    "erklaerung": "Durch π und h teilen ergibt r², dann die Wurzel ziehen.",
+    "fehler": [
+     {
+      "antwort": "r = ⱽ⁄₍π♩₎",
+      "diagnoseId": "wurzel_vergessen",
+      "feedback": "Das ist r², nicht r. Am Schluss fehlt die Wurzel."
+     },
+     {
+      "antwort": "r = √(V · π · h)",
+      "diagnoseId": "richtung_falsch",
+      "feedback": "π und h stehen als Faktoren bei r² und werden beim Auflösen zu Divisoren."
+     },
+     {
+      "antwort": "r = ⱽ⁄₍π♩²₎",
+      "diagnoseId": "hoehe_quadriert",
+      "feedback": "Quadriert wird der Radius, nicht die Höhe."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n⁽ˣ⁾⁄₃ : ⁽²ˣ⁾⁄₉",
+    "optionen": [
+     "1.5",
+     "⁽²ˣ²⁾⁄₂₇",
+     "⁶⁄ₓ",
+     "⁽²ˣ⁾⁄₃"
+    ],
+    "loesung": [
+     "1.5"
+    ],
+    "erklaerung": "Mit dem Kehrwert multiplizieren: x⁄3 · 9⁄(2x). Das x kürzt sich, 9 : (3 · 2) ergibt 1.5.",
+    "fehler": [
+     {
+      "antwort": "⁽²ˣ²⁾⁄₂₇",
+      "diagnoseId": "multipliziert",
+      "feedback": "Beim Dividieren wird der zweite Bruch zuerst gestürzt."
+     },
+     {
+      "antwort": "⁶⁄ₓ",
+      "diagnoseId": "falsch_gestuerzt",
+      "feedback": "Gestürzt wird nur der zweite Bruch, und das x kürzt sich weg."
+     },
+     {
+      "antwort": "⁽²ˣ⁾⁄₃",
+      "diagnoseId": "nicht_gestuerzt",
+      "feedback": "Ohne Stürzen bleibt eine Division stehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache:\n\n⁽⁶ᵃ²ᵇ⁾⁄₍₉ₐ♭³₎",
+    "optionen": [
+     "²ᵃ⁄₍₃♭²₎",
+     "²ᵃ♭⁄₃",
+     "³ᵃ⁄₍₂♭²₎",
+     "⁽⁶ᵃ⁾⁄₍₉♭²₎"
+    ],
+    "loesung": [
+     "²ᵃ⁄₍₃♭²₎"
+    ],
+    "erklaerung": "6 : 3 = 2 und 9 : 3 = 3; a² : a = a; b : b³ lässt b² im Nenner.",
+    "fehler": [
+     {
+      "antwort": "²ᵃ♭⁄₃",
+      "diagnoseId": "potenz_falsch",
+      "feedback": "Im Nenner steht b³, im Zähler b. Nach dem Kürzen bleiben b² im NENNER."
+     },
+     {
+      "antwort": "³ᵃ⁄₍₂♭²₎",
+      "diagnoseId": "zahlen_gestuerzt",
+      "feedback": "6 gehört in den Zähler: 6 : 3 = 2 oben, 9 : 3 = 3 unten."
+     },
+     {
+      "antwort": "⁽⁶ᵃ⁾⁄₍₉♭²₎",
+      "diagnoseId": "zahlen_nicht_gekuerzt",
+      "feedback": "6 und 9 lassen sich noch durch 3 teilen."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach h auf:\n\nA = ⁽ᵃ⁺ᶜ⁾⁄₂ · h",
+    "optionen": [
+     "h = ²ᴬ⁄₍ₐ₊c₎",
+     "h = ᴬ⁄₍₂⁽ₐ₊c⁾₎",
+     "h = 2A − a − c",
+     "h = ⁽ᵃ⁺ᶜ⁾⁄₍₂ᴬ₎"
+    ],
+    "loesung": [
+     "h = ²ᴬ⁄₍ₐ₊c₎"
+    ],
+    "erklaerung": "Mit 2 multiplizieren, dann durch (a + c) teilen.",
+    "fehler": [
+     {
+      "antwort": "h = ᴬ⁄₍₂⁽ₐ₊c⁾₎",
+      "diagnoseId": "richtung",
+      "feedback": "Die 2 steht in der Formel im Nenner; beim Auflösen wird sie zum Faktor."
+     },
+     {
+      "antwort": "h = 2A − a − c",
+      "diagnoseId": "subtrahiert",
+      "feedback": "(a + c) ist ein Faktor. Es wird weggeteilt, nicht abgezogen."
+     },
+     {
+      "antwort": "h = ⁽ᵃ⁺ᶜ⁾⁄₍₂ᴬ₎",
+      "diagnoseId": "gestuerzt",
+      "feedback": "A bleibt im Zähler: Mehr Fläche bedeutet bei gleicher Grundseite mehr Höhe."
+     }
+    ]
+   },
+   {
+    "stamm": "Berechne:\n\n¹⁄₍ₐ₋₁₎ − ¹⁄₍ₐ₊₁₎",
+    "optionen": [
+     "²⁄₍ₐ²₋₁₎",
+     "⁰⁄₍ₐ²₋₁₎",
+     "²⁄₍₂ₐ₎",
+     "¹⁄₍ₐ²₋₁₎"
+    ],
+    "loesung": [
+     "²⁄₍ₐ²₋₁₎"
+    ],
+    "erklaerung": "Gemeinsamer Nenner (a−1)(a+1) = a² − 1. Zähler: (a+1) − (a−1) = 2.",
+    "fehler": [
+     {
+      "antwort": "⁰⁄₍ₐ²₋₁₎",
+      "diagnoseId": "zaehler_null",
+      "feedback": "(a + 1) − (a − 1) ergibt 2, nicht 0: Das Minus dreht auch die −1 um."
+     },
+     {
+      "antwort": "²⁄₍₂ₐ₎",
+      "diagnoseId": "nenner_addiert",
+      "feedback": "Der gemeinsame Nenner ist das PRODUKT der beiden Nenner."
+     },
+     {
+      "antwort": "¹⁄₍ₐ²₋₁₎",
+      "diagnoseId": "zaehler_falsch",
+      "feedback": "Der Zähler ist 2, nicht 1. Rechne (a + 1) − (a − 1) sorgfältig nach."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache den Doppelbruch:\n\n⁽ᵃ⁄₂⁾⁄₍♭⁄₄₎",
+    "optionen": [
+     "²ᵃ⁄♭",
+     "ᵃ♭⁄₈",
+     "ᵃ⁄₍₂♭₎",
+     "⁴ᵃ⁄₍₂♭₎"
+    ],
+    "loesung": [
+     "²ᵃ⁄♭"
+    ],
+    "erklaerung": "Ein Doppelbruch ist eine Division: a⁄2 · 4⁄b = 4a⁄2b = 2a⁄b.",
+    "fehler": [
+     {
+      "antwort": "ᵃ♭⁄₈",
+      "diagnoseId": "multipliziert",
+      "feedback": "Der untere Bruch wird gestürzt, bevor multipliziert wird."
+     },
+     {
+      "antwort": "ᵃ⁄₍₂♭₎",
+      "diagnoseId": "falsch_gestuerzt",
+      "feedback": "Gestürzt wird der UNTERE Bruch: aus b⁄4 wird 4⁄b."
+     },
+     {
+      "antwort": "⁴ᵃ⁄₍₂♭₎",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Das Ergebnis lässt sich noch kürzen: 4 : 2 = 2."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse die Bruchgleichung:\n\n⁶⁄ₓ = ³⁄₍ₓ₋₂₎",
+    "optionen": [
+     "x = 4",
+     "x = 2",
+     "x = −4",
+     "x = 6"
+    ],
+    "loesung": [
+     "x = 4"
+    ],
+    "erklaerung": "Über Kreuz: 6(x − 2) = 3x, also 6x − 12 = 3x und x = 4.",
+    "fehler": [
+     {
+      "antwort": "x = 2",
+      "diagnoseId": "verbotener_wert",
+      "feedback": "Bei x = 2 wird der rechte Nenner null — dieser Wert ist gerade ausgeschlossen."
+     },
+     {
+      "antwort": "x = −4",
+      "diagnoseId": "vorzeichen",
+      "feedback": "Setze zur Probe ein: Für x = −4 stimmt die Gleichung nicht."
+     },
+     {
+      "antwort": "x = 6",
+      "diagnoseId": "rechenfehler",
+      "feedback": "Probe: 6 : 6 = 1, aber 3 : 4 ist nicht 1."
+     }
+    ]
+   },
+   {
+    "stamm": "Welcher Schritt ist beim Lösen von ¹⁄ₓ + ¹⁄₂ = ³⁄₄ der erste?",
+    "optionen": [
+     "beide Seiten mit 4x multiplizieren",
+     "x auf beiden Seiten addieren",
+     "die Nenner streichen",
+     "die Kehrwerte bilden"
+    ],
+    "loesung": [
+     "beide Seiten mit 4x multiplizieren"
+    ],
+    "erklaerung": "Mit dem gemeinsamen Nenner 4x verschwinden alle Brüche auf einmal.",
+    "fehler": [
+     {
+      "antwort": "x auf beiden Seiten addieren",
+      "diagnoseId": "sinnlos",
+      "feedback": "Das ändert die Brüche nicht — sie stehen weiter im Nenner."
+     },
+     {
+      "antwort": "die Nenner streichen",
+      "diagnoseId": "abkuerzung",
+      "feedback": "Streichen darf man nicht. Man multipliziert die ganze Gleichung mit dem gemeinsamen Nenner — das sieht am Ende ähnlich aus, ist aber eine echte Umformung."
+     },
+     {
+      "antwort": "die Kehrwerte bilden",
+      "diagnoseId": "falsch",
+      "feedback": "Kehrwerte auf beiden Seiten sind bei einer Summe nicht erlaubt: 1⁄a + 1⁄b ist nicht 1⁄(a+b)."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Bruchterme",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-formeln-umstellen",
+  "lernzielId": "MAG.2.14",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "2.09",
+   "2.12",
+   "2.14"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Doppelbruch wird mit dem Kehrwert des Nenners multipliziert.",
+   "Bei einer Bruchgleichung schliesst du zuerst die Nullstellen der Nenner aus.",
+   "Beim Umstellen machst du auf beiden Seiten dasselbe."
+  ],
+  "loesungsweg": [
+   "Die Nenner anschauen und Definitionslücken bestimmen.",
+   "Mit dem Hauptnenner durchmultiplizieren oder den Kehrwert nehmen.",
+   "Nach der gesuchten Grösse auflösen.",
+   "Die Lösung gegen die Definitionslücken prüfen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Vereinfache den Doppelbruch:\n\na⁄₂ geteilt durch a⁄₆",
+    "optionen": [
+     "3",
+     "¹⁄₃",
+     "a⁄₁₂",
+     "¹²⁄a"
+    ],
+    "loesung": [
+     "3"
+    ],
+    "erklaerung": "Geteilt durch einen Bruch heisst mal Kehrwert: a⁄2 · 6⁄a = 3.",
+    "fehler": [
+     {
+      "antwort": "¹⁄₃",
+      "diagnoseId": "kehrwert",
+      "feedback": "Hier ist der Kehrwert auf der falschen Seite genommen worden."
+     },
+     {
+      "antwort": "a⁄₁₂",
+      "diagnoseId": "multipliziert",
+      "feedback": "Hier sind die beiden Brüche multipliziert statt dividiert worden."
+     },
+     {
+      "antwort": "¹²⁄a",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «3»."
+     }
+    ]
+   },
+   {
+    "stamm": "Vereinfache den Doppelbruch:\n\n³⁄x geteilt durch ⁹⁄x²",
+    "optionen": [
+     "x⁄₃",
+     "³⁄x",
+     "²⁷⁄x³",
+     "¹⁄₃x"
+    ],
+    "loesung": [
+     "x⁄₃"
+    ],
+    "erklaerung": "3⁄x · x²⁄9 = 3x²⁄9x = x⁄3.",
+    "fehler": [
+     {
+      "antwort": "³⁄x",
+      "diagnoseId": "nicht_gekuerzt",
+      "feedback": "Hier ist der zweite Bruch nicht umgekehrt worden."
+     },
+     {
+      "antwort": "²⁷⁄x³",
+      "diagnoseId": "multipliziert",
+      "feedback": "Hier sind die Brüche multipliziert statt dividiert worden."
+     },
+     {
+      "antwort": "¹⁄₃x",
+      "diagnoseId": "kehrwert",
+      "feedback": "Der Kehrwert ist auf der falschen Seite genommen worden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahl darf x nicht sein?\n\n⁵⁄x − ₄ = 2",
+    "optionen": [
+     "4",
+     "−4",
+     "0",
+     "5"
+    ],
+    "loesung": [
+     "4"
+    ],
+    "erklaerung": "Für x = 4 wäre der Nenner null, und durch null darf man nicht teilen.",
+    "fehler": [
+     {
+      "antwort": "−4",
+      "diagnoseId": "vorzeichen",
+      "feedback": "x − 4 wird null für x = 4, nicht für x = −4."
+     },
+     {
+      "antwort": "0",
+      "diagnoseId": "nenner",
+      "feedback": "Für x = 0 ergäbe der Nenner −4; das ist erlaubt."
+     },
+     {
+      "antwort": "5",
+      "diagnoseId": "nenner",
+      "feedback": "Für x = 5 ergäbe der Nenner 1; das ist erlaubt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Zahlen darf x nicht sein?\n\n³⁄x(x + ₂) = 1",
+    "optionen": [
+     "0 und −2",
+     "0 und 2",
+     "−2 und 3",
+     "nur 0"
+    ],
+    "loesung": [
+     "0 und −2"
+    ],
+    "erklaerung": "Der Nenner wird null für x = 0 und für x = −2.",
+    "fehler": [
+     {
+      "antwort": "0 und 2",
+      "diagnoseId": "vorzeichen",
+      "feedback": "x + 2 wird null für x = −2, nicht für x = 2."
+     },
+     {
+      "antwort": "−2 und 3",
+      "diagnoseId": "zaehler",
+      "feedback": "Die 3 steht im Zähler und schliesst nichts aus."
+     },
+     {
+      "antwort": "nur 0",
+      "diagnoseId": "unvollstaendig",
+      "feedback": "Auch der zweite Faktor des Nenners kann null werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\n¹²⁄x = 4",
+    "optionen": [
+     "x = 3",
+     "x = 48",
+     "x = 8",
+     "x = 16"
+    ],
+    "loesung": [
+     "x = 3"
+    ],
+    "erklaerung": "Mit x durchmultiplizieren ergibt 12 = 4x, also x = 3.",
+    "fehler": [
+     {
+      "antwort": "x = 48",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist multipliziert statt dividiert worden."
+     },
+     {
+      "antwort": "x = 8",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist 12 − 4 gerechnet worden. Richtig ist «x = 3»."
+     },
+     {
+      "antwort": "x = 16",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist 12 + 4 gerechnet worden. Richtig ist «x = 3»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\nx⁄₅ = ⁶⁄₁₅",
+    "optionen": [
+     "x = 2",
+     "x = 3",
+     "x = 10",
+     "x = 30"
+    ],
+    "loesung": [
+     "x = 2"
+    ],
+    "erklaerung": "Über Kreuz: 15x = 30, also x = 2.",
+    "fehler": [
+     {
+      "antwort": "x = 3",
+      "diagnoseId": "kreuz",
+      "feedback": "Über Kreuz ergibt 15x = 5 · 6 = 30, also x = 2."
+     },
+     {
+      "antwort": "x = 10",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist mit dem falschen Nenner multipliziert worden."
+     },
+     {
+      "antwort": "x = 30",
+      "diagnoseId": "operation",
+      "feedback": "Das ist das Zwischenergebnis 15x, nicht x selbst."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach h auf:\n\nA = g · h⁄₂",
+    "optionen": [
+     "h = ²A⁄g",
+     "h = A⁄₂g",
+     "h = 2A · g",
+     "h = g⁄₂A"
+    ],
+    "loesung": [
+     "h = ²A⁄g"
+    ],
+    "erklaerung": "Erst mit 2 multiplizieren, dann durch g teilen.",
+    "fehler": [
+     {
+      "antwort": "h = A⁄₂g",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist mit 2 multipliziert worden, wo geteilt werden müsste."
+     },
+     {
+      "antwort": "h = 2A · g",
+      "diagnoseId": "operation",
+      "feedback": "Durch g muss geteilt, nicht multipliziert werden."
+     },
+     {
+      "antwort": "h = g⁄₂A",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «h = ²A⁄g»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach r auf:\n\nU = 2πr",
+    "optionen": [
+     "r = U⁄₂π",
+     "r = 2πU",
+     "r = ²π⁄U",
+     "r = U − 2π"
+    ],
+    "loesung": [
+     "r = U⁄₂π"
+    ],
+    "erklaerung": "U = 2πr; beide Seiten durch 2π geteilt ergibt r = U⁄2π.",
+    "fehler": [
+     {
+      "antwort": "r = 2πU",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist multipliziert statt geteilt worden."
+     },
+     {
+      "antwort": "r = ²π⁄U",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «r = U⁄₂π»."
+     },
+     {
+      "antwort": "r = U − 2π",
+      "diagnoseId": "operation",
+      "feedback": "2π steht als Faktor, nicht als Summand. Richtig ist «r = U⁄₂π»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach b auf:\n\nP = 2(a + b)",
+    "optionen": [
+     "b = P⁄₂ − a",
+     "b = P − 2a",
+     "b = P − a⁄₂",
+     "b = 2P − a"
+    ],
+    "loesung": [
+     "b = P⁄₂ − a"
+    ],
+    "erklaerung": "Erst durch 2 teilen, dann a abziehen.",
+    "fehler": [
+     {
+      "antwort": "b = P − 2a",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Die Klammer wirkt auf beide Summanden; zuerst durch 2 teilen."
+     },
+     {
+      "antwort": "b = P − a⁄₂",
+      "diagnoseId": "reihenfolge",
+      "feedback": "Hier ist a vor dem Teilen abgezogen worden."
+     },
+     {
+      "antwort": "b = 2P − a",
+      "diagnoseId": "operation",
+      "feedback": "Durch 2 muss geteilt, nicht multipliziert werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse nach t auf:\n\ns = v · t",
+    "optionen": [
+     "t = s⁄v",
+     "t = s · v",
+     "t = v⁄s",
+     "t = s − v"
+    ],
+    "loesung": [
+     "t = s⁄v"
+    ],
+    "erklaerung": "s = v · t; beide Seiten durch v geteilt ergibt t = s⁄v.",
+    "fehler": [
+     {
+      "antwort": "t = s · v",
+      "diagnoseId": "operation",
+      "feedback": "Hier ist multipliziert statt geteilt worden."
+     },
+     {
+      "antwort": "t = v⁄s",
+      "diagnoseId": "vertauscht",
+      "feedback": "Zähler und Nenner sind vertauscht. Richtig ist «t = s⁄v»."
+     },
+     {
+      "antwort": "t = s − v",
+      "diagnoseId": "operation",
+      "feedback": "v steht als Faktor, nicht als Summand. Richtig ist «t = s⁄v»."
+     }
+    ]
+   },
+   {
+    "stamm": "Löse:\n\n¹⁄x + ¹⁄₆ = ¹⁄₂",
+    "optionen": [
+     "x = 3",
+     "x = 4",
+     "x = 8",
+     "x = 12"
+    ],
+    "loesung": [
+     "x = 3"
+    ],
+    "erklaerung": "1⁄x = 1⁄2 − 1⁄6 = 1⁄3, also x = 3.",
+    "fehler": [
+     {
+      "antwort": "x = 4",
+      "diagnoseId": "rechenfehler",
+      "feedback": "1⁄2 − 1⁄6 ergibt 1⁄3, nicht 1⁄4. Richtig ist «x = 3»."
+     },
+     {
+      "antwort": "x = 8",
+      "diagnoseId": "nenner",
+      "feedback": "Die Nenner dürfen nicht einfach addiert oder subtrahiert werden."
+     },
+     {
+      "antwort": "x = 12",
+      "diagnoseId": "hauptnenner",
+      "feedback": "12 ist der Hauptnenner, nicht die Lösung."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum prüfst du die Lösung einer Bruchgleichung gegen die Definitionslücken?",
+    "optionen": [
+     "Weil eine Lösung einen Nenner null machen könnte",
+     "Weil Brüche immer zwei Lösungen haben",
+     "Weil sich Brüche nicht kürzen lassen",
+     "Weil man den Hauptnenner sonst vergisst"
+    ],
+    "loesung": [
+     "Weil eine Lösung einen Nenner null machen könnte"
+    ],
+    "erklaerung": "Ein Wert, der einen Nenner null macht, ist keine Lösung, auch wenn er beim Umformen herauskommt.",
+    "fehler": [
+     {
+      "antwort": "Weil Brüche immer zwei Lösungen haben",
+      "diagnoseId": "irrtum",
+      "feedback": "Die Anzahl Lösungen hängt von der Gleichung ab, nicht von den Brüchen."
+     },
+     {
+      "antwort": "Weil sich Brüche nicht kürzen lassen",
+      "diagnoseId": "irrtum",
+      "feedback": "Kürzen ist erlaubt und oft nötig. Richtig ist «Weil eine Lösung einen Nenner null machen könnte»."
+     },
+     {
+      "antwort": "Weil man den Hauptnenner sonst vergisst",
+      "diagnoseId": "irrtum",
+      "feedback": "Der Hauptnenner wird schon beim Umformen gebraucht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Doppelbrüche, Bruchgleichungen und Formeln umstellen",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-konstruktionen",
+  "lernzielId": "MAG.5.01",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "5.01",
+   "5.02",
+   "5.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Frage bei jeder Angabe: Welche Ortslinie beschreibt sie?",
+   "Ein Punkt ist bestimmt, wo sich zwei Ortslinien schneiden.",
+   "Zwei Schnittpunkte bedeuten zwei Lösungen — beide gehören gezeichnet."
+  ],
+  "loesungsweg": [
+   "Eine Planskizze zeichnen und die gegebenen Stücke eintragen.",
+   "Zu jeder Angabe die passende Ortslinie bestimmen.",
+   "Die Schnittpunkte suchen.",
+   "Zählen, wie viele Lösungen es gibt."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Ortslinie beschreibt alle Punkte, die von zwei Punkten A und B gleich weit entfernt sind?",
+    "optionen": [
+     "die Mittelsenkrechte von AB",
+     "der Kreis um A",
+     "die Gerade AB",
+     "die Winkelhalbierende"
+    ],
+    "loesung": [
+     "die Mittelsenkrechte von AB"
+    ],
+    "erklaerung": "Die Mittelsenkrechte steht senkrecht auf AB und geht durch die Mitte; jeder ihrer Punkte hat zu A und B denselben Abstand.",
+    "fehler": [
+     {
+      "antwort": "der Kreis um A",
+      "diagnoseId": "ein_punkt",
+      "feedback": "Ein Kreis um A enthält alle Punkte mit gleichem Abstand zu A — von B ist dabei nicht die Rede."
+     },
+     {
+      "antwort": "die Gerade AB",
+      "diagnoseId": "verbindung",
+      "feedback": "Auf der Geraden AB liegt genau ein Punkt mit gleichem Abstand zu beiden: die Mitte."
+     },
+     {
+      "antwort": "die Winkelhalbierende",
+      "diagnoseId": "winkel",
+      "feedback": "Sie beschreibt gleiche Abstände zu zwei GERADEN, nicht zu zwei Punkten."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Ortslinie beschreibt alle Punkte, die von zwei sich schneidenden Geraden gleich weit entfernt sind?",
+    "optionen": [
+     "die beiden Winkelhalbierenden",
+     "die Mittelsenkrechte",
+     "ein Kreis um den Schnittpunkt",
+     "eine Parallele zu beiden Geraden"
+    ],
+    "loesung": [
+     "die beiden Winkelhalbierenden"
+    ],
+    "erklaerung": "Es sind zwei Winkelhalbierende, denn zwei sich schneidende Geraden bilden zwei Paare von Scheitelwinkeln.",
+    "fehler": [
+     {
+      "antwort": "die Mittelsenkrechte",
+      "diagnoseId": "punkte",
+      "feedback": "Die Mittelsenkrechte gehört zu zwei PUNKTEN, nicht zu zwei Geraden."
+     },
+     {
+      "antwort": "ein Kreis um den Schnittpunkt",
+      "diagnoseId": "abstand_zum_punkt",
+      "feedback": "Ein Kreis beschreibt gleichen Abstand zu einem Punkt."
+     },
+     {
+      "antwort": "eine Parallele zu beiden Geraden",
+      "diagnoseId": "parallel",
+      "feedback": "Zu zwei sich schneidenden Geraden gibt es keine gemeinsame Parallele."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck soll aus c, α und β konstruiert werden. Wie viele Lösungen gibt es (bis auf Kongruenz)?",
+    "optionen": [
+     "genau eine",
+     "keine",
+     "zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "genau eine"
+    ],
+    "erklaerung": "Mit einer Seite und den beiden anliegenden Winkeln ist das Dreieck eindeutig bestimmt — das ist der Kongruenzsatz wsw.",
+    "fehler": [
+     {
+      "antwort": "keine",
+      "diagnoseId": "zu_wenig_angaben",
+      "feedback": "Drei Bestimmungsstücke genügen, sofern die Winkelsumme unter 180° bleibt."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "ssw_verwechselt",
+      "feedback": "Zwei Lösungen entstehen beim Fall ssw, wenn der Kreis die Gerade zweimal schneidet — nicht bei wsw."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "aehnlich",
+      "feedback": "Unendlich viele gäbe es nur bei drei Winkeln ohne Seitenlänge; dann wären alle Dreiecke ähnlich, aber verschieden gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Reihenfolge ist beim Konstruieren eines Dreiecks aus a, b und γ richtig?",
+    "optionen": [
+     "Winkel γ antragen, dann a und b auf den Schenkeln abtragen",
+     "zuerst c zeichnen, dann γ antragen",
+     "zuerst alle drei Winkel antragen",
+     "zuerst den Umkreis zeichnen"
+    ],
+    "loesung": [
+     "Winkel γ antragen, dann a und b auf den Schenkeln abtragen"
+    ],
+    "erklaerung": "Bei sws beginnt man mit dem eingeschlossenen Winkel und trägt die beiden Seiten auf seinen Schenkeln ab.",
+    "fehler": [
+     {
+      "antwort": "zuerst c zeichnen, dann γ antragen",
+      "diagnoseId": "unbekannte_seite",
+      "feedback": "Die Seite c ist gar nicht gegeben — sie ergibt sich erst am Ende."
+     },
+     {
+      "antwort": "zuerst alle drei Winkel antragen",
+      "diagnoseId": "nur_ein_winkel",
+      "feedback": "Gegeben ist nur ein Winkel. Die beiden anderen ergeben sich."
+     },
+     {
+      "antwort": "zuerst den Umkreis zeichnen",
+      "diagnoseId": "umweg",
+      "feedback": "Der Umkreis ist hier nicht gegeben und hilft nicht weiter."
+     }
+    ]
+   },
+   {
+    "stamm": "Wozu dient der Thaleskreis bei einer Konstruktion?",
+    "optionen": [
+     "Er liefert alle Punkte, von denen aus eine Strecke unter 90° erscheint.",
+     "Er halbiert einen Winkel.",
+     "Er verbindet zwei Punkte auf kürzestem Weg.",
+     "Er zeigt den Schwerpunkt eines Dreiecks."
+    ],
+    "loesung": [
+     "Er liefert alle Punkte, von denen aus eine Strecke unter 90° erscheint."
+    ],
+    "erklaerung": "Über der Strecke als Durchmesser gezeichnet, enthält der Thaleskreis genau die Punkte mit rechtem Winkel — dort liegt der gesuchte Punkt.",
+    "fehler": [
+     {
+      "antwort": "Er halbiert einen Winkel.",
+      "diagnoseId": "winkelhalbierende",
+      "feedback": "Das tut die Winkelhalbierende, nicht der Thaleskreis."
+     },
+     {
+      "antwort": "Er verbindet zwei Punkte auf kürzestem Weg.",
+      "diagnoseId": "strecke",
+      "feedback": "Das ist die Strecke selbst, keine Ortslinie."
+     },
+     {
+      "antwort": "Er zeigt den Schwerpunkt eines Dreiecks.",
+      "diagnoseId": "schwerpunkt",
+      "feedback": "Der Schwerpunkt entsteht aus den Schwerlinien."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck soll aus a = 5 cm, b = 8 cm und α = 30° konstruiert werden. Was ist der kritische Punkt?",
+    "optionen": [
+     "Der Kreis um C kann die Gerade zweimal schneiden.",
+     "Die Winkelsumme wird überschritten.",
+     "Die Dreiecksungleichung ist verletzt.",
+     "Es fehlt eine dritte Angabe."
+    ],
+    "loesung": [
+     "Der Kreis um C kann die Gerade zweimal schneiden."
+    ],
+    "erklaerung": "Beim Fall ssw — zwei Seiten und ein nicht eingeschlossener Winkel — kann es zwei, eine oder keine Lösung geben.",
+    "fehler": [
+     {
+      "antwort": "Die Winkelsumme wird überschritten.",
+      "diagnoseId": "winkelsumme",
+      "feedback": "Mit einem einzigen gegebenen Winkel von 30° ist die Winkelsumme kein Problem."
+     },
+     {
+      "antwort": "Die Dreiecksungleichung ist verletzt.",
+      "diagnoseId": "ungleichung",
+      "feedback": "5 und 8 lassen ein Dreieck durchaus zu; die dritte Seite ist ja nicht gegeben."
+     },
+     {
+      "antwort": "Es fehlt eine dritte Angabe.",
+      "diagnoseId": "anzahl",
+      "feedback": "Drei Bestimmungsstücke sind gegeben. Die Frage ist nur, ob sie eindeutig sind."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie konstruiert man eine Parallele zu einer Geraden g durch einen Punkt P?",
+    "optionen": [
+     "zweimal das Lot fällen: erst von P auf g, dann in P senkrecht dazu",
+     "die Mittelsenkrechte von g zeichnen",
+     "einen Kreis um P mit beliebigem Radius zeichnen",
+     "die Winkelhalbierende in P antragen"
+    ],
+    "loesung": [
+     "zweimal das Lot fällen: erst von P auf g, dann in P senkrecht dazu"
+    ],
+    "erklaerung": "Zwei Senkrechte hintereinander ergeben eine Parallele — das ist die übliche Konstruktion mit Zirkel und Lineal.",
+    "fehler": [
+     {
+      "antwort": "die Mittelsenkrechte von g zeichnen",
+      "diagnoseId": "strecke",
+      "feedback": "Eine Mittelsenkrechte gehört zu einer Strecke und steht senkrecht auf ihr."
+     },
+     {
+      "antwort": "einen Kreis um P mit beliebigem Radius zeichnen",
+      "diagnoseId": "kein_ergebnis",
+      "feedback": "Ein einzelner Kreis liefert noch keine Richtung."
+     },
+     {
+      "antwort": "die Winkelhalbierende in P antragen",
+      "diagnoseId": "winkel",
+      "feedback": "Dazu bräuchte es zwei Geraden, die sich in P schneiden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Angabe bestimmt einen Punkt zusammen mit «Abstand 4 cm von A» eindeutig?",
+    "optionen": [
+     "Der Punkt liegt auf einer gegebenen Geraden durch A.",
+     "Der Punkt liegt 4 cm von B entfernt.",
+     "Der Punkt liegt im Innern des Dreiecks.",
+     "Der Punkt hat von A und B denselben Abstand."
+    ],
+    "loesung": [
+     "Der Punkt liegt auf einer gegebenen Geraden durch A."
+    ],
+    "erklaerung": "Ein Kreis und eine Gerade durch den Mittelpunkt schneiden sich in genau zwei Punkten — auf einer Halbgeraden ist es genau einer.",
+    "fehler": [
+     {
+      "antwort": "Der Punkt liegt 4 cm von B entfernt.",
+      "diagnoseId": "zwei_kreise",
+      "feedback": "Zwei Kreise schneiden sich in der Regel in ZWEI Punkten."
+     },
+     {
+      "antwort": "Der Punkt liegt im Innern des Dreiecks.",
+      "diagnoseId": "kein_ort",
+      "feedback": "Das grenzt einen Bereich ein, bestimmt aber keinen einzelnen Punkt."
+     },
+     {
+      "antwort": "Der Punkt hat von A und B denselben Abstand.",
+      "diagnoseId": "zwei_punkte",
+      "feedback": "Kreis und Mittelsenkrechte schneiden sich meist in zwei Punkten."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Lösungen hat die Konstruktion eines Dreiecks aus drei Winkeln, wenn keine Seite gegeben ist?",
+    "optionen": [
+     "unendlich viele, alle ähnlich zueinander",
+     "genau eine",
+     "keine",
+     "genau zwei"
+    ],
+    "loesung": [
+     "unendlich viele, alle ähnlich zueinander"
+    ],
+    "erklaerung": "Ohne Seitenlänge ist nur die Form bestimmt, nicht die Grösse — alle Lösungen sind zueinander ähnlich.",
+    "fehler": [
+     {
+      "antwort": "genau eine",
+      "diagnoseId": "eindeutig",
+      "feedback": "Ohne eine einzige Länge fehlt der Massstab."
+     },
+     {
+      "antwort": "keine",
+      "diagnoseId": "unmoeglich",
+      "feedback": "Solange die Winkelsumme 180° ergibt, lässt sich ein Dreieck zeichnen."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "ssw",
+      "feedback": "Zwei Lösungen entstehen im Fall ssw, nicht bei drei Winkeln."
+     }
+    ]
+   },
+   {
+    "stamm": "Was konstruiert man zuerst, wenn Umkreisradius und zwei Seiten gegeben sind?",
+    "optionen": [
+     "den Umkreis",
+     "die längste Seite",
+     "den Schwerpunkt",
+     "die Höhen"
+    ],
+    "loesung": [
+     "den Umkreis"
+    ],
+    "erklaerung": "Der Umkreis ist die einzige Ortslinie, auf der alle drei Ecken liegen müssen — mit ihm beginnt die Konstruktion.",
+    "fehler": [
+     {
+      "antwort": "die längste Seite",
+      "diagnoseId": "seite_zuerst",
+      "feedback": "Die Seiten lassen sich erst eintragen, wenn eine Ecke fest liegt."
+     },
+     {
+      "antwort": "den Schwerpunkt",
+      "diagnoseId": "schwerpunkt",
+      "feedback": "Der Schwerpunkt ergibt sich erst aus dem fertigen Dreieck."
+     },
+     {
+      "antwort": "die Höhen",
+      "diagnoseId": "hoehen",
+      "feedback": "Auch die Höhen setzen das Dreieck bereits voraus."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Aussage über die Winkelhalbierenden eines Dreiecks stimmt?",
+    "optionen": [
+     "Sie schneiden sich im Mittelpunkt des Inkreises.",
+     "Sie schneiden sich im Mittelpunkt des Umkreises.",
+     "Sie halbieren die Gegenseiten.",
+     "Sie stehen senkrecht auf den Gegenseiten."
+    ],
+    "loesung": [
+     "Sie schneiden sich im Mittelpunkt des Inkreises."
+    ],
+    "erklaerung": "Der Schnittpunkt der drei Winkelhalbierenden hat zu allen drei Seiten denselben Abstand — das ist der Inkreismittelpunkt.",
+    "fehler": [
+     {
+      "antwort": "Sie schneiden sich im Mittelpunkt des Umkreises.",
+      "diagnoseId": "umkreis",
+      "feedback": "Der Umkreismittelpunkt ist der Schnittpunkt der Mittelsenkrechten."
+     },
+     {
+      "antwort": "Sie halbieren die Gegenseiten.",
+      "diagnoseId": "schwerlinie",
+      "feedback": "Das tun die Schwerlinien: von einer Ecke zur Mitte der Gegenseite."
+     },
+     {
+      "antwort": "Sie stehen senkrecht auf den Gegenseiten.",
+      "diagnoseId": "hoehe",
+      "feedback": "Das tun die Höhen; sie stehen senkrecht auf der Gegenseite."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Kreis mit Radius 3 cm und eine Gerade im Abstand 3 cm vom Mittelpunkt: Wie viele gemeinsame Punkte gibt es?",
+    "optionen": [
+     "genau einen",
+     "keinen",
+     "zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "genau einen"
+    ],
+    "erklaerung": "Ist der Abstand gleich dem Radius, berührt die Gerade den Kreis — sie ist eine Tangente.",
+    "fehler": [
+     {
+      "antwort": "keinen",
+      "diagnoseId": "zu_weit",
+      "feedback": "Keinen gemeinsamen Punkt gäbe es erst, wenn der Abstand GRÖSSER als der Radius wäre."
+     },
+     {
+      "antwort": "zwei",
+      "diagnoseId": "zu_nah",
+      "feedback": "Zwei Schnittpunkte gibt es, wenn der Abstand kleiner als der Radius ist."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "deckung",
+      "feedback": "Eine Gerade und ein Kreis können nie unendlich viele Punkte gemeinsam haben."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Ortslinien, Reihenfolge und Anzahl Lösungen",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-konstruktionen-dreieck",
+  "lernzielId": "MAG.5.04",
+  "fach": "mathematik-ag",
+  "unterthemen": [
+   "5.04",
+   "5.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein Dreieck ist festgelegt, wenn drei unabhängige Stücke gegeben sind.",
+   "Drei Winkel legen nur die Form fest, nicht die Grösse.",
+   "Über einer Strecke als Durchmesser liegen alle Punkte mit rechtem Winkel auf dem Thaleskreis."
+  ],
+  "loesungsweg": [
+   "Zählen, welche Stücke gegeben sind.",
+   "Prüfen, ob sie unabhängig sind.",
+   "Bei einem rechten Winkel an den Thaleskreis denken.",
+   "Die Anzahl möglicher Dreiecke angeben."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Angaben legen ein Dreieck eindeutig fest?",
+    "optionen": [
+     "drei Seiten",
+     "drei Winkel",
+     "zwei Winkel",
+     "eine Seite und ein Winkel"
+    ],
+    "loesung": [
+     "drei Seiten"
+    ],
+    "erklaerung": "Aus drei Seiten entsteht genau ein Dreieck, wenn die Dreiecksungleichung gilt.",
+    "fehler": [
+     {
+      "antwort": "drei Winkel",
+      "diagnoseId": "aehnlich",
+      "feedback": "Drei Winkel legen nur die Form fest; die Grösse bleibt offen."
+     },
+     {
+      "antwort": "zwei Winkel",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Ohne eine Seite fehlt das Mass. Richtig ist «drei Seiten»."
+     },
+     {
+      "antwort": "eine Seite und ein Winkel",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Zwei Stücke genügen nicht. Richtig ist «drei Seiten»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele verschiedene Dreiecke gibt es zu α = 40°, β = 60°, γ = 80°?",
+    "optionen": [
+     "unendlich viele",
+     "genau eines",
+     "genau zwei",
+     "keines"
+    ],
+    "loesung": [
+     "unendlich viele"
+    ],
+    "erklaerung": "Alle diese Dreiecke sind ähnlich; die Grösse ist nicht festgelegt.",
+    "fehler": [
+     {
+      "antwort": "genau eines",
+      "diagnoseId": "aehnlich",
+      "feedback": "Ohne eine Seitenlänge ist die Grösse frei."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "aehnlich",
+      "feedback": "Es sind nicht zwei, sondern beliebig viele ähnliche Dreiecke."
+     },
+     {
+      "antwort": "keines",
+      "diagnoseId": "winkelsumme",
+      "feedback": "Die Winkelsumme ergibt 180°, das Dreieck ist möglich."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Dreiecke gibt es zu a = 3 cm, b = 4 cm, c = 9 cm?",
+    "optionen": [
+     "keines",
+     "genau eines",
+     "genau zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "keines"
+    ],
+    "erklaerung": "3 + 4 ist kleiner als 9 — die Dreiecksungleichung ist verletzt.",
+    "fehler": [
+     {
+      "antwort": "genau eines",
+      "diagnoseId": "ungleichung",
+      "feedback": "Die beiden kurzen Seiten erreichen die lange nicht."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "ungleichung",
+      "feedback": "Es entsteht überhaupt kein Dreieck. Richtig ist «keines»."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "festgelegt",
+      "feedback": "Drei Seiten legen ein Dreieck fest, wenn es eines gibt."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Dreiecke gibt es zu c = 6 cm, α = 50°, β = 60°?",
+    "optionen": [
+     "genau eines",
+     "keines",
+     "genau zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "genau eines"
+    ],
+    "erklaerung": "Eine Seite und die beiden anliegenden Winkel legen das Dreieck fest.",
+    "fehler": [
+     {
+      "antwort": "keines",
+      "diagnoseId": "winkelsumme",
+      "feedback": "50° und 60° lassen 70° für den dritten Winkel; das geht auf."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "festgelegt",
+      "feedback": "Bei anliegenden Winkeln gibt es keinen zweiten Fall."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "mass",
+      "feedback": "Die Seite c gibt das Mass vor. Richtig ist «genau eines»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Angaben legen ein Dreieck fest?",
+    "optionen": [
+     "zwei Seiten und der Winkel dazwischen",
+     "zwei Seiten und ein beliebiger Winkel",
+     "zwei Winkel ohne Seite",
+     "eine Seite und ihre Höhe"
+    ],
+    "loesung": [
+     "zwei Seiten und der Winkel dazwischen"
+    ],
+    "erklaerung": "Der eingeschlossene Winkel legt die Lage der zweiten Seite eindeutig fest.",
+    "fehler": [
+     {
+      "antwort": "zwei Seiten und ein beliebiger Winkel",
+      "diagnoseId": "zweideutig",
+      "feedback": "Liegt der Winkel einer Seite gegenüber, kann es zwei Dreiecke geben."
+     },
+     {
+      "antwort": "zwei Winkel ohne Seite",
+      "diagnoseId": "mass",
+      "feedback": "Ohne Seite fehlt das Mass. Richtig ist «zwei Seiten und der Winkel dazwischen»."
+     },
+     {
+      "antwort": "eine Seite und ihre Höhe",
+      "diagnoseId": "zu_wenig",
+      "feedback": "Die Spitze kann auf der Parallelen überall liegen."
+     }
+    ]
+   },
+   {
+    "stamm": "Was besagt der Satz des Thales?",
+    "optionen": [
+     "Jeder Punkt auf dem Kreis über einer Strecke sieht sie unter einem rechten Winkel",
+     "Im rechtwinkligen Dreieck gilt a² + b² = c²",
+     "Die Winkelsumme im Dreieck beträgt 180°",
+     "Gegenüber der längsten Seite liegt der grösste Winkel"
+    ],
+    "loesung": [
+     "Jeder Punkt auf dem Kreis über einer Strecke sieht sie unter einem rechten Winkel"
+    ],
+    "erklaerung": "Der Kreis über der Strecke als Durchmesser trägt alle Punkte mit rechtem Winkel.",
+    "fehler": [
+     {
+      "antwort": "Im rechtwinkligen Dreieck gilt a² + b² = c²",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist der Satz des Pythagoras. Richtig ist «Jeder Punkt auf dem Kreis über einer Strecke sieht sie unter einem rechten Winkel»."
+     },
+     {
+      "antwort": "Die Winkelsumme im Dreieck beträgt 180°",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist der Winkelsummensatz. Richtig ist «Jeder Punkt auf dem Kreis über einer Strecke sieht sie unter einem rechten Winkel»."
+     },
+     {
+      "antwort": "Gegenüber der längsten Seite liegt der grösste Winkel",
+      "diagnoseId": "verwechselt",
+      "feedback": "Das ist die Seiten-Winkel-Beziehung. Richtig ist «Jeder Punkt auf dem Kreis über einer Strecke sieht sie unter einem rechten Winkel»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wozu brauchst du den Thaleskreis bei einer Konstruktion?",
+    "optionen": [
+     "Um einen rechten Winkel über einer gegebenen Strecke zu erzeugen",
+     "Um eine Strecke zu halbieren",
+     "Um einen Winkel zu halbieren",
+     "Um eine Parallele zu zeichnen"
+    ],
+    "loesung": [
+     "Um einen rechten Winkel über einer gegebenen Strecke zu erzeugen"
+    ],
+    "erklaerung": "Er liefert alle Punkte, von denen aus die Strecke unter 90° erscheint.",
+    "fehler": [
+     {
+      "antwort": "Um eine Strecke zu halbieren",
+      "diagnoseId": "ortslinie",
+      "feedback": "Dafür nimmst du die Mittelsenkrechte. Richtig ist «Um einen rechten Winkel über einer gegebenen Strecke zu erzeugen»."
+     },
+     {
+      "antwort": "Um einen Winkel zu halbieren",
+      "diagnoseId": "ortslinie",
+      "feedback": "Dafür nimmst du die Winkelhalbierende. Richtig ist «Um einen rechten Winkel über einer gegebenen Strecke zu erzeugen»."
+     },
+     {
+      "antwort": "Um eine Parallele zu zeichnen",
+      "diagnoseId": "ortslinie",
+      "feedback": "Dafür verschiebst du eine Gerade im festen Abstand."
+     }
+    ]
+   },
+   {
+    "stamm": "Über welcher Strecke zeichnest du den Thaleskreis für ein rechtwinkliges Dreieck mit rechtem Winkel bei C?",
+    "optionen": [
+     "über der Seite c",
+     "über der Seite a",
+     "über der Seite b",
+     "über der Höhe"
+    ],
+    "loesung": [
+     "über der Seite c"
+    ],
+    "erklaerung": "Die Hypotenuse liegt dem rechten Winkel gegenüber und ist der Durchmesser.",
+    "fehler": [
+     {
+      "antwort": "über der Seite a",
+      "diagnoseId": "gegenueber",
+      "feedback": "a liegt dem Winkel α gegenüber, nicht dem rechten Winkel."
+     },
+     {
+      "antwort": "über der Seite b",
+      "diagnoseId": "gegenueber",
+      "feedback": "b liegt dem Winkel β gegenüber. Richtig ist «über der Seite c»."
+     },
+     {
+      "antwort": "über der Höhe",
+      "diagnoseId": "strecke",
+      "feedback": "Die Höhe ist keine Seite des Dreiecks. Richtig ist «über der Seite c»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Dreiecke gibt es zu c = 5 cm, γ = 90°, a = 3 cm?",
+    "optionen": [
+     "genau eines",
+     "keines",
+     "genau zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "genau eines"
+    ],
+    "erklaerung": "Mit dem Thaleskreis über c und dem Kreis um B mit Radius a ergibt sich genau ein Dreieck.",
+    "fehler": [
+     {
+      "antwort": "keines",
+      "diagnoseId": "moeglich",
+      "feedback": "3 ist kleiner als 5; der Kreis schneidet den Thaleskreis."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "spiegelbild",
+      "feedback": "Die beiden Schnittpunkte ergeben gespiegelte, also gleiche Dreiecke."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "festgelegt",
+      "feedback": "Drei Stücke legen das Dreieck fest. Richtig ist «genau eines»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie viele Dreiecke gibt es zu c = 5 cm, γ = 90°, a = 7 cm?",
+    "optionen": [
+     "keines",
+     "genau eines",
+     "genau zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "keines"
+    ],
+    "erklaerung": "Im rechtwinkligen Dreieck ist die Hypotenuse die längste Seite; a darf nicht länger sein als c.",
+    "fehler": [
+     {
+      "antwort": "genau eines",
+      "diagnoseId": "laenge",
+      "feedback": "Eine Kathete kann nicht länger sein als die Hypotenuse."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "laenge",
+      "feedback": "Es entsteht überhaupt kein Dreieck. Richtig ist «keines»."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "festgelegt",
+      "feedback": "Drei Stücke lassen keine unendliche Schar zu."
+     }
+    ]
+   },
+   {
+    "stamm": "Ein Dreieck soll c = 6 cm, α = 30° und a = 2 cm haben. Wie viele Lösungen gibt es?",
+    "optionen": [
+     "keines",
+     "genau eines",
+     "genau zwei",
+     "unendlich viele"
+    ],
+    "loesung": [
+     "keines"
+    ],
+    "erklaerung": "Der Kreis um C mit Radius 2 cm erreicht die Gegenseite nicht; die Angaben passen nicht zusammen.",
+    "fehler": [
+     {
+      "antwort": "genau eines",
+      "diagnoseId": "schnitt",
+      "feedback": "Der Kreis schneidet den freien Schenkel gar nicht."
+     },
+     {
+      "antwort": "genau zwei",
+      "diagnoseId": "schnitt",
+      "feedback": "Ohne Schnittpunkt gibt es auch keine zwei Lösungen."
+     },
+     {
+      "antwort": "unendlich viele",
+      "diagnoseId": "festgelegt",
+      "feedback": "Drei Stücke lassen keine Schar zu. Richtig ist «keines»."
+     }
+    ]
+   },
+   {
+    "stamm": "Warum kann «zwei Seiten und ein Gegenwinkel» zwei Dreiecke ergeben?",
+    "optionen": [
+     "Weil der Kreis den freien Schenkel zweimal schneiden kann",
+     "Weil die Winkelsumme zwei Werte zulässt",
+     "Weil man das Dreieck spiegeln kann",
+     "Weil zwei Seiten immer vertauschbar sind"
+    ],
+    "loesung": [
+     "Weil der Kreis den freien Schenkel zweimal schneiden kann"
+    ],
+    "erklaerung": "Je nach Länge trifft der Kreisbogen den Schenkel an zwei Stellen — beide ergeben ein gültiges Dreieck.",
+    "fehler": [
+     {
+      "antwort": "Weil die Winkelsumme zwei Werte zulässt",
+      "diagnoseId": "winkelsumme",
+      "feedback": "Die Winkelsumme ist immer 180°. Richtig ist «Weil der Kreis den freien Schenkel zweimal schneiden kann»."
+     },
+     {
+      "antwort": "Weil man das Dreieck spiegeln kann",
+      "diagnoseId": "spiegelung",
+      "feedback": "Ein gespiegeltes Dreieck gilt als dasselbe."
+     },
+     {
+      "antwort": "Weil zwei Seiten immer vertauschbar sind",
+      "diagnoseId": "irrtum",
+      "feedback": "Die Zuordnung der Seiten liegt durch die Bezeichnung fest."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Welche Angaben genügen? Thaleskreis",
+  "status": "review"
+ }
+]

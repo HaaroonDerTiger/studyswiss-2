@@ -1,0 +1,184 @@
+{
+ "fach": "sprache-so",
+ "name": "Deutsch Sprache",
+ "pruefung": "Aufnahmeprüfung BM, FMS und Gymnasium, Kanton Solothurn",
+ "quelle": "Prüfungseckwerte für die Aufnahmeprüfungen ab 2026 der Kantonalen Schulen Sek II Olten und Solothurn sowie die Prüfungsserien 2019-2024",
+ "punkteTotal": 10,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Kommasetzung",
+   "punkte": 3,
+   "anteil": 30,
+   "beschreibung": "Ein ganzer Text ohne Kommas, die fehlenden sind zu setzen. Pro Fehler oder falscher Korrektur gibt es einen halben Punkt Abzug. Wer streut, verliert.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Komma bei Nebensätzen mit «dass», «weil», «wenn»",
+     "lernzielId": "SSO.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Komma bei Relativsätzen",
+     "lernzielId": "SSO.1.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.01"
+     ]
+    },
+    {
+     "code": "1.03",
+     "name": "Komma bei Infinitivgruppen mit «zu»",
+     "lernzielId": "SSO.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Komma bei Aufzählungen und Appositionen",
+     "lernzielId": "SSO.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Komma bei Partizipial- und Einschubgruppen",
+     "lernzielId": "SSO.1.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Rechtschreibung und Grammatik korrigieren",
+   "punkte": 3,
+   "anteil": 30,
+   "beschreibung": "Ein Textausschnitt mit eingebauten Fehlern. Die Satzzeichen sind hier ausdrücklich nicht gemeint. Es geht um Wörter und Formen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Gross- und Kleinschreibung",
+     "lernzielId": "SSO.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Das oder dass",
+     "lernzielId": "SSO.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Dehnung, Schärfung und Doppelkonsonanten",
+     "lernzielId": "SSO.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Getrennt- und Zusammenschreibung",
+     "lernzielId": "SSO.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Fallfehler und falsche Endungen",
+     "lernzielId": "SSO.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Zeitformen und Verbformen berichtigen",
+     "lernzielId": "SSO.2.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.05"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Wortarten, Satzglieder und Gliedsätze",
+   "punkte": 2,
+   "anteil": 20,
+   "beschreibung": "Die Eckwerte nennen es ausdrücklich: Kenntnis der Wortarten, der Satzglieder und der Funktion der Gliedsätze.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wortarten bestimmen",
+     "lernzielId": "SSO.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Satzglieder bestimmen",
+     "lernzielId": "SSO.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Die Funktion eines Gliedsatzes erkennen",
+     "lernzielId": "SSO.3.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Haupt- und Nebensatz unterscheiden",
+     "lernzielId": "SSO.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Wortfamilien und indirekte Rede",
+   "punkte": 2,
+   "anteil": 20,
+   "beschreibung": "Zwei Aufgaben, die fast jedes Jahr vorkommen: die Wortfamilientabelle und das Umformen einer Aussage in die indirekte Rede.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Wortfamilien ergänzen: Nomen, Verb, Adjektiv",
+     "lernzielId": "SSO.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Direkte Rede in indirekte Rede umformen",
+     "lernzielId": "SSO.4.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.03",
+     "name": "Pronomen bei der indirekten Rede anpassen",
+     "lernzielId": "SSO.4.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    },
+    {
+     "code": "4.04",
+     "name": "Konjunktiv I bilden",
+     "lernzielId": "SSO.4.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.02"
+     ]
+    }
+   ]
+  }
+ ]
+}

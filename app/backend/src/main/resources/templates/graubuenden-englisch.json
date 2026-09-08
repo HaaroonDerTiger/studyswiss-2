@@ -1,0 +1,1728 @@
+[
+ {
+  "templateId": "gr-en-verben",
+  "lernzielId": "EGR.1.01",
+  "fach": "englisch-gr",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Frage dich zuerst, welche der drei Formen gesucht ist: Grundform, simple past oder past participle.",
+   "Bei unregelmässigen Verben hilft kein «-ed»; die Formen musst du auswendig kennen.",
+   "Manche Verben behalten alle drei Formen gleich — cut, put, let, cost."
+  ],
+  "loesungsweg": [
+   "Die gesuchte Form am Signalwort im Satz erkennen.",
+   "Die Reihe des Verbs aufsagen.",
+   "Die passende Form einsetzen.",
+   "Den Satz noch einmal lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nLast summer we ______ to Scotland. (go)",
+    "loesung": [
+     "went"
+    ],
+    "erklaerung": "«go» ist unregelmässig: go – went – gone. Für die Vergangenheit brauchst du «went».",
+    "fehler": [
+     {
+      "antwort": "goed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«go» bildet die Vergangenheit nicht mit -ed; die Form lautet «went»."
+     },
+     {
+      "antwort": "gone",
+      "diagnoseId": "partizip",
+      "feedback": "«gone» ist das past participle und braucht ein Hilfsverb: have gone."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nShe ______ a letter to her grandmother. (write)",
+    "loesung": [
+     "wrote"
+    ],
+    "erklaerung": "«write» folgt der Reihe write – wrote – written; hier ist die zweite Form gefragt.",
+    "fehler": [
+     {
+      "antwort": "writed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«write» ist unregelmässig; die Vergangenheitsform lautet «wrote»."
+     },
+     {
+      "antwort": "written",
+      "diagnoseId": "partizip",
+      "feedback": "«written» ist die dritte Form und steht nur mit have oder be."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins past participle.\n\nI have never ______ such a long train. (see)",
+    "loesung": [
+     "seen"
+    ],
+    "erklaerung": "Nach «have» steht die dritte Form: see – saw – seen.",
+    "fehler": [
+     {
+      "antwort": "saw",
+      "diagnoseId": "simple_past",
+      "feedback": "«saw» ist die zweite Form; nach «have» braucht es «seen»."
+     },
+     {
+      "antwort": "seed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«see» ist unregelmässig und bildet keine Form mit -ed."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nThe bus ______ ten minutes late yesterday. (be)",
+    "loesung": [
+     "was"
+    ],
+    "erklaerung": "«be» hat zwei Vergangenheitsformen: was für die Einzahl, were für die Mehrzahl.",
+    "fehler": [
+     {
+      "antwort": "were",
+      "diagnoseId": "zahl",
+      "feedback": "«were» steht bei you und in der Mehrzahl; «the bus» ist Einzahl."
+     },
+     {
+      "antwort": "beed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«be» ist das unregelmässigste aller Verben und bildet nie eine Form mit -ed."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nMy brother ______ his bike to school every day last year. (ride)",
+    "loesung": [
+     "rode"
+    ],
+    "erklaerung": "Die Reihe lautet ride – rode – ridden; für die Vergangenheit brauchst du «rode».",
+    "fehler": [
+     {
+      "antwort": "rided",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«ride» ist unregelmässig; die Vergangenheitsform lautet «rode»."
+     },
+     {
+      "antwort": "ridden",
+      "diagnoseId": "partizip",
+      "feedback": "«ridden» ist die dritte Form und braucht ein Hilfsverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nThey ______ me the way to the station. (tell)",
+    "loesung": [
+     "told"
+    ],
+    "erklaerung": "«tell» folgt der Reihe tell – told – told; zweite und dritte Form sind gleich.",
+    "fehler": [
+     {
+      "antwort": "telled",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«tell» ist unregelmässig; die Form lautet «told»."
+     },
+     {
+      "antwort": "said",
+      "diagnoseId": "falsches_verb",
+      "feedback": "«said» gehört zu «say»; «tell» verlangt eine Person als Empfänger."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nThe tickets ______ forty francs. (cost)",
+    "loesung": [
+     "cost"
+    ],
+    "erklaerung": "«cost» behält in allen drei Formen dieselbe Gestalt: cost – cost – cost.",
+    "fehler": [
+     {
+      "antwort": "costed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«cost» gehört zu den Verben, die sich nicht verändern; -ed kommt nie dazu."
+     },
+     {
+      "antwort": "costs",
+      "diagnoseId": "praesens",
+      "feedback": "«costs» ist die Präsensform der dritten Person; gefragt ist die Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nHe ______ the paper in half. (cut)",
+    "loesung": [
+     "cut"
+    ],
+    "erklaerung": "«cut» bleibt unverändert: cut – cut – cut. Nur der Satzzusammenhang zeigt die Zeit.",
+    "fehler": [
+     {
+      "antwort": "cutted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«cut» verändert sich nie; ein -ed gibt es bei diesem Verb nicht."
+     },
+     {
+      "antwort": "cuts",
+      "diagnoseId": "praesens",
+      "feedback": "«cuts» ist Präsens; der Satz spricht von der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nWe ______ two songs at the school concert. (sing)",
+    "loesung": [
+     "sang"
+    ],
+    "erklaerung": "Die Reihe lautet sing – sang – sung; die zweite Form heisst «sang».",
+    "fehler": [
+     {
+      "antwort": "sung",
+      "diagnoseId": "partizip",
+      "feedback": "«sung» ist die dritte Form und steht mit have: we have sung."
+     },
+     {
+      "antwort": "singed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«sing» ist unregelmässig; -ed kommt nicht dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins past participle.\n\nThe lake has ______ over during the night. (freeze)",
+    "loesung": [
+     "frozen"
+    ],
+    "erklaerung": "Nach «has» steht die dritte Form: freeze – froze – frozen.",
+    "fehler": [
+     {
+      "antwort": "froze",
+      "diagnoseId": "simple_past",
+      "feedback": "«froze» ist die zweite Form; nach «has» braucht es «frozen»."
+     },
+     {
+      "antwort": "freezed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«freeze» ist unregelmässig und bildet keine Form mit -ed."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nShe ______ the window because it was cold. (shut)",
+    "loesung": [
+     "shut"
+    ],
+    "erklaerung": "«shut» gehört zu den Verben ohne Formwechsel: shut – shut – shut.",
+    "fehler": [
+     {
+      "antwort": "shutted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«shut» verändert sich nicht; ein -ed wird nie angehängt."
+     },
+     {
+      "antwort": "shuts",
+      "diagnoseId": "praesens",
+      "feedback": "«shuts» ist Präsens; der Nebensatz zeigt die Vergangenheit an."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nI ______ he was joking. (think)",
+    "loesung": [
+     "thought"
+    ],
+    "erklaerung": "«think» folgt der Reihe think – thought – thought.",
+    "fehler": [
+     {
+      "antwort": "thinked",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«think» ist unregelmässig; die Form lautet «thought»."
+     },
+     {
+      "antwort": "taught",
+      "diagnoseId": "falsches_verb",
+      "feedback": "«taught» gehört zu «teach» und heisst unterrichten."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nThe children ______ across the yard. (run)",
+    "loesung": [
+     "ran"
+    ],
+    "erklaerung": "Die Reihe lautet run – ran – run; die zweite Form heisst «ran».",
+    "fehler": [
+     {
+      "antwort": "runned",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«run» ist unregelmässig; -ed gibt es hier nicht."
+     },
+     {
+      "antwort": "run",
+      "diagnoseId": "grundform",
+      "feedback": "«run» ist zugleich Grundform und dritte Form; für die Vergangenheit braucht es «ran»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in der Klammer ins simple past.\n\nWe ______ our homework before dinner. (do)",
+    "loesung": [
+     "did"
+    ],
+    "erklaerung": "«do» folgt der Reihe do – did – done; die zweite Form heisst «did».",
+    "fehler": [
+     {
+      "antwort": "done",
+      "diagnoseId": "partizip",
+      "feedback": "«done» ist die dritte Form und braucht have: we have done."
+     },
+     {
+      "antwort": "doed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«do» ist unregelmässig; -ed kommt nie dazu."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Common irregular verbs: be, have, do, go and verbs of movement",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-en-verben-2",
+  "lernzielId": "EGR.1.04",
+  "fach": "englisch-gr",
+  "unterthemen": [
+   "1.04",
+   "1.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Einige Verben haben in allen drei Formen dieselbe Gestalt: cut, put, let, cost.",
+   "Andere wechseln den Vokal: sing — sang — sung.",
+   "Lerne die drei Formen immer zusammen."
+  ],
+  "loesungsweg": [
+   "Die verlangte Form bestimmen.",
+   "Prüfen, ob das Verb den Vokal wechselt.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nYesterday she ______ (cut) the bread.",
+    "loesung": [
+     "cut"
+    ],
+    "erklaerung": "«cut» bleibt in allen drei Formen gleich: cut — cut — cut.",
+    "fehler": [
+     {
+      "antwort": "cutted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«cut» ist unregelmässig und bekommt kein «-ed»."
+     },
+     {
+      "antwort": "cuts",
+      "diagnoseId": "zeit",
+      "feedback": "«cuts» steht in der Gegenwart. Richtig ist «cut»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nHe ______ (put) the keys on the table.",
+    "loesung": [
+     "put"
+    ],
+    "erklaerung": "«put» bleibt in allen drei Formen gleich: put — put — put.",
+    "fehler": [
+     {
+      "antwort": "putted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«put» ist unregelmässig und bekommt kein «-ed»."
+     },
+     {
+      "antwort": "puts",
+      "diagnoseId": "zeit",
+      "feedback": "«puts» steht in der Gegenwart. Richtig ist «put»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nThe ticket ______ (cost) twelve francs.",
+    "loesung": [
+     "cost"
+    ],
+    "erklaerung": "«cost» bleibt in allen drei Formen gleich: cost — cost — cost.",
+    "fehler": [
+     {
+      "antwort": "costed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«cost» ist unregelmässig und bekommt kein «-ed»."
+     },
+     {
+      "antwort": "costs",
+      "diagnoseId": "zeit",
+      "feedback": "«costs» steht in der Gegenwart. Richtig ist «cost»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nMy parents ______ (let) me stay up late.",
+    "loesung": [
+     "let"
+    ],
+    "erklaerung": "«let» bleibt in allen drei Formen gleich: let — let — let.",
+    "fehler": [
+     {
+      "antwort": "letted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«let» ist unregelmässig und bekommt kein «-ed»."
+     },
+     {
+      "antwort": "lets",
+      "diagnoseId": "zeit",
+      "feedback": "«lets» steht in der Gegenwart. Richtig ist «let»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das dritte Verb (past participle) ein.\n\nThe workers have ______ (cut) the branches.",
+    "loesung": [
+     "cut"
+    ],
+    "erklaerung": "Auch das dritte Verb von «cut» lautet «cut».",
+    "fehler": [
+     {
+      "antwort": "cutted",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«cut» ist unregelmässig und bekommt kein «-ed»."
+     },
+     {
+      "antwort": "cutting",
+      "diagnoseId": "form",
+      "feedback": "«cutting» ist die ing-Form. Richtig ist «cut»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nThe choir ______ (sing) three songs.",
+    "loesung": [
+     "sang"
+    ],
+    "erklaerung": "«sing» wechselt den Vokal: sing — sang — sung.",
+    "fehler": [
+     {
+      "antwort": "sung",
+      "diagnoseId": "form",
+      "feedback": "«sung» ist das dritte Verb und braucht ein Hilfsverb."
+     },
+     {
+      "antwort": "singed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«sing» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das dritte Verb (past participle) ein.\n\nWe have ______ (sing) that song before.",
+    "loesung": [
+     "sung"
+    ],
+    "erklaerung": "Das dritte Verb von «sing» lautet «sung».",
+    "fehler": [
+     {
+      "antwort": "sang",
+      "diagnoseId": "form",
+      "feedback": "«sang» ist die einfache Vergangenheit ohne Hilfsverb."
+     },
+     {
+      "antwort": "singed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«sing» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nHe ______ (drink) a glass of water.",
+    "loesung": [
+     "drank"
+    ],
+    "erklaerung": "«drink» wechselt den Vokal: drink — drank — drunk.",
+    "fehler": [
+     {
+      "antwort": "drunk",
+      "diagnoseId": "form",
+      "feedback": "«drunk» ist das dritte Verb und braucht ein Hilfsverb."
+     },
+     {
+      "antwort": "drinked",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«drink» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nThe lesson ______ (begin) at eight.",
+    "loesung": [
+     "began"
+    ],
+    "erklaerung": "«begin» wechselt den Vokal: begin — began — begun.",
+    "fehler": [
+     {
+      "antwort": "begun",
+      "diagnoseId": "form",
+      "feedback": "«begun» ist das dritte Verb und braucht ein Hilfsverb."
+     },
+     {
+      "antwort": "beginned",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«begin» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das dritte Verb (past participle) ein.\n\nThe film has already ______ (begin).",
+    "loesung": [
+     "begun"
+    ],
+    "erklaerung": "Das dritte Verb von «begin» lautet «begun».",
+    "fehler": [
+     {
+      "antwort": "began",
+      "diagnoseId": "form",
+      "feedback": "«began» ist die einfache Vergangenheit ohne Hilfsverb."
+     },
+     {
+      "antwort": "beginned",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«begin» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb in die Vergangenheit (past simple).\n\nShe ______ (swim) across the lake.",
+    "loesung": [
+     "swam"
+    ],
+    "erklaerung": "«swim» wechselt den Vokal: swim — swam — swum.",
+    "fehler": [
+     {
+      "antwort": "swum",
+      "diagnoseId": "form",
+      "feedback": "«swum» ist das dritte Verb und braucht ein Hilfsverb."
+     },
+     {
+      "antwort": "swimmed",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«swim» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das dritte Verb (past participle) ein.\n\nThey have ______ (drink) all the juice.",
+    "loesung": [
+     "drunk"
+    ],
+    "erklaerung": "Das dritte Verb von «drink» lautet «drunk».",
+    "fehler": [
+     {
+      "antwort": "drank",
+      "diagnoseId": "form",
+      "feedback": "«drank» ist die einfache Vergangenheit ohne Hilfsverb."
+     },
+     {
+      "antwort": "drinked",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«drink» ist unregelmässig und bekommt kein «-ed»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Verbs with the same form and verbs with a vowel change",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-en-zeiten",
+  "lernzielId": "EGR.2.01",
+  "fach": "englisch-gr",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Signalwörter helfen: every day, usually, always stehen für das present simple.",
+   "Right now, at the moment und look! verlangen das present continuous.",
+   "In Frage und Verneinung übernimmt do, does oder did die Zeit — das Vollverb bleibt in der Grundform."
+  ],
+  "loesungsweg": [
+   "Das Signalwort im Satz suchen.",
+   "Die passende Zeit bestimmen.",
+   "Bei Frage und Verneinung das Hilfsverb wählen.",
+   "Die Form einsetzen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nMy father ______ to work by train every morning.",
+    "optionen": [
+     "goes",
+     "is going",
+     "went",
+     "go"
+    ],
+    "loesung": [
+     "goes"
+    ],
+    "erklaerung": "«every morning» steht für eine Gewohnheit — present simple, dritte Person mit -es.",
+    "fehler": [
+     {
+      "antwort": "is going",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt, was gerade jetzt geschieht, nicht eine tägliche Gewohnheit."
+     },
+     {
+      "antwort": "went",
+      "diagnoseId": "zeit",
+      "feedback": "«went» liegt in der Vergangenheit; der Satz spricht von jedem Morgen."
+     },
+     {
+      "antwort": "go",
+      "diagnoseId": "endung",
+      "feedback": "In der dritten Person Einzahl braucht das Verb ein -es: goes."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nLook! It ______ again.",
+    "optionen": [
+     "is snowing",
+     "snows",
+     "snowed",
+     "has snowed"
+    ],
+    "loesung": [
+     "is snowing"
+    ],
+    "erklaerung": "«Look!» zeigt an, dass etwas gerade jetzt geschieht — present continuous.",
+    "fehler": [
+     {
+      "antwort": "snows",
+      "diagnoseId": "zeit",
+      "feedback": "Das present simple beschreibt Gewohnheiten; hier geht es um diesen Augenblick."
+     },
+     {
+      "antwort": "snowed",
+      "diagnoseId": "zeit",
+      "feedback": "«snowed» liegt in der Vergangenheit; «Look!» weist aber auf diesen Augenblick hin."
+     },
+     {
+      "antwort": "has snowed",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect blickt auf ein Ergebnis zurück, nicht auf den Augenblick."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ you ever been to Chur?",
+    "optionen": [
+     "Have",
+     "Do",
+     "Are",
+     "Did"
+    ],
+    "loesung": [
+     "Have"
+    ],
+    "erklaerung": "«ever been» gehört zum present perfect; die Frage beginnt mit «Have».",
+    "fehler": [
+     {
+      "antwort": "Do",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«Do» bildet Fragen im present simple, nicht mit «been»."
+     },
+     {
+      "antwort": "Are",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«Are» passt zu einer Verlaufsform: Are you going?"
+     },
+     {
+      "antwort": "Did",
+      "diagnoseId": "zeit",
+      "feedback": "«Did» stünde im simple past und vertrüge kein «been»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nShe ______ like coffee at all.",
+    "optionen": [
+     "doesn't",
+     "don't",
+     "isn't",
+     "didn't"
+    ],
+    "loesung": [
+     "doesn't"
+    ],
+    "erklaerung": "In der Verneinung im present simple übernimmt «does» die dritte Person: doesn't like.",
+    "fehler": [
+     {
+      "antwort": "don't",
+      "diagnoseId": "person",
+      "feedback": "«don't» steht bei I, you, we und they; «she» verlangt «doesn't»."
+     },
+     {
+      "antwort": "isn't",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«isn't» verneint eine Form von be, nicht ein Vollverb wie «like»."
+     },
+     {
+      "antwort": "didn't",
+      "diagnoseId": "zeit",
+      "feedback": "«didn't» verneint in der Vergangenheit; der Satz steht im Präsens."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nWhat ______ you do last weekend?",
+    "optionen": [
+     "did",
+     "do",
+     "have",
+     "were"
+    ],
+    "loesung": [
+     "did"
+    ],
+    "erklaerung": "«last weekend» verlangt das simple past; die Frage bildet «did» mit der Grundform.",
+    "fehler": [
+     {
+      "antwort": "do",
+      "diagnoseId": "zeit",
+      "feedback": "«do» fragt im Präsens; die Zeitangabe zeigt aber die Vergangenheit an."
+     },
+     {
+      "antwort": "have",
+      "diagnoseId": "zeit",
+      "feedback": "Mit «have» folgte das past participle: What have you done?"
+     },
+     {
+      "antwort": "were",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«were» passt zu einer Verlaufsform: What were you doing?"
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nWe ______ television when the power went off.",
+    "optionen": [
+     "were watching",
+     "watched",
+     "watch",
+     "have watched"
+    ],
+    "loesung": [
+     "were watching"
+    ],
+    "erklaerung": "Eine laufende Handlung, die von einer anderen unterbrochen wird, steht im past continuous.",
+    "fehler": [
+     {
+      "antwort": "watched",
+      "diagnoseId": "zeit",
+      "feedback": "Das simple past nennte eine abgeschlossene Handlung; hier läuft sie noch, als der Strom ausfällt."
+     },
+     {
+      "antwort": "watch",
+      "diagnoseId": "zeit",
+      "feedback": "«watch» steht im Präsens; der Satz spielt in der Vergangenheit."
+     },
+     {
+      "antwort": "have watched",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verbindet mit der Gegenwart; hier zählt der Ablauf in der Vergangenheit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThey ______ in Davos since 2019.",
+    "optionen": [
+     "have lived",
+     "live",
+     "lived",
+     "are living"
+    ],
+    "loesung": [
+     "have lived"
+    ],
+    "erklaerung": "«since» verlangt das present perfect: Die Handlung begann in der Vergangenheit und dauert an.",
+    "fehler": [
+     {
+      "antwort": "live",
+      "diagnoseId": "zeit",
+      "feedback": "Das present simple sagt nichts über den Anfang; «since» braucht das present perfect."
+     },
+     {
+      "antwort": "lived",
+      "diagnoseId": "zeit",
+      "feedback": "Das simple past wäre abgeschlossen; sie wohnen aber noch dort."
+     },
+     {
+      "antwort": "are living",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous passt nicht zu einer Angabe mit «since»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Frage zu diesem Satz?\n\nAndri plays the trumpet.",
+    "optionen": [
+     "Does Andri play the trumpet?",
+     "Do Andri plays the trumpet?",
+     "Plays Andri the trumpet?",
+     "Is Andri play the trumpet?"
+    ],
+    "loesung": [
+     "Does Andri play the trumpet?"
+    ],
+    "erklaerung": "Im present simple bildet «does» die Frage; das Vollverb steht danach in der Grundform.",
+    "fehler": [
+     {
+      "antwort": "Do Andri plays the trumpet?",
+      "diagnoseId": "person",
+      "feedback": "«Andri» ist dritte Person Einzahl und verlangt «does»; danach steht «play» ohne -s."
+     },
+     {
+      "antwort": "Plays Andri the trumpet?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Im Englischen wird die Frage nicht durch Umstellen des Vollverbs gebildet."
+     },
+     {
+      "antwort": "Is Andri play the trumpet?",
+      "diagnoseId": "hilfsverb",
+      "feedback": "«is» passt nur zur Verlaufsform: Is Andri playing?"
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Verneinung?\n\nWe saw the ibex on the ridge.",
+    "optionen": [
+     "We didn't see the ibex on the ridge.",
+     "We didn't saw the ibex on the ridge.",
+     "We don't saw the ibex on the ridge.",
+     "We not saw the ibex on the ridge."
+    ],
+    "loesung": [
+     "We didn't see the ibex on the ridge."
+    ],
+    "erklaerung": "«didn't» trägt die Vergangenheit; das Vollverb kehrt zur Grundform «see» zurück.",
+    "fehler": [
+     {
+      "antwort": "We didn't saw the ibex on the ridge.",
+      "diagnoseId": "doppelte_zeit",
+      "feedback": "Die Vergangenheit steckt schon in «didn't»; das Vollverb bleibt in der Grundform."
+     },
+     {
+      "antwort": "We don't saw the ibex on the ridge.",
+      "diagnoseId": "zeit",
+      "feedback": "«don't» steht im Präsens und passt nicht zur Vergangenheit."
+     },
+     {
+      "antwort": "We not saw the ibex on the ridge.",
+      "diagnoseId": "ohne_hilfsverb",
+      "feedback": "Im Englischen braucht die Verneinung ein Hilfsverb."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nHow long ______ she waiting?",
+    "optionen": [
+     "has been",
+     "is",
+     "has",
+     "was been"
+    ],
+    "loesung": [
+     "has been"
+    ],
+    "erklaerung": "«How long» mit einer laufenden Handlung verlangt das present perfect continuous: has been waiting.",
+    "fehler": [
+     {
+      "antwort": "is",
+      "diagnoseId": "zeit",
+      "feedback": "«is waiting» sagt nur, dass sie gerade wartet, nicht wie lange schon."
+     },
+     {
+      "antwort": "has",
+      "diagnoseId": "form",
+      "feedback": "Nach «has» müsste ein past participle folgen; «waiting» verlangt zusätzlich «been»."
+     },
+     {
+      "antwort": "was been",
+      "diagnoseId": "form",
+      "feedback": "Diese Verbindung gibt es nicht; richtig ist «has been»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nI usually ______ up at half past six.",
+    "optionen": [
+     "get",
+     "am getting",
+     "got",
+     "have got"
+    ],
+    "loesung": [
+     "get"
+    ],
+    "erklaerung": "«usually» kennzeichnet eine Gewohnheit — present simple, erste Person ohne Endung.",
+    "fehler": [
+     {
+      "antwort": "am getting",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous beschreibt den Augenblick, nicht die Gewohnheit."
+     },
+     {
+      "antwort": "got",
+      "diagnoseId": "zeit",
+      "feedback": "«got» liegt in der Vergangenheit; «usually» beschreibt eine Gewohnheit in der Gegenwart."
+     },
+     {
+      "antwort": "have got",
+      "diagnoseId": "bedeutung",
+      "feedback": "«have got» heisst besitzen und passt hier nicht zum Aufstehen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThey ______ their bags when we arrived.",
+    "optionen": [
+     "were packing",
+     "packed",
+     "are packing",
+     "have packed"
+    ],
+    "loesung": [
+     "were packing"
+    ],
+    "erklaerung": "Die Handlung war im Gang, als etwas anderes geschah — past continuous.",
+    "fehler": [
+     {
+      "antwort": "packed",
+      "diagnoseId": "zeit",
+      "feedback": "Das simple past liesse die Handlung abgeschlossen erscheinen, bevor die anderen ankamen."
+     },
+     {
+      "antwort": "are packing",
+      "diagnoseId": "zeit",
+      "feedback": "«are» steht im Präsens; der Satz spielt in der Vergangenheit."
+     },
+     {
+      "antwort": "have packed",
+      "diagnoseId": "zeit",
+      "feedback": "Das present perfect verbindet mit der Gegenwart und passt nicht zu «when we arrived»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Zeiten, Fragen und Verneinung",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-en-grammatik",
+  "lernzielId": "EGR.2.04",
+  "fach": "englisch-gr",
+  "unterthemen": [
+   "2.04",
+   "2.05",
+   "2.06",
+   "2.07"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Prüfe, ob das Wort für eine Person steht oder ob es einen Besitz anzeigt.",
+   "Kurze Adjektive steigern mit -er und -est, längere mit more und most.",
+   "Bei Zeitangaben gilt: at für die Uhrzeit, on für den Tag, in für Monat und Jahr."
+  ],
+  "loesungsweg": [
+   "Die Wortart der Lücke bestimmen.",
+   "Die passende Regel wählen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Form passt?\n\nThis is my sister. ______ name is Nina.",
+    "optionen": [
+     "Her",
+     "She",
+     "Hers",
+     "His"
+    ],
+    "loesung": [
+     "Her"
+    ],
+    "erklaerung": "Vor einem Nomen steht das Possessivpronomen «her».",
+    "fehler": [
+     {
+      "antwort": "She",
+      "diagnoseId": "form",
+      "feedback": "«She» ist das Personalpronomen und stünde als Subjekt: She is Nina."
+     },
+     {
+      "antwort": "Hers",
+      "diagnoseId": "form",
+      "feedback": "«Hers» steht allein, ohne Nomen dahinter: The book is hers."
+     },
+     {
+      "antwort": "His",
+      "diagnoseId": "geschlecht",
+      "feedback": "«His» gehört zu einem männlichen Besitzer; hier geht es um die Schwester."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThat rucksack is ______ , not mine.",
+    "optionen": [
+     "yours",
+     "your",
+     "you",
+     "you're"
+    ],
+    "loesung": [
+     "yours"
+    ],
+    "erklaerung": "Ohne Nomen dahinter steht die alleinstehende Form «yours».",
+    "fehler": [
+     {
+      "antwort": "your",
+      "diagnoseId": "form",
+      "feedback": "«your» braucht ein Nomen hinter sich: your rucksack."
+     },
+     {
+      "antwort": "you",
+      "diagnoseId": "form",
+      "feedback": "«you» ist das Personalpronomen und zeigt keinen Besitz an."
+     },
+     {
+      "antwort": "you're",
+      "diagnoseId": "verwechslung",
+      "feedback": "«you're» ist die Kurzform von «you are» und passt hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Mehrzahl von «child»?",
+    "optionen": [
+     "children",
+     "childs",
+     "childes",
+     "childrens"
+    ],
+    "loesung": [
+     "children"
+    ],
+    "erklaerung": "«child» hat eine unregelmässige Mehrzahl: children.",
+    "fehler": [
+     {
+      "antwort": "childs",
+      "diagnoseId": "regelmaessig",
+      "feedback": "«child» bildet die Mehrzahl nicht mit -s; sie lautet «children»."
+     },
+     {
+      "antwort": "childes",
+      "diagnoseId": "regelmaessig",
+      "feedback": "Auch -es passt nicht; die Form ist unregelmässig."
+     },
+     {
+      "antwort": "childrens",
+      "diagnoseId": "doppelt",
+      "feedback": "«children» ist bereits Mehrzahl; ein weiteres -s ist falsch."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThere isn't ______ milk left.",
+    "optionen": [
+     "much",
+     "many",
+     "a few",
+     "some"
+    ],
+    "loesung": [
+     "much"
+    ],
+    "erklaerung": "«milk» ist nicht zählbar; in der Verneinung steht darum «much».",
+    "fehler": [
+     {
+      "antwort": "many",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«many» steht nur bei zählbaren Dingen wie apples oder books."
+     },
+     {
+      "antwort": "a few",
+      "diagnoseId": "zaehlbar",
+      "feedback": "«a few» zählt einzelne Stücke und passt nicht zu Milch."
+     },
+     {
+      "antwort": "some",
+      "diagnoseId": "verneinung",
+      "feedback": "«some» steht meist im bejahten Satz; verneint braucht es «any» oder «much»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThe Rhine is ______ than the Landquart.",
+    "optionen": [
+     "longer",
+     "more long",
+     "longest",
+     "the longest"
+    ],
+    "loesung": [
+     "longer"
+    ],
+    "erklaerung": "«long» ist kurz und steigert mit -er: longer than.",
+    "fehler": [
+     {
+      "antwort": "more long",
+      "diagnoseId": "steigerung",
+      "feedback": "«more» steht nur bei längeren Adjektiven wie «interesting»."
+     },
+     {
+      "antwort": "longest",
+      "diagnoseId": "form",
+      "feedback": "Das ist die höchste Stufe; beim Vergleich mit «than» braucht es die Vergleichsform."
+     },
+     {
+      "antwort": "the longest",
+      "diagnoseId": "form",
+      "feedback": "Auch das ist die höchste Stufe und passt nicht zu «than»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nThis is ______ film I have ever seen.",
+    "optionen": [
+     "the most exciting",
+     "the excitingest",
+     "more exciting",
+     "most exciting"
+    ],
+    "loesung": [
+     "the most exciting"
+    ],
+    "erklaerung": "«exciting» ist lang und bildet die höchste Stufe mit «the most».",
+    "fehler": [
+     {
+      "antwort": "the excitingest",
+      "diagnoseId": "steigerung",
+      "feedback": "Lange Adjektive nehmen nie die Endung -est."
+     },
+     {
+      "antwort": "more exciting",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die Vergleichsform; «ever seen» verlangt die höchste Stufe."
+     },
+     {
+      "antwort": "most exciting",
+      "diagnoseId": "artikel",
+      "feedback": "Vor der höchsten Stufe steht immer der Artikel «the»: the most exciting film."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThe train leaves ______ ten past eight.",
+    "optionen": [
+     "at",
+     "on",
+     "in",
+     "to"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "Bei einer genauen Uhrzeit steht «at».",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "tag",
+      "feedback": "«on» steht bei Tagen und Daten: on Monday."
+     },
+     {
+      "antwort": "in",
+      "diagnoseId": "zeitraum",
+      "feedback": "«in» steht bei Monaten, Jahreszeiten und Jahren: in May."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "richtung",
+      "feedback": "«to» gibt eine Richtung an, keine Uhrzeit."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nWe always go skiing ______ February.",
+    "optionen": [
+     "in",
+     "on",
+     "at",
+     "by"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "Bei Monaten, Jahreszeiten und Jahren steht «in»: in February, in winter, in 2026.",
+    "fehler": [
+     {
+      "antwort": "on",
+      "diagnoseId": "tag",
+      "feedback": "«on» gehört zu einzelnen Tagen: on Saturday."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "uhrzeit",
+      "feedback": "«at» gehört zu Uhrzeiten und zu «at night»."
+     },
+     {
+      "antwort": "by",
+      "diagnoseId": "frist",
+      "feedback": "«by» nennt eine Frist, bis wann etwas geschieht: by Friday. Ein Monat verlangt «in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Präposition passt?\n\nThere is a small shop ______ the corner.",
+    "optionen": [
+     "on",
+     "in",
+     "at",
+     "under"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "«on the corner» ist die feste Wendung für eine Ecke an der Strasse.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "raum",
+      "feedback": "«in the corner» meint die Ecke innerhalb eines Raumes."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "stelle",
+      "feedback": "«at» nennt einen Punkt wie «at the station», nicht die Strassenecke."
+     },
+     {
+      "antwort": "under",
+      "diagnoseId": "ort",
+      "feedback": "«under» heisst unterhalb und ergibt hier keinen Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\n______ are three post offices in this valley.",
+    "optionen": [
+     "There",
+     "They",
+     "Their",
+     "It"
+    ],
+    "loesung": [
+     "There"
+    ],
+    "erklaerung": "«There are» stellt fest, dass etwas vorhanden ist.",
+    "fehler": [
+     {
+      "antwort": "They",
+      "diagnoseId": "form",
+      "feedback": "«They» stünde für Personen oder Dinge, die schon genannt wurden."
+     },
+     {
+      "antwort": "Their",
+      "diagnoseId": "form",
+      "feedback": "«Their» zeigt Besitz an und braucht ein Nomen dahinter."
+     },
+     {
+      "antwort": "It",
+      "diagnoseId": "zahl",
+      "feedback": "«It» steht in der Einzahl; hier folgen drei Postbüros."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie lautet die Mehrzahl von «knife»?",
+    "optionen": [
+     "knives",
+     "knifes",
+     "knifs",
+     "knifees"
+    ],
+    "loesung": [
+     "knives"
+    ],
+    "erklaerung": "Nomen auf -fe wechseln im Plural zu -ves: knife wird zu knives.",
+    "fehler": [
+     {
+      "antwort": "knifes",
+      "diagnoseId": "regel",
+      "feedback": "Bei -fe wird das f zu v und -es angehängt: knives."
+     },
+     {
+      "antwort": "knifs",
+      "diagnoseId": "form",
+      "feedback": "Das e darf nicht wegfallen: Aus «knife» wird «knives», mit v und mit e."
+     },
+     {
+      "antwort": "knifees",
+      "diagnoseId": "form",
+      "feedback": "Ein doppeltes e gibt es in dieser Form nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Form passt?\n\nMy bag is heavy, but ______ is even heavier.",
+    "optionen": [
+     "his",
+     "him",
+     "he",
+     "he's"
+    ],
+    "loesung": [
+     "his"
+    ],
+    "erklaerung": "Ohne Nomen dahinter steht die alleinstehende Form «his».",
+    "fehler": [
+     {
+      "antwort": "him",
+      "diagnoseId": "form",
+      "feedback": "«him» ist die Objektform und zeigt keinen Besitz an."
+     },
+     {
+      "antwort": "he",
+      "diagnoseId": "form",
+      "feedback": "«he» ist das Personalpronomen als Subjekt."
+     },
+     {
+      "antwort": "he's",
+      "diagnoseId": "verwechslung",
+      "feedback": "«he's» ist die Kurzform von «he is» oder «he has»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Pronomen, Plural, Steigerung und Präpositionen",
+  "status": "review"
+ },
+ {
+  "templateId": "gr-en-lesen",
+  "lernzielId": "EGR.3.03",
+  "fach": "englisch-gr",
+  "unterthemen": [
+   "3.03",
+   "3.04",
+   "3.01",
+   "3.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Lies zuerst den ganzen Text, ohne jedes Wort nachzuschlagen.",
+   "Suche zu jeder Frage die Stelle im Text, an der das Schlüsselwort steht.",
+   "Prüfe deine Antwort am Wortlaut, nicht am eigenen Vorwissen."
+  ],
+  "loesungsweg": [
+   "Die Frage lesen und das Schlüsselwort merken.",
+   "Die Stelle im Text suchen.",
+   "Die Antwort mit dem Text vergleichen.",
+   "Erst dann auswählen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "How long does Mia's job last?",
+    "optionen": [
+     "Three weeks",
+     "Three days",
+     "The whole summer",
+     "Forty minutes"
+    ],
+    "loesung": [
+     "Three weeks"
+    ],
+    "erklaerung": "Im zweiten Satz steht: the job lasts three weeks.",
+    "fehler": [
+     {
+      "antwort": "Three days",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Der Text nennt drei Wochen, nicht drei Tage."
+     },
+     {
+      "antwort": "The whole summer",
+      "diagnoseId": "ungenau",
+      "feedback": "Sie arbeitet nur im Juli, und zwar drei Wochen lang."
+     },
+     {
+      "antwort": "Forty minutes",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Vierzig Minuten braucht sie für den Weg zum See."
+     }
+    ]
+   },
+   {
+    "stamm": "What does Mia do first in the morning?",
+    "optionen": [
+     "She sets the tables and cuts bread",
+     "She walks up to the lake",
+     "She cleans the rooms",
+     "She reads a book"
+    ],
+    "loesung": [
+     "She sets the tables and cuts bread"
+    ],
+    "erklaerung": "Sie beginnt um sieben, deckt die Tische fürs Frühstück und schneidet Brot.",
+    "fehler": [
+     {
+      "antwort": "She walks up to the lake",
+      "diagnoseId": "zeit",
+      "feedback": "Zum See geht sie erst um zwei Uhr, wenn sie frei hat."
+     },
+     {
+      "antwort": "She cleans the rooms",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Vom Zimmerreinigen steht nichts im Text."
+     },
+     {
+      "antwort": "She reads a book",
+      "diagnoseId": "ort",
+      "feedback": "Sie liest am See, nicht am Morgen im Hotel."
+     }
+    ]
+   },
+   {
+    "stamm": "Why is the dining room empty by nine?",
+    "optionen": [
+     "Because most guests are hikers who leave early",
+     "Because the hotel is very small",
+     "Because breakfast is not served",
+     "Because Mia finishes at nine"
+    ],
+    "loesung": [
+     "Because most guests are hikers who leave early"
+    ],
+    "erklaerung": "Der Text nennt den Grund: Die meisten Gäste sind Wanderer und brechen früh auf.",
+    "fehler": [
+     {
+      "antwort": "Because the hotel is very small",
+      "diagnoseId": "teilweise",
+      "feedback": "Das Hotel ist klein, aber der Text nennt einen anderen Grund."
+     },
+     {
+      "antwort": "Because breakfast is not served",
+      "diagnoseId": "widerspruch",
+      "feedback": "Sie deckt die Tische gerade fürs Frühstück."
+     },
+     {
+      "antwort": "Because Mia finishes at nine",
+      "diagnoseId": "zeit",
+      "feedback": "Frei hat sie erst um zwei Uhr; um neun ist der Speisesaal leer, weil die Gäste weg sind."
+     }
+    ]
+   },
+   {
+    "stamm": "How long does Mia need to walk up to the lake?",
+    "optionen": [
+     "Forty minutes",
+     "Twenty minutes",
+     "An hour and a half",
+     "Three hours"
+    ],
+    "loesung": [
+     "Forty minutes"
+    ],
+    "erklaerung": "Im Text steht: It takes her forty minutes.",
+    "fehler": [
+     {
+      "antwort": "Twenty minutes",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Der Text nennt ausdrücklich vierzig Minuten für den Weg zum See."
+     },
+     {
+      "antwort": "An hour and a half",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Anderthalb Stunden kommen im Text nicht vor."
+     },
+     {
+      "antwort": "Three hours",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Drei steht im Text bei den Wochen, nicht bei den Stunden."
+     }
+    ]
+   },
+   {
+    "stamm": "Why does nobody swim in the lake?",
+    "optionen": [
+     "Because the water is too cold",
+     "Because it is forbidden",
+     "Because the lake is too small",
+     "Because it is too far away"
+    ],
+    "loesung": [
+     "Because the water is too cold"
+    ],
+    "erklaerung": "Der Text sagt: The water is so cold that nobody swims in it.",
+    "fehler": [
+     {
+      "antwort": "Because it is forbidden",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von einem Verbot steht nichts im Text; genannt wird allein die Kälte des Wassers."
+     },
+     {
+      "antwort": "Because the lake is too small",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über die Grösse des Sees sagt der Text nur, dass er klein ist — als Grund nennt er die Kälte."
+     },
+     {
+      "antwort": "Because it is too far away",
+      "diagnoseId": "widerspruch",
+      "feedback": "Vierzig Minuten sind kein Hindernis; Mia geht jeden Tag hin."
+     }
+    ]
+   },
+   {
+    "stamm": "What happened on Mia's first day?",
+    "optionen": [
+     "She dropped a tray with six glasses",
+     "She arrived too late",
+     "She lost her key",
+     "She forgot to set the tables"
+    ],
+    "loesung": [
+     "She dropped a tray with six glasses"
+    ],
+    "erklaerung": "Am ersten Tag liess sie ein Tablett mit sechs Gläsern fallen.",
+    "fehler": [
+     {
+      "antwort": "She arrived too late",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Vom Zuspätkommen steht nichts im Text; erzählt wird vom Tablett mit den Gläsern."
+     },
+     {
+      "antwort": "She lost her key",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Ein Schlüssel kommt im Text nicht vor; fallen gelassen hat sie ein Tablett."
+     },
+     {
+      "antwort": "She forgot to set the tables",
+      "diagnoseId": "widerspruch",
+      "feedback": "Das Tischdecken gehört zu ihren täglichen Aufgaben."
+     }
+    ]
+   },
+   {
+    "stamm": "How did the manager react?",
+    "optionen": [
+     "He laughed and told her about his own mistake",
+     "He sent her home",
+     "He asked her to pay for the glasses",
+     "He said nothing at all"
+    ],
+    "loesung": [
+     "He laughed and told her about his own mistake"
+    ],
+    "erklaerung": "Er lachte und erzählte, dass ihm als jungem Mann genau dasselbe passiert war.",
+    "fehler": [
+     {
+      "antwort": "He sent her home",
+      "diagnoseId": "erwartung",
+      "feedback": "Das befürchtete Mia; der Text sagt ausdrücklich «instead»."
+     },
+     {
+      "antwort": "He asked her to pay for the glasses",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von einer Zahlung ist nirgends die Rede."
+     },
+     {
+      "antwort": "He said nothing at all",
+      "diagnoseId": "widerspruch",
+      "feedback": "Er sprach mit ihr und erzählte von sich selbst."
+     }
+    ]
+   },
+   {
+    "stamm": "What does Mia do with half of her money?",
+    "optionen": [
+     "She saves it for a school trip",
+     "She buys a mountain bike",
+     "She gives it to her parents",
+     "She spends it in England"
+    ],
+    "loesung": [
+     "She saves it for a school trip"
+    ],
+    "erklaerung": "Die Hälfte geht auf ihr Konto für eine Schulreise nach England im Frühling.",
+    "fehler": [
+     {
+      "antwort": "She buys a mountain bike",
+      "diagnoseId": "haelfte_verwechselt",
+      "feedback": "Das Velo kauft sie von der anderen Hälfte."
+     },
+     {
+      "antwort": "She gives it to her parents",
+      "diagnoseId": "widerspruch",
+      "feedback": "Die Eltern wollten, dass sie alles spart — bekommen haben sie nichts."
+     },
+     {
+      "antwort": "She spends it in England",
+      "diagnoseId": "zukunft",
+      "feedback": "Gespart wird für die Reise; ausgegeben ist das Geld noch nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "What did Mia's parents want?",
+    "optionen": [
+     "That she saves all the money",
+     "That she works longer",
+     "That she buys a bike",
+     "That she stays at home"
+    ],
+    "loesung": [
+     "That she saves all the money"
+    ],
+    "erklaerung": "Der Text sagt: Her parents wanted her to save all of it.",
+    "fehler": [
+     {
+      "antwort": "That she works longer",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Über die Dauer der Arbeit sagen die Eltern nichts."
+     },
+     {
+      "antwort": "That she buys a bike",
+      "diagnoseId": "gegenteil",
+      "feedback": "Das Velo war Mias eigener Wunsch; die Eltern wollten, dass sie alles spart."
+     },
+     {
+      "antwort": "That she stays at home",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Vom Zuhausebleiben steht nichts im Text."
+     }
+    ]
+   },
+   {
+    "stamm": "Why does Mia like the guests?",
+    "optionen": [
+     "Because they come from many countries and are in a good mood",
+     "Because they give her money",
+     "Because they help her with the work",
+     "Because they speak German"
+    ],
+    "loesung": [
+     "Because they come from many countries and are in a good mood"
+    ],
+    "erklaerung": "Sie sagt: They come from everywhere, and most of them are in a good mood.",
+    "fehler": [
+     {
+      "antwort": "Because they give her money",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Von Trinkgeld steht nichts im Text; sie nennt die Herkunft und die Laune der Gäste."
+     },
+     {
+      "antwort": "Because they help her with the work",
+      "diagnoseId": "nicht_im_text",
+      "feedback": "Die Gäste helfen ihr nicht bei der Arbeit; sie sind einfach in guter Stimmung."
+     },
+     {
+      "antwort": "Because they speak German",
+      "diagnoseId": "gegenteil",
+      "feedback": "Gerade das Englische ist der Punkt: Sie muss es täglich gebrauchen."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence has the correct word order?",
+    "optionen": [
+     "She always gets up at seven in the morning.",
+     "She gets always up at seven in the morning.",
+     "Always she gets up at seven in the morning.",
+     "She gets up always in the morning at seven."
+    ],
+    "loesung": [
+     "She always gets up at seven in the morning."
+    ],
+    "erklaerung": "Häufigkeitsangaben wie «always» stehen vor dem Vollverb; danach folgen Ort und Zeit.",
+    "fehler": [
+     {
+      "antwort": "She gets always up at seven in the morning.",
+      "diagnoseId": "stellung",
+      "feedback": "«always» steht vor dem Vollverb, nicht zwischen Verb und Partikel."
+     },
+     {
+      "antwort": "Always she gets up at seven in the morning.",
+      "diagnoseId": "stellung",
+      "feedback": "Am Satzanfang wirkt «always» im Englischen ungewöhnlich; der Normalfall ist die Stellung vor dem Verb."
+     },
+     {
+      "antwort": "She gets up always in the morning at seven.",
+      "diagnoseId": "stellung",
+      "feedback": "Zeitangaben stehen am Satzende in der Reihenfolge von der genaueren zur allgemeineren."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "Mia has worked at the hotel for three summers.",
+     "Mia has worked at the hotel since three summers.",
+     "Mia works at the hotel since three summers.",
+     "Mia is working at the hotel for three summers."
+    ],
+    "loesung": [
+     "Mia has worked at the hotel for three summers."
+    ],
+    "erklaerung": "«for» nennt die Dauer, «since» den Anfangszeitpunkt; zu einer Dauer gehört das present perfect mit «for».",
+    "fehler": [
+     {
+      "antwort": "Mia has worked at the hotel since three summers.",
+      "diagnoseId": "for_since",
+      "feedback": "«since» braucht einen Zeitpunkt: since 2023. Für eine Dauer steht «for»."
+     },
+     {
+      "antwort": "Mia works at the hotel since three summers.",
+      "diagnoseId": "zeit",
+      "feedback": "Zu einer Angabe mit «since» oder «for» gehört das present perfect, nicht das present simple."
+     },
+     {
+      "antwort": "Mia is working at the hotel for three summers.",
+      "diagnoseId": "zeit",
+      "feedback": "Das present continuous passt nicht zu einer Dauer, die bis heute reicht."
+     }
+    ]
+   }
+  ],
+  "text": "A Summer Job in the Mountains\n\nEvery July, Mia works at a small hotel in the Engadine. She is fifteen, and the job lasts three weeks. She starts at seven in the morning, sets the tables for breakfast and cuts bread for the guests. Most of them are hikers who leave early, so the dining room is empty again by nine.\n\nHer favourite part of the day comes later. At two o'clock she is free, and she takes the old path up to the little lake behind the village. It takes her forty minutes, and she has never met more than two or three people on the way. The water is so cold that nobody swims in it, but she likes to sit there and read.\n\nThe work is not always easy. On the first day she dropped a tray with six glasses, and she was sure that the manager would send her home. Instead, he laughed and told her that he had done exactly the same thing when he was young. Since then she has broken nothing.\n\nMia earns 480 francs for the three weeks. Half of it goes into her account for a school trip to England next spring; with the rest she has bought a second-hand mountain bike. Her parents wanted her to save all of it, but they agreed in the end.\n\n\"I like the guests,\" she says. \"They come from everywhere, and most of them are in a good mood because they are on holiday. At school I only ever speak English in the classroom. Here I have to use it before breakfast.\"\n",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "«Bestimmungen über die Vorkenntnisse für die Aufnahme in eine Bündner Mittelschule» des Amts für Höhere Bildung sowie die Prüfungsbeispiele 1G und Einheitsprüfung 2016-2026, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Einen englischen Text verstehen",
+  "status": "review"
+ }
+]

@@ -1,0 +1,229 @@
+{
+ "fach": "sprache-ar",
+ "name": "Deutsch Grammatik",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Trogen",
+ "quelle": "Angaben zum Prüfungsstoff der Aufnahmeprüfung Gymnasium Kantonsschule Trogen 2026/27 sowie der Prüfungsstoff der nichtgymnasialen Maturitätslehrgänge; dazu die Prüfungsserien 2010-2025",
+ "punkteTotal": 30,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Satzglieder",
+   "punkte": 8,
+   "anteil": 27,
+   "beschreibung": "Bestimmt wird mit vier Proben: Ersatz-, Verschiebe-, Erweiterungs- und Weglassprobe.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Satzglieder mit den vier Proben bestimmen",
+     "lernzielId": "DSAR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Verbenfächer bilden",
+     "lernzielId": "DSAR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Nominal- und Präpositionalgruppen unterscheiden",
+     "lernzielId": "DSAR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Subjekt und verbale Teile",
+     "lernzielId": "DSAR.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Genitiv-, Dativ- und Akkusativobjekt",
+     "lernzielId": "DSAR.1.05",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ar-nichtgym"
+     ]
+    },
+    {
+     "code": "1.06",
+     "name": "Gleichsetzungsnominativ erkennen",
+     "lernzielId": "DSAR.1.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ar-nichtgym"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Wortarten",
+   "punkte": 6,
+   "anteil": 20,
+   "beschreibung": "Nomen, Verb, Adjektiv, Pronomen und Partikel — mit den im Prüfungsstoff genannten Pronomenarten.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Nomen, Verb und Adjektiv bestimmen",
+     "lernzielId": "DSAR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Bestimmter und unbestimmter Artikel",
+     "lernzielId": "DSAR.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Personal- und Relativpronomen",
+     "lernzielId": "DSAR.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Possessiv- und Demonstrativpronomen",
+     "lernzielId": "DSAR.2.04",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ar-nichtgym"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Präpositionen und Konjunktionen",
+     "lernzielId": "DSAR.2.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Das Verb",
+   "punkte": 7,
+   "anteil": 23,
+   "beschreibung": "Fünf Zeitformen bestimmen und bilden, dazu Infinitiv und Personalform.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Infinitiv und Personalform unterscheiden",
+     "lernzielId": "DSAR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Präsens und Präteritum bilden",
+     "lernzielId": "DSAR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Perfekt und Plusquamperfekt bilden",
+     "lernzielId": "DSAR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Futur I bilden",
+     "lernzielId": "DSAR.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Futur II bilden",
+     "lernzielId": "DSAR.3.05",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ar-nichtgym"
+     ]
+    },
+    {
+     "code": "3.06",
+     "name": "Indikativ, Imperativ und Konjunktiv unterscheiden",
+     "lernzielId": "DSAR.3.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.07",
+     "name": "Direkte und indirekte Rede",
+     "lernzielId": "DSAR.3.07",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "4",
+   "name": "Fälle, Morpheme und Rechtschreibung",
+   "punkte": 9,
+   "anteil": 30,
+   "beschreibung": "Die Rechtschreibregeln stehen im Prüfungsstoff einzeln aufgeführt — von der ie-Regel bis zum Komma zwischen Verbgruppen.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Die vier Fälle mit der Ersatzprobe bestimmen",
+     "lernzielId": "DSAR.4.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.02",
+     "name": "Die vier Fälle bilden",
+     "lernzielId": "DSAR.4.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Wörter in Morpheme zerlegen",
+     "lernzielId": "DSAR.4.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.04",
+     "name": "Gross- und Kleinschreibung mit Hilfe der Morpheme",
+     "lernzielId": "DSAR.4.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.03"
+     ]
+    },
+    {
+     "code": "4.05",
+     "name": "ie-Regel, f-v-Regel und e-ä-Schreibung",
+     "lernzielId": "DSAR.4.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.06",
+     "name": "Doppelkonsonanten, ck und tz",
+     "lernzielId": "DSAR.4.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.07",
+     "name": "Kommas bei Aufzählungen und Verbgruppen",
+     "lernzielId": "DSAR.4.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.08",
+     "name": "Nomen aus Verben mit Präposition und Artikel",
+     "lernzielId": "DSAR.4.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.09",
+     "name": "Höflichkeitspronomen im Brief",
+     "lernzielId": "DSAR.4.09",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

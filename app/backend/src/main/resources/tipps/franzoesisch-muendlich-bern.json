@@ -1,0 +1,213 @@
+{
+ "bereich": "franzoesisch-muendlich-be",
+ "titel": "Französisch mündlich",
+ "eyebrow": "Fünfzehn Minuten, allein mit einem Text",
+ "einleitung": "Diese Prüfung kannst du in der App nicht nachspielen. Dafür braucht es ein Gegenüber. Was du hier findest, ist alles andere: wie die Viertelstunde abläuft, worauf geachtet wird und welche Sätze du vorher können solltest. Wer den Ablauf kennt, verliert die ersten zwei Minuten nicht an die Nervosität.",
+ "grundlage": "Aufnahmeprüfung Französisch mündlich, Kanton Bern: Einzelprüfung von 15 Minuten mit einem Text von 20 bis 30 Zeilen.",
+ "ablauf": [
+  {
+   "nr": 1,
+   "titel": "Text lesen",
+   "dauer": "2 bis 3 Minuten",
+   "text": "Du bekommst einen Text von 20 bis 30 Zeilen und liest ihn still für dich. Das ist die einzige Zeit, die dir allein gehört. Nutze sie nach einem Plan."
+  },
+  {
+   "nr": 2,
+   "titel": "Erzählen, was du verstanden hast",
+   "dauer": "",
+   "text": "Du erklärst auf Französisch, worum es im Text geht. Verlangt ist ein globales Verständnis: das Thema, die Hauptpersonen, der Kern. Nicht jede Zeile."
+  },
+  {
+   "nr": 3,
+   "titel": "Fragen stellen",
+   "dauer": "",
+   "text": "Du wirst aufgefordert, nach Ausdrücken zu fragen, die du nicht verstanden hast. Das ist ein eigener Prüfungspunkt: die Fragetechnik. Wer nichts fragt, verschenkt ihn."
+  },
+  {
+   "nr": 4,
+   "titel": "Laut vorlesen",
+   "dauer": "",
+   "text": "Du liest einige Zeilen des Textes fliessend vor. Geprüft wird die Lesefertigkeit. Tempo und Aussprache, nicht das Verständnis."
+  },
+  {
+   "nr": 5,
+   "titel": "Gespräch über den Text",
+   "dauer": "",
+   "text": "Zum Schluss ein Gespräch: eigene Meinung, eigene Erlebnisse, eigene Absichten. Es können weitere Fragen zum Text kommen."
+  }
+ ],
+ "abschnitte": [
+  {
+   "titel": "Die zwei bis drei Minuten Lesezeit",
+   "tipps": [
+    {
+     "regel": "Lies zuerst den Titel und den ersten Satz jedes Abschnitts.",
+     "warum": "Danach kennst du das Thema und die Gliederung, und genau danach wird zuerst gefragt."
+    },
+    {
+     "regel": "Unterstreiche die Namen, die Zahlen und die Ortsangaben.",
+     "warum": "Das sind die Anker, an denen du dich beim Erzählen entlanghangelst."
+    },
+    {
+     "regel": "Markiere zwei bis drei Wörter, die du nicht verstehst, mit einem Fragezeichen am Rand.",
+     "warum": "Genau diese brauchst du in Schritt 3. Wer sie nicht markiert hat, findet sie unter Druck nicht wieder."
+    },
+    {
+     "regel": "Übersetze den Text nicht Wort für Wort.",
+     "warum": "Verlangt ist ein globales Verständnis. Wer übersetzt, kommt in drei Minuten bis Zeile fünf."
+    }
+   ]
+  },
+  {
+   "titel": "Erzählen, was du verstanden hast",
+   "tipps": [
+    {
+     "regel": "Beginne mit einem Satz zum Thema, dann erst mit Einzelheiten.",
+     "warum": "«Ce texte parle de …» zeigt sofort, dass du den Kern hast. Danach ist jedes Detail ein Zusatz, kein Beweis."
+    },
+    {
+     "regel": "Sprich in kurzen, ganzen Sätzen.",
+     "warum": "Ein einfacher Satz, der stimmt, zählt mehr als ein langer, der auseinanderfällt."
+    },
+    {
+     "regel": "Bleib im Präsens, auch wenn der Text in der Vergangenheit steht.",
+     "warum": "Über einen Text spricht man im Präsens. Das erspart dir das passé composé genau dann, wenn du nicht daran denken kannst."
+    },
+    {
+     "regel": "Wenn du stockst, sag es auf Französisch.",
+     "warum": "«Attendez, je réfléchis» ist ein vollständiger französischer Satz und kauft dir drei Sekunden. Schweigen kauft dir nichts."
+    }
+   ]
+  },
+  {
+   "titel": "Fragen stellen. Der Punkt, den viele liegen lassen",
+   "tipps": [
+    {
+     "regel": "Frag nach mindestens zwei Ausdrücken.",
+     "warum": "Die Fragetechnik ist ein eigener Prüfungsteil. Wer sagt, er habe alles verstanden, bekommt dafür nichts."
+    },
+    {
+     "regel": "Frag auf Französisch und nenne die Zeile.",
+     "warum": "«Qu'est-ce que ça veut dire, ‹…›, à la ligne huit ?», damit zeigst du die Technik und nicht nur die Lücke."
+    },
+    {
+     "regel": "Frag nach Wörtern, die du wirklich nicht kennst.",
+     "warum": "Eine Frage nach einem Wort, das du danach selbst benutzt, fällt auf."
+    }
+   ]
+  },
+  {
+   "titel": "Laut vorlesen",
+   "tipps": [
+    {
+     "regel": "Lies langsamer, als du denkst.",
+     "warum": "Geprüft wird Flüssigkeit, nicht Tempo. Wer hetzt, verschluckt Endungen."
+    },
+    {
+     "regel": "Achte auf das stumme Ende: -ent, -es, -s werden nicht gesprochen.",
+     "warum": "«Ils parlent» klingt wie «il parle». Das ist der häufigste Lesefehler."
+    },
+    {
+     "regel": "Übe das Vorlesen laut, nicht im Kopf.",
+     "warum": "Aussprache lernt der Mund, nicht das Auge. Zehn Minuten laut lesen pro Woche reichen."
+    }
+   ]
+  },
+  {
+   "titel": "Das Gespräch am Schluss",
+   "tipps": [
+    {
+     "regel": "Antworte nie nur mit «oui» oder «non».",
+     "warum": "Geprüft wird, ob du an einem Gespräch teilnehmen kannst. Ein Wort ist keine Teilnahme. Häng immer «parce que …» an."
+    },
+    {
+     "regel": "Bring ein eigenes Erlebnis ein.",
+     "warum": "Der Prüfungsteil verlangt ausdrücklich, dass du eigene Erlebnisse und Absichten ausdrücken kannst. Ein Beispiel aus deinem Alltag genügt."
+    },
+    {
+     "regel": "Wenn dir ein Wort fehlt, umschreibe es.",
+     "warum": "«C'est une chose pour …» ist eine Lösung. Auf Deutsch auszuweichen ist keine."
+    },
+    {
+     "regel": "Stell auch selbst eine Frage zurück.",
+     "warum": "Ein Gespräch hat zwei Seiten. «Et vous, qu'est-ce que vous en pensez ?» zeigt genau das."
+    }
+   ]
+  }
+ ],
+ "redemittel": [
+  {
+   "zweck": "Den Text zusammenfassen",
+   "saetze": [
+    "Ce texte parle de …",
+    "Il s'agit de …",
+    "Le texte présente deux personnes : … et …",
+    "D'abord …, ensuite …, à la fin …",
+    "L'idée principale, c'est que …"
+   ]
+  },
+  {
+   "zweck": "Nach einem Wort fragen",
+   "saetze": [
+    "Qu'est-ce que ça veut dire, « … » ?",
+    "Je n'ai pas compris le mot « … » à la ligne …",
+    "Pouvez-vous expliquer « … », s'il vous plaît ?",
+    "Comment est-ce qu'on dit … en français ?"
+   ]
+  },
+  {
+   "zweck": "Zeit gewinnen",
+   "saetze": [
+    "Attendez, je réfléchis.",
+    "C'est une bonne question.",
+    "Comment dire … ?",
+    "Excusez-moi, pouvez-vous répéter la question ?"
+   ]
+  },
+  {
+   "zweck": "Eine Meinung sagen",
+   "saetze": [
+    "À mon avis, …",
+    "Je pense que …, parce que …",
+    "Je suis d'accord, mais …",
+    "Pour moi, le plus important, c'est …",
+    "Moi aussi, j'ai déjà vécu ça : …"
+   ]
+  },
+  {
+   "zweck": "Wenn ein Wort fehlt",
+   "saetze": [
+    "C'est une chose pour …",
+    "C'est comme … mais plus petit.",
+    "Je ne connais pas le mot, mais c'est quand on …",
+    "Et vous, qu'est-ce que vous en pensez ?"
+   ]
+  }
+ ],
+ "uebungen": [
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "3.01",
+   "name": "Wortschatz aus dem Text erschliessen",
+   "warum": "Genau das tust du in der Lesezeit: unbekannte Wörter aus dem Zusammenhang erschliessen, statt bei jedem stehen zu bleiben."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "4.01",
+   "name": "Verben im Präsens konjugieren",
+   "warum": "Über einen Text sprichst du im Präsens. Wer die Formen sicher hat, muss im Gespräch nicht darüber nachdenken."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "4.06",
+   "name": "Fragen bilden",
+   "warum": "Die Fragetechnik ist ein eigener Prüfungspunkt. Hier übst du die Formen, die du dafür brauchst."
+  },
+  {
+   "bereich": "franzoesisch",
+   "unterthema": "3.02",
+   "name": "Alltagswortschatz: Schule, Freizeit, Familie",
+   "warum": "Im Schlussgespräch geht es um deine eigenen Erlebnisse, und die spielen in genau diesen Bereichen."
+  }
+ ]
+}

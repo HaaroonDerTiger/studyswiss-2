@@ -1,0 +1,148 @@
+{
+ "fach": "franzoesisch",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfung GYM 1 Bern",
+ "quelle": "Französisch-Hauptprüfungen Kanton Bern 2022-2026 (8. und 9. Schuljahr) sowie die mündlichen Textbeispiele FMS und GYM 3",
+ "punkteTotal": 60,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "6.1",
+   "name": "Leseverstehen: Auswahlfragen",
+   "punkte": 15,
+   "anteil": 25,
+   "beschreibung": "Zu jeder Frage stehen drei Aussagen, genau eine trifft den Text.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Die richtige Aussage zum Text wählen",
+     "lernzielId": "FR.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Angaben im Text finden",
+     "lernzielId": "FR.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Personen und ihre Aussagen zuordnen",
+     "lernzielId": "FR.1.03",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "6.2",
+   "name": "Leseverstehen: richtig oder falsch",
+   "punkte": 15,
+   "anteil": 25,
+   "beschreibung": "Stimmt die Aussage? Wenn ja, wo steht das. Wenn nein, wie muss es richtig heissen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Aussagen prüfen und belegen",
+     "lernzielId": "FR.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Falsche Aussagen berichtigen",
+     "lernzielId": "FR.2.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "6.3",
+   "name": "Wortschatz",
+   "punkte": 10,
+   "anteil": 17,
+   "beschreibung": "Der Wortschatz, den die Texte und die Rédaction verlangen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wortschatz aus dem Text erschliessen",
+     "lernzielId": "FR.3.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.02",
+     "name": "Alltagswortschatz: Schule, Freizeit, Familie",
+     "lernzielId": "FR.3.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.03",
+     "name": "Verben des Alltags",
+     "lernzielId": "FR.3.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "3.04",
+     "name": "Wortfelder: Zeit, Ort, Menge",
+     "lernzielId": "FR.3.04",
+     "pflichtset": 14
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "6.4",
+   "name": "Grammatik für die Rédaction",
+   "punkte": 20,
+   "anteil": 33,
+   "beschreibung": "Dreissig der sechzig Punkte kommen aus dem eigenen Text. Zehn davon allein für die Verben.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Verben im Präsens konjugieren",
+     "lernzielId": "FR.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Passé composé bilden",
+     "lernzielId": "FR.4.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Artikel, Genus und Plural",
+     "lernzielId": "FR.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Adjektive angleichen",
+     "lernzielId": "FR.4.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.03"
+     ]
+    },
+    {
+     "code": "4.05",
+     "name": "Verneinung",
+     "lernzielId": "FR.4.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.06",
+     "name": "Fragen bilden",
+     "lernzielId": "FR.4.06",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

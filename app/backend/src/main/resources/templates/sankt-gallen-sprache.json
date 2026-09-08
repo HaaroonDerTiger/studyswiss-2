@@ -1,0 +1,4821 @@
+[
+ {
+  "templateId": "sg-gross-klein",
+  "lernzielId": "DSS.1.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Steht ein Artikel, ein Pronomen oder eine Präposition davor, ist das Wort meistens ein Nomen und wird grossgeschrieben.",
+   "Setze zur Probe «das» oder «ein» davor: Geht es, wird grossgeschrieben.",
+   "Nach «etwas», «nichts», «viel», «wenig» und «alles» folgt ein grossgeschriebenes Adjektiv."
+  ],
+  "loesungsweg": [
+   "Frage zuerst: Ist das Wort hier ein Nomen geworden?",
+   "Prüfe, was davorsteht. Ein Artikel, eine Präposition mit Artikel, ein Pronomen.",
+   "«am besten», «aufs Neue»: Steckt im Wort ein Artikel, wird grossgeschrieben.",
+   "Zeitangaben wie «heute Morgen» tragen das Nomen gross, das Adverb klein."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nBeim ___ des Films schlief er ein.",
+    "optionen": [
+     "Anschauen",
+     "anschauen"
+    ],
+    "loesung": [
+     "Anschauen"
+    ],
+    "erklaerung": "«Beim» ist «bei dem» Dahinter steht ein Artikel, also ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "anschauen",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «beim» steckt ein Artikel: bei DEM Anschauen. Damit ist das Verb zum Nomen geworden."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie hat nichts ___ gesagt.",
+    "optionen": [
+     "Neues",
+     "neues"
+    ],
+    "loesung": [
+     "Neues"
+    ],
+    "erklaerung": "Nach «nichts», «etwas», «viel» und «wenig» wird das folgende Adjektiv grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "neues",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «nichts» steht ein nominalisiertes Adjektiv. Setze «das» zur Probe davor: das Neue."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEs ist am ___, wenn wir früh losfahren.",
+    "optionen": [
+     "besten",
+     "Besten"
+    ],
+    "loesung": [
+     "besten"
+    ],
+    "erklaerung": "«am besten» ist hier die Steigerung von «gut» und bleibt klein. Die Probe: Man kann «wie?» fragen, nicht «was?».",
+    "fehler": [
+     {
+      "antwort": "Besten",
+      "diagnoseId": "gross_klein",
+      "feedback": "Das ist die Steigerungsform von «gut» Sie bleibt klein. Gross wird es nur, wenn ein Nomen gemeint ist, wie in «Er gab ein Lied zum Besten»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWir treffen uns heute ___.",
+    "optionen": [
+     "Abend",
+     "abend"
+    ],
+    "loesung": [
+     "Abend"
+    ],
+    "erklaerung": "In Zeitangaben wie «heute Abend» ist «Abend» ein Nomen und wird grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "abend",
+      "diagnoseId": "gross_klein",
+      "feedback": "«Abend» ist ein Nomen. Auch nach «heute». Klein bleibt nur «abends»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDas ist die Aufgabe von ___, der Zeit hat.",
+    "optionen": [
+     "jemandem",
+     "Jemandem"
+    ],
+    "loesung": [
+     "jemandem"
+    ],
+    "erklaerung": "«jemand» ist ein unbestimmtes Pronomen und wird kleingeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Jemandem",
+      "diagnoseId": "gross_klein",
+      "feedback": "«jemand» ist kein Nomen, sondern ein Pronomen, wie «man» oder «etwas»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr kann gut ___.",
+    "optionen": [
+     "rechnen",
+     "Rechnen"
+    ],
+    "loesung": [
+     "rechnen"
+    ],
+    "erklaerung": "Hier steht das Verb allein als Tätigkeit, ohne Artikel bleibt es klein.",
+    "fehler": [
+     {
+      "antwort": "Rechnen",
+      "diagnoseId": "gross_klein",
+      "feedback": "Ohne Artikel davor bleibt das Verb klein. Erst «das Rechnen» wäre ein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nBeim ___ half sie mit.",
+    "optionen": [
+     "Aufräumen",
+     "aufräumen"
+    ],
+    "loesung": [
+     "Aufräumen"
+    ],
+    "erklaerung": "«beim» ist «bei dem» Der Artikel macht aus dem Verb ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "aufräumen",
+      "diagnoseId": "gross_klein",
+      "feedback": "Der Artikel steckt in «beim». Damit ist «Aufräumen» ein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie hat ___ zu erzählen.",
+    "optionen": [
+     "wenig",
+     "Wenig"
+    ],
+    "loesung": [
+     "wenig"
+    ],
+    "erklaerung": "«wenig» ist hier ein unbestimmtes Zahlwort und bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Wenig",
+      "diagnoseId": "gross_klein",
+      "feedback": "«wenig» steht hier als Mengenangabe, nicht als Nomen. Erst «das Wenige» wäre gross."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWir haben das ___ Mal gewonnen.",
+    "optionen": [
+     "erste",
+     "Erste"
+    ],
+    "loesung": [
+     "erste"
+    ],
+    "erklaerung": "«das erste Mal» «Mal» ist das Nomen, «erste» bleibt das Adjektiv davor.",
+    "fehler": [
+     {
+      "antwort": "Erste",
+      "diagnoseId": "gross_klein",
+      "feedback": "Das Nomen im Satz ist «Mal». «erste» beschreibt es nur und bleibt klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr ist ein ___ geworden.",
+    "optionen": [
+     "Erwachsener",
+     "erwachsener"
+    ],
+    "loesung": [
+     "Erwachsener"
+    ],
+    "erklaerung": "Nach «ein» steht hier ein nominalisiertes Adjektiv. Es ist selbst zum Nomen geworden.",
+    "fehler": [
+     {
+      "antwort": "erwachsener",
+      "diagnoseId": "gross_klein",
+      "feedback": "Der Artikel «ein» zeigt an, dass das Adjektiv hier die Stelle eines Nomens einnimmt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nSie kam ___ nach Hause.",
+    "optionen": [
+     "spätabends",
+     "Spätabends"
+    ],
+    "loesung": [
+     "spätabends"
+    ],
+    "erklaerung": "«spätabends» ist ein Adverb und wird kleingeschrieben. Anders als «am späten Abend».",
+    "fehler": [
+     {
+      "antwort": "Spätabends",
+      "diagnoseId": "gross_klein",
+      "feedback": "Adverbien auf -s wie «abends», «morgens», «spätabends» bleiben klein."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nWer ___ liest, weiss mehr.",
+    "optionen": [
+     "viel",
+     "Viel"
+    ],
+    "loesung": [
+     "viel"
+    ],
+    "erklaerung": "«viel» ist hier ein unbestimmtes Zahlwort zum Verb und bleibt klein.",
+    "fehler": [
+     {
+      "antwort": "Viel",
+      "diagnoseId": "gross_klein",
+      "feedback": "«viel» beschreibt hier, wie stark gelesen wird. Erst «das Viele» wäre ein Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nDas war das ___ des Abends.",
+    "optionen": [
+     "Schönste",
+     "schönste"
+    ],
+    "loesung": [
+     "Schönste"
+    ],
+    "erklaerung": "Nach «das» steht ein nominalisiertes Adjektiv im Superlativ.",
+    "fehler": [
+     {
+      "antwort": "schönste",
+      "diagnoseId": "gross_klein",
+      "feedback": "Der Artikel «das» macht aus dem Adjektiv ein Nomen: das Schönste."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Schreibweise ist richtig?\n\nEr hat sich aufs ___ gefreut.",
+    "optionen": [
+     "Neue",
+     "neue"
+    ],
+    "loesung": [
+     "Neue"
+    ],
+    "erklaerung": "«aufs» ist «auf das» Der Artikel steckt darin und macht das Adjektiv zum Nomen.",
+    "fehler": [
+     {
+      "antwort": "neue",
+      "diagnoseId": "gross_klein",
+      "feedback": "In «aufs» steckt der Artikel «das». Damit wird das Adjektiv grossgeschrieben."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Gross- und Kleinschreibung: Nominalisierungen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-gross-klein-2",
+  "lernzielId": "DSS.1.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Nach «etwas», «nichts», «viel», «wenig» und «alles» wird ein Adjektiv grossgeschrieben.",
+   "«jemand», «niemand», «man» und «einer» sind Pronomen und bleiben klein.",
+   "Tageszeiten nach «gestern», «heute» und «morgen» werden grossgeschrieben."
+  ],
+  "loesungsweg": [
+   "Prüfen, ob ein Adjektiv nach «etwas» oder «nichts» steht.",
+   "Prüfen, ob es sich um ein Pronomen handelt.",
+   "Bei Zeitangaben unterscheiden: Tageszeit als Nomen oder Adverb?",
+   "Die Probe machen: Steht ein Artikel davor oder lässt er sich einsetzen?"
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Wie schreibt man richtig?\n\nSie hat uns etwas ______ erzählt.",
+    "optionen": [
+     "Neues",
+     "neues",
+     "Neue",
+     "neu"
+    ],
+    "loesung": [
+     "Neues"
+    ],
+    "erklaerung": "Nach «etwas» wird das Adjektiv zum Nomen und darum grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "neues",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «etwas» steht ein nominalisiertes Adjektiv, also gross."
+     },
+     {
+      "antwort": "Neue",
+      "diagnoseId": "form",
+      "feedback": "Die Endung nach «etwas» lautet «-es»: etwas Neues."
+     },
+     {
+      "antwort": "neu",
+      "diagnoseId": "form",
+      "feedback": "Ohne Endung ergibt der Satz keinen Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nEs gab nichts ______ zu berichten.",
+    "optionen": [
+     "Wichtiges",
+     "wichtiges",
+     "Wichtige",
+     "wichtig"
+    ],
+    "loesung": [
+     "Wichtiges"
+    ],
+    "erklaerung": "Auch nach «nichts» wird das Adjektiv grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "wichtiges",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «nichts» steht ein nominalisiertes Adjektiv."
+     },
+     {
+      "antwort": "Wichtige",
+      "diagnoseId": "form",
+      "feedback": "Nach «nichts» lautet die Endung «-es». Richtig ist «Wichtiges»."
+     },
+     {
+      "antwort": "wichtig",
+      "diagnoseId": "form",
+      "feedback": "Ohne Endung passt das Wort nicht in die Fügung."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nWir haben viel ______ gelernt.",
+    "optionen": [
+     "Nützliches",
+     "nützliches",
+     "Nützliche",
+     "nützlich"
+    ],
+    "loesung": [
+     "Nützliches"
+    ],
+    "erklaerung": "Nach «viel» steht das nominalisierte Adjektiv gross.",
+    "fehler": [
+     {
+      "antwort": "nützliches",
+      "diagnoseId": "gross_klein",
+      "feedback": "Auch nach «viel» wird nominalisiert. Richtig ist «Nützliches»."
+     },
+     {
+      "antwort": "Nützliche",
+      "diagnoseId": "form",
+      "feedback": "Nach «viel» lautet die Endung «-es». Richtig ist «Nützliches»."
+     },
+     {
+      "antwort": "nützlich",
+      "diagnoseId": "form",
+      "feedback": "Ohne Endung ist es kein Nomen. Richtig ist «Nützliches»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\n______ hat den Schirm liegen gelassen.",
+    "optionen": [
+     "Jemand",
+     "jemand",
+     "Jemandes",
+     "Der Jemand"
+    ],
+    "loesung": [
+     "Jemand"
+    ],
+    "erklaerung": "«jemand» ist ein Pronomen; hier steht es nur am Satzanfang gross.",
+    "fehler": [
+     {
+      "antwort": "jemand",
+      "diagnoseId": "satzanfang",
+      "feedback": "Am Satzanfang wird immer grossgeschrieben."
+     },
+     {
+      "antwort": "Jemandes",
+      "diagnoseId": "fall",
+      "feedback": "Der Genitiv passt nicht als Subjekt. Richtig ist «Jemand»."
+     },
+     {
+      "antwort": "Der Jemand",
+      "diagnoseId": "wortart",
+      "feedback": "«jemand» ist ein Pronomen und nimmt keinen Artikel."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nEs war ______ im Zimmer.",
+    "optionen": [
+     "niemand",
+     "Niemand",
+     "der Niemand",
+     "Niemandes"
+    ],
+    "loesung": [
+     "niemand"
+    ],
+    "erklaerung": "«niemand» ist ein Pronomen und wird mitten im Satz kleingeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Niemand",
+      "diagnoseId": "gross_klein",
+      "feedback": "Pronomen werden nur am Satzanfang grossgeschrieben."
+     },
+     {
+      "antwort": "der Niemand",
+      "diagnoseId": "wortart",
+      "feedback": "«niemand» nimmt keinen Artikel. Richtig ist «niemand»."
+     },
+     {
+      "antwort": "Niemandes",
+      "diagnoseId": "fall",
+      "feedback": "Der Genitiv passt hier nicht. Richtig ist «niemand»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nDas muss ______ erst einmal aushalten.",
+    "optionen": [
+     "man",
+     "Man",
+     "der Mann",
+     "Mann"
+    ],
+    "loesung": [
+     "man"
+    ],
+    "erklaerung": "«man» ist ein Pronomen und bleibt klein; «Mann» wäre eine Person.",
+    "fehler": [
+     {
+      "antwort": "Man",
+      "diagnoseId": "gross_klein",
+      "feedback": "Mitten im Satz bleibt das Pronomen klein."
+     },
+     {
+      "antwort": "der Mann",
+      "diagnoseId": "bedeutung",
+      "feedback": "«Mann» meint eine bestimmte Person, «man» irgendjemanden."
+     },
+     {
+      "antwort": "Mann",
+      "diagnoseId": "bedeutung",
+      "feedback": "Gemeint ist das unbestimmte Pronomen, nicht das Nomen."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nWir treffen uns morgen ______ .",
+    "optionen": [
+     "Abend",
+     "abend",
+     "Abends",
+     "abends"
+    ],
+    "loesung": [
+     "Abend"
+    ],
+    "erklaerung": "Nach «morgen» steht die Tageszeit als Nomen und wird grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "abend",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «gestern», «heute» und «morgen» steht die Tageszeit gross."
+     },
+     {
+      "antwort": "Abends",
+      "diagnoseId": "form",
+      "feedback": "«Abends» wäre ein Zeitadverb und passt nicht nach «morgen»."
+     },
+     {
+      "antwort": "abends",
+      "diagnoseId": "bedeutung",
+      "feedback": "«abends» meint jeden Abend, gemeint ist aber ein bestimmter."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nSie ruft ______ immer nach dem Essen an.",
+    "optionen": [
+     "abends",
+     "Abends",
+     "Abend",
+     "am Abends"
+    ],
+    "loesung": [
+     "abends"
+    ],
+    "erklaerung": "«abends» ist ein Zeitadverb und wird kleingeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Abends",
+      "diagnoseId": "gross_klein",
+      "feedback": "Als Adverb bleibt «abends» klein. Richtig ist «abends»."
+     },
+     {
+      "antwort": "Abend",
+      "diagnoseId": "form",
+      "feedback": "Ohne «-s» fehlt die Angabe der Regelmässigkeit."
+     },
+     {
+      "antwort": "am Abends",
+      "diagnoseId": "form",
+      "feedback": "«am» und «-s» zusammen gibt es nicht. Richtig ist «abends»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nGestern ______ hat es geschneit.",
+    "optionen": [
+     "Nacht",
+     "nacht",
+     "nachts",
+     "Nachts"
+    ],
+    "loesung": [
+     "Nacht"
+    ],
+    "erklaerung": "Nach «gestern» steht die Tageszeit als Nomen: gestern Nacht.",
+    "fehler": [
+     {
+      "antwort": "nacht",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nach «gestern» wird die Tageszeit grossgeschrieben."
+     },
+     {
+      "antwort": "nachts",
+      "diagnoseId": "form",
+      "feedback": "«nachts» meint jede Nacht, gemeint ist eine bestimmte."
+     },
+     {
+      "antwort": "Nachts",
+      "diagnoseId": "form",
+      "feedback": "Das Adverb wird klein und meint zudem etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nDer Zug fährt ______ um sieben.",
+    "optionen": [
+     "montags",
+     "Montags",
+     "Montag um",
+     "des Montags gross"
+    ],
+    "loesung": [
+     "montags"
+    ],
+    "erklaerung": "Wochentage mit «-s» sind Adverbien und werden kleingeschrieben.",
+    "fehler": [
+     {
+      "antwort": "Montags",
+      "diagnoseId": "gross_klein",
+      "feedback": "Als Adverb bleibt «montags» klein. Richtig ist «montags»."
+     },
+     {
+      "antwort": "Montag um",
+      "diagnoseId": "form",
+      "feedback": "Ohne «-s» meint es einen bestimmten Montag; hier geht es um jeden."
+     },
+     {
+      "antwort": "des Montags gross",
+      "diagnoseId": "form",
+      "feedback": "Diese Schreibung gibt es nicht. Richtig ist «montags»."
+     }
+    ]
+   },
+   {
+    "stamm": "Wie schreibt man richtig?\n\nWir sehen uns am ______ .",
+    "optionen": [
+     "Mittwoch",
+     "mittwoch",
+     "mittwochs",
+     "Mittwochs"
+    ],
+    "loesung": [
+     "Mittwoch"
+    ],
+    "erklaerung": "Nach einem Artikel steht der Wochentag als Nomen und wird grossgeschrieben.",
+    "fehler": [
+     {
+      "antwort": "mittwoch",
+      "diagnoseId": "gross_klein",
+      "feedback": "Nomen werden grossgeschrieben. Richtig ist «Mittwoch»."
+     },
+     {
+      "antwort": "mittwochs",
+      "diagnoseId": "form",
+      "feedback": "Nach «am» steht kein Adverb mit «-s». Richtig ist «Mittwoch»."
+     },
+     {
+      "antwort": "Mittwochs",
+      "diagnoseId": "form",
+      "feedback": "Nach «am» passt die Form mit «-s» nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Probe zeigt, dass ein Adjektiv nominalisiert ist?",
+    "optionen": [
+     "Ein Artikel oder ein Wort wie «etwas» steht davor",
+     "Das Wort lässt sich steigern",
+     "Das Wort steht am Satzende",
+     "Das Wort hat mehr als zwei Silben"
+    ],
+    "loesung": [
+     "Ein Artikel oder ein Wort wie «etwas» steht davor"
+    ],
+    "erklaerung": "Wo ein Artikel oder «etwas», «nichts», «viel» steht, ist aus dem Adjektiv ein Nomen geworden.",
+    "fehler": [
+     {
+      "antwort": "Das Wort lässt sich steigern",
+      "diagnoseId": "probe",
+      "feedback": "Steigern lassen sich Adjektive in jeder Verwendung."
+     },
+     {
+      "antwort": "Das Wort steht am Satzende",
+      "diagnoseId": "probe",
+      "feedback": "Die Stellung im Satz entscheidet nicht. Richtig ist «Ein Artikel oder ein Wort wie «etwas» steht davor»."
+     },
+     {
+      "antwort": "Das Wort hat mehr als zwei Silben",
+      "diagnoseId": "probe",
+      "feedback": "Die Länge sagt nichts über die Wortart. Richtig ist «Ein Artikel oder ein Wort wie «etwas» steht davor»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Unbestimmte Pronomen und Zeitangaben",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-verbformen",
+  "lernzielId": "DSS.2.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03",
+   "2.04"
+  ],
+  "format": "mehrfeld",
+  "hinweise": [
+   "Starke Verben ändern beim Präteritum den Stammvokal: singen, sang, gesungen.",
+   "Schwache Verben hängen nur -te an: fragen, fragte, gefragt.",
+   "Verben der Bewegung und der Zustandsänderung bilden das Perfekt mit «sein»: gehen, fahren, wachsen, einschlafen."
+  ],
+  "loesungsweg": [
+   "Frage zuerst: Ändert sich der Stammvokal? Dann ist das Verb stark.",
+   "Bilde das Präteritum in der ersten Person Singular: sie trägt keine Endung.",
+   "Für das Perfekt entscheide zwischen «haben» und «sein».",
+   "Prüfe die Form laut: Was man selbst nie sagen würde, ist meist falsch."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ergänze die Formen des Verbs «halten».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "hältst",
+       "du hältst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "hielt",
+       "ich hielt"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gehalten",
+       "ich habe gehalten"
+      ]
+     }
+    ],
+    "erklaerung": "«halten» ist ein starkes Verb: Der Stammvokal wechselt von a zu ie und zurück zu a."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «frieren».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "frierst",
+       "du frierst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "fror",
+       "ich fror"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gefroren",
+       "ich habe gefroren"
+      ]
+     }
+    ],
+    "erklaerung": "Starkes Verb mit dem Wechsel ie, o, o. Das Perfekt bildet es mit «haben»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «liegen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "liegst",
+       "du liegst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "lag",
+       "ich lag"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gelegen",
+       "ich habe gelegen"
+      ]
+     }
+    ],
+    "erklaerung": "«liegen» ist stark: ie, a, e. In der Schweiz hört man auch «bin gelegen»; die Standardform ist «habe gelegen»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «sein».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "bist",
+       "du bist"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "war",
+       "ich war"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "bin gewesen",
+       "ich bin gewesen"
+      ]
+     }
+    ],
+    "erklaerung": "«sein» ist unregelmässig und bildet sein eigenes Perfekt mit «sein»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «tragen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "trägst",
+       "du trägst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "trug",
+       "ich trug"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe getragen",
+       "ich habe getragen"
+      ]
+     }
+    ],
+    "erklaerung": "Starkes Verb mit a, u, a. Im Präsens kommt in der zweiten Person ein Umlaut dazu."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «waschen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "wäschst",
+       "du wäschst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "wusch",
+       "ich wusch"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gewaschen",
+       "ich habe gewaschen"
+      ]
+     }
+    ],
+    "erklaerung": "Starkes Verb mit a, u, a und Umlaut im Präsens."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «fahren».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "fährst",
+       "du fährst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "fuhr",
+       "ich fuhr"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "bin gefahren",
+       "ich bin gefahren"
+      ]
+     }
+    ],
+    "erklaerung": "Ein Verb der Bewegung. Das Perfekt bildet es mit «sein», nicht mit «haben»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «fragen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "fragst",
+       "du fragst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "fragte",
+       "ich fragte"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gefragt",
+       "ich habe gefragt"
+      ]
+     }
+    ],
+    "erklaerung": "Ein schwaches Verb: Der Stammvokal bleibt, das Präteritum hängt nur -te an."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «wachsen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "wächst",
+       "du wächst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "wuchs",
+       "ich wuchs"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "bin gewachsen",
+       "ich bin gewachsen"
+      ]
+     }
+    ],
+    "erklaerung": "Eine Zustandsänderung. Darum Perfekt mit «sein»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «denken».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "denkst",
+       "du denkst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "dachte",
+       "ich dachte"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gedacht",
+       "ich habe gedacht"
+      ]
+     }
+    ],
+    "erklaerung": "Ein gemischtes Verb: Es ändert den Stamm wie ein starkes und hängt trotzdem -te an."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «einschlafen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "schläfst ein",
+       "du schläfst ein"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "schlief ein",
+       "ich schlief ein"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "bin eingeschlafen",
+       "ich bin eingeschlafen"
+      ]
+     }
+    ],
+    "erklaerung": "Trennbares Verb mit Zustandsänderung: Der Verbzusatz wandert ans Satzende, das Perfekt nimmt «sein»."
+   },
+   {
+    "stamm": "Ergänze die Formen des Verbs «bringen».",
+    "felder": [
+     {
+      "label": "2. Person Singular Präsens",
+      "loesung": [
+       "bringst",
+       "du bringst"
+      ]
+     },
+     {
+      "label": "1. Person Singular Präteritum",
+      "loesung": [
+       "brachte",
+       "ich brachte"
+      ]
+     },
+     {
+      "label": "1. Person Singular Perfekt",
+      "loesung": [
+       "habe gebracht",
+       "ich habe gebracht"
+      ]
+     }
+    ],
+    "erklaerung": "Gemischtes Verb wie «denken»: Stammwechsel und trotzdem die Endung -te."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Verbformen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-satzglieder",
+  "lernzielId": "DSS.3.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "Frage nach dem Satzglied: «Wer oder was?» ergibt den Nominativ, «Wen oder was?» den Akkusativ, «Wem?» den Dativ, «Wessen?» den Genitiv.",
+   "Steht eine Präposition davor, mit, auf, in, wegen, trotz, ist es eine Präpositionalgruppe, unabhängig vom Fall dahinter.",
+   "Die Lehrmittel sagen Subjekt, Akkusativobjekt und Dativobjekt; der Lehrplan sagt Nominalgruppe im Nominativ, im Akkusativ, im Dativ. Beides meint dasselbe."
+  ],
+  "loesungsweg": [
+   "Suche zuerst das Verb, von ihm hängen alle Satzglieder ab.",
+   "Frage der Reihe nach: Wer oder was? Wen oder was? Wem? Wessen?",
+   "Prüfe, ob eine Präposition davorsteht. Wenn ja, ist es eine Präpositionalgruppe.",
+   "Verschiebeprobe: Was sich gemeinsam an den Satzanfang stellen lässt, ist ein Satzglied."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Nachbarin** schenkte **meinem Bruder** **ein altes Velo**, dessen Rahmen **aus Stahl** war.»",
+    "zeilen": [
+     {
+      "text": "Die Nachbarin",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "meinem Bruder",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "ein altes Velo",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     },
+     {
+      "text": "aus Stahl",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«Wer schenkte?» ergibt das Subjekt, «wem?» den Dativ, «was?» den Akkusativ. «aus Stahl» beginnt mit einer Präposition."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Trotz des Regens** fuhr **der Zug** pünktlich, und **die Reisenden** erreichten **ihren Anschluss**.»",
+    "zeilen": [
+     {
+      "text": "Trotz des Regens",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "der Zug",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "die Reisenden",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "ihren Anschluss",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Trotz» ist eine Präposition. Die Gruppe zählt als Präpositionalgruppe, obwohl der Genitiv folgt."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Das Dach** **des Hauses** wurde **im Frühling** ersetzt; **die Kosten** trug die Gemeinde.»",
+    "zeilen": [
+     {
+      "text": "Das Dach",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Hauses",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     },
+     {
+      "text": "im Frühling",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Kosten",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Wessen Dach?» ergibt den Genitiv. «im» ist «in dem» und damit eine Präposition."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Meiner Schwester** gefällt **das neue Quartier**, weil **die Wege** **zur Schule** kurz sind.»",
+    "zeilen": [
+     {
+      "text": "Meiner Schwester",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "das neue Quartier",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "die Wege",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "zur Schule",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«gefallen» verlangt den Dativ. Was gefällt, steht im Nominativ: auch wenn es hinten steht."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Wegen des Sturms** blieb **die Fähre** **im Hafen**, und **niemand** konnte übersetzen.»",
+    "zeilen": [
+     {
+      "text": "Wegen des Sturms",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Fähre",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "im Hafen",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "niemand",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     }
+    ],
+    "erklaerung": "«wegen» und «in» sind Präpositionen. «niemand» ist ein Pronomen im Nominativ und damit das Subjekt."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Der Lehrer** erklärte **den Schülerinnen** **die Aufgabe** **an der Wandtafel**.»",
+    "zeilen": [
+     {
+      "text": "Der Lehrer",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "den Schülerinnen",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "die Aufgabe",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     },
+     {
+      "text": "an der Wandtafel",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«erklären» verlangt zwei Objekte: wem (Dativ) und was (Akkusativ)."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Erinnerung** **jenes Abends** begleitete **sie** **noch lange**.»",
+    "zeilen": [
+     {
+      "text": "Die Erinnerung",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "jenes Abends",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     },
+     {
+      "text": "sie",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     },
+     {
+      "text": "noch lange",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     }
+    ],
+    "erklaerung": "«noch lange» ist eine Zeitangabe ohne Nomen und ohne Präposition, keine der genannten Gruppen."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Am Montag** half **mein Onkel** **dem Nachbarn** **beim Umzug**.»",
+    "zeilen": [
+     {
+      "text": "Am Montag",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "mein Onkel",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "dem Nachbarn",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "beim Umzug",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«helfen» verlangt den Dativ. «am» und «beim» enthalten Präpositionen."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Innerhalb einer Woche** hatte **das Team** **den Vorsprung** verloren, **leider**.»",
+    "zeilen": [
+     {
+      "text": "Innerhalb einer Woche",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "das Team",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "den Vorsprung",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     },
+     {
+      "text": "leider",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     }
+    ],
+    "erklaerung": "«leider» ist ein Adverb der Bewertung und gehört zu keiner der genannten Gruppen."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Kinder** dankten **der Bäuerin**, deren Hof **sie** **am Nachmittag** besucht hatten.»",
+    "zeilen": [
+     {
+      "text": "Die Kinder",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "der Bäuerin",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "sie",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "am Nachmittag",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«danken» verlangt den Dativ. Im Nebensatz ist «sie» das Subjekt und steht im Nominativ."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Das Ergebnis** **der Abstimmung** überraschte **viele**; **schliesslich** war lange diskutiert worden.»",
+    "zeilen": [
+     {
+      "text": "Das Ergebnis",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "der Abstimmung",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     },
+     {
+      "text": "viele",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     },
+     {
+      "text": "schliesslich",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     }
+    ],
+    "erklaerung": "«Wessen Ergebnis?» ergibt den Genitiv. «viele» steht als Objekt im Akkusativ."
+   },
+   {
+    "stamm": "Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Ohne ihren Schlüssel** stand **die Mieterin** **vor der Tür**, und **der Abend** wurde lang.»",
+    "zeilen": [
+     {
+      "text": "Ohne ihren Schlüssel",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Mieterin",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "vor der Tür",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "der Abend",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     }
+    ],
+    "erklaerung": "«ohne» und «vor» sind Präpositionen; beide Gruppen zählen darum als Präpositionalgruppen."
+   }
+  ],
+  "optionen": [
+   "Nominalgruppe im Nominativ",
+   "Nominalgruppe im Akkusativ",
+   "Nominalgruppe im Dativ",
+   "Nominalgruppe im Genitiv",
+   "Präpositionalgruppe",
+   "keine dieser Gruppen"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Nominalgruppen im Nominativ, Akkusativ und Dativ",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-satzglieder-2",
+  "lernzielId": "DSS.3.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "3.04",
+   "3.05",
+   "3.06"
+  ],
+  "format": "tabelle_auswahl",
+  "hinweise": [
+   "«Wessen?» ergibt den Genitiv.",
+   "Steht eine Präposition davor, zählt die Gruppe als Präpositionalgruppe — unabhängig vom Fall dahinter.",
+   "Ein Attribut innerhalb einer Gruppe ist kein eigenes Satzglied."
+  ],
+  "loesungsweg": [
+   "Das Verb suchen.",
+   "Der Reihe nach fragen: Wer? Wen? Wem? Wessen?",
+   "Auf eine Präposition am Anfang achten.",
+   "Mit der Verschiebeprobe prüfen, ob die Gruppe allein an den Satzanfang wandert."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Aufgabe 1. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Der Vater** meiner Freundin erinnert sich **des Unfalls** noch genau.»",
+    "zeilen": [
+     {
+      "text": "Der Vater",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "meiner Freundin",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     },
+     {
+      "text": "des Unfalls",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     }
+    ],
+    "erklaerung": "«meiner Freundin» hängt am Nomen «Vater» und lässt sich nicht allein verschieben — es ist ein Attribut, kein Satzglied. «sich erinnern» verlangt den Genitiv."
+   },
+   {
+    "stamm": "Aufgabe 2. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Wegen des Sturms** blieb **die Bergbahn** **den ganzen Tag** stehen.»",
+    "zeilen": [
+     {
+      "text": "Wegen des Sturms",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Bergbahn",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "den ganzen Tag",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Wegen» ist eine Präposition; die Gruppe zählt als Präpositionalgruppe, obwohl der Genitiv folgt. «den ganzen Tag» steht im Akkusativ als Zeitangabe."
+   },
+   {
+    "stamm": "Aufgabe 3. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Zeugen** des Vorfalls schwiegen, weil sie sich **der Folgen** bewusst waren.»",
+    "zeilen": [
+     {
+      "text": "Die Zeugen",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Vorfalls",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     },
+     {
+      "text": "der Folgen",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     }
+    ],
+    "erklaerung": "«des Vorfalls» hängt am Nomen «Zeugen» und ist ein Attribut. «sich bewusst sein» verlangt den Genitiv."
+   },
+   {
+    "stamm": "Aufgabe 4. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Trotz der Kälte** wartete **die Klasse** **auf dem Perron**.»",
+    "zeilen": [
+     {
+      "text": "Trotz der Kälte",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Klasse",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "auf dem Perron",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "Beide Gruppen beginnen mit einer Präposition, «trotz» und «auf». Der Fall dahinter ändert daran nichts."
+   },
+   {
+    "stamm": "Aufgabe 5. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Während der Pause** erklärte **der Lehrer** **den Schülern** die Aufgabe.»",
+    "zeilen": [
+     {
+      "text": "Während der Pause",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "der Lehrer",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "den Schülern",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Während» ist eine Präposition. «Wem erklärte er?» ergibt den Dativ."
+   },
+   {
+    "stamm": "Aufgabe 6. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Farbe** des Autos gefiel **meiner Mutter** **überhaupt nicht**.»",
+    "zeilen": [
+     {
+      "text": "Die Farbe",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Autos",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     },
+     {
+      "text": "meiner Mutter",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "überhaupt nicht",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     }
+    ],
+    "erklaerung": "«des Autos» ist ein Attribut zu «Farbe». «überhaupt nicht» ist eine Verneinung und keine der genannten Gruppen."
+   },
+   {
+    "stamm": "Aufgabe 7. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Innerhalb einer Woche** hatte **der Verein** **hundert Mitglieder**.»",
+    "zeilen": [
+     {
+      "text": "Innerhalb einer Woche",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "der Verein",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "hundert Mitglieder",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Innerhalb» ist eine Präposition mit Genitiv; die Gruppe bleibt eine Präpositionalgruppe."
+   },
+   {
+    "stamm": "Aufgabe 8. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Der Angeklagte** wurde **des Diebstahls** beschuldigt, **obwohl die Beweise fehlten**.»",
+    "zeilen": [
+     {
+      "text": "Der Angeklagte",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Diebstahls",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     },
+     {
+      "text": "obwohl die Beweise fehlten",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     }
+    ],
+    "erklaerung": "«beschuldigen» verlangt den Genitiv. Der Nebensatz ist keine Wortgruppe der genannten Art."
+   },
+   {
+    "stamm": "Aufgabe 9. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Am Freitag** brachte **der Pöstler** **ein schweres Paket**.»",
+    "zeilen": [
+     {
+      "text": "Am Freitag",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "der Pöstler",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "ein schweres Paket",
+      "loesung": [
+       "Nominalgruppe im Akkusativ"
+      ]
+     }
+    ],
+    "erklaerung": "«Am» ist die verschmolzene Form von «an dem» und damit eine Präposition."
+   },
+   {
+    "stamm": "Aufgabe 10. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Ungeachtet der Warnung** stiegen **die Wanderer** **ohne Karte** weiter.»",
+    "zeilen": [
+     {
+      "text": "Ungeachtet der Warnung",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     },
+     {
+      "text": "die Wanderer",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "ohne Karte",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«Ungeachtet» und «ohne» sind Präpositionen; beide Gruppen zählen darum gleich."
+   },
+   {
+    "stamm": "Aufgabe 11. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Das Dach** des Hauses hielt **dem Sturm** stand, **sehr zur Überraschung** der Nachbarn.»",
+    "zeilen": [
+     {
+      "text": "Das Dach",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Hauses",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     },
+     {
+      "text": "dem Sturm",
+      "loesung": [
+       "Nominalgruppe im Dativ"
+      ]
+     },
+     {
+      "text": "sehr zur Überraschung",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«standhalten» verlangt den Dativ. «zur» ist «zu der» und damit eine Präposition."
+   },
+   {
+    "stamm": "Aufgabe 12. Bestimme für jede fett gedruckte Wortgruppe die Art.\n\n«**Die Leiterin** des Lagers gedachte **der Gründerin** **in einer kurzen Rede**.»",
+    "zeilen": [
+     {
+      "text": "Die Leiterin",
+      "loesung": [
+       "Nominalgruppe im Nominativ"
+      ]
+     },
+     {
+      "text": "des Lagers",
+      "loesung": [
+       "keine dieser Gruppen"
+      ]
+     },
+     {
+      "text": "der Gründerin",
+      "loesung": [
+       "Nominalgruppe im Genitiv"
+      ]
+     },
+     {
+      "text": "in einer kurzen Rede",
+      "loesung": [
+       "Präpositionalgruppe"
+      ]
+     }
+    ],
+    "erklaerung": "«gedenken» verlangt den Genitiv. «des Lagers» hängt am Nomen «Leiterin» und ist ein Attribut."
+   }
+  ],
+  "optionen": [
+   "Nominalgruppe im Nominativ",
+   "Nominalgruppe im Akkusativ",
+   "Nominalgruppe im Dativ",
+   "Nominalgruppe im Genitiv",
+   "Präpositionalgruppe",
+   "keine dieser Gruppen"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Genitiv, Präpositionalgruppe und Nichtsatzglieder",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-praepositionen",
+  "lernzielId": "DSS.4.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "4.01",
+   "4.02",
+   "4.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Viele Verben verlangen eine feste Präposition: sich freuen AUF, bestehen AUF, rechnen MIT, sich irren IN.",
+   "Nach «wegen», «trotz», «während», «innerhalb» und «ausserhalb» steht der Genitiv.",
+   "Nach «mit», «bei», «seit», «von», «zu», «aus» und «nach» steht immer der Dativ."
+  ],
+  "loesungsweg": [
+   "Frage zuerst, welche Präposition zum Verb gehört. Sie steht meist fest.",
+   "Bestimme dann den Fall, den diese Präposition verlangt.",
+   "Setze den Ausdruck aus der Klammer in diesen Fall.",
+   "Lies den Satz laut: Was sich falsch anhört, ist es meistens auch."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Mädchen zogen ______________ (der Mitschüler) her.",
+    "loesung": [
+     "über den Mitschüler"
+    ],
+    "erklaerung": "«über jemanden herziehen» ist eine feste Verbindung; «über» verlangt hier den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "über dem Mitschüler",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«über» steht hier auf die Frage «über wen?» und verlangt darum den Akkusativ, nicht den Dativ."
+     },
+     {
+      "antwort": "von dem Mitschüler",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Wendung lautet «über jemanden herziehen», nicht «von jemandem»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Lehrerin besteht ______________ (die Erledigung) der Hausaufgaben.",
+    "loesung": [
+     "auf der Erledigung"
+    ],
+    "erklaerung": "«bestehen auf» verlangt den Dativ: anders als «bestehen aus», das ebenfalls den Dativ nimmt, aber etwas anderes meint.",
+    "fehler": [
+     {
+      "antwort": "auf die Erledigung",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«bestehen auf» steht mit dem Dativ: auf DER Erledigung."
+     },
+     {
+      "antwort": "aus der Erledigung",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«bestehen aus» meint, woraus etwas zusammengesetzt ist. Hier geht es um ein Beharren."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nWir rechneten ______________ (ihre Verspätung).",
+    "loesung": [
+     "mit ihrer Verspätung"
+    ],
+    "erklaerung": "«rechnen mit» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "mit ihre Verspätung",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «mit» steht immer der Dativ: mit IHRER Verspätung."
+     },
+     {
+      "antwort": "auf ihre Verspätung",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«rechnen auf» gibt es nicht. Die feste Verbindung lautet «rechnen mit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nWir beziehen uns ______________ (Ihr Schreiben) vom 16. Juli.",
+    "loesung": [
+     "auf Ihr Schreiben"
+    ],
+    "erklaerung": "«sich beziehen auf» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf Ihrem Schreiben",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«sich beziehen auf» steht mit dem Akkusativ: die Frage lautet «worauf?», nicht «woran?»."
+     },
+     {
+      "antwort": "zu Ihrem Schreiben",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «sich beziehen auf»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\n______________ (das verlorene Spiel) feierten die Verlierer trotzdem.",
+    "loesung": [
+     "Trotz des verlorenen Spiels"
+    ],
+    "erklaerung": "«trotz» verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Trotz dem verlorenen Spiel",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «trotz» steht in der Standardsprache der Genitiv: trotz DES verlorenen SpielS."
+     },
+     {
+      "antwort": "Wegen des verlorenen Spiels",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«wegen» nennt einen Grund. Hier steht ein Gegensatz. Dafür braucht es «trotz»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Besucherinnen irrten sich ______________ (die Haustüre).",
+    "loesung": [
+     "in der Haustüre"
+    ],
+    "erklaerung": "«sich irren in» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "in die Haustüre",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Hier wird kein Weg beschrieben, sondern ein Ort des Irrtums. Darum der Dativ."
+     },
+     {
+      "antwort": "bei der Haustüre",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «sich irren in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDas Gesetz verstiess ______________ (die Verfassung).",
+    "loesung": [
+     "gegen die Verfassung"
+    ],
+    "erklaerung": "«verstossen gegen» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "gegen der Verfassung",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«gegen» steht ausnahmslos mit dem Akkusativ: gegen DIE Verfassung. Der Dativ kommt hier nie vor."
+     },
+     {
+      "antwort": "mit der Verfassung",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «verstossen gegen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Mutter ermahnt ihre Tochter ______________ (grosse Vorsicht).",
+    "loesung": [
+     "zu grosser Vorsicht"
+    ],
+    "erklaerung": "«ermahnen zu» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "zu grosse Vorsicht",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «zu» steht der Dativ: zu grosseR Vorsicht."
+     },
+     {
+      "antwort": "auf grosse Vorsicht",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «jemanden zu etwas ermahnen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\n______________ (eine Woche) muss die Anmeldung eintreffen.",
+    "loesung": [
+     "Innerhalb einer Woche"
+    ],
+    "erklaerung": "«innerhalb» verlangt den Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Innerhalb einer Woche lang",
+      "diagnoseId": "zusatz_erfunden",
+      "feedback": "Das «lang» gehört nicht dazu. «innerhalb einer Woche» sagt es bereits."
+     },
+     {
+      "antwort": "In einer Woche",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«in einer Woche» meint den Zeitpunkt danach. «Innerhalb» meint die ganze Frist."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nSie freut sich ______________ (die Sommerferien).",
+    "loesung": [
+     "auf die Sommerferien"
+    ],
+    "erklaerung": "«sich freuen auf» verlangt den Akkusativ und meint etwas Kommendes.",
+    "fehler": [
+     {
+      "antwort": "auf den Sommerferien",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«sich freuen auf» steht mit dem Akkusativ."
+     },
+     {
+      "antwort": "über die Sommerferien",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«sich freuen über» meint etwas Vergangenes oder Gegenwärtiges. Die Ferien liegen noch vor uns."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\n______________ (der starke Schneefall) fiel der Unterricht aus.",
+    "loesung": [
+     "Wegen des starken Schneefalls"
+    ],
+    "erklaerung": "«wegen» verlangt den Genitiv und nennt einen Grund.",
+    "fehler": [
+     {
+      "antwort": "Wegen dem starken Schneefall",
+      "diagnoseId": "falscher_fall",
+      "feedback": "In der Standardsprache steht nach «wegen» der Genitiv."
+     },
+     {
+      "antwort": "Trotz des starken Schneefalls",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«trotz» drückt einen Gegensatz aus. Hier ist der Schneefall der Grund."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDer Bericht handelt ______________ (die Folgen) des Umbaus.",
+    "loesung": [
+     "von den Folgen"
+    ],
+    "erklaerung": "«handeln von» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "von die Folgen",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «von» steht immer der Dativ: von DEN Folgen."
+     },
+     {
+      "antwort": "über die Folgen",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«handeln von» ist die feste Verbindung. «berichten über» wäre eine andere."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nSie erinnert sich gut ______________ (jener Abend).",
+    "loesung": [
+     "an jenen Abend"
+    ],
+    "erklaerung": "«sich erinnern an» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "an jenem Abend",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«sich erinnern an» steht mit dem Akkusativ: «an jenem Abend» wäre eine Zeitangabe."
+     },
+     {
+      "antwort": "von jenem Abend",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «sich erinnern an»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Präpositionen und ihre Fälle",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-praepositionen-2",
+  "lernzielId": "DSS.4.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "4.04",
+   "4.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Viele Verben verlangen eine feste Präposition, die man mitlernen muss.",
+   "Wechselpräpositionen stehen mit dem Akkusativ, wenn eine Richtung gemeint ist.",
+   "Sie stehen mit dem Dativ, wenn ein Ort gemeint ist."
+  ],
+  "loesungsweg": [
+   "Fragen, welche Präposition zum Verb gehört.",
+   "Bei Wechselpräpositionen fragen: wohin oder wo?",
+   "Den Ausdruck in den passenden Fall setzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nWir freuen uns schon ______________ (die Ferien).",
+    "loesung": [
+     "auf die Ferien"
+    ],
+    "erklaerung": "«sich freuen auf» meint etwas Kommendes und verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf den Ferien",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«sich freuen auf» steht mit dem Akkusativ: auf DIE Ferien."
+     },
+     {
+      "antwort": "über die Ferien",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«sich freuen über» meint etwas, das schon geschehen ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nSie rechnet fest ______________ (deine Hilfe).",
+    "loesung": [
+     "mit deiner Hilfe"
+    ],
+    "erklaerung": "«rechnen mit» ist eine feste Verbindung; «mit» verlangt immer den Dativ.",
+    "fehler": [
+     {
+      "antwort": "mit deine Hilfe",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «mit» steht der Dativ: mit DEINER Hilfe."
+     },
+     {
+      "antwort": "auf deine Hilfe",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «rechnen mit»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nEr wartet seit einer Stunde ______________ (der Bus).",
+    "loesung": [
+     "auf den Bus"
+    ],
+    "erklaerung": "«warten auf» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf dem Bus",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«warten auf» steht mit dem Akkusativ: auf DEN Bus."
+     },
+     {
+      "antwort": "nach dem Bus",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «warten auf»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Klasse nimmt ______________ (der Wettbewerb) teil.",
+    "loesung": [
+     "an dem Wettbewerb"
+    ],
+    "erklaerung": "«teilnehmen an» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "an den Wettbewerb",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«teilnehmen an» steht mit dem Dativ. Richtig ist «an dem Wettbewerb»."
+     },
+     {
+      "antwort": "bei dem Wettbewerb",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «teilnehmen an»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nNiemand zweifelt ______________ (seine Ehrlichkeit).",
+    "loesung": [
+     "an seiner Ehrlichkeit"
+    ],
+    "erklaerung": "«zweifeln an» verlangt den Dativ.",
+    "fehler": [
+     {
+      "antwort": "an seine Ehrlichkeit",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«zweifeln an» steht mit dem Dativ. Richtig ist «an seiner Ehrlichkeit»."
+     },
+     {
+      "antwort": "über seine Ehrlichkeit",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «zweifeln an»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nSie erinnert sich gut ______________ (jener Sommer).",
+    "loesung": [
+     "an jenen Sommer"
+    ],
+    "erklaerung": "«sich erinnern an» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "an jenem Sommer",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«sich erinnern an» steht mit dem Akkusativ."
+     },
+     {
+      "antwort": "von jenem Sommer",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «sich erinnern an»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke und setze den Ausdruck in Klammern in die richtige Form. Es wird eine Richtung beschrieben.\n\nDer Bub legte das Heft ______________ (der Tisch).",
+    "loesung": [
+     "auf den Tisch"
+    ],
+    "erklaerung": "«Wohin?» ergibt bei einer Wechselpräposition den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf dem Tisch",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«legen» beschreibt eine Richtung; darum der Akkusativ."
+     },
+     {
+      "antwort": "unter den Tisch",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Gemeint ist die Oberfläche des Tischs. Richtig ist «auf den Tisch»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke und setze den Ausdruck in Klammern in die richtige Form. Es wird ein Ort beschrieben.\n\nDas Heft liegt ______________ (der Tisch).",
+    "loesung": [
+     "auf dem Tisch"
+    ],
+    "erklaerung": "«Wo?» ergibt bei einer Wechselpräposition den Dativ.",
+    "fehler": [
+     {
+      "antwort": "auf den Tisch",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«liegen» beschreibt einen Ort; darum der Dativ."
+     },
+     {
+      "antwort": "über dem Tisch",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«über» hiesse schwebend darüber, nicht aufliegend."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke und setze den Ausdruck in Klammern in die richtige Form. Es wird eine Richtung beschrieben.\n\nSie hängte das Bild ______________ (die Wand).",
+    "loesung": [
+     "an die Wand"
+    ],
+    "erklaerung": "«Wohin?» ergibt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "an der Wand",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«hängen» mit Richtung verlangt den Akkusativ."
+     },
+     {
+      "antwort": "auf die Wand",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Bei senkrechten Flächen steht «an», nicht «auf»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke und setze den Ausdruck in Klammern in die richtige Form. Es wird ein Ort beschrieben.\n\nDas Bild hängt ______________ (die Wand).",
+    "loesung": [
+     "an der Wand"
+    ],
+    "erklaerung": "«Wo hängt es?» fragt nach dem Ort; darum steht die Wechselpräposition mit dem Dativ.",
+    "fehler": [
+     {
+      "antwort": "an die Wand",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Beim Ort steht der Dativ. Richtig ist «an der Wand»."
+     },
+     {
+      "antwort": "in der Wand",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "«in» hiesse innerhalb der Mauer. Richtig ist «an der Wand»."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke und setze den Ausdruck in Klammern in die richtige Form. Es wird eine Richtung beschrieben.\n\nDie Katze sprang ______________ (der Schrank).",
+    "loesung": [
+     "auf den Schrank"
+    ],
+    "erklaerung": "«Wohin sprang sie?» ergibt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "auf dem Schrank",
+      "diagnoseId": "falscher_fall",
+      "feedback": "«springen» beschreibt hier eine Richtung; darum der Akkusativ."
+     },
+     {
+      "antwort": "neben den Schrank",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Gemeint ist die Fläche oben, nicht der Platz daneben."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze die Lücke mit einer passenden Präposition und setze den Ausdruck in Klammern in die richtige Form.\n\nDie Gemeinde hat sich ______________ (der Neubau) entschieden.",
+    "loesung": [
+     "für den Neubau"
+    ],
+    "erklaerung": "«sich entscheiden für» verlangt den Akkusativ.",
+    "fehler": [
+     {
+      "antwort": "für dem Neubau",
+      "diagnoseId": "falscher_fall",
+      "feedback": "Nach «für» steht immer der Akkusativ. Richtig ist «für den Neubau»."
+     },
+     {
+      "antwort": "zu dem Neubau",
+      "diagnoseId": "falsche_praeposition",
+      "feedback": "Die feste Verbindung lautet «sich entscheiden für»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Feste Verbindungen und Wechselpräpositionen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-wortbildung",
+  "lernzielId": "DSS.5.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "5.01",
+   "5.02",
+   "5.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Bei einem Kompositum steht das gesuchte Wort vorne. Prüfe beide Verbindungen, bevor du dich entscheidest.",
+   "Manche Wörter brauchen ein Fugenzeichen: Geburt wird zu Geburts-, Arbeit zu Arbeits-.",
+   "Ein Vormorphem verändert die Bedeutung des Verbs: bewähren, verstellen, entgegenkommen."
+  ],
+  "loesungsweg": [
+   "Setze das gesuchte Wort probeweise vor beide Endungen.",
+   "Prüfe, ob ein Fugenzeichen nötig ist. Sprich das Wort laut aus.",
+   "Bei Verben: Welche Vorsilbe ergibt im Satz einen Sinn?",
+   "Lies den ganzen Satz mit deiner Lösung noch einmal."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + ort · ______________ + tag",
+    "loesung": [
+     "Geburts",
+     "Geburts-"
+    ],
+    "erklaerung": "Geburtsort und Geburtstag. Dazwischen steht das Fugen-s.",
+    "fehler": [
+     {
+      "antwort": "Geburt",
+      "diagnoseId": "fugenzeichen_fehlt",
+      "feedback": "Fast richtig: Zwischen «Geburt» und «ort» steht ein Fugen-s. Sprich es laut, dann hörst du es."
+     },
+     {
+      "antwort": "Namen",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Namenstag» gibt es, «Namenort» nicht. Gesucht ist ein Wort, das zu BEIDEN Endungen passt."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + zettel · ______________ + beruf",
+    "loesung": [
+     "Wunsch"
+    ],
+    "erklaerung": "Wunschzettel und Wunschberuf. Hier braucht es kein Fugenzeichen.",
+    "fehler": [
+     {
+      "antwort": "Traum",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Traumberuf» gibt es, «Traumzettel» nicht."
+     },
+     {
+      "antwort": "Wunsches",
+      "diagnoseId": "fugenzeichen_zu_viel",
+      "feedback": "Hier steht kein Fugenzeichen: Es heisst Wunschzettel, nicht Wunscheszettel."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + note · ______________ + ball",
+    "loesung": [
+     "Fuss"
+    ],
+    "erklaerung": "Fussnote und Fussball. Beides ohne Fugenzeichen, weil der Wortstamm schon auf einen Konsonanten endet.",
+    "fehler": [
+     {
+      "antwort": "Hand",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Handball» gibt es tatsächlich, «Handnote» aber nicht. Gesucht ist ein Wort, das zu BEIDEN Endungen passt."
+     },
+     {
+      "antwort": "Fusses",
+      "diagnoseId": "fugenzeichen_zu_viel",
+      "feedback": "Es heisst Fussball und Fussnote, ohne Fugenzeichen."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + stück · ______________ + ausbildung",
+    "loesung": [
+     "Grund"
+    ],
+    "erklaerung": "Grundstück und Grundausbildung.",
+    "fehler": [
+     {
+      "antwort": "Haupt",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Hauptstück» ist ungebräuchlich, «Hauptausbildung» ebenso."
+     },
+     {
+      "antwort": "Grundes",
+      "diagnoseId": "fugenzeichen_zu_viel",
+      "feedback": "Hier steht kein Fugenzeichen: Grundstück, Grundausbildung."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nSollte sich das Gerät ______________währen, bestellen wir mehr davon.",
+    "loesung": [
+     "be"
+    ],
+    "erklaerung": "«sich bewähren» heisst, sich als brauchbar erweisen.",
+    "fehler": [
+     {
+      "antwort": "ge",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«gewähren» heisst zugestehen oder erlauben und passt nicht zum rückbezüglichen «sich» im Satz."
+     },
+     {
+      "antwort": "ver",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "Das Wort «verwähren» gibt es im Deutschen nicht. Gesucht ist eine Vorsilbe, die zusammen mit «währen» ein gebräuchliches Verb ergibt."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nEr ist viel stärker als du, und du willst es mit ihm ______________nehmen?",
+    "loesung": [
+     "auf"
+    ],
+    "erklaerung": "«es mit jemandem aufnehmen» heisst, sich mit ihm messen.",
+    "fehler": [
+     {
+      "antwort": "an",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«annehmen» heisst entgegennehmen oder vermuten. Hier geht es um einen Vergleich der Kräfte."
+     },
+     {
+      "antwort": "ab",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«abnehmen» heisst wegnehmen oder leichter werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nSie ist nicht so nett, wie es scheint. Sie ______________stellt sich gerne.",
+    "loesung": [
+     "ver"
+    ],
+    "erklaerung": "«sich verstellen» heisst, sich anders zeigen, als man ist.",
+    "fehler": [
+     {
+      "antwort": "auf",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«sich aufstellen» heisst, sich hinzustellen. Hier geht es um Verstellung."
+     },
+     {
+      "antwort": "hin",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«sich hinstellen» beschreibt nur die Körperhaltung."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nWenn man Kompromisse eingeht, muss man einander ______________kommen.",
+    "loesung": [
+     "entgegen"
+    ],
+    "erklaerung": "«einander entgegenkommen» heisst, sich aufeinander zuzubewegen.",
+    "fehler": [
+     {
+      "antwort": "nach",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«nachkommen» heisst folgen oder erfüllen, nicht sich einigen."
+     },
+     {
+      "antwort": "vor",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«vorkommen» heisst geschehen oder erscheinen."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nDu sollst mir nicht ______________sprechen, wenn ich etwas sage.",
+    "loesung": [
+     "wider"
+    ],
+    "erklaerung": "«widersprechen» heisst, das Gegenteil behaupten. Mit «wider» im Sinn von «gegen».",
+    "fehler": [
+     {
+      "antwort": "wieder",
+      "diagnoseId": "falsche_schreibung",
+      "feedback": "«wieder» heisst «noch einmal» und wird mit ie geschrieben. Gemeint ist hier «gegen» Das schreibt sich «wider», ohne e."
+     },
+     {
+      "antwort": "an",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«ansprechen» heisst, jemanden anzureden. Im Satz geht es aber darum, dass jemand dagegenredet."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nKannst du mein Schreiben ______________lesen und schauen, ob Fehler drin sind?",
+    "loesung": [
+     "durch"
+    ],
+    "erklaerung": "«durchlesen» heisst von Anfang bis Ende lesen.",
+    "fehler": [
+     {
+      "antwort": "vor",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«vorlesen» heisst laut lesen, damit andere zuhören. Hier soll geprüft werden."
+     },
+     {
+      "antwort": "ab",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«ablesen» heisst, etwas von einer Vorlage übernehmen."
+     }
+    ]
+   },
+   {
+    "stamm": "Finde die Vorsilbe, sodass ein Verb entsteht, das im Satz Sinn ergibt.\n\nWenn du dich gut vorbereitet hast, wirst du die Prüfung ______________stehen.",
+    "loesung": [
+     "be"
+    ],
+    "erklaerung": "«bestehen» heisst hier, die Prüfung erfolgreich abschliessen.",
+    "fehler": [
+     {
+      "antwort": "ver",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«verstehen» heisst begreifen. Gemeint ist der Erfolg an der Prüfung."
+     },
+     {
+      "antwort": "ent",
+      "diagnoseId": "falsche_vorsilbe",
+      "feedback": "«entstehen» heisst zu bestehen beginnen. Das passt nicht zu einer Prüfung."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + platz · ______________ + zeit",
+    "loesung": [
+     "Arbeits",
+     "Arbeits-"
+    ],
+    "erklaerung": "Arbeitsplatz und Arbeitszeit, mit dem Fugen-s.",
+    "fehler": [
+     {
+      "antwort": "Arbeit",
+      "diagnoseId": "fugenzeichen_fehlt",
+      "feedback": "Zwischen «Arbeit» und «platz» steht ein Fugen-s: Arbeitsplatz."
+     },
+     {
+      "antwort": "Frei",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Freizeit» gibt es, «Freiplatz» ist ungebräuchlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Gesucht ist ein Nomen, das mit beiden Endungen ein sinnvolles zusammengesetztes Nomen ergibt.\n\n______________ + karte · ______________ + steg",
+    "loesung": [
+     "Fahr",
+     "Fahr-"
+    ],
+    "erklaerung": "Fahrkarte und Fahrsteg. Der Wortstamm lautet «fahr-», ohne t und ohne Fugenzeichen.",
+    "fehler": [
+     {
+      "antwort": "Fahrt",
+      "diagnoseId": "falsche_form",
+      "feedback": "Es heisst Fahrkarte, nicht Fahrtkarte. Der Wortstamm lautet «fahr-»."
+     },
+     {
+      "antwort": "Land",
+      "diagnoseId": "falsches_wort",
+      "feedback": "«Landkarte» gibt es, «Landsteg» ist ungebräuchlich. Gemeint wäre «Landungssteg»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Zusammensetzungen, Fugen und Vormorpheme",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-wortbildung-2",
+  "lernzielId": "DSS.5.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "5.04",
+   "5.05",
+   "5.06"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Ein trennbarer Zusatz trägt die Betonung und wandert im Hauptsatz ans Ende.",
+   "Zu einer Wortfamilie gehört, was denselben Wortstamm trägt.",
+   "Das Nachmorphem bestimmt die Wortart: «-ung» ergibt ein Nomen, «-lich» ein Adjektiv."
+  ],
+  "loesungsweg": [
+   "Beim Verb prüfen, ob der Zusatz betont ist.",
+   "Bei der Wortfamilie den Stamm freilegen.",
+   "Beim Nachmorphem die verlangte Wortart bestimmen.",
+   "Das Wort laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das Verb «aufstehen» in den Satz ein.\n\nJeden Morgen ______ sie um halb sieben ______ .",
+    "loesung": [
+     "steht … auf",
+     "steht auf"
+    ],
+    "erklaerung": "«auf-» ist betont und darum trennbar; im Hauptsatz wandert der Zusatz ans Ende.",
+    "fehler": [
+     {
+      "antwort": "aufsteht",
+      "diagnoseId": "nicht_getrennt",
+      "feedback": "Im Hauptsatz wird ein betonter Zusatz abgetrennt."
+     },
+     {
+      "antwort": "steht aufgestanden",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist die Gegenwart, nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb «verstehen» in den Satz ein.\n\nDen letzten Satz ______ ich nicht.",
+    "loesung": [
+     "verstehe"
+    ],
+    "erklaerung": "«ver-» ist unbetont und darum untrennbar; das Verb bleibt zusammen.",
+    "fehler": [
+     {
+      "antwort": "stehe ver",
+      "diagnoseId": "falsch_getrennt",
+      "feedback": "«ver-» ist unbetont und wird nie abgetrennt."
+     },
+     {
+      "antwort": "verstanden",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist die Gegenwart, nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das Verb «umfahren» im Sinn von «einen Umweg machen» ein.\n\nWir ______ die Baustelle weiträumig.",
+    "loesung": [
+     "umfahren"
+    ],
+    "erklaerung": "In dieser Bedeutung ist «um-» unbetont und untrennbar; das Verb bleibt zusammen.",
+    "fehler": [
+     {
+      "antwort": "fahren um",
+      "diagnoseId": "falsch_getrennt",
+      "feedback": "Getrennt hiesse es «über den Haufen fahren» — das Gegenteil."
+     },
+     {
+      "antwort": "umgefahren",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist die Gegenwart, nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde das Partizip II von «einladen».\n\nWir haben alle Nachbarn ______ .",
+    "loesung": [
+     "eingeladen"
+    ],
+    "erklaerung": "Bei einem trennbaren Verb steht das «ge-» zwischen Zusatz und Stamm.",
+    "fehler": [
+     {
+      "antwort": "geeinladen",
+      "diagnoseId": "stellung",
+      "feedback": "Das «ge-» rutscht zwischen Zusatz und Stamm: ein-ge-laden."
+     },
+     {
+      "antwort": "einladet",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist das Partizip, nicht die Gegenwart."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde das Partizip II von «bezahlen».\n\nSie hat die Rechnung schon ______ .",
+    "loesung": [
+     "bezahlt"
+    ],
+    "erklaerung": "Verben mit unbetontem Vorsilbenzusatz bilden das Partizip ohne «ge-».",
+    "fehler": [
+     {
+      "antwort": "gebezahlt",
+      "diagnoseId": "ge_zuviel",
+      "feedback": "Nach einem unbetonten Zusatz steht kein «ge-»."
+     },
+     {
+      "antwort": "bezahlen",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist das Partizip, nicht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Nenne das Verb, von dem diese Wortfamilie ausgeht.\n\nFahrplan · Gefährt · Zufahrt · Abfahrt",
+    "loesung": [
+     "fahren",
+     "Fahren"
+    ],
+    "erklaerung": "Alle vier Wörter tragen den Stamm «fahr»; das Grundwort der Familie ist das Verb «fahren».",
+    "fehler": [
+     {
+      "antwort": "Fahrt",
+      "diagnoseId": "wortart",
+      "feedback": "«Fahrt» ist ein Nomen aus derselben Familie; gefragt ist das Verb."
+     },
+     {
+      "antwort": "führen",
+      "diagnoseId": "stamm",
+      "feedback": "«führen» hat einen eigenen Stamm und gehört zu einer anderen Familie."
+     }
+    ]
+   },
+   {
+    "stamm": "Nenne das Verb, von dem diese Wortfamilie ausgeht.\n\nSchriftsteller · Vorschrift · Handschrift · Beschriftung",
+    "loesung": [
+     "schreiben",
+     "Schreiben"
+    ],
+    "erklaerung": "Alle vier Wörter gehen auf «schreiben» zurück; im Nomen erscheint der Stamm als «schrift».",
+    "fehler": [
+     {
+      "antwort": "schreiten",
+      "diagnoseId": "stamm",
+      "feedback": "«schreiten» führt zu «Schritt» und gehört zu einer anderen Familie."
+     },
+     {
+      "antwort": "Schrift",
+      "diagnoseId": "wortart",
+      "feedback": "«Schrift» ist ein Nomen der Familie; gefragt ist das Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "Nenne das Verb, von dem diese Wortfamilie ausgeht.\n\nZugabteil · Anzug · Zugang · Auszug",
+    "loesung": [
+     "ziehen",
+     "Ziehen"
+    ],
+    "erklaerung": "Alle vier Wörter gehen auf «ziehen» zurück; im Nomen erscheint der Stamm als «zug».",
+    "fehler": [
+     {
+      "antwort": "Zug",
+      "diagnoseId": "wortart",
+      "feedback": "«Zug» ist ein Nomen der Familie; gefragt ist das Verb."
+     },
+     {
+      "antwort": "zeigen",
+      "diagnoseId": "stamm",
+      "feedback": "«zeigen» hat einen eigenen Stamm und gehört nicht dazu."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde aus «prüfen» ein Nomen mit einem Nachmorphem.",
+    "loesung": [
+     "Prüfung"
+    ],
+    "erklaerung": "Das Nachmorphem «-ung» macht aus einem Verb ein Nomen.",
+    "fehler": [
+     {
+      "antwort": "prüflich",
+      "diagnoseId": "wortart",
+      "feedback": "«-lich» bildet Adjektive, nicht Nomen. Richtig ist «Prüfung»."
+     },
+     {
+      "antwort": "Prüfer",
+      "diagnoseId": "bedeutung",
+      "feedback": "«-er» bildet die handelnde Person, gefragt ist der Vorgang."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde aus «Freund» ein Adjektiv mit einem Nachmorphem.",
+    "loesung": [
+     "freundlich"
+    ],
+    "erklaerung": "Das Nachmorphem «-lich» macht aus einem Nomen ein Adjektiv.",
+    "fehler": [
+     {
+      "antwort": "Freundschaft",
+      "diagnoseId": "wortart",
+      "feedback": "«-schaft» bildet ein Nomen, kein Adjektiv."
+     },
+     {
+      "antwort": "freunden",
+      "diagnoseId": "wortart",
+      "feedback": "«-en» ergäbe ein Verb. Richtig ist «freundlich»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde aus «lesen» ein Adjektiv, das «möglich zu tun» bedeutet.",
+    "loesung": [
+     "lesbar"
+    ],
+    "erklaerung": "Das Nachmorphem «-bar» heisst «kann getan werden».",
+    "fehler": [
+     {
+      "antwort": "leselich",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung gibt es nicht; die Endung lautet «-bar»."
+     },
+     {
+      "antwort": "Lesung",
+      "diagnoseId": "wortart",
+      "feedback": "«-ung» bildet ein Nomen, kein Adjektiv. Richtig ist «lesbar»."
+     }
+    ]
+   },
+   {
+    "stamm": "Bilde aus «Kind» ein Nomen, das einen Zustand bezeichnet.",
+    "loesung": [
+     "Kindheit"
+    ],
+    "erklaerung": "Das Nachmorphem «-heit» bezeichnet einen Zustand oder Abschnitt.",
+    "fehler": [
+     {
+      "antwort": "kindlich",
+      "diagnoseId": "wortart",
+      "feedback": "«-lich» bildet ein Adjektiv, kein Nomen."
+     },
+     {
+      "antwort": "Kinder",
+      "diagnoseId": "form",
+      "feedback": "Das ist die Mehrzahl, kein neues Wort. Richtig ist «Kindheit»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Verbzusätze, Wortfamilien und Nachmorpheme",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-redewendungen",
+  "lernzielId": "DSS.6.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "6.01",
+   "6.02",
+   "6.03",
+   "6.04"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Lies zuerst die Umschreibung. Sie sagt, was die Redewendung bedeutet, nicht, wie sie lautet.",
+   "Die meisten Redewendungen bestehen aus einem Bild. Frage dich, welches Bild zur Bedeutung passt.",
+   "Setze deine Lösung ein und sprich die Wendung laut aus. Was man schon gehört hat, klingt richtig."
+  ],
+  "loesungsweg": [
+   "Bedeutung lesen und in eigenen Worten zusammenfassen.",
+   "Überlegen, welches Bild dazu passt.",
+   "Das fehlende Wort einsetzen und die ganze Wendung laut lesen.",
+   "Prüfen, ob die Wendung so tatsächlich gebraucht wird."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: völlig überrascht sein.\n\naus allen ______________ fallen",
+    "loesung": [
+     "Wolken"
+    ],
+    "erklaerung": "«aus allen Wolken fallen» Man fällt aus der eigenen Vorstellung in die Wirklichkeit.",
+    "fehler": [
+     {
+      "antwort": "Nähten",
+      "diagnoseId": "andere_redewendung",
+      "feedback": "«aus allen Nähten platzen» heisst, zu voll zu sein. Hier geht es um Überraschung."
+     },
+     {
+      "antwort": "Träumen",
+      "diagnoseId": "bedeutung_verschoben",
+      "feedback": "«aus allen Träumen gerissen werden» kommt der Sache nahe, ist aber nicht die gesuchte Wendung."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: sich gut verstehen.\n\nauf einer ______________ sein",
+    "loesung": [
+     "Wellenlänge"
+    ],
+    "erklaerung": "«auf einer Wellenlänge sein» Das Bild kommt vom Radio: Beide empfangen dasselbe.",
+    "fehler": [
+     {
+      "antwort": "Linie",
+      "diagnoseId": "andere_redewendung",
+      "feedback": "«auf einer Linie sein» sagt man von gleicher Meinung in einer Sache, nicht vom Sich-Verstehen."
+     },
+     {
+      "antwort": "Seite",
+      "diagnoseId": "andere_redewendung",
+      "feedback": "«auf einer Seite stehen» heisst, dieselbe Partei zu vertreten."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: keinen Erfolg haben.\n\nauf keinen grünen ______________ kommen",
+    "loesung": [
+     "Zweig"
+    ],
+    "erklaerung": "«auf keinen grünen Zweig kommen» Das Bild ist ein Baum, an dem nichts wächst.",
+    "fehler": [
+     {
+      "antwort": "Ast",
+      "diagnoseId": "aehnliches_bild",
+      "feedback": "«auf dem absteigenden Ast sein» ist eine andere Wendung. Hier heisst es «Zweig»."
+     },
+     {
+      "antwort": "Boden",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«den Boden unter den Füssen verlieren» meint etwas anderes."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: extrem schlecht sein.\n\nunter aller ______________ sein",
+    "loesung": [
+     "Kanone",
+     "Sau"
+    ],
+    "erklaerung": "«unter aller Kanone» kommt vermutlich vom lateinischen «canon», unter jedem Massstab.",
+    "fehler": [
+     {
+      "antwort": "Kritik",
+      "diagnoseId": "bedeutung_richtig_wendung_falsch",
+      "feedback": "«unter aller Kritik» sagt dasselbe, ist aber eine andere Wendung. Gesucht ist die mit dem ungewöhnlichen Wort."
+     },
+     {
+      "antwort": "Würde",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«unter seiner Würde» heisst, etwas nicht zu tun, weil man sich zu schade dafür ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: aufgeben.\n\ndas ______________ werfen",
+    "loesung": [
+     "Handtuch"
+    ],
+    "erklaerung": "«das Handtuch werfen» kommt aus dem Boxen: Die Betreuung wirft das Tuch in den Ring.",
+    "fehler": [
+     {
+      "antwort": "Messer",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«das Messer werfen» ist keine Redewendung."
+     },
+     {
+      "antwort": "Tuch",
+      "diagnoseId": "form_unvollstaendig",
+      "feedback": "Gemeint ist das ganze Wort: Handtuch. Es stammt aus dem Boxsport."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: etwas ganz genau nehmen.\n\njedes ______________ auf die Goldwaage legen",
+    "loesung": [
+     "Wort"
+    ],
+    "erklaerung": "«jedes Wort auf die Goldwaage legen» Eine Goldwaage zeigt selbst kleinste Unterschiede an.",
+    "fehler": [
+     {
+      "antwort": "Gramm",
+      "diagnoseId": "bild_verdreht",
+      "feedback": "Auf der Goldwaage liegen die Worte, nicht die Gewichte."
+     },
+     {
+      "antwort": "Detail",
+      "diagnoseId": "falsches_wort",
+      "feedback": "Die Wendung ist fest: Es sind die Worte, die gewogen werden."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: etwas Unangenehmes offen ansprechen.\n\nden ______________ beim Namen nennen",
+    "loesung": [
+     "Stier",
+     "Ochsen"
+    ],
+    "erklaerung": "«den Stier bei den Hörnern packen» ist verwandt; «das Kind beim Namen nennen» meint dasselbe.",
+    "fehler": [
+     {
+      "antwort": "Hund",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«Da liegt der Hund begraben» ist eine andere Wendung."
+     },
+     {
+      "antwort": "Namen",
+      "diagnoseId": "wort_verdoppelt",
+      "feedback": "«den Namen beim Namen nennen» ergibt keinen Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: sehr aufgeregt sein.\n\n______________ im Bauch haben",
+    "loesung": [
+     "Schmetterlinge"
+    ],
+    "erklaerung": "«Schmetterlinge im Bauch haben» beschreibt das Flattern der Nerven, meist bei Verliebtheit.",
+    "fehler": [
+     {
+      "antwort": "Steine",
+      "diagnoseId": "falsches_bild",
+      "feedback": "Steine im Bauch wären eine Last, kein Flattern."
+     },
+     {
+      "antwort": "Knoten",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«einen Knoten im Magen haben» drückt Angst aus, nicht Aufregung im positiven Sinn."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: sich völlig verausgaben.\n\nalles auf eine ______________ setzen",
+    "loesung": [
+     "Karte"
+    ],
+    "erklaerung": "«alles auf eine Karte setzen» kommt vom Kartenspiel: Wer alles auf eine setzt, riskiert alles.",
+    "fehler": [
+     {
+      "antwort": "Zahl",
+      "diagnoseId": "aehnliches_bild",
+      "feedback": "Beim Roulette setzt man auf eine Zahl. Die Wendung heisst aber «auf eine Karte»."
+     },
+     {
+      "antwort": "Seite",
+      "diagnoseId": "falsches_bild",
+      "feedback": "«auf einer Seite stehen» meint Parteinahme."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: jemanden im Ungewissen lassen.\n\njemanden im ______________ lassen",
+    "loesung": [
+     "Dunkeln",
+     "Unklaren"
+    ],
+    "erklaerung": "«jemanden im Dunkeln lassen» Wer nichts sieht, weiss auch nichts.",
+    "fehler": [
+     {
+      "antwort": "Regen",
+      "diagnoseId": "andere_redewendung",
+      "feedback": "«jemanden im Regen stehen lassen» heisst, ihm nicht zu helfen. Hier geht es um fehlendes Wissen."
+     },
+     {
+      "antwort": "Stich",
+      "diagnoseId": "andere_redewendung",
+      "feedback": "«jemanden im Stich lassen» heisst, ihn zu verlassen."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: die Hauptsache treffen.\n\nden ______________ auf den Kopf treffen",
+    "loesung": [
+     "Nagel"
+    ],
+    "erklaerung": "«den Nagel auf den Kopf treffen», beim Hämmern trifft man den Kopf des Nagels genau.",
+    "fehler": [
+     {
+      "antwort": "Punkt",
+      "diagnoseId": "bedeutung_richtig_wendung_falsch",
+      "feedback": "«auf den Punkt bringen» sagt Ähnliches, ist aber eine andere Wendung."
+     },
+     {
+      "antwort": "Kern",
+      "diagnoseId": "bedeutung_richtig_wendung_falsch",
+      "feedback": "«den Kern treffen» gibt es, doch die gesuchte Wendung spricht vom Nagel."
+     }
+    ]
+   },
+   {
+    "stamm": "Ergänze das fehlende Nomen in der Redewendung.\nBedeutung: sehr selten vorkommen.\n\nalle Jubel______________ einmal",
+    "loesung": [
+     "jahre"
+    ],
+    "erklaerung": "«alle Jubeljahre einmal» Jubeljahre wurden früher nur alle fünfzig Jahre gefeiert.",
+    "fehler": [
+     {
+      "antwort": "tage",
+      "diagnoseId": "falsches_wort",
+      "feedback": "Die Wendung heisst «alle Jubeljahre». Von Tagen ist keine Rede."
+     },
+     {
+      "antwort": "stunden",
+      "diagnoseId": "falsches_wort",
+      "feedback": "Stunden wären zu kurz für etwas, das sehr selten geschieht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Redewendungen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-zeitformen-bestimmen",
+  "lernzielId": "DSS.7.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "7.01",
+   "7.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Schau zuerst, ob eine Hilfsverbform dabei ist: «hat», «ist», «hatte», «war», «wird».",
+   "Perfekt und Plusquamperfekt unterscheiden sich nur im Hilfsverb: «hat» gegen «hatte», «ist» gegen «war».",
+   "«wird» plus Grundform ergibt das Futur I; «wird» plus Partizip wäre ein Passiv."
+  ],
+  "loesungsweg": [
+   "Suche die Personalform. Das Verb, das sich nach dem Subjekt richtet.",
+   "Steht sie allein, ist es Präsens oder Präteritum.",
+   "Steht ein Hilfsverb dabei, entscheidet dessen Zeitform über Perfekt oder Plusquamperfekt.",
+   "«werden» plus Grundform zeigt die Zukunft an."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Sie hat ihm einen Brief geschrieben.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«hat» steht im Präsens, dazu kommt das Partizip «geschrieben» Das ergibt das Perfekt.",
+    "fehler": [
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Für das Plusquamperfekt müsste «hatte» dastehen. «hat» steht im Präsens."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Das Präteritum wäre «sie schrieb». Hier steht ein Hilfsverb mit Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Er konnte sich nicht daran erinnern.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "«konnte» ist die Präteritumform von «können» und steht allein, kein Hilfsverb dabei.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "modalverb_verwechselt",
+      "feedback": "Das Perfekt hiesse «er hat sich nicht erinnern können». Hier fehlt das Hilfsverb."
+     },
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_erfunden",
+      "feedback": "Für das Plusquamperfekt bräuchte es «hatte». Das ist nicht da."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Sie wird ihn morgen anrufen.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Futur I"
+    ],
+    "erklaerung": "«wird» plus Grundform «anrufen» ergibt die Zukunft.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "hilfsverb_uebersehen",
+      "feedback": "«wird» ist hier Hilfsverb und zeigt die Zukunft an, nicht die Gegenwart."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "partizip_vermutet",
+      "feedback": "Für das Perfekt bräuchte es ein Partizip wie «angerufen». Hier steht die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Die Liebesgeschichte endete traurig.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Präteritum"
+    ],
+    "erklaerung": "«endete» ist die Präteritumform und steht allein.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_erfunden",
+      "feedback": "Das Perfekt wäre «hat geendet». Hier steht nur eine einzige Verbform."
+     },
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "endung_falsch_gelesen",
+      "feedback": "Das Präsens hiesse «endet». Das zusätzliche -e- zeigt das Präteritum an."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Er hatte den Schlüssel schon zweimal verloren.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "«hatte» steht im Präteritum, dazu das Partizip «verloren» Das ergibt das Plusquamperfekt.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Für das Perfekt müsste «hat» dastehen. «hatte» ist die Präteritumform."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Das Präteritum wäre «er verlor». Hier stehen zwei Verbteile."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Die Kinder spielen im Hof.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Präsens"
+    ],
+    "erklaerung": "«spielen» steht allein in der Gegenwartsform.",
+    "fehler": [
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "form_verwechselt",
+      "feedback": "Das Präteritum von «spielen» lautet «spielten», mit einem -t- vor der Endung. Hier fehlt es."
+     },
+     {
+      "antwort": "Futur I",
+      "diagnoseId": "hilfsverb_vermutet",
+      "feedback": "Für die Zukunft bräuchte es «werden» plus Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Wir waren schon abgereist, als der Anruf kam.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "«waren» im Präteritum plus Partizip «abgereist» ergibt das Plusquamperfekt: es beschreibt das Frühere von zwei Ereignissen.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Das Perfekt hiesse «wir sind abgereist». «waren» steht im Präteritum."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "nebensatz_gewaehlt",
+      "feedback": "«kam» im Nebensatz steht im Präteritum. Gefragt ist der Hauptsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Ihr seid rechtzeitig angekommen.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«seid» steht im Präsens, dazu das Partizip «angekommen». Verben der Bewegung bilden das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Für das Plusquamperfekt bräuchte es «wart»."
+     },
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Das Präsens wäre «ihr kommt an». Hier steht ein zusammengesetztes Verb."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Nächste Woche werden die Zeugnisse verteilt.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Präsens"
+    ],
+    "erklaerung": "«werden» plus Partizip ergibt hier ein Passiv im Präsens, keine Zukunft. Die Zeitangabe täuscht.",
+    "fehler": [
+     {
+      "antwort": "Futur I",
+      "diagnoseId": "zeitangabe_statt_form",
+      "feedback": "Die Zeitangabe «nächste Woche» macht daraus kein Futur. Entscheidend ist die Verbform: «werden» plus PARTIZIP ist Passiv."
+     },
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Für das Perfekt bräuchte es «sind verteilt worden»."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Du wirst das noch bereuen.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Futur I"
+    ],
+    "erklaerung": "«wirst» plus Grundform «bereuen» ergibt das Futur I.",
+    "fehler": [
+     {
+      "antwort": "Präsens",
+      "diagnoseId": "hilfsverb_uebersehen",
+      "feedback": "«wirst» ist hier Hilfsverb der Zukunft, nicht Vollverb."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "form_verwechselt",
+      "feedback": "Das Präteritum hiesse «du bereutest». Hier steht dagegen «wirst» plus Grundform. Das kennzeichnet die Zukunft."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Sie ist gestern zu Hause geblieben.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Perfekt"
+    ],
+    "erklaerung": "«ist» im Präsens plus Partizip «geblieben». «bleiben» bildet das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Plusquamperfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "Für das Plusquamperfekt bräuchte es «war geblieben»."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "partizip_uebersehen",
+      "feedback": "Das Präteritum wäre «sie blieb» Eine einzige Verbform. Hier stehen «ist» und «geblieben» zusammen."
+     }
+    ]
+   },
+   {
+    "stamm": "In welcher Zeitform steht dieser Satz?\n\n«Als er ankam, hatten alle bereits gegessen.»",
+    "optionen": [
+     "Präsens",
+     "Präteritum",
+     "Perfekt",
+     "Plusquamperfekt",
+     "Futur I"
+    ],
+    "loesung": [
+     "Plusquamperfekt"
+    ],
+    "erklaerung": "Der Hauptsatz «hatten alle bereits gegessen» steht im Plusquamperfekt: er beschreibt, was vor dem Ankommen geschah.",
+    "fehler": [
+     {
+      "antwort": "Perfekt",
+      "diagnoseId": "hilfsverb_verwechselt",
+      "feedback": "«hatten» steht im Präteritum. Beim Perfekt hiesse es «haben»."
+     },
+     {
+      "antwort": "Präteritum",
+      "diagnoseId": "nebensatz_gewaehlt",
+      "feedback": "«ankam» im Nebensatz steht im Präteritum. Gefragt ist der Hauptsatz."
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "Präsens",
+   "Präteritum",
+   "Perfekt",
+   "Plusquamperfekt",
+   "Futur I"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Zeitformen bestimmen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-zeitformen-umformen",
+  "lernzielId": "DSS.7.03",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "7.03",
+   "7.04",
+   "7.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Bestimme zuerst die Ausgangszeit. Ohne sie weiss man nicht, was sich ändern muss.",
+   "Beim Perfekt wechselt nur das Hilfsverb in die Gegenwart, beim Plusquamperfekt in die Vergangenheit.",
+   "Bei Modalverben rückt die Grundform ans Satzende: «er hat gehen müssen», nicht «gemusst»."
+  ],
+  "loesungsweg": [
+   "Ausgangszeit bestimmen.",
+   "Passendes Hilfsverb wählen: haben oder sein.",
+   "Partizip bilden und ans Satzende stellen.",
+   "Ganzen Satz noch einmal lesen. Die Wortstellung muss stimmen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Forme den ganzen Satz ins Perfekt um.\n\nSie schrieb ihm einen Brief.",
+    "loesung": [
+     "Sie hat ihm einen Brief geschrieben."
+    ],
+    "erklaerung": "Präteritum wird zu Perfekt: Hilfsverb «haben» im Präsens, Partizip ans Satzende.",
+    "fehler": [
+     {
+      "antwort": "Sie hatte ihm einen Brief geschrieben.",
+      "diagnoseId": "plusquamperfekt_statt_perfekt",
+      "feedback": "Das ist das Plusquamperfekt. Für das Perfekt steht das Hilfsverb im Präsens: «hat»."
+     },
+     {
+      "antwort": "Sie ist ihm einen Brief geschrieben.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«schreiben» bildet das Perfekt mit «haben», nicht mit «sein»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Plusquamperfekt um.\n\nEr vergisst den Termin.",
+    "loesung": [
+     "Er hatte den Termin vergessen."
+    ],
+    "erklaerung": "Das Plusquamperfekt braucht das Hilfsverb im Präteritum: «hatte» plus Partizip.",
+    "fehler": [
+     {
+      "antwort": "Er hat den Termin vergessen.",
+      "diagnoseId": "perfekt_statt_plusquamperfekt",
+      "feedback": "Das ist das Perfekt. Für das Plusquamperfekt steht das Hilfsverb im Präteritum: «hatte»."
+     },
+     {
+      "antwort": "Er war den Termin vergessen.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«vergessen» bildet die zusammengesetzten Zeiten mit «haben»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Futur I um.\n\nSie verlässt ihn.",
+    "loesung": [
+     "Sie wird ihn verlassen."
+    ],
+    "erklaerung": "Das Futur I besteht aus «werden» in der Personalform und der Grundform des Verbs.",
+    "fehler": [
+     {
+      "antwort": "Sie wird ihn verlassen haben.",
+      "diagnoseId": "futur_zwei",
+      "feedback": "Das ist das Futur II. Gefragt ist das Futur I: «werden» plus Grundform."
+     },
+     {
+      "antwort": "Sie wird verlassen.",
+      "diagnoseId": "objekt_verloren",
+      "feedback": "Das Objekt «ihn» gehört in den Satz. Umgeformt wird die Zeit, nicht der Inhalt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Präteritum um.\n\nEr kann sich nicht daran erinnern.",
+    "loesung": [
+     "Er konnte sich nicht daran erinnern."
+    ],
+    "erklaerung": "«kann» wird zu «konnte», beim Modalverb ändert sich nur die Personalform.",
+    "fehler": [
+     {
+      "antwort": "Er hat sich nicht daran erinnern können.",
+      "diagnoseId": "perfekt_statt_praeteritum",
+      "feedback": "Das ist das Perfekt. Gefragt war das Präteritum: eine einzige Verbform."
+     },
+     {
+      "antwort": "Er könnte sich nicht daran erinnern.",
+      "diagnoseId": "konjunktiv",
+      "feedback": "«könnte» ist der Konjunktiv. Das Präteritum lautet «konnte», ohne Umlaut."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Perfekt um.\n\nWir fuhren mit dem Zug nach Chur.",
+    "loesung": [
+     "Wir sind mit dem Zug nach Chur gefahren."
+    ],
+    "erklaerung": "«fahren» ist ein Verb der Bewegung und bildet das Perfekt mit «sein».",
+    "fehler": [
+     {
+      "antwort": "Wir haben mit dem Zug nach Chur gefahren.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Verben der Bewegung nehmen «sein»: wir SIND gefahren."
+     },
+     {
+      "antwort": "Wir waren mit dem Zug nach Chur gefahren.",
+      "diagnoseId": "plusquamperfekt_statt_perfekt",
+      "feedback": "Das ist das Plusquamperfekt. Für das Perfekt steht «sind»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Perfekt um.\n\nSie musste lange warten.",
+    "loesung": [
+     "Sie hat lange warten müssen."
+    ],
+    "erklaerung": "Bei Modalverben steht im Perfekt die Grundform am Schluss: «warten müssen», nicht «gemusst».",
+    "fehler": [
+     {
+      "antwort": "Sie hat lange warten gemusst.",
+      "diagnoseId": "partizip_statt_grundform",
+      "feedback": "Steht ein zweites Verb dabei, nimmt das Modalverb im Perfekt die Grundform: «warten müssen»."
+     },
+     {
+      "antwort": "Sie hatte lange warten müssen.",
+      "diagnoseId": "plusquamperfekt_statt_perfekt",
+      "feedback": "Das ist das Plusquamperfekt. Für das Perfekt steht «hat»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Plusquamperfekt um.\n\nDie Gäste sind schon gegangen.",
+    "loesung": [
+     "Die Gäste waren schon gegangen."
+    ],
+    "erklaerung": "Nur das Hilfsverb wechselt vom Präsens ins Präteritum: aus «sind» wird «waren».",
+    "fehler": [
+     {
+      "antwort": "Die Gäste hatten schon gegangen.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«gehen» nimmt «sein», nicht «haben»: sie WAREN gegangen."
+     },
+     {
+      "antwort": "Die Gäste gingen schon.",
+      "diagnoseId": "praeteritum_statt_plusquamperfekt",
+      "feedback": "Das ist das Präteritum. Das Plusquamperfekt braucht zwei Verbteile."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Präsens um.\n\nDer Chor sang drei Lieder.",
+    "loesung": [
+     "Der Chor singt drei Lieder."
+    ],
+    "erklaerung": "«sang» ist Präteritum; das Präsens lautet «singt».",
+    "fehler": [
+     {
+      "antwort": "Der Chor hat drei Lieder gesungen.",
+      "diagnoseId": "perfekt_statt_praesens",
+      "feedback": "Das ist das Perfekt. Gefragt war die Gegenwart mit einer einzigen Verbform."
+     },
+     {
+      "antwort": "Der Chor sing drei Lieder.",
+      "diagnoseId": "endung_fehlt",
+      "feedback": "In der dritten Person Singular endet das Verb auf -t: er singt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Futur I um.\n\nWir haben das Zimmer aufgeräumt.",
+    "loesung": [
+     "Wir werden das Zimmer aufräumen."
+    ],
+    "erklaerung": "Das Futur I besteht aus «werden» und der Grundform; das Partizip verschwindet.",
+    "fehler": [
+     {
+      "antwort": "Wir werden das Zimmer aufgeräumt haben.",
+      "diagnoseId": "futur_zwei",
+      "feedback": "Das ist das Futur II und meint eine abgeschlossene Handlung in der Zukunft."
+     },
+     {
+      "antwort": "Wir werden das Zimmer aufgeräumt.",
+      "diagnoseId": "grundform_fehlt",
+      "feedback": "Nach «werden» steht die Grundform «aufräumen», nicht das Partizip."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Perfekt um.\n\nDas Kind schlief sofort ein.",
+    "loesung": [
+     "Das Kind ist sofort eingeschlafen."
+    ],
+    "erklaerung": "«einschlafen» beschreibt eine Zustandsänderung und nimmt darum «sein».",
+    "fehler": [
+     {
+      "antwort": "Das Kind hat sofort eingeschlafen.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "Zustandsänderungen wie einschlafen, aufwachen oder wachsen nehmen «sein»."
+     },
+     {
+      "antwort": "Das Kind ist sofort einschlafen.",
+      "diagnoseId": "partizip_falsch",
+      "feedback": "Das Partizip lautet «eingeschlafen» Die Vorsilbe bleibt vorn, das ge- rutscht dahinter."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Plusquamperfekt um.\n\nSie schloss die Türe ab.",
+    "loesung": [
+     "Sie hatte die Türe abgeschlossen."
+    ],
+    "erklaerung": "Hilfsverb «haben» im Präteritum plus Partizip «abgeschlossen».",
+    "fehler": [
+     {
+      "antwort": "Sie hat die Türe abgeschlossen.",
+      "diagnoseId": "perfekt_statt_plusquamperfekt",
+      "feedback": "Das ist das Perfekt. Für das Plusquamperfekt braucht es «hatte»."
+     },
+     {
+      "antwort": "Sie war die Türe abgeschlossen.",
+      "diagnoseId": "falsches_hilfsverb",
+      "feedback": "«abschliessen» bildet die zusammengesetzten Zeiten mit «haben», nicht mit «sein» Es beschreibt keine Bewegung."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme den ganzen Satz ins Präteritum um.\n\nEr ist nicht gekommen.",
+    "loesung": [
+     "Er kam nicht."
+    ],
+    "erklaerung": "Das Perfekt wird zum Präteritum: eine einzige Verbform, «kam».",
+    "fehler": [
+     {
+      "antwort": "Er war nicht gekommen.",
+      "diagnoseId": "plusquamperfekt_statt_praeteritum",
+      "feedback": "Das ist das Plusquamperfekt. Das Präteritum hat nur eine Verbform."
+     },
+     {
+      "antwort": "Er kommte nicht.",
+      "diagnoseId": "schwache_form",
+      "feedback": "«kommen» ist ein starkes Verb: Der Stammvokal wechselt zu «kam», eine -te-Endung gibt es nicht."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Zeitformen umformen",
+  "status": "review",
+  "umformung": true
+ },
+ {
+  "templateId": "sg-nominalstil",
+  "lernzielId": "DSS.8.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "8.01",
+   "8.02",
+   "8.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Lies zuerst den Satz mit dem Nomen. Er sagt, welches Verhältnis gemeint ist: Zeit, Grund, Absicht, Bedingung oder Einräumung.",
+   "«nach dem …» wird zu «nachdem», «vor dem …» zu «bevor», «seit dem …» zu «seit».",
+   "«trotz» wird zu «obwohl», «wegen» zu «weil», «zur …» oft zu «damit»."
+  ],
+  "loesungsweg": [
+   "Bestimme das Verhältnis zwischen den beiden Aussagen.",
+   "Suche die Konjunktion, die genau dieses Verhältnis ausdrückt.",
+   "Setze sie ein und lies den ganzen Satz laut.",
+   "Prüfe die Zeitform: «nachdem» verlangt eine vorzeitige Handlung."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nNach dem Erfüllen all ihrer Pflichten gönnte sie sich einen Kaffee.\n→ ______________ sie all ihre Pflichten erfüllt hatte, gönnte sie sich einen Kaffee.",
+    "loesung": [
+     "Nachdem"
+    ],
+    "erklaerung": "«nach dem …» wird zum Nebensatz mit «nachdem». Er beschreibt, was vorher geschehen ist.",
+    "fehler": [
+     {
+      "antwort": "Bevor",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "«bevor» kehrt die Reihenfolge um. Der Kaffee kam NACH den Pflichten."
+     },
+     {
+      "antwort": "Weil",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«weil» nennt einen Grund. Hier geht es um die zeitliche Reihenfolge."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nZur Verbesserung der Teamarbeit wurden regelmässige Sitzungen eingeführt.\n→ ______________ die Teamarbeit verbessert werden konnte, wurden regelmässige Sitzungen eingeführt.",
+    "loesung": [
+     "Damit"
+    ],
+    "erklaerung": "«zur Verbesserung» nennt eine Absicht, im Nebensatz steht dafür «damit».",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "absicht_und_grund",
+      "feedback": "«weil» nennt den Grund, «damit» die Absicht. Die Sitzungen wurden eingeführt, UM etwas zu erreichen."
+     },
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«obwohl» drückt einen Gegensatz aus. Hier geht es um ein Ziel."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nSeit dem Beginn des neuen Schuljahres fällt ihm das Lernen leichter.\n→ ______________ das neue Schuljahr begonnen hat, fällt ihm das Lernen leichter.",
+    "loesung": [
+     "Seit",
+     "Seitdem"
+    ],
+    "erklaerung": "«seit dem Beginn» wird zu «seit» oder «seitdem» Beides bezeichnet den Anfangspunkt.",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«weil» nennt einen Grund. Hier geht es um einen Zeitpunkt, ab dem etwas gilt."
+     },
+     {
+      "antwort": "Bis",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "«bis» nennt das Ende eines Zeitraums, «seit» seinen Anfang."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nBei starkem Schneefall ist besondere Vorsicht geboten.\n→ ______________ es stark schneit, ist besondere Vorsicht geboten.",
+    "loesung": [
+     "Wenn",
+     "Falls"
+    ],
+    "erklaerung": "«bei …» nennt eine Bedingung, im Nebensatz steht dafür «wenn» oder «falls».",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "bedingung_und_grund",
+      "feedback": "«weil» nennt einen Grund, der zutrifft. «wenn» nennt einen Fall, der eintreten kann."
+     },
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«obwohl» drückt einen Gegensatz aus, hier steht eine Bedingung."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nTrotz der intensiven Vorbereitung bestand Paula die Prüfung nicht.\n→ ______________ sich Paula intensiv vorbereitet hatte, bestand sie die Prüfung nicht.",
+    "loesung": [
+     "Obwohl",
+     "Obgleich"
+    ],
+    "erklaerung": "«trotz» drückt einen Gegensatz aus, im Nebensatz steht dafür «obwohl».",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "gegensatz_und_grund",
+      "feedback": "«weil» würde bedeuten, dass sie WEGEN der Vorbereitung durchfiel. Gemeint ist das Gegenteil."
+     },
+     {
+      "antwort": "Nachdem",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«nachdem» nennt nur die Reihenfolge. Der Gegensatz ginge verloren."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nWegen des dichten Nebels wurde der Flug gestrichen.\n→ ______________ der Nebel dicht war, wurde der Flug gestrichen.",
+    "loesung": [
+     "Weil",
+     "Da"
+    ],
+    "erklaerung": "«wegen» nennt einen Grund, im Nebensatz steht dafür «weil» oder «da».",
+    "fehler": [
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "gegensatz_und_grund",
+      "feedback": "«obwohl» drehte die Aussage um: Der Flug wäre trotz des Nebels gestrichen worden."
+     },
+     {
+      "antwort": "Damit",
+      "diagnoseId": "absicht_und_grund",
+      "feedback": "«damit» nennt eine Absicht. Der Nebel wollte nichts erreichen. Er war der Grund."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nVor dem Verlassen des Hauses schaltet er das Licht aus.\n→ ______________ er das Haus verlässt, schaltet er das Licht aus.",
+    "loesung": [
+     "Bevor",
+     "Ehe"
+    ],
+    "erklaerung": "«vor dem …» wird zu «bevor» Das Licht geht zuerst aus.",
+    "fehler": [
+     {
+      "antwort": "Nachdem",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "«nachdem» kehrt die Reihenfolge um: Dann ginge das Licht erst nach dem Verlassen aus."
+     },
+     {
+      "antwort": "Während",
+      "diagnoseId": "gleichzeitigkeit",
+      "feedback": "«während» hiesse gleichzeitig. Der Satz beschreibt eine Reihenfolge."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nWährend der ganzen Fahrt las sie ein Buch.\n→ ______________ sie fuhr, las sie ein Buch.",
+    "loesung": [
+     "Während",
+     "Als"
+    ],
+    "erklaerung": "«während» bezeichnet Gleichzeitigkeit. Beides geschieht zur selben Zeit.",
+    "fehler": [
+     {
+      "antwort": "Bevor",
+      "diagnoseId": "gleichzeitigkeit",
+      "feedback": "«bevor» trennte die beiden Handlungen. Hier geschehen sie gleichzeitig."
+     },
+     {
+      "antwort": "Weil",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "Das Fahren ist nicht der Grund fürs Lesen, sondern die Zeit dafür."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nZum Bestehen der Prüfung braucht es regelmässiges Üben.\n→ ______________ man die Prüfung besteht, braucht es regelmässiges Üben.",
+    "loesung": [
+     "Damit"
+    ],
+    "erklaerung": "«zum Bestehen» nennt das Ziel, im Nebensatz steht «damit».",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "absicht_und_grund",
+      "feedback": "«weil» nennt einen Grund. Hier steht ein Ziel, das erreicht werden soll."
+     },
+     {
+      "antwort": "Wenn",
+      "diagnoseId": "bedingung_und_absicht",
+      "feedback": "«wenn» nennt eine Bedingung. Das Bestehen ist aber das Ziel, nicht die Voraussetzung."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nBis zur Ankunft des Zuges warteten sie im Café.\n→ ______________ der Zug ankam, warteten sie im Café.",
+    "loesung": [
+     "Bis"
+    ],
+    "erklaerung": "«bis zur Ankunft» nennt den Endpunkt des Wartens, im Nebensatz steht «bis».",
+    "fehler": [
+     {
+      "antwort": "Seit",
+      "diagnoseId": "richtung_verkehrt",
+      "feedback": "«seit» nennt den Anfang eines Zeitraums. Hier geht es um sein Ende."
+     },
+     {
+      "antwort": "Als",
+      "diagnoseId": "zeitpunkt_statt_dauer",
+      "feedback": "«als» nennt einen einzelnen Zeitpunkt. Das Warten dauerte bis dahin an."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nOhne genaue Anweisung fand niemand den Weg.\n→ ______________ niemand eine genaue Anweisung hatte, fand niemand den Weg.",
+    "loesung": [
+     "Weil",
+     "Da"
+    ],
+    "erklaerung": "«ohne …» nennt hier den Grund für das Scheitern, im Nebensatz steht «weil».",
+    "fehler": [
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "gegensatz_und_grund",
+      "feedback": "«obwohl» drehte die Aussage um. Die fehlende Anweisung war gerade der Grund."
+     },
+     {
+      "antwort": "Bevor",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«bevor» nennt eine Reihenfolge. Hier steht ein Grund."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze das passende Wort in die Lücke, sodass beide Sätze dasselbe aussagen.\n\nBeim Ertönen des Signals verliessen alle das Gebäude.\n→ ______________ das Signal ertönte, verliessen alle das Gebäude.",
+    "loesung": [
+     "Als",
+     "Sobald"
+    ],
+    "erklaerung": "«beim …» nennt hier einen einzelnen Zeitpunkt in der Vergangenheit. Dafür steht «als».",
+    "fehler": [
+     {
+      "antwort": "Wenn",
+      "diagnoseId": "einmalig_und_wiederholt",
+      "feedback": "«wenn» passt zu wiederholten Ereignissen oder zur Zukunft. Für einen einzelnen Fall in der Vergangenheit steht «als»."
+     },
+     {
+      "antwort": "Damit",
+      "diagnoseId": "verhaeltnis_verwechselt",
+      "feedback": "«damit» nennt eine Absicht. Das Signal verfolgte keine Absicht. Es war der Zeitpunkt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Nebensätze: Zeit, Grund und Absicht",
+  "status": "review",
+  "umformung": true
+ },
+ {
+  "templateId": "sg-nominalstil-2",
+  "lernzielId": "DSS.8.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "8.04",
+   "8.05"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Eine Bedingung leitet «wenn» oder «falls» ein.",
+   "Beim Umformen vom Nomen zum Verb wird aus der Präposition eine Konjunktion.",
+   "Der Nominalstil verdichtet; der Verbalstil ist meist besser verständlich."
+  ],
+  "loesungsweg": [
+   "Bestimmen, welches Verhältnis der Satz ausdrückt.",
+   "Die passende Konjunktion oder Präposition wählen.",
+   "Das Nomen zum Verb machen oder umgekehrt.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Forme in einen Nebensatz um.\n\nBei schlechtem Wetter fällt der Ausflug aus.\n\nDer Ausflug fällt aus, ______ das Wetter schlecht ist.",
+    "loesung": [
+     "wenn"
+    ],
+    "erklaerung": "«Bei» drückt hier eine Bedingung aus; im Nebensatz steht dafür «wenn».",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«weil» nennte einen Grund; hier geht es um eine Bedingung."
+     },
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«obwohl» nennte einen Gegensatz. Richtig ist «wenn»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in einen Nebensatz um.\n\nOhne deine Zusage können wir nicht buchen.\n\nWir können nicht buchen, ______ du nicht zusagst.",
+    "loesung": [
+     "falls",
+     "wenn"
+    ],
+    "erklaerung": "«Ohne» drückt hier eine verneinte Bedingung aus; im Nebensatz steht «falls» oder «wenn».",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "Ein Grund ist nicht gemeint, sondern eine Bedingung."
+     },
+     {
+      "antwort": "damit",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«damit» nennte eine Absicht. Richtig ist «falls»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in eine Präpositionalgruppe um.\n\nFalls es regnet, bleibt die Halle offen.\n\n______ Regen bleibt die Halle offen.",
+    "loesung": [
+     "Bei"
+    ],
+    "erklaerung": "Die Bedingung wird zur Präposition «bei» plus Nomen.",
+    "fehler": [
+     {
+      "antwort": "Wegen",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Wegen» nennte einen Grund, nicht eine Bedingung."
+     },
+     {
+      "antwort": "Trotz",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Trotz» nennte einen Gegensatz. Richtig ist «Bei»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in einen Nebensatz um.\n\nIm Fall einer Verspätung ruft er an.\n\nEr ruft an, ______ er sich verspätet.",
+    "loesung": [
+     "falls",
+     "wenn"
+    ],
+    "erklaerung": "«Im Fall» ist die nominale Form der Bedingung.",
+    "fehler": [
+     {
+      "antwort": "nachdem",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«nachdem» nennte eine Reihenfolge in der Zeit."
+     },
+     {
+      "antwort": "sodass",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«sodass» nennte eine Folge. Richtig ist «falls»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in ein Verb um.\n\nNach der Prüfung der Unterlagen entscheidet die Kommission.\n\nDie Kommission entscheidet, nachdem sie die Unterlagen ______ hat.",
+    "loesung": [
+     "geprüft",
+     "gepruft"
+    ],
+    "erklaerung": "Aus dem Nomen «Prüfung» wird das Verb «prüfen»; «nach» wird zu «nachdem».",
+    "fehler": [
+     {
+      "antwort": "prüft",
+      "diagnoseId": "zeit",
+      "feedback": "Nach «nachdem» steht die vorzeitige Form, hier das Perfekt."
+     },
+     {
+      "antwort": "Prüfung",
+      "diagnoseId": "wortart",
+      "feedback": "Verlangt ist ein Verb, kein Nomen. Richtig ist «geprüft»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in ein Verb um.\n\nWegen der Sperrung der Strasse fuhr der Bus einen Umweg.\n\nDer Bus fuhr einen Umweg, weil die Strasse ______ war.",
+    "loesung": [
+     "gesperrt",
+     "gespert"
+    ],
+    "erklaerung": "Aus dem Nomen «Sperrung» wird das Partizip «gesperrt»; «wegen» wird zu «weil».",
+    "fehler": [
+     {
+      "antwort": "sperren",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist das Partizip, nicht die Grundform."
+     },
+     {
+      "antwort": "Sperrung",
+      "diagnoseId": "wortart",
+      "feedback": "Verlangt ist ein Verb, kein Nomen. Richtig ist «gesperrt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in ein Nomen um.\n\nWeil der Zug ausfiel, kamen alle zu spät.\n\nWegen des ______ des Zuges kamen alle zu spät.",
+    "loesung": [
+     "Ausfalls"
+    ],
+    "erklaerung": "Aus dem Verb «ausfallen» wird das Nomen «Ausfall»; nach «wegen» steht der Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Ausfall",
+      "diagnoseId": "fall",
+      "feedback": "Nach «wegen» steht der Genitiv: des Ausfalls."
+     },
+     {
+      "antwort": "ausfallen",
+      "diagnoseId": "wortart",
+      "feedback": "Verlangt ist ein Nomen, kein Verb. Richtig ist «Ausfalls»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in ein Nomen um.\n\nWeil die Preise stiegen, sank der Absatz.\n\nWegen des ______ der Preise sank der Absatz.",
+    "loesung": [
+     "Anstiegs"
+    ],
+    "erklaerung": "Aus «steigen» wird das Nomen «Anstieg»; nach «wegen» steht der Genitiv.",
+    "fehler": [
+     {
+      "antwort": "Anstieg",
+      "diagnoseId": "fall",
+      "feedback": "Nach «wegen» steht der Genitiv: des Anstiegs."
+     },
+     {
+      "antwort": "Steigung",
+      "diagnoseId": "bedeutung",
+      "feedback": "«Steigung» meint die Neigung eines Wegs, nicht die Zunahme."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n______ du früh genug kommst, bekommst du noch einen Platz.",
+    "loesung": [
+     "Wenn"
+    ],
+    "erklaerung": "Der Satz nennt die Bedingung für den Platz.",
+    "fehler": [
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Obwohl» nennte einen Gegensatz. Richtig ist «Wenn»."
+     },
+     {
+      "antwort": "Damit",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Damit» nennte eine Absicht. Richtig ist «Wenn»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n______ das Los gezogen ist, gibt es kein Zurück.",
+    "loesung": [
+     "Sobald",
+     "Wenn"
+    ],
+    "erklaerung": "Gemeint ist der Zeitpunkt, ab dem etwas gilt.",
+    "fehler": [
+     {
+      "antwort": "Bevor",
+      "diagnoseId": "zeit",
+      "feedback": "«Bevor» kehrte die Reihenfolge um. Richtig ist «Sobald»."
+     },
+     {
+      "antwort": "Solange",
+      "diagnoseId": "zeit",
+      "feedback": "«Solange» beschriebe einen Zeitraum, nicht einen Zeitpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in den Verbalstil um.\n\nDie Gemeinde plant den Bau eines Stegs.\n\nDie Gemeinde plant, einen Steg zu ______ .",
+    "loesung": [
+     "bauen"
+    ],
+    "erklaerung": "Aus dem Nomen «Bau» wird die Grundform «bauen».",
+    "fehler": [
+     {
+      "antwort": "Bau",
+      "diagnoseId": "wortart",
+      "feedback": "Verlangt ist ein Verb, kein Nomen. Richtig ist «bauen»."
+     },
+     {
+      "antwort": "bauend",
+      "diagnoseId": "form",
+      "feedback": "Die Form mit «zu» verlangt die Grundform."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme in den Nominalstil um.\n\nSie beantragte, den Beitrag zu senken.\n\nSie beantragte die ______ des Beitrags.",
+    "loesung": [
+     "Senkung"
+    ],
+    "erklaerung": "Aus dem Verb «senken» wird das Nomen «Senkung».",
+    "fehler": [
+     {
+      "antwort": "senken",
+      "diagnoseId": "wortart",
+      "feedback": "Verlangt ist ein Nomen, kein Verb. Richtig ist «Senkung»."
+     },
+     {
+      "antwort": "Senke",
+      "diagnoseId": "bedeutung",
+      "feedback": "«Senke» meint eine Vertiefung im Gelände."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Bedingungen und Umformung Nomen — Verb",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-kommaregeln",
+  "lernzielId": "DSS.9.06",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "9.06",
+   "9.01",
+   "9.02",
+   "9.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zähle zuerst die Verben. Zwei Personalformen bedeuten zwei Teilsätze, und dazwischen ein Komma.",
+   "Ein Relativsatz beginnt mit «der», «die», «das», «welcher» oder «dessen» und beschreibt ein Nomen davor.",
+   "Ein erweiterter Infinitiv besteht aus «zu» plus Grundform und mindestens einem weiteren Wort."
+  ],
+  "loesungsweg": [
+   "Verben zählen: Wie viele Personalformen stehen im Satz?",
+   "Prüfen, ob das Komma zwischen zwei Teilsätzen steht.",
+   "Auf Einleitewörter achten: «der/die/das» für den Relativsatz, «zu» für den Infinitiv.",
+   "Steht der eingeschobene Teil zwischen zwei Kommas, ist es ein Einschub."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Tom, Maria und Andrea freuen sich auf die Schulreise.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "Aufzählung von Einzelwörtern"
+    ],
+    "erklaerung": "Drei Namen stehen nebeneinander; zwischen den ersten beiden steht ein Komma, vor «und» keines.",
+    "fehler": [
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "teilsatz_vermutet",
+      "feedback": "Der Satz hat nur ein Verb, also nur einen Teilsatz. Es werden Namen aufgezählt."
+     },
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_vermutet",
+      "feedback": "Ein Einschub steht zwischen zwei Kommas und liesse sich weglassen. Hier fehlt das zweite Komma."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Nachdem sie alles gepackt haben, treffen sie die ganze Klasse.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "zwischen Teilsätzen"
+    ],
+    "erklaerung": "Zwei Personalformen, «haben» und «treffen», bedeuten zwei Teilsätze. Dazwischen steht das Komma.",
+    "fehler": [
+     {
+      "antwort": "vor dem Relativsatz",
+      "diagnoseId": "relativsatz_vermutet",
+      "feedback": "Ein Relativsatz begänne mit «der», «die» oder «das». Hier steht «nachdem»."
+     },
+     {
+      "antwort": "Aufzählung von Einzelwörtern",
+      "diagnoseId": "aufzaehlung_vermutet",
+      "feedback": "Aufgezählt wird nichts. Es stehen zwei vollständige Teilsätze da."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Hauptzweck der Reise ist es, ganz viel Spass zu haben.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "erweiterter Infinitiv mit «zu»"
+    ],
+    "erklaerung": "«zu haben» mit dem Zusatz «ganz viel Spass» ist ein erweiterter Infinitiv; er wird durch ein Komma abgetrennt.",
+    "fehler": [
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "infinitiv_als_teilsatz",
+      "feedback": "Ein Infinitiv ist keine Personalform. «zu haben» richtet sich nach niemandem."
+     },
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_vermutet",
+      "feedback": "Ein Einschub stünde zwischen zwei Kommas mitten im Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Es ist ein Erlebnis, das noch lange in Erinnerung bleiben wird.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "vor dem Relativsatz"
+    ],
+    "erklaerung": "«das» leitet einen Relativsatz ein und bezieht sich auf «Erlebnis».",
+    "fehler": [
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Das stimmt zwar auch, aber die Frage zielt auf die genaue Regel: Es ist ein Relativsatz."
+     },
+     {
+      "antwort": "erweiterter Infinitiv mit «zu»",
+      "diagnoseId": "infinitiv_vermutet",
+      "feedback": "Ein «zu» plus Grundform kommt im Satz nicht vor."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Der Zug, der aus Zürich kam, hatte Verspätung.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "vor dem Relativsatz"
+    ],
+    "erklaerung": "«der aus Zürich kam» beschreibt den Zug und steht zwischen zwei Kommas.",
+    "fehler": [
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_und_relativsatz",
+      "feedback": "Formal ist es eingeschoben, aber die genaue Regel heisst: Relativsatz. Er beginnt mit «der»."
+     },
+     {
+      "antwort": "Aufzählung von Einzelwörtern",
+      "diagnoseId": "aufzaehlung_vermutet",
+      "feedback": "Aufgezählt wird hier nichts. Der eingeschobene Satz beschreibt den Zug genauer."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Sie kaufte Brot, Käse, Äpfel und Milch.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "Aufzählung von Einzelwörtern"
+    ],
+    "erklaerung": "Vier Nomen werden aufgezählt; vor dem letzten «und» steht kein Komma.",
+    "fehler": [
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "teilsatz_vermutet",
+      "feedback": "Es gibt nur ein Verb: «kaufte». Also nur einen Teilsatz."
+     },
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_vermutet",
+      "feedback": "Nichts steht zwischen zwei Kommas und liesse sich weglassen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Mein Bruder, ein begeisterter Kletterer, war schon oft in den Alpen.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "Einschub"
+    ],
+    "erklaerung": "«ein begeisterter Kletterer» steht zwischen zwei Kommas und liesse sich weglassen, ohne dass der Satz zerfällt.",
+    "fehler": [
+     {
+      "antwort": "vor dem Relativsatz",
+      "diagnoseId": "relativsatz_vermutet",
+      "feedback": "Ein Relativsatz hätte ein eigenes Verb und begänne mit «der» oder «die»."
+     },
+     {
+      "antwort": "Aufzählung von Einzelwörtern",
+      "diagnoseId": "aufzaehlung_vermutet",
+      "feedback": "Es wird nichts aufgezählt. Der Einschub erklärt, wer der Bruder ist."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Er versprach, pünktlich zu kommen.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "erweiterter Infinitiv mit «zu»"
+    ],
+    "erklaerung": "«zu kommen» mit dem Zusatz «pünktlich» bildet einen erweiterten Infinitiv.",
+    "fehler": [
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "infinitiv_als_teilsatz",
+      "feedback": "«zu kommen» hat keine Personalform und bildet darum keinen eigenen Teilsatz."
+     },
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_vermutet",
+      "feedback": "Der Infinitiv steht am Schluss, nicht zwischen zwei Kommas."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Wir gingen nach Hause, weil es zu regnen begann.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "zwischen Teilsätzen"
+    ],
+    "erklaerung": "«gingen» und «begann» sind zwei Personalformen, also zwei Teilsätze.",
+    "fehler": [
+     {
+      "antwort": "erweiterter Infinitiv mit «zu»",
+      "diagnoseId": "zu_falsch_gedeutet",
+      "feedback": "Das «zu» gehört zu «zu regnen begann» und steht innerhalb des Nebensatzes. Das Komma trennt die Teilsätze."
+     },
+     {
+      "antwort": "vor dem Relativsatz",
+      "diagnoseId": "relativsatz_vermutet",
+      "feedback": "«weil» leitet einen Begründungssatz ein, keinen Relativsatz."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Die Wanderung, die wir letzten Sommer machten, war anstrengend.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "vor dem Relativsatz"
+    ],
+    "erklaerung": "«die wir letzten Sommer machten» beschreibt die Wanderung.",
+    "fehler": [
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_und_relativsatz",
+      "feedback": "Der Satz ist eingeschoben, doch die Regel heisst Relativsatz. Er hat ein eigenes Verb."
+     },
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "zu_allgemein",
+      "feedback": "Genauer gefragt: Es ist ein Relativsatz, erkennbar am einleitenden «die»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Anna, komm bitte her!»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "Einschub"
+    ],
+    "erklaerung": "Eine Anrede wird durch ein Komma abgetrennt. Sie steht wie ein Einschub ausserhalb des Satzbaus.",
+    "fehler": [
+     {
+      "antwort": "Aufzählung von Einzelwörtern",
+      "diagnoseId": "aufzaehlung_vermutet",
+      "feedback": "Es wird nichts aufgezählt; «Anna» ist die angesprochene Person."
+     },
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "teilsatz_vermutet",
+      "feedback": "Es gibt nur ein Verb: «komm». Für zwei Teilsätze bräuchte es zwei Personalformen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Kommaregel gilt in diesem Satz?\n\n«Rot, gelb und blau sind die Grundfarben.»",
+    "optionen": [
+     "Aufzählung von Einzelwörtern",
+     "zwischen Teilsätzen",
+     "vor dem Relativsatz",
+     "erweiterter Infinitiv mit «zu»",
+     "Einschub"
+    ],
+    "loesung": [
+     "Aufzählung von Einzelwörtern"
+    ],
+    "erklaerung": "Drei Farbwörter werden aufgezählt; vor «und» steht kein Komma.",
+    "fehler": [
+     {
+      "antwort": "Einschub",
+      "diagnoseId": "einschub_vermutet",
+      "feedback": "Nichts liesse sich weglassen, ohne dass der Satz unvollständig wird."
+     },
+     {
+      "antwort": "zwischen Teilsätzen",
+      "diagnoseId": "teilsatz_vermutet",
+      "feedback": "Es gibt nur ein Verb: «sind». Die drei Farbwörter davor bilden keine eigenen Teilsätze."
+     }
+    ]
+   }
+  ],
+  "optionen": [
+   "Aufzählung von Einzelwörtern",
+   "zwischen Teilsätzen",
+   "vor dem Relativsatz",
+   "erweiterter Infinitiv mit «zu»",
+   "Einschub"
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Kommaregeln erkennen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-kommas-setzen",
+  "lernzielId": "DSS.9.01",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "9.01",
+   "9.02",
+   "9.03"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Suche zuerst die Verben. Jede Personalform gehört zu einem eigenen Teilsatz.",
+   "Zwischen zwei Teilsätzen steht ein Komma. Auch dann, wenn sie mit «und» verbunden sind und beide ein eigenes Subjekt haben.",
+   "Vor «und» in einer Aufzählung von Einzelwörtern steht kein Komma."
+  ],
+  "loesungsweg": [
+   "Verben markieren.",
+   "Teilsätze abgrenzen und dazwischen ein Komma setzen.",
+   "Relativsätze und Einschübe beidseitig einschliessen.",
+   "Erweiterte Infinitive mit «zu» abtrennen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nAls der Zug einfuhr standen alle auf.",
+    "loesung": [
+     "Als der Zug einfuhr, standen alle auf."
+    ],
+    "erklaerung": "Zwischen Nebensatz und Hauptsatz steht ein Komma. Den Nebensatz erkennt man am Verb am Ende: «einfuhr»."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie kaufte Brot Käse und Milch.",
+    "loesung": [
+     "Sie kaufte Brot, Käse und Milch."
+    ],
+    "erklaerung": "Aufzählung von Einzelwörtern: Komma zwischen den ersten beiden, keines vor «und»."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Mann der uns half wohnt nebenan.",
+    "loesung": [
+     "Der Mann, der uns half, wohnt nebenan."
+    ],
+    "erklaerung": "Der Relativsatz «der uns half» wird beidseitig durch Kommas eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nWir hofften pünktlich anzukommen.",
+    "loesung": [
+     "Wir hofften, pünktlich anzukommen."
+    ],
+    "erklaerung": "Der erweiterte Infinitiv «pünktlich anzukommen» wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nMein Onkel ein guter Koch bewirtete uns.",
+    "loesung": [
+     "Mein Onkel, ein guter Koch, bewirtete uns."
+    ],
+    "erklaerung": "«ein guter Koch» ist ein Einschub und steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEs regnete stark deshalb blieben wir zu Hause.",
+    "loesung": [
+     "Es regnete stark, deshalb blieben wir zu Hause."
+    ],
+    "erklaerung": "Zwei Teilsätze mit je einer Personalform. Dazwischen steht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie fragte ob wir mitkommen wollten.",
+    "loesung": [
+     "Sie fragte, ob wir mitkommen wollten."
+    ],
+    "erklaerung": "«ob» leitet einen Nebensatz ein; davor steht ein Komma."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Film den wir gestern sahen war spannend.",
+    "loesung": [
+     "Der Film, den wir gestern sahen, war spannend."
+    ],
+    "erklaerung": "Der Relativsatz «den wir gestern sahen» wird von zwei Kommas eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr kam herein setzte sich und begann zu lesen.",
+    "loesung": [
+     "Er kam herein, setzte sich und begann zu lesen."
+    ],
+    "erklaerung": "Drei Verbgruppen mit demselben Subjekt: Komma zwischen den ersten beiden, keines vor «und»."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nUm pünktlich zu sein stand sie früh auf.",
+    "loesung": [
+     "Um pünktlich zu sein, stand sie früh auf."
+    ],
+    "erklaerung": "Der erweiterte Infinitiv mit «um … zu» wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nLisa meine beste Freundin zieht weg.",
+    "loesung": [
+     "Lisa, meine beste Freundin, zieht weg."
+    ],
+    "erklaerung": "«meine beste Freundin» ist ein Einschub zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nWenn du willst können wir morgen beginnen.",
+    "loesung": [
+     "Wenn du willst, können wir morgen beginnen."
+    ],
+    "erklaerung": "Der Nebensatz mit «wenn» steht vorne und wird durch ein Komma abgetrennt."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Kommas bei Aufzählungen, Teilsätzen und Relativsätzen",
+  "status": "review"
+ },
+ {
+  "templateId": "sg-kommas-setzen-2",
+  "lernzielId": "DSS.9.04",
+  "fach": "sprache-sg",
+  "unterthemen": [
+   "9.04",
+   "9.05"
+  ],
+  "format": "kommas",
+  "hinweise": [
+   "Ein Infinitiv mit «um», «ohne», «statt» oder «anstatt» wird immer abgetrennt.",
+   "Ein Einschub steht zwischen zwei Kommas — vorne und hinten.",
+   "Auch ein nachgestelltes Attribut wird beidseitig eingeschlossen."
+  ],
+  "loesungsweg": [
+   "Die Verben suchen.",
+   "Den Infinitiv mit «zu» abgrenzen.",
+   "Einschübe beidseitig einschliessen.",
+   "Den Satz laut lesen und auf die Sprechpausen achten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie stand früher auf um den ersten Zug zu erreichen.",
+    "loesung": [
+     "Sie stand früher auf, um den ersten Zug zu erreichen."
+    ],
+    "erklaerung": "Ein Infinitiv mit «um … zu» wird immer mit einem Komma abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nEr verliess den Raum ohne ein Wort zu sagen.",
+    "loesung": [
+     "Er verliess den Raum, ohne ein Wort zu sagen."
+    ],
+    "erklaerung": "Ein Infinitiv mit «ohne … zu» wird immer abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nStatt den Bus zu nehmen gingen sie zu Fuss.",
+    "loesung": [
+     "Statt den Bus zu nehmen, gingen sie zu Fuss."
+    ],
+    "erklaerung": "Ein Infinitiv mit «statt … zu» wird abgetrennt, auch wenn er vorne steht."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Klasse übte lange um am Turnier zu bestehen.",
+    "loesung": [
+     "Die Klasse übte lange, um am Turnier zu bestehen."
+    ],
+    "erklaerung": "«um … zu» nennt die Absicht und wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nAnstatt zu klagen packte sie an.",
+    "loesung": [
+     "Anstatt zu klagen, packte sie an."
+    ],
+    "erklaerung": "«anstatt … zu» wird abgetrennt, hier vor dem Hauptsatz."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nMein Onkel ein gelernter Schreiner baute den Tisch selbst.",
+    "loesung": [
+     "Mein Onkel, ein gelernter Schreiner, baute den Tisch selbst."
+    ],
+    "erklaerung": "«ein gelernter Schreiner» ist ein Einschub und steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDie Kantonsschule unsere Nachbarin feiert dieses Jahr ihr Jubiläum.",
+    "loesung": [
+     "Die Kantonsschule, unsere Nachbarin, feiert dieses Jahr ihr Jubiläum."
+    ],
+    "erklaerung": "Der Einschub wird vorne und hinten mit einem Komma eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDas Velo alt und verrostet stand seit Jahren im Keller.",
+    "loesung": [
+     "Das Velo, alt und verrostet, stand seit Jahren im Keller."
+    ],
+    "erklaerung": "Ein nachgestelltes Attribut wird beidseitig eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nAm Samstag dem dritten Mai beginnt das Turnier.",
+    "loesung": [
+     "Am Samstag, dem dritten Mai, beginnt das Turnier."
+    ],
+    "erklaerung": "Die nachgestellte Datumsangabe ist ein Einschub und steht zwischen zwei Kommas."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nDer Trainer der die Mannschaft seit Jahren führt hörte auf.",
+    "loesung": [
+     "Der Trainer, der die Mannschaft seit Jahren führt, hörte auf."
+    ],
+    "erklaerung": "Der Relativsatz steht mitten im Satz und wird beidseitig eingeschlossen."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nSie versprach uns rechtzeitig zu benachrichtigen.",
+    "loesung": [
+     "Sie versprach, uns rechtzeitig zu benachrichtigen."
+    ],
+    "erklaerung": "Der erweiterte Infinitiv nimmt das Versprechen auf und wird abgetrennt."
+   },
+   {
+    "stamm": "Tippe in die Lücken, in die ein Komma gehört.\n\nWir hofften das Ziel noch vor Einbruch der Dunkelheit zu erreichen.",
+    "loesung": [
+     "Wir hofften, das Ziel noch vor Einbruch der Dunkelheit zu erreichen."
+    ],
+    "erklaerung": "Der erweiterte Infinitiv wird durch ein Komma vom Hauptsatz getrennt."
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026, Sprachprüfung Teil B; Sätze und Wörter eigenentwickelt"
+  },
+  "thema": "Kommas beim Infinitiv mit «zu» und bei Einschüben",
+  "status": "review"
+ }
+]

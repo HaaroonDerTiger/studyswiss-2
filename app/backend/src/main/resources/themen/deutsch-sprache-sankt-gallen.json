@@ -1,0 +1,392 @@
+{
+ "fach": "sprache-sg",
+ "name": "Deutsch Sprache",
+ "pruefung": "Sprachprüfung Teil B, Kanton St. Gallen",
+ "quelle": "Prüfungsanforderungen und Prüfungsserien der St. Galler Aufnahmeprüfungen 2022-2026, Teil B «Sprachaufgaben»",
+ "punkteTotal": 35,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "B1",
+   "name": "Gross- und Kleinschreibung",
+   "punkte": 4,
+   "anteil": 12,
+   "beschreibung": "Im Prüfungstext stehen zwei Schreibweisen nebeneinander; eine ist richtig. Nominalisierungen sind die häufigste Falle.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Nominalisierte Verben",
+     "lernzielId": "DSS.1.01",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.02",
+     "name": "Nominalisierte Adjektive",
+     "lernzielId": "DSS.1.02",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.03",
+     "name": "Feste Wendungen mit «am» und «aufs»",
+     "lernzielId": "DSS.1.03",
+     "pflichtset": 14
+    },
+    {
+     "code": "1.04",
+     "name": "Unbestimmte Pronomen: jemand, wenig, viel",
+     "lernzielId": "DSS.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Tageszeiten und Zeitangaben",
+     "lernzielId": "DSS.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B2",
+   "name": "Verbformen",
+   "punkte": 3,
+   "anteil": 9,
+   "beschreibung": "Eine Tabelle mit Infinitiv, Präsens, Präteritum und Perfekt. Die starken Verben sind der Prüfstein.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Starke Verben: Stammformen",
+     "lernzielId": "DSS.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Schwache und gemischte Verben",
+     "lernzielId": "DSS.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Perfekt mit haben oder sein",
+     "lernzielId": "DSS.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Zweite Person Singular bilden",
+     "lernzielId": "DSS.2.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "B3",
+   "name": "Satzglieder und Nominalgruppen",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Der Lehrplan sagt «Nominalgruppe im Akkusativ», die Lehrmittel sagen «Akkusativobjekt». Beides gilt.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Nominalgruppe im Nominativ (Subjekt)",
+     "lernzielId": "DSS.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Nominalgruppe im Akkusativ (Akkusativobjekt)",
+     "lernzielId": "DSS.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Nominalgruppe im Dativ (Dativobjekt)",
+     "lernzielId": "DSS.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Nominalgruppe im Genitiv (Genitivobjekt)",
+     "lernzielId": "DSS.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Präpositionalgruppe erkennen",
+     "lernzielId": "DSS.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Wortgruppen, die kein Satzglied sind",
+     "lernzielId": "DSS.3.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "B4",
+   "name": "Präpositionen und Fälle",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Die Präposition wählen und die Wortgruppe in den richtigen Fall setzen. Beides zusammen gibt den Punkt.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Präpositionen mit dem Genitiv",
+     "lernzielId": "DSS.4.01",
+     "pflichtset": 13
+    },
+    {
+     "code": "4.02",
+     "name": "Präpositionen mit dem Dativ",
+     "lernzielId": "DSS.4.02",
+     "pflichtset": 13
+    },
+    {
+     "code": "4.03",
+     "name": "Präpositionen mit dem Akkusativ",
+     "lernzielId": "DSS.4.03",
+     "pflichtset": 13
+    },
+    {
+     "code": "4.04",
+     "name": "Feste Verbindungen von Verb und Präposition",
+     "lernzielId": "DSS.4.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.05",
+     "name": "Wechselpräpositionen",
+     "lernzielId": "DSS.4.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "B5",
+   "name": "Wortbildung",
+   "punkte": 6,
+   "anteil": 17,
+   "beschreibung": "Zwei Aufgabentypen: Komposita aus einem gesuchten Nomen, und Vormorpheme, die ein Verb erst passend machen.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Zusammengesetzte Nomen bilden",
+     "lernzielId": "DSS.5.01",
+     "pflichtset": 13
+    },
+    {
+     "code": "5.02",
+     "name": "Fugenzeichen richtig setzen",
+     "lernzielId": "DSS.5.02",
+     "pflichtset": 13
+    },
+    {
+     "code": "5.03",
+     "name": "Vormorpheme bei Verben",
+     "lernzielId": "DSS.5.03",
+     "pflichtset": 13
+    },
+    {
+     "code": "5.04",
+     "name": "Trennbare und untrennbare Verbzusätze",
+     "lernzielId": "DSS.5.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.05",
+     "name": "Wortfamilien erkennen",
+     "lernzielId": "DSS.5.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.06",
+     "name": "Nachmorpheme und Wortarten",
+     "lernzielId": "DSS.5.06",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "B6",
+   "name": "Redewendungen",
+   "punkte": 3,
+   "anteil": 9,
+   "beschreibung": "Zu einer Umschreibung gehört eine Redewendung; gesucht ist das fehlende Wort darin.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Redewendung aus der Umschreibung erschliessen",
+     "lernzielId": "DSS.6.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.02",
+     "name": "Das fehlende Nomen ergänzen",
+     "lernzielId": "DSS.6.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.03",
+     "name": "Sprichwörter und ihre Bedeutung",
+     "lernzielId": "DSS.6.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.04",
+     "name": "Bildliche und wörtliche Bedeutung unterscheiden",
+     "lernzielId": "DSS.6.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "katalog": "B7",
+   "name": "Zeitformen bestimmen und umformen",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Erst die Zeitform benennen, dann den ganzen Satz umformen. Der zweite Schritt kostet die meisten Punkte.",
+   "unterthemen": [
+    {
+     "code": "7.01",
+     "name": "Präsens, Präteritum, Perfekt, Plusquamperfekt benennen",
+     "lernzielId": "DSS.7.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "7.02",
+     "name": "Futur I erkennen und bilden",
+     "lernzielId": "DSS.7.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "7.03",
+     "name": "Einen Satz ins Perfekt umformen",
+     "lernzielId": "DSS.7.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.04",
+     "name": "Einen Satz ins Plusquamperfekt umformen",
+     "lernzielId": "DSS.7.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "7.01"
+     ]
+    },
+    {
+     "code": "7.05",
+     "name": "Modalverben in zusammengesetzten Zeiten",
+     "lernzielId": "DSS.7.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "katalog": "B8",
+   "name": "Nominalstil und Nebensatz",
+   "punkte": 3,
+   "anteil": 9,
+   "beschreibung": "Dieselbe Aussage einmal mit einem Nomen, einmal mit einem Nebensatz. Gesucht ist die passende Konjunktion.",
+   "unterthemen": [
+    {
+     "code": "8.01",
+     "name": "Zeitliche Konjunktionen: nachdem, seit, bevor",
+     "lernzielId": "DSS.8.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "8.02",
+     "name": "Begründende und einräumende Konjunktionen",
+     "lernzielId": "DSS.8.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "8.03",
+     "name": "Absicht ausdrücken: damit, um zu",
+     "lernzielId": "DSS.8.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "8.04",
+     "name": "Bedingung ausdrücken: wenn, falls",
+     "lernzielId": "DSS.8.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "8.05",
+     "name": "Vom Nomen zum Verb und zurück",
+     "lernzielId": "DSS.8.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "8.01"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "katalog": "B9",
+   "name": "Kommaregeln",
+   "punkte": 4,
+   "anteil": 11,
+   "beschreibung": "Die Prüfung nennt fünf Regeln und verlangt, dass man sie einem Beispiel zuordnet, nicht nur, dass man Kommas setzt.",
+   "unterthemen": [
+    {
+     "code": "9.01",
+     "name": "Komma bei Aufzählungen",
+     "lernzielId": "DSS.9.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "9.02",
+     "name": "Komma zwischen Teilsätzen",
+     "lernzielId": "DSS.9.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "9.03",
+     "name": "Komma vor dem Relativsatz",
+     "lernzielId": "DSS.9.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "9.04",
+     "name": "Komma beim erweiterten Infinitiv mit «zu»",
+     "lernzielId": "DSS.9.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "9.05",
+     "name": "Komma bei Einschüben",
+     "lernzielId": "DSS.9.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "9.06",
+     "name": "Die passende Regel zu einem Satz nennen",
+     "lernzielId": "DSS.9.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "9.01",
+      "9.02",
+      "9.03",
+      "9.04",
+      "9.05"
+     ]
+    }
+   ]
+  }
+ ],
+ "bemerkung": "Teil B zählt an der Einheitsaufnahmeprüfung 35 Punkte, am Gymnasium 44. Die Gewichtung der Oberthemen ist in beiden Prüfungen dieselbe; der Baum führt die Zahlen der Einheitsaufnahmeprüfung."
+}

@@ -1,0 +1,3932 @@
+[
+ {
+  "templateId": "sg-negative-ordnen",
+  "lernzielId": "MS.1.06",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "1.06",
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "sortieren",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "w1",
+    "typ": "formel",
+    "ausdruck": "0-a"
+   },
+   {
+    "name": "w2",
+    "typ": "formel",
+    "ausdruck": "0-b*b"
+   },
+   {
+    "name": "w3",
+    "typ": "formel",
+    "ausdruck": "c-2*c"
+   },
+   {
+    "name": "w4",
+    "typ": "formel",
+    "ausdruck": "d"
+   },
+   {
+    "name": "w5",
+    "typ": "formel",
+    "ausdruck": "0-d-c"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "w1!=w2",
+   "w1!=w3",
+   "w1!=w5",
+   "w2!=w3",
+   "w2!=w5",
+   "w3!=w5",
+   "w2>=-90",
+   "w5!=w1",
+   "w4!=w1",
+   "w4>=1"
+  ],
+  "stamm": "{name} ordnet fünf Zahlen der Grösse nach. Tippe sie von der kleinsten zur grössten an.",
+  "fehler": [
+   {
+    "diagnoseId": "betrag_statt_wert",
+    "kurz": "nach dem Betrag geordnet",
+    "feedback": "Du hast nach der Zahl hinter dem Minus geordnet. Bei negativen Zahlen ist es umgekehrt: −{b}² ist KLEINER als −{a}, wenn {b}² grösser ist als {a}."
+   },
+   {
+    "diagnoseId": "quadrat_vorzeichen",
+    "kurz": "−{b}² falsch gerechnet",
+    "feedback": "−{b}² ist nicht (−{b})². Ohne Klammer wird zuerst quadriert und dann das Minus davorgesetzt. Das Ergebnis bleibt negativ."
+   },
+   {
+    "diagnoseId": "klammer_uebersehen",
+    "kurz": "Klammer übersehen",
+    "feedback": "Bei −({d} + {c}) gilt das Minus für die ganze Klammer. Beide Zahlen werden abgezogen, nicht nur die erste."
+   },
+   {
+    "diagnoseId": "term_nicht_ausgerechnet",
+    "kurz": "Term nicht ausgerechnet",
+    "feedback": "{c} − 2·{c} muss zuerst ausgerechnet werden. Punkt vor Strich: 2·{c} zuerst, dann abziehen."
+   }
+  ],
+  "hinweise": [
+   "Rechne jeden der fünf Ausdrücke zuerst aus. Erst danach lässt sich ordnen.",
+   "Auf dem Zahlenstrahl liegen die negativen Zahlen links von der Null. Je grösser die Zahl hinter dem Minus, desto weiter links.",
+   "Achte auf −{b}²: Ohne Klammer wird erst quadriert, dann kommt das Minus davor."
+  ],
+  "loesungsweg": [
+   "−{a} ist {w1}.",
+   "−{b}² ist {w2}. Erst quadrieren, dann das Minus davorsetzen.",
+   "{c} − 2·{c} ist {w3}.",
+   "−({d} + {c}) ist {w5}; die Klammer gilt für beide Zahlen.",
+   "Der Reihe nach von links auf dem Zahlenstrahl: von der kleinsten zur grössten."
+  ],
+  "sortieren": {
+   "werte": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ],
+   "elemente": [
+    {
+     "text": "−{a}"
+    },
+    {
+     "text": "−{b}²"
+    },
+    {
+     "text": "{c} − 2·{c}"
+    },
+    {
+     "text": "{d}"
+    },
+    {
+     "text": "−({d} + {c})"
+    }
+   ]
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-gleichung-klammern",
+  "lernzielId": "MS.2.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "vorx",
+    "typ": "formel",
+    "ausdruck": "a+c"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "a*b-d"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "(a*b-d)/(a+c)"
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "c*x+d"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(x)==1",
+   "x!=0",
+   "x<=20",
+   "x>=-9",
+   "x!=a",
+   "x!=b",
+   "x!=c",
+   "x!=d",
+   "a!=c",
+   "b!=d",
+   "wert<=220",
+   "wert>=-220"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Der Rechenweg muss erkennbar sein.\n\n{a}·({b} − x) = {c}x + {d}",
+  "loesung": "(a*b-d)/(a+c)",
+  "gegenprobe": "b-(c*x+d)/a",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_nicht_ausmultipliziert",
+    "ausdruck": "(b-d)/c",
+    "feedback": "Die {a} vor der Klammer gilt für BEIDE Glieder darin: {a}·{b} und {a}·x. Wer nur eines multipliziert, verliert die halbe Gleichung."
+   },
+   {
+    "diagnoseId": "vorzeichen_beim_sortieren",
+    "ausdruck": "(a*b+d)/(a+c)",
+    "feedback": "Die {d} wechselt beim Sortieren die Seite und damit das Vorzeichen. Sie wird abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "x_glieder_subtrahiert",
+    "ausdruck": "(a*b-d)/(a-c)",
+    "feedback": "Links steht −{a}x, rechts +{c}x. Bringt man beide auf eine Seite, werden sie ADDIERT: vor dem x steht {a} + {c}."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "a*b-d",
+    "feedback": "Du bist einen Schritt zu früh fertig. Vor dem x steht noch {vorx}, durch diese Zahl muss geteilt werden."
+   }
+  ],
+  "hinweise": [
+   "Multipliziere zuerst die Klammer aus. Die Zahl davor gilt für beide Glieder darin.",
+   "Bringe danach alle x auf eine Seite und alle Zahlen auf die andere. Achte auf die Vorzeichen.",
+   "Links steht ein Minus vor dem x, rechts ein Plus, auf einer Seite zusammengefasst werden sie addiert."
+  ],
+  "loesungsweg": [
+   "Klammer ausmultiplizieren: {a}·{b} − {a}x = {c}x + {d}.",
+   "x-Glieder nach rechts, Zahlen nach links: {a}·{b} − {d} = ({a} + {c})·x.",
+   "Links steht {summe}, vor dem x steht {vorx}.",
+   "Teilen ergibt x = {x}.",
+   "Probe: Beide Seiten ergeben {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-gleichung-brueche-sg",
+  "lernzielId": "MS.2.02",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "2.02",
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "name": "t",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "formel",
+    "ausdruck": "(n2-n1)*t-p"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "p+n1*t"
+   }
+  ],
+  "bedingungen": [
+   "n2>n1",
+   "q>=1",
+   "q<=40",
+   "x>=3",
+   "x<=90",
+   "x!=p",
+   "x!=q",
+   "x!=n1",
+   "x!=n2",
+   "x!=t",
+   "p!=q",
+   "t!=p"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Kürze Bruchlösungen so weit wie möglich.\n\n(x − {p}) : {n1}  =  (x + {q}) : {n2}",
+  "loesung": "p+n1*t",
+  "gegenprobe": "n2*t-q",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_weggelassen",
+    "ausdruck": "p+q",
+    "feedback": "Du hast die Nenner gestrichen. Sie sind verschieden. Sie verschwinden erst, wenn man die ganze Gleichung mit beiden multipliziert."
+   },
+   {
+    "diagnoseId": "kreuzweise_falsch",
+    "ausdruck": "(n2*p-n1*q)/(n2-n1)",
+    "feedback": "Beim Ausmultiplizieren ist ein Vorzeichen gekippt. {n1}·(x + {q}) ergibt {n1}x + {n1}·{q}. Der zweite Teil wird addiert."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(n2*p+n1*q)/(n2+n1)",
+    "feedback": "Nach dem Sortieren steht vor dem x die Differenz {n2} − {n1}, nicht ihre Summe."
+   },
+   {
+    "diagnoseId": "zwischenwert_abgegeben",
+    "ausdruck": "t",
+    "feedback": "Das ist der gemeinsame Wert der beiden Brüche, nicht x. Setze ihn zurück ein: x ist {p} plus {n1}-mal dieser Wert."
+   }
+  ],
+  "hinweise": [
+   "Multipliziere die ganze Gleichung mit beiden Nennern. Dann verschwinden die Brüche.",
+   "Achte beim Ausmultiplizieren auf die Klammern: Die Zahl davor gilt für beide Glieder darin.",
+   "Nach dem Sortieren steht vor dem x die Differenz der beiden Nenner."
+  ],
+  "loesungsweg": [
+   "Mit {n1} und {n2} multiplizieren: {n2}·(x − {p}) = {n1}·(x + {q}).",
+   "Ausmultiplizieren: {n2}x − {n2}·{p} = {n1}x + {n1}·{q}.",
+   "Sortieren: ({n2} − {n1})·x = {n2}·{p} + {n1}·{q}.",
+   "Teilen ergibt x = {x}. Beide Brüche haben dann den Wert {t}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-term-auswerten",
+  "lernzielId": "MS.2.06",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "2.06",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "t1",
+    "typ": "formel",
+    "ausdruck": "b*b-2*a+c"
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "0-(0-b+2*a)-c"
+   },
+   {
+    "name": "t3",
+    "typ": "formel",
+    "ausdruck": "a*c-b*b"
+   }
+  ],
+  "bedingungen": [
+   "a!=0",
+   "b!=0",
+   "c!=0",
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "t1!=t2",
+   "t2!=t3",
+   "t1!=t3",
+   "t1<=140",
+   "t1>=-140",
+   "t3<=140",
+   "t3>=-140"
+  ],
+  "stamm": "Berechne den Wert jedes Terms für a = {a}, b = {b} und c = {c}. Setze in Klammern ein.",
+  "felder": [
+   {
+    "name": "t1",
+    "label": "b² − 2a + c",
+    "ausdruck": "b*b-2*a+c",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "quadrat_vorzeichen",
+      "ausdruck": "0-b*b-2*a+c",
+      "feedback": "b² ist auch bei negativem b positiv: minus mal minus ergibt plus. Setze b in Klammern ein, dann siehst du es."
+     },
+     {
+      "diagnoseId": "faktor_zwei_vergessen",
+      "ausdruck": "b*b-a+c",
+      "feedback": "Vor dem a steht eine 2. Der ganze Ausdruck 2a wird abgezogen, nicht nur a."
+     },
+     {
+      "diagnoseId": "minus_uebersehen",
+      "ausdruck": "b*b+2*a+c",
+      "feedback": "Zwischen b² und 2a steht ein Minus. Bei negativem a wird daraus ein Plus, aber erst nach dem Einsetzen."
+     },
+     {
+      "diagnoseId": "c_vergessen",
+      "ausdruck": "b*b-2*a",
+      "feedback": "Das letzte Glied fehlt. Der Term hat drei Teile: b², −2a und +c."
+     }
+    ]
+   },
+   {
+    "name": "t2",
+    "label": "−(−b + 2a) − c",
+    "ausdruck": "0-(0-b+2*a)-c",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "minus_nicht_verteilt",
+      "ausdruck": "0-b+2*a-c",
+      "feedback": "Das Minus vor der Klammer gilt für ALLE Glieder darin. Aus −(−b + 2a) wird +b − 2a."
+     },
+     {
+      "diagnoseId": "nur_erstes_glied",
+      "ausdruck": "b-2*a+c",
+      "feedback": "Das c am Schluss wird abgezogen, nicht dazugezählt. Es steht ausserhalb der Klammer mit einem Minus davor."
+     },
+     {
+      "diagnoseId": "klammer_ignoriert",
+      "ausdruck": "b+2*a-c",
+      "feedback": "Beim Auflösen der Klammer kehren sich beide Vorzeichen um: aus −b wird +b, aus +2a wird −2a."
+     }
+    ]
+   },
+   {
+    "name": "t3",
+    "label": "a · c − b²",
+    "ausdruck": "a*c-b*b",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "quadrat_vorzeichen",
+      "ausdruck": "a*c+b*b",
+      "feedback": "b² ist immer positiv, und davor steht ein Minus. Es wird also abgezogen, auch wenn b negativ ist."
+     },
+     {
+      "diagnoseId": "produkt_vorzeichen",
+      "ausdruck": "0-a*c-b*b",
+      "feedback": "Prüfe das Vorzeichen von a · c: Zwei negative Zahlen ergeben ein positives Produkt, eine negative und eine positive ein negatives."
+     },
+     {
+      "diagnoseId": "addiert_statt_multipliziert",
+      "ausdruck": "a+c-b*b",
+      "feedback": "Zwischen a und c steht ein Malpunkt, kein Plus."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Setze jede Zahl in Klammern ein. Dann geht kein Vorzeichen verloren.",
+   "Potenzen zuerst, dann Punkt vor Strich, dann von links nach rechts.",
+   "Ein Minus vor einer Klammer dreht jedes Vorzeichen darin um."
+  ],
+  "loesungsweg": [
+   "Setze ein: a = {a}, b = {b}, c = {c}. Jeweils in Klammern.",
+   "b² ist immer positiv, auch wenn b negativ ist.",
+   "Beim zweiten Term zuerst die Klammer auflösen: Das Minus davor dreht beide Vorzeichen um.",
+   "Die drei Werte sind {t1}, {t2} und {t3}."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-einheiten-tabelle",
+  "lernzielId": "MS.3.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "3.01",
+   "3.02",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal3",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     5,
+     8,
+     12,
+     25,
+     40,
+     75,
+     150,
+     300
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     6,
+     9,
+     12,
+     15,
+     20,
+     30,
+     50,
+     80
+    ]
+   },
+   {
+    "name": "c",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     7,
+     11,
+     20,
+     35,
+     60,
+     90,
+     200,
+     400
+    ]
+   },
+   {
+    "name": "lang",
+    "typ": "formel",
+    "ausdruck": "a*100"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "b*10000"
+   },
+   {
+    "name": "hohl",
+    "typ": "formel",
+    "ausdruck": "c*100"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "lang<=40000",
+   "flaeche<=800000",
+   "hohl<=40000"
+  ],
+  "stamm": "{name} füllt eine Umrechnungstabelle aus. Trage die drei fehlenden Werte ein.",
+  "felder": [
+   {
+    "name": "mm",
+    "label": "{a} m in cm",
+    "einheit": "cm",
+    "ausdruck": "a*100",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_verwechselt",
+      "ausdruck": "a*10",
+      "feedback": "Zwischen Meter und Zentimeter liegt der Faktor 100, nicht 10. Zehn ist der Sprung von Zentimeter zu Millimeter."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "a/100",
+      "feedback": "Du hast geteilt statt multipliziert. Ein Zentimeter ist KLEINER als ein Meter, von der grösseren zur kleineren Einheit wird die Zahl grösser."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "a",
+      "feedback": "Die Zahl ist unverändert geblieben. Beim Wechsel der Einheit ändert sie sich immer, ausser der Faktor wäre 1."
+     }
+    ]
+   },
+   {
+    "name": "qm",
+    "label": "{b} ha in m²",
+    "einheit": "m²",
+    "ausdruck": "b*10000",
+    "fehler": [
+     {
+      "diagnoseId": "laengenfaktor_bei_flaeche",
+      "ausdruck": "b*100",
+      "feedback": "Eine Hektare ist ein Quadrat von 100 m Seitenlänge. Ihre Fläche ist darum 100·100 = 10 000 m², nicht 100 m²."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "b/10000",
+      "feedback": "Du hast geteilt. Ein Quadratmeter ist viel kleiner als eine Hektare. Die Zahl muss darum grösser werden."
+     },
+     {
+      "diagnoseId": "dreifach_gezaehlt",
+      "ausdruck": "b*1000000",
+      "feedback": "Das wäre der Faktor für Quadratkilometer. Zwischen Hektare und Quadratmeter liegen 10 000."
+     }
+    ]
+   },
+   {
+    "name": "ml",
+    "label": "{c} dl in ml",
+    "einheit": "ml",
+    "ausdruck": "c*100",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_verwechselt",
+      "ausdruck": "c*10",
+      "feedback": "Zwischen Deziliter und Milliliter liegen zwei Stufen: dl, cl, ml. Der Faktor ist darum 100, nicht 10."
+     },
+     {
+      "diagnoseId": "richtung_vertauscht",
+      "ausdruck": "c/100",
+      "feedback": "Ein Milliliter ist kleiner als ein Deziliter. Es passen hundert davon hinein. Die Zahl wird grösser."
+     },
+     {
+      "diagnoseId": "liter_statt_deziliter",
+      "ausdruck": "c*1000",
+      "feedback": "Tausend ist der Faktor von Liter zu Milliliter. Von Deziliter aus ist es nur ein Hundertstel davon."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Frage zuerst: Wird die Einheit kleiner oder grösser? Wird sie kleiner, wird die Zahl grösser.",
+   "Bei Flächen zählt der Faktor zweimal: Eine Hektare ist ein Quadrat von 100 m Seite, also 100·100 m².",
+   "Bei Hohlmassen gilt die Reihe l, dl, cl, ml. Jede Stufe ein Faktor 10."
+  ],
+  "loesungsweg": [
+   "Meter zu Zentimeter: eine Stufe mit Faktor 100.",
+   "Hektare zu Quadratmeter: 100 m mal 100 m, also 10 000.",
+   "Deziliter zu Milliliter: zwei Stufen à 10, zusammen 100.",
+   "Zur kleineren Einheit wird die Zahl grösser. Nie umgekehrt."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-einheiten-summe",
+  "lernzielId": "MS.3.04",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "3.04",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal3",
+  "einheit": "m",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "km",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     35,
+     45,
+     60,
+     80,
+     120
+    ]
+   },
+   {
+    "name": "mm",
+    "typ": "auswahl",
+    "werte": [
+     150,
+     250,
+     400,
+     450,
+     600,
+     750,
+     900,
+     1200,
+     1800,
+     2500
+    ]
+   },
+   {
+    "name": "kmm",
+    "typ": "formel",
+    "ausdruck": "km*10"
+   },
+   {
+    "name": "mmm",
+    "typ": "formel",
+    "ausdruck": "mm/1000"
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "km*10+mm/1000"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "summe!=km",
+   "summe!=mm",
+   "summe!=kmm",
+   "istGanz(summe*1000)==1"
+  ],
+  "stamm": "{name} rechnet zwei Längen zusammen und gibt das Ergebnis in Metern an.\n\n0,0{km} km + {mm} mm = ___ m",
+  "loesung": "km*10+mm/1000",
+  "gegenprobe": "(km*10000+mm)/1000",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_umrechnen_addiert",
+    "ausdruck": "km+mm",
+    "feedback": "Du hast die beiden Zahlen addiert, ohne sie auf dieselbe Einheit zu bringen. Kilometer und Millimeter lassen sich nicht direkt zusammenzählen."
+   },
+   {
+    "diagnoseId": "km_faktor_falsch",
+    "ausdruck": "km*100+mm/1000",
+    "feedback": "0,0{km} km sind {kmm} m. Ein Kilometer hat 1000 Meter, und 0,0{km} davon sind {kmm}."
+   },
+   {
+    "diagnoseId": "mm_faktor_falsch",
+    "ausdruck": "km*10+mm/100",
+    "feedback": "Zwischen Millimeter und Meter liegt der Faktor 1000: mm, cm, dm, m. {mm} mm sind {mmm} m."
+   },
+   {
+    "diagnoseId": "nur_ein_summand",
+    "ausdruck": "km*10",
+    "feedback": "Das ist erst der erste Teil. Die {mm} mm müssen noch dazu, umgerechnet in Meter."
+   }
+  ],
+  "hinweise": [
+   "Bring beide Längen zuerst auf dieselbe Einheit. Hier auf Meter.",
+   "Ein Kilometer hat 1000 Meter, ein Meter hat 1000 Millimeter.",
+   "Erst wenn beide Zahlen in Metern stehen, dürfen sie addiert werden."
+  ],
+  "loesungsweg": [
+   "0,0{km} km sind {kmm} m.",
+   "{mm} mm sind {mmm} m.",
+   "Zusammen ergibt das {summe} m.",
+   "Gegenprobe in Millimetern: {km}·10 000 + {mm} Millimeter, geteilt durch 1000."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-runden-stellen",
+  "lernzielId": "MS.3.05",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "3.05",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 10000,
+    "bis": 998000,
+    "schritt": 1
+   },
+   {
+    "name": "zehner",
+    "typ": "formel",
+    "ausdruck": "round(z/10)*10"
+   },
+   {
+    "name": "hunderter",
+    "typ": "formel",
+    "ausdruck": "round(z/100)*100"
+   },
+   {
+    "name": "tausender",
+    "typ": "formel",
+    "ausdruck": "round(z/1000)*1000"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Zuschauerinnen und Zuschauer"
+     ],
+     [
+      "verkaufte Karten"
+     ],
+     [
+      "gefahrene Kilometer"
+     ],
+     [
+      "Besuchende im Museum"
+     ],
+     [
+      "gelesene Seiten"
+     ],
+     [
+      "gezählte Velofahrten"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "z%10!=0",
+   "z%100!=0",
+   "z%1000!=0",
+   "zehner!=hunderter",
+   "hunderter!=tausender",
+   "zehner!=tausender"
+  ],
+  "stamm": "Eine Zählung ergab genau {z} {ding}. Runde diese Zahl auf drei verschiedene Stellen.",
+  "felder": [
+   {
+    "name": "z10",
+    "label": "auf Zehner gerundet",
+    "ausdruck": "round(z/10)*10",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "floor(z/10)*10",
+      "feedback": "Du hast die letzte Ziffer abgeschnitten. Gerundet wird zur NÄCHSTEN Zehnerzahl: ab 5 aufwärts geht es nach oben."
+     },
+     {
+      "diagnoseId": "immer_aufgerundet",
+      "ausdruck": "ceil(z/10)*10",
+      "feedback": "Aufgerundet wird erst ab 5. Unter 5 wird abgerundet."
+     },
+     {
+      "diagnoseId": "falsche_stelle",
+      "ausdruck": "round(z/100)*100",
+      "feedback": "Das ist auf Hunderter gerundet. Bei den Zehnern bleibt eine Stelle mehr stehen."
+     }
+    ]
+   },
+   {
+    "name": "z100",
+    "label": "auf Hunderter gerundet",
+    "ausdruck": "round(z/100)*100",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "floor(z/100)*100",
+      "feedback": "Abgeschnitten statt gerundet. Schau die Zehnerziffer an: Ab 50 wird aufgerundet."
+     },
+     {
+      "diagnoseId": "falsche_stelle",
+      "ausdruck": "round(z/1000)*1000",
+      "feedback": "Das ist auf Tausender gerundet. Bei den Hundertern bleibt eine Stelle mehr stehen."
+     },
+     {
+      "diagnoseId": "nur_letzte_ziffer",
+      "ausdruck": "round(z/10)*10",
+      "feedback": "Das ist auf Zehner gerundet. Beim Runden auf Hunderter werden ZWEI Stellen zu null."
+     }
+    ]
+   },
+   {
+    "name": "z1000",
+    "label": "auf Tausender gerundet",
+    "ausdruck": "round(z/1000)*1000",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "abgeschnitten",
+      "ausdruck": "floor(z/1000)*1000",
+      "feedback": "Abgeschnitten statt gerundet. Entscheidend ist die Hunderterziffer: ab 500 nach oben."
+     },
+     {
+      "diagnoseId": "falsche_stelle",
+      "ausdruck": "round(z/100)*100",
+      "feedback": "Das ist auf Hunderter gerundet. Beim Runden auf Tausender werden drei Stellen zu null."
+     },
+     {
+      "diagnoseId": "immer_aufgerundet",
+      "ausdruck": "ceil(z/1000)*1000",
+      "feedback": "Aufgerundet wird nur ab 500. Darunter geht es nach unten."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Schau immer die Ziffer AN der Stelle rechts davon an: Sie entscheidet, ob auf- oder abgerundet wird.",
+   "Ab 5 wird aufgerundet, darunter abgerundet. Alle Stellen rechts davon werden null.",
+   "Runden ist nicht Abschneiden, beim Abschneiden geht die Zahl immer nach unten."
+  ],
+  "loesungsweg": [
+   "Auf Zehner: Die Einerziffer entscheidet.",
+   "Auf Hunderter: Die Zehnerziffer entscheidet.",
+   "Auf Tausender: Die Hunderterziffer entscheidet.",
+   "Alle Stellen rechts der gerundeten werden zu null."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-lift-stockwerke",
+  "lernzielId": "MS.4.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.01",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "runter",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "rauf",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "tief",
+    "typ": "formel",
+    "ausdruck": "start-runter"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "start-runter+rauf"
+   },
+   {
+    "name": "weg",
+    "typ": "formel",
+    "ausdruck": "runter+rauf"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "tief<=-1",
+   "tief>=-6",
+   "ende!=start",
+   "ende!=tief",
+   "ende!=rauf",
+   "ende!=runter",
+   "tief!=start",
+   "ende<=6",
+   "weg!=ende",
+   "weg!=tief"
+  ],
+  "stamm": "Ein Lift steht im {start}. Stock. Er fährt {runter} Etagen nach unten, danach {rauf} Etagen nach oben. Unter dem Erdgeschoss liegen Untergeschosse; das Erdgeschoss zählt als 0.",
+  "felder": [
+   {
+    "name": "tiefpunkt",
+    "label": "tiefstes erreichtes Stockwerk",
+    "ausdruck": "start-runter",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "vorzeichen_verloren",
+      "ausdruck": "runter-start",
+      "feedback": "Der Lift fährt VOM {start}. Stock aus nach unten. Gerechnet wird {start} minus {runter}, nicht umgekehrt."
+     },
+     {
+      "diagnoseId": "bei_null_gestoppt",
+      "ausdruck": "0",
+      "feedback": "Der Lift hält nicht im Erdgeschoss an. Unter der Null geht es mit negativen Zahlen weiter: −1, −2 und so fort."
+     },
+     {
+      "diagnoseId": "addiert_statt_subtrahiert",
+      "ausdruck": "start+runter",
+      "feedback": "Nach unten fahren heisst abziehen. Addiert würde nur bei einer Fahrt nach oben."
+     }
+    ]
+   },
+   {
+    "name": "ende",
+    "label": "Stockwerk am Schluss",
+    "ausdruck": "start-runter+rauf",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nur_erste_fahrt",
+      "ausdruck": "start-runter",
+      "feedback": "Das ist der tiefste Punkt. Danach fährt der Lift noch {rauf} Etagen nach oben."
+     },
+     {
+      "diagnoseId": "vom_start_gerechnet",
+      "ausdruck": "start+rauf",
+      "feedback": "Die zweite Fahrt beginnt nicht im {start}. Stock, sondern unten. Rechne vom tiefsten Punkt aus weiter."
+     },
+     {
+      "diagnoseId": "beide_abgezogen",
+      "ausdruck": "start-runter-rauf",
+      "feedback": "Die zweite Fahrt geht nach OBEN. Sie wird dazugezählt, nicht abgezogen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zeichne einen senkrechten Zahlenstrahl: das Erdgeschoss als 0, darunter die negativen Zahlen.",
+   "Nach unten fahren heisst abziehen, nach oben fahren heisst addieren.",
+   "Der Lift hält bei der Null nicht an, unter dem Erdgeschoss geht es negativ weiter."
+  ],
+  "loesungsweg": [
+   "Vom {start}. Stock {runter} Etagen nach unten: {start} − {runter} = {tief}.",
+   "Eine negative Zahl bedeutet ein Untergeschoss.",
+   "Von dort {rauf} Etagen nach oben: {tief} + {rauf} = {ende}.",
+   "Insgesamt hat der Lift {weg} Etagen zurückgelegt."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-flagge-anteile",
+  "lernzielId": "MS.4.02",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.02",
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "breite",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "laenge",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "p1",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     25,
+     30,
+     35,
+     40,
+     45,
+     50
+    ]
+   },
+   {
+    "name": "p2",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     15,
+     20,
+     25,
+     30
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "breite*laenge"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "100-2*p1-p2"
+   },
+   {
+    "name": "a1",
+    "typ": "formel",
+    "ausdruck": "flaeche*p1/100"
+   },
+   {
+    "name": "arest",
+    "typ": "formel",
+    "ausdruck": "flaeche*rest/100"
+   },
+   {
+    "name": "land",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Vereinsbanner"
+     ],
+     [
+      "eine Zielflagge"
+     ],
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Bühnenprospekt"
+     ],
+     [
+      "ein Segeltuch"
+     ],
+     [
+      "eine Werbeplane"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "rest>=5",
+   "rest<=45",
+   "flaeche>=4",
+   "flaeche<=40",
+   "p1!=p2",
+   "p1!=rest",
+   "p2!=rest",
+   "istGanz(a1*100)==1",
+   "istGanz(arest*100)==1",
+   "a1!=arest",
+   "laenge>breite"
+  ],
+  "stamm": "{land} ist {laenge} m lang und {breite} m breit. Es besteht zu je {p1} % aus zwei Farben und zu {p2} % aus einer dritten. Der Rest ist gelb.",
+  "felder": [
+   {
+    "name": "gesamt",
+    "label": "Gesamtfläche",
+    "einheit": "m²",
+    "ausdruck": "breite*laenge",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*breite+2*laenge",
+      "feedback": "Das ist der Umfang. Die Fläche eines Rechtecks ist Länge mal Breite, nicht die Summe der Seiten."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "breite+laenge",
+      "feedback": "Länge und Breite werden multipliziert, nicht addiert. Sonst käme bei einem Quadrat von 2 m Seite die Fläche 4 m² nicht heraus."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "breite*laenge/2",
+      "feedback": "Halbiert wird beim Dreieck. Ein Rechteck ist doppelt so gross wie das halbe."
+     }
+    ]
+   },
+   {
+    "name": "gelb",
+    "label": "gelber Anteil in Prozent",
+    "einheit": "%",
+    "ausdruck": "100-2*p1-p2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nur_einmal_abgezogen",
+      "ausdruck": "100-p1-p2",
+      "feedback": "Die {p1} % kommen ZWEIMAL vor, für zwei verschiedene Farben. Beide müssen abgezogen werden."
+     },
+     {
+      "diagnoseId": "nur_erste_farbe",
+      "ausdruck": "100-2*p1",
+      "feedback": "Die dritte Farbe mit {p2} % fehlt noch. Alle genannten Anteile zusammen ergeben mit dem gelben 100 %."
+     },
+     {
+      "diagnoseId": "anteile_addiert",
+      "ausdruck": "2*p1+p2",
+      "feedback": "Das ist der Anteil der drei genannten Farben. Gefragt ist, was davon übrig bleibt, also 100 % minus dieser Wert."
+     }
+    ]
+   },
+   {
+    "name": "gelbflaeche",
+    "label": "gelbe Fläche",
+    "einheit": "m²",
+    "ausdruck": "flaeche*rest/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "prozent_statt_flaeche",
+      "ausdruck": "rest",
+      "feedback": "{rest} ist der Anteil in Prozent. Gefragt ist die Fläche in Quadratmetern, also dieser Anteil von {flaeche} m²."
+     },
+     {
+      "diagnoseId": "falscher_anteil",
+      "ausdruck": "flaeche*p1/100",
+      "feedback": "Das ist die Fläche einer der beiden grossen Farben. Gefragt ist der gelbe Rest."
+     },
+     {
+      "diagnoseId": "nicht_durch_hundert",
+      "ausdruck": "flaeche*rest",
+      "feedback": "Ein Prozentsatz muss durch 100 geteilt werden, bevor man ihn mit der Fläche multipliziert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst die Gesamtfläche aus. Sie ist der Grundwert, also die 100 %.",
+   "Alle Farbanteile zusammen ergeben 100 %. Der gelbe Anteil ist, was übrig bleibt.",
+   "Für die gelbe Fläche: den gelben Prozentsatz durch 100 teilen und mit der Gesamtfläche multiplizieren."
+  ],
+  "loesungsweg": [
+   "Gesamtfläche: {laenge} · {breite} = {flaeche} m².",
+   "Zwei Farben zu je {p1} % und eine zu {p2} % ergeben zusammen 2·{p1} + {p2} Prozent.",
+   "Gelb bleibt: 100 − 2·{p1} − {p2} = {rest} %.",
+   "Gelbe Fläche: {rest} % von {flaeche} m² sind {arest} m²."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-grundwert-rueckwaerts",
+  "lernzielId": "MS.4.03",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     8,
+     10,
+     12,
+     15,
+     20,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 900,
+    "schritt": 5
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "grund*(100-p)/100"
+   },
+   {
+    "name": "rabatt",
+    "typ": "formel",
+    "ausdruck": "grund*p/100"
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Paar Wanderschuhe"
+     ],
+     [
+      "ein Occasionsvelo"
+     ],
+     [
+      "ein Schlafsack"
+     ],
+     [
+      "ein Skiservice"
+     ],
+     [
+      "ein Musikinstrument"
+     ],
+     [
+      "ein Zeltdach"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(neu)==1",
+   "istGanz(rabatt)==1",
+   "grund!=neu",
+   "grund!=p",
+   "neu!=p",
+   "grund!=rabatt",
+   "neu!=rabatt",
+   "rabatt>=5",
+   "grund!=100",
+   "neu!=100",
+   "rabatt!=100"
+  ],
+  "stamm": "Im Ausverkauf kostet {ware} noch {neu:franken}. Das sind {p} % weniger als vorher. Wie viel kostete es vorher?",
+  "loesung": "grund",
+  "gegenprobe": "neu+neu*p/(100-p)",
+  "fehler": [
+   {
+    "diagnoseId": "prozent_vom_neuen_preis",
+    "ausdruck": "neu*(100+p)/100",
+    "feedback": "Du hast {p} % vom neuen Preis dazugerechnet. Der Rabatt bezieht sich aber auf den ALTEN Preis. Er ist der Grundwert und entspricht 100 %."
+   },
+   {
+    "diagnoseId": "rabatt_als_betrag",
+    "ausdruck": "neu+p",
+    "feedback": "{p} ist ein Prozentsatz, kein Frankenbetrag. Er muss erst in Franken umgerechnet werden."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "neu*(100-p)/100",
+    "feedback": "Du hast noch einmal Rabatt abgezogen. Gesucht ist der Preis VOR dem Rabatt. Er muss grösser sein."
+   },
+   {
+    "diagnoseId": "anteil_falsch_gesetzt",
+    "ausdruck": "neu*100/p",
+    "feedback": "Der neue Preis entspricht nicht {p} % des alten, sondern dem, was nach dem Rabatt übrig bleibt: 100 − {p} Prozent. Durch diesen Anteil wird geteilt, nicht durch {p}."
+   }
+  ],
+  "hinweise": [
+   "Welcher Preis entspricht den 100 %? Das ist immer der Wert VOR der Veränderung.",
+   "Wenn {p} % abgezogen wurden, entspricht der neue Preis 100 − {p} Prozent des alten.",
+   "Rechne über den Wert für ein Prozent: neuer Preis geteilt durch (100 − {p})."
+  ],
+  "loesungsweg": [
+   "Der alte Preis ist der Grundwert und entspricht 100 %.",
+   "Nach {p} % Rabatt bleiben 100 − {p} Prozent übrig. Das sind die {neu} Franken.",
+   "Ein Prozent ist also {neu} geteilt durch (100 − {p}).",
+   "Hundert Prozent ergeben {grund} Franken. Der Rabatt betrug {rabatt} Franken."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-rezept-hochrechnen",
+  "lernzielId": "MS.4.04",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "basis",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "menge",
+    "typ": "auswahl",
+    "werte": [
+     300,
+     400,
+     500,
+     600,
+     750,
+     900
+    ]
+   },
+   {
+    "name": "ziel",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "dl",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "proGlas",
+    "typ": "formel",
+    "ausdruck": "menge/basis"
+   },
+   {
+    "name": "gebraucht",
+    "typ": "formel",
+    "ausdruck": "menge*ziel/basis"
+   },
+   {
+    "name": "dlZiel",
+    "typ": "formel",
+    "ausdruck": "dl*ziel/basis"
+   },
+   {
+    "name": "flaschen",
+    "typ": "formel",
+    "ausdruck": "ceil(dl*ziel/(basis*15))"
+   },
+   {
+    "name": "getraenk",
+    "typ": "text",
+    "texte": [
+     [
+      "Punsch"
+     ],
+     [
+      "Eistee"
+     ],
+     [
+      "Fruchtbowle"
+     ],
+     [
+      "Sirupmischung"
+     ],
+     [
+      "Malzgetränk"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "ziel!=basis",
+   "istGanz(gebraucht)==1",
+   "istGanz(dlZiel*10)==1",
+   "gebraucht<=9000",
+   "gebraucht!=menge",
+   "gebraucht!=ziel",
+   "flaschen>=2",
+   "flaschen<=9",
+   "proGlas!=gebraucht"
+  ],
+  "stamm": "Ein Rezept für {basis} Gläser {getraenk} verlangt {menge} g Eis und {dl} dl Sirup. Nun sollen es {ziel} Gläser werden.",
+  "felder": [
+   {
+    "name": "eis",
+    "label": "benötigtes Eis",
+    "einheit": "g",
+    "ausdruck": "menge*ziel/basis",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "differenz_statt_faktor",
+      "ausdruck": "menge+ziel-basis",
+      "feedback": "Du hast die Differenz der Gläser dazugezählt. Beim Dreisatz wird mit dem VERHÄLTNIS gerechnet: {ziel} geteilt durch {basis}."
+     },
+     {
+      "diagnoseId": "nur_pro_glas",
+      "ausdruck": "menge/basis",
+      "feedback": "Das ist die Menge für ein einziges Glas. Multipliziere sie noch mit {ziel}."
+     },
+     {
+      "diagnoseId": "kehrwert",
+      "ausdruck": "menge*basis/ziel",
+      "feedback": "Der Faktor steht auf dem Kopf. Für mehr Gläser braucht es mehr Eis, also mal {ziel} geteilt durch {basis}."
+     }
+    ]
+   },
+   {
+    "name": "flaschen",
+    "label": "nötige Flaschen Sirup zu 1,5 l",
+    "einheit": "Flaschen",
+    "ausdruck": "ceil(dl*ziel/(basis*15))",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "abgerundet",
+      "ausdruck": "floor(dl*ziel/(basis*15))",
+      "feedback": "Eine angebrochene Flasche muss trotzdem gekauft werden. Hier wird immer aufgerundet, nie ab."
+     },
+     {
+      "diagnoseId": "liter_und_deziliter_verwechselt",
+      "ausdruck": "ceil(dl*ziel/(basis*1.5))",
+      "feedback": "1,5 Liter sind 15 Deziliter. Rechne beide Mengen in derselben Einheit."
+     },
+     {
+      "diagnoseId": "ohne_hochrechnen",
+      "ausdruck": "ceil(dl/15)",
+      "feedback": "Das wäre der Bedarf für {basis} Gläser. Gefragt sind {ziel} Gläser."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst aus, was ein einziges Glas braucht. Danach multiplizierst du mit der neuen Anzahl.",
+   "Beim Sirup zuerst beide Mengen in dieselbe Einheit bringen: 1,5 Liter sind 15 Deziliter.",
+   "Bei Flaschen wird immer aufgerundet. Eine halbe Flasche kann man nicht kaufen."
+  ],
+  "loesungsweg": [
+   "Für ein Glas: {menge} : {basis} = {proGlas} g Eis.",
+   "Für {ziel} Gläser: {proGlas} · {ziel} = {gebraucht} g.",
+   "Sirup für {ziel} Gläser: {dlZiel} dl.",
+   "Eine Flasche fasst 15 dl; aufgerundet braucht es {flaschen} Flaschen."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-umgekehrt-proportional",
+  "lernzielId": "MS.4.05",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.05",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Minuten",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "werk",
+    "typ": "auswahl",
+    "werte": [
+     120,
+     180,
+     240,
+     300,
+     360,
+     420,
+     480,
+     540,
+     600,
+     720
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "t1",
+    "typ": "formel",
+    "ausdruck": "werk/n1"
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "werk/n2"
+   },
+   {
+    "name": "beruf",
+    "typ": "text",
+    "texte": [
+     [
+      "Barkeeperinnen und Barkeeper",
+      "Gläser"
+     ],
+     [
+      "Malerinnen und Maler",
+      "Wände"
+     ],
+     [
+      "Gärtnerinnen und Gärtner",
+      "Beete"
+     ],
+     [
+      "Helferinnen und Helfer",
+      "Kisten"
+     ],
+     [
+      "Pflegende",
+      "Zimmer"
+     ],
+     [
+      "Küchenhilfen",
+      "Portionen"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "n2>n1",
+   "istGanz(t1)==1",
+   "istGanz(t2)==1",
+   "t1!=t2",
+   "t2>=8",
+   "t2!=n1",
+   "t2!=n2",
+   "t2!=werk",
+   "t1<=300"
+  ],
+  "stamm": "{n1} {beruf} brauchen für alle {beruf.1} zusammen {t1} Minuten. Wie lange brauchen {n2} {beruf} für dieselbe Arbeit, wenn alle gleich schnell arbeiten?",
+  "loesung": "werk/n2",
+  "gegenprobe": "n1*t1/n2",
+  "fehler": [
+   {
+    "diagnoseId": "proportional_gerechnet",
+    "ausdruck": "t1*n2/n1",
+    "feedback": "Du hast gerechnet, als würde die Zeit MIT der Zahl der Leute wachsen. Mehr Leute brauchen aber weniger Zeit. Das Produkt aus Anzahl und Dauer bleibt gleich, nicht der Quotient."
+   },
+   {
+    "diagnoseId": "differenz_abgezogen",
+    "ausdruck": "t1-(n2-n1)",
+    "feedback": "Du hast so viele Minuten abgezogen, wie Leute dazugekommen sind. Der Zusammenhang ist aber multiplikativ, nicht additiv."
+   },
+   {
+    "diagnoseId": "nur_durch_anzahl",
+    "ausdruck": "t1/n2",
+    "feedback": "Du hast die Zeit der {n1} Leute noch einmal durch {n2} geteilt. Rechne zuerst auf eine einzelne Person hoch: {n1} · {t1} Minuten."
+   },
+   {
+    "diagnoseId": "gesamtarbeit_abgegeben",
+    "ausdruck": "werk",
+    "feedback": "{werk} Minuten bräuchte eine einzige Person allein. Gefragt ist die Zeit für {n2} Leute."
+   }
+  ],
+  "hinweise": [
+   "Frage zuerst: Wie lange bräuchte eine einzige Person? Das ist der feste Wert dahinter.",
+   "Bei umgekehrter Proportionalität bleibt das Produkt aus Anzahl und Dauer gleich.",
+   "Mehr Leute bedeuten weniger Zeit. Das Ergebnis muss kleiner sein als {t1}."
+  ],
+  "loesungsweg": [
+   "{n1} Personen brauchen {t1} Minuten; eine allein bräuchte {n1} · {t1} = {werk} Minuten.",
+   "Diese {werk} Minuten sind die gesamte Arbeit und bleiben gleich.",
+   "{n2} Personen teilen sie unter sich auf: {werk} : {n2}.",
+   "Das ergibt {t2} Minuten. Weniger als vorher, wie es sein muss."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-zeit-rechnen",
+  "lernzielId": "MS.4.06",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "4.06",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "proStueck",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "stueck",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "leute",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "proStueck*stueck"
+   },
+   {
+    "name": "jede",
+    "typ": "formel",
+    "ausdruck": "proStueck*stueck/leute"
+   },
+   {
+    "name": "minuten",
+    "typ": "formel",
+    "ausdruck": "floor(proStueck*stueck/leute/60)"
+   },
+   {
+    "name": "sekunden",
+    "typ": "formel",
+    "ausdruck": "proStueck*stueck/leute-60*floor(proStueck*stueck/leute/60)"
+   },
+   {
+    "name": "was",
+    "typ": "text",
+    "texte": [
+     [
+      "Gläser",
+      "gefüllt"
+     ],
+     [
+      "Kuverts",
+      "beschriftet"
+     ],
+     [
+      "Portionen",
+      "angerichtet"
+     ],
+     [
+      "Setzlinge",
+      "eingetopft"
+     ],
+     [
+      "Pakete",
+      "etikettiert"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(jede)==1",
+   "minuten>=2",
+   "minuten<=45",
+   "sekunden!=0",
+   "jede!=gesamt",
+   "minuten!=sekunden",
+   "minuten!=leute",
+   "sekunden!=leute"
+  ],
+  "stamm": "Eine Person braucht für ein Stück {proStueck} Sekunden. Es sind {stueck} {was} zu {was.1}, und {leute} Personen arbeiten gleichzeitig und gleich schnell.",
+  "felder": [
+   {
+    "name": "min",
+    "label": "Dauer: volle Minuten",
+    "einheit": "min",
+    "ausdruck": "floor(proStueck*stueck/leute/60)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_teilen",
+      "ausdruck": "floor(proStueck*stueck/60)",
+      "feedback": "Das wäre die Zeit für eine einzige Person. Die Arbeit wird auf {leute} Personen verteilt."
+     },
+     {
+      "diagnoseId": "dezimal_als_minuten",
+      "ausdruck": "round(proStueck*stueck/leute/60)",
+      "feedback": "Gefragt sind die VOLLEN Minuten. Der Rest gehört in das zweite Feld, als Sekunden."
+     },
+     {
+      "diagnoseId": "sekunden_als_minuten",
+      "ausdruck": "proStueck*stueck/leute",
+      "feedback": "Das ist die Zeit in Sekunden. Eine Minute hat 60 davon."
+     }
+    ]
+   },
+   {
+    "name": "sek",
+    "label": "Dauer: restliche Sekunden",
+    "einheit": "s",
+    "ausdruck": "proStueck*stueck/leute-60*floor(proStueck*stueck/leute/60)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "hundert_statt_sechzig",
+      "ausdruck": "proStueck*stueck/leute-100*floor(proStueck*stueck/leute/60)",
+      "feedback": "Eine Minute hat 60 Sekunden, nicht 100. Beim Rest wird darum 60 abgezogen, so oft es geht."
+     },
+     {
+      "diagnoseId": "gesamte_sekunden",
+      "ausdruck": "proStueck*stueck/leute",
+      "feedback": "Das ist die ganze Dauer in Sekunden. Gefragt ist nur der Rest nach den vollen Minuten."
+     },
+     {
+      "diagnoseId": "minuten_wiederholt",
+      "ausdruck": "floor(proStueck*stueck/leute/60)",
+      "feedback": "Das ist die Zahl der Minuten. In dieses Feld gehören die Sekunden, die darüber hinaus bleiben."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst die gesamte Arbeitszeit in Sekunden aus, als arbeitete eine Person allein.",
+   "Teile sie danach durch die Zahl der Personen.",
+   "Für die Umrechnung: Wie oft passen 60 Sekunden hinein? Der Rest sind die Sekunden."
+  ],
+  "loesungsweg": [
+   "Eine Person allein bräuchte {stueck} · {proStueck} = {gesamt} Sekunden.",
+   "Auf {leute} Personen verteilt: {jede} Sekunden.",
+   "{jede} Sekunden sind {minuten} Minuten und {sekunden} Sekunden.",
+   "Eine Minute hat 60 Sekunden, nicht 100."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-innenwinkelsumme",
+  "lernzielId": "MS.5.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.01",
+   "5.02",
+   "6.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 7,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "summe",
+    "typ": "formel",
+    "ausdruck": "(n-2)*180"
+   },
+   {
+    "name": "summe2",
+    "typ": "formel",
+    "ausdruck": "(m-2)*180"
+   }
+  ],
+  "bedingungen": [
+   "n!=m",
+   "summe!=summe2",
+   "n!=summe2",
+   "m!=summe",
+   "summe<=6900",
+   "summe2<=10500",
+   "n>=7",
+   "m>=6"
+  ],
+  "stamm": "Für die Innenwinkelsumme eines n-Ecks gilt die Formel (n − 2)·180°.",
+  "felder": [
+   {
+    "name": "vor",
+    "label": "Innenwinkelsumme eines {n}-Ecks",
+    "einheit": "°",
+    "ausdruck": "(n-2)*180",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_abzug",
+      "ausdruck": "n*180",
+      "feedback": "Die zwei werden vor dem Multiplizieren abgezogen: ({n} − 2)·180, nicht {n}·180. Punkt vor Strich gilt nicht gegen eine Klammer."
+     },
+     {
+      "diagnoseId": "zwei_am_schluss",
+      "ausdruck": "n*180-2",
+      "feedback": "Die 2 steht IN der Klammer und wird von {n} abgezogen, nicht am Schluss vom Ergebnis."
+     },
+     {
+      "diagnoseId": "dreieck_verwechselt",
+      "ausdruck": "(n-2)*90",
+      "feedback": "Die Formel nennt 180°, nicht 90°. Ein Dreieck hat 180° Innenwinkelsumme, und darauf baut die Formel auf."
+     }
+    ]
+   },
+   {
+    "name": "rueck",
+    "label": "Eckenzahl bei {summe2}° Innenwinkelsumme",
+    "einheit": "Ecken",
+    "ausdruck": "m",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "zwei_nicht_addiert",
+      "ausdruck": "summe2/180",
+      "feedback": "Du hast nur durch 180 geteilt. Das ergibt n − 2. Die beiden abgezogenen Ecken müssen wieder dazu."
+     },
+     {
+      "diagnoseId": "falsch_umgestellt",
+      "ausdruck": "summe2/180-2",
+      "feedback": "Beim Umstellen dreht sich das Vorzeichen: Aus n − 2 wird n = Ergebnis PLUS 2."
+     },
+     {
+      "diagnoseId": "multipliziert_statt_geteilt",
+      "ausdruck": "summe2*180",
+      "feedback": "In der Formel wird mit 180 multipliziert. Rückwärts muss darum geteilt werden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Für die erste Frage setzt du die Eckenzahl in die Formel ein. Die Klammer zuerst.",
+   "Für die zweite Frage stellst du die Formel um: Erst durch 180 teilen, dann die 2 wieder dazuzählen.",
+   "Prüfe zur Sicherheit am Dreieck: Für n = 3 muss 180° herauskommen."
+  ],
+  "loesungsweg": [
+   "Einsetzen: ({n} − 2)·180° = {summe}°.",
+   "Rückwärts: {summe2}° geteilt durch 180 ergibt {m} − 2.",
+   "Die 2 wieder dazuzählen ergibt {m} Ecken.",
+   "Probe: ({m} − 2)·180° ergibt {summe2}°."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-figurenfolge",
+  "lernzielId": "MS.5.03",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.03",
+   "5.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "schritt",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "pstart",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "pschritt",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "nr",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "f1",
+    "typ": "formel",
+    "ausdruck": "start+schritt"
+   },
+   {
+    "name": "f2",
+    "typ": "formel",
+    "ausdruck": "start+2*schritt"
+   },
+   {
+    "name": "striche",
+    "typ": "formel",
+    "ausdruck": "start+(nr-1)*schritt"
+   },
+   {
+    "name": "punkte",
+    "typ": "formel",
+    "ausdruck": "pstart+(nr-1)*pschritt"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "schritt!=pschritt",
+   "start!=pstart",
+   "striche!=punkte",
+   "striche<=400",
+   "punkte<=300",
+   "striche!=nr",
+   "punkte!=nr",
+   "nr!=schritt",
+   "nr!=pschritt"
+  ],
+  "stamm": "Eine Figurenfolge wächst gleichmässig. Figur 1 hat {start} Striche und {pstart} Punkte, Figur 2 hat {f1} Striche, Figur 3 hat {f2} Striche. Bei den Punkten kommen je Figur {pschritt} dazu.",
+  "felder": [
+   {
+    "name": "striche",
+    "label": "Striche in Figur {nr}",
+    "einheit": "Striche",
+    "ausdruck": "start+(nr-1)*schritt",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "schritt_mal_nummer",
+      "ausdruck": "start+nr*schritt",
+      "feedback": "Von Figur 1 bis Figur {nr} sind es {nr} − 1 Schritte, nicht {nr}. Figur 1 hat noch keinen Schritt hinter sich."
+     },
+     {
+      "diagnoseId": "start_vergessen",
+      "ausdruck": "(nr-1)*schritt",
+      "feedback": "Der Anfangswert fehlt. Zu den Schritten kommen die {start} Striche der ersten Figur dazu."
+     },
+     {
+      "diagnoseId": "nur_verdoppelt",
+      "ausdruck": "start*nr",
+      "feedback": "Die Folge wächst um einen festen Betrag, nicht um einen Faktor. Je Figur kommen {schritt} Striche dazu."
+     }
+    ]
+   },
+   {
+    "name": "punkte",
+    "label": "Punkte in Figur {nr}",
+    "einheit": "Punkte",
+    "ausdruck": "pstart+(nr-1)*pschritt",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "schritt_mal_nummer",
+      "ausdruck": "pstart+nr*pschritt",
+      "feedback": "Auch hier gilt: von Figur 1 bis Figur {nr} liegen {nr} − 1 Schritte."
+     },
+     {
+      "diagnoseId": "start_vergessen",
+      "ausdruck": "(nr-1)*pschritt",
+      "feedback": "Die {pstart} Punkte der ersten Figur gehören dazu."
+     },
+     {
+      "diagnoseId": "striche_schritt_genommen",
+      "ausdruck": "pstart+(nr-1)*schritt",
+      "feedback": "Das ist der Schritt der Striche. Bei den Punkten kommen {pschritt} je Figur dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst aus, wie viel von einer Figur zur nächsten dazukommt.",
+   "Von Figur 1 bis Figur {nr} sind es {nr} − 1 Schritte. Die erste Figur zählt nicht mit.",
+   "Der Term lautet also: Anfangswert plus ({nr} − 1) mal Schritt."
+  ],
+  "loesungsweg": [
+   "Striche: Von {start} auf {f1} sind es {schritt}. Das ist der Schritt.",
+   "Bis Figur {nr} sind es {nr} − 1 Schritte: {start} + ({nr} − 1)·{schritt} = {striche}.",
+   "Punkte: {pstart} + ({nr} − 1)·{pschritt} = {punkte}.",
+   "Achte auf die eins weniger. Figur 1 hat noch keinen Schritt hinter sich."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-bakterien-wachstum",
+  "lernzielId": "MS.5.05",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "Bakterien",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "auswahl",
+    "werte": [
+     50,
+     100,
+     150,
+     200,
+     250,
+     400,
+     500
+    ]
+   },
+   {
+    "name": "takt",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     30,
+     40,
+     60
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "minuten",
+    "typ": "formel",
+    "ausdruck": "n*takt"
+   },
+   {
+    "name": "stunden",
+    "typ": "formel",
+    "ausdruck": "n*takt/60"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "start*pow(2,n)"
+   },
+   {
+    "name": "art",
+    "typ": "text",
+    "texte": [
+     [
+      "Hefezellen"
+     ],
+     [
+      "Bakterien einer Nährlösung"
+     ],
+     [
+      "Algenzellen"
+     ],
+     [
+      "Sporen"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(stunden*2)==1",
+   "ende<=260000",
+   "ende!=start",
+   "ende!=minuten",
+   "ende!=n",
+   "minuten!=start",
+   "n!=start"
+  ],
+  "stamm": "{art} verdoppeln sich alle {takt} Minuten. Zu Beginn sind es {start}. Wie viele sind es nach {minuten} Minuten?",
+  "loesung": "start*pow(2,n)",
+  "gegenprobe": "start*pow(2,n-1)*2",
+  "fehler": [
+   {
+    "diagnoseId": "linear_gerechnet",
+    "ausdruck": "start*2*n",
+    "feedback": "Du hast den Startwert mit {n} verdoppelt. Beim Verdoppeln wächst aber jede Generation aus der vorherigen: nach {n} Takten ist es 2 hoch {n}, nicht 2 mal {n}."
+   },
+   {
+    "diagnoseId": "takte_verzaehlt",
+    "ausdruck": "start*pow(2,n-1)",
+    "feedback": "Da fehlt ein Takt. {minuten} Minuten geteilt durch {takt} Minuten ergibt {n} Verdopplungen."
+   },
+   {
+    "diagnoseId": "minuten_als_takte",
+    "ausdruck": "start*pow(2,minuten/60)",
+    "feedback": "Gezählt werden die TAKTE, nicht die Stunden. Ein Takt dauert {takt} Minuten."
+   },
+   {
+    "diagnoseId": "nur_verdoppelt",
+    "ausdruck": "start*2",
+    "feedback": "Das ist der Stand nach einem einzigen Takt. Es sind {n} Takte."
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst aus, wie viele Verdopplungen in die angegebene Zeit passen.",
+   "Bei jeder Verdopplung wird die vorhandene Zahl mal zwei genommen, nicht ein fester Betrag addiert.",
+   "Nach {n} Verdopplungen steht der Faktor 2 hoch {n} vor dem Startwert."
+  ],
+  "loesungsweg": [
+   "{minuten} Minuten geteilt durch {takt} Minuten ergibt {n} Verdopplungen.",
+   "Jede Verdopplung multipliziert mit 2, nach {n} Takten also mit 2{n:hoch}.",
+   "{start} · 2{n:hoch} = {ende}.",
+   "Zur Kontrolle: Der Wert nach {n} Takten ist genau doppelt so gross wie nach {n} − 1 Takten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-wertetabelle-gerade",
+  "lernzielId": "MS.5.07",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "5.07",
+   "5.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "y4",
+    "typ": "formel",
+    "ausdruck": "4*m+q"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "m!=q"
+  ],
+  "stamm": "{name} zeichnet den Graphen der Funktion f mit f(x) = {m}x + {q}. Trage zuerst alle Wertepaare (x | f(x)) für x von −4 bis 4 in die Tabelle ein.",
+  "fehler": [
+   {
+    "diagnoseId": "steigung_vergessen",
+    "kurz": "nur die Konstante",
+    "feedback": "Die Zahl {q} kommt zu jedem Wert dazu, aber vorher muss x noch mit {m} multipliziert werden."
+   },
+   {
+    "diagnoseId": "vorzeichen_bei_negativem_x",
+    "kurz": "Minus mal Plus",
+    "feedback": "Bei negativen x wird {m}·x negativ. Aus f(−4) wird darum {q} minus {m}·4, nicht plus."
+   },
+   {
+    "diagnoseId": "steigung_und_abschnitt_vertauscht",
+    "kurz": "m und q vertauscht",
+    "feedback": "Die Zahl VOR dem x ist die Steigung, die Zahl dahinter der Achsenabschnitt. Bei x = 0 muss {q} herauskommen."
+   }
+  ],
+  "hinweise": [
+   "Setze jeden x-Wert einzeln ein: erst mal {m} rechnen, dann {q} dazuzählen.",
+   "Bei x = 0 ist der Funktionswert {q}. Das ist der y-Achsenabschnitt.",
+   "Von einem Wertepaar zum nächsten steigt f(x) um {m}."
+  ],
+  "loesungsweg": [
+   "f(x) = {m}x + {q}: erst multiplizieren, dann addieren.",
+   "Beispiel x = −4: {m}·(−4) ist negativ, dazu kommt {q}.",
+   "Bei x = 0 ist der Wert {q}, bei x = 4 ist er {y4}.",
+   "Von Zeile zu Zeile wächst f(x) jeweils um {m}."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "x",
+     "von": "-4",
+     "bis": "4"
+    },
+    {
+     "name": "y",
+     "kopf": "f(x)",
+     "von": "q-4*m",
+     "bis": "q+4*m"
+    }
+   ],
+   "bedingung": "y == m*x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-winkel-berechnen",
+  "lernzielId": "MS.6.01",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 24,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 31,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "neben",
+    "typ": "formel",
+    "ausdruck": "180-a"
+   },
+   {
+    "name": "dritter",
+    "typ": "formel",
+    "ausdruck": "180-a-b"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "a+b"
+   }
+  ],
+  "bedingungen": [
+   "a+b<=160",
+   "dritter>=15",
+   "a!=b",
+   "neben!=dritter",
+   "neben!=aussen",
+   "dritter!=aussen",
+   "a!=dritter",
+   "b!=dritter",
+   "a!=neben",
+   "b!=neben"
+  ],
+  "stamm": "In einem Dreieck sind zwei Innenwinkel bekannt: α = {a}° und β = {b}°. Der Winkel α liegt auf einer Geraden neben einem weiteren Winkel.",
+  "felder": [
+   {
+    "name": "neben",
+    "label": "Nebenwinkel von α",
+    "einheit": "°",
+    "ausdruck": "180-a",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "scheitelwinkel_genommen",
+      "ausdruck": "a",
+      "feedback": "Das ist der Scheitelwinkel. Er ist gleich gross wie α. Der NEBENwinkel liegt auf derselben Geraden und ergänzt zu 180°."
+     },
+     {
+      "diagnoseId": "auf_neunzig_ergaenzt",
+      "ausdruck": "90-a",
+      "feedback": "Auf 90° ergänzt man beim Komplementwinkel. Zwei Winkel auf einer Geraden ergeben zusammen 180°."
+     },
+     {
+      "diagnoseId": "dreieckssumme_genommen",
+      "ausdruck": "180-a-b",
+      "feedback": "Das ist der dritte Winkel im Dreieck. Der Nebenwinkel hat mit β nichts zu tun."
+     }
+    ]
+   },
+   {
+    "name": "dritter",
+    "label": "dritter Innenwinkel γ",
+    "einheit": "°",
+    "ausdruck": "180-a-b",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nur_einen_abgezogen",
+      "ausdruck": "180-a",
+      "feedback": "Beide bekannten Winkel müssen abgezogen werden. Die Summe aller drei ist 180°."
+     },
+     {
+      "diagnoseId": "auf_360_ergaenzt",
+      "ausdruck": "360-a-b",
+      "feedback": "360° ist die Winkelsumme im Viereck. Im Dreieck sind es 180°."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Das ist die Summe der beiden bekannten Winkel. Der dritte ist das, was bis 180° fehlt."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel bei γ",
+    "einheit": "°",
+    "ausdruck": "a+b",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "innenwinkel_genommen",
+      "ausdruck": "180-a-b",
+      "feedback": "Das ist der Innenwinkel γ. Der Aussenwinkel ergänzt ihn zu 180°, und ist damit so gross wie die beiden anderen zusammen."
+     },
+     {
+      "diagnoseId": "nur_einen_genommen",
+      "ausdruck": "180-a",
+      "feedback": "Der Aussenwinkel bei γ ist die Summe der beiden NICHT anliegenden Innenwinkel, also α + β."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "(a+b)/2",
+      "feedback": "Halbiert wird hier nichts. Der Aussenwinkel ist genau so gross wie α und β zusammen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zwei Winkel auf einer Geraden ergeben zusammen 180°. Das ist der Nebenwinkel.",
+   "Die drei Innenwinkel eines Dreiecks ergeben zusammen 180°.",
+   "Ein Aussenwinkel ist so gross wie die beiden nicht anliegenden Innenwinkel zusammen. Prüfe es nach: γ + Aussenwinkel ergibt 180°."
+  ],
+  "loesungsweg": [
+   "Nebenwinkel von α: 180° − {a}° = {neben}°.",
+   "Dritter Innenwinkel: 180° − {a}° − {b}° = {dritter}°.",
+   "Aussenwinkel bei γ: {a}° + {b}° = {aussen}°.",
+   "Probe: {dritter}° + {aussen}° ergibt 180°."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-pythagoras-sg",
+  "lernzielId": "MS.6.03",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "tripel",
+    "typ": "tabellenzeile",
+    "spalten": [
+     "ka",
+     "kb",
+     "hyp"
+    ],
+    "zeilen": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      4,
+      3,
+      5
+     ],
+     [
+      5,
+      12,
+      13
+     ],
+     [
+      12,
+      5,
+      13
+     ],
+     [
+      8,
+      15,
+      17
+     ],
+     [
+      15,
+      8,
+      17
+     ],
+     [
+      7,
+      24,
+      25
+     ],
+     [
+      24,
+      7,
+      25
+     ],
+     [
+      20,
+      21,
+      29
+     ],
+     [
+      21,
+      20,
+      29
+     ],
+     [
+      9,
+      40,
+      41
+     ],
+     [
+      40,
+      9,
+      41
+     ],
+     [
+      12,
+      35,
+      37
+     ],
+     [
+      35,
+      12,
+      37
+     ],
+     [
+      28,
+      45,
+      53
+     ],
+     [
+      11,
+      60,
+      61
+     ],
+     [
+      33,
+      56,
+      65
+     ],
+     [
+      16,
+      63,
+      65
+     ],
+     [
+      48,
+      55,
+      73
+     ],
+     [
+      13,
+      84,
+      85
+     ],
+     [
+      36,
+      77,
+      85
+     ],
+     [
+      39,
+      80,
+      89
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "ka*f"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "kb*f"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "hyp*f"
+   },
+   {
+    "name": "halb",
+    "typ": "formel",
+    "ausdruck": "c/2"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nea"
+     ],
+     [
+      "Levin"
+     ],
+     [
+      "Mira"
+     ],
+     [
+      "Jann"
+     ],
+     [
+      "Alina"
+     ],
+     [
+      "Silvan"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Lea"
+     ],
+     [
+      "Andrin"
+     ],
+     [
+      "Sina"
+     ],
+     [
+      "Joel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "c<=280",
+   "b!=a",
+   "b!=c",
+   "b!=f",
+   "a!=c",
+   "b!=halb"
+  ],
+  "stamm": "{name} berechnet die fehlende Seite eines rechtwinkligen Dreiecks. Die Hypotenuse misst {c} cm, eine Kathete {a} cm. Wie lang ist die andere Kathete?",
+  "loesung": "sqrt(c*c-a*a)",
+  "gegenprobe": "sqrt((c-a)*(c+a))",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_statt_wurzel",
+    "ausdruck": "c-a",
+    "feedback": "Du hast die beiden Seiten voneinander abgezogen. Im Satz des Pythagoras werden die QUADRATE verrechnet, und am Schluss folgt die Wurzel."
+   },
+   {
+    "diagnoseId": "addiert_statt_subtrahiert",
+    "ausdruck": "sqrt(c*c+a*a)",
+    "feedback": "Du hast die Quadrate addiert. Das gilt nur, wenn beide gegebenen Seiten Katheten sind. Hier ist {c} cm die Hypotenuse. Die längste Seite."
+   },
+   {
+    "diagnoseId": "wurzel_vergessen",
+    "ausdruck": "c*c-a*a",
+    "feedback": "Das ist das Quadrat der gesuchten Seite. Es fehlt der letzte Schritt: die Wurzel ziehen."
+   },
+   {
+    "diagnoseId": "hypotenuse_halbiert",
+    "ausdruck": "c/2",
+    "feedback": "Die halbe Hypotenuse hat mit der Kathete nichts zu tun. Sie wäre nur in einem gleichseitigen Dreieck von Bedeutung, und auch dort anders."
+   }
+  ],
+  "hinweise": [
+   "Welche der genannten Seiten ist die längste? Ihr Quadrat steht in der Formel allein auf einer Seite.",
+   "Aus a² + b² = c² wird b² = c² − a².",
+   "Ein zweiter Weg: c² − a² lässt sich als (c − a)·(c + a) schreiben, damit rechnet es sich oft leichter."
+  ],
+  "loesungsweg": [
+   "Die Hypotenuse ist {c} cm, eine Kathete {a} cm.",
+   "Nach Pythagoras: b² = {c}² − {a}².",
+   "Über die dritte binomische Formel: ({c} − {a})·({c} + {a}) ergibt dasselbe.",
+   "Die Wurzel daraus ist {b} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-flaechen-berechnen",
+  "lernzielId": "MS.6.04",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 24,
+    "schritt": 2
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "dreieck",
+    "typ": "formel",
+    "ausdruck": "g*h/2"
+   },
+   {
+    "name": "rechteck",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "trapez",
+    "typ": "formel",
+    "ausdruck": "(g+a)*h/2"
+   }
+  ],
+  "bedingungen": [
+   "dreieck!=rechteck",
+   "rechteck!=trapez",
+   "dreieck!=trapez",
+   "g!=a",
+   "trapez<=800",
+   "dreieck!=g",
+   "dreieck!=h",
+   "rechteck!=a",
+   "rechteck!=b",
+   "trapez!=h"
+  ],
+  "stamm": "Drei Figuren mit denselben Massen: ein Dreieck mit der Grundseite {g} cm und der Höhe {h} cm, ein Rechteck von {a} cm mal {b} cm, und ein Trapez mit den Parallelseiten {g} cm und {a} cm und der Höhe {h} cm.",
+  "felder": [
+   {
+    "name": "dreieck",
+    "label": "Fläche des Dreiecks",
+    "einheit": "cm²",
+    "ausdruck": "g*h/2",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "g*h",
+      "feedback": "Das ist die Fläche eines Rechtecks mit denselben Massen. Das Dreieck ist genau halb so gross."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "g+h",
+      "feedback": "Grundseite und Höhe werden multipliziert, nicht addiert. Eine Fläche entsteht aus zwei Längen."
+     },
+     {
+      "diagnoseId": "falsche_hoehe",
+      "ausdruck": "g*b/2",
+      "feedback": "Zur Grundseite {g} gehört die Höhe {h}. Die Zahl {b} gehört zum Rechteck."
+     }
+    ]
+   },
+   {
+    "name": "rechteck",
+    "label": "Fläche des Rechtecks",
+    "einheit": "cm²",
+    "ausdruck": "a*b",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*a+2*b",
+      "feedback": "Das ist der Umfang. Die Fläche ist Länge mal Breite."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*b/2",
+      "feedback": "Halbiert wird beim Dreieck. Ein Rechteck ist doppelt so gross."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Zwei Längen ergeben eine Fläche, wenn man sie multipliziert."
+     }
+    ]
+   },
+   {
+    "name": "trapez",
+    "label": "Fläche des Trapezes",
+    "einheit": "cm²",
+    "ausdruck": "(g+a)*h/2",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "(g+a)*h",
+      "feedback": "Die Summe der Parallelseiten muss noch halbiert werden. Sonst rechnest du mit der doppelten mittleren Breite."
+     },
+     {
+      "diagnoseId": "nur_eine_parallelseite",
+      "ausdruck": "g*h",
+      "feedback": "Beim Trapez zählen BEIDE Parallelseiten. Ihre Summe wird halbiert und mit der Höhe multipliziert."
+     },
+     {
+      "diagnoseId": "parallelseiten_multipliziert",
+      "ausdruck": "g*a*h/2",
+      "feedback": "Die Parallelseiten werden addiert, nicht multipliziert. Die Formel lautet (a + c) : 2 mal Höhe."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Dreieck: Grundseite mal zugehörige Höhe, geteilt durch zwei.",
+   "Rechteck: Länge mal Breite, ohne Teilen.",
+   "Trapez: die beiden Parallelseiten addieren, halbieren, mit der Höhe multiplizieren."
+  ],
+  "loesungsweg": [
+   "Dreieck: {g} · {h} : 2 = {dreieck} cm².",
+   "Rechteck: {a} · {b} = {rechteck} cm².",
+   "Trapez: ({g} + {a}) · {h} : 2 = {trapez} cm².",
+   "Merke: Das Trapez ist ein Rechteck mit der mittleren Breite. Darum das Halbieren."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-kreis-ring-sektor",
+  "lernzielId": "MS.6.05",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.05",
+   "6.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "R",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 10,
+    "schritt": 1
+   },
+   {
+    "name": "w",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     36,
+     45,
+     60,
+     72,
+     90,
+     120,
+     144,
+     180,
+     240
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "R-b"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*R"
+   },
+   {
+    "name": "kreis",
+    "typ": "formel",
+    "ausdruck": "R*R"
+   },
+   {
+    "name": "ring",
+    "typ": "formel",
+    "ausdruck": "R*R-(R-b)*(R-b)"
+   },
+   {
+    "name": "sektor",
+    "typ": "formel",
+    "ausdruck": "R*R*w/360"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Kreisel"
+     ],
+     [
+      "Brunnenrand"
+     ],
+     [
+      "Kreisverkehr"
+     ],
+     [
+      "Zirkusmanege"
+     ],
+     [
+      "Rundbeet"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "r>=3",
+   "istGanz(sektor)==1",
+   "sektor>=4",
+   "ring!=kreis",
+   "ring!=umfang",
+   "sektor!=ring",
+   "sektor!=umfang",
+   "kreis<=900",
+   "kreis!=R",
+   "ring!=R",
+   "sektor!=R"
+  ],
+  "stamm": "Ein runder {ding} hat den Radius {R} m. Aussen läuft ein Ring von {b} m Breite. Gib alle Antworten als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "umfang",
+    "label": "Umfang des ganzen Kreises (Vielfaches von π)",
+    "einheit": "m",
+    "ausdruck": "2*R",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "flaeche_statt_umfang",
+      "ausdruck": "R*R",
+      "feedback": "Das ist die Fläche. Der Umfang ist 2πr. Der Radius wird verdoppelt, nicht quadriert."
+     },
+     {
+      "diagnoseId": "faktor_zwei_vergessen",
+      "ausdruck": "R",
+      "feedback": "In der Formel U = 2πr steht der Faktor 2. Ohne ihn erhält man nur den halben Umfang."
+     },
+     {
+      "diagnoseId": "durchmesser_quadriert",
+      "ausdruck": "4*R*R",
+      "feedback": "Das wäre die Fläche mit dem Durchmesser gerechnet. Für den Umfang genügt 2πr."
+     }
+    ]
+   },
+   {
+    "name": "ring",
+    "label": "Fläche des Rings (Vielfaches von π)",
+    "einheit": "m²",
+    "ausdruck": "R*R-(R-b)*(R-b)",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "radien_zuerst_subtrahiert",
+      "ausdruck": "b*b",
+      "feedback": "Du hast die Ringbreite quadriert. Das ergibt die Fläche eines Kreises mit Radius {b}, nicht die Ringfläche. Erst beide Kreisflächen, dann die Differenz."
+     },
+     {
+      "diagnoseId": "flaechen_addiert",
+      "ausdruck": "R*R+(R-b)*(R-b)",
+      "feedback": "Der innere Kreis wird ABGEZOGEN. Der Ring ist der Rest zwischen den beiden Kreisen."
+     },
+     {
+      "diagnoseId": "innenradius_falsch",
+      "ausdruck": "R*R-b*b",
+      "feedback": "Der innere Radius ist {R} − {b} = {r}, nicht {b}. Die Breite des Rings ist nicht sein Innenradius."
+     }
+    ]
+   },
+   {
+    "name": "sektor",
+    "label": "Fläche eines Sektors von {w}° (Vielfaches von π)",
+    "einheit": "m²",
+    "ausdruck": "R*R*w/360",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_kreis",
+      "ausdruck": "R*R",
+      "feedback": "Das ist die Fläche des ganzen Kreises. Der Sektor ist nur der Anteil {w} von 360 davon."
+     },
+     {
+      "diagnoseId": "bogen_statt_flaeche",
+      "ausdruck": "2*R*w/360",
+      "feedback": "Das ist die Länge des Kreisbogens. Eine Länge, keine Fläche."
+     },
+     {
+      "diagnoseId": "durch_180",
+      "ausdruck": "R*R*w/180",
+      "feedback": "Ein Vollkreis hat 360°, nicht 180°. Durch 180 zu teilen ergibt den doppelten Wert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Umfang und Fläche nicht verwechseln: U = 2πr, A = πr².",
+   "Der Ring ist die grosse Kreisfläche ohne die kleine. Der innere Radius ist {R} − {b}.",
+   "Ein Sektor ist der Anteil {w} : 360 des ganzen Kreises."
+  ],
+  "loesungsweg": [
+   "Umfang: 2π·{R} = {umfang}π m.",
+   "Innerer Radius: {R} − {b} = {r} m.",
+   "Ring: ({R}² − {r}²)·π = {ring}π m².",
+   "Sektor: {R}²π · {w} : 360 = {sektor}π m²."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-zusammengesetzt-sg",
+  "lernzielId": "MS.6.07",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "6.07",
+   "6.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 50,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 28,
+    "schritt": 2
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 26,
+    "schritt": 1
+   },
+   {
+    "name": "s",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "rechteck",
+    "typ": "formel",
+    "ausdruck": "l*b"
+   },
+   {
+    "name": "trapezteil",
+    "typ": "formel",
+    "ausdruck": "b*k/2"
+   },
+   {
+    "name": "loch",
+    "typ": "formel",
+    "ausdruck": "s*s"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "l*b+b*k/2-s*s"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Werkstück aus Blech"
+     ],
+     [
+      "eine Sperrholzplatte"
+     ],
+     [
+      "ein Filzzuschnitt"
+     ],
+     [
+      "eine Bodenplatte"
+     ],
+     [
+      "ein Kartonmodell"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "s<b-1",
+   "s<l-1",
+   "rest>=60",
+   "rest<=2200",
+   "rest!=l",
+   "rest!=b",
+   "rest!=k",
+   "rest!=s",
+   "rest!=rechteck",
+   "rest!=trapezteil",
+   "rest!=loch"
+  ],
+  "stamm": "Aus einer Platte wird {ding} geschnitten: ein Rechteck von {l} cm Länge und {b} cm Breite, an dessen Schmalseite ein rechtwinkliges Dreieck mit den Katheten {b} cm und {k} cm angesetzt ist. Aus der Mitte ist ein Quadrat mit {s} cm Seitenlänge ausgestanzt. Wie gross ist die verbleibende Fläche?",
+  "loesung": "l*b+b*k/2-s*s",
+  "gegenprobe": "(l+(l+k))*b/2-s*s",
+  "fehler": [
+   {
+    "diagnoseId": "loch_nicht_abgezogen",
+    "ausdruck": "l*b+b*k/2",
+    "feedback": "Rechteck und Dreieck sind richtig zusammengezählt, aber das ausgestanzte Quadrat fehlt: {loch} cm² gehen weg."
+   },
+   {
+    "diagnoseId": "dreieck_nicht_halbiert",
+    "ausdruck": "l*b+b*k-s*s",
+    "feedback": "Das Dreieck ist halb so gross wie das Rechteck aus seinen Katheten: {b}·{k} geteilt durch 2."
+   },
+   {
+    "diagnoseId": "quadrat_nur_seitenlaenge",
+    "ausdruck": "l*b+b*k/2-s",
+    "feedback": "Abgezogen wird eine Fläche, nicht eine Länge: {s}·{s} = {loch} cm²."
+   },
+   {
+    "diagnoseId": "dreieck_vergessen",
+    "ausdruck": "l*b-s*s",
+    "feedback": "Das angesetzte Dreieck fehlt. Es misst {trapezteil} cm² und gehört dazu."
+   }
+  ],
+  "hinweise": [
+   "Zerlege die Figur in Teile, deren Fläche du einzeln berechnen kannst.",
+   "Angesetzte Teile werden addiert, ausgestanzte abgezogen.",
+   "Ein zweiter Weg: Rechteck und Dreieck bilden zusammen ein Trapez mit den Parallelseiten {l} und {l} + {k} und der Höhe {b}."
+  ],
+  "loesungsweg": [
+   "Rechteck: {l} · {b} = {rechteck} cm².",
+   "Dreieck: {b} · {k} : 2 = {trapezteil} cm².",
+   "Quadrat: {s} · {s} = {loch} cm². Wird abgezogen.",
+   "Rest: {rechteck} + {trapezteil} − {loch} = {rest} cm².",
+   "Gegenprobe als Trapez: ({l} + {l} + {k}) · {b} : 2 minus {loch} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sg-prisma",
+  "lernzielId": "MS.7.03",
+  "fach": "mathematik-sg",
+  "unterthemen": [
+   "7.03",
+   "7.04",
+   "7.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "kathete",
+    "typ": "auswahl",
+    "werte": [
+     6,
+     8,
+     10,
+     12,
+     14,
+     16,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "h",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     7,
+     9,
+     10,
+     12,
+     15,
+     20
+    ]
+   },
+   {
+    "name": "grund",
+    "typ": "formel",
+    "ausdruck": "kathete*kathete/2"
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "kathete*kathete/2*h"
+   },
+   {
+    "name": "hypo",
+    "typ": "formel",
+    "ausdruck": "kathete*kathete*2"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Keil aus Hartholz"
+     ],
+     [
+      "ein Stützklotz"
+     ],
+     [
+      "ein Betonelement"
+     ],
+     [
+      "ein Verpackungskeil"
+     ],
+     [
+      "ein Modell aus Gips"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "vol<=4000",
+   "grund!=vol",
+   "grund!=h",
+   "vol!=h",
+   "vol!=kathete",
+   "grund!=kathete"
+  ],
+  "stamm": "{ding} ist ein Prisma. Seine Grundfläche ist ein gleichschenklig-rechtwinkliges Dreieck mit den Katheten {kathete} cm. Das Prisma ist {h} cm hoch.",
+  "felder": [
+   {
+    "name": "grund",
+    "label": "Grundfläche",
+    "einheit": "cm²",
+    "ausdruck": "kathete*kathete/2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "kathete*kathete",
+      "feedback": "Das ist die Fläche eines Quadrats mit dieser Seitenlänge. Das rechtwinklige Dreieck ist genau die Hälfte davon."
+     },
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*kathete",
+      "feedback": "Das sind zwei Seitenlängen. Eine Fläche entsteht, wenn man zwei Längen multipliziert."
+     },
+     {
+      "diagnoseId": "volumen_statt_flaeche",
+      "ausdruck": "kathete*kathete/2*h",
+      "feedback": "Das ist das Volumen. Die Grundfläche ist nur das Dreieck, ohne die Höhe des Prismas."
+     }
+    ]
+   },
+   {
+    "name": "vol",
+    "label": "Volumen",
+    "einheit": "cm³",
+    "ausdruck": "kathete*kathete/2*h",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_hoehe",
+      "ausdruck": "kathete*kathete/2",
+      "feedback": "Das ist die Grundfläche. Für das Volumen kommt die Höhe {h} cm dazu."
+     },
+     {
+      "diagnoseId": "grundflaeche_nicht_halbiert",
+      "ausdruck": "kathete*kathete*h",
+      "feedback": "Die Grundfläche ist ein Dreieck und darum halb so gross wie das Quadrat."
+     },
+     {
+      "diagnoseId": "gedrittelt",
+      "ausdruck": "kathete*kathete/2*h/3",
+      "feedback": "Gedrittelt wird bei Pyramide und Kegel. Ein Prisma ist Grundfläche mal Höhe, ohne Teilen."
+     }
+    ]
+   },
+   {
+    "name": "hypo",
+    "label": "Quadrat über der Hypotenuse",
+    "einheit": "cm²",
+    "ausdruck": "kathete*kathete*2",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "kathetenquadrat",
+      "ausdruck": "kathete*kathete",
+      "feedback": "Das ist das Quadrat über einer Kathete. Nach Pythagoras ist das Hypotenusenquadrat so gross wie BEIDE Kathetenquadrate zusammen."
+     },
+     {
+      "diagnoseId": "kathete_verdoppelt",
+      "ausdruck": "2*kathete",
+      "feedback": "Das ist die doppelte Kathetenlänge, keine Fläche. Gesucht ist das Quadrat über der Hypotenuse."
+     },
+     {
+      "diagnoseId": "grundflaeche_genommen",
+      "ausdruck": "kathete*kathete/2",
+      "feedback": "Das ist die Dreiecksfläche. Das Quadrat über der Hypotenuse ist viermal so gross."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Die Grundfläche ist ein rechtwinkliges Dreieck: Kathete mal Kathete, geteilt durch zwei.",
+   "Das Volumen eines Prismas ist Grundfläche mal Höhe, ohne Teilen.",
+   "Für die Hypotenuse gilt Pythagoras: Ihr Quadrat ist die Summe der beiden Kathetenquadrate."
+  ],
+  "loesungsweg": [
+   "Grundfläche: {kathete} · {kathete} : 2 = {grund} cm².",
+   "Volumen: {grund} · {h} = {vol} cm³.",
+   "Hypotenusenquadrat: {kathete}² + {kathete}² = {hypo} cm².",
+   "Rückwärts liesse sich aus Volumen und Höhe auch die Grundfläche bestimmen: Volumen geteilt durch Höhe."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der St. Galler Aufnahmeprüfungen 2022-2026 (Mathematik I und II, Gymnasium und Einheitsaufnahmeprüfung); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

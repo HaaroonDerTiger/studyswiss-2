@@ -1,0 +1,681 @@
+[
+ {
+  "templateId": "relativpronomen-einsetzen",
+  "lernzielId": "D2.9.05",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "9.05",
+   "6.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Zu welchem Wort im Hauptsatz gehört der Relativsatz? Von ihm kommen Geschlecht und Zahl.",
+   "Den Fall bestimmt der Nebensatz selbst: Frage im Relativsatz nach «wer?», «wen?» oder «wem?».",
+   "Steht eine Präposition davor, fordert diese den Fall, nicht das Verb."
+  ],
+  "loesungsweg": [
+   "Geschlecht und Zahl kommen vom Wort im Hauptsatz, auf das sich der Relativsatz bezieht.",
+   "Den Fall bestimmt die Rolle im Relativsatz.",
+   "Setze zur Probe das Nomen im Relativsatz ein und frage nach dem Fall."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDas Buch, ___ ich dir geliehen habe, liegt noch bei dir.",
+    "optionen": [
+     "das",
+     "dem",
+     "dessen",
+     "die"
+    ],
+    "loesung": [
+     "das"
+    ],
+    "erklaerung": "«Buch» ist sächlich, und im Relativsatz ist es das Akkusativobjekt: «ich habe es geliehen».",
+    "fehler": [
+     {
+      "antwort": "dem",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dem» wäre der Dativ. Frage im Nebensatz: «Was habe ich geliehen?» Das ist der Akkusativ, also «das»."
+     },
+     {
+      "antwort": "die",
+      "diagnoseId": "genus_falsch",
+      "feedback": "«Die» passt zu weiblichen Wörtern oder zum Plural. «Das Buch» ist sächlich und in der Einzahl."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDer Mann, ___ nebenan wohnt, repariert Velos.",
+    "optionen": [
+     "der",
+     "den",
+     "dem",
+     "dessen"
+    ],
+    "loesung": [
+     "der"
+    ],
+    "erklaerung": "«Mann» ist männlich, und im Relativsatz ist er das Subjekt: «er wohnt nebenan».",
+    "fehler": [
+     {
+      "antwort": "den",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Den» ist der Akkusativ. Frage im Nebensatz: «Wer wohnt nebenan?» Das ist der Nominativ, also «der»."
+     },
+     {
+      "antwort": "dem",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dem» ist der Dativ. Das Verb «wohnen» fordert aber kein Dativobjekt; der Mann ist hier das Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDie Frau, ___ ich das Paket gab, war nicht zu Hause.",
+    "optionen": [
+     "der",
+     "die",
+     "deren",
+     "das"
+    ],
+    "loesung": [
+     "der"
+    ],
+    "erklaerung": "«Frau» ist weiblich, und im Relativsatz steht sie im Dativ: «ich gab ihr das Paket».",
+    "fehler": [
+     {
+      "antwort": "die",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Die» wäre Nominativ oder Akkusativ. Frage: «Wem gab ich das Paket?» Das ist der Dativ, und der lautet bei weiblichen Wörtern «der»."
+     },
+     {
+      "antwort": "deren",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Deren» ist der Genitiv und drückt Besitz aus. Hier bekommt die Frau etwas, sie besitzt nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDas Velo, mit ___ er zur Schule fährt, ist alt.",
+    "optionen": [
+     "dem",
+     "das",
+     "dessen",
+     "der"
+    ],
+    "loesung": [
+     "dem"
+    ],
+    "erklaerung": "Die Präposition «mit» fordert den Dativ. Bei einem sächlichen Wort lautet er «dem».",
+    "fehler": [
+     {
+      "antwort": "das",
+      "diagnoseId": "praeposition_uebersehen",
+      "feedback": "Ohne die Präposition wäre «das» richtig. Aber «mit» fordert immer den Dativ: und der heisst hier «dem»."
+     },
+     {
+      "antwort": "der",
+      "diagnoseId": "genus_falsch",
+      "feedback": "«Der» im Dativ passt zu weiblichen Wörtern. «Das Velo» ist sächlich."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDer Junge, ___ Mutter Ärztin ist, sitzt neben mir.",
+    "optionen": [
+     "dessen",
+     "der",
+     "den",
+     "deren"
+    ],
+    "loesung": [
+     "dessen"
+    ],
+    "erklaerung": "Die Mutter gehört zum Jungen. Das ist ein Besitzverhältnis, also der Genitiv «dessen».",
+    "fehler": [
+     {
+      "antwort": "deren",
+      "diagnoseId": "genus_falsch",
+      "feedback": "«Deren» ist der weibliche Genitiv. Der Bezug ist «der Junge» Männlich, also «dessen». Nicht die Mutter bestimmt die Form, sondern der Junge."
+     },
+     {
+      "antwort": "der",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Der» wäre der Nominativ. Hier geht es um Zugehörigkeit: Wessen Mutter? Das ist der Genitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDie Bücher, ___ auf dem Tisch liegen, gehören mir.",
+    "optionen": [
+     "die",
+     "das",
+     "denen",
+     "der"
+    ],
+    "loesung": [
+     "die"
+    ],
+    "erklaerung": "«Bücher» steht im Plural, und im Relativsatz sind sie das Subjekt.",
+    "fehler": [
+     {
+      "antwort": "denen",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Denen» ist der Dativ Plural. Frage: «Was liegt auf dem Tisch?» Das ist der Nominativ, also «die»."
+     },
+     {
+      "antwort": "das",
+      "diagnoseId": "numerus_falsch",
+      "feedback": "«Das» steht in der Einzahl. «Bücher» ist Mehrzahl. Dafür heisst es «die»."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDer Film, von ___ alle sprechen, läuft im Kino.",
+    "optionen": [
+     "dem",
+     "den",
+     "der",
+     "dessen"
+    ],
+    "loesung": [
+     "dem"
+    ],
+    "erklaerung": "«von» fordert den Dativ. Beim männlichen Wort lautet er «dem».",
+    "fehler": [
+     {
+      "antwort": "den",
+      "diagnoseId": "praeposition_uebersehen",
+      "feedback": "«Den» ist der Akkusativ. Die Präposition «von» fordert aber immer den Dativ."
+     },
+     {
+      "antwort": "dessen",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dessen» ist der Genitiv und zeigt Besitz. Hier geht es darum, worüber gesprochen wird."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDas Kind, ___ ich geholfen habe, lacht wieder.",
+    "optionen": [
+     "dem",
+     "das",
+     "dessen",
+     "der"
+    ],
+    "loesung": [
+     "dem"
+    ],
+    "erklaerung": "«helfen» fordert den Dativ: «ich habe ihm geholfen».",
+    "fehler": [
+     {
+      "antwort": "das",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Das» wäre Nominativ oder Akkusativ. «Helfen» ist eines der Verben, die den Dativ fordern, wie «danken», «gratulieren», «gehören»."
+     },
+     {
+      "antwort": "dessen",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dessen» ist der Genitiv. Es geht hier nicht um Besitz, sondern darum, wem geholfen wurde."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDie Lehrerin, ___ wir alle mögen, geht in Pension.",
+    "optionen": [
+     "die",
+     "der",
+     "deren",
+     "den"
+    ],
+    "loesung": [
+     "die"
+    ],
+    "erklaerung": "«mögen» fordert den Akkusativ: «wir mögen sie». Bei weiblichen Wörtern lautet er «die».",
+    "fehler": [
+     {
+      "antwort": "der",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Der» wäre der Dativ. Frage: «Wen mögen wir?» Das ist der Akkusativ."
+     },
+     {
+      "antwort": "deren",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Deren» ist der Genitiv und zeigt Besitz. Hier wird die Lehrerin gemocht, sie besitzt nichts."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDie Kinder, ___ wir die Bücher schenkten, waren begeistert.",
+    "optionen": [
+     "denen",
+     "die",
+     "deren",
+     "dem"
+    ],
+    "loesung": [
+     "denen"
+    ],
+    "erklaerung": "Im Plural lautet der Dativ «denen»: «wir schenkten ihnen die Bücher».",
+    "fehler": [
+     {
+      "antwort": "die",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Die» wäre Nominativ oder Akkusativ. Das Akkusativobjekt sind hier die Bücher; die Kinder stehen im Dativ."
+     },
+     {
+      "antwort": "dem",
+      "diagnoseId": "numerus_falsch",
+      "feedback": "«Dem» ist Einzahl. «Kinder» ist Mehrzahl. Der Dativ Plural lautet «denen» und bekommt ein zusätzliches -n."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDas Haus, ___ Dach undicht ist, steht leer.",
+    "optionen": [
+     "dessen",
+     "das",
+     "dem",
+     "deren"
+    ],
+    "loesung": [
+     "dessen"
+    ],
+    "erklaerung": "Das Dach gehört zum Haus. Genitiv, sächlich: «dessen».",
+    "fehler": [
+     {
+      "antwort": "deren",
+      "diagnoseId": "genus_falsch",
+      "feedback": "«Deren» ist weiblich oder Plural. «Das Haus» ist sächlich, also «dessen»."
+     },
+     {
+      "antwort": "dem",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dem» ist der Dativ. Bei Zugehörigkeit. Wessen Dach? Steht der Genitiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Welches Relativpronomen passt?\n\nDer Weg, auf ___ wir gingen, war steil.",
+    "optionen": [
+     "dem",
+     "den",
+     "der",
+     "dessen"
+    ],
+    "loesung": [
+     "dem"
+    ],
+    "erklaerung": "«auf» kann Dativ oder Akkusativ fordern. Bei der Frage «wo?» steht der Dativ.",
+    "fehler": [
+     {
+      "antwort": "den",
+      "diagnoseId": "wechselpraeposition",
+      "feedback": "«Auf» ist eine Wechselpräposition. Beim Akkusativ ginge es um eine Richtung («wohin?»). Hier fragt man «wo?», also Dativ."
+     },
+     {
+      "antwort": "dessen",
+      "diagnoseId": "fall_falsch",
+      "feedback": "«Dessen» ist der Genitiv. Nach «auf» steht nie ein Genitiv."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "konjunktion-einsetzen",
+  "lernzielId": "D2.9.02",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "9.01",
+   "9.02"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Welches Verhältnis besteht zwischen den beiden Teilen. Grund, Gegensatz, Bedingung, Zeit oder Absicht?",
+   "Setze jede Konjunktion probeweise ein und lies den ganzen Satz. Nur eine ergibt Sinn.",
+   "Achte auch auf die Wortstellung: Nach einer Konjunktion, die einen Nebensatz einleitet, steht die Personalform am Ende."
+  ],
+  "loesungsweg": [
+   "Bestimme zuerst, wie die beiden Teilsätze zusammenhängen.",
+   "Grund: weil, da · Gegensatz: obwohl · Bedingung: wenn, falls · Zeit: als, während, bevor, nachdem · Absicht: damit",
+   "Lies den fertigen Satz laut. Der Sinn muss stimmen, nicht nur die Grammatik."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Welche Konjunktion passt?\n\nSie nahm den Schirm mit, ___ es nicht regnete.",
+    "optionen": [
+     "obwohl",
+     "weil",
+     "damit",
+     "bevor"
+    ],
+    "loesung": [
+     "obwohl"
+    ],
+    "erklaerung": "Zwischen «Schirm mitnehmen» und «es regnet nicht» steht ein Gegensatz. Dafür braucht es «obwohl».",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "gegensatz_als_grund",
+      "feedback": "«Weil» nennt einen Grund. Dass es nicht regnet, ist aber kein Grund für einen Schirm, sondern spricht dagegen. Bei einem Widerspruch heisst es «obwohl»."
+     },
+     {
+      "antwort": "damit",
+      "diagnoseId": "gegensatz_als_absicht",
+      "feedback": "«Damit» nennt eine Absicht. Niemand nimmt einen Schirm mit, damit es nicht regnet."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nEr ging früher los, ___ er den Zug nicht verpasste.",
+    "optionen": [
+     "damit",
+     "obwohl",
+     "weil",
+     "seit"
+    ],
+    "loesung": [
+     "damit"
+    ],
+    "erklaerung": "Der zweite Teil nennt die Absicht: Er ging früher los, um den Zug zu erwischen.",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "absicht_als_grund",
+      "feedback": "«Weil» nennt den Grund für etwas Vergangenes. Hier geht es um ein Ziel in der Zukunft. Dafür steht «damit»."
+     },
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "absicht_als_gegensatz",
+      "feedback": "«Obwohl» drückt einen Widerspruch aus. Zwischen «früher losgehen» und «den Zug erwischen» besteht keiner."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ sie gegessen hatte, machte sie die Hausaufgaben.",
+    "optionen": [
+     "Nachdem",
+     "Damit",
+     "Obwohl",
+     "Falls"
+    ],
+    "loesung": [
+     "Nachdem"
+    ],
+    "erklaerung": "Die beiden Handlungen folgen aufeinander. «Nachdem» ordnet sie zeitlich, und das Plusquamperfekt bestätigt es.",
+    "fehler": [
+     {
+      "antwort": "Falls",
+      "diagnoseId": "zeit_als_bedingung",
+      "feedback": "«Falls» macht daraus eine Bedingung. Das Plusquamperfekt «gegessen hatte» zeigt aber, dass es wirklich geschehen ist, also eine Zeitangabe."
+     },
+     {
+      "antwort": "Damit",
+      "diagnoseId": "zeit_als_absicht",
+      "feedback": "«Damit» nennt eine Absicht. Man isst nicht, damit man Hausaufgaben macht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ du willst, hole ich dich am Bahnhof ab.",
+    "optionen": [
+     "Wenn",
+     "Obwohl",
+     "Nachdem",
+     "Damit"
+    ],
+    "loesung": [
+     "Wenn"
+    ],
+    "erklaerung": "Das Abholen hängt davon ab, ob die andere Person es will. Das ist eine Bedingung.",
+    "fehler": [
+     {
+      "antwort": "Nachdem",
+      "diagnoseId": "bedingung_als_zeit",
+      "feedback": "«Nachdem» sagt, dass etwas vorher passiert ist. Hier ist noch offen, ob es überhaupt geschieht. Das ist eine Bedingung."
+     },
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "bedingung_als_gegensatz",
+      "feedback": "«Obwohl» widerspricht. Hier stimmen die beiden Teile aber überein: Wenn du willst, dann tue ich es."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nSie blieb zu Hause, ___ sie Fieber hatte.",
+    "optionen": [
+     "weil",
+     "obwohl",
+     "damit",
+     "bevor"
+    ],
+    "loesung": [
+     "weil"
+    ],
+    "erklaerung": "Das Fieber ist der Grund fürs Zuhausebleiben.",
+    "fehler": [
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "grund_als_gegensatz",
+      "feedback": "«Obwohl» würde bedeuten, sie bleibe trotz Fieber zu Hause. Das ergibt keinen Sinn. Fieber ist der Grund, nicht der Widerspruch."
+     },
+     {
+      "antwort": "bevor",
+      "diagnoseId": "grund_als_zeit",
+      "feedback": "«Bevor» ordnet zeitlich. Hier geht es aber nicht um die Reihenfolge, sondern um das Warum."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ er das Zimmer betrat, verstummten alle.",
+    "optionen": [
+     "Als",
+     "Damit",
+     "Obwohl",
+     "Weil"
+    ],
+    "loesung": [
+     "Als"
+    ],
+    "erklaerung": "«Als» bezeichnet einen einmaligen Zeitpunkt in der Vergangenheit.",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "zeit_als_grund",
+      "feedback": "«Weil» nennt einen Grund. Möglich wäre das, aber die Zeitform und der Ablauf zeigen: Gemeint ist der Moment des Eintretens."
+     },
+     {
+      "antwort": "Damit",
+      "diagnoseId": "zeit_als_absicht",
+      "feedback": "«Damit» nennt eine Absicht. Er betrat das Zimmer nicht, damit alle verstummen."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nSie übte jeden Tag, ___ sie an der Prüfung sicher war.",
+    "optionen": [
+     "damit",
+     "obwohl",
+     "seit",
+     "falls"
+    ],
+    "loesung": [
+     "damit"
+    ],
+    "erklaerung": "Das Üben hat ein Ziel: an der Prüfung sicher zu sein.",
+    "fehler": [
+     {
+      "antwort": "seit",
+      "diagnoseId": "absicht_als_zeit",
+      "feedback": "«Seit» gibt einen Zeitpunkt an, ab dem etwas gilt. Hier geht es um das Ziel des Übens."
+     },
+     {
+      "antwort": "obwohl",
+      "diagnoseId": "absicht_als_gegensatz",
+      "feedback": "«Obwohl» widerspricht. Üben und Sicherheit passen zusammen, sie widersprechen sich nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ es regnete, fuhr sie mit dem Velo.",
+    "optionen": [
+     "Obwohl",
+     "Weil",
+     "Damit",
+     "Nachdem"
+    ],
+    "loesung": [
+     "Obwohl"
+    ],
+    "erklaerung": "Regen spricht gegen das Velo. Sie fuhr trotzdem. Das ist ein Gegensatz.",
+    "fehler": [
+     {
+      "antwort": "Weil",
+      "diagnoseId": "gegensatz_als_grund",
+      "feedback": "«Weil» machte den Regen zum Grund fürs Velofahren. Regen ist aber ein Argument dagegen, also «obwohl»."
+     },
+     {
+      "antwort": "Nachdem",
+      "diagnoseId": "gegensatz_als_zeit",
+      "feedback": "«Nachdem» hiesse, sie sei erst nach dem Regen losgefahren. Der Satz sagt, dass sie währenddessen fuhr."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nRuf mich an, ___ du angekommen bist.",
+    "optionen": [
+     "sobald",
+     "obwohl",
+     "damit",
+     "weil"
+    ],
+    "loesung": [
+     "sobald"
+    ],
+    "erklaerung": "«Sobald» verbindet zwei Handlungen zeitlich: unmittelbar nach dem Ankommen.",
+    "fehler": [
+     {
+      "antwort": "damit",
+      "diagnoseId": "zeit_als_absicht",
+      "feedback": "«Damit» nennt eine Absicht: Man ruft nicht an, damit man ankommt. Die Reihenfolge ist umgekehrt."
+     },
+     {
+      "antwort": "weil",
+      "diagnoseId": "zeit_als_grund",
+      "feedback": "«Weil» nennt einen Grund. Das Ankommen ist aber kein Grund fürs Anrufen, sondern der Zeitpunkt."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ das Wetter hält, machen wir eine Wanderung.",
+    "optionen": [
+     "Falls",
+     "Obwohl",
+     "Nachdem",
+     "Damit"
+    ],
+    "loesung": [
+     "Falls"
+    ],
+    "erklaerung": "Die Wanderung hängt vom Wetter ab. Das ist eine Bedingung.",
+    "fehler": [
+     {
+      "antwort": "Nachdem",
+      "diagnoseId": "bedingung_als_zeit",
+      "feedback": "«Nachdem» setzt voraus, dass etwas geschehen ist. Ob das Wetter hält, ist noch offen. Das ist eine Bedingung."
+     },
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "bedingung_als_gegensatz",
+      "feedback": "«Obwohl» hiesse, man wandere trotz gutem Wetter. Gutes Wetter spricht aber dafür."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nEr räumte auf, ___ die Gäste kamen.",
+    "optionen": [
+     "bevor",
+     "weil",
+     "obwohl",
+     "damit"
+    ],
+    "loesung": [
+     "bevor"
+    ],
+    "erklaerung": "«Bevor» ordnet die beiden Handlungen zeitlich: Aufräumen zuerst, dann die Gäste.",
+    "fehler": [
+     {
+      "antwort": "damit",
+      "diagnoseId": "zeit_als_absicht",
+      "feedback": "«Damit die Gäste kamen» hiesse, das Aufräumen habe sie herbeigeführt. Gemeint ist die Reihenfolge."
+     },
+     {
+      "antwort": "weil",
+      "diagnoseId": "zeit_als_grund",
+      "feedback": "«Weil» nennt einen Grund. Der Satz sagt aber, was zuerst geschah."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\n___ sie in Winterthur wohnt, fährt sie mit dem Zug zur Schule.",
+    "optionen": [
+     "Seit",
+     "Obwohl",
+     "Damit",
+     "Falls"
+    ],
+    "loesung": [
+     "Seit"
+    ],
+    "erklaerung": "«Seit» nennt den Zeitpunkt, ab dem etwas gilt.",
+    "fehler": [
+     {
+      "antwort": "Obwohl",
+      "diagnoseId": "zeit_als_gegensatz",
+      "feedback": "«Obwohl» widerspricht. Zwischen Wohnort und Zugfahren besteht kein Widerspruch, sondern ein Zusammenhang."
+     },
+     {
+      "antwort": "Falls",
+      "diagnoseId": "zeit_als_bedingung",
+      "feedback": "«Falls» lässt offen, ob sie dort wohnt. Der Satz sagt, dass sie es tut."
+     }
+    ]
+   },
+   {
+    "stamm": "Welche Konjunktion passt?\n\nSie schwieg, ___ sie die Antwort kannte.",
+    "optionen": [
+     "obwohl",
+     "weil",
+     "sobald",
+     "damit"
+    ],
+    "loesung": [
+     "obwohl"
+    ],
+    "erklaerung": "Wer die Antwort kennt, sagt sie normalerweise. Dass sie schwieg, ist der Gegensatz dazu.",
+    "fehler": [
+     {
+      "antwort": "weil",
+      "diagnoseId": "gegensatz_als_grund",
+      "feedback": "«Weil» machte das Wissen zum Grund fürs Schweigen. Grammatikalisch geht das, doch der Satz will den Widerspruch zeigen: Sie wusste es und sagte trotzdem nichts."
+     },
+     {
+      "antwort": "sobald",
+      "diagnoseId": "gegensatz_als_zeit",
+      "feedback": "«Sobald» ordnet zeitlich. Hier geht es aber um den Widerspruch zwischen Wissen und Schweigen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

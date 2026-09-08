@@ -1,0 +1,426 @@
+{
+ "fach": "mathematik-ar",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Trogen",
+ "quelle": "Angaben zum Prüfungsstoff der Aufnahmeprüfung Gymnasium Kantonsschule Trogen 2026/27 sowie der Prüfungsstoff der nichtgymnasialen Maturitätslehrgänge; dazu die Prüfungsserien 2010-2025",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "7",
+   "name": "Zahlen, Potenzen und Variablen",
+   "punkte": 8,
+   "anteil": 20,
+   "beschreibung": "Die Lernziele des 7. Schuljahres: Potenzschreibweise, Rechengesetze, Teiler und Vielfache — und der Umgang mit sehr grossen Zahlen im Taschenrechner.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Punkt vor Strich und Klammerregeln",
+     "lernzielId": "MAR.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Assoziativ-, Kommutativ- und Distributivgesetz",
+     "lernzielId": "MAR.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Potenzschreibweise und einfache Potenzen",
+     "lernzielId": "MAR.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Zehnerpotenzen und die wissenschaftliche Schreibweise",
+     "lernzielId": "MAR.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Terme mit Variablen bilden und Werte einsetzen",
+     "lernzielId": "MAR.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Alle Teiler einer Zahl bestimmen",
+     "lernzielId": "MAR.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Primfaktorzerlegung in Potenzschreibweise",
+     "lernzielId": "MAR.1.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.06"
+     ]
+    },
+    {
+     "code": "1.08",
+     "name": "ggT und kgV aus der Primfaktorzerlegung",
+     "lernzielId": "MAR.1.08",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.07"
+     ]
+    },
+    {
+     "code": "1.09",
+     "name": "Negative Zahlen addieren und subtrahieren",
+     "lernzielId": "MAR.1.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.10",
+     "name": "Negative Zahlen multiplizieren und dividieren",
+     "lernzielId": "MAR.1.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.09"
+     ]
+    },
+    {
+     "code": "1.11",
+     "name": "Vorzeichen einer Potenz voraussagen",
+     "lernzielId": "MAR.1.11",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "8",
+   "name": "Brüche, Gleichungen und Wurzeln",
+   "punkte": 10,
+   "anteil": 25,
+   "beschreibung": "Die Lernziele des 8. Schuljahres. Der Prüfungsstoff sagt ausdrücklich: Gleichungen mit Brüchen, aber keine Variablen im Nenner.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Brüche kürzen und erweitern",
+     "lernzielId": "MAR.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Bruchterme mit Variablen und Potenzen kürzen",
+     "lernzielId": "MAR.2.02",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.01"
+     ]
+    },
+    {
+     "code": "2.03",
+     "name": "Brüche und Dezimalzahlen der Grösse nach ordnen",
+     "lernzielId": "MAR.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Anteile als Bruch, Dezimalzahl und Prozentzahl",
+     "lernzielId": "MAR.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Grundoperationen mit Brüchen, auch negativen",
+     "lernzielId": "MAR.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Klammerterme mit Brüchen",
+     "lernzielId": "MAR.2.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.05"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Bruchteile von Zahlen und Grössen berechnen",
+     "lernzielId": "MAR.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MAR.2.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.09",
+     "name": "Gleichungen mit Brüchen lösen",
+     "lernzielId": "MAR.2.09",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.08"
+     ]
+    },
+    {
+     "code": "2.10",
+     "name": "Textaufgaben als Gleichung darstellen",
+     "lernzielId": "MAR.2.10",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.08"
+     ]
+    },
+    {
+     "code": "2.11",
+     "name": "Formeln nach einer Variablen auflösen",
+     "lernzielId": "MAR.2.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.12",
+     "name": "Zahlenterme mit Wurzeln und Zweierpotenzen",
+     "lernzielId": "MAR.2.12",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.13",
+     "name": "Zahlen mit Wurzeln ohne Taschenrechner ordnen",
+     "lernzielId": "MAR.2.13",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.12"
+     ]
+    },
+    {
+     "code": "2.14",
+     "name": "Zahlenfolgen mit Brüchen weiterführen",
+     "lernzielId": "MAR.2.14",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "T",
+   "name": "Terme und Termumformungen",
+   "punkte": 6,
+   "anteil": 15,
+   "beschreibung": "«Vom Text zum Term» und zurück — dieser Aufgabentyp steht im Prüfungsstoff wörtlich.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Sachsituationen als Term darstellen",
+     "lernzielId": "MAR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Gleichwertige Terme erkennen",
+     "lernzielId": "MAR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Klammern in algebraischen Termen öffnen",
+     "lernzielId": "MAR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Einen möglichst grossen Faktor ausklammern",
+     "lernzielId": "MAR.3.04",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.03"
+     ]
+    },
+    {
+     "code": "3.05",
+     "name": "Umfang und Fläche mit Variablen ausdrücken",
+     "lernzielId": "MAR.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Binomische Formeln anwenden",
+     "lernzielId": "MAR.3.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "ar-nichtgym"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "G",
+   "name": "Geometrie in der Ebene",
+   "punkte": 8,
+   "anteil": 20,
+   "beschreibung": "Spiegelungen, Vierecke, Dreiecke und der Satz des Pythagoras — mit Thaleskreis als eigenem Thema.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Achsenspiegelung: Punkte und Figuren spiegeln",
+     "lernzielId": "MAR.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Spiegelachse aus Original und Bild konstruieren",
+     "lernzielId": "MAR.4.02",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "4.01"
+     ]
+    },
+    {
+     "code": "4.03",
+     "name": "Punktspiegelung am Spiegelzentrum",
+     "lernzielId": "MAR.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Grundkonstruktionen: Mittelsenkrechte, Winkelhalbierende, Mittelparallele",
+     "lernzielId": "MAR.4.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.05",
+     "name": "Umfang und Fläche zusammengesetzter Rechtecke",
+     "lernzielId": "MAR.4.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.06",
+     "name": "Eigenschaften der Vierecksformen",
+     "lernzielId": "MAR.4.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.07",
+     "name": "Fehlende Grössen im Viereck berechnen",
+     "lernzielId": "MAR.4.07",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.06"
+     ]
+    },
+    {
+     "code": "4.08",
+     "name": "Winkel im Dreieck berechnen",
+     "lernzielId": "MAR.4.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.09",
+     "name": "Flächeninhalt des Dreiecks",
+     "lernzielId": "MAR.4.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.10",
+     "name": "Thaleskreis konstruieren und Winkel darin berechnen",
+     "lernzielId": "MAR.4.10",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.11",
+     "name": "Satz des Pythagoras im rechtwinkligen Dreieck",
+     "lernzielId": "MAR.4.11",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.12",
+     "name": "Streckenlängen im Koordinatensystem",
+     "lernzielId": "MAR.4.12",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "4.11"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "katalog": "K",
+   "name": "Körper und Ansichten",
+   "punkte": 5,
+   "anteil": 12,
+   "beschreibung": "Würfelkörper drehen und kippen, Ansichten skizzieren, Volumen und Oberfläche berechnen.",
+   "unterthemen": [
+    {
+     "code": "5.01",
+     "name": "Netze von Würfel und Quader beurteilen",
+     "lernzielId": "MAR.5.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.02",
+     "name": "Ansichten von vorne, rechts und oben",
+     "lernzielId": "MAR.5.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "5.03",
+     "name": "Würfelkörper drehen und kippen",
+     "lernzielId": "MAR.5.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "5.02"
+     ]
+    },
+    {
+     "code": "5.04",
+     "name": "Volumen und Oberfläche von Würfel und Quader",
+     "lernzielId": "MAR.5.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "5.05",
+     "name": "Zusammengesetzte Körper aus Quadern",
+     "lernzielId": "MAR.5.05",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "5.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "katalog": "D",
+   "name": "Daten und Koordinaten",
+   "punkte": 3,
+   "anteil": 8,
+   "beschreibung": "Diagramme lesen und wählen, Punkte im Koordinatensystem, Massstäbe umrechnen.",
+   "unterthemen": [
+    {
+     "code": "6.01",
+     "name": "Daten aus Säulen- und Liniendiagrammen lesen",
+     "lernzielId": "MAR.6.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.02",
+     "name": "Kreisdiagramme und Prozentangaben",
+     "lernzielId": "MAR.6.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "6.03",
+     "name": "Punkte im Koordinatensystem eintragen und spiegeln",
+     "lernzielId": "MAR.6.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "6.04",
+     "name": "Massstäbe: Kartenlänge und wahre Länge",
+     "lernzielId": "MAR.6.04",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

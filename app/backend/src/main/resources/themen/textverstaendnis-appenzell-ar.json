@@ -1,0 +1,117 @@
+{
+ "fach": "textverstaendnis-ar",
+ "name": "Deutsch Textverständnis",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Trogen",
+ "quelle": "Angaben zum Prüfungsstoff der Aufnahmeprüfung Gymnasium Kantonsschule Trogen 2026/27 sowie der Prüfungsstoff der nichtgymnasialen Maturitätslehrgänge; dazu die Prüfungsserien 2010-2025",
+ "punkteTotal": 30,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Sachtexte verstehen",
+   "punkte": 10,
+   "anteil": 33,
+   "beschreibung": "Der Prüfungsstoff nennt ausdrücklich diskontinuierliche Sachtexte: Text und Abbildung zusammen lesen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Wesentliche Informationen entnehmen",
+     "lernzielId": "DTAR.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Text und Abbildung aufeinander beziehen",
+     "lernzielId": "DTAR.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Informationen in Stichworten weiterverarbeiten",
+     "lernzielId": "DTAR.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Unbekannte Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "DTAR.1.04",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Literarische Texte verstehen",
+   "punkte": 12,
+   "anteil": 40,
+   "beschreibung": "Absichten und Eigenschaften von Figuren, die Reihenfolge der Textteile und Belege aus dem Text.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Implizite Informationen erkennen",
+     "lernzielId": "DTAR.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Absichten und Eigenschaften von Figuren",
+     "lernzielId": "DTAR.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Innensicht und Gedanken einer Figur erkennen",
+     "lernzielId": "DTAR.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Textteile in eine logische Abfolge bringen",
+     "lernzielId": "DTAR.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Das eigene Verständnis mit Textstellen belegen",
+     "lernzielId": "DTAR.2.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Sprache und Bedeutung",
+   "punkte": 8,
+   "anteil": 27,
+   "beschreibung": "Sprachregister, übertragene Bedeutung und der Kerngedanke eines Gedichts.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Wörter Sprachregistern zuordnen",
+     "lernzielId": "DTAR.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Eigentliche und übertragene Bedeutung unterscheiden",
+     "lernzielId": "DTAR.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Den Kerngedanken eines Gedichts formulieren",
+     "lernzielId": "DTAR.3.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.04",
+     "name": "Den Text mit der eigenen Lebenswelt verbinden",
+     "lernzielId": "DTAR.3.04",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

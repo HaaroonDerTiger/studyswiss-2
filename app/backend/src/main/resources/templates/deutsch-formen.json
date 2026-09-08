@@ -1,0 +1,514 @@
+[
+ {
+  "templateId": "aktiv-ins-passiv",
+  "lernzielId": "D2.5.02",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "5.02",
+   "5.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Was ist im Aktivsatz das Akkusativobjekt? Es wird im Passiv zum Subjekt.",
+   "Das Passiv wird mit «werden» und dem Partizip II gebildet.",
+   "Die Zeitform bleibt gleich: Präsens bleibt Präsens, Präteritum bleibt Präteritum."
+  ],
+  "loesungsweg": [
+   "Das Akkusativobjekt des Aktivsatzes wird Subjekt des Passivsatzes.",
+   "Das Verb wird zu «werden» plus Partizip II, in derselben Zeitform.",
+   "Wer handelt, darf wegfallen, oder mit «von» angehängt werden."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Forme ins Passiv um. Wer handelt, darf wegfallen.\n\nDer Hauswart putzt die Turnhalle.\n\nDie Turnhalle ___.",
+    "loesung": [
+     "wird geputzt"
+    ],
+    "erklaerung": "«Die Turnhalle» war das Akkusativobjekt und wird zum Subjekt. Präsens bleibt Präsens: «wird geputzt».",
+    "fehler": [
+     {
+      "antwort": "ist geputzt",
+      "diagnoseId": "zustand_statt_vorgang",
+      "feedback": "«Ist geputzt» beschreibt den Zustand danach. Das Vorgangspassiv braucht «werden»: wird geputzt."
+     },
+     {
+      "antwort": "wurde geputzt",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "Der Aktivsatz steht im Präsens («putzt»). Beim Umformen bleibt die Zeitform gleich, also «wird geputzt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nEin Unbekannter stahl das Velo.\n\nDas Velo ___.",
+    "loesung": [
+     "wurde gestohlen"
+    ],
+    "erklaerung": "Präteritum bleibt Präteritum: «wurde» plus Partizip «gestohlen».",
+    "fehler": [
+     {
+      "antwort": "wird gestohlen",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "«Stahl» steht im Präteritum. Das Hilfsverb muss dieselbe Zeit haben: «wurde gestohlen»."
+     },
+     {
+      "antwort": "ist gestohlen",
+      "diagnoseId": "zustand_statt_vorgang",
+      "feedback": "«Ist gestohlen» beschreibt den Zustand. Für den Vorgang braucht es «werden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDie Klasse hat den Raum aufgeräumt.\n\nDer Raum ___.",
+    "loesung": [
+     "ist aufgeräumt worden",
+     "wurde aufgeräumt"
+    ],
+    "erklaerung": "Im Perfekt lautet das Passiv «ist … worden». Das Wörtchen «worden» ist das sichere Zeichen.",
+    "fehler": [
+     {
+      "antwort": "ist aufgeräumt geworden",
+      "diagnoseId": "worden_falsch",
+      "feedback": "Im Passiv heisst es «worden», nicht «geworden». Das «ge-» fällt weg, wenn «werden» Hilfsverb ist."
+     },
+     {
+      "antwort": "hat aufgeräumt",
+      "diagnoseId": "hilfsverb_falsch",
+      "feedback": "Das ist immer noch Aktiv. Fürs Passiv brauchst du «sein» plus Partizip plus «worden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDie Gemeinde baut eine neue Turnhalle.\n\nEine neue Turnhalle ___.",
+    "loesung": [
+     "wird gebaut"
+    ],
+    "erklaerung": "Das Akkusativobjekt wird Subjekt, das Verb wird zu «wird gebaut».",
+    "fehler": [
+     {
+      "antwort": "wird bauen",
+      "diagnoseId": "infinitiv_statt_partizip",
+      "feedback": "Nach «werden» steht im Passiv das Partizip II, nicht der Infinitiv. «Wird bauen» wäre Futur im Aktiv."
+     },
+     {
+      "antwort": "baut",
+      "diagnoseId": "aktiv_geblieben",
+      "feedback": "Das ist immer noch Aktiv. Eine Turnhalle baut nichts, mit ihr geschieht etwas."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDer Wind deckte das Dach ab.\n\nDas Dach ___.",
+    "loesung": [
+     "wurde abgedeckt"
+    ],
+    "erklaerung": "Präteritum: «wurde» plus Partizip «abgedeckt». Bei trennbaren Verben bleibt der Verbzusatz am Partizip.",
+    "fehler": [
+     {
+      "antwort": "wurde abdecken",
+      "diagnoseId": "infinitiv_statt_partizip",
+      "feedback": "Nach «wurde» steht das Partizip II: abgedeckt, nicht abdecken."
+     },
+     {
+      "antwort": "wird abgedeckt",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "«Deckte ab» ist Präteritum. Das Hilfsverb muss mit: «wurde abgedeckt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDie Jury prüft alle Anmeldungen.\n\nAlle Anmeldungen ___.",
+    "loesung": [
+     "werden geprüft"
+    ],
+    "erklaerung": "Das Subjekt steht im Plural, also heisst das Hilfsverb «werden».",
+    "fehler": [
+     {
+      "antwort": "wird geprüft",
+      "diagnoseId": "kongruenz_fehlt",
+      "feedback": "«Alle Anmeldungen» ist Mehrzahl. Das Hilfsverb muss dazu passen: «werden geprüft»."
+     },
+     {
+      "antwort": "sind geprüft",
+      "diagnoseId": "zustand_statt_vorgang",
+      "feedback": "«Sind geprüft» beschreibt den Zustand nach der Prüfung. Für den Vorgang steht «werden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nJemand hatte den Brief geöffnet.\n\nDer Brief ___.",
+    "loesung": [
+     "war geöffnet worden"
+    ],
+    "erklaerung": "Plusquamperfekt im Passiv: «war» plus Partizip plus «worden».",
+    "fehler": [
+     {
+      "antwort": "ist geöffnet worden",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "«Hatte geöffnet» ist Plusquamperfekt. Dann heisst es «war geöffnet worden», nicht «ist»."
+     },
+     {
+      "antwort": "war geöffnet",
+      "diagnoseId": "worden_fehlt",
+      "feedback": "Ohne «worden» ist das der Zustand. Für den Vorgang im Plusquamperfekt braucht es «war geöffnet worden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDie Schule verschickt die Zeugnisse.\n\nDie Zeugnisse ___.",
+    "loesung": [
+     "werden verschickt"
+    ],
+    "erklaerung": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt: Es rückt nach vorn und steht nun im Nominativ. Das Passiv baut sich aus «werden» und dem Partizip II; die Zeitform bleibt dieselbe wie im Aktivsatz. Wer die Handlung ausführt, wird mit «von» angeschlossen. Plural im Präsens: «werden verschickt».",
+    "fehler": [
+     {
+      "antwort": "wird verschickt",
+      "diagnoseId": "kongruenz_fehlt",
+      "feedback": "«Die Zeugnisse» ist Mehrzahl. Das Hilfsverb lautet «werden»."
+     },
+     {
+      "antwort": "werden verschicken",
+      "diagnoseId": "infinitiv_statt_partizip",
+      "feedback": "Nach «werden» steht im Passiv das Partizip II: verschickt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDer Verein wählte eine neue Präsidentin.\n\nEine neue Präsidentin ___.",
+    "loesung": [
+     "wurde gewählt"
+    ],
+    "erklaerung": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt: Es rückt nach vorn und steht nun im Nominativ. Das Passiv baut sich aus «werden» und dem Partizip II; die Zeitform bleibt dieselbe wie im Aktivsatz. Wer die Handlung ausführt, wird mit «von» angeschlossen. Präteritum: «wurde gewählt».",
+    "fehler": [
+     {
+      "antwort": "wurde wählen",
+      "diagnoseId": "infinitiv_statt_partizip",
+      "feedback": "Nach «wurde» steht das Partizip II: gewählt."
+     },
+     {
+      "antwort": "ist gewählt",
+      "diagnoseId": "zustand_statt_vorgang",
+      "feedback": "«Ist gewählt» beschreibt, dass sie es jetzt ist. Der Vorgang der Wahl heisst «wurde gewählt»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Passiv um.\n\nDie Sanitäterin verband den Arm.\n\nDer Arm ___.",
+    "loesung": [
+     "wurde verbunden"
+    ],
+    "erklaerung": "Präteritum, Partizip «verbunden» ohne «ge-», weil die Vorsilbe «ver-» untrennbar ist.",
+    "fehler": [
+     {
+      "antwort": "wurde geverbunden",
+      "diagnoseId": "ge_bei_vorsilbe",
+      "feedback": "Nach der untrennbaren Vorsilbe «ver-» steht kein «ge-». Das Partizip heisst «verbunden»."
+     },
+     {
+      "antwort": "wird verbunden",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "«Verband» ist Präteritum. Das Hilfsverb muss mit: «wurde verbunden»."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Aktiv um. Setze «man» als Subjekt.\n\nDie Fenster werden jeden Frühling geputzt.\n\n___ die Fenster jeden Frühling.",
+    "loesung": [
+     "Man putzt"
+    ],
+    "erklaerung": "Beim Umformen ins Aktiv braucht es ein Subjekt. Ist keines genannt, setzt man «man» ein.",
+    "fehler": [
+     {
+      "antwort": "Man putzte",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "Der Passivsatz steht im Präsens («werden»). Im Aktiv bleibt es dabei: «Man putzt»."
+     },
+     {
+      "antwort": "Die Fenster putzen",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Die Fenster putzen nichts, mit ihnen wird etwas gemacht. Sie bleiben das Objekt, und «man» wird zum Subjekt."
+     }
+    ]
+   },
+   {
+    "stamm": "Forme ins Aktiv um. Setze «man» als Subjekt.\n\nDas Velo wurde gestern repariert.\n\n___ das Velo gestern.",
+    "loesung": [
+     "Man reparierte"
+    ],
+    "erklaerung": "Präteritum bleibt Präteritum, und «man» wird zum Subjekt.",
+    "fehler": [
+     {
+      "antwort": "Man repariert",
+      "diagnoseId": "zeitform_verschoben",
+      "feedback": "«Wurde repariert» ist Präteritum. Im Aktiv heisst es «Man reparierte»."
+     },
+     {
+      "antwort": "Das Velo reparierte",
+      "diagnoseId": "subjekt_verwechselt",
+      "feedback": "Das Velo repariert sich nicht selbst. Es bleibt das Objekt."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "wortgruppe-in-fall-setzen",
+  "lernzielId": "D2.6.02",
+  "fach": "sprachbetrachtung",
+  "unterthemen": [
+   "6.02",
+   "6.03"
+  ],
+  "format": "luecke",
+  "hinweise": [
+   "Welchen Fall fordert das Verb oder die Präposition im Satz?",
+   "Setze die ganze Wortgruppe: Artikel, Adjektiv und Nomen bekommen alle eine Endung.",
+   "Beim Genitiv bekommen männliche und sächliche Nomen zusätzlich ein -s oder -es."
+  ],
+  "loesungsweg": [
+   "Bestimme zuerst den geforderten Fall.",
+   "Beuge dann die ganze Wortgruppe, nicht nur den Artikel.",
+   "Prüfe zum Schluss die Endung am Nomen selbst."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(der alte Mantel)  Sie trug ___ ihrer Grossmutter.",
+    "loesung": [
+     "den alten Mantel"
+    ],
+    "erklaerung": "«tragen» fordert den Akkusativ: Wen oder was trug sie? Beim männlichen Artikel wird «der» zu «den», das Adjektiv bekommt -en.",
+    "fehler": [
+     {
+      "antwort": "der alte Mantel",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist der Nominativ. Frage vom Verb aus: «Wen oder was trug sie?» Das ist der Akkusativ, und dort heisst es «den alten Mantel»."
+     },
+     {
+      "antwort": "den alte Mantel",
+      "diagnoseId": "adjektiv_nicht_gebeugt",
+      "feedback": "Der Artikel stimmt, das Adjektiv nicht. In einer Wortgruppe wird alles gebeugt: den alten Mantel."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(die neue Nachbarin)  Er half ___ beim Umzug.",
+    "loesung": [
+     "der neuen Nachbarin"
+    ],
+    "erklaerung": "«helfen» fordert den Dativ. Bei weiblichen Wörtern lautet er «der», das Adjektiv bekommt -en.",
+    "fehler": [
+     {
+      "antwort": "die neue Nachbarin",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist der Nominativ. «Helfen» gehört zu den Verben mit Dativ: wie danken, gratulieren, gehören."
+     },
+     {
+      "antwort": "der neue Nachbarin",
+      "diagnoseId": "adjektiv_nicht_gebeugt",
+      "feedback": "Nach «der» im Dativ bekommt das Adjektiv immer die Endung -en: der neuen Nachbarin."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(das kleine Kind)  Die Mutter ___ wartete draussen.",
+    "loesung": [
+     "des kleinen Kindes"
+    ],
+    "erklaerung": "Wessen Mutter? Das ist der Genitiv. Sächliche Nomen bekommen dort zusätzlich ein -es.",
+    "fehler": [
+     {
+      "antwort": "des kleinen Kind",
+      "diagnoseId": "nomenendung_vergessen",
+      "feedback": "Der Artikel und das Adjektiv stimmen, am Nomen fehlt die Endung. Im Genitiv heisst es «des Kindes»."
+     },
+     {
+      "antwort": "dem kleinen Kind",
+      "diagnoseId": "fall_verwechselt",
+      "feedback": "«Dem» ist der Dativ. Die Frage «wessen Mutter?» führt zum Genitiv: des kleinen Kindes."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(ein starker Regen)  Wegen ___ blieb sie zu Hause.",
+    "loesung": [
+     "eines starken Regens"
+    ],
+    "erklaerung": "«wegen» fordert den Genitiv. Der unbestimmte Artikel wird zu «eines», das Nomen bekommt -s.",
+    "fehler": [
+     {
+      "antwort": "einem starken Regen",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "Umgangssprachlich hört man «wegen dem Regen». Geschrieben fordert «wegen» den Genitiv: eines starken Regens."
+     },
+     {
+      "antwort": "eines starken Regen",
+      "diagnoseId": "nomenendung_vergessen",
+      "feedback": "Im Genitiv bekommen männliche Nomen ein -s oder -es: eines Regens."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(die müden Kinder)  Der Lehrer gab ___ eine Pause.",
+    "loesung": [
+     "den müden Kindern"
+    ],
+    "erklaerung": "«geben» fordert für die Empfänger den Dativ. Im Plural bekommt das Nomen zusätzlich ein -n.",
+    "fehler": [
+     {
+      "antwort": "den müden Kinder",
+      "diagnoseId": "nomenendung_vergessen",
+      "feedback": "Im Dativ Plural bekommt das Nomen ein zusätzliches -n: den Kindern. Das wird oft vergessen."
+     },
+     {
+      "antwort": "die müden Kinder",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist Nominativ oder Akkusativ. «Wem gab er eine Pause?» Das ist der Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(mein bester Freund)  Ich habe ___ lange nicht gesehen.",
+    "loesung": [
+     "meinen besten Freund"
+    ],
+    "erklaerung": "«sehen» fordert den Akkusativ. «Mein» wird zu «meinen», das Adjektiv bekommt -en.",
+    "fehler": [
+     {
+      "antwort": "mein bester Freund",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist der Nominativ. «Wen habe ich nicht gesehen?» Das ist der Akkusativ."
+     },
+     {
+      "antwort": "meinem besten Freund",
+      "diagnoseId": "fall_verwechselt",
+      "feedback": "«Meinem» ist der Dativ. «Sehen» fordert aber den Akkusativ, nicht den Dativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(das offene Fenster)  Der Wind kam durch ___.",
+    "loesung": [
+     "das offene Fenster"
+    ],
+    "erklaerung": "«durch» fordert den Akkusativ. Bei sächlichen Wörtern sehen Nominativ und Akkusativ gleich aus.",
+    "fehler": [
+     {
+      "antwort": "dem offenen Fenster",
+      "diagnoseId": "praeposition_falsch_zugeordnet",
+      "feedback": "«Durch» fordert immer den Akkusativ, nie den Dativ. Merk dir die Reihe: durch, für, gegen, ohne, um."
+     },
+     {
+      "antwort": "des offenen Fensters",
+      "diagnoseId": "fall_verwechselt",
+      "feedback": "Das ist der Genitiv. Nach «durch» steht der Akkusativ."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(die alte Uhr)  Sie erinnerte sich ___ ihres Grossvaters.",
+    "loesung": [
+     "der alten Uhr"
+    ],
+    "erklaerung": "«sich erinnern an» oder mit Genitiv: hier steht die Uhr im Genitiv, der bei weiblichen Wörtern «der» lautet.",
+    "fehler": [
+     {
+      "antwort": "die alte Uhr",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist der Nominativ. «Sich erinnern» kann ein Genitivobjekt bei sich haben: Wessen erinnerte sie sich?"
+     },
+     {
+      "antwort": "den alten Uhr",
+      "diagnoseId": "genus_falsch",
+      "feedback": "«Den» passt zu männlichen Wörtern. «Die Uhr» ist weiblich."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(ein warmer Pullover)  Im Winter braucht man ___.",
+    "loesung": [
+     "einen warmen Pullover"
+    ],
+    "erklaerung": "«brauchen» fordert den Akkusativ. «Ein» wird zu «einen».",
+    "fehler": [
+     {
+      "antwort": "ein warmer Pullover",
+      "diagnoseId": "nominativ_gelassen",
+      "feedback": "Das ist der Nominativ. «Was braucht man?» Der Akkusativ, also «einen warmen Pullover»."
+     },
+     {
+      "antwort": "einen warmer Pullover",
+      "diagnoseId": "adjektiv_nicht_gebeugt",
+      "feedback": "Der Artikel ist richtig, das Adjektiv nicht. Nach «einen» heisst es «warmen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(die grosse Halle)  Das Konzert fand in ___ statt.",
+    "loesung": [
+     "der grossen Halle"
+    ],
+    "erklaerung": "«in» mit der Frage «wo?» fordert den Dativ. Bei weiblichen Wörtern lautet er «der».",
+    "fehler": [
+     {
+      "antwort": "die grosse Halle",
+      "diagnoseId": "wechselpraeposition",
+      "feedback": "«In» ist eine Wechselpräposition. Beim Akkusativ ginge es um eine Richtung («wohin?»). Hier fragt man «wo?», also Dativ."
+     },
+     {
+      "antwort": "der grosse Halle",
+      "diagnoseId": "adjektiv_nicht_gebeugt",
+      "feedback": "Nach «der» im Dativ bekommt das Adjektiv -en: der grossen Halle."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(der lange Brief)  Am Ende ___ stand nur ein Wort.",
+    "loesung": [
+     "des langen Briefes",
+     "des langen Briefs"
+    ],
+    "erklaerung": "Das Ende gehört zum Brief. Genitiv. Männliche Nomen bekommen -es oder -s.",
+    "fehler": [
+     {
+      "antwort": "dem langen Brief",
+      "diagnoseId": "fall_verwechselt",
+      "feedback": "«Dem» ist der Dativ. «Wessen Ende?» führt zum Genitiv: des langen Briefes."
+     },
+     {
+      "antwort": "des langen Brief",
+      "diagnoseId": "nomenendung_vergessen",
+      "feedback": "Im Genitiv fehlt die Endung am Nomen: des Briefes oder des Briefs."
+     }
+    ]
+   },
+   {
+    "stamm": "Setze die Wortgruppe in den richtigen Fall.\n\n(seine kleine Schwester)  Er zeigte ___ das Foto.",
+    "loesung": [
+     "seiner kleinen Schwester"
+    ],
+    "erklaerung": "«zeigen» fordert für die Person den Dativ. Bei weiblichen Wörtern wird «seine» zu «seiner».",
+    "fehler": [
+     {
+      "antwort": "seine kleine Schwester",
+      "diagnoseId": "zwei_objekte_verwechselt",
+      "feedback": "Im Satz stehen zwei Objekte. «Das Foto» ist der Akkusativ, die Person steht im Dativ: seiner kleinen Schwester."
+     },
+     {
+      "antwort": "seiner kleine Schwester",
+      "diagnoseId": "adjektiv_nicht_gebeugt",
+      "feedback": "Nach «seiner» im Dativ bekommt das Adjektiv -en."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der ZAP2-Sprachprüfungen 2015-2025; Sätze und Wortmaterial eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

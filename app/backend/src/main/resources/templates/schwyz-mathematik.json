@@ -1,0 +1,4178 @@
+[
+ {
+  "templateId": "sz-grundoperationen",
+  "lernzielId": "MSZ.1.01",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.01",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a+(c-d)*b"
+   }
+  ],
+  "bedingungen": [
+   "c>d",
+   "wert<340",
+   "wert!=a",
+   "wert!=b",
+   "wert!=c",
+   "wert!=d",
+   "(c-d)*b!=a",
+   "c-d!=b"
+  ],
+  "stamm": "{name} rechnet Schritt für Schritt.\n\n{a} + ({c} − {d}) · {b} =",
+  "loesung": "a+(c-d)*b",
+  "gegenprobe": "a+(c*b-d*b)",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a+c-d)*b",
+    "feedback": "Die Klammer wird zuerst ausgerechnet und danach mit {b} multipliziert. Die {a} gehört nicht in die Klammer."
+   },
+   {
+    "diagnoseId": "ohne_klammer",
+    "ausdruck": "a+c-d*b",
+    "feedback": "Ohne Klammer würde nur {d} mit {b} multipliziert. Die Klammer fasst beide Zahlen zu einem einzigen Faktor zusammen."
+   },
+   {
+    "diagnoseId": "subtrahiert",
+    "ausdruck": "a-(c-d)*b",
+    "feedback": "Vor dem Produkt steht ein Pluszeichen; das Ergebnis wird dazugezählt, nicht abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechnung kommt zuerst dran?",
+   "Zuerst die Klammer, dann die Multiplikation.",
+   "Ganz zum Schluss wird {a} dazugezählt."
+  ],
+  "loesungsweg": [
+   "Klammer: {c} − {d}.",
+   "Das Ergebnis mit {b} multiplizieren.",
+   "Dazu {a} addieren.",
+   "Es ergibt sich {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-brueche-sz",
+  "lernzielId": "MSZ.1.02",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.02",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=72",
+   "((p*b+q*a)%(a*b))!=0",
+   "wert<2",
+   "p/a!=q/b"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner. Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} =",
+  "loesung": "p/a+q/b",
+  "gegenprobe": "(p*b+q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "ueber_kreuz",
+    "ausdruck": "(p+q)/(a+b)",
+    "feedback": "Zähler zu Zähler und Nenner zu Nenner ergibt einen falschen Wert: Sonst wäre ein Halbes plus ein Halbes zwei Viertel."
+   },
+   {
+    "diagnoseId": "nenner_beibehalten",
+    "ausdruck": "(p+q)/a",
+    "feedback": "Die Nenner sind verschieden; erst nach dem Erweitern dürfen die Zähler addiert werden."
+   },
+   {
+    "diagnoseId": "multipliziert",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Das wäre das Produkt der beiden Brüche; zwischen ihnen steht ein Plus."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie addiert?",
+   "Den gemeinsamen Nenner {a} · {b}.",
+   "Dann nur die Zähler addieren und am Schluss kürzen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern.",
+   "Zähler addieren.",
+   "Kürzen ergibt {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-potenz-wurzel",
+  "lernzielId": "MSZ.1.04",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 11,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "pot",
+    "typ": "formel",
+    "ausdruck": "pow(b,n)"
+   },
+   {
+    "name": "radikand",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   }
+  ],
+  "bedingungen": [
+   "pot<=1296",
+   "r!=b",
+   "radikand!=pot",
+   "pot!=r"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\nBerechne {b}{n:hoch} und die Quadratwurzel aus {radikand}.",
+  "felder": [
+   {
+    "name": "pot",
+    "label": "{b}{n:hoch}",
+    "ausdruck": "pow(b,n)",
+    "fehler": [
+     {
+      "diagnoseId": "mal_exponent",
+      "ausdruck": "b*n",
+      "feedback": "Eine Hochzahl bedeutet nicht mal: {b}{n:hoch} heisst, {b} genau {n}-mal mit sich selbst zu multiplizieren."
+     },
+     {
+      "diagnoseId": "ein_faktor_zu_wenig",
+      "ausdruck": "pow(b,n-1)",
+      "feedback": "Hier wurde ein Faktor zu wenig gerechnet. Die Hochzahl {n} sagt, wie viele Faktoren es sind."
+     },
+     {
+      "diagnoseId": "vertauscht",
+      "ausdruck": "pow(n,b)",
+      "feedback": "Basis und Hochzahl sind vertauscht. Unten steht {b}, oben {n}."
+     }
+    ]
+   },
+   {
+    "name": "wurzel",
+    "label": "Quadratwurzel aus {radikand}",
+    "ausdruck": "r",
+    "fehler": [
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "radikand/2",
+      "feedback": "Die Wurzel ist nicht die Hälfte. Gesucht ist die Zahl, die mit sich selbst multipliziert {radikand} ergibt."
+     },
+     {
+      "diagnoseId": "quadriert",
+      "ausdruck": "radikand*radikand",
+      "feedback": "Das ist das Quadrat statt der Wurzel; die Rechnung läuft in die falsche Richtung."
+     },
+     {
+      "diagnoseId": "zehntel",
+      "ausdruck": "radikand/10",
+      "feedback": "Ein Zehntel hat mit der Wurzel nichts zu tun. Probiere Zahlen aus: Welche ergibt mit sich selbst {radikand}?"
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was sagt die kleine Zahl oben rechts?",
+   "Wie viele gleiche Faktoren multipliziert werden.",
+   "Die Wurzel geht den umgekehrten Weg des Quadrierens."
+  ],
+  "loesungsweg": [
+   "{b}{n:hoch} bedeutet {b} mal {b}, und das {n}-mal.",
+   "Das ergibt {pot}.",
+   "Für die Wurzel die Zahl suchen, deren Quadrat {radikand} ist.",
+   "Das ist {r}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-gleichung-sz",
+  "lernzielId": "MSZ.1.09",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.09",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "a*x+b-c*x"
+   }
+  ],
+  "bedingungen": [
+   "a!=c",
+   "x!=0",
+   "d>0",
+   "abs(a-c)>1",
+   "abs(d)<170",
+   "x!=b",
+   "x!=d",
+   "x!=a",
+   "x!=c",
+   "d!=b"
+  ],
+  "stamm": "{name} löst die Gleichung nach x auf und macht die Probe.\n\n{a}x + {b} = {c}x + {d}",
+  "loesung": "x",
+  "gegenprobe": "(d-b)/(a-c)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_eine_seite",
+    "ausdruck": "(d-b)/a",
+    "feedback": "Auf beiden Seiten steht ein x. Zuerst werden sie zusammengefasst: Aus {a}x und {c}x wird ({a} − {c})x."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "(b-d)/(a-c)",
+    "feedback": "Beim Verschieben über das Gleichheitszeichen wechselt das Vorzeichen. Hier ist die Differenz verkehrt herum gebildet worden."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(d-b)/(a+c)",
+    "feedback": "Die x-Glieder stehen auf verschiedenen Seiten und werden darum voneinander abgezogen, nicht addiert."
+   }
+  ],
+  "hinweise": [
+   "Auf welcher Seite soll das x am Schluss stehen?",
+   "Ziehe {c}x auf beiden Seiten ab.",
+   "Danach die Zahlen verschieben und durch den Faktor teilen."
+  ],
+  "loesungsweg": [
+   "x-Glieder zusammenfassen: ({a} − {c})x.",
+   "Zahlen auf die andere Seite bringen.",
+   "Durch den Faktor teilen.",
+   "Probe: Beide Seiten ergeben denselben Wert bei x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-zahlenmauer",
+  "lernzielId": "MSZ.1.11",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.11",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "u",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "w",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "l",
+    "typ": "formel",
+    "ausdruck": "u+v"
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "v+w"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "u+2*v+w"
+   }
+  ],
+  "bedingungen": [
+   "u!=v",
+   "v!=w",
+   "u!=w",
+   "o<70",
+   "l!=r",
+   "l!=o",
+   "r!=o",
+   "l!=w",
+   "r!=u"
+  ],
+  "stamm": "{name} füllt eine Zahlenmauer aus. Zwei benachbarte Steine ergeben zusammen den Stein darüber.\n\nUnten stehen {u}, {v} und {w}.\nBerechne den mittleren Stein der zweiten Reihe und den Stein ganz oben.",
+  "felder": [
+   {
+    "name": "r",
+    "label": "rechter Stein der zweiten Reihe",
+    "ausdruck": "v+w",
+    "fehler": [
+     {
+      "diagnoseId": "linker_stein",
+      "ausdruck": "u+v",
+      "feedback": "Das ist der linke Stein der zweiten Reihe. Der rechte entsteht aus den beiden rechten Steinen unten."
+     },
+     {
+      "diagnoseId": "alle_drei",
+      "ausdruck": "u+v+w",
+      "feedback": "Ein Stein der zweiten Reihe entsteht aus genau zwei Nachbarn, nicht aus allen drei unteren."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "abs(v-w)",
+      "feedback": "Zwei Nachbarn werden addiert, nicht voneinander abgezogen."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Stein ganz oben",
+    "ausdruck": "u+2*v+w",
+    "fehler": [
+     {
+      "diagnoseId": "nur_aussen",
+      "ausdruck": "u+w",
+      "feedback": "Der mittlere Stein zählt zweimal mit: Er steckt sowohl im linken als auch im rechten Stein der zweiten Reihe."
+     },
+     {
+      "diagnoseId": "summe_unten",
+      "ausdruck": "u+v+w",
+      "feedback": "Hier fehlt, dass der mittlere Stein doppelt in die Spitze eingeht."
+     },
+     {
+      "diagnoseId": "nur_zweite_reihe",
+      "ausdruck": "v+w",
+      "feedback": "Das ist nur ein Stein der zweiten Reihe. Ganz oben werden beide addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie entsteht ein Stein aus den beiden darunter?",
+   "Durch Addieren.",
+   "Rechne zuerst die zweite Reihe ganz aus, dann die Spitze."
+  ],
+  "loesungsweg": [
+   "Linker Stein: {u} + {v} = {l}.",
+   "Rechter Stein: {v} + {w} = {r}.",
+   "Spitze: {l} + {r}.",
+   "Der mittlere Stein zählt dabei zweimal; oben steht {o}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-negative-sz",
+  "lernzielId": "MSZ.1.12",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "1.12",
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "m",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "im Bergwerkstollen"
+     ],
+     [
+      "im Tauchbecken"
+     ],
+     [
+      "im Kellerschacht"
+     ],
+     [
+      "im Tiefgaragenlift"
+     ],
+     [
+      "im Bohrloch"
+     ],
+     [
+      "im Silo"
+     ],
+     [
+      "im Schachtbauwerk"
+     ],
+     [
+      "im Trockendock"
+     ],
+     [
+      "im Brunnenschacht"
+     ],
+     [
+      "im Untergeschoss"
+     ],
+     [
+      "im Testbecken"
+     ],
+     [
+      "im Höhlensystem"
+     ]
+    ]
+   },
+   {
+    "name": "mitte",
+    "typ": "formel",
+    "ausdruck": "0-a+b"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "0-a+b-c"
+   }
+  ],
+  "bedingungen": [
+   "b!=a",
+   "c!=b",
+   "mitte!=0",
+   "ende!=0",
+   "abs(ende)<40",
+   "ende!=0-a",
+   "mitte!=0-a",
+   "ende!=mitte",
+   "ende!=b",
+   "ende!=c",
+   "ende!=a",
+   "ende!=0-b",
+   "ende!=0-c",
+   "abs(ende)!=a",
+   "abs(ende)!=b",
+   "abs(ende)!=c"
+  ],
+  "stamm": "Eine Messsonde hängt {ort} auf −{a} m, also {a} Meter unter dem Nullpunkt. Sie wird um {b} m nach oben gezogen und danach um {c} m wieder abgesenkt.\n\nAuf welcher Höhe hängt sie jetzt?",
+  "loesung": "0-a+b-c",
+  "gegenprobe": "(b-c)-a",
+  "fehler": [
+   {
+    "diagnoseId": "minus_uebersehen",
+    "ausdruck": "a+b-c",
+    "feedback": "Der Startwert liegt unter null. Ein Minuszeichen davor ändert die ganze Rechnung — begonnen wird bei −{a} m."
+   },
+   {
+    "diagnoseId": "beides_addiert",
+    "ausdruck": "0-a+b+c",
+    "feedback": "Am Schluss wird die Sonde abgesenkt; die {c} m werden abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "0-a-b+c",
+    "feedback": "Zuerst geht es nach oben und danach nach unten — hier sind die beiden Richtungen vertauscht."
+   }
+  ],
+  "hinweise": [
+   "Wo auf dem Zahlenstrahl liegt der Startwert?",
+   "Unterhalb der Null, bei −{a}.",
+   "Nach oben heisst addieren, nach unten subtrahieren."
+  ],
+  "loesungsweg": [
+   "Start bei −{a} m.",
+   "Um {b} m nach oben ergibt {mitte} m.",
+   "Um {c} m nach unten.",
+   "Die Sonde hängt auf {ende} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-winkel",
+  "lernzielId": "MSZ.2.01",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 22,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 22,
+    "bis": 78,
+    "schritt": 1
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "alpha+beta"
+   }
+  ],
+  "bedingungen": [
+   "gamma>20",
+   "gamma<130",
+   "alpha!=beta",
+   "gamma!=alpha",
+   "gamma!=beta",
+   "aussen<160",
+   "alpha!=90",
+   "beta!=90"
+  ],
+  "stamm": "In einem Dreieck misst {name} die Winkel {alpha}° und {beta}°.\n\nBerechne den dritten Innenwinkel und den Aussenwinkel bei ihm.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "dritter Innenwinkel in Grad",
+    "ausdruck": "180-alpha-beta",
+    "fehler": [
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°. Die 360° gelten im Viereck oder für eine volle Drehung."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "alpha+beta",
+      "feedback": "Das ist die Summe der beiden gemessenen Winkel. Der dritte ist das, was bis 180° fehlt."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "abs(alpha-beta)",
+      "feedback": "Die beiden Winkel werden von 180° abgezogen, nicht voneinander."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel in Grad",
+    "ausdruck": "alpha+beta",
+    "fehler": [
+     {
+      "diagnoseId": "innenwinkel",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der Innenwinkel selbst. Der Aussenwinkel ergänzt ihn auf 180°."
+     },
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Der Aussenwinkel ist der Nebenwinkel des Innenwinkels: 180° minus diesem."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "(alpha+beta)/2",
+      "feedback": "Halbiert wird hier nichts; der Aussenwinkel ist so gross wie die Summe der beiden anderen Innenwinkel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Dreieck?",
+   "180°. Der dritte Winkel ist der Rest.",
+   "Der Aussenwinkel ergänzt den Innenwinkel auf 180°."
+  ],
+  "loesungsweg": [
+   "Dritter Winkel: 180° − {alpha}° − {beta}° = {gamma}°.",
+   "Der Aussenwinkel ist 180° − {gamma}°.",
+   "Das ergibt {aussen}°.",
+   "Probe: {aussen}° ist genau {alpha}° + {beta}°."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-dreieck",
+  "lernzielId": "MSZ.2.02",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.02",
+   "2.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Wimpel"
+     ],
+     [
+      "ein Warndreieck"
+     ],
+     [
+      "ein Segel"
+     ],
+     [
+      "ein Tuch"
+     ],
+     [
+      "eine Blechplatte"
+     ],
+     [
+      "ein Holzkeil"
+     ],
+     [
+      "eine Fahne"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "eine Filzform"
+     ],
+     [
+      "ein Papierdreieck"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "eine Glasscheibe"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*k"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*k"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "g>4",
+   "h>4",
+   "c<=70",
+   "g!=h",
+   "fl!=u",
+   "fl<600"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines rechtwinkligen Dreiecks. Die beiden Katheten messen {g} cm und {h} cm, die längste Seite {c} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbieren",
+      "ausdruck": "(m*m-n*n)*k*(2*m*n)*k",
+      "feedback": "Das ist die Fläche des Rechtecks mit denselben Katheten. Ein rechtwinkliges Dreieck füllt davon genau die Hälfte."
+     },
+     {
+      "diagnoseId": "mit_hypotenuse",
+      "ausdruck": "(m*m-n*n)*k*(m*m+n*n)*k/2",
+      "feedback": "In die Formel gehören die beiden Katheten, nicht die längste Seite."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "((m*m-n*n)*k+(2*m*n)*k)/2",
+      "feedback": "Für die Fläche werden die Katheten multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "(m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k",
+    "fehler": [
+     {
+      "diagnoseId": "nur_katheten",
+      "ausdruck": "(m*m-n*n)*k+(2*m*n)*k",
+      "feedback": "Die längste Seite fehlt: Ein Dreieck hat drei Seiten, und der Umfang läuft einmal ganz herum."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*((m*m-n*n)*k+(2*m*n)*k+(m*m+n*n)*k)",
+      "feedback": "Verdoppelt wird beim Umfang nichts; jede Seite kommt genau einmal vor."
+     },
+     {
+      "diagnoseId": "flaeche",
+      "ausdruck": "(m*m-n*n)*k*(2*m*n)*k/2",
+      "feedback": "Das ist die Fläche in cm². Der Umfang ist die Summe der drei Seiten."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche beiden Seiten schliessen den rechten Winkel ein?",
+   "Die Katheten {g} cm und {h} cm — sie gehören in die Flächenformel.",
+   "Für den Umfang zählen alle drei Seiten."
+  ],
+  "loesungsweg": [
+   "Fläche: die beiden Katheten multiplizieren und halbieren.",
+   "{g} · {h} : 2 ergibt {fl} cm².",
+   "Umfang: alle drei Seiten addieren.",
+   "{g} + {h} + {c} = {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-parallelogramm",
+  "lernzielId": "MSZ.2.03",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Sitzkissen"
+     ],
+     [
+      "eine Fahne"
+     ],
+     [
+      "ein Fensterladen"
+     ],
+     [
+      "eine Bodenplatte"
+     ],
+     [
+      "ein Schild"
+     ],
+     [
+      "ein Wandtuch"
+     ],
+     [
+      "eine Holzplatte"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "ein Papierstück"
+     ],
+     [
+      "eine Filzmatte"
+     ],
+     [
+      "ein Pflasterstein"
+     ],
+     [
+      "eine Blechtafel"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "g*h"
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*(g+b)"
+   }
+  ],
+  "bedingungen": [
+   "h<b",
+   "h*10>=b*6",
+   "g!=b",
+   "fl!=u",
+   "g!=h",
+   "b!=h",
+   "fl<560"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines Parallelogramms mit der Grundseite {g} cm, der zugehörigen Höhe {h} cm und der schrägen Seite {b} cm.\n\nBerechne Fläche und Umfang.",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Fläche in cm²",
+    "ausdruck": "g*h",
+    "fehler": [
+     {
+      "diagnoseId": "mit_schraeger_seite",
+      "ausdruck": "g*b",
+      "feedback": "Für die Fläche zählt die Höhe, nicht die schräge Seite. Die Höhe steht senkrecht auf der Grundseite."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "g*h/2",
+      "feedback": "Halbiert wird beim Dreieck. Ein Parallelogramm ist doppelt so gross wie das Dreieck mit derselben Grundseite und Höhe."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "g+h",
+      "feedback": "Für die Fläche werden Grundseite und Höhe multipliziert, nicht addiert."
+     }
+    ]
+   },
+   {
+    "name": "u",
+    "label": "Umfang in cm",
+    "ausdruck": "2*(g+b)",
+    "fehler": [
+     {
+      "diagnoseId": "mit_hoehe",
+      "ausdruck": "2*(g+h)",
+      "feedback": "Die Höhe ist keine Seite des Parallelogramms. Zum Umfang gehören die beiden Grundseiten und die beiden schrägen Seiten."
+     },
+     {
+      "diagnoseId": "nur_einmal",
+      "ausdruck": "g+b",
+      "feedback": "Jede der beiden Seitenlängen kommt zweimal vor — gegenüberliegende Seiten sind gleich lang."
+     },
+     {
+      "diagnoseId": "alle_vier_gleich",
+      "ausdruck": "4*g",
+      "feedback": "Nur beim Rhombus sind alle vier Seiten gleich lang. Hier sind zwei Seiten {g} cm und zwei Seiten {b} cm lang."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche der drei Längen steht senkrecht auf der Grundseite?",
+   "Die Höhe {h} cm — sie gehört in die Flächenformel.",
+   "Für den Umfang zählen dagegen die beiden echten Seitenlängen."
+  ],
+  "loesungsweg": [
+   "Fläche: Grundseite mal Höhe.",
+   "{g} · {h} ergibt {fl} cm².",
+   "Umfang: beide Seitenpaare addieren.",
+   "2 · ({g} + {b}) ergibt {u} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-zusammengesetzte-flaeche",
+  "lernzielId": "MSZ.2.04",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.04",
+   "2.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm²",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Bodenbelag"
+     ],
+     [
+      "ein Sitzbrett"
+     ],
+     [
+      "eine Wandtafel"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "eine Terrassenplatte"
+     ],
+     [
+      "ein Podest"
+     ],
+     [
+      "eine Glasscheibe"
+     ],
+     [
+      "einen Kartonzuschnitt"
+     ],
+     [
+      "eine Filzunterlage"
+     ],
+     [
+      "ein Holzbrett"
+     ],
+     [
+      "eine Metallplatte"
+     ],
+     [
+      "einen Papierzuschnitt"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "a*b-c*d"
+   }
+  ],
+  "bedingungen": [
+   "c<a",
+   "d<b",
+   "fl>60",
+   "fl<640",
+   "c*d>8",
+   "a!=b",
+   "c!=d",
+   "fl!=a*b",
+   "fl!=a",
+   "fl!=b"
+  ],
+  "stamm": "{name} zeichnet {ding}: ein Rechteck mit den Seiten {a} cm und {b} cm, aus dem in einer Ecke ein Rechteck mit {c} cm und {d} cm herausgeschnitten ist.\n\nWie gross ist die verbleibende Fläche?",
+  "loesung": "a*b-c*d",
+  "gegenprobe": "(a-c)*b+c*(b-d)",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "a*b+c*d",
+    "feedback": "Das ausgeschnittene Stück wird abgezogen, nicht dazugezählt — sonst wäre die Fläche grösser als das ganze Rechteck."
+   },
+   {
+    "diagnoseId": "nur_gross",
+    "ausdruck": "a*b",
+    "feedback": "Das ist die Fläche des ganzen Rechtecks. Der Ausschnitt fehlt noch."
+   },
+   {
+    "diagnoseId": "umfangsartig",
+    "ausdruck": "(a+b)*2-(c+d)*2",
+    "feedback": "Hier sind Umfänge gerechnet worden. Für eine Fläche werden Länge und Breite multipliziert."
+   }
+  ],
+  "hinweise": [
+   "Aus welchen zwei Rechtecken besteht die Aufgabe?",
+   "Aus dem grossen Rechteck und dem ausgeschnittenen kleinen.",
+   "Ziehe die kleinere Fläche von der grösseren ab."
+  ],
+  "loesungsweg": [
+   "Grosses Rechteck: {a} · {b}.",
+   "Ausschnitt: {c} · {d}.",
+   "Die kleinere Fläche abziehen.",
+   "Es bleiben {fl} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-kreis-sz",
+  "lernzielId": "MSZ.2.05",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Brunnenrand"
+     ],
+     [
+      "ein Rundbeet"
+     ],
+     [
+      "eine Zielscheibe"
+     ],
+     [
+      "einen Deckel"
+     ],
+     [
+      "eine Sitzplatte"
+     ],
+     [
+      "ein Rondell"
+     ],
+     [
+      "einen Käselaib"
+     ],
+     [
+      "eine Trommelfläche"
+     ],
+     [
+      "ein Zifferblatt"
+     ],
+     [
+      "eine Herdplatte"
+     ],
+     [
+      "einen Springbrunnen"
+     ],
+     [
+      "ein rundes Tischblatt"
+     ]
+    ]
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "2*r"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "r*r"
+   }
+  ],
+  "bedingungen": [
+   "r!=2",
+   "fl!=u",
+   "fl!=r",
+   "u!=r"
+  ],
+  "stamm": "{name} zeichnet {ding} als Kreis mit dem Radius {r} cm.\n\nGib Umfang und Fläche als Vielfaches von π an — trage also nur die Zahl vor dem π ein.",
+  "felder": [
+   {
+    "name": "u",
+    "label": "Umfang: Zahl vor π (in cm)",
+    "ausdruck": "2*r",
+    "fehler": [
+     {
+      "diagnoseId": "flaeche_statt_umfang",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Zahl für die Fläche. Der Umfang ist 2 · π · r, also das Doppelte des Radius vor dem π."
+     },
+     {
+      "diagnoseId": "nur_radius",
+      "ausdruck": "r",
+      "feedback": "Der Radius allein reicht nicht: Im Umfang steckt der Durchmesser, und der ist doppelt so lang."
+     },
+     {
+      "diagnoseId": "durchmesser_verdoppelt",
+      "ausdruck": "4*r",
+      "feedback": "Hier ist der Durchmesser noch einmal verdoppelt worden."
+     }
+    ]
+   },
+   {
+    "name": "fl",
+    "label": "Fläche: Zahl vor π (in cm²)",
+    "ausdruck": "r*r",
+    "fehler": [
+     {
+      "diagnoseId": "umfang_statt_flaeche",
+      "ausdruck": "2*r",
+      "feedback": "Das ist die Zahl für den Umfang. In der Fläche steht r², also der Radius mit sich selbst multipliziert."
+     },
+     {
+      "diagnoseId": "mal_zwei",
+      "ausdruck": "2*r*r",
+      "feedback": "Beim Quadrieren wird nicht verdoppelt: r² heisst r mal r."
+     },
+     {
+      "diagnoseId": "mit_durchmesser",
+      "ausdruck": "(2*r)*(2*r)",
+      "feedback": "Hier ist mit dem Durchmesser statt mit dem Radius gerechnet worden — das ergibt die vierfache Fläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche beiden Formeln gelten für den Kreis?",
+   "Umfang 2 · r · π und Fläche r² · π.",
+   "Gefragt ist nur die Zahl, die vor dem π steht."
+  ],
+  "loesungsweg": [
+   "Umfang: 2 · π · {r} cm.",
+   "Vor dem π steht {u}.",
+   "Fläche: π · {r}² cm².",
+   "Vor dem π steht {fl}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-pythagoras-sz",
+  "lernzielId": "MSZ.2.06",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.06",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "s",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Leiter an der Wand"
+     ],
+     [
+      "eine Rampe"
+     ],
+     [
+      "ein Spannseil"
+     ],
+     [
+      "ein Dachsparren"
+     ],
+     [
+      "eine Strebe am Modell"
+     ],
+     [
+      "ein Drahtseil"
+     ],
+     [
+      "eine Diagonale im Rechteck"
+     ],
+     [
+      "eine Schrägstütze"
+     ],
+     [
+      "ein Zeltseil"
+     ],
+     [
+      "eine Verstrebung"
+     ],
+     [
+      "ein schräges Brett"
+     ],
+     [
+      "eine Zugstange"
+     ]
+    ]
+   },
+   {
+    "name": "kat1",
+    "typ": "formel",
+    "ausdruck": "(m*m-n*n)*s"
+   },
+   {
+    "name": "kat2",
+    "typ": "formel",
+    "ausdruck": "(2*m*n)*s"
+   },
+   {
+    "name": "hyp",
+    "typ": "formel",
+    "ausdruck": "(m*m+n*n)*s"
+   }
+  ],
+  "bedingungen": [
+   "n<m",
+   "ggt(m,n)==1",
+   "(m-n)%2==1",
+   "hyp<=150",
+   "kat1>5",
+   "kat2>5",
+   "kat1!=kat2",
+   "hyp!=kat1+kat2",
+   "hyp!=m",
+   "hyp!=n"
+  ],
+  "stamm": "In einem rechtwinkligen Dreieck bildet {ding} die Hypotenuse. Die beiden Katheten messen {kat1} cm und {kat2} cm.\n\nWie lang ist die Hypotenuse?",
+  "loesung": "(m*m+n*n)*s",
+  "gegenprobe": "sqrt(((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s))",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "(m*m-n*n)*s+(2*m*n)*s",
+    "feedback": "Die Katheten werden nicht addiert. Erst werden ihre Quadrate addiert, und aus der Summe wird die Wurzel gezogen."
+   },
+   {
+    "diagnoseId": "ohne_wurzel",
+    "ausdruck": "((m*m-n*n)*s)*((m*m-n*n)*s)+((2*m*n)*s)*((2*m*n)*s)",
+    "feedback": "Das ist c², also die Summe der Quadrate. Die Länge selbst ist die Wurzel daraus."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "sqrt(abs(((2*m*n)*s)*((2*m*n)*s)-((m*m-n*n)*s)*((m*m-n*n)*s)))",
+    "feedback": "Subtrahiert wird nur, wenn eine Kathete gesucht ist. Bei der Hypotenuse werden die Quadrate addiert."
+   }
+  ],
+  "hinweise": [
+   "Welche Seite liegt dem rechten Winkel gegenüber?",
+   "Die Hypotenuse — sie ist die längste Seite.",
+   "Es gilt a² + b² = c²; ziehe zum Schluss die Wurzel."
+  ],
+  "loesungsweg": [
+   "{kat1}² und {kat2}² berechnen.",
+   "Die Quadrate addieren.",
+   "Aus der Summe die Wurzel ziehen.",
+   "Die Hypotenuse misst {hyp} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-quader",
+  "lernzielId": "MSZ.2.07",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Zügelkiste"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "ein Werkzeugkasten"
+     ],
+     [
+      "ein Blumenkasten"
+     ],
+     [
+      "ein Paket"
+     ],
+     [
+      "eine Truhe"
+     ],
+     [
+      "ein Schuhkarton"
+     ],
+     [
+      "ein Wasserbecken"
+     ],
+     [
+      "einen Sandkasten"
+     ],
+     [
+      "ein Vorratsbehälter"
+     ],
+     [
+      "ein Holzkasten"
+     ],
+     [
+      "ein Transportbehälter"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*(a*b+a*c+b*c)"
+   }
+  ],
+  "bedingungen": [
+   "a>b",
+   "b>c",
+   "v<2000",
+   "v!=o",
+   "a!=c",
+   "o<1200"
+  ],
+  "stamm": "{name} misst nach: {ding} hat die Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "a*b*c",
+    "fehler": [
+     {
+      "diagnoseId": "nur_zwei_kanten",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche. Für das Volumen werden alle drei Kanten multipliziert."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+c",
+      "feedback": "Addiert ergibt sich die Kantensumme, nicht das Volumen."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(a*b+a*c+b*c)",
+      "feedback": "Das ist die Oberfläche in cm², nicht der Rauminhalt in cm³."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*(a*b+a*c+b*c)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_drei_flaechen",
+      "ausdruck": "a*b+a*c+b*c",
+      "feedback": "Ein Quader hat sechs Flächen, je zwei gleiche. Die Summe der drei verschiedenen wird darum verdoppelt."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "a*b*c",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche zählt die sechs Seitenflächen zusammen."
+     },
+     {
+      "diagnoseId": "mantel",
+      "ausdruck": "2*(a*c+b*c)",
+      "feedback": "Das ist nur der Mantel. Grund- und Deckfläche fehlen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Quader?",
+   "Sechs, je zwei gleich grosse gegenüber.",
+   "Das Volumen dagegen ist das Produkt der drei Kanten."
+  ],
+  "loesungsweg": [
+   "Volumen: {a} · {b} · {c} = {v} cm³.",
+   "Die drei verschiedenen Flächen: {a}·{b}, {a}·{c} und {b}·{c}.",
+   "Ihre Summe verdoppeln.",
+   "Oberfläche: {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-wuerfelkoerper",
+  "lernzielId": "MSZ.2.08",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "2.08",
+   "2.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Turm"
+     ],
+     [
+      "eine Treppe"
+     ],
+     [
+      "eine Stufenform"
+     ],
+     [
+      "ein Podest"
+     ],
+     [
+      "eine Mauer"
+     ],
+     [
+      "eine Ecke"
+     ],
+     [
+      "ein Modellhaus"
+     ],
+     [
+      "eine Brücke"
+     ],
+     [
+      "ein Bauwerk"
+     ],
+     [
+      "eine Pyramidenstufe"
+     ],
+     [
+      "ein Sockelmodell"
+     ],
+     [
+      "eine Sitzstufe"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "n"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "6*n-2*k"
+   }
+  ],
+  "bedingungen": [
+   "k<n",
+   "o>10",
+   "n!=k",
+   "o!=n",
+   "k*2<n+4"
+  ],
+  "stamm": "{name} baut {ding} aus {n} gleichen Würfeln mit der Kantenlänge 1 cm. Dabei liegen {k} Berührungsflächen zwischen je zwei Würfeln aufeinander.\n\nBerechne Volumen und Oberfläche des Körpers.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "n",
+    "fehler": [
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "6*n",
+      "feedback": "Das wäre die Oberfläche aller Würfel einzeln. Das Volumen ist die Anzahl Würfel, weil jeder 1 cm³ misst."
+     },
+     {
+      "diagnoseId": "mal_sechs",
+      "ausdruck": "6*n-2*k",
+      "feedback": "Das ist die Oberfläche des Körpers. Der Rauminhalt ändert sich beim Zusammensetzen nicht."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "n/2",
+      "feedback": "Halbiert wird nichts: Jeder Würfel bringt genau 1 cm³ mit."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "6*n-2*k",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_beruehrung",
+      "ausdruck": "6*n",
+      "feedback": "An jeder Berührung verschwinden zwei Quadrate — eines von jedem der beiden Würfel."
+     },
+     {
+      "diagnoseId": "nur_eine_seite",
+      "ausdruck": "6*n-k",
+      "feedback": "Bei einer Berührung fallen zwei Flächen weg, nicht eine."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "n",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche zählt die sichtbaren Quadrate."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Quadrate hat ein einzelner Würfel?",
+   "Sechs. Bei {n} Würfeln wären es {n} mal sechs.",
+   "An jeder Berührung verschwinden zwei davon."
+  ],
+  "loesungsweg": [
+   "Volumen: {n} Würfel zu je 1 cm³.",
+   "Oberfläche ohne Berührungen: 6 · {n}.",
+   "Je Berührung fallen zwei Quadrate weg.",
+   "6 · {n} − 2 · {k} = {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-groessen",
+  "lernzielId": "MSZ.3.01",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "ml",
+    "typ": "ganzzahl",
+    "von": 150,
+    "bis": 9750,
+    "schritt": 25
+   },
+   {
+    "name": "cm2",
+    "typ": "ganzzahl",
+    "von": 250,
+    "bis": 9500,
+    "schritt": 25
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Ein Vorratsbehälter"
+     ],
+     [
+      "Ein Messbecher"
+     ],
+     [
+      "Ein Kanister"
+     ],
+     [
+      "Eine Flasche"
+     ],
+     [
+      "Ein Tank"
+     ],
+     [
+      "Ein Eimer"
+     ],
+     [
+      "Eine Kanne"
+     ],
+     [
+      "Ein Fass"
+     ],
+     [
+      "Ein Krug"
+     ],
+     [
+      "Ein Wasserspeicher"
+     ],
+     [
+      "Ein Auffangbecken"
+     ],
+     [
+      "Ein Topf"
+     ]
+    ]
+   },
+   {
+    "name": "liter",
+    "typ": "formel",
+    "ausdruck": "ml/1000"
+   },
+   {
+    "name": "dm2",
+    "typ": "formel",
+    "ausdruck": "cm2/100"
+   }
+  ],
+  "bedingungen": [
+   "ml%1000!=0",
+   "cm2%100!=0",
+   "ml!=cm2",
+   "liter!=dm2"
+  ],
+  "stamm": "{name} liest zwei Angaben ab: {sache} fasst {ml} ml, und ein Plakat an der Wand hat eine Fläche von {cm2} cm².\n\nSchreibe beide Angaben in der grösseren Einheit: das Volumen in Litern, die Fläche in Quadratdezimetern.",
+  "felder": [
+   {
+    "name": "liter",
+    "label": "Volumen in l",
+    "ausdruck": "ml/1000",
+    "zahlformat": "dezimal3",
+    "fehler": [
+     {
+      "diagnoseId": "durch_hundert",
+      "ausdruck": "ml/100",
+      "feedback": "Ein Liter sind 1000 Milliliter, nicht 100. Das Komma wandert um drei Stellen."
+     },
+     {
+      "diagnoseId": "mal_tausend",
+      "ausdruck": "ml*1000",
+      "feedback": "Von der kleineren zur grösseren Einheit wird geteilt, nicht multipliziert — die Zahl muss kleiner werden."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "ml/10",
+      "feedback": "Das Komma ist nur um eine Stelle gewandert. Von Millilitern zu Litern sind es drei."
+     }
+    ]
+   },
+   {
+    "name": "dm2",
+    "label": "Fläche in dm²",
+    "ausdruck": "cm2/100",
+    "zahlformat": "dezimal2",
+    "fehler": [
+     {
+      "diagnoseId": "durch_tausend",
+      "ausdruck": "cm2/1000",
+      "feedback": "Bei Flächenmassen ist der Schritt hundert, nicht tausend: 100 cm² ergeben 1 dm²."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "cm2/10",
+      "feedback": "Ein Quadratdezimeter ist ein Quadrat von 10 cm mal 10 cm, also 100 cm²."
+     },
+     {
+      "diagnoseId": "mal_hundert",
+      "ausdruck": "cm2*100",
+      "feedback": "Beim Wechsel zur grösseren Einheit wird die Zahl kleiner, nicht grösser."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Milliliter sind ein Liter?",
+   "1000 — bei Raummassen ist der Schritt tausend.",
+   "Bei Flächenmassen ist der Schritt hundert: 100 cm² ergeben 1 dm²."
+  ],
+  "loesungsweg": [
+   "{ml} ml durch 1000 teilen.",
+   "Das ergibt {liter} l.",
+   "{cm2} cm² durch 100 teilen.",
+   "Das ergibt {dm2} dm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-proportional",
+  "lernzielId": "MSZ.3.02",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "einzel",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 9,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Kilogramm Äpfel"
+     ],
+     [
+      "Kilogramm Zwetschgen"
+     ],
+     [
+      "Meter Schnur"
+     ],
+     [
+      "Liter Farbe"
+     ],
+     [
+      "Packungen Schrauben"
+     ],
+     [
+      "Meter Kabel"
+     ],
+     [
+      "Kilogramm Reis"
+     ],
+     [
+      "Rollen Klebeband"
+     ],
+     [
+      "Meter Stoff"
+     ],
+     [
+      "Kilogramm Mehl"
+     ],
+     [
+      "Flaschen Most"
+     ],
+     [
+      "Bündel Karotten"
+     ]
+    ]
+   },
+   {
+    "name": "preis",
+    "typ": "formel",
+    "ausdruck": "einzel*k"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "einzel*m"
+   }
+  ],
+  "bedingungen": [
+   "m>k",
+   "gesamt<190",
+   "preis!=gesamt",
+   "gesamt!=m",
+   "gesamt!=k",
+   "preis!=m",
+   "einzel!=m",
+   "einzel!=k"
+  ],
+  "stamm": "{k} {ware} kosten {preis} Fr.\n\nWie viel kosten {m} {ware} zum gleichen Preis?",
+  "loesung": "preis*m/k",
+  "gegenprobe": "einzel*m",
+  "fehler": [
+   {
+    "diagnoseId": "ohne_teilen",
+    "ausdruck": "preis*m",
+    "feedback": "Hier ist der Gesamtpreis mit {m} multipliziert worden. Zuerst muss der Preis für eine einzige Einheit berechnet werden."
+   },
+   {
+    "diagnoseId": "umgekehrt",
+    "ausdruck": "preis*k/m",
+    "feedback": "Multiplikator und Divisor sind vertauscht: geteilt wird durch die gegebene Anzahl {k}, multipliziert mit der gesuchten Anzahl {m}."
+   },
+   {
+    "diagnoseId": "additiv",
+    "ausdruck": "preis+(m-k)",
+    "feedback": "Der Preis wächst nicht um so viele Franken, wie Einheiten dazukommen. Jede zusätzliche Einheit kostet den Einzelpreis."
+   }
+  ],
+  "hinweise": [
+   "Was kostet eine einzige Einheit?",
+   "Den Gesamtpreis durch {k} teilen.",
+   "Dann mit {m} multiplizieren."
+  ],
+  "loesungsweg": [
+   "{preis} Fr. geteilt durch {k} ergibt {einzel} Fr.",
+   "Das ist der Preis für eine Einheit.",
+   "Mal {m} gerechnet.",
+   "Zusammen {gesamt} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-zahnraeder",
+  "lernzielId": "MSZ.3.03",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.03",
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "z1",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     36,
+     40,
+     45,
+     48,
+     54,
+     60
+    ]
+   },
+   {
+    "name": "u1",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     12,
+     15,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "z2",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     18,
+     20,
+     24,
+     25,
+     30
+    ]
+   },
+   {
+    "name": "u3",
+    "typ": "auswahl",
+    "werte": [
+     60,
+     72,
+     75,
+     90,
+     100,
+     120
+    ]
+   },
+   {
+    "name": "u2",
+    "typ": "formel",
+    "ausdruck": "z1*u1/z2"
+   },
+   {
+    "name": "z3",
+    "typ": "formel",
+    "ausdruck": "z1*u1/u3"
+   }
+  ],
+  "bedingungen": [
+   "(z1*u1)%z2==0",
+   "(z1*u1)%u3==0",
+   "z2<z1",
+   "u2>u1",
+   "z3<z1",
+   "z3>4",
+   "u2<200",
+   "z2!=z3",
+   "u2!=u3",
+   "z1!=u1"
+  ],
+  "stamm": "Zwei Zahnräder sind mit einer Kette verbunden. Das vordere hat {z1} Zähne und dreht sich {u1}-mal pro Minute.\n\nWie viele Umdrehungen pro Minute macht ein hinteres Zahnrad mit {z2} Zähnen? Und wie viele Zähne hat ein hinteres Zahnrad, das {u3} Umdrehungen pro Minute macht?",
+  "felder": [
+   {
+    "name": "u2",
+    "label": "Umdrehungen pro Minute",
+    "ausdruck": "z1*u1/z2",
+    "fehler": [
+     {
+      "diagnoseId": "proportional",
+      "ausdruck": "z2*u1/z1",
+      "feedback": "Weniger Zähne bedeuten mehr Umdrehungen, nicht weniger. Das Produkt aus Zähnen und Umdrehungen bleibt gleich."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "u1+(z1-z2)",
+      "feedback": "Die Zahl der Umdrehungen wächst nicht um so viel, wie Zähne fehlen — sie wächst im selben Verhältnis."
+     },
+     {
+      "diagnoseId": "gleich",
+      "ausdruck": "u1",
+      "feedback": "Bei verschieden grossen Zahnrädern ändert sich die Drehzahl; sonst wäre die Übersetzung wirkungslos."
+     }
+    ]
+   },
+   {
+    "name": "z3",
+    "label": "Anzahl Zähne",
+    "ausdruck": "z1*u1/u3",
+    "fehler": [
+     {
+      "diagnoseId": "proportional",
+      "ausdruck": "z1*u3/u1",
+      "feedback": "Mehr Umdrehungen bedeuten weniger Zähne. Hier ist das Verhältnis umgekehrt angewendet worden."
+     },
+     {
+      "diagnoseId": "gleiches_rad",
+      "ausdruck": "z1",
+      "feedback": "Das ist das vordere Zahnrad. Ein Rad mit gleich vielen Zähnen drehte auch gleich schnell."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "z1+u1-u3",
+      "feedback": "Addieren und Subtrahieren führt hier nicht weiter: Zähne und Umdrehungen stehen in einem Produkt zueinander."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bleibt bei einer Kette gleich?",
+   "Die Zahl der Zähne, die pro Minute durchlaufen: Zähne mal Umdrehungen.",
+   "Rechne dieses Produkt zuerst aus."
+  ],
+  "loesungsweg": [
+   "Zähne mal Umdrehungen vorne: {z1} · {u1}.",
+   "Diese Zahl bleibt gleich.",
+   "Durch {z2} geteilt ergibt {u2} Umdrehungen.",
+   "Durch {u3} geteilt ergibt {z3} Zähne."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-prozent-sz",
+  "lernzielId": "MSZ.3.04",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "voll",
+    "typ": "auswahl",
+    "werte": [
+     120,
+     140,
+     160,
+     180,
+     200,
+     240,
+     280,
+     320,
+     360,
+     400,
+     480,
+     600
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     40
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "einen Velohelm"
+     ],
+     [
+      "einen Rucksack"
+     ],
+     [
+      "einen Drucker"
+     ],
+     [
+      "ein Zelt"
+     ],
+     [
+      "ein Paar Schuhe"
+     ],
+     [
+      "ein Occasionsvelo"
+     ],
+     [
+      "einen Kopfhörer"
+     ],
+     [
+      "ein Wanderstock-Set"
+     ],
+     [
+      "eine Jacke"
+     ],
+     [
+      "einen Schlafsack"
+     ],
+     [
+      "ein Tablet"
+     ],
+     [
+      "eine Uhr"
+     ]
+    ]
+   },
+   {
+    "name": "rabatt",
+    "typ": "formel",
+    "ausdruck": "voll*p/100"
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "voll-voll*p/100"
+   }
+  ],
+  "bedingungen": [
+   "(voll*p)%100==0",
+   "rabatt>5",
+   "neu!=voll",
+   "rabatt!=p",
+   "neu!=p",
+   "rabatt!=neu",
+   "voll!=p"
+  ],
+  "stamm": "{name} kauft {ware}. Der Laden gibt {p} % Rabatt auf den Preis von {voll} Fr.\n\nWie hoch ist der Rabatt, und wie viel ist zu bezahlen?",
+  "felder": [
+   {
+    "name": "rabatt",
+    "label": "Rabatt in Fr.",
+    "ausdruck": "voll*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "Der Prozentsatz ist keine Zahl in Franken. Erst {p} % von {voll} Fr. ergeben den Betrag."
+     },
+     {
+      "diagnoseId": "rest",
+      "ausdruck": "voll-voll*p/100",
+      "feedback": "Das ist der Betrag, der zu bezahlen bleibt, nicht der Rabatt."
+     },
+     {
+      "diagnoseId": "durch_prozent",
+      "ausdruck": "voll/p",
+      "feedback": "Geteilt wird durch 100, nicht durch den Prozentsatz."
+     }
+    ]
+   },
+   {
+    "name": "neu",
+    "label": "zu bezahlen in Fr.",
+    "ausdruck": "voll-voll*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "rabatt_statt_preis",
+      "ausdruck": "voll*p/100",
+      "feedback": "Das ist der Rabatt. Zu bezahlen ist der ursprüngliche Preis minus dieser Betrag."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "voll+voll*p/100",
+      "feedback": "Ein Rabatt macht den Preis kleiner, nicht grösser."
+     },
+     {
+      "diagnoseId": "voller_preis",
+      "ausdruck": "voll",
+      "feedback": "Das ist der Preis ohne Rabatt; der Abzug fehlt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl entspricht 100 %?",
+   "Der Preis von {voll} Fr.",
+   "Ein Prozent ist der hundertste Teil davon."
+  ],
+  "loesungsweg": [
+   "Ein Prozent: {voll} Fr. geteilt durch 100.",
+   "Mal {p} ergibt den Rabatt {rabatt} Fr.",
+   "Vom Preis abziehen.",
+   "Zu bezahlen sind {neu} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-gewinn",
+  "lernzielId": "MSZ.3.05",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.05",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "ek",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     16,
+     20,
+     24,
+     25,
+     30,
+     40
+    ]
+   },
+   {
+    "name": "auf",
+    "typ": "auswahl",
+    "werte": [
+     25,
+     40,
+     50,
+     60,
+     75
+    ]
+   },
+   {
+    "name": "stueck",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 160,
+    "schritt": 10
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Turnschuhe"
+     ],
+     [
+      "Rucksäcke"
+     ],
+     [
+      "Trinkflaschen"
+     ],
+     [
+      "Regenjacken"
+     ],
+     [
+      "Wanderhosen"
+     ],
+     [
+      "Sonnenbrillen"
+     ],
+     [
+      "Fahrradpumpen"
+     ],
+     [
+      "Schlafmatten"
+     ],
+     [
+      "Stirnlampen"
+     ],
+     [
+      "Handschuhe"
+     ],
+     [
+      "Wollmützen"
+     ],
+     [
+      "Sitzkissen"
+     ]
+    ]
+   },
+   {
+    "name": "vk",
+    "typ": "formel",
+    "ausdruck": "ek*(100+auf)/100"
+   },
+   {
+    "name": "gewinn",
+    "typ": "formel",
+    "ausdruck": "(ek*(100+auf)/100-ek)*stueck"
+   }
+  ],
+  "bedingungen": [
+   "(ek*(100+auf))%100==0",
+   "vk>ek",
+   "gewinn<9000",
+   "gewinn>200",
+   "vk!=ek",
+   "stueck!=ek",
+   "vk!=stueck"
+  ],
+  "stamm": "Ein Laden kauft {stueck} {ware} zu je {ek} Fr. ein und verkauft sie {auf} % teurer.\n\nWie hoch ist der Verkaufspreis pro Stück, und wie viel Gewinn ergibt der Verkauf aller Stücke?",
+  "felder": [
+   {
+    "name": "vk",
+    "label": "Verkaufspreis pro Stück in Fr.",
+    "ausdruck": "ek*(100+auf)/100",
+    "fehler": [
+     {
+      "diagnoseId": "nur_aufschlag",
+      "ausdruck": "ek*auf/100",
+      "feedback": "Das ist der Aufschlag allein. Der Verkaufspreis ist der Einkaufspreis plus dieser Betrag."
+     },
+     {
+      "diagnoseId": "abgezogen",
+      "ausdruck": "ek*(100-auf)/100",
+      "feedback": "Der Preis steigt um {auf} %, er sinkt nicht."
+     },
+     {
+      "diagnoseId": "prozentsatz_addiert",
+      "ausdruck": "ek+auf",
+      "feedback": "Der Prozentsatz ist keine Zahl in Franken; er muss zuerst auf den Einkaufspreis angewendet werden."
+     }
+    ]
+   },
+   {
+    "name": "gewinn",
+    "label": "Gewinn insgesamt in Fr.",
+    "ausdruck": "(ek*(100+auf)/100-ek)*stueck",
+    "fehler": [
+     {
+      "diagnoseId": "umsatz",
+      "ausdruck": "ek*(100+auf)/100*stueck",
+      "feedback": "Das ist der ganze Verkaufserlös. Der Gewinn ist erst der Teil, der über dem Einkaufspreis liegt."
+     },
+     {
+      "diagnoseId": "pro_stueck",
+      "ausdruck": "ek*(100+auf)/100-ek",
+      "feedback": "Das ist der Gewinn an einem einzigen Stück; gefragt ist der Gewinn an allen {stueck}."
+     },
+     {
+      "diagnoseId": "einkauf",
+      "ausdruck": "ek*stueck",
+      "feedback": "Das ist der Einkaufspreis für alle Stücke, nicht der Gewinn."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet «{auf} % teurer»?",
+   "Zum Einkaufspreis kommen {auf} % desselben Preises dazu.",
+   "Der Gewinn je Stück ist die Differenz; mal {stueck} ergibt den ganzen Gewinn."
+  ],
+  "loesungsweg": [
+   "Aufschlag: {auf} % von {ek} Fr.",
+   "Verkaufspreis: {vk} Fr.",
+   "Gewinn je Stück: {vk} Fr. − {ek} Fr.",
+   "Mal {stueck} ergibt {gewinn} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-zins-sz",
+  "lernzielId": "MSZ.3.06",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.06",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "auswahl",
+    "werte": [
+     4000,
+     5000,
+     6000,
+     8000,
+     10000,
+     12000,
+     15000,
+     20000,
+     24000,
+     30000
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "mon",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "zweck",
+    "typ": "text",
+    "texte": [
+     [
+      "für eine Ausbildung"
+     ],
+     [
+      "für einen Umbau"
+     ],
+     [
+      "für ein Occasionsauto"
+     ],
+     [
+      "für eine Werkstatt"
+     ],
+     [
+      "für eine Küche"
+     ],
+     [
+      "für eine Reise"
+     ],
+     [
+      "für einen Anhänger"
+     ],
+     [
+      "für eine Solaranlage"
+     ],
+     [
+      "für ein Instrument"
+     ],
+     [
+      "für eine Wärmepumpe"
+     ],
+     [
+      "für einen Laden"
+     ],
+     [
+      "für eine Ausrüstung"
+     ]
+    ]
+   },
+   {
+    "name": "jahr",
+    "typ": "formel",
+    "ausdruck": "k*p/100"
+   },
+   {
+    "name": "teil",
+    "typ": "formel",
+    "ausdruck": "k*p*mon/(100*12)"
+   }
+  ],
+  "bedingungen": [
+   "(k*p)%100==0",
+   "(k*p*mon)%1200==0",
+   "jahr!=teil",
+   "teil>20",
+   "jahr!=p",
+   "teil!=p",
+   "teil!=mon"
+  ],
+  "stamm": "{name} nimmt {zweck} einen Kredit von {k} Fr. auf. Der Zinssatz beträgt {p} %.\n\nWie hoch ist der Zins für ein ganzes Jahr, und wie hoch ist er für {mon} Monate?",
+  "felder": [
+   {
+    "name": "jahr",
+    "label": "Jahreszins in Fr.",
+    "ausdruck": "k*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "durch_prozent",
+      "ausdruck": "k/p",
+      "feedback": "Geteilt wird durch 100, nicht durch den Zinssatz: Der Zins ist {p} Hundertstel des Kapitals."
+     },
+     {
+      "diagnoseId": "prozentsatz",
+      "ausdruck": "p",
+      "feedback": "Der Zinssatz ist eine Prozentzahl, kein Betrag in Franken."
+     },
+     {
+      "diagnoseId": "kapital_plus_zins",
+      "ausdruck": "k+k*p/100",
+      "feedback": "Das ist das Kapital samt Zins. Gefragt ist nur der Zins."
+     }
+    ]
+   },
+   {
+    "name": "teil",
+    "label": "Zins für {mon} Monate in Fr.",
+    "ausdruck": "k*p*mon/(100*12)",
+    "fehler": [
+     {
+      "diagnoseId": "jahreszins",
+      "ausdruck": "k*p/100",
+      "feedback": "Das ist der Zins für zwölf Monate. Für {mon} Monate ist es nur der entsprechende Anteil."
+     },
+     {
+      "diagnoseId": "durch_monate",
+      "ausdruck": "k*p/(100*mon)",
+      "feedback": "Der Jahreszins wird durch 12 geteilt und mit {mon} multipliziert, nicht einfach durch {mon} geteilt."
+     },
+     {
+      "diagnoseId": "mal_monate",
+      "ausdruck": "k*p*mon/100",
+      "feedback": "Hier fehlt die Division durch 12. Der Zins für {mon} Monate ist kleiner als der Jahreszins."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet ein Zinssatz von {p} %?",
+   "Auf 100 Fr. Kapital fallen {p} Fr. Zins im Jahr an.",
+   "Für {mon} Monate ist es der Anteil {mon} von 12."
+  ],
+  "loesungsweg": [
+   "Jahreszins: {k} · {p} : 100 = {jahr} Fr.",
+   "Ein Monat ist ein Zwölftel davon.",
+   "Mal {mon} gerechnet.",
+   "Der Zins für {mon} Monate beträgt {teil} Fr."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-lineare-funktion",
+  "lernzielId": "MSZ.3.07",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.07",
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "start",
+    "typ": "auswahl",
+    "werte": [
+     12,
+     15,
+     18,
+     20,
+     24,
+     25,
+     30,
+     36
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "tmin",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Eine Kerze"
+     ],
+     [
+      "Ein Teelicht"
+     ],
+     [
+      "Eine Wachssäule"
+     ],
+     [
+      "Eine Stumpenkerze"
+     ],
+     [
+      "Eine Altarkerze"
+     ],
+     [
+      "Eine Wachsfackel"
+     ],
+     [
+      "Eine Bienenwachskerze"
+     ],
+     [
+      "Eine Tafelkerze"
+     ],
+     [
+      "Eine Duftkerze"
+     ],
+     [
+      "Eine Stundenkerze"
+     ],
+     [
+      "Eine Gartenfackel"
+     ],
+     [
+      "Eine Wachsrolle"
+     ]
+    ]
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "start-v*tmin"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "start/v"
+   }
+  ],
+  "bedingungen": [
+   "start%v==0",
+   "rest>2",
+   "dauer<40",
+   "dauer!=rest",
+   "tmin!=v",
+   "rest!=start",
+   "dauer!=start",
+   "rest!=tmin",
+   "dauer!=tmin"
+  ],
+  "stamm": "{ding} ist zu Beginn {start} cm hoch und brennt gleichmässig um {v} cm pro Minute ab.\n\nWie hoch ist sie nach {tmin} Minuten, und nach wie vielen Minuten ist sie ganz abgebrannt?",
+  "felder": [
+   {
+    "name": "rest",
+    "label": "Höhe nach {tmin} Minuten in cm",
+    "ausdruck": "start-v*tmin",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "start+v*tmin",
+      "feedback": "Die Kerze wird kürzer, nicht länger. Der Abbrand wird abgezogen."
+     },
+     {
+      "diagnoseId": "nur_abbrand",
+      "ausdruck": "v*tmin",
+      "feedback": "Das ist, was abgebrannt ist. Gefragt ist, was übrig bleibt."
+     },
+     {
+      "diagnoseId": "ohne_geschwindigkeit",
+      "ausdruck": "start-tmin",
+      "feedback": "Pro Minute brennt die Kerze {v} cm ab, nicht einen Zentimeter."
+     }
+    ]
+   },
+   {
+    "name": "dauer",
+    "label": "Brenndauer in Minuten",
+    "ausdruck": "start/v",
+    "fehler": [
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "start*v",
+      "feedback": "Geteilt wird die Höhe durch die Abbrandgeschwindigkeit; multipliziert ergäbe sich eine viel zu grosse Zahl."
+     },
+     {
+      "diagnoseId": "umgekehrt",
+      "ausdruck": "v/start",
+      "feedback": "Der Bruch steht auf dem Kopf: Wie oft passt {v} cm in {start} cm?"
+     },
+     {
+      "diagnoseId": "minus",
+      "ausdruck": "start-v",
+      "feedback": "Zentimeter minus Zentimeter pro Minute ergibt keine Zeit. Hier wird geteilt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viel ist nach einer Minute abgebrannt?",
+   "{v} cm. Nach {tmin} Minuten entsprechend mehr.",
+   "Ganz abgebrannt ist sie, wenn die ganzen {start} cm weg sind."
+  ],
+  "loesungsweg": [
+   "Abbrand in {tmin} Minuten: {v} · {tmin}.",
+   "Von {start} cm abziehen: {rest} cm.",
+   "Für die Brenndauer {start} durch {v} teilen.",
+   "Nach {dauer} Minuten ist die Kerze weg."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "sz-mittelwert",
+  "lernzielId": "MSZ.3.08",
+  "fach": "mathematik-sz",
+  "unterthemen": [
+   "3.08"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Lea"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Marc"
+     ],
+     [
+      "Fabio"
+     ],
+     [
+      "Nina"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Anna"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Livia"
+     ],
+     [
+      "Elia"
+     ],
+     [
+      "Sara"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "z",
+    "typ": "auswahl",
+    "werte": [
+     20,
+     24,
+     25,
+     28,
+     30,
+     32,
+     35,
+     36,
+     40
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "verkaufte Billette"
+     ],
+     [
+      "gezählte Velos"
+     ],
+     [
+      "ausgeliehene Bücher"
+     ],
+     [
+      "gemeldete Anmeldungen"
+     ],
+     [
+      "verkaufte Kuchenstücke"
+     ],
+     [
+      "gezählte Vögel"
+     ],
+     [
+      "belegte Plätze"
+     ],
+     [
+      "abgegebene Zettel"
+     ],
+     [
+      "gesammelte Flaschen"
+     ],
+     [
+      "gemessene Regentage"
+     ],
+     [
+      "gezählte Fahrgäste"
+     ],
+     [
+      "gelöste Aufgaben"
+     ]
+    ]
+   },
+   {
+    "name": "fuenfter",
+    "typ": "formel",
+    "ausdruck": "5*z-(a+b+c+d)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "c!=d",
+   "a!=c",
+   "b!=d",
+   "a!=d",
+   "fuenfter>8",
+   "fuenfter<60",
+   "fuenfter!=a",
+   "fuenfter!=b",
+   "fuenfter!=c",
+   "fuenfter!=d",
+   "fuenfter!=z",
+   "(a+b+c+d)%4!=0"
+  ],
+  "stamm": "{name} zählt an vier Tagen {sache}: {a}, {b}, {c} und {d}.\n\nWie viele müssen es am fünften Tag sein, damit der Durchschnitt aller fünf Tage genau {z} beträgt?",
+  "loesung": "5*z-(a+b+c+d)",
+  "gegenprobe": "(z-a)+(z-b)+(z-c)+(z-d)+z",
+  "fehler": [
+   {
+    "diagnoseId": "faktor_vier",
+    "ausdruck": "4*z-(a+b+c+d)",
+    "feedback": "Der Durchschnitt wird über fünf Tage gebildet. Die Gesamtzahl muss darum fünfmal {z} betragen."
+   },
+   {
+    "diagnoseId": "mittel_der_vier",
+    "ausdruck": "(a+b+c+d)/4",
+    "feedback": "Das ist der Durchschnitt der ersten vier Tage. Gefragt ist, was der fünfte beitragen muss."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "z-(a+b+c+d)/4",
+    "feedback": "Hier ist nur der Abstand zwischen bisherigem und gewünschtem Durchschnitt gerechnet. Der fünfte Tag muss diesen Abstand für alle fünf Tage ausgleichen."
+   }
+  ],
+  "hinweise": [
+   "Wie gross muss die Summe aller fünf Tage sein?",
+   "Fünfmal der gewünschte Durchschnitt.",
+   "Davon die vier bekannten Zahlen abziehen."
+  ],
+  "loesungsweg": [
+   "Gesamtzahl für den Durchschnitt {z}: 5 · {z}.",
+   "Die vier bekannten Zahlen addieren.",
+   "Die Summe von der Gesamtzahl abziehen.",
+   "Am fünften Tag müssen es {fuenfter} sein."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Dokumentation «Aufnahmeverfahren an die Gymnasien» und Zusatz «Gestaltung der schriftlichen und mündlichen Prüfungen» des Amts für Mittel- und Hochschulen des Kantons Schwyz sowie die Musterprüfungen für die gymnasialen Maturitätsschulen und die Fachmittelschulen, Prüfungsfach Mathematik; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

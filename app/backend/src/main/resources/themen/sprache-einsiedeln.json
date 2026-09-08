@@ -1,0 +1,107 @@
+{
+ "fach": "sprache-einsiedeln",
+ "name": "Deutsch: Sprache im Fokus",
+ "pruefung": "Aufnahmeprüfung der Stiftsschule Einsiedeln",
+ "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Wortarten und Formen",
+   "punkte": 10,
+   "anteil": 50,
+   "beschreibung": "Nomen, Verb und Adjektiv mit formalen Proben bestimmen, Zeitformen benennen, die vier Fälle mit Ersatzproben finden.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Nomen, Verb und Adjektiv bestimmen",
+     "lernzielId": "DSEI.1.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.02",
+     "name": "Pronomen und Partikel",
+     "lernzielId": "DSEI.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Präsens, Präteritum und Perfekt",
+     "lernzielId": "DSEI.1.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.04",
+     "name": "Infinitiv und Personalform",
+     "lernzielId": "DSEI.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Die vier Fälle mit der Ersatzprobe",
+     "lernzielId": "DSEI.1.05",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Wortbau und Rechtschreibung",
+   "punkte": 10,
+   "anteil": 50,
+   "beschreibung": "Wortstamm und Wortfamilie, Morpheme, die ie-Regel, die f-/v-Regel, die Doppelkonsonantenregel, Grossschreibung und Kommas.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Wortstamm und Wortfamilie",
+     "lernzielId": "DSEI.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Vor- und Nachmorpheme",
+     "lernzielId": "DSEI.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Die ie-Regel",
+     "lernzielId": "DSEI.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Die Doppelkonsonantenregel mit ck und tz",
+     "lernzielId": "DSEI.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Die Stammregel: e oder ä, f oder v",
+     "lernzielId": "DSEI.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Grossschreibung von Nomen",
+     "lernzielId": "DSEI.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Komma bei Aufzählungen",
+     "lernzielId": "DSEI.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Zeichen der direkten Rede",
+     "lernzielId": "DSEI.2.08",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

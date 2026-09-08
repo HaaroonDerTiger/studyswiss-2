@@ -1,0 +1,131 @@
+{
+ "fach": "mathematik-einsiedeln",
+ "name": "Mathematik: Zahl, Variable und Grössen",
+ "pruefung": "Aufnahmeprüfung der Stiftsschule Einsiedeln",
+ "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026",
+ "punkteTotal": 40,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Zahl und Variable",
+   "punkte": 24,
+   "anteil": 60,
+   "beschreibung": "Der Stoff des zweiten Zyklus: Brüche, Dezimalzahlen, Prozente, Teiler und Vielfache, Punkt vor Strich. Kein Taschenrechner.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen und Punkt vor Strich",
+     "lernzielId": "MEI.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Klammerregeln",
+     "lernzielId": "MEI.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Teiler, Vielfache und Primzahlen",
+     "lernzielId": "MEI.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Brüche kürzen, erweitern und ordnen",
+     "lernzielId": "MEI.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Brüche addieren und subtrahieren",
+     "lernzielId": "MEI.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Brüche mit ganzen Zahlen multiplizieren",
+     "lernzielId": "MEI.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Dezimalzahlen addieren und subtrahieren",
+     "lernzielId": "MEI.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Dezimalzahlen multiplizieren und dividieren",
+     "lernzielId": "MEI.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Bruch, Dezimalzahl und Prozent ineinander umwandeln",
+     "lernzielId": "MEI.1.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.10",
+     "name": "Überschlagen und Runden",
+     "lernzielId": "MEI.1.10",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "B",
+   "name": "Grössen, Funktionen, Daten und Zufall",
+   "punkte": 16,
+   "anteil": 40,
+   "beschreibung": "Grössen umwandeln und mit ihnen rechnen, Proportionalität erkennen, Daten aus Tabellen und Diagrammen lesen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Längen, Massen und Zeiten umwandeln",
+     "lernzielId": "MEI.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Mit Geld und Zeit rechnen",
+     "lernzielId": "MEI.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Direkte Proportionalität",
+     "lernzielId": "MEI.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Wertetabellen ausfüllen",
+     "lernzielId": "MEI.2.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.05",
+     "name": "Mittelwert",
+     "lernzielId": "MEI.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Daten aus Tabellen und Diagrammen lesen",
+     "lernzielId": "MEI.2.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.07",
+     "name": "Kombinationen abzählen",
+     "lernzielId": "MEI.2.07",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

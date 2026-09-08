@@ -1,0 +1,292 @@
+/* StudySwiss — Seitenaufbau der Website
+   ==================================================================
+   Die App ist für den Daumen gebaut: Tab-Leiste unten, eine Spalte,
+   Seitenrand 24. Ein Laptop hat aber 1400 px und eine Tastatur — wer
+   dort die Telefon-Ansicht zeigt, lässt zwei Drittel des Bildschirms
+   leer und zwingt zum Rollen, wo nichts zu rollen wäre.
+
+   Darum wächst die Seite mit: Unter 900 px ist sie die App, darüber
+   wird die Tab-Leiste zur Kopfzeile, die Spalte breiter und der
+   Lesetext steht neben der Frage statt darüber.                       */
+
+/* --- Kopfzeile ---------------------------------------------------- */
+.kopf{position:sticky;top:0;z-index:40;background:rgba(251,245,234,.92);
+  backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--line)}
+.kopf-innen{max-width:var(--spalte);margin:0 auto;padding:0 var(--rand);
+  height:68px;display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:center;gap:10px;flex:none}
+.logo:hover{text-decoration:none}
+.logo svg{height:26px;width:auto;display:block}
+.logo b{font:700 20px/1 'Bitter',Georgia,serif;letter-spacing:-.02em;color:var(--ink)}
+.logo b i{font-style:normal;color:var(--tan)}
+.hauptnav{display:flex;gap:4px;margin-left:auto}
+.hauptnav a{padding:9px 14px;border-radius:10px;font:600 14px 'Nunito Sans';
+  color:var(--ink5)}
+.hauptnav a:hover{background:var(--tan1);color:var(--ink);text-decoration:none}
+.hauptnav a[aria-current=page]{background:var(--tan1);color:var(--ink)}
+.kopf .btn.klein{margin-left:8px}
+.menuknopf{display:none;margin-left:auto;width:44px;height:44px;border:none;
+  background:transparent;border-radius:10px;cursor:pointer;color:var(--ink7)}
+.menuknopf:hover{background:var(--tan1)}
+
+/* --- Inhaltsbreiten ------------------------------------------------ */
+.band{padding:64px var(--rand)}
+.band.schmal{padding:44px var(--rand)}
+.band.dunkelband{background:var(--ink);color:var(--cream);
+  background-image:none}
+.band.dunkelband h2,.band.dunkelband h3{color:var(--cream)}
+.band.dunkelband .bd,.band.dunkelband .bd14{color:var(--tan1)}
+.band.dunkelband .eyebrow{color:var(--tan3)}
+.innen{max-width:var(--spalte);margin:0 auto}
+.innen.lese{max-width:var(--lesespalte)}
+.innen.mittel{max-width:860px}
+
+/* --- Raster --------------------------------------------------------
+   `auto-fit` mit `minmax` statt fester Spaltenzahl: Die Karten ordnen
+   sich selbst um, und niemand muss für Tablet, Laptop und grossen
+   Bildschirm je eine Regel schreiben. */
+.raster{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.raster.zwei{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.raster.vier{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.zweispalt{display:grid;gap:44px;grid-template-columns:1.05fr .95fr;align-items:center}
+.stapel>*+*{margin-top:14px}
+.stapel.weit>*+*{margin-top:24px}
+.stapel.eng>*+*{margin-top:8px}
+
+/* --- Aufmacher ----------------------------------------------------- */
+.aufmacher{padding:76px var(--rand) 64px}
+.aufmacher h1{max-width:15ch}
+.aufmacher .bd{font-size:17px;max-width:52ch;margin-top:16px}
+.knopfreihe{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.belege{display:flex;gap:28px;flex-wrap:wrap;margin-top:36px}
+.beleg .num2{color:var(--ink)}
+.beleg .sm{margin-top:2px}
+
+/* --- Fusszeile ----------------------------------------------------- */
+.fuss{background:var(--ink);color:var(--tan1);padding:56px var(--rand) 36px;
+  background-image:none}
+.fuss .innen{display:grid;gap:32px;grid-template-columns:1.4fr 1fr 1fr 1fr}
+.fuss h4{color:var(--cream);font-size:14px;margin-bottom:12px}
+.fuss a{display:block;color:var(--tan1);padding:5px 0;font-size:14px}
+.fuss a:hover{color:var(--cream)}
+.fuss .schluss{grid-column:1/-1;border-top:1px solid rgba(228,203,169,.22);
+  padding-top:22px;margin-top:10px;display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;color:var(--ink3);font-size:12px}
+
+/* --- Schritte einer Strecke ----------------------------------------
+   Offerte → Bestellung → Bestätigung → Rechnung. Wer eine Bestellung
+   für eine Gemeinde ausfüllt, will jederzeit sehen, wie viel noch
+   kommt — sonst bricht er in der Mitte ab. */
+.schritte{display:flex;gap:0;margin-bottom:36px;flex-wrap:wrap}
+.schritt{display:flex;align-items:center;gap:10px;padding-right:18px}
+.schritt .kugel{width:28px;height:28px;border-radius:14px;flex:none;
+  background:var(--tan1);color:var(--tan6);display:flex;align-items:center;
+  justify-content:center;font:700 13px 'Bitter',Georgia,serif}
+.schritt span{font:600 13px 'Nunito Sans';color:var(--ink3);white-space:nowrap}
+.schritt.jetzt .kugel{background:var(--ink);color:var(--cream)}
+.schritt.jetzt span{color:var(--ink)}
+.schritt.fertig .kugel{background:var(--green);color:#fff}
+.schritt.fertig span{color:var(--ink5)}
+.schritt+.schritt::before{content:"";width:22px;height:1px;background:var(--line);
+  margin-right:18px;flex:none}
+
+/* --- Preistafel ----------------------------------------------------- */
+.preiskarte{position:relative;display:flex;flex-direction:column}
+.preiskarte.empfohlen{border-color:var(--tan);box-shadow:0 0 0 1px var(--tan)}
+.preiskarte .marke{position:absolute;top:-11px;left:20px;background:var(--tan);
+  color:var(--ink);font:700 11px/1 'Nunito Sans';letter-spacing:.06em;
+  text-transform:uppercase;padding:6px 10px;border-radius:7px}
+.preiskarte ul{list-style:none;margin:18px 0 0;padding:0}
+.preiskarte li{display:flex;gap:10px;padding:7px 0;font:400 14px/1.45 'Nunito Sans';
+  color:var(--ink5)}
+.preiskarte li svg{flex:none;margin-top:2px;color:var(--green)}
+.preiskarte .btn{margin-top:auto}
+.preiskarte .preis{display:flex;align-items:baseline;gap:8px;margin:14px 0 2px}
+
+/* --- Rechner --------------------------------------------------------- */
+.rechner{display:grid;gap:32px;grid-template-columns:1fr 380px;align-items:start}
+.schieber{width:100%;accent-color:var(--ink);height:34px;cursor:pointer}
+.staffel{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.staffel .chip{cursor:default}
+.summe dt{font:400 14px 'Nunito Sans';color:var(--ink5)}
+.summe dd{margin:0;font:600 14px 'Bitter',Georgia,serif;font-variant-numeric:tabular-nums}
+.summe div{display:flex;justify-content:space-between;gap:16px;padding:7px 0}
+.summe div.total{border-top:2px solid var(--ink);margin-top:8px;padding-top:12px}
+.summe div.total dt{font:700 15px 'Nunito Sans';color:var(--ink)}
+.summe div.total dd{font:700 22px 'Bitter',Georgia,serif}
+
+/* --- Lernbereich: Seitenleiste statt Tab-Leiste ----------------------
+   In der App sind die fünf Tabs unten, weil dort der Daumen liegt. Am
+   Laptop liegt dort nichts — die Navigation gehört an den Rand, wo sie
+   immer sichtbar bleibt und keinen Platz vom Inhalt nimmt. */
+.werkflaeche{display:grid;grid-template-columns:248px minmax(0,1fr);
+  gap:0;min-height:calc(100vh - 68px);max-width:var(--spalte);margin:0 auto}
+.seitenleiste{border-right:1px solid var(--line);padding:28px 18px 28px var(--rand);
+  position:sticky;top:68px;align-self:start;max-height:calc(100vh - 68px);
+  overflow-y:auto}
+.seitenleiste nav a{display:flex;align-items:center;gap:12px;padding:11px 12px;
+  border-radius:11px;color:var(--ink5);font:600 14px 'Nunito Sans'}
+.seitenleiste nav a:hover{background:var(--tan1);color:var(--ink);text-decoration:none}
+.seitenleiste nav a[aria-current=page]{background:var(--ink);color:var(--cream)}
+.seitenleiste nav a[aria-current=page] svg{color:var(--cream)}
+.seitenleiste nav a svg{flex:none;color:var(--ink7)}
+.arbeitsflaeche{padding:28px var(--rand) 64px}
+
+/* Beim Textverständnis stehen Lesetext und Frage nebeneinander, sobald
+   Platz da ist. Auf dem Telefon schöbe der Text die Frage aus dem Bild —
+   dort bleibt er einklappbar darüber. */
+.mit-lesetext{display:grid;gap:28px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  align-items:start}
+.lesetext{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:22px;max-height:calc(100vh - 160px);overflow-y:auto;
+  font:400 15px/1.68 'Nunito Sans';color:var(--ink5);white-space:pre-wrap}
+.lesetext h4{margin-bottom:12px;color:var(--ink)}
+
+/* --- Selbsttest, Standortbestimmung und Aufsatz -----------------------
+   Bauteile, die es nur im Lernbereich gibt. Alle Werte kommen aus den
+   Tokens; keine Farbe steht hier als Zahl (§5.3).                     */
+
+/* Die Uhr. Sie liegt neben dem Stand «3 von 12» und wird in den letzten
+   fünf Minuten rot — wer den Blick auf der Aufgabe hat, soll die Zeit am
+   Rand bemerken, ohne hinzusehen. */
+.uhr{font:700 14px/1 'Bitter',Georgia,serif;font-variant-numeric:tabular-nums;
+  background:var(--tan1);color:var(--ink);border:1px solid var(--line);
+  border-radius:9px;padding:5px 9px;margin-left:10px;display:inline-block}
+.uhr.knapp{background:var(--red1);border-color:var(--red);color:var(--red)}
+
+/* Ein schwaches Oberthema im Selbsttest-Ergebnis: weniger als die Hälfte.
+   Die Farbe ist die Aussage, nicht Schmuck. */
+.bar>i.schwach{background:var(--red)}
+
+.raster.drei{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+
+/* Die Teilaufträge eines Aufsatzthemas zum Abhaken. Nicht `.haken`: Das
+   ist das Kästchen der Formulare und trägt ein echtes <input>. Zwei
+   Regeln unter demselben Namen heben sich früher oder später auf. */
+.teilhaken{display:flex;gap:11px;align-items:flex-start;width:100%;text-align:left;
+  background:none;border:0;padding:6px 0;cursor:pointer;
+  font:400 14px/1.45 'Nunito Sans';color:var(--ink5)}
+.teilhaken .kasten{width:20px;height:20px;flex:none;border:1.5px solid var(--ink3);
+  border-radius:5px;display:flex;align-items:center;justify-content:center;
+  color:var(--cream);margin-top:1px}
+.teilhaken.an .kasten{background:var(--ink);border-color:var(--ink)}
+.teilhaken.an{color:var(--ink)}
+
+/* Die Stufe eines Korrektur-Kriteriums. Beschreibend, nie eine Ziffer:
+   Eine Note sagt einer Vierzehnjährigen, wo sie steht, aber nicht, was
+   sie tun soll (§9). */
+.stufe{display:inline-block;margin-top:10px;border-radius:8px;padding:4px 10px;
+  font:700 12px/1.3 'Nunito Sans'}
+.stufe-rot{background:var(--red1);color:var(--red)}
+.stufe-gelb{background:var(--gelb1);color:var(--gelb)}
+.stufe-gruen{background:var(--green1);color:var(--green)}
+
+.kuerzel{width:26px;height:26px;flex:none;border-radius:50%;background:var(--tan1);
+  display:flex;align-items:center;justify-content:center;
+  font:700 12px/1 'Nunito Sans';color:var(--tan6)}
+
+/* Der bessere Vorschlag zu einer Textstelle. Grün, weil er das Richtige
+   zeigt — dieselbe Bedeutung wie bei einer richtigen Antwort. */
+.besser{background:var(--green1);border-radius:10px;padding:12px;margin-top:10px;
+  font:400 14px/1.55 'Nunito Sans';color:var(--ink)}
+
+/* Die Wochenlinie des Lernpfads: eine senkrechte Linie von heute bis zur
+   Prüfung. Die laufende Woche ist markiert, vergangene treten zurück —
+   aber sie werden nicht durchgestrichen: Es gibt keinen Rückstand
+   aufzuholen (§5.5). */
+.wochenlinie{border-left:2px solid var(--line);padding-left:20px;
+  display:flex;flex-direction:column;gap:16px}
+.woche{position:relative}
+.woche::before{content:"";position:absolute;left:-27px;top:6px;width:11px;height:11px;
+  border-radius:50%;background:var(--tan1);border:2px solid var(--line)}
+.woche.jetzt::before{background:var(--ink);border-color:var(--ink)}
+.woche.vorbei{opacity:.55}
+
+.liste{margin:0;padding-left:20px}
+.liste li{font:400 14px/1.6 'Nunito Sans';color:var(--ink5);margin-bottom:8px}
+
+/* Eine Wahlkarte im Selbsttest und in der Standortbestimmung. `.wahl`
+   kommt aus der Antwortfläche; hier steht ein ganzer Block darin, darum
+   oben ausgerichtet statt mittig. */
+.stapel .wahl{align-items:flex-start}
+
+/* --- Schmale Ansicht: die App ---------------------------------------- */
+@media (max-width:900px){
+  .hauptnav{display:none;position:absolute;top:68px;left:0;right:0;
+    background:var(--card);border-bottom:1px solid var(--line);flex-direction:column;
+    padding:8px 12px 14px;gap:2px}
+  .hauptnav.offen{display:flex}
+  .hauptnav a{padding:13px 14px}
+  .menuknopf{display:flex;align-items:center;justify-content:center}
+  .kopf .btn.klein{display:none}
+  .kopf-innen{gap:0}
+  .band{padding:44px var(--rand)}
+  .aufmacher{padding:44px var(--rand) 36px}
+  h1{font-size:29px;letter-spacing:-.6px}
+  h2{font-size:23px}
+  .zweispalt,.rechner{grid-template-columns:1fr;gap:28px}
+  .fuss .innen{grid-template-columns:1fr 1fr}
+  .werkflaeche{grid-template-columns:1fr;min-height:0}
+  .seitenleiste{position:static;max-height:none;border-right:none;
+    border-bottom:1px solid var(--line);padding:12px var(--rand)}
+  .seitenleiste nav{display:flex;gap:4px;overflow-x:auto}
+  .seitenleiste nav a{flex-direction:column;gap:4px;padding:8px 12px;font-size:11px;
+    white-space:nowrap}
+  .arbeitsflaeche{padding:20px var(--rand) 48px}
+  .mit-lesetext{grid-template-columns:1fr}
+  .lesetext{max-height:220px}
+  .feldpaar{grid-template-columns:1fr}
+  .btn{width:100%}
+  .knopfreihe .btn{width:auto;flex:1 1 auto;min-width:180px}
+  .schritt span{display:none}
+  .schritt+.schritt::before{width:14px;margin-right:10px}
+  .schritt{padding-right:10px}
+}
+@media (max-width:560px){
+  .fuss .innen{grid-template-columns:1fr}
+  .belege{gap:20px}
+}
+
+/* --- Vorschau-Streifen -----------------------------------------------
+   Nur im Betrieb ohne Server. Er sitzt über allem, weil eine
+   Musterrechnung, die man für echt hält, teuer wird. */
+.demostreifen{display:flex;align-items:center;gap:10px;
+  background:var(--gelb1);color:#6b4c11;padding:9px var(--rand);
+  font:400 13px/1.45 'Nunito Sans';border-bottom:1px solid #e8d9ae}
+.demostreifen b{color:#5a3f0d}
+.demostreifen svg{flex:none}
+@media print{.demostreifen{display:none}}
+
+/* --- Unternavigation --------------------------------------------------
+   Innerhalb einer Seite, etwa in der Schulverwaltung. Sie sieht aus wie
+   die Hauptnavigation, ist aber keine: Die wird auf schmalen Schirmen
+   zum Menü, diese bleibt und rollt notfalls waagrecht. */
+.unternav{display:flex;gap:4px;margin:32px 0 22px;overflow-x:auto;
+  -webkit-overflow-scrolling:touch;padding-bottom:2px}
+.unternav a{padding:9px 14px;border-radius:10px;font:600 14px 'Nunito Sans';
+  color:var(--ink5);white-space:nowrap}
+.unternav a:hover{background:var(--tan1);color:var(--ink);text-decoration:none}
+.unternav a[aria-current=page]{background:var(--ink);color:var(--cream)}
+
+/* --- Rechtstexte -----------------------------------------------------
+   Aus Markdown erzeugt. Eine ruhige Spalte, weil hier niemand etwas
+   sucht, sondern liest. */
+.rechtstext h1{font-size:29px;margin-bottom:6px}
+.rechtstext h2{font-size:23px;margin:36px 0 10px}
+.rechtstext h3{font-size:17px;margin:26px 0 8px}
+.rechtstext p,.rechtstext li{font:400 15px/1.68 'Nunito Sans';color:var(--ink5)}
+.rechtstext p{margin:0 0 14px}
+.rechtstext ul,.rechtstext ol{margin:0 0 16px;padding-left:22px}
+.rechtstext li{margin-bottom:6px}
+.rechtstext b,.rechtstext strong{color:var(--ink)}
+.rechtstext code{background:var(--tan1);padding:1px 6px;border-radius:5px;
+  font:400 13px 'Nunito Sans';color:var(--ink7)}
+.rechtstext blockquote{border-left:3px solid var(--tan3);margin:0 0 16px;
+  padding:2px 0 2px 16px;color:var(--ink5)}
+.rechtstext table{width:100%;border-collapse:collapse;margin:0 0 20px;
+  font:400 14px/1.5 'Nunito Sans'}
+.rechtstext th{text-align:left;font:700 11px/1.25 'Nunito Sans';letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tan6);padding:0 12px 9px 0;
+  border-bottom:1px solid var(--line)}
+.rechtstext td{padding:10px 12px 10px 0;border-bottom:1px solid var(--line);
+  color:var(--ink5);vertical-align:top}

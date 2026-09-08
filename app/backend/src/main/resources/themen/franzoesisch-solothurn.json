@@ -1,0 +1,226 @@
+{
+ "fach": "franzoesisch-so",
+ "name": "Französisch",
+ "pruefung": "Aufnahmeprüfung BM, FMS und Gymnasium, Kanton Solothurn",
+ "quelle": "Prüfungseckwerte Französisch ab 2026 (Wortfelder und Grammatikliste) sowie die Prüfungsserien 2022-2024",
+ "punkteTotal": 29,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "1",
+   "name": "Compréhension de texte",
+   "punkte": 14,
+   "anteil": 48,
+   "beschreibung": "Teil B der Prüfung: ein längerer Text, dazu Fragen auf Französisch, Richtig-falsch-Aufgaben und Zuordnungen.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Hauptaussagen eines Textes erfassen",
+     "lernzielId": "FSO.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Einzelheiten im Text finden",
+     "lernzielId": "FSO.1.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.03",
+     "name": "Vrai, faux ou pas mentionné",
+     "lernzielId": "FSO.1.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.02"
+     ]
+    },
+    {
+     "code": "1.04",
+     "name": "Wörter aus dem Zusammenhang erschliessen",
+     "lernzielId": "FSO.1.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.05",
+     "name": "Definitionen zuordnen",
+     "lernzielId": "FSO.1.05",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "1.04"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "2",
+   "name": "Vocabulaire",
+   "punkte": 7,
+   "anteil": 24,
+   "beschreibung": "Die Eckwerte zählen die Wortfelder einzeln auf. Geprüft wird der Grundwortschatz und die Fähigkeit, ihn im Satz zu benutzen.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Freizeit, Sport und Hobbys",
+     "lernzielId": "FSO.2.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.02",
+     "name": "Essen, Trinken und Restaurant",
+     "lernzielId": "FSO.2.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.03",
+     "name": "Wohnen, Haus und Zimmer",
+     "lernzielId": "FSO.2.03",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.04",
+     "name": "Reisen, Verkehr und Wegbeschreibung",
+     "lernzielId": "FSO.2.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.05",
+     "name": "Einkaufen, Preise und Mengen",
+     "lernzielId": "FSO.2.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.06",
+     "name": "Schule, Berufe und Alltag",
+     "lernzielId": "FSO.2.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.07",
+     "name": "Körper, Gefühle und Meinung",
+     "lernzielId": "FSO.2.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "2.08",
+     "name": "Zeit, Uhrzeit und Datum",
+     "lernzielId": "FSO.2.08",
+     "pflichtset": 12
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "3",
+   "name": "Grammaire",
+   "punkte": 8,
+   "anteil": 28,
+   "beschreibung": "Die Grammatikliste der Eckwerte, Punkt für Punkt: Zeiten, Begleiter, Pronomen, Verneinung und Satzbau.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Présent und en train de",
+     "lernzielId": "FSO.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Passé composé",
+     "lernzielId": "FSO.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Imparfait",
+     "lernzielId": "FSO.3.03",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Futur proche und futur simple",
+     "lernzielId": "FSO.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Adjektive: Form und Stellung",
+     "lernzielId": "FSO.3.05",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.06",
+     "name": "Steigerung des Adjektivs",
+     "lernzielId": "FSO.3.06",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.05"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Plural der Nomen",
+     "lernzielId": "FSO.3.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.08",
+     "name": "Kontrahierte Artikel und Präpositionen",
+     "lernzielId": "FSO.3.08",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.09",
+     "name": "Demonstrativ- und Possessivbegleiter",
+     "lernzielId": "FSO.3.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.10",
+     "name": "Reflexive Verben",
+     "lernzielId": "FSO.3.10",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.01"
+     ]
+    },
+    {
+     "code": "3.11",
+     "name": "Passé composé der reflexiven Verben",
+     "lernzielId": "FSO.3.11",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.02",
+      "3.10"
+     ]
+    },
+    {
+     "code": "3.12",
+     "name": "Verneinung",
+     "lernzielId": "FSO.3.12",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.13",
+     "name": "Fragesätze bilden",
+     "lernzielId": "FSO.3.13",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.14",
+     "name": "Personalpronomen als Subjekt und Objekt",
+     "lernzielId": "FSO.3.14",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.15",
+     "name": "Haupt- und Nebensätze verbinden",
+     "lernzielId": "FSO.3.15",
+     "pflichtset": 12
+    }
+   ]
+  }
+ ]
+}

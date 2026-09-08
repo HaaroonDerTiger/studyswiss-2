@@ -1,0 +1,2318 @@
+[
+ {
+  "templateId": "ag-en-lesen",
+  "lernzielId": "EAG.1.01",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "1.01",
+   "1.02",
+   "1.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Read the whole text once before answering.",
+   "Find the one sentence that answers each question.",
+   "Answers that do not appear in the text can be crossed out."
+  ],
+  "loesungsweg": [
+   "Read the question carefully.",
+   "Look for a keyword in the text.",
+   "Read the sentences around it.",
+   "Check all four options against the text."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "What does the shop do?",
+    "optionen": [
+     "It lends things to its members.",
+     "It sells second-hand tools.",
+     "It repairs broken items.",
+     "It gives things away for free."
+    ],
+    "loesung": [
+     "It lends things to its members."
+    ],
+    "erklaerung": "«Instead of buying a drill, a tent or a raclette oven, people borrow them for a few days.»",
+    "fehler": [
+     {
+      "antwort": "It sells second-hand tools.",
+      "diagnoseId": "verkauf",
+      "feedback": "The title says it plainly: the shop sells nothing at all."
+     },
+     {
+      "antwort": "It repairs broken items.",
+      "diagnoseId": "reparatur",
+      "feedback": "Some items come back broken, but repairing is not what the shop does."
+     },
+     {
+      "antwort": "It gives things away for free.",
+      "diagnoseId": "gratis",
+      "feedback": "Members pay sixty francs a year, so it is not free."
+     }
+    ]
+   },
+   {
+    "stamm": "How much do members pay?",
+    "optionen": [
+     "sixty francs a year",
+     "thirteen francs a month",
+     "three francs per item",
+     "nothing at all"
+    ],
+    "loesung": [
+     "sixty francs a year"
+    ],
+    "erklaerung": "«Members pay sixty francs a year and can borrow up to three items at a time.»",
+    "fehler": [
+     {
+      "antwort": "thirteen francs a month",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Thirteen is the number of minutes a drill is used in its whole life."
+     },
+     {
+      "antwort": "three francs per item",
+      "diagnoseId": "zahl_verwechselt_zwei",
+      "feedback": "Three is the number of items a member may borrow at once."
+     },
+     {
+      "antwort": "nothing at all",
+      "diagnoseId": "gratis",
+      "feedback": "The shop sells nothing, but membership does cost money."
+     }
+    ]
+   },
+   {
+    "stamm": "How long is an electric drill used in its whole life, according to Aebi?",
+    "optionen": [
+     "about thirteen minutes",
+     "about thirteen hours",
+     "about three days",
+     "about sixty minutes"
+    ],
+    "loesung": [
+     "about thirteen minutes"
+    ],
+    "erklaerung": "«An electric drill is used for about thirteen minutes in its whole life.»",
+    "fehler": [
+     {
+      "antwort": "about thirteen hours",
+      "diagnoseId": "einheit",
+      "feedback": "The text says minutes, not hours — that is what makes the number surprising."
+     },
+     {
+      "antwort": "about three days",
+      "diagnoseId": "erfunden",
+      "feedback": "Three is the number of items a member may borrow."
+     },
+     {
+      "antwort": "about sixty minutes",
+      "diagnoseId": "zahl_verwechselt",
+      "feedback": "Sixty is the yearly fee in francs, not a number of minutes."
+     }
+    ]
+   },
+   {
+    "stamm": "Which item do people ask for most often?",
+    "optionen": [
+     "a cake tin shaped like a number",
+     "an electric drill",
+     "a tent",
+     "a raclette oven"
+    ],
+    "loesung": [
+     "a cake tin shaped like a number"
+    ],
+    "erklaerung": "«… the item people ask for most is a cake tin in the shape of a number.»",
+    "fehler": [
+     {
+      "antwort": "an electric drill",
+      "diagnoseId": "erwartung",
+      "feedback": "Everyone TALKS about tools — but the drill is not the most popular item."
+     },
+     {
+      "antwort": "a tent",
+      "diagnoseId": "beispiel",
+      "feedback": "The tent appears in the last paragraph as an example of something that needs space."
+     },
+     {
+      "antwort": "a raclette oven",
+      "diagnoseId": "beispiel_zwei",
+      "feedback": "The raclette oven is one of the examples in the first paragraph."
+     }
+    ]
+   },
+   {
+    "stamm": "What problem did the shop have in its first year?",
+    "optionen": [
+     "Four bicycles disappeared.",
+     "The rent was too high.",
+     "Nobody became a member.",
+     "The shop was too small."
+    ],
+    "loesung": [
+     "Four bicycles disappeared."
+    ],
+    "erklaerung": "«In the first year, four bicycles disappeared.»",
+    "fehler": [
+     {
+      "antwort": "The rent was too high.",
+      "diagnoseId": "kosten",
+      "feedback": "The text says nothing about rent or about running costs."
+     },
+     {
+      "antwort": "Nobody became a member.",
+      "diagnoseId": "gegenteil",
+      "feedback": "The shop has 340 members and a waiting list."
+     },
+     {
+      "antwort": "The shop was too small.",
+      "diagnoseId": "groesse",
+      "feedback": "The size of the shop is never mentioned."
+     }
+    ]
+   },
+   {
+    "stamm": "What did Aebi do about the losses?",
+    "optionen": [
+     "She started taking a deposit for expensive items.",
+     "She closed the shop for a month.",
+     "She raised the yearly fee.",
+     "She stopped lending bicycles."
+    ],
+    "loesung": [
+     "She started taking a deposit for expensive items."
+    ],
+    "erklaerung": "«Aebi now takes a deposit for expensive items, and the losses have almost stopped.»",
+    "fehler": [
+     {
+      "antwort": "She closed the shop for a month.",
+      "diagnoseId": "erfunden",
+      "feedback": "The text does not mention any closure; the shop kept running."
+     },
+     {
+      "antwort": "She raised the yearly fee.",
+      "diagnoseId": "gebuehr",
+      "feedback": "The fee of sixty francs is mentioned only once, with no increase."
+     },
+     {
+      "antwort": "She stopped lending bicycles.",
+      "diagnoseId": "fahrraeder",
+      "feedback": "Bicycles disappeared, but the text does not say they were removed."
+     }
+    ]
+   },
+   {
+    "stamm": "How many members does the shop have?",
+    "optionen": [
+     "340",
+     "52",
+     "13",
+     "3"
+    ],
+    "loesung": [
+     "340"
+    ],
+    "erklaerung": "«The shop has 340 members and a waiting list.»",
+    "fehler": [
+     {
+      "antwort": "52",
+      "diagnoseId": "alter",
+      "feedback": "52 is Judith Aebi's age, not the number of members."
+     },
+     {
+      "antwort": "13",
+      "diagnoseId": "minuten",
+      "feedback": "Thirteen is the number of minutes a drill is used."
+     },
+     {
+      "antwort": "3",
+      "diagnoseId": "ausleihe",
+      "feedback": "Three is the number of items one member may borrow at a time."
+     }
+    ]
+   },
+   {
+    "stamm": "Why do most people use the shop, according to Aebi?",
+    "optionen": [
+     "because they have no space at home",
+     "because they want to save money",
+     "because they like meeting people",
+     "because the tools are better"
+    ],
+    "loesung": [
+     "because they have no space at home"
+    ],
+    "erklaerung": "«People think this is about saving money. For most of them it is about space.»",
+    "fehler": [
+     {
+      "antwort": "because they want to save money",
+      "diagnoseId": "ausdruecklich_verneint",
+      "feedback": "Aebi says people THINK it is about money — but for most it is not."
+     },
+     {
+      "antwort": "because they like meeting people",
+      "diagnoseId": "erfunden",
+      "feedback": "Meeting people is not mentioned as a reason."
+     },
+     {
+      "antwort": "because the tools are better",
+      "diagnoseId": "qualitaet",
+      "feedback": "The quality of the tools is never discussed."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «a deposit» is …",
+    "optionen": [
+     "money paid in advance and returned later",
+     "a monthly fee",
+     "a storage room",
+     "a written contract"
+    ],
+    "loesung": [
+     "money paid in advance and returned later"
+    ],
+    "erklaerung": "A deposit secures an expensive item: you get the money back when you return the item.",
+    "fehler": [
+     {
+      "antwort": "a monthly fee",
+      "diagnoseId": "gebuehr",
+      "feedback": "The membership fee is yearly, and a deposit is something else."
+     },
+     {
+      "antwort": "a storage room",
+      "diagnoseId": "lager",
+      "feedback": "A storage room would be a place, not a payment."
+     },
+     {
+      "antwort": "a written contract",
+      "diagnoseId": "vertrag",
+      "feedback": "A contract is a document; a deposit is a sum of money."
+     }
+    ]
+   },
+   {
+    "stamm": "In the text, «a waiting list» means …",
+    "optionen": [
+     "more people want to join than can join now",
+     "the members must wait for the shop to open",
+     "the items are ordered from abroad",
+     "the shop is closing down"
+    ],
+    "loesung": [
+     "more people want to join than can join now"
+    ],
+    "erklaerung": "A waiting list shows that demand is bigger than what the shop can take on right now.",
+    "fehler": [
+     {
+      "antwort": "the members must wait for the shop to open",
+      "diagnoseId": "oeffnung",
+      "feedback": "The list is about joining, not about opening hours."
+     },
+     {
+      "antwort": "the items are ordered from abroad",
+      "diagnoseId": "bestellung",
+      "feedback": "Nothing in the text is ordered from abroad."
+     },
+     {
+      "antwort": "the shop is closing down",
+      "diagnoseId": "gegenteil",
+      "feedback": "Two other towns want to copy the idea — the opposite of closing down."
+     }
+    ]
+   },
+   {
+    "stamm": "Which heading fits the fourth paragraph («Not everything works …») best?",
+    "optionen": [
+     "Losses and a solution",
+     "How the idea started",
+     "What members pay",
+     "Plans for other towns"
+    ],
+    "loesung": [
+     "Losses and a solution"
+    ],
+    "erklaerung": "The paragraph is about broken and missing items and about the deposit that stopped the losses.",
+    "fehler": [
+     {
+      "antwort": "How the idea started",
+      "diagnoseId": "absatz_zwei",
+      "feedback": "That is the second paragraph, about Judith Aebi and the drill."
+     },
+     {
+      "antwort": "What members pay",
+      "diagnoseId": "absatz_drei",
+      "feedback": "The fee is explained in the third paragraph."
+     },
+     {
+      "antwort": "Plans for other towns",
+      "diagnoseId": "absatz_fuenf",
+      "feedback": "The other towns appear in the last paragraph."
+     }
+    ]
+   },
+   {
+    "stamm": "What is the main idea of the text?",
+    "optionen": [
+     "Borrowing instead of owning can solve a space problem.",
+     "Tools are too expensive for most families.",
+     "Small towns need more shops.",
+     "Bicycles are often stolen."
+    ],
+    "loesung": [
+     "Borrowing instead of owning can solve a space problem."
+    ],
+    "erklaerung": "The last paragraph names it: for most members it is not about money but about space.",
+    "fehler": [
+     {
+      "antwort": "Tools are too expensive for most families.",
+      "diagnoseId": "preis",
+      "feedback": "The text says the reason is space, not price."
+     },
+     {
+      "antwort": "Small towns need more shops.",
+      "diagnoseId": "allgemein",
+      "feedback": "The text is about one particular shop, not about shops in general."
+     },
+     {
+      "antwort": "Bicycles are often stolen.",
+      "diagnoseId": "teilaspekt",
+      "feedback": "The four bicycles are one episode, not the point of the text."
+     }
+    ]
+   }
+  ],
+  "text": "The shop that sells nothing\n\nIn a small town near Aarau, a shop opened last spring that sells nothing at\nall. It is called a «library of things», and instead of buying a drill, a\ntent or a raclette oven, people borrow them for a few days.\n\nThe idea came from Judith Aebi, 52, who used to work in a hardware shop. «An\nelectric drill is used for about thirteen minutes in its whole life», she\nsays. «The rest of the time it sits in a cupboard.»\n\nMembers pay sixty francs a year and can borrow up to three items at a time.\nThe most popular things are not what Aebi expected. «Everyone talks about\ntools, but the item people ask for most is a cake tin in the shape of a\nnumber.»\n\nNot everything works. Some items come back broken, and a few never come back\nat all. In the first year, four bicycles disappeared. Aebi now takes a\ndeposit for expensive items, and the losses have almost stopped.\n\nThe shop has 340 members and a waiting list. Two other towns want to copy the\nidea. «People think this is about saving money», Aebi says. «For most of them\nit is about space. Nobody has room for a tent they use twice a year.»",
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Reading comprehension",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-en-lesen-2",
+  "lernzielId": "EAG.1.04",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "1.04",
+   "1.05"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Ein unbekanntes Wort erschliesst du aus dem Satz ringsum.",
+   "Achte auf Signalwörter wie «but», «because» oder «instead».",
+   "«Not given» heisst: Der Text sagt weder das eine noch das andere."
+  ],
+  "loesungsweg": [
+   "Die Stelle im Text suchen.",
+   "Den Satz davor und danach mitlesen.",
+   "Prüfen, ob die Aussage wirklich dort steht.",
+   "Im Zweifel «not given» wählen, statt zu raten."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "What does «reluctant» mean here?\n\nMilo was reluctant to speak, but in the end he told us everything.",
+    "optionen": [
+     "unwilling",
+     "eager",
+     "angry",
+     "curious"
+    ],
+    "loesung": [
+     "unwilling"
+    ],
+    "erklaerung": "«but in the end he told us» zeigt, dass er zuerst nicht wollte — «unwilling».",
+    "fehler": [
+     {
+      "antwort": "eager",
+      "diagnoseId": "gegenteil",
+      "feedback": "«eager» hiesse begierig; das «but» zeigt aber Widerstand."
+     },
+     {
+      "antwort": "angry",
+      "diagnoseId": "gefuehl",
+      "feedback": "Der Satz sagt nichts über Ärger, nur über Zögern."
+     },
+     {
+      "antwort": "curious",
+      "diagnoseId": "gefuehl",
+      "feedback": "«curious» heisst neugierig und passt nicht zum Widerstand."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «scarce» mean here?\n\nWater became scarce, so the village had to bring it in by lorry.",
+    "optionen": [
+     "hard to find",
+     "dirty",
+     "cheap",
+     "frozen"
+    ],
+    "loesung": [
+     "hard to find"
+    ],
+    "erklaerung": "Wenn Wasser herangefahren werden muss, ist es knapp geworden.",
+    "fehler": [
+     {
+      "antwort": "dirty",
+      "diagnoseId": "folge",
+      "feedback": "Verschmutztes Wasser müsste gereinigt, nicht herbeigeschafft werden."
+     },
+     {
+      "antwort": "cheap",
+      "diagnoseId": "gegenteil",
+      "feedback": "Billiges Wasser müsste man nicht mit dem Lastwagen holen."
+     },
+     {
+      "antwort": "frozen",
+      "diagnoseId": "folge",
+      "feedback": "Von Frost sagt der Satz nichts. Richtig ist «hard to find»."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «to give up» mean here?\n\nShe trained every day and never gave up, even after two defeats.",
+    "optionen": [
+     "to stop trying",
+     "to hand over a prize",
+     "to shout",
+     "to train harder"
+    ],
+    "loesung": [
+     "to stop trying"
+    ],
+    "erklaerung": "«never gave up» nach zwei Niederlagen heisst: Sie hörte nicht auf.",
+    "fehler": [
+     {
+      "antwort": "to hand over a prize",
+      "diagnoseId": "woertlich",
+      "feedback": "Die wörtliche Bedeutung passt nicht in diesen Zusammenhang."
+     },
+     {
+      "antwort": "to shout",
+      "diagnoseId": "bedeutung",
+      "feedback": "Mit Rufen hat die Wendung nichts zu tun."
+     },
+     {
+      "antwort": "to train harder",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das Training steht schon im ersten Satzteil."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «shelter» mean here?\n\nThe hikers looked for shelter when the storm began.",
+    "optionen": [
+     "a place that protects you",
+     "a warm meal",
+     "a map of the area",
+     "a mountain guide"
+    ],
+    "loesung": [
+     "a place that protects you"
+    ],
+    "erklaerung": "Bei einem Sturm sucht man Schutz — «shelter» ist der schützende Ort.",
+    "fehler": [
+     {
+      "antwort": "a warm meal",
+      "diagnoseId": "zusammenhang",
+      "feedback": "Vom Essen ist im Satz nicht die Rede. Richtig ist «a place that protects you»."
+     },
+     {
+      "antwort": "a map of the area",
+      "diagnoseId": "zusammenhang",
+      "feedback": "Eine Karte schützt nicht vor einem Sturm."
+     },
+     {
+      "antwort": "a mountain guide",
+      "diagnoseId": "zusammenhang",
+      "feedback": "Eine Begleitperson wäre «guide», nicht «shelter»."
+     }
+    ]
+   },
+   {
+    "stamm": "What does «to postpone» mean here?\n\nBecause of the rain they postponed the match until Sunday.",
+    "optionen": [
+     "to move to a later date",
+     "to cancel completely",
+     "to win easily",
+     "to watch on television"
+    ],
+    "loesung": [
+     "to move to a later date"
+    ],
+    "erklaerung": "«until Sunday» zeigt, dass das Spiel später stattfindet, nicht gar nicht.",
+    "fehler": [
+     {
+      "antwort": "to cancel completely",
+      "diagnoseId": "genau",
+      "feedback": "Abgesagt wäre «cancelled»; hier gibt es einen neuen Termin."
+     },
+     {
+      "antwort": "to win easily",
+      "diagnoseId": "bedeutung",
+      "feedback": "Vom Ausgang des Spiels sagt der Satz nichts."
+     },
+     {
+      "antwort": "to watch on television",
+      "diagnoseId": "bedeutung",
+      "feedback": "Das Fernsehen kommt im Satz nicht vor. Richtig ist «to move to a later date»."
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?\n\nText: «Milo has been working in the shop since April.»\nStatement: Milo works in a shop.",
+    "optionen": [
+     "true",
+     "false",
+     "not given"
+    ],
+    "loesung": [
+     "true"
+    ],
+    "erklaerung": "Der Text sagt es unmittelbar: Er arbeitet dort seit April.",
+    "fehler": [
+     {
+      "antwort": "false",
+      "diagnoseId": "beleg",
+      "feedback": "Der Text bestätigt die Aussage. Richtig ist «true»."
+     },
+     {
+      "antwort": "not given",
+      "diagnoseId": "beleg",
+      "feedback": "Die Angabe steht wörtlich im Text. Richtig ist «true»."
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?\n\nText: «Milo has been working in the shop since April.»\nStatement: Milo earns twelve francs an hour.",
+    "optionen": [
+     "not given",
+     "true",
+     "false"
+    ],
+    "loesung": [
+     "not given"
+    ],
+    "erklaerung": "Über den Lohn steht im Text nichts.",
+    "fehler": [
+     {
+      "antwort": "true",
+      "diagnoseId": "beleg",
+      "feedback": "Ein Lohn wird nirgends genannt. Richtig ist «not given»."
+     },
+     {
+      "antwort": "false",
+      "diagnoseId": "beleg",
+      "feedback": "Auch das Gegenteil steht nicht da. Richtig ist «not given»."
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?\n\nText: «The library closes at six on weekdays and stays shut on Sundays.»\nStatement: The library is open on Sundays.",
+    "optionen": [
+     "false",
+     "true",
+     "not given"
+    ],
+    "loesung": [
+     "false"
+    ],
+    "erklaerung": "«stays shut on Sundays» sagt genau das Gegenteil der Aussage.",
+    "fehler": [
+     {
+      "antwort": "true",
+      "diagnoseId": "beleg",
+      "feedback": "Der Text sagt, dass die Bibliothek sonntags geschlossen bleibt."
+     },
+     {
+      "antwort": "not given",
+      "diagnoseId": "beleg",
+      "feedback": "Der Sonntag wird ausdrücklich erwähnt. Richtig ist «false»."
+     }
+    ]
+   },
+   {
+    "stamm": "True, false or not given?\n\nText: «The library closes at six on weekdays and stays shut on Sundays.»\nStatement: The library has more than ten thousand books.",
+    "optionen": [
+     "not given",
+     "true",
+     "false"
+    ],
+    "loesung": [
+     "not given"
+    ],
+    "erklaerung": "Über die Anzahl Bücher sagt der Text nichts.",
+    "fehler": [
+     {
+      "antwort": "true",
+      "diagnoseId": "beleg",
+      "feedback": "Eine Zahl von Büchern kommt im Text nicht vor."
+     },
+     {
+      "antwort": "false",
+      "diagnoseId": "beleg",
+      "feedback": "Auch das Gegenteil lässt sich nicht belegen."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word helps you guess the meaning of «drought»?\n\nAfter months without rain, the drought destroyed most of the harvest.",
+    "optionen": [
+     "«without rain»",
+     "«months»",
+     "«most»",
+     "«harvest»"
+    ],
+    "loesung": [
+     "«without rain»"
+    ],
+    "erklaerung": "«without rain» erklärt, worum es geht: eine lange Trockenheit.",
+    "fehler": [
+     {
+      "antwort": "«months»",
+      "diagnoseId": "hinweis",
+      "feedback": "Die Dauer allein sagt nichts über die Art des Ereignisses."
+     },
+     {
+      "antwort": "«most»",
+      "diagnoseId": "hinweis",
+      "feedback": "Das Wort beschreibt nur die Menge des Schadens."
+     },
+     {
+      "antwort": "«harvest»",
+      "diagnoseId": "hinweis",
+      "feedback": "Die Ernte ist das Opfer, nicht die Erklärung."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word helps you guess the meaning of «reluctantly»?\n\nHe reluctantly agreed, although he clearly wanted to say no.",
+    "optionen": [
+     "«although»",
+     "«agreed»",
+     "«clearly»",
+     "«say»"
+    ],
+    "loesung": [
+     "«although»"
+    ],
+    "erklaerung": "«although he wanted to say no» zeigt den Widerwillen an.",
+    "fehler": [
+     {
+      "antwort": "«agreed»",
+      "diagnoseId": "hinweis",
+      "feedback": "Die Zustimmung allein sagt nichts über die Haltung dabei."
+     },
+     {
+      "antwort": "«clearly»",
+      "diagnoseId": "hinweis",
+      "feedback": "«clearly» verstärkt nur, was danach steht."
+     },
+     {
+      "antwort": "«say»",
+      "diagnoseId": "hinweis",
+      "feedback": "Das Verb «say» trägt hier keine Bedeutung zum Gesuchten bei."
+     }
+    ]
+   },
+   {
+    "stamm": "When should you choose «not given»?",
+    "optionen": [
+     "When the text says nothing about it, neither yes nor no",
+     "When you do not know the words",
+     "When the sentence is long",
+     "When the statement sounds unlikely"
+    ],
+    "loesung": [
+     "When the text says nothing about it, neither yes nor no"
+    ],
+    "erklaerung": "«Not given» ist eine Aussage über den Text, nicht über dein Wissen.",
+    "fehler": [
+     {
+      "antwort": "When you do not know the words",
+      "diagnoseId": "verfahren",
+      "feedback": "Unbekannte Wörter erschliesst du zuerst aus dem Zusammenhang."
+     },
+     {
+      "antwort": "When the sentence is long",
+      "diagnoseId": "verfahren",
+      "feedback": "Die Länge eines Satzes sagt nichts über seinen Inhalt."
+     },
+     {
+      "antwort": "When the statement sounds unlikely",
+      "diagnoseId": "verfahren",
+      "feedback": "Was unwahrscheinlich klingt, kann trotzdem im Text stehen."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Unbekannte Wörter erschliessen, Aussagen einordnen",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-en-grammar",
+  "lernzielId": "EAG.2.01",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "2.01",
+   "2.02",
+   "2.03"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Look for the signal word: «every day», «yesterday», «since», «tomorrow».",
+   "In the present simple, questions and negatives need «do», «does» or «did».",
+   "«Since» goes with the present perfect, «for» can go with both."
+  ],
+  "loesungsweg": [
+   "Find the subject.",
+   "Find the signal word and decide on the tense.",
+   "Build the form.",
+   "Read the whole sentence again."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Choose the correct form:\n\nShe ______ in that shop since 2021.",
+    "optionen": [
+     "has worked",
+     "works",
+     "worked",
+     "is working"
+    ],
+    "loesung": [
+     "has worked"
+    ],
+    "erklaerung": "«Since 2021» names the starting point of something still going on — that is the present perfect.",
+    "fehler": [
+     {
+      "antwort": "works",
+      "diagnoseId": "praesens",
+      "feedback": "The present simple would mean a habit with no starting point. «Since» needs the present perfect."
+     },
+     {
+      "antwort": "worked",
+      "diagnoseId": "past_simple",
+      "feedback": "The past simple would mean she does not work there any more."
+     },
+     {
+      "antwort": "is working",
+      "diagnoseId": "continuous",
+      "feedback": "«Is working» describes this moment, not a period since 2021."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nWhile I ______ the tent, it started to rain.",
+    "optionen": [
+     "was putting up",
+     "put up",
+     "have put up",
+     "will put up"
+    ],
+    "loesung": [
+     "was putting up"
+    ],
+    "erklaerung": "The longer action in the background takes the past continuous; the short event interrupts it.",
+    "fehler": [
+     {
+      "antwort": "put up",
+      "diagnoseId": "past_simple",
+      "feedback": "«While» announces an ongoing action — that needs the past continuous."
+     },
+     {
+      "antwort": "have put up",
+      "diagnoseId": "present_perfect",
+      "feedback": "The present perfect does not go with a finished moment in the past."
+     },
+     {
+      "antwort": "will put up",
+      "diagnoseId": "futur",
+      "feedback": "The sentence is about the past, not the future."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question is correct?",
+    "optionen": [
+     "How much does a membership cost?",
+     "How much a membership costs?",
+     "How much does a membership costs?",
+     "How much cost a membership?"
+    ],
+    "loesung": [
+     "How much does a membership cost?"
+    ],
+    "erklaerung": "In the present simple, «does» forms the question and the main verb stays in the base form.",
+    "fehler": [
+     {
+      "antwort": "How much a membership costs?",
+      "diagnoseId": "kein_hilfsverb",
+      "feedback": "Without «does» this is not a question but a subordinate clause."
+     },
+     {
+      "antwort": "How much does a membership costs?",
+      "diagnoseId": "doppeltes_s",
+      "feedback": "The «-s» is already in «does»; the main verb stays «cost»."
+     },
+     {
+      "antwort": "How much cost a membership?",
+      "diagnoseId": "deutsche_stellung",
+      "feedback": "This word order works in German, not in English."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nIf it ______ tomorrow, we will cancel the trip.",
+    "optionen": [
+     "rains",
+     "will rain",
+     "would rain",
+     "rained"
+    ],
+    "loesung": [
+     "rains"
+    ],
+    "erklaerung": "In the if-clause of a first conditional, English uses the present simple even though the meaning is future.",
+    "fehler": [
+     {
+      "antwort": "will rain",
+      "diagnoseId": "will_im_nebensatz",
+      "feedback": "After «if», English does not use «will» — the present simple carries the future meaning."
+     },
+     {
+      "antwort": "would rain",
+      "diagnoseId": "konditional",
+      "feedback": "«Would» belongs to the second conditional, about unreal situations."
+     },
+     {
+      "antwort": "rained",
+      "diagnoseId": "past",
+      "feedback": "The past simple after «if» would make the sentence unreal."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct comparative:\n\nThis drill is ______ than the old one.",
+    "optionen": [
+     "more powerful",
+     "powerfuller",
+     "the most powerful",
+     "as powerful"
+    ],
+    "loesung": [
+     "more powerful"
+    ],
+    "erklaerung": "Long adjectives take «more», and the comparison uses «than».",
+    "fehler": [
+     {
+      "antwort": "powerfuller",
+      "diagnoseId": "endung",
+      "feedback": "«-er» is only added to short adjectives: bigger, faster."
+     },
+     {
+      "antwort": "the most powerful",
+      "diagnoseId": "superlativ",
+      "feedback": "That is the superlative and does not go with «than»."
+     },
+     {
+      "antwort": "as powerful",
+      "diagnoseId": "gleichheit",
+      "feedback": "«As powerful as» expresses equality, not a difference."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct pronoun:\n\nThe members bring the items back ______.",
+    "optionen": [
+     "themselves",
+     "themself",
+     "them",
+     "their"
+    ],
+    "loesung": [
+     "themselves"
+    ],
+    "erklaerung": "The reflexive pronoun for «they» is «themselves».",
+    "fehler": [
+     {
+      "antwort": "themself",
+      "diagnoseId": "form",
+      "feedback": "«Themself» is not standard in this sentence; the plural form is «themselves»."
+     },
+     {
+      "antwort": "them",
+      "diagnoseId": "objekt",
+      "feedback": "«Them» is an object pronoun and does not emphasise the subject."
+     },
+     {
+      "antwort": "their",
+      "diagnoseId": "begleiter",
+      "feedback": "«Their» needs a noun after it: their items."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nShe has worked there ______ three years.",
+    "optionen": [
+     "for",
+     "since",
+     "from",
+     "during"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«For» goes with a length of time, «since» with a starting point.",
+    "fehler": [
+     {
+      "antwort": "since",
+      "diagnoseId": "zeitpunkt",
+      "feedback": "«Since» needs a point in time: since 2021."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "anfang",
+      "feedback": "«From» needs an end point too: from 2021 to 2024."
+     },
+     {
+      "antwort": "during",
+      "diagnoseId": "zeitraum",
+      "feedback": "«During» goes with an event: during the summer."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is in the passive?",
+    "optionen": [
+     "Four bicycles were never returned.",
+     "Four bicycles disappeared last year.",
+     "Somebody took four bicycles.",
+     "Four bicycles are missing."
+    ],
+    "loesung": [
+     "Four bicycles were never returned."
+    ],
+    "erklaerung": "«Were returned» is «be» plus past participle — the passive. Who did it is not said.",
+    "fehler": [
+     {
+      "antwort": "Four bicycles disappeared last year.",
+      "diagnoseId": "aktiv",
+      "feedback": "«Disappeared» is an active verb, even though nobody is named."
+     },
+     {
+      "antwort": "Somebody took four bicycles.",
+      "diagnoseId": "aktiv_zwei",
+      "feedback": "This is active: somebody is the subject."
+     },
+     {
+      "antwort": "Four bicycles are missing.",
+      "diagnoseId": "adjektiv",
+      "feedback": "«Missing» is used as an adjective here, not as a passive."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nThere ______ many items on the shelf.",
+    "optionen": [
+     "are",
+     "is",
+     "has",
+     "have"
+    ],
+    "loesung": [
+     "are"
+    ],
+    "erklaerung": "«Items» is plural, so the verb is «are».",
+    "fehler": [
+     {
+      "antwort": "is",
+      "diagnoseId": "einzahl",
+      "feedback": "«Is» goes with a singular noun: there is one item."
+     },
+     {
+      "antwort": "has",
+      "diagnoseId": "besitz",
+      "feedback": "«There has» is not used in this construction."
+     },
+     {
+      "antwort": "have",
+      "diagnoseId": "form",
+      "feedback": "«There have» only appears in the present perfect: there have been."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct word:\n\nShe told me ______ she needed a tent.",
+    "optionen": [
+     "that",
+     "what",
+     "which",
+     "if"
+    ],
+    "loesung": [
+     "that"
+    ],
+    "erklaerung": "«That» introduces a reported statement.",
+    "fehler": [
+     {
+      "antwort": "what",
+      "diagnoseId": "frage",
+      "feedback": "«What» introduces a question word clause: what she needed."
+     },
+     {
+      "antwort": "which",
+      "diagnoseId": "relativ",
+      "feedback": "«Which» introduces a relative clause about a thing."
+     },
+     {
+      "antwort": "if",
+      "diagnoseId": "bedingung",
+      "feedback": "«If» would turn the sentence into a yes-no question or a condition."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nHe is the man ______ started the second shop.",
+    "optionen": [
+     "who",
+     "which",
+     "whose",
+     "whom"
+    ],
+    "loesung": [
+     "who"
+    ],
+    "erklaerung": "«Who» is the relative pronoun for people in subject position.",
+    "fehler": [
+     {
+      "antwort": "which",
+      "diagnoseId": "sache",
+      "feedback": "«Which» is used for things and animals, not for people."
+     },
+     {
+      "antwort": "whose",
+      "diagnoseId": "besitz",
+      "feedback": "«Whose» shows possession: the man whose shop closed."
+     },
+     {
+      "antwort": "whom",
+      "diagnoseId": "objekt",
+      "feedback": "«Whom» is an object form: the man whom we met."
+     }
+    ]
+   },
+   {
+    "stamm": "Choose the correct form:\n\nI wish I ______ more space at home.",
+    "optionen": [
+     "had",
+     "have",
+     "will have",
+     "would have had"
+    ],
+    "loesung": [
+     "had"
+    ],
+    "erklaerung": "After «I wish», English uses the past form for a present wish.",
+    "fehler": [
+     {
+      "antwort": "have",
+      "diagnoseId": "praesens",
+      "feedback": "After «I wish», the present simple is not used."
+     },
+     {
+      "antwort": "will have",
+      "diagnoseId": "futur",
+      "feedback": "«Will» does not follow «I wish» in this construction."
+     },
+     {
+      "antwort": "would have had",
+      "diagnoseId": "vergangenheit",
+      "feedback": "That form is for regrets about the past."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Tenses",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-en-struktur",
+  "lernzielId": "EAG.2.04",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "2.04",
+   "2.05",
+   "2.06"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Fragen und Verneinungen brauchen «do», ausser bei «be», «have got» und Modalverben.",
+   "Nach «do» steht die Grundform.",
+   "Kurze Adjektive steigert man mit «-er/-est», lange mit «more/most»."
+  ],
+  "loesungsweg": [
+   "Das Hilfsverb bestimmen.",
+   "Die Wortstellung prüfen.",
+   "Die Form einsetzen.",
+   "Den Satz laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which question is correct?\n\nShe lives in Baden.",
+    "optionen": [
+     "Where does she live?",
+     "Where she lives?",
+     "Where does she lives?",
+     "Where do she live?"
+    ],
+    "loesung": [
+     "Where does she live?"
+    ],
+    "erklaerung": "Nach «does» steht die Grundform «live».",
+    "fehler": [
+     {
+      "antwort": "Where she lives?",
+      "diagnoseId": "wortstellung",
+      "feedback": "In der Frage steht das Hilfsverb vor dem Subjekt."
+     },
+     {
+      "antwort": "Where does she lives?",
+      "diagnoseId": "form",
+      "feedback": "Nach «does» steht die Grundform ohne -s."
+     },
+     {
+      "antwort": "Where do she live?",
+      "diagnoseId": "person",
+      "feedback": "In der dritten Person Einzahl heisst es «does»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question is correct?\n\nThey went to Lugano last summer.",
+    "optionen": [
+     "Where did they go last summer?",
+     "Where did they went last summer?",
+     "Where they went last summer?",
+     "Where do they went last summer?"
+    ],
+    "loesung": [
+     "Where did they go last summer?"
+    ],
+    "erklaerung": "Nach «did» steht immer die Grundform «go».",
+    "fehler": [
+     {
+      "antwort": "Where did they went last summer?",
+      "diagnoseId": "form",
+      "feedback": "Nach «did» steht die Grundform, nicht die Vergangenheitsform."
+     },
+     {
+      "antwort": "Where they went last summer?",
+      "diagnoseId": "wortstellung",
+      "feedback": "Das Hilfsverb «did» fehlt in der Frage. Richtig ist «Where did they go last summer?»."
+     },
+     {
+      "antwort": "Where do they went last summer?",
+      "diagnoseId": "zeit",
+      "feedback": "«do» ist Gegenwart; hier geht es um letzten Sommer."
+     }
+    ]
+   },
+   {
+    "stamm": "Which negation is correct?\n\nHe has finished his homework.",
+    "optionen": [
+     "He hasn't finished his homework.",
+     "He doesn't have finished his homework.",
+     "He not has finished his homework.",
+     "He hasn't finish his homework."
+    ],
+    "loesung": [
+     "He hasn't finished his homework."
+    ],
+    "erklaerung": "Beim Present perfect verneint man das Hilfsverb «has».",
+    "fehler": [
+     {
+      "antwort": "He doesn't have finished his homework.",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Beim Present perfect braucht es kein «do»."
+     },
+     {
+      "antwort": "He not has finished his homework.",
+      "diagnoseId": "wortstellung",
+      "feedback": "«not» steht nach dem Hilfsverb. Richtig ist «He hasn't finished his homework.»."
+     },
+     {
+      "antwort": "He hasn't finish his homework.",
+      "diagnoseId": "form",
+      "feedback": "Nach «has» steht das dritte Verb: «finished»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which question tag fits?\n\nYou are coming on Saturday, ______ ?",
+    "optionen": [
+     "aren't you",
+     "don't you",
+     "are you",
+     "isn't it"
+    ],
+    "loesung": [
+     "aren't you"
+    ],
+    "erklaerung": "Ein bejahter Satz bekommt ein verneintes Anhängsel mit demselben Hilfsverb.",
+    "fehler": [
+     {
+      "antwort": "don't you",
+      "diagnoseId": "hilfsverb",
+      "feedback": "Das Hilfsverb des Satzes ist «are», nicht «do»."
+     },
+     {
+      "antwort": "are you",
+      "diagnoseId": "form",
+      "feedback": "Nach einem bejahten Satz steht das verneinte Anhängsel."
+     },
+     {
+      "antwort": "isn't it",
+      "diagnoseId": "person",
+      "feedback": "Das Anhängsel nimmt das Subjekt «you» auf."
+     }
+    ]
+   },
+   {
+    "stamm": "Which pronoun fits?\n\nThis is my sister. I see ______ every weekend.",
+    "optionen": [
+     "her",
+     "she",
+     "hers",
+     "herself"
+    ],
+    "loesung": [
+     "her"
+    ],
+    "erklaerung": "Nach dem Verb steht die Objektform «her».",
+    "fehler": [
+     {
+      "antwort": "she",
+      "diagnoseId": "form",
+      "feedback": "«she» ist die Subjektform und stünde vor dem Verb."
+     },
+     {
+      "antwort": "hers",
+      "diagnoseId": "form",
+      "feedback": "«hers» ist das besitzanzeigende Fürwort ohne Nomen."
+     },
+     {
+      "antwort": "herself",
+      "diagnoseId": "form",
+      "feedback": "«herself» stünde nur, wenn Subjekt und Objekt dieselbe Person wären."
+     }
+    ]
+   },
+   {
+    "stamm": "Which pronoun fits?\n\nThe bike over there is ______ , not yours.",
+    "optionen": [
+     "mine",
+     "my",
+     "me",
+     "myself"
+    ],
+    "loesung": [
+     "mine"
+    ],
+    "erklaerung": "Ohne folgendes Nomen steht «mine».",
+    "fehler": [
+     {
+      "antwort": "my",
+      "diagnoseId": "form",
+      "feedback": "«my» braucht ein Nomen dahinter: my bike."
+     },
+     {
+      "antwort": "me",
+      "diagnoseId": "form",
+      "feedback": "«me» ist die Objektform und passt nicht nach «is»."
+     },
+     {
+      "antwort": "myself",
+      "diagnoseId": "form",
+      "feedback": "«myself» ist die rückbezügliche Form. Richtig ist «mine»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which pronoun fits?\n\nNobody helped us; we did it ______ .",
+    "optionen": [
+     "ourselves",
+     "us",
+     "our",
+     "ours"
+    ],
+    "loesung": [
+     "ourselves"
+    ],
+    "erklaerung": "«by ourselves» oder «ourselves» betont, dass niemand geholfen hat.",
+    "fehler": [
+     {
+      "antwort": "us",
+      "diagnoseId": "form",
+      "feedback": "«us» ist die einfache Objektform ohne Betonung."
+     },
+     {
+      "antwort": "our",
+      "diagnoseId": "form",
+      "feedback": "«our» braucht ein Nomen dahinter. Richtig ist «ourselves»."
+     },
+     {
+      "antwort": "ours",
+      "diagnoseId": "form",
+      "feedback": "«ours» ersetzt ein Nomen und passt hier nicht."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nToday is ______ day of the year.",
+    "optionen": [
+     "the hottest",
+     "the most hot",
+     "hotter",
+     "the hotter"
+    ],
+    "loesung": [
+     "the hottest"
+    ],
+    "erklaerung": "Kurze Adjektive steigert man mit «-est»; der Endkonsonant wird verdoppelt.",
+    "fehler": [
+     {
+      "antwort": "the most hot",
+      "diagnoseId": "form",
+      "feedback": "«hot» ist kurz und wird mit «-est» gesteigert."
+     },
+     {
+      "antwort": "hotter",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die Vergleichsstufe, hier ist die höchste gemeint."
+     },
+     {
+      "antwort": "the hotter",
+      "diagnoseId": "form",
+      "feedback": "Die höchste Stufe lautet «the hottest». Richtig ist «the hottest»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nThis exercise is ______ than the one before.",
+    "optionen": [
+     "more difficult",
+     "difficulter",
+     "most difficult",
+     "more difficulter"
+    ],
+    "loesung": [
+     "more difficult"
+    ],
+    "erklaerung": "Lange Adjektive steigert man mit «more».",
+    "fehler": [
+     {
+      "antwort": "difficulter",
+      "diagnoseId": "form",
+      "feedback": "«difficult» ist zu lang für die Endung «-er»."
+     },
+     {
+      "antwort": "most difficult",
+      "diagnoseId": "stufe",
+      "feedback": "Das ist die höchste Stufe und passt nicht zu «than»."
+     },
+     {
+      "antwort": "more difficulter",
+      "diagnoseId": "doppelt",
+      "feedback": "Hier ist doppelt gesteigert. Richtig ist «more difficult»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nShe sings ______ than her brother.",
+    "optionen": [
+     "better",
+     "gooder",
+     "more good",
+     "best"
+    ],
+    "loesung": [
+     "better"
+    ],
+    "erklaerung": "«well» wird unregelmässig gesteigert: well, better, best.",
+    "fehler": [
+     {
+      "antwort": "gooder",
+      "diagnoseId": "form",
+      "feedback": "«good» steigert unregelmässig zu «better»."
+     },
+     {
+      "antwort": "more good",
+      "diagnoseId": "form",
+      "feedback": "Auch mit «more» wird «good» nicht gesteigert."
+     },
+     {
+      "antwort": "best",
+      "diagnoseId": "stufe",
+      "feedback": "«best» ist die höchste Stufe und passt nicht zu «than»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which form is correct?\n\nHe drives very ______ .",
+    "optionen": [
+     "carefully",
+     "careful",
+     "carefuly",
+     "more careful"
+    ],
+    "loesung": [
+     "carefully"
+    ],
+    "erklaerung": "Das Verb «drives» wird von einem Adverb näher bestimmt: carefully.",
+    "fehler": [
+     {
+      "antwort": "careful",
+      "diagnoseId": "wortart",
+      "feedback": "«careful» ist das Adjektiv; hier braucht es das Adverb."
+     },
+     {
+      "antwort": "carefuly",
+      "diagnoseId": "form",
+      "feedback": "Das Adverb schreibt sich mit doppeltem l: carefully."
+     },
+     {
+      "antwort": "more careful",
+      "diagnoseId": "form",
+      "feedback": "Ein Vergleich ist hier nicht gemeint. Richtig ist «carefully»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is correct?",
+    "optionen": [
+     "She is as tall as her mother.",
+     "She is so tall as her mother.",
+     "She is as taller as her mother.",
+     "She is as tall than her mother."
+    ],
+    "loesung": [
+     "She is as tall as her mother."
+    ],
+    "erklaerung": "Gleichheit drückt «as … as» aus, mit der Grundform des Adjektivs.",
+    "fehler": [
+     {
+      "antwort": "She is so tall as her mother.",
+      "diagnoseId": "form",
+      "feedback": "Die Wendung lautet «as … as». Richtig ist «She is as tall as her mother.»."
+     },
+     {
+      "antwort": "She is as taller as her mother.",
+      "diagnoseId": "stufe",
+      "feedback": "Zwischen «as … as» steht die Grundform. Richtig ist «She is as tall as her mother.»."
+     },
+     {
+      "antwort": "She is as tall than her mother.",
+      "diagnoseId": "form",
+      "feedback": "«than» gehört zur Vergleichsstufe mit «-er»."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Questions, pronouns and comparison",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-en-wortbildung",
+  "lernzielId": "EAG.2.07",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "2.07",
+   "2.08",
+   "2.12"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Feste Wendungen lernt man als Ganzes, nicht Wort für Wort.",
+   "Ein Bindewort sagt, in welchem Verhältnis zwei Aussagen stehen.",
+   "Vor- und Nachsilben ändern die Wortart oder die Bedeutung."
+  ],
+  "loesungsweg": [
+   "Die Wendung als Ganzes erkennen.",
+   "Bei Bindewörtern das Verhältnis bestimmen.",
+   "Bei der Wortbildung die verlangte Wortart prüfen.",
+   "Die Form einsetzen und laut lesen."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Which preposition fits?\n\nI am really interested ______ history.",
+    "optionen": [
+     "in",
+     "for",
+     "about",
+     "on"
+    ],
+    "loesung": [
+     "in"
+    ],
+    "erklaerung": "«interested in» ist eine feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "for",
+      "diagnoseId": "wendung",
+      "feedback": "«for» steht etwa bei «famous for», nicht bei «interested»."
+     },
+     {
+      "antwort": "about",
+      "diagnoseId": "wendung",
+      "feedback": "«about» passt zu «talk about», nicht zu «interested»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "wendung",
+      "feedback": "«on» steht bei «depend on». Richtig ist «in»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nThe result depends ______ the weather.",
+    "optionen": [
+     "on",
+     "of",
+     "from",
+     "at"
+    ],
+    "loesung": [
+     "on"
+    ],
+    "erklaerung": "«depend on» ist eine feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "of",
+      "diagnoseId": "wendung",
+      "feedback": "«of» steht bei «afraid of». Richtig ist «on»."
+     },
+     {
+      "antwort": "from",
+      "diagnoseId": "wendung",
+      "feedback": "«from» steht bei «different from». Richtig ist «on»."
+     },
+     {
+      "antwort": "at",
+      "diagnoseId": "wendung",
+      "feedback": "«at» steht bei «good at». Richtig ist «on»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nShe is very good ______ maths.",
+    "optionen": [
+     "at",
+     "in",
+     "on",
+     "with"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "«good at» ist eine feste Wendung.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "wendung",
+      "feedback": "«in» steht bei «interested in». Richtig ist «at»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "wendung",
+      "feedback": "«on» steht bei «depend on». Richtig ist «at»."
+     },
+     {
+      "antwort": "with",
+      "diagnoseId": "wendung",
+      "feedback": "«with» steht bei «happy with». Richtig ist «at»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nWe arrived ______ the station at half past six.",
+    "optionen": [
+     "at",
+     "in",
+     "to",
+     "on"
+    ],
+    "loesung": [
+     "at"
+    ],
+    "erklaerung": "Bei «arrive» steht «at» für einen Ort wie einen Bahnhof.",
+    "fehler": [
+     {
+      "antwort": "in",
+      "diagnoseId": "ort",
+      "feedback": "«arrive in» steht bei Städten und Ländern."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "wendung",
+      "feedback": "«to» gehört zu «go to», nicht zu «arrive»."
+     },
+     {
+      "antwort": "on",
+      "diagnoseId": "ort",
+      "feedback": "«on» passt zu Flächen und Tagen. Richtig ist «at»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\n______ it was raining, we went for a walk.",
+    "optionen": [
+     "Although",
+     "Because",
+     "So",
+     "Therefore"
+    ],
+    "loesung": [
+     "Although"
+    ],
+    "erklaerung": "«Although» nennt einen Gegensatz: Regen und trotzdem Spaziergang.",
+    "fehler": [
+     {
+      "antwort": "Because",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Because» nennte einen Grund; der Regen ist aber kein Grund zu gehen."
+     },
+     {
+      "antwort": "So",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«So» leitet eine Folge ein und stünde nicht am Satzanfang."
+     },
+     {
+      "antwort": "Therefore",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«Therefore» leitet ebenfalls eine Folge ein."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nThe bus was late, ______ we missed the film.",
+    "optionen": [
+     "so",
+     "although",
+     "but still",
+     "in spite of"
+    ],
+    "loesung": [
+     "so"
+    ],
+    "erklaerung": "«so» nennt die Folge: Der Bus war spät, darum verpassten wir den Film.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«although» nennte einen Gegensatz, hier folgt eine Wirkung."
+     },
+     {
+      "antwort": "but still",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "Das drückte einen Widerspruch aus, den es hier nicht gibt."
+     },
+     {
+      "antwort": "in spite of",
+      "diagnoseId": "form",
+      "feedback": "«in spite of» steht vor einem Nomen, nicht vor einem Satz."
+     }
+    ]
+   },
+   {
+    "stamm": "Which linking word fits?\n\nHe took the train ______ the roads were closed.",
+    "optionen": [
+     "because",
+     "although",
+     "so that",
+     "however"
+    ],
+    "loesung": [
+     "because"
+    ],
+    "erklaerung": "«because» nennt den Grund für die Zugfahrt.",
+    "fehler": [
+     {
+      "antwort": "although",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "Ein Gegensatz ergäbe hier keinen Sinn. Richtig ist «because»."
+     },
+     {
+      "antwort": "so that",
+      "diagnoseId": "verhaeltnis",
+      "feedback": "«so that» nennte eine Absicht. Richtig ist «because»."
+     },
+     {
+      "antwort": "however",
+      "diagnoseId": "form",
+      "feedback": "«however» verbindet zwei Hauptsätze mit Komma und Semikolon."
+     }
+    ]
+   },
+   {
+    "stamm": "Build the noun: to decide → ______",
+    "optionen": [
+     "decision",
+     "decidement",
+     "deciding",
+     "decisive"
+    ],
+    "loesung": [
+     "decision"
+    ],
+    "erklaerung": "Aus «decide» wird das Nomen «decision».",
+    "fehler": [
+     {
+      "antwort": "decidement",
+      "diagnoseId": "form",
+      "feedback": "Diese Bildung gibt es im Englischen nicht."
+     },
+     {
+      "antwort": "deciding",
+      "diagnoseId": "wortart",
+      "feedback": "«deciding» ist die -ing-Form, kein eigenständiges Nomen."
+     },
+     {
+      "antwort": "decisive",
+      "diagnoseId": "wortart",
+      "feedback": "«decisive» ist ein Adjektiv. Richtig ist «decision»."
+     }
+    ]
+   },
+   {
+    "stamm": "Build the adjective: care → ______ (full of care)",
+    "optionen": [
+     "careful",
+     "careless",
+     "carely",
+     "caring about"
+    ],
+    "loesung": [
+     "careful"
+    ],
+    "erklaerung": "Die Nachsilbe «-ful» heisst «voll von».",
+    "fehler": [
+     {
+      "antwort": "careless",
+      "diagnoseId": "bedeutung",
+      "feedback": "«-less» heisst ohne; das ist das Gegenteil."
+     },
+     {
+      "antwort": "carely",
+      "diagnoseId": "form",
+      "feedback": "Die Endung «-ly» bildet meist Adverbien und passt hier nicht."
+     },
+     {
+      "antwort": "caring about",
+      "diagnoseId": "form",
+      "feedback": "Verlangt ist ein einzelnes Adjektiv. Richtig ist «careful»."
+     }
+    ]
+   },
+   {
+    "stamm": "Build the opposite: possible → ______",
+    "optionen": [
+     "impossible",
+     "unpossible",
+     "dispossible",
+     "nonpossible"
+    ],
+    "loesung": [
+     "impossible"
+    ],
+    "erklaerung": "Vor «p» steht die Vorsilbe «im-».",
+    "fehler": [
+     {
+      "antwort": "unpossible",
+      "diagnoseId": "vorsilbe",
+      "feedback": "«un-» ist häufig, steht aber nicht vor «possible»."
+     },
+     {
+      "antwort": "dispossible",
+      "diagnoseId": "vorsilbe",
+      "feedback": "«dis-» steht etwa bei «disagree». Richtig ist «impossible»."
+     },
+     {
+      "antwort": "nonpossible",
+      "diagnoseId": "vorsilbe",
+      "feedback": "«non-» steht bei Nomen wie «non-smoker»."
+     }
+    ]
+   },
+   {
+    "stamm": "Build the opposite: polite → ______",
+    "optionen": [
+     "impolite",
+     "unpolite",
+     "dispolite",
+     "nonpolite"
+    ],
+    "loesung": [
+     "impolite"
+    ],
+    "erklaerung": "Auch vor «p» in «polite» steht «im-».",
+    "fehler": [
+     {
+      "antwort": "unpolite",
+      "diagnoseId": "vorsilbe",
+      "feedback": "Diese Bildung ist im heutigen Englisch nicht gebräuchlich."
+     },
+     {
+      "antwort": "dispolite",
+      "diagnoseId": "vorsilbe",
+      "feedback": "«dis-» passt nicht zu diesem Adjektiv. Richtig ist «impolite»."
+     },
+     {
+      "antwort": "nonpolite",
+      "diagnoseId": "vorsilbe",
+      "feedback": "«non-» steht vor Nomen, nicht vor diesem Adjektiv."
+     }
+    ]
+   },
+   {
+    "stamm": "Build the noun for the person: to teach → ______",
+    "optionen": [
+     "teacher",
+     "teachist",
+     "teachman",
+     "teaching"
+    ],
+    "loesung": [
+     "teacher"
+    ],
+    "erklaerung": "Die Nachsilbe «-er» bildet die handelnde Person.",
+    "fehler": [
+     {
+      "antwort": "teachist",
+      "diagnoseId": "form",
+      "feedback": "Die Endung «-ist» steht bei «artist» oder «cyclist»."
+     },
+     {
+      "antwort": "teachman",
+      "diagnoseId": "form",
+      "feedback": "Diese Zusammensetzung gibt es nicht. Richtig ist «teacher»."
+     },
+     {
+      "antwort": "teaching",
+      "diagnoseId": "wortart",
+      "feedback": "«teaching» ist die Tätigkeit, nicht die Person."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Prepositions, linking words and word building",
+  "status": "review"
+ },
+ {
+  "templateId": "ag-en-vocabulary",
+  "lernzielId": "EAG.2.09",
+  "fach": "englisch-ag",
+  "unterthemen": [
+   "2.09",
+   "2.10",
+   "2.11"
+  ],
+  "format": "einfachauswahl",
+  "hinweise": [
+   "Read the whole sentence — the gap alone tells you too little.",
+   "Many words are built from a stem you already know.",
+   "Watch out for false friends between German and English."
+  ],
+  "loesungsweg": [
+   "Decide which topic the sentence belongs to.",
+   "Cross out the words from other topics.",
+   "Try each remaining option in the sentence.",
+   "Check that the grammar fits too."
+  ],
+  "aufgaben": [
+   {
+    "stamm": "Free time: Which word completes the sentence?\n\nWe ______ a tent for the weekend.",
+    "optionen": [
+     "borrowed",
+     "lent",
+     "bought back",
+     "gave"
+    ],
+    "loesung": [
+     "borrowed"
+    ],
+    "erklaerung": "«Borrow» means to take something for a while; «lend» means to give it.",
+    "fehler": [
+     {
+      "antwort": "lent",
+      "diagnoseId": "richtung",
+      "feedback": "«Lend» works the other way round: the shop lends, the member borrows."
+     },
+     {
+      "antwort": "bought back",
+      "diagnoseId": "kauf",
+      "feedback": "Nothing is bought in this shop — that is the whole point of it."
+     },
+     {
+      "antwort": "gave",
+      "diagnoseId": "geben",
+      "feedback": "«Gave» would mean it is not coming back."
+     }
+    ]
+   },
+   {
+    "stamm": "Environment: What does «to reduce waste» mean?",
+    "optionen": [
+     "to produce less rubbish",
+     "to clean the streets",
+     "to recycle glass",
+     "to buy more things"
+    ],
+    "loesung": [
+     "to produce less rubbish"
+    ],
+    "erklaerung": "«Waste» is rubbish, and «reduce» means to make less of it.",
+    "fehler": [
+     {
+      "antwort": "to clean the streets",
+      "diagnoseId": "reinigung",
+      "feedback": "Cleaning is a different action; reducing means producing less."
+     },
+     {
+      "antwort": "to recycle glass",
+      "diagnoseId": "recycling",
+      "feedback": "Recycling is one way to deal with waste, but not the meaning of the phrase."
+     },
+     {
+      "antwort": "to buy more things",
+      "diagnoseId": "gegenteil",
+      "feedback": "Buying more usually creates more waste, not less."
+     }
+    ]
+   },
+   {
+    "stamm": "School and work: Who works in a hardware shop?",
+    "optionen": [
+     "someone who sells tools and screws",
+     "someone who repairs computers",
+     "someone who teaches at a school",
+     "someone who drives a lorry"
+    ],
+    "loesung": [
+     "someone who sells tools and screws"
+    ],
+    "erklaerung": "A hardware shop sells tools, screws, paint and similar things — Judith Aebi used to work in one.",
+    "fehler": [
+     {
+      "antwort": "someone who repairs computers",
+      "diagnoseId": "technik",
+      "feedback": "Computer hardware is a different meaning of the same word."
+     },
+     {
+      "antwort": "someone who teaches at a school",
+      "diagnoseId": "schule",
+      "feedback": "A teacher works at a school, not in a shop."
+     },
+     {
+      "antwort": "someone who drives a lorry",
+      "diagnoseId": "transport",
+      "feedback": "A lorry driver transports goods and does not work in a shop."
+     }
+    ]
+   },
+   {
+    "stamm": "Word building: Which noun belongs to «to decide»?",
+    "optionen": [
+     "decision",
+     "decidement",
+     "deciding room",
+     "decisive"
+    ],
+    "loesung": [
+     "decision"
+    ],
+    "erklaerung": "The noun to «decide» is «decision», with the ending «-sion».",
+    "fehler": [
+     {
+      "antwort": "decidement",
+      "diagnoseId": "erfunden",
+      "feedback": "This word does not exist in English; the noun is «decision»."
+     },
+     {
+      "antwort": "deciding room",
+      "diagnoseId": "zusammensetzung",
+      "feedback": "That is not a word; «deciding» is a participle."
+     },
+     {
+      "antwort": "decisive",
+      "diagnoseId": "adjektiv",
+      "feedback": "«Decisive» is an adjective: a decisive answer."
+     }
+    ]
+   },
+   {
+    "stamm": "Everyday life: What is «a cupboard»?",
+    "optionen": [
+     "a piece of furniture with doors and shelves",
+     "a small boat",
+     "a garden shed",
+     "a kitchen knife"
+    ],
+    "loesung": [
+     "a piece of furniture with doors and shelves"
+    ],
+    "erklaerung": "The drill «sits in a cupboard» — a cupboard is where things are stored at home.",
+    "fehler": [
+     {
+      "antwort": "a small boat",
+      "diagnoseId": "falscher_freund",
+      "feedback": "«Board» sounds like a boat word, but a cupboard is furniture."
+     },
+     {
+      "antwort": "a garden shed",
+      "diagnoseId": "schuppen",
+      "feedback": "A shed stands outside; a cupboard is inside."
+     },
+     {
+      "antwort": "a kitchen knife",
+      "diagnoseId": "messer",
+      "feedback": "A knife is a tool, not a place to store things."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word is a false friend?",
+    "optionen": [
+     "gift",
+     "table",
+     "problem",
+     "student"
+    ],
+    "loesung": [
+     "gift"
+    ],
+    "erklaerung": "«Gift» means a present in English, not poison — that is the classic false friend for German speakers.",
+    "fehler": [
+     {
+      "antwort": "table",
+      "diagnoseId": "gleich",
+      "feedback": "«Table» means the same in both languages."
+     },
+     {
+      "antwort": "problem",
+      "diagnoseId": "gleich_zwei",
+      "feedback": "«Problem» is used in the same way in German and English."
+     },
+     {
+      "antwort": "student",
+      "diagnoseId": "fast_gleich",
+      "feedback": "«Student» is close enough in both languages to cause no trouble."
+     }
+    ]
+   },
+   {
+    "stamm": "Media: What does «to share something online» mean?",
+    "optionen": [
+     "to make it visible to other people",
+     "to buy it on the internet",
+     "to delete it",
+     "to translate it"
+    ],
+    "loesung": [
+     "to make it visible to other people"
+    ],
+    "erklaerung": "«Share» means to pass something on so that others can see it.",
+    "fehler": [
+     {
+      "antwort": "to buy it on the internet",
+      "diagnoseId": "kauf",
+      "feedback": "Buying is «to purchase» or «to buy» — sharing costs nothing."
+     },
+     {
+      "antwort": "to delete it",
+      "diagnoseId": "loeschen",
+      "feedback": "Deleting removes something; sharing spreads it."
+     },
+     {
+      "antwort": "to translate it",
+      "diagnoseId": "uebersetzen",
+      "feedback": "Translating means putting it into another language."
+     }
+    ]
+   },
+   {
+    "stamm": "Which preposition fits?\n\nShe is responsible ______ the deposits.",
+    "optionen": [
+     "for",
+     "of",
+     "to",
+     "about"
+    ],
+    "loesung": [
+     "for"
+    ],
+    "erklaerung": "«Responsible for» is a fixed combination.",
+    "fehler": [
+     {
+      "antwort": "of",
+      "diagnoseId": "feste_wendung",
+      "feedback": "«Responsible of» does not exist in English."
+     },
+     {
+      "antwort": "to",
+      "diagnoseId": "person",
+      "feedback": "«Responsible to somebody» means answerable to a person, which is a different meaning."
+     },
+     {
+      "antwort": "about",
+      "diagnoseId": "thema",
+      "feedback": "«About» introduces a topic, not a responsibility."
+     }
+    ]
+   },
+   {
+    "stamm": "Which word fits?\n\nThere is a long ______ list for the new shop.",
+    "optionen": [
+     "waiting",
+     "waited",
+     "wait",
+     "waits"
+    ],
+    "loesung": [
+     "waiting"
+    ],
+    "erklaerung": "Before a noun, the -ing form works as an adjective: a waiting list.",
+    "fehler": [
+     {
+      "antwort": "waited",
+      "diagnoseId": "partizip",
+      "feedback": "«Waited» is the past form and does not work as an adjective here."
+     },
+     {
+      "antwort": "wait",
+      "diagnoseId": "grundform",
+      "feedback": "The base form does not describe the noun."
+     },
+     {
+      "antwort": "waits",
+      "diagnoseId": "dritte_person",
+      "feedback": "«Waits» is a verb form for he, she or it."
+     }
+    ]
+   },
+   {
+    "stamm": "Numbers and time: How do you say 340 in English?",
+    "optionen": [
+     "three hundred and forty",
+     "three hundreds forty",
+     "thirty-four zero",
+     "three hundred fourty"
+    ],
+    "loesung": [
+     "three hundred and forty"
+    ],
+    "erklaerung": "Hundreds stay singular after a number, and British English adds «and».",
+    "fehler": [
+     {
+      "antwort": "three hundreds forty",
+      "diagnoseId": "plural",
+      "feedback": "«Hundred» stays singular after a number: three hundred."
+     },
+     {
+      "antwort": "thirty-four zero",
+      "diagnoseId": "ziffern",
+      "feedback": "Reading the digits separately is how you say a phone number."
+     },
+     {
+      "antwort": "three hundred fourty",
+      "diagnoseId": "schreibung",
+      "feedback": "The spelling is «forty», without a u — unlike «four» and «fourteen»."
+     }
+    ]
+   },
+   {
+    "stamm": "Which sentence is polite?",
+    "optionen": [
+     "Could you tell me the price, please?",
+     "Tell me the price.",
+     "I want the price now.",
+     "Price, please, quickly."
+    ],
+    "loesung": [
+     "Could you tell me the price, please?"
+    ],
+    "erklaerung": "«Could you … please?» is the standard polite request in English.",
+    "fehler": [
+     {
+      "antwort": "Tell me the price.",
+      "diagnoseId": "imperativ",
+      "feedback": "A bare imperative sounds like an order rather than a request."
+     },
+     {
+      "antwort": "I want the price now.",
+      "diagnoseId": "direkt",
+      "feedback": "«I want» sounds demanding in English; «I would like» is the polite form."
+     },
+     {
+      "antwort": "Price, please, quickly.",
+      "diagnoseId": "unhoeflich",
+      "feedback": "«Quickly» turns a request into pressure."
+     }
+    ]
+   },
+   {
+    "stamm": "Word building: Which adjective belongs to «use»?",
+    "optionen": [
+     "useful",
+     "usely",
+     "usable of",
+     "useness"
+    ],
+    "loesung": [
+     "useful"
+    ],
+    "erklaerung": "«Useful» is built with the ending «-ful»: full of use.",
+    "fehler": [
+     {
+      "antwort": "usely",
+      "diagnoseId": "endung",
+      "feedback": "«-ly» makes adverbs, and «usely» does not exist."
+     },
+     {
+      "antwort": "usable of",
+      "diagnoseId": "form",
+      "feedback": "«Usable» exists, but not with «of» attached."
+     },
+     {
+      "antwort": "useness",
+      "diagnoseId": "endung_zwei",
+      "feedback": "«-ness» makes nouns from adjectives, not from verbs."
+     }
+    ]
+   }
+  ],
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Merkblätter «Aufnahmeprüfung an das Gymnasium Aargau» und «Aufnahmeprüfung an die Fachmittelschule, Wirtschaftsmittelschule oder Informatikmittelschule Aargau» sowie die Prüfungsserien 2023-2026 der Mittelschulen Aargau, Prüfungsfach Englisch; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "thema": "Vocabulary: everyday life, school and society",
+  "status": "review"
+ }
+]

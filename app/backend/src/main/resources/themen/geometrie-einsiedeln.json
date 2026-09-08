@@ -1,0 +1,79 @@
+{
+ "fach": "geometrie-einsiedeln",
+ "name": "Mathematik: Form und Raum",
+ "pruefung": "Aufnahmeprüfung der Stiftsschule Einsiedeln",
+ "quelle": "Prüfungsstoff der Aufnahmeprüfung in die 1. Klasse des Untergymnasiums der Stiftsschule Einsiedeln, Ausgabe 2026, und die Prüfungsserien 2020 bis 2026",
+ "punkteTotal": 20,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "A",
+   "name": "Form und Raum",
+   "punkte": 20,
+   "anteil": 100,
+   "beschreibung": "Der zweite Mathematikteil: Figuren und Körper, Umfang und Flächeninhalt, Netze, Spiegelung und Verschiebung. Geodreieck und Zirkel gehören dazu.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Geometrische Körper erkennen und benennen",
+     "lernzielId": "GEI.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Umfang von Vielecken",
+     "lernzielId": "GEI.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Flächeninhalt von Quadrat und Rechteck",
+     "lernzielId": "GEI.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Zusammengesetzte Flächen im Raster",
+     "lernzielId": "GEI.1.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.05",
+     "name": "Würfel und Quader aus Würfeln bauen",
+     "lernzielId": "GEI.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Netze von Würfel und Quader",
+     "lernzielId": "GEI.1.06",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.07",
+     "name": "Achsenspiegelung und Symmetrie",
+     "lernzielId": "GEI.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Verschiebung im Raster",
+     "lernzielId": "GEI.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Winkel messen und übertragen",
+     "lernzielId": "GEI.1.09",
+     "pflichtset": 12
+    },
+    {
+     "code": "1.10",
+     "name": "Parallele und senkrechte Linien",
+     "lernzielId": "GEI.1.10",
+     "pflichtset": 20
+    }
+   ]
+  }
+ ]
+}

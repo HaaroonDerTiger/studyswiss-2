@@ -1,0 +1,323 @@
+{
+ "fach": "mathematik-gl",
+ "name": "Mathematik",
+ "pruefung": "Aufnahmeprüfungen der Kantonsschule Glarus",
+ "quelle": "Aufnahmeprüfungen der Kantonsschule Glarus für die 1. und 3. Klasse des Gymnasiums sowie für die Fachmittelschule, Serien 2019 bis 2026",
+ "punkteTotal": 22,
+ "oberthemen": [
+  {
+   "nr": 1,
+   "katalog": "B",
+   "name": "Basistest: Rechnen ohne Rechner",
+   "punkte": 6,
+   "anteil": 27,
+   "beschreibung": "Der erste Teil der FMS-Prüfung heisst so und beschreibt die ganze Glarner Mathematik: sicheres Rechnen ohne Taschenrechner.",
+   "unterthemen": [
+    {
+     "code": "1.01",
+     "name": "Grundoperationen und Vorrangregeln",
+     "lernzielId": "MGL.1.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.02",
+     "name": "Kopfrechnen mit grossen Zahlen",
+     "lernzielId": "MGL.1.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.03",
+     "name": "Brüche kürzen, erweitern und vergleichen",
+     "lernzielId": "MGL.1.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.04",
+     "name": "Grundoperationen mit Brüchen",
+     "lernzielId": "MGL.1.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "1.03"
+     ]
+    },
+    {
+     "code": "1.05",
+     "name": "Dezimalzahlen und Runden",
+     "lernzielId": "MGL.1.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.06",
+     "name": "Brüche, Dezimalzahlen und Prozente ineinander umwandeln",
+     "lernzielId": "MGL.1.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.07",
+     "name": "Teiler, Vielfache, ggT und kgV",
+     "lernzielId": "MGL.1.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.08",
+     "name": "Potenzen und Quadratzahlen",
+     "lernzielId": "MGL.1.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "1.09",
+     "name": "Quadratwurzeln",
+     "lernzielId": "MGL.1.09",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ],
+     "voraussetzungen": [
+      "1.08"
+     ]
+    },
+    {
+     "code": "1.10",
+     "name": "Negative Zahlen",
+     "lernzielId": "MGL.1.10",
+     "pflichtset": 20
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "katalog": "G",
+   "name": "Grössen und Sachrechnen",
+   "punkte": 6,
+   "anteil": 27,
+   "beschreibung": "Die Anwendungsaufgaben des zweiten Prüfungsteils: Einheiten, Prozente, Massstab und Verhältnisse.",
+   "unterthemen": [
+    {
+     "code": "2.01",
+     "name": "Längen-, Flächen- und Raumeinheiten umrechnen",
+     "lernzielId": "MGL.2.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.02",
+     "name": "Zeit umrechnen und mit Zeitspannen rechnen",
+     "lernzielId": "MGL.2.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.03",
+     "name": "Prozente: Anteil, Grundwert und Prozentsatz",
+     "lernzielId": "MGL.2.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.04",
+     "name": "Rabatt und Preisänderungen",
+     "lernzielId": "MGL.2.04",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.03"
+     ]
+    },
+    {
+     "code": "2.05",
+     "name": "Verhältnisse und Dreisatz",
+     "lernzielId": "MGL.2.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.06",
+     "name": "Umgekehrte Proportionalität",
+     "lernzielId": "MGL.2.06",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "2.05"
+     ]
+    },
+    {
+     "code": "2.07",
+     "name": "Massstab und Kartenlängen",
+     "lernzielId": "MGL.2.07",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.08",
+     "name": "Durchschnitt und Mittelwert",
+     "lernzielId": "MGL.2.08",
+     "pflichtset": 20
+    },
+    {
+     "code": "2.09",
+     "name": "Zinsrechnen",
+     "lernzielId": "MGL.2.09",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "katalog": "A",
+   "name": "Algebra",
+   "punkte": 5,
+   "anteil": 23,
+   "beschreibung": "Terme und Gleichungen — in der 3. Klasse und an der FMS mit Klammern und Brüchen.",
+   "unterthemen": [
+    {
+     "code": "3.01",
+     "name": "Terme aufstellen und Werte einsetzen",
+     "lernzielId": "MGL.3.01",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.02",
+     "name": "Terme zusammenfassen",
+     "lernzielId": "MGL.3.02",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.03",
+     "name": "Klammern auflösen",
+     "lernzielId": "MGL.3.03",
+     "pflichtset": 20,
+     "voraussetzungen": [
+      "3.02"
+     ]
+    },
+    {
+     "code": "3.04",
+     "name": "Ausklammern",
+     "lernzielId": "MGL.3.04",
+     "pflichtset": 12
+    },
+    {
+     "code": "3.05",
+     "name": "Lineare Gleichungen lösen",
+     "lernzielId": "MGL.3.05",
+     "pflichtset": 20
+    },
+    {
+     "code": "3.06",
+     "name": "Gleichungen mit Brüchen",
+     "lernzielId": "MGL.3.06",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ],
+     "voraussetzungen": [
+      "3.05"
+     ]
+    },
+    {
+     "code": "3.07",
+     "name": "Textaufgaben mit Gleichungen lösen",
+     "lernzielId": "MGL.3.07",
+     "pflichtset": 12,
+     "voraussetzungen": [
+      "3.05"
+     ]
+    },
+    {
+     "code": "3.08",
+     "name": "Formeln umstellen",
+     "lernzielId": "MGL.3.08",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "katalog": "F",
+   "name": "Figuren und Körper",
+   "punkte": 5,
+   "anteil": 23,
+   "beschreibung": "Geodreieck und Zirkel sind erlaubt: Konstruktionen, Flächen, Winkel und Körper.",
+   "unterthemen": [
+    {
+     "code": "4.01",
+     "name": "Winkel messen, zeichnen und berechnen",
+     "lernzielId": "MGL.4.01",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.02",
+     "name": "Dreiecke: Eigenschaften und Winkelsumme",
+     "lernzielId": "MGL.4.02",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.03",
+     "name": "Vierecke: Eigenschaften und Berechnungen",
+     "lernzielId": "MGL.4.03",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.04",
+     "name": "Umfang und Fläche zusammengesetzter Figuren",
+     "lernzielId": "MGL.4.04",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.05",
+     "name": "Kreis: Umfang und Fläche",
+     "lernzielId": "MGL.4.05",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    },
+    {
+     "code": "4.06",
+     "name": "Symmetrie und Spiegelungen",
+     "lernzielId": "MGL.4.06",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.07",
+     "name": "Grundkonstruktionen mit Zirkel und Lineal",
+     "lernzielId": "MGL.4.07",
+     "pflichtset": 12
+    },
+    {
+     "code": "4.08",
+     "name": "Satz des Pythagoras",
+     "lernzielId": "MGL.4.08",
+     "pflichtset": 12,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ]
+    },
+    {
+     "code": "4.09",
+     "name": "Volumen und Oberfläche von Würfel und Quader",
+     "lernzielId": "MGL.4.09",
+     "pflichtset": 20
+    },
+    {
+     "code": "4.10",
+     "name": "Prisma und zusammengesetzte Körper",
+     "lernzielId": "MGL.4.10",
+     "pflichtset": 20,
+     "nurGeprueftIn": [
+      "gl-gym3",
+      "gl-fms"
+     ],
+     "voraussetzungen": [
+      "4.09"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4065 @@
+[
+ {
+  "templateId": "be3-abfall-pro-kopf",
+  "lernzielId": "MG.1.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "1.02",
+   "1.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "kg",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "auswahl",
+    "werte": [
+     10,
+     16,
+     20,
+     25,
+     40,
+     50,
+     80,
+     100
+    ]
+   },
+   {
+    "name": "mio",
+    "typ": "formel",
+    "ausdruck": "b/10"
+   },
+   {
+    "name": "gesamtkg",
+    "typ": "formel",
+    "ausdruck": "a*1000000000"
+   },
+   {
+    "name": "leute",
+    "typ": "formel",
+    "ausdruck": "b*100000"
+   },
+   {
+    "name": "proKopfTonnen",
+    "typ": "formel",
+    "ausdruck": "a*1000000/leute"
+   },
+   {
+    "name": "stoff",
+    "typ": "text",
+    "texte": [
+     [
+      "Kehricht",
+      "verbrannt"
+     ],
+     [
+      "Altpapier",
+      "gesammelt"
+     ],
+     [
+      "Bauschutt",
+      "abgeführt"
+     ],
+     [
+      "Glas",
+      "eingeschmolzen"
+     ],
+     [
+      "Grüngut",
+      "kompostiert"
+     ],
+     [
+      "Altmetall",
+      "eingeschmolzen"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(proKopfTonnen*1000)==1",
+   "proKopfTonnen*1000>=40",
+   "proKopfTonnen*1000<=5000",
+   "proKopfTonnen*1000!=a",
+   "proKopfTonnen*1000!=b",
+   "proKopfTonnen*1000!=1000"
+  ],
+  "stamm": "In einem Land werden pro Jahr {a} Millionen Tonnen {stoff} {stoff.1}. Dort leben {mio} Millionen Menschen. Wie viele Kilogramm {stoff} sind das pro Jahr und Kopf?",
+  "loesung": "proKopfTonnen*1000",
+  "gegenprobe": "gesamtkg/leute",
+  "fehler": [
+   {
+    "diagnoseId": "tonnen_statt_kilogramm",
+    "ausdruck": "proKopfTonnen",
+    "feedback": "Das ist die Menge in TONNEN. Gefragt sind Kilogramm. Eine Tonne sind 1000 Kilogramm, die Zahl wird also tausendmal grösser."
+   },
+   {
+    "diagnoseId": "faktor_hundert_statt_tausend",
+    "ausdruck": "proKopfTonnen*100",
+    "feedback": "Du hast mit 100 multipliziert. Zwischen Tonne und Kilogramm liegt der Faktor 1000, nicht 100. 100 gehört zwischen Meter und Zentimeter."
+   },
+   {
+    "diagnoseId": "geteilt_vertauscht",
+    "ausdruck": "leute/(a*1000)",
+    "feedback": "Du hast die Einwohnerzahl durch die Menge geteilt. Gefragt ist die Menge JE Person, also Menge geteilt durch Anzahl Menschen."
+   },
+   {
+    "diagnoseId": "hunderttausend_vergessen",
+    "ausdruck": "a*1000000/b",
+    "feedback": "Du hast durch {mio} geteilt statt durch {mio} Millionen. Die Einwohnerzahl ist {leute}, nicht {mio}. Die Nullen gehören dazu."
+   }
+  ],
+  "hinweise": [
+   "Rechne zuerst beide Angaben in dieselbe Einheit um: Wie viele Menschen sind {mio} Millionen?",
+   "Ein Weg: erst die Menge je Kopf in Tonnen, dann in Kilogramm. Der andere: erst alles in Kilogramm, dann teilen.",
+   "Eine Million Tonnen sind eine Milliarde Kilogramm."
+  ],
+  "loesungsweg": [
+   "{mio} Millionen sind {leute} Menschen.",
+   "{a} Millionen Tonnen sind {gesamtkg} Kilogramm.",
+   "{gesamtkg} kg geteilt durch {leute} Menschen ergibt die Menge je Kopf.",
+   "Probe über den anderen Weg: {proKopfTonnen} Tonnen je Kopf, mal 1000 ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-ueberschlag-flaeche",
+  "lernzielId": "MG.1.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "1.03",
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "m²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "laenge",
+    "typ": "ganzzahl",
+    "von": 115,
+    "bis": 985,
+    "schritt": 1
+   },
+   {
+    "name": "breite",
+    "typ": "ganzzahl",
+    "von": 125,
+    "bis": 875,
+    "schritt": 1
+   },
+   {
+    "name": "lr",
+    "typ": "formel",
+    "ausdruck": "round(laenge/100)"
+   },
+   {
+    "name": "br",
+    "typ": "formel",
+    "ausdruck": "round(breite/100)"
+   },
+   {
+    "name": "schaetzung",
+    "typ": "formel",
+    "ausdruck": "lr*100*br*100"
+   },
+   {
+    "name": "flaeche",
+    "typ": "text",
+    "texte": [
+     [
+      "Flugfeld",
+      "Das Flugfeld"
+     ],
+     [
+      "Solarfeld",
+      "Das Solarfeld"
+     ],
+     [
+      "Festgelände",
+      "Das Festgelände"
+     ],
+     [
+      "Lagerplatz",
+      "Der Lagerplatz"
+     ],
+     [
+      "Reservoir",
+      "Das Reservoir"
+     ],
+     [
+      "Weinberg",
+      "Der Weinberg"
+     ],
+     [
+      "Torfmoor",
+      "Das Torfmoor"
+     ],
+     [
+      "Salzsee",
+      "Der Salzsee"
+     ],
+     [
+      "Steinbruch",
+      "Der Steinbruch"
+     ],
+     [
+      "Baumschule",
+      "Die Baumschule"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "lr>=1",
+   "br>=1",
+   "schaetzung<=900000",
+   "laenge%100!=0",
+   "breite%100!=0",
+   "schaetzung!=laenge",
+   "schaetzung!=breite"
+  ],
+  "stamm": "{name} überschlägt eine Fläche im Kopf. {flaeche.1} ist {laenge} m lang und {breite} m breit. Runde beide Längen auf ganze Hunderter und rechne damit. Wie gross ist die geschätzte Fläche?",
+  "loesung": "lr*100*br*100",
+  "gegenprobe": "lr*br*10000",
+  "fehler": [
+   {
+    "diagnoseId": "nicht_gerundet",
+    "ausdruck": "laenge*breite",
+    "feedback": "Du hast mit den genauen Zahlen gerechnet. Beim Überschlag rundet man zuerst. Das ist der ganze Sinn der Sache, damit man ohne Papier rechnen kann."
+   },
+   {
+    "diagnoseId": "abgeschnitten_statt_gerundet",
+    "ausdruck": "floor(laenge/100)*100*floor(breite/100)*100",
+    "feedback": "Du hast die Hunderter einfach abgeschnitten. Gerundet wird zur NÄCHSTEN Hunderterzahl: Ab 50 aufwärts geht es nach oben."
+   },
+   {
+    "diagnoseId": "nur_eine_gerundet",
+    "ausdruck": "lr*100*breite",
+    "feedback": "Du hast nur eine der beiden Längen gerundet. Beim Überschlag werden beide Zahlen gerundet, sonst wird es nicht einfacher."
+   },
+   {
+    "diagnoseId": "nullen_verzaehlt",
+    "ausdruck": "lr*br*1000",
+    "feedback": "Da fehlt eine Null. {lr} Hunderter mal {br} Hunderter sind {lr}·{br} Zehntausender, an das Produkt gehören vier Nullen."
+   }
+  ],
+  "hinweise": [
+   "Runde zuerst jede Länge für sich: Auf welchen ganzen Hunderter liegt sie am nächsten?",
+   "Aus Hunderter mal Hunderter wird Zehntausender. Rechne {lr} · {br} und hänge vier Nullen an.",
+   "Ab 50 wird aufgerundet, darunter abgerundet."
+  ],
+  "loesungsweg": [
+   "{laenge} m gerundet auf Hunderter ergibt {lr} Hunderter.",
+   "{breite} m gerundet auf Hunderter ergibt {br} Hunderter.",
+   "{lr} · {br} = {lr}·{br}, und Hunderter mal Hunderter ergibt Zehntausender.",
+   "Die geschätzte Fläche ist darum {schaetzung} m²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-gleichung-brueche",
+  "lernzielId": "MG.2.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "t",
+    "typ": "formel",
+    "ausdruck": "(a+c)/(d-b)"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "a+b*t"
+   }
+  ],
+  "bedingungen": [
+   "d>b",
+   "istGanz(t)==1",
+   "t>=1",
+   "t<=12",
+   "x<=180",
+   "a!=c",
+   "x!=t"
+  ],
+  "stamm": "Löse die Gleichung nach x auf. Dokumentiere die entscheidenden Rechenschritte.\n\n(x − {a})/{b}  =  (x + {c})/{d}",
+  "loesung": "a+b*t",
+  "gegenprobe": "d*t-c",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_beim_zusammenfassen",
+    "ausdruck": "(a*d+b*c)/(d+b)",
+    "feedback": "Du hast die beiden x-Glieder addiert statt subtrahiert. Wenn {b}x auf die linke Seite kommt, wird es dort abgezogen. Übrig bleibt ({d} − {b})·x."
+   },
+   {
+    "diagnoseId": "kreuzweise_falsch",
+    "ausdruck": "(a*d-b*c)/(d-b)",
+    "feedback": "Beim Ausmultiplizieren ist ein Vorzeichen gekippt. {b}·(x + {c}) ergibt {b}x + {b}·{c}. Das Produkt der beiden Zahlen wird addiert, nicht abgezogen."
+   },
+   {
+    "diagnoseId": "zwischenwert_abgegeben",
+    "ausdruck": "t",
+    "feedback": "Das ist der gemeinsame Wert der beiden Brüche, nicht x. Setze ihn zurück ein: x ist {a} plus {b}-mal dieser Wert."
+   },
+   {
+    "diagnoseId": "nenner_multipliziert",
+    "ausdruck": "(a*d+b*c)/(d*b)",
+    "feedback": "Du hast am Schluss durch {b}·{d} geteilt. Nach dem Zusammenfassen steht vor dem x aber die Differenz der beiden Nenner, nicht ihr Produkt."
+   }
+  ],
+  "hinweise": [
+   "Beide Seiten haben denselben Wert. Multipliziere die Gleichung mit beiden Nennern. Dann verschwinden die Brüche.",
+   "Nach dem Ausmultiplizieren stehen auf beiden Seiten x-Glieder. Bringe sie auf eine Seite und die Zahlen auf die andere.",
+   "Vor dem x steht am Schluss ({d} − {b}). Durch diese Zahl wird geteilt."
+  ],
+  "loesungsweg": [
+   "Multipliziere beide Seiten mit {b} und mit {d}: {d}·(x − {a}) = {b}·(x + {c}).",
+   "Ausmultipliziert: {d}x − {d}·{a} = {b}x + {b}·{c}.",
+   "x-Glieder nach links, Zahlen nach rechts: ({d} − {b})·x = {d}·{a} + {b}·{c}.",
+   "Teilen durch ({d} − {b}) ergibt x = {x}.",
+   "Probe: Beide Brüche haben dann den Wert {t}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-zahlenraetsel",
+  "lernzielId": "MG.2.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.03",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "(q+2*r)/(p-2)"
+   },
+   {
+    "name": "t",
+    "typ": "formel",
+    "ausdruck": "2*(x+r)"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(x)==1",
+   "x>=3",
+   "x<=90",
+   "x!=p",
+   "x!=q",
+   "x!=r",
+   "x!=2",
+   "q!=r",
+   "t!=x"
+  ],
+  "stamm": "{name} denkt sich eine Zahl aus und sagt: «Nimmst du das {p}-Fache meiner Zahl und ziehst {q} ab, so erhältst du gleich viel, wie wenn du {r} zu meiner Zahl addierst und die Summe verdoppelst.» Stelle eine Gleichung auf und bestimme die Zahl.",
+  "loesung": "(t+q)/p",
+  "gegenprobe": "t/2-r",
+  "fehler": [
+   {
+    "diagnoseId": "klammer_vergessen",
+    "ausdruck": "(q+r)/(p-2)",
+    "feedback": "Verdoppelt wird die ganze SUMME, nicht nur die Zahl. Rechts steht 2·(x + {r}) und damit 2x + 2·{r}. Die Klammer gehört dazu."
+   },
+   {
+    "diagnoseId": "seite_falsch_verrechnet",
+    "ausdruck": "(q-2*r)/(p-2)",
+    "feedback": "Du hast 2·{r} abgezogen statt addiert. Beim Sortieren wechselt nur das Vorzeichen dessen, was du über das Gleichheitszeichen schiebst. 2·{r} steht rechts und kommt links mit Minus an, die {q} umgekehrt mit Plus."
+   },
+   {
+    "diagnoseId": "koeffizient_falsch",
+    "ausdruck": "(q+2*r)/(p-1)",
+    "feedback": "Rechts stehen ZWEI x, nicht eines. Vor dem x bleibt darum {p} − 2 stehen, und durch diese Zahl wird geteilt."
+   },
+   {
+    "diagnoseId": "nicht_geteilt",
+    "ausdruck": "q+2*r",
+    "feedback": "Du bist einen Schritt zu früh fertig. Auf der linken Seite steht noch ein Vielfaches von x, durch die Zahl vor dem x muss am Schluss geteilt werden."
+   }
+  ],
+  "hinweise": [
+   "Nenne die gesuchte Zahl x und schreibe beide Sätze als Term auf. Links das Vielfache minus die Zahl, rechts das Verdoppelte der Summe.",
+   "Rechts steht 2·(x + {r}). Multipliziere die Klammer aus, bevor du sortierst.",
+   "Bringe alle x nach links und alle Zahlen nach rechts. Vor dem x bleibt {p} − 2 stehen."
+  ],
+  "loesungsweg": [
+   "Gleichung: {p}x − {q} = 2·(x + {r}).",
+   "Klammer ausmultiplizieren: {p}x − {q} = 2x + 2·{r}.",
+   "Sortieren: ({p} − 2)·x = {q} + 2·{r}.",
+   "Teilen ergibt x = {x}.",
+   "Probe: Beide Seiten ergeben {t}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-gleichungssystem",
+  "lernzielId": "MG.2.04",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.04",
+   "2.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "y",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "a*x+b*y"
+   },
+   {
+    "name": "f",
+    "typ": "formel",
+    "ausdruck": "d*x-e*y"
+   },
+   {
+    "name": "det",
+    "typ": "formel",
+    "ausdruck": "a*e+b*d"
+   }
+  ],
+  "bedingungen": [
+   "x!=0",
+   "y!=0",
+   "x!=y",
+   "a*e!=b*d",
+   "c>=6",
+   "c<=120",
+   "f>=6",
+   "f<=120",
+   "a!=b",
+   "d!=e",
+   "c!=f"
+  ],
+  "stamm": "Bestimme rechnerisch die Lösung des Gleichungssystems. Gib alle entscheidenden Rechenschritte an.\n\nI    {a}x + {b}y = {c}\nII   {d}x − {e}y = {f}",
+  "felder": [
+   {
+    "name": "x",
+    "label": "x",
+    "ausdruck": "x",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "y_statt_x",
+      "ausdruck": "y",
+      "feedback": "Das ist der Wert von y. Achte darauf, welche der beiden Unbekannten du eliminiert hast. Übrig bleibt jeweils die andere."
+     },
+     {
+      "diagnoseId": "determinante_vergessen",
+      "ausdruck": "c*e+b*f",
+      "feedback": "Du hast die beiden Gleichungen richtig kombiniert, aber am Schluss nicht mehr geteilt. Vor dem x steht {det}, durch diese Zahl muss noch geteilt werden."
+     },
+     {
+      "diagnoseId": "y_glied_ignoriert",
+      "ausdruck": "c/a",
+      "feedback": "Du hast in Gleichung I das y einfach weggelassen. Eine Gleichung mit zwei Unbekannten hat allein keine feste Lösung. Erst die zweite Gleichung legt beide Werte fest."
+     },
+     {
+      "diagnoseId": "vorzeichen_in_zwei",
+      "ausdruck": "(c*e-b*f)/(a*e-b*d)",
+      "feedback": "In Gleichung II steht ein Minus vor dem y. Beim Addieren der beiden Gleichungen heben sich die y-Glieder darum auf. Du hast sie subtrahiert und damit verdoppelt."
+     }
+    ]
+   },
+   {
+    "name": "y",
+    "label": "y",
+    "ausdruck": "y",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "x_statt_y",
+      "ausdruck": "x",
+      "feedback": "Das ist der Wert von x. Beide Zahlen gehören zur Lösung, aber jede an ihren Platz. Setze zur Sicherheit beide in Gleichung I ein."
+     },
+     {
+      "diagnoseId": "determinante_vergessen",
+      "ausdruck": "c*d-a*f",
+      "feedback": "Der Zähler stimmt, das Teilen fehlt. Nach dem Eliminieren von x steht vor dem y die Zahl {det}."
+     },
+     {
+      "diagnoseId": "x_glied_ignoriert",
+      "ausdruck": "c/b",
+      "feedback": "Du hast in Gleichung I das x weggelassen. Setze stattdessen den gefundenen x-Wert ein und löse dann nach y auf."
+     },
+     {
+      "diagnoseId": "vorzeichen_in_zwei",
+      "ausdruck": "(c*d+a*f)/(a*e+b*d)",
+      "feedback": "Das Minus vor dem y in Gleichung II ist verlorengegangen. Es entscheidet darüber, ob die beiden Gleichungen addiert oder subtrahiert werden müssen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Multipliziere die beiden Gleichungen so, dass bei einer Unbekannten dieselbe Zahl steht. Dann fällt sie beim Addieren oder Subtrahieren weg.",
+   "In Gleichung II steht ein Minus vor dem y. Multipliziere I mit {e} und II mit {b}. Dann heben sich die y-Glieder beim Addieren auf.",
+   "Ist eine Unbekannte gefunden, setzt du sie in Gleichung I ein und löst nach der anderen auf."
+  ],
+  "loesungsweg": [
+   "I mit {e} multiplizieren, II mit {b} multiplizieren.",
+   "Die beiden Gleichungen addieren: Die y-Glieder heben sich auf, vor dem x steht {det}.",
+   "Teilen ergibt x = {x}.",
+   "x in Gleichung I einsetzen und nach y auflösen: y = {y}.",
+   "Probe in Gleichung II: {d}·{x} − {e}·{y} = {f}."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-quadratische-gleichung",
+  "lernzielId": "MG.2.05",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "r1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "r2",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "r1+r2"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "0-r1*r2"
+   },
+   {
+    "name": "disk",
+    "typ": "formel",
+    "ausdruck": "b*b+4*c"
+   }
+  ],
+  "bedingungen": [
+   "b>=1",
+   "c>=2",
+   "c<=150",
+   "r1!=0-r2",
+   "b!=c",
+   "r1!=b",
+   "r1!=c"
+  ],
+  "stamm": "Berechne alle Lösungen der Gleichung. Verwende nicht den Löser-Befehl des Taschenrechners, sondern zeige die Rechenschritte.\n\nx²  =  {b}x + {c}",
+  "felder": [
+   {
+    "name": "gross",
+    "label": "grössere Lösung",
+    "ausdruck": "r1",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "kleinere_statt_groessere",
+      "ausdruck": "r2",
+      "feedback": "Das ist die kleinere der beiden Lösungen. Vor der Wurzel steht ein Plus-Minus. Die grössere entsteht mit dem Plus."
+     },
+     {
+      "diagnoseId": "scheitel_statt_nullstelle",
+      "ausdruck": "b/2",
+      "feedback": "Das ist die Mitte zwischen den beiden Lösungen, nicht eine Lösung selbst. Von dieser Mitte aus geht es um den Wurzelwert nach links und nach rechts."
+     },
+     {
+      "diagnoseId": "wurzel_aus_c",
+      "ausdruck": "sqrt(c)",
+      "feedback": "Du hast die Wurzel aus {c} gezogen, als stünde x² = {c}. Der Term {b}x steht aber ebenfalls da und darf nicht verschwinden."
+     },
+     {
+      "diagnoseId": "vorzeichen_unter_der_wurzel",
+      "ausdruck": "(b+sqrt(max(b*b-4*c,0)))/2",
+      "feedback": "Unter der Wurzel ist ein Vorzeichen gekippt. Bringst du alles auf eine Seite, steht dort x² − {b}x − {c} = 0. Das c ist negativ, aus dem −4c wird darum ein Plus."
+     }
+    ]
+   },
+   {
+    "name": "klein",
+    "label": "kleinere Lösung",
+    "ausdruck": "r2",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "groessere_statt_kleinere",
+      "ausdruck": "r1",
+      "feedback": "Das ist die grössere der beiden Lösungen. Die kleinere entsteht, wenn du vor der Wurzel das Minus nimmst."
+     },
+     {
+      "diagnoseId": "betrag_statt_vorzeichen",
+      "ausdruck": "0-r2",
+      "feedback": "Der Betrag stimmt, das Vorzeichen nicht. Prüfe mit einer Probe: Nur mit dem Minus davor ergeben beide Seiten der Gleichung dasselbe."
+     },
+     {
+      "diagnoseId": "scheitel_statt_nullstelle",
+      "ausdruck": "b/2",
+      "feedback": "Das ist die Mitte zwischen den beiden Lösungen. Beide Lösungen liegen gleich weit davon entfernt, die eine links, die andere rechts."
+     },
+     {
+      "diagnoseId": "produkt_statt_loesung",
+      "ausdruck": "0-c",
+      "feedback": "Das ist das Produkt der beiden Lösungen, nicht eine Lösung. Es hilft zwar beim Prüfen, ist aber nicht die Antwort."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Bringe zuerst alles auf eine Seite, sodass rechts null steht.",
+   "Jetzt steht die Gleichung in der Form x² + px + q = 0. Setze in die Lösungsformel ein und achte auf die Vorzeichen von p und q.",
+   "Unter der Wurzel steht {disk}. Ziehe die Wurzel und teile den ganzen Zähler durch 2."
+  ],
+  "loesungsweg": [
+   "Alles auf eine Seite: x² − {b}x − {c} = 0.",
+   "Lösungsformel mit p = −{b} und q = −{c}.",
+   "Unter der Wurzel steht {b}² + 4·{c} = {disk}.",
+   "Die beiden Lösungen sind {r1} und {r2}.",
+   "Probe: Die Summe der Lösungen ist {b}, ihr Produkt −{c}. Beides passt zur Gleichung."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-bruchgleichung",
+  "lernzielId": "MG.2.06",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.06",
+   "2.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 15,
+    "schritt": 1
+   },
+   {
+    "name": "s",
+    "typ": "formel",
+    "ausdruck": "(b+d)/(c-a)"
+   },
+   {
+    "name": "x",
+    "typ": "formel",
+    "ausdruck": "b+a*s"
+   }
+  ],
+  "bedingungen": [
+   "c>a",
+   "istGanz(s)==1",
+   "s>=1",
+   "s<=14",
+   "x<=150",
+   "x!=b",
+   "x!=0-d",
+   "x!=s",
+   "b!=d"
+  ],
+  "stamm": "Löse die Bruchgleichung nach x auf und gib die Definitionsmenge an.\n\n{a}/(x − {b})  =  {c}/(x + {d})",
+  "loesung": "b+a*s",
+  "gegenprobe": "c*s-d",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_beim_ausmultiplizieren",
+    "ausdruck": "(c*b-a*d)/(c-a)",
+    "feedback": "Beim Ausmultiplizieren ist ein Vorzeichen gekippt. Aus {a}·(x + {d}) wird {a}x + {a}·{d}. Beide Summanden behalten ihr Plus."
+   },
+   {
+    "diagnoseId": "faktoren_vertauscht",
+    "ausdruck": "(a*b+c*d)/(c-a)",
+    "feedback": "Beim Übers-Kreuz-Multiplizieren gehört der Zähler der einen Seite zum Nenner der anderen. Du hast {a} mit {b} und {c} mit {d} verbunden. Es müsste über Kreuz sein."
+   },
+   {
+    "diagnoseId": "zwischenwert_abgegeben",
+    "ausdruck": "s",
+    "feedback": "Du bist bei einem Zwischenergebnis stehengeblieben. Diese Zahl sagt nur, wie oft {a} beziehungsweise {c} in den Nenner passt. X bekommst du erst, wenn du sie wieder einsetzt."
+   },
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(c*b+a*d)/(c+a)",
+    "feedback": "Nach dem Sortieren steht vor dem x die Differenz {c} − {a}, nicht die Summe. Das x-Glied der einen Seite wird abgezogen, nicht dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Zuerst die Definitionsmenge: Für welche beiden Zahlen würde ein Nenner null? Diese Werte sind ausgeschlossen.",
+   "Multipliziere über Kreuz: Zähler links mal Nenner rechts gleich Zähler rechts mal Nenner links.",
+   "Nach dem Ausmultiplizieren stehen auf beiden Seiten x-Glieder. Vor dem x bleibt am Schluss {c} − {a} stehen."
+  ],
+  "loesungsweg": [
+   "Definitionsmenge: x darf nicht {b} und nicht −{d} sein, sonst wird ein Nenner null.",
+   "Über Kreuz multiplizieren: {a}·(x + {d}) = {c}·(x − {b}).",
+   "Ausmultiplizieren und sortieren: ({c} − {a})·x = {c}·{b} + {a}·{d}.",
+   "Teilen ergibt x = {x}. Der Wert liegt in der Definitionsmenge, die Lösung gilt."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-wurzelgleichung",
+  "lernzielId": "MG.2.06",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "2.06",
+   "2.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "(r-b)*(r-b)-r"
+   },
+   {
+    "name": "schein",
+    "typ": "formel",
+    "ausdruck": "2*b+1-r"
+   },
+   {
+    "name": "disk",
+    "typ": "formel",
+    "ausdruck": "4*a+4*b+1"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "r>=b+2",
+   "a>=1",
+   "a<=250",
+   "r!=a",
+   "r!=b",
+   "r!=schein"
+  ],
+  "stamm": "{name} löst eine Wurzelgleichung. Bestimme alle Zahlen, welche die Gleichung wirklich erfüllen.\n\n√(x + {a})  =  x − {b}",
+  "loesung": "r",
+  "gegenprobe": "(2*b+1+sqrt(disk))/2",
+  "fehler": [
+   {
+    "diagnoseId": "scheinloesung",
+    "ausdruck": "schein",
+    "feedback": "Diese Zahl löst zwar die quadratische Gleichung, die beim Quadrieren entsteht. Die ursprüngliche Gleichung aber nicht: Rechts stünde eine negative Zahl, und eine Wurzel ist nie negativ. Bei Wurzelgleichungen ist die Probe darum Pflicht."
+   },
+   {
+    "diagnoseId": "binom_falsch",
+    "ausdruck": "(1+sqrt(1+4*a+4*b*b))/2",
+    "feedback": "Beim Quadrieren der rechten Seite ist die binomische Formel verlorengegangen. (x − {b})² ist nicht x² − {b}², sondern x² − 2·{b}·x + {b}²."
+   },
+   {
+    "diagnoseId": "vorzeichen_im_binom",
+    "ausdruck": "(1-2*b+sqrt(max(4*a-4*b+1,0)))/2",
+    "feedback": "Du hast mit (x + {b})² gerechnet. In der Gleichung steht aber x − {b}; das mittlere Glied der binomischen Formel bekommt darum ein Minus."
+   }
+  ],
+  "hinweise": [
+   "Quadriere beide Seiten. Achte darauf, dass rechts eine ganze Klammer steht. Dort gilt die binomische Formel.",
+   "Nach dem Quadrieren steht eine quadratische Gleichung. Sie hat zwei Lösungen.",
+   "Setze beide gefundenen Zahlen in die ursprüngliche Gleichung ein. Nur wo beide Seiten dasselbe ergeben und die rechte Seite nicht negativ ist, gilt die Lösung."
+  ],
+  "loesungsweg": [
+   "Beide Seiten quadrieren: x + {a} = (x − {b})² = x² − 2·{b}·x + {b}².",
+   "Alles auf eine Seite bringen: x² − (2·{b} + 1)·x + ({b}² − {a}) = 0.",
+   "Unter der Wurzel der Lösungsformel steht {disk}; die beiden Lösungen sind {r} und {schein}.",
+   "Probe: Für {schein} wäre die rechte Seite negativ. Das kann keine Wurzel sein. Es bleibt x = {r}."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-wertetabelle-parabel",
+  "lernzielId": "MG.3.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.01",
+   "3.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "scheitelx",
+    "typ": "formel",
+    "ausdruck": "b/2"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "b!=q"
+  ],
+  "stamm": "{name} zeichnet den Graphen der Funktion f mit f(x) = x² − {b}x + {q}. Trage zuerst alle Wertepaare (x | f(x)) für x von −4 bis 4 in die Tabelle ein.",
+  "fehler": [
+   {
+    "diagnoseId": "quadrat_vergessen",
+    "kurz": "x statt x²",
+    "feedback": "Du hast x nur einmal genommen. In f(x) = x² − {b}x + {q} steht x², also x·x, bei x = 3 sind das 9 und nicht 3."
+   },
+   {
+    "diagnoseId": "vorzeichen_bei_negativem_x",
+    "kurz": "Minus mal Minus",
+    "feedback": "Bei negativen x-Werten gibt es zwei Vorzeichenfallen: x² ist immer positiv, und −{b}·x wird bei negativem x positiv. Rechne beide Glieder einzeln aus, bevor du addierst."
+   },
+   {
+    "diagnoseId": "konstante_vergessen",
+    "kurz": "Konstante vergessen",
+    "feedback": "Das Glied {q} gehört zu jedem einzelnen Funktionswert dazu. Es verschiebt die ganze Parabel um {q} nach oben."
+   }
+  ],
+  "hinweise": [
+   "Rechne jeden x-Wert einzeln durch. Nimm zuerst x², dann {b}·x, und ziehe ab.",
+   "Achte bei negativen x-Werten auf die Vorzeichen: x² ist positiv, und − {b}·x wird dort ebenfalls positiv.",
+   "Der tiefste Punkt der Parabel liegt bei x = {scheitelx}. Links und rechts davon steigen die Werte gleich stark an."
+  ],
+  "loesungsweg": [
+   "Setze der Reihe nach x = −4, −3, … , 4 ein.",
+   "Beispiel x = −4: (−4)² ergibt 16; das Glied − {b}·x wird bei negativem x positiv und liefert {b}·4; dazu kommt die Konstante {q}.",
+   "Der tiefste Punkt liegt bei x = {scheitelx}; die Wertepaare liegen symmetrisch dazu.",
+   "Die eingetragenen Paare ergeben zusammen den Graphen einer nach oben geöffneten Parabel."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "x",
+     "von": "-4",
+     "bis": "4"
+    },
+    {
+     "name": "y",
+     "kopf": "f(x)",
+     "von": "q-b*b/4-2",
+     "bis": "16+4*b+q"
+    }
+   ],
+   "bedingung": "y == x*x - b*x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-gerade-zwei-punkte",
+  "lernzielId": "MG.3.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.02",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x1",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "x2",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m*x1+q"
+   },
+   {
+    "name": "y2",
+    "typ": "formel",
+    "ausdruck": "m*x2+q"
+   },
+   {
+    "name": "dy",
+    "typ": "formel",
+    "ausdruck": "y2-y1"
+   },
+   {
+    "name": "dx",
+    "typ": "formel",
+    "ausdruck": "x2-x1"
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "q!=0",
+   "x1!=0",
+   "x2!=0",
+   "x1!=x2",
+   "x2>x1",
+   "m!=q",
+   "y1<=45",
+   "y1>=-45",
+   "y2<=45",
+   "y2>=-45",
+   "y1!=y2"
+  ],
+  "stamm": "Der Graph der linearen Funktion f geht durch die Punkte A({x1} | {y1}) und B({x2} | {y2}). Bestimme die Steigung m und den y-Achsenabschnitt q von f. Gib die Rechenschritte an.",
+  "felder": [
+   {
+    "name": "m",
+    "label": "Steigung m",
+    "ausdruck": "m",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "kehrwert_der_steigung",
+      "ausdruck": "(x2-x1)/(y2-y1)",
+      "feedback": "Du hast Δx durch Δy geteilt. Die Steigung sagt, um wie viel y sich ändert, wenn x um 1 wächst, also Δy geteilt durch Δx."
+     },
+     {
+      "diagnoseId": "nur_die_differenz",
+      "ausdruck": "y2-y1",
+      "feedback": "Das ist der Höhenunterschied zwischen den beiden Punkten. Er gilt aber für {x2} − {x1} Schritte in x-Richtung, für einen einzelnen Schritt musst du noch teilen."
+     },
+     {
+      "diagnoseId": "vorzeichen_der_steigung",
+      "ausdruck": "0-m",
+      "feedback": "Der Betrag stimmt, das Vorzeichen nicht. Prüfe mit den Punkten: Steigt y, wenn x wächst, ist m positiv, sonst negativ."
+     },
+     {
+      "diagnoseId": "abschnitt_statt_steigung",
+      "ausdruck": "q",
+      "feedback": "Das ist der y-Achsenabschnitt und nicht die Steigung. Die Steigung ist die Zahl VOR dem x."
+     }
+    ]
+   },
+   {
+    "name": "q",
+    "label": "y-Achsenabschnitt q",
+    "ausdruck": "q",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "y_des_ersten_punktes",
+      "ausdruck": "y1",
+      "feedback": "Das ist der y-Wert von A, nicht der y-Achsenabschnitt. Der Achsenabschnitt ist der Funktionswert an der Stelle x = 0. Dort liegt A nur, wenn seine x-Koordinate null ist."
+     },
+     {
+      "diagnoseId": "vorzeichen_des_abschnitts",
+      "ausdruck": "0-q",
+      "feedback": "Das Vorzeichen ist gekippt. Beim Einsetzen wird m·x auf die andere Seite gebracht und dabei abgezogen, nicht addiert."
+     },
+     {
+      "diagnoseId": "steigung_statt_abschnitt",
+      "ausdruck": "m",
+      "feedback": "Das ist die Steigung. Der y-Achsenabschnitt ist die Zahl, die in y = mx + q hinten steht."
+     },
+     {
+      "diagnoseId": "punkt_falsch_eingesetzt",
+      "ausdruck": "y1+m*x1",
+      "feedback": "Beim Einsetzen von A wurde m·x addiert statt abgezogen. Aus y = m·x + q folgt q = y − m·x."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Die Steigung ist der Höhenunterschied geteilt durch den waagrechten Abstand der beiden Punkte.",
+   "Setze anschliessend einen der beiden Punkte in y = mx + q ein und löse nach q auf.",
+   "Prüfe zum Schluss mit dem anderen Punkt: Ergibt die Gleichung auch dort den richtigen y-Wert?"
+  ],
+  "loesungsweg": [
+   "Von A nach B ändert sich y um {dy} und x um {dx}.",
+   "Steigung: m = {dy} : {dx} = {m}.",
+   "Setze A in y = mx + q ein und löse nach q auf. Es ergibt sich q = {q}.",
+   "Probe mit B: Die Gleichung liefert an der Stelle {x2} den Wert {y2}. Genau die y-Koordinate von B."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-parallele-gerade",
+  "lernzielId": "MG.3.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.03",
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "px",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "py",
+    "typ": "ganzzahl",
+    "von": -20,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "qh",
+    "typ": "formel",
+    "ausdruck": "py-m*px"
+   },
+   {
+    "name": "abstand",
+    "typ": "formel",
+    "ausdruck": "py-(m*px+q)"
+   },
+   {
+    "name": "gwert",
+    "typ": "formel",
+    "ausdruck": "m*px+q"
+   }
+  ],
+  "bedingungen": [
+   "px!=0",
+   "qh!=0",
+   "qh!=q",
+   "qh<=45",
+   "qh>=-45",
+   "abstand!=0",
+   "qh!=m",
+   "qh!=px",
+   "qh!=py"
+  ],
+  "stamm": "Die Gerade g hat die Gleichung y = {m}x + {q}. Die Gerade h verläuft parallel zu g und geht durch den Punkt P({px} | {py}). Welchen y-Achsenabschnitt hat h?",
+  "loesung": "py-m*px",
+  "gegenprobe": "q+abstand",
+  "fehler": [
+   {
+    "diagnoseId": "punkt_mit_plus_eingesetzt",
+    "ausdruck": "py+m*px",
+    "feedback": "Aus y = mx + q folgt q = y − m·x. Du hast m·x addiert statt abgezogen, beim Wechsel über das Gleichheitszeichen dreht sich das Vorzeichen."
+   },
+   {
+    "diagnoseId": "abschnitt_uebernommen",
+    "ausdruck": "q",
+    "feedback": "Das ist der y-Achsenabschnitt von g. Parallele Geraden haben dieselbe STEIGUNG, aber verschiedene Achsenabschnitte. Sonst wären es dieselbe Gerade."
+   },
+   {
+    "diagnoseId": "koordinaten_vertauscht",
+    "ausdruck": "px-m*py",
+    "feedback": "Du hast x und y des Punktes vertauscht. In P({px} | {py}) steht zuerst die x-Koordinate, dann die y-Koordinate."
+   },
+   {
+    "diagnoseId": "senkrecht_statt_parallel",
+    "ausdruck": "py+px/m",
+    "feedback": "Du hast mit dem negativen Kehrwert der Steigung gerechnet. Der gehört zu SENKRECHTEN Geraden; parallele Geraden haben genau dieselbe Steigung."
+   }
+  ],
+  "hinweise": [
+   "Parallel heisst: gleiche Steigung. Wie lautet also der Anfang der Gleichung von h?",
+   "Setze die Koordinaten von P in y = mx + q ein und löse nach dem Achsenabschnitt auf.",
+   "Ein zweiter Weg: Rechne aus, wie weit P über oder unter dem Graphen von g liegt, und verschiebe den Achsenabschnitt von g um genau denselben Betrag."
+  ],
+  "loesungsweg": [
+   "h hat dieselbe Steigung wie g, also y = {m}x + q.",
+   "P einsetzen: {py} = {m}·{px} + q.",
+   "Nach q auflösen: q = {py} − {m}·{px} = {qh}.",
+   "Probe über die Verschiebung: An der Stelle {px} hat g den Wert {gwert}, h den Wert {py}. Beide Geraden liegen um denselben Betrag auseinander wie ihre Achsenabschnitte {q} und {qh}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-lineares-modell",
+  "lernzielId": "MG.3.04",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.04",
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "franken",
+  "variablen": [
+   {
+    "name": "grund",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 200,
+    "schritt": 5
+   },
+   {
+    "name": "preis",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 14,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "p1",
+    "typ": "formel",
+    "ausdruck": "grund+preis*n1"
+   },
+   {
+    "name": "p2",
+    "typ": "formel",
+    "ausdruck": "grund+preis*n2"
+   },
+   {
+    "name": "einheit",
+    "typ": "text",
+    "texte": [
+     [
+      "Stunde",
+      "Stunden"
+     ],
+     [
+      "Kilowattstunde",
+      "Kilowattstunden"
+     ],
+     [
+      "Fahrt",
+      "Fahrten"
+     ],
+     [
+      "Lektion",
+      "Lektionen"
+     ],
+     [
+      "Nachtessen",
+      "Nachtessen"
+     ],
+     [
+      "Waschgang",
+      "Waschgänge"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "grund!=preis",
+   "p1!=p2",
+   "grund!=p1",
+   "preis!=p1",
+   "p2<=900",
+   "grund!=n1",
+   "grund!=n2",
+   "preis!=n1",
+   "preis!=n2"
+  ],
+  "stamm": "Ein Anbieter verlangt eine feste Grundgebühr und dazu für jede {einheit} denselben Betrag. {name} zahlt für {n1} {einheit.1} zusammen {p1:franken}, für {n2} {einheit.1} wären es {p2:franken}. Bestimme die Grundgebühr und den Preis je {einheit}.",
+  "felder": [
+   {
+    "name": "preis",
+    "label": "Preis je {einheit}",
+    "ausdruck": "preis",
+    "zahlformat": "franken",
+    "fehler": [
+     {
+      "diagnoseId": "differenz_ohne_teilen",
+      "ausdruck": "p2-p1",
+      "feedback": "Das ist der Preisunterschied zwischen den beiden Angeboten. Er gehört zu {n2} − {n1} zusätzlichen Einheiten, für eine einzelne musst du noch teilen."
+     },
+     {
+      "diagnoseId": "durchschnittspreis",
+      "ausdruck": "p1/n1",
+      "feedback": "Du hast den ganzen Betrag durch die Anzahl geteilt. Darin steckt aber die Grundgebühr, die nur einmal anfällt. Der Durchschnitt ist darum zu hoch."
+     },
+     {
+      "diagnoseId": "kehrwert",
+      "ausdruck": "(n2-n1)/(p2-p1)",
+      "feedback": "Du hast Anzahl durch Preis geteilt. Gefragt ist der Preis JE Einheit, also Preisunterschied geteilt durch Anzahlunterschied."
+     },
+     {
+      "diagnoseId": "grundgebuehr_als_preis",
+      "ausdruck": "grund",
+      "feedback": "Das ist die Grundgebühr. Sie fällt nur einmal an, unabhängig davon, wie viele Einheiten bezogen werden."
+     }
+    ]
+   },
+   {
+    "name": "grund",
+    "label": "Grundgebühr",
+    "ausdruck": "grund",
+    "zahlformat": "franken",
+    "fehler": [
+     {
+      "diagnoseId": "kleinerer_betrag_genommen",
+      "ausdruck": "p1",
+      "feedback": "Das ist der ganze Betrag für {n1} {einheit.1}. Darin stecken die Grundgebühr UND {n1} mal der Preis je {einheit}. Der Anteil für die Einheiten muss noch weg."
+     },
+     {
+      "diagnoseId": "addiert_statt_subtrahiert",
+      "ausdruck": "p1+preis*n1",
+      "feedback": "Du hast den Anteil für die {n1} {einheit.1} dazugezählt statt abgezogen. Die Grundgebühr ist das, was ÜBRIG bleibt, wenn man ihn wegnimmt."
+     },
+     {
+      "diagnoseId": "preisdifferenz_als_grundgebuehr",
+      "ausdruck": "p2-p1",
+      "feedback": "Das ist der Unterschied zwischen den beiden Beträgen. Er hängt nur an den zusätzlichen Einheiten. Die Grundgebühr fällt darin gerade heraus."
+     },
+     {
+      "diagnoseId": "preis_als_grundgebuehr",
+      "ausdruck": "preis",
+      "feedback": "Das ist der Preis für eine einzelne {einheit}. Die Grundgebühr kommt zusätzlich dazu und ist von der Anzahl unabhängig."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Die Grundgebühr ist bei beiden Angeboten gleich. Was unterscheidet die beiden Beträge also?",
+   "Der Preisunterschied gehört zu {n2} − {n1} zusätzlichen Einheiten. Teile ihn durch diese Anzahl.",
+   "Ist der Preis je Einheit bekannt, ziehst du ihn {n1}-mal vom kleineren Betrag ab. Übrig bleibt die Grundgebühr."
+  ],
+  "loesungsweg": [
+   "Der Unterschied der beiden Beträge gehört zu {n2} − {n1} Einheiten.",
+   "Preis je {einheit}: ({p2} − {p1}) : ({n2} − {n1}) = {preis}.",
+   "Grundgebühr: {p1} − {n1}·{preis} = {grund}.",
+   "Probe mit dem zweiten Angebot: {grund} + {n2}·{preis} = {p2}."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-parabel-gitter",
+  "lernzielId": "MG.3.05",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.05",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "formel",
+    "ausdruck": "d*d"
+   },
+   {
+    "name": "n1",
+    "typ": "formel",
+    "ausdruck": "v-d"
+   },
+   {
+    "name": "n2",
+    "typ": "formel",
+    "ausdruck": "v+d"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "v-d>=-9",
+   "v+d<=9",
+   "k<=12"
+  ],
+  "stamm": "{name} untersucht die Parabel mit der Gleichung y = (x − {v})² − {k}. Setze die beiden Nullstellen N₁ und N₂ sowie den Scheitelpunkt S in das Koordinatensystem.",
+  "fehler": [
+   {
+    "diagnoseId": "scheitel_vorzeichen",
+    "kurz": "Scheitel gespiegelt",
+    "feedback": "In der Scheitelform y = (x − v)² + u sind beide Zahlen mit umgekehrtem Vorzeichen abzulesen als sie dastehen: Aus (x − {v})² wird die x-Koordinate {v}, aus dem − {k} die y-Koordinate −{k}."
+   },
+   {
+    "diagnoseId": "nullstellen_ohne_wurzel",
+    "kurz": "Wurzel vergessen",
+    "feedback": "Für die Nullstellen setzt du y = 0 und erhältst (x − {v})² = {k}. Bevor du die Klammer auflöst, musst du die Wurzel ziehen, und zwar mit Plus UND Minus."
+   },
+   {
+    "diagnoseId": "nur_eine_nullstelle",
+    "kurz": "eine Lösung übersehen",
+    "feedback": "Eine nach oben geöffnete Parabel, deren Scheitelpunkt unter der x-Achse liegt, schneidet sie zweimal. Beide Nullstellen liegen gleich weit vom Scheitelpunkt entfernt, die eine links, die andere rechts."
+   },
+   {
+    "diagnoseId": "scheitel_auf_der_achse",
+    "kurz": "Scheitel auf der x-Achse",
+    "feedback": "Der Scheitelpunkt liegt nicht auf der x-Achse, sondern {k} Einheiten darunter. Deshalb hat die Parabel überhaupt zwei Nullstellen."
+   }
+  ],
+  "hinweise": [
+   "Die Gleichung steht in der Scheitelform. Daraus lässt sich der Scheitelpunkt direkt ablesen. Achte auf die Vorzeichen.",
+   "Für die Nullstellen setzt du y = 0. Dann steht (x − {v})² = {k} da.",
+   "Die Wurzel aus {k} ist {d}. Von der x-Koordinate des Scheitelpunkts aus gehst du {d} nach links und {d} nach rechts."
+  ],
+  "loesungsweg": [
+   "Scheitelform y = (x − {v})² − {k}: Der Scheitelpunkt liegt bei S({v} | −{k}).",
+   "Nullstellen: 0 = (x − {v})² − {k}, also (x − {v})² = {k}.",
+   "Wurzel ziehen mit beiden Vorzeichen: x − {v} = ±{d}.",
+   "Die Nullstellen sind N₁({n1} | 0) und N₂({n2} | 0)."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-12",
+   "ybis": "6",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "N1",
+     "label": "N₁"
+    },
+    {
+     "name": "N2",
+     "label": "N₂"
+    },
+    {
+     "name": "S",
+     "label": "S"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "n1",
+      "0"
+     ],
+     [
+      "n2",
+      "0"
+     ],
+     [
+      "v",
+      "0-k"
+     ]
+    ]
+   ],
+   "vorgabe": [],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-halbwertszeit",
+  "lernzielId": "MG.3.06",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "3.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "mg",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "rest",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 60,
+    "schritt": 5
+   },
+   {
+    "name": "t",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     12
+    ]
+   },
+   {
+    "name": "a0",
+    "typ": "formel",
+    "ausdruck": "rest*pow(2,n)"
+   },
+   {
+    "name": "stunden",
+    "typ": "formel",
+    "ausdruck": "n*t"
+   },
+   {
+    "name": "weg",
+    "typ": "formel",
+    "ausdruck": "a0-rest"
+   },
+   {
+    "name": "mittel",
+    "typ": "text",
+    "texte": [
+     [
+      "Schmerzmittel"
+     ],
+     [
+      "Narkosemittel"
+     ],
+     [
+      "Kontrastmittel"
+     ],
+     [
+      "Betäubungsmittel"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "a0<=1600",
+   "rest!=t",
+   "rest!=stunden",
+   "rest!=a0",
+   "rest!=n",
+   "rest!=weg",
+   "stunden!=a0",
+   "stunden!=t"
+  ],
+  "stamm": "Ein {mittel} baut sich im Blut exponentiell ab; seine Halbwertszeit beträgt {t} Stunden. Nach der Verabreichung sind {a0} mg im Blut. Wie viele Milligramm sind {stunden} Stunden später noch vorhanden?",
+  "loesung": "a0/pow(2,n)",
+  "gegenprobe": "a0-a0*(pow(2,n)-1)/pow(2,n)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_einmal_halbiert",
+    "ausdruck": "a0/2",
+    "feedback": "Du hast nur einmal halbiert. In {stunden} Stunden vergehen {n} Halbwertszeiten. Es wird {n}-mal nacheinander halbiert."
+   },
+   {
+    "diagnoseId": "durch_anzahl_geteilt",
+    "ausdruck": "a0/(2*n)",
+    "feedback": "Du hast durch 2·{n} geteilt. Beim exponentiellen Abbau wird nicht durch die Anzahl geteilt, sondern {n}-mal halbiert, also durch 2{n:hoch}."
+   },
+   {
+    "diagnoseId": "eine_periode_zu_wenig",
+    "ausdruck": "a0/pow(2,n-1)",
+    "feedback": "Da fehlt eine Halbwertszeit. Rechne nach: {stunden} Stunden geteilt durch {t} Stunden ergibt {n} Perioden, nicht eine weniger."
+   },
+   {
+    "diagnoseId": "abgebaute_menge",
+    "ausdruck": "weg",
+    "feedback": "Das ist die Menge, die ABGEBAUT wurde. Gefragt ist, was noch im Blut ist, also der Rest von den {a0} mg."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Halbwertszeiten passen in die angegebene Zeit? Teile die Zeit durch die Halbwertszeit.",
+   "Bei jeder Halbwertszeit wird die vorhandene Menge halbiert, nicht ein fester Betrag abgezogen.",
+   "Nach {n} Halbwertszeiten ist noch der Teil 1 : 2{n:hoch} übrig."
+  ],
+  "loesungsweg": [
+   "{stunden} Stunden geteilt durch die Halbwertszeit von {t} Stunden ergibt {n} Halbwertszeiten.",
+   "Nach jeder Halbwertszeit bleibt die Hälfte, nach {n} Halbwertszeiten also der Teil 1 : 2{n:hoch}.",
+   "{a0} mg geteilt durch 2{n:hoch} ergibt {rest} mg.",
+   "Gegenprobe: Abgebaut wurden {weg} mg; {a0} minus {weg} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-prozent-veraenderung",
+  "lernzielId": "MG.4.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "%",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "alt",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 600,
+    "schritt": 5
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     8,
+     10,
+     12,
+     15,
+     20,
+     24,
+     25,
+     30,
+     35,
+     40,
+     45,
+     50,
+     60,
+     75
+    ]
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "alt*(100+p)/100"
+   },
+   {
+    "name": "zunahme",
+    "typ": "formel",
+    "ausdruck": "neu-alt"
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Halbtaxabonnement"
+     ],
+     [
+      "ein Paar Laufschuhe"
+     ],
+     [
+      "eine Jahreskarte fürs Hallenbad"
+     ],
+     [
+      "ein gebrauchtes Velo"
+     ],
+     [
+      "eine Konzertkarte"
+     ],
+     [
+      "ein Schulrucksack"
+     ],
+     [
+      "ein Wochenpass für den Skilift"
+     ],
+     [
+      "ein Satz Winterreifen"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(neu)==1",
+   "p!=alt",
+   "p!=neu",
+   "p!=zunahme",
+   "zunahme>=4",
+   "neu<=1200"
+  ],
+  "stamm": "Vor einem Jahr kostete {ware} {alt:franken}, heute kostet es {neu:franken}. Um wie viel Prozent hat der Preis zugenommen?",
+  "loesung": "zunahme*100/alt",
+  "gegenprobe": "neu*100/alt-100",
+  "fehler": [
+   {
+    "diagnoseId": "falscher_grundwert",
+    "ausdruck": "zunahme*100/neu",
+    "feedback": "Du hast den neuen Preis als Grundwert genommen. Die Zunahme wird immer am ALTEN Preis gemessen. Er entspricht den 100 %."
+   },
+   {
+    "diagnoseId": "differenz_als_prozent",
+    "ausdruck": "zunahme",
+    "feedback": "Das ist die Zunahme in Franken, nicht in Prozent. Setze sie ins Verhältnis zum alten Preis und rechne auf hundert hoch."
+   },
+   {
+    "diagnoseId": "verhaeltnis_statt_zunahme",
+    "ausdruck": "neu*100/alt",
+    "feedback": "Das ist der neue Preis in Prozent des alten. Gefragt ist die ZUNAHME. Davon müssen die 100 % des Ausgangspreises noch abgezogen werden."
+   },
+   {
+    "diagnoseId": "grundwerte_vertauscht",
+    "ausdruck": "alt*100/neu",
+    "feedback": "Du hast alten und neuen Preis vertauscht. Im Bruch steht oben die Veränderung und unten der Ausgangswert."
+   }
+  ],
+  "hinweise": [
+   "Welcher der beiden Preise entspricht 100 %? Das ist immer der Ausgangswert.",
+   "Rechne zuerst die Zunahme in Franken aus, dann ihren Anteil am alten Preis.",
+   "Anteil mal 100 ergibt den Prozentsatz."
+  ],
+  "loesungsweg": [
+   "Zunahme in Franken: {neu} − {alt} = {zunahme}.",
+   "Grundwert ist der alte Preis {alt}; er entspricht 100 %.",
+   "Anteil: {zunahme} : {alt}, mal 100 ergibt den Prozentsatz.",
+   "Gegenprobe über den Faktor: {neu} : {alt} ergibt den Wachstumsfaktor, davon 100 % abgezogen bleibt derselbe Prozentsatz."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-mehrfache-veraenderung",
+  "lernzielId": "MG.4.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "4.02",
+   "4.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "variablen": [
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 100,
+    "bis": 2400,
+    "schritt": 20
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "zwischen",
+    "typ": "formel",
+    "ausdruck": "start*(100+p)/100"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "zwischen*(100-q)/100"
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "das Jahresabonnement"
+     ],
+     [
+      "die Mitgliedschaft im Turnverein"
+     ],
+     [
+      "der Werkstattplatz"
+     ],
+     [
+      "die Saisonkarte"
+     ],
+     [
+      "der Lagerbeitrag"
+     ],
+     [
+      "die Monatsmiete für das Zimmer"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(zwischen)==1",
+   "istGanz(ende)==1",
+   "p!=q",
+   "ende!=start",
+   "ende!=zwischen",
+   "ende!=p",
+   "ende!=q",
+   "ende>=40",
+   "ende!=start*(200+p-q)/100"
+  ],
+  "stamm": "Bei einem Verein kostet {sache} zurzeit {start:franken}. Auf das nächste Jahr wird der Preis um {p} % erhöht, ein Jahr später um {q} % gesenkt. Wie viel kostet {sache} danach?",
+  "loesung": "start*(100+p)*(100-q)/10000",
+  "gegenprobe": "zwischen-zwischen*q/100",
+  "fehler": [
+   {
+    "diagnoseId": "prozente_verrechnet",
+    "ausdruck": "start*(100+p-q)/100",
+    "feedback": "Du hast die beiden Prozentsätze gegeneinander aufgerechnet. Das geht nicht: Die {q} % beziehen sich auf den bereits erhöhten Preis, nicht auf den Ausgangspreis."
+   },
+   {
+    "diagnoseId": "nur_erhoeht",
+    "ausdruck": "zwischen",
+    "feedback": "Das ist der Preis nach der Erhöhung. Die Senkung um {q} % im zweiten Jahr fehlt noch."
+   },
+   {
+    "diagnoseId": "nur_gesenkt",
+    "ausdruck": "start*(100-q)/100",
+    "feedback": "Du hast nur die Senkung gerechnet. Vorher wurde der Preis aber schon um {p} % erhöht. Davon geht die Senkung aus."
+   },
+   {
+    "diagnoseId": "faktoren_addiert",
+    "ausdruck": "start*(200+p-q)/100",
+    "feedback": "Du hast die beiden Wachstumsfaktoren addiert. Zwei Veränderungen nacheinander werden multipliziert, nicht addiert. Sonst käme bei zwei Nullprozent-Schritten der doppelte Preis heraus."
+   }
+  ],
+  "hinweise": [
+   "Zwei Veränderungen nacheinander: Rechne den Preis nach dem ersten Jahr aus, bevor du weitermachst.",
+   "Eine Erhöhung um {p} % bedeutet den Faktor (100 + {p}) : 100, eine Senkung um {q} % den Faktor (100 − {q}) : 100.",
+   "Die beiden Faktoren werden multipliziert. Die Reihenfolge spielt dabei keine Rolle, der Bezugswert aber sehr wohl."
+  ],
+  "loesungsweg": [
+   "Nach der Erhöhung: {start} · (100 + {p}) : 100 = {zwischen}.",
+   "Die Senkung geht von diesem Preis aus, nicht vom Ausgangspreis.",
+   "Nach der Senkung: {zwischen} · (100 − {q}) : 100 = {ende}.",
+   "Gegenprobe: {q} % von {zwischen} abziehen ergibt denselben Betrag."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-zinseszins",
+  "lernzielId": "MG.4.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "4.03",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "franken",
+  "variablen": [
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1000,
+    "bis": 60000,
+    "schritt": 100
+   },
+   {
+    "name": "z",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     10,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3
+    ]
+   },
+   {
+    "name": "kapital",
+    "typ": "formel",
+    "ausdruck": "k*pow(100+z,n)/pow(100,n)"
+   },
+   {
+    "name": "zins",
+    "typ": "formel",
+    "ausdruck": "kapital-k"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(kapital)==1",
+   "kapital<=200000",
+   "kapital!=k",
+   "kapital!=z",
+   "kapital!=n",
+   "zins>=50",
+   "kapital!=k+n*k*z/100"
+  ],
+  "stamm": "{name} legt {k:franken} zu einem Zinssatz von {z} % pro Jahr an. Die Zinsen bleiben auf dem Konto und werden mitverzinst. Über wie viel Franken verfügt {name} nach {n} Jahren?",
+  "loesung": "k*pow(100+z,n)/pow(100,n)",
+  "gegenprobe": "n==2 ? k+2*k*z/100+k*z*z/10000 : k+3*k*z/100+3*k*z*z/10000+k*z*z*z/1000000",
+  "fehler": [
+   {
+    "diagnoseId": "einfacher_zins",
+    "ausdruck": "k+n*k*z/100",
+    "feedback": "Du hast {n}-mal den Zins auf das Startkapital gerechnet. Beim Zinseszins wird aber jedes Jahr das GEWACHSENE Kapital verzinst. Die Zinsen des ersten Jahres tragen im zweiten selbst wieder Zins."
+   },
+   {
+    "diagnoseId": "nur_ein_jahr",
+    "ausdruck": "k*(100+z)/100",
+    "feedback": "Das ist der Stand nach einem Jahr. Der Faktor muss {n}-mal angewendet werden, also hoch {n} genommen."
+   },
+   {
+    "diagnoseId": "zinsen_statt_kapital",
+    "ausdruck": "kapital-k",
+    "feedback": "Das sind die Zinsen allein. Gefragt ist das ganze Guthaben. Das Startkapital gehört dazu."
+   },
+   {
+    "diagnoseId": "ein_jahr_zu_viel",
+    "ausdruck": "k*pow(100+z,n+1)/pow(100,n+1)",
+    "feedback": "Da ist ein Jahr zu viel gerechnet. Der Faktor wird genau {n}-mal angewendet, einmal für jedes vollendete Jahr."
+   }
+  ],
+  "hinweise": [
+   "Jedes Jahr wird das Guthaben mit demselben Faktor multipliziert. Wie gross ist dieser Faktor bei {z} %?",
+   "Der Faktor ist (100 + {z}) : 100. Nach {n} Jahren wird er {n}-mal angewendet, also hoch {n} genommen.",
+   "Ein zweiter Weg: Startkapital plus {n} Jahreszinsen plus die Zinsen auf diesen Zinsen."
+  ],
+  "loesungsweg": [
+   "Wachstumsfaktor je Jahr: (100 + {z}) : 100.",
+   "Nach {n} Jahren: {k} mal diesen Faktor hoch {n}.",
+   "Das ergibt {kapital} Franken, davon {zins} Franken Zins.",
+   "Gegenprobe ohne Potenz: Startkapital, dazu {n} Jahreszinsen und die Zinsen auf den Zinsen. Dieselbe Summe."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-pythagoras",
+  "lernzielId": "MG.5.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "tripel",
+    "typ": "tabellenzeile",
+    "spalten": [
+     "ka",
+     "kb",
+     "hyp"
+    ],
+    "zeilen": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      4,
+      3,
+      5
+     ],
+     [
+      5,
+      12,
+      13
+     ],
+     [
+      12,
+      5,
+      13
+     ],
+     [
+      8,
+      15,
+      17
+     ],
+     [
+      15,
+      8,
+      17
+     ],
+     [
+      7,
+      24,
+      25
+     ],
+     [
+      24,
+      7,
+      25
+     ],
+     [
+      20,
+      21,
+      29
+     ],
+     [
+      21,
+      20,
+      29
+     ],
+     [
+      9,
+      40,
+      41
+     ],
+     [
+      40,
+      9,
+      41
+     ],
+     [
+      12,
+      35,
+      37
+     ],
+     [
+      35,
+      12,
+      37
+     ],
+     [
+      28,
+      45,
+      53
+     ],
+     [
+      11,
+      60,
+      61
+     ],
+     [
+      33,
+      56,
+      65
+     ],
+     [
+      16,
+      63,
+      65
+     ],
+     [
+      48,
+      55,
+      73
+     ],
+     [
+      13,
+      84,
+      85
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "ka*f"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "kb*f"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "hyp*f"
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "c<=300",
+   "b!=a",
+   "b!=c",
+   "b!=f",
+   "a!=c"
+  ],
+  "stamm": "{name} braucht die fehlende Seite eines rechtwinkligen Dreiecks. Die Hypotenuse misst {c} cm, eine der beiden Katheten {a} cm. Wie lang ist die andere Kathete?",
+  "loesung": "sqrt(c*c-a*a)",
+  "gegenprobe": "sqrt((c-a)*(c+a))",
+  "fehler": [
+   {
+    "diagnoseId": "differenz_statt_wurzel",
+    "ausdruck": "c-a",
+    "feedback": "Du hast die beiden Seiten voneinander abgezogen. Im Satz des Pythagoras werden nicht die Seiten verrechnet, sondern ihre QUADRATE, und am Schluss folgt die Wurzel."
+   },
+   {
+    "diagnoseId": "addiert_statt_subtrahiert",
+    "ausdruck": "sqrt(c*c+a*a)",
+    "feedback": "Du hast die Quadrate addiert. Das gilt nur, wenn beide gegebenen Seiten Katheten sind. Hier ist {c} cm die Hypotenuse. Die längste Seite, also muss ihr Quadrat das grössere sein und das der Kathete davon abgezogen werden."
+   },
+   {
+    "diagnoseId": "wurzel_vergessen",
+    "ausdruck": "c*c-a*a",
+    "feedback": "Das ist das Quadrat der gesuchten Seite. Es fehlt der letzte Schritt: die Wurzel ziehen."
+   },
+   {
+    "diagnoseId": "hypotenuse_halbiert",
+    "ausdruck": "c/2",
+    "feedback": "Die halbe Hypotenuse hat mit der Kathete nichts zu tun. Sie wäre nur dann eine Antwort, wenn das Dreieck gleichschenklig-rechtwinklig wäre, und auch dann nicht."
+   }
+  ],
+  "hinweise": [
+   "Welche der genannten Seiten ist die längste? Ihr Quadrat steht in der Formel allein auf einer Seite.",
+   "Aus a² + b² = c² wird b² = c² − a². Setze die beiden bekannten Längen ein.",
+   "Ein zweiter Weg: c² − a² lässt sich als (c − a)·(c + a) schreiben, damit rechnet es sich oft leichter."
+  ],
+  "loesungsweg": [
+   "Die Hypotenuse ist {c} cm, eine Kathete {a} cm.",
+   "Nach Pythagoras: b² = {c}² − {a}².",
+   "Über die dritte binomische Formel: ({c} − {a})·({c} + {a}) ergibt dasselbe.",
+   "Die Wurzel daraus ist {b} cm."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-kreisring",
+  "lernzielId": "MG.5.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "R",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 22,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "ring",
+    "typ": "formel",
+    "ausdruck": "R*R-r*r"
+   },
+   {
+    "name": "rand",
+    "typ": "formel",
+    "ausdruck": "2*R+2*r"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Unterlagsscheibe"
+     ],
+     [
+      "Bremsscheibe"
+     ],
+     [
+      "Gummischeibe"
+     ],
+     [
+      "Tischplatte"
+     ],
+     [
+      "Zielscheibe"
+     ],
+     [
+      "Steinplatte"
+     ],
+     [
+      "Filzscheibe"
+     ],
+     [
+      "Schwungscheibe"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "r<=R-2",
+   "ring!=rand",
+   "ring!=R",
+   "ring!=r",
+   "rand!=R",
+   "rand!=r",
+   "ring<=460"
+  ],
+  "stamm": "Aus einer runden {ding} mit dem Radius {R} cm wird in der Mitte ein Loch mit dem Radius {r} cm ausgeschnitten. Gib beide Antworten als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "ring",
+    "label": "Fläche des Rings (Vielfaches von π)",
+    "einheit": "cm²",
+    "ausdruck": "R*R-r*r",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "radien_zuerst_subtrahiert",
+      "ausdruck": "(R-r)*(R-r)",
+      "feedback": "Du hast zuerst die Radien subtrahiert und dann quadriert. Das ergibt die Fläche eines Kreises mit der Ringbreite als Radius, nicht die Ringfläche. Erst quadrieren, dann subtrahieren."
+     },
+     {
+      "diagnoseId": "flaechen_addiert",
+      "ausdruck": "R*R+r*r",
+      "feedback": "Du hast die beiden Kreisflächen addiert. Das Loch wird aber weggenommen. Die kleinere Fläche muss abgezogen werden."
+     },
+     {
+      "diagnoseId": "durchmesser_statt_radius",
+      "ausdruck": "4*R*R-4*r*r",
+      "feedback": "Du hast mit den Durchmessern gerechnet. In A = πr² steht der Radius; mit dem Durchmesser wird die Fläche viermal zu gross."
+     },
+     {
+      "diagnoseId": "nicht_quadriert",
+      "ausdruck": "R-r",
+      "feedback": "Das ist die Breite des Rings in Zentimetern, nicht seine Fläche. Für eine Fläche müssen die Radien quadriert werden."
+     }
+    ]
+   },
+   {
+    "name": "rand",
+    "label": "Länge beider Ränder zusammen (Vielfaches von π)",
+    "einheit": "cm",
+    "ausdruck": "2*R+2*r",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "flaeche_statt_umfang",
+      "ausdruck": "R*R-r*r",
+      "feedback": "Das ist die Ringfläche. Gefragt ist die Länge der beiden Kreisränder. Ein Umfang wird in Zentimetern gemessen, nicht in Quadratzentimetern."
+     },
+     {
+      "diagnoseId": "faktor_zwei_vergessen",
+      "ausdruck": "R+r",
+      "feedback": "Der Umfang eines Kreises ist 2πr, nicht πr. Beide Ränder brauchen darum je den Faktor 2."
+     },
+     {
+      "diagnoseId": "nur_aussenrand",
+      "ausdruck": "2*R",
+      "feedback": "Das ist nur der äussere Rand. Das Loch hat ebenfalls einen Rand, und der zählt mit."
+     },
+     {
+      "diagnoseId": "differenz_statt_summe",
+      "ausdruck": "2*R-2*r",
+      "feedback": "Du hast die beiden Umfänge voneinander abgezogen. Beim Ausschneiden verschwindet zwar Fläche, aber es kommt Rand DAZU. Die beiden Ränder werden addiert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Die Ringfläche ist die grosse Kreisfläche ohne die kleine. Rechne beide einzeln aus.",
+   "Für die Fläche gilt A = πr², für den Umfang U = 2πr. Verwechsle die beiden nicht.",
+   "Das Loch hat zwei Wirkungen: Es nimmt Fläche weg und fügt einen zweiten Rand hinzu."
+  ],
+  "loesungsweg": [
+   "Grosse Kreisfläche: π·{R}², kleine Kreisfläche: π·{r}².",
+   "Ringfläche: ({R}² − {r}²)·π = {ring}π cm².",
+   "Äusserer Rand: 2π·{R}, innerer Rand: 2π·{r}.",
+   "Zusammen: (2·{R} + 2·{r})·π = {rand}π cm."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-kreissektor",
+  "lernzielId": "MG.5.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.02",
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "w",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     36,
+     40,
+     45,
+     60,
+     72,
+     90,
+     120,
+     135,
+     144,
+     180,
+     240,
+     270,
+     300
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "r*r*w/360"
+   },
+   {
+    "name": "bogen",
+    "typ": "formel",
+    "ausdruck": "2*r*w/360"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Tortenstück"
+     ],
+     [
+      "ein Stück Blech"
+     ],
+     [
+      "ein Sonnensegel"
+     ],
+     [
+      "ein Kuchenstück"
+     ],
+     [
+      "ein Sektor eines Verkehrsschilds"
+     ],
+     [
+      "ein Ausschnitt einer Zielscheibe"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "istGanz(flaeche)==1",
+   "istGanz(bogen)==1",
+   "flaeche>=2",
+   "flaeche<=700",
+   "flaeche!=r",
+   "flaeche!=w",
+   "flaeche!=bogen",
+   "flaeche!=360",
+   "bogen!=360"
+  ],
+  "stamm": "{name} schneidet aus einem Kreis mit dem Radius {r} cm einen Sektor mit dem Zentriwinkel {w}° heraus. {ding}. Wie gross ist seine Fläche? Gib die Antwort als Vielfaches von π an.",
+  "loesung": "r*r*w/360",
+  "gegenprobe": "(2*r*w/360)*r/2",
+  "fehler": [
+   {
+    "diagnoseId": "bogen_statt_flaeche",
+    "ausdruck": "2*r*w/360",
+    "feedback": "Das ist die Länge des Kreisbogens, nicht die Fläche. Ein Bogen ist eine Länge und wird in Zentimetern gemessen."
+   },
+   {
+    "diagnoseId": "ganzer_kreis",
+    "ausdruck": "r*r",
+    "feedback": "Das ist die Fläche des ganzen Kreises. Der Sektor ist nur der Anteil {w} von 360 davon."
+   },
+   {
+    "diagnoseId": "winkel_multipliziert",
+    "ausdruck": "r*r*w",
+    "feedback": "Du hast mit dem Winkel multipliziert, aber nicht durch 360 geteilt. Der Anteil ist {w} : 360. Eine Zahl kleiner als eins, wenn der Sektor kleiner als der Vollkreis ist."
+   },
+   {
+    "diagnoseId": "durch_180_geteilt",
+    "ausdruck": "r*r*w/180",
+    "feedback": "Ein Vollkreis hat 360°, nicht 180°. Durch 180 zu teilen ergibt den doppelten Wert."
+   }
+  ],
+  "hinweise": [
+   "Welchen Anteil am ganzen Kreis macht der Sektor aus? Vergleiche den Zentriwinkel mit 360°.",
+   "Rechne zuerst die Fläche des ganzen Kreises und nimm davon den Anteil {w} : 360.",
+   "Ein zweiter Weg führt über den Bogen: Die Sektorfläche ist Bogenlänge mal Radius, geteilt durch 2, wie bei einem Dreieck."
+  ],
+  "loesungsweg": [
+   "Der Sektor ist der Anteil {w} : 360 des Vollkreises.",
+   "Vollkreis: π·{r}² = {r}²π cm².",
+   "Sektor: {r}²π · {w} : 360 = {flaeche}π cm².",
+   "Gegenprobe über den Bogen: Er misst {bogen}π cm; mal {r} und durch 2 ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-strahlensatz",
+  "lernzielId": "MG.5.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "ad",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "db",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 28,
+    "schritt": 1
+   },
+   {
+    "name": "de",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "bc",
+    "typ": "formel",
+    "ausdruck": "de*(ad+db)/ad"
+   },
+   {
+    "name": "zuwachs",
+    "typ": "formel",
+    "ausdruck": "de*db/ad"
+   },
+   {
+    "name": "ab",
+    "typ": "formel",
+    "ausdruck": "ad+db"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(bc)==1",
+   "bc<=220",
+   "bc!=de",
+   "bc!=ad",
+   "bc!=db",
+   "bc!=zuwachs",
+   "de>ad",
+   "db!=ad"
+  ],
+  "stamm": "Im Dreieck ABC liegt der Punkt D auf der Seite AB und der Punkt E auf der Seite AC; die Strecke DE verläuft parallel zu BC. Es gilt AD = {ad} cm, DB = {db} cm und DE = {de} cm. Wie lang ist BC?",
+  "loesung": "de*(ad+db)/ad",
+  "gegenprobe": "de+zuwachs",
+  "fehler": [
+   {
+    "diagnoseId": "nur_der_untere_teil",
+    "ausdruck": "de*db/ad",
+    "feedback": "Du hast nur mit dem Abschnitt DB gerechnet. Im Strahlensatz steht unten die GANZE Strecke AB, also {ad} + {db}, nicht bloss ihr unterer Teil."
+   },
+   {
+    "diagnoseId": "verhaeltnis_umgekehrt",
+    "ausdruck": "de*ad/(ad+db)",
+    "feedback": "Das Verhältnis steht auf dem Kopf. AB ist länger als AD, also muss BC länger sein als DE, bei dir ist es kürzer geworden."
+   },
+   {
+    "diagnoseId": "additiv_statt_multiplikativ",
+    "ausdruck": "de+db",
+    "feedback": "Du hast {db} einfach dazugezählt. Ähnliche Figuren werden aber gestreckt, nicht verschoben: Alle Strecken wachsen um denselben FAKTOR, nicht um denselben Betrag."
+   },
+   {
+    "diagnoseId": "gesamtstrecke_als_faktor",
+    "ausdruck": "de*(ad+db)",
+    "feedback": "Du hast mit der ganzen Strecke AB multipliziert, aber nicht durch AD geteilt. Der Streckfaktor ist AB : AD, ein Verhältnis von zwei Längen."
+   }
+  ],
+  "hinweise": [
+   "Weil DE parallel zu BC ist, sind die Dreiecke ADE und ABC ähnlich. Welche Strecken entsprechen sich?",
+   "Wie lang ist AB insgesamt? Der Streckfaktor ist AB geteilt durch AD.",
+   "Multipliziere DE mit diesem Faktor. Alternativ: Rechne aus, um wie viel DE wächst, und zähle es dazu."
+  ],
+  "loesungsweg": [
+   "AB = AD + DB = {ad} + {db} = {ab} cm.",
+   "Streckfaktor: AB : AD = {ab} : {ad}.",
+   "BC = DE mal Streckfaktor = {bc} cm.",
+   "Gegenprobe über den Zuwachs: DE wächst um {zuwachs} cm; {de} + {zuwachs} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-dreieck-hoehe",
+  "lernzielId": "MG.5.04",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "ha",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "a*ha/2"
+   },
+   {
+    "name": "hb",
+    "typ": "formel",
+    "ausdruck": "a*ha/b"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(flaeche)==1",
+   "istGanz(hb)==1",
+   "hb>=2",
+   "hb<=60",
+   "a!=b",
+   "ha!=hb",
+   "flaeche!=hb",
+   "flaeche!=a",
+   "flaeche!=ha",
+   "flaeche!=b",
+   "hb!=a",
+   "hb!=b"
+  ],
+  "stamm": "In einem Dreieck ist die Seite a = {a} cm lang, die zugehörige Höhe h_a misst {ha} cm. Die Seite b ist {b} cm lang.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche des Dreiecks",
+    "einheit": "cm²",
+    "ausdruck": "a*ha/2",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_halbiert",
+      "ausdruck": "a*ha",
+      "feedback": "Du hast Seite mal Höhe gerechnet. Das ist die Fläche eines Parallelogramms; das Dreieck ist genau halb so gross."
+     },
+     {
+      "diagnoseId": "zwei_seiten_multipliziert",
+      "ausdruck": "a*b/2",
+      "feedback": "Du hast zwei Seiten multipliziert. In der Formel gehören Seite und die ZU IHR gehörende Höhe zusammen. {a} cm mit {ha} cm."
+     },
+     {
+      "diagnoseId": "addiert_statt_multipliziert",
+      "ausdruck": "a+ha",
+      "feedback": "Du hast Seite und Höhe addiert. Eine Fläche entsteht durch Multiplizieren zweier Längen, nie durch Addieren."
+     },
+     {
+      "diagnoseId": "hoehe_verdoppelt",
+      "ausdruck": "a*ha*2",
+      "feedback": "Da ist der Faktor 2 auf der falschen Seite gelandet. Die Fläche ist Seite mal Höhe GETEILT durch zwei."
+     }
+    ]
+   },
+   {
+    "name": "hb",
+    "label": "Höhe h_b zur Seite b",
+    "einheit": "cm",
+    "ausdruck": "a*ha/b",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "hoehe_uebernommen",
+      "ausdruck": "ha",
+      "feedback": "Das ist die Höhe zur Seite a. Jede Seite hat ihre eigene Höhe; nur die FLÄCHE ist bei allen dreien dieselbe."
+     },
+     {
+      "diagnoseId": "nicht_verdoppelt",
+      "ausdruck": "a*ha/(2*b)",
+      "feedback": "Aus A = b·h : 2 folgt h = 2·A : b. Du hast die Fläche durch b geteilt, aber nicht vorher verdoppelt."
+     },
+     {
+      "diagnoseId": "seite_statt_hoehe",
+      "ausdruck": "b",
+      "feedback": "Das ist die Länge der Seite b, nicht die Höhe zu ihr. Die Höhe steht senkrecht auf der Seite."
+     },
+     {
+      "diagnoseId": "flaeche_statt_hoehe",
+      "ausdruck": "a*ha/2",
+      "feedback": "Das ist die Fläche. Sie ist der Zwischenschritt: Aus ihr und der Seite b ergibt sich die gesuchte Höhe."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Die Fläche eines Dreiecks ist Seite mal zugehörige Höhe, geteilt durch zwei.",
+   "Die Fläche ist immer dieselbe, egal welche Seite du als Grundlinie nimmst. Das ist der Schlüssel zur zweiten Höhe.",
+   "Aus A = b·h_b : 2 folgt h_b = 2·A : b."
+  ],
+  "loesungsweg": [
+   "Fläche: {a} · {ha} : 2 = {flaeche} cm².",
+   "Dieselbe Fläche lässt sich auch mit der Seite b und ihrer Höhe berechnen.",
+   "Also gilt {b} · h_b : 2 = {flaeche}.",
+   "Nach h_b aufgelöst: h_b = 2 · {flaeche} : {b} = {hb} cm."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-zusammengesetzte-flaeche",
+  "lernzielId": "MG.5.05",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "5.05",
+   "5.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "cm²",
+  "einheitVerlangt": false,
+  "variablen": [
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 2
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "sq",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "rechteck",
+    "typ": "formel",
+    "ausdruck": "l*b"
+   },
+   {
+    "name": "dreieck",
+    "typ": "formel",
+    "ausdruck": "b*k/2"
+   },
+   {
+    "name": "loch",
+    "typ": "formel",
+    "ausdruck": "sq*sq"
+   },
+   {
+    "name": "rest",
+    "typ": "formel",
+    "ausdruck": "l*b+b*k/2-sq*sq"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Blechteil"
+     ],
+     [
+      "eine Sperrholzplatte"
+     ],
+     [
+      "ein Filzstück"
+     ],
+     [
+      "eine Bodenplatte"
+     ],
+     [
+      "ein Kartonzuschnitt"
+     ],
+     [
+      "ein Stück Dachpappe"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "sq<b-1",
+   "sq<l-1",
+   "rest>=40",
+   "rest<=1900",
+   "rest!=l",
+   "rest!=b",
+   "rest!=k",
+   "rest!=sq",
+   "rest!=rechteck",
+   "rest!=dreieck",
+   "rest!=loch"
+  ],
+  "stamm": "Aus einer Platte wird {ding} geschnitten: ein Rechteck von {l} cm Länge und {b} cm Breite, an dessen Schmalseite ein rechtwinkliges Dreieck mit den Katheten {b} cm und {k} cm angesetzt ist. Aus der Mitte des Rechtecks ist ein Quadrat mit {sq} cm Seitenlänge ausgestanzt. Wie gross ist die verbleibende Fläche?",
+  "loesung": "l*b+b*k/2-sq*sq",
+  "gegenprobe": "(l+(l+k))*b/2-sq*sq",
+  "fehler": [
+   {
+    "diagnoseId": "loch_nicht_abgezogen",
+    "ausdruck": "l*b+b*k/2",
+    "feedback": "Du hast Rechteck und Dreieck richtig zusammengezählt, aber das ausgestanzte Quadrat nicht abgezogen. Es fehlen {loch} cm²."
+   },
+   {
+    "diagnoseId": "dreieck_nicht_halbiert",
+    "ausdruck": "l*b+b*k-sq*sq",
+    "feedback": "Das Dreieck ist nur halb so gross wie das Rechteck aus seinen beiden Katheten. Die Fläche ist {b}·{k} geteilt durch 2."
+   },
+   {
+    "diagnoseId": "quadrat_nur_seitenlaenge",
+    "ausdruck": "l*b+b*k/2-sq",
+    "feedback": "Du hast nur die Seitenlänge des Quadrats abgezogen. Weg ist aber eine Fläche: {sq}·{sq} = {loch} cm²."
+   },
+   {
+    "diagnoseId": "loch_addiert",
+    "ausdruck": "l*b+b*k/2+sq*sq",
+    "feedback": "Das Quadrat wird ausgestanzt, also weggenommen. Ausgestanztes wird abgezogen, nicht dazugezählt."
+   },
+   {
+    "diagnoseId": "dreieck_vergessen",
+    "ausdruck": "l*b-sq*sq",
+    "feedback": "Das angesetzte Dreieck fehlt. Es gehört zur Fläche dazu und misst {dreieck} cm²."
+   }
+  ],
+  "hinweise": [
+   "Zerlege die Figur in Teile, deren Fläche du einzeln berechnen kannst.",
+   "Angesetzte Teile werden addiert, ausgestanzte abgezogen. Halte fest, was zu welcher Gruppe gehört.",
+   "Ein zweiter Weg: Rechteck und Dreieck bilden zusammen ein Trapez mit den Parallelseiten {l} und {l} + {k} und der Höhe {b}."
+  ],
+  "loesungsweg": [
+   "Rechteck: {l} · {b} = {rechteck} cm².",
+   "Dreieck: {b} · {k} : 2 = {dreieck} cm².",
+   "Quadrat: {sq} · {sq} = {loch} cm², und das wird abgezogen.",
+   "Rest: {rechteck} + {dreieck} − {loch} = {rest} cm².",
+   "Gegenprobe als Trapez: ({l} + {l} + {k}) · {b} : 2 minus {loch} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-zylinder",
+  "lernzielId": "MG.6.01",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "r*r*h"
+   },
+   {
+    "name": "ober",
+    "typ": "formel",
+    "ausdruck": "2*r*r+2*r*h"
+   },
+   {
+    "name": "mantel",
+    "typ": "formel",
+    "ausdruck": "2*r*h"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Regentonne",
+      "Eine zylindrische Regentonne"
+     ],
+     [
+      "Konservendose",
+      "Eine zylindrische Konservendose"
+     ],
+     [
+      "Farbkübel",
+      "Ein zylindrischer Farbkübel"
+     ],
+     [
+      "Rohrstück",
+      "Ein zylindrisches Rohrstück"
+     ],
+     [
+      "Silo",
+      "Ein zylindrisches Silo"
+     ],
+     [
+      "Trinkbecher",
+      "Ein zylindrischer Trinkbecher"
+     ],
+     [
+      "Kerze",
+      "Eine zylindrische Kerze"
+     ],
+     [
+      "Wassertank",
+      "Ein zylindrischer Wassertank"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "vol<=4000",
+   "ober!=vol",
+   "vol!=r",
+   "vol!=h",
+   "ober!=r",
+   "ober!=h",
+   "ober!=mantel",
+   "vol!=mantel",
+   "h!=r"
+  ],
+  "stamm": "{ding.1} hat den Radius {r} cm und die Höhe {h} cm. Gib beide Antworten als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "vol",
+    "label": "Volumen (Vielfaches von π)",
+    "einheit": "cm³",
+    "ausdruck": "r*r*h",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "r*h",
+      "feedback": "Du hast Radius mal Höhe gerechnet. Die Grundfläche ist ein Kreis mit A = πr². Der Radius muss zuerst quadriert werden."
+     },
+     {
+      "diagnoseId": "durchmesser_statt_radius",
+      "ausdruck": "4*r*r*h",
+      "feedback": "Du hast mit dem Durchmesser gerechnet. In V = πr²h steht der Radius, hier {r} cm, mit dem Durchmesser wird das Volumen viermal zu gross."
+     },
+     {
+      "diagnoseId": "gedrittelt_wie_kegel",
+      "ausdruck": "r*r*h/3",
+      "feedback": "Du hast durch 3 geteilt. Das Dritteln gehört zum Kegel und zur Pyramide. Ein Zylinder ist ein Prisma: Grundfläche mal Höhe, ohne Teilen."
+     },
+     {
+      "diagnoseId": "nur_grundflaeche",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Grundfläche. Für das Volumen fehlt noch die Multiplikation mit der Höhe {h}."
+     }
+    ]
+   },
+   {
+    "name": "ober",
+    "label": "Oberfläche (Vielfaches von π)",
+    "einheit": "cm²",
+    "ausdruck": "2*r*r+2*r*h",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "2*r*h",
+      "feedback": "Das ist nur der Mantel. Zur Oberfläche gehören ausserdem Boden und Deckel. Zwei Kreise mit je πr²."
+     },
+     {
+      "diagnoseId": "nur_ein_deckel",
+      "ausdruck": "r*r+2*r*h",
+      "feedback": "Du hast nur einen der beiden Kreise gezählt. Ein geschlossener Zylinder hat Boden UND Deckel."
+     },
+     {
+      "diagnoseId": "volumen_statt_oberflaeche",
+      "ausdruck": "r*r*h",
+      "feedback": "Das ist das Volumen. Die Oberfläche misst Fläche und wird in Quadratzentimetern angegeben."
+     },
+     {
+      "diagnoseId": "mantel_falsch_gerechnet",
+      "ausdruck": "2*r*r+r*h",
+      "feedback": "Der Mantel ist ein Rechteck: Der Kreisumfang 2πr ist seine Breite, die Höhe {h} seine Länge. Der Faktor 2 gehört also auch zum Mantel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Ein Zylinder ist ein Prisma mit kreisförmiger Grundfläche. Wie berechnet man das Volumen eines Prismas?",
+   "Die Grundfläche ist πr². Für das Volumen kommt die Höhe dazu.",
+   "Rollt man den Mantel ab, ergibt sich ein Rechteck: so lang wie der Kreisumfang, so hoch wie der Zylinder."
+  ],
+  "loesungsweg": [
+   "Grundfläche: π·{r}² = {r}²π cm².",
+   "Volumen: Grundfläche mal Höhe = {vol}π cm³.",
+   "Mantel: Umfang mal Höhe = 2·{r}·{h}·π = {mantel}π cm².",
+   "Oberfläche: Mantel plus zwei Kreise = {ober}π cm²."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-kugel",
+  "lernzielId": "MG.6.02",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "6.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     6,
+     9,
+     12,
+     15,
+     18,
+     21,
+     24,
+     27,
+     30
+    ]
+   },
+   {
+    "name": "ober",
+    "typ": "formel",
+    "ausdruck": "4*r*r"
+   },
+   {
+    "name": "vol",
+    "typ": "formel",
+    "ausdruck": "4*r*r*r/3"
+   },
+   {
+    "name": "ding",
+    "typ": "text",
+    "texte": [
+     [
+      "Kugellagerkugel"
+     ],
+     [
+      "Wasserkugel im Schaufenster"
+     ],
+     [
+      "Betonkugel am Wegrand"
+     ],
+     [
+      "Glaskugel"
+     ],
+     [
+      "Kugel aus Vollholz"
+     ],
+     [
+      "Stahlkugel"
+     ],
+     [
+      "Ballonhülle"
+     ],
+     [
+      "Kugel aus Schaumstoff"
+     ],
+     [
+      "Bleikugel"
+     ],
+     [
+      "Christbaumkugel"
+     ]
+    ]
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Livia"
+     ],
+     [
+      "Yannick"
+     ],
+     [
+      "Elin"
+     ],
+     [
+      "Dario"
+     ],
+     [
+      "Fatima"
+     ],
+     [
+      "Nino"
+     ],
+     [
+      "Selina"
+     ],
+     [
+      "Luca"
+     ],
+     [
+      "Anouk"
+     ],
+     [
+      "Samir"
+     ],
+     [
+      "Jana"
+     ],
+     [
+      "Nevio"
+     ]
+    ]
+   }
+  ],
+  "bedingungen": [
+   "ober!=vol",
+   "ober!=r",
+   "vol!=r"
+  ],
+  "stamm": "{name} rechnet an einer {ding} mit dem Radius {r} cm. Gib beide Antworten als Vielfaches von π an, also nur die Zahl vor dem π.",
+  "felder": [
+   {
+    "name": "ober",
+    "label": "Oberfläche der Kugel (Vielfaches von π)",
+    "einheit": "cm²",
+    "ausdruck": "4*r*r",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "kreisflaeche_statt_kugel",
+      "ausdruck": "r*r",
+      "feedback": "Das ist die Fläche eines Kreises mit demselben Radius. Die Kugeloberfläche ist genau viermal so gross: O = 4πr²."
+     },
+     {
+      "diagnoseId": "faktor_zwei_statt_vier",
+      "ausdruck": "2*r*r",
+      "feedback": "Der Faktor ist 4, nicht 2. Zwei Kreise wären die Ober- und Unterseite eines Zylinders. Eine Kugel ist rundum gewölbt und hat die vierfache Kreisfläche."
+     },
+     {
+      "diagnoseId": "volumen_statt_oberflaeche",
+      "ausdruck": "4*r*r*r/3",
+      "feedback": "Das ist das Volumen. Die Oberfläche misst Fläche und trägt darum den Radius nur zweimal, nicht dreimal."
+     },
+     {
+      "diagnoseId": "durchmesser_eingesetzt",
+      "ausdruck": "16*r*r",
+      "feedback": "Du hast mit dem Durchmesser gerechnet. In O = 4πr² steht der Radius, hier {r} cm."
+     }
+    ]
+   },
+   {
+    "name": "vol",
+    "label": "Volumen der Kugel (Vielfaches von π)",
+    "einheit": "cm³",
+    "ausdruck": "4*r*r*r/3",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "nicht_gedrittelt",
+      "ausdruck": "4*r*r*r",
+      "feedback": "Der Bruch vor dem π ist vier DRITTEL, nicht vier. Es fehlt das Teilen durch 3."
+     },
+     {
+      "diagnoseId": "radius_nur_quadriert",
+      "ausdruck": "4*r*r/3",
+      "feedback": "Beim Volumen steht der Radius hoch drei. Ein Volumen hat drei Richtungen, eine Fläche nur zwei."
+     },
+     {
+      "diagnoseId": "oberflaeche_statt_volumen",
+      "ausdruck": "4*r*r",
+      "feedback": "Das ist die Oberfläche. Für das Volumen kommt ein weiterer Radius dazu, und geteilt wird durch 3."
+     },
+     {
+      "diagnoseId": "wie_zylinder_gerechnet",
+      "ausdruck": "2*r*r*r",
+      "feedback": "Das wäre ein Zylinder, der die Kugel genau umschliesst. Grundfläche πr² mal Höhe 2r. Die Kugel füllt davon nur zwei Drittel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Beide Kugelformeln stehen in der Formelsammlung. Achte darauf, wie oft der Radius in jeder vorkommt.",
+   "Eine Fläche trägt den Radius zweimal, ein Volumen dreimal. Daran erkennst du, welche Formel welche ist.",
+   "Beim Volumen steht der Bruch vier Drittel vor dem π."
+  ],
+  "loesungsweg": [
+   "Oberfläche: O = 4πr² = 4·{r}²·π = {ober}π cm².",
+   "Volumen: V = vier Drittel mal π mal r³.",
+   "r³ ist {r}·{r}·{r}; mal vier und geteilt durch drei ergibt {vol}.",
+   "Also V = {vol}π cm³."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "be3-pyramide-kegel",
+  "lernzielId": "MG.6.03",
+  "fach": "mathematik-bern-gym3",
+  "unterthemen": [
+   "6.03",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "ganz",
+  "variablen": [
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "s",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 36,
+    "schritt": 1
+   },
+   {
+    "name": "kegel",
+    "typ": "formel",
+    "ausdruck": "r*r*h/3"
+   },
+   {
+    "name": "pyramide",
+    "typ": "formel",
+    "ausdruck": "s*s*h/3"
+   }
+  ],
+  "bedingungen": [
+   "istGanz(kegel)==1",
+   "istGanz(pyramide)==1",
+   "kegel!=pyramide",
+   "kegel<=1500",
+   "pyramide<=2400",
+   "kegel!=r",
+   "kegel!=h",
+   "pyramide!=s",
+   "pyramide!=h",
+   "r!=s"
+  ],
+  "stamm": "Ein Kegel hat den Radius {r} cm, eine Pyramide mit quadratischer Grundfläche die Grundkante {s} cm. Beide sind {h} cm hoch. Gib das Kegelvolumen als Vielfaches von π an, das Pyramidenvolumen in Kubikzentimetern.",
+  "felder": [
+   {
+    "name": "kegel",
+    "label": "Volumen des Kegels (Vielfaches von π)",
+    "einheit": "cm³",
+    "ausdruck": "r*r*h/3",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "wie_zylinder",
+      "ausdruck": "r*r*h",
+      "feedback": "Das ist das Volumen eines Zylinders mit demselben Radius und derselben Höhe. Der Kegel füllt davon genau ein Drittel."
+     },
+     {
+      "diagnoseId": "durchmesser_statt_radius",
+      "ausdruck": "4*r*r*h/3",
+      "feedback": "Du hast mit dem Durchmesser gerechnet. In der Formel steht der Radius, hier {r} cm."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "r*h/3",
+      "feedback": "Die Grundfläche ist ein Kreis mit πr². Der Radius muss quadriert werden, bevor die Höhe dazukommt."
+     },
+     {
+      "diagnoseId": "halbiert_statt_gedrittelt",
+      "ausdruck": "r*r*h/2",
+      "feedback": "Geteilt wird durch 3, nicht durch 2. Das Halbieren gehört zum Dreieck in der Ebene, das Dritteln zu Spitzkörpern im Raum."
+     }
+    ]
+   },
+   {
+    "name": "pyramide",
+    "label": "Volumen der Pyramide",
+    "einheit": "cm³",
+    "ausdruck": "s*s*h/3",
+    "zahlformat": "ganz",
+    "fehler": [
+     {
+      "diagnoseId": "wie_quader",
+      "ausdruck": "s*s*h",
+      "feedback": "Das ist das Volumen eines Quaders mit derselben Grundfläche und Höhe. Die Pyramide füllt davon ein Drittel."
+     },
+     {
+      "diagnoseId": "kante_nicht_quadriert",
+      "ausdruck": "s*h/3",
+      "feedback": "Die Grundfläche ist ein Quadrat mit der Seite {s} cm, also {s}·{s}. Eine Kante allein ist keine Fläche."
+     },
+     {
+      "diagnoseId": "halbiert_statt_gedrittelt",
+      "ausdruck": "s*s*h/2",
+      "feedback": "Geteilt wird durch 3. Bei jedem Spitzkörper, Pyramide wie Kegel, ist es ein Drittel von Grundfläche mal Höhe."
+     },
+     {
+      "diagnoseId": "kegelwert_uebernommen",
+      "ausdruck": "r*r*h/3",
+      "feedback": "Das ist das Kegelvolumen. Für die Pyramide gilt dieselbe Formel, aber mit der quadratischen Grundfläche {s}·{s} statt der Kreisfläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Für beide Körper gilt dieselbe Regel: Grundfläche mal Höhe, geteilt durch drei.",
+   "Beim Kegel ist die Grundfläche ein Kreis, bei der Pyramide ein Quadrat. Nur darin unterscheiden sich die beiden Rechnungen.",
+   "Vergiss das Teilen durch drei nicht, ohne es hättest du einen Zylinder beziehungsweise einen Quader."
+  ],
+  "loesungsweg": [
+   "Kegel: Grundfläche π·{r}², mal Höhe {h}, geteilt durch 3 ergibt {kegel}π cm³.",
+   "Pyramide: Grundfläche {s}·{s}, mal Höhe {h}, geteilt durch 3 ergibt {pyramide} cm³.",
+   "Beide Male steht dieselbe Regel dahinter: ein Drittel von Grundfläche mal Höhe.",
+   "Der Unterschied liegt allein in der Grundfläche. Kreis gegen Quadrat."
+  ],
+  "schrauben": {
+   "schritte": 3,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Aufgabentypen der Berner Aufnahmeprüfung GYM 3 2022-2026 (Übertritt ins 11. Schuljahr); Kontexte, Zahlen und Namen eigenentwickelt"
+  },
+  "status": "review"
+ }
+]

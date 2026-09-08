@@ -1,0 +1,9163 @@
+[
+ {
+  "templateId": "tg-klammerterm",
+  "lernzielId": "MTG.1.01",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a+b*c+a*(c+d)"
+   }
+  ],
+  "bedingungen": [
+   "b!=c",
+   "c!=d",
+   "a!=b",
+   "wert<200",
+   "b*c!=a*(c+d)",
+   "a!=c"
+  ],
+  "stamm": "Berechne im Kopf.\n\n{a} + {b} · {c} + {a} · ({c} + {d}) =",
+  "loesung": "a+b*c+a*(c+d)",
+  "gegenprobe": "a*(1+c+d)+b*c",
+  "fehler": [
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a+b)*c+a*(c+d)",
+    "feedback": "Klammer vor Punkt vor Strich: Zuerst wird {b} · {c} gerechnet, erst danach kommt das Plus. Von links nach rechts zu rechnen gibt hier ein anderes Ergebnis."
+   },
+   {
+    "diagnoseId": "klammer_ignoriert",
+    "ausdruck": "a+b*c+a*c+d",
+    "feedback": "Der Faktor {a} steht vor der ganzen Klammer. Er wird mit BEIDEN Summanden multipliziert, also {a} · {c} und {a} · {d}."
+   },
+   {
+    "diagnoseId": "nur_erster_summand",
+    "ausdruck": "a+b*c+a*c",
+    "feedback": "Der zweite Summand in der Klammer fehlt. {a} · ({c} + {d}) heisst {a} · {c} plus {a} · {d}."
+   },
+   {
+    "diagnoseId": "alles_addiert",
+    "ausdruck": "a+b+c+a+c+d",
+    "feedback": "Die Malpunkte sind verschwunden. Punktrechnung geht vor Strichrechnung und muss zuerst ausgeführt werden."
+   }
+  ],
+  "hinweise": [
+   "Welche Rechenart kommt zuerst dran?",
+   "Zuerst die Klammer ausrechnen, dann alle Malrechnungen, erst zum Schluss die Additionen.",
+   "{b} · {c} und {a} · ({c} + {d}) berechnen, dann {a} dazuzählen."
+  ],
+  "loesungsweg": [
+   "Klammer: {c} + {d}.",
+   "Punktrechnungen: {b} · {c} und {a} · ({c} + {d}).",
+   "Alles addieren, dazu noch die {a} vom Anfang.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-groessen-flaeche",
+  "lernzielId": "MTG.1.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "cm²",
+  "variablen": [
+   {
+    "name": "dm",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 19,
+    "schritt": 1
+   },
+   {
+    "name": "cm",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 88,
+    "schritt": 1
+   },
+   {
+    "name": "mm",
+    "typ": "ganzzahl",
+    "von": 500,
+    "bis": 4500,
+    "schritt": 100
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "dm*10+cm-mm/100"
+   }
+  ],
+  "bedingungen": [
+   "wert>0",
+   "(mm%100)==0",
+   "dm*10!=cm",
+   "wert<300",
+   "cm!=dm",
+   "(mm/100)!=cm"
+  ],
+  "stamm": "Rechne alles in Quadratzentimeter um und berechne.\n\n{dm} dm² + {cm} cm² − {mm} mm² =",
+  "loesung": "dm*10+cm-mm/100",
+  "gegenprobe": "(dm*1000+cm*100-mm)/100",
+  "fehler": [
+   {
+    "diagnoseId": "dm_falsch",
+    "ausdruck": "dm*100+cm-mm/100",
+    "feedback": "Achtung bei Flächen: 1 dm² sind 100 cm², nicht 100 — sondern ... genau: 1 dm² = 100 cm². Prüfe deinen Faktor noch einmal am Quadrat mit 10 cm Seite."
+   },
+   {
+    "diagnoseId": "mm_falsch",
+    "ausdruck": "dm*10+cm-mm/10",
+    "feedback": "1 cm² sind 100 mm², nicht 10. Ein Quadrat mit 1 cm Seite ist 10 mm mal 10 mm gross."
+   },
+   {
+    "diagnoseId": "laengenfaktor",
+    "ausdruck": "dm*10+cm-mm",
+    "feedback": "Die Quadratmillimeter wurden gar nicht umgerechnet. Bei Flächen zählt der Faktor 100 zwischen zwei benachbarten Einheiten."
+   },
+   {
+    "diagnoseId": "addiert_statt_subtrahiert",
+    "ausdruck": "dm*10+cm+mm/100",
+    "feedback": "Vor den Quadratmillimetern steht ein Minus. Sie werden abgezogen, nicht dazugezählt."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Quadratzentimeter sind ein Quadratdezimeter?",
+   "Bei Flächen ist der Faktor 100, nicht 10: 1 dm² = 100 cm², 1 cm² = 100 mm².",
+   "Alles in cm² schreiben, dann der Reihe nach rechnen."
+  ],
+  "loesungsweg": [
+   "{dm} dm² sind {dm} · 100 cm².",
+   "{mm} mm² sind {mm} : 100 cm².",
+   "Alles zusammenzählen und die Quadratmillimeter abziehen.",
+   "Ergebnis: {wert} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-zeit-anteil",
+  "lernzielId": "MTG.1.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "min",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 90,
+    "schritt": 5
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "min",
+    "typ": "formel",
+    "ausdruck": "h*60+v*15"
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p*min/100"
+   }
+  ],
+  "bedingungen": [
+   "(p*min)%100==0",
+   "wert>5",
+   "wert<200",
+   "p!=min",
+   "wert!=min",
+   "wert!=p"
+  ],
+  "stamm": "{name} rechnet ohne Taschenrechner.\n\n{p} % von {h} h {v}5 min =",
+  "loesung": "p*(h*60+v*15)/100",
+  "gegenprobe": "15*(4*h+v)*p/100",
+  "fehler": [
+   {
+    "diagnoseId": "stunden_dezimal",
+    "ausdruck": "p*(h+v/4)/100",
+    "feedback": "Rechne zuerst die Zeit ganz in Minuten um. Sonst rechnest du Prozente von Stunden aus und schreibst das Ergebnis als Minuten hin."
+   },
+   {
+    "diagnoseId": "minuten_vergessen",
+    "ausdruck": "p*h*60/100",
+    "feedback": "Die {v}5 Minuten gehören dazu. Zuerst {h} · 60 + {v}5 rechnen, dann die Prozente davon."
+   },
+   {
+    "diagnoseId": "prozent_gedreht",
+    "ausdruck": "min*100/p",
+    "feedback": "Hier wurde durch den Prozentsatz geteilt statt mit ihm multipliziert. {p} % von etwas heisst: mal {p}, geteilt durch 100."
+   }
+  ],
+  "hinweise": [
+   "In welcher Einheit soll das Ergebnis stehen?",
+   "Zuerst die ganze Zeit in Minuten umrechnen.",
+   "Dann: mal {p}, geteilt durch 100."
+  ],
+  "loesungsweg": [
+   "{h} h {v}5 min sind {min} Minuten.",
+   "{p} % davon: {min} · {p} : 100.",
+   "Ergebnis: {wert} min."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-zehnerpotenzen",
+  "lernzielId": "MTG.1.03",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.03",
+   "1.14"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "vor",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "exp",
+    "typ": "formel",
+    "ausdruck": "m+n"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "m!=n",
+   "a*b<100",
+   "a*b!=10",
+   "(a*b)%10!=0"
+  ],
+  "stamm": "Berechne ohne Taschenrechner und gib das Ergebnis in der Form Vorfaktor mal Zehnerpotenz an.\n\n({a} · 10{m:hoch}) · ({b} · 10{n:hoch}) =",
+  "felder": [
+   {
+    "name": "vor",
+    "label": "Vorfaktor",
+    "ausdruck": "a*b",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b",
+      "feedback": "Die Vorfaktoren werden multipliziert, nicht addiert. Vor jeder Klammer steht ein Produkt, und Produkte darf man umstellen."
+     },
+     {
+      "diagnoseId": "nur_einer",
+      "ausdruck": "a",
+      "feedback": "Beide Vorfaktoren gehören ins Ergebnis: {a} · {b}."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "b-a",
+      "feedback": "Zwischen den Klammern steht ein Malpunkt. Subtrahiert wird hier nichts."
+     }
+    ]
+   },
+   {
+    "name": "exp",
+    "label": "Exponent der Zehnerpotenz",
+    "ausdruck": "m+n",
+    "fehler": [
+     {
+      "diagnoseId": "multipliziert",
+      "ausdruck": "m*n",
+      "feedback": "Beim Multiplizieren von Potenzen mit gleicher Basis werden die Exponenten ADDIERT: 10{m:hoch} · 10{n:hoch} = 10 hoch ({m} + {n})."
+     },
+     {
+      "diagnoseId": "groesserer",
+      "ausdruck": "max(m,n)",
+      "feedback": "Beide Zehnerpotenzen zählen. {m} Nullen und {n} Nullen ergeben zusammen {m} + {n} Nullen."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "m-n",
+      "feedback": "Subtrahiert werden die Exponenten beim DIVIDIEREN. Hier wird multipliziert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was geschieht mit den Exponenten, wenn man Zehnerpotenzen multipliziert?",
+   "Vorfaktoren mal Vorfaktoren, Exponenten plus Exponenten.",
+   "Schreibe das Produkt um: ({a} · {b}) · (10{m:hoch} · 10{n:hoch})."
+  ],
+  "loesungsweg": [
+   "Die Reihenfolge der Faktoren darf man vertauschen.",
+   "Vorfaktoren: {a} · {b} = {vor}.",
+   "Zehnerpotenzen: 10 hoch ({m} + {n}) = 10 hoch {exp}.",
+   "Ergebnis: {vor} · 10 hoch {exp}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-ganze-zahlen",
+  "lernzielId": "MTG.1.04",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": -12,
+    "bis": -2,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": -2,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "a-b*c+d"
+   }
+  ],
+  "bedingungen": [
+   "wert!=0",
+   "a!=c",
+   "b!=d",
+   "wert<80",
+   "wert>-40",
+   "b*c!=a",
+   "wert!=a",
+   "wert!=d"
+  ],
+  "stamm": "Berechne.\n\n{a} − {b} · ({c}) + {d} =",
+  "loesung": "a-b*c+d",
+  "gegenprobe": "d+a+(0-b)*c",
+  "fehler": [
+   {
+    "diagnoseId": "vorzeichen_produkt",
+    "ausdruck": "a+b*c+d",
+    "feedback": "Minus mal Minus gibt Plus: Vor dem Produkt steht ein Minus, und {c} ist selbst negativ. Also wird der Betrag dazugezählt."
+   },
+   {
+    "diagnoseId": "von_links",
+    "ausdruck": "(a-b)*c+d",
+    "feedback": "Punkt vor Strich: Zuerst {b} · ({c}) rechnen, danach subtrahieren."
+   },
+   {
+    "diagnoseId": "letzten_vergessen",
+    "ausdruck": "a-b*c",
+    "feedback": "Der letzte Summand {d} fehlt im Ergebnis. Rechne die Zeile bis zum Schluss durch, auch wenn das Produkt schon fertig ist."
+   }
+  ],
+  "hinweise": [
+   "Welches Vorzeichen bekommt das Produkt aus den beiden mittleren Zahlen?",
+   "Zuerst das Produkt bilden — mit Vorzeichen —, dann der Reihe nach rechnen.",
+   "Ein Minus vor einem negativen Produkt wird zu einem Plus."
+  ],
+  "loesungsweg": [
+   "Produkt: {b} · ({c}).",
+   "Davor steht ein Minus, also wird dieses Produkt abgezogen.",
+   "Zum Schluss {d} addieren.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-ggt-kgv",
+  "lernzielId": "MTG.1.06",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.06",
+   "1.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "g*m"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "g*n"
+   },
+   {
+    "name": "kgv",
+    "typ": "formel",
+    "ausdruck": "g*m*n"
+   }
+  ],
+  "bedingungen": [
+   "ggt(m,n)==1",
+   "m!=n",
+   "a!=b",
+   "a<130",
+   "b<130",
+   "g!=m",
+   "g!=n",
+   "kgv<800"
+  ],
+  "stamm": "Gegeben sind die Zahlen {a} und {b}.\n\nBestimme den grössten gemeinsamen Teiler und das kleinste gemeinsame Vielfache.",
+  "felder": [
+   {
+    "name": "ggt",
+    "label": "ggT({a}; {b})",
+    "ausdruck": "g",
+    "fehler": [
+     {
+      "diagnoseId": "kgv_verwechselt",
+      "ausdruck": "g*m*n",
+      "feedback": "Das ist das kleinste gemeinsame VIELFACHE. Der ggT ist immer höchstens so gross wie die kleinere der beiden Zahlen."
+     },
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt der beiden Zahlen ist weder ggT noch kgV. Der ggT teilt beide Zahlen, ist also kleiner als jede von ihnen."
+     },
+     {
+      "diagnoseId": "kleinere_zahl",
+      "ausdruck": "min(a,b)",
+      "feedback": "Die kleinere Zahl ist nur dann der ggT, wenn sie die grössere auch wirklich teilt. Prüfe das nach."
+     }
+    ]
+   },
+   {
+    "name": "kgv",
+    "label": "kgV({a}; {b})",
+    "ausdruck": "g*m*n",
+    "fehler": [
+     {
+      "diagnoseId": "ggt_verwechselt",
+      "ausdruck": "g",
+      "feedback": "Das ist der grösste gemeinsame TEILER. Das kgV ist ein Vielfaches beider Zahlen, also mindestens so gross wie die grössere."
+     },
+     {
+      "diagnoseId": "produkt",
+      "ausdruck": "a*b",
+      "feedback": "Das Produkt ist immer ein gemeinsames Vielfaches, aber nicht das kleinste. Teile es noch durch den ggT."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b",
+      "feedback": "Die Summe hat mit Vielfachen nichts zu tun. Das kgV muss durch {a} und durch {b} teilbar sein."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Zerlege beide Zahlen in Primfaktoren.",
+   "Für den ggT nimmst du die gemeinsamen Faktoren, für das kgV alle vorkommenden.",
+   "Praktisch: kgV = {a} · {b} : ggT."
+  ],
+  "loesungsweg": [
+   "{a} = {g} · {m} und {b} = {g} · {n}.",
+   "Gemeinsam ist der Faktor {g} — das ist der ggT.",
+   "Das kgV ist {g} · {m} · {n} = {kgv}.",
+   "Probe: {a} · {b} : {g} ergibt dasselbe."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-primfaktoren",
+  "lernzielId": "MTG.1.05",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.05",
+   "1.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "loesungsmenge",
+  "variablen": [
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "name": "q",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "auswahl",
+    "werte": [
+     7,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "pow(p,e)*q*r"
+   }
+  ],
+  "bedingungen": [
+   "p<q",
+   "n>60",
+   "n<1500",
+   "q!=r",
+   "p!=r"
+  ],
+  "stamm": "{name} zerlegt die Zahl {n} in Primfaktoren. Welche Primzahlen von 2 bis 20 kommen in der Zerlegung vor? Wähle alle aus.",
+  "fehler": [
+   {
+    "diagnoseId": "auch_zusammengesetzte",
+    "ausdruck": "0",
+    "feedback": "Einige der gewählten Zahlen sind keine Primzahlen. Eine Primzahl hat genau zwei Teiler: sich selbst und die Eins. 4, 6, 9 und 15 gehören nicht dazu, auch wenn sie {n} teilen."
+   },
+   {
+    "diagnoseId": "einer_fehlt",
+    "ausdruck": "0",
+    "feedback": "Ein Primfaktor fehlt. Teile {n} fortlaufend, bis eine Eins übrig bleibt, und schreibe jeden verwendeten Teiler auf."
+   },
+   {
+    "diagnoseId": "eins_dazu",
+    "ausdruck": "0",
+    "feedback": "Die Eins ist keine Primzahl: Sie hat nur einen Teiler. Sie steht in keiner Primfaktorzerlegung."
+   }
+  ],
+  "hinweise": [
+   "Fange bei der kleinsten Primzahl an: Ist {n} durch 2 teilbar?",
+   "Teile fortlaufend durch Primzahlen, bis eine Eins übrig bleibt.",
+   "Achte darauf, dass jede gewählte Zahl selbst eine Primzahl ist."
+  ],
+  "loesungsweg": [
+   "{n} durch die kleinste passende Primzahl teilen.",
+   "Mit dem Ergebnis genauso weiterfahren.",
+   "So lange, bis eine Eins übrig bleibt.",
+   "Jeder verwendete Teiler gehört in die Lösung — mehrfach vorkommende nur einmal."
+  ],
+  "loesungsmenge": {
+   "kandidatenVariable": "k",
+   "von": "2",
+   "bis": "20",
+   "bedingung": "n % k == 0 && k != 4 && k != 6 && k != 8 && k != 9 && k != 10 && k != 12 && k != 14 && k != 15 && k != 16 && k != 18 && k != 20"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-bruch-kuerzen",
+  "lernzielId": "MTG.1.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "n",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "zg",
+    "typ": "formel",
+    "ausdruck": "z*k"
+   },
+   {
+    "name": "ng",
+    "typ": "formel",
+    "ausdruck": "n*k"
+   }
+  ],
+  "bedingungen": [
+   "ggt(z,n)==1",
+   "z<n",
+   "zg<100",
+   "ng<130",
+   "k!=z",
+   "k!=n"
+  ],
+  "stamm": "Der Bruch {zg:hoch}⁄{ng:tief} ist nicht vollständig gekürzt.\n\nGib den gekürzten Bruch an: Zähler und Nenner einzeln.",
+  "felder": [
+   {
+    "name": "z",
+    "label": "Zähler",
+    "ausdruck": "z",
+    "fehler": [
+     {
+      "diagnoseId": "nur_halbiert",
+      "ausdruck": "zg/2",
+      "feedback": "Halbieren allein genügt nicht. Suche den grössten gemeinsamen Teiler von {zg} und {ng} und teile durch ihn."
+     },
+     {
+      "diagnoseId": "subtrahiert",
+      "ausdruck": "zg-k",
+      "feedback": "Beim Kürzen wird geteilt, nicht subtrahiert. Ein subtrahierter Bruch hat einen anderen Wert."
+     },
+     {
+      "diagnoseId": "nenner_genommen",
+      "ausdruck": "n",
+      "feedback": "Das ist der gekürzte Nenner. Oben steht der Zähler."
+     }
+    ]
+   },
+   {
+    "name": "n",
+    "label": "Nenner",
+    "ausdruck": "n",
+    "fehler": [
+     {
+      "diagnoseId": "nur_halbiert",
+      "ausdruck": "ng/2",
+      "feedback": "Auch der Nenner muss durch den GRÖSSTEN gemeinsamen Teiler geteilt werden, nicht nur durch 2."
+     },
+     {
+      "diagnoseId": "unveraendert",
+      "ausdruck": "ng",
+      "feedback": "Wer nur den Zähler kürzt, ändert den Wert des Bruchs. Beide Zahlen werden durch dieselbe Zahl geteilt."
+     },
+     {
+      "diagnoseId": "zaehler_genommen",
+      "ausdruck": "z",
+      "feedback": "Das ist der gekürzte Zähler. Unten steht der Nenner."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl teilt {zg} und {ng} beide?",
+   "Zerlege beide Zahlen in Faktoren und suche die gemeinsamen.",
+   "Zähler und Nenner durch denselben grössten gemeinsamen Teiler teilen."
+  ],
+  "loesungsweg": [
+   "{zg} und {ng} haben den gemeinsamen Teiler {k}.",
+   "{zg} : {k} = {z}.",
+   "{ng} : {k} = {n}.",
+   "Der gekürzte Bruch ist {z:hoch}⁄{n:tief}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-bruch-addieren",
+  "lernzielId": "MTG.1.08",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.08",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "p/a+q/b"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*b<=72",
+   "((p*b+q*a)%(a*b))!=0",
+   "wert<2",
+   "p/a!=q/b"
+  ],
+  "stamm": "Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} + {q:hoch}⁄{b:tief} =",
+  "loesung": "p/a+q/b",
+  "gegenprobe": "(p*b+q*a)/(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "ueber_kreuz_falsch",
+    "ausdruck": "(p+q)/(a+b)",
+    "feedback": "Zähler zu Zähler und Nenner zu Nenner — so geht es nicht. Sonst wäre ein Halbes plus ein Halbes zwei Viertel, also weniger als vorher."
+   },
+   {
+    "diagnoseId": "nenner_beibehalten",
+    "ausdruck": "(p+q)/a",
+    "feedback": "Die Nenner sind verschieden. Erst wenn beide Brüche denselben Nenner haben, darfst du die Zähler addieren."
+   },
+   {
+    "diagnoseId": "multipliziert",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Das wäre das Produkt. Zwischen den Brüchen steht ein Pluszeichen."
+   },
+   {
+    "diagnoseId": "nur_einen_erweitert",
+    "ausdruck": "(p*b+q)/(a*b)",
+    "feedback": "Auch der zweite Zähler muss mit erweitert werden: {q} · {a}, nicht nur {q}."
+   }
+  ],
+  "hinweise": [
+   "Was brauchen zwei Brüche, bevor man sie addieren kann?",
+   "Bringe beide auf den gemeinsamen Nenner {a} · {b}.",
+   "Dann nur die Zähler addieren und am Schluss kürzen."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {a} · {b}.",
+   "Beide Brüche erweitern.",
+   "Zähler addieren.",
+   "Vollständig kürzen: {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-bruch-dividieren",
+  "lernzielId": "MTG.1.09",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.09",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "bruch",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "(p/a)/(q/b)"
+   }
+  ],
+  "bedingungen": [
+   "p<a",
+   "q<b",
+   "a!=b",
+   "ggt(p,a)==1",
+   "ggt(q,b)==1",
+   "a*q<=72",
+   "((p*b)%(a*q))!=0",
+   "wert<5",
+   "wert>0",
+   "p!=q"
+  ],
+  "stamm": "Berechne und kürze vollständig.\n\n{p:hoch}⁄{a:tief} : {q:hoch}⁄{b:tief} =",
+  "loesung": "(p/a)/(q/b)",
+  "gegenprobe": "p*b/(a*q)",
+  "fehler": [
+   {
+    "diagnoseId": "beide_multipliziert",
+    "ausdruck": "p*q/(a*b)",
+    "feedback": "Beim Dividieren wird mit dem KEHRWERT multipliziert. Der zweite Bruch wird gestürzt, bevor multipliziert wird."
+   },
+   {
+    "diagnoseId": "ersten_gestuerzt",
+    "ausdruck": "a*q/(p*b)",
+    "feedback": "Gestürzt wird der Bruch, durch den geteilt wird — der zweite. Der erste bleibt stehen."
+   },
+   {
+    "diagnoseId": "nenner_vergessen",
+    "ausdruck": "p*b/a",
+    "feedback": "Der Kehrwert ist richtig gebildet, aber beim Multiplizieren fehlt der Nenner {q}: Es heisst {p} · {b} über {a} · {q}."
+   }
+  ],
+  "hinweise": [
+   "Was macht man aus einer Division von Brüchen?",
+   "Dividieren heisst mit dem Kehrwert multiplizieren.",
+   "Also {p:hoch}⁄{a:tief} · {b:hoch}⁄{q:tief}."
+  ],
+  "loesungsweg": [
+   "Den zweiten Bruch stürzen: {b:hoch}⁄{q:tief}.",
+   "Jetzt multiplizieren: Zähler mal Zähler, Nenner mal Nenner.",
+   "Vollständig kürzen.",
+   "Ergebnis: {wert:bruch}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-prozent-bruch-dezimal",
+  "lernzielId": "MTG.1.10",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.10",
+   "1.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     16,
+     20,
+     25,
+     40,
+     50
+    ]
+   },
+   {
+    "name": "z",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 39,
+    "schritt": 1
+   },
+   {
+    "name": "dez",
+    "typ": "formel",
+    "ausdruck": "z/n"
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "z*100/n"
+   }
+  ],
+  "bedingungen": [
+   "z<n",
+   "ggt(z,n)==1",
+   "(z*100)%n==0",
+   "dez<1",
+   "dez>0.02",
+   "proz!=z",
+   "proz!=n"
+  ],
+  "stamm": "{name} liest in einer Statistik den Anteil {z:hoch}⁄{n:tief}.\n\nSchreibe diesen Anteil als Dezimalzahl und als Prozentzahl.",
+  "felder": [
+   {
+    "name": "dez",
+    "label": "als Dezimalzahl",
+    "ausdruck": "z/n",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "n/z",
+      "feedback": "Geteilt wird Zähler durch Nenner: {z} : {n}. Andersherum kommt eine Zahl grösser als 1 heraus, obwohl der Bruch kleiner als 1 ist."
+     },
+     {
+      "diagnoseId": "prozentzahl",
+      "ausdruck": "z*100/n",
+      "feedback": "Das ist die Prozentzahl. Die Dezimalzahl ist hundertmal kleiner."
+     },
+     {
+      "diagnoseId": "ziffern_gesetzt",
+      "ausdruck": "z/10",
+      "feedback": "Der Nenner ist {n}, nicht 10. Teile wirklich durch {n}."
+     }
+    ]
+   },
+   {
+    "name": "proz",
+    "label": "in Prozent",
+    "ausdruck": "z*100/n",
+    "einheit": "%",
+    "fehler": [
+     {
+      "diagnoseId": "dezimal_hingeschrieben",
+      "ausdruck": "z/n",
+      "feedback": "Das ist die Dezimalzahl. Für Prozent wird sie mit 100 multipliziert."
+     },
+     {
+      "diagnoseId": "zaehler",
+      "ausdruck": "z",
+      "feedback": "Der Zähler allein sagt nichts über den Anteil. Erst das Verhältnis zum Nenner {n} ergibt die Prozentzahl."
+     },
+     {
+      "diagnoseId": "nenner",
+      "ausdruck": "n",
+      "feedback": "Der Nenner ist das Ganze, nicht der Anteil."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Ein Bruchstrich bedeutet «geteilt durch».",
+   "Rechne {z} : {n} — das ergibt die Dezimalzahl.",
+   "Die Dezimalzahl mal 100 ergibt die Prozentzahl."
+  ],
+  "loesungsweg": [
+   "{z} : {n} = {dez}.",
+   "Mal 100 ergibt {proz} %.",
+   "Probe: {proz} % von 1 ist wieder {dez}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-potenzterm",
+  "lernzielId": "MTG.1.11",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "pow(a,2)*b-pow(c,2)"
+   }
+  ],
+  "bedingungen": [
+   "wert>0",
+   "wert<200",
+   "a!=c",
+   "pow(a,2)*b!=pow(c,2)",
+   "a!=b",
+   "wert!=c",
+   "wert!=a"
+  ],
+  "stamm": "Berechne ohne Taschenrechner.\n\n{a}² · {b} − {c}² =",
+  "loesung": "pow(a,2)*b-pow(c,2)",
+  "gegenprobe": "a*a*b-c*c",
+  "fehler": [
+   {
+    "diagnoseId": "mal_zwei",
+    "ausdruck": "a*2*b-c*2",
+    "feedback": "Eine Hochzahl bedeutet nicht «mal zwei»: {a}² heisst {a} · {a}."
+   },
+   {
+    "diagnoseId": "basis_und_faktor_potenziert",
+    "ausdruck": "pow(a*b,2)-pow(c,2)",
+    "feedback": "Die Hochzahl gehört nur zur {a}, nicht zum ganzen Produkt. Zuerst {a}² rechnen, dann mit {b} multiplizieren."
+   },
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "pow(a,2)*b+pow(c,2)",
+    "feedback": "Vor {c}² steht ein Minus. Das Quadrat wird abgezogen."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet die kleine Zwei über der Zahl?",
+   "{a}² ist {a} · {a}. Punkt vor Strich beachten.",
+   "Zuerst beide Quadrate ausrechnen, dann multiplizieren und subtrahieren."
+  ],
+  "loesungsweg": [
+   "{a}² = {a} · {a}.",
+   "Mal {b} nehmen.",
+   "{c}² abziehen.",
+   "Ergebnis: {wert}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-wurzel-vereinfachen",
+  "lernzielId": "MTG.1.12",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.12",
+   "1.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     5,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "pow(k,2)*r"
+   }
+  ],
+  "bedingungen": [
+   "n<400",
+   "k!=r"
+  ],
+  "stamm": "{name} soll die Wurzel aus {n} so weit wie möglich vereinfachen. Sie hat die Form a · √b, wobei b so klein wie möglich sein soll.\n\nGib a und b an.",
+  "felder": [
+   {
+    "name": "a",
+    "label": "Faktor a vor der Wurzel",
+    "ausdruck": "k",
+    "fehler": [
+     {
+      "diagnoseId": "radikand_genommen",
+      "ausdruck": "r",
+      "feedback": "Das ist die Zahl, die unter der Wurzel bleibt. Gefragt ist der Faktor davor."
+     },
+     {
+      "diagnoseId": "wurzel_halbiert",
+      "ausdruck": "n/2",
+      "feedback": "Eine Wurzel wird nicht halbiert. Suche die grösste Quadratzahl, die in {n} steckt, und ziehe aus ihr die Wurzel."
+     },
+     {
+      "diagnoseId": "ganze_zahl",
+      "ausdruck": "n",
+      "feedback": "{n} ist keine Quadratzahl, sonst wäre die Wurzel eine ganze Zahl. Zerlege {n} in eine Quadratzahl mal einen Rest."
+     }
+    ]
+   },
+   {
+    "name": "b",
+    "label": "Zahl b unter der Wurzel",
+    "ausdruck": "r",
+    "fehler": [
+     {
+      "diagnoseId": "faktor_genommen",
+      "ausdruck": "k",
+      "feedback": "Das ist der Faktor vor der Wurzel. Unter der Wurzel bleibt der Rest stehen."
+     },
+     {
+      "diagnoseId": "nicht_zerlegt",
+      "ausdruck": "n",
+      "feedback": "So ist nichts vereinfacht. Es steckt eine Quadratzahl in {n}: {k}² · {r}."
+     },
+     {
+      "diagnoseId": "quadrat",
+      "ausdruck": "pow(k,2)",
+      "feedback": "Die Quadratzahl kommt aus der Wurzel HERAUS, sie bleibt nicht darunter."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Quadratzahl steckt als Faktor in {n}?",
+   "Schreibe {n} als Produkt aus einer Quadratzahl und einem Rest.",
+   "Aus der Quadratzahl kannst du die Wurzel ziehen, der Rest bleibt unter der Wurzel."
+  ],
+  "loesungsweg": [
+   "{n} = {k}² · {r}.",
+   "Die Wurzel aus {k}² ist {k}.",
+   "Der Rest {r} bleibt unter der Wurzel.",
+   "Also √{n} = {k} · √{r}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-dritte-wurzel-wuerfel",
+  "lernzielId": "MTG.1.13",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "1.13",
+   "1.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "cm",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "stoff",
+    "typ": "text",
+    "texte": [
+     [
+      "Holz"
+     ],
+     [
+      "Karton"
+     ],
+     [
+      "Beton"
+     ],
+     [
+      "Schaumstoff"
+     ],
+     [
+      "Kunststoff"
+     ],
+     [
+      "Metall"
+     ],
+     [
+      "Glas"
+     ],
+     [
+      "Ton"
+     ],
+     [
+      "Styropor"
+     ],
+     [
+      "Gips"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "pow(k,3)"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "6*pow(k,2)"
+   }
+  ],
+  "bedingungen": [
+   "v>7",
+   "v<1800",
+   "k!=6"
+  ],
+  "stamm": "{name} hat einen Würfel aus {stoff} mit dem Volumen {v} cm³.\n\nBerechne seine Kantenlänge und seinen Oberflächeninhalt.",
+  "felder": [
+   {
+    "name": "k",
+    "label": "Kantenlänge in cm",
+    "ausdruck": "k",
+    "fehler": [
+     {
+      "diagnoseId": "durch_drei",
+      "ausdruck": "v/3",
+      "feedback": "Beim Würfel wird das Volumen nicht durch 3 geteilt, sondern die dritte Wurzel gezogen: Welche Zahl mal sich selbst mal sich selbst ergibt {v}?"
+     },
+     {
+      "diagnoseId": "quadratwurzel",
+      "ausdruck": "sqrt(v)",
+      "feedback": "Das ist die Quadratwurzel. Ein Würfel hat drei gleiche Kanten, also braucht es die dritte Wurzel."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "v",
+      "feedback": "Das ist das Volumen selbst. Die Kante ist die Zahl, die dreimal mit sich selbst multipliziert {v} ergibt."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "6*pow(k,2)",
+    "fehler": [
+     {
+      "diagnoseId": "eine_flaeche",
+      "ausdruck": "pow(k,2)",
+      "feedback": "Ein Würfel hat sechs gleiche Flächen. Eine allein ist nicht die Oberfläche."
+     },
+     {
+      "diagnoseId": "mal_vier",
+      "ausdruck": "4*pow(k,2)",
+      "feedback": "Vier Seitenflächen sind der Mantel. Beim Würfel kommen Grund- und Deckfläche dazu, das sind sechs."
+     },
+     {
+      "diagnoseId": "volumen_genommen",
+      "ausdruck": "v",
+      "feedback": "Das Volumen ist ein Rauminhalt in cm³. Die Oberfläche ist eine Fläche in cm²."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl ergibt dreimal mit sich selbst multipliziert {v}?",
+   "Das ist die dritte Wurzel aus {v}.",
+   "Die Oberfläche besteht aus sechs gleichen Quadraten."
+  ],
+  "loesungsweg": [
+   "Die dritte Wurzel aus {v} ist {k}.",
+   "Eine Fläche misst {k} · {k} cm².",
+   "Sechs Flächen ergeben {o} cm².",
+   "Probe: {k} · {k} · {k} = {v} cm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-gleichung-beidseitig",
+  "lernzielId": "MTG.2.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "2.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "formel",
+    "ausdruck": "(a-b)*x+c"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "x!=0",
+   "c>0",
+   "abs(a-b)>1",
+   "x!=c",
+   "x!=a",
+   "x!=b",
+   "x!=d",
+   "d>0",
+   "d<70",
+   "c!=d"
+  ],
+  "stamm": "Löse die Gleichung nach x auf.\n\n{a}x + {c} = {b}x + {d}",
+  "loesung": "(d-c)/(a-b)",
+  "gegenprobe": "((c-d)*0+(d-c))/(a-b)",
+  "fehler": [
+   {
+    "diagnoseId": "nur_eine_seite",
+    "ausdruck": "(d-c)/a",
+    "feedback": "Auf der rechten Seite steht ebenfalls ein x. Bringe zuerst alle x-Glieder auf eine Seite; dann steht vor dem x der Faktor {a} − {b}."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "(c-d)/(a-b)",
+    "feedback": "Beim Verschieben über das Gleichheitszeichen wechselt das Vorzeichen. Prüfe die Zeile, in der du die Zahlen zusammengefasst hast."
+   },
+   {
+    "diagnoseId": "faktoren_addiert",
+    "ausdruck": "(d-c)/(a+b)",
+    "feedback": "Die x-Glieder werden voneinander abgezogen, nicht zusammengezählt: {a}x − {b}x ergibt ({a} − {b})x."
+   }
+  ],
+  "hinweise": [
+   "Auf welcher Seite willst du das x haben?",
+   "Zuerst {b}x auf beiden Seiten abziehen.",
+   "Dann die Zahlen auf die andere Seite, zum Schluss durch den Faktor vor dem x teilen."
+  ],
+  "loesungsweg": [
+   "Alle x-Glieder auf die linke Seite: ({a} − {b})x.",
+   "Alle Zahlen auf die rechte Seite: {d} − ({c}).",
+   "Durch den Faktor vor dem x teilen.",
+   "Ergebnis: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-gleichung-nenner",
+  "lernzielId": "MTG.2.08",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "2.08",
+   "2.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "n2",
+    "typ": "auswahl",
+    "werte": [
+     2,
+     3,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "x",
+    "typ": "ganzzahl",
+    "von": -48,
+    "bis": 48,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "(x/n1)-(x/n2)+k"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "x!=0",
+   "x%n1==0",
+   "x%n2==0",
+   "k!=x",
+   "abs(r)<60",
+   "r!=x",
+   "(x/n1)!=(x/n2)",
+   "abs(x)>3",
+   "r!=k",
+   "x!=k"
+  ],
+  "stamm": "{name} soll diese Gleichung nach x auflösen.\n\nx⁄{n1:tief} − x⁄{n2:tief} + {k} = {r}",
+  "loesung": "x",
+  "gegenprobe": "(r-k)*n1*n2/(n2-n1)",
+  "fehler": [
+   {
+    "diagnoseId": "nenner_addiert",
+    "ausdruck": "(r-k)*(n1+n2)/1",
+    "feedback": "Die Nenner werden nicht addiert. Multipliziere die ganze Gleichung mit dem gemeinsamen Nenner {n1} · {n2}, dann verschwinden die Brüche."
+   },
+   {
+    "diagnoseId": "konstante_vergessen",
+    "ausdruck": "r*n1*n2/(n2-n1)",
+    "feedback": "Die {k} auf der linken Seite gehört mitverschoben: Sie wird zuerst abgezogen."
+   },
+   {
+    "diagnoseId": "richtung_vertauscht",
+    "ausdruck": "(r-k)*n1*n2/(n1-n2)",
+    "feedback": "Achte auf die Reihenfolge im Nenner. Der erste Bruch wird vom zweiten abgezogen, nicht umgekehrt."
+   }
+  ],
+  "hinweise": [
+   "Wie wirst du die Brüche los?",
+   "Multipliziere jeden Summanden mit dem gemeinsamen Nenner {n1} · {n2}.",
+   "Danach ist es eine gewöhnliche Gleichung."
+  ],
+  "loesungsweg": [
+   "Gemeinsamer Nenner: {n1} · {n2}.",
+   "Die ganze Gleichung damit multiplizieren.",
+   "Zusammenfassen und nach x auflösen.",
+   "Ergebnis: x = {x}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-textgleichung-vielfaches",
+  "lernzielId": "MTG.2.09",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "2.09",
+   "2.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 240,
+    "schritt": 1
+   },
+   {
+    "name": "klein",
+    "typ": "formel",
+    "ausdruck": "d/(f+1)"
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "d-d/(f+1)"
+   }
+  ],
+  "bedingungen": [
+   "d%(f+1)==0",
+   "klein>3",
+   "klein!=f",
+   "klein!=d",
+   "klein!=gross",
+   "gross!=d",
+   "gross!=f"
+  ],
+  "stamm": "{name} verteilt {d} Sticker auf zwei Alben. Im ersten Album sind {f}-mal so viele Sticker wie im zweiten.\n\nWie viele Sticker sind im zweiten Album?",
+  "loesung": "d/(f+1)",
+  "gegenprobe": "d-f*(d/(f+1))",
+  "fehler": [
+   {
+    "diagnoseId": "durch_faktor",
+    "ausdruck": "d/f",
+    "feedback": "Geteilt wird durch {f} + 1, nicht durch {f}: Die {d} Sticker verteilen sich auf {f} Teile im ersten Album PLUS einen Teil im zweiten."
+   },
+   {
+    "diagnoseId": "erstes_album",
+    "ausdruck": "d*f/(f+1)",
+    "feedback": "Das ist die Zahl im ERSTEN Album. Gefragt ist das zweite, das kleinere."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "d-f",
+    "feedback": "Hier wurde subtrahiert statt aufgeteilt. Stelle eine Gleichung auf: x + {f}x = {d}."
+   }
+  ],
+  "hinweise": [
+   "Nenne die Zahl im zweiten Album x. Wie viele sind dann im ersten?",
+   "Im ersten sind {f}x. Zusammen ergeben sie {d}.",
+   "Also x + {f}x = {d}, das sind {f} + 1 gleich grosse Teile."
+  ],
+  "loesungsweg": [
+   "Zweites Album: x. Erstes Album: {f}x.",
+   "Gleichung: x + {f}x = {d}.",
+   "Zusammenfassen: ({f} + 1)x = {d}.",
+   "Durch ({f} + 1) teilen: x = {klein}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-hohlmasse",
+  "lernzielId": "MTG.3.01",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "l",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "m3",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 100,
+    "bis": 900,
+    "schritt": 50
+   },
+   {
+    "name": "dl",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 95,
+    "schritt": 1
+   },
+   {
+    "name": "wert",
+    "typ": "formel",
+    "ausdruck": "m3*1000+l+dl/10"
+   }
+  ],
+  "bedingungen": [
+   "wert<10000",
+   "dl%5==0",
+   "l!=dl",
+   "m3!=l"
+  ],
+  "stamm": "{name} rechnet für ein Regenfass zusammen.\n\n{m3} m³ + {l} l + {dl} dl = wie viele Liter?",
+  "loesung": "m3*1000+l+dl/10",
+  "gegenprobe": "(m3*10000+l*10+dl)/10",
+  "fehler": [
+   {
+    "diagnoseId": "kubikmeter_falsch",
+    "ausdruck": "m3*100+l+dl/10",
+    "feedback": "1 m³ sind 1000 Liter, nicht 100. Ein Würfel mit 1 m Kante fasst 1000 Liter."
+   },
+   {
+    "diagnoseId": "deziliter_falsch",
+    "ausdruck": "m3*1000+l+dl",
+    "feedback": "Ein Deziliter ist ein ZEHNTEL Liter. {dl} dl sind {dl} : 10 Liter."
+   },
+   {
+    "diagnoseId": "deziliter_hundertstel",
+    "ausdruck": "m3*1000+l+dl/100",
+    "feedback": "Ein Hundertstel Liter wäre ein Zentiliter. Ein Deziliter ist ein Zehntel."
+   }
+  ],
+  "hinweise": [
+   "Wie viele Liter fasst ein Kubikmeter?",
+   "1 m³ = 1000 l, und 1 l = 10 dl.",
+   "Alles in Liter umrechnen und addieren."
+  ],
+  "loesungsweg": [
+   "{m3} m³ sind {m3} · 1000 Liter.",
+   "{dl} dl sind {dl} : 10 Liter.",
+   "Alles addieren.",
+   "Ergebnis: {wert} l."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-zeitspanne",
+  "lernzielId": "MTG.3.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "h1",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 11,
+    "schritt": 1
+   },
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 55,
+    "schritt": 5
+   },
+   {
+    "name": "dh",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "dm",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 55,
+    "schritt": 5
+   },
+   {
+    "name": "start",
+    "typ": "formel",
+    "ausdruck": "h1*60+m1"
+   },
+   {
+    "name": "dauer",
+    "typ": "formel",
+    "ausdruck": "dh*60+dm"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "h1*60+m1+dh*60+dm"
+   },
+   {
+    "name": "eh",
+    "typ": "formel",
+    "ausdruck": "floor((h1*60+m1+dh*60+dm)/60)"
+   },
+   {
+    "name": "em",
+    "typ": "formel",
+    "ausdruck": "(h1*60+m1+dh*60+dm)%60"
+   }
+  ],
+  "bedingungen": [
+   "ende<1439",
+   "m1!=dm",
+   "eh!=h1",
+   "em!=m1",
+   "dauer<300",
+   "em!=0"
+  ],
+  "stamm": "{name} startet um {h1}.{m1} Uhr zu einer Wanderung und ist {dh} h {dm} min unterwegs.\n\nWann kommt {name} an? Gib die Ankunftszeit in Stunden und Minuten an.",
+  "felder": [
+   {
+    "name": "eh",
+    "label": "Stunde der Ankunft",
+    "ausdruck": "floor((h1*60+m1+dh*60+dm)/60)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_stunden_addiert",
+      "ausdruck": "h1+dh",
+      "feedback": "Wenn die Minuten zusammen über 60 hinausgehen, kommt eine Stunde dazu. Rechne zuerst alles in Minuten um."
+     },
+     {
+      "diagnoseId": "startstunde",
+      "ausdruck": "h1",
+      "feedback": "Das ist die Startstunde. Gefragt ist die Zeit nach {dh} h {dm} min."
+     },
+     {
+      "diagnoseId": "dauer_stunden",
+      "ausdruck": "dh",
+      "feedback": "Das ist die Dauer, nicht die Uhrzeit der Ankunft."
+     }
+    ]
+   },
+   {
+    "name": "em",
+    "label": "Minuten der Ankunft",
+    "ausdruck": "(h1*60+m1+dh*60+dm)%60",
+    "fehler": [
+     {
+      "diagnoseId": "minuten_addiert",
+      "ausdruck": "m1+dm",
+      "feedback": "Über 60 Minuten hinaus beginnt die nächste Stunde. Was über 60 hinausgeht, wird zur Stundenzahl geschlagen."
+     },
+     {
+      "diagnoseId": "startminuten",
+      "ausdruck": "m1",
+      "feedback": "Das sind die Startminuten. Die Dauer von {dm} min kommt noch dazu."
+     },
+     {
+      "diagnoseId": "dauerminuten",
+      "ausdruck": "dm",
+      "feedback": "Das ist die Minutenzahl der Dauer, nicht die der Ankunftszeit."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Rechne beide Zeiten in Minuten um.",
+   "Startzeit in Minuten: {h1} · 60 + {m1}.",
+   "Am Schluss durch 60 teilen: Der ganze Teil sind die Stunden, der Rest die Minuten."
+  ],
+  "loesungsweg": [
+   "Start: {start} Minuten nach Mitternacht.",
+   "Dauer: {dauer} Minuten.",
+   "Summe: {ende} Minuten.",
+   "Geteilt durch 60: {eh} Stunden, Rest {em} Minuten."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-grundwert-zurueck",
+  "lernzielId": "MTG.3.04",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.04",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 40,
+    "schritt": 5
+   },
+   {
+    "name": "g",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 400,
+    "schritt": 20
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Velohelm"
+     ],
+     [
+      "eine Jacke"
+     ],
+     [
+      "ein Rucksack"
+     ],
+     [
+      "ein Schlafsack"
+     ],
+     [
+      "eine Tastatur"
+     ],
+     [
+      "ein Paar Schuhe"
+     ],
+     [
+      "eine Lampe"
+     ],
+     [
+      "ein Koffer"
+     ],
+     [
+      "ein Zelt"
+     ],
+     [
+      "ein Kopfhörer"
+     ],
+     [
+      "eine Uhr"
+     ],
+     [
+      "ein Ballnetz"
+     ]
+    ]
+   },
+   {
+    "name": "neu",
+    "typ": "formel",
+    "ausdruck": "g*(100-p)/100"
+   }
+  ],
+  "bedingungen": [
+   "(g*(100-p))%100==0",
+   "neu>20",
+   "neu!=g",
+   "p!=g",
+   "neu!=p",
+   "g!=100"
+  ],
+  "stamm": "Im Ausverkauf kostet {ware} noch {neu:franken} Der Preis wurde um {p} % gesenkt.\n\nWie viel hat {ware} vorher gekostet?",
+  "loesung": "g",
+  "gegenprobe": "neu*100/(100-p)",
+  "fehler": [
+   {
+    "diagnoseId": "prozent_vom_neuen",
+    "ausdruck": "neu*(100+p)/100",
+    "feedback": "Die {p} % beziehen sich auf den ALTEN Preis, nicht auf den neuen. Der neue Preis entspricht {100}-{p} Prozent des alten."
+   },
+   {
+    "diagnoseId": "abgezogen",
+    "ausdruck": "neu-neu*p/100",
+    "feedback": "Hier wurde nochmals abgezogen. Gesucht ist der Preis VOR der Senkung, er ist grösser als Fr. {neu}.–."
+   },
+   {
+    "diagnoseId": "prozentwert",
+    "ausdruck": "neu*p/100",
+    "feedback": "Das ist nur der Rabattbetrag. Gefragt ist der ganze alte Preis."
+   }
+  ],
+  "hinweise": [
+   "Welcher Prozentsatz entspricht dem neuen Preis?",
+   "Der neue Preis sind 100 % − {p} % des alten.",
+   "Also: alter Preis = {neu} : (100 − {p}) · 100."
+  ],
+  "loesungsweg": [
+   "Der neue Preis entspricht 100 % − {p} % des alten.",
+   "Ein Prozent des alten Preises: {neu} : (100 − {p}).",
+   "Mal 100 ergibt den alten Preis.",
+   "Ergebnis: Fr. {g}.–."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-rabatt-prozent",
+  "lernzielId": "MTG.3.05",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.05",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "%",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Velo"
+     ],
+     [
+      "ein Snowboard"
+     ],
+     [
+      "ein Occasionshandy"
+     ],
+     [
+      "eine Gitarre"
+     ],
+     [
+      "ein Drucker"
+     ],
+     [
+      "ein Grill"
+     ],
+     [
+      "ein Bürostuhl"
+     ],
+     [
+      "ein Wanderrucksack"
+     ],
+     [
+      "ein Rasenmäher"
+     ],
+     [
+      "ein Bildschirm"
+     ],
+     [
+      "ein Kajak"
+     ],
+     [
+      "eine Nähmaschine"
+     ]
+    ]
+   },
+   {
+    "name": "brutto",
+    "typ": "ganzzahl",
+    "von": 80,
+    "bis": 600,
+    "schritt": 20
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 45,
+    "schritt": 5
+   },
+   {
+    "name": "netto",
+    "typ": "formel",
+    "ausdruck": "brutto*(100-p)/100"
+   },
+   {
+    "name": "rabatt",
+    "typ": "formel",
+    "ausdruck": "brutto*p/100"
+   }
+  ],
+  "bedingungen": [
+   "(brutto*p)%100==0",
+   "netto>40",
+   "rabatt>5",
+   "p!=brutto",
+   "netto!=rabatt",
+   "p!=netto",
+   "p!=rabatt"
+  ],
+  "stamm": "Im Laden kostet {ware} regulär {brutto:franken} und ist im Angebot für {netto:franken} zu haben.\n\nUm wie viele Prozent wurde der Preis gesenkt?",
+  "loesung": "p",
+  "gegenprobe": "(brutto-netto)*100/brutto",
+  "fehler": [
+   {
+    "diagnoseId": "vom_neuen_preis",
+    "ausdruck": "(brutto-netto)*100/netto",
+    "feedback": "Der Rabatt bezieht sich immer auf den ursprünglichen Preis. Der Grundwert ist Fr. {brutto}.–, nicht der Angebotspreis."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "brutto-netto",
+    "feedback": "Das ist der Rabatt in Franken. Gefragt ist er in Prozent — also im Verhältnis zu Fr. {brutto}.–."
+   },
+   {
+    "diagnoseId": "anteil_des_neuen",
+    "ausdruck": "netto*100/brutto",
+    "feedback": "Das ist der Anteil, den man noch bezahlt. Der Rabatt ist der Rest auf 100 %."
+   }
+  ],
+  "hinweise": [
+   "Welche Zahl entspricht hier 100 %?",
+   "Der reguläre Preis ist der Grundwert.",
+   "Rabatt in Franken durch den Grundwert, mal 100."
+  ],
+  "loesungsweg": [
+   "Rabatt in Franken: {brutto} − {netto} = {rabatt}.",
+   "Anteil am Grundwert: {rabatt} : {brutto}.",
+   "Mal 100 ergibt den Prozentsatz.",
+   "Ergebnis: {p} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-doppelter-rabatt",
+  "lernzielId": "MTG.3.06",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.06",
+   "3.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "%",
+  "variablen": [
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Velo"
+     ],
+     [
+      "ein Snowboard"
+     ],
+     [
+      "ein Occasionshandy"
+     ],
+     [
+      "eine Gitarre"
+     ],
+     [
+      "ein Drucker"
+     ],
+     [
+      "ein Grill"
+     ],
+     [
+      "ein Bürostuhl"
+     ],
+     [
+      "ein Wanderrucksack"
+     ],
+     [
+      "ein Rasenmäher"
+     ],
+     [
+      "ein Bildschirm"
+     ],
+     [
+      "ein Kajak"
+     ],
+     [
+      "eine Nähmaschine"
+     ]
+    ]
+   },
+   {
+    "name": "brutto",
+    "typ": "ganzzahl",
+    "von": 100,
+    "bis": 800,
+    "schritt": 50
+   },
+   {
+    "name": "p1",
+    "typ": "ganzzahl",
+    "von": 10,
+    "bis": 40,
+    "schritt": 10
+   },
+   {
+    "name": "p2",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 25,
+    "schritt": 5
+   },
+   {
+    "name": "nach1",
+    "typ": "formel",
+    "ausdruck": "brutto*(100-p1)/100"
+   },
+   {
+    "name": "end",
+    "typ": "formel",
+    "ausdruck": "brutto*(100-p1)*(100-p2)/10000"
+   },
+   {
+    "name": "gesamt",
+    "typ": "formel",
+    "ausdruck": "100-(100-p1)*(100-p2)/100"
+   }
+  ],
+  "bedingungen": [
+   "p1!=p2",
+   "end>30",
+   "gesamt<70",
+   "gesamt!=p1+p2",
+   "brutto!=100"
+  ],
+  "stamm": "Im Ausverkauf wird {ware} zuerst um {p1} % reduziert und danach nochmals um {p2} % auf den bereits gesenkten Preis.\n\nUm wie viel Prozent ist der Preis insgesamt gesunken?",
+  "loesung": "100-(100-p1)*(100-p2)/100",
+  "gegenprobe": "(brutto-brutto*(100-p1)*(100-p2)/10000)*100/brutto",
+  "fehler": [
+   {
+    "diagnoseId": "addiert",
+    "ausdruck": "p1+p2",
+    "feedback": "Die zweite Reduktion wird vom bereits gesenkten Preis gerechnet, nicht vom ursprünglichen. Darum ergeben {p1} % und {p2} % zusammen weniger als ihre Summe."
+   },
+   {
+    "diagnoseId": "nur_erste",
+    "ausdruck": "p1",
+    "feedback": "Die zweite Reduktion fehlt. Sie senkt den Preis noch einmal, wenn auch von einem kleineren Grundwert aus."
+   },
+   {
+    "diagnoseId": "multipliziert",
+    "ausdruck": "p1*p2/100",
+    "feedback": "So klein ist der Gesamtrabatt nicht. Rechne mit den Restanteilen: (100 − {p1}) % mal (100 − {p2}) %."
+   }
+  ],
+  "hinweise": [
+   "Wie viel Prozent bleiben nach der ersten Reduktion übrig?",
+   "Nach der ersten Reduktion bleiben (100 − {p1}) %, davon wiederum (100 − {p2}) %.",
+   "Der Gesamtrabatt ist 100 % minus dem Rest."
+  ],
+  "loesungsweg": [
+   "Nach der ersten Reduktion: {nach1} Franken.",
+   "Davon nochmals {p2} % weg: {end} Franken.",
+   "Vom ursprünglichen Preis blieben also {end} : {brutto}.",
+   "Gesamtrabatt: {gesamt} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-mehrwertsteuer",
+  "lernzielId": "MTG.3.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.07",
+   "3.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Velo"
+     ],
+     [
+      "ein Snowboard"
+     ],
+     [
+      "ein Occasionshandy"
+     ],
+     [
+      "eine Gitarre"
+     ],
+     [
+      "ein Drucker"
+     ],
+     [
+      "ein Grill"
+     ],
+     [
+      "ein Bürostuhl"
+     ],
+     [
+      "ein Wanderrucksack"
+     ],
+     [
+      "ein Rasenmäher"
+     ],
+     [
+      "ein Bildschirm"
+     ],
+     [
+      "ein Kajak"
+     ],
+     [
+      "eine Nähmaschine"
+     ]
+    ]
+   },
+   {
+    "name": "netto",
+    "typ": "ganzzahl",
+    "von": 40,
+    "bis": 900,
+    "schritt": 20
+   },
+   {
+    "name": "s",
+    "typ": "auswahl",
+    "werte": [
+     26,
+     77,
+     81
+    ]
+   },
+   {
+    "name": "steuer",
+    "typ": "formel",
+    "ausdruck": "netto*s/1000"
+   },
+   {
+    "name": "brutto",
+    "typ": "formel",
+    "ausdruck": "netto*(1000+s)/1000"
+   }
+  ],
+  "bedingungen": [
+   "steuer>1",
+   "brutto!=netto",
+   "netto>30"
+  ],
+  "stamm": "Auf der Rechnung für {ware} steht ein Betrag von {netto:franken} ohne Mehrwertsteuer. Der Steuersatz beträgt {s} Promille des Betrags.\n\nBerechne den Steuerbetrag und den Betrag inklusive Mehrwertsteuer.",
+  "felder": [
+   {
+    "name": "steuer",
+    "label": "Mehrwertsteuer in Fr.",
+    "ausdruck": "netto*s/1000",
+    "fehler": [
+     {
+      "diagnoseId": "prozent_statt_promille",
+      "ausdruck": "netto*s/100",
+      "feedback": "{s} Promille sind {s} Tausendstel, nicht {s} Hundertstel. Der Betrag ist zehnmal kleiner."
+     },
+     {
+      "diagnoseId": "vom_bruttobetrag",
+      "ausdruck": "netto*(1000+s)/1000*s/1000",
+      "feedback": "Die Steuer wird auf den Betrag OHNE Mehrwertsteuer gerechnet. Der Bruttobetrag entsteht erst danach."
+     },
+     {
+      "diagnoseId": "netto_genommen",
+      "ausdruck": "netto",
+      "feedback": "Das ist der Betrag ohne Steuer. Gefragt ist nur der Steueranteil."
+     }
+    ]
+   },
+   {
+    "name": "brutto",
+    "label": "Betrag inklusive MWST in Fr.",
+    "ausdruck": "netto*(1000+s)/1000",
+    "fehler": [
+     {
+      "diagnoseId": "steuer_abgezogen",
+      "ausdruck": "netto*(1000-s)/1000",
+      "feedback": "Die Mehrwertsteuer wird dazugezählt, nicht abgezogen. Der Betrag inklusive Steuer ist grösser."
+     },
+     {
+      "diagnoseId": "nur_steuer",
+      "ausdruck": "netto*s/1000",
+      "feedback": "Das ist nur der Steueranteil. Der Bruttobetrag ist Netto plus Steuer."
+     },
+     {
+      "diagnoseId": "netto_genommen",
+      "ausdruck": "netto",
+      "feedback": "Hier fehlt die Steuer ganz. Sie kommt zum Betrag dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was heisst Promille?",
+   "{s} Promille sind {s} Tausendstel des Betrags.",
+   "Der Bruttobetrag ist der Nettobetrag plus die Steuer."
+  ],
+  "loesungsweg": [
+   "Steuer: {netto} · {s} : 1000 = {steuer}.",
+   "Brutto: {netto} + {steuer}.",
+   "Ergebnis: Fr. {brutto}.–.",
+   "Probe: {brutto} : {netto} ergibt 1 plus den Steueranteil."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-waehrung-kurs",
+  "lernzielId": "MTG.3.08",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.08",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "betrag",
+    "typ": "ganzzahl",
+    "von": 50,
+    "bis": 900,
+    "schritt": 10
+   },
+   {
+    "name": "kurs",
+    "typ": "auswahl",
+    "werte": [
+     92,
+     94,
+     96,
+     105,
+     108,
+     112
+    ]
+   },
+   {
+    "name": "grenzort",
+    "typ": "text",
+    "texte": [
+     [
+      "Konstanz"
+     ],
+     [
+      "Singen"
+     ],
+     [
+      "Radolfzell"
+     ],
+     [
+      "Lindau"
+     ],
+     [
+      "Friedrichshafen"
+     ],
+     [
+      "Bregenz"
+     ],
+     [
+      "Ravensburg"
+     ],
+     [
+      "Überlingen"
+     ],
+     [
+      "Meersburg"
+     ],
+     [
+      "Stockach"
+     ],
+     [
+      "Wangen"
+     ],
+     [
+      "Tettnang"
+     ]
+    ]
+   },
+   {
+    "name": "euro",
+    "typ": "formel",
+    "ausdruck": "betrag*100/kurs"
+   },
+   {
+    "name": "zurueck",
+    "typ": "formel",
+    "ausdruck": "betrag*kurs/100"
+   }
+  ],
+  "bedingungen": [
+   "betrag>40",
+   "euro>30",
+   "kurs!=100",
+   "betrag!=kurs"
+  ],
+  "stamm": "{name} fährt für einen Einkauf nach {grenzort}. Die Bank rechnet mit dem Kurs: 100 Euro kosten Fr. {kurs}.–.\n\nRechne beide Richtungen um.",
+  "felder": [
+   {
+    "name": "euro",
+    "label": "Fr. {betrag}.– in Euro",
+    "ausdruck": "betrag*100/kurs",
+    "fehler": [
+     {
+      "diagnoseId": "kurs_falschherum",
+      "ausdruck": "betrag*kurs/100",
+      "feedback": "Der Kurs sagt, was 100 Euro in Franken kosten. Um von Franken zu Euro zu kommen, wird durch den Kurs geteilt, nicht mit ihm multipliziert."
+     },
+     {
+      "diagnoseId": "kurs_ohne_hundert",
+      "ausdruck": "betrag/kurs",
+      "feedback": "Der Kurs gilt für 100 Euro, nicht für einen. Nach dem Teilen muss noch mit 100 multipliziert werden."
+     },
+     {
+      "diagnoseId": "betrag_genommen",
+      "ausdruck": "betrag",
+      "feedback": "Solange der Kurs nicht genau 100 ist, sind Franken und Euro nicht dasselbe."
+     }
+    ]
+   },
+   {
+    "name": "zurueck",
+    "label": "{betrag} Euro in Franken",
+    "ausdruck": "betrag*kurs/100",
+    "fehler": [
+     {
+      "diagnoseId": "geteilt",
+      "ausdruck": "betrag*100/kurs",
+      "feedback": "Für den Weg von Euro zu Franken wird mit dem Kurs multipliziert: 100 Euro sind Fr. {kurs}.–."
+     },
+     {
+      "diagnoseId": "ohne_hundert",
+      "ausdruck": "betrag*kurs",
+      "feedback": "Der Kurs gilt für 100 Euro. Nach dem Multiplizieren wird durch 100 geteilt."
+     },
+     {
+      "diagnoseId": "betrag_genommen",
+      "ausdruck": "betrag",
+      "feedback": "Auch hier gilt: Nur bei einem Kurs von genau 100 wären die Zahlen gleich."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Der Kurs gilt für 100 Euro. Was kostet dann ein Euro?",
+   "Ein Euro kostet Fr. {kurs}.– : 100.",
+   "Von Franken zu Euro: teilen. Von Euro zu Franken: multiplizieren."
+  ],
+  "loesungsweg": [
+   "Ein Euro kostet {kurs} : 100 Franken.",
+   "Fr. {betrag}.– : diesen Betrag ergibt {euro} Euro.",
+   "{betrag} Euro · diesen Betrag ergibt Fr. {zurueck}.–.",
+   "Die beiden Wege sind Umkehrungen voneinander."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-geschwindigkeit-umrechnen",
+  "lernzielId": "MTG.3.09",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.09",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "kmh",
+    "typ": "ganzzahl",
+    "von": 9,
+    "bis": 225,
+    "schritt": 9
+   },
+   {
+    "name": "sek",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 50,
+    "schritt": 10
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "an der Umfahrung"
+     ],
+     [
+      "auf der Passstrasse"
+     ],
+     [
+      "vor dem Tunnel"
+     ],
+     [
+      "an der Brücke"
+     ],
+     [
+      "auf der Landstrasse"
+     ],
+     [
+      "beim Bahnübergang"
+     ],
+     [
+      "vor dem Dorfeingang"
+     ],
+     [
+      "an der Kreuzung"
+     ],
+     [
+      "auf der Teststrecke"
+     ],
+     [
+      "beim Rastplatz"
+     ],
+     [
+      "an der Steigung"
+     ],
+     [
+      "vor der Baustelle"
+     ]
+    ]
+   },
+   {
+    "name": "ms",
+    "typ": "formel",
+    "ausdruck": "kmh/3.6"
+   },
+   {
+    "name": "meter",
+    "typ": "formel",
+    "ausdruck": "kmh*1000/3600*sek"
+   }
+  ],
+  "bedingungen": [
+   "(kmh*10)%36==0",
+   "kmh>15",
+   "ms!=kmh",
+   "meter<3000",
+   "ms!=sek",
+   "meter!=kmh",
+   "meter!=sek"
+  ],
+  "stamm": "{name} liest {ort} auf der Anzeigetafel {kmh} km/h ab.\n\nRechne diese Geschwindigkeit in Meter pro Sekunde um und berechne, welche Strecke in {sek} Sekunden zurückgelegt wird.",
+  "felder": [
+   {
+    "name": "ms",
+    "label": "Geschwindigkeit in m/s",
+    "ausdruck": "kmh/3.6",
+    "fehler": [
+     {
+      "diagnoseId": "mal_36",
+      "ausdruck": "kmh*3.6",
+      "feedback": "Von km/h zu m/s wird DURCH 3.6 geteilt. Die Zahl in m/s ist kleiner, denn Meter sind kürzer als Kilometer und Sekunden kürzer als Stunden."
+     },
+     {
+      "diagnoseId": "durch_60",
+      "ausdruck": "kmh/60",
+      "feedback": "Es sind zwei Umrechnungen zugleich: 1000 Meter je Kilometer und 3600 Sekunden je Stunde. Zusammen ergibt das den Faktor 3.6."
+     },
+     {
+      "diagnoseId": "durch_1000",
+      "ausdruck": "kmh/1000",
+      "feedback": "Nur die Länge umzurechnen genügt nicht. Auch die Zeit ändert sich von Stunden zu Sekunden."
+     }
+    ]
+   },
+   {
+    "name": "meter",
+    "label": "Strecke in {sek} Sekunden, in m",
+    "ausdruck": "kmh*1000/3600*sek",
+    "fehler": [
+     {
+      "diagnoseId": "pro_sekunde",
+      "ausdruck": "kmh/3.6",
+      "feedback": "Das ist die Strecke in EINER Sekunde. Gefragt sind {sek} Sekunden."
+     },
+     {
+      "diagnoseId": "pro_stunde",
+      "ausdruck": "kmh*1000",
+      "feedback": "Das ist die Strecke in einer ganzen Stunde. {sek} Sekunden sind ein winziger Teil davon."
+     },
+     {
+      "diagnoseId": "kmh_genommen",
+      "ausdruck": "kmh",
+      "feedback": "{kmh} ist die Zahl der Kilometer je Stunde, nicht der Meter in {sek} Sekunden."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Meter sind ein Kilometer, wie viele Sekunden eine Stunde?",
+   "1000 Meter je Kilometer, 3600 Sekunden je Stunde: 1000 : 3600 ist 1 : 3.6.",
+   "Für {sek} Sekunden rechnest du die Geschwindigkeit in m/s mal {sek}."
+  ],
+  "loesungsweg": [
+   "{kmh} km/h : 3.6 ergibt {ms} m/s.",
+   "In {sek} Sekunden: {ms} · {sek}.",
+   "Ergebnis: {meter} m.",
+   "Probe: {meter} m in {sek} s sind wieder {ms} m/s."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-begegnung",
+  "lernzielId": "MTG.3.10",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.10",
+   "3.09"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "ganz",
+  "einheit": "km",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "v1",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 2
+   },
+   {
+    "name": "v2",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 24,
+    "schritt": 2
+   },
+   {
+    "name": "s",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 90,
+    "schritt": 2
+   },
+   {
+    "name": "zeit",
+    "typ": "formel",
+    "ausdruck": "s/(v1+v2)"
+   },
+   {
+    "name": "weg1",
+    "typ": "formel",
+    "ausdruck": "v1*s/(v1+v2)"
+   }
+  ],
+  "bedingungen": [
+   "v1!=v2",
+   "s>10",
+   "zeit<6",
+   "zeit>0.5",
+   "weg1<s",
+   "weg1>2",
+   "weg1!=s",
+   "weg1!=v1",
+   "weg1!=v2",
+   "s % (v1+v2) == 0"
+  ],
+  "stamm": "{name} startet am einen Ende eines {s} km langen Radwegs und fährt mit {v1} km/h los. Gleichzeitig startet am anderen Ende eine zweite Person mit {v2} km/h und fährt {name} entgegen.\n\nWie weit ist {name} gefahren, wenn sich die beiden treffen?",
+  "loesung": "v1*s/(v1+v2)",
+  "gegenprobe": "s-v2*s/(v1+v2)",
+  "fehler": [
+   {
+    "diagnoseId": "halbe_strecke",
+    "ausdruck": "s/2",
+    "feedback": "Die Hälfte wäre es nur bei gleicher Geschwindigkeit. Wer schneller fährt, legt bis zum Treffpunkt mehr zurück."
+   },
+   {
+    "diagnoseId": "geschwindigkeiten_subtrahiert",
+    "ausdruck": "v1*s/abs(v1-v2)",
+    "feedback": "Bei entgegenkommenden Fahrzeugen nähern sie sich mit der SUMME der Geschwindigkeiten. Die Differenz gilt beim Überholen."
+   },
+   {
+    "diagnoseId": "andere_person",
+    "ausdruck": "v2*s/(v1+v2)",
+    "feedback": "Das ist der Weg der zweiten Person. Gefragt ist der von {name}."
+   }
+  ],
+  "hinweise": [
+   "Wie schnell nähern sich die beiden zusammen?",
+   "Mit {v1} + {v2} km/h. Daraus ergibt sich die Zeit bis zum Treffen.",
+   "Diese Zeit mal {v1} ergibt den Weg von {name}."
+  ],
+  "loesungsweg": [
+   "Annäherung: {v1} + {v2} km/h.",
+   "Zeit bis zum Treffen: {s} : ({v1} + {v2}) = {zeit} h.",
+   "Weg von {name}: {v1} · {zeit}.",
+   "Ergebnis: {weg1} km."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-steigung",
+  "lernzielId": "MTG.3.11",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.11"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 300,
+    "schritt": 10
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 200,
+    "bis": 3000,
+    "schritt": 100
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "auf den Nollen"
+     ],
+     [
+      "zur Alp"
+     ],
+     [
+      "auf den Hügel"
+     ],
+     [
+      "zum Aussichtsturm"
+     ],
+     [
+      "zur Burgruine"
+     ],
+     [
+      "auf den Grat"
+     ],
+     [
+      "zum Weiher"
+     ],
+     [
+      "zur Waldhütte"
+     ],
+     [
+      "auf den Hausberg"
+     ],
+     [
+      "zur Kapelle"
+     ],
+     [
+      "zum Rastplatz"
+     ],
+     [
+      "auf die Krete"
+     ]
+    ]
+   },
+   {
+    "name": "proz",
+    "typ": "formel",
+    "ausdruck": "h*100/l"
+   },
+   {
+    "name": "promille",
+    "typ": "formel",
+    "ausdruck": "h*1000/l"
+   }
+  ],
+  "bedingungen": [
+   "h<l",
+   "proz>2",
+   "proz<30",
+   "proz!=h",
+   "promille!=l",
+   "h!=l"
+  ],
+  "stamm": "Ein Weg {ort} überwindet auf {l} m waagrechter Strecke {h} m Höhenunterschied.\n\nGib die Steigung in Prozent und in Promille an.",
+  "felder": [
+   {
+    "name": "proz",
+    "label": "Steigung in %",
+    "ausdruck": "h*100/l",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "l*100/h",
+      "feedback": "Die Steigung ist Höhe durch waagrechte Strecke, nicht umgekehrt. So käme über 100 % heraus, obwohl der Weg flach ansteigt."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "l-h",
+      "feedback": "Die Steigung ist ein Verhältnis, keine Differenz. Sie sagt, wie viele Meter Höhe auf 100 Meter Strecke kommen."
+     },
+     {
+      "diagnoseId": "hoehe",
+      "ausdruck": "h",
+      "feedback": "Das ist der Höhenunterschied in Metern. Für Prozent musst du ihn zur Strecke ins Verhältnis setzen."
+     }
+    ]
+   },
+   {
+    "name": "promille",
+    "label": "Steigung in ‰",
+    "ausdruck": "h*1000/l",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_wie_prozent",
+      "ausdruck": "h*100/l",
+      "feedback": "Promille sind Tausendstel, Prozent sind Hundertstel: Die Zahl in Promille ist zehnmal grösser."
+     },
+     {
+      "diagnoseId": "durch_zehn",
+      "ausdruck": "h*10/l",
+      "feedback": "Hier wurde durch zehn statt mal zehn gerechnet. Von Prozent zu Promille wird mal 10 genommen."
+     },
+     {
+      "diagnoseId": "hoehe",
+      "ausdruck": "h",
+      "feedback": "Auch für Promille braucht es das Verhältnis zur Strecke."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet eine Steigung von 10 %?",
+   "Auf 100 Meter waagrechter Strecke steigt der Weg 10 Meter.",
+   "Also: Höhe durch Strecke, dann mal 100 beziehungsweise mal 1000."
+  ],
+  "loesungsweg": [
+   "Verhältnis: {h} : {l}.",
+   "Mal 100 ergibt {proz} %.",
+   "Mal 1000 ergibt {promille} ‰.",
+   "Die Promillezahl ist zehnmal die Prozentzahl."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-marchzins",
+  "lernzielId": "MTG.3.12",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "3.12",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 1000,
+    "bis": 20000,
+    "schritt": 500
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "mon",
+    "typ": "auswahl",
+    "werte": [
+     3,
+     4,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "jahr",
+    "typ": "formel",
+    "ausdruck": "k*p/100"
+   },
+   {
+    "name": "march",
+    "typ": "formel",
+    "ausdruck": "k*p*mon/1200"
+   }
+  ],
+  "bedingungen": [
+   "jahr>15",
+   "march>5",
+   "k!=p",
+   "march!=jahr",
+   "mon!=p"
+  ],
+  "stamm": "{name} legt {k:franken} zu einem Zinssatz von {p} % pro Jahr an.\n\nBerechne den Jahreszins und den Zins für {mon} Monate.",
+  "felder": [
+   {
+    "name": "jahr",
+    "label": "Jahreszins in Fr.",
+    "ausdruck": "k*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "kapital_und_satz_vertauscht",
+      "ausdruck": "p*100/k",
+      "feedback": "Der Zins ist ein Anteil des Kapitals: {k} · {p} : 100."
+     },
+     {
+      "diagnoseId": "durch_zinssatz",
+      "ausdruck": "k/p",
+      "feedback": "Geteilt wird durch 100, multipliziert mit dem Zinssatz."
+     },
+     {
+      "diagnoseId": "kapital",
+      "ausdruck": "k",
+      "feedback": "Das ist das Kapital selbst. Der Zins ist nur ein kleiner Teil davon."
+     }
+    ]
+   },
+   {
+    "name": "march",
+    "label": "Zins für {mon} Monate in Fr.",
+    "ausdruck": "k*p*mon/1200",
+    "fehler": [
+     {
+      "diagnoseId": "jahreszins",
+      "ausdruck": "k*p/100",
+      "feedback": "Das ist der Zins für ein ganzes Jahr. Für {mon} Monate wird er anteilig gerechnet: mal {mon}, geteilt durch 12."
+     },
+     {
+      "diagnoseId": "durch_monate",
+      "ausdruck": "k*p/100/mon",
+      "feedback": "Hier wurde geteilt statt anteilig gerechnet. Für {mon} von 12 Monaten gilt: mal {mon} : 12."
+     },
+     {
+      "diagnoseId": "mal_monate",
+      "ausdruck": "k*p*mon/100",
+      "feedback": "So käme mehr heraus als der Jahreszins, obwohl {mon} Monate weniger als ein Jahr sind."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viel Zins gäbe es in einem ganzen Jahr?",
+   "Jahreszins: Kapital mal Zinssatz durch 100.",
+   "Für {mon} Monate: den Jahreszins mal {mon}, geteilt durch 12."
+  ],
+  "loesungsweg": [
+   "Jahreszins: {k} · {p} : 100 ergibt {jahr} Franken.",
+   "Anteil für {mon} Monate: {jahr} · {mon} : 12.",
+   "Ergebnis: Fr. {march}.–.",
+   "Probe: Zwölf solche Anteile ergäben wieder den Jahreszins."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-umgekehrt-proportional",
+  "lernzielId": "MTG.4.03",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.03",
+   "4.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "einheit": "min",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "n1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "n2",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "t1",
+    "typ": "ganzzahl",
+    "von": 12,
+    "bis": 180,
+    "schritt": 6
+   },
+   {
+    "name": "arbeit",
+    "typ": "text",
+    "texte": [
+     [
+      "die Turnhalle aufzustellen"
+     ],
+     [
+      "den Schulgarten zu jäten"
+     ],
+     [
+      "die Stühle wegzuräumen"
+     ],
+     [
+      "das Lager einzuräumen"
+     ],
+     [
+      "den Znüniverkauf vorzubereiten"
+     ],
+     [
+      "die Bühne aufzubauen"
+     ],
+     [
+      "die Velos zu putzen"
+     ],
+     [
+      "das Zelt abzubauen"
+     ],
+     [
+      "die Kisten zu tragen"
+     ],
+     [
+      "den Saal zu dekorieren"
+     ],
+     [
+      "die Bänke zu schleppen"
+     ],
+     [
+      "den Hof zu kehren"
+     ]
+    ]
+   },
+   {
+    "name": "t2",
+    "typ": "formel",
+    "ausdruck": "n1*t1/n2"
+   }
+  ],
+  "bedingungen": [
+   "n1!=n2",
+   "(n1*t1)%n2==0",
+   "t2>4",
+   "t2<300",
+   "t2!=t1",
+   "t1!=n1",
+   "t2!=n2",
+   "t2!=n1"
+  ],
+  "stamm": "{n1} Personen brauchen {t1} Minuten, um {arbeit}.\n\nWie lange brauchen {n2} Personen, wenn alle gleich schnell arbeiten?",
+  "loesung": "n1*t1/n2",
+  "gegenprobe": "t1/(n2/n1)",
+  "fehler": [
+   {
+    "diagnoseId": "proportional",
+    "ausdruck": "n2*t1/n1",
+    "feedback": "Mehr Personen brauchen weniger Zeit, nicht mehr: Das ist ein umgekehrt proportionaler Zusammenhang. Das Produkt Personen mal Zeit bleibt gleich."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "t1-(n2-n1)",
+    "feedback": "Hier wurde die Differenz der Personenzahlen von der Zeit abgezogen. Der Zusammenhang ist aber ein Verhältnis, keine Differenz."
+   },
+   {
+    "diagnoseId": "zeit_unveraendert",
+    "ausdruck": "t1",
+    "feedback": "Mit einer anderen Personenzahl ändert sich die Zeit. Nur das Produkt aus Personen und Zeit bleibt gleich."
+   }
+  ],
+  "hinweise": [
+   "Wird die Arbeit mit mehr Leuten schneller oder langsamer erledigt?",
+   "Es ist ein umgekehrt proportionaler Zusammenhang: Personen mal Zeit ist konstant.",
+   "{n1} · {t1} ist die gesamte Arbeit in Personenminuten. Teile sie durch {n2}."
+  ],
+  "loesungsweg": [
+   "Gesamte Arbeit: {n1} · {t1} Personenminuten.",
+   "Diese Arbeit verteilt sich auf {n2} Personen.",
+   "{n1} · {t1} : {n2}.",
+   "Ergebnis: {t2} min."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-dreisatz-preis",
+  "lernzielId": "MTG.4.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.02",
+   "3.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "Fr.",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "m1",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "m2",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 24,
+    "schritt": 1
+   },
+   {
+    "name": "p",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 180,
+    "schritt": 2
+   },
+   {
+    "name": "ware",
+    "typ": "text",
+    "texte": [
+     [
+      "Äpfel"
+     ],
+     [
+      "Kartoffeln"
+     ],
+     [
+      "Mehl"
+     ],
+     [
+      "Karotten"
+     ],
+     [
+      "Zwiebeln"
+     ],
+     [
+      "Nüsse"
+     ],
+     [
+      "Kirschen"
+     ],
+     [
+      "Zwetschgen"
+     ],
+     [
+      "Bohnen"
+     ],
+     [
+      "Beeren"
+     ],
+     [
+      "Birnen"
+     ],
+     [
+      "Trauben"
+     ]
+    ]
+   },
+   {
+    "name": "preis2",
+    "typ": "formel",
+    "ausdruck": "p*m2/m1"
+   }
+  ],
+  "bedingungen": [
+   "m1!=m2",
+   "(p*m2)%m1==0",
+   "preis2>3",
+   "preis2<900",
+   "preis2!=p",
+   "m2!=p",
+   "preis2!=m2",
+   "preis2!=m1"
+  ],
+  "stamm": "{m1} kg {ware} kosten Fr. {p}.–.\n\nWie viel kosten {m2} kg?",
+  "loesung": "p*m2/m1",
+  "gegenprobe": "(p/m1)*m2",
+  "fehler": [
+   {
+    "diagnoseId": "umgekehrt_proportional",
+    "ausdruck": "p*m1/m2",
+    "feedback": "Mehr Ware kostet mehr, nicht weniger: Der Zusammenhang ist proportional. Rechne zuerst den Preis für ein Kilogramm aus."
+   },
+   {
+    "diagnoseId": "differenz",
+    "ausdruck": "p+(m2-m1)",
+    "feedback": "Die Differenz der Mengen sagt nichts über den Preis. Massgebend ist der Preis pro Kilogramm."
+   },
+   {
+    "diagnoseId": "preis_unveraendert",
+    "ausdruck": "p",
+    "feedback": "Für eine andere Menge ändert sich auch der Preis."
+   }
+  ],
+  "hinweise": [
+   "Was kostet ein einziges Kilogramm?",
+   "Fr. {p}.– : {m1} ergibt den Kilopreis.",
+   "Diesen Kilopreis mal {m2} nehmen."
+  ],
+  "loesungsweg": [
+   "Preis für 1 kg: {p} : {m1}.",
+   "Preis für {m2} kg: dieser Wert mal {m2}.",
+   "Ergebnis: Fr. {preis2}.–.",
+   "Probe: Doppelte Menge, doppelter Preis."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-wertetabelle-gerade",
+  "lernzielId": "MTG.4.04",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.04",
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "wertetabelle",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Bändel",
+      "Franken"
+     ],
+     [
+      "Kerzen",
+      "Franken"
+     ],
+     [
+      "Stunden",
+      "Franken"
+     ],
+     [
+      "Kilogramm",
+      "Franken"
+     ],
+     [
+      "Karten",
+      "Franken"
+     ],
+     [
+      "Meter",
+      "Franken"
+     ],
+     [
+      "Portionen",
+      "Franken"
+     ],
+     [
+      "Setzlinge",
+      "Franken"
+     ],
+     [
+      "Hefte",
+      "Franken"
+     ],
+     [
+      "Becher",
+      "Franken"
+     ]
+    ]
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m+q"
+   }
+  ],
+  "bedingungen": [
+   "m!=q",
+   "m*8+q<70"
+  ],
+  "stamm": "Ein Stand verlangt eine Grundgebühr von {q} Franken und dazu {m} Franken je Stück. Für jede Anzahl {sache} von 1 bis 8 ergibt sich so ein Preis.\n\nTrage alle Paare ein, die zusammengehören.",
+  "loesung": "m+q",
+  "gegenprobe": "q+m*1",
+  "fehler": [
+   {
+    "diagnoseId": "grundgebuehr_vergessen",
+    "ausdruck": "m",
+    "feedback": "Die Grundgebühr von {q} Franken wird einmal verlangt, unabhängig von der Anzahl. Sie gehört zu jedem Preis dazu."
+   },
+   {
+    "diagnoseId": "grundgebuehr_je_stueck",
+    "ausdruck": "(m+q)*2",
+    "feedback": "Die Grundgebühr fällt nur einmal an, nicht bei jedem Stück."
+   },
+   {
+    "diagnoseId": "vertauscht",
+    "ausdruck": "q+m*0",
+    "feedback": "Die {m} Franken werden mit der Anzahl multipliziert, die {q} Franken kommen einmal dazu."
+   }
+  ],
+  "hinweise": [
+   "Was kostet ein einziges Stück, was kommt einmalig dazu?",
+   "Preis = {m} · Anzahl + {q}.",
+   "Prüfe: Von einer Anzahl zur nächsten steigt der Preis immer um {m} Franken."
+  ],
+  "loesungsweg": [
+   "Für eine Anzahl x gilt: Preis = {m} · x + {q}.",
+   "Bei x = 1 sind das {y1} Franken.",
+   "Jedes weitere Stück kostet {m} Franken mehr.",
+   "So entsteht Zeile für Zeile die ganze Tabelle."
+  ],
+  "wertetabelle": {
+   "spalten": [
+    {
+     "name": "x",
+     "kopf": "Anzahl",
+     "von": "1",
+     "bis": "8"
+    },
+    {
+     "name": "y",
+     "kopf": "Preis",
+     "von": "1",
+     "bis": "70"
+    }
+   ],
+   "bedingung": "y == m * x + q"
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-geradengleichung-punkte",
+  "lernzielId": "MTG.4.06",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.06",
+   "4.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": -4,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": -9,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "x1",
+    "typ": "ganzzahl",
+    "von": -6,
+    "bis": 0,
+    "schritt": 1
+   },
+   {
+    "name": "x2",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "y1",
+    "typ": "formel",
+    "ausdruck": "m*x1+q"
+   },
+   {
+    "name": "y2",
+    "typ": "formel",
+    "ausdruck": "m*x2+q"
+   }
+  ],
+  "bedingungen": [
+   "m!=0",
+   "x1<x2",
+   "abs(y1)<30",
+   "abs(y2)<30",
+   "q!=0",
+   "y1!=y2",
+   "m!=q",
+   "x1!=x2",
+   "m!=x1",
+   "q!=y1"
+  ],
+  "stamm": "Eine Gerade geht durch die Punkte A({x1}|{y1}) und B({x2}|{y2}).\n\nBestimme die Steigung und den y-Achsenabschnitt.",
+  "felder": [
+   {
+    "name": "m",
+    "label": "Steigung m",
+    "ausdruck": "m",
+    "fehler": [
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "(x2-x1)/(y2-y1)",
+      "feedback": "Die Steigung ist der Höhenunterschied geteilt durch den waagrechten Abstand, also (y₂ − y₁) : (x₂ − x₁)."
+     },
+     {
+      "diagnoseId": "nur_differenz",
+      "ausdruck": "y2-y1",
+      "feedback": "Der Höhenunterschied allein ist noch nicht die Steigung. Er muss durch den waagrechten Abstand geteilt werden."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "(y1-y2)/(x2-x1)",
+      "feedback": "Beide Differenzen müssen in derselben Reihenfolge gebildet werden: erst y₂ − y₁, dann x₂ − x₁."
+     }
+    ]
+   },
+   {
+    "name": "q",
+    "label": "y-Achsenabschnitt q",
+    "ausdruck": "q",
+    "fehler": [
+     {
+      "diagnoseId": "y_wert_genommen",
+      "ausdruck": "y1",
+      "feedback": "Das ist der y-Wert von Punkt A. Der Achsenabschnitt ist der y-Wert an der Stelle x = 0."
+     },
+     {
+      "diagnoseId": "steigung_genommen",
+      "ausdruck": "m",
+      "feedback": "Das ist die Steigung. Der Achsenabschnitt sagt, wo die Gerade die y-Achse schneidet."
+     },
+     {
+      "diagnoseId": "vorzeichen",
+      "ausdruck": "0-q",
+      "feedback": "Setze einen Punkt in y = mx + q ein und löse nach q auf — achte dabei auf das Vorzeichen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viel steigt die Gerade von A nach B, und wie weit geht sie dabei nach rechts?",
+   "Steigung: (y₂ − y₁) : (x₂ − x₁).",
+   "Für q einen der beiden Punkte in y = mx + q einsetzen."
+  ],
+  "loesungsweg": [
+   "Steigung: ({y2} − {y1}) : ({x2} − {x1}) = {m}.",
+   "Punkt A einsetzen: {y1} = {m} · {x1} + q.",
+   "Nach q auflösen: q = {q}.",
+   "Die Gleichung lautet y = {m}x + {q}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-wachstumsfaktor",
+  "lernzielId": "MTG.4.08",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.08",
+   "4.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "start",
+    "typ": "ganzzahl",
+    "von": 200,
+    "bis": 4000,
+    "schritt": 100
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     4,
+     5,
+     8,
+     10,
+     20,
+     25,
+     50
+    ]
+   },
+   {
+    "name": "jahre",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "die Menge des gesammelten Papiers in Kilogramm"
+     ],
+     [
+      "die Menge des Kompostes in Kilogramm"
+     ],
+     [
+      "der Ertrag in Franken"
+     ],
+     [
+      "die gesammelte Menge in Kilogramm"
+     ],
+     [
+      "die Einnahmen des Standes in Franken"
+     ],
+     [
+      "die verkaufte Menge in Kilogramm"
+     ],
+     [
+      "der Vorrat an Futter in Kilogramm"
+     ],
+     [
+      "die geerntete Menge in Kilogramm"
+     ],
+     [
+      "der Umsatz in Franken"
+     ],
+     [
+      "die Menge an Altglas in Kilogramm"
+     ],
+     [
+      "die Spendensumme in Franken"
+     ],
+     [
+      "die Menge des Regenwassers in Litern"
+     ]
+    ]
+   },
+   {
+    "name": "faktor",
+    "typ": "formel",
+    "ausdruck": "(100+p)/100"
+   },
+   {
+    "name": "ende",
+    "typ": "formel",
+    "ausdruck": "start*pow((100+p)/100,jahre)"
+   },
+   {
+    "name": "linear",
+    "typ": "formel",
+    "ausdruck": "start+start*p*jahre/100"
+   }
+  ],
+  "bedingungen": [
+   "ende<40000",
+   "ende!=linear",
+   "start!=p",
+   "ende>start"
+  ],
+  "stamm": "In einem Verein wächst {sache} jedes Jahr um {p} %. Heute sind es {start}.\n\nGib den Wachstumsfaktor an und berechne den Wert nach {jahre} Jahren. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "faktor",
+    "label": "Wachstumsfaktor",
+    "ausdruck": "(100+p)/100",
+    "zahlformat": "dezimal4",
+    "fehler": [
+     {
+      "diagnoseId": "nur_prozent",
+      "ausdruck": "p/100",
+      "feedback": "Der Faktor enthält den ursprünglichen Bestand mit: Er ist 1 plus {p} : 100, nicht bloss {p} : 100."
+     },
+     {
+      "diagnoseId": "prozentzahl",
+      "ausdruck": "p",
+      "feedback": "{p} ist der Zuwachs in Prozent. Der Wachstumsfaktor ist die Zahl, mit der man den Bestand multipliziert."
+     },
+     {
+      "diagnoseId": "abnahme",
+      "ausdruck": "(100-p)/100",
+      "feedback": "Das wäre ein Faktor für Abnahme. Hier wächst der Bestand."
+     }
+    ]
+   },
+   {
+    "name": "ende",
+    "label": "Wert nach {jahre} Jahren",
+    "ausdruck": "start*pow((100+p)/100,jahre)",
+    "fehler": [
+     {
+      "diagnoseId": "linear_gerechnet",
+      "ausdruck": "start+start*p*jahre/100",
+      "feedback": "Beim exponentiellen Wachstum wird der Zuwachs jedes Jahr vom neuen Bestand gerechnet. Deshalb wird mit dem Faktor multipliziert, und zwar {jahre}-mal."
+     },
+     {
+      "diagnoseId": "nur_ein_jahr",
+      "ausdruck": "start*(100+p)/100",
+      "feedback": "Das ist der Wert nach einem Jahr. Für {jahre} Jahre wird der Faktor {jahre}-mal angewendet."
+     },
+     {
+      "diagnoseId": "faktor_mal_jahre",
+      "ausdruck": "start*(100+p)*jahre/100",
+      "feedback": "Der Faktor wird potenziert, nicht mit der Jahreszahl multipliziert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Was geschieht im ersten Jahr mit dem Bestand?",
+   "Er wird mit (100 + {p}) : 100 multipliziert.",
+   "Im zweiten Jahr wieder — der Faktor kommt {jahre}-mal zum Zug."
+  ],
+  "loesungsweg": [
+   "Wachstumsfaktor: 1 + {p} : 100 = {faktor}.",
+   "Nach einem Jahr: {start} · {faktor}.",
+   "Nach {jahre} Jahren: {start} · {faktor} hoch {jahre}.",
+   "Ergebnis: {ende}."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-punkte-eintragen",
+  "lernzielId": "MTG.4.01",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "4.01",
+   "4.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "m",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "q",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -5,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "formel",
+    "ausdruck": "m*xa+q"
+   },
+   {
+    "name": "yb",
+    "typ": "formel",
+    "ausdruck": "m*xb+q"
+   }
+  ],
+  "bedingungen": [
+   "abs(ya)<9",
+   "abs(yb)<9",
+   "ya!=yb",
+   "xa!=xb",
+   "xa!=ya",
+   "xb!=yb",
+   "m!=q"
+  ],
+  "stamm": "{name} zeichnet die Gerade y = {m}x + {q}. Zwei Punkte darauf haben die x-Werte {xa} und {xb}.\n\nBerechne die zugehörigen y-Werte und setze beide Punkte ins Gitter.",
+  "loesung": "m*xa+q",
+  "gegenprobe": "q+m*xa",
+  "fehler": [
+   {
+    "diagnoseId": "konstante_vergessen",
+    "ausdruck": "m*xa",
+    "feedback": "Die Zahl {q} gehört zu jedem y-Wert dazu: Sie verschiebt die ganze Gerade nach oben oder unten."
+   },
+   {
+    "diagnoseId": "vorzeichen",
+    "ausdruck": "m*xa-q",
+    "feedback": "Achte auf das Vorzeichen von {q}. Es wird so addiert, wie es in der Gleichung steht."
+   },
+   {
+    "diagnoseId": "steigung_ignoriert",
+    "ausdruck": "xa+q",
+    "feedback": "Vor dem x steht der Faktor {m}. Der x-Wert wird damit multipliziert, bevor {q} dazukommt."
+   }
+  ],
+  "hinweise": [
+   "Setze den x-Wert in die Gleichung ein.",
+   "y = {m} · x + ({q}).",
+   "Trage zuerst den x-Wert nach rechts oder links ab, dann den y-Wert nach oben oder unten."
+  ],
+  "loesungsweg": [
+   "Für x = {xa}: y = {m} · {xa} + ({q}) = {ya}.",
+   "Für x = {xb}: y = {m} · {xb} + ({q}) = {yb}.",
+   "Punkt A ist ({xa}|{ya}), Punkt B ist ({xb}|{yb}).",
+   "Beide liegen auf derselben Geraden."
+  ],
+  "gitter": {
+   "xvon": "-6",
+   "xbis": "6",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A",
+     "label": "A"
+    },
+    {
+     "name": "B",
+     "label": "B"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa",
+      "ya"
+     ],
+     [
+      "xb",
+      "yb"
+     ]
+    ]
+   ],
+   "vorgabe": [],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-achsenspiegelung",
+  "lernzielId": "MTG.5.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.02",
+   "5.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 8,
+    "schritt": 1
+   },
+   {
+    "name": "xb",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "yb",
+    "typ": "ganzzahl",
+    "von": -8,
+    "bis": -1,
+    "schritt": 1
+   },
+   {
+    "name": "s",
+    "typ": "ganzzahl",
+    "von": -3,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "xa2",
+    "typ": "formel",
+    "ausdruck": "2*s-xa"
+   },
+   {
+    "name": "xb2",
+    "typ": "formel",
+    "ausdruck": "2*s-xb"
+   }
+  ],
+  "bedingungen": [
+   "xa!=xb",
+   "ya!=yb",
+   "abs(xa2)<10",
+   "abs(xb2)<10",
+   "xa!=s",
+   "xb!=s",
+   "xa2!=xa",
+   "xb2!=xb",
+   "xa2!=xb",
+   "xb2!=xa"
+  ],
+  "stamm": "{name} spiegelt die Punkte A({xa}|{ya}) und B({xb}|{yb}) an der senkrechten Geraden x = {s}.\n\nSetze die Bildpunkte A′ und B′ ins Gitter.",
+  "loesung": "2*s-xa",
+  "gegenprobe": "s+(s-xa)",
+  "fehler": [
+   {
+    "diagnoseId": "an_y_achse",
+    "ausdruck": "0-xa",
+    "feedback": "Gespiegelt wird an der Geraden x = {s}, nicht an der y-Achse. Der Abstand zur Spiegelachse bleibt gleich, die Seite wechselt."
+   },
+   {
+    "diagnoseId": "y_gespiegelt",
+    "ausdruck": "xa*0+(0-ya)",
+    "feedback": "Bei einer senkrechten Spiegelachse ändert sich nur der x-Wert. Der y-Wert bleibt, wie er ist."
+   },
+   {
+    "diagnoseId": "verschoben",
+    "ausdruck": "xa+s",
+    "feedback": "Das wäre eine Verschiebung. Beim Spiegeln liegt der Bildpunkt gleich weit auf der anderen Seite der Achse."
+   }
+  ],
+  "hinweise": [
+   "Wie weit ist Punkt A von der Geraden x = {s} entfernt?",
+   "Genauso weit liegt der Bildpunkt auf der anderen Seite.",
+   "Rechnerisch: x′ = 2 · {s} − x, der y-Wert bleibt gleich."
+  ],
+  "loesungsweg": [
+   "Abstand von A zur Achse: {xa} − {s}.",
+   "Derselbe Abstand auf der anderen Seite ergibt x′ = {xa2}.",
+   "Der y-Wert bleibt {ya}.",
+   "Genauso für B: B′ ist ({xb2}|{yb})."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-9",
+   "ybis": "9",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    },
+    {
+     "name": "B2",
+     "label": "B′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa2",
+      "ya"
+     ],
+     [
+      "xb2",
+      "yb"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "xb",
+     "y": "yb",
+     "text": "B"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-punktspiegelung",
+  "lernzielId": "MTG.5.03",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.03",
+   "5.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "gitter",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "xa",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "ya",
+    "typ": "ganzzahl",
+    "von": -7,
+    "bis": 7,
+    "schritt": 1
+   },
+   {
+    "name": "zx",
+    "typ": "ganzzahl",
+    "von": -3,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "zy",
+    "typ": "ganzzahl",
+    "von": -3,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "xa2",
+    "typ": "formel",
+    "ausdruck": "2*zx-xa"
+   },
+   {
+    "name": "ya2",
+    "typ": "formel",
+    "ausdruck": "2*zy-ya"
+   }
+  ],
+  "bedingungen": [
+   "abs(xa2)<10",
+   "abs(ya2)<10",
+   "xa!=zx",
+   "ya!=zy",
+   "xa!=ya",
+   "xa2!=xa",
+   "ya2!=ya",
+   "xa2!=ya2"
+  ],
+  "stamm": "{name} spiegelt den Punkt A({xa}|{ya}) am Spiegelzentrum Z({zx}|{zy}).\n\nSetze den Bildpunkt A′ ins Gitter.",
+  "loesung": "2*zx-xa",
+  "gegenprobe": "zx+(zx-xa)",
+  "fehler": [
+   {
+    "diagnoseId": "am_ursprung",
+    "ausdruck": "0-xa",
+    "feedback": "Gespiegelt wird an Z({zx}|{zy}), nicht am Ursprung. Z liegt genau in der Mitte zwischen A und A′."
+   },
+   {
+    "diagnoseId": "nur_x",
+    "ausdruck": "2*zx-xa+0*ya",
+    "feedback": "Bei der Punktspiegelung ändern sich BEIDE Koordinaten. Auch der y-Wert wird an Z gespiegelt."
+   },
+   {
+    "diagnoseId": "verschoben",
+    "ausdruck": "xa+zx",
+    "feedback": "Das wäre eine Verschiebung um Z. Beim Spiegeln ist Z der Mittelpunkt der Strecke von A nach A′."
+   }
+  ],
+  "hinweise": [
+   "Wo liegt Z im Verhältnis zu A und A′?",
+   "Z ist der Mittelpunkt der Strecke AA′.",
+   "Rechnerisch: x′ = 2 · {zx} − x und y′ = 2 · {zy} − y."
+  ],
+  "loesungsweg": [
+   "Von A nach Z: {zx} − {xa} nach rechts, {zy} − {ya} nach oben.",
+   "Dieselbe Strecke noch einmal über Z hinaus.",
+   "So ergibt sich A′({xa2}|{ya2}).",
+   "Probe: Z liegt genau in der Mitte."
+  ],
+  "gitter": {
+   "xvon": "-10",
+   "xbis": "10",
+   "yvon": "-10",
+   "ybis": "10",
+   "toleranz": "0",
+   "punkte": [
+    {
+     "name": "A2",
+     "label": "A′"
+    }
+   ],
+   "loesungen": [
+    [
+     [
+      "xa2",
+      "ya2"
+     ]
+    ]
+   ],
+   "vorgabe": [
+    {
+     "x": "xa",
+     "y": "ya",
+     "text": "A"
+    },
+    {
+     "x": "zx",
+     "y": "zy",
+     "text": "Z"
+    }
+   ],
+   "strecken": []
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-trapez-flaeche",
+  "lernzielId": "MTG.5.05",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Beet"
+     ],
+     [
+      "ein Segel"
+     ],
+     [
+      "eine Terrasse"
+     ],
+     [
+      "ein Werbeschild"
+     ],
+     [
+      "ein Grundstück"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "eine Rasenfläche"
+     ],
+     [
+      "ein Blechteil"
+     ],
+     [
+      "ein Fenster"
+     ],
+     [
+      "ein Teppich"
+     ],
+     [
+      "ein Tischtuch"
+     ],
+     [
+      "ein Holzbrett"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "(a+c)*h/2"
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "(a+c)/2"
+   }
+  ],
+  "bedingungen": [
+   "c<a",
+   "flaeche<400",
+   "a!=h",
+   "c!=h",
+   "flaeche!=a",
+   "flaeche!=h",
+   "mittel!=h"
+  ],
+  "stamm": "Im Werkunterricht entsteht {ort} in der Form eines Trapezes: Die beiden parallelen Seiten sind {a} cm und {c} cm lang, die Höhe dazwischen misst {h} cm.\n\nBerechne die Mittellinie und den Flächeninhalt.",
+  "felder": [
+   {
+    "name": "mittel",
+    "label": "Mittellinie in cm",
+    "ausdruck": "(a+c)/2",
+    "fehler": [
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "(a-c)/2",
+      "feedback": "Die Mittellinie ist der DURCHSCHNITT der beiden parallelen Seiten, also ihre Summe geteilt durch zwei."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+c",
+      "feedback": "Die Summe muss noch halbiert werden — sonst wäre die Mittellinie länger als beide Seiten."
+     },
+     {
+      "diagnoseId": "hoehe",
+      "ausdruck": "h",
+      "feedback": "Das ist die Höhe. Die Mittellinie verläuft parallel zu den beiden parallelen Seiten."
+     }
+    ]
+   },
+   {
+    "name": "flaeche",
+    "label": "Fläche in cm²",
+    "ausdruck": "(a+c)*h/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbierung",
+      "ausdruck": "(a+c)*h",
+      "feedback": "Die Formel lautet (a + c) · h : 2. Ohne die Halbierung kommt die doppelte Fläche heraus."
+     },
+     {
+      "diagnoseId": "nur_lange_seite",
+      "ausdruck": "a*h",
+      "feedback": "Das wäre ein Rechteck. Beim Trapez zählen beide parallelen Seiten, und zwar im Durchschnitt."
+     },
+     {
+      "diagnoseId": "seiten_multipliziert",
+      "ausdruck": "a*c",
+      "feedback": "Multipliziert werden die Mittellinie und die Höhe, nicht die beiden parallelen Seiten."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie lang ist die Strecke genau in der Mitte zwischen den parallelen Seiten?",
+   "Mittellinie: ({a} + {c}) : 2.",
+   "Fläche: Mittellinie mal Höhe."
+  ],
+  "loesungsweg": [
+   "Mittellinie: ({a} + {c}) : 2 = {mittel} cm.",
+   "Fläche: {mittel} · {h}.",
+   "Ergebnis: {flaeche} cm².",
+   "Dasselbe sagt die Formel (a + c) · h : 2."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-winkel-dreieck",
+  "lernzielId": "MTG.5.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.07"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "einheit": "°",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "alpha",
+    "typ": "ganzzahl",
+    "von": 25,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "beta",
+    "typ": "ganzzahl",
+    "von": 25,
+    "bis": 85,
+    "schritt": 1
+   },
+   {
+    "name": "gamma",
+    "typ": "formel",
+    "ausdruck": "180-alpha-beta"
+   },
+   {
+    "name": "aussen",
+    "typ": "formel",
+    "ausdruck": "alpha+beta"
+   }
+  ],
+  "bedingungen": [
+   "gamma>15",
+   "gamma<140",
+   "alpha!=beta",
+   "gamma!=alpha",
+   "gamma!=beta",
+   "aussen<170"
+  ],
+  "stamm": "In einem Dreieck sind zwei Winkel bekannt: α = {alpha}° und β = {beta}°.\n\nBerechne den dritten Winkel und den Aussenwinkel bei γ.",
+  "felder": [
+   {
+    "name": "gamma",
+    "label": "γ in Grad",
+    "ausdruck": "180-alpha-beta",
+    "fehler": [
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Die Winkelsumme im Dreieck beträgt 180°, nicht 360°. 360° gilt im Viereck."
+     },
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "abs(alpha-beta)",
+      "feedback": "Die beiden bekannten Winkel werden von 180° abgezogen, nicht voneinander."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "alpha+beta",
+      "feedback": "Das ist die Summe der beiden bekannten Winkel — und zugleich der Aussenwinkel bei γ, aber nicht γ selbst."
+     }
+    ]
+   },
+   {
+    "name": "aussen",
+    "label": "Aussenwinkel bei γ in Grad",
+    "ausdruck": "alpha+beta",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_gamma",
+      "ausdruck": "180-alpha-beta",
+      "feedback": "Das ist der Innenwinkel γ. Der Aussenwinkel ergänzt ihn auf 180°."
+     },
+     {
+      "diagnoseId": "mit_360",
+      "ausdruck": "360-alpha-beta",
+      "feedback": "Der Aussenwinkel ist der Nebenwinkel von γ: 180° − γ. Das ist gerade die Summe der beiden anderen Innenwinkel."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "(alpha+beta)/2",
+      "feedback": "Halbiert wird hier nichts. Der Aussenwinkel ist so gross wie die Summe der beiden nicht anliegenden Innenwinkel."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross ist die Winkelsumme im Dreieck?",
+   "Sie beträgt 180°. Also γ = 180° − α − β.",
+   "Der Aussenwinkel bei γ ergänzt γ auf 180°."
+  ],
+  "loesungsweg": [
+   "γ = 180° − {alpha}° − {beta}° = {gamma}°.",
+   "Der Aussenwinkel ist 180° − γ.",
+   "Das ergibt {aussen}°.",
+   "Probe: Er ist so gross wie α + β."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-pythagoras-kathete",
+  "lernzielId": "MTG.5.09",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.09",
+   "5.10"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "trip",
+    "typ": "auswahl",
+    "werte": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Leiter"
+     ],
+     [
+      "ein Seil"
+     ],
+     [
+      "eine Stütze"
+     ],
+     [
+      "ein Kabel"
+     ],
+     [
+      "ein Brett"
+     ],
+     [
+      "ein Schrägaufzug"
+     ],
+     [
+      "ein Zaunpfahl"
+     ],
+     [
+      "eine Rampe"
+     ],
+     [
+      "ein Mast"
+     ],
+     [
+      "eine Strebe"
+     ],
+     [
+      "ein Steg"
+     ],
+     [
+      "ein Träger"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?3:(trip==1?5:(trip==2?8:7)))"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?4:(trip==1?12:(trip==2?15:24)))"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?5:(trip==1?13:(trip==2?17:25)))"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "f*f*(trip==0?6:(trip==1?30:(trip==2?60:84)))"
+   }
+  ],
+  "bedingungen": [
+   "c<160",
+   "a!=b",
+   "f!=a",
+   "flaeche<3000"
+  ],
+  "stamm": "Auf einer Zeichnung bildet {sache} die {c} cm lange Hypotenuse eines rechtwinkligen Dreiecks. Eine der beiden Katheten misst {a} cm.\n\nBerechne die zweite Kathete und den Flächeninhalt des Dreiecks.",
+  "felder": [
+   {
+    "name": "b",
+    "label": "zweite Kathete in cm",
+    "ausdruck": "b",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "sqrt(c*c+a*a)",
+      "feedback": "Gesucht ist eine KATHETE. Die Quadrate der Katheten ergeben zusammen das Quadrat der Hypotenuse — also wird hier subtrahiert."
+     },
+     {
+      "diagnoseId": "differenz_der_seiten",
+      "ausdruck": "c-a",
+      "feedback": "Die Seiten werden nicht direkt subtrahiert, sondern ihre Quadrate: b² = c² − a²."
+     },
+     {
+      "diagnoseId": "halbe_hypotenuse",
+      "ausdruck": "c/2",
+      "feedback": "Nur im gleichschenklig-rechtwinkligen Sonderfall hätte das etwas mit der Hälfte zu tun — und auch dort nicht so."
+     }
+    ]
+   },
+   {
+    "name": "flaeche",
+    "label": "Fläche in cm²",
+    "ausdruck": "a*b/2",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbierung",
+      "ausdruck": "a*b",
+      "feedback": "Das wäre das Rechteck aus beiden Katheten. Das rechtwinklige Dreieck ist genau die Hälfte davon."
+     },
+     {
+      "diagnoseId": "mit_hypotenuse",
+      "ausdruck": "a*c/2",
+      "feedback": "Als Grundlinie und Höhe dienen die beiden KATHETEN. Die Hypotenuse steht nicht senkrecht auf einer von ihnen."
+     },
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "a+b+c",
+      "feedback": "Das ist der Umfang. Die Fläche ist Grundlinie mal Höhe geteilt durch zwei."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welche Seite ist die längste?",
+   "Es gilt a² + b² = c², wobei c die Hypotenuse ist.",
+   "Nach b aufgelöst: b = √(c² − a²)."
+  ],
+  "loesungsweg": [
+   "b² = {c}² − {a}².",
+   "Die Wurzel daraus ergibt b = {b} cm.",
+   "Fläche: {a} · {b} : 2.",
+   "Ergebnis: {flaeche} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-kreissektor",
+  "lernzielId": "MTG.5.13",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.13",
+   "5.12"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "w",
+    "typ": "auswahl",
+    "werte": [
+     30,
+     45,
+     60,
+     72,
+     90,
+     120,
+     135,
+     150,
+     180
+    ]
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Pizza"
+     ],
+     [
+      "ein Kuchen"
+     ],
+     [
+      "ein Tortenstück"
+     ],
+     [
+      "ein Fächer"
+     ],
+     [
+      "ein Scheinwerferkegel"
+     ],
+     [
+      "ein Rasensprenger"
+     ],
+     [
+      "ein Windrad-Sektor"
+     ],
+     [
+      "eine Sitzbank im Rund"
+     ],
+     [
+      "ein Blumenbeet"
+     ],
+     [
+      "ein Sonnensegel"
+     ],
+     [
+      "ein Uhrensektor"
+     ],
+     [
+      "ein Zeltteil"
+     ]
+    ]
+   },
+   {
+    "name": "bogen",
+    "typ": "formel",
+    "ausdruck": "2*3.14159*r*w/360"
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "3.14159*r*r*w/360"
+   }
+  ],
+  "bedingungen": [
+   "flaeche<900",
+   "bogen>3",
+   "r!=w"
+  ],
+  "stamm": "Auf dem Plan bildet {sache} einen Kreissektor mit dem Radius {r} cm und dem Mittelpunktswinkel {w}°.\n\nBerechne die Bogenlänge und den Flächeninhalt. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "bogen",
+    "label": "Bogenlänge in cm",
+    "ausdruck": "2*3.14159*r*w/360",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_umfang",
+      "ausdruck": "2*3.14159*r",
+      "feedback": "Das ist der Umfang des ganzen Kreises. Der Sektor deckt nur {w} von 360 Grad ab."
+     },
+     {
+      "diagnoseId": "mit_flaechenformel",
+      "ausdruck": "3.14159*r*r*w/360",
+      "feedback": "Das ist die Sektorfläche in cm². Die Bogenlänge ist eine Länge und geht vom Umfang aus."
+     },
+     {
+      "diagnoseId": "durch_180",
+      "ausdruck": "2*3.14159*r*w/180",
+      "feedback": "Der volle Winkel beträgt 360°, nicht 180°. Geteilt wird durch 360."
+     }
+    ]
+   },
+   {
+    "name": "flaeche",
+    "label": "Sektorfläche in cm²",
+    "ausdruck": "3.14159*r*r*w/360",
+    "fehler": [
+     {
+      "diagnoseId": "ganzer_kreis",
+      "ausdruck": "3.14159*r*r",
+      "feedback": "Das ist die Fläche des ganzen Kreises. Der Sektor ist der Anteil {w} : 360 davon."
+     },
+     {
+      "diagnoseId": "mit_umfangsformel",
+      "ausdruck": "2*3.14159*r*w/360",
+      "feedback": "Das ist die Bogenlänge in cm. Für die Fläche wird der Radius quadriert."
+     },
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "3.14159*r*w/360",
+      "feedback": "In der Flächenformel steht r², nicht r: Der Radius wird mit sich selbst multipliziert, sonst kommt keine Fläche heraus."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welchen Anteil am ganzen Kreis deckt {w}° ab?",
+   "Den Anteil {w} : 360. Beides — Umfang und Fläche — wird damit multipliziert.",
+   "Bogen: 2 · π · r · {w} : 360. Fläche: π · r² · {w} : 360."
+  ],
+  "loesungsweg": [
+   "Anteil am Vollkreis: {w} : 360.",
+   "Bogen: 2 · π · {r} · diesen Anteil = {bogen} cm.",
+   "Fläche: π · {r}² · diesen Anteil = {flaeche} cm².",
+   "Beide Male derselbe Anteil, nur eine andere Grundformel."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-aehnlichkeit-faktor",
+  "lernzielId": "MTG.5.14",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.14",
+   "5.15"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "a2",
+    "typ": "formel",
+    "ausdruck": "a*k"
+   },
+   {
+    "name": "b2",
+    "typ": "formel",
+    "ausdruck": "b*k"
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "k*k"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "a2<120",
+   "b2<140",
+   "a!=k",
+   "b!=k",
+   "a2!=b2"
+  ],
+  "stamm": "Zwei ähnliche Rechtecke: Das kleine hat die Seiten {a} cm und {b} cm, das grosse ist an der ersten Seite {a2} cm lang.\n\nBestimme den Streckfaktor und die zweite Seite des grossen Rechtecks.",
+  "felder": [
+   {
+    "name": "k",
+    "label": "Streckfaktor",
+    "ausdruck": "a2/a",
+    "fehler": [
+     {
+      "diagnoseId": "differenz",
+      "ausdruck": "a2-a",
+      "feedback": "Der Streckfaktor ist ein Verhältnis, keine Differenz: {a2} : {a}."
+     },
+     {
+      "diagnoseId": "gestuerzt",
+      "ausdruck": "a/a2",
+      "feedback": "Vom kleinen zum grossen Rechteck ist der Faktor grösser als 1. Teile die grosse Länge durch die kleine."
+     },
+     {
+      "diagnoseId": "andere_seite",
+      "ausdruck": "b",
+      "feedback": "Der Faktor ergibt sich aus zwei EINANDER ENTSPRECHENDEN Seiten, also aus {a2} und {a}."
+     }
+    ]
+   },
+   {
+    "name": "b2",
+    "label": "zweite Seite des grossen Rechtecks in cm",
+    "ausdruck": "b*k",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_geblieben",
+      "ausdruck": "b",
+      "feedback": "Bei ähnlichen Figuren werden ALLE Längen mit demselben Faktor gestreckt, nicht nur eine."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "b+(a2-a)",
+      "feedback": "Addiert wird nicht: Ähnliche Figuren entstehen durch Multiplikation mit dem Streckfaktor."
+     },
+     {
+      "diagnoseId": "flaechenfaktor",
+      "ausdruck": "b*k*k",
+      "feedback": "Mit dem Quadrat des Faktors wächst die FLÄCHE, nicht eine Seite."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Um welchen Faktor ist die erste Seite gewachsen?",
+   "{a2} : {a} ergibt den Streckfaktor.",
+   "Alle anderen Längen wachsen mit demselben Faktor."
+  ],
+  "loesungsweg": [
+   "Streckfaktor: {a2} : {a} = {k}.",
+   "Zweite Seite: {b} · {k} = {b2} cm.",
+   "Die Fläche wächst dabei um den Faktor {k}² = {fl}.",
+   "Das gilt bei allen ähnlichen Figuren."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-quader",
+  "lernzielId": "MTG.6.04",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.04",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "eine Kiste"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "ein Setzkasten"
+     ],
+     [
+      "ein Paket"
+     ],
+     [
+      "ein Blumentrog"
+     ],
+     [
+      "ein Werkzeugkoffer"
+     ],
+     [
+      "ein Karton"
+     ],
+     [
+      "ein Wassertank"
+     ],
+     [
+      "eine Schublade"
+     ],
+     [
+      "ein Bienenkasten"
+     ],
+     [
+      "ein Futtertrog"
+     ],
+     [
+      "ein Regalfach"
+     ]
+    ]
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*b*c"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*(a*b+a*c+b*c)"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "b!=c",
+   "a!=c",
+   "v<9000",
+   "v>60",
+   "o!=v"
+  ],
+  "stamm": "Im Lager steht {sache} in der Form eines Quaders mit den Kanten {a} cm, {b} cm und {c} cm.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "a*b*c",
+    "fehler": [
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a+b+c",
+      "feedback": "Das Volumen entsteht durch Multiplizieren der drei Kanten, nicht durch Addieren."
+     },
+     {
+      "diagnoseId": "nur_zwei",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in cm². Für den Rauminhalt kommt die dritte Kante dazu."
+     },
+     {
+      "diagnoseId": "oberflaeche",
+      "ausdruck": "2*(a*b+a*c+b*c)",
+      "feedback": "Das ist die Oberfläche in cm². Das Volumen ist der Rauminhalt."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*(a*b+a*c+b*c)",
+    "fehler": [
+     {
+      "diagnoseId": "nur_drei_flaechen",
+      "ausdruck": "a*b+a*c+b*c",
+      "feedback": "Ein Quader hat sechs Flächen, je zwei gleich grosse. Die Summe der drei verschiedenen muss verdoppelt werden."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "a*b*c",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche ist die Summe aller Aussenflächen."
+     },
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "2*(a*c+b*c)",
+      "feedback": "Der Mantel sind die vier Seitenflächen. Grund- und Deckfläche gehören auch zur Oberfläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Flächen hat ein Quader, und welche sind gleich gross?",
+   "Volumen: Länge mal Breite mal Höhe.",
+   "Oberfläche: 2 · (a·b + a·c + b·c)."
+  ],
+  "loesungsweg": [
+   "Volumen: {a} · {b} · {c} = {v} cm³.",
+   "Die drei verschiedenen Flächen: {a}·{b}, {a}·{c} und {b}·{c}.",
+   "Jede kommt zweimal vor.",
+   "Oberfläche: {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-prisma-dreieck",
+  "lernzielId": "MTG.6.05",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.05",
+   "6.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "f",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 5,
+    "schritt": 1
+   },
+   {
+    "name": "trip",
+    "typ": "auswahl",
+    "werte": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Firstbalken"
+     ],
+     [
+      "ein Dachmodell"
+     ],
+     [
+      "ein Keilstück"
+     ],
+     [
+      "eine Rampe"
+     ],
+     [
+      "ein Schokoladenriegel"
+     ],
+     [
+      "ein Zeltkörper"
+     ],
+     [
+      "ein Prismenglas"
+     ],
+     [
+      "ein Holzkeil"
+     ],
+     [
+      "ein Kanalstück"
+     ],
+     [
+      "ein Betonelement"
+     ],
+     [
+      "ein Regalträger"
+     ],
+     [
+      "ein Modellbauteil"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?3:(trip==1?5:8))"
+   },
+   {
+    "name": "b",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?4:(trip==1?12:15))"
+   },
+   {
+    "name": "c",
+    "typ": "formel",
+    "ausdruck": "f*(trip==0?5:(trip==1?13:17))"
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "f*f*(trip==0?6:(trip==1?30:60))"
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "f*f*(trip==0?6:(trip==1?30:60))*l"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*f*f*(trip==0?6:(trip==1?30:60))+f*(trip==0?12:(trip==1?30:40))*l"
+   }
+  ],
+  "bedingungen": [
+   "v<40000",
+   "c<90",
+   "l!=a",
+   "l!=b"
+  ],
+  "stamm": "Auf der Werkbank liegt {sache}, ein gerades Prisma. Die Grundfläche ist ein rechtwinkliges Dreieck mit den Katheten {a} cm und {b} cm, die Hypotenuse misst {c} cm. Das Prisma ist {l} cm lang.\n\nBerechne Volumen und Oberfläche.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "g*l",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_halbierung",
+      "ausdruck": "a*b*l",
+      "feedback": "Die Grundfläche ist ein Dreieck, also die HALBE Fläche des Rechtecks aus den beiden Katheten."
+     },
+     {
+      "diagnoseId": "grundflaeche",
+      "ausdruck": "g",
+      "feedback": "Das ist nur die Grundfläche in cm². Für den Rauminhalt kommt die Länge {l} cm dazu."
+     },
+     {
+      "diagnoseId": "umfang_mal_laenge",
+      "ausdruck": "(a+b+c)*l",
+      "feedback": "Das ist die Mantelfläche in cm². Das Volumen braucht die Grundfläche, nicht den Umfang."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*g+(a+b+c)*l",
+    "fehler": [
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "(a+b+c)*l",
+      "feedback": "Der Mantel allein genügt nicht: Grund- und Deckfläche gehören zur Oberfläche dazu, und zwar beide."
+     },
+     {
+      "diagnoseId": "eine_grundflaeche",
+      "ausdruck": "g+(a+b+c)*l",
+      "feedback": "Ein Prisma hat zwei gleiche Dreiecksflächen, nicht eine."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "g*l",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche ist die Summe aller Aussenflächen."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Woraus besteht die Oberfläche eines Prismas?",
+   "Aus zwei Grundflächen und dem Mantel.",
+   "Der Mantel ist der Umfang der Grundfläche mal die Länge."
+  ],
+  "loesungsweg": [
+   "Grundfläche: {a} · {b} : 2 = {g} cm².",
+   "Volumen: {g} · {l} = {v} cm³.",
+   "Mantel: ({a} + {b} + {c}) · {l}.",
+   "Oberfläche: 2 · {g} + Mantel = {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-niederschlag",
+  "lernzielId": "MTG.6.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.07",
+   "3.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zahl_eingeben",
+  "zahlformat": "dezimal2",
+  "einheit": "l",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "mm",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "dach",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Garagendach"
+     ],
+     [
+      "ein Vordach"
+     ],
+     [
+      "ein Gartenhausdach"
+     ],
+     [
+      "ein Carport"
+     ],
+     [
+      "ein Velounterstand"
+     ],
+     [
+      "ein Terrassendach"
+     ],
+     [
+      "ein Werkstattdach"
+     ],
+     [
+      "ein Stalldach"
+     ],
+     [
+      "ein Anbau"
+     ],
+     [
+      "ein Pavillon"
+     ],
+     [
+      "ein Gewächshausdach"
+     ],
+     [
+      "ein Schopfdach"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "liter",
+    "typ": "formel",
+    "ausdruck": "a*b*mm"
+   }
+  ],
+  "bedingungen": [
+   "a!=b",
+   "flaeche<500",
+   "liter<12000",
+   "mm!=a",
+   "mm!=b"
+  ],
+  "stamm": "Über dem Hof liegt {dach}; es misst {a} m mal {b} m. In einer Nacht fallen {mm} mm Niederschlag.\n\nWie viele Liter Wasser fallen auf dieses Dach?",
+  "loesung": "a*b*mm",
+  "gegenprobe": "mm*(a*b)",
+  "fehler": [
+   {
+    "diagnoseId": "mm_als_meter",
+    "ausdruck": "a*b*mm*1000",
+    "feedback": "Ein Millimeter Niederschlag heisst: ein Liter je Quadratmeter. Es braucht keine zusätzliche Umrechnung mit 1000."
+   },
+   {
+    "diagnoseId": "nur_flaeche",
+    "ausdruck": "a*b",
+    "feedback": "Das ist die Dachfläche in Quadratmetern. Jeder Quadratmeter fängt {mm} Liter auf."
+   },
+   {
+    "diagnoseId": "geteilt",
+    "ausdruck": "a*b/mm",
+    "feedback": "Mehr Niederschlag bedeutet mehr Wasser. Die Fläche wird mit der Niederschlagsmenge multipliziert."
+   }
+  ],
+  "hinweise": [
+   "Was bedeutet «1 mm Niederschlag» für einen Quadratmeter?",
+   "1 mm Niederschlag ergibt 1 Liter je Quadratmeter.",
+   "Also: Dachfläche in m² mal {mm}."
+  ],
+  "loesungsweg": [
+   "Dachfläche: {a} · {b} = {flaeche} m².",
+   "Je Quadratmeter fallen {mm} Liter.",
+   "{flaeche} · {mm}.",
+   "Ergebnis: {liter} l."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-pyramide",
+  "lernzielId": "MTG.6.08",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.08",
+   "6.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 2
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Zeltdach"
+     ],
+     [
+      "ein Turmhelm"
+     ],
+     [
+      "ein Modell"
+     ],
+     [
+      "ein Kerzenständer"
+     ],
+     [
+      "ein Briefbeschwerer"
+     ],
+     [
+      "ein Dachaufsatz"
+     ],
+     [
+      "ein Glasobjekt"
+     ],
+     [
+      "ein Holzklotz"
+     ],
+     [
+      "ein Sandhaufen in Form"
+     ],
+     [
+      "ein Pavillondach"
+     ],
+     [
+      "ein Aufsatz"
+     ],
+     [
+      "ein Betonelement"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "a*a"
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "a*a*h/3"
+   }
+  ],
+  "bedingungen": [
+   "(a*a*h)%3==0",
+   "v<9000",
+   "a!=h",
+   "v>50"
+  ],
+  "stamm": "Im Modellbau entsteht {sache} in der Form einer geraden Pyramide mit quadratischer Grundfläche. Die Grundkante misst {a} cm, die Höhe {h} cm.\n\nBerechne die Grundfläche und das Volumen.",
+  "felder": [
+   {
+    "name": "g",
+    "label": "Grundfläche in cm²",
+    "ausdruck": "a*a",
+    "fehler": [
+     {
+      "diagnoseId": "umfang",
+      "ausdruck": "4*a",
+      "feedback": "Das ist der Umfang des Grundquadrats. Die Fläche ist Seite mal Seite."
+     },
+     {
+      "diagnoseId": "mal_hoehe",
+      "ausdruck": "a*h",
+      "feedback": "Die Höhe gehört nicht zur Grundfläche. Sie steht senkrecht darauf."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*a/2",
+      "feedback": "Halbiert wird beim Dreieck. Die Grundfläche hier ist ein Quadrat."
+     }
+    ]
+   },
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "a*a*h/3",
+    "fehler": [
+     {
+      "diagnoseId": "wie_prisma",
+      "ausdruck": "a*a*h",
+      "feedback": "Das wäre ein Prisma mit derselben Grundfläche. Die Pyramide fasst genau ein Drittel davon."
+     },
+     {
+      "diagnoseId": "halbiert",
+      "ausdruck": "a*a*h/2",
+      "feedback": "Bei der Pyramide steht der Faktor ein Drittel, nicht ein Halb."
+     },
+     {
+      "diagnoseId": "grundflaeche",
+      "ausdruck": "a*a",
+      "feedback": "Das ist die Grundfläche in cm². Für den Rauminhalt kommen Höhe und der Faktor ein Drittel dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie verhält sich das Volumen einer Pyramide zu dem eines Prismas mit gleicher Grundfläche und Höhe?",
+   "Es ist genau ein Drittel davon.",
+   "V = Grundfläche · Höhe : 3."
+  ],
+  "loesungsweg": [
+   "Grundfläche: {a} · {a} = {g} cm².",
+   "Prisma gleicher Höhe hätte {g} · {h} cm³.",
+   "Die Pyramide fasst ein Drittel davon.",
+   "Ergebnis: {v} cm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-zylinder",
+  "lernzielId": "MTG.6.09",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.09",
+   "5.12"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "r",
+    "typ": "ganzzahl",
+    "von": 3,
+    "bis": 20,
+    "schritt": 1
+   },
+   {
+    "name": "h",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Regenfass"
+     ],
+     [
+      "eine Konservendose"
+     ],
+     [
+      "ein Wassertank"
+     ],
+     [
+      "ein Farbkübel"
+     ],
+     [
+      "ein Trinkbecher"
+     ],
+     [
+      "ein Rohrstück"
+     ],
+     [
+      "eine Blechtrommel"
+     ],
+     [
+      "ein Silo"
+     ],
+     [
+      "ein Kerzenrohling"
+     ],
+     [
+      "ein Gartenkübel"
+     ],
+     [
+      "ein Futtereimer"
+     ],
+     [
+      "ein Messzylinder"
+     ]
+    ]
+   },
+   {
+    "name": "g",
+    "typ": "formel",
+    "ausdruck": "3.14159*r*r"
+   },
+   {
+    "name": "v",
+    "typ": "formel",
+    "ausdruck": "3.14159*r*r*h"
+   },
+   {
+    "name": "o",
+    "typ": "formel",
+    "ausdruck": "2*3.14159*r*r+2*3.14159*r*h"
+   }
+  ],
+  "bedingungen": [
+   "v<40000",
+   "r!=h",
+   "o<7000"
+  ],
+  "stamm": "Im Keller steht {sache} in der Form eines Zylinders mit dem Radius {r} cm und der Höhe {h} cm.\n\nBerechne Volumen und Oberfläche. Runde auf zwei Stellen.",
+  "felder": [
+   {
+    "name": "v",
+    "label": "Volumen in cm³",
+    "ausdruck": "3.14159*r*r*h",
+    "fehler": [
+     {
+      "diagnoseId": "radius_nicht_quadriert",
+      "ausdruck": "3.14159*r*h",
+      "feedback": "In der Grundfläche steht r², nicht r: Die Grundfläche ist ein Kreis."
+     },
+     {
+      "diagnoseId": "durchmesser_statt_radius",
+      "ausdruck": "3.14159*(2*r)*(2*r)*h",
+      "feedback": "Gegeben ist der Radius, nicht der Durchmesser. In die Formel geht r ein."
+     },
+     {
+      "diagnoseId": "drittel",
+      "ausdruck": "3.14159*r*r*h/3",
+      "feedback": "Der Faktor ein Drittel gilt bei Kegel und Pyramide. Der Zylinder hat überall denselben Querschnitt."
+     }
+    ]
+   },
+   {
+    "name": "o",
+    "label": "Oberfläche in cm²",
+    "ausdruck": "2*3.14159*r*r+2*3.14159*r*h",
+    "fehler": [
+     {
+      "diagnoseId": "nur_mantel",
+      "ausdruck": "2*3.14159*r*h",
+      "feedback": "Das ist der Mantel. Grund- und Deckkreis gehören zur Oberfläche dazu."
+     },
+     {
+      "diagnoseId": "eine_kreisflaeche",
+      "ausdruck": "3.14159*r*r+2*3.14159*r*h",
+      "feedback": "Ein geschlossener Zylinder hat ZWEI Kreisflächen: unten und oben."
+     },
+     {
+      "diagnoseId": "volumen",
+      "ausdruck": "3.14159*r*r*h",
+      "feedback": "Das ist das Volumen in cm³. Die Oberfläche ist eine Fläche."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Woraus besteht die Oberfläche eines Zylinders?",
+   "Aus zwei Kreisen und dem Mantel.",
+   "Der Mantel ist ein Rechteck: Kreisumfang mal Höhe."
+  ],
+  "loesungsweg": [
+   "Grundfläche: π · {r}² = {g} cm².",
+   "Volumen: {g} · {h} = {v} cm³.",
+   "Mantel: 2 · π · {r} · {h}.",
+   "Oberfläche: 2 · {g} + Mantel = {o} cm²."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-aehnliche-koerper",
+  "lernzielId": "MTG.6.10",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.10",
+   "5.14"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "k",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 4,
+    "schritt": 1
+   },
+   {
+    "name": "v1",
+    "typ": "ganzzahl",
+    "von": 20,
+    "bis": 900,
+    "schritt": 10
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Modellhaus"
+     ],
+     [
+      "eine Figur"
+     ],
+     [
+      "ein Würfelspiel"
+     ],
+     [
+      "ein Modellauto"
+     ],
+     [
+      "ein Behälter"
+     ],
+     [
+      "eine Vase"
+     ],
+     [
+      "ein Bauklotz"
+     ],
+     [
+      "ein Aquarium"
+     ],
+     [
+      "eine Verpackung"
+     ],
+     [
+      "ein Spielzeugturm"
+     ],
+     [
+      "ein Krug"
+     ],
+     [
+      "ein Setzkasten"
+     ]
+    ]
+   },
+   {
+    "name": "fl",
+    "typ": "formel",
+    "ausdruck": "k*k"
+   },
+   {
+    "name": "vo",
+    "typ": "formel",
+    "ausdruck": "k*k*k"
+   },
+   {
+    "name": "v2",
+    "typ": "formel",
+    "ausdruck": "v1*k*k*k"
+   }
+  ],
+  "bedingungen": [
+   "v2<60000",
+   "v1!=k",
+   "v1>20"
+  ],
+  "stamm": "Für eine Ausstellung wird {sache} massstäblich vergrössert: Jede Kante wird {k}-mal so lang. Das kleine Modell hat das Volumen {v1} cm³.\n\nUm welchen Faktor wächst die Oberfläche, und wie gross ist das neue Volumen?",
+  "felder": [
+   {
+    "name": "fl",
+    "label": "Faktor der Oberfläche",
+    "ausdruck": "k*k",
+    "fehler": [
+     {
+      "diagnoseId": "gleich_wie_kante",
+      "ausdruck": "k",
+      "feedback": "Eine Fläche hat zwei Richtungen: Werden beide {k}-mal so lang, wächst die Fläche um {k} · {k}."
+     },
+     {
+      "diagnoseId": "volumenfaktor",
+      "ausdruck": "k*k*k",
+      "feedback": "Das ist der Faktor für das Volumen. Die Oberfläche wächst mit dem Quadrat des Streckfaktors."
+     },
+     {
+      "diagnoseId": "verdoppelt",
+      "ausdruck": "2*k",
+      "feedback": "Die Faktoren werden multipliziert, nicht verdoppelt: {k} in der Länge und {k} in der Breite."
+     }
+    ]
+   },
+   {
+    "name": "v2",
+    "label": "neues Volumen in cm³",
+    "ausdruck": "v1*k*k*k",
+    "fehler": [
+     {
+      "diagnoseId": "nur_kantenfaktor",
+      "ausdruck": "v1*k",
+      "feedback": "Ein Körper wächst in drei Richtungen. Das Volumen wird mit {k} · {k} · {k} multipliziert."
+     },
+     {
+      "diagnoseId": "flaechenfaktor",
+      "ausdruck": "v1*k*k",
+      "feedback": "Mit dem Quadrat wächst die Oberfläche. Beim Volumen kommt die dritte Richtung dazu."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "v1+k*k*k",
+      "feedback": "Der Faktor wird nicht addiert, sondern multipliziert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "In wie vielen Richtungen wächst eine Fläche, in wie vielen ein Körper?",
+   "Fläche: zwei Richtungen, also der Faktor {k}².",
+   "Volumen: drei Richtungen, also der Faktor {k}³."
+  ],
+  "loesungsweg": [
+   "Kantenfaktor: {k}.",
+   "Oberfläche: Faktor {k}² = {fl}.",
+   "Volumen: Faktor {k}³ = {vo}.",
+   "Neues Volumen: {v1} · {vo} = {v2} cm³."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-wahrscheinlichkeit-lose",
+  "lernzielId": "MTG.7.03",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "7.03",
+   "7.02"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "lose",
+    "typ": "ganzzahl",
+    "von": 200,
+    "bis": 4000,
+    "schritt": 100
+   },
+   {
+    "name": "p",
+    "typ": "auswahl",
+    "werte": [
+     5,
+     8,
+     10,
+     12,
+     15,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "haupt",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "anlass",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Schulfest"
+     ],
+     [
+      "ein Dorffest"
+     ],
+     [
+      "ein Vereinsabend"
+     ],
+     [
+      "ein Basar"
+     ],
+     [
+      "ein Sporttag"
+     ],
+     [
+      "ein Weihnachtsmarkt"
+     ],
+     [
+      "ein Sommerfest"
+     ],
+     [
+      "ein Flohmarkt"
+     ],
+     [
+      "ein Jubiläum"
+     ],
+     [
+      "ein Konzertabend"
+     ],
+     [
+      "ein Quartierfest"
+     ],
+     [
+      "ein Erntedankfest"
+     ]
+    ]
+   },
+   {
+    "name": "preise",
+    "typ": "formel",
+    "ausdruck": "lose*p/100"
+   },
+   {
+    "name": "phaupt",
+    "typ": "formel",
+    "ausdruck": "haupt*100/lose"
+   }
+  ],
+  "bedingungen": [
+   "(lose*p)%100==0",
+   "preise>10",
+   "haupt<preise",
+   "phaupt<3",
+   "phaupt>0.1",
+   "haupt!=p",
+   "preise!=lose"
+  ],
+  "stamm": "Für {anlass} werden {lose} Lose gedruckt. Die Wahrscheinlichkeit für einen Preis soll {p} % betragen. Unter den Preisen sind {haupt} Hauptpreise.\n\nWie viele Preise braucht es, und wie gross ist die Wahrscheinlichkeit für einen Hauptpreis?",
+  "felder": [
+   {
+    "name": "preise",
+    "label": "Anzahl Preise",
+    "ausdruck": "lose*p/100",
+    "fehler": [
+     {
+      "diagnoseId": "prozent_falschherum",
+      "ausdruck": "lose*100/p",
+      "feedback": "{p} % von {lose} heisst: mal {p}, geteilt durch 100. So käme mehr heraus, als es Lose gibt."
+     },
+     {
+      "diagnoseId": "prozentzahl",
+      "ausdruck": "p",
+      "feedback": "{p} ist der Prozentsatz, nicht die Anzahl. Er muss auf {lose} Lose bezogen werden."
+     },
+     {
+      "diagnoseId": "rest",
+      "ausdruck": "lose-lose*p/100",
+      "feedback": "Das ist die Zahl der Nieten. Gefragt ist die Zahl der Preise."
+     }
+    ]
+   },
+   {
+    "name": "phaupt",
+    "label": "Wahrscheinlichkeit für einen Hauptpreis in %",
+    "ausdruck": "haupt*100/lose",
+    "einheit": "%",
+    "fehler": [
+     {
+      "diagnoseId": "bezogen_auf_preise",
+      "ausdruck": "haupt*100/(lose*p/100)",
+      "feedback": "Bezogen wird auf ALLE Lose, nicht nur auf die Gewinnlose: Man zieht ja aus allen."
+     },
+     {
+      "diagnoseId": "anzahl",
+      "ausdruck": "haupt",
+      "feedback": "{haupt} ist die Anzahl der Hauptpreise. Für die Wahrscheinlichkeit wird sie durch die Zahl aller Lose geteilt."
+     },
+     {
+      "diagnoseId": "ohne_prozent",
+      "ausdruck": "haupt/lose",
+      "feedback": "Das ist der Anteil als Dezimalzahl. Für Prozent kommt der Faktor 100 dazu."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele Lose gibt es insgesamt?",
+   "Anzahl Preise: {p} % von {lose}.",
+   "Wahrscheinlichkeit: günstige Fälle durch alle Fälle, mal 100."
+  ],
+  "loesungsweg": [
+   "Preise: {lose} · {p} : 100 = {preise}.",
+   "Für einen Hauptpreis: {haupt} von {lose} Losen.",
+   "{haupt} : {lose} · 100.",
+   "Ergebnis: {phaupt} %."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-zweistufig",
+  "lernzielId": "MTG.7.05",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "7.05",
+   "7.04"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal4",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "rot",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "blau",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 9,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Kugeln"
+     ],
+     [
+      "Murmeln"
+     ],
+     [
+      "Karten"
+     ],
+     [
+      "Chips"
+     ],
+     [
+      "Steine"
+     ],
+     [
+      "Perlen"
+     ],
+     [
+      "Lose"
+     ],
+     [
+      "Bausteine"
+     ],
+     [
+      "Marken"
+     ],
+     [
+      "Plättchen"
+     ],
+     [
+      "Würfel"
+     ],
+     [
+      "Bälle"
+     ]
+    ]
+   },
+   {
+    "name": "n",
+    "typ": "formel",
+    "ausdruck": "rot+blau"
+   },
+   {
+    "name": "beide",
+    "typ": "formel",
+    "ausdruck": "rot*(rot-1)/((rot+blau)*(rot+blau-1))"
+   },
+   {
+    "name": "gemischt",
+    "typ": "formel",
+    "ausdruck": "2*rot*blau/((rot+blau)*(rot+blau-1))"
+   }
+  ],
+  "bedingungen": [
+   "rot!=blau",
+   "n>5",
+   "n<17",
+   "rot>1",
+   "beide<0.6"
+  ],
+  "stamm": "In einem Beutel liegen {rot} rote und {blau} blaue {sache}. {name} zieht zwei davon nacheinander, ohne die erste zurückzulegen.\n\nBerechne beide Wahrscheinlichkeiten.",
+  "felder": [
+   {
+    "name": "beide",
+    "label": "beide rot",
+    "ausdruck": "rot*(rot-1)/(n*(n-1))",
+    "fehler": [
+     {
+      "diagnoseId": "mit_zuruecklegen",
+      "ausdruck": "rot*rot/(n*n)",
+      "feedback": "Die erste Kugel wird NICHT zurückgelegt. Beim zweiten Zug liegt eine rote weniger im Beutel, und es sind nur noch {n} − 1 insgesamt."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "rot/n+ (rot-1)/(n-1)",
+      "feedback": "Bei einem zweistufigen Versuch werden die Wahrscheinlichkeiten entlang des Astes MULTIPLIZIERT, nicht addiert."
+     },
+     {
+      "diagnoseId": "nur_erster_zug",
+      "ausdruck": "rot/n",
+      "feedback": "Das ist die Wahrscheinlichkeit für den ersten Zug. Der zweite Zug gehört dazu."
+     }
+    ]
+   },
+   {
+    "name": "gemischt",
+    "label": "eine rote und eine blaue",
+    "ausdruck": "2*rot*blau/(n*(n-1))",
+    "fehler": [
+     {
+      "diagnoseId": "nur_ein_weg",
+      "ausdruck": "rot*blau/(n*(n-1))",
+      "feedback": "Es gibt zwei Wege: zuerst rot, dann blau — oder zuerst blau, dann rot. Beide Äste zählen und werden addiert."
+     },
+     {
+      "diagnoseId": "mit_zuruecklegen",
+      "ausdruck": "2*rot*blau/(n*n)",
+      "feedback": "Ohne Zurücklegen sind es beim zweiten Zug nur noch {n} − 1 Möglichkeiten."
+     },
+     {
+      "diagnoseId": "beide_rot",
+      "ausdruck": "rot*(rot-1)/(n*(n-1))",
+      "feedback": "Das ist die Wahrscheinlichkeit für zwei rote. Gefragt ist eine gemischte Ziehung."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie viele liegen beim zweiten Zug noch im Beutel?",
+   "Nur noch {n} − 1, und von der gezogenen Farbe eine weniger.",
+   "Entlang eines Astes multiplizieren, verschiedene Äste addieren."
+  ],
+  "loesungsweg": [
+   "Erster Zug rot: {rot} von {n}.",
+   "Zweiter Zug rot: {rot} − 1 von {n} − 1.",
+   "Beide rot: die beiden Brüche multiplizieren.",
+   "Gemischt: die zwei Äste rot-blau und blau-rot addieren."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-kennwerte",
+  "lernzielId": "MTG.7.06",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "7.06",
+   "7.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 13,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 26,
+    "bis": 40,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 41,
+    "bis": 60,
+    "schritt": 1
+   },
+   {
+    "name": "e",
+    "typ": "ganzzahl",
+    "von": 61,
+    "bis": 90,
+    "schritt": 1
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Ausleihen je Woche"
+     ],
+     [
+      "verkaufte Tickets"
+     ],
+     [
+      "Besucherinnen am Stand"
+     ],
+     [
+      "gefahrene Kilometer"
+     ],
+     [
+      "gesammelte Kilogramm"
+     ],
+     [
+      "Anmeldungen je Tag"
+     ],
+     [
+      "Punkte im Turnier"
+     ],
+     [
+      "gepflanzte Setzlinge"
+     ],
+     [
+      "Bestellungen je Tag"
+     ],
+     [
+      "Nachrichten je Tag"
+     ],
+     [
+      "Fundstücke"
+     ],
+     [
+      "Übernachtungen"
+     ]
+    ]
+   },
+   {
+    "name": "mittel",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d+e)/5"
+   },
+   {
+    "name": "median",
+    "typ": "formel",
+    "ausdruck": "c"
+   },
+   {
+    "name": "spanne",
+    "typ": "formel",
+    "ausdruck": "e-a"
+   }
+  ],
+  "bedingungen": [
+   "mittel!=median",
+   "spanne>20",
+   "mittel!=spanne",
+   "a!=b",
+   "d!=e",
+   "median!=spanne"
+  ],
+  "stamm": "{name} notiert an fünf Tagen die Zahl der {sache}: {a}, {b}, {c}, {d}, {e}.\n\nBerechne das arithmetische Mittel, den Zentralwert und die Spannweite.",
+  "felder": [
+   {
+    "name": "mittel",
+    "label": "arithmetisches Mittel",
+    "ausdruck": "(a+b+c+d+e)/5",
+    "fehler": [
+     {
+      "diagnoseId": "median_genommen",
+      "ausdruck": "c",
+      "feedback": "Das ist der Zentralwert, der mittlere Wert der geordneten Reihe. Das Mittel entsteht durch Summe geteilt durch Anzahl."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c+d+e",
+      "feedback": "Die Summe muss noch durch die Anzahl der Werte geteilt werden, hier durch 5."
+     },
+     {
+      "diagnoseId": "durch_vier",
+      "ausdruck": "(a+b+c+d+e)/4",
+      "feedback": "Es sind fünf Werte, also wird durch 5 geteilt."
+     }
+    ]
+   },
+   {
+    "name": "median",
+    "label": "Zentralwert",
+    "ausdruck": "c",
+    "fehler": [
+     {
+      "diagnoseId": "mittel_genommen",
+      "ausdruck": "(a+b+c+d+e)/5",
+      "feedback": "Das ist das arithmetische Mittel. Der Zentralwert ist der Wert, der in der geordneten Reihe in der Mitte steht."
+     },
+     {
+      "diagnoseId": "mitte_der_spanne",
+      "ausdruck": "(a+e)/2",
+      "feedback": "Der Zentralwert ist nicht die Mitte zwischen kleinstem und grösstem Wert, sondern der mittlere der fünf Werte."
+     },
+     {
+      "diagnoseId": "groesster",
+      "ausdruck": "e",
+      "feedback": "Das ist der grösste Wert. In der Mitte der geordneten Reihe steht der dritte."
+     }
+    ]
+   },
+   {
+    "name": "spanne",
+    "label": "Spannweite",
+    "ausdruck": "e-a",
+    "fehler": [
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+e",
+      "feedback": "Die Spannweite ist die Differenz zwischen grösstem und kleinstem Wert."
+     },
+     {
+      "diagnoseId": "mittelwert",
+      "ausdruck": "(a+b+c+d+e)/5",
+      "feedback": "Das ist das Mittel. Die Spannweite sagt, wie weit die Werte auseinanderliegen."
+     },
+     {
+      "diagnoseId": "median",
+      "ausdruck": "c",
+      "feedback": "Das ist der Zentralwert. Für die Spannweite zählen nur der kleinste und der grösste Wert."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Ordne die fünf Werte zuerst der Grösse nach.",
+   "Mittel: alle addieren, dann durch 5 teilen.",
+   "Zentralwert: der dritte der geordneten Werte. Spannweite: grösster minus kleinster."
+  ],
+  "loesungsweg": [
+   "Summe der fünf Werte, geteilt durch 5 ergibt {mittel}.",
+   "Geordnet steht {median} in der Mitte.",
+   "Spannweite: {e} − {a} = {spanne}.",
+   "Mittel und Zentralwert sind hier verschieden — das ist normal."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-flaeche-zusammengesetzt",
+  "lernzielId": "MTG.5.06",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "5.06",
+   "5.05"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 8,
+    "bis": 30,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 25,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 2,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "ort",
+    "typ": "text",
+    "texte": [
+     [
+      "ein Sitzplatz"
+     ],
+     [
+      "ein Werkraum"
+     ],
+     [
+      "ein Pausenhof"
+     ],
+     [
+      "ein Vorplatz"
+     ],
+     [
+      "ein Gartenstück"
+     ],
+     [
+      "eine Terrasse"
+     ],
+     [
+      "ein Zimmerboden"
+     ],
+     [
+      "ein Lagerraum"
+     ],
+     [
+      "ein Spielfeld"
+     ],
+     [
+      "ein Beetstück"
+     ],
+     [
+      "ein Kellerraum"
+     ],
+     [
+      "ein Estrichboden"
+     ]
+    ]
+   },
+   {
+    "name": "flaeche",
+    "typ": "formel",
+    "ausdruck": "a*b-c*d"
+   },
+   {
+    "name": "gross",
+    "typ": "formel",
+    "ausdruck": "a*b"
+   },
+   {
+    "name": "weg",
+    "typ": "formel",
+    "ausdruck": "c*d"
+   },
+   {
+    "name": "umfang",
+    "typ": "formel",
+    "ausdruck": "2*a+2*b"
+   }
+  ],
+  "bedingungen": [
+   "c<a",
+   "d<b",
+   "flaeche>40",
+   "weg>4",
+   "flaeche!=gross",
+   "a!=b",
+   "c!=d",
+   "flaeche!=umfang",
+   "weg!=umfang"
+  ],
+  "stamm": "Hinter dem Haus liegt {ort}: {a} m lang und {b} m breit. In einer Ecke ist ein rechteckiges Stück von {c} m mal {d} m ausgespart.\n\nBerechne die verbleibende Fläche und den Umfang des äusseren Rechtecks.",
+  "felder": [
+   {
+    "name": "flaeche",
+    "label": "Fläche in m²",
+    "ausdruck": "a*b-c*d",
+    "fehler": [
+     {
+      "diagnoseId": "aussparung_vergessen",
+      "ausdruck": "a*b",
+      "feedback": "Das ausgesparte Stück gehört nicht zur Fläche. Es wird abgezogen."
+     },
+     {
+      "diagnoseId": "addiert",
+      "ausdruck": "a*b+c*d",
+      "feedback": "Die Aussparung wird abgezogen, nicht dazugezählt."
+     },
+     {
+      "diagnoseId": "nur_aussparung",
+      "ausdruck": "c*d",
+      "feedback": "Das ist die Fläche der Aussparung selbst. Gefragt ist der Rest."
+     }
+    ]
+   },
+   {
+    "name": "umfang",
+    "label": "Umfang des äusseren Rechtecks in m",
+    "ausdruck": "2*a+2*b",
+    "fehler": [
+     {
+      "diagnoseId": "nur_zwei_seiten",
+      "ausdruck": "a+b",
+      "feedback": "Ein Rechteck hat vier Seiten: Länge und Breite kommen je zweimal vor."
+     },
+     {
+      "diagnoseId": "flaeche_genommen",
+      "ausdruck": "a*b",
+      "feedback": "Das ist eine Fläche in m². Der Umfang ist eine Länge und wird addiert, nicht multipliziert."
+     },
+     {
+      "diagnoseId": "mit_aussparung",
+      "ausdruck": "2*a+2*b-2*c-2*d",
+      "feedback": "Die Aussparung liegt in der Ecke; der äussere Umfang bleibt davon unberührt."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Wie gross wäre die Fläche ohne die Aussparung?",
+   "Zuerst {a} · {b} rechnen, dann das ausgesparte Rechteck abziehen.",
+   "Der Umfang zählt nur die vier Aussenseiten."
+  ],
+  "loesungsweg": [
+   "Ganzes Rechteck: {a} · {b} = {gross} m².",
+   "Aussparung: {c} · {d} = {weg} m².",
+   "Rest: {flaeche} m².",
+   "Umfang: 2 · {a} + 2 · {b} = {umfang} m."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-ansicht-faerben",
+  "lernzielId": "MTG.6.02",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.02",
+   "6.03"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "faerben",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "f1",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "f2",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "f3",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 3,
+    "schritt": 1
+   },
+   {
+    "name": "total",
+    "typ": "formel",
+    "ausdruck": "f1+f2+f3"
+   },
+   {
+    "name": "sollAnz",
+    "typ": "formel",
+    "ausdruck": "f1+f2+f3"
+   },
+   {
+    "name": "hoch",
+    "typ": "formel",
+    "ausdruck": "max(max(f1,f2),f3)"
+   }
+  ],
+  "bedingungen": [
+   "f1>=1",
+   "f2>=1",
+   "f3>=1",
+   "max(max(f1,f2),f3)==3",
+   "total<=8",
+   "total>=4",
+   "f1!=f2 || f2!=f3"
+  ],
+  "stamm": "{name} stellt Würfel in einer Reihe nebeneinander: links {f1}, in der Mitte {f2} und rechts {f3} übereinander.\n\nFärbe im Raster die Vorderansicht dieses Körpers.",
+  "loesung": "total",
+  "gegenprobe": "f1+(f2+f3)",
+  "fehler": [
+   {
+    "diagnoseId": "von_oben",
+    "ausdruck": "3",
+    "feedback": "Von vorne siehst du die Höhen der drei Stapel. Von oben sähest du nur drei Felder nebeneinander."
+   },
+   {
+    "diagnoseId": "alle_felder",
+    "ausdruck": "9",
+    "feedback": "Gefärbt wird nur, wo wirklich ein Würfel steht. Ein Stapel mit {f1} Würfeln füllt {f1} Felder, nicht drei."
+   },
+   {
+    "diagnoseId": "zu_wenig",
+    "ausdruck": "total-1",
+    "feedback": "Zähle die Würfel je Stapel noch einmal: {f1}, {f2} und {f3}."
+   }
+  ],
+  "hinweise": [
+   "Wie hoch ist jeder der drei Stapel?",
+   "Von vorne siehst du für jeden Stapel so viele Felder übereinander, wie er Würfel hat.",
+   "Die Stapel stehen auf dem Boden — gefärbt wird von unten nach oben."
+  ],
+  "loesungsweg": [
+   "Der linke Stapel ist {f1} Würfel hoch.",
+   "Der mittlere {f2}, der rechte {f3}.",
+   "Jeder Stapel füllt seine Spalte von unten nach oben.",
+   "Zusammen sind das {total} gefärbte Felder."
+  ],
+  "raster": {
+   "spalten": "3",
+   "zeilen": "3",
+   "zellen": [
+    {
+     "index": "0",
+     "bedingung": "f1>=3"
+    },
+    {
+     "index": "1",
+     "bedingung": "f2>=3"
+    },
+    {
+     "index": "2",
+     "bedingung": "f3>=3"
+    },
+    {
+     "index": "3",
+     "bedingung": "f1>=2"
+    },
+    {
+     "index": "4",
+     "bedingung": "f2>=2"
+    },
+    {
+     "index": "5",
+     "bedingung": "f3>=2"
+    },
+    {
+     "index": "6",
+     "bedingung": "1"
+    },
+    {
+     "index": "7",
+     "bedingung": "1"
+    },
+    {
+     "index": "8",
+     "bedingung": "1"
+    }
+   ]
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-wuerfel-kippen",
+  "lernzielId": "MTG.6.03",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "6.03",
+   "6.01"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "zuordnen",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "o",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "v",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "l",
+    "typ": "ganzzahl",
+    "von": 1,
+    "bis": 6,
+    "schritt": 1
+   },
+   {
+    "name": "u",
+    "typ": "formel",
+    "ausdruck": "7-o"
+   },
+   {
+    "name": "h",
+    "typ": "formel",
+    "ausdruck": "7-v"
+   },
+   {
+    "name": "r",
+    "typ": "formel",
+    "ausdruck": "7-l"
+   },
+   {
+    "name": "nO",
+    "typ": "formel",
+    "ausdruck": "7-l"
+   },
+   {
+    "name": "nU",
+    "typ": "formel",
+    "ausdruck": "l"
+   },
+   {
+    "name": "nL",
+    "typ": "formel",
+    "ausdruck": "o"
+   },
+   {
+    "name": "nR",
+    "typ": "formel",
+    "ausdruck": "7-o"
+   },
+   {
+    "name": "nV",
+    "typ": "formel",
+    "ausdruck": "v"
+   },
+   {
+    "name": "nH",
+    "typ": "formel",
+    "ausdruck": "7-v"
+   }
+  ],
+  "bedingungen": [
+   "o!=v",
+   "o!=l",
+   "v!=l",
+   "o!=7-v",
+   "o!=7-l",
+   "v!=7-l"
+  ],
+  "stamm": "{name} legt einen Spielwürfel so hin, dass oben die {o}, vorne die {v} und links die {l} zu sehen ist. Gegenüberliegende Flächen ergeben zusammen immer 7.\n\nKippe den Würfel einmal nach rechts und ordne jeder Augenzahl ihre neue Lage zu.",
+  "loesung": "nO",
+  "gegenprobe": "7-l",
+  "fehler": [
+   {
+    "diagnoseId": "nicht_gekippt",
+    "ausdruck": "o",
+    "feedback": "Beim Kippen nach rechts wandert die linke Fläche nach oben. Oben liegt danach nicht mehr die {o}."
+   },
+   {
+    "diagnoseId": "falsche_richtung",
+    "ausdruck": "l",
+    "feedback": "Beim Kippen nach rechts kommt die LINKE Fläche nach oben — nicht die rechte. Stell dir vor, du kippst eine Schachtel über ihre rechte Kante."
+   },
+   {
+    "diagnoseId": "vorne_bewegt",
+    "ausdruck": "v",
+    "feedback": "Beim Kippen nach rechts bleiben vorne und hinten, wo sie sind. Es drehen sich nur oben, rechts, unten und links."
+   }
+  ],
+  "hinweise": [
+   "Welche Flächen bewegen sich beim Kippen nach rechts?",
+   "Oben, rechts, unten und links wandern im Kreis. Vorne und hinten bleiben.",
+   "Die linke Fläche kommt nach oben, die obere nach rechts."
+  ],
+  "loesungsweg": [
+   "Gegenüberliegend zu {o} ist {u}, zu {v} ist {h}, zu {l} ist {r}.",
+   "Beim Kippen nach rechts: links wird oben, oben wird rechts.",
+   "Rechts wird unten, unten wird links.",
+   "Vorne bleibt {v}, hinten bleibt {h}."
+  ],
+  "zuordnen": {
+   "paare": [
+    {
+     "element": "{nO}",
+     "ziel": "oben"
+    },
+    {
+     "element": "{nU}",
+     "ziel": "unten"
+    },
+    {
+     "element": "{nV}",
+     "ziel": "vorne"
+    },
+    {
+     "element": "{nH}",
+     "ziel": "hinten"
+    },
+    {
+     "element": "{nL}",
+     "ziel": "links"
+    },
+    {
+     "element": "{nR}",
+     "ziel": "rechts"
+    }
+   ]
+  },
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ },
+ {
+  "templateId": "tg-ausreisser",
+  "lernzielId": "MTG.7.07",
+  "fach": "mathematik-tg",
+  "unterthemen": [
+   "7.07",
+   "7.06"
+  ],
+  "niveaus": [
+   "pruefungsniveau"
+  ],
+  "format": "mehrfeld",
+  "zahlformat": "dezimal2",
+  "variablen": [
+   {
+    "name": "name",
+    "typ": "text",
+    "texte": [
+     [
+      "Nina"
+     ],
+     [
+      "Timo"
+     ],
+     [
+      "Rea"
+     ],
+     [
+      "Jonas"
+     ],
+     [
+      "Noemi"
+     ],
+     [
+      "Elias"
+     ],
+     [
+      "Jill"
+     ],
+     [
+      "Loris"
+     ],
+     [
+      "Sara"
+     ],
+     [
+      "Milo"
+     ],
+     [
+      "Amira"
+     ],
+     [
+      "Levin"
+     ]
+    ]
+   },
+   {
+    "name": "a",
+    "typ": "ganzzahl",
+    "von": 4,
+    "bis": 12,
+    "schritt": 1
+   },
+   {
+    "name": "b",
+    "typ": "ganzzahl",
+    "von": 5,
+    "bis": 14,
+    "schritt": 1
+   },
+   {
+    "name": "c",
+    "typ": "ganzzahl",
+    "von": 6,
+    "bis": 16,
+    "schritt": 1
+   },
+   {
+    "name": "d",
+    "typ": "ganzzahl",
+    "von": 7,
+    "bis": 18,
+    "schritt": 1
+   },
+   {
+    "name": "gross",
+    "typ": "ganzzahl",
+    "von": 90,
+    "bis": 400,
+    "schritt": 10
+   },
+   {
+    "name": "sache",
+    "typ": "text",
+    "texte": [
+     [
+      "Minuten am Telefon"
+     ],
+     [
+      "gelaufene Kilometer"
+     ],
+     [
+      "gelesene Seiten"
+     ],
+     [
+      "verkaufte Lose"
+     ],
+     [
+      "gesammelte Flaschen"
+     ],
+     [
+      "gefahrene Kilometer"
+     ],
+     [
+      "besuchte Übungen"
+     ],
+     [
+      "gepflanzte Bäume"
+     ],
+     [
+      "geschriebene Nachrichten"
+     ],
+     [
+      "gesammelte Kilogramm"
+     ],
+     [
+      "gelöste Aufgaben"
+     ],
+     [
+      "gezählte Vögel"
+     ]
+    ]
+   },
+   {
+    "name": "mitAus",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d+gross)/5"
+   },
+   {
+    "name": "ohneAus",
+    "typ": "formel",
+    "ausdruck": "(a+b+c+d)/4"
+   }
+  ],
+  "bedingungen": [
+   "a<b",
+   "b<c",
+   "c<d",
+   "gross>d*4",
+   "mitAus!=ohneAus",
+   "d<20",
+   "mitAus!=gross",
+   "ohneAus!=a",
+   "ohneAus!=d"
+  ],
+  "stamm": "{name} notiert an fünf Tagen die {sache}: {a}, {b}, {c}, {d} und {gross}.\n\nBerechne das arithmetische Mittel aller fünf Werte und das Mittel ohne den Ausreisser.",
+  "felder": [
+   {
+    "name": "mitAus",
+    "label": "Mittel aller fünf Werte",
+    "ausdruck": "(a+b+c+d+gross)/5",
+    "fehler": [
+     {
+      "diagnoseId": "ohne_ausreisser",
+      "ausdruck": "(a+b+c+d)/4",
+      "feedback": "Hier sind alle fünf Werte gefragt, auch der Ausreisser {gross}."
+     },
+     {
+      "diagnoseId": "durch_vier",
+      "ausdruck": "(a+b+c+d+gross)/4",
+      "feedback": "Es sind fünf Werte, also wird durch 5 geteilt."
+     },
+     {
+      "diagnoseId": "summe",
+      "ausdruck": "a+b+c+d+gross",
+      "feedback": "Die Summe muss noch durch die Anzahl der Werte geteilt werden."
+     }
+    ]
+   },
+   {
+    "name": "ohneAus",
+    "label": "Mittel ohne den Ausreisser",
+    "ausdruck": "(a+b+c+d)/4",
+    "fehler": [
+     {
+      "diagnoseId": "mit_ausreisser",
+      "ausdruck": "(a+b+c+d+gross)/5",
+      "feedback": "Der Ausreisser {gross} liegt weit über allen anderen Werten und soll hier gerade weggelassen werden."
+     },
+     {
+      "diagnoseId": "durch_fuenf",
+      "ausdruck": "(a+b+c+d)/5",
+      "feedback": "Ohne den Ausreisser bleiben vier Werte übrig, also wird durch 4 geteilt."
+     },
+     {
+      "diagnoseId": "kleinsten_weggelassen",
+      "ausdruck": "(b+c+d+gross)/4",
+      "feedback": "Weggelassen wird der Wert, der weit heraussticht — das ist {gross}, nicht der kleinste."
+     }
+    ]
+   }
+  ],
+  "hinweise": [
+   "Welcher der fünf Werte fällt aus der Reihe?",
+   "{gross} ist um ein Vielfaches grösser als die anderen — das ist der Ausreisser.",
+   "Einmal mit allen fünf Werten rechnen, einmal nur mit den vier übrigen."
+  ],
+  "loesungsweg": [
+   "Alle fünf Werte addieren und durch 5 teilen: {mitAus}.",
+   "Der Ausreisser ist {gross}.",
+   "Die vier übrigen addieren und durch 4 teilen: {ohneAus}.",
+   "Ein einziger Ausreisser verschiebt das Mittel deutlich — der Zentralwert bliebe dagegen fast gleich."
+  ],
+  "schrauben": {
+   "schritte": 2,
+   "richtung": "vorwaerts"
+  },
+  "herkunft": {
+   "beziehung": "abgeleitet",
+   "quelle": "Broschüre «Wegweiser Mittelschulen Thurgau» 2026/27, Anforderungen und Prüfungsstoff, Prüfungsfach Mathematik, sowie die Aufgabentypen der Aufnahmeprüfungen der Kantonsschule Frauenfeld 2017-2026; Kontexte, Zahlen, Namen und Texte eigenentwickelt"
+  },
+  "status": "review"
+ }
+]
