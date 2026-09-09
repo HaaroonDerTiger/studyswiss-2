@@ -48,3 +48,6 @@ kantone/
 *.swp
 .idea/
 *.iml
+
+# Kotlin-Zwischenstand des Compilers
+.kotlin/
