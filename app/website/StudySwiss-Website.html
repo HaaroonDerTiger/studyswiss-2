@@ -4077,6 +4077,33 @@ const $$ = (w, wo = document) => Array.from(wo.querySelectorAll(w));
 /** Text, der aus Daten kommt, wird maskiert. Auf einer Website steht in
  *  einem Feld irgendwann `<script>` — spätestens dann, wenn jemand es
  *  darauf anlegt. */
+/* Die MWST-Zeile auf Rechner, Offerte, Bestellung und Rechnung.
+   ==================================================================
+   Sie steht an vier Stellen und darf darum nur an EINER entschieden
+   werden — §5.7: «Vier eigene Rechnungen liefen frueher oder spaeter
+   auseinander.»
+
+   Bei einem Satz von 0 faellt die Zeile ganz weg. Eine Zeile
+   «Mehrwertsteuer 0 % — Fr. 0.–» sieht aus wie ein Rechenfehler, und
+   auf einer Rechnung ohne Steuerpflicht hat ein ausgewiesener
+   Steuerbetrag ohnehin nichts verloren. Der Satz kommt vom Server
+   (`GET /v1/schule/preise`), nicht aus dieser Datei.                  */
+function mwstZeile(r, form) {
+  if (!r.mwstSatz) return '';
+  const satz = String(r.mwstSatz).replace('.', ',');
+  const betrag = franken(r.mwst);
+  if (form === 'dl') {
+    return `<div><dt>Mehrwertsteuer ${satz} %</dt>` +
+           `<dd class="zahl">${betrag}</dd></div>`;
+  }
+  if (form === 'tr2') {
+    return `<tr><td>Mehrwertsteuer ${satz} %</td>` +
+           `<td class="rechts stark zahl">${betrag}</td></tr>`;
+  }
+  return `<tr><td colspan="3" class="r">Mehrwertsteuer ${satz} %</td>` +
+         `<td class="r">${betrag}</td></tr>`;
+}
+
 function sicher(s) {
   return String(s ?? '').replace(/[&<>"']/g, c =>
     ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]);
@@ -4274,7 +4301,7 @@ const Fortschritt = {
 const PREISE_VORSCHAU = {
   herkunft: 'vorschau',
   waehrung: 'CHF',
-  mwstSatz: 8.1,           // Normalsatz seit 2024
+  mwstSatz: 0.0,           // StudySwiss weist keine MWST aus
   einzelpass: 129,         // zum Vergleich: was Eltern in der App zahlen
   /* Staffel je Lizenz und Schuljahr. `ab` ist die Anzahl, ab der die
      Stufe gilt — die Liste ist aufsteigend und lückenlos. */
@@ -5645,10 +5672,9 @@ function zeichne(n) {
     summe.innerHTML = `
       <div><dt>${zahl(r.anzahl)} Lizenzen à ${franken(r.einzelpreis)}</dt>
            <dd class="zahl">${franken(r.netto)}</dd></div>
-      <div><dt>Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</dt>
-           <dd class="zahl">${franken(r.mwst)}</dd></div>
+      ${mwstZeile(r, 'dl')}
       <div class="total"><dt>Total</dt><dd class="zahl">${franken(r.total)}</dd></div>
-      <div><dt class="sm">je Lizenz und Schuljahr, inkl. MwSt</dt>
+      <div><dt class="sm">je Lizenz und Schuljahr${r.mwstSatz ? ', inkl. MwSt' : ''}</dt>
            <dd class="sm zahl">${franken(r.proLizenz)}</dd></div>`;
   }
 
@@ -6058,8 +6084,7 @@ function positionen(b) {
       <tfoot>
         <tr><td colspan="3" class="r">Zwischensumme</td>
             <td class="r">${franken(r.zwischensumme)}</td></tr>
-        <tr><td colspan="3" class="r">Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</td>
-            <td class="r">${franken(r.mwst)}</td></tr>
+        ${mwstZeile(r, 'tr4')}
         <tr class="total"><td colspan="3" class="r">Total</td>
             <td class="r">${franken(r.total)}</td></tr>
       </tfoot>
@@ -6116,7 +6141,7 @@ function offertePapier(o) {
         zusammengefasste Kennzahlen. Einzelne Lernstände, Antworten und
         Aufsatztexte sind für die Schule nicht einsehbar.</p>
         <p class="grau" style="margin-top:14px">
-        ${sicher(anb.name)} · ${sicher(anb.uid)}</p>
+        ${sicher(anb.name)}${anb.uid ? ' · ' + sicher(anb.uid) : ''}</p>
       </div>
     </div>
   </article>`;
@@ -6149,7 +6174,7 @@ function rechnungPapier(r, schluessel) {
         <p>Die Zugänge sind bereits gültig. Bei Fragen zur Rechnung:
         ${sicher(anb.email)}.</p>
         <p class="grau" style="margin-top:14px">
-        ${sicher(anb.name)} · ${sicher(anb.uid)}</p>
+        ${sicher(anb.name)}${anb.uid ? ' · ' + sicher(anb.uid) : ''}</p>
       </div>
     </div>
     ${zahlteil(r, anb, empf, schluessel)}
@@ -6291,8 +6316,7 @@ async function schrittDaten() {
     $('#summeDaten').innerHTML = `
       <div><dt>${zahl(r.anzahl)} Lizenzen à ${franken(r.einzelpreis)}</dt>
            <dd class="zahl">${franken(r.netto)}</dd></div>
-      <div><dt>MwSt ${String(r.mwstSatz).replace('.', ',')} %</dt>
-           <dd class="zahl">${franken(r.mwst)}</dd></div>
+      ${mwstZeile(r, 'dl')}
       <div class="total"><dt>Total</dt><dd class="zahl">${franken(r.total)}</dd></div>`;
   };
   anzahl.addEventListener('input', nach);
@@ -6370,8 +6394,7 @@ async function zeichneBestellung() {
             <td class="rechts stark zahl">${franken(r.einzelpreis)}</td></tr>
         <tr><td>Laufzeit</td><td class="rechts stark">${sicher(datum(start, true))} –
             ${sicher(datum(schuljahrEnde(start), true))}</td></tr>
-        <tr><td>Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</td>
-            <td class="rechts stark zahl">${franken(r.mwst)}</td></tr>
+        ${mwstZeile(r, 'tr2')}
       </tbody>
       <tfoot><tr class="total"><td>Total</td>
         <td class="rechts zahl">${franken(r.total)}</td></tr></tfoot>

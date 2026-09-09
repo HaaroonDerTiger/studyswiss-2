@@ -52,10 +52,9 @@ function zeichne(n) {
     summe.innerHTML = `
       <div><dt>${zahl(r.anzahl)} Lizenzen à ${franken(r.einzelpreis)}</dt>
            <dd class="zahl">${franken(r.netto)}</dd></div>
-      <div><dt>Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</dt>
-           <dd class="zahl">${franken(r.mwst)}</dd></div>
+      ${mwstZeile(r, 'dl')}
       <div class="total"><dt>Total</dt><dd class="zahl">${franken(r.total)}</dd></div>
-      <div><dt class="sm">je Lizenz und Schuljahr, inkl. MwSt</dt>
+      <div><dt class="sm">je Lizenz und Schuljahr${r.mwstSatz ? ', inkl. MwSt' : ''}</dt>
            <dd class="sm zahl">${franken(r.proLizenz)}</dd></div>`;
   }
 

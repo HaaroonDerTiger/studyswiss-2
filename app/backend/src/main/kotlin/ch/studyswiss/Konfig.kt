@@ -68,7 +68,20 @@ data class Konfig(
     val rechnungEmail: String = env("RECHNUNG_EMAIL") ?: "rechnungen@studyswiss.ch",
     /** QR-IBAN (Format CHxx 3xxxx ...) fuer Zahlungen mit QR-Referenz. */
     val rechnungIban: String = env("RECHNUNG_IBAN") ?: "",
-    val mwstSatz: Double = env("MWST_SATZ")?.toDoubleOrNull() ?: 8.1,
+    /**
+     * Der Mehrwertsteuersatz in Prozent.
+     *
+     * Hier stand der Normalsatz 8.1 als Vorgabe, und §10 fuehrte als offenen
+     * Punkt, ob digitale Lernmittel ueberhaupt steuerpflichtig sind. Der
+     * Entscheid ist gefallen: **fuer StudySwiss ist er 0.** Die Vorgabe steht
+     * darum auf 0 und nicht mehr auf 8.1 — wer `MWST_SATZ` zu setzen vergisst,
+     * soll keine Steuer auf einer Rechnung ausweisen, die gar nicht geschuldet
+     * ist. Der umgekehrte Fehler waere der teurere.
+     *
+     * Bei 0 wird auf Offerte, Bestellung und Rechnung **keine** MWST-Zeile
+     * gezeigt (siehe `beleg.js`, `bestellen.js`, `rechner.js`).
+     */
+    val mwstSatz: Double = env("MWST_SATZ")?.toDoubleOrNull() ?: 0.0,
     val zahlungsfristTage: Int = env("ZAHLUNGSFRIST_TAGE")?.toIntOrNull() ?: 30,
 ) {
     init {

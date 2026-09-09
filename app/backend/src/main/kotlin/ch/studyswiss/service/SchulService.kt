@@ -505,7 +505,12 @@ class SchulService(private val konfig: Konfig) {
             zusatz = konfig.rechnungZusatz.ifBlank { "[Firma und Rechtsform]" },
             strasse = oder(konfig.rechnungStrasse, "[Strasse und Nummer]"),
             plzOrt = oder("${konfig.rechnungPlz} ${konfig.rechnungOrt}".trim(), "[PLZ Ort]"),
-            uid = oder(konfig.rechnungUid, "[CHE-000.000.000 MWST]"),
+            // Ohne MWST-Pflicht gibt es keine MWST-Nummer. Der Platzhalter
+            // «[CHE-000.000.000 MWST]» auf einer Rechnung, die gar keine
+            // Steuer ausweist, behauptet eine Registrierung, die es nicht
+            // gibt — schlimmer als eine fehlende Zeile.
+            uid = if (konfig.mwstSatz == 0.0) konfig.rechnungUid
+                  else oder(konfig.rechnungUid, "[CHE-000.000.000 MWST]"),
             iban = oder(konfig.rechnungIban, "[CH00 0000 0000 0000 0000 0]"),
             email = konfig.rechnungEmail,
         )

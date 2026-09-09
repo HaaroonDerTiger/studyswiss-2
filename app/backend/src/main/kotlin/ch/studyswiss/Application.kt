@@ -16,6 +16,7 @@ import io.ktor.server.auth.*
 import io.ktor.server.auth.jwt.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
+import io.ktor.server.plugins.BadRequestException
 import io.ktor.server.plugins.calllogging.*
 import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.server.plugins.cors.routing.*
@@ -108,6 +109,28 @@ fun Application.modul(konfig: Konfig) {
 
     // Fehler gehen nach RFC 9457 hinaus, mit deutschsprachigem `detail`.
     install(StatusPages) {
+        // Ein fehlerhafter Anfragekoerper ist ein Fehler des Aufrufers, kein
+        // Serverfehler. Ohne diesen Zweig fing der Throwable-Fall unten alles
+        // ab: Eine Offerte mit einem fehlenden Feld bekam 500 und den Satz
+        // «Dein Fortschritt ist gespeichert» — vor einer Schulsekretaerin,
+        // die gar keinen Fortschritt hat, und ohne zu sagen, was fehlt.
+        exception<BadRequestException> { call, e ->
+            // §4.10 verlangt ein deutschsprachiges `detail`. Die Meldung des
+            // Serialisierers ist englisch und technisch («Fields [...] are
+            // required for type with serial name ...») — sie nennt aber die
+            // fehlenden Felder, und die sind das einzig Nuetzliche daran.
+            val roh = e.cause?.message ?: e.message ?: ""
+            val fehlend = Regex("""Fields \[([^\]]+)] are required""")
+                .find(roh)?.groupValues?.get(1)
+            call.respond(
+                HttpStatusCode.BadRequest,
+                Problem(
+                    "about:blank", "Die Anfrage ist unvollständig", 400,
+                    if (fehlend != null) "Diese Angaben fehlen: $fehlend."
+                    else "Bitte prüfe die Angaben.",
+                ),
+            )
+        }
         exception<Throwable> { call, e ->
             log.error("Unerwarteter Fehler", e)
             call.respond(

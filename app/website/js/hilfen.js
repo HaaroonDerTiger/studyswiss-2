@@ -73,6 +73,33 @@ const $$ = (w, wo = document) => Array.from(wo.querySelectorAll(w));
 /** Text, der aus Daten kommt, wird maskiert. Auf einer Website steht in
  *  einem Feld irgendwann `<script>` — spätestens dann, wenn jemand es
  *  darauf anlegt. */
+/* Die MWST-Zeile auf Rechner, Offerte, Bestellung und Rechnung.
+   ==================================================================
+   Sie steht an vier Stellen und darf darum nur an EINER entschieden
+   werden — §5.7: «Vier eigene Rechnungen liefen frueher oder spaeter
+   auseinander.»
+
+   Bei einem Satz von 0 faellt die Zeile ganz weg. Eine Zeile
+   «Mehrwertsteuer 0 % — Fr. 0.–» sieht aus wie ein Rechenfehler, und
+   auf einer Rechnung ohne Steuerpflicht hat ein ausgewiesener
+   Steuerbetrag ohnehin nichts verloren. Der Satz kommt vom Server
+   (`GET /v1/schule/preise`), nicht aus dieser Datei.                  */
+function mwstZeile(r, form) {
+  if (!r.mwstSatz) return '';
+  const satz = String(r.mwstSatz).replace('.', ',');
+  const betrag = franken(r.mwst);
+  if (form === 'dl') {
+    return `<div><dt>Mehrwertsteuer ${satz} %</dt>` +
+           `<dd class="zahl">${betrag}</dd></div>`;
+  }
+  if (form === 'tr2') {
+    return `<tr><td>Mehrwertsteuer ${satz} %</td>` +
+           `<td class="rechts stark zahl">${betrag}</td></tr>`;
+  }
+  return `<tr><td colspan="3" class="r">Mehrwertsteuer ${satz} %</td>` +
+         `<td class="r">${betrag}</td></tr>`;
+}
+
 function sicher(s) {
   return String(s ?? '').replace(/[&<>"']/g, c =>
     ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]);

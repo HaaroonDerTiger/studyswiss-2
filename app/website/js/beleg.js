@@ -65,8 +65,7 @@ function positionen(b) {
       <tfoot>
         <tr><td colspan="3" class="r">Zwischensumme</td>
             <td class="r">${franken(r.zwischensumme)}</td></tr>
-        <tr><td colspan="3" class="r">Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</td>
-            <td class="r">${franken(r.mwst)}</td></tr>
+        ${mwstZeile(r, 'tr4')}
         <tr class="total"><td colspan="3" class="r">Total</td>
             <td class="r">${franken(r.total)}</td></tr>
       </tfoot>
@@ -123,7 +122,7 @@ function offertePapier(o) {
         zusammengefasste Kennzahlen. Einzelne Lernstände, Antworten und
         Aufsatztexte sind für die Schule nicht einsehbar.</p>
         <p class="grau" style="margin-top:14px">
-        ${sicher(anb.name)} · ${sicher(anb.uid)}</p>
+        ${sicher(anb.name)}${anb.uid ? ' · ' + sicher(anb.uid) : ''}</p>
       </div>
     </div>
   </article>`;
@@ -156,7 +155,7 @@ function rechnungPapier(r, schluessel) {
         <p>Die Zugänge sind bereits gültig. Bei Fragen zur Rechnung:
         ${sicher(anb.email)}.</p>
         <p class="grau" style="margin-top:14px">
-        ${sicher(anb.name)} · ${sicher(anb.uid)}</p>
+        ${sicher(anb.name)}${anb.uid ? ' · ' + sicher(anb.uid) : ''}</p>
       </div>
     </div>
     ${zahlteil(r, anb, empf, schluessel)}

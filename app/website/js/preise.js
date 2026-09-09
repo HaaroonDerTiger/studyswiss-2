@@ -13,7 +13,7 @@
 const PREISE_VORSCHAU = {
   herkunft: 'vorschau',
   waehrung: 'CHF',
-  mwstSatz: 8.1,           // Normalsatz seit 2024
+  mwstSatz: 0.0,           // StudySwiss weist keine MWST aus
   einzelpass: 129,         // zum Vergleich: was Eltern in der App zahlen
   /* Staffel je Lizenz und Schuljahr. `ab` ist die Anzahl, ab der die
      Stufe gilt — die Liste ist aufsteigend und lückenlos. */

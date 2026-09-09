@@ -68,8 +68,7 @@ async function schrittDaten() {
     $('#summeDaten').innerHTML = `
       <div><dt>${zahl(r.anzahl)} Lizenzen à ${franken(r.einzelpreis)}</dt>
            <dd class="zahl">${franken(r.netto)}</dd></div>
-      <div><dt>MwSt ${String(r.mwstSatz).replace('.', ',')} %</dt>
-           <dd class="zahl">${franken(r.mwst)}</dd></div>
+      ${mwstZeile(r, 'dl')}
       <div class="total"><dt>Total</dt><dd class="zahl">${franken(r.total)}</dd></div>`;
   };
   anzahl.addEventListener('input', nach);
@@ -147,8 +146,7 @@ async function zeichneBestellung() {
             <td class="rechts stark zahl">${franken(r.einzelpreis)}</td></tr>
         <tr><td>Laufzeit</td><td class="rechts stark">${sicher(datum(start, true))} –
             ${sicher(datum(schuljahrEnde(start), true))}</td></tr>
-        <tr><td>Mehrwertsteuer ${String(r.mwstSatz).replace('.', ',')} %</td>
-            <td class="rechts stark zahl">${franken(r.mwst)}</td></tr>
+        ${mwstZeile(r, 'tr2')}
       </tbody>
       <tfoot><tr class="total"><td>Total</td>
         <td class="rechts zahl">${franken(r.total)}</td></tr></tfoot>
